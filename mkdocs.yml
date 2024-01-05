@@ -51,5 +51,5 @@ site_name: RevenueHunt Documentation
 #       emoji_index: !!python/name:material.extensions.emoji.twemoji
 #       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-copyright: |
-  &copy; 2024 <a href="https://github.com/RevenueHunt"  target="_blank" rel="noopener">RevenueHunt</a>
+# copyright: |
+#   &copy; 2024 <a href="https://github.com/RevenueHunt"  target="_blank" rel="noopener">RevenueHunt</a>
