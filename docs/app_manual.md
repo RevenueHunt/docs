@@ -10,7 +10,7 @@ On the dahsbaord you'll find all the quizzes that you create.
 
 ![dashboard](images/manual_dashboard.png)
 
-
+Shopify Side Menu
 
 ![dashboard side menu](images/manual_sidemenu.png)
 
@@ -29,11 +29,13 @@ On the dahsbaord you'll find all the quizzes that you create.
 
 ![dashboard notifications bar](images/manual_notifications.png)
 
-Click **view all** to see archived notifications.
+**view all** - Opens a list of archived notifications.
 
-Click "x" to archive a notification.
+**"x"** - Archives a notification.
 
 ### MY QUIZZES
+
+![dashboard tutorial quiz](images/manual_tutorial_quiz.png)
 
 **Tutorial Quiz (copy)** - A deafault quiz that explains how to use various app functions.
 
@@ -43,38 +45,45 @@ Click "x" to archive a notification.
 
 ![dashboard quiz menu](images/manual_dots_menu.png)
 
-- **Edit**
+- **Edit** - Opens the [Quiz Builder]().
 
-- **Connect**
+- **Connect** - Opens the [Connect tab]() within the Quiz Builder.
 
-- **Share**
+- **Share** - Opens the [Share tab]() within the Quiz Builder.
 
-- **Metrics**
+- **Metrics** - Opens the [Metrics tab]() within the Quiz Builder.
 
-- **Preview**
+- **Preview** - Opens the Quiz Preview.
 
-- **Publish**
+- **Publish** - Publish quiz changes to the Preview/Live Quiz. (If you have not yet added the quiz to your website as a link or an embed, clicking "Publish" will simply update the preview.)
 
-- **Make a copy**
+- **Make a copy** - Create a copy of this quiz on the dashboard.
 
-- **Export Responses as CSV**
+- **Export Responses as CSV** - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashbaord to download the CSV report. The link is valid for two hours.
 
-- **Version History**
+- **Version History** - Open the [Version History tab]() in Quiz Builder > Quiz Settings.
 
-- **Copy quiz ID: xxx**
+- **Copy quiz ID: xxx** - Copy the quiz ID of the current quiz.
 
-- **Set as Default Quiz**
+- **Set as Default Quiz** - Set as a default quiz to be displayed in the Shop App.
 
-- **Delete**
+- **Delete** - Delete the quiz.
 
+![dashboard quiz performance](images/manual_dashboard_performance_overview.png)
 
-**Quiz Performance Overview** - Detailed breakdown of your quizzes performance during the past 30 days 
+**Quiz Performance Overview** - Highlights your quizzes performance during in the last 30 days 
 
-**show breakdown** vs **show overview**
+**show overview** - Shows an overview of the quizzes metrics in the last 30 days.
+
+**show breakdown** - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
 
 ### Tips & Tricks
 
-Click **view all** to see archived notifications.
+Displays useful tips and tricks for building a better quiz.
+
+![dashboard tips](images/manual_dashboard_tips.png)
+
+**view all** - Opens archived tips.
 
 ### Success Checklist
 
