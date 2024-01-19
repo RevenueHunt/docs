@@ -28,4 +28,5 @@ jobs:
       - run: pip install mkdocs-material
       - run: mkdocs build
       - run: cp CNAME site/
+      - run: cp CNAME docs/
       - run: mkdocs gh-deploy --force
