@@ -8,19 +8,24 @@ This is an app manual. You'll find here an explanation on all buttons and functi
 
 On the dahsbaord you'll find all the quizzes that you create.
 
-### Top Bar
+**You're currently on our *Free* monthly Plan** - Indicates what pricing plan you're currently on.
 
-**You're currently on our *Free* monthly Plan** Indicates what pricing plan you're currently on.
-**plans & pricing** You'll be taken to the plans & pricing page (https://admin.revenuehunt.com/plans)
-**settings** (clog icon) Opens the app settings menu.
-**? Help** Displays a list of app help tools. 
-    **Frequently Asked Questions** Takes you to the app FAQ page (https://revenuehunt.com/faqs/).
-    **Video Tutorials** Takes you to the video tutorials page (https://revenuehunt.com/faqs/tutorial-videos/).
-    **App Status & Uptime** Takes you to a webpage that informs you of the app status (https://status.revenuehunt.com/).
-    **Plans & Pricing** Takes you to the pricing FAQ page (https://revenuehunt.com/faqs/plans-pricing-faq/).
-    **Contact Support** Takes you to a support page (https://revenuehunt.com/contact/).
+**plans & pricing** - You'll be taken to the [Plans & Pricing tab](#plans--pricing) (in-app URL (https://admin.revenuehunt.com/plans))
+
+**settings** - (clog icon) Opens the app settings menu.
+
+**? Help** - Displays a list of app help tools. 
+
+    - **Frequently Asked Questions** Takes you to the app FAQ page (https://revenuehunt.com/faqs/).
+    - **Video Tutorials** Takes you to the video tutorials page (https://revenuehunt.com/faqs/tutorial-videos/).
+    - **App Status & Uptime** Takes you to a webpage that informs you of the app status (https://status.revenuehunt.com/).
+    - **Plans & Pricing** Takes you to the pricing FAQ page (https://revenuehunt.com/faqs/plans-pricing-faq/).
+    - **Contact Support** Takes you to a support page (https://revenuehunt.com/contact/).
 
 ### Notifications
+
+![dashboard notifications bar](images/manual_notifications.png)
+
 Click **view all** to see archived notifications.
 
 ### MY QUIZZES
