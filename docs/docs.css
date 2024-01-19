@@ -5,4 +5,18 @@
 .md-nav__link {
     text-transform: capitalize; 
 }
-   
+
+.md-copyright > :nth-child(2) {
+    display: none;
+}
+
+/* Hide the entire content */
+.md-copyright {
+    color: #212121;
+    visibility: hidden;
+}
+
+/* Show only the first child (assuming it's the part you want to keep) */
+.md-copyright > :first-child, .md-copyright #text {
+    visibility: visible;
+}
