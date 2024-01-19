@@ -1,6 +1,6 @@
 # Docs
 
-## Getting Started
+## Getting Starteddd
 
 - `mkdocs new [dir-name]` - Create a new project.
 - `mkdocs serve` - Start the live-reloading docs server.
@@ -20,9 +20,7 @@ Here's what other people are finding most helpful right now:
 
 [How To Install the App](how_to_guides.md#how-to-install-the-app)
 
-
 ## Contact Support
 
 Still looking for an answer?
 Feel free to [contact support](https://revenuehunt.com/contact/).
-
