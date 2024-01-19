@@ -36,17 +36,22 @@ theme:
       primary: #B7CBFF
       accent: #CBDAFF
 nav:
-  - FAQs: index.md
+  - Docs:
+    - Docs: index.md
+    - Tutorials: tutorials/index.md
+    - How-to Guides: how-to-guides/index.md
+    - Reference: reference/index.md
+    - Customer Success: customer-success/index.md
   - Tutorials:
     - First Tutorial: tutorials/index.md
     - Second Tutorial: tutorials/index.md
     - Third Tutorial: tutorials/index.md
     - How-to Guides:
       - How-to Guides: how-to-guides/index.md
-    - Customer Success:
-      - Customer Success: customer-success/index.md
     - Reference:
       - Reference: reference/index.md
+    - Customer Success:
+      - Customer Success: customer-success/index.md
   - How-to Guides: how-to-guides/index.md
   - Reference:
     - First reference: reference/index.md
