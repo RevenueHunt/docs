@@ -2,17 +2,17 @@ site_name: RevenueHunt Documentation
 theme:
   name: material
   features:
-    - navigation.top
+    # - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.footer
+    # - navigation.footer
     - navigation.sections
-    - navigation.tracking
+    # - navigation.tracking
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.expand
-    - navigation.indexes
+    - navigation.indexes # group nav
     - navigation.path
     - search.suggest
     - search.highlight
@@ -20,8 +20,7 @@ theme:
     - content.code.annotation
     - content.code.copy
     - toc.follow
-    - toc.nested
-    - toc.integrate
+    # - toc.integrate
   language: en
   palette:
     - scheme: default
@@ -36,6 +35,26 @@ theme:
         name: Switch to light mode
       primary: #B7CBFF
       accent: #CBDAFF
+nav:
+  - Tutorials:
+    - First Tutorial: tutorials/index.md
+    - Second Tutorial: tutorials/index.md
+    - Third Tutorial: tutorials/index.md
+    - Customer Success:
+      - Customer Success: customer-success/index.md
+    - References:
+      - Reference: reference/index.md
+    - How to Guides:
+      - How to Guides: how-to-guides/index.md
+  - Customer Success:
+    - Example 1: customer-success/index.md
+    - Example 2: customer-success/index.md
+    - Example 3: customer-success/index.md
+  - How to Guides: how-to-guides/index.md
+  - References:
+    - First reference: reference/index.md
+    - Second reference: reference/index.md
+    - Third reference: reference/index.md
 
 # plugins:
 #   - social
