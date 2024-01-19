@@ -18,7 +18,7 @@
 
 Here's what other people are finding most helpful right now:
 
-
+[How To Install the App](how_to_guides.md#how-to-install-the-app)
 
 
 ## Contact Support
