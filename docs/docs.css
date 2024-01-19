@@ -1,10 +1,10 @@
-.md-tabs__link {
+/* .md-tabs__link {
     text-transform: uppercase;
-}
+} */
 
-.md-nav__link {
+/* .md-nav__link {
     text-transform: capitalize; 
-}
+} */
 
 .md-copyright > :nth-child(2) {
     display: none;

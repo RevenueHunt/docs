@@ -1,4 +1,4 @@
-# How-To Guides
+# How-to Guides
 
 Follow step by step instructions
 
