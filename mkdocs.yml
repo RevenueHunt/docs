@@ -12,6 +12,7 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.expand
+    - navigation.indexes
     - navigation.path
     - search.suggest
     - search.highlight
@@ -20,6 +21,7 @@ theme:
     - content.code.copy
     - toc.follow
     - toc.nested
+    - toc.integrate
   language: en
   palette:
     - scheme: default
@@ -42,6 +44,9 @@ theme:
 #   social:
 #     - icon: fontawesome/brands/github-alt
 #       link: https://github.com/RevenueHunt
+
+extra_css:
+  - docs.css
 
 markdown_extensions:
   - toc:

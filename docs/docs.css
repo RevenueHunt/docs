@@ -1,0 +1,8 @@
+.md-tabs__link {
+    text-transform: uppercase;
+}
+
+.md-nav__link {
+    text-transform: capitalize; 
+}
+   
