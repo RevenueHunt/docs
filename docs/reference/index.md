@@ -8,17 +8,17 @@ This is an app manual. You'll find here an explanation on all buttons and functi
 
 On the dahsbaord you'll find all the quizzes that you create.
 
-![dashboard](images/manual_dashboard.png)
+![dashboard](/images/manual_dashboard.png)
 
 Shopify Side Menu
 
-![dashboard side menu](images/manual_sidemenu.png)
+![dashboard side menu](/images/manual_sidemenu.png)
 
 **Plans & Pricing** - Opens the [Plans & Pricing tab](#plans--pricing) (in-app URL (https://admin.revenuehunt.com/plans))
 
 **App Settings** - Opens the [App Settings](#app-settings) menu.
 
-![dashboard top menu](images/manual_dashboard_topmenu.png)
+![dashboard top menu](/images/manual_dashboard_topmenu.png)
 
 **Help** - Opens the [Success Checklist](#success-checklist).
 
@@ -27,7 +27,7 @@ Shopify Side Menu
 
 ### Notifications
 
-![dashboard notifications bar](images/manual_notifications.png)
+![dashboard notifications bar](/images/manual_notifications.png)
 
 **view all** - Opens a list of archived notifications.
 
@@ -35,7 +35,7 @@ Shopify Side Menu
 
 ### MY QUIZZES
 
-![dashboard tutorial quiz](images/manual_tutorial_quiz.png)
+![dashboard tutorial quiz](/images/manual_tutorial_quiz.png)
 
 **Tutorial Quiz (copy)** - A deafault quiz that explains how to use various app functions.
 
@@ -43,7 +43,7 @@ Shopify Side Menu
 
 **...** - Opens quiz managment options.
 
-![dashboard quiz menu](images/manual_dots_menu.png)
+![dashboard quiz menu](/images/manual_dots_menu.png)
 
 - **Edit** - Opens the [Quiz Builder]().
 
@@ -69,7 +69,7 @@ Shopify Side Menu
 
 - **Delete** - Delete the quiz.
 
-![dashboard quiz performance](images/manual_dashboard_performance_overview.png)
+![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
 
 **Quiz Performance Overview** - Highlights your quizzes performance during in the last 30 days 
 
@@ -81,7 +81,7 @@ Shopify Side Menu
 
 Displays useful tips and tricks for building a better quiz.
 
-![dashboard tips](images/manual_dashboard_tips.png)
+![dashboard tips](/images/manual_dashboard_tips.png)
 
 **view all** - Opens archived tips.
 
