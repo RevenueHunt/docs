@@ -2,7 +2,7 @@
 
 In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
 
-You’ll learn:
+**You’ll learn:**
 
 - how to build a quiz from scratch
 - different question types and how to use them
@@ -15,5 +15,5 @@ You’ll learn:
 - How to publish the quiz
 
 <div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/2unJqe-viNU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/gXht4-d-k-k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
