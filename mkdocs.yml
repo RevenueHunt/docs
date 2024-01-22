@@ -43,21 +43,18 @@ nav:
     - Reference: reference/index.md
     - Customer Success: customer-success/index.md
   - Tutorials:
-    - First Tutorial: tutorials/index.md
-    - Second Tutorial: tutorials/index.md
-    - Third Tutorial: tutorials/index.md
-    - How-to Guides:
-      - How-to Guides: how-to-guides/index.md
-    - Reference:
-      - Reference: reference/index.md
-    - Customer Success:
-      - Customer Success: customer-success/index.md
+    - Tutorials: tutorials/index.md
+    - Getting Started: tutorials/getting-started.md
+    - Making your First Quiz: tutorials/making-first-quiz.md
+    - Recommending a Skincare Routine: tutorials/skincare-routine.md
   - How-to Guides: how-to-guides/index.md
   - Reference:
+    - Reference: reference/index.md
     - First reference: reference/index.md
     - Second reference: reference/index.md
     - Third reference: reference/index.md
   - Customer Success:
+    - Customer Success: customer-success/index.md
     - Example 1: customer-success/index.md
     - Example 2: customer-success/index.md
     - Example 3: customer-success/index.md
