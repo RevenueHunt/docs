@@ -299,7 +299,7 @@ Be careful when using exclusions. Once a collection of products is excluded from
 
 ### Link Products
 
-![quiz builder link products](docs\images\manual_quizbuilder_linkproducts.png)
+![quiz builder link products](/images/manual_quizbuilder_linkproducts.png)
 
 In the Link Products tab you can link individual product varaints from your store to choices.
 
@@ -307,17 +307,17 @@ Once a product variant is linked to a choice and the customer picks that choice,
 
 To link a product to a choice click on the white dropdown bar and start typing the name.
 
-![quiz builder link products search](docs\images\manual_quizbuilder_linkproducts_search.png)
+![quiz builder link products search](/images/manual_quizbuilder_linkproducts_search.png)
 
 Select a product varaint and it will be automatically added to the choice. 
 
 You can link multiple product variants to the same choice.
 
-![quiz builder link products linked products](docs\images\manual_quizbuilder_linkproducts_linked.png)
+![quiz builder link products linked products](/images/manual_quizbuilder_linkproducts_linked.png)
 
 **excluded collections** - Opens the dropdown which allows to exclude products of products from a choice. 
 
-![quiz builder link products exclude](docs\images\manual_quizbuilder_linkproducts_exclude.png)
+![quiz builder link products exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
 
 Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if they was upvoted in another choice earlier/later.
 
