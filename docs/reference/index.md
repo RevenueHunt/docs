@@ -149,11 +149,17 @@ To open the Success Checklist click on the any of the ❓❗✅ 🔄 icons.
 
 ## Plans & Pricing
 
+![plans & pricing page](/images/manual_plans_pricing.png)
+
 **Your quizzes received *1,049* responses during the past 30 days** Indicates your quiz engagment in the last 30 days.
 
-**view larger plans** Takes you to a page with a list of larger plans offered in the app.
+**view larger plans** - Opens a list of larger plans offered in the app.
 
-**Get Basic/Pro** Upgrade your plan to Basic/Pro.
+**Pricing FAQs** - Opens the [Plans & Pricing FAQ]() page.
+
+**check out this FAQs article** - Opens the [Plans & Pricing FAQ]() page.
+
+**Get Basic/Pro** - Click to upgrade your plan to Basic/Pro. After clicking you'll be taken to the Shopify payment page to approve the subscription.
 
 ## App Settings
 
