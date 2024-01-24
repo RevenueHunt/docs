@@ -37,7 +37,7 @@ Shopify Side Menu
 
 ![dashboard tutorial quiz](/images/manual_tutorial_quiz.png)
 
-**Tutorial Quiz (copy)** - A deafault quiz that explains how to use various app functions.
+**Tutorial Quiz (copy)** - A deafault quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](#quiz-builder).
 
 **0 leads** - Indicates the total number of quiz responses the quiz recieved.
 
@@ -109,7 +109,7 @@ To open the Success Checklist click on the any of the ❓❗✅ 🔄 icons.
 
 **start with an empty quiz** - Chose this is you want to start with an empty quiz. Once clicked, a popup will show asking you to name the quiz (the name can be changed later in [Quiz Settings]()).
 
-![new quiz empty add name](/images/manual_addname.png)
+![new quiz empty add name](/images/manual_newquiz_addname.png)
 
 **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another]() for detailed instructions.
 
@@ -123,7 +123,150 @@ To open the Success Checklist click on the any of the ❓❗✅ 🔄 icons.
 
 ## Quiz Builder
 
+![quiz builder](/images/manual_quizbuilder.png)
+
+The Quiz Builder is divided into several sections.
+
+**Dashbaord** - Click to go back to the Dashbaord (exit the Quiz Builder).
+
+**Demo Quiz** - Displays the quiz name. Quiz name can be changed in [Quiz Settings]().
+
+![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
+
+The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
+
+![quiz builder top menu](/images/manual_quizbuilder_topmenu.png)
+
+**Preview** - Opens the quiz preview in a new tab.
+
+**Edit** - Opens the [Quiz Builder]() section of the Quiz Builder.
+
+**Connect** - Opens the [Connect]() section fo the Quiz Builder.
+
+**Share** - Opens the [Share]() section of the Quiz Builder.
+
+**Metrics** - Opens the [Metrics]() section of the Quiz Builder.
+
+**Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+
+![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png)
+
+**Quiz Builder** - Opens the [Quiz Builder]() section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+
+**Link Collections** - Opens the [Link Collections]() section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+
+**Link Products** - Opens the [Link Products]() section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+
+**Customer Tags** - Opens the [Customer Tags]() section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+
+**Conditional Logic** - Opens the [Conditional Logic]() section of the Quiz Builder. This is where you'll create branching in your quiz.
+
+**Quiz Design** - Opens the [Quiz Design]() section of the Quiz Builder. This is where you'll style your quiz.
+
+**Results Page** - Opens the [Results Page]() section of the Quiz Builder. This is where you'll edit your resutls page.
+
+**Notifications** - Opens the [Notifications]() section of the Quiz Builder. This is where you'll set up your quiz result emails.
+
+**Quiz Settings** - Opens the [Quiz Settings]() section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+
 ### Quiz Builder
+
+Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Preview** in the top menu.
+
+**+** / **Add new question** - Opens a menu of quiz questions to add.
+
+![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png)
+
+**Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+
+**Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
+
+**Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+
+**Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
+
+**Yes/No** - Two choices slide which displays choices as a clickable options.
+
+**Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice.
+
+**Statement** - A statement slide which displays text and a button to proceed to the next question.
+
+**Short-text** - An open question slide that allows the user to provide a short text answer.
+
+**Multi-line Text** - An open question slide that allows the user to provide a short text answer.
+
+**Date** - A question slide that prompts the user to select or enter a specific date.
+
+**File Upload** - An interactive slide where users can upload a file as their response.
+
+**Name** - A slide designed for users to enter their name, featuring a short text field.
+
+**Number** -  A question type where users are prompted to input a numerical answer.
+
+**Email Address** - A slide dedicated to collecting the user's email address through a text field.
+
+**Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
+
+**Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
+
+**Question settings**
+
+![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
+
+**question settings** / **wrench icon** - Opens the Question Settings menu.
+
+![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
+
+- **Question Type** - Allows you to switch between similar question types.
+
+- **Button Text** - Change the text button on the slide.
+
+- **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+
+- **Optional** - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
+
+- **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
+
+    - **Range** - Select the range of answers a cusotmer can cliced.
+
+- **Image** - Click "Add" to uplaod a featured image to the question. An extra menu appears once activated.
+
+    - **above** - Places the uplaoded image above the question, on top of the slide.
+    
+    - **below** - Places the uplaoded image below the question, above the choices.
+
+    - **background** - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+
+    - **split** - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+
+    - **Image Opacity** - A slider which allows to adjust the opacity of the uplaoded image.
+
+- **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+
+    - **responsive** - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
+
+    - **widget** - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
+
+    - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
+
+    - **Video Opacity** - A slider which allows to adjust the opacity of the uplaoded video.
+
+- **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+
+- **Question ID** - Displays the question unique ID.
+
+**conditonal logic** / **tree icon** - Opens the [Conditional Logic]() section of the Quiz Builder.
+
+**more options** / **...** - Opens more options menu.
+
+![quiz builder question settings more options](/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png)
+
+- **+ add question below** - Adds a new blank quesiton of the same type below.
+
+- **Duplicate** - Duplicate this slide. Creates a copy sldie below.
+
+- **Delete** - Delete this slide. 
+
 
 ### Link Collections
 
@@ -139,13 +282,6 @@ To open the Success Checklist click on the any of the ❓❗✅ 🔄 icons.
 
 ### Quiz Settings
 
-### Preview
-
-### Share
-
-### Connect
-
-### Publish
 
 ## Plans & Pricing
 
@@ -195,7 +331,7 @@ SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol whi
 
 When you connect the Shop Quiz app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our no-reply@prq.email email account, they’ll be sent from your email account. 
 
-Check [How to Send Reuslt Emails from your own server]() for detailed instructions on how to set this up.
+Check [How to Send Result Emails from your own server]() for detailed instructions on how to set this up.
 
 **Name to display(From):** - Set what name and email the customer will see when they recieve the email.
 
@@ -207,7 +343,7 @@ Check [How to Send Reuslt Emails from your own server]() for detailed instructio
 
 **SMTP Port** - Set the SMTP port (25, 465, 587 or 2525)
     
-**test connection & activate** - Once you've provided all your credentials you can test if the connection to your SMTP server is succesful. If you see an error check your SMTP settings with the help of a third party tool such as[Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you’re having issues, please get in touch with your developer / SMTP provider.
+**test connection & activate** - Once you've provided all your credentials you can test if the connection to your SMTP server is succesful. If you see an error check your SMTP settings with the help of a third party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you’re having issues, please get in touch with your developer / SMTP provider.
 
 ### Shop App (Beta)
 
