@@ -87,6 +87,19 @@ Displays useful tips and tricks for building a better quiz.
 
 ### Success Checklist
 
+To open the Success Checklist click on the any of the ❓❗✅ 🔄 icons.
+
+![dashboard success checklist](/images/manual_succes_checklist.png)
+
+❓ - Opens the Getting Started section of the Success Checklist.
+❗ - Opens the To Do section of the Success Checklist. The number indicasted number of tasks to be completed.
+✅ - Opens the To Do section of the Success Checklist. The number indicasted number of tasks completed.
+🔄 - Opens the Sync section of the Success Checklist. 
+
+![dashbaord success checklist sync app](/images/manual_success_checklist_sync.png)
+
+- **run manual sync** - Starts a full sync of your product catalog. The sync takes about 30 - 60 minutes to complete. If your store has more than 3,000 product variants, the sync can take longer. Please note that a full syunc of your catalog is done every 24 hours.
+
 ## New Quiz
 
 ## Quiz Builder
