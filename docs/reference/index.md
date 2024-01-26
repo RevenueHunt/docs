@@ -163,7 +163,7 @@ The top Success Checklist reminds you of the progress you've made in building yo
 
 **Quiz Design** - Opens the [Quiz Design]() section of the Quiz Builder. This is where you'll style your quiz.
 
-**Results Page** - Opens the [Results Page]() section of the Quiz Builder. This is where you'll edit your resutls page.
+**Results Page** - Opens the [Results Page]() section of the Quiz Builder. This is where you'll edit your results page.
 
 **Notifications** - Opens the [Notifications]() section of the Quiz Builder. This is where you'll set up your quiz result emails.
 
@@ -425,7 +425,7 @@ All the Skip Logic rules follow the same format
 
 All slides that contain Skip Logic will be marked with "skip logic" text.
 
-**+** - Add another Skip Logic rule. Adds a new OR logical rule.
+**+** - Adds another Skip Logic rule. Adds a new OR logical rule.
 
 **bin** - Delete the current Skip Logic rule.
 
@@ -493,8 +493,213 @@ In the MY THEMES section you'll find all the Deisgn Themes that you create. Clic
 
 - **Delete** - Deletes the selected theme from MY THEMES gallery.
 
-
 ### Results Page
+
+![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
+
+In the Results Page section you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+
+**+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
+
+![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
+
+- **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
+
+- **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+
+- **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+
+- **Image Block** - Adds an embeded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+
+- **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+
+- **Slots Block** - Adds a block specifically desgned for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+
+![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+
+**conditonal logic** / **tree icon** - Opens the [Block Logic]() menu.
+
+![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+
+With Block Logic you can make blocks visible or hidden based on customer's responses.
+
+**Add Block Logic** - Adds a new block logic rule.
+
+![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+
+All the Block Logic rules follow the same format
+
+**IF response to** pick the question from a dropdown list
+
+**is**/ **is not** pick a choice from the dropdown list
+
+**THEN block is** pick either **Visible** or **Hidden**
+
+**IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+*In the example, if a users chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.*
+
+- **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+
+- **bin** - Delete the current Block Logic rule.
+
+- **+ add concurrent logic** - Adds a new AND logical statment to the same rule. AND conditonal statemenets can be tricky, as both statement have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+**...** - Opens the more options menu.
+
+![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+
+- **+ add block below** - Opens the **+** / **add block** menu.
+
+- **bin** / **delete block** - Deletes the current block from the resutls page.
+
+🔧 / **wrench icon** - Opens the block settings menu.
+
+- **Product Block Settings**
+
+![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
+
+- **Title** - Type a title to be displayed above the recommended products.
+
+- **Description** - Add a description to be displayed above the recommended products.
+
+- **Max. recommended products** - Select how many product should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Porduct Block to your results page and make sure that the "Allow suplicated recommendations" settings is off in your Results page settings.
+
+- **Hide block when no products are recommended** - Activate this settings if you want to hide the product block if there are no recommendations. By default, with no recommendations a *"Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us."* text will be displayed instead. This text can be edited in the [Quiz Setttings](#quiz-settings) > Messages section.
+
+- **Slot Block Settings** 
+
+![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+
+- **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+
+![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
+
+- **Title** - Type a title to be displayed above the slot.
+
+- **Description** - Add a description to be displayed above the slot.
+
+- **Max. recommended products** - Select how many product should be recommended in this Slot. Max 15 products can be displayed per slot. 
+
+- **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+
+- **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a producrt recevied votes in the quiz but is part of the excluded collection, the slot will not show that product.
+
+**Slot ID** - Displays the current slot ID.
+
+⚙️ / **gear icon** - Opens the results page settings.
+
+![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
+
+**BASIC**
+
+**Checkout Settings**
+
+![quiz builder resutls page resutls page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png)
+
+- **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page.
+
+    - **Proceed to cart** - After the product are added ot the cart, the customer will proceed to the cart page.
+
+    - **proceed to checkout** - After the product are added ot the cart, the customer will proceed to the checkout page.
+
+- **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+
+**Individual Product Settings**
+
+![quiz builder resutls page resutls page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png)
+
+**Style Settings**
+
+![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png)
+
+**Background image** - Click "Add" to uplaod a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+
+- **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+
+
+**ADVANCED**
+
+![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png)
+
+**Recommendation Settings**
+
+**If no results, no products** - If there are no products that can be recommeneded a *"Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us."* text will be displayed instead. This text can be edited in the [Quiz Setttings](#quiz-settings) > Messages section.
+
+**If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
+
+**Group product varaints** -
+
+**Show unavailable products** - 
+
+**Allow duplicated recommendations** - 
+
+**Minimum number of votes** -
+
+**Custom JS Code**
+
+**Custom JavaScript** - Click "Add" to open the JavaScript console.
+
+**Multiple Results Pages**
+
+**Activate multiple results pages** - Click "activate" to open the MULIIPLE RESULTS PAGES menu.
+
+**MULTIPLE RESULTS PAGES** 
+
+![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png)
+
+**Results Page 1** 
+
+- **Edit this page** - Click "edit" to switch to this results page and edit its content.
+
+- **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#conditional-logic) to another page.
+
+**Results Page 2**
+
+- **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
+
+- **Set as default** - Click "set" to select this resutls page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#conditional-logic) to another page.
+
+**Create new Results Page** - add a new resutls page to your quiz.
+
+**DISCOUNTS**
+
+![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+
+**Discount Code Settings** - Allows to add a static discount to your resutls page. Click "Add" to open the discount menu.
+
+![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png)
+
+- **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+
+- **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+
+**Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+
+![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png)
+
+**Dynamic Discounts Settings**
+
+- **Enable notifications** - A toast notification will appear when customer qualifies for a discount. Toggle to enable/disable.
+
+- **Encourage discounts** - The notifcation will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+
+**Discount [A]** 
+
+- **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+
+- **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+
+- **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+
+- **+** / **add another discount** - adds an new dynamic discount (Discount [B]).
+
+- **bin** / **delete this discount** - deletes this dynamic discount.
+
+**add a discount** - Adds an new dynamic discount below (Discount [B]).
+
+**deactivate** - Deactivates dynamic discounts.
+
 
 ### Notifications
 
