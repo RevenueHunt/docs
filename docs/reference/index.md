@@ -327,6 +327,25 @@ Be careful when using exclusions. Once a product is excluded from a choice, that
 
 **Missing products?**  - You may need to run a [Catalog Sync]() to update the app.
 
+### Customer Tags
+
+![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
+
+In the Customer Tags section you can create custom tags and link them to choices in the quiz. Customer tags are useful for segementing customers and email marketing.
+
+![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
+
+To add a new tag, type it's name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as new customer tag".
+
+Created tag will then show as an avialble option whenever you select another choice.
+
+![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+
+You can create as many tags as you like. You can link as many tags as you like to the same choice. 
+
+### Conditional Logic
+
+
 ### Quiz Design
 
 ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
@@ -389,7 +408,6 @@ In the MY THEMES section you'll find all the Deisgn Themes that you create. Clic
 
 - **Delete** - Deletes the selected theme from MY THEMES gallery.
 
-### Customer Tags
 
 ### Results Page
 
