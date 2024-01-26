@@ -189,7 +189,7 @@ Quiz Builder is composed of two sections: the slides (left) and the preview (rig
 
 **Yes/No** - Two choices slide which displays choices as a clickable options.
 
-**Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice.
+**Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
 **Statement** - A statement slide which displays text and a button to proceed to the next question.
 
@@ -231,7 +231,7 @@ Quiz Builder is composed of two sections: the slides (left) and the preview (rig
 
     - **Range** - Select the range of answers a cusotmer can cliced.
 
-- **Image** - Click "Add" to uplaod a featured image to the question. An extra menu appears once activated.
+- **Image** - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
     - **above** - Places the uplaoded image above the question, on top of the slide.
     
@@ -289,6 +289,8 @@ You can link multiple collections to the same choice but be careful. If a produc
 
 ![quiz builder link collections linked collections](/images/manual_quizbuilder_linkcollections_linked.png)
 
+To remove a linked collection click "x" next to the collection name.
+
 **excluded collections** - Opens the dropdown which allows to exclude collections of products from a choice. 
 
 ![quiz builder link collections exclude](/images/manual_quizbuilder_linkcollections_exclude.png)
@@ -315,6 +317,8 @@ You can link multiple product variants to the same choice.
 
 ![quiz builder link products linked products](/images/manual_quizbuilder_linkproducts_linked.png)
 
+To remove a linked product click "x" next to the product name.
+
 **excluded collections** - Opens the dropdown which allows to exclude products of products from a choice. 
 
 ![quiz builder link products exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
@@ -324,6 +328,66 @@ Be careful when using exclusions. Once a product is excluded from a choice, that
 **Missing products?**  - You may need to run a [Catalog Sync]() to update the app.
 
 ### Quiz Design
+
+![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
+
+In the Quiz Design section fo the quiz builder you can change how the quiz Questions or the Results Page look.
+
+![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png)
+
+The top menu allows you to switch between questions to preview them.
+
+**arrow up** - Takes you to the question higher.
+
+**arrow down** - Take you to the question lower.
+
+![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png)
+
+**Questions** - Shows the preview of how the questions look like.
+
+**Results** - Shows the preview of how the results page looks like.
+
+**EDIT THEME**
+
+In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
+
+![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png)
+
+***Wine*** - Displays the name of your current theme.
+
+**Font** - Shows a dropdown of avialble fonts. Pick a font from the list to change it.
+
+**Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+**Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+**Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+**Background** - Opens a color menu that allows you to change the color of quiz background.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+**Background image** - Click "Add" to uplaod a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+
+- **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+
+**Custom CSS** - Opens a CSS consle, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+
+**MY THEMES**
+
+In the MY THEMES section you'll find all the Deisgn Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
+
+![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png)
+
+**+ add new theme** - Adds a new blank theme to your MY THEMES gallery.
+
+**...** - Opens the theme options.
+
+![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png)
+
+- **Edit** - Opens the selected theme in EDIT THEME.
+
+- **Duplicate** - Creates a copy of the selected theme.
+
+- **Delete** - Deletes the selected theme from MY THEMES gallery.
 
 ### Customer Tags
 
