@@ -37,30 +37,36 @@ theme:
       accent: #CBDAFF
 nav:
   - Docs:
-    - Docs: index.md
-    - Tutorials: tutorials/index.md
-    - How-to Guides: how-to-guides/index.md
-    - Reference: reference/index.md
-    - Customer Success: customer-success/index.md
+      - Docs: index.md
+      - Tutorials: tutorials/index.md
+      - How-to Guides: how-to-guides/index.md
+      - Reference: reference/index.md
+      - Customer Success: customer-success/index.md
   - Tutorials:
-    - Tutorials: tutorials/index.md
-    - Getting Started: tutorials/getting-started.md
-    - Making your First Quiz: tutorials/making-first-quiz.md
-    - Recommending a Skincare Routine: tutorials/skincare-routine.md
-    - Conditional Logic: tutorials/conditional-logic.md
-    - Send follow-up emails with Klaviyo: tutorials/follow-up-emails-klaviyo.md
-    - PLAYLIST - One Minute Tutorials: tutorials/playlist-one-minute-tutorials.md
+      - Tutorials: tutorials/index.md
+      - Getting Started: tutorials/getting-started.md
+      - Making your First Quiz: tutorials/making-first-quiz.md
+      - Recommending a Skincare Routine: tutorials/skincare-routine.md
+      - Conditional Logic: tutorials/conditional-logic.md
+      - Send follow-up emails with Klaviyo: tutorials/follow-up-emails-klaviyo.md
+      - PLAYLIST - One Minute Tutorials: tutorials/playlist-one-minute-tutorials.md
   - How-to Guides: how-to-guides/index.md
   - Reference:
-    - Reference: reference/index.md
-    - First reference: reference/index.md
-    - Second reference: reference/index.md
-    - Third reference: reference/index.md
+      - Reference: reference/index.md
+      - Dashboard: reference/dashboard.md
+      - Quiz Builder:
+          - Quiz Builder: reference/quiz-builder/index.md
+          - Editor: reference/quiz-builder/editor.md
+          - Share: reference/quiz-builder/share.md
+          - Connect: reference/quiz-builder/connect.md
+          - Metrics: reference/quiz-builder/metrics.md
+      - Plans & Pricing: reference/plans-and-pricing.md
+      - App Seettings: reference/settings.md
   - Customer Success:
-    - Customer Success: customer-success/index.md
-    - Example 1: customer-success/index.md
-    - Example 2: customer-success/index.md
-    - Example 3: customer-success/index.md
+      - Customer Success: customer-success/index.md
+      - Example 1: customer-success/index.md
+      - Example 2: customer-success/index.md
+      - Example 3: customer-success/index.md
 
 # plugins:
 #   - social
