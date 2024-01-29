@@ -628,13 +628,15 @@ All the Block Logic rules follow the same format
 
 **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-**Group product varaints** -
+**Group product varaints** - Groups product variants as a dropdown under the main product name. Toggle to activate. Varaints are displayed in the order of votes they recived at the end of the quiz. If varaints rec ieve the same number of votes, the order in which they are displayed on the resutls page will be random.
 
-**Show unavailable products** - 
+**Show unavailable products** - Allows products that are unavailble (out of stock) in the store to be recommended via the quiz. Toggle to activate. 
 
-**Allow duplicated recommendations** - 
+**Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-**Minimum number of votes** -
+**Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommeneded in this block only to those that reciveded X votes or more. Toggle to activate.
+
+![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
 **Custom JS Code**
 
