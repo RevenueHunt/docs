@@ -609,6 +609,26 @@ All the Block Logic rules follow the same format
 
 ![quiz builder resutls page resutls page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png)
 
+- **Show main product image** - Click to always show the main product image, even when a variant is recommended.
+
+- **Show varaint image** - Click to always show the variant image, instead of the main product image.
+
+- **Show price** - Toggle to display the product price on the results page.
+
+- **Show vendors** - Toggle to display the product vedndor under the product on the results page.
+
+- **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
+
+- **Show "more info" link** - Toggle to display a "more info" link below the product name or description on the resutls page. The link takes you to the product page.
+
+- **Show description** - Toggle to display the product description below the product name on the results page. Additional option is displayed.
+
+    **Truncate description** - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
+
+- **Show reviews** - Toggle to show product rating below the product name on the resutls page. After activation make sure to run a [Catalog Sync]() to sync all the product reviews with the app.
+
+- **Show metafields** - Toggle to allow showing of custom product metafields on the resutls page. To show product metafileds follow the instructions in [How to show product metafileds in the quiz]().
+
 **Style Settings**
 
 ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png)
@@ -704,6 +724,8 @@ All the Block Logic rules follow the same format
 
 
 ### Notifications
+
+
 
 ### Quiz Settings
 
