@@ -773,6 +773,46 @@ Select a response from the list to preview how the email will look like.
 
 ### Quiz Settings
 
+![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
+
+**GENERAL** 
+
+**Quiz name**
+
+**Language**
+
+**Currency** 
+
+**Format** 
+
+**Separators** 
+
+**Save quiz progress**
+
+**Set *revenuehunt/quiz* as UTM source/medium** 
+
+**Use top level product**
+
+**Export quiz to another store**
+
+**Quiz ID**
+
+**MESSSAGES** 
+
+**Language**
+
+**Buttons**
+
+**VERSION HISTORY**
+
+**...** - 
+
+- **Create a new quiz usign this version**
+
+- **Rename this version** -
+
+
+
 
 ## Plans & Pricing
 
