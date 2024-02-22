@@ -51,11 +51,12 @@ nav:
     - Send follow-up emails with Klaviyo: tutorials/follow-up-emails-klaviyo.md
     - PLAYLIST - One Minute Tutorials: tutorials/playlist-one-minute-tutorials.md
   - How-to Guides: how-to-guides/index.md
-  - Reference:
-    - Reference: reference/index.md
-    - First reference: reference/index.md
-    - Second reference: reference/index.md
-    - Third reference: reference/index.md
+  - App Manual:
+    - App Manual: reference/index.md
+    - Dashboard: reference/dashboard.md
+    - Quiz Builder: reference/quiz-builder.md
+    - Plans & Pricing: reference/plans-pricing.md
+    - App Settings: reference/app-settings.md
   - Customer Success:
     - Customer Success: customer-success/index.md
     - Example 1: customer-success/index.md
