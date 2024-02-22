@@ -1,6 +1,6 @@
 
 
-## Plans & Pricing
+# Plans & Pricing
 
 ![plans & pricing page](/images/manual_plans_pricing.png)
 

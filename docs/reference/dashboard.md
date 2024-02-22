@@ -1,4 +1,4 @@
-## Dashboard
+# Dashboard
 
 On the dahsbaord you'll find all the quizzes that you create.
 
@@ -19,7 +19,7 @@ Shopify Side Menu
 **New quiz** - Opens the [New quiz](#new-quiz) setup menu.
 
 
-### Notifications
+## Notifications
 
 ![dashboard notifications bar](/images/manual_notifications.png)
 
@@ -27,7 +27,7 @@ Shopify Side Menu
 
 **"x"** - Archives a notification.
 
-### MY QUIZZES
+## MY QUIZZES
 
 ![dashboard tutorial quiz](/images/manual_tutorial_quiz.png)
 
@@ -71,7 +71,7 @@ Shopify Side Menu
 
 **show breakdown** - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
 
-### Tips & Tricks
+## Tips & Tricks
 
 Displays useful tips and tricks for building a better quiz.
 
@@ -79,7 +79,7 @@ Displays useful tips and tricks for building a better quiz.
 
 **view all** - Opens archived tips.
 
-### Success Checklist
+## Success Checklist
 
 To open the Success Checklist click on the any of the ❓❗✅ 🔄 icons.
 

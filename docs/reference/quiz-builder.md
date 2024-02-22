@@ -1,4 +1,4 @@
-## Quiz Builder
+# Quiz Builder
 
 ![quiz builder](/images/manual_quizbuilder.png)
 
@@ -16,7 +16,7 @@ The top Success Checklist reminds you of the progress you've made in building yo
 
 **Preview** - Opens the quiz preview in a new tab.
 
-**Edit** - Opens the [Quiz Builder]() section of the Quiz Builder.
+**Edit** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
 
 **Connect** - Opens the [Connect]() section fo the Quiz Builder.
 
@@ -28,25 +28,25 @@ The top Success Checklist reminds you of the progress you've made in building yo
 
 ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png)
 
-**Quiz Builder** - Opens the [Quiz Builder]() section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+**Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 
-**Link Collections** - Opens the [Link Collections]() section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+**Link Collections** - Opens the [Link Collections](#link-collections) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
 
-**Link Products** - Opens the [Link Products]() section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+**Link Products** - Opens the [Link Products](#link-products) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
 
-**Customer Tags** - Opens the [Customer Tags]() section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+**Customer Tags** - Opens the [Customer Tags](#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
 
-**Conditional Logic** - Opens the [Conditional Logic]() section of the Quiz Builder. This is where you'll create branching in your quiz.
+**Conditional Logic** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder. This is where you'll create branching in your quiz.
 
-**Quiz Design** - Opens the [Quiz Design]() section of the Quiz Builder. This is where you'll style your quiz.
+**Quiz Design** - Opens the [Quiz Design](#quiz-design) section of the Quiz Builder. This is where you'll style your quiz.
 
-**Results Page** - Opens the [Results Page]() section of the Quiz Builder. This is where you'll edit your results page.
+**Results Page** - Opens the [Results Page](#results-page) section of the Quiz Builder. This is where you'll edit your results page.
 
-**Notifications** - Opens the [Notifications]() section of the Quiz Builder. This is where you'll set up your quiz result emails.
+**Notifications** - Opens the [Notifications](#notifications) section of the Quiz Builder. This is where you'll set up your quiz result emails.
 
-**Quiz Settings** - Opens the [Quiz Settings]() section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+**Quiz Settings** - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
 
-### Quiz Builder
+## Quiz Builder
 
 ![quiz builder quiz builder section](/images/manual_quizbuilder_quizbuilder.png)
 
@@ -146,7 +146,7 @@ Quiz Builder is composed of two sections: the slides (left) and the preview (rig
 
 - **Delete** - Delete this slide. 
 
-### Link Collections
+## Link Collections
 
 ![quiz builder link collections](/images/manual_quizbuilder_linkcollections.png)
 
@@ -176,7 +176,7 @@ Be careful when using exclusions. Once a collection of products is excluded from
 
 **Missing collections or collection show (0) products?**  - You may need to run a [Catalog Sync]() to update the app.
 
-### Link Products
+## Link Products
 
 ![quiz builder link products](/images/manual_quizbuilder_linkproducts.png)
 
@@ -204,7 +204,7 @@ Be careful when using exclusions. Once a product is excluded from a choice, that
 
 **Missing products?**  - You may need to run a [Catalog Sync]() to update the app.
 
-### Customer Tags
+## Customer Tags
 
 ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
 
@@ -220,7 +220,7 @@ Created tag will then show as an avialble option whenever you select another cho
 
 You can create as many tags as you like. You can link as many tags as you like to the same choice. 
 
-### Conditional Logic
+## Conditional Logic
 
 ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
@@ -308,7 +308,7 @@ All slides that contain Skip Logic will be marked with "skip logic" text.
 
 **+ add concurrent logic** - Adds a new AND logical statment to the same rule. AND conditonal statemenets can be tricky, as both statement have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
-### Quiz Design
+## Quiz Design
 
 ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
 
@@ -370,7 +370,7 @@ In the MY THEMES section you'll find all the Deisgn Themes that you create. Clic
 
 - **Delete** - Deletes the selected theme from MY THEMES gallery.
 
-### Results Page
+## Results Page
 
 ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
 
@@ -600,7 +600,7 @@ All the Block Logic rules follow the same format
 **deactivate** - Deactivates dynamic discounts.
 
 
-### Notifications
+## Notifications
 
 In the Notificaitons tab of the Quiz Builder you can activate and edit the emails that the customer or the store owner recieves at the end of the quiz.
 
@@ -648,7 +648,7 @@ Select a response from the list to preview how the email will look like.
 ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 
 
-### Quiz Settings
+## Quiz Settings
 
 ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
@@ -786,3 +786,8 @@ In the Version History section of Quiz Settings you will find all the published 
 
 - **Rename this version** - Allows you to rename this saved version of the quiz.
 
+## Connect
+
+## Share
+
+## Metrics

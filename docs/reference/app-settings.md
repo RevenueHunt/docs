@@ -1,6 +1,6 @@
-## App Settings
+# App Settings
 
-### General
+## General
 
 ![app settings general](/images/manual_appsettings_general.png)
 
@@ -16,13 +16,13 @@
 
 **Anonymize quiz respones after 30 days** - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
 
-### Catalogue
+## Catalogue
 
 ![app settings catalogue](/images/manual_appsettings_catalogue.png)
 
 **Metafields Namespaces** - We will import the metafields information for the following namespaces. You will then be able to display this information in the products result page. In this section we'll display a list of metafield categories found in your store. You can toggle the button to activate the metrafielss and follow this article to show them in the quiz: [How to Add Product Metafileds]().
 
-### SMTP
+## SMTP
 
 ![app settings smtp](/images/manual_appsettings_smtp.png)
 
@@ -46,7 +46,7 @@ Check [How to Send Result Emails from your own server]() for detailed instructio
     
 **test connection & activate** - Once you've provided all your credentials you can test if the connection to your SMTP server is succesful. If you see an error check your SMTP settings with the help of a third party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you’re having issues, please get in touch with your developer / SMTP provider.
 
-### Shop App (Beta)
+## Shop App (Beta)
 
 ![app settings shop app](/images/manual_appsettings_shopapp.png)
 

@@ -20,35 +20,29 @@ In Quiz Builder you'll create your quiz. Via the Quiz Builder you can add questi
 
 Quiz Builder is composed of the following sections:
 
-**Quiz Builder** - Opens the [Quiz Builder]() section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+**[Quiz Builder](docs\reference\quiz-builder.md\#quiz-builder-1)** - This is where you'll add questions/slides to your quiz.
 
-**Link Collections** - Opens the [Link Collections]() section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+**[Link Collections](docs\reference\quiz-builder.md\#link-collections)** - This is where you'll link entire collections or tags of products from your store to individual choices.
 
-**Link Products** - Opens the [Link Products]() section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+**[Link Products](docs\reference\quiz-builder.md\#link-products)** - This is where you'll link products from your store to individual choices.
 
-**Customer Tags** - Opens the [Customer Tags]() section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+**[Customer Tags](docs\reference\quiz-builder.md\#customer-tags)** - This is where you'll create custom tags to link to individual choices.
 
-**Conditional Logic** - Opens the [Conditional Logic]() section of the Quiz Builder. This is where you'll create branching in your quiz.
+**[Conditional Logic](docs\reference\quiz-builder.md\#conditional-logic)** - This is where you'll create branching in your quiz.
 
-**Quiz Design** - Opens the [Quiz Design]() section of the Quiz Builder. This is where you'll style your quiz.
+**[Quiz Design](docs\reference\quiz-builder.md\#quiz-design)** - This is where you'll style your quiz.
 
-**Results Page** - Opens the [Results Page]() section of the Quiz Builder. This is where you'll edit your results page.
+**[Results Page](docs\reference\quiz-builder.md\#results-page)** - This is where you'll edit your results page.
 
-**Notifications** - Opens the [Notifications]() section of the Quiz Builder. This is where you'll set up your quiz result emails.
+**[Notifications](docs\reference\quiz-builder.md\#notifications)** - This is where you'll set up your quiz result emails.
 
-**Quiz Settings** - Opens the [Quiz Settings]() section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+**[Quiz Settings](docs\reference\quiz-builder.md\#quiz-settings)** - This is where you'll change currency, language and other base settings of the quiz.
 
-**Preview** - Opens the quiz preview in a new tab.
+**[Connect](docs\reference\quiz-builder.md\#connect)** - Opens the integrations section fo the Quiz Builder.
 
-**Edit** - Opens the [Quiz Builder]() section of the Quiz Builder.
+**[Share](docs\reference\quiz-builder.md\#share)** - Opens the publishing section of the Quiz Builder.
 
-**Connect** - Opens the [Connect]() section fo the Quiz Builder.
-
-**Share** - Opens the [Share]() section of the Quiz Builder.
-
-**Metrics** - Opens the [Metrics]() section of the Quiz Builder.
-
-**Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+**[Metrics](docs\reference\quiz-builder.md\#metrics)** - Opens the metrics and responses section of the Quiz Builder.
 
 [:fontawesome-solid-arrow-right: continue reading](quiz-builder.md)
 
@@ -64,7 +58,7 @@ In the Plans & Pricing section you can find details of our pricing plans and upg
 
 ![app settings general](/images/manual_appsettings_general.png)
 
-In the App Settings section you adjust your contact details, change GDPR settings, sync metafileds or connect your SMTP server.
+In the App Settings section you adjust your contact details, change GDPR settings, sync metafileds, connect your SMTP server or set up Shop App.
 
 [:fontawesome-solid-arrow-right: continue reading](app-settings.md)
 
