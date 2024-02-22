@@ -786,4 +786,3 @@ In the Version History section of Quiz Settings you will find all the published 
 
 - **Rename this version** - Allows you to rename this saved version of the quiz.
 
-
