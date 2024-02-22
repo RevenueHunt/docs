@@ -802,7 +802,9 @@ In the Share tab of the Quiz Builder, you can choose how to publish the quiz on 
 
 For step by step insctructions check [How to Publish the Quiz]() guide.
 
-**Link** - A link that will open the quiz as a popup over your page.
+**Link** 
+
+A link that will open the quiz as a popup over your page.
 
 ![quiz builder share link](/images/manual_quizbuilder_share_link.png)
 
@@ -812,11 +814,13 @@ For step by step insctructions check [How to Publish the Quiz]() guide.
 
 - **Popup height** - Adjust the width of the quiz by typing the percentage number.
 
-**Inline** - Quiz embedded inline with a page.
+**Inline** 
+
+Quiz embedded inline with a page.
 
 ![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
 
-**Instructions for legacy themes** - Opens extra settings menu.
+***Instructions for legacy themes*** - Opens extra settings menu.
 
 ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
 
@@ -828,13 +832,15 @@ For step by step insctructions check [How to Publish the Quiz]() guide.
 
 - **Fixed height** - Will set a fixed height of the quiz iframe as specified in the **Height** field above. Toggle to activate. 
 
-**Automatic** - A quiz popup appears after X seconds.
+**Automatic** 
+
+A quiz popup appears after X seconds.
 
 By default the popup is only shown once per session.
 
 ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
 
-**Instructions for legacy themes** - Opens extra settings menu.
+***Instructions for legacy themes*** - Opens extra settings menu.
 
 ![quiz builder share automatic legacy](/images/manual_quizbuilder_share_automatic_legacy.png)
 
@@ -848,7 +854,9 @@ By default the popup is only shown once per session.
 
 - **Exit intent** - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
-**External** - Direct link to the quiz for social media.
+**External** 
+
+Direct link to the quiz for social media.
 
 ![quiz builder share external](/images/manual_quizbuilder_share_external.png)
 
@@ -858,7 +866,9 @@ By default the popup is only shown once per session.
 
 - **Popup height** - Adjust the width of the quiz by typing the percentage number.
 
-**Email** - Quiz popup when someone clicks on this email link. 
+**Email** 
+
+Quiz popup when someone clicks on this email link. 
 
 ![quiz builder share email](/images/manual_quizbuilder_share_email.png)
 
@@ -868,11 +878,13 @@ By default the popup is only shown once per session.
 
 - **Popup height** - Adjust the width of the quiz by typing the percentage number.
 
-**Chat** - Quiz popup when visitors click on a chat-like button.
+**Chat** 
+
+Quiz popup when visitors click on a chat-like button.
 
 ![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
 
-**Instructions for legacy themes** - Opens extra settings menu.
+***Instructions for legacy themes*** - Opens extra settings menu.
 
 ![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)
 
