@@ -2,11 +2,11 @@
 
 Discover all the app's functions
 
-This is an app manual. You'll find here an explanation on all buttons and functions of the app as well as the version history.
+This is an app manual. You'll find here an explanation of all the buttons and functions of the app as well as the version history.
 
 ### [Dashboard](dashboard.md)
 
-On the dahsbaord you'll find all the quizzes that you create. From the dashbaord you can run a catalog sync, check the success chaecklist or create a new quiz.
+On the dashboard, you'll find all the quizzes that you create. From the dashboard, you can run a catalog sync, check the success checklist, or create a new quiz.
 
 ![dashboard](/images/manual_dashboard.png)
 
@@ -16,13 +16,13 @@ On the dahsbaord you'll find all the quizzes that you create. From the dashbaord
 
 ![quiz builder quiz builder section](/images/manual_quizbuilder_quizbuilder.png)
 
-In Quiz Builder you'll create your quiz. Via the Quiz Builder you can add questions to your quiz, link products, edit the results page, language, currency or set up integrations and results emails.
+In Quiz Builder you'll create your quiz. Via the Quiz Builder, you can add questions to your quiz, link products, edit the results page, language, currency, or set up integrations and results emails.
 
 Quiz Builder is composed of the following sections:
 
 - **Quiz Builder** - This is where you'll add questions/slides to your quiz.
 
-- **Link Products/ Collections** - This is where you'll link inbdividual products or entire collections or tags of products from your store to individual choices.
+- **Link Products/ Collections** - This is where you'll link individual products or entire collections or tags of products from your store to individual choices.
 
 - **Customer Tags** - This is where you'll create custom tags to link to individual choices.
 
@@ -34,7 +34,7 @@ Quiz Builder is composed of the following sections:
 
 - **Notifications** - This is where you'll set up your quiz result emails.
 
-- **Quiz Settings** - This is where you'll change currency, language and other global settings of the quiz.
+- **Quiz Settings** - This is where you'll change the currency, language, and other global settings of the quiz.
 
 - **Connect** - This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
 
@@ -48,7 +48,7 @@ Quiz Builder is composed of the following sections:
 
 ![plans & pricing page](/images/manual_plans_pricing.png)
 
-In the Plans & Pricing section you can find details of our pricing plans and upgrade or downgrade your account's plan.
+In the Plans & Pricing section, you can find details of our pricing plans and upgrade or downgrade your account's plan.
 
 [:fontawesome-solid-arrow-right: continue reading](plans-pricing.md)
 
@@ -56,7 +56,7 @@ In the Plans & Pricing section you can find details of our pricing plans and upg
 
 ![app settings general](/images/manual_appsettings_general.png)
 
-In the App Settings section you adjust your contact details, change GDPR settings, sync metafileds, connect your SMTP server or set up Shop App.
+In the App Settings section, you adjust your contact details, change GDPR settings, sync metafields, connect your SMTP server, or set up the Shop App.
 
 [:fontawesome-solid-arrow-right: continue reading](app-settings.md)
 

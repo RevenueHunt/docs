@@ -18,7 +18,7 @@ The top Success Checklist reminds you of the progress you've made in building yo
 
 **Edit** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
 
-**Connect** - Opens the [Connect](#connect) section fo the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+**Connect** - Opens the [Connect](#connect) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
 
 **Share** - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
 
@@ -140,9 +140,9 @@ Quiz Builder is composed of two sections: the slides (left) and the preview (rig
 
 ![quiz builder question settings more options](/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png)
 
-- **+ add question below** - Adds a new blank quesiton of the same type below.
+- **+ add question below** - Adds a new blank question of the same type below.
 
-- **Duplicate** - Duplicate this slide. Creates a copy sldie below.
+- **Duplicate** - Duplicate this slide. Creates a copy slide below.
 
 - **Delete** - Delete this slide. 
 
@@ -150,9 +150,9 @@ Quiz Builder is composed of two sections: the slides (left) and the preview (rig
 
 ![quiz builder link collections](/images/manual_quizbuilder_linkcollections.png)
 
-In the Link Collections tab you can link entire collections of products from your store to choices. This includes Shopify collections, tags and virtual vendors and variants collections.
+In the Link Collections tab, you can link entire collections of products from your store to choices. This includes Shopify collections, tags, virtual vendors, and variants collections.
 
-Once a collection is linked to a choice and the customer picks that choice, all the products in that collection will recieve 1 vote.
+Once a collection is linked to a choice and the customer picks that choice, all the products in that collection will receive 1 vote.
 
 To link a collection to a choice click on the white dropdown bar and start typing the name.
 
@@ -162,7 +162,7 @@ Select a collection and it will be automatically added to the choice.
 
 **Moisturizers(1)** - (1) The number in the brackets indicates how many product varaints are in that collection.
 
-You can link multiple collections to the same choice but be careful. If a product is part of two collections linked to the same choice, it will revie 2 votes from that choice (one vote from each collection linked to that choice).
+You can link multiple collections to the same choice but be careful. If a product is part of two collections linked to the same choice, it will receive 2 votes from that choice (one vote from each collection linked to that choice).
 
 ![quiz builder link collections linked collections](/images/manual_quizbuilder_linkcollections_linked.png)
 
@@ -172,23 +172,23 @@ To remove a linked collection click "x" next to the collection name.
 
 ![quiz builder link collections exclude](/images/manual_quizbuilder_linkcollections_exclude.png)
 
-Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that that collection will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the resutls page, even if they were upvoted in another choice earlier/later.
 
-**Missing collections or collection show (0) products?**  - You may need to run a [Catalog Sync]() to update the app.
+**Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync]() to update the app.
 
 ## Link Products
 
 ![quiz builder link products](/images/manual_quizbuilder_linkproducts.png)
 
-In the Link Products tab you can link individual product varaints from your store to choices.
+In the Link Products tab, you can link individual product varaints from your store to choices.
 
-Once a product variant is linked to a choice and the customer picks that choice, that product varaint will recieve 1 vote.
+Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.
 
 To link a product to a choice click on the white dropdown bar and start typing the name.
 
 ![quiz builder link products search](/images/manual_quizbuilder_linkproducts_search.png)
 
-Select a product varaint and it will be automatically added to the choice. 
+Select a product variant and it will be automatically added to the choice.
 
 You can link multiple product variants to the same choice.
 
@@ -196,11 +196,11 @@ You can link multiple product variants to the same choice.
 
 To remove a linked product click "x" next to the product name.
 
-**excluded collections** - Opens the dropdown which allows to exclude products of products from a choice. 
+**excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
 
 ![quiz builder link products exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
 
-Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if they was upvoted in another choice earlier/later.
+Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
 
 **Missing products?**  - You may need to run a [Catalog Sync]() to update the app.
 
@@ -208,13 +208,13 @@ Be careful when using exclusions. Once a product is excluded from a choice, that
 
 ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
 
-In the Customer Tags section you can create custom tags and link them to choices in the quiz. Customer tags are useful for segementing customers and email marketing.
+In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
 
 ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
 
-To add a new tag, type it's name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as new customer tag".
+To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
 
-Created tag will then show as an avialble option whenever you select another choice.
+Created tag will then show as an available option whenever you select another choice.
 
 ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
 
@@ -264,21 +264,21 @@ All the Jump Logic rules follow the same format
 
 ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png)
 
-*In the example, if a users chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".*
+*In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".*
 
 **+** - Add another Jump Logic rule. Adds a new OR logical rule.
 
 ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
 
-*In the example, if a users chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".*
+*In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".*
 
 **bin** - Delete the current Jump Logic rule.
 
-**+ add concurrent logic** - Adds a new  AND logical statment to the same rule. AND conditonal statemenets can be tricky, as both statement have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+**+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
 ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png)
 
-*In the example, **only if** a users chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".*
+*In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".*
 
 **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
 
@@ -298,7 +298,7 @@ All the Skip Logic rules follow the same format
 
 **THEN this question is skipped**
 
-*In the example, if a users chooses a choice "A gift" in Question 1 "Who are you shopping for?" then then Question 2 "What is your skin type?" will be skipped (it will not be shown).*
+*In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).*
 
 All slides that contain Skip Logic will be marked with "skip logic" text.
 
@@ -306,7 +306,7 @@ All slides that contain Skip Logic will be marked with "skip logic" text.
 
 **bin** - Delete the current Skip Logic rule.
 
-**+ add concurrent logic** - Adds a new AND logical statment to the same rule. AND conditonal statemenets can be tricky, as both statement have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+**+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
 ## Quiz Design
 
@@ -336,7 +336,7 @@ In the EDIT THEME section you can change the styling of your current quiz theme.
 
 ***Wine*** - Displays the name of your current theme.
 
-**Font** - Shows a dropdown of avialble fonts. Pick a font from the list to change it.
+**Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
 
 **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
 
@@ -344,17 +344,17 @@ In the EDIT THEME section you can change the styling of your current quiz theme.
 
 **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
 
-**Background** - Opens a color menu that allows you to change the color of quiz background.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+**Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
 
-**Background image** - Click "Add" to uplaod a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+**Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
 
 - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-**Custom CSS** - Opens a CSS consle, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+**Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 **MY THEMES**
 
-In the MY THEMES section you'll find all the Deisgn Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
+In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
 
 ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png)
 
@@ -374,7 +374,7 @@ In the MY THEMES section you'll find all the Deisgn Themes that you create. Clic
 
 ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
 
-In the Results Page section you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
 **+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
 
@@ -386,15 +386,15 @@ In the Results Page section you can add content to the results page shown at the
 
 - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
 
-- **Image Block** - Adds an embeded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+- **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
 - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
 
-- **Slots Block** - Adds a block specifically desgned for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+- **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
 ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-**conditonal logic** / **tree icon** - Opens the [Block Logic]() menu.
+**conditional logic** / **tree icon** - Opens the [Block Logic]() menu.
 
 ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
 
@@ -414,13 +414,13 @@ All the Block Logic rules follow the same format
 
 **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
 
-*In the example, if a users chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.*
+*In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.*
 
 - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
 
 - **bin** - Delete the current Block Logic rule.
 
-- **+ add concurrent logic** - Adds a new AND logical statment to the same rule. AND conditonal statemenets can be tricky, as both statement have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+- **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
 **...** - Opens the more options menu.
 
@@ -440,9 +440,9 @@ All the Block Logic rules follow the same format
 
 - **Description** - Add a description to be displayed above the recommended products.
 
-- **Max. recommended products** - Select how many product should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Porduct Block to your results page and make sure that the "Allow suplicated recommendations" settings is off in your Results page settings.
+- **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
 
-- **Hide block when no products are recommended** - Activate this settings if you want to hide the product block if there are no recommendations. By default, with no recommendations a *"Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us."* text will be displayed instead. This text can be edited in the [Quiz Setttings](#quiz-settings) > Messages section.
+- **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
 - **Slot Block Settings** 
 
@@ -456,7 +456,7 @@ All the Block Logic rules follow the same format
 
 - **Description** - Add a description to be displayed above the slot.
 
-- **Max. recommended products** - Select how many product should be recommended in this Slot. Max 15 products can be displayed per slot. 
+- **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
 - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
 
@@ -476,9 +476,9 @@ All the Block Logic rules follow the same format
 
 - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page.
 
-    - **Proceed to cart** - After the product are added ot the cart, the customer will proceed to the cart page.
+    - **Proceed to cart** - After the products are added to the cart, the customer will proceed to the cart page.
 
-    - **proceed to checkout** - After the product are added ot the cart, the customer will proceed to the checkout page.
+    - **proceed to checkout** - After the products are added to the cart, the customer will proceed to the checkout page.
 
 - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
@@ -488,11 +488,11 @@ All the Block Logic rules follow the same format
 
 - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
 
-- **Show varaint image** - Click to always show the variant image, instead of the main product image.
+- **Show variant image** - Click to always show the variant image, instead of the main product image.
 
 - **Show price** - Toggle to display the product price on the results page.
 
-- **Show vendors** - Toggle to display the product vedndor under the product on the results page.
+- **Show vendors** - Toggle to display the product vendor under the product on the results page.
 
 - **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
 
@@ -504,13 +504,13 @@ All the Block Logic rules follow the same format
 
 - **Show reviews** - Toggle to show product rating below the product name on the resutls page. After activation make sure to run a [Catalog Sync]() to sync all the product reviews with the app.
 
-- **Show metafields** - Toggle to allow showing of custom product metafields on the resutls page. To show product metafileds follow the instructions in [How to show product metafileds in the quiz]().
+- **Show metafields** - Toggle to allow showing of custom product metafields on the resutls page. To show product metafields follow the instructions in [How to show product metafieleds in the quiz]().
 
 **Style Settings**
 
 ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png)
 
-**Background image** - Click "Add" to uplaod a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+**Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
 - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
@@ -521,17 +521,17 @@ All the Block Logic rules follow the same format
 
 **Recommendation Settings**
 
-**If no results, no products** - If there are no products that can be recommeneded a *"Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us."* text will be displayed instead. This text can be edited in the [Quiz Setttings](#quiz-settings) > Messages section.
+**If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
 
 **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-**Group product varaints** - Groups product variants as a dropdown under the main product name. Toggle to activate. Varaints are displayed in the order of votes they recived at the end of the quiz. If varaints rec ieve the same number of votes, the order in which they are displayed on the resutls page will be random.
+**Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.
 
-**Show unavailable products** - Allows products that are unavailble (out of stock) in the store to be recommended via the quiz. Toggle to activate. 
+**Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
 **Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-**Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommeneded in this block only to those that reciveded X votes or more. Toggle to activate.
+**Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
 
 ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
@@ -541,7 +541,7 @@ All the Block Logic rules follow the same format
 
 **Multiple Results Pages**
 
-**Activate multiple results pages** - Click "activate" to open the MULIIPLE RESULTS PAGES menu.
+**Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
 **MULTIPLE RESULTS PAGES** 
 
@@ -579,9 +579,9 @@ All the Block Logic rules follow the same format
 
 **Dynamic Discounts Settings**
 
-- **Enable notifications** - A toast notification will appear when customer qualifies for a discount. Toggle to enable/disable.
+- **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
 
-- **Encourage discounts** - The notifcation will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+- **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
 **Discount [A]** 
 
@@ -591,18 +591,18 @@ All the Block Logic rules follow the same format
 
 - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
 
-- **+** / **add another discount** - adds an new dynamic discount (Discount [B]).
+- **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
 
 - **bin** / **delete this discount** - deletes this dynamic discount.
 
-**add a discount** - Adds an new dynamic discount below (Discount [B]).
+**add a discount** - Adds a new dynamic discount below (Discount [B]).
 
 **deactivate** - Deactivates dynamic discounts.
 
 
 ## Notifications
 
-In the Notificaitons tab of the Quiz Builder you can activate and edit the emails that the customer or the store owner recieves at the end of the quiz.
+In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
 **TO RESPONDENT**
 
@@ -614,7 +614,7 @@ To activate notification emails to the quiz takers, toggle the "Send email when 
 
 ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
 
-TO RESPONDENT sectwion displays the email settings on the left and the email preview on the right. 
+TO RESPONDENT section displays the email settings on the left and the email preview on the right.
 
 ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
 
@@ -626,9 +626,9 @@ Select a response from the list to preview how the email will look like.
 
 **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-**Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to diplsay product images).
+**Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
-- **switch to advanced HTML message** - Switches to the advanced HTML email tempalte. Email can be edited with HTML and metadata can be included with [Handlebars]().
+- **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars]().
 
 ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
@@ -641,9 +641,9 @@ Select a response from the list to preview how the email will look like.
 
 ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
 
-**Get email when someone completes the quiz** - You'll recieve an email as shown on the prieview to the provided email address whenever someone reaches the results page. This email tempalte cannot be edited.
+**Get email when someone completes the quiz** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
 
-**Get email when someone proceedes to checkout** - You'll recieve an email as shown on the prieview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email tempalte cannot be edited.
+**Get email when someone proceedes to checkout** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
 
 ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 
@@ -698,7 +698,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 - **Add all to cart** -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
 
-- **Unavailbale** - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
+- **Unavailable** - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
 
 - **View results** - Default text on the button on the "Thank You" slide type. | Quiz
 
@@ -712,9 +712,9 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
 
-- **One-time purchase** - Default text that allows to add to cart a single-purchase varaint of the product if a product is a subscription product. | Results Page
+- **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
 
-- **Subscribe & save** - Default text that allows to add to cart a reoccuring-purchase varaint of the product if a product is a subscription product. | Results Page
+- **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
 
 **Placeholders**
 
@@ -730,7 +730,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 - **Select variant** - Default text on the product tile if the recommended product has variants grouped. | Results Page
 
-- **No variants** - Default text on the product tile if the product has variants grouped but the  product has no varaints. | Results Page
+- **No variants** - Default text on the product tile if the product has variants grouped but the product has no variants. | Results Page
 
 **Helpers**
 
@@ -752,13 +752,13 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 - **File under 2MB** - Default text on the file upload question slides. | Quiz
 
-- **Delivery every X days** - Default text that allows to add to cart a reoccuring-purchase varaint of the product if a product is a subscription product. | Results Page
+- **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
 
-- **Delivery every X weeks** - Default text that allows to add to cart a reoccuring-purchase varaint of the product if a product is a subscription product. | Results Page
+- **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
 
-- **Delivery every X months** - Default text that allows to add to cart a reoccuring-purchase varaint of the product if a product is a subscription product. | Results Page
+- **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
 
-- **Delivery every X years** - Default text that allows to add to cart a reoccuring-purchase varaint of the product if a product is a subscription product. | Results Page
+- **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
 
 **Discount Notifications**
 
@@ -782,7 +782,7 @@ In the Version History section of Quiz Settings you will find all the published 
 
 **...** - Click to open the restore menu.
 
-- **Create a new quiz usign this version** - Creates a new quiz on our dashbaord based on this version of the current quiz.
+- **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
 
 - **Rename this version** - Allows you to rename this saved version of the quiz.
 
@@ -790,7 +790,7 @@ In the Version History section of Quiz Settings you will find all the published 
 
 ![quiz builder connect](/images/manual_quizbuilder_connect.png)
 
-In the Connect tab of the Quiz Builder, you can connect your quiz to thrid-party services. Check [here](https://revenuehunt.com/integrations/) the up-to-date list of our intergrations.
+In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
 
 To connect the quiz to a particular service, find it on the page and click "Connect". Then follow the instructions displayed in the browser or in the "read more" section.
 
@@ -800,7 +800,7 @@ To connect the quiz to a particular service, find it on the page and click "Conn
 
 In the Share tab of the Quiz Builder, you can choose how to publish the quiz on your website or how to share it with your customers. Click on the option tiles to see instructions and extra settings. 
 
-For step by step insctructions check [How to Publish the Quiz]() guide.
+For step-by-step instructions check [How to Publish the Quiz]() guide.
 
 **Link** 
 
@@ -824,7 +824,7 @@ Quiz embedded inline with a page.
 
 ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
 
-- **EMBEDED QUIZ OPTIONS**
+- **EMBEDDED QUIZ OPTIONS**
 
 - **Width** - Adjust the width of the quiz by typing the percentage number or px value.
 
@@ -836,7 +836,7 @@ Quiz embedded inline with a page.
 
 A quiz popup appears after X seconds.
 
-By default the popup is only shown once per session.
+By default, the popup is only shown once per session.
 
 ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
 
@@ -850,7 +850,7 @@ By default the popup is only shown once per session.
 
 - **Popup height** - Adjust the width of the quiz by typing the percentage number.
 
-- **Wait seconds** - Set up the number of seconds after which the quiz popup will be automaticaly displayed. Note: Do not set a value to 0.
+- **Wait seconds** - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
 
 - **Exit intent** - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
@@ -914,7 +914,7 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
 
 ![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
 
-On the left hand side menu, you'll find the most recent 100 responses the quiz recived organized by date/timestamp. Click on a date to open a specific response. 
+On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
 
 **Export all as CSV** - Click to generate a CSV file with all the quiz responses from the last 90 days. Once ready, a downloadable link will show up on your dashboard once the CSV file is finished generating.
 
@@ -930,7 +930,7 @@ On the left hand side menu, you'll find the most recent 100 responses the quiz r
 
 **Results Page 1** - Displays the name of the results page recommended.
 
-**Products** - Product were recommended in a Product block.
+**Products** - Products were recommended in a Product block.
 
 **↑1 🎁6** - Minimum number of votes that allow the product to be shown in this product block: 1; Maximum number of products that are allowed to be shown in this product block: 6.
 
@@ -940,7 +940,7 @@ On the left hand side menu, you'll find the most recent 100 responses the quiz r
 
 **Results Page 1** - Displays the name of the results page recommended.
 
-**Slots** - Product were recommended in a Slots block.
+**Slots** - Products were recommended in a Slots block.
 
 **Step 1: Cleanser** / **Slot Title** - Displays the title of the Slot block.
 
@@ -958,7 +958,7 @@ On the left hand side menu, you'll find the most recent 100 responses the quiz r
 
 **Preview Results:** - Displays a preview link which opens this response on the results page.
 
-**recalculate recommendations** - Recalculates the responses acording to the current quiz setup.
+**recalculate recommendations** - Recalculate the responses according to the current quiz setup.
 
 **resend notifications** - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
 

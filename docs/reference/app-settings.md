@@ -6,11 +6,11 @@
 
 **Your Profile**
 
-**Shop email** - Your main store contact email. We automaticaly update this email each time we sync your store. You can change this email in your store settings (not the app).
+**Shop email** - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
 
 **Your best email** -  Provide your best email (not your store email) for communication in case of issues.
 
-**Send notifications to email** - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashaboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+**Send notifications to email** - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
 
 **Data & GDPR**
 
@@ -20,7 +20,7 @@
 
 ![app settings catalogue](/images/manual_appsettings_catalogue.png)
 
-**Metafields Namespaces** - We will import the metafields information for the following namespaces. You will then be able to display this information in the products result page. In this section we'll display a list of metafield categories found in your store. You can toggle the button to activate the metrafielss and follow this article to show them in the quiz: [How to Add Product Metafileds]().
+**Metafields Namespaces** - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields and follow this article to show them in the quiz: [How to Add Product Metafileds]().
 
 ## SMTP
 
@@ -34,17 +34,17 @@ When you connect the Shop Quiz app to your SMTP Server, the follow-up emails wit
 
 Check [How to Send Result Emails from your own server]() for detailed instructions on how to set this up.
 
-**Name to display(From):** - Set what name and email the customer will see when they recieve the email.
+**Name to display(From):** - Set what name and email the customer will see when they receive the email.
 
 **SMTP Server** - Set your server URL.
 
 **SMTP Username** - Set your SMTP Username.
 
-**SMTP Password**  - Provide the paswsword associated with the username.
+**SMTP Password**  - Provide the password associated with the username.
 
 **SMTP Port** - Set the SMTP port (25, 465, 587 or 2525)
     
-**test connection & activate** - Once you've provided all your credentials you can test if the connection to your SMTP server is succesful. If you see an error check your SMTP settings with the help of a third party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you’re having issues, please get in touch with your developer / SMTP provider.
+**test connection & activate** - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you’re having issues, please get in touch with your developer / SMTP provider.
 
 ## Shop App (Beta)
 
@@ -64,6 +64,6 @@ Check [How to Send Result Emails from your own server]() for detailed instructio
 
 **Quiz Image URL** - Provide a URL of an image you'd like to see featured on the Shop App quiz page.
 
-**Entry Point Preview** - Shows a preview of how the quiz entry point will look like in your store's page in the Shop App.
+**Entry Point Preview** - Shows a preview of how the quiz entry point will look on your store's page in the Shop App.
 
 ![app settings shop app preview](/images/manual_appsettings_shopapp_preview.png)

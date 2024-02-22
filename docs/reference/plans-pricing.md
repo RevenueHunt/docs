@@ -4,7 +4,7 @@
 
 ![plans & pricing page](/images/manual_plans_pricing.png)
 
-**Your quizzes received *1,049* responses during the past 30 days** Indicates your quiz engagment in the last 30 days.
+**Your quizzes received *1,049* responses during the past 30 days** Indicates your quiz engagement in the last 30 days.
 
 **view larger plans** - Opens a list of larger plans offered in the app.
 
