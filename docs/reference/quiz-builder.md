@@ -18,11 +18,11 @@ The top Success Checklist reminds you of the progress you've made in building yo
 
 **Edit** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
 
-**Connect** - Opens the [Connect]() section fo the Quiz Builder.
+**Connect** - Opens the [Connect](#connect) section fo the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
 
-**Share** - Opens the [Share]() section of the Quiz Builder.
+**Share** - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
 
-**Metrics** - Opens the [Metrics]() section of the Quiz Builder.
+**Metrics** - Opens the [Metrics](#metrics) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
 
 **Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
 

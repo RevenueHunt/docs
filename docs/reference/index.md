@@ -36,7 +36,7 @@ Quiz Builder is composed of the following sections:
 
 - **Quiz Settings** - This is where you'll change currency, language and other global settings of the quiz.
 
-- **Connect** - This is where you'll integrate the quiz with other tools like Kaviyo or Google Analytics.
+- **Connect** - This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
 
 - **Share** - This is where you'll choose how to publish the quiz on your website or share it.
 
