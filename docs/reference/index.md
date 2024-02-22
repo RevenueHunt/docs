@@ -20,29 +20,27 @@ In Quiz Builder you'll create your quiz. Via the Quiz Builder you can add questi
 
 Quiz Builder is composed of the following sections:
 
-**[Quiz Builder](docs\reference\quiz-builder.md\#quiz-builder-1)** - This is where you'll add questions/slides to your quiz.
+- **Quiz Builder** - This is where you'll add questions/slides to your quiz.
 
-**[Link Collections](docs\reference\quiz-builder.md\#link-collections)** - This is where you'll link entire collections or tags of products from your store to individual choices.
+- **Link Products/ Collections** - This is where you'll link inbdividual products or entire collections or tags of products from your store to individual choices.
 
-**[Link Products](docs\reference\quiz-builder.md\#link-products)** - This is where you'll link products from your store to individual choices.
+- **Customer Tags** - This is where you'll create custom tags to link to individual choices.
 
-**[Customer Tags](docs\reference\quiz-builder.md\#customer-tags)** - This is where you'll create custom tags to link to individual choices.
+- **Conditional Logic** - This is where you'll create branching in your quiz.
 
-**[Conditional Logic](docs\reference\quiz-builder.md\#conditional-logic)** - This is where you'll create branching in your quiz.
+- **Quiz Design** - This is where you'll style your quiz.
 
-**[Quiz Design](docs\reference\quiz-builder.md\#quiz-design)** - This is where you'll style your quiz.
+- **Results Page** - This is where you'll edit your results page.
 
-**[Results Page](docs\reference\quiz-builder.md\#results-page)** - This is where you'll edit your results page.
+- **Notifications** - This is where you'll set up your quiz result emails.
 
-**[Notifications](docs\reference\quiz-builder.md\#notifications)** - This is where you'll set up your quiz result emails.
+- **Quiz Settings** - This is where you'll change currency, language and other global settings of the quiz.
 
-**[Quiz Settings](docs\reference\quiz-builder.md\#quiz-settings)** - This is where you'll change currency, language and other base settings of the quiz.
+- **Connect** - This is where you'll integrate the quiz with other tools like Kaviyo or Google Analytics.
 
-**[Connect](docs\reference\quiz-builder.md\#connect)** - Opens the integrations section fo the Quiz Builder.
+- **Share** - This is where you'll choose how to publish the quiz on your website or share it.
 
-**[Share](docs\reference\quiz-builder.md\#share)** - Opens the publishing section of the Quiz Builder.
-
-**[Metrics](docs\reference\quiz-builder.md\#metrics)** - Opens the metrics and responses section of the Quiz Builder.
+- **Metrics** - This is where you'll check your quiz metrics and responses.
 
 [:fontawesome-solid-arrow-right: continue reading](quiz-builder.md)
 
