@@ -788,6 +788,231 @@ In the Version History section of Quiz Settings you will find all the published 
 
 ## Connect
 
+![quiz builder connect](/images/manual_quizbuilder_connect.png)
+
+In the Connect tab of the Quiz Builder, you can connect your quiz to thrid-party services. Check [here](https://revenuehunt.com/integrations/) the up-to-date list of our intergrations.
+
+To connect the quiz to a particular service, find it on the page and click "Connect". Then follow the instructions displayed in the browser or in the "read more" section.
+
 ## Share
 
+![quiz builder share](/images/manual_quizbuilder_share.png)
+
+In the Share tab of the Quiz Builder, you can choose how to publish the quiz on your website or how to share it with your customers. Click on the option tiles to see instructions and extra settings. 
+
+For step by step insctructions check [How to Publish the Quiz]() guide.
+
+**Link** - A link that will open the quiz as a popup over your page.
+
+![quiz builder share link](/images/manual_quizbuilder_share_link.png)
+
+- **POPUP OPTIONS**
+
+- **Popup width** - Adjust the width of the quiz by typing the percentage number.
+
+- **Popup height** - Adjust the width of the quiz by typing the percentage number.
+
+**Inline** - Quiz embedded inline with a page.
+
+![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
+
+**Instructions for legacy themes** - Opens extra settings menu.
+
+![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
+
+- **EMBEDED QUIZ OPTIONS**
+
+- **Width** - Adjust the width of the quiz by typing the percentage number or px value.
+
+- **Height** - Adjust the width of the quiz by typing the percentage number or px value.
+
+- **Fixed height** - Will set a fixed height of the quiz iframe as specified in the **Height** field above. Toggle to activate. 
+
+**Automatic** - A quiz popup appears after X seconds.
+
+By default the popup is only shown once per session.
+
+![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
+
+**Instructions for legacy themes** - Opens extra settings menu.
+
+![quiz builder share automatic legacy](/images/manual_quizbuilder_share_automatic_legacy.png)
+
+- **POPUP OPTIONS**
+
+- **Popup width** - Adjust the width of the quiz by typing the percentage number.
+
+- **Popup height** - Adjust the width of the quiz by typing the percentage number.
+
+- **Wait seconds** - Set up the number of seconds after which the quiz popup will be automaticaly displayed. Note: Do not set a value to 0.
+
+- **Exit intent** - Show the automatic popup when the customer is exit intent. Toggle to activate.
+
+**External** - Direct link to the quiz for social media.
+
+![quiz builder share external](/images/manual_quizbuilder_share_external.png)
+
+- **POPUP OPTIONS**
+
+- **Popup width** - Adjust the width of the quiz by typing the percentage number.
+
+- **Popup height** - Adjust the width of the quiz by typing the percentage number.
+
+**Email** - Quiz popup when someone clicks on this email link. 
+
+![quiz builder share email](/images/manual_quizbuilder_share_email.png)
+
+- **POPUP OPTIONS**
+
+- **Popup width** - Adjust the width of the quiz by typing the percentage number.
+
+- **Popup height** - Adjust the width of the quiz by typing the percentage number.
+
+**Chat** - Quiz popup when visitors click on a chat-like button.
+
+![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
+
+**Instructions for legacy themes** - Opens extra settings menu.
+
+![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)
+
+- **POPUP OPTIONS**
+
+- **Popup width** - Adjust the width of the quiz by typing the percentage number.
+
+- **Popup height** - Adjust the width of the quiz by typing the percentage number.
+
+![quiz builder share chat legacy button](/images/manual_quizbuilder_share_chat_legacy_button.png)
+
+- **CHAT BUTTON OPTIONS**
+
+- **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
+
+- **Hide after quiz completion** - Hide the chat button after the customer reaches the resutls page. Toggle to activate.
+
+- **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
+
+- **Greeting message** - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
+
 ## Metrics
+
+In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
+
+**responses**
+
+![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
+
+On the left hand side menu, you'll find the most recent 100 responses the quiz recived organized by date/timestamp. Click on a date to open a specific response. 
+
+**Export all as CSV** - Click to generate a CSV file with all the quiz responses from the last 90 days. Once ready, a downloadable link will show up on your dashboard once the CSV file is finished generating.
+
+![quiz builder metrics responses details1](/images/manual_quizbuilder_metrics_responses_details1.png)
+
+**Why was a product recommended or not in this response?** - This section of the app
+
+**SELECT PRODUCT TO CHECK** - Click to select a product from the catalog and analyze it against the response.
+
+**Responses to Questions:** - This section displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question.
+
+![quiz builder metrics responses details2 products](/images/manual_quizbuilder_metrics_responses_details2_products.png)
+
+**Results Page 1** - Displays the name of the results page recommended.
+
+**Products** - Product were recommended in a Product block.
+
+**↑1 🎁6** - Minimum number of votes that allow the product to be shown in this product block: 1; Maximum number of products that are allowed to be shown in this product block: 6.
+
+**Kopi Luwak Coffee** / **Product name** - Displays the name of the product recommended in this product block. Hover over the product to see how many upvotes it received in the quiz.
+
+![quiz builder metrics responses details2 slots](/images/manual_quizbuilder_metrics_responses_details2_slots.png)
+
+**Results Page 1** - Displays the name of the results page recommended.
+
+**Slots** - Product were recommended in a Slots block.
+
+**Step 1: Cleanser** / **Slot Title** - Displays the title of the Slot block.
+
+**↑1 🎁1** - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
+
+**✅5** - Displays which products this slot will allow to be displayed.
+
+**Cleansers (5)** / **Collection (x)** - Displays the collections which are linked to this slot.
+
+**All Natural Face Cleanser** - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
+
+![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
+
+**Customer Tags:** - Displays the customer tags that were recorded in this response.
+
+**Preview Results:** - Displays a preview link which opens this response on the results page.
+
+**recalculate recommendations** - Recalculates the responses acording to the current quiz setup.
+
+**resend notifications** - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
+
+**analytics**
+
+![quiz builder metrics analytics](/images/manual_quizbuilder_metrics_analytics.png)
+
+The data in the graphs are totals in a selected period of time for a selected quiz. 
+
+![quiz builder metrics analytics dates](/images/manual_quizbuilder_metrics_analytics_dates.png)
+
+To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
+
+**Compare:** - Choose how you want to compare the data in the graphs. 
+
+- **Part Period** - Presents data against the values from previous 30 days.
+
+- **Quiz** - Choose a quiz name against which you want to compare the metrics against.
+
+**Quiz Starts** / **Starts** - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). 
+
+![quiz builder metrics analytics starts](/images/manual_quizbuilder_metrics_analytics_starts.png)
+
+**Quiz Responses** / **Responses** - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.
+
+![quiz builder metrics analytics responses](/images/manual_quizbuilder_metrics_analytics_responses.png)
+
+**Completion Rate** / **Comp. Rate** - Percentage of people who have engaged with the quiz and completed it.
+
+![quiz builder metrics analytics completion rate](/images/manual_quizbuilder_metrics_analytics_comprate.png)
+
+**Carts Count** / **Num. Carts** - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button.
+
+![quiz builder metrics analytics carts count](/images/manual_quizbuilder_metrics_analytics_cartscount.png)
+
+**Avg. Cart Value** - Average value of the products included in the carts or checkouts.
+
+![quiz builder metrics analytics average carts](/images/manual_quizbuilder_metrics_analytics_avgcarts.png)
+
+**Total Carts Value** - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout.
+
+![quiz builder metrics analytics total carts](/images/manual_quizbuilder_metrics_analytics_totalcarts.png)
+
+**Number of Orders (Beta)** - Number of people who have placed an order after completing this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+
+**Total Orders Value (Beta)** - Total value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+
+**Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+
+
+**drop-off**
+
+![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
+
+The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+
+![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
+
+To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
+
+**table** - Displays the dropoff rate for each question and the results page in a table format.
+
+![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
+
+**chart** - Displays the dropoff rate for each question and the results page in a chart format.
+
+![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
+
+
