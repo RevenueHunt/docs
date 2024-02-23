@@ -90,7 +90,7 @@ Quiz Builder is composed of two sections: the slides (left) and the preview (rig
 
 **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
-### Question settings
+### Question Settings
 
 ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
 
@@ -478,7 +478,7 @@ All the Block Logic rules follow the same format
 
 ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-### Results Page Settings: BASIC
+### Basic Settings
 
 **Checkout Settings**
 
@@ -525,7 +525,7 @@ All the Block Logic rules follow the same format
 - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
 
-### Results Page Settings: ADVANCED
+### Advanced Settings
 
 ![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png)
 
@@ -553,7 +553,7 @@ All the Block Logic rules follow the same format
 
 **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
-### Results Page Settings: MULTIPLE RESULTS PAGES
+### Multiple Results Pages Settings
 
 ![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png)
 
@@ -571,7 +571,7 @@ All the Block Logic rules follow the same format
 
 **Create new Results Page** - add a new resutls page to your quiz.
 
-### Results Page Settings: DISCOUNTS
+### Discounts Settings
 
 ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
@@ -614,7 +614,7 @@ All the Block Logic rules follow the same format
 
 In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
-### TO RESPONDENT
+### To Respondent
 
 ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
@@ -647,7 +647,7 @@ Select a response from the list to preview how the email will look like.
 ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
 
-### TO SELF
+### To Self
 
 ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
 
@@ -664,7 +664,7 @@ Select a response from the list to preview how the email will look like.
 
 In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
 
-### GENERAL
+### General
 
 ![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png)
 
@@ -688,7 +688,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 **Quiz ID** - Displays the current quiz ID.
 
-### MESSSAGES
+### Messages
 
 ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png)
 
@@ -782,7 +782,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 **Restore default messages** - Click "restore" to set all fields back to default.
 
-### VERSION HISTORY
+### Version History
 
 ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png)
 
@@ -920,7 +920,7 @@ Quiz popup when visitors click on a chat-like button.
 
 In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
-### responses
+### Responses
 
 ![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
 
@@ -972,7 +972,7 @@ On the left-hand side menu, you'll find the most recent 100 responses the quiz r
 
 **resend notifications** - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
 
-### analytics
+### Analytics
 
 ![quiz builder metrics analytics](/images/manual_quizbuilder_metrics_analytics.png)
 
@@ -1019,7 +1019,7 @@ To change the dates click on the 📆 icon. You can change the period to select 
 **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
 
-### drop-off
+### Drop-off
 
 ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
 
