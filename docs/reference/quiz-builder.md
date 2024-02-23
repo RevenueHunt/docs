@@ -52,6 +52,8 @@ The top Success Checklist reminds you of the progress you've made in building yo
 
 Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Preview** in the top menu.
 
+### Question Types
+
 **+** / **Add new question** - Opens a menu of quiz questions to add.
 
 ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png)
@@ -88,7 +90,7 @@ Quiz Builder is composed of two sections: the slides (left) and the preview (rig
 
 **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
-**Question settings**
+### Question settings
 
 ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
 
@@ -246,7 +248,7 @@ The top menu allows you to switch between questions.
 
 **arrow down** - Take you to the question lower.
 
-**JUMP LOGIC**
+### Jump Logic
 
 Jump Logic allows you to route customers to different questions based on their responses.
 
@@ -282,7 +284,7 @@ All the Jump Logic rules follow the same format
 
 **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
 
-**SKIP LOGIC**
+### Skip Logic
 
 Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
 
@@ -328,7 +330,7 @@ The top menu allows you to switch between questions to preview them.
 
 **Results** - Shows the preview of how the results page looks like.
 
-**EDIT THEME**
+### Edit Theme
 
 In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
 
@@ -352,7 +354,7 @@ In the EDIT THEME section you can change the styling of your current quiz theme.
 
 **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
-**MY THEMES**
+### My Themes
 
 In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
 
@@ -376,6 +378,8 @@ In the MY THEMES section you'll find all the Design Themes that you create. Clic
 
 In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
+### Block Types
+
 **+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
 
 ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
@@ -393,6 +397,8 @@ In the Results Page section, you can add content to the results page shown at th
 - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
 ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+
+### Block Logic
 
 **conditional logic** / **tree icon** - Opens the [Block Logic]() menu.
 
@@ -430,9 +436,11 @@ All the Block Logic rules follow the same format
 
 - **bin** / **delete block** - Deletes the current block from the resutls page.
 
+### Block Settings
+
 🔧 / **wrench icon** - Opens the block settings menu.
 
-- **Product Block Settings**
+**Product Block Settings**
 
 ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
 
@@ -444,7 +452,7 @@ All the Block Logic rules follow the same format
 
 - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
-- **Slot Block Settings** 
+**Slot Block Settings** 
 
 ![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
@@ -464,11 +472,13 @@ All the Block Logic rules follow the same format
 
 **Slot ID** - Displays the current slot ID.
 
+### Results Page Settings
+
 ⚙️ / **gear icon** - Opens the results page settings.
 
 ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-**BASIC**
+### Results Page Settings: BASIC
 
 **Checkout Settings**
 
@@ -515,7 +525,7 @@ All the Block Logic rules follow the same format
 - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
 
-**ADVANCED**
+### Results Page Settings: ADVANCED
 
 ![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png)
 
@@ -543,7 +553,7 @@ All the Block Logic rules follow the same format
 
 **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
-**MULTIPLE RESULTS PAGES** 
+### Results Page Settings: MULTIPLE RESULTS PAGES
 
 ![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png)
 
@@ -561,7 +571,7 @@ All the Block Logic rules follow the same format
 
 **Create new Results Page** - add a new resutls page to your quiz.
 
-**DISCOUNTS**
+### Results Page Settings: DISCOUNTS
 
 ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
@@ -604,7 +614,7 @@ All the Block Logic rules follow the same format
 
 In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
-**TO RESPONDENT**
+### TO RESPONDENT
 
 ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
@@ -637,7 +647,7 @@ Select a response from the list to preview how the email will look like.
 ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
 
-**TO SELF**
+### TO SELF
 
 ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
 
@@ -654,7 +664,7 @@ Select a response from the list to preview how the email will look like.
 
 In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
 
-**GENERAL** 
+### GENERAL
 
 ![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png)
 
@@ -678,7 +688,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 **Quiz ID** - Displays the current quiz ID.
 
-**MESSSAGES** 
+### MESSSAGES
 
 ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png)
 
@@ -772,7 +782,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 **Restore default messages** - Click "restore" to set all fields back to default.
 
-**VERSION HISTORY**
+### VERSION HISTORY
 
 ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png)
 
@@ -802,7 +812,7 @@ In the Share tab of the Quiz Builder, you can choose how to publish the quiz on 
 
 For step-by-step instructions check [How to Publish the Quiz]() guide.
 
-**Link** 
+### Link
 
 A link that will open the quiz as a popup over your page.
 
@@ -814,7 +824,7 @@ A link that will open the quiz as a popup over your page.
 
 - **Popup height** - Adjust the width of the quiz by typing the percentage number.
 
-**Inline** 
+### Inline
 
 Quiz embedded inline with a page.
 
@@ -832,7 +842,7 @@ Quiz embedded inline with a page.
 
 - **Fixed height** - Will set a fixed height of the quiz iframe as specified in the **Height** field above. Toggle to activate. 
 
-**Automatic** 
+### Automatic
 
 A quiz popup appears after X seconds.
 
@@ -854,7 +864,7 @@ By default, the popup is only shown once per session.
 
 - **Exit intent** - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
-**External** 
+### External
 
 Direct link to the quiz for social media.
 
@@ -866,7 +876,7 @@ Direct link to the quiz for social media.
 
 - **Popup height** - Adjust the width of the quiz by typing the percentage number.
 
-**Email** 
+### Email
 
 Quiz popup when someone clicks on this email link. 
 
@@ -878,7 +888,7 @@ Quiz popup when someone clicks on this email link.
 
 - **Popup height** - Adjust the width of the quiz by typing the percentage number.
 
-**Chat** 
+### Chat
 
 Quiz popup when visitors click on a chat-like button.
 
@@ -910,7 +920,7 @@ Quiz popup when visitors click on a chat-like button.
 
 In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
-**responses**
+### responses
 
 ![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
 
@@ -962,7 +972,7 @@ On the left-hand side menu, you'll find the most recent 100 responses the quiz r
 
 **resend notifications** - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
 
-**analytics**
+### analytics
 
 ![quiz builder metrics analytics](/images/manual_quizbuilder_metrics_analytics.png)
 
@@ -1009,7 +1019,7 @@ To change the dates click on the 📆 icon. You can change the period to select 
 **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
 
-**drop-off**
+### drop-off
 
 ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
 
