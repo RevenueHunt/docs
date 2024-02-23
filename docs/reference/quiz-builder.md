@@ -4,7 +4,7 @@
 
 The Quiz Builder is divided into several sections.
 
-**Dashbaord** - Click to go back to the Dashbaord (exit the Quiz Builder).
+**Dashboard** - Click to go back to the Dashboard (exit the Quiz Builder).
 
 **Demo Quiz** - Displays the quiz name. Quiz name can be changed in [Quiz Settings]().
 

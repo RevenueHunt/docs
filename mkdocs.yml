@@ -40,7 +40,7 @@ nav:
     - Docs: index.md
     - Tutorials: tutorials/index.md
     - How-to Guides: how-to-guides/index.md
-    - Reference: reference/index.md
+    - App Manual: reference/index.md
     - Customer Success: customer-success/index.md
   - Tutorials:
     - Tutorials: tutorials/index.md
@@ -59,7 +59,7 @@ nav:
     - App Settings: reference/app-settings.md
   - Customer Success:
     - Customer Success: customer-success/index.md
-    - Example 1: customer-success/index.md
+    - How to build a Succesful Product Recommendation Quiz: customer-success/how-to-build-succesful-quiz.md
     - Example 2: customer-success/index.md
     - Example 3: customer-success/index.md
 
