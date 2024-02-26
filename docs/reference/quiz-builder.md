@@ -930,7 +930,7 @@ On the left-hand side menu, you'll find the most recent 100 responses the quiz r
 
 ![quiz builder metrics responses details1](/images/manual_quizbuilder_metrics_responses_details1.png)
 
-**Why was a product recommended or not in this response?** - This section of the app
+**Why was a product recommended or not in this response?** - This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
 
 **SELECT PRODUCT TO CHECK** - Click to select a product from the catalog and analyze it against the response.
 
