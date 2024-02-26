@@ -22,7 +22,7 @@ Quiz Builder is composed of the following sections:
 
 ### [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1)
 
-This is where you'll add questions/slides to your quiz.
+This is where you'll add questions/slides to your quiz..
 
 ### [Link Products/ Collections](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections)
 
