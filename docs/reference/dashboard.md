@@ -8,9 +8,9 @@ Shopify Side Menu
 
 ![dashboard side menu](/images/manual_sidemenu.png)
 
-**Plans & Pricing** - Opens the [Plans & Pricing tab](#plans--pricing) (in-app URL (https://admin.revenuehunt.com/plans))
+**Plans & Pricing** - Opens the [Plans & Pricing tab](reference/plans-pricing.md) (in-app URL (https://admin.revenuehunt.com/plans))
 
-**App Settings** - Opens the [App Settings](#app-settings) menu.
+**App Settings** - Opens the [App Settings](reference/app-settings.md) menu.
 
 ![dashboard top menu](/images/manual_dashboard_topmenu.png)
 
@@ -39,13 +39,13 @@ Shopify Side Menu
 
 ![dashboard quiz menu](/images/manual_dots_menu.png)
 
-- **Edit** - Opens the [Quiz Builder]().
+- **Edit** - Opens the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
 
-- **Connect** - Opens the [Connect tab]() within the Quiz Builder.
+- **Connect** - Opens the [Connect tab](https://docs.revenuehunt.com/reference/quiz-builder/#connect) within the Quiz Builder.
 
-- **Share** - Opens the [Share tab]() within the Quiz Builder.
+- **Share** - Opens the [Share tab](https://docs.revenuehunt.com/reference/quiz-builder/#share) within the Quiz Builder.
 
-- **Metrics** - Opens the [Metrics tab]() within the Quiz Builder.
+- **Metrics** - Opens the [Metrics tab](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) within the Quiz Builder.
 
 - **Preview** - Opens the Quiz Preview.
 
@@ -55,7 +55,7 @@ Shopify Side Menu
 
 - **Export Responses as CSV** - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
 
-- **Version History** - Open the [Version History tab]() in Quiz Builder > Quiz Settings.
+- **Version History** - Open the [Version History tab](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) in Quiz Builder > Quiz Settings.
 
 - **Copy quiz ID: xxx** - Copy the quiz ID of the current quiz.
 
@@ -105,7 +105,7 @@ To open the Success Checklist click on any of the ❓❗✅ 🔄 icons.
 
 ![new quiz empty add name](/images/manual_newquiz_addname.png)
 
-**import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another]() for detailed instructions.
+**import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
 **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
 
