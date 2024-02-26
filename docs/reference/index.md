@@ -20,47 +20,47 @@ In Quiz Builder you'll create your quiz. Via the Quiz Builder, you can add quest
 
 Quiz Builder is composed of the following sections:
 
-### [**Quiz Builder**](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1)
+### [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1)
 
 This is where you'll add questions/slides to your quiz.
 
-### [**Link Products/ Collections**](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections)
+### [Link Products/ Collections](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections)
 
 This is where you'll link individual products or entire collections or tags of products from your store to individual choices.
 
-### [**Customer Tags**](https://docs.revenuehunt.com/reference/quiz-builder/#customer-tags) 
+### [Customer Tags](https://docs.revenuehunt.com/reference/quiz-builder/#customer-tags) 
 
 This is where you'll create custom tags to link to individual choices.
 
-### [**Conditional Logic**](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic)
+### [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic)
 
 This is where you'll create branching in your quiz.
 
-### [**Quiz Design**](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) 
+### [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) 
 
 This is where you'll style your quiz.
 
-### [**Results Page**](https://docs.revenuehunt.com/reference/quiz-builder/#results-page)
+### [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page)
 
 This is where you'll edit your results page.
 
-### [**Notifications**](https://docs.revenuehunt.com/reference/quiz-builder/#notifications) 
+### [Notifications](https://docs.revenuehunt.com/reference/quiz-builder/#notifications) 
 
 This is where you'll set up your quiz result emails.
 
-### [**Quiz Settings**](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings)
+### [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings)
 
 This is where you'll change the currency, language, and other global settings of the quiz.
 
-### [**Connect**](https://docs.revenuehunt.com/reference/quiz-builder/#connect)
+### [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect)
 
 This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
 
-### [**Share**](https://docs.revenuehunt.com/reference/quiz-builder/#share)
+### [Share](https://docs.revenuehunt.com/reference/quiz-builder/#share)
 
 This is where you'll choose how to publish the quiz on your website or share it.
 
-### [**Metrics**](https://docs.revenuehunt.com/reference/quiz-builder/#metrics)
+### [Metrics](https://docs.revenuehunt.com/reference/quiz-builder/#metrics)
 
 This is where you'll check your quiz metrics and responses.
 
