@@ -2,6 +2,8 @@
 
 You’re about to create your first Product Recommendation Quiz but not sure where to start? Below you’ll find a list of helpful tutorials that show you step-by-step how to use the app’s features.
 
+Full tutorials playlist: ![https://www.youtube.com/@productrecommendationquiz1054](https://www.youtube.com/@productrecommendationquiz1054)
+
 ### [Getting Started with Product Recommendation Quiz](getting-started.md)
 
 An overview of the most important features of the Product Recommendation Quiz app.
