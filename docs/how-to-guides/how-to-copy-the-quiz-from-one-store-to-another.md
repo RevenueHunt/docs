@@ -8,17 +8,15 @@ Make sure the [Shop Quiz app](https://revenuehunt.com/product-recommendation-qui
 
 To do that, go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#general) and select “Export quiz to another store”. Once selected, a popup will appear with a unique code. Copy this code before closing the window. The code is valid for 1 hour.
 
-![how to copy the quiz step 1](/images/how to copy the quiz step 1.gif)
-
 ![how to copy the quiz step 1](/images/how to copy the quiz step 1 v2.gif)
 
 *Tip: Copy the export quiz code to a text file first to make sure it's not lost.*
 
-## Step 2: Login to the Other Store in Incognito Browser Tab
+## Step 2: Login to the Other Store
 
 Login to your new store and open the Shop Quiz app. 
 
-Make sure you’re not logged into two eCommerce accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+Make sure you’re not logged into two Shopify/eCommerce accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
 ## Step 3: Import the Quiz
 
@@ -26,7 +24,8 @@ Go to the app's [Dashboard](https://docs.revenuehunt.com/reference/dashboard/) a
 
 Select the option “import a quiz from another store” and paste the code (generated in a previous step) there. 
 
-A new quiz will appear on your dashboard.
+![how to copy the quiz step 3](/images/how to copy the quiz step 3.gif)
 
+A new quiz with a (copy) in the name will appear on your dashboard.
 
 
