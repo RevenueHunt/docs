@@ -1,60 +1,72 @@
-#  How to Add Product Metafileds.
+# How to Add Product Metafields
 
-Some stores use Metafields (Shopify) to display certain product properties.
+Metafields in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or per 100ml price for cosmetic products. Metafields/attributes make this possible.
 
-For example, in Germany, it is mandatory to display the grundpreis or “per 100ml price” for cosmetic products. Ecommerce platforms don’t show this by default, but metafields /attributes let you display it.
+If you're looking to import product metafields/attributes from your store into the Shop Quiz to display them on your quiz's results page, follow the steps outlined below:
 
-If you wish to import product metafields / attributes from your store into the Shop Quiz in order to display them on your quiz’s results page, you have to take the following steps:
+## Step 1: Enable Metafields Display
 
-## Step 1: Show Metafileds
+First, enable the display of metafields for individual products:
 
-Navigate to your [Results Page Settings > Basic](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) > Individual Product Settings and activate the “show metafields” toggle.
+1. Navigate to your [Results Page Settings > Basic](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) > Individual Product Settings.
+2. Activate the **"show metafields"** toggle.
 
-![how to add product metafileds step 1](/images/how to add metafields step 1.gif)
+![Enable Metafields Display](/images/how to add metafields step 1.gif)
 
-## Step 2. Open Settings
+## Step 2: Access Settings
 
-Open the [App Settigns > Catalogue](https://docs.revenuehunt.com/reference/app-settings/#catalogue).
+Access the settings to manage your catalog:
 
-## Step 3. Choose Metafields / Attributes
+1. Open [App Settings > Catalogue](https://docs.revenuehunt.com/reference/app-settings/#catalogue).
 
-Select the Metafields namespaces that you want to sync by clicking the toggle icon:
+## Step 3: Select Metafields / Attributes
 
-![how to add product metafileds step 3](/images/how to add metafields step 3.gif)
+Choose the metafields you wish to sync:
 
-## Step 4. Sync the catalog
+1. Select the Metafields namespaces you want by clicking the toggle icon next to each.
 
-It is necessary to sync the catalog to update it with the new metafields. Check [How to run a catalog sync]() for detailed insctructions.
+![Select Metafields](/images/how to add metafields step 3.gif)
 
-## Step 5. Add JavaScript to the Results Page
+## Step 4: Sync the Catalog
 
-You’ll need to use custom JavaScript code to **render the metafield value** in the corresponding position in the results page. This has to be custom built by your developer, since it’s [out of our app’s support scope]().
+Update your catalog with the new metafields:
 
-Here’s a code sample which replaces the product description with the *descriptors-subtitle* metafield. It has to be added in the Custom JavaScript input, under Results Page Settings > Advanced Settings:
+1. Perform a catalog sync. Refer to [How to run a catalog sync](https://docs.revenuehunt.com/reference/catalog-sync) for detailed instructions.
 
-  window.recommendedProducts = prq.recommendedProducts();
+## Step 5: Implement Custom JavaScript on the Results Page
 
-  var products = document.querySelectorAll('.lq-product');
+To display the metafield values on your results page, custom JavaScript is required:
 
-  for (let i = 0; i < products.length; i++) {
-    let id = products[i].id;
-    let oneId = id.match(/^\d/) ? ("#\\3" + id.charAt(0) + " " + id.substring(1)) : "#" + id;
-    let product = window.recommendedProducts.find(product => product.id === id);
+1. Your developer will need to write custom JavaScript code to render the metafield value in the desired location on the results page.
+2. This customization falls outside the support scope of our app.
 
+Here's a sample code that replaces the product description with the *descriptors-subtitle* metafield. This code should be added in the Custom JavaScript input under Results Page Settings > Advanced Settings:
+
+```javascript
+window.recommendedProducts = prq.recommendedProducts();
+var products = document.querySelectorAll('.lq-product');
+
+for (let i = 0; i < products.length; i++) {
+  let id = products[i].id;
+  let oneId = id.match(/^\d/) ? ("#\\3" + id.charAt(0) + " " + id.substring(1)) : "#" + id;
+  let product = window.recommendedProducts.find(product => product.id === id);
 
   if (product.metafields['descriptors-subtitle']) {
-    let toEdit = document.querySelectorAll( oneId + ' .lq-hcont');
+    let toEdit = document.querySelectorAll(oneId + ' .lq-hcont');
 
-  for (let j = 0; j < toEdit.length; j++) {
+    for (let j = 0; j < toEdit.length; j++) {
+      if (!toEdit[j].hasAttribute("edited")) {
+        toEdit[j].insertAdjacentHTML('beforeend', '<span>' + product.metafields['descriptors-subtitle'] + '</span>');
+        toEdit[j].setAttribute("edited", "true");
+      }
+    }
+  }
+}
+```
 
-  if (!toEdit[j].hasAttribute("edited")) {
-    toEdit[j].insertAdjacentHTML('beforeend', product.metafields['descriptors-subtitle']);
-  toEdit[j].setAttribute("edited", "true");
-  }
-  }
-  }
-  }
+![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
 
-![how to add product metafileds step 5](/images/how_to_add_metafields_step5.png)
+Following these steps will enable you to display specific metafields on your quiz's results page, enhancing your product presentations based on unique attributes or compliance needs.
+
 
  
