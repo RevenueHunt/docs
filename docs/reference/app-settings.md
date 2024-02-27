@@ -32,7 +32,7 @@ SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol tha
 
 When you connect the Shop Quiz app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our no-reply@prq.email email account, they’ll be sent from your email account. 
 
-Check [How to Send Result Emails from your own server]() for detailed instructions on how to set this up.
+Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
 **Name to display(From):** - Set what name and email the customer will see when they receive the email.
 

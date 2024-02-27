@@ -1,0 +1,48 @@
+# How to Send Result Emails from Your Server Using SMTP
+
+## Explanation: Understanding SMTP and Its Importance
+
+SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails across the internet. By connecting your Product Recommendation Quiz to an SMTP server, emails are sent from your account, enhancing brand consistency and trust.
+
+## Configuring Your SMTP Server for Email Sending
+
+### Setting Up SMTP Server Connection
+
+![how to set up smtp](/images/manual_appsettings_smtp.png)
+
+1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](https://docs.revenuehunt.com/reference/app-settings/).
+2. **Locate SMTP Settings**: Select the [SMTP tab](https://docs.revenuehunt.com/reference/app-settings/#smtp).
+3. **Enter SMTP Details**: Fill in your SMTP server settings.
+4. **Test and Activate**: Click on “test connection & activate”.
+
+### Testing SMTP Settings
+
+- Utilize third-party tools for SMTP settings verification:
+    - [GMass SMTP Test](https://www.gmass.co/smtp-test)
+- Should you encounter issues, consult with your developer or SMTP service provider.
+
+## Reference: Specific SMTP Configurations
+
+### Outlook Office 365 Users
+
+- **Whitelist IP Address**: For Office 365 SMTP, whitelist IP `3.14.55.225` to allow email sending.
+- **Whitelisting Steps**:
+    - Sign into Office 365, select “Admin”, then “Exchange” under “Admin Centers”.
+    - In “Protection”, choose “Connection Filter” and edit with the pencil icon.
+    - Add IP `3.14.55.225` to the “IP Allow List” and enable the “Enable Safe List”.
+
+### Google Workspace Users
+
+- **Enable 2-Step Verification** (2FA): Required for SMTP connections.
+    - [Enable 2FA](https://support.google.com/accounts/answer/185839)
+- **Generate App Password** for SMTP:
+    - Navigate to [App Passwords](https://myaccount.google.com/apppasswords).
+    - Select “Mail” and “Other”, generate a password for use in SMTP settings.
+
+## Troubleshooting: Common SMTP Connection Issues
+
+- **SMTP Settings Not Working**: Ensure correctness with third-party tools. If issues persist, verify with your SMTP provider.
+- **Office 365 Email Blocking**: Contact support to whitelist necessary IP if emails are not sending.
+- **Google Workspace SMTP Failure**: Check if 2FA is enabled and correct app password is used. SMTP port 587 or 465 should work; if not, retry or check Google's support for updates.
+
+Remember, successful email integration enhances your customer's experience by ensuring consistent communication from your brand's domain. For further assistance, consult the documentation of your email service provider or contact their support team.
