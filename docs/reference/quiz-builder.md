@@ -6,7 +6,7 @@ The Quiz Builder is divided into several sections.
 
 **Dashboard** - Click to go back to the Dashboard (exit the Quiz Builder).
 
-**Demo Quiz** - Displays the quiz name. Quiz name can be changed in [Quiz Settings]().
+**Demo Quiz** - Displays the quiz name. Quiz name can be changed in [Quiz Settings](#quiz-settings).
 
 ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
@@ -136,7 +136,7 @@ Quiz Builder is composed of two sections: the slides (left) and the preview (rig
 
 - **Question ID** - Displays the question unique ID.
 
-**conditonal logic** / **tree icon** - Opens the [Conditional Logic]() section of the Quiz Builder.
+**conditonal logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
 
 **more options** / **...** - Opens more options menu.
 
@@ -176,13 +176,13 @@ To remove a linked collection click "x" next to the collection name.
 
 Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the resutls page, even if they were upvoted in another choice earlier/later.
 
-**Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync]() to update the app.
+**Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
 
 ## Link Products
 
 ![quiz builder link products](/images/manual_quizbuilder_linkproducts.png)
 
-In the Link Products tab, you can link individual product varaints from your store to choices.
+In the Link Products tab, you can link individual product variants from your store to choices.
 
 Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.
 
@@ -314,7 +314,7 @@ All slides that contain Skip Logic will be marked with "skip logic" text.
 
 ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
 
-In the Quiz Design section fo the quiz builder you can change how the quiz Questions or the Results Page look.
+In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
 
 ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png)
 
@@ -400,7 +400,7 @@ In the Results Page section, you can add content to the results page shown at th
 
 ### Block Logic
 
-**conditional logic** / **tree icon** - Opens the [Block Logic]() menu.
+**conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
 
 ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
 
@@ -468,7 +468,7 @@ All the Block Logic rules follow the same format
 
 - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
 
-- **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a producrt recevied votes in the quiz but is part of the excluded collection, the slot will not show that product.
+- **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
 
 **Slot ID** - Displays the current slot ID.
 
@@ -506,15 +506,15 @@ All the Block Logic rules follow the same format
 
 - **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
 
-- **Show "more info" link** - Toggle to display a "more info" link below the product name or description on the resutls page. The link takes you to the product page.
+- **Show "more info" link** - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
 
-- **Show description** - Toggle to display the product description below the product name on the results page. Additional option is displayed.
+- **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
 
     **Truncate description** - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
 
-- **Show reviews** - Toggle to show product rating below the product name on the resutls page. After activation make sure to run a [Catalog Sync]() to sync all the product reviews with the app.
+- **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to sync all the product reviews with the app.
 
-- **Show metafields** - Toggle to allow showing of custom product metafields on the resutls page. To show product metafields follow the instructions in [How to show product metafieleds in the quiz]().
+- **Show metafields** - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/how-to-add-product-metafields/).
 
 **Style Settings**
 
@@ -561,25 +561,25 @@ All the Block Logic rules follow the same format
 
 - **Edit this page** - Click "edit" to switch to this results page and edit its content.
 
-- **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#conditional-logic) to another page.
+- **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
 **Results Page 2**
 
 - **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
 
-- **Set as default** - Click "set" to select this resutls page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#conditional-logic) to another page.
+- **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
-**Create new Results Page** - add a new resutls page to your quiz.
+**Create new Results Page** - add a new results page to your quiz.
 
 ### Discounts Settings
 
 ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-**Discount Code Settings** - Allows to add a static discount to your resutls page. Click "Add" to open the discount menu.
+**Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
 ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png)
 
-- **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+- **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
 - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
 
@@ -618,7 +618,7 @@ In the Notifications tab of the Quiz Builder, you can activate and edit the emai
 
 ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
-You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder]() section to add an email question to your quiz.
+You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](#quiz-builder_1) section to add an email question to your quiz.
 
 To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
 
@@ -638,7 +638,7 @@ Select a response from the list to preview how the email will look like.
 
 **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
-- **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars]().
+- **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
 ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
@@ -684,7 +684,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 **Use top level product** - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
 
-**Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entrie quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another]() for detailed instructions.
+**Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
 **Quiz ID** - Displays the current quiz ID.
 
@@ -692,7 +692,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png)
 
-**Language** - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+**Language** - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
 
 **Buttons**
 
@@ -754,7 +754,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 - **Redirecting** - Default text when redirecting the user from the results page. | Results Page
 
-- **No results** - - Default text displayed when the quiz cannot produce recommendations. (For example, no product were upvoted or there are no products that match all the customer criteria.) | Results Page
+- **No results** - - Default text displayed when the quiz cannot produce recommendations. (For example, no products were upvoted or there are no products that match all the customer criteria.) | Results Page
 
 - **Drop file here** - Default text on the file upload question slides. | Quiz
 

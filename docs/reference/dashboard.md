@@ -8,9 +8,9 @@ Shopify Side Menu
 
 ![dashboard side menu](/images/manual_sidemenu.png)
 
-**Plans & Pricing** - Opens the [Plans & Pricing tab](reference/plans-pricing.md) (in-app URL (https://admin.revenuehunt.com/plans))
+**Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
 
-**App Settings** - Opens the [App Settings](reference/app-settings.md) menu.
+**App Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
 
 ![dashboard top menu](/images/manual_dashboard_topmenu.png)
 
@@ -31,7 +31,7 @@ Shopify Side Menu
 
 ![dashboard tutorial quiz](/images/manual_tutorial_quiz.png)
 
-**Tutorial Quiz (copy)** - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](#quiz-builder).
+**Tutorial Quiz (copy)** - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
 
 **0 leads** - Indicates the total number of quiz responses the quiz received.
 

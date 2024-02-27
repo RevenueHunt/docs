@@ -2,7 +2,7 @@
 
 Building a simple product selector for your eCommerce store can take only a few clicks with the Shop Quiz app. There’s a number of design and content templates tailored specially for the beauty industry (skin care quiz, hair care quiz, lipstick match finder).
 
-While making the quiz is easy, ensuring that it serves both your audience and your business requires a bit of experience. At RevenueHunt, we’ve analyzed countless successful product recommendation quizzes. We’ve identified elements which make them popular with the online shoppers and loved by the brands. In this article, we’ve gathered all  this knowledge to give you a head start in building your first product selector.
+While making the quiz is easy, ensuring that it serves both your audience and your business requires a bit of experience. At RevenueHunt, we’ve analyzed countless successful product recommendation quizzes. We’ve identified elements that make them popular with online shoppers and loved by the brands. In this article, we’ve gathered all this knowledge to give you a head start in building your first product selector.
 
 Here’s a list of ten things every Product Recommendation Quiz should have (and how to add them):
 

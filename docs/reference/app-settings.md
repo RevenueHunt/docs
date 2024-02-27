@@ -20,7 +20,7 @@
 
 ![app settings catalogue](/images/manual_appsettings_catalogue.png)
 
-**Metafields Namespaces** - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields and follow this article to show them in the quiz: [How to Add Product Metafileds]().
+**Metafields Namespaces** - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields and follow this article to show them in the quiz: [How to Add Product Metafileds](https://docs.revenuehunt.com/how-to-guides/how-to-add-product-metafields/).
 
 ## SMTP
 
@@ -28,7 +28,7 @@
 
 **SMTP Settings** 
 
-SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol which enables third-party apps (e.g. Shop Quiz) to send emails through your email server.
+SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. Shop Quiz) to send emails through your email server.
 
 When you connect the Shop Quiz app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our no-reply@prq.email email account, they’ll be sent from your email account. 
 
