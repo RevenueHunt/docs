@@ -102,6 +102,8 @@ Quiz Builder is composed of two sections: the slides (left) and the preview (rig
 
 - **Button Text** - Change the text button on the slide.
 
+- **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/).
+
 - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
 - **Optional** - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
