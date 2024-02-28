@@ -8,7 +8,7 @@ Here’s a list of ten things every Product Recommendation Quiz should have (and
 
 ## 1. Make the quiz visible
 
-(publish on the header, publish in multiple locations)
+*(publish on the header, publish in multiple locations)*
 
 You can have the most beautiful and thought-through quiz in the world but it won’t be useful if your customers cannot find it. Just like a real-life shop attendant, the quiz should reach out to the customers to ask ‘Is there anything I can help you with?’. Product Recommendation Quiz app allows you to Publish your quiz in several places on the website. You can embed a link in your website’s menu, add a ‘Take the Quiz’ button, publish the quiz inline with your website or add a pop-up when a new customer visit’s your site for the first time. Most popular quizzes are embedded in several ways onto the website to help customers at different stages of their shopping journey. For example, a well designed banner at the header of the website showcases the quiz as a novelty and spikes curiosity. A small button next to a lipstick collection can help the customer select a shade that’s just right for their complexion.
 
