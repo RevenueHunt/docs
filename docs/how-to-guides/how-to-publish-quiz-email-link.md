@@ -7,6 +7,10 @@ This guide walks you through the process of creating an external quiz link that 
 
 ## Steps
 
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/embed/Bz9yHcBpLv8?si=nwZj0k1k4nC-jNiy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Step 1: Open the Share Tab
 - Navigate to the dashboard of your quiz application.
 - Click on the **Share** tab to explore various sharing options.

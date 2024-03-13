@@ -12,6 +12,10 @@ Make sure you have:
 
 ### Option 1: Through Shopify Theme
 
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/embed/SGEfb-EPCcE?si=ZmignNyehGwF4Ysa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
 2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your homepage.
 3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings like quiz height, disable autoscroll, or fix quiz height for consistent results page height.
@@ -24,6 +28,10 @@ Make sure you have:
 3. **Embed the Quiz**: Paste the copied HTML code into the `HTML` input of the Custom HTML section and save.
 
 ## Embedding an Inline Quiz on a New Page
+
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/embed/Zy1ZFpdtLiQ?si=15XisaE-Y-9-6JTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 1. **Copy Embed Code**: Use the same method as above to obtain the inline embed code for the quiz.
 2. **Insert Quiz into Page**: Navigate to `Online Store > Pages` and select the page to embed the quiz. Click `Show HTML` and paste the embed code into the code editor.

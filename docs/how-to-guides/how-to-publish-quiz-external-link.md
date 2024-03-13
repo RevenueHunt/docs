@@ -7,6 +7,10 @@ This guide will show you how to generate an external quiz link suitable for shar
 
 ## Steps
 
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/embed/Bz9yHcBpLv8?si=nwZj0k1k4nC-jNiy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Step 1: Access the Share Tab
 - Navigate to the dashboard of the quiz app.
 - Locate and click on the **Share** tab. Here you will find options for different sharing methods.

@@ -7,6 +7,10 @@ Enhance your Shopify store's interactivity by integrating a chat-like button tha
 
 ## Option 1: Using Shopify Theme
 
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/embed/oQyIiA2GwjY?si=X5Pd4YUR5O-sby3u" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### 1. Prepare the Quiz ID
    - Locate your Quiz ID by visiting the quiz app and noting down the ID provided.
 

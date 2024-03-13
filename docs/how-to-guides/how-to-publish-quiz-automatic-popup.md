@@ -17,6 +17,24 @@ Directly editing your Shopify theme's source code can potentially disrupt your s
 
 ## Setting Up Automatic Popups
 
+### On the Main Page
+
+#### Option 1: Shopify Theme
+
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/embed/ZAK781-T1Z8?si=NAy4XjfDeisEw0w-" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+- **Prepare**: Copy your Quiz ID.
+- **Navigate and Customize**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
+- **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID, adjust settings, activate the toggle, and save.
+
+#### Option 2: Manual
+
+- **Generate Popup Code**: As described above.
+- **Customize Main Page**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML` block.
+- **Paste Popup Code**: In the HTML block, paste your popup code and save.
+
 ### On a Specific Page
 
 1. **Generate Popup Code**: From your app, navigate to `Share > Automatic` to generate the popup code.
@@ -28,19 +46,6 @@ Directly editing your Shopify theme's source code can potentially disrupt your s
 2. **Edit Theme's Source Code**: Navigate to `Online Store > Themes`, click `Actions > Edit Code` to access the theme editor.
 3. **Locate and Edit File**: Find the `</body>` tag in `theme.liquid` or `footer.liquid`. Paste the popup code just before this tag. Save your changes.
 
-### On the Main Page
-
-#### Option 1: Shopify Theme
-
-- **Prepare**: Copy your Quiz ID.
-- **Navigate and Customize**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
-- **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID, adjust settings, activate the toggle, and save.
-
-#### Option 2: Manual
-
-- **Generate Popup Code**: As described above.
-- **Customize Main Page**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML` block.
-- **Paste Popup Code**: In the HTML block, paste your popup code and save.
 
 ### Show Popup on Exit Intent
 
@@ -55,8 +60,9 @@ Directly editing your Shopify theme's source code can potentially disrupt your s
 ### Repeated Popup Displays per Session
 
 - **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example:
+
   ```html
   <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
-```html
+  ```
 
 By following these steps, you can enhance your Shopify store's interactivity and user engagement through well-timed automatic popups. Customize your approach based on your store's unique needs and the specific behavior you want to encourage in your visitors. Remember, the key to effective popups is balancing visibility with user experience to avoid intrusiveness.
