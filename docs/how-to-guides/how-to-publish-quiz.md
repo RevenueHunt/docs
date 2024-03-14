@@ -1,10 +1,10 @@
 # How to Publish a Quiz on Your Website
 
-After you've meticulously prepared your quiz, connecting product collections to responses and customizing its design to match your store's branding, you're ready to make it live. This guide will walk you through the process of sharing your quiz with your customers in a manner that aligns with your store's style and enhances their shopping experience.
+After you've prepared your quiz, connected product collections to responses and customized its design to match your store's branding, you're ready to make it live. This guide will walk you through the process of sharing your quiz with your customers in a manner that aligns with your store's style and enhances their shopping experience.
 
-## Step 1: Select Your Display Option
+## Select Your Display Option
 
-Your quiz can be presented on your store in several ways, each with its own advantages:
+Your quiz can be presented on your store in several ways, each with its advantages:
 
 ### Link Popup
 
@@ -47,12 +47,4 @@ Trigger a quiz popup through a chat-like button interaction.
 
 - **Purpose**: To interactively engage visitors through a chat-like interface.
 - **Implementation Guide**: [Adding a Chat Button Popup](https://docs.revenuehunt.com/how-to-guides/how-to-publish-quiz-chat-button/).
-
-## Step 2: Access Share Options
-
-1. Navigate to the quiz builder and click on the “Share” button located in the top-right corner. This will display various display options for your quiz.
-2. Choose the display option that best suits your needs.
-3. Click on “Get the Code” next to your chosen option and follow the provided instructions to integrate the quiz into your website.
-
-
 

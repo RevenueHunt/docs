@@ -2,41 +2,36 @@
 
 Enhance your Shopify store's interactivity by integrating a chat-like button that triggers a quiz popup. This guide provides step-by-step instructions on how to implement this feature, offering both theme-based and manual methods.
 
-- Access to your Shopify dashboard.
-- The Quiz ID of the quiz you wish to publish.
+Make sure you have:
 
-## Option 1: Using Shopify Theme
+- Access to your Shopify store's admin dashboard.
+- An existing quiz created with the Shop Quiz app.
+- Familiarity with Shopify's theme customization options.
+
+## Chat Button on the Homepage
+
+### Option 1: Through Shopify Theme
 
 <div class="videoWrapper">
 <iframe src="https://www.youtube.com/embed/oQyIiA2GwjY?si=X5Pd4YUR5O-sby3u" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### 1. Prepare the Quiz ID
-   - Locate your Quiz ID by visiting the quiz app and noting down the ID provided.
+1. **Copy Quiz ID**: Go to your Shop Quiz [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
+3. **Embed the Chat Button Quiz**: Select `Chat Button Quiz` from the list.
+4. **Customize the Chat Button**: Enter your Quiz ID into the appropriate field. Adjust the chat button settings as needed. Activate the chat button by toggling it on.
+5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
-### 2. Access Theme Customization
-   - Go to **Online Store > Themes** in your Shopify dashboard.
-   - Click on the **“Customize”** button to enter the theme editor.
+### Option 2: Manual
 
-### 3. Embed the Chat Button Quiz
-   - Within the theme editor, navigate to **App Embeds**.
-   - Select **Chat Button Quiz** from the list.
-   - Enter your Quiz ID into the appropriate field.
-   - Activate the chat button by toggling it on.
-   - Adjust the chat button settings as needed.
-   - **Save** your changes to apply them.
+1. **Obtain Chat Embed Code**: From the quiz builder, click `Share`, select `Chat button` mode, and `Show Instructions for Legacy Themes`.
+2. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code.
+3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
+4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code. paste this code into the HTML of your desired pages.
+5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
-## Option 2: Manual Setup
+## Chat Button on All Pages
 
-### 1. Generate the Chat Button Code
-   - Visit the **Share** tab in your quiz app.
-   - Select **Chat button**.
-   - Adjust the chat button settings to fit your needs.
-   - Click on **“Get the code”** to generate your unique embed code.
-
-### 2. Embed Code on Your Site
-   - Copy the generated code.
-   - Paste this code into the HTML of your desired pages. If you want the chat button to appear across your entire store, insert the code before the `</body>` closing tag in your shop’s theme.
-
+If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop’s theme.
 
 By following these instructions, you can successfully add a chat-like button to your Shopify store that opens a quiz popup. This feature not only enhances user engagement but also provides a unique interactive experience for your visitors.

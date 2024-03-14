@@ -1,22 +1,20 @@
 # How to Set Up a Quiz Link Popup on Your Shopify Store
 
-This guide will walk you through the process of setting up a Quiz Link Popup on your Shopify store. This feature allows your customers to access a quiz through a popup by clicking on a link within your site's navigation menu or any page or blog post. It's a great way to engage visitors and collect valuable data.
+This guide will walk you through the process of setting up a Quiz Link Popup on your Shopify store. This feature allows your customers to access a quiz through a popup by clicking on a link within your site's navigation menu, a button, a banner or any page or blog post. It's a great way to engage visitors and collect valuable data.
 
 Before you start, ensure you have access to your Shopify store's admin dashboard and have the necessary permissions to edit themes and navigation settings.
 
-## Steps to Activate Link Popup in Shopify
-
-### Step 1: Enable Link Popup Feature
+## Step 1: Enable Link Popup Feature
 
 1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
 2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
 
-### Step 2: Generate Your Link Popup Code
+## Step 2: Generate Your Link Popup Code
 
 1. **Obtain the Popup Link Code**: Go to the `Share` section of the app, then to `Link > Show Instructions for legacy themes`. Click on `get the code` to copy the link provided.
-2. **Placement of Your Popup Link**: You can add this link anywhere on your website. To place it in your site's menu, proceed to the next step.
+2. **Placement of Your Popup Link**: You can add this link anywhere on your website. To place it in your site's menu or as a "Take the Quiz" button, proceed to the next steps.
 
-### Step 3: Add Quiz Link to Your Website Menu
+## Step 3: Add Quiz Link to Your Website Menu
 
 <div class="videoWrapper">
 <iframe src="https://www.youtube.com/embed/V4gV44ZKu5Y?si=OgHU3u1HtToMFXfO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -27,7 +25,7 @@ Before you start, ensure you have access to your Shopify store's admin dashboard
 3. **Insert the Popup Link Code**: Paste the previously copied code into the link field.
 4. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
 
-### Step 4: Add a "Take the Quiz" Button
+## Step 4: Add a "Take the Quiz" Button
 
 <div class="videoWrapper">
 <iframe src="https://www.youtube.com/embed/s0kxmOEz6iE?si=ZBLFAG9qXFYDXukW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
