@@ -40,6 +40,16 @@ Billing is handled directly by Shopify. Charges for the app will be visible on y
 
 If you have any other questions about billing or refunds, please [contact support](https://revenuehunt.com/contact/).
 
+## What happens when I reach my quiz responses limit?
+
+We will notify you by email and in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
+
+When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
+
+You can delete your responses, but this won’t affect your monthly quiz usage.
+
+When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: *This quiz isn’t accepting new responses*.
+
 ## What counts as a paid response?
 
 Quiz Responses are counted as the number of people who have completed the quiz (reached the Results Page). If someone starts the quiz and abandons it partway through, this does not count as a response.
