@@ -1,8 +1,8 @@
 # How to Customize the Quiz Design
 
-You can edit the quiz design to match your store’s look & feel. To do that, you can use our built-in customization oprions in the Quiz Design tab or add your own custom styling via the CSS or JavaScript console. Any elemnt of the quiz or the resutls apge can be edited with custom CSS code.
+You can change the quiz's appearance to fit your store's style. Use the customization options in the Quiz Design tab or add your own style with CSS or JavaScript. You can modify any part of the quiz or results page with custom CSS.
 
-Keep in mind that you can add custom images and styling rules to each question via the question settings.
+Remember, you can also include custom images and styles for each question in the question settings.
 
 ## Quiz Design Tab
 
@@ -64,18 +64,66 @@ Via the CSS console, you can add any custom styling rules. Any element of the qu
 5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
 6. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
-## Individual Question Settings
+## Styling Quiz Text
 
-Besides the global Quiz Design settings you can also upload a custom image to each question individually via the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings). Additionally, it's possible to add custom JavaScript.
+You can use [Markdown Languge]() for basic styling of text in the quiz. Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
-## Results Page Settings
+If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
+
+- **Headings**
+    ```html
+    # H1
+    ## H2
+    ### H3
+    ```
+- **Text Styling**
+    ```html
+    *italic text*  
+    **bold text**  
+    ***italic & bold text***  
+    ```
+- **Links**
+    ```html
+    [link title](https://www.example.com)
+    ```
+- **Images**
+    ```html
+    ![alt text](https://www.example.com/path/to/image.jpg)
+    ```
+- **Videos**
+    ```html
+    ![](https://youtu.be/0_tO8HgJiLQ)  
+    ```
+
+If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#add-custom-css-code) code for that. 
+
+## Adding Images and Videos
+
+You can add images to your quiz in serveral ways. 
+
+- **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+- **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the resutls page with Markdown language.
+    Use for adding images:
+    ```html
+    ![alt text](https://www.example.com/path/to/image.jpg)
+    ```
 
 
-If you find our app's resutls page to be a bit limiting, you can also consider building your own resutls page in your store and directing all the quiz data there via the [Callback Function](). The Callback function allows you to receive all the quiz data in a JSON format on any page you want.
+## Individual Question Design
+
+In addition to the overall Quiz Design options, you can add a unique image to every question through the Quiz Builder by accessing the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+
+The question settings also allow you to incorporate [custom JavaScript]() into your quiz design.
+
+## Results Page Design
+
+The Results Page also has its own customization options. In addition to the basic elements, you can set a unique background image for each result page through the [results page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). You can also use these settings to apply [custom JavaScript]() to your quiz design.
+
+If you find the default results page too restrictive, you might want to create a custom results page on your site and direct all quiz data to it using the [Callback Function](). This function enables you to collect all quiz responses in JSON format on any page you choose.
 
 ## Customization Examples
 
-Check out [these examples](https://revenuehunt.com/templates/#customization) to see what designs are possible with our app.
+We offer complete flexibility to developers for personalizing both the quiz and the results page. Take a look at [these examples](https://revenuehunt.com/templates/#customization) to discover the various designs you can achieve with our app using some creativity and CSS code.
 
 ## Useful CSS Codes
 
@@ -214,6 +262,35 @@ Here are a few popular CSS selectors and codes to style elements in the quiz:
     .builder-container-preview .lq-images li, .widget .lq-images li{
     width: calc(50% - 8px) !important;
     }
+    }
+    ```
+- Muliptle choice questions: change the selected options background
+    ```html
+    /* Muliptle choice questions: change the selected options background */
+    li.lq-selected .lq-letter {
+    background-color: gray;
+    }
+    ```
+- Change the color of the Retake Quiz text
+    ```html
+    /* Change the color of the Retake Quiz text */
+    .lq-retake-quiz {
+    color: black;
+    }
+    ```
+- Change the background of the Add to Cart button
+    ```html
+    /* Change the background of the Add to Cart button */
+    .lq-checkout {
+    background-color: #ff7028;
+    }
+    ```
+- Change the background of the singluar Add to cart buttons
+    ```html
+    /* Change the background of the singluar Add to cart buttons */
+    .lq-btn-content {
+    background-color: #ff7028;
+    color: white;
     }
     ```
 
