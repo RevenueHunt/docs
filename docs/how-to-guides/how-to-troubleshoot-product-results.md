@@ -6,7 +6,7 @@ Navigating through the maze of product recommendations can be challenging, espec
 
 When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [voting system](https://docs.revenuehunt.com/how-to-guides/how-to-recommend-products/#voting-system) that influences product visibility.
 
-## Step-by-Step Process to Investigate Recommendations
+## Step-by-Step Process to Check Recommendations
 
 1. **Access Quiz Metrics**: Firstly, navigate to the quiz [Metrics]() in your dashboard. Here, you will find a wealth of information regarding quiz interactions.
 2. **Explore Responses**: Within Metrics, locate and open the Responses tab. Choose a specific response that captures your interest to delve deeper into the product recommendation dynamics.

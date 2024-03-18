@@ -1,27 +1,17 @@
 # How to Send Result Emails from Your Server Using SMTP
 
-## Explanation: Understanding SMTP and Its Importance
+SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails across the internet. By connecting your Shop Quiz to an SMTP server, emails are sent from your account instead of revenuehunt, enhancing brand consistency and trust.
 
-SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails across the internet. By connecting your Product Recommendation Quiz to an SMTP server, emails are sent from your account, enhancing brand consistency and trust.
-
-## Configuring Your SMTP Server for Email Sending
-
-### Setting Up SMTP Server Connection
+## Setting Up SMTP Server Connection
 
 ![how to set up smtp](/images/manual_appsettings_smtp.png)
 
 1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](https://docs.revenuehunt.com/reference/app-settings/).
 2. **Locate SMTP Settings**: Select the [SMTP tab](https://docs.revenuehunt.com/reference/app-settings/#smtp).
 3. **Enter SMTP Details**: Fill in your SMTP server settings.
-4. **Test and Activate**: Click on “test connection & activate”.
+4. **Test and Activate**: Click on “test connection & activate”. If the test is succsefull, from now on all the emails will be sent from your server. If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues)
 
-### Testing SMTP Settings
-
-- Utilize third-party tools for SMTP settings verification:
-    - [GMass SMTP Test](https://www.gmass.co/smtp-test)
-- Should you encounter issues, consult with your developer or SMTP service provider.
-
-## Reference: Specific SMTP Configurations
+## Specific SMTP Configurations
 
 ### Outlook Office 365 Users
 
@@ -41,6 +31,7 @@ SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails acros
 
 ## Troubleshooting: Common SMTP Connection Issues
 
+- **Test Credentails with Thrid Party Tool**: Utilize third-party tools like [GMass SMTP Test](https://www.gmass.co/smtp-test) for SMTP settings verification. If the credentials work there, they will also work in our app. Should you encounter issues, consult with your developer or SMTP service provider.
 - **SMTP Settings Not Working**: Ensure correctness with third-party tools. If issues persist, verify with your SMTP provider.
 - **Office 365 Email Blocking**: Contact support to whitelist necessary IP if emails are not sending.
 - **Google Workspace SMTP Failure**: Check if 2FA is enabled and correct app password is used. SMTP port 587 or 465 should work; if not, retry or check Google's support for updates.
