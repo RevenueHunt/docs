@@ -65,6 +65,8 @@ nav:
     - How to Sync Catalog: how-to-guides/how-to-sync-catalog.md
     - How to Add Discount: how-to-guides/how-to-add-discount.md
     - How to Use Information Recalls: how-to-guides/how-to-information-recalls.md
+    - How to Add JavaScript: how-to-guides/how-to-add-javascript.md
+    - How to Use Callback Function: how-to-guides/how-to-use-callback-function.md
     - How to Send Result Emails from Your Server Using SMTP: how-to-guides/how-to-send-result-emails-from-custom-server.md
     - Plans & Pricing FAQ: how-to-guides/plans-pricing-faq.md
   - App Manual:

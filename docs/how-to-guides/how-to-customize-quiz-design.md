@@ -103,9 +103,13 @@ You can add images to your quiz in serveral ways.
 
 - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
 - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the resutls page with Markdown language.
-    Use for adding images:
+    - Images:
     ```html
     ![alt text](https://www.example.com/path/to/image.jpg)
+    ```
+    - Videos
+    ```html
+    ![](https://youtu.be/0_tO8HgJiLQ)  
     ```
 
 
