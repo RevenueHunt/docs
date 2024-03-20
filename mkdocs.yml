@@ -52,22 +52,23 @@ nav:
     - PLAYLIST - One Minute Tutorials: tutorials/playlist-one-minute-tutorials.md
   - How-to Guides:
     - How-to Guides: how-to-guides/index.md
-    - How to Create Your First Quiz: how-to-guides/how-to-create-first-quiz.md
-    - How to Recommend Products: how-to-guides/how-to-recommend-products.md
-    - How to Use Slots (Skincare Routine): how-to-guides/how-to-recommend-skincare-routine-slots.md
-    - How to Edit the Results Page: how-to-guides/how-to-edit-results-page.md
-    - How to Troubleshoot Quiz Results: how-to-guides/how-to-troubleshoot-product-results.md
-    - How to Publish the Quiz on Your Website: how-to-guides/how-to-publish-quiz.md
-    - How to Customize Quiz Design: how-to-guides/how-to-customize-quiz-design.md
-    - How to Copy Quiz from One Store to Another: how-to-guides/how-to-copy-the-quiz-from-one-store-to-another.md
-    - How to Send Result Emails: how-to-guides/how-to-send-result-emails.md
-    - How to Add Product Metafields: how-to-guides/how-to-add-product-metafields.md
-    - How to Sync Catalog: how-to-guides/how-to-sync-catalog.md
-    - How to Add Discount: how-to-guides/how-to-add-discount.md
-    - How to Use Information Recalls: how-to-guides/how-to-information-recalls.md
-    - How to Add JavaScript: how-to-guides/how-to-add-javascript.md
-    - How to Use Callback Function: how-to-guides/how-to-use-callback-function.md
-    - How to Send Result Emails from Your Server Using SMTP: how-to-guides/how-to-send-result-emails-from-custom-server.md
+    - Create Your First Quiz: how-to-guides/how-to-create-first-quiz.md
+    - Recommend Products: how-to-guides/how-to-recommend-products.md
+    - Use Slots (Skincare Routine): how-to-guides/how-to-recommend-skincare-routine-slots.md
+    - Edit the Results Page: how-to-guides/how-to-edit-results-page.md
+    - Troubleshoot Quiz Results: how-to-guides/how-to-troubleshoot-product-results.md
+    - Publish the Quiz on Your Website: how-to-guides/how-to-publish-quiz.md
+    - Customize Quiz Design: how-to-guides/how-to-customize-quiz-design.md
+    - Copy Quiz from One Store to Another: how-to-guides/how-to-copy-the-quiz-from-one-store-to-another.md
+    - Send Result Emails: how-to-guides/how-to-send-result-emails.md
+    - Add Product Metafields: how-to-guides/how-to-add-product-metafields.md
+    - Sync Catalog: how-to-guides/how-to-sync-catalog.md
+    - Add Discount: how-to-guides/how-to-add-discount.md
+    - Use Information Recalls: how-to-guides/how-to-information-recalls.md
+    - Use Markdown Language: how-to-guides/use-markdown.md
+    - Add JavaScript: how-to-guides/how-to-add-javascript.md
+    - Use Callback Function: how-to-guides/how-to-use-callback-function.md
+    - Send Result Emails from Your Server Using SMTP: how-to-guides/how-to-send-result-emails-from-custom-server.md
     - Plans & Pricing FAQ: how-to-guides/plans-pricing-faq.md
   - App Manual:
     - App Manual: reference/index.md
