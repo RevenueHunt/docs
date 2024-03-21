@@ -73,6 +73,7 @@ nav:
     - Use Callback Function: how-to-guides/use-callback-function.md
     - Send Result Emails from Your Server Using SMTP: how-to-guides/send-result-emails-from-custom-server.md
     - Plans & Pricing FAQ: how-to-guides/plans-pricing-faq.md
+    - A/B Test Your Quiz: how-to-guides/ab-test-quiz.md
   - App Manual:
     - App Manual: reference/index.md
     - Dashboard: reference/dashboard.md
