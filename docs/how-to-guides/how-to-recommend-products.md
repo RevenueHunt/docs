@@ -212,4 +212,35 @@ And *Questions 4, 6, 8, and 10* to point the customer to the Results Page direct
 This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
 
 `❗Warning: A lot of conditional logic can significantly slow down the loading times of the quiz builder app (it doesn’t affect the quiz as viewed by the customer though). If you plan on building a quiz with a lot of conditional logic, consider splitting the quiz into multiple smaller quizzes instead. There’s no limit to how many quizzes can be published on your webiste. In the example above, you can create 4 different quizzes for skin types (Dry, Oily, Combination, or Normal skin), or you can create a quiz for different age groups.`
+
+## How to Ensure a Specific Product Always Appears on Your Results Page
+
+Creating a personalized shopping experience is crucial in today's e-commerce landscape. One way to achieve this is by ensuring that specific products are always visible on the Results Page of your website, regardless of the customer's choices during their journey. This guide provides a clear, step-by-step process to help you achieve just that, enhancing both user experience and product visibility.
+
+The backbone of personalized product recommendations is an algorithm that functions like a voting system, where products gain 'votes' based on customer selections in a quiz. The more votes a product has by the end of the quiz, the more likely it is to be displayed on the Results Page. Familiarizing yourself with this mechanism is essential for effectively implementing the strategies outlined below.
+
+### Strategy 1: Maximizing Votes for Product Visibility
+
+This approach ensures your chosen product always tops the Results Page by securing the most votes.
+
+1. **Link Your Product to Every Choice**: Access the 'Link Products' section of your management platform and associate your selected product with every choice available in the quiz. This method guarantees that the product collects votes with each customer selection, ensuring its appearance on the Results Page.
+
+While effective, this strategy positions the product at the forefront of the Results Page every time, which may not always suit your broader marketing strategy.
+
+### Strategy 2: Utilizing a Dedicated Slot for Your Product
+
+For those looking to highlight a new product or collection without dominating the entire recommendation list, creating a dedicated slot on the Results Page offers a balanced solution.
+
+1. **Create a Collection for Your Product(s)**: Group the products you wish to feature in a 'New Products' collection. For instance, include your "Essentials Makeup Kit COMPLETE" in this collection.
+
+2. **Ensure Your Store Is Synced**: After creating your collection or adding new products, synchronize your online store with your recommendations platform to ensure the new additions are eligible for recommendation.
+
+3. **Link the Collection to Quiz Responses**: Select a quiz question and link your new product or collection to every response option. This step is crucial as it ensures the product or collection receives at least one vote, guaranteeing its appearance on the Results Page regardless of quiz outcomes.
+
+4. **Add a Dedicated Slot on the Results Page**: Edit the Results Page to include a new slot specifically for showcasing your selected product or collection. This specialized section will exclusively feature items from your chosen collection, distinguishing them from the general recommendations.
+
+5. **Preview and Test Your Setup**: With your dedicated slot in place, preview the quiz and its results to ensure the new product or collection is displayed as intended. This final step confirms that your selected items are correctly highlighted on the Results Page.
+
+By following these detailed steps, you can significantly enhance the visibility of specific products on your website, ensuring they are consistently presented to your customers. This tailored approach not only improves the shopping experience but also aligns product visibility with your strategic business goals.
+
  
