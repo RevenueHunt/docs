@@ -78,3 +78,27 @@ We strongly recommend not excluding your quiz as a traffic source, but here’s 
 **Why Returning Users from Excluded Domains Still Appear in Your Reports?**
 
 Old traffic might appear as coming from the excluded domain. This issue results from the default campaign timeout of 6 months. For more information, visit [Google Analytics support](https://support.google.com/analytics/answer/2795830?hl=en#zippy=).
+
+## Add Custom Trackers
+
+For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
+
+To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
+
+1. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
+2. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located:
+    ```html
+    <script>
+    function prqQuizCallback(quizResponse){
+        gtag('event', 'your_event_name', {
+        'event_category': 'quiz',
+        'event_label': 'specific_label',
+        'value': quizResponse.someValue
+        });
+    }
+    </script>
+
+    ``` 
+
+3. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, label, and value that you wish to track. This customization allows you to monitor specific user actions on your website.
+4. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
