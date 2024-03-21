@@ -51,6 +51,7 @@ nav:
     - Send follow-up emails with Klaviyo: tutorials/follow-up-emails-klaviyo.md
     - PLAYLIST - One Minute Tutorials: tutorials/playlist-one-minute-tutorials.md
   - How-to Guides:
+    - How-to Guides Index: how-to-guides/index.md
     - A/B Test Your Quiz: how-to-guides/ab-test-quiz.md
     - Add Discount: how-to-guides/add-discount.md
     - Add JavaScript: how-to-guides/add-javascript.md
@@ -62,7 +63,6 @@ nav:
     - Customize Quiz Design: how-to-guides/customize-quiz-design.md
     - Download Quiz Responses: how-to-guides/download-quiz-responses.md
     - Edit the Results Page: how-to-guides/edit-results-page.md
-    - How-to Guides Index: how-to-guides/index.md
     - Install App: how-to-guides/install-app.md
     - Integrate Facebook Pixel: how-to-guides/integrate-facebook-pixel.md
     - Integrate Google Analytics: how-to-guides/integrate-google-analytics.md
