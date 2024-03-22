@@ -82,6 +82,7 @@ nav:
     - Use Information Recalls: how-to-guides/use-information-recalls.md
     - Use Jump Logic: how-to-guides/use-jump-logic.md
     - Use Markdown Language: how-to-guides/use-markdown.md
+    - Use Skip Logic: how-to-guides/use-skip-logic.md
   - App Manual:
     - App Manual: reference/index.md
     - Dashboard: reference/dashboard.md
