@@ -4,35 +4,26 @@ Block logic is a feature of the Results Page that allows you to make blocks visi
 
 ## Results Page
 
-In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
 You can add different types of building blocks to your results page:
 
-**+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
-
-![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
-
 - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
-
 - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
-
 - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
-
 - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
-
 - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
-
 - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
-![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
-
 ## Block Logic
+
+With Block Logic you can make blocks visible or hidden based on customer's responses.
+
+![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
 **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
 
 ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
-
-With Block Logic you can make blocks visible or hidden based on customer's responses.
 
 **Add Block Logic** - Adds a new block logic rule.
 
@@ -55,14 +46,6 @@ All the Block Logic rules follow the same format
 - **bin** - Delete the current Block Logic rule.
 
 - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
-
-**...** - Opens the more options menu.
-
-![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
-
-- **+ add block below** - Opens the **+** / **add block** menu.
-
-- **bin** / **delete block** - Deletes the current block from the resutls page.
 
 ### Adding Block Logic to a Block
 
