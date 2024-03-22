@@ -73,19 +73,25 @@ All slides that contain Skip Logic will be marked with "skip logic" text.
 
 You want to collect emails from interested customers without deterring others.
 
+![how to use skip logic example2](/images/how to use skip logic example2.png)
+
 **Implementation**
 
-- Start with a Yes/No question asking if the customer is willing to leave their email.
-- Follow up with an email input question.
+- Start with a `Yes/No question` asking if the customer is willing to leave their email.
+- Follow up with an `email` input question.
 - Apply Skip Logic to the email question: if the customer opts out in the previous step, they are directed straight to the results page, bypassing the email question.
 
 ### Customizing Content Based on Skin Type
 
 **Scenario**
 
-You want to provide personalized advice based on the customer's skin type.
+You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip Logic, which then continues the quiz based on the participant's specific path.
+
+![how to use skip logic example](/images/how to hide content with logic skip logic.png)
 
 **Implementation**
+
+To learn how to build such a quiz check this [step-by-step guide](https://docs.revenuehunt.com/how-to-guides/hide-content-with-logic/).
 
 - Add a multiple-choice question about skin type (Dry, Normal, Oily, or Combination).
 - Create separate statement questions for each skin type, detailing specific advice or information.
