@@ -1,6 +1,6 @@
 # How to Use Skip Logic
 
-Skip Logic is a feature designed to streamline the experience of quiz or survey participants by tailoring the sequence of questions they encounter. This customization is achieved through conditional statements that govern whether a question is presented or skipped, based on the respondent's answers to preceding questions. Here's an overview on how to implement and use Skip Logic, along with examples of its application.
+Skip Logic is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. The guide will show you how to set up and use Skip Logic, including some examples of how it works.
 
 ## Conditional Logic
 
