@@ -1,49 +1,147 @@
-# Integrating Quizzes with Klaviyo
+# How to Send Quiz Leads to Klaviyo
 
-Businesses have the capability to enhance customer engagement by integrating personalized product recommendation quizzes with Klaviyo. This integration allows for the automatic transfer of quiz results to a Klaviyo mailing list or segments, enabling segmentation based on participant responses and the initiation of targeted follow-up campaigns.
+Apart from giving your customers personalized product recommendations, you can connect your quiz to Klaviyo. This way all the contacts coming from the quiz will be added to your Klaviyo account and you can create targeted email campaigns to upsell them.
 
-## How to Link Your Quiz to Klaviyo
+## Link Your Quiz to Klaviyo
 
-1. To establish this connection, access your quiz and select the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab at the screen's top. This action reveals options for linking with various third-party services. 
-2. Proceed by choosing `Connect` within the Klaviyo section, which prompts a popup window. 
-3. You're required to enter your Klaviyo **Public API Key** and, optionally, a Private API Key for adding contacts to specific lists within Klaviyo.
-4. Coose whether you want the profiles from the quiz to be automatically marked as profiles that consented to receive marketing materials or not. 
-5. Click the top-right `Publish` button to update the preview/live quiz.
+1. To connect the quiz to Klaviyo you’ll have to provide your Klaviyo **Public API Key**. Public API Key is essential because it allows us to send information to Klaviyo Profiles.
+2. To find your Public Key login to your Klaviyo account. In account Settings open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
+3. Navigate back to the Shop Quiz app. 
+4. In the `Quiz > Connect` tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
+5. Publish the changes with the top-right `Publish` button.
+6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
+7. To verify the test, open `Kalviyo > Audeince > Profiles` section. If a new profile was added the integration was successful.
+
+From now on all the contacts coming from the quiz will be added to your Klaviyo account.
 
 Following these steps ensures that every quiz participant's contact information, alongside their responses and product recommendations, are forwarded to your Klaviyo account, registering as `custom properties` within Klaviyo customer profiles. These properties are instrumental in personalizing Klaviyo email templates.
 
-**Considerations** 
+Note:
 
-- **Processing Time**: Klaviyo may delay in displaying new leads.
+- **Processing Time**: Klaviyo may have some delay in displaying new leads.
 - **Character Limitations**: Special characters (e.g., è, é, ê) may impede data transmission.
 
-### API Keys
 
-- **Public API Key**: Obtainable from Klaviyo's designated webpage. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-- **Private API Key (optional)**: For list-specific contact additions, you can get your Klaviyo Private API Key [here](https://www.klaviyo.com/account#api-keys-tab). Make sure to allow "Full access".
+## Sending Follow-up Emails via Klaviyo
 
-## Sending follow-up emails via Klaviyo
+It’s possible to send the product recommendation follow-up emails via Klaviyo, although this is not something that’s a one-click install. It should be built by someone with technical knowledge and experience in Klaviyo. Below you’ll find some basic instructions that can be forwarded to a developer.
 
-This section requires developer intervention for crafting product recommendation follow-ups via Klaviyo. The setup encompasses connecting the quiz, segment creation exclusive to quiz participants, initiating a segment-triggered email flow, and custom email template development. These steps necessitate technical proficiency in Klaviyo's operation and customization.
+*Note: Once the quiz is connected to Klaviyo (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Klaviyo.*
 
+### Step 1: Add Email Question
 
+To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) tab.
 
-## Adding quiz contacts to a Klaviyo list
+You can also [ask for marketing consent]() directly in the quiz.
+
+### Step 2: Connect Quiz to Klaviyo
+
+Follow instructions in [this section](#link-your-quiz-to-klaviyo) to learn how to connect your quiz to Klaviyo correctly.
+
+### Step 3: Create a Segment
+
+All quiz contacts can be grouped into a segment in Klaviyo. 
+
+1. To create a new segment in Klaviyo go to  Audience > List & Segements and click create a new `Segment`.
+2. Name the segment and set up the definition.
+3. The `PERMALINK-{{quiz_id}}` property is unique for profiles coming from the quiz. If you don’t see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
+4. Click `Create a segment`.
+
+Now all the contacts coming from the quiz will also be added to this specific segment.
+
+### Step 4: Create an Email Flow
+
+You’ll have to create a flow that is triggered when someone gets added to the segment we created in the previous step. Here’s how to do it:
+
+This is the trickiest part, the emails you send have to be custom-built in Klaviyo. 
+
+1. To create an email flow that inclvudes only quiz takers open the `Flows` tab. 
+2. Choose to create from scratch and come up with a name.
+3. Next, you’ll be asked to set up a `flow trigger`.
+4. Choose a segment created in the previous step. This way whenever someone enters the segment they will trigger the email flow.
+5. Confirm with `DONE`.
+6. Grab the `EMAIL` action and drop it below the flow trigger.
+7. Click on the `three dots` and edit the email.
+8. Edit the name/subject/email to your liking and select the `HTML email template`.
+9. From the `Connect >  Klaviyo` tab you can download a ready-to-use email template. If you would rather create your own email template, check [this section](#use-quiz-data-in-klaviyo-email-templates) for more details.
+10. Copy the code and go back to Klaviyo.
+11. Open the `HTML email template` and remove the existing code.
+12. Paste the new template code.
+13. You can then `preview` the email as one of your segment subscribers.
+14. Make sure to `Save` the changes and click `Done`.
+15. Return to your flow and turn your email `LIVE`.
+
+From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+
+Remember to deactivate the email Notifications from the Quiz Builder once the Klaviyo flow is set up. 
+
+## Adding Quiz Contacts to Klaviyo List
+
+Shop Quiz allows you to add contacts from the quiz directly to a list in Klaviyo. 
+
+1. To do that you’ll need to provide a **Private API Key**.
+2. To create a new Private Key for the Shop Quiz app login to your Klaviyo account.
+3. In account `Settings` open the `API Keys` tab and create a new Private API Key. For list-specific contact additions, you can get your Klaviyo Private API Key [here](https://www.klaviyo.com/account#api-keys-tab).
+4. Allow `Full access`.
+5. Copy the private key.
+6. In the Quiz [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab scroll to Klaviyo and edit the connection.
+7. Paste your Private API Key.
+8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
+9. Keep in mind that contacts from the quiz can be added only to a `Single Opt-in` List in Klaviyo.
+10. Save the changes and publish them with the top-right `Publish` button.
+11. Remember to test the connection with a sample email.
 
 While direct list addition is possible, opting for dynamic segmentation based on quiz responses offers a more refined approach, significantly boosting campaign revenue potential. Klaviyo facilitates segment creation and email flow assignment, enriching the targeting precision of campaigns.
 
-Automated addition to a specified list necessitates a Private API Key, enabling list selection. However, given Klaviyo's potential issues with double opt-in lists not sending opt-in emails, a single opt-in configuration with explicit consent is advisable.
+Automated addition to a specified list necessitates a [Private API Key](), enabling list selection. However, given Klaviyo's potential issues with double opt-in lists not sending opt-in emails, a single opt-in configuration with explicit consent is advisable.
 
-## Include custom properties in Klaviyo email templates
+## Use Quiz Data In Klaviyo Email Templates
 
-For developers, Klaviyo permits the inclusion of custom properties within email templates, leveraging HTML, CSS, and Django templating. This flexibility enables tailored content display based on quiz outcomes, enhancing personalization.
+If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
 
-## Pull product information directly from Shopify
+We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
 
-There’s a feature in Klaviyo that allows you to pull the product information directly from Shopify by providing the id.
+If you need to add any additional information to the email template, your developer can do so by pulling the appropriate custom properties from the user profile.
 
-This way you don’t need to use the “description” or “image_url” that is provided by revenuehunt, but can pull it directly from Shopify by providing the origin_id of the product.
+**Example Email Templates**
 
-More information about this function can be found [here](https://help.klaviyo.com/hc/en-us/articles/360004785571-Overview-of-the-Catalog-Lookup-Tag).
+In this example, we’re using our quiz ID `dbqHqN`, which you’ll need to replace for your quiz ID. Here is the code for reference:
 
-This comprehensive integration strategy between quizzes and Klaviyo not only streamlines data capture and segmentation but also opens avenues for highly personalized and effective marketing campaigns, leveraging nuanced customer insights gleaned from quiz interactions.
+    ```html
+    <h3>Hello {{ person|lookup:'Q-dbqHqN ZMiXjj: .Before we get started... what\'s your name?'|default:'' }}!</h3>
+    <p>Here we are making sure the product exists:</p>
+    {% if person|lookup:'SLOT-dbqHqN: Step 1: Cleanser - product_0_image_url' %}
+    <p>Cleanser</p>
+    <p><img alt="This is the cleanser image" src="{{ person|lookup:'SLOT-dbqHqN: Step 1: Cleanser - product_0_image_url'|default:'' }}" /></p>
+    <p>{{ person|lookup:'SLOT-dbqHqN: Step 1: Cleanser - product_0_name'|default:'' }}</p>
+    <p>{{ person|lookup:'SLOT-dbqHqN: Step 1: Cleanser - product_0_price'|default:'' }}</p>
+    <p>{{ person|lookup:'SLOT-dbqHqN: Step 1: Cleanser - product_0_sku'|default:'' }}</p>
+    <p><a href="{{ person|lookup:'SLOT-dbqHqN: Step 1: Cleanser - product_0_url'|default:'' }}">Buy now</a></p>
+    {% endif %}
+    {% if person|lookup:'T-dbqHqN: 40s' %}
+    <p>You are in your forties</p>
+    {% endif %}
+    ```
+
+As you can see, you can not only include custom properties that are passed from the quiz to your Klaviyo account, but you can also use `IF-ELSE` conditional statements to show/hide content based on the customer’s responses to the quiz.
+
+Note that when looping through the products, the **count starts in 0 (zero)**, so for example, if you were to display the name of 3 products in a slot you’d have to do it like this:
+
+    ```html
+    <p>{{ person|lookup:'SLOT-dbqHqN - product_0_name'|default:'' }}</p>
+    <p>{{ person|lookup:'SLOT-dbqHqN - product_1_name'|default:'' }}</p>
+    <p>{{ person|lookup:'SLOT-dbqHqN - product_2_name'|default:'' }}</p>
+    ```
+
+Here are some other email templates that you can use as a reference:
+
+- [Basic Slots Template (4-Step Skincare Routine)](https://drive.google.com/file/d/1waa86eP6-Cd7GITOmXbFlvwDC9Nw0JsA/view?usp=sharing) – take [this quiz](https://revenuehunt.com/faqs/sending-leads-to-klaviyo-account/#quiz-dbqHqN) & enter your email to see a demo.
+- [Advanced Slots Template (Morning & Night Routine)](https://drive.google.com/file/d/1HawvV57Z2dma8XFWdRrmeh5DwGTcVyaM/view?usp=sharing) – take [this quiz](https://skincarequiz.myshopify.com/#quiz-rkHm6Y) & enter your email to see a demo.
+- [Products List Template (Coffee Recommendations)](https://drive.google.com/file/d/1x33l8q1LZuuzZcQ5F8vZAo8BXjywsGMO/view?usp=sharing) – take [this quiz](https://revenuehunt.com/faqs/sending-leads-to-klaviyo-account/#quiz-aMnHBw) & enter your email to see a demo.
+
+Bear in mind that these templates (unlike the one generated from the Connect > Klaviyo tba) won’t work as is. They were created for a sample quiz. Your developer will have to modify the custom properties to match the ones that are passed from the quiz to your Klaviyo account. The quiz ID is different, so are other property names.
+
+### Pull Product Information Directly from Shopify
+
+There’s a feature in Klaviyo that allows you to pull the product information directly from Shopify by providing the id. This way you don’t need to use the `description` or `image_url` that is provided by revenuehunt, but can pull it directly from Shopify by providing the origin_id of the product. More information about this function can be found [here](https://help.klaviyo.com/hc/en-us/articles/360004785571-Overview-of-the-Catalog-Lookup-Tag).
+
