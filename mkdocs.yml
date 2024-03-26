@@ -78,6 +78,7 @@ nav:
     - Send Leads to Mailchimp: how-to-guides/send-leads-to-mailchimp.md
     - Send Leads to Omnisend: how-to-guides/send-leads-to-omnisend.md
     - Send Leads to Shopify Customers: how-to-guides/send-leads-to-shopify-customers.md
+    - Send Leads to Webhooks: how-to-guides/send-leads-to-webhooks.md
     - Sean Leads to Zapier: how-to-guides/send-leads-to-zapier.md
     - Send Result Emails: how-to-guides/send-result-emails.md
     - Send Result Emails from Your Server Using SMTP: how-to-guides/send-result-emails-from-custom-server.md
