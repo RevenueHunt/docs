@@ -35,9 +35,10 @@ By default, all the contacts added to the list via the quiz will be marked as su
 1. To set up a post-quiz automation head to your `Shopify dashboard > Marketing > Automations` and click `Create Automation`.
 2. Select a `Custom marketing` automation:
 3. **Add a trigger**: Click anywhere and select the first trigger to be `Customer created`.
-4. **Select a condition**: Then, set up a Condition that `If all conditions are met > Add criteria > Customer > tags` and set up the following page with the tag that you created in the quiz (that is added to Shopify customer profiles after completing the quiz). NOTE: You need to add the full name of the tag. For example, `prq_oilyskin` or `prq_Oily Skin`.
-5. **Set up an email**: To send a follow-up email to all the quiz contacts that contain the `prq_ tag`(right after the tag is added to their profile), click Then > Action and from the list select Send marketing email:
-Next, select the email template you want to use. This is how your flow will look like:
-6. **Save**: Remember to save the changes. Now, all the quiz takers with a specific `prq_ tag` will be sent the marketing email.
+4. **Select a condition**: Then, set up a `Condition` that `If all conditions are met > Add criteria > Customer > tags` and set up the following page with the tag that you created in the quiz (that is added to Shopify customer profiles after completing the quiz). NOTE: You need to add the full name of the tag. For example, `prq_oilyskin` or `prq_Oily Skin`.
+5. **Set up an email**: To send a follow-up email to all the quiz contacts that contain the `prq_ tag`(right after the tag is added to their profile), click `Then > Action` and from the list select `Send marketing email`. Next, select the email template you want to use.
+6. **Save**: Remember to save the changes. 
+
+Now, all the quiz takers with a specific `prq_ tag` will be sent the marketing email.
 
 To learn more about Shopify Automations, check their [FAQ page](https://help.shopify.com/it//manual/promoting-marketing/create-marketing/create-marketing-automations).
