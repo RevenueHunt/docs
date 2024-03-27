@@ -23,6 +23,28 @@ window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
 </script>
 ```
 
+### Example
+
+**Use case**: You’ve embedded the quiz on all product pages and want to know from which product page the quiz was taken.
+
+**Solution**: You can pass parameters to the quiz (eg. product ID) and “store” them in a question as a pre-filled answer.
+
+ 
+1. You will first need to create a `Short Text` question to store the product ID. Check how to add this question [here](https://docs.revenuehunt.com/reference/quiz-builder/#question-types).
+2. Copy that question ID from [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+3. Then in your main product page include the following script, so you could add some script like this to your product page:
+
+```html
+<script>
+window.prq_vars = {}; 
+window.prq_vars.questionID = 'productID';
+</script>
+```
+
+That question will be automatically skipped if parameters have been passed, but note that if you use the quiz outside your product page you will need to also pass some “empty” parameter to that questionID otherwise it will be shown in the quiz.
+ 
+This way you will pass the productID as a parameter to differentiate where the quiz was taken from.
+
 ## Option 2: Pass URL parameters
 
 URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
@@ -39,7 +61,7 @@ prq_cdRDCc=xDAwDe;aSEfBq
 
 In case of differences in the values declared in the `window.prq_vars` and the values passed via URL parameters, the URL parameters will prevail.
 
-## Example
+### Example
 
 Here’s a link to our demo store **without passing parameters**. You’ll see that you have to fill in all the questions, including the name and email. Click on the following link and take the quiz:
 
