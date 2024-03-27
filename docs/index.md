@@ -23,4 +23,4 @@ Here's what other people are finding most helpful right now:
 ## Contact Support
 
 Still looking for an answer?
-Feel free to [contact support](https://revenuehunt.com/contact/).
+Feel free to [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
