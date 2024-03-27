@@ -1,0 +1,2708 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../send-leads-to-hubspot/">
+      
+      
+        <link rel="next" href="../send-leads-to-mailchimp/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
+    
+    
+      
+        <title>Send Leads to Klaviyo - RevenueHunt Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../docs.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#how-to-send-quiz-leads-to-klaviyo" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="RevenueHunt Documentation" class="md-header__button md-logo" aria-label="RevenueHunt Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RevenueHunt Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Send Leads to Klaviyo
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+    
+  
+  Docs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../tutorials/" class="md-tabs__link">
+          
+  
+    
+  
+  Tutorials
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  How-to Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../reference/" class="md-tabs__link">
+          
+  
+    
+  
+  App Manual
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../customer-success/" class="md-tabs__link">
+          
+  
+    
+  
+  Customer Success
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="RevenueHunt Documentation" class="md-nav__button md-logo" aria-label="RevenueHunt Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    RevenueHunt Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Docs
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Docs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How-to Guides
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    App Manual
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customer-success/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customer Success
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../tutorials/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Tutorials
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/getting-started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/making-first-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Making your First Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/skincare-routine/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recommending a Skincare Routine
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/conditional-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conditional Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/follow-up-emails-klaviyo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send follow-up emails with Klaviyo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/playlist-one-minute-tutorials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PLAYLIST - One Minute Tutorials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    How-to Guides
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            How-to Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ab-test-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    A/B Test Your Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-discount/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add Discount
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-javascript/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add JavaScript
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-product-metafields/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add Product Metafields
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../change-checkout-settings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Change Checkout Settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../change-quiz-language/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Change Quiz Language
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../check-quiz-loading-speed/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Check Quiz Loading Speed
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact-customer-support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact Customer Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../copy-the-quiz-from-one-store-to-another/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Copy Quiz from One Store to Another
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../create-first-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create Your First Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customize-quiz-design/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customize Quiz Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../download-quiz-responses/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Download Quiz Responses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../edit-results-page/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Edit the Results Page
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hide-content-with-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hide Content with Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install-app/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Install App
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrate-facebook-pixel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integrate Facebook Pixel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrate-google-analytics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integrate Google Analytics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../join-questions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Join Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pass-parameteres-to-fill-quiz-responses/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pass Parameters to Pre-Fill Quiz Responses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plans-pricing-faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plans & Pricing FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../publish-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publish the Quiz on Your Website
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recommend-products/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recommend Products
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recommend-subscription-products/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recommend Subscription Products
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recommend-skincare-routine-slots/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recommend Slots (Skincare Routine)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../redirect-quiz-to-another-page/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Redirect Quiz to Another Page
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../restore-quiz-progress/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Restore Quiz Progress
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../send-leads-to-activecampaign/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to ActiveCampaign
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../send-leads-to-hubspot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to HubSpot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Send Leads to Klaviyo
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Klaviyo
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of Contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of Contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#link-your-quiz-to-klaviyo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Link Your Quiz to Klaviyo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sending-follow-up-emails-via-klaviyo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sending Follow-up Emails via Klaviyo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sending Follow-up Emails via Klaviyo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-add-email-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Add Email Question
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-connect-quiz-to-klaviyo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Connect Quiz to Klaviyo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-create-a-segment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Create a Segment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-create-an-email-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Create an Email Flow
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-quiz-contacts-to-klaviyo-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Quiz Contacts to Klaviyo List
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-quiz-data-in-klaviyo-email-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Quiz Data In Klaviyo Email Templates
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Use Quiz Data In Klaviyo Email Templates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pull-product-information-directly-from-shopify" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pull Product Information Directly from Shopify
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../send-leads-to-mailchimp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Mailchimp
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../send-leads-to-omnisend/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Omnisend
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../send-leads-to-shopify-customers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Shopify Customers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../send-leads-to-webhooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Webhooks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../send-leads-to-zapier/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sean Leads to Zapier
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../send-result-emails/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Result Emails
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../send-result-emails-from-custom-server/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Result Emails from Your Server Using SMTP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../show-results-explanation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Show Results Explanation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../show-quiz-in-shop-app/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Show Quiz in Shop App
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../show-quiz-on-customer-profile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Show Quiz on Customer Profile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../show-quiz-to-logged-in-customers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Show Quiz Only to Logged-In Customers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sync-catalog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sync Catalog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sync-selected-collections/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sync Only Selected Collections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../track-quiz-revenue/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Track Quiz Revenue
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshoot-product-results/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Troubleshoot Quiz Results
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-block-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Block Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-callback-function/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Callback Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-information-recalls/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Information Recalls
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-jump-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Jump Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-markdown/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Markdown Language
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-skip-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Skip Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../reference/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    App Manual
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            App Manual
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference/dashboard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dashboard
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference/quiz-builder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quiz Builder
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference/plans-pricing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plans & Pricing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reference/app-settings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    App Settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../customer-success/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Customer Success
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Customer Success
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customer-success/how-to-build-succesful-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to build a Succesful Product Recommendation Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customer-success/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Example 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customer-success/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Example 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of Contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of Contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#link-your-quiz-to-klaviyo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Link Your Quiz to Klaviyo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sending-follow-up-emails-via-klaviyo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sending Follow-up Emails via Klaviyo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sending Follow-up Emails via Klaviyo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-add-email-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Add Email Question
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-connect-quiz-to-klaviyo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Connect Quiz to Klaviyo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-create-a-segment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Create a Segment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-create-an-email-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Create an Email Flow
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-quiz-contacts-to-klaviyo-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Quiz Contacts to Klaviyo List
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-quiz-data-in-klaviyo-email-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Quiz Data In Klaviyo Email Templates
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Use Quiz Data In Klaviyo Email Templates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pull-product-information-directly-from-shopify" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pull Product Information Directly from Shopify
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="how-to-send-quiz-leads-to-klaviyo">How to Send Quiz Leads to Klaviyo<a class="headerlink" href="#how-to-send-quiz-leads-to-klaviyo" title="Anchor link to this section for reference">&para;</a></h1>
+<p>Apart from giving your customers personalized product recommendations, you can connect your quiz to Klaviyo. This way all the contacts coming from the quiz will be added to your Klaviyo account and you can create targeted email campaigns to upsell them.</p>
+<h2 id="link-your-quiz-to-klaviyo">Link Your Quiz to Klaviyo<a class="headerlink" href="#link-your-quiz-to-klaviyo" title="Anchor link to this section for reference">&para;</a></h2>
+<ol>
+<li>To connect the quiz to Klaviyo you’ll have to provide your Klaviyo <strong>Public API Key</strong>. Public API Key is essential because it allows us to send information to Klaviyo Profiles.</li>
+<li>To find your Public Key login to your Klaviyo account. In account Settings open the <code>API Keys</code> tab and copy the public API Key. You can get your Klaviyo Public API Key <a href="https://www.klaviyo.com/account#api-keys-tab">here</a>.</li>
+<li>Navigate back to the Shop Quiz app. </li>
+<li>In the <code>Quiz &gt; Connect</code> tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.</li>
+<li>Publish the changes with the top-right <code>Publish</code> button.</li>
+<li>Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.</li>
+<li>To verify the test, open <code>Kalviyo &gt; Audeince &gt; Profiles</code> section. If a new profile was added the integration was successful.</li>
+</ol>
+<p>From now on all the contacts coming from the quiz will be added to your Klaviyo account.</p>
+<p>Following these steps ensures that every quiz participant's contact information, alongside their responses and product recommendations, are forwarded to your Klaviyo account, registering as <code>custom properties</code> within Klaviyo customer profiles. These properties are instrumental in personalizing Klaviyo email templates.</p>
+<p>Note:</p>
+<ul>
+<li><strong>Processing Time</strong>: Klaviyo may have some delay in displaying new leads.</li>
+<li><strong>Character Limitations</strong>: Special characters (e.g., è, é, ê) may impede data transmission.</li>
+</ul>
+<h2 id="sending-follow-up-emails-via-klaviyo">Sending Follow-up Emails via Klaviyo<a class="headerlink" href="#sending-follow-up-emails-via-klaviyo" title="Anchor link to this section for reference">&para;</a></h2>
+<p>It’s possible to send the product recommendation follow-up emails via Klaviyo, although this is not something that’s a one-click install. It should be built by someone with technical knowledge and experience in Klaviyo. Below you’ll find some basic instructions that can be forwarded to a developer.</p>
+<p><em>Note: Once the quiz is connected to Klaviyo (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Klaviyo.</em></p>
+<h3 id="step-1-add-email-question">Step 1: Add Email Question<a class="headerlink" href="#step-1-add-email-question" title="Anchor link to this section for reference">&para;</a></h3>
+<p>To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the <a href="https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1">Quiz Builder</a> tab.</p>
+<p>You can also <a href="">ask for marketing consent</a> directly in the quiz.</p>
+<h3 id="step-2-connect-quiz-to-klaviyo">Step 2: Connect Quiz to Klaviyo<a class="headerlink" href="#step-2-connect-quiz-to-klaviyo" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Follow instructions in <a href="#link-your-quiz-to-klaviyo">this section</a> to learn how to connect your quiz to Klaviyo correctly.</p>
+<h3 id="step-3-create-a-segment">Step 3: Create a Segment<a class="headerlink" href="#step-3-create-a-segment" title="Anchor link to this section for reference">&para;</a></h3>
+<p>All quiz contacts can be grouped into a segment in Klaviyo. </p>
+<ol>
+<li>To create a new segment in Klaviyo go to  Audience &gt; List &amp; Segements and click create a new <code>Segment</code>.</li>
+<li>Name the segment and set up the definition.</li>
+<li>The <code>PERMALINK-{{quiz_id}}</code> property is unique for profiles coming from the quiz. If you don’t see the permalink property in the dropdown menu, you may need to take a test quiz and try again.</li>
+<li>Click <code>Create a segment</code>.</li>
+</ol>
+<p>Now all the contacts coming from the quiz will also be added to this specific segment.</p>
+<h3 id="step-4-create-an-email-flow">Step 4: Create an Email Flow<a class="headerlink" href="#step-4-create-an-email-flow" title="Anchor link to this section for reference">&para;</a></h3>
+<p>You’ll have to create a flow that is triggered when someone gets added to the segment we created in the previous step. Here’s how to do it:</p>
+<p>This is the trickiest part, the emails you send have to be custom-built in Klaviyo. </p>
+<ol>
+<li>To create an email flow that inclvudes only quiz takers open the <code>Flows</code> tab. </li>
+<li>Choose to create from scratch and come up with a name.</li>
+<li>Next, you’ll be asked to set up a <code>flow trigger</code>.</li>
+<li>Choose a segment created in the previous step. This way whenever someone enters the segment they will trigger the email flow.</li>
+<li>Confirm with <code>DONE</code>.</li>
+<li>Grab the <code>EMAIL</code> action and drop it below the flow trigger.</li>
+<li>Click on the <code>three dots</code> and edit the email.</li>
+<li>Edit the name/subject/email to your liking and select the <code>HTML email template</code>.</li>
+<li>From the <code>Connect &gt;  Klaviyo</code> tab you can download a ready-to-use email template. If you would rather create your own email template, check <a href="#use-quiz-data-in-klaviyo-email-templates">this section</a> for more details.</li>
+<li>Copy the code and go back to Klaviyo.</li>
+<li>Open the <code>HTML email template</code> and remove the existing code.</li>
+<li>Paste the new template code.</li>
+<li>You can then <code>preview</code> the email as one of your segment subscribers.</li>
+<li>Make sure to <code>Save</code> the changes and click <code>Done</code>.</li>
+<li>Return to your flow and turn your email <code>LIVE</code>.</li>
+</ol>
+<p>From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. </p>
+<p>Remember to deactivate the email Notifications from the Quiz Builder once the Klaviyo flow is set up. </p>
+<h2 id="adding-quiz-contacts-to-klaviyo-list">Adding Quiz Contacts to Klaviyo List<a class="headerlink" href="#adding-quiz-contacts-to-klaviyo-list" title="Anchor link to this section for reference">&para;</a></h2>
+<p>Shop Quiz allows you to add contacts from the quiz directly to a list in Klaviyo. </p>
+<ol>
+<li>To do that you’ll need to provide a <strong>Private API Key</strong>.</li>
+<li>To create a new Private Key for the Shop Quiz app login to your Klaviyo account.</li>
+<li>In account <code>Settings</code> open the <code>API Keys</code> tab and create a new Private API Key. For list-specific contact additions, you can get your Klaviyo Private API Key <a href="https://www.klaviyo.com/account#api-keys-tab">here</a>.</li>
+<li>Allow <code>Full access</code>.</li>
+<li>Copy the private key.</li>
+<li>In the Quiz <a href="https://docs.revenuehunt.com/reference/quiz-builder/#connect">Connect</a> tab scroll to Klaviyo and edit the connection.</li>
+<li>Paste your Private API Key.</li>
+<li>Choose to <code>mark all profiles as true</code> and select a list that contacts should be added to.</li>
+<li>Keep in mind that contacts from the quiz can be added only to a <code>Single Opt-in</code> List in Klaviyo.</li>
+<li>Save the changes and publish them with the top-right <code>Publish</code> button.</li>
+<li>Remember to test the connection with a sample email.</li>
+</ol>
+<p>While direct list addition is possible, opting for dynamic segmentation based on quiz responses offers a more refined approach, significantly boosting campaign revenue potential. Klaviyo facilitates segment creation and email flow assignment, enriching the targeting precision of campaigns.</p>
+<p>Automated addition to a specified list necessitates a <a href="">Private API Key</a>, enabling list selection. However, given Klaviyo's potential issues with double opt-in lists not sending opt-in emails, a single opt-in configuration with explicit consent is advisable.</p>
+<h2 id="use-quiz-data-in-klaviyo-email-templates">Use Quiz Data In Klaviyo Email Templates<a class="headerlink" href="#use-quiz-data-in-klaviyo-email-templates" title="Anchor link to this section for reference">&para;</a></h2>
+<p>If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the <a href="https://docs.djangoproject.com/en/1.8/ref/templates/builtins/">Django templating</a> system.</p>
+<p>We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as <code>custom properties</code>.</p>
+<p>If you need to add any additional information to the email template, your developer can do so by pulling the appropriate custom properties from the user profile.</p>
+<p><strong>Example Email Templates</strong></p>
+<p>In this example, we’re using our quiz ID <code>dbqHqN</code>, which you’ll need to replace for your quiz ID. Here is the code for reference:</p>
+<div class="highlight"><pre><span></span><code>```html
+&lt;h3&gt;Hello {{ person|lookup:&#39;Q-dbqHqN ZMiXjj: .Before we get started... what\&#39;s your name?&#39;|default:&#39;&#39; }}!&lt;/h3&gt;
+&lt;p&gt;Here we are making sure the product exists:&lt;/p&gt;
+{% if person|lookup:&#39;SLOT-dbqHqN: Step 1: Cleanser - product_0_image_url&#39; %}
+&lt;p&gt;Cleanser&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;This is the cleanser image&quot; src=&quot;{{ person|lookup:&#39;SLOT-dbqHqN: Step 1: Cleanser - product_0_image_url&#39;|default:&#39;&#39; }}&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;{{ person|lookup:&#39;SLOT-dbqHqN: Step 1: Cleanser - product_0_name&#39;|default:&#39;&#39; }}&lt;/p&gt;
+&lt;p&gt;{{ person|lookup:&#39;SLOT-dbqHqN: Step 1: Cleanser - product_0_price&#39;|default:&#39;&#39; }}&lt;/p&gt;
+&lt;p&gt;{{ person|lookup:&#39;SLOT-dbqHqN: Step 1: Cleanser - product_0_sku&#39;|default:&#39;&#39; }}&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;{{ person|lookup:&#39;SLOT-dbqHqN: Step 1: Cleanser - product_0_url&#39;|default:&#39;&#39; }}&quot;&gt;Buy now&lt;/a&gt;&lt;/p&gt;
+{% endif %}
+{% if person|lookup:&#39;T-dbqHqN: 40s&#39; %}
+&lt;p&gt;You are in your forties&lt;/p&gt;
+{% endif %}
+```
+</code></pre></div>
+<p>As you can see, you can not only include custom properties that are passed from the quiz to your Klaviyo account, but you can also use <code>IF-ELSE</code> conditional statements to show/hide content based on the customer’s responses to the quiz.</p>
+<p>Note that when looping through the products, the <strong>count starts in 0 (zero)</strong>, so for example, if you were to display the name of 3 products in a slot you’d have to do it like this:</p>
+<div class="highlight"><pre><span></span><code>```html
+&lt;p&gt;{{ person|lookup:&#39;SLOT-dbqHqN - product_0_name&#39;|default:&#39;&#39; }}&lt;/p&gt;
+&lt;p&gt;{{ person|lookup:&#39;SLOT-dbqHqN - product_1_name&#39;|default:&#39;&#39; }}&lt;/p&gt;
+&lt;p&gt;{{ person|lookup:&#39;SLOT-dbqHqN - product_2_name&#39;|default:&#39;&#39; }}&lt;/p&gt;
+```
+</code></pre></div>
+<p>Here are some other email templates that you can use as a reference:</p>
+<ul>
+<li><a href="https://drive.google.com/file/d/1waa86eP6-Cd7GITOmXbFlvwDC9Nw0JsA/view?usp=sharing">Basic Slots Template (4-Step Skincare Routine)</a> – take <a href="https://revenuehunt.com/faqs/sending-leads-to-klaviyo-account/#quiz-dbqHqN">this quiz</a> &amp; enter your email to see a demo.</li>
+<li><a href="https://drive.google.com/file/d/1HawvV57Z2dma8XFWdRrmeh5DwGTcVyaM/view?usp=sharing">Advanced Slots Template (Morning &amp; Night Routine)</a> – take <a href="https://skincarequiz.myshopify.com/#quiz-rkHm6Y">this quiz</a> &amp; enter your email to see a demo.</li>
+<li><a href="https://drive.google.com/file/d/1x33l8q1LZuuzZcQ5F8vZAo8BXjywsGMO/view?usp=sharing">Products List Template (Coffee Recommendations)</a> – take <a href="https://revenuehunt.com/faqs/sending-leads-to-klaviyo-account/#quiz-aMnHBw">this quiz</a> &amp; enter your email to see a demo.</li>
+</ul>
+<p>Bear in mind that these templates (unlike the one generated from the Connect &gt; Klaviyo tba) won’t work as is. They were created for a sample quiz. Your developer will have to modify the custom properties to match the ones that are passed from the quiz to your Klaviyo account. The quiz ID is different, so are other property names.</p>
+<h3 id="pull-product-information-directly-from-shopify">Pull Product Information Directly from Shopify<a class="headerlink" href="#pull-product-information-directly-from-shopify" title="Anchor link to this section for reference">&para;</a></h3>
+<p>There’s a feature in Klaviyo that allows you to pull the product information directly from Shopify by providing the id. This way you don’t need to use the <code>description</code> or <code>image_url</code> that is provided by revenuehunt, but can pull it directly from Shopify by providing the origin_id of the product. More information about this function can be found <a href="https://help.klaviyo.com/hc/en-us/articles/360004785571-Overview-of-the-Catalog-Lookup-Tag">here</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../send-leads-to-hubspot/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Send Leads to HubSpot">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Send Leads to HubSpot
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../send-leads-to-mailchimp/" class="md-footer__link md-footer__link--next" aria-label="Next: Send Leads to Mailchimp">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Send Leads to Mailchimp
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 <a href="https://revenuehunt.com"  target="_blank" rel="noopener">RevenueHunt</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.footer", "navigation.sections", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.expand", "navigation.indexes", "navigation.path", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "toc.follow"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.bd41221c.min.js"></script>
+      
+    
+  </body>
+</html>

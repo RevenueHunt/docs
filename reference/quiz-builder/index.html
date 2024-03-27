@@ -1,0 +1,4088 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../dashboard/">
+      
+      
+        <link rel="next" href="../plans-pricing/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
+    
+    
+      
+        <title>Quiz Builder - RevenueHunt Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../docs.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quiz-builder" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="RevenueHunt Documentation" class="md-header__button md-logo" aria-label="RevenueHunt Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RevenueHunt Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quiz Builder
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+    
+  
+  Docs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../tutorials/" class="md-tabs__link">
+          
+  
+    
+  
+  Tutorials
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../how-to-guides/" class="md-tabs__link">
+          
+  
+    
+  
+  How-to Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  App Manual
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../customer-success/" class="md-tabs__link">
+          
+  
+    
+  
+  Customer Success
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="RevenueHunt Documentation" class="md-nav__button md-logo" aria-label="RevenueHunt Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    RevenueHunt Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Docs
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Docs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How-to Guides
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    App Manual
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customer-success/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customer Success
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../tutorials/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Tutorials
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/getting-started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/making-first-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Making your First Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/skincare-routine/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recommending a Skincare Routine
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/conditional-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conditional Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/follow-up-emails-klaviyo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send follow-up emails with Klaviyo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/playlist-one-minute-tutorials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PLAYLIST - One Minute Tutorials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../how-to-guides/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    How-to Guides
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            How-to Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/ab-test-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    A/B Test Your Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/add-discount/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add Discount
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/add-javascript/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add JavaScript
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/add-product-metafields/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add Product Metafields
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/change-checkout-settings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Change Checkout Settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/change-quiz-language/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Change Quiz Language
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/check-quiz-loading-speed/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Check Quiz Loading Speed
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/contact-customer-support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact Customer Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/copy-the-quiz-from-one-store-to-another/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Copy Quiz from One Store to Another
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/create-first-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create Your First Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/customize-quiz-design/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customize Quiz Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/download-quiz-responses/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Download Quiz Responses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/edit-results-page/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Edit the Results Page
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/hide-content-with-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hide Content with Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/install-app/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Install App
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/integrate-facebook-pixel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integrate Facebook Pixel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/integrate-google-analytics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integrate Google Analytics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/join-questions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Join Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/pass-parameteres-to-fill-quiz-responses/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pass Parameters to Pre-Fill Quiz Responses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/plans-pricing-faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plans & Pricing FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/publish-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publish the Quiz on Your Website
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/recommend-products/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recommend Products
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/recommend-subscription-products/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recommend Subscription Products
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/recommend-skincare-routine-slots/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recommend Slots (Skincare Routine)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/redirect-quiz-to-another-page/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Redirect Quiz to Another Page
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/restore-quiz-progress/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Restore Quiz Progress
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-activecampaign/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to ActiveCampaign
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-hubspot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to HubSpot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-klaviyo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Klaviyo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-mailchimp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Mailchimp
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-omnisend/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Omnisend
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-shopify-customers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Shopify Customers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-webhooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Webhooks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-zapier/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sean Leads to Zapier
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-result-emails/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Result Emails
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-result-emails-from-custom-server/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Result Emails from Your Server Using SMTP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/show-results-explanation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Show Results Explanation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/show-quiz-in-shop-app/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Show Quiz in Shop App
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/show-quiz-on-customer-profile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Show Quiz on Customer Profile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/show-quiz-to-logged-in-customers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Show Quiz Only to Logged-In Customers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/sync-catalog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sync Catalog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/sync-selected-collections/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sync Only Selected Collections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/track-quiz-revenue/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Track Quiz Revenue
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/troubleshoot-product-results/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Troubleshoot Quiz Results
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/use-block-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Block Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/use-callback-function/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Callback Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/use-information-recalls/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Information Recalls
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/use-jump-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Jump Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/use-markdown/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Markdown Language
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/use-skip-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Skip Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    App Manual
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            App Manual
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dashboard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dashboard
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Quiz Builder
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Quiz Builder
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of Contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of Contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quiz-builder_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quiz Builder
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quiz Builder">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#question-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Question Types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#question-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Question Settings
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#link-collections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Link Collections
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#link-products" class="md-nav__link">
+    <span class="md-ellipsis">
+      Link Products
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customer-tags" class="md-nav__link">
+    <span class="md-ellipsis">
+      Customer Tags
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conditional-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conditional Logic
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conditional Logic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jump-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jump Logic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skip-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skip Logic
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quiz-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quiz Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quiz Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#edit-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edit Theme
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#my-themes" class="md-nav__link">
+    <span class="md-ellipsis">
+      My Themes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results Page
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Results Page">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#block-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#block-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Logic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#block-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-page-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results Page Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#basic-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-results-pages-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiple Results Pages Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#discounts-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discounts Settings
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notifications
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Notifications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#to-respondent" class="md-nav__link">
+    <span class="md-ellipsis">
+      To Respondent
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-self" class="md-nav__link">
+    <span class="md-ellipsis">
+      To Self
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quiz-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quiz Settings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quiz Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      General
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Messages
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version History
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connect
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#share" class="md-nav__link">
+    <span class="md-ellipsis">
+      Share
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Share">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#link" class="md-nav__link">
+    <span class="md-ellipsis">
+      Link
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inline
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#automatic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automatic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external" class="md-nav__link">
+    <span class="md-ellipsis">
+      External
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#email" class="md-nav__link">
+    <span class="md-ellipsis">
+      Email
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chat
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metrics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metrics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#responses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Responses
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Analytics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drop-off" class="md-nav__link">
+    <span class="md-ellipsis">
+      Drop-off
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plans-pricing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plans & Pricing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../app-settings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    App Settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../customer-success/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Customer Success
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Customer Success
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customer-success/how-to-build-succesful-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to build a Succesful Product Recommendation Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customer-success/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Example 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customer-success/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Example 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of Contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of Contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quiz-builder_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quiz Builder
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quiz Builder">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#question-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Question Types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#question-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Question Settings
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#link-collections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Link Collections
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#link-products" class="md-nav__link">
+    <span class="md-ellipsis">
+      Link Products
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customer-tags" class="md-nav__link">
+    <span class="md-ellipsis">
+      Customer Tags
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conditional-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conditional Logic
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conditional Logic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jump-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jump Logic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skip-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skip Logic
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quiz-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quiz Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quiz Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#edit-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edit Theme
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#my-themes" class="md-nav__link">
+    <span class="md-ellipsis">
+      My Themes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results Page
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Results Page">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#block-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#block-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Logic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#block-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-page-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results Page Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#basic-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-results-pages-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiple Results Pages Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#discounts-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discounts Settings
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notifications
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Notifications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#to-respondent" class="md-nav__link">
+    <span class="md-ellipsis">
+      To Respondent
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-self" class="md-nav__link">
+    <span class="md-ellipsis">
+      To Self
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quiz-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quiz Settings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quiz Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      General
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Messages
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version History
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connect
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#share" class="md-nav__link">
+    <span class="md-ellipsis">
+      Share
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Share">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#link" class="md-nav__link">
+    <span class="md-ellipsis">
+      Link
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inline
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#automatic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automatic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external" class="md-nav__link">
+    <span class="md-ellipsis">
+      External
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#email" class="md-nav__link">
+    <span class="md-ellipsis">
+      Email
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chat
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metrics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metrics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#responses" class="md-nav__link">
+    <span class="md-ellipsis">
+      Responses
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Analytics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drop-off" class="md-nav__link">
+    <span class="md-ellipsis">
+      Drop-off
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="quiz-builder">Quiz Builder<a class="headerlink" href="#quiz-builder" title="Anchor link to this section for reference">&para;</a></h1>
+<p><img alt="quiz builder" src="/images/manual_quizbuilder.png" /></p>
+<p>The Quiz Builder is divided into several sections.</p>
+<p><strong>Dashboard</strong> - Click to go back to the Dashboard (exit the Quiz Builder).</p>
+<p><strong>Demo Quiz</strong> - Displays the quiz name. Quiz name can be changed in <a href="#quiz-settings">Quiz Settings</a>.</p>
+<p><img alt="quiz builder success checklist" src="/images/manual_quizbuilder_successchecklist.png" /></p>
+<p>The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.</p>
+<p><img alt="quiz builder top menu" src="/images/manual_quizbuilder_topmenu.png" /></p>
+<p><strong>Preview</strong> - Opens the quiz preview in a new tab.</p>
+<p><strong>Edit</strong> - Opens the <a href="#quiz-builder-1">Quiz Builder</a> section of the Quiz Builder.</p>
+<p><strong>Connect</strong> - Opens the <a href="#connect">Connect</a> section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.</p>
+<p><strong>Share</strong> - Opens the <a href="#share">Share</a> section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.</p>
+<p><strong>Metrics</strong> - Opens the <a href="#metrics">Metrics</a> section of the Quiz Builder. This is where you'll check your quiz metrics and responses.</p>
+<p><strong>Publish</strong> - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.</p>
+<p><img alt="quiz buidler side menu" src="/images/manual_quizbuilder_sidemenu.png" /></p>
+<p><strong>Quiz Builder</strong> - Opens the <a href="#quiz-builder-1">Quiz Builder</a> section of the Quiz Builder. This is where you'll add questions/slides to your quiz.</p>
+<p><strong>Link Collections</strong> - Opens the <a href="#link-collections">Link Collections</a> section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.</p>
+<p><strong>Link Products</strong> - Opens the <a href="#link-products">Link Products</a> section of the Quiz Builder. This is where you'll link products from your store to individual choices.</p>
+<p><strong>Customer Tags</strong> - Opens the <a href="#customer-tags">Customer Tags</a> section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.</p>
+<p><strong>Conditional Logic</strong> - Opens the <a href="#conditional-logic">Conditional Logic</a> section of the Quiz Builder. This is where you'll create branching in your quiz.</p>
+<p><strong>Quiz Design</strong> - Opens the <a href="#quiz-design">Quiz Design</a> section of the Quiz Builder. This is where you'll style your quiz.</p>
+<p><strong>Results Page</strong> - Opens the <a href="#results-page">Results Page</a> section of the Quiz Builder. This is where you'll edit your results page.</p>
+<p><strong>Notifications</strong> - Opens the <a href="#notifications">Notifications</a> section of the Quiz Builder. This is where you'll set up your quiz result emails.</p>
+<p><strong>Quiz Settings</strong> - Opens the <a href="#quiz-settings">Quiz Settings</a> section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.</p>
+<h2 id="quiz-builder_1">Quiz Builder<a class="headerlink" href="#quiz-builder_1" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="quiz builder quiz builder section" src="/images/manual_quizbuilder_quizbuilder.png" /></p>
+<p>Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click <strong>Preview</strong> in the top menu.</p>
+<h3 id="question-types">Question Types<a class="headerlink" href="#question-types" title="Anchor link to this section for reference">&para;</a></h3>
+<p><strong>+</strong> / <strong>Add new question</strong> - Opens a menu of quiz questions to add.</p>
+<p><img alt="quiz builder add questions" src="/images/manual_quizbuilder_quizbuilder_addquestions.png" /></p>
+<p><strong>Welcome Message</strong> - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.</p>
+<p><strong>Thank You Message</strong> -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.</p>
+<p><strong>Dropdown</strong> - Multiple choice slide which displays choices as a dropdwon menu.</p>
+<p><strong>Multiple Choice</strong> - A question slide with several clickable options for selecting a single/multiple answers.</p>
+<p><strong>Yes/No</strong> - Two choices slide which displays choices as a clickable options.</p>
+<p><strong>Pictures Choice</strong> - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.</p>
+<p><strong>Statement</strong> - A statement slide which displays text and a button to proceed to the next question.</p>
+<p><strong>Short-text</strong> - An open question slide that allows the user to provide a short text answer.</p>
+<p><strong>Multi-line Text</strong> - An open question slide that allows the user to provide a short text answer.</p>
+<p><strong>Date</strong> - A question slide that prompts the user to select or enter a specific date.</p>
+<p><strong>File Upload</strong> - An interactive slide where users can upload a file as their response.</p>
+<p><strong>Name</strong> - A slide designed for users to enter their name, featuring a short text field.</p>
+<p><strong>Number</strong> -  A question type where users are prompted to input a numerical answer.</p>
+<p><strong>Email Address</strong> - A slide dedicated to collecting the user's email address through a text field.</p>
+<p><strong>Phone Number</strong> - A slide where participants are asked to enter their phone number, usually in a specified format.</p>
+<p><strong>Legal Terms/GDPR</strong> - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.</p>
+<h3 id="question-settings">Question Settings<a class="headerlink" href="#question-settings" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder question settings menu" src="/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png" /></p>
+<p><strong>question settings</strong> / <strong>wrench icon</strong> - Opens the Question Settings menu.</p>
+<p><img alt="quiz builder question settings side menu" src="/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png" /></p>
+<ul>
+<li>
+<p><strong>Question Type</strong> - Allows you to switch between similar question types.</p>
+</li>
+<li>
+<p><strong>Button Text</strong> - Change the text button on the slide.</p>
+</li>
+<li>
+<p><strong>Recall Information</strong> - Click "recall" to add an Information Recall to the question. Read more about Information Recalls <a href="https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/">here</a>.</p>
+</li>
+<li>
+<p><strong>Show Description</strong> - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.</p>
+</li>
+<li>
+<p><strong>Optional</strong> - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.</p>
+</li>
+<li>
+<p><strong>Multiple Selection</strong> - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.</p>
+<ul>
+<li><strong>Range</strong> - Select the range of answers a cusotmer can cliced.</li>
+</ul>
+</li>
+<li>
+<p><strong>Image</strong> - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.</p>
+<ul>
+<li>
+<p><strong>above</strong> - Places the uplaoded image above the question, on top of the slide.</p>
+</li>
+<li>
+<p><strong>below</strong> - Places the uplaoded image below the question, above the choices.</p>
+</li>
+<li>
+<p><strong>background</strong> - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).</p>
+</li>
+<li>
+<p><strong>split</strong> - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.</p>
+</li>
+<li>
+<p><strong>Image Opacity</strong> - A slider which allows to adjust the opacity of the uplaoded image.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Video</strong> - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.</p>
+<ul>
+<li>
+<p><strong>responsive</strong> - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.</p>
+</li>
+<li>
+<p><strong>widget</strong> - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.</p>
+</li>
+<li>
+<p><strong>background</strong> - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.</p>
+</li>
+<li>
+<p><strong>Video Opacity</strong> - A slider which allows to adjust the opacity of the uplaoded video.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Custom JS Code</strong> - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.</p>
+</li>
+<li>
+<p><strong>Question ID</strong> - Displays the question unique ID.</p>
+</li>
+</ul>
+<p><strong>conditonal logic</strong> / <strong>tree icon</strong> - Opens the <a href="#conditional-logic">Conditional Logic</a> section of the Quiz Builder.</p>
+<p><strong>more options</strong> / <strong>...</strong> - Opens more options menu.</p>
+<p><img alt="quiz builder question settings more options" src="/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png" /></p>
+<ul>
+<li>
+<p><strong>+ add question below</strong> - Adds a new blank question of the same type below.</p>
+</li>
+<li>
+<p><strong>Duplicate</strong> - Duplicate this slide. Creates a copy slide below.</p>
+</li>
+<li>
+<p><strong>Delete</strong> - Delete this slide. </p>
+</li>
+</ul>
+<h2 id="link-collections">Link Collections<a class="headerlink" href="#link-collections" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="quiz builder link collections" src="/images/manual_quizbuilder_linkcollections.png" /></p>
+<p>In the Link Collections tab, you can link entire collections of products from your store to choices. This includes Shopify collections, tags, virtual vendors, and variants collections.</p>
+<p>Once a collection is linked to a choice and the customer picks that choice, all the products in that collection will receive 1 vote.</p>
+<p>To link a collection to a choice click on the white dropdown bar and start typing the name.</p>
+<p><img alt="quiz builder link collecctions search" src="/images/manual_quizbuilder_linkcollections_search.png" /></p>
+<p>Select a collection and it will be automatically added to the choice. </p>
+<p><strong>Moisturizers(1)</strong> - (1) The number in the brackets indicates how many product varaints are in that collection.</p>
+<p>You can link multiple collections to the same choice but be careful. If a product is part of two collections linked to the same choice, it will receive 2 votes from that choice (one vote from each collection linked to that choice).</p>
+<p><img alt="quiz builder link collections linked collections" src="/images/manual_quizbuilder_linkcollections_linked.png" /></p>
+<p>To remove a linked collection click "x" next to the collection name.</p>
+<p><strong>excluded collections</strong> - Opens the dropdown which allows to exclude collections of products from a choice. </p>
+<p><img alt="quiz builder link collections exclude" src="/images/manual_quizbuilder_linkcollections_exclude.png" /></p>
+<p>Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the resutls page, even if they were upvoted in another choice earlier/later.</p>
+<p><strong>Missing collections or collections show (0) products?</strong>  - You may need to run a <a href="https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/">Catalog Sync</a> to update the app.</p>
+<h2 id="link-products">Link Products<a class="headerlink" href="#link-products" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="quiz builder link products" src="/images/manual_quizbuilder_linkproducts.png" /></p>
+<p>In the Link Products tab, you can link individual product variants from your store to choices.</p>
+<p>Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.</p>
+<p>To link a product to a choice click on the white dropdown bar and start typing the name.</p>
+<p><img alt="quiz builder link products search" src="/images/manual_quizbuilder_linkproducts_search.png" /></p>
+<p>Select a product variant and it will be automatically added to the choice.</p>
+<p>You can link multiple product variants to the same choice.</p>
+<p><img alt="quiz builder link products linked products" src="/images/manual_quizbuilder_linkproducts_linked.png" /></p>
+<p>To remove a linked product click "x" next to the product name.</p>
+<p><strong>excluded products</strong> - Opens the dropdown which allows to exclude products of products from a choice. </p>
+<p><img alt="quiz builder link products exclude" src="/images/manual_quizbuilder_linkproducts_exclude.png" /></p>
+<p>Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.</p>
+<p><strong>Missing products?</strong>  - You may need to run a <a href="">Catalog Sync</a> to update the app.</p>
+<h2 id="customer-tags">Customer Tags<a class="headerlink" href="#customer-tags" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="quiz builder customer tags" src="/images/manual_quizbuilder_customertags.png" /></p>
+<p>In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.</p>
+<p><img alt="quiz builder customer tags add tag" src="/images/manual_quizbuilder_customertags_addtag.png" /></p>
+<p>To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".</p>
+<p>Created tag will then show as an available option whenever you select another choice.</p>
+<p><img alt="quiz builder customer tags added tag" src="/images/manual_quizbuilder_customertags_tagadded.png" /></p>
+<p>You can create as many tags as you like. You can link as many tags as you like to the same choice. </p>
+<h2 id="conditional-logic">Conditional Logic<a class="headerlink" href="#conditional-logic" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="quiz builder conditional logic" src="/images/manual_quizbuilder_conditionallogic.png" /></p>
+<p>In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.</p>
+<p>By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.</p>
+<p><img alt="quiz builder conditional logic preview options" src="/images/manual_quizbuilder_conditionallogic_previewoptions.png" /></p>
+<p><strong>+</strong> - Zoom in on the logic tree preview.</p>
+<p><strong>-</strong> - Zoom out on the logic tree preview.</p>
+<p><strong>[]</strong> - Center the logic tree preview and fit into view.</p>
+<p>Drag the logic tree with your mouse left button to navigate to specific branches.</p>
+<p><img alt="quiz builder quiz design switch question" src="/images/manual_quizbuilder_quizdesign_switchquestion.png" /></p>
+<p>The top menu allows you to switch between questions.</p>
+<p><strong>arrow up</strong> - Takes you to the question higher.</p>
+<p><strong>arrow down</strong> - Take you to the question lower.</p>
+<h3 id="jump-logic">Jump Logic<a class="headerlink" href="#jump-logic" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Jump Logic allows you to route customers to different questions based on their responses.</p>
+<p><strong>Add Jump Logic</strong> - Click to add a new Jump Logic rule for the selected question.</p>
+<p><img alt="quiz builder conditional logic jump logic rule" src="/images/manual_quizbuilder_conditionallogic_jumplogicrule.png" /></p>
+<p>All the Jump Logic rules follow the same format</p>
+<p><strong>IF response to</strong> pick the question from a dropdown list</p>
+<p><strong>is</strong>/ <strong>is not</strong> pick a choice from the dropdown list</p>
+<p><strong>THEN go to:</strong> pick a slide from the dropdown list or add a URL </p>
+<p><img alt="quiz builder conditional logic jump logic rule go to" src="/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png" /></p>
+<p><em>In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".</em></p>
+<p><strong>+</strong> - Add another Jump Logic rule. Adds a new OR logical rule.</p>
+<p><img alt="quiz builder conditional logic jump logic OR rule" src="/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png" /></p>
+<p><em>In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".</em></p>
+<p><strong>bin</strong> - Delete the current Jump Logic rule.</p>
+<p><strong>+ add concurrent logic</strong> - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.</p>
+<p><img alt="quiz builder conditional logic jump logic AND rule" src="/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png" /></p>
+<p><em>In the example, </em><em>only if</em><em> a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" </em><em>and</em><em> a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".</em></p>
+<p><strong>Always jump to:</strong> - Select a slide or URL where the user will be always redirected after this slide.</p>
+<h3 id="skip-logic">Skip Logic<a class="headerlink" href="#skip-logic" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.</p>
+<p><strong>Add Skip Logic</strong> - Click to add a new Skip Logic rule for the selected question.</p>
+<p><img alt="quiz builder conditional logic skip logic rule" src="/images/manual_quizbuilder_conditionallogic_skiplogicrule.png" /></p>
+<p>All the Skip Logic rules follow the same format</p>
+<p><strong>IF response to</strong> pick the question from a dropdown list</p>
+<p><strong>is</strong>/ <strong>is not</strong> pick a choice from the dropdown list</p>
+<p><strong>THEN this question is skipped</strong></p>
+<p><em>In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).</em></p>
+<p>All slides that contain Skip Logic will be marked with "skip logic" text.</p>
+<p><strong>+</strong> - Adds another Skip Logic rule. Adds a new OR logical rule.</p>
+<p><strong>bin</strong> - Delete the current Skip Logic rule.</p>
+<p><strong>+ add concurrent logic</strong> - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.</p>
+<h2 id="quiz-design">Quiz Design<a class="headerlink" href="#quiz-design" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="quiz builder quiz design" src="/images/manual_quizbuilder_quizdesign.png" /></p>
+<p>In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.</p>
+<p><img alt="quiz builder quiz design switch question" src="/images/manual_quizbuilder_quizdesign_switchquestion.png" /></p>
+<p>The top menu allows you to switch between questions to preview them.</p>
+<p><strong>arrow up</strong> - Takes you to the question higher.</p>
+<p><strong>arrow down</strong> - Take you to the question lower.</p>
+<p><img alt="quiz builder quiz design" src="/images/manual_quizbuilder_quizdesign_questionresults.png" /></p>
+<p><strong>Questions</strong> - Shows the preview of how the questions look like.</p>
+<p><strong>Results</strong> - Shows the preview of how the results page looks like.</p>
+<h3 id="edit-theme">Edit Theme<a class="headerlink" href="#edit-theme" title="Anchor link to this section for reference">&para;</a></h3>
+<p>In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.</p>
+<p><img alt="quiz builder quiz design edit theme" src="/images/manual_quizbuilder_quizdesign_edittheme.png" /></p>
+<p><strong><em>Wine</em></strong> - Displays the name of your current theme.</p>
+<p><strong>Font</strong> - Shows a dropdown of available fonts. Pick a font from the list to change it.</p>
+<p><strong>Question</strong> - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)</p>
+<p><strong>Choices</strong> - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)</p>
+<p><strong>Button</strong> - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)</p>
+<p><strong>Background</strong> - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).</p>
+<p><strong>Background image</strong> - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.</p>
+<ul>
+<li><strong>Background Opacity</strong> - A slider that allows you to adjust the opacity of the uploaded background image.</li>
+</ul>
+<p><strong>Custom CSS</strong> - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.</p>
+<h3 id="my-themes">My Themes<a class="headerlink" href="#my-themes" title="Anchor link to this section for reference">&para;</a></h3>
+<p>In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.</p>
+<p><img alt="quiz builder quiz design my themes" src="/images/manual_quizbuilder_quizdesign_mythemes.png" /></p>
+<p><strong>+ add new theme</strong> - Adds a new blank theme to your MY THEMES gallery.</p>
+<p><strong>...</strong> - Opens the theme options.</p>
+<p><img alt="quiz builder quiz design my themes theme options" src="/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png" /></p>
+<ul>
+<li>
+<p><strong>Edit</strong> - Opens the selected theme in EDIT THEME.</p>
+</li>
+<li>
+<p><strong>Duplicate</strong> - Creates a copy of the selected theme.</p>
+</li>
+<li>
+<p><strong>Delete</strong> - Deletes the selected theme from MY THEMES gallery.</p>
+</li>
+</ul>
+<h2 id="results-page">Results Page<a class="headerlink" href="#results-page" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="quiz builder results page" src="/images/manual_quizbuilder_resultspage.png" /></p>
+<p>In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.</p>
+<h3 id="block-types">Block Types<a class="headerlink" href="#block-types" title="Anchor link to this section for reference">&para;</a></h3>
+<p><strong>+</strong> / <strong>add block</strong> - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.</p>
+<p><img alt="quiz builder results page add block menu" src="/images/manual_quizbuilder_resultspage_addblockmenu.png" /></p>
+<ul>
+<li>
+<p><strong>Heading Block</strong> - Adds a new heading to your page, ideal for titles or section breaks.</p>
+</li>
+<li>
+<p><strong>Content Block</strong> - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.</p>
+</li>
+<li>
+<p><strong>HTML Block</strong> - Adds a block where you can input custom HTML code for advanced content and styling.</p>
+</li>
+<li>
+<p><strong>Image Block</strong> - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.</p>
+</li>
+<li>
+<p><strong>Products Block</strong> - Adds a block specifically designed for displaying a list of recommended products.</p>
+</li>
+<li>
+<p><strong>Slots Block</strong> - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.</p>
+</li>
+</ul>
+<p><img alt="quiz builder results page block menu" src="/images/manual_quizbuilder_resultspage_blockmenu.png" /></p>
+<h3 id="block-logic">Block Logic<a class="headerlink" href="#block-logic" title="Anchor link to this section for reference">&para;</a></h3>
+<p><strong>conditional logic</strong> / <strong>tree icon</strong> - Opens the <a href="#block-logic">Block Logic</a> menu.</p>
+<p><img alt="quiz builder resutls page block logic" src="/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png" /></p>
+<p>With Block Logic you can make blocks visible or hidden based on customer's responses.</p>
+<p><strong>Add Block Logic</strong> - Adds a new block logic rule.</p>
+<p><img alt="quiz builder resutls page block logic example" src="/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png" /></p>
+<p>All the Block Logic rules follow the same format</p>
+<p><strong>IF response to</strong> pick the question from a dropdown list</p>
+<p><strong>is</strong>/ <strong>is not</strong> pick a choice from the dropdown list</p>
+<p><strong>THEN block is</strong> pick either <strong>Visible</strong> or <strong>Hidden</strong></p>
+<p><strong>IN ALL OTHER CASES this block is</strong> pick pick either <strong>Visible</strong> or <strong>Hidden</strong></p>
+<p><em>In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.</em></p>
+<ul>
+<li>
+<p><strong>+</strong> - Adds another Block Logic rule. Adds a new OR logical rule.</p>
+</li>
+<li>
+<p><strong>bin</strong> - Delete the current Block Logic rule.</p>
+</li>
+<li>
+<p><strong>+ add concurrent logic</strong> - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.</p>
+</li>
+</ul>
+<p><strong>...</strong> - Opens the more options menu.</p>
+<p><img alt="quiz builder resutls page block menu more options" src="/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png" /></p>
+<ul>
+<li>
+<p><strong>+ add block below</strong> - Opens the <strong>+</strong> / <strong>add block</strong> menu.</p>
+</li>
+<li>
+<p><strong>bin</strong> / <strong>delete block</strong> - Deletes the current block from the resutls page.</p>
+</li>
+</ul>
+<h3 id="block-settings">Block Settings<a class="headerlink" href="#block-settings" title="Anchor link to this section for reference">&para;</a></h3>
+<p>🔧 / <strong>wrench icon</strong> - Opens the block settings menu.</p>
+<p><strong>Product Block Settings</strong></p>
+<p><img alt="quiz builder results page product block settings" src="/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png" /></p>
+<ul>
+<li>
+<p><strong>Title</strong> - Type a title to be displayed above the recommended products.</p>
+</li>
+<li>
+<p><strong>Description</strong> - Add a description to be displayed above the recommended products.</p>
+</li>
+<li>
+<p><strong>Max. recommended products</strong> - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.</p>
+</li>
+<li>
+<p><strong>Hide block when no products are recommended</strong> - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings&gt; Messages section.</p>
+</li>
+</ul>
+<p><strong>Slot Block Settings</strong> </p>
+<p><img alt="quiz builder resutls page slot block settings" src="/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png" /></p>
+<ul>
+<li><strong>Add a slot</strong> - Adds a new slot to the slot block. You can have multiple slots in a slot block.</li>
+</ul>
+<p><img alt="quiz builder results page slot block settings add slot" src="/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png" /></p>
+<ul>
+<li>
+<p><strong>Title</strong> - Type a title to be displayed above the slot.</p>
+</li>
+<li>
+<p><strong>Description</strong> - Add a description to be displayed above the slot.</p>
+</li>
+<li>
+<p><strong>Max. recommended products</strong> - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.</p>
+</li>
+<li>
+<p><strong>Included collections</strong> - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.</p>
+</li>
+<li>
+<p><strong>Excluded collections</strong> - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.</p>
+</li>
+</ul>
+<p><strong>Slot ID</strong> - Displays the current slot ID.</p>
+<h3 id="results-page-settings">Results Page Settings<a class="headerlink" href="#results-page-settings" title="Anchor link to this section for reference">&para;</a></h3>
+<p>⚙️ / <strong>gear icon</strong> - Opens the results page settings.</p>
+<p><img alt="quiz builder results page results page settings" src="/images/manual_quizbuilder_resultspage_settings.png" /></p>
+<h3 id="basic-settings">Basic Settings<a class="headerlink" href="#basic-settings" title="Anchor link to this section for reference">&para;</a></h3>
+<p><strong>Checkout Settings</strong></p>
+<p><img alt="quiz builder resutls page resutls page settings basic checkout" src="/images/manual_quizbuilder_resultspage_settings_basic_checkout.png" /></p>
+<ul>
+<li>
+<p><strong>Add product to cart</strong> - Allows the user to add the recommended products to the cart directly from the results page.</p>
+<ul>
+<li>
+<p><strong>Proceed to cart</strong> - After the products are added to the cart, the customer will proceed to the cart page.</p>
+</li>
+<li>
+<p><strong>proceed to checkout</strong> - After the products are added to the cart, the customer will proceed to the checkout page.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Link to product</strong> - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.</p>
+</li>
+</ul>
+<p><strong>Individual Product Settings</strong></p>
+<p><img alt="quiz builder resutls page resutls page settings basic individual product settings" src="/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png" /></p>
+<ul>
+<li>
+<p><strong>Show main product image</strong> - Click to always show the main product image, even when a variant is recommended.</p>
+</li>
+<li>
+<p><strong>Show variant image</strong> - Click to always show the variant image, instead of the main product image.</p>
+</li>
+<li>
+<p><strong>Show price</strong> - Toggle to display the product price on the results page.</p>
+</li>
+<li>
+<p><strong>Show vendors</strong> - Toggle to display the product vendor under the product on the results page.</p>
+</li>
+<li>
+<p><strong>Show CTA button</strong> - Toggle to display the "add to cart" or "view product" button under the products on the results page.</p>
+</li>
+<li>
+<p><strong>Show "more info" link</strong> - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.</p>
+</li>
+<li>
+<p><strong>Show description</strong> - Toggle to display the product description below the product name on the results page. An additional option is displayed.</p>
+<p><strong>Truncate description</strong> - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.</p>
+</li>
+<li>
+<p><strong>Show reviews</strong> - Toggle to show product rating below the product name on the results page. After activation make sure to run a <a href="https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/">Catalog Sync</a> to sync all the product reviews with the app.</p>
+</li>
+<li>
+<p><strong>Show metafields</strong> - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in <a href="https://docs.revenuehunt.com/how-to-guides/how-to-add-product-metafields/">How to show product metafieleds in the quiz</a>.</p>
+</li>
+</ul>
+<p><strong>Style Settings</strong></p>
+<p><img alt="quiz builder resutls page resutls page settings basic style" src="/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png" /></p>
+<p><strong>Background image</strong> - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. </p>
+<ul>
+<li><strong>Image Opacity</strong> - A slider that allows you to adjust the opacity of the uploaded background image.</li>
+</ul>
+<h3 id="advanced-settings">Advanced Settings<a class="headerlink" href="#advanced-settings" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder resutls page resutls page settings advanced" src="/images/manual_quizbuilder_resultspage_settings_advanced.png" /></p>
+<p><strong>Recommendation Settings</strong></p>
+<p><strong>If no results, no products</strong> - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings &gt; Messages section.</p>
+<p><strong>If no results, random products</strong> - If there are no products that can be recommended the app will show random products that received any votes.</p>
+<p><strong>Group product variants</strong> - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.</p>
+<p><strong>Show unavailable products</strong> - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.</p>
+<p><strong>Allow duplicated recommendations</strong> - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.</p>
+<p><strong>Minimum number of votes</strong> - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.</p>
+<p><img alt="quiz builder results page results page settings min votes setting" src="/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png" /></p>
+<p><strong>Custom JS Code</strong></p>
+<p><strong>Custom JavaScript</strong> - Click "Add" to open the JavaScript console.</p>
+<p><strong>Multiple Results Pages</strong></p>
+<p><strong>Activate multiple results pages</strong> - Click "activate" to open the MULTIPLE RESULTS PAGES menu.</p>
+<h3 id="multiple-results-pages-settings">Multiple Results Pages Settings<a class="headerlink" href="#multiple-results-pages-settings" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder resutls page results page settings multiple results pages" src="/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png" /></p>
+<p><strong>Results Page 1</strong> </p>
+<ul>
+<li>
+<p><strong>Edit this page</strong> - Click "edit" to switch to this results page and edit its content.</p>
+</li>
+<li>
+<p><strong>This is currently the default Results Page</strong> - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with <a href="#jump-logic">Jump Logic</a> to another page.</p>
+</li>
+</ul>
+<p><strong>Results Page 2</strong></p>
+<ul>
+<li>
+<p><strong>You're editing this Results Page settings &amp; blocks</strong> - Indicates which results page you are currently editing.</p>
+</li>
+<li>
+<p><strong>Set as default</strong> - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with <a href="#jump-logic">Jump Logic</a> to another page.</p>
+</li>
+</ul>
+<p><strong>Create new Results Page</strong> - add a new results page to your quiz.</p>
+<h3 id="discounts-settings">Discounts Settings<a class="headerlink" href="#discounts-settings" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder resutls page discount" src="/images/manual_quizbuilder_resultspage_settings_discount.png" /></p>
+<p><strong>Discount Code Settings</strong> - Allows to add a static discount to your results page. Click "Add" to open the discount menu.</p>
+<p><img alt="quiz builder results page discount discount code" src="/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png" /></p>
+<ul>
+<li>
+<p><strong>Visible discount</strong> - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.</p>
+</li>
+<li>
+<p><strong>Code</strong> - Type a discount code that corresponds to this discount. You have to set up this discount code in your store &gt; Shopify Discounts first. Follow this guide to learn <a href="">How to add a discount to the quiz</a>.</p>
+</li>
+</ul>
+<p><strong>Dynamic Discounts</strong> - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.</p>
+<p><img alt="quiz builder results page discount discount code" src="/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png" /></p>
+<p><strong>Dynamic Discounts Settings</strong></p>
+<ul>
+<li>
+<p><strong>Enable notifications</strong> - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.</p>
+</li>
+<li>
+<p><strong>Encourage discounts</strong> - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.</p>
+</li>
+</ul>
+<p><strong>Discount [A]</strong> </p>
+<ul>
+<li>
+<p><strong>Discount code</strong> - Type a discount code that corresponds to this discount. You have to set up this discount code in your store &gt; Shopify Discounts first. Follow this guide to learn <a href="">How to add a discount to the quiz</a>.</p>
+</li>
+<li>
+<p><strong>Discount percentage</strong> - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.</p>
+</li>
+<li>
+<p><strong>Min. value in cart</strong> - Type the value of products added to the cart on the results page above which the discount will be applied.</p>
+</li>
+<li>
+<p><strong>+</strong> / <strong>add another discount</strong> - adds a new dynamic discount (Discount [B]).</p>
+</li>
+<li>
+<p><strong>bin</strong> / <strong>delete this discount</strong> - deletes this dynamic discount.</p>
+</li>
+</ul>
+<p><strong>add a discount</strong> - Adds a new dynamic discount below (Discount [B]).</p>
+<p><strong>deactivate</strong> - Deactivates dynamic discounts.</p>
+<h2 id="notifications">Notifications<a class="headerlink" href="#notifications" title="Anchor link to this section for reference">&para;</a></h2>
+<p>In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.</p>
+<h3 id="to-respondent">To Respondent<a class="headerlink" href="#to-respondent" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder notifications to respondent inactive" src="/images/manual_quizbuilder_notifications_torespondent_inactive.png" /></p>
+<p>You need to have one email question in order to send notifications to the respondents. Check the <a href="#quiz-builder_1">Quiz Builder</a> section to add an email question to your quiz.</p>
+<p>To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.</p>
+<p><img alt="quiz builder notifications to respondent active" src="/images/manual_quizbuilder_notifications_torespondent_active.png" /></p>
+<p>TO RESPONDENT section displays the email settings on the left and the email preview on the right.</p>
+<p><img alt="quiz builder notifications to respondent preview" src="/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png" /></p>
+<p>Select a response from the list to preview how the email will look like.</p>
+<p><strong>Email REPLY_TO:</strong> - Fill in the email address to which the customer will be able to send a reply.</p>
+<p><strong>Email TO:</strong> - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.</p>
+<p><strong>Email Subject:</strong> - Type in the email subject that the customer will see in their inbox. You can use <a href="">Information Recalls</a> to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)</p>
+<p><strong>Email Text Message</strong> - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).</p>
+<ul>
+<li><strong>switch to advanced HTML message</strong> - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with <a href="https://github.com/helpers/handlebars-helpers">Handlebars</a>.</li>
+</ul>
+<p><img alt="quiz builder notifications HTML" src="/images/manual_quizbuilder_notifications_torespondent_active_html.png" /></p>
+<ul>
+<li><strong>switch to basic text message</strong> - Switched to the basic text email template. Email can be edited with regular text. You can use <a href="">Information Recalls</a> to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).</li>
+</ul>
+<p><img alt="quiz builder notification basic" src="/images/manual_quizbuilder_notifications_torespondent_active_basic.png" /></p>
+<h3 id="to-self">To Self<a class="headerlink" href="#to-self" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder notifications to self inactive" src="/images/manual_quizbuilder_notifications_toself_inactive.png" /></p>
+<p><strong>Get email when someone completes the quiz</strong> - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.</p>
+<p><strong>Get email when someone proceedes to checkout</strong> - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.</p>
+<p><img alt="quiz builder notifications to self active" src="/images/manual_quizbuilder_notifications_toself_active.png" /></p>
+<h2 id="quiz-settings">Quiz Settings<a class="headerlink" href="#quiz-settings" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="quiz builder quiz settings" src="/images/manual_quizbuilder_quizsettings.png" /></p>
+<p>In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.</p>
+<h3 id="general">General<a class="headerlink" href="#general" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder quiz settings general" src="/images/manual_quizbuilder_quizsettings_general.png" /></p>
+<p><strong>Quiz name</strong>  - Click on the field to edit the quiz name.</p>
+<p><strong>Language</strong> - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.</p>
+<p><strong>Currency</strong> - Choose from a dropdown in which currency the product price should be displayes.</p>
+<p><strong>Format</strong> - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).</p>
+<p><strong>Separators</strong> - Choose from a dropdown how the currency number should be displayed.</p>
+<p><strong>Save quiz progress</strong> - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.</p>
+<p><strong>Set <em>revenuehunt/quiz</em> as UTM source/medium</strong> - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Facebook Pixel).</p>
+<p><strong>Use top level product</strong> - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.</p>
+<p><strong>Export quiz to another store</strong> - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check <a href="https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/">How to copy the quiz from one store to another</a> for detailed instructions.</p>
+<p><strong>Quiz ID</strong> - Displays the current quiz ID.</p>
+<h3 id="messages">Messages<a class="headerlink" href="#messages" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder quiz settings messages" src="/images/manual_quizbuilder_quizsettings_messages.png" /></p>
+<p><strong>Language</strong> - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.</p>
+<p><strong>Buttons</strong></p>
+<p><img alt="quiz builder quiz settings messages buttons" src="/images/manual_quizbuilder_quizsettings_messages_buttons.png" /></p>
+<ul>
+<li>
+<p><strong>Next</strong> - Default text on the buttons that move the user to the next slide. | Quiz</p>
+</li>
+<li>
+<p><strong>View product</strong> - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page</p>
+</li>
+<li>
+<p><strong>Add to cart</strong> - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page</p>
+</li>
+<li>
+<p><strong>X in cart</strong> - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page</p>
+</li>
+<li>
+<p><strong>Add all to cart</strong> -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page</p>
+</li>
+<li>
+<p><strong>Unavailable</strong> - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page</p>
+</li>
+<li>
+<p><strong>View results</strong> - Default text on the button on the "Thank You" slide type. | Quiz</p>
+</li>
+<li>
+<p><strong>Proceed to...</strong> - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page</p>
+</li>
+<li>
+<p><strong>...Checkout</strong> - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page</p>
+</li>
+<li>
+<p><strong>...Cart</strong> - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page</p>
+</li>
+<li>
+<p><strong>Retake quiz</strong> - Default text on the button that allows the user to retake the quiz. | Results Page</p>
+</li>
+<li>
+<p><strong>Read more</strong> - Default text on the product tile that opens the extended product description. | Results Page</p>
+</li>
+<li>
+<p><strong>One-time purchase</strong> - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page</p>
+</li>
+<li>
+<p><strong>Subscribe &amp; save</strong> - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page</p>
+</li>
+</ul>
+<p><strong>Placeholders</strong></p>
+<p><img alt="quiz builder quiz settings messages placeholders" src="/images/manual_quizbuilder_quizsettings_messages_placeholders.png" /></p>
+<ul>
+<li>
+<p><strong>Your name</strong> - Default placeholder text on the name question slides. | Quiz</p>
+</li>
+<li>
+<p><strong>Your email</strong> - Default placeholder text on the email question slides. | Quiz</p>
+</li>
+<li>
+<p><strong>Your phone</strong> - Default placeholder text on the phone question slides. | Quiz</p>
+</li>
+<li>
+<p><strong>Select</strong> - Default text on the product tile if the recommended product has variants grouped. | Results Page</p>
+</li>
+<li>
+<p><strong>Select variant</strong> - Default text on the product tile if the recommended product has variants grouped. | Results Page</p>
+</li>
+<li>
+<p><strong>No variants</strong> - Default text on the product tile if the product has variants grouped but the product has no variants. | Results Page</p>
+</li>
+</ul>
+<p><strong>Helpers</strong></p>
+<p><img alt="quiz builder quiz settings messages helpers" src="/images/manual_quizbuilder_quizsettings_messages_helpers.png" /></p>
+<ul>
+<li>
+<p><strong>and</strong> - Default text used in Information Recalls when recalling answers from multiple-selection questions. | Quiz &amp; Results Page</p>
+</li>
+<li>
+<p><strong>X% complete</strong> - Default text on the quiz progress bar. | Quiz</p>
+</li>
+<li>
+<p><strong>Adding...</strong> - Default text when adding a product to the cart. | Results Page</p>
+</li>
+<li>
+<p><strong>Redirecting</strong> - Default text when redirecting the user from the results page. | Results Page</p>
+</li>
+<li>
+<p><strong>No results</strong> - - Default text displayed when the quiz cannot produce recommendations. (For example, no products were upvoted or there are no products that match all the customer criteria.) | Results Page</p>
+</li>
+<li>
+<p><strong>Drop file here</strong> - Default text on the file upload question slides. | Quiz</p>
+</li>
+<li>
+<p><strong>Click to upload</strong> - Default text on the file upload question slides. | Quiz</p>
+</li>
+<li>
+<p><strong>File under 2MB</strong> - Default text on the file upload question slides. | Quiz</p>
+</li>
+<li>
+<p><strong>Delivery every X days</strong> - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page</p>
+</li>
+<li>
+<p><strong>Delivery every X weeks</strong> - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page</p>
+</li>
+<li>
+<p><strong>Delivery every X months</strong> - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page</p>
+</li>
+<li>
+<p><strong>Delivery every X years</strong> - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page</p>
+</li>
+</ul>
+<p><strong>Discount Notifications</strong></p>
+<p><img alt="quiz builder quiz settings messages discounts" src="/images/manual_quizbuilder_quizsettings_messages_discounts.png" /></p>
+<ul>
+<li>
+<p><strong>Qualifies for discount</strong> - Default text when dynamic discounts are active in the quiz. | Results Page</p>
+</li>
+<li>
+<p><strong>Doesn't qualify</strong> - Default text when dynamic discounts are active in the quiz. | Results Page</p>
+</li>
+<li>
+<p><strong>Encourage next discount</strong> - Default text when dynamic discounts are active in the quiz. | Results Page</p>
+</li>
+</ul>
+<p><strong>Restore default messages</strong> - Click "restore" to set all fields back to default.</p>
+<h3 id="version-history">Version History<a class="headerlink" href="#version-history" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder quiz settings version history" src="/images/manual_quizbuilder_quizsettings_versionhistory.png" /></p>
+<p>In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.</p>
+<p><img alt="quiz builder quiz settings version history menu" src="/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png" /></p>
+<p><strong>...</strong> - Click to open the restore menu.</p>
+<ul>
+<li>
+<p><strong>Create a new quiz usign this version</strong> - Create a new quiz on our dashboard based on this version of the current quiz.</p>
+</li>
+<li>
+<p><strong>Rename this version</strong> - Allows you to rename this saved version of the quiz.</p>
+</li>
+</ul>
+<h2 id="connect">Connect<a class="headerlink" href="#connect" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="quiz builder connect" src="/images/manual_quizbuilder_connect.png" /></p>
+<p>In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check <a href="https://revenuehunt.com/integrations/">here</a> for the up-to-date list of our integrations.</p>
+<p>To connect the quiz to a particular service, find it on the page and click "Connect". Then follow the instructions displayed in the browser or in the "read more" section.</p>
+<h2 id="share">Share<a class="headerlink" href="#share" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="quiz builder share" src="/images/manual_quizbuilder_share.png" /></p>
+<p>In the Share tab of the Quiz Builder, you can choose how to publish the quiz on your website or how to share it with your customers. Click on the option tiles to see instructions and extra settings. </p>
+<p>For step-by-step instructions check <a href="">How to Publish the Quiz</a> guide.</p>
+<h3 id="link">Link<a class="headerlink" href="#link" title="Anchor link to this section for reference">&para;</a></h3>
+<p>A link that will open the quiz as a popup over your page.</p>
+<p><img alt="quiz builder share link" src="/images/manual_quizbuilder_share_link.png" /></p>
+<ul>
+<li>
+<p><strong>POPUP OPTIONS</strong></p>
+</li>
+<li>
+<p><strong>Popup width</strong> - Adjust the width of the quiz by typing the percentage number.</p>
+</li>
+<li>
+<p><strong>Popup height</strong> - Adjust the width of the quiz by typing the percentage number.</p>
+</li>
+</ul>
+<h3 id="inline">Inline<a class="headerlink" href="#inline" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Quiz embedded inline with a page.</p>
+<p><img alt="quiz builder share inline" src="/images/manual_quizbuilder_share_inline.png" /></p>
+<p><strong><em>Instructions for legacy themes</em></strong> - Opens extra settings menu.</p>
+<p><img alt="quiz builder share inline legacy" src="/images/manual_quizbuilder_share_inline_legacy.png" /></p>
+<ul>
+<li>
+<p><strong>EMBEDDED QUIZ OPTIONS</strong></p>
+</li>
+<li>
+<p><strong>Width</strong> - Adjust the width of the quiz by typing the percentage number or px value.</p>
+</li>
+<li>
+<p><strong>Height</strong> - Adjust the width of the quiz by typing the percentage number or px value.</p>
+</li>
+<li>
+<p><strong>Fixed height</strong> - Will set a fixed height of the quiz iframe as specified in the <strong>Height</strong> field above. Toggle to activate. </p>
+</li>
+</ul>
+<h3 id="automatic">Automatic<a class="headerlink" href="#automatic" title="Anchor link to this section for reference">&para;</a></h3>
+<p>A quiz popup appears after X seconds.</p>
+<p>By default, the popup is only shown once per session.</p>
+<p><img alt="quiz builder share automatic" src="/images/manual_quizbuilder_share_automatic.png" /></p>
+<p><strong><em>Instructions for legacy themes</em></strong> - Opens extra settings menu.</p>
+<p><img alt="quiz builder share automatic legacy" src="/images/manual_quizbuilder_share_automatic_legacy.png" /></p>
+<ul>
+<li>
+<p><strong>POPUP OPTIONS</strong></p>
+</li>
+<li>
+<p><strong>Popup width</strong> - Adjust the width of the quiz by typing the percentage number.</p>
+</li>
+<li>
+<p><strong>Popup height</strong> - Adjust the width of the quiz by typing the percentage number.</p>
+</li>
+<li>
+<p><strong>Wait seconds</strong> - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.</p>
+</li>
+<li>
+<p><strong>Exit intent</strong> - Show the automatic popup when the customer is exit intent. Toggle to activate.</p>
+</li>
+</ul>
+<h3 id="external">External<a class="headerlink" href="#external" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Direct link to the quiz for social media.</p>
+<p><img alt="quiz builder share external" src="/images/manual_quizbuilder_share_external.png" /></p>
+<ul>
+<li>
+<p><strong>POPUP OPTIONS</strong></p>
+</li>
+<li>
+<p><strong>Popup width</strong> - Adjust the width of the quiz by typing the percentage number.</p>
+</li>
+<li>
+<p><strong>Popup height</strong> - Adjust the width of the quiz by typing the percentage number.</p>
+</li>
+</ul>
+<h3 id="email">Email<a class="headerlink" href="#email" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Quiz popup when someone clicks on this email link. </p>
+<p><img alt="quiz builder share email" src="/images/manual_quizbuilder_share_email.png" /></p>
+<ul>
+<li>
+<p><strong>POPUP OPTIONS</strong></p>
+</li>
+<li>
+<p><strong>Popup width</strong> - Adjust the width of the quiz by typing the percentage number.</p>
+</li>
+<li>
+<p><strong>Popup height</strong> - Adjust the width of the quiz by typing the percentage number.</p>
+</li>
+</ul>
+<h3 id="chat">Chat<a class="headerlink" href="#chat" title="Anchor link to this section for reference">&para;</a></h3>
+<p>Quiz popup when visitors click on a chat-like button.</p>
+<p><img alt="quiz builder share chat" src="/images/manual_quizbuilder_share_chat.png" /></p>
+<p><strong><em>Instructions for legacy themes</em></strong> - Opens extra settings menu.</p>
+<p><img alt="quiz builder share chat legacy popup" src="/images/manual_quizbuilder_share_chat_legacy_popup.png" /></p>
+<ul>
+<li>
+<p><strong>POPUP OPTIONS</strong></p>
+</li>
+<li>
+<p><strong>Popup width</strong> - Adjust the width of the quiz by typing the percentage number.</p>
+</li>
+<li>
+<p><strong>Popup height</strong> - Adjust the width of the quiz by typing the percentage number.</p>
+</li>
+</ul>
+<p><img alt="quiz builder share chat legacy button" src="/images/manual_quizbuilder_share_chat_legacy_button.png" /></p>
+<ul>
+<li>
+<p><strong>CHAT BUTTON OPTIONS</strong></p>
+</li>
+<li>
+<p><strong>Chat button color</strong> - Adjust the color of the chat button by selecting one from the tool or adding a #color.</p>
+</li>
+<li>
+<p><strong>Hide after quiz completion</strong> - Hide the chat button after the customer reaches the resutls page. Toggle to activate.</p>
+</li>
+<li>
+<p><strong>Notification dot</strong> - Show the small red notification dot on the chat icon. Toggle to activate.</p>
+</li>
+<li>
+<p><strong>Greeting message</strong> - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.</p>
+</li>
+</ul>
+<h2 id="metrics">Metrics<a class="headerlink" href="#metrics" title="Anchor link to this section for reference">&para;</a></h2>
+<p>In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.</p>
+<h3 id="responses">Responses<a class="headerlink" href="#responses" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder metrics responses" src="/images/manual_quizbuilder_metrics_responses.png" /></p>
+<p>On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.</p>
+<p><strong>Export all as CSV</strong> - Click to generate a CSV file with all the quiz responses from the last 90 days. Once ready, a downloadable link will show up on your dashboard once the CSV file is finished generating.</p>
+<p><img alt="quiz builder metrics responses details1" src="/images/manual_quizbuilder_metrics_responses_details1.png" /></p>
+<p><strong>Why was a product recommended or not in this response?</strong> - This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.</p>
+<p><strong>SELECT PRODUCT TO CHECK</strong> - Click to select a product from the catalog and analyze it against the response.</p>
+<p><strong>Responses to Questions:</strong> - This section displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question.</p>
+<p><img alt="quiz builder metrics responses details2 products" src="/images/manual_quizbuilder_metrics_responses_details2_products.png" /></p>
+<p><strong>Results Page 1</strong> - Displays the name of the results page recommended.</p>
+<p><strong>Products</strong> - Products were recommended in a Product block.</p>
+<p><strong>↑1 🎁6</strong> - Minimum number of votes that allow the product to be shown in this product block: 1; Maximum number of products that are allowed to be shown in this product block: 6.</p>
+<p><strong>Kopi Luwak Coffee</strong> / <strong>Product name</strong> - Displays the name of the product recommended in this product block. Hover over the product to see how many upvotes it received in the quiz.</p>
+<p><img alt="quiz builder metrics responses details2 slots" src="/images/manual_quizbuilder_metrics_responses_details2_slots.png" /></p>
+<p><strong>Results Page 1</strong> - Displays the name of the results page recommended.</p>
+<p><strong>Slots</strong> - Products were recommended in a Slots block.</p>
+<p><strong>Step 1: Cleanser</strong> / <strong>Slot Title</strong> - Displays the title of the Slot block.</p>
+<p><strong>↑1 🎁1</strong> - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.</p>
+<p><strong>✅5</strong> - Displays which products this slot will allow to be displayed.</p>
+<p><strong>Cleansers (5)</strong> / <strong>Collection (x)</strong> - Displays the collections which are linked to this slot.</p>
+<p><strong>All Natural Face Cleanser</strong> - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.</p>
+<p><img alt="quiz builder metrics responses details3" src="/images/manual_quizbuilder_metrics_responses_details3.png" /></p>
+<p><strong>Customer Tags:</strong> - Displays the customer tags that were recorded in this response.</p>
+<p><strong>Preview Results:</strong> - Displays a preview link which opens this response on the results page.</p>
+<p><strong>recalculate recommendations</strong> - Recalculate the responses according to the current quiz setup.</p>
+<p><strong>resend notifications</strong> - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.</p>
+<h3 id="analytics">Analytics<a class="headerlink" href="#analytics" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder metrics analytics" src="/images/manual_quizbuilder_metrics_analytics.png" /></p>
+<p>The data in the graphs are totals in a selected period of time for a selected quiz. </p>
+<p><img alt="quiz builder metrics analytics dates" src="/images/manual_quizbuilder_metrics_analytics_dates.png" /></p>
+<p>To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.</p>
+<p><strong>Compare:</strong> - Choose how you want to compare the data in the graphs. </p>
+<ul>
+<li>
+<p><strong>Part Period</strong> - Presents data against the values from previous 30 days.</p>
+</li>
+<li>
+<p><strong>Quiz</strong> - Choose a quiz name against which you want to compare the metrics against.</p>
+</li>
+</ul>
+<p><strong>Quiz Starts</strong> / <strong>Starts</strong> - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). </p>
+<p><img alt="quiz builder metrics analytics starts" src="/images/manual_quizbuilder_metrics_analytics_starts.png" /></p>
+<p><strong>Quiz Responses</strong> / <strong>Responses</strong> - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.</p>
+<p><img alt="quiz builder metrics analytics responses" src="/images/manual_quizbuilder_metrics_analytics_responses.png" /></p>
+<p><strong>Completion Rate</strong> / <strong>Comp. Rate</strong> - Percentage of people who have engaged with the quiz and completed it.</p>
+<p><img alt="quiz builder metrics analytics completion rate" src="/images/manual_quizbuilder_metrics_analytics_comprate.png" /></p>
+<p><strong>Carts Count</strong> / <strong>Num. Carts</strong> - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button.</p>
+<p><img alt="quiz builder metrics analytics carts count" src="/images/manual_quizbuilder_metrics_analytics_cartscount.png" /></p>
+<p><strong>Avg. Cart Value</strong> - Average value of the products included in the carts or checkouts.</p>
+<p><img alt="quiz builder metrics analytics average carts" src="/images/manual_quizbuilder_metrics_analytics_avgcarts.png" /></p>
+<p><strong>Total Carts Value</strong> - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout.</p>
+<p><img alt="quiz builder metrics analytics total carts" src="/images/manual_quizbuilder_metrics_analytics_totalcarts.png" /></p>
+<p><strong>Number of Orders (Beta)</strong> - Number of people who have placed an order after completing this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.</p>
+<p><strong>Total Orders Value (Beta)</strong> - Total value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.</p>
+<p><strong>Avg. Order Value (Beta)</strong> - Average value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.</p>
+<h3 id="drop-off">Drop-off<a class="headerlink" href="#drop-off" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder metrics drop off" src="/images/manual_quizbuilder_metrics_dropoff.png" /></p>
+<p>The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.</p>
+<p><img alt="quiz builder metrics drop off dates" src="/images/manual_quizbuilder_metrics_dropoff_dates.png" /></p>
+<p>To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.</p>
+<p><strong>table</strong> - Displays the dropoff rate for each question and the results page in a table format.</p>
+<p><img alt="quiz builder metrics drop off table" src="/images/manual_quizbuilder_metrics_dropoff_table.png" /></p>
+<p><strong>chart</strong> - Displays the dropoff rate for each question and the results page in a chart format.</p>
+<p><img alt="quiz builder metrics drop off chart" src="/images/manual_quizbuilder_metrics_dropoff_chart.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../dashboard/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Dashboard">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Dashboard
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../plans-pricing/" class="md-footer__link md-footer__link--next" aria-label="Next: Plans &amp; Pricing">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Plans & Pricing
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 <a href="https://revenuehunt.com"  target="_blank" rel="noopener">RevenueHunt</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.footer", "navigation.sections", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.expand", "navigation.indexes", "navigation.path", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "toc.follow"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.bd41221c.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2646 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
+    
+    
+      
+        <title>Quiz builder results page - RevenueHunt Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../docs.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#results-page" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="RevenueHunt Documentation" class="md-header__button md-logo" aria-label="RevenueHunt Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RevenueHunt Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quiz builder results page
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+    
+  
+  Docs
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../tutorials/" class="md-tabs__link">
+          
+  
+    
+  
+  Tutorials
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../how-to-guides/" class="md-tabs__link">
+          
+  
+    
+  
+  How-to Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  App Manual
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../customer-success/" class="md-tabs__link">
+          
+  
+    
+  
+  Customer Success
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="RevenueHunt Documentation" class="md-nav__button md-logo" aria-label="RevenueHunt Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    RevenueHunt Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Docs
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Docs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How-to Guides
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    App Manual
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customer-success/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customer Success
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../tutorials/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Tutorials
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/getting-started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/making-first-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Making your First Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/skincare-routine/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recommending a Skincare Routine
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/conditional-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conditional Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/follow-up-emails-klaviyo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send follow-up emails with Klaviyo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/playlist-one-minute-tutorials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PLAYLIST - One Minute Tutorials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../how-to-guides/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    How-to Guides
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            How-to Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/ab-test-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    A/B Test Your Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/add-discount/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add Discount
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/add-javascript/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add JavaScript
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/add-product-metafields/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Add Product Metafields
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/change-checkout-settings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Change Checkout Settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/change-quiz-language/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Change Quiz Language
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/check-quiz-loading-speed/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Check Quiz Loading Speed
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/contact-customer-support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact Customer Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/copy-the-quiz-from-one-store-to-another/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Copy Quiz from One Store to Another
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/create-first-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create Your First Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/customize-quiz-design/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Customize Quiz Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/download-quiz-responses/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Download Quiz Responses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/edit-results-page/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Edit the Results Page
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/hide-content-with-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hide Content with Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/install-app/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Install App
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/integrate-facebook-pixel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integrate Facebook Pixel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/integrate-google-analytics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integrate Google Analytics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/join-questions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Join Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/pass-parameteres-to-fill-quiz-responses/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pass Parameters to Pre-Fill Quiz Responses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/plans-pricing-faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plans & Pricing FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/publish-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publish the Quiz on Your Website
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/recommend-products/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recommend Products
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/recommend-subscription-products/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recommend Subscription Products
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/recommend-skincare-routine-slots/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recommend Slots (Skincare Routine)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/redirect-quiz-to-another-page/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Redirect Quiz to Another Page
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/restore-quiz-progress/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Restore Quiz Progress
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-activecampaign/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to ActiveCampaign
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-hubspot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to HubSpot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-klaviyo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Klaviyo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-mailchimp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Mailchimp
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-omnisend/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Omnisend
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-shopify-customers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Shopify Customers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-webhooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Leads to Webhooks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-leads-to-zapier/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sean Leads to Zapier
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-result-emails/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Result Emails
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/send-result-emails-from-custom-server/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Send Result Emails from Your Server Using SMTP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/show-results-explanation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Show Results Explanation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/show-quiz-in-shop-app/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Show Quiz in Shop App
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/show-quiz-on-customer-profile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Show Quiz on Customer Profile
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/show-quiz-to-logged-in-customers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Show Quiz Only to Logged-In Customers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/sync-catalog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sync Catalog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/sync-selected-collections/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sync Only Selected Collections
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/track-quiz-revenue/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Track Quiz Revenue
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/troubleshoot-product-results/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Troubleshoot Quiz Results
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/use-block-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Block Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/use-callback-function/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Callback Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/use-information-recalls/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Information Recalls
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/use-jump-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Jump Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/use-markdown/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Markdown Language
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/use-skip-logic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Use Skip Logic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    App Manual
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            App Manual
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dashboard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dashboard
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quiz-builder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quiz Builder
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plans-pricing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plans & Pricing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../app-settings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    App Settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../customer-success/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Customer Success
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Customer Success
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customer-success/how-to-build-succesful-quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to build a Succesful Product Recommendation Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customer-success/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Example 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customer-success/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Example 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of Contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of Contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#results-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results Page
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Results Page">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#block-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#block-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Logic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#block-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-page-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results Page Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-page-settings-basic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results Page Settings: BASIC
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-page-settings-advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results Page Settings: ADVANCED
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-page-settings-multiple-results-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results Page Settings: MULTIPLE RESULTS PAGES
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-page-settings-discounts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Results Page Settings: DISCOUNTS
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Quiz builder results page</h1>
+
+<h2 id="results-page">Results Page<a class="headerlink" href="#results-page" title="Anchor link to this section for reference">&para;</a></h2>
+<p><img alt="quiz builder results page" src="/images/manual_quizbuilder_resultspage.png" /></p>
+<p>In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.</p>
+<h3 id="block-types">Block Types<a class="headerlink" href="#block-types" title="Anchor link to this section for reference">&para;</a></h3>
+<p><strong>+</strong> / <strong>add block</strong> - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.</p>
+<p><img alt="quiz builder results page add block menu" src="/images/manual_quizbuilder_resultspage_addblockmenu.png" /></p>
+<ul>
+<li>
+<p><strong>Heading Block</strong> - Adds a new heading to your page, ideal for titles or section breaks.</p>
+</li>
+<li>
+<p><strong>Content Block</strong> - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.</p>
+</li>
+<li>
+<p><strong>HTML Block</strong> - Adds a block where you can input custom HTML code for advanced content and styling.</p>
+</li>
+<li>
+<p><strong>Image Block</strong> - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.</p>
+</li>
+<li>
+<p><strong>Products Block</strong> - Adds a block specifically designed for displaying a list of recommended products.</p>
+</li>
+<li>
+<p><strong>Slots Block</strong> - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.</p>
+</li>
+</ul>
+<p><img alt="quiz builder results page block menu" src="/images/manual_quizbuilder_resultspage_blockmenu.png" /></p>
+<h3 id="block-logic">Block Logic<a class="headerlink" href="#block-logic" title="Anchor link to this section for reference">&para;</a></h3>
+<p><strong>conditional logic</strong> / <strong>tree icon</strong> - Opens the <a href="">Block Logic</a> menu.</p>
+<p><img alt="quiz builder resutls page block logic" src="/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png" /></p>
+<p>With Block Logic you can make blocks visible or hidden based on customer's responses.</p>
+<p><strong>Add Block Logic</strong> - Adds a new block logic rule.</p>
+<p><img alt="quiz builder resutls page block logic example" src="/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png" /></p>
+<p>All the Block Logic rules follow the same format</p>
+<p><strong>IF response to</strong> pick the question from a dropdown list</p>
+<p><strong>is</strong>/ <strong>is not</strong> pick a choice from the dropdown list</p>
+<p><strong>THEN block is</strong> pick either <strong>Visible</strong> or <strong>Hidden</strong></p>
+<p><strong>IN ALL OTHER CASES this block is</strong> pick pick either <strong>Visible</strong> or <strong>Hidden</strong></p>
+<p><em>In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.</em></p>
+<ul>
+<li>
+<p><strong>+</strong> - Adds another Block Logic rule. Adds a new OR logical rule.</p>
+</li>
+<li>
+<p><strong>bin</strong> - Delete the current Block Logic rule.</p>
+</li>
+<li>
+<p><strong>+ add concurrent logic</strong> - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.</p>
+</li>
+</ul>
+<p><strong>...</strong> - Opens the more options menu.</p>
+<p><img alt="quiz builder resutls page block menu more options" src="/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png" /></p>
+<ul>
+<li>
+<p><strong>+ add block below</strong> - Opens the <strong>+</strong> / <strong>add block</strong> menu.</p>
+</li>
+<li>
+<p><strong>bin</strong> / <strong>delete block</strong> - Deletes the current block from the resutls page.</p>
+</li>
+</ul>
+<h3 id="block-settings">Block Settings<a class="headerlink" href="#block-settings" title="Anchor link to this section for reference">&para;</a></h3>
+<p>🔧 / <strong>wrench icon</strong> - Opens the block settings menu.</p>
+<p><strong>Product Block Settings</strong></p>
+<p><img alt="quiz builder results page product block settings" src="/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png" /></p>
+<ul>
+<li>
+<p><strong>Title</strong> - Type a title to be displayed above the recommended products.</p>
+</li>
+<li>
+<p><strong>Description</strong> - Add a description to be displayed above the recommended products.</p>
+</li>
+<li>
+<p><strong>Max. recommended products</strong> - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.</p>
+</li>
+<li>
+<p><strong>Hide block when no products are recommended</strong> - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings&gt; Messages section.</p>
+</li>
+</ul>
+<p><strong>Slot Block Settings</strong> </p>
+<p><img alt="quiz builder resutls page slot block settings" src="/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png" /></p>
+<ul>
+<li><strong>Add a slot</strong> - Adds a new slot to the slot block. You can have multiple slots in a slot block.</li>
+</ul>
+<p><img alt="quiz builder results page slot block settings add slot" src="/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png" /></p>
+<ul>
+<li>
+<p><strong>Title</strong> - Type a title to be displayed above the slot.</p>
+</li>
+<li>
+<p><strong>Description</strong> - Add a description to be displayed above the slot.</p>
+</li>
+<li>
+<p><strong>Max. recommended products</strong> - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.</p>
+</li>
+<li>
+<p><strong>Included collections</strong> - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.</p>
+</li>
+<li>
+<p><strong>Excluded collections</strong> - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a producrt recevied votes in the quiz but is part of the excluded collection, the slot will not show that product.</p>
+</li>
+</ul>
+<p><strong>Slot ID</strong> - Displays the current slot ID.</p>
+<h3 id="results-page-settings">Results Page Settings<a class="headerlink" href="#results-page-settings" title="Anchor link to this section for reference">&para;</a></h3>
+<p>⚙️ / <strong>gear icon</strong> - Opens the results page settings.</p>
+<p><img alt="quiz builder results page results page settings" src="/images/manual_quizbuilder_resultspage_settings.png" /></p>
+<h3 id="results-page-settings-basic">Results Page Settings: BASIC<a class="headerlink" href="#results-page-settings-basic" title="Anchor link to this section for reference">&para;</a></h3>
+<p><strong>Checkout Settings</strong></p>
+<p><img alt="quiz builder resutls page resutls page settings basic checkout" src="/images/manual_quizbuilder_resultspage_settings_basic_checkout.png" /></p>
+<ul>
+<li>
+<p><strong>Add product to cart</strong> - Allows the user to add the recommended products to the cart directly from the results page.</p>
+<ul>
+<li>
+<p><strong>Proceed to cart</strong> - After the products are added to the cart, the customer will proceed to the cart page.</p>
+</li>
+<li>
+<p><strong>proceed to checkout</strong> - After the products are added to the cart, the customer will proceed to the checkout page.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Link to product</strong> - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.</p>
+</li>
+</ul>
+<p><strong>Individual Product Settings</strong></p>
+<p><img alt="quiz builder resutls page resutls page settings basic individual product settings" src="/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png" /></p>
+<ul>
+<li>
+<p><strong>Show main product image</strong> - Click to always show the main product image, even when a variant is recommended.</p>
+</li>
+<li>
+<p><strong>Show variant image</strong> - Click to always show the variant image, instead of the main product image.</p>
+</li>
+<li>
+<p><strong>Show price</strong> - Toggle to display the product price on the results page.</p>
+</li>
+<li>
+<p><strong>Show vendors</strong> - Toggle to display the product vendor under the product on the results page.</p>
+</li>
+<li>
+<p><strong>Show CTA button</strong> - Toggle to display the "add to cart" or "view product" button under the products on the results page.</p>
+</li>
+<li>
+<p><strong>Show "more info" link</strong> - Toggle to display a "more info" link below the product name or description on the resutls page. The link takes you to the product page.</p>
+</li>
+<li>
+<p><strong>Show description</strong> - Toggle to display the product description below the product name on the results page. Additional option is displayed.</p>
+<p><strong>Truncate description</strong> - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.</p>
+</li>
+<li>
+<p><strong>Show reviews</strong> - Toggle to show product rating below the product name on the resutls page. After activation make sure to run a <a href="">Catalog Sync</a> to sync all the product reviews with the app.</p>
+</li>
+<li>
+<p><strong>Show metafields</strong> - Toggle to allow showing of custom product metafields on the resutls page. To show product metafields follow the instructions in <a href="">How to show product metafieleds in the quiz</a>.</p>
+</li>
+</ul>
+<p><strong>Style Settings</strong></p>
+<p><img alt="quiz builder resutls page resutls page settings basic style" src="/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png" /></p>
+<p><strong>Background image</strong> - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. </p>
+<ul>
+<li><strong>Image Opacity</strong> - A slider that allows you to adjust the opacity of the uploaded background image.</li>
+</ul>
+<h3 id="results-page-settings-advanced">Results Page Settings: ADVANCED<a class="headerlink" href="#results-page-settings-advanced" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder resutls page resutls page settings advanced" src="/images/manual_quizbuilder_resultspage_settings_advanced.png" /></p>
+<p><strong>Recommendation Settings</strong></p>
+<p><strong>If no results, no products</strong> - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings &gt; Messages section.</p>
+<p><strong>If no results, random products</strong> - If there are no products that can be recommended the app will show random products that received any votes.</p>
+<p><strong>Group product variants</strong> - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.</p>
+<p><strong>Show unavailable products</strong> - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.</p>
+<p><strong>Allow duplicated recommendations</strong> - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.</p>
+<p><strong>Minimum number of votes</strong> - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.</p>
+<p><img alt="quiz builder results page results page settings min votes setting" src="/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png" /></p>
+<p><strong>Custom JS Code</strong></p>
+<p><strong>Custom JavaScript</strong> - Click "Add" to open the JavaScript console.</p>
+<p><strong>Multiple Results Pages</strong></p>
+<p><strong>Activate multiple results pages</strong> - Click "activate" to open the MULTIPLE RESULTS PAGES menu.</p>
+<h3 id="results-page-settings-multiple-results-pages">Results Page Settings: MULTIPLE RESULTS PAGES<a class="headerlink" href="#results-page-settings-multiple-results-pages" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder resutls page results page settings multiple results pages" src="/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png" /></p>
+<p><strong>Results Page 1</strong> </p>
+<ul>
+<li>
+<p><strong>Edit this page</strong> - Click "edit" to switch to this results page and edit its content.</p>
+</li>
+<li>
+<p><strong>This is currently the default Results Page</strong> - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with <a href="#conditional-logic">Jump Logic</a> to another page.</p>
+</li>
+</ul>
+<p><strong>Results Page 2</strong></p>
+<ul>
+<li>
+<p><strong>You're editing this Results Page settings &amp; blocks</strong> - Indicates which results page you are currently editing.</p>
+</li>
+<li>
+<p><strong>Set as default</strong> - Click "set" to select this resutls page as default. Customer will be taken to the default results page unless you redirect them with <a href="#conditional-logic">Jump Logic</a> to another page.</p>
+</li>
+</ul>
+<p><strong>Create new Results Page</strong> - add a new resutls page to your quiz.</p>
+<h3 id="results-page-settings-discounts">Results Page Settings: DISCOUNTS<a class="headerlink" href="#results-page-settings-discounts" title="Anchor link to this section for reference">&para;</a></h3>
+<p><img alt="quiz builder resutls page discount" src="/images/manual_quizbuilder_resultspage_settings_discount.png" /></p>
+<p><strong>Discount Code Settings</strong> - Allows to add a static discount to your resutls page. Click "Add" to open the discount menu.</p>
+<p><img alt="quiz builder results page discount discount code" src="/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png" /></p>
+<ul>
+<li>
+<p><strong>Visible discount</strong> - Select the discount % from the dropdown. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.</p>
+</li>
+<li>
+<p><strong>Code</strong> - Type a discount code that corresponds to this discount. You have to set up this discount code in your store &gt; Shopify Discounts first. Follow this guide to learn <a href="">How to add a discount to the quiz</a>.</p>
+</li>
+</ul>
+<p><strong>Dynamic Discounts</strong> - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.</p>
+<p><img alt="quiz builder results page discount discount code" src="/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png" /></p>
+<p><strong>Dynamic Discounts Settings</strong></p>
+<ul>
+<li>
+<p><strong>Enable notifications</strong> - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.</p>
+</li>
+<li>
+<p><strong>Encourage discounts</strong> - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.</p>
+</li>
+</ul>
+<p><strong>Discount [A]</strong> </p>
+<ul>
+<li>
+<p><strong>Discount code</strong> - Type a discount code that corresponds to this discount. You have to set up this discount code in your store &gt; Shopify Discounts first. Follow this guide to learn <a href="">How to add a discount to the quiz</a>.</p>
+</li>
+<li>
+<p><strong>Discount percentage</strong> - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.</p>
+</li>
+<li>
+<p><strong>Min. value in cart</strong> - Type the value of products added to the cart on the results page above which the discount will be applied.</p>
+</li>
+<li>
+<p><strong>+</strong> / <strong>add another discount</strong> - adds a new dynamic discount (Discount [B]).</p>
+</li>
+<li>
+<p><strong>bin</strong> / <strong>delete this discount</strong> - deletes this dynamic discount.</p>
+</li>
+</ul>
+<p><strong>add a discount</strong> - Adds a new dynamic discount below (Discount [B]).</p>
+<p><strong>deactivate</strong> - Deactivates dynamic discounts.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 <a href="https://revenuehunt.com"  target="_blank" rel="noopener">RevenueHunt</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.footer", "navigation.sections", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.expand", "navigation.indexes", "navigation.path", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "toc.follow"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.bd41221c.min.js"></script>
+      
+    
+  </body>
+</html>
