@@ -1,0 +1,52 @@
+# How to Pass Parameters to Pre-fill Quiz Responses
+
+With Shop Quiz you have the possibility to pre-fill the responses to certain questions in your quiz. This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
+
+Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
+
+This feature can be implemented in two ways:
+- either declaring JavaScript variables in your store’s source code (note: developer needed)
+- passing URL parameters on a link to your store.
+
+## Option 1: Declare window.prq_vars
+
+You can declare `window.prq_vars` inside a JavaScript `<script>` tag in your store’s source code:
+
+```html
+<script>
+window.prq_vars = {};
+window.prq_vars.name = 'John Doe';
+window.prq_vars.email = 'john.doe@gmail.com';
+window.prq_vars.phone = '+15556219645';
+window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
+// question ID - choices IDs separated by ;
+</script>
+```
+
+## Option 2: Pass URL parameters
+
+URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
+
+In order to pre-fill certain quiz responses, you can pass the following URL parameters when linking to your store (eg. linking from a newsletter):
+
+```html
+prq_name=John Doe
+prq_email=john.doe@gmail.com
+prq_phone=+15556219645
+prq_cdRDCc=xDAwDe;aSEfBq
+// question ID - choices IDs separated by ;
+```
+
+In case of differences in the values declared in the `window.prq_vars` and the values passed via URL parameters, the URL parameters will prevail.
+
+## Example
+
+Here’s a link to our demo store **without passing parameters**. You’ll see that you have to fill in all the questions, including the name and email. Click on the following link and take the quiz:
+
+[https://skincarequiz.myshopify.com/pages/inline-quiz/](https://skincarequiz.myshopify.com/pages/inline-quiz/)
+
+
+On the other hand, in this other link we are passing URL parameters:
+[https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com](https://skincarequiz.myshopify.com/pages/inline-quiz/?prq_name=John%20Doe&prq_email=john.doe@gmail.com)
+
+You’ll notice that if you take the quiz now, the “name” and “email” questions are pre-filled and skipped.
