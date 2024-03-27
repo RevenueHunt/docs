@@ -2,7 +2,7 @@
 
 Integrating quiz results into a customer's profile on your Shopify store can personalize the shopping experience. This guide will walk you through the steps to achieve this, from connecting your quiz to Shopify's Customer List to embedding the results on a customer profile using Shopify's theme liquid files. 
 
-*Note: This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this.*
+*Note: This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).*
 
 ## Step 1: Connect Your Quiz to Shopify's Customer List
 
