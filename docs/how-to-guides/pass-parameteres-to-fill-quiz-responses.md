@@ -1,3 +1,7 @@
+---
+icon: material/slash-forward-box
+---
+
 # How to Pass Parameters to Pre-fill Quiz Responses
 
 With Shop Quiz you have the possibility to pre-fill the responses to certain questions in your quiz. This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
@@ -5,6 +9,7 @@ With Shop Quiz you have the possibility to pre-fill the responses to certain que
 Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
 
 This feature can be implemented in two ways:
+
 - either declaring JavaScript variables in your store’s source code (note: developer needed)
 - passing URL parameters on a link to your store.
 
@@ -32,7 +37,7 @@ window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
  
 1. You will first need to create a `Short Text` question to store the product ID. Check how to add this question [here](https://docs.revenuehunt.com/reference/quiz-builder/#question-types).
 2. Copy that question ID from [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
-3. Then in your main product page include the following script, so you could add some script like this to your product page:
+3. Then in your main product page include the following script, so you can add some script like this to your product page:
 
 ```html
 <script>
