@@ -1,4 +1,11 @@
+---
+icon: material/pencil
+---
+
+
 # How to Create and Publish Your First Shop Quiz
+
+Follow these steps to create your first quiz with the Shop Quiz app.
 
 ## Step 1: Create a New Quiz
 
@@ -35,7 +42,9 @@ Once you have your questions, you'll have to link products to choices to show re
 *If you want to make the results ultra-precise, you can also:*
 
 - *Limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).*
-- *Use [Exclusions]() to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).*
+- *Use [Exclusions](https://docs.revenuehunt.com/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).*
+
+Read more about how the recommendations work [here](https://docs.revenuehunt.com/how-to-guides/recommend-products/).
 
 ## Step 4: Publish & Preview the Quiz
 
@@ -52,6 +61,6 @@ Once you're satisfied with your quiz, you can put it on your website.
 
 ## After Publishing
 
-If changes are made post-publishing, click **"Publish"** again to update the live quiz.
+If changes are made post-publishing, click `Publish` again to update the live quiz.
 
 This guide outlines the steps to create and launch a Shop Quiz for your store.
