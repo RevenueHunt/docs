@@ -1,8 +1,12 @@
+---
+icon: material/palette-outline
+---
+
 # How to Customize the Quiz Design
 
-You can change the quiz's appearance to fit your store's style. Use the customization options in the Quiz Design tab or add your own style with CSS or JavaScript. You can modify any part of the quiz or results page with custom CSS.
+You can change the quiz's appearance to fit your store's style. Use the customization options in the [Quiz Design]() tab or add your own style with [CSS](#add-custom-css-code) or [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/). You can modify any part of the quiz or results page with custom CSS.
 
-Remember, you can also include custom images and styles for each question in the question settings.
+Remember, you can also include custom images and styles for each question via the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
 
 ## Quiz Design Tab
 
@@ -66,7 +70,7 @@ Via the CSS console, you can add any custom styling rules. Any element of the qu
 
 ## Styling Quiz Text
 
-You can use [Markdown Languge]() for basic styling of text in the quiz. Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
+You can use [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/) for basic styling of text in the quiz. Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
 If you need to include additional styling and elements in your questions, choices, and results page, you can do so using Markdown Language.
 
@@ -117,13 +121,13 @@ You can add images to your quiz in serveral ways.
 
 In addition to the overall Quiz Design options, you can add a unique image to every question through the Quiz Builder by accessing the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
 
-The question settings also allow you to incorporate [custom JavaScript]() into your quiz design.
+The question settings also allow you to incorporate [custom JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) into your quiz design.
 
 ## Results Page Design
 
-The Results Page also has its own customization options. In addition to the basic elements, you can set a unique background image for each result page through the [results page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). You can also use these settings to apply [custom JavaScript]() to your quiz design.
+The Results Page also has its own customization options. In addition to the basic elements, you can set a unique background image for each result page through the [results page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). You can also use these settings to apply [custom JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) to your quiz design.
 
-If you find the default results page too restrictive, you might want to create a custom results page on your site and direct all quiz data to it using the [Callback Function](). This function enables you to collect all quiz responses in JSON format on any page you choose.
+If you find the default results page too restrictive, you might want to create a custom results page on your site and direct all quiz data to it using the [Callback Function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/). This function enables you to collect all quiz responses in JSON format on any page you choose.
 
 ## Customization Examples
 
