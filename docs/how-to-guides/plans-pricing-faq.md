@@ -1,3 +1,7 @@
+---
+icon: material/credit-card-outline
+---
+
 ## Plans & Pricing Details
 
 - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
@@ -38,7 +42,7 @@ Bear in mind that if you need to upgrade/downgrade we’re very flexible. When c
 
 Billing is handled directly by Shopify. Charges for the app will be visible on your monthly invoice from Shopify. You can change your billing details directly in your Shopify store settings.
 
-If you have any other questions about billing or refunds, please [contact support](https://revenuehunt.com/contact/).
+If you have any other questions about billing or refunds, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
 
 ## What happens when I reach my quiz responses limit?
 
@@ -48,13 +52,13 @@ When you reach 125% of your plan’s response limit, your quizzes will be locked
 
 You can delete your responses, but this won’t affect your monthly quiz usage.
 
-When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: *This quiz isn’t accepting new responses*.
+When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
 ## What counts as a paid response?
 
 Quiz Responses are counted as the number of people who have completed the quiz (reached the Results Page). If someone starts the quiz and abandons it partway through, this does not count as a response.
 
-You can check your responses in the [Metrics > Analytics]() tab inside the Quiz Builder.
+You can check your responses in the [Metrics > Analytics](https://docs.revenuehunt.com/reference/quiz-builder/#analytics) tab inside the Quiz Builder.
 
 ## When do my plan responses reset?
 
@@ -113,5 +117,5 @@ Once you’re sure of what your stable usage is in a month, you can choose to pa
 
 We offer a 50% discount on all plans if you subscribe for 2 years and you pay upfront. However, we do recommend starting with the monthly plan, for 2-3 months until you start getting results & sales, before committing to a 2-year plan.
 
-Need a 50% discount signing up for two years? – [Get in touch with our Sales Team](https://revenuehunt.com/contact/)
+Need a 50% discount signing up for two years? – [Get in touch with our Sales Team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/)
 
