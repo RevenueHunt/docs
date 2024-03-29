@@ -1,6 +1,10 @@
+---
+icon: material/table-arrow-down
+---
+
 # How to Download Quiz Responses
 
-This guide outlines the process for downloading quiz responses from your dashboard, allowing you to analyze individual responses in detail.
+This guide outlines the process for downloading quiz responses from your quiz, allowing you to analyze individual responses in detail.
 
 ## Check Individual Responses
 
@@ -9,9 +13,13 @@ This guide outlines the process for downloading quiz responses from your dashboa
 
 ## Download All Responses
 
-1. If you need to review all quiz responses from the past 90 days, you have the option to download them as a CSV file.
+If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
+
+1. Navigate to the [Metrics -> Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab within your dashboard.
 2. To initiate the download, simply trigger the `Export all as CSV` button
 3. Once the system has generated the file, a download link will be displayed on your [dashboard](https://docs.revenuehunt.com/reference/dashboard/).
 4. Click on the download link to save the CSV file to your device for further analysis.
+
+`.CSV files` can be opened in [Google Sheets](https://www.google.com/sheets/about/) or [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) for analysis.
 
 By following these steps, you can efficiently access and analyze your quiz data for insights into user engagement and performance.
