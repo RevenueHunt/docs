@@ -1,3 +1,7 @@
+---
+icon: material/ab-testing
+---
+
 # How to A/B Test Your Shop Quiz
 
 A/B testing, or split testing, allows you to compare two versions of your quizzes to see which one performs better. This guide will walk you through the process of setting up A/B testing manually using your ability to create, duplicate, and edit quizzes in the Shop Quiz app.

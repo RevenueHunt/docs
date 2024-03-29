@@ -1,12 +1,14 @@
-# How to Ask for Marketing/Data Processing Consent
+---
+icon: material/account-check-outline
+---
 
-Asking for consent to use customer data for marketing purposes is not just a best practice; it's a legal requirement in many jurisdictions. This guide will walk you through incorporating consent requests into your quizzes effectively, ensuring compliance while maintaining a smooth user experience.
+# How to Ask for Marketing/Data Processing Consent
 
 Directly asking for marketing consent or acceptance of data processing in your quiz can be a straightforward and efficient way to ensure compliance with regulations like GDPR. This article outlines several methods to integrate consent requests seamlessly into your quizzes.
 
 ## Add a Link to Your Privacy Policy
 
-A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz using Markdown Language. For instance:
+A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). For example, like this:
 
 ```markdown
 By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
@@ -14,48 +16,34 @@ By providing your email address you agree to our [privacy policy](https://www.li
 
 ## How to Ask for Marketing/Data Processing Consent
 
-Asking for marketing or data processing consent within your quizzes is crucial for legal compliance and builds trust with your audience. This document outlines how to integrate consent requests effectively into your quizzes.
-
 ### Option 1: Question Description
 
-Incorporating consent information directly into the description of a question is a straightforward method to ensure users are informed.
+You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
 
-**Adding a Question Description**
-
-1. In the quiz builder, select a question and click on the question settings (wrench icon).
-2. Enable the question description feature.
-
-**Incorporating Consent Text**
-
-- A text field will appear where you can add your consent text.
-- Include a link to your privacy policy using Markdown, e.g., `[privacy policy](https://www.linktoyourprivacypolicy.com)`.
-- Publish your changes using the "Publish" button located at the top-right corner.
+1. To show question description go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) select a question and open the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+2. Enable the `question description` feature.
+3. A text field will appear where you can add your consent text.
+4. Include a link to your privacy policy using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/), e.g., `[privacy policy](https://www.linktoyourprivacypolicy.com)`
+5. Publish your changes using the `Publish` button located at the top-right corner.
 
 ### Option 2: Marketing Checkmark
 
-Creating a marketing consent checkbox by combining quiz slides can ensure users actively consent before proceeding.
+Create a marketing consent checkbox by combining quiz slides can ensure users actively consent before proceeding.
 
-**Create a Multiple Choice Question**
+1. Go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) and place a `Multiple Choice` question right after the `email/phone` question slide.
+2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
+3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
+4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
 
-- Place a Multiple Choice question right after the email/phone question slide.
-- Add a single choice with your consent text.
-
-**Join Questions**
-
-- Return to the email/phone question, access its settings (wrench icon), and enable the “join next question” option.
-- This connects the two questions, requiring users to select the marketing consent option to proceed.
+![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
 
 ### Option 3: GDPR Question
 
-Asking a direct GDPR-related question can effectively gauge user consent.
+You can ask directly a `Legal Tererms/GDPR` question in your quiz, where you ask the customer to accept the processing of their data or receive marketing information.
 
-**Incorporating a GDPR Question**
+1. Go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1), click the `+` button and add a [Legal Term/GDPR slide](https://docs.revenuehunt.com/reference/quiz-builder/#question-types).
+2. In the question text ask if users consent to the processing of their data for marketing purposes.
+3. Depending on the response (yes or no), use [jump logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/) to direct users to different sections of the quiz for immediate segmentation based on consent.
 
-- Pose a question asking if users consent to the processing of their data for marketing purposes.
-
-**Using Jump Logic**
-
-- Depending on the response (yes or no), use jump logic to direct users to different sections of the quiz for immediate segmentation based on consent.
-
-
+---
 Clearly communicating consent options and making your privacy policy accessible are key practices for respecting user preferences and ensuring transparency in your data collection. Utilize the methods outlined above to effectively integrate consent requests into your quizzes.
