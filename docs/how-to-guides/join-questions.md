@@ -1,5 +1,5 @@
 ---
-icon: material/set-merge
+icon: material/playlist-plus
 ---
 
 # How to Display Multiple Questions per Slide in Your Quiz
