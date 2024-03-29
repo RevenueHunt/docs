@@ -1,6 +1,12 @@
+---
+icon: material/monitor-share
+---
+
 # How to Publish a Quiz on Your Website
 
-After you've prepared your quiz, connected product collections to responses and customized its design to match your store's branding, you're ready to make it live. This guide will walk you through the process of sharing your quiz with your customers in a manner that aligns with your store's style and enhances their shopping experience.
+After you've prepared your quiz, connected product collections to responses and customized its design to match your store's branding, you're ready to make it live. 
+
+This guide will walk you through the process of sharing your quiz with your customers in a manner that aligns with your store's style and enhances their shopping experience.
 
 ## Select Your Display Option
 
