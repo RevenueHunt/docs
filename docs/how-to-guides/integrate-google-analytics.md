@@ -1,3 +1,7 @@
+---
+icon: material/google-analytics
+---
+
 # How to Track Quiz Performance with Google Analytics
 
 Google Analytics offers a powerful way to gain insights into user engagement with your quizzes. Linking your quiz with Google Analytics can provide valuable data on user interaction, pinpoint engagement issues, and help minimize abandonment rates.
@@ -61,7 +65,7 @@ The exploration enables you to see how much revenue the quizzes have generated a
 
 **Guidelines:**
 
-- Filter by the event name `recommendation`to isolate quiz-related data.
+- Filter by the event name `recommendation` to isolate quiz-related data.
 - `Session source/medium` shows where the traffic originated.
 - `Sessions` count how many times the quiz was engaged with.
 - `Total Revenue` displays earnings tied to the quiz.
