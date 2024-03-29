@@ -1,3 +1,7 @@
+---
+icon: material/translate-variant
+---
+
 # How to Change the Language of Your Quiz
 
 ## Change Quiz Language in Settings
@@ -5,28 +9,28 @@
 1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) or Quiz Settings -> [Messages](https://docs.revenuehunt.com/reference/quiz-builder/#messages).
 2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
 3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](https://docs.revenuehunt.com/reference/quiz-builder/#messages) tab.
-4. **Override the translations**: Should any buttons revert to their original English translations, overriding your selected quiz language you can manually adjust the button text in Quiz Builder -> [Question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in Quiz Builder -> [Question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
 
 
 ## Set Up Multilingual Quizzes
 
-This guide provides instructions for changing the language of quizzes in environments that do not support multi-language plugins. While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
+While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
 
-In short:
+How does it work?
 
-- For now, it is possible to create multiple quizzes, each one in a different language. 
-- Then, each of these quizzes will have a unique quiz ID. 
-- You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a script that displays the correct quiz popup depending on the browser language.
-- However, the main problem is that our app can only sync the base products from your store (in the main language), as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
+- For now, it is possible to [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language. 
+- Then, each of these quizzes will have a **unique quiz ID**. 
+- You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
+- However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
 
 ### Step 1: Create Quizzes in Different Languages
 
-- **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique ID.
+- **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
 - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
 
 ### Step 2: Display the Correct Quiz Based on Browser Language
 
-Utilize JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
+Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
 
 - Detect the browser's language.
 - Map this language to the corresponding quiz ID.
@@ -71,11 +75,11 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 ```
 
-Note: make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
+*Note: make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.*
 
 ### Step 3: Redirect to Translated Product URL
 
-Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. A workaroudn for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript.
+Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript.
 
 - Instead of adding a product to cart, you can change the [checkout settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
 - By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 

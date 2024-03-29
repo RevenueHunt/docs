@@ -1,3 +1,7 @@
+---
+icon: material/cart-arrow-right
+---
+
 # How to Change Checkout Settings on Your Results Page
 
 Adjusting the checkout settings in Shop Quiz allows you to choose whether your customers will proceed to the cart, checkout or the product page from the results page. Follow the instructions below to change your checkout settings:
