@@ -1,3 +1,7 @@
+---
+icon: material/face-agent
+---
+
 # How to Contact Customer Support
 
 Our sharpest and friendliest support team in the eCommerce sector can be reached via the quiz below:

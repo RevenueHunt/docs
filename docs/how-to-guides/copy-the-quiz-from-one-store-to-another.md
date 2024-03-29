@@ -1,6 +1,10 @@
+---
+icon: material/content-copy
+---
+
 # How to Copy the Quiz from One Store to Another
 
-Transferring a quiz from one store to another in the Shop Quiz app is straightforward. This process allows you to duplicate your quiz design, questions, tags, and the results page. Note, however, that products and collections will not be transferred due to differing product IDs in the new store.
+Transferring a quiz from one store to another with the Shop Quiz app is straightforward. This process allows you to duplicate your quiz design, questions, tags, and the results page, however, **products and collections will not be transferred** due to differing product IDs in the new store.
 
 Before you begin, ensure the [Shop Quiz app](https://revenuehunt.com/product-recommendation-quiz-shopify/) is installed on both the original and the new store.
 
@@ -20,10 +24,9 @@ First, navigate to the quiz you wish to export:
 
 Ensure you're logged into the destination store:
 
-1. Log in to the new store's Shopify or eCommerce platform.
+1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
 2. Open the Shop Quiz app from the store's dashboard.
 
-**Important:** Avoid being logged into multiple accounts on the same browser to prevent caching issues. For a smoother experience, use Incognito/Private browsing mode for the second account.
 
 ## Step 3: Import the Quiz
 
@@ -35,9 +38,9 @@ Finally, import the quiz into your new store:
 
 ![Import Quiz Step](/images/how to copy the quiz step 3.gif)
 
-After completing these steps, the imported quiz will appear in your dashboard with a (copy) suffix in its name.
+After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
-By following these instructions, you can efficiently duplicate your quiz across stores, ensuring a consistent marketing approach or testing strategy across your eCommerce presence.
+By following these instructions, you can efficiently duplicate your quiz across all your stores, saving time.
 
 
 

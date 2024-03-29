@@ -1,3 +1,9 @@
+---
+icon: material/language-javascript
+---
+
+
+
 # How to Add JavaScript to the Quiz
 
 Unlock the full potential of your Shop Quiz by integrating custom JavaScript. We made it very easy for developers to tap into the quiz response and get all the information they need: individual answers to questions, triggered tags and recommended products.

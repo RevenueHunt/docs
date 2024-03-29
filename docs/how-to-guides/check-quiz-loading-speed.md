@@ -1,6 +1,12 @@
+---
+icon: material/loading
+---
+
 # How to Check Quiz Loading Speed
 
-When integrating a quiz into your online store, it's crucial to ensure it loads efficiently to maintain a smooth user experience. If you're encountering slow loading times for your quiz, the issue might not stem from the quiz itself but from other resources on your site affecting its performance. This guide outlines steps to diagnose and resolve quiz loading issues by optimizing the loading process.
+When integrating a quiz into your online store, it's crucial to ensure it loads efficiently to maintain a smooth user experience. If you're encountering slow loading times for your quiz, the issue might not stem from the quiz itself but from other resources on your site affecting its performance. 
+
+This guide outlines steps to diagnose and resolve quiz loading issues by optimizing the loading process.
 
 ## Step 1: Verify Direct Quiz Link Performance
 

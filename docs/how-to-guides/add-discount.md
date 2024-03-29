@@ -1,3 +1,7 @@
+---
+icon: material/sale
+---
+
 # How to Add a Discounts to Your Quiz
 
 Incorporating discount coupons into your quiz allows customers to enjoy special offers on the results page or through a follow-up email. Please remember, that the management of these discounts is handled through Shopify, not directly within our app.

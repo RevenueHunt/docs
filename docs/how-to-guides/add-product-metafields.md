@@ -1,3 +1,8 @@
+---
+icon: material/focus-field-horizontal
+---
+
+
 # How to Add Product Metafields
 
 Metafields in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
