@@ -1,3 +1,7 @@
+---
+icon: material/facebook
+---
+
 # How to Integrate Your Facebook Pixel
 
 The Facebook Pixel is an essential analytics tool for tracking user interaction with your quiz and gauging the success of your Facebook ads.
@@ -10,9 +14,9 @@ This small piece of code placed on your website helps you monitor conversions fr
 
 If you don't have a Pixel yet, set one up following Facebook's guide. Once created, integrate it with your quiz:
 
-1. Go to the **Connect** tab within your quiz settings.
-2. Find the Facebook Pixel section and hit **"connect."**
-3. Enter your unique Facebook Pixel ID. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
+1. Go to the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab within your quiz settings.
+2. Find the Facebook Pixel section and hit `connect`.
+3. Enter your unique `Facebook Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
 
 ## Tracking Engagement with Facebook Events Manager
 
@@ -64,7 +68,7 @@ For an alternative approach to tracking user interactions, consider implementing
 
 To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the `Connect`tab, you'll have to adeactivate it and publish the changes.
+1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, you'll have to deactivate it and publish the changes.
 2. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
 3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located:
     ```html
