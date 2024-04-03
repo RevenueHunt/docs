@@ -1,6 +1,10 @@
+---
+icon: material/login
+---
+
 # How to Show Quiz Only to Logged-in Customers
 
-It’s possible to use the customer metafields to render quiz results onto different elements of your Shopify Theme liquids. Sections below describe how to show the quiz only to logged-in customers in Shopify.
+It’s possible to use the customer metafields to render quiz results onto different elements of your Shopify Theme liquids. This article explains how to show the quiz only to logged-in customers in Shopify.
 
 *Note: This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).*
 
