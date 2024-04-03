@@ -1,14 +1,16 @@
+---
+icon: material/printer-pos-wrench
+---
+
 # How to Troubleshoot Product Recommendations in Your Quiz
 
-Navigating through the product recommendations can be challenging, especially when dealing with numerous products and collections linked to quiz choices. This guide will walk you through the process of uncovering the reasons behind product recommendations or their absence on the Results Page.
+Navigating through the product recommendations can be challenging, especially when dealing with numerous products and collections linked to quiz choices. 
 
-## Understanding the Basics
+This guide will walk you through the process of troubleshootuing product recommendations. It can help you understand why a certain product was recommended or missing from the Results Page.
+
+**Understanding the Basics**
 
 When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [voting system](https://docs.revenuehunt.com/how-to-guides/how-to-recommend-products/#voting-system) that influences product visibility.
-
-Check the quiz below to see how to build the quiz outcome you want:
-
-<script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/GrHXAz" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
 
 ## Step-by-Step Process to Check Recommendations
 

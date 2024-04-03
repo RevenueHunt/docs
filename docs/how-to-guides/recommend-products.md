@@ -6,7 +6,13 @@ icon: material/cards
 
 Our solution takes into account your customer's choices to offer highly personalized product recommendations. 
 
-This guide explains the underlying algorithm and how to effectively link products to quiz choices.
+This guide explains how to recommend products with the Shop Quiz app, explains the underlying algorithm and proposes solutions for complex quizzes.
+
+## Recommending Products
+
+Shop Quiz can show on the results page product variants, main products and [Recharge subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/). 
+
+Shop Quiz cannot recommend collections of products, though it's possible to [only recommend products from a specific collection](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
 
 ## Voting System
 
@@ -69,6 +75,13 @@ If you want to make the results ultra-precise, you can also:
 2. **Use Exclusions**: You can use [Exclusions]() to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
 By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
+
+## Guide: How to Build Your Quiz Setup
+
+Check the quiz below to learn how to build the quiz outcome you want:
+
+<script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/GrHXAz" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
+
 
 ## How to recommend products that match multiple criteria (matrix)
 
