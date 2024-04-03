@@ -79,14 +79,7 @@ nav:
     - Recommend Slots (Skincare Routine): how-to-guides/recommend-skincare-routine-slots.md
     - Redirect Quiz to Another Page: how-to-guides/redirect-quiz-to-another-page.md
     - Restore Quiz Progress: how-to-guides/restore-quiz-progress.md
-    - Send Leads to ActiveCampaign: how-to-guides/send-leads-to-activecampaign.md
-    - Send Leads to HubSpot: how-to-guides/send-leads-to-hubspot.md
-    - Send Leads to Klaviyo: how-to-guides/send-leads-to-klaviyo.md
-    - Send Leads to Mailchimp: how-to-guides/send-leads-to-mailchimp.md
-    - Send Leads to Omnisend: how-to-guides/send-leads-to-omnisend.md
-    - Send Leads to Shopify Customers: how-to-guides/send-leads-to-shopify-customers.md
-    - Send Leads to Webhooks: how-to-guides/send-leads-to-webhooks.md
-    - Sean Leads to Zapier: how-to-guides/send-leads-to-zapier.md
+    - Send Leads to Your CRM: how-to-guides/send-leads-to-crm.md
     - Send Result Emails: how-to-guides/send-result-emails.md
     - Send Result Emails from Your Server Using SMTP: how-to-guides/send-result-emails-from-custom-server.md
     - Show Results Explanation: how-to-guides/show-results-explanation.md
