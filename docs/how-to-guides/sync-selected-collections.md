@@ -1,14 +1,16 @@
 # How to Selectively Sync Product Collections with Shop Quiz
 
-For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your Shop Quiz recommendations. Fortunately, Shop Quiz offers a targeted solution: the `collections first` feature. This guide will outline the steps to activate this feature and select specific collections for synchronization with the Shop Quiz app, ensuring a streamlined and relevant quiz experience for your customers.
+For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your Shop Quiz recommendations. Fortunately, Shop Quiz offers a targeted solution: the `collections first` feature. 
 
-The `collections first` feature allows you to prioritize which collections you want to sync with Shop Quiz, enhancing the quiz's performance and avoiding potential technical issues.
+The `collections first` feature allows you to prioritize which collections you want to sync with Shop Quiz, enhancing the quiz's performance and avoiding potential technical issues. 
 
-To activate this feature in your account, please [contact support]().
+To activate this feature in your account, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+
+This guide outlines the steps to select specific collections for synchronization with the Shop Quiz app.
 
 ## Selecting Collections for Synchronization
 
-1. **Access the Success Checklist**: To select the collections to sync, go to the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) panel in the Dashboard. 
+1. **Access the Success Checklist**: To select the collections to sync, go to the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) panel in the `Dashboard`. 
 2. **Initiate Collection Selection**: Under `Sync Products from your store` click `Choose Active Collections`.
 3. **Choose Your Collections**: Next, select the collections you want to sync with the app. The number in brackets `()` shows how many products are currently in the collection. Activate or deactivate a collection by clicking on the toggle icon.
     ![how to sync selected collections](/images/how to sync selected collections.gif)

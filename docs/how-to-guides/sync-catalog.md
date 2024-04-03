@@ -30,5 +30,11 @@ This article will guide you through troubleshooting and syncing your product cat
 - **Check Sync Status:** If your products or collections aren't showing up as expected, or if the product counts remain at zero, it's possible the initial sync is still in progress or has encountered an issue.
 - **Contact Support:** Should issues persist beyond the expected sync time, please [contact our support team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/). We can manually initiate a complete sync of your shop to ensure everything is up-to-date.
 
+## Selectively Sync Product Collections with Shop Quiz
+
+For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your Shop Quiz recommendations. Fortunately, Shop Quiz offers a targeted solution: the `collections first` feature. 
+
+[:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/sync-selected-collections/)
+
 ---
 By following these steps, you can update your catalog with the Shop Quiz app, ensuring your products and collections are accurately linked and displayed.
