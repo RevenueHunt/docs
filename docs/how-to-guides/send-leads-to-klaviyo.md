@@ -2,6 +2,10 @@
 
 Apart from giving your customers personalized product recommendations, you can connect your quiz to Klaviyo. This way all the contacts coming from the quiz will be added to your Klaviyo account and you can create targeted email campaigns to upsell them.
 
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/embed/2NK7PTfNpJg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Link Your Quiz to Klaviyo
 
 1. To connect the quiz to Klaviyo you’ll have to provide your Klaviyo **Public API Key**. Public API Key is essential because it allows us to send information to Klaviyo Profiles.

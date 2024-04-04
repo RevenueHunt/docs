@@ -7,6 +7,10 @@ icon: material/pencil
 
 Follow these steps to create your first quiz with the Shop Quiz app.
 
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=ftq73J4rFKtW_yGr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Step 1: Create a New Quiz
 
 1. **Add new quiz**: Go to the app’s [dashboard](https://docs.revenuehunt.com/reference/dashboard/) and click [`add new quiz`](https://docs.revenuehunt.com/reference/dashboard/#new-quiz).

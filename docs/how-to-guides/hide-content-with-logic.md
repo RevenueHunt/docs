@@ -8,6 +8,10 @@ In this article, you’ll discover how to use `IF-THEN` conditional logic to dis
 
 Using a skincare routine quiz as an example, we'll show how custom text is displayed based on the customer’s skin type.
 
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Jump Logic: How to Show Custom Text in the Quiz
 
 ![how to hide content with logic jump logic](/images/how to hide content with logic jump logic.png)

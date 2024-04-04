@@ -8,6 +8,10 @@ With Shop Quiz, it is possible to group products into slots and recommend a prod
 
 This guide is designed to help merchants effectively use [Product Slot Blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-types) on the results page to organize product recommendations. 
 
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/embed/Lv6zWvOruqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 A personalized skincare routine recommendation quiz was chosen as an example to best demonstrate how to work with this feature. See an example of such a Skincare Quiz [here](https://skincarequiz.myshopify.com/#quiz-rkHm6Y).
 
 ![how to recommend slots example](/images/how to recommend slots example.png)
