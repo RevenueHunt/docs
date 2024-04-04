@@ -1,12 +1,23 @@
+---
+icon: material/format-header-pound
+---
+
+
 # How to Use Markdown Language
 
-Markdown is an incredibly versatile language that allows you to format text on the web effortlessly. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax. This guide will walk you through the basics of Markdown, using the syntax supported by RevenueHunt’s Product Recommendation Quiz, to help you incorporate various styling elements into your content efficiently.
+Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax. 
+
+This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Shop Quiz, to help you incorporate various styling elements into your content efficiently.
 
 ## Introduction to Markdown
 
 Markdown allows you to format words as bold or italic, add images, create lists, and much more, using just regular text with a few non-alphabetic characters, such as `#` or `*`. It's designed to be as straightforward as possible, making it accessible for anyone to learn and use.
 
-RevenueHunt’s Product Recommendation Quiz utilizes its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
+## Markdown in Shop Quiz
+
+Shop Quiz utilizes its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
+
+![how to use markdown languge example](/images/how to use markdown languge example.png)
 
 ### Headings
 
@@ -62,4 +73,5 @@ Videos are displayed responsively at 100% of their container’s width, with the
 ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
 ```
 
+---
 Markdown is a simple yet powerful language for formatting text on the web. By mastering the basic syntax elements supported by Shop Quiz, you can effectively enhance your quizzes and content, making them more attractive and engaging for users.
