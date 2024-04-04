@@ -44,7 +44,7 @@ nav:
     - Customer Success: customer-success/index.md
   - Tutorials:
     - Tutorials: tutorials/index.md
-    - Getting Started: tutorials/getting-started.md
+    - Shop Quiz Tour: tutorials/getting-started.md
     - Making your First Quiz: tutorials/making-first-quiz.md
     - Recommending a Skincare Routine: tutorials/skincare-routine.md
     - Conditional Logic: tutorials/conditional-logic.md
