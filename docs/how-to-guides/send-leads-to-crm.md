@@ -1,5 +1,5 @@
 ---
-icon: material/email-arrow-right-outline
+icon: material/account-filter
 ---
 
 # How to Send Quiz Leads to Your CRM
