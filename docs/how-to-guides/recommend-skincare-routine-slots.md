@@ -18,13 +18,23 @@ A personalized skincare routine recommendation quiz was chosen as an example to 
 
 ## Step 1: Understand Recommendation Mechanism
 
-Make sure that you're familiar with houw the recommendations work in Shop Quiz.
+Make sure that you're familiar with [how the recommendations work](https://docs.revenuehunt.com/how-to-guides/recommend-products/) in Shop Quiz.
 
-The product recommendation algorithym works like a voting system:
+??? question "How do I get the right recommendations?"
 
-- Choices in the quiz are linked to products, gaining votes based on customer selections. 
-- The most-voted products are recommended first on the results page, the least-voted products are shown last. 
-- If there's a draw in the number of votes, the app will randomize the order of products.
+    Our product recommendation algorithm works like a voting system:
+
+    - Products are linked to each choice
+    - When a customer picks a choice, all linked products receive one vote
+    - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+    - If no products have been linked or all the products have been excluded, the results page will appear empty
+    - If there's a draw in the number of votes, the app will randomize the order of products.
+
+    If you want to make the results ultra-precise, you can also:
+
+    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    - Use [Exclusions](https://docs.revenuehunt.com/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
+
 
 It's advised to familiarize yourself with this [voting system](https://docs.revenuehunt.com/how-to-guides/how-to-recommend-products/#voting-system) before working with Product Slots.
 
@@ -33,7 +43,10 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
 To group products into slots, you’ll need to create new collections in your Shopify store. These collections will be used to group your products on the results page.
 
 1. **Identify Product Categories**: Determine your skincare product categories (e.g., Cleansers, Toners, Serums, Moisturizers).
-2. **Create Collections**: For each category, [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) with the right products. Each collection should only contain products relevant to its category. For example, a *Cleansers* collection should have all the cleansing products, a *Toners* collection should have all the toning products, a *Serums* collection should have all the serums, etc. You can have more than one collection that includes some of the same products.
+2. **Create Collections**: For each category, [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) with the right products. Each collection should only contain products relevant to its category. For example, 
+    - a *Cleansers* collection should have all the cleansing products, a *Toners* collection should have all the toning products, 
+    - a *Serums* collection should have all the serums, etc. 
+    - You can have more than one collection that includes some of the same products.
 
     ![how to recommend slots cleansers collection](/images/how to recommend slots cleansers collection.png)
 
@@ -71,7 +84,10 @@ Now that the slots are built and product/collections are linked to each choice, 
 
 1. **Publish the changes**: Click [`Publish`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) on the top-right menu to update the preview/live quiz.
 2. **Preview the quiz**: Click [`Preview`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to test the quiz you've created in a new window. You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
-3. **Troubleshoot results**: Use the quiz's [built-in search bar](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) in the `Metrics > Responses` section to understand why specific products were recommended or missing from the recommendations. Check [How to Troubleshoot Quiz Results](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
+3. **Troubleshoot results**: Use the quiz's [built-in search bar](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) in the `Metrics > Responses` section to understand why specific products were recommended or missing from the recommendations. 
+
+    !!! tip
+        Check [How to Troubleshoot Quiz Results](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
 
 ---
 By adhering to these steps, you can offer a valuable tool to your customers, enhancing their shopping experience through personalized skincare routine recommendations.

@@ -1,6 +1,8 @@
 # How to Set Up Automatic Popups for Shopify Stores
 
-Automatic popups in Shopify can significantly enhance user engagement by presenting timely content or interactive elements like quizzes. This guide walks you through setting up automatic popups on your Shopify store, including popups that appear based on time spent on a page, across all pages, on the homepage, with exit intent, and options for showing popups multiple times per session.
+Automatic popups in Shopify can significantly enhance user engagement by presenting timely content or interactive elements like quizzes. 
+
+This guide walks you through setting up automatic popups on your Shopify store, including popups that appear based on time spent on a page, across all pages, on the homepage, with exit intent, and options for showing popups multiple times per session.
 
 Before You Start:
 
@@ -9,9 +11,9 @@ Before You Start:
 - (optional) Basic understanding of HTML for editing Shopify themes.
 - (optional) Access to your Shopify theme's code editor.
 
-**Safety Warning**
+!!! warning
 
-Directly editing your Shopify theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.
+    Directly editing your Shopify theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.
 
 ## Setting Up Automatic Popups
 
@@ -75,12 +77,13 @@ Directly editing your Shopify theme's source code can potentially disrupt your s
 2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
 3. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example: 
 
-```html
-  <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
-```
+    ```html
+      <div id="auto-popup" data-timeout="5" data-exit-intent="true" data-aggressive="true" data-quiz-id="dbqHqN" style="display: none;"></div>
+    ```
 
 4. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
 5. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
 6. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
-By following these steps, you can enhance your Shopify store's interactivity and user engagement through well-timed automatic popups. Customize your approach based on your store's unique needs and the specific behavior you want to encourage in your visitors. Remember, the key to effective popups is balancing visibility with user experience to avoid intrusiveness.
+---
+By following these steps, you can enhance your Shopify store's interactivity and user engagement through well-timed automatic popups.

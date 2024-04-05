@@ -17,13 +17,17 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 Even if you redirect the customer with Jump Logic to another page the quiz responses will be saved in the Quiz Builder's [`Metrics`](https://docs.revenuehunt.com/reference/quiz-builder/#responses) section.
 
-*Note: Redirecting with Jump Logic does not transfer quiz data to this new redirection page. If you want to send quiz data to another URL use the [callback function](#redirecting-to-a-custom-results-page-via-callback-function).*
+!!! info
+
+      Redirecting with Jump Logic does not transfer quiz data to this new redirection page. If you want to send quiz data to another URL use the [callback function](#redirecting-to-a-custom-results-page-via-callback-function).
 
 ## Redirecting to a Custom Results Page via Callback Function
 
 You can use our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) to redirect the customers to another (custom-built) Results Page. This allows for greater flexibility in handling quiz data and customizing the quiz resutls look.
 
-*Note: To do this, you'll need basic knowledge of JavaScript and handling JSON data.*
+!!! warning
+
+      To do this, you'll need basic knowledge of JavaScript and handling JSON data.
 
 1. **Set Up the Callback Function**: Implement the [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on your website to capture quiz results in JSON format.
 2. **Store and Redirect**: Configure the function to store the results locally (e.g., in the browser's local storage or cookies) before redirecting the user to your custom Results Page.
@@ -46,8 +50,9 @@ Offering a direct link to another page from your [Results Page](https://docs.rev
 
 3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab, targeting the button with `.lq-results a.button`.
 
+!!! info
 
-*Note: Redirecting with HTML link does not transfer quiz data to this new redirection page. If you want to send quiz data to another URL use the [callback function](#redirecting-to-a-custom-results-page-via-callback-function).*
+      Redirecting with HTML link does not transfer quiz data to this new redirection page. If you want to send quiz data to another URL use the [callback function](#redirecting-to-a-custom-results-page-via-callback-function).
 
 --- 
 By following these steps, you can effectively guide customers to relevant pages mid or post-quiz.

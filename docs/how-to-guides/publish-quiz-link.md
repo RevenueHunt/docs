@@ -1,6 +1,8 @@
 # How to Set Up a Quiz Link Popup on Your Shopify Store
 
-This guide will walk you through the process of setting up a Quiz Link Popup on your Shopify store. This feature allows your customers to access a quiz through a popup by clicking on a link within your site's navigation menu, a button, a banner or any page or blog post. It's a great way to engage visitors and collect valuable data.
+This guide will walk you through the process of setting up a **Quiz Link Popup** on your Shopify store. 
+
+This feature allows your customers to access a quiz through a popup by clicking on a link within your site's navigation menu, a button, a banner or any page or blog post. It's a great way to engage visitors and collect valuable data.
 
 Before you start, ensure you have:
 
@@ -37,5 +39,5 @@ Before you start, ensure you have:
 8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Paste the link to your quiz in the appropriate field.
 9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button.
 
-
+---
 You've successfully set up a Quiz Link Popup on your Shopify store. Don’t forget to click on the “Save” button so the changes are reflected in your store.

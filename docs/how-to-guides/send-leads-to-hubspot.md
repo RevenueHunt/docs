@@ -1,6 +1,10 @@
 # How to Send Leads to HubSpot
 
-Integrating your customer quiz with HubSpot can significantly enhance your marketing efforts. By automatically sending quiz results to your HubSpot account, you can segment your contacts based on their responses and engage them with personalized campaigns. This guide will walk you through the steps to link your quiz to HubSpot, ensuring that every interaction is captured for targeted follow-ups.
+Integrating your customer quiz with HubSpot can significantly enhance your marketing efforts. 
+
+By automatically sending quiz results to your HubSpot account, you can segment your contacts based on their responses and engage them with personalized campaigns. 
+
+This guide will walk you through the steps to link your quiz to HubSpot, ensuring that every interaction is captured for targeted follow-ups.
 
 Before starting, make sure you have:
 
@@ -32,4 +36,9 @@ You can now use these properties to create **segmented lists** based your custom
 
 Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
 
-*Important Note: Please be aware that while HubSpot efficiently handles text-based quiz data, its interface currently does not support embedding images directly into email templates as custom properties. Plan your quiz content accordingly to ensure seamless integration and utilization within HubSpot.*
+!!! info
+
+    Please be aware that while HubSpot efficiently handles text-based quiz data, its interface currently **does not support embedding images** directly into email templates as custom properties. Plan your quiz content accordingly to ensure seamless integration and utilization within HubSpot.
+
+---
+By folliwng this article, you can set up your post-quiz email flow with HubSpot.

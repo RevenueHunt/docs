@@ -18,4 +18,5 @@ Make sure you have:
 3. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared via email.
 4. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.
 
+---
 Integrating an interactive quiz into your email or newsletter is straightforward with these steps. By embedding a custom quiz link, you can significantly increase engagement and provide value to your subscribers, making your email campaigns more interactive and fun.

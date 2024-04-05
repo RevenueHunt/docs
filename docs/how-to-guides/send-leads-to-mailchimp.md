@@ -2,10 +2,10 @@
 
 Automating the transfer of quiz results to your Mailchimp account streamlines the process of segmenting your audience and enables targeted follow-up campaigns based on personalized product recommendations. 
 
-Important Considerations
+!!! warning "Important Considerations"
 
-- **Limited Data Transfer**: Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
-- **Alternative Services**: For functionality beyond basic data transfer, platforms like [Klaviyo](https://docs.revenuehunt.com/how-to-guides/send-leads-to-klaviyo/), [HubSpot](https://docs.revenuehunt.com/how-to-guides/send-leads-to-hubspot/) or [Omnisend]() are recommended. These services offer more robust integration options for personalized follow-ups.
+    - **Limited Data Transfer**: Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
+    - **Alternative Services**: For functionality beyond basic data transfer, platforms like [Klaviyo](https://docs.revenuehunt.com/how-to-guides/send-leads-to-klaviyo/), [HubSpot](https://docs.revenuehunt.com/how-to-guides/send-leads-to-hubspot/) or [Omnisend]() are recommended. These services offer more robust integration options for personalized follow-ups.
 
 Before you begin, ensure you have:
 
@@ -35,7 +35,10 @@ With [customer tags](https://docs.revenuehunt.com/reference/quiz-builder/#custom
 
 ## Hack: Send Quiz Answers to MailChimp
 
-To override Mailchimp's limitation on pushing detailed quiz data, you can use customer tags to represent customer responses.
+To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
 
 1. For each possible quiz answer, create a corresponding [customer tag](https://docs.revenuehunt.com/reference/quiz-builder/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
 2. Upon completion of the quiz by a participant, Mailchimp will recieve all the tags that the customer picked based on their choices.
+
+---
+By folliwng this article, you can set up your post-quiz email flow with MailChimp.

@@ -34,4 +34,5 @@ Make sure you have:
 
 If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop’s theme.
 
-By following these instructions, you can successfully add a chat-like button to your Shopify store that opens a quiz popup. This feature not only enhances user engagement but also provides a unique interactive experience for your visitors.
+---
+By following these instructions, you can successfully add a chat-like button to your Shopify store that opens a quiz popup.

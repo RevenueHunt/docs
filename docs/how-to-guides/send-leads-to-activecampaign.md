@@ -1,13 +1,17 @@
 # How to Send Leads to ActiveCampaign
 
-Integrating your Shop Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to leverage quiz data for targeted follow-ups and enhanced customer engagement.
+Integrating your Shop Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
+
+This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and enhanced customer engagement.
 
 Before you begin, ensure you have:
 
 - An active ActiveCampaign account.
 - A quiz built on the Shop Quiz platform.
 
-*Note: The integration process mainly involves transferring raw data from the quiz to ActiveCampaign. Setting up detailed flows or custom events based on this data is managed within ActiveCampaign itself.*
+!!! note
+
+    The integration process mainly involves transferring raw data from the quiz to ActiveCampaign. Setting up detailed flows or custom events based on this data is managed within ActiveCampaign itself.
 
 ## Link Quiz to ActiveCampaign
 
@@ -29,7 +33,11 @@ Alternatively, you can initiate the connection from within ActiveCampaign:
 2. Select the quiz icon and follow the provided setup instructions. During the setup process, you will be prompted to enter your ActiveCampaign API Token. This token is essential for linking the quiz data with your ActiveCampaign account.
 
 
-If you have any questions about the process, don’t hesitate to reach out to our support team. Note that the Quiz is only responsible for sending the raw data, you will have to configure a flow or any other custom event you wish to make with the data within ActiveCampaign in itself, and any questions regarding this process should be asked to ActiveCampaign’s support team directly.
+If you have any questions about the process, don’t hesitate to reach out to our support team. 
+
+!!! note
+
+    Note that the Quiz is only responsible for sending the raw data, you will have to configure a flow or any other custom event you wish to make with the data within ActiveCampaign in itself, and any questions regarding this process should be asked to ActiveCampaign’s support team directly.
 
 ## Adding custom information to the Contact profile
 
@@ -76,6 +84,9 @@ To automate email communications based on quiz participation:
 Unfortunately, for now, the only information about the recommended products we’re able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
 
 To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Shopify first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
+
+---
+By folliwng this article, you can set up your post-quiz email flow with ActiveCampaign.
 
 
 

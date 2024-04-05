@@ -1,6 +1,8 @@
 # How to recommend products that match multiple criteria (matrix)
 
-This article outlines a method for recommending skincare products based on multiple criteria using a product matrix to categorize recommendations. It describes a step-by-step process involving creating product collections, building and linking quizzes to these collections, and utilizing a voting system algorithm to prioritize product suggestions, catering to complex customer profiles and ensuring personalized recommendations.
+This article outlines a method for recommending skincare products based on multiple criteria using a product matrix to categorize recommendations. 
+
+It describes a step-by-step process involving creating product collections, linking products, and using a voting system algorithm to prioritize product suggestions, catering to complex customer profiles and ensuring personalized recommendations.
 
 ## Simple product matrix
 
@@ -16,7 +18,25 @@ This means that your product matrix looks something like this:
 
 ### Step 1: Understand the algorithm
 
-First of all, you should understand that the recommendations algorithm works like a [voting system](#voting-system). Products are linked to each choice. When a customer picks that choice, all the linked products receive one vote. When the quiz is done, products with the highest amount of votes will show on the Results page first, then products with less votes.
+First of all, you should understand that the recommendations algorithm works like a [voting system](#voting-system). 
+
+
+??? question "How do I get the right recommendations?"
+
+    Our product recommendation algorithm works like a voting system:
+
+    - Products are linked to each choice
+    - When a customer picks a choice, all linked products receive one vote
+    - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+    - If no products have been linked or all the products have been excluded, the results page will appear empty
+    - If there's a draw in the number of votes, the app will randomize the order of products.
+
+    If you want to make the results ultra-precise, you can also:
+
+    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    - Use [Exclusions](https://docs.revenuehunt.com/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
+
+
 
 ### Step 2: Create collections
 
@@ -101,27 +121,27 @@ If the quiz is set up correctly, the following products should be recommended in
 
 If you’re not getting the expected results, please check [this article](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) to learn how to troubleshoot the quiz results.
 
-**Why were these products recommended?**
+??? question "Why were these products recommended?"
 
-To understand the quiz results, we need to recall how the voting system works. Every product linked to a choice receives one vote when clicked on. In the end, the products with the most votes will be recommended first on the Results Page.
+    To understand the quiz results, we need to recall how the voting system works. Every product linked to a choice receives one vote when clicked on. In the end, the products with the most votes will be recommended first on the Results Page.
 
-- So in our example, if the user selects “30’s and above” in the first question, the following 8 products will receive 1 vote each:
+    - So in our example, if the user selects “30’s and above” in the first question, the following 8 products will receive 1 vote each:
 
-    ![how to recommend products matrix table1](/images/how_to_recommend_products_table1.png)
+        ![how to recommend products matrix table1](/images/how_to_recommend_products_table1.png)
 
-- Next, if the user selects “Oily”, the following 8 products will receive 1 vote each:
+    - Next, if the user selects “Oily”, the following 8 products will receive 1 vote each:
 
-    ![how to recommend products matrix table2](/images/how_to_recommend_products_table2.png)
+        ![how to recommend products matrix table2](/images/how_to_recommend_products_table2.png)
 
-- After the two questions, the following 4 products will already have 2 votes each, because they were part of both collections:
+    - After the two questions, the following 4 products will already have 2 votes each, because they were part of both collections:
 
-    ![how to recommend products matrix table2](/images/how_to_recommend_products_table3.png)
+        ![how to recommend products matrix table2](/images/how_to_recommend_products_table3.png)
 
-These products recieved the most amount of votes (2) so they were recommended.
+    These products recieved the most amount of votes (2) so they were recommended.
 
-![how to recommend products matrix resutls1](/images/how_to_recommend_products_results1.png)
+    ![how to recommend products matrix resutls1](/images/how_to_recommend_products_results1.png)
 
-When products receive the same amount of votes, the algorithm randomizes the order in which they are shown on the Results page.
+    When products receive the same amount of votes, the algorithm randomizes the order in which they are shown on the Results page.
 
 If you’d like to organize the products in a specific order, you can create `Product Slots` on the Results Page. Check [this article](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/) to learn how to do that.
 
@@ -151,4 +171,10 @@ And *Questions 4, 6, 8, and 10* to point the customer to the Results Page direct
 
 This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
 
-`❗Warning: A lot of conditional logic can significantly slow down the loading times of the quiz builder app (it doesn’t affect the quiz as viewed by the customer though). If you plan on building a quiz with a lot of conditional logic, consider splitting the quiz into multiple smaller quizzes instead. There’s no limit to how many quizzes can be published on your webiste. In the example above, you can create 4 different quizzes for skin types (Dry, Oily, Combination, or Normal skin), or you can create a quiz for different age groups.`
+!!! warning
+
+    A lot of conditional logic can significantly slow down the loading times of the quiz builder app (it doesn’t affect the quiz as viewed by the customer though). 
+    
+    If you plan on building a quiz with a lot of conditional logic, **consider splitting the quiz into multiple smaller quizzes** instead. There’s no limit to how many quizzes can be published on your webiste. 
+    
+    In the example above, you can create 4 different quizzes for skin types (Dry, Oily, Combination, or Normal skin), or you can create a quiz for different age groups.

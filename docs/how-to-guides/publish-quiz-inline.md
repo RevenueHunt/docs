@@ -1,6 +1,6 @@
 # How to Embed an Inline Quiz on Your Shopify Store
 
-This guide provides step-by-step instructions for embedding an inline quiz on various sections of your Shopify store, including the homepage, a new page, a specific collection page, and how to manage the quiz's size and autoscroll behavior. Inline quizzes can enhance user engagement by offering personalized recommendations or collecting feedback directly within your store's interface.
+This guide provides step-by-step instructions for embedding an inline quiz on various sections of your Shopify store, including the homepage, a new page, a specific collection page, and how to manage the quiz's size and autoscroll behavior. 
 
 Make sure you have:
 
@@ -86,5 +86,5 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 ```
 4. **Embed the Quiz**: Paste the adjusted HTML code wherever you like on your website.
 
-
-By following these steps, you can successfully integrate an interactive inline quiz into your Shopify store, enhancing the user experience and potentially increasing engagement and conversions. Always test the quiz functionality across different themes and devices to ensure optimal performance and user experience.
+---
+By following these steps, you can successfully integrate an interactive inline quiz into your Shopify store.

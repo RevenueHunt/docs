@@ -4,7 +4,9 @@ icon: material/calendar-sync
 
 # How to Recommend Subscription Products
 
-Recommending subscription products via the Shop Quiz can significantly enhance your e-commerce strategy by providing a steady revenue stream and fostering long-term customer relationships. With the integration of [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) into your product recommendation strategy, you can create a seamless shopping experience for your customers. 
+Recommending subscription products via the Shop Quiz can significantly enhance your e-commerce strategy by providing a steady revenue stream and fostering long-term customer relationships. 
+
+With the integration of [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) into your product recommendation strategy, you can create a seamless shopping experience for your customers. 
 
 ![how to recommend subscription products sample product](/images/how to recommend subscription products sample product.png)
 
