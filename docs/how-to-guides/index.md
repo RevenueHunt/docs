@@ -8,25 +8,25 @@ Our platform offers a rich array of features to engage your audience, gather ins
 
 For those new to our platform or looking to create a quiz for the first time, we recommend starting with these essential guides:
 
-- [Create Your First Quiz](https://docs.revenuehunt.com/how-to-guides/create-first-quiz/): Learn the basics of quiz creation, from conceptualizing your quiz to setting up questions.
-- [Recommend Products](https://docs.revenuehunt.com/how-to-guides/recommend-products/): Boost sales by learning how to recommend products based on quiz answers.
-- [Customize Quiz Design](https://docs.revenuehunt.com/how-to-guides/customize-quiz-design/): Dive into customization options to ensure your quiz matches your brand’s look and feel.
-- [Publish the Quiz on Your Website](https://docs.revenuehunt.com/how-to-guides/publish-quiz/): Get step-by-step instructions on how to seamlessly integrate your quiz into your website.
+- [:material-pencil: Create Your First Quiz](https://docs.revenuehunt.com/how-to-guides/create-first-quiz/): Learn the basics of quiz creation, from conceptualizing your quiz to setting up questions.
+- [:material-cards: Recommend Products](https://docs.revenuehunt.com/how-to-guides/recommend-products/): Boost sales by learning how to recommend products based on quiz answers.
+- [:material-palette-outline: Customize Quiz Design](https://docs.revenuehunt.com/how-to-guides/customize-quiz-design/): Dive into customization options to ensure your quiz matches your brand’s look and feel.
+- [:material-monitor-share: Publish the Quiz on Your Website](https://docs.revenuehunt.com/how-to-guides/publish-quiz/): Get step-by-step instructions on how to seamlessly integrate your quiz into your website.
 
 ## Enhancing Your Quizzes
 
 Once you're comfortable with the basics, enhance your quizzes and user experience with these advanced features:
 
-- [Send Result Emails](http://127.0.0.1:8000/how-to-guides/send-result-emails/): Engage your participants by sending personalized emails with their quiz results.
-- [Track Quiz Revenue](http://127.0.0.1:8000/how-to-guides/track-quiz-revenue/): Gain insights into how your quizzes contribute to your bottom line by tracking revenue generated directly from quiz interactions.
+- [:material-email-heart-outline: Send Result Emails](http://127.0.0.1:8000/how-to-guides/send-result-emails/): Engage your participants by sending personalized emails with their quiz results.
+- [:material-cash-multiple: Track Quiz Revenue](http://127.0.0.1:8000/how-to-guides/track-quiz-revenue/): Gain insights into how your quizzes contribute to your bottom line by tracking revenue generated directly from quiz interactions.
 
 
 ## Advanced Customization
 
 For those looking to dive deeper into customization and integration:
 
-- [Add JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/): Learn how to add custom JavaScript for advanced quiz interactions.
-- [Use Callback Function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/): Discover how to use a callback function to execute custom code based on quiz outcomes or user actions.
+- [:material-language-javascript: Add JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/): Learn how to add custom JavaScript for advanced quiz interactions.
+- [:material-code-json: Use Callback Function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/): Discover how to use a callback function to execute custom code based on quiz outcomes or user actions.
 
 ## Need More Help?
 
