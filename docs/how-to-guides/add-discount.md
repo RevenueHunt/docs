@@ -4,23 +4,27 @@ icon: material/sale
 
 # How to Add a Discounts to Your Quiz
 
-Incorporating discount coupons into your quiz allows customers to enjoy special offers on the results page or through a follow-up email. Please remember, that the management of these discounts is handled through Shopify, not directly within our app.
+Incorporating discount coupons into your quiz allows customers to enjoy special offers on the results page or through a follow-up email. 
 
-**Implementing Discount Coupons for Checkout**
+Please remember, that the management of these discounts is handled through Shopify, not directly within our app.
 
-## Step 1: Generating a Discount Code in Shopify
+![how to add a discount example](/images/how to add a discount example.png){ width="300" }
+
+This guide explains how to implement Discount Coupons for Checkout with the Shop Quiz app.
+
+## Step 1: Generate a Discount Code in Shopify
 
 To create a Shopify discount code, refer to [this helpful guide](https://help.shopify.com/en/manual/discounts/create-discount-codes#create-a-fixed-value-or-percentage-discount). Activation of this code is necessary before integrating it with your quiz to ensure functionality at checkout. It's essential to select the "manual" option for discount codes in Shopify, as our app can only synchronize with manually created codes.
 
-## Step 2: Configuring Your Discount Code on the Results Page
+## Step 2: Configure Your Discount Code on the Results Page
 
 You can add Static or Dynamic discount codes to your quiz.
 
-### Static Discount Configuration
+### Static Discount
 
 Navigate to [Results Page Settings > Discount Settings](https://docs.revenuehunt.com/reference/quiz-builder/#discounts-settings) and access the Discount Code Settings section. Here, you'll find a "Code" field:
 
-![how to add discount static](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png)
+![how to add discount static](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
 This field is for entering the discount code that will be automatically applied at checkout.
 
@@ -28,13 +32,13 @@ This field is for entering the discount code that will be automatically applied 
 
 **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first.
 
-### Dynamic Discount Setup
+### Dynamic Discount
 
 Our system supports the addition of multiple Shopify discount codes on the results page, applied dynamically according to the cart's total value. Start by creating your Shopify discount codes as explained in [Step 1](#step-1-generating-a-discount-code-in-shopify). Remember, only manual discount codes are compatible with our app.
 
 Proceed to the quiz's Results Page tab. Within [Results Page Settings > Discounts](https://docs.revenuehunt.com/reference/quiz-builder/#discounts-settings), activate Dynamic Discounts. Click "activate" to open the discount menu.
 
-![how to add discount dynamic](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png)
+![how to add discount dynamic](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
 **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
 
@@ -58,7 +62,7 @@ Proceed to the quiz's Results Page tab. Within [Results Page Settings > Discount
 
 ## Step 3: Publish Changes
 
-Ensure to click the top-right [Publish button](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to apply your changes to the live quiz or preview.
+Ensure to click the top-right [`Publish` button](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to apply your changes to the live quiz or preview.
 
 ## (Optional) Including Discount Codes in Follow-Up Emails
 
@@ -66,6 +70,7 @@ To further personalize the customer experience, you can incorporate the discount
 
 Simply go to your quiz settings, find the [Notifications > TO RESPONDENT](https://docs.revenuehunt.com/reference/quiz-builder/#to-respondent) tab, and edit the message to include your discount code.
 
+---
 By following these steps, you can effectively integrate discounts into your quiz, enhancing customer engagement and potentially increasing conversions.
 
 
