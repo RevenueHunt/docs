@@ -1,6 +1,6 @@
-# Recommending a Skincare Routine with Product Recommendation Quiz
+# Recommending a Skincare Routine with Shop Quiz
 
-In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
+In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) products to your customers organized into near categories.
 
 **You’ll learn:**
 
@@ -12,201 +12,140 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
 - how the recommendation algorithm works
 - how to edit the results page
 - how to use Markdown Language
-- How to publish the quiz
+- how to publish the quiz
 
 <div class="videoWrapper">
 <iframe src="https://www.youtube.com/embed/Lv6zWvOruqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+## Intro 
 
-If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products.
+If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the Shop Quiz app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
 
-With the Product Recommendation Quiz app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
+Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
 
-Check out our Skincare Quiz Demo site and take the quiz to see an example.
-
-In this tutorial, you’ll learn how to build a quiz which recommends a four step skin care routine to your customers.
+**Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.
 
 Let’s get started.
--Create Collections
 
-In the Skincare Quiz Demo shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers. 
+## Create Collections
 
-For the slots to work correctly, you’ll have to create four collections and include all the corresponding products in them.
+1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers. 
+2. For the slots to work correctly, you’ll have to **create four collections** and include all the corresponding products in them. For example:
+    - a *Cleansers* collection should have all the cleansing products, 
+    - a *Toners* collection should have all the toning products, 
+    - a *Serums* collection should have all the serums, etc.
+3. To create a collection, click on the top-right button. Check [this article](https://help.shopify.com/en/manual/products/collections) for detailed instructions on managing collections in Shopify.
+4. Give it a name and a description. 
+5. Next, you’ll select how to add products to a collection. You can do that **manually**, selecting each product one by one, or you can make an **automatic collection** based on a product tag. 
+6. To create a *Cleansers* collection, we’ll choose the tag to be equal to the word `cleanser`. Shopify will automatically add all the products with this tag to the collection. 
+7. You can create the toners, serums and moisturizer collections the same way.
+8. You can have more than one collection that includes some of the same products. An *anti-aging* or *oily skin* collection can be composed of several cleansers, serums or moisturizers.
 
-For example, a Cleansers collection should have all the cleansing products, 
+## Sync
 
-a Toners collection should have all the toning products, 
+Once you’ve made changes to your products and collections, you should [sync them](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) with the app. 
 
-a Serums collection should have all the serums, etc.
+1. The process is done automatically in the background but to make it faster, you can hit the [sync button](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) in the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist).
+2. The sync may take between 30 to 60 minutes.
+3. Once it’s finished, all your products and collections will be up to date in the app.
 
-To create a collection, click on the top right button. 
+*Note: Your store is also fully synced every 24 hours.*
 
-Give it a name and a description. 
-
-Next, you’ll select how to add products to a collection.
-
-You can do that manually, selecting each product one by one, or you can make an automatic collection based on a product tag. 
-
-To create a cleansers collection, we’ll choose the tag to be equal to the word “cleanser’. 
-
-Shopify will automatically add all the products with this tag to the collection. 
-
-You can create the toners, serums and moisturizer collections the same way.
-
-You can have more than one collection that includes some of the same products.
-
-An anti-aging or oily skin collection can be composed of several cleansers, serums or moisturizers.
-Sync
-
-Once you’ve made changes to your products and collections, you should sync them with the app. 
-
-The process is done automatically in the background but to make it faster, you can hit the sync button in the Success Checklist.
-
-The sync may take a few minutes. 
-
-Once it’s finished, all your products and collections will be up to date in the app.
-
-Your store is also fully synced every 24 hours.
-Build the Quiz
+## Build the Quiz
 
 Now you can build your quiz. 
 
-You can start from scratch or use one of our pre-designed Skincare templates.
+1. You can start from scratch or use one of our [pre-designed Skincare templates](https://revenuehunt.com/templates/).
+2. Check out our [previous step-by-step tutorial](https://docs.revenuehunt.com/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
+3. Start building the quiz by [adding simple questions](https://docs.revenuehunt.com/reference/quiz-builder/#question-types) relevant to the customer.
+4. Use a `Name question` to make the quiz personal.
+5. `Multiple-choice questions` can be useful in finding out the client’s age, skin type, skin concerns or the environment they live in.
+6. Additionally, a skin sensitivity question will be added. In the [next section](#exclude-products) of this tutorial, you’ll learn how to [exclude products](https://docs.revenuehunt.com/how-to-guides/recommend-products/#exclusion) containing allergens from your recommendations.
+7. Finish the quiz with an `email question`. Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
 
-Check out our previous step-by-step tutorial to learn how to use the quiz builder.
+## Quiz Design
 
-Start building the quiz by adding simple questions relevant for the customer.
+1. In the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab, you can change the look and feel of the quiz.
+2. You can even [add custom CSS code](https://docs.revenuehunt.com/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
 
-Use a Name question to make the quiz personal.
-
-Multiple choice questions can be useful in finding out the client’s age, skin type, skin concerns or the environment they live in.
-
-Additionally, a skin sensitivity question will be added.
-
-In the next section of this video, you’ll learn how to exclude products containing allergens from your recommendations.
-
-Finish the quiz with an email question. 
-
-Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
-
-Quiz Design
-
-In the Quiz Design tab, you can change the look and feel of the quiz.
-
-You can even add custom CSS code to make it pop.
-
-Link Collections 
+## Link Collections 
 
 Once your quiz is built and styled, you should add products and collections to individual choices.
 
-To do that, go to the Quiz Builder and select ‘Link Collections’. 
+1. To do that, go to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and open the [Link Collections](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab. 
+2. For the age question, you can link the *youth* and *anti-aging* collections created earlier.
+3. Then, let’s link the *skin type* collections.
+4. You can link one or more collections to the same choice.
+5. Continue like this and make sure that each choice in the quiz has products or collections linked, otherwise you may end up with empty results.
+6. Product recommendation algorithm works like a [voting system](https://docs.revenuehunt.com/how-to-guides/recommend-products/). 
+    - Products are linked to each choice.
+    - When a customer picks that choice all the linked products receive one vote.
+    - This includes all the products inside the linked collection. 
+    - At the end, the results page will show slots with products sorted by the number of votes.
 
-For the age question, you can link the ‘youth’ and ‘anti-aging’ collections created earlier.
+## Exclude Products
 
-Then, let’s link the skin type collections.
+Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](https://docs.revenuehunt.com/how-to-guides/recommend-products/#exclusion) feature. 
 
-You can link one or more collections to the same choice.
+1. To exclude a product go to the [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab and select a question. 
+2. Tap on the greyed `exclude products` text and a white bar will appear. 
+3. Simply add the products that contain an allergen.
 
-Continue like this and make sure that each choice in the quiz has products or collections linked, otherwise you may end up with empty results.
+Now, when a customer says he’s sensitive to *aloe vera*, all the products that contain it will be excluded from the possible recommendations. 
 
-Product recommendation algorithm works like a voting system. 
+❗Be careful when using exclusions. Once a product has been excluded it won't show on the results page, even if it was upvoted in another question.
 
-Products are linked to each choice.
+## Edit the Results Page
 
-When a customer picks that choice all the linked products receive one vote.
+It’s time to edit the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
 
-This includes all the products inside the linked collection. 
-
-At the end, the results page will show slots with products sorted by the number of votes.
-
-Exclude Products
-
-Remember the sensitivity question asked at the end of the quiz?
-
-To remove harmful products from the recommendations use the “exclude” products feature. 
-
-To exclude a product go to the Link Products tab and select a question. 
-
-Tap on the greyed texted and a whitebar will appear. 
-
-Simply add the products which contain an allergen.
-
-Now, when a customer says he’s sensitive to aloe vera, all the products which contain it will be excluded from the possible recommendations. 
-
-Be careful when using exclusions. 
-
-Once a product has been excluded it wont show on the results page, even if it was upvoted in another question!
-Edit the Results Page
-It’s time to edit the Results Page. 
-
-Add a heading, a logo or a content block to customize the page.
-
-Check the tutorial 1 video, to see examples of different blocks being used.
-
-To make the page more attractive, let’s add a content block. 
-
-In this block, we’ll describe every step in the beauty routine. 
-
-Remember to use Markdown language to style your text. 
+1. Add a heading, a logo or a content block to customize the page.
+2. Check the [previous tutorial](https://docs.revenuehunt.com/tutorials/making-first-quiz/), to see examples of different blocks being used.
+3. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
+4. Remember to use [Markdown language](https://docs.revenuehunt.com/how-to-guides/use-markdown/) to style your text. 
 
 The page is almost done. 
 
+## Add Slots Block
+
 Now let’s add a space for products.
-Add Slots Block
 
-As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
+1. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
+2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products. 
+3. In [product slot settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can:
+    - Edit the slot name, 
+    - Add a description,
+    - And select how many products should be recommended in each slot.
+4. Slots won’t work unless you `include collections` to each of them. It’s how they know which products to choose.
+    - Include the *Cleansers* collection in the Cleansers Slot
+    - Include the *Toners* collection in the Toners Slot
+    - Include the *Serums* collection in the Serum Slot, etc.
+5. Make sure that the products in these collections are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
+6. Follow the same steps to create a morning routine.
 
-Let’s add a Slots block and create four different slots for each of the products. 
+Et voila! You’ve just created a dynamic result page for your beauty quiz!
 
-You can edit the slot name,
+## Preview the quiz
 
-Add a description,
+1. Update the preview/live quiz with the top-right `Publish` button.
+2. You can test the quiz by clicking the `Preview` button.
+3. Take the quiz a few times to check if the correct products are recommended.
 
-And select how many products should be recommended in each slot.
+## Publish
 
-Slots won’t work unless you assign collections to each of them. 
+Now you’re ready to publish the quiz on your website. Let’s add it [inline with a new page](https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page). 
 
-It’s how they know which products to choose.
+1. To do that, go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) tab and select the `Inline` publish option.
+2. Click `Show Instructions for Legacy Themes`.
+3. Adjust the quiz’s width and height and click `Get code` to generate a code. 
+3. Copy the code and navigate to your `Online Store > Pages` in Shopify. 
+4. Add a new page and give it a name. 
+5. Click the `Show HTML` button and paste the code copied from the app.
+6. Make sure to `save` the changes.
 
-Make sure that the products in these collections are linked to the answers in the quiz.
 
-Otherwise, the slots will produce empty results.
+Congratulations! You’ve just created and published your first skincare routine quiz!
 
-Follow the same steps to create a morning routine.
 
-Et voila!
-
-You’ve just created a dynamic result page for your beauty quiz!
-
-Preview the quiz
-You can test the quiz by clicking the “Preview Quiz” button.
-
-Take the quiz a few times to check if the correct products are recommended.
-
-Publish
-
-Now you’re ready to Publish the quiz. 
-
-Let’s add it inline with the page. 
-
-To do that, go to the Publish tab and select the Inline publish option.
-
-Adjust the quiz’s width and height and generate a code. 
-
-Copy the code and navigate to your online store pages. 
-
-Add a new page and give it a name. 
-
-Click the “Show HTML” button and paste the code copied from the app.
-
-Make sure to save the changes.
-
---
-Congratulations!
-
-You’ve just created and published your first skincare routine quiz!
-
---
-
-Check out our FAQ section for more resources on getting started with recommendation quizzes.
+Check out our [documentation](https://docs.revenuehunt.com/) for more resources on getting started with recommendation quizzes.
