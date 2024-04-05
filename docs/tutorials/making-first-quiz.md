@@ -1,3 +1,7 @@
+---
+icon: material/numeric-1
+---
+
 # Making Your First Shop Quiz || Recommending the Best Cleanser
 
 In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.

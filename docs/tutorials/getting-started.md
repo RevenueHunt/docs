@@ -1,3 +1,7 @@
+---
+icon: material/numeric-0
+---
+
 # Getting Started with Shop Quiz
 
 In this tutorial, you’ll see an overview of the most important features of the Shop Quiz app.
