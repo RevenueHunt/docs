@@ -23,7 +23,7 @@ This is where you’ll create your quiz.
 
 1. Choose a question type by clicking on the `+` plus sign and edit it. 
 2. Once you’ve added your questions, you can drag and drop to move them around.
-3. To change [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), click on the little wrench icon. Here you can change things like making the question optional, or allowing multiple answers.
+3. To change [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), click on the :material-wrench: little wrench icon. Here you can change things like making the question optional, or allowing multiple answers.
 4. Then you can make your recommendations smarter by adding [logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic). Link questions to different result pages or send people down different question paths depending on how they respond. 
 
 ## [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design)
