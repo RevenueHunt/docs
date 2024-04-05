@@ -4,11 +4,15 @@ icon: material/account-check-outline
 
 # How to Ask for Marketing/Data Processing Consent
 
-Directly asking for marketing consent or acceptance of data processing in your quiz can be a straightforward and efficient way to ensure compliance with regulations like GDPR. This article outlines several methods to integrate consent requests seamlessly into your quizzes.
+Directly asking for marketing consent or acceptance of data processing in your quiz can be a straightforward and efficient way to ensure compliance with regulations like GDPR.
+
+This article outlines several methods to integrate consent requests seamlessly into your quizzes.
 
 ## Add a Link to Your Privacy Policy
 
-A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). For example, like this:
+A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). 
+
+For example, like this:
 
 ```markdown
 By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).

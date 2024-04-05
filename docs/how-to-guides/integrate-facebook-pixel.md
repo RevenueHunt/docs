@@ -6,13 +6,13 @@ icon: material/facebook
 
 The Facebook Pixel is an essential analytics tool for tracking user interaction with your quiz and gauging the success of your Facebook ads.
 
-**What is the Facebook Pixel?**
+??? question "What is Facebook Pixel?"
 
-This small piece of code placed on your website helps you monitor conversions from ads, improve the performance of future advertising, and create targeted audiences based on past interactions with your website.
+    This small piece of code placed on your website helps you monitor conversions from ads, improve the performance of future advertising, and create targeted audiences based on past interactions with your website.
 
 ## Setting Up Your Facebook Pixel
 
-If you don't have a Pixel yet, set one up following Facebook's guide. Once created, integrate it with your quiz:
+If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
 1. Go to the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab within your quiz settings.
 2. Find the Facebook Pixel section and hit `connect`.
@@ -82,4 +82,5 @@ To deploy this method, you can insert a script within the theme of your store's 
 4. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
 5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
 
+---
 By implementing the Facebook Pixel, you'll harness powerful data to optimize your ad campaigns, personalize the user experience, and ultimately, increase conversions.

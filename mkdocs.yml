@@ -72,7 +72,6 @@ nav:
     - Integrate Google Analytics: how-to-guides/integrate-google-analytics.md
     - Join Questions: how-to-guides/join-questions.md
     - Pass Parameters to Pre-Fill Quiz Responses: how-to-guides/pass-parameteres-to-fill-quiz-responses.md
-    - Plans & Pricing FAQ: how-to-guides/plans-pricing-faq.md
     - Publish the Quiz on Your Website: how-to-guides/publish-quiz.md
     - Recommend Products: how-to-guides/recommend-products.md
     - Recommend Subscription Products: how-to-guides/recommend-subscription-products.md
@@ -100,6 +99,7 @@ nav:
     - App Settings: reference/app-settings.md
   - Customer Success:
     - Customer Success: customer-success/index.md
+    - Plans & Pricing FAQ: customer-success/plans-pricing-faq.md
     - How to Build a Succesful Shop Quiz: customer-success/how-to-build-succesful-quiz.md
     - Example 2: customer-success/index.md
     - Example 3: customer-success/index.md

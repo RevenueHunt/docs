@@ -24,7 +24,9 @@ To combine two or more questions into one slide, follow these steps:
 
 ![how to join slides slides joined](/images/how to join slides slides joined.png)
 
-*Please note that currently, merging two `file upload` questions into a single slide is not supported. If your quiz includes file upload questions, you must keep them separated to ensure the upload functionality works correctly.*
+!!! info
+
+    Please note that currently, merging two `file upload` questions into a single slide is not supported. If your quiz includes file upload questions, you must keep them separated to ensure the upload functionality works correctly.
 
 ---
 Follow the steps outlined above to easily integrate multiple questions per slide into your quizzes.

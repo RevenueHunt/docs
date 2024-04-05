@@ -44,20 +44,38 @@ For further customization, you can adjust the [results page settings](https://do
 
 [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) worth checking:
 
-- **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. Check the [How to Change Checkout Settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) for detailed instructions.
-- **Show Product Reviews**: Display [product reviews](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) to add credibility and influence decisions. We currently support these review apps for Shopify: 
-    - Product Reviews by Shopify, 
-    - Stamped Product Reviews & UGC, 
-    - Judge.me Product Reviews, 
-    - Rivyo Product Reviews.
+- **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. 
+    
+    !!! tip
+
+        Check the [How to Change Checkout Settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) for detailed instructions.
+
+- **Show Product Reviews**: Display [product reviews](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) to add credibility and influence decisions. 
+
+    !!! info
+        We currently support these review apps for Shopify: 
+
+        - Product Reviews by Shopify, 
+        - Stamped Product Reviews & UGC, 
+        - Judge.me Product Reviews, 
+        - Rivyo Product Reviews.
 
 [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) worth checking:
 
 - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
 - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
-- **Custom JavaScript**: Add custom scripts for unique behaviors or logic. Check [How to Add JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
-- **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page. Check [How to Add Product Metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
+- **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
+
+    !!! tip
+        
+        Check [How to Add JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
+
+- **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page. 
+
+    !!! tip
+        Check [How to Add Product Metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
+
 - **Multiple Results Pages**: Offer [diverse results pages](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
 
-
+---
 By following this guide, you can significantly enhance your shop's quiz results page, creating a dynamic, engaging, and personalized shopping experience for your customers.

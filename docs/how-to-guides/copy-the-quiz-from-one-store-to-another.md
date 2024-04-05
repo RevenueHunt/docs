@@ -18,7 +18,9 @@ First, navigate to the quiz you wish to export:
 
 ![Export Quiz Step](/images/how to copy the quiz step 1 v2.gif)
 
-*Tip: To prevent loss, save the export quiz code in a text file.*
+!!! tip
+    
+    To prevent loss, save the export quiz code in a text file.
 
 ## Step 2: Log in to the Other Store
 
@@ -40,6 +42,7 @@ Finally, import the quiz into your new store:
 
 After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
+---
 By following these instructions, you can efficiently duplicate your quiz across all your stores, saving time.
 
 

@@ -33,20 +33,20 @@ Once you have your questions, you'll have to link products to choices to show re
 2. **Link Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
 3. **Edit the Results Page**: Go to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab and edit the content. You can change the number of recommended products in the [Product Block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings).
 
-***How do I get the right recommendations?***
+??? question "How do I get the right recommendations?"
 
-*Our product recommendation algorithm works like a voting system:*
+    Our product recommendation algorithm works like a voting system:
 
-- *Products are linked to each choice*
-- *When a customer picks a choice, all linked products receive one vote*
-- *After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes*
-- *If no products have been linked or all the products have been excluded, the results page will appear empty*
-- *If there's a draw in the number of votes, the app will randomize the order of products.*
+    - Products are linked to each choice
+    - When a customer picks a choice, all linked products receive one vote
+    - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+    - If no products have been linked or all the products have been excluded, the results page will appear empty
+    - If there's a draw in the number of votes, the app will randomize the order of products.
 
-*If you want to make the results ultra-precise, you can also:*
+    If you want to make the results ultra-precise, you can also:
 
-- *Limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).*
-- *Use [Exclusions](https://docs.revenuehunt.com/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).*
+    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    - Use [Exclusions](https://docs.revenuehunt.com/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
 Read more about how the recommendations work [here](https://docs.revenuehunt.com/how-to-guides/recommend-products/).
 
@@ -55,7 +55,10 @@ Read more about how the recommendations work [here](https://docs.revenuehunt.com
 To test the quiz, you'll have to save the changes and preview it.
 
 1. **Publish the changes**: Click [`Publish`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
-2. **Preview the quiz**: Click [`Preview`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to test the quiz you've created in a new window. You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
+2. **Preview the quiz**: Click [`Preview`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to test the quiz you've created in a new window. 
+
+    !!! tip    
+        You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
 ## Step 5: Publish the Quiz on Your website
 
@@ -67,4 +70,5 @@ Once you're satisfied with your quiz, you can put it on your website.
 
 If changes are made post-publishing, click `Publish` again to update the live quiz.
 
+---
 This guide outlines the steps to create and launch a Shop Quiz for your store.

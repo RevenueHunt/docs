@@ -4,7 +4,9 @@ icon: material/ab-testing
 
 # How to A/B Test Your Shop Quiz
 
-A/B testing, or split testing, allows you to compare two versions of your quizzes to see which one performs better. This guide will walk you through the process of setting up A/B testing manually using your ability to create, duplicate, and edit quizzes in the Shop Quiz app.
+A/B testing, or split testing, allows you to compare two versions of your quizzes to see which one performs better. 
+
+This guide will walk you through the process of setting up A/B testing manually using your ability to create, duplicate, and edit quizzes in the Shop Quiz app.
 
 Ensure you have:
 
@@ -57,4 +59,6 @@ Based on the analysis, decide which version of the quiz is more effective. Imple
 - Test one variable at a time to understand its impact clearly.
 - Ensure you have a statistically significant sample size before drawing conclusions.
 
+
+---
 A/B testing for quizzes is entirely feasible with the Shop Quiz app. By following this guide, you can uncover valuable insights into what resonates with your audience, leading to better engagement and conversion rates over time.

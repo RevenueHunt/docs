@@ -11,10 +11,11 @@ Our sharpest and friendliest support team in the eCommerce sector can be reached
 
 You can also send your inquiries via email to `team@revenuehunt.com`.
 
-## Contact Hours
+!!! info "Contact Hours"
 
-**Availability**: Our support team is available Monday through Friday, from 7am to 11pm (GMT).
-**Response Time**: Expect a reply within 2-3 hours during business hours.
+    **Availability**: Our support team is available Monday through Friday, from 7am to 11pm (GMT).
+    
+    **Response Time**: Expect a reply within 2-3 hours during business hours.
 
 ## Check App Status
 

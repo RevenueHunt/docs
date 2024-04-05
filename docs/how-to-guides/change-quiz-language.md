@@ -6,10 +6,11 @@ icon: material/translate-variant
 
 ## Change Quiz Language in Settings
 
-1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) or Quiz Settings -> [Messages](https://docs.revenuehunt.com/reference/quiz-builder/#messages).
+1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) or [`Quiz Settings -> Messages`](https://docs.revenuehunt.com/reference/quiz-builder/#messages).
+    ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png)
 2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
 3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](https://docs.revenuehunt.com/reference/quiz-builder/#messages) tab.
-4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in Quiz Builder -> [Question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
 
 
 ## Set Up Multilingual Quizzes
@@ -79,7 +80,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Step 3: Redirect to Translated Product URL
 
-Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript.
+Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
+
+A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](http://127.0.0.1:8000/how-to-guides/add-javascript/).
 
 - Instead of adding a product to cart, you can change the [checkout settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
 - By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
@@ -96,7 +99,7 @@ Our application syncs only the base products from your store. Products translate
         }
         ```
 
-- Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the languge code you have set up in your store (for example, `shopURL+"/fr"` for French).
+- Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
 
-
+---
 While awaiting native multi-language plugin support, these steps allow for a versatile approach to presenting and managing quizzes in multiple languages, ensuring a tailored experience for your international audience.

@@ -16,13 +16,20 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 ![how to hide content with logic jump logic](/images/how to hide content with logic jump logic.png)
 
-1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. *Tip:* Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+
+    !!! tip
+
+        Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
 
 2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
-    - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-    - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
-    - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-    - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+
+    !!! example
+
+        - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
+        - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+        - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
+        - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
 3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
 
@@ -34,14 +41,25 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 ## Block Logic: How to Show Custom Text on the Results Page
 
-1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. *Tip:* Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+
+    !!! tip
+
+        Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
 
 2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
-    - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-    - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
-    - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-    - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-    - *Tip*: Make the heading stand out with [markdown language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
+
+    !!! example
+
+        - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
+        - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+        - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
+        - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+        
+
+    !!! tip    
+    
+        Make the heading stand out with [markdown language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
 3. **Add Block Logic**: If we don’t add [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
@@ -53,13 +71,20 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 ![how to hide content with logic skip logic](/images/how to hide content with logic skip logic.png)
 
-1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. *Tip:* Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+
+    !!! tip
+
+        Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
 
 2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
-    - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-    - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
-    - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-    - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+
+    !!! example
+
+        - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
+        - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+        - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
+        - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
 
 3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
@@ -68,4 +93,5 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
+---
 For more detailed instructions on using [Jump Logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/), [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/), and [Skip Logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/), consider checking the respective articles linked throughout this guide.

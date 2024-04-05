@@ -5,7 +5,7 @@ icon: material/focus-field-horizontal
 
 # How to Add Product Metafields
 
-Metafields in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
+[Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
 
 If you're looking to import product metafields from your store into the Shop Quiz to display them on your quiz's results page, follow the steps outlined below:
 
@@ -35,7 +35,7 @@ Update your catalog with the new metafields by triggering a [catalog sync](https
 
 ## Step 5: Implement Custom JavaScript on the Results Page
 
-To display the metafield values on your results page, custom JavaScript is required:
+To display the metafield values on your results page, [custom JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) is required:
 
 1. Your developer will need to write custom JavaScript code to render the metafield value in the desired location on the results page.
 2. This customization falls outside the support scope of our app.
@@ -66,6 +66,7 @@ for (let i = 0; i < products.length; i++) {
 
 ![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
 
+---
 Following these steps will enable you to display specific metafields on your quiz's results page, enhancing your product presentations based on unique attributes or compliance needs.
 
 

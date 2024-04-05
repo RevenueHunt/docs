@@ -2,13 +2,11 @@
 icon: material/language-javascript
 ---
 
-
-
 # How to Add JavaScript to the Quiz
 
 Unlock the full potential of your Shop Quiz by integrating custom JavaScript. We made it very easy for developers to tap into the quiz response and get all the information they need: individual answers to questions, triggered tags and recommended products.
 
-With custom JavaScript you can:
+With custom JavaScript, you can:
 
 - add custom behavior, images, texts or logic
 - display custom product recommendations
@@ -17,7 +15,9 @@ With custom JavaScript you can:
 
 This guide will walk you through adding JavaScript to quiz questions and the results page. 
 
-*Note: This guide is meant for developers and Shopify Partners. If you're not familiar with the basics of JavaScript and the Vue.js framework, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).*
+!!! warning
+    This guide is meant for developers and Shopify Partners. If you're not familiar with the basics of JavaScript and the Vue.js framework, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).
+
 
 ## Access the Custom JavaScript Console
 
@@ -26,16 +26,23 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 ### Results Page
 
 1. Navigate to the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) in the Quiz Builder.
-2. Select **Advanced Settings**.
+2. Select [**Advanced Settings**](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
 3. Scroll down to find the **Custom JavaScript** section and click `add`.
 4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+5. Remember to click the `Publish` button to update the preview/live quiz.
 
 ### Quiz Questions
 
 1. Navigate to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
 2. Open [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
 3. Scroll down to find the **Custom JavaScript** section and click `add`.
-4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results. *Note: JavaScript added to the first Welcome slide in the quiz builder will be applied to all slides.*
+4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+5. Remember to click the `Publish` button to update the preview/live quiz.
+
+!!! tip
+
+    JavaScript added to the first Welcome slide in the quiz builder will be applied to all slides.
+
 
 
 ## Console.log(prq) Function
@@ -73,6 +80,55 @@ The `prq` object is your gateway to customizing the quiz experience. Here's how 
 **Navigation and Engagement**
 
 - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
+
+
+```html
+/* List of all the quiz slides/questions (including the responded values) */
+prq.quizSlides();
+
+/* get the slide/question value by passing the slide ID  */
+prq.getSlideValue(slideId);
+
+/* get the lead's email  */
+prq.leadEmail();
+
+/* get the lead's phone  */
+prq.leadPhone();
+
+/* get the lead's name  */
+prq.leadName();
+
+/* List contents of the results page, blocks, products, etc. */
+prq.resultsPage();
+
+/* List recommended products, sorted by number of votes */
+prq.recommendedProducts();
+
+/* Show most voted product */
+prq.mostVotedProduct();
+
+/* adds all the products to cart automatically */
+prq.addAllToCart();
+
+/* proceeds to cart/checkout automatically */
+prq.checkout();
+
+/* set specific discount code \*/
+prq.setDiscountCode('10-OFF');
+
+/* get the response permalink url */
+prq.getResponsePermalink();
+
+/* retake quiz */
+prq.retakeQuiz();
+
+/* close quiz */
+prq.closeQuiz();
+
+/* open quiz popup */
+window.openQuizPopup('dbqHqN');
+dbqHqN is the quiz ID
+```
 
 For other functions and properties refer to the [console.log(prq)](#consolelogprq-function).
 
@@ -163,7 +219,9 @@ You can also load jQuery [this way](https://stackoverflow.com/questions/10113366
 
 It is possible to make the quiz multiple choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word “All” and one that contains the word “None”.  It doesn’t matter the order or the question number.
 
-*Note: This code may require adjustments by a developer.  Use it as an example only.*
+!!! note
+
+    This code may require adjustments by a developer.  Use it as an example only.
 
 ```html
 // Initializes an object to hold the current slide's state, ensuring it doesn't overwrite if already exists.
@@ -266,7 +324,9 @@ function valuesIncludes(values, c) {
 
 ### Example 4: Redirect to Translated Product URL
 
-Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](https://docs.revenuehunt.com/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
+
+A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](https://docs.revenuehunt.com/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
 ---
 This guide outlines the foundational steps and examples for integrating custom JavaScript into your Shop Quiz. 

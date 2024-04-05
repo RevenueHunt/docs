@@ -70,7 +70,9 @@ The exploration enables you to see how much revenue the quizzes have generated a
 - `Sessions` count how many times the quiz was engaged with.
 - `Total Revenue` displays earnings tied to the quiz.
 
-**NOTE:** Some users have encountered issues with explorations not showing revenue data due to GA4 limitations.
+!!! warning
+
+    Some users have encountered issues with explorations not showing revenue data due to GA4 limitations.
 
 ## Exclude the Quiz as Source in Google Analytics
 
@@ -79,9 +81,9 @@ We strongly recommend not excluding your quiz as a traffic source, but here’s 
 1. Exclude the `admin.revenuehunt.com` domain in Google Analytics. [More info on how to exclude referral traffic here](https://support.google.com/analytics/answer/2795830?hl=en).
 2. Deactivate the `Set revenuehunt/quiz as UTM source/medium` toggle in the [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings).
 
-**Why Returning Users from Excluded Domains Still Appear in Your Reports?**
-
-Old traffic might appear as coming from the excluded domain. This issue results from the default campaign timeout of 6 months. For more information, visit [Google Analytics support](https://support.google.com/analytics/answer/2795830?hl=en#zippy=).
+??? question "Why Returning Users from Excluded Domains Still Appear in Your Reports?"
+    
+    Old traffic might appear as coming from the excluded domain. This issue results from the default campaign timeout of 6 months. For more information, visit [Google Analytics support](https://support.google.com/analytics/answer/2795830?hl=en#zippy=).
 
 ## Add Custom Trackers
 

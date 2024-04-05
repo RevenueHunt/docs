@@ -9,7 +9,9 @@ Adjusting the checkout settings in Shop Quiz allows you to choose whether your c
 
 1. **Access Results Page Settings**: Begin by navigating to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab in the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). Click this icon to proceed.
 
-2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic`section, and from there, find the `Checkout Settings`. This is where you can customize how products are added to the cart and how customers proceed to checkout. Shop Quiz offers two primary options for managing how customers interact with products they wish to purchase:
+2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
+    ![how to change checkout settings](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png)
+3. This is where you can customize how products are added to the cart and how customers proceed to checkout. Shop Quiz offers two primary options for managing how customers interact with products they wish to purchase:
     1. **Add Product to Cart**:
 
         ![how to change checkout settings add to cart](/images/how to change checkout settings add to cart.png)
@@ -27,10 +29,6 @@ Adjusting the checkout settings in Shop Quiz allows you to choose whether your c
 
         - Alternatively, you might want customers to have the opportunity to view more details about a product before making a purchase. Selecting this option replaces the direct 'add to cart' action with a `view product` link.
         - When customers click on the `view product` link, they are taken to the individual product page instead of adding the item directly to their cart. This can be beneficial for providing customers with additional product information, images, and reviews that might influence their purchasing decision.
-
-        The choice between adding products directly to the cart or linking customers to product pages is crucial in designing a shopping experience that matches your brand's approach to customer service and sales.
-
-
 
 3. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 

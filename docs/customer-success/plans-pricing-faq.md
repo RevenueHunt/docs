@@ -1,7 +1,3 @@
----
-icon: material/credit-card-outline
----
-
 ## Plans & Pricing Details
 
 - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
