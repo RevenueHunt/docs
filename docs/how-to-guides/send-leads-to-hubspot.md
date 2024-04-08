@@ -13,10 +13,13 @@ Before starting, make sure you have:
 
 ## Link Quiz to HubSpot
 
-1. Go to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+1. Go to the [Quiz Builder]() and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen.
 2. Within the integration options, find the section dedicated to HubSpot and click on the `Connect` button.
 3. A new browser tab will open, prompting you to authorize the connection between your quiz platform and your HubSpot account.
-4. Select your HubSpot account from the list provided. You'll be directed to a confirmation page indicating that the connection has been successfully established.
+4. Select your HubSpot account from the list provided.
+    ![how to send leads to hubspot connect](/images/how to send leads to hubspot connect.png)
+5. You'll be directed to a confirmation page indicating that the connection has been successfully established.
+    ![how to send leads to hubspot connect succesfull](/images/how to send leads to hubspot connect succesfull.png)
 
 Once connected, the quiz results will automatically flow into your HubSpot account. 
 
