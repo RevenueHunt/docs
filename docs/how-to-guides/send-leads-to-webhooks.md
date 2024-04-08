@@ -1,6 +1,8 @@
 # How to Send Leads to Webhooks
 
-Integrating thw quiz with webhooks allows you to automatically send all quiz data, including responses, recommended products, and participant information, to your specified endpoints. This guide will walk you through the steps to link your quiz to custom webhooks, enabling seamless data integration for further processing or analysis.
+Integrating thw quiz with webhooks allows you to automatically send all quiz data, including responses, recommended products, and participant information, to your specified endpoints. 
+
+This guide will walk you through the steps to link your quiz to custom webhooks, enabling seamless data integration for further processing or analysis.
 
 Before you start, ensure you have:
 
@@ -253,4 +255,8 @@ Below is a sample JSON payload sent on the POST request for a skincare quiz:
   "created_at": "2022-07-15T13:18:30Z"
 }
 ```
+
+
+---
+By following this article, you can set up your data flow with Webhooks.
 

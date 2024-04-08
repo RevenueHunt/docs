@@ -1,6 +1,8 @@
 # How to Send Leads to Zapier
 
-Automating the transfer of leads from your quizzes to your Customer Relationship Management (CRM) system or mailing list not only saves time but also allows for more targeted follow-up campaigns. This guide will walk you through connecting your quiz to Zapier, a platform that enables integration with thousands of apps, including popular CRMs. By the end of this process, you'll be equipped to automatically segment your leads based on their quiz responses.
+Automating the transfer of leads from your quizzes to your Customer Relationship Management (CRM) system or mailing list not only saves time but also allows for more targeted follow-up campaigns. 
+
+This guide will walk you through connecting your quiz to Zapier, a platform that enables integration with thousands of apps, including popular CRMs.
 
 Before beginning, ensure you have:
 
@@ -13,8 +15,10 @@ Before beginning, ensure you have:
 How to connect the quiz to your CRM via Zapier
 It’s quite simple to set up:
 
-1. Head to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab
-2. Copy your `Zapier API Key`, you'll need this for the connection process.
+1. Head to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab.
+2. Scroll-down to find Zapier and copy your `Zapier API Key`. You'll need this for the connection process.
+    ![how to send leads to zapier api key](/images/how to send leads to zapier api key.png)
+
 3. Within the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab of your quiz, click on the Zapier `Connect` button. 
 4. On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.
 5. Once redirected to Zapier, click on `Make a Zap`.
@@ -40,3 +44,6 @@ After configuring the triggers, you can test the connection in Zapier's `Test tr
 You can also build an email flow directly in Zapier to send customized follow-up emails right after the customer completes the quiz.
 
 Check [this Zapier article](https://zapier.com/help/create/email-and-text-messages/send-emails-in-zaps) for more information.
+
+---
+By following this article, you can set up your post-quiz email flow with Zapier or other CRMs.

@@ -63,3 +63,6 @@ By default, all the contacts added to the list via the quiz will be marked as su
 Now, all the quiz takers with a specific `prq_ tag` will be sent the marketing email.
 
 To learn more about Shopify Automations, check their [FAQ page](https://help.shopify.com/it//manual/promoting-marketing/create-marketing/create-marketing-automations).
+
+---
+By following this article, you can set up your post-quiz email flow with Shopify Flows.
