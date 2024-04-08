@@ -50,4 +50,4 @@ To override Mailchimp's limitation on pushing detailed quiz data, you can use `c
 2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
 
 ---
-By folliwng this article, you can set up your post-quiz email flow with MailChimp.
+By folloiwng this article, you can set up your post-quiz email flow with MailChimp.
