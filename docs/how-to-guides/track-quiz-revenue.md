@@ -36,5 +36,11 @@ For a more detailed analysis you can track quiz revenue alongside other metrics 
 
 [:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/integrate-google-analytics/)
 
+## Show Quiz Answers in the Shopify Orders
+
+It’s possible to know exactly which orders in your Shopify Orders tab come from the quiz.
+
+[:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/show-quiz-answers-in-orders/)
+
 ---
 By following these steps, you can effectively monitor the revenue attributed to your quizzes, helping you to measure their success and optimize future campaigns.
