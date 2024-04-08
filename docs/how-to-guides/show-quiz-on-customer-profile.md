@@ -8,7 +8,9 @@ Integrating quiz results into a customer's profile on your Shopify store can per
 
 This guide will walk you through the steps to show the quiz on a customer profile in Shopify.
 
-*Note: This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).*
+!!! warning
+
+    This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).
 
 ## Step 1: Connect Your Quiz to Shopify's Customer List
 
@@ -45,5 +47,8 @@ Then, [generate an embed code](https://docs.revenuehunt.com/how-to-guides/publis
 Here’s how it can look on your customer’s profile:
 
 ![how to show quiz on customer profile rendered](/images/how to show quiz on customer profile rendered.png)
+
+---
+This guide provides instructions for developers on showning the quiz on a customer profile in Shopify.
 
 
