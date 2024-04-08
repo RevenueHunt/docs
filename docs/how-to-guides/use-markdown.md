@@ -9,9 +9,9 @@ Markdown is an incredibly versatile language that allows you to format text on t
 
 This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Shop Quiz, to help you incorporate various styling elements into your content efficiently.
 
-## Introduction to Markdown
+??? question "What is Markdown Language?"
 
-Markdown allows you to format words as bold or italic, add images, create lists, and much more, using just regular text with a few non-alphabetic characters, such as `#` or `*`. It's designed to be as straightforward as possible, making it accessible for anyone to learn and use.
+    Markdown allows you to format words as bold or italic, add images, create lists, and much more, using just regular text with a few non-alphabetic characters, such as `#` or `*`. It's designed to be as straightforward as possible, making it accessible for anyone to learn and use.
 
 ## Markdown in Shop Quiz
 

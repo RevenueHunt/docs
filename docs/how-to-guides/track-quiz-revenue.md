@@ -4,11 +4,13 @@ icon: material/cash-multiple
 
 # How to Track Quiz Revenue
 
-Understanding the revenue generated from quizzes on your Shopify store can provide valuable insights into customer engagement and the effectiveness of your marketing strategies. The [**Shopify Revenue Report**](#activate-shopify-revenue-report) feature within the Shop Quiz app allows you to track orders tagged by your quiz, offering a clear view of its impact on sales. 
+Understanding the revenue generated from quizzes on your Shopify store can provide valuable insights into customer engagement and the effectiveness of your marketing strategies. 
+
+The [**Shopify Revenue Report**](#activate-shopify-revenue-report) feature within the Shop Quiz app allows you to track orders tagged by your quiz, offering a clear view of its impact on sales. 
 
 This how-to article guides you through the process of setting up your Shopify Revenue Report and accessing vital orders data from the quiz.
 
-Alternativelty, you can track quiz revenue with [Google Analytics](https://docs.revenuehunt.com/how-to-guides/integrate-google-analytics/).
+Alternatively, you can track quiz revenue with [Google Analytics](https://docs.revenuehunt.com/how-to-guides/integrate-google-analytics/).
 
 ## Activate Shopify Revenue Report
 

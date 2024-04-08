@@ -6,11 +6,11 @@ icon: material/printer-pos-wrench
 
 Navigating through the product recommendations can be challenging, especially when dealing with numerous products and collections linked to quiz choices. 
 
-This guide will walk you through the process of troubleshootuing product recommendations. It can help you understand why a certain product was recommended or missing from the Results Page.
+This guide will walk you through the process of troubleshooting product recommendations. It can help you understand why a certain product was recommended or missing from the Results Page.
 
-**Understanding the Basics**
+!!! warning "Understanding the basics"
 
-When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [voting system](https://docs.revenuehunt.com/how-to-guides/how-to-recommend-products/#voting-system) that influences product visibility.
+    When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [voting system](https://docs.revenuehunt.com/how-to-guides/how-to-recommend-products/#voting-system) that influences product visibility.
 
 ## Step-by-Step Process to Check Recommendations
 
@@ -44,8 +44,10 @@ Before you begin, open the [Responses section](https://docs.revenuehunt.com/refe
     - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
 
 8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
-    - **Pro Tip**:  A common issue is a product being misclassified into an incorrect collection or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
 
+!!! tip
+
+    A common issue is a product being misclassified into an incorrect collection or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
 
 
 Additionally, you may:

@@ -4,7 +4,9 @@ For stores with extensive product catalogs, especially those exceeding 5,000 ite
 
 The `collections first` feature allows you to prioritize which collections you want to sync with Shop Quiz, enhancing the quiz's performance and avoiding potential technical issues. 
 
-To activate this feature in your account, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+!!! info
+
+    To activate this feature in your account, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
 
 This guide outlines the steps to select specific collections for synchronization with the Shop Quiz app.
 
@@ -17,4 +19,7 @@ This guide outlines the steps to select specific collections for synchronization
 4. **Monitor Your Product Limit**: Keep an eye on the product limit associated with your current plan. Once this limit is reached, you will not be able to activate additional collections for synchronization.
 5. **Sync Your Selections**: Once you’re done selecting collections, click `run manual sync` to sync them with your store.
 6. **Automatic Updates**: Shop Quiz automatically updates the products from the synced collections once a day, ensuring your quiz always features up-to-date information and product availability.
+
+---
+This article explains how to use the `collection-first` feature in Shop Quiz.
 
