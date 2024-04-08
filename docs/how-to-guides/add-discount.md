@@ -79,6 +79,37 @@ To further personalize the customer experience, you can incorporate the discount
 
 Simply go to your quiz settings, find the [Notifications > TO RESPONDENT](https://docs.revenuehunt.com/reference/quiz-builder/#to-respondent) tab, and edit the message to include your discount code text.
 
+## Apply Discount Only if Customer Leaves Their Email
+
+In Shop Quiz, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
+
+1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
+    ![how to add discount multiple result pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png)
+2. You can then rename the page and edit it by clicking `edit`.
+    ![how to add discount result pages](/images/how to add discount result pages.png)
+3. **Add discount code**: In this case, *Results Page 1* will be left as default with no discount and the discount will be applied to *Results Page 2*. To do that, open the `Results Page 2 Settings -> Discount code settings -> Discount code` and click `add`. You can then edit the `Visible % discount` and add the code.
+
+    !!! warning
+
+        For the discount to work, you need to set it up first in your Shopify store. Check the [first part of this article](#how-to-add-a-discounts-to-your-quiz) for instructions.
+
+4. **Add a discount question and an email question**: Next, navigate to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `discount question` and an `email question` by clicking `+`.
+5. **Add Jump Logic**: Now you can redirect customers to either the *Results Page 1 (no discount)* or the *Results Page 2 (discount)* depending on their answer to the discount question. To do that you’ll need to add two Jump Logic statements.
+
+    !!! tip
+
+        To learn more about Jump Logic, check [this article]().
+
+6. **FIRST JUMP LOGIC – DISCOUNT QUESTION**: To add Jump Logic to the discount question, click the `conditional logic` button. In the `Jump Logic` menu, select `Add Jump Logic`. Add the following logic condition:
+    ![how to add discount jump logic 1](/images/how to add discount jump logic 1.png)
+
+    - If the customer answers ‘Yes’ to the discount question, they will automatically go to the next question (the email question).
+    - If the customer answers ‘No’ to the discount question, they will be automatically redirected to the *Results Page 1 (no discount)*.
+
+7. **SECOND JUMP LOGIC – EMAIL QUESTION**: Next, you’ll have to add Jump Logic to the email question. In this case, it is enough to always send the customer to the *Results Page 2 (discount)* with the `Always Jump to...` function.
+    ![how to add discount jump logic 2](/images/how to add discount jump logic 2.png)
+8. **Test the quiz**: Once the discounts are set up, update the preview/live quiz with the `Publish` button. Then, test the quiz by clicking the `Preview` button in the top right corner of the app.
+
 ---
 By following these steps, you can effectively integrate discounts into your quiz, enhancing customer engagement and potentially increasing conversions.
 
