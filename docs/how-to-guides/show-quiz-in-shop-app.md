@@ -2,7 +2,6 @@
 icon: material/store
 ---
 
-
 # How to Show Quiz in Shop App
 
 Shopify's new mobile commerce app, [Shop](https://shop.app/), represents a significant leap forward in enhancing the online shopping experience, offering both Android and iOS users a personalized and streamlined path to discovering and purchasing products from Shopify-powered stores. 
@@ -15,7 +14,7 @@ Initially, the integration of the Shop Quiz will be available to a select group 
 
 For merchants who meet specific criteria, the Shop Quiz feature will be enabled automatically, making the integration process hassle-free:
 
-**Eligibility Criteria for Automatic Activation:**
+!!! info "Eligibility Criteria for Automatic Activation"
 
   - Your quiz recommends products listed for sale in the Shop app.
   - The quiz does not require an email address as a mandatory field. Optional email collection is permitted.
@@ -33,9 +32,13 @@ If the Shop Quiz feature has not been activated for your store automatically, yo
 4. **Change default quiz**: To set a quiz as the default, use the quizzes dropdown menu on the dashboard.
   ![how to show quiz in shop app mark as default](/images/how to show quiz in shop app mark as default.webp)
 
-## Current Feature Limitations
 
-We strive to offer a seamless and comprehensive user experience with the Shop Quiz integration. However, it's important to note that currently, the **collection of phone numbers via the Shop app quiz is not supported**. We are actively working to include this feature in the near future.
+!!! warning
+
+  We strive to offer a seamless and comprehensive user experience with the Shop Quiz integration. However, it's important to note that currently, the **collection of phone numbers via the Shop app quiz is not supported**. We are actively working to include this feature in the near future.
+
+---
+By following this article, you'll learn how to show your quiz in the Shop App.
 
 
 
