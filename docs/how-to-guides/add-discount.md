@@ -93,7 +93,12 @@ In Shop Quiz, it is possible to apply a discount at checkout only for the custom
 
         For the discount to work, you need to set it up first in your Shopify store. Check the [first part of this article](#how-to-add-a-discounts-to-your-quiz) for instructions.
 
-4. **Add a discount question and an email question**: Next, navigate to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `discount question` and an `email question` by clicking `+`.
+4. **Add a discount question**: Next, navigate to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `discount question` by clicking `+`. 
+    ![how to add discount discount question](/images/how to add discount discount question.png)
+
+5. **Add an email question**: Then, add an `email question` by clicking `+`.
+    ![how to add discount email question](/images/how to add discount email question.png)
+    
 5. **Add Jump Logic**: Now you can redirect customers to either the *Results Page 1 (no discount)* or the *Results Page 2 (discount)* depending on their answer to the discount question. To do that you’ll need to add two Jump Logic statements.
 
     !!! tip
