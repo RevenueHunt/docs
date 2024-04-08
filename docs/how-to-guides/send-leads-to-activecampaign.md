@@ -17,23 +17,31 @@ Before you begin, ensure you have:
 
 To integrate your quiz with ActiveCampaign:
 
-1. Navigate to your quiz platform and select the quiz you wish to connect.
-2. Click on the [Connect]() tab located at the top of the screen to access the integration settings.
-3. In the integration options, locate and click the `Connect` button within the ActiveCampaign section.
-4. Once clicked, you'll be redirected to a configuration page in your ActiveCampaign account. Click on `Add an account` and enter your `API Token` when prompted.
+1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
+2. Click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab located at the top of the screen to access the integration settings.
+3. In the integration options, locate ActiveCampaign and copy the `API Token`. You'll need it later.
+    ![how to send leads to activecampaign](/images/how to send leads to activecampaign.png)
+4. Click the `Connect` button within the ActiveCampaign section.
+4. Once clicked, you'll be redirected to a configuration page in your ActiveCampaign account. Click on `Add an account`.
+    ![how to send leads to activecampaign step1](/images/how to send leads to activecampaign step1.png)
+
+5. Enter your `API Token` when prompted.
+    ![how to send leads to activecampaign step2](/images/how to send leads to activecampaign step2.png)
+
 5. Select the specific quiz you wish to integrate and proceed by clicking `Continue`.
+    ![how to send leads to activecampaign step3](/images/how to send leads to activecampaign step3.png)
+
 6. Map your quiz responses to the corresponding fields in ActiveCampaign to ensure data is correctly synchronized. This may involve adding new field mappings if necessary.
     ![how to activecampaign connect](/images/how to activecampaign connect.png)
 
 Once configured, your quiz will be connected, and you can modify settings or update the integration directly from this interface.
 
+![how to send leads to activecampaign step final](/images/how to send leads to activecampaign step final.png)
+
 Alternatively, you can initiate the connection from within ActiveCampaign:
 
 1. Go to the Apps menu in ActiveCampaign and search for `Product Recommendation Quiz`.
-2. Select the quiz icon and follow the provided setup instructions. During the setup process, you will be prompted to enter your ActiveCampaign API Token. This token is essential for linking the quiz data with your ActiveCampaign account.
-
-
-If you have any questions about the process, don’t hesitate to reach out to our support team. 
+2. Select the quiz icon and follow the provided setup instructions. During the setup process, you will be prompted to enter your `ActiveCampaign API Token`. This token is essential for linking the quiz data with your ActiveCampaign account and can be found in the [`Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) > ActiveCampaign section of the app.
 
 !!! note
 
@@ -59,7 +67,11 @@ Here’s a list of additional custom information that can be added to your conta
 To add these fields to a new profile:
 
 1. Navigate to `Lists -> Manage fields` within ActiveCampaign and click `Add Field` to create new fields for the extra quiz data.
+    ![how to send leads to activecampaign new field1](/images/how to send leads to activecampaign new field1.png)
 2. Name each field appropriately. These fields will be categorized under `General Details`.
+    ![how to send leads to activecampaign new field2](/images/how to send leads to activecampaign new field2.png)
+3. These fields will be categorized under `General Details`.
+    ![how to send leads to activecampaign new field3](/images/how to send leads to activecampaign new field3.png)
 3. Return to the Product Recommendation Quiz app in ActiveCampaign to map these new fields, ensuring future contacts from the quiz are enriched with this custom information.
     ![how to activecampaign mapping](/images/how to activecampaign mapping.png)
 
@@ -86,7 +98,7 @@ Unfortunately, for now, the only information about the recommended products we�
 To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Shopify first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
 
 ---
-By folliwng this article, you can set up your post-quiz email flow with ActiveCampaign.
+By following this article, you can set up your post-quiz email flow with ActiveCampaign.
 
 
 
