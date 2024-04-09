@@ -54,6 +54,12 @@ Use the `exclude` field of the [Link Products](https://docs.revenuehunt.com/refe
     Once a product is excluded in a choice it will **never show** as a recommendation, even if it's upvoted in another choice earlier/later in the quiz.
 
 
+!!! example
+
+    If you want the recommended products to be filtered out by question, you can do that using the `exclude` feature. For example, if you want to show only recommendations within a certain price range, you can use the exclude collections feature as in the example below.
+    ![how to recommend products exclusion example](/images/how to recommend products exclusion example.png)
+    This way if a customer chooses that he doesn’t want to spend more than 100$, all the products over that price will be excluded from the recommendations.
+
 ## Recommending the Right Products
 
 Follow these steps to set up product recommendations in your Shop Quiz:
@@ -87,7 +93,7 @@ Follow these steps to set up product recommendations in your Shop Quiz:
         Check [How to Troubleshoot Quiz Results](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
         
 6. **Refine the Results**: If you want to make the results ultra-precise, you can also:
-    - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/).
     - **Use Exclusions**: You can use [Exclusions](#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
 By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
@@ -107,6 +113,12 @@ With Shop Quiz, it is possible to group products into slots and recommend a prod
 [This guide](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/) is designed to help merchants effectively use [Product Slot Blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-types) on the results page to organize product recommendations.
 
 [:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/)
+
+### [How to Only Recommend Products with X Votes or More](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/)
+
+It is possible to limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners.
+
+[:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/)
 
 
 ### Recommend products that match multiple criteria (matrix)

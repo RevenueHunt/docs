@@ -32,7 +32,7 @@ Make sure that you're familiar with [how the recommendations work](https://docs.
 
     If you want to make the results ultra-precise, you can also:
 
-    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/).
     - Use [Exclusions](https://docs.revenuehunt.com/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
 
