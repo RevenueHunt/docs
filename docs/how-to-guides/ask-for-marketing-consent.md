@@ -38,8 +38,7 @@ Create a marketing consent checkbox by combining quiz slides can ensure users ac
 2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
 3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
 4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
-
-![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
+    ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
 
 ### Option 3: GDPR Question
 

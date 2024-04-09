@@ -7,7 +7,9 @@ icon: material/translate-variant
 ## Change Quiz Language in Settings
 
 1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) or [`Quiz Settings -> Messages`](https://docs.revenuehunt.com/reference/quiz-builder/#messages).
-    ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png)
+
+    ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
+    
 2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
 3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](https://docs.revenuehunt.com/reference/quiz-builder/#messages) tab.
 4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
@@ -76,7 +78,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 ```
 
-*Note: make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.*
+!!! warning
+
+    Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
 
 ### Step 3: Redirect to Translated Product URL
 
@@ -84,10 +88,10 @@ Our application syncs only the base products from your store. Products translate
 
 A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](http://127.0.0.1:8000/how-to-guides/add-javascript/).
 
-- Instead of adding a product to cart, you can change the [checkout settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-- By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
-- For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
-- To redirect to an English translation of a product, one can use:
+1. Instead of adding a product to cart, you can change the [checkout settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
+2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
+3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
+4. To redirect to an English translation of a product, one can use:
         ```javascript
         let shopURL = "https://www.example.com";
 
@@ -99,7 +103,7 @@ A workaround for this could be creating quizzes in different languages and redir
         }
         ```
 
-- Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
+5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
 
 ---
 While awaiting native multi-language plugin support, these steps allow for a versatile approach to presenting and managing quizzes in multiple languages, ensuring a tailored experience for your international audience.

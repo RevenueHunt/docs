@@ -5,7 +5,7 @@ icon: material/pencil
 
 # How to Create and Publish Your First Shop Quiz
 
-Follow these steps to create your first quiz with the Shop Quiz app.
+Follow these steps to create your first quiz with the Shop Quiz app. You can also follow our [introduction video tutorial](https://docs.revenuehunt.com/tutorials/getting-started/).
 
 <div class="videoWrapper">
 <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=ftq73J4rFKtW_yGr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -45,7 +45,7 @@ Once you have your questions, you'll have to link products to choices to show re
 
     If you want to make the results ultra-precise, you can also:
 
-    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/).
     - Use [Exclusions](https://docs.revenuehunt.com/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
 Read more about how the recommendations work [here](https://docs.revenuehunt.com/how-to-guides/recommend-products/).
