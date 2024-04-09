@@ -26,7 +26,7 @@ The top Success Checklist reminds you of the progress you've made in building yo
 
 **Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
 
-![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png)
+![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
 **Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 
@@ -56,7 +56,7 @@ Quiz Builder is composed of two sections: the slides (left) and the preview (rig
 
 **+** / **Add new question** - Opens a menu of quiz questions to add.
 
-![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png)
+![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
 **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
 
@@ -142,12 +142,10 @@ Quiz Builder is composed of two sections: the slides (left) and the preview (rig
 
 **more options** / **...** - Opens more options menu.
 
-![quiz builder question settings more options](/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png)
+![quiz builder question settings more options](/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png){width="300"}
 
 - **+ add question below** - Adds a new blank question of the same type below.
-
 - **Duplicate** - Duplicate this slide. Creates a copy slide below.
-
 - **Delete** - Delete this slide. 
 
 ## Link Collections
@@ -242,7 +240,7 @@ By default, the quiz will progress from one question to another based on the que
 
 Drag the logic tree with your mouse left button to navigate to specific branches.
 
-![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png)
+![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
 
 The top menu allows you to switch between questions.
 
@@ -256,33 +254,39 @@ Jump Logic allows you to route customers to different questions based on their r
 
 **Add Jump Logic** - Click to add a new Jump Logic rule for the selected question.
 
-![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png)
+!!! info
 
-All the Jump Logic rules follow the same format
+    All the Jump Logic rules follow the same format
 
-**IF response to** pick the question from a dropdown list
+    - **IF response to** pick the question from a dropdown list
+    - **is**/ **is not** pick a choice from the dropdown list
+    - **THEN go to:** pick a slide from the dropdown list or add a URL 
 
-**is**/ **is not** pick a choice from the dropdown list
+!!! example
 
-**THEN go to:** pick a slide from the dropdown list or add a URL 
+    ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
 
-![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png)
+    ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
 
-*In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".*
+    In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
 
 **+** - Add another Jump Logic rule. Adds a new OR logical rule.
 
-![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
+!!! example
 
-*In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".*
+    ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
+
+    In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
 
 **bin** - Delete the current Jump Logic rule.
 
 **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
-![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png)
+!!! example
 
-*In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".*
+    ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
+
+    In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
 
 **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
 
@@ -292,19 +296,21 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 **Add Skip Logic** - Click to add a new Skip Logic rule for the selected question.
 
-![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
+!!! info
 
-All the Skip Logic rules follow the same format
+    All the Skip Logic rules follow the same format
 
-**IF response to** pick the question from a dropdown list
+    - **IF response to** pick the question from a dropdown list
+    - **is**/ **is not** pick a choice from the dropdown list
+    - **THEN this question is skipped**
 
-**is**/ **is not** pick a choice from the dropdown list
+!!! example
 
-**THEN this question is skipped**
+    ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
 
-*In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).*
+    In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
 
-All slides that contain Skip Logic will be marked with "skip logic" text.
+All slides that contain Skip Logic will be marked with `"skip logic"` text.
 
 **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
 
@@ -318,7 +324,7 @@ All slides that contain Skip Logic will be marked with "skip logic" text.
 
 In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
 
-![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png)
+![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
 
 The top menu allows you to switch between questions to preview them.
 
@@ -326,7 +332,7 @@ The top menu allows you to switch between questions to preview them.
 
 **arrow down** - Take you to the question lower.
 
-![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png)
+![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png){width="300"}
 
 **Questions** - Shows the preview of how the questions look like.
 
@@ -336,7 +342,7 @@ The top menu allows you to switch between questions to preview them.
 
 In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
 
-![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png)
+![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
 
 ***Wine*** - Displays the name of your current theme.
 
@@ -360,13 +366,13 @@ In the EDIT THEME section you can change the styling of your current quiz theme.
 
 In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
 
-![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png)
+![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
 
 **+ add new theme** - Adds a new blank theme to your MY THEMES gallery.
 
 **...** - Opens the theme options.
 
-![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png)
+![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png){width="500"}
 
 - **Edit** - Opens the selected theme in EDIT THEME.
 
@@ -410,19 +416,20 @@ With Block Logic you can make blocks visible or hidden based on customer's respo
 
 **Add Block Logic** - Adds a new block logic rule.
 
-![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+!!! info
 
-All the Block Logic rules follow the same format
+    All the Block Logic rules follow the same format
 
-**IF response to** pick the question from a dropdown list
+    - **IF response to** pick the question from a dropdown list
+    - **is**/ **is not** pick a choice from the dropdown list
+    - **THEN block is** pick either **Visible** or **Hidden**
+    - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
 
-**is**/ **is not** pick a choice from the dropdown list
+!!! example
 
-**THEN block is** pick either **Visible** or **Hidden**
+    ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
 
-**IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
-
-*In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.*
+    In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
 - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
 
@@ -484,7 +491,7 @@ All the Block Logic rules follow the same format
 
 **Checkout Settings**
 
-![quiz builder resutls page resutls page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png)
+![quiz builder resutls page resutls page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
 
 - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page.
 
@@ -496,7 +503,7 @@ All the Block Logic rules follow the same format
 
 **Individual Product Settings**
 
-![quiz builder resutls page resutls page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png)
+![quiz builder resutls page resutls page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
 
 - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
 
@@ -520,7 +527,7 @@ All the Block Logic rules follow the same format
 
 **Style Settings**
 
-![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png)
+![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
 **Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
@@ -529,7 +536,7 @@ All the Block Logic rules follow the same format
 
 ### Advanced Settings
 
-![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png)
+![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
 
 **Recommendation Settings**
 
@@ -557,7 +564,7 @@ All the Block Logic rules follow the same format
 
 ### Multiple Results Pages Settings
 
-![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png)
+![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
 **Results Page 1** 
 
@@ -579,7 +586,7 @@ All the Block Logic rules follow the same format
 
 **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
-![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png)
+![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
 - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
@@ -587,7 +594,7 @@ All the Block Logic rules follow the same format
 
 **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
-![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png)
+![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
 **Dynamic Discounts Settings**
 
@@ -668,7 +675,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 ### General
 
-![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png)
+![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png){width="500"}
 
 **Quiz name**  - Click on the field to edit the quiz name.
 
@@ -692,13 +699,13 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 ### Messages
 
-![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png)
+![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
 
 **Language** - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
 
 **Buttons**
 
-![quiz builder quiz settings messages buttons](/images/manual_quizbuilder_quizsettings_messages_buttons.png)
+![quiz builder quiz settings messages buttons](/images/manual_quizbuilder_quizsettings_messages_buttons.png){width="500"}
 
 - **Next** - Default text on the buttons that move the user to the next slide. | Quiz
 
@@ -730,7 +737,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 **Placeholders**
 
-![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png)
+![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
 
 - **Your name** - Default placeholder text on the name question slides. | Quiz
 
@@ -746,7 +753,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 **Helpers**
 
-![quiz builder quiz settings messages helpers](/images/manual_quizbuilder_quizsettings_messages_helpers.png)
+![quiz builder quiz settings messages helpers](/images/manual_quizbuilder_quizsettings_messages_helpers.png){width="500"}
 
 - **and** - Default text used in Information Recalls when recalling answers from multiple-selection questions. | Quiz & Results Page
 
@@ -774,7 +781,7 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 **Discount Notifications**
 
-![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png)
+![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
 
 - **Qualifies for discount** - Default text when dynamic discounts are active in the quiz. | Results Page
 
@@ -786,11 +793,11 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 ### Version History
 
-![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png)
+![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
 
 In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
 
-![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png)
+![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
 
 **...** - Click to open the restore menu.
 

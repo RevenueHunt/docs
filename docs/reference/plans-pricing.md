@@ -1,5 +1,3 @@
-
-
 # Plans & Pricing
 
 ![plans & pricing page](/images/manual_plans_pricing.png)
@@ -8,8 +6,8 @@
 
 **view larger plans** - Opens a list of larger plans offered in the app.
 
-**Pricing FAQs** - Opens the [Plans & Pricing FAQ]() page.
+**Pricing FAQs** - Opens the [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq/) page.
 
-**check out this FAQs article** - Opens the [Plans & Pricing FAQ]() page.
+**check out this FAQs article** - Opens the [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq/) page.
 
 **Get Basic/Pro** - Click to upgrade your plan to Basic/Pro. After clicking you'll be taken to the Shopify payment page to approve the subscription.
