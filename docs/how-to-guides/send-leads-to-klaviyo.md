@@ -109,8 +109,8 @@ Shop Quiz allows you to add contacts from the quiz directly to a list in Klaviyo
 
 !!! tip
 
-        It is possible to add contacts to Klaviyo List but there may be a better way: instead of adding them to a general list you can create **dynamic segments** based on your customers’ responses to send them hyper-targeted campaigns. Highly segmented campaigns return more than 3X the revenue per recipient as unsegmented campaigns.
-        With Klaviyo you can create segments to filter your leads and assign email flows to each segment. [Read more](#sending-follow-up-emails-via-klaviyo) about how to create and use segments on Klaviyo.
+    It is possible to add contacts to Klaviyo List but there may be a better way: instead of adding them to a general list you can create **dynamic segments** based on your customers’ responses to send them hyper-targeted campaigns. Highly segmented campaigns return more than 3X the revenue per recipient as unsegmented campaigns.
+    With Klaviyo you can create segments to filter your leads and assign email flows to each segment. [Read more](#sending-follow-up-emails-via-klaviyo) about how to create and use segments on Klaviyo.
 
 
 ## Use Quiz Data In Klaviyo Email Templates
