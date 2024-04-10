@@ -31,6 +31,6 @@ For those looking to dive deeper into customization and integration:
 
 ## Need More Help?
 
-Browse through our collection for detailed instructions on every feature we offer. If you have specific questions or need further assistance, [our support team is here to help](https://revenuehunt.com/contact/)
+Browse through our collection for detailed instructions on every feature we offer. If you have specific questions or need further assistance, [our support team is here to help](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/)
 
 Welcome aboard, and happy quizzing!
