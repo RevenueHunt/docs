@@ -7,7 +7,7 @@ icon: material/numeric-0
 In this tutorial, you’ll see an overview of the most important features of the Shop Quiz app.
 
 <div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/2unJqe-viNU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
@@ -28,18 +28,7 @@ This is where you’ll create your quiz.
 1. Choose a question type by clicking on the `+` plus sign and edit it. 
 2. Once you’ve added your questions, you can drag and drop to move them around.
 3. To change [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), click on the :material-wrench: little wrench icon. Here you can change things like making the question optional, or allowing multiple answers.
-4. Then you can make your recommendations smarter by adding [logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic). Link questions to different result pages or send people down different question paths depending on how they respond. 
 
-## [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design)
-
-This is where you can customize your quiz design.
-
-1. In the [theme gallery](https://docs.revenuehunt.com/reference/quiz-builder/#my-themes), you’ll see some premade themes that you can choose from.
-2. Or create your own design by clicking [Edit](https://docs.revenuehunt.com/reference/quiz-builder/#edit-theme) in the top menu.
-3. Edit the font, change the text colors, or add a background image. 
-4. You can even add custom CSS code to make the quiz match your store’s look and feel.
-
-All the changes you make will be saved automatically.
 
 ## [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products)
 
@@ -56,11 +45,28 @@ Make sure to also edit the [Results Page](https://docs.revenuehunt.com/reference
 
 Here you can write insightful information for the customer,  select how many products will be recommended, or even group your products into slots to recommend a whole package. 
 
-## [Share](https://docs.revenuehunt.com/reference/quiz-builder/#share) 
+## [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design)
+
+This is where you can customize your quiz design.
+
+1. In the [theme gallery](https://docs.revenuehunt.com/reference/quiz-builder/#my-themes), you’ll see some premade themes that you can choose from.
+2. Or create your own design by clicking [Edit](https://docs.revenuehunt.com/reference/quiz-builder/#edit-theme) in the top menu.
+3. Edit the font, change the text colors, or add a background image. 
+4. You can even add custom CSS code to make the quiz match your store’s look and feel.
+
+All the changes you make will be saved automatically.
+
+## Publish & Preview
+
+- Hit the `Publish` button in the top right-hand corner to update the preview/live quiz.
+- Click `Preview` to test the quiz.
+
+## [Share](https://docs.revenuehunt.com/reference/quiz-builder/#share)
 
 Now you can publish the quiz on your website.
 
-- Hit the `Share` button in the top right-hand corner to see all of the publishing options.
+In the [Share](https://docs.revenuehunt.com/reference/quiz-builder/#share) tab of the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/), you can choose how to publish the quiz on your website or how to share it with your customers. 
+- Click on the option tiles to see instructions and extra settings.
 - You can embed a link to the quiz in your website’s menu, add a `take the quiz` button, place the quiz inline with your page content or make it an automatic popup for your store visitors.
 
 The choice is yours. 

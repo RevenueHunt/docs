@@ -1,8 +1,8 @@
 # Welcome to Our How-to Guides!
 
-Whether you’re here to craft your very first quiz or looking to fine-tune the experience with advanced customization, you’ve arrived at the right place. Our collection of how-to guides is meticulously designed to assist you at every step of your journey, from initial setup to detailed customization and optimization.
+Whether you’re here to craft your very first quiz or looking to fine-tune the experience with advanced customization, you’ve arrived at the right place. Our collection of how-to guides is designed to assist you at every step of your journey, from initial setup to detailed customization and optimization.
 
-Our platform offers a rich array of features to engage your audience, gather insights, and provide tailored recommendations through quizzes. To help you make the most of these capabilities, we've prepared detailed guides covering a wide range of topics.
+Shop Quiz offers a rich array of features to engage your audience, gather insights, and provide tailored recommendations through quizzes. To help you make the most of these capabilities, we've prepared detailed guides covering a wide range of topics.
 
 ## Getting Started
 
@@ -19,6 +19,7 @@ Once you're comfortable with the basics, enhance your quizzes and user experienc
 
 - [:material-email-heart-outline: Send Result Emails](http://127.0.0.1:8000/how-to-guides/send-result-emails/): Engage your participants by sending personalized emails with their quiz results.
 - [:material-cash-multiple: Track Quiz Revenue](http://127.0.0.1:8000/how-to-guides/track-quiz-revenue/): Gain insights into how your quizzes contribute to your bottom line by tracking revenue generated directly from quiz interactions.
+- [:material-account-filter: Send Leads to Your CRM](https://docs.revenuehunt.com/how-to-guides/send-leads-to-crm/): Connect your quiz to one of our many integrations and send all the quiz data there for segmented retargeting.
 
 
 ## Advanced Customization
