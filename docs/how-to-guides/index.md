@@ -17,7 +17,7 @@ For those new to our platform or looking to create a quiz for the first time, we
 
 Once you're comfortable with the basics, enhance your quizzes and user experience with these advanced features:
 
-- [:material-email-heart-outline: Send Result Emails](http://127.0.0.1:8000/how-to-guides/send-result-emails/): Engage your participants by sending personalized emails with their quiz results.
+- [:material-email-heart-outline: Send Result Emails](https://docs.revenuehunt.com/how-to-guides/send-result-emails/): Engage your participants by sending personalized emails with their quiz results.
 - [:material-cash-multiple: Track Quiz Revenue](http://127.0.0.1:8000/how-to-guides/track-quiz-revenue/): Gain insights into how your quizzes contribute to your bottom line by tracking revenue generated directly from quiz interactions.
 - [:material-account-filter: Send Leads to Your CRM](https://docs.revenuehunt.com/how-to-guides/send-leads-to-crm/): Connect your quiz to one of our many integrations and send all the quiz data there for segmented retargeting.
 
