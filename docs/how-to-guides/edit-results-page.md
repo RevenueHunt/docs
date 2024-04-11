@@ -24,6 +24,8 @@ A **Dynamic Results Page** not only changes the product recommendations but also
 
 You'll want to start by adding content to your results page. Below is a list of availbale elements you can use to build your page.
 
+![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
+
 Available [Block Types](https://docs.revenuehunt.com/reference/quiz-builder/#block-types):
 
 1. **Heading Block**: Use for adding titles or headings.
