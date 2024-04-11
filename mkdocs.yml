@@ -143,9 +143,7 @@ extra:
             Thanks for your feedback! Help us improve this page by
             using our <a href="https://docs.revenuehunt.com/how-to-guides/contact-customer-support/" target="_blank" rel="noopener">feedback form</a>.
 
-extra:
-  version:
-    provider: mike
+
 
 extra_css:
   - docs.css
