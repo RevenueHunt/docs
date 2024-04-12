@@ -22,7 +22,7 @@ This article will guide you through troubleshooting and syncing your product cat
 
 - If you've **just installed the app**, remember that syncing your store's entire product catalog for the first time can take a bit. Depending on your catalog size, expect to wait anywhere from **30 minutes to several hours** for the sync to complete.
 - Only products marked as **active** will be synced with the app and appear in dropdown choices. **Draft or Archived products are excluded** from the sync and will not be visible.
-- You can manually sync your store **every 6 hours**. Additionally, our app automatically performs a sync every 24 hours to keep your catalog current.
+- You can manually sync your store **every 1 hour**. Additionally, our app automatically performs a sync every 24 hours to keep your catalog current.
 - For optimal results, make any necessary updates or changes to your store before triggering a manual sync. This ensures your latest product information is accurately reflected in the app.
 
 ## Troubleshooting Sync Issues
