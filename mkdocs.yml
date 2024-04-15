@@ -118,11 +118,6 @@ extra:
     provider: google
     property: G-73NK94WSW1
 
-extra:
-  analytics:
-    provider: custom
-    property: foobar
-
 extra_javascript:
   - javascripts/feedback.js
 
