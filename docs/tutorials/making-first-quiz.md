@@ -19,7 +19,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
 - How to publish the quiz
 
 <div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/gXht4-d-k-k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/nVR8slJPSpY?si=6l2Vvz7i73IpJqzB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Intro
@@ -98,4 +98,4 @@ Speaking of results. Make sure to also edit the Results Page.
 Voila!  You’ve just created your first Shop Quiz. 
 
 
-Check out our [documentation](http://127.0.0.1:8000/) for more resources on getting started with recommendation quizzes.
+Check out our [documentation](https://docs.revenuehunt.com/) for more resources on getting started with recommendation quizzes.
