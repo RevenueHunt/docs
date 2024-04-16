@@ -34,6 +34,8 @@ theme:
         name: Switch to light mode
       primary: #B7CBFF
       accent: #CBDAFF
+  analytics:
+    gtag: G-73NK94WSW1
 nav:
   - Docs:
     - Docs: index.md
