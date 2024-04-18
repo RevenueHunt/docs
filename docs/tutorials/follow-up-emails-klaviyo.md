@@ -19,7 +19,7 @@ In this tutorial, you’ll learn how to add Shop Quiz leads to [Klaviyo](https:/
 - how to use our built-in Klaviyo email templates
 
 <div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/2NK7PTfNpJg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=A3Q1Ly_hZqWCIXrx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Intro

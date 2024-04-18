@@ -5,7 +5,7 @@ Apart from giving your customers personalized product recommendations, you can c
 This article walks you through the process of connecting your quiz to Klavviyo and setting up post-quiz email flow. You can also follow our step-by-step [tutorial](https://docs.revenuehunt.com/tutorials/follow-up-emails-klaviyo/).
 
 <div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/2NK7PTfNpJg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=A3Q1Ly_hZqWCIXrx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Link Your Quiz to Klaviyo
