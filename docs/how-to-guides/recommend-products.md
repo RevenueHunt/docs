@@ -102,7 +102,7 @@ By linking product variants and collections to quiz choices, and understanding t
 
 Check the quiz to learn how to build the quiz outcome you want or consult the *How-to* guides listed below.
 
-<script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/GrHXAz" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
+<script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/X2Hy6G" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
 
 ### Recommend a Skincare Routine with Slots
 
