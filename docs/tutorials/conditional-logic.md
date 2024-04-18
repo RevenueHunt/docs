@@ -24,7 +24,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
 - how to use markdown language
 
 <div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/xtMj6vYux9c?si=BiZzrohxwi78qzNE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Intro 
