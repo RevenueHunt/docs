@@ -19,7 +19,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
 - how to publish the quiz
 
 <div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/Lv6zWvOruqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Intro 
