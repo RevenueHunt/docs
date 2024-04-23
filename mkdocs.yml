@@ -35,7 +35,7 @@ theme:
       primary: #B7CBFF
       accent: #CBDAFF
   analytics:
-    gtag: G-73NK94WSW1
+    gtag: G-31VSB4L8T3
 nav:
   - Docs:
     - Docs: index.md
@@ -118,7 +118,7 @@ nav:
 extra:
   analytics:
     provider: google
-    property: G-73NK94WSW1
+    property: G-31VSB4L8T3
 
 extra_javascript:
   - javascripts/feedback.js
