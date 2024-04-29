@@ -12,8 +12,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
-
-      // Replace 'G-31VSB4L8T3' with your actual GA Measurement ID
       gtag('config', 'G-31VSB4L8T3');
   };
 })();
