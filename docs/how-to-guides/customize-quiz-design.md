@@ -135,7 +135,7 @@ The Results Page also has its own customization options.
 
 !!! tip
 
-    Check [this article](http://127.0.0.1:8000/how-to-guides/edit-results-page/) to learn more about styling your results page.
+    Check [this article](https://docs.revenuehunt.com/how-to-guides/edit-results-page/) to learn more about styling your results page.
 
 In addition to the basic elements, you can set a unique background image for each result page through the [results page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). You can also use these settings to apply [custom JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) to your quiz design.
 

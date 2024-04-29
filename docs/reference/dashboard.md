@@ -38,6 +38,8 @@ On the dashboard, you'll find all the quizzes that you create.
     - **💲 Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
     - **✉️ Contact Support** - Opens the page to [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
 
+    **🔲 / square** - Opens the quiz full-screen in a new tab.
+
 
 === "Magento"
 
