@@ -22,9 +22,40 @@ On the dashboard, you'll find all the quizzes that you create.
 
 === "WooCommerce"
 
+    ![manual_woo_dashboard](/images/manual_woo_dashboard.png)
+
     **Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
 
-    **App Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
+    **⚙️ App Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
+
+    **❔ Help** - Opens the Help menu.
+
+    ![manual_woo_help_menu](/images/manual_woo_help_menu.png)
+
+    - **❔ Frequently Asked Questions** - Opens our FAQ page with app documentation.
+    - **▶ Video Tutorials** - Opens the video tutorials page. 
+    - **🛈 App Status & Uptime** - Opens the page where one can check if the app has any technical issues.
+    - **💲 Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+    - **✉️ Contact Support** - Opens the page to [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+
+
+=== "Magento"
+
+    Coming Soon
+
+=== "BigCommerce"
+
+    ![]()
+
+
+
+=== "Standalone"
+
+    ![]()
+
+    
+
+
 
 
 ## Notifications
