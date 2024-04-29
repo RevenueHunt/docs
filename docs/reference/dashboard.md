@@ -2,21 +2,29 @@
 
 On the dashboard, you'll find all the quizzes that you create.
 
-![dashboard](/images/manual_dashboard.png)
+=== "Shopify"
 
-Shopify Side Menu
+    ![dashboard](/images/manual_dashboard.png)
 
-![dashboard side menu](/images/manual_sidemenu.png){width="500"}
+    Shopify Side Menu
 
-**Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+    ![dashboard side menu](/images/manual_sidemenu.png){width="500"}
 
-**App Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
+    **Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
 
-![dashboard top menu](/images/manual_dashboard_topmenu.png){width="400"}
+    **App Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
 
-**Help** - Opens the [Success Checklist](#success-checklist).
+    ![dashboard top menu](/images/manual_dashboard_topmenu.png){width="400"}
 
-**New quiz** - Opens the [New quiz](#new-quiz) setup menu.
+    **Help** - Opens the [Success Checklist](#success-checklist).
+
+    **New quiz** - Opens the [New quiz](#new-quiz) setup menu.
+
+=== "WooCommerce"
+
+    **Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+
+    **App Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
 
 
 ## Notifications
