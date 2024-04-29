@@ -122,6 +122,7 @@ extra:
 
 extra_javascript:
   - javascripts/feedback.js
+  - javascripts/gtag.js
 
 extra:
   analytics: 
