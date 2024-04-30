@@ -1,30 +1,189 @@
 # Quiz Builder
 
-![quiz builder](/images/manual_quizbuilder.png)
+=== "Shopify"
 
-The Quiz Builder is divided into several sections.
+    ![quiz builder](/images/manual_quizbuilder.png)
 
-**Dashboard** - Click to go back to the Dashboard (exit the Quiz Builder).
+    The Quiz Builder is divided into several sections.
 
-**Demo Quiz** - Displays the quiz name. Quiz name can be changed in [Quiz Settings](#quiz-settings).
+    **Dashboard** - Click to go back to the Dashboard (exit the Quiz Builder).
 
-![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
+    **Demo Quiz** - Displays the quiz name. Quiz name can be changed in [Quiz Settings](#quiz-settings).
 
-The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
+    ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
-![quiz builder top menu](/images/manual_quizbuilder_topmenu.png)
+    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
 
-**Preview** - Opens the quiz preview in a new tab.
+    ![quiz builder top menu](/images/manual_quizbuilder_topmenu.png)
 
-**Edit** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
+    **Preview** - Opens the quiz preview in a new tab.
 
-**Connect** - Opens the [Connect](#connect) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+    **Edit** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
 
-**Share** - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+    **Connect** - Opens the [Connect](#connect) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
 
-**Metrics** - Opens the [Metrics](#metrics) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+    **Share** - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
 
-**Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    **Metrics** - Opens the [Metrics](#metrics) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+
+    **Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+
+    ![quiz builder top menu](/images/manual_quizbuilder_topmenu.png)
+
+    **Preview** - Opens the quiz preview in a new tab.
+
+    !!! tip
+    
+        Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
+
+    **Edit** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
+
+    **Connect** - Opens the [Connect](#connect) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+
+    **Share** - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+
+    **Metrics** - Opens the [Metrics](#metrics) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+
+    **Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+
+=== "WooCommerce"
+
+    ![manual_woo_quizbuilder](/images/manual_woo_quizbuilder.png)
+
+    The Quiz Builder is divided into several sections.
+
+    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+
+    **Dashboard** - Click to go back to the Dashboard (exit the Quiz Builder).
+
+    **Demo Quiz** - Displays the quiz name. Quiz name can be changed in [Quiz Settings](#quiz-settings).
+
+    **Edit** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
+
+    **Connect** - Opens the [Connect](#connect) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+
+    **Share** - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+
+    **Metrics** - Opens the [Metrics](#metrics) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+
+    **Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+
+    **Test Quiz** - Opens the quiz preview in a new tab. 
+    
+    !!! tip
+    
+        Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
+
+    **❔ Help** - Opens the [Help menu](https://docs.revenuehunt.com/reference/dashboard/).
+
+    ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
+
+    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
+
+=== "Magento"
+
+    ![manual_standalone_quizbuilder](/images/manual_standalone_quizbuilder.png)
+
+    The Quiz Builder is divided into several sections.
+
+    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+
+    **Dashboard** - Click to go back to the Dashboard (exit the Quiz Builder).
+
+    **Demo Quiz** - Displays the quiz name. Quiz name can be changed in [Quiz Settings](#quiz-settings).
+
+    **Edit** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
+
+    **Connect** - Opens the [Connect](#connect) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+
+    **Share** - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+
+    **Metrics** - Opens the [Metrics](#metrics) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+
+    **Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+
+    **Test Quiz** - Opens the quiz preview in a new tab. 
+    
+    !!! tip
+    
+        Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
+
+    **❔ Help** - Opens the [Help menu](https://docs.revenuehunt.com/reference/dashboard/).
+
+    ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
+
+    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+
+
+=== "BigCommerce"
+
+    ![manual_standalone_quizbuilder](/images/manual_standalone_quizbuilder.png)
+
+    The Quiz Builder is divided into several sections.
+
+    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+
+    **Dashboard** - Click to go back to the Dashboard (exit the Quiz Builder).
+
+    **Demo Quiz** - Displays the quiz name. Quiz name can be changed in [Quiz Settings](#quiz-settings).
+
+    **Edit** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
+
+    **Connect** - Opens the [Connect](#connect) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+
+    **Share** - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+
+    **Metrics** - Opens the [Metrics](#metrics) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+
+    **Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+
+    **Test Quiz** - Opens the quiz preview in a new tab. 
+    
+    !!! tip
+    
+        Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
+
+    **❔ Help** - Opens the [Help menu](https://docs.revenuehunt.com/reference/dashboard/).
+
+    ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
+
+    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+
+=== "Standalone"
+
+    ![manual_standalone_quizbuilder](/images/manual_standalone_quizbuilder.png)
+
+    The Quiz Builder is divided into several sections.
+
+    ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
+
+    **Dashboard** - Click to go back to the Dashboard (exit the Quiz Builder).
+
+    **Demo Quiz** - Displays the quiz name. Quiz name can be changed in [Quiz Settings](#quiz-settings).
+
+    **Edit** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
+
+    **Connect** - Opens the [Connect](#connect) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+
+    **Share** - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+
+    **Metrics** - Opens the [Metrics](#metrics) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+
+    **Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+
+    **Test Quiz** - Opens the quiz preview in a new tab. 
+    
+    !!! tip
+    
+        Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
+
+    **❔ Help** - Opens the [Help menu](https://docs.revenuehunt.com/reference/dashboard/).
+
+    ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
+
+    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+
+
 
 ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
@@ -48,9 +207,37 @@ The top Success Checklist reminds you of the progress you've made in building yo
 
 ## Quiz Builder
 
-![quiz builder quiz builder section](/images/manual_quizbuilder_quizbuilder.png)
 
-Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Preview** in the top menu.
+=== "Shopify"
+
+    ![quiz builder quiz builder section](/images/manual_quizbuilder_quizbuilder.png)
+
+    Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Preview** in the top menu.
+
+=== "WooCommerce"
+
+    ![manual_woo_quizbuilder_quizbuilder](/images/manual_woo_quizbuilder_quizbuilder.png)
+
+    Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Test Quiz** in the top menu.
+
+=== "Magento"
+
+    ![manual_standalone_quizbuilder_quizbuilder](/images/manual_standalone_quizbuilder_quizbuilder.png)
+
+    Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Test Quiz** in the top menu.
+
+=== "BigCommerce"
+
+    ![manual_standalone_quizbuilder_quizbuilder](/images/manual_standalone_quizbuilder_quizbuilder.png)
+
+    Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Test Quiz** in the top menu.
+
+=== "Standalone"
+
+    ![manual_standalone_quizbuilder_quizbuilder](/images/manual_standalone_quizbuilder_quizbuilder.png)
+
+    Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Test Quiz** in the top menu.
+
 
 ### Question Types
 
@@ -148,63 +335,302 @@ Quiz Builder is composed of two sections: the slides (left) and the preview (rig
 - **Duplicate** - Duplicate this slide. Creates a copy slide below.
 - **Delete** - Delete this slide. 
 
-## Link Collections
+## Link Collections / Link Categories
 
-![quiz builder link collections](/images/manual_quizbuilder_linkcollections.png)
+=== "Shopify"
 
-In the Link Collections tab, you can link entire collections of products from your store to choices. This includes Shopify collections, tags, virtual vendors, and variants collections.
+    ![quiz builder link collections](/images/manual_quizbuilder_linkcollections.png)
 
-Once a collection is linked to a choice and the customer picks that choice, all the products in that collection will receive 1 vote.
+    In the Link Collections tab, you can link entire collections of products from your store to choices. This includes Shopify collections, tags, virtual vendors, and variants collections.
 
-To link a collection to a choice click on the white dropdown bar and start typing the name.
+    Once a collection is linked to a choice and the customer picks that choice, all the products in that collection will receive 1 vote.
 
-![quiz builder link collecctions search](/images/manual_quizbuilder_linkcollections_search.png)
+    To link a collection to a choice click on the white dropdown bar and start typing the name.
 
-Select a collection and it will be automatically added to the choice. 
+    ![quiz builder link collecctions search](/images/manual_quizbuilder_linkcollections_search.png)
 
-**Moisturizers(1)** - (1) The number in the brackets indicates how many product varaints are in that collection.
+    Select a collection and it will be automatically added to the choice. 
 
-You can link multiple collections to the same choice but be careful. If a product is part of two collections linked to the same choice, it will receive 2 votes from that choice (one vote from each collection linked to that choice).
+    **Moisturizers(1)** - (1) The number in the brackets indicates how many product varaints are in that collection.
 
-![quiz builder link collections linked collections](/images/manual_quizbuilder_linkcollections_linked.png)
+    You can link multiple collections to the same choice but be careful. If a product is part of two collections linked to the same choice, it will receive 2 votes from that choice (one vote from each collection linked to that choice).
 
-To remove a linked collection click "x" next to the collection name.
+    ![quiz builder link collections linked collections](/images/manual_quizbuilder_linkcollections_linked.png)
 
-**excluded collections** - Opens the dropdown which allows to exclude collections of products from a choice. 
+    To remove a linked collection click "x" next to the collection name.
 
-![quiz builder link collections exclude](/images/manual_quizbuilder_linkcollections_exclude.png)
+    **excluded collections** - Opens the dropdown which allows to exclude collections of products from a choice. 
 
-Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+    ![quiz builder link collections exclude](/images/manual_quizbuilder_linkcollections_exclude.png)
 
-**Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+    Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+
+    **Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+
+=== "WooCommerce"
+
+    ![quiz builder woo link ccategories](/images/manual_woo_quizbuilder_linkcategories.png)
+
+    In the Link Categories tab, you can link entire categories of products from your store to choices. This includes WooCommerce categories, tags and attributes.
+
+    Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 vote.
+
+    To link a category to a choice click on the white dropdown bar and start typing the name.
+
+    ![quiz builder link collecctions search](/images/manual_woo_quizbuilder_linkcategories_pickcategory.png)
+
+    Select a category and it will be automatically added to the choice. 
+
+    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that category.
+
+    You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
+
+    ![quiz builder woo link categoreis link categories](/images/manual_woo_quizbuilder_linkcategories_linked categories.png)
+
+    To remove a linked categories click "x" next to the category name.
+
+    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+
+    ![quiz builder link collections exclude](/images/manual_woo_quizbuilder_linkcategories_excludecategories.png)
+
+    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+
+    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+
+=== "Magento"
+
+    ![quiz builder standalone link ccategories](/images/manual_standalone_quizbuilder_linkcategories.png)
+
+    In the Link Categories tab, you can link entire categories of products from your store to choices.
+
+    Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 vote.
+
+    To link a category to a choice click on the white dropdown bar and start typing the name.
+
+    ![quiz builder link categories search](/images/manual_standalone_quizbuilder_linkcategories_pickcategory.png)
+
+    Select a category and it will be automatically added to the choice. 
+
+    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that category.
+
+    You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
+
+    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked categories.png)
+
+    To remove a linked category click "x" next to the category name.
+
+    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+
+    ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
+
+    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+
+    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+
+=== "BigCommerce"
+
+    ![quiz builder standalone link ccategories](/images/manual_standalone_quizbuilder_linkcategories.png)
+
+    In the Link Categories tab, you can link entire categories of products from your store to choices.
+
+    Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 vote.
+
+    To link a category to a choice click on the white dropdown bar and start typing the name.
+
+    ![quiz builder link categories search](/images/manual_standalone_quizbuilder_linkcategories_pickcategory.png)
+
+    Select a category and it will be automatically added to the choice. 
+
+    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that category.
+
+    You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
+
+    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked categories.png)
+
+    To remove a linked category click "x" next to the category name.
+
+    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+
+    ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
+
+    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+
+    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+
+=== "Standalone"
+
+    ![quiz builder standalone link ccategories](/images/manual_standalone_quizbuilder_linkcategories.png)
+
+    In the Link Categories tab, you can link entire categories of products from your store to choices.
+
+    Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 vote.
+
+    To link a category to a choice click on the white dropdown bar and start typing the name.
+
+    ![quiz builder link categories search](/images/manual_standalone_quizbuilder_linkcategories_pickcategory.png)
+
+    Select a category and it will be automatically added to the choice. 
+
+    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that category.
+
+    You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
+
+    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked categories.png)
+
+    To remove a linked category click "x" next to the category name.
+
+    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+
+    ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
+
+    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+
+    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
 
 ## Link Products
 
-![quiz builder link products](/images/manual_quizbuilder_linkproducts.png)
+=== "Shopify"
 
-In the Link Products tab, you can link individual product variants from your store to choices.
+    ![quiz builder link products](/images/manual_quizbuilder_linkproducts.png)
 
-Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.
+    In the Link Products tab, you can link individual product variants from your store to choices.
 
-To link a product to a choice click on the white dropdown bar and start typing the name.
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.
 
-![quiz builder link products search](/images/manual_quizbuilder_linkproducts_search.png)
+    To link a product to a choice click on the white dropdown bar and start typing the name.
 
-Select a product variant and it will be automatically added to the choice.
+    ![quiz builder link products search](/images/manual_quizbuilder_linkproducts_search.png)
 
-You can link multiple product variants to the same choice.
+    Select a product variant and it will be automatically added to the choice.
 
-![quiz builder link products linked products](/images/manual_quizbuilder_linkproducts_linked.png)
+    You can link multiple product variants to the same choice.
 
-To remove a linked product click "x" next to the product name.
+    ![quiz builder link products linked products](/images/manual_quizbuilder_linkproducts_linked.png)
 
-**excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
+    To remove a linked product click "x" next to the product name.
 
-![quiz builder link products exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
+    **excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
 
-Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
+    ![quiz builder link products exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
 
-**Missing products?**  - You may need to run a [Catalog Sync]() to update the app.
+    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
+
+    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+
+=== "WooCommerce"
+
+    ![manual_woo_quizbuilder_linkproducts](/images/manual_wooquizbuilder_linkproducts.png)
+
+    In the Link Products tab, you can link individual product variants from your store to choices. This includes simple products, variable products, grouped products and external/affiliate products.
+
+    !!! warning
+
+        Product Recommendation Quiz for WooCommerce can sync only **one type of variants of variable products**. For example, if a variable product has two types of variants, the first one being *size*, the second being *color*, the app will be able to only sync the *size* variant of your products.
+
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.
+
+    To link a product to a choice click on the white dropdown bar and start typing the name.
+
+    ![quiz builder woo link products search](/images/manual_woo_quizbuilder_linkproducts_pickproducts.png)
+
+    Select a product variant and it will be automatically added to the choice.
+
+    You can link multiple product variants to the same choice.
+
+    ![quiz builder woo link products linked products](/images/manual_woo_quizbuilder_linkproducts_linked products.png)
+
+    To remove a linked product click "x" next to the product name.
+
+    **excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
+
+    ![quiz builder woo link products exclude](/images/manual_woo_quizbuilder_linkproducts_excludeproducts.png)
+
+    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
+
+    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+
+=== "Magento"
+
+    ![manual_standalone_quizbuilder_linkproducts](/images/manual_standalone_quizbuilder_linkproducts.png)
+
+    In the Link Products tab, you can link individual product variants from your store to choices.
+
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.
+
+    To link a product to a choice click on the white dropdown bar and start typing the name.
+
+    ![manual_standalone_quizbuilder_linkproducts_pickproducts](/images/manual_standalone_quizbuilder_linkproducts_pickproducts.png)
+
+    Select a product variant and it will be automatically added to the choice.
+
+    You can link multiple product variants to the same choice.
+
+    ![manual_standalone_quizbuilder_linkproducts_linked products](/images/manual_standalone_quizbuilder_linkproducts_linked products.png)
+
+    To remove a linked product click "x" next to the product name.
+
+    **excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
+
+    ![manual_standalone_quizbuilder_linkproducts_excludeproducts](/images/manual_standalone_quizbuilder_linkproducts_excludeproducts.png)
+
+    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
+
+    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+
+=== "BigCommerce"
+
+    ![manual_standalone_quizbuilder_linkproducts](/images/manual_standalone_quizbuilder_linkproducts.png)
+
+    In the Link Products tab, you can link individual product variants from your store to choices.
+
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.
+
+    To link a product to a choice click on the white dropdown bar and start typing the name.
+
+    ![manual_standalone_quizbuilder_linkproducts_pickproducts](/images/manual_standalone_quizbuilder_linkproducts_pickproducts.png)
+
+    Select a product variant and it will be automatically added to the choice.
+
+    You can link multiple product variants to the same choice.
+
+    ![manual_standalone_quizbuilder_linkproducts_linked products](/images/manual_standalone_quizbuilder_linkproducts_linked products.png)
+
+    To remove a linked product click "x" next to the product name.
+
+    **excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
+
+    ![manual_standalone_quizbuilder_linkproducts_excludeproducts](/images/manual_standalone_quizbuilder_linkproducts_excludeproducts.png)
+
+    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
+
+    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+
+=== "Standalone"
+
+    ![manual_standalone_quizbuilder_linkproducts](/images/manual_standalone_quizbuilder_linkproducts.png)
+
+    In the Link Products tab, you can link individual product variants from your store to choices.
+
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.
+
+    To link a product to a choice click on the white dropdown bar and start typing the name.
+
+    ![manual_standalone_quizbuilder_linkproducts_pickproducts](/images/manual_standalone_quizbuilder_linkproducts_pickproducts.png)
+
+    Select a product variant and it will be automatically added to the choice.
+
+    You can link multiple product variants to the same choice.
+
+    ![manual_standalone_quizbuilder_linkproducts_linked products](/images/manual_standalone_quizbuilder_linkproducts_linked products.png)
+
+    To remove a linked product click "x" next to the product name.
+
+    **excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
+
+    ![manual_standalone_quizbuilder_linkproducts_excludeproducts](/images/manual_standalone_quizbuilder_linkproducts_excludeproducts.png)
+
+    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
+
 
 ## Customer Tags
 
