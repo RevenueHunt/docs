@@ -165,7 +165,6 @@ On the dashboard, you'll find all the quizzes that you create.
     - **Export Responses as CSV** - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
     - **Version History** - Open the [Version History tab](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) in Quiz Builder > Quiz Settings.
     - **Copy quiz ID: xxx** - Copy the quiz ID of the current quiz.
-    - **Set as Default Quiz** - Set as a default quiz to be displayed in the Shop App.
     - **Delete** - Delete the quiz.
 
     ![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
@@ -200,7 +199,6 @@ On the dashboard, you'll find all the quizzes that you create.
     - **Export Responses as CSV** - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
     - **Version History** - Open the [Version History tab](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) in Quiz Builder > Quiz Settings.
     - **Copy quiz ID: xxx** - Copy the quiz ID of the current quiz.
-    - **Set as Default Quiz** - Set as a default quiz to be displayed in the Shop App.
     - **Delete** - Delete the quiz.
 
 === "BigCommerce"
@@ -227,7 +225,6 @@ On the dashboard, you'll find all the quizzes that you create.
     - **Export Responses as CSV** - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
     - **Version History** - Open the [Version History tab](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) in Quiz Builder > Quiz Settings.
     - **Copy quiz ID: xxx** - Copy the quiz ID of the current quiz.
-    - **Set as Default Quiz** - Set as a default quiz to be displayed in the Shop App.
     - **Delete** - Delete the quiz.
 
 === "Standalone"
@@ -254,7 +251,6 @@ On the dashboard, you'll find all the quizzes that you create.
     - **Export Responses as CSV** - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
     - **Version History** - Open the [Version History tab](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) in Quiz Builder > Quiz Settings.
     - **Copy quiz ID: xxx** - Copy the quiz ID of the current quiz.
-    - **Set as Default Quiz** - Set as a default quiz to be displayed in the Shop App.
     - **Delete** - Delete the quiz.
 
 
