@@ -2,7 +2,7 @@
 icon: material/playlist-edit
 ---
 
-# How to Edit Your Shop Quiz Results Page
+# How to Edit Your Shop Quiz: Product Recommendation Quiz Results Page
 
 You can customize your quiz design as well as the look of your quiz's [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
 
@@ -61,6 +61,8 @@ For further customization, you can adjust the [results page settings](https://do
         - Stamped Product Reviews & UGC, 
         - Judge.me Product Reviews, 
         - Rivyo Product Reviews.
+
+        And WooCommerce Product Reviews.
 
 [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) worth checking:
 

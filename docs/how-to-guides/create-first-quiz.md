@@ -3,9 +3,9 @@ icon: material/pencil
 ---
 
 
-# How to Create and Publish Your First Shop Quiz
+# How to Create and Publish Your First Shop Quiz: Product Recommendation Quiz
 
-Follow these steps to create your first quiz with the Shop Quiz app. You can also follow our [introduction video tutorial](https://docs.revenuehunt.com/tutorials/getting-started/).
+Follow these steps to create your first quiz with the Shop Quiz: Product Recommendation Quiz app. You can also follow our [introduction video tutorial](https://docs.revenuehunt.com/tutorials/getting-started/).
 
 <div class="videoWrapper">
 <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=ftq73J4rFKtW_yGr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -71,4 +71,4 @@ Once you're satisfied with your quiz, you can put it on your website.
 If changes are made post-publishing, click `Publish` again to update the live quiz.
 
 ---
-This guide outlines the steps to create and launch a Shop Quiz for your store.
+This guide outlines the steps to create and launch a Shop Quiz: Product Recommendation Quiz for your store.
