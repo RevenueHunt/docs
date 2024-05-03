@@ -3,35 +3,70 @@ icon: material/focus-field-horizontal
 ---
 
 
-# How to Add Product Metafields
+# How to Add Product Metafields/Attributes
 
-[Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
+=== "Shopify"
 
-If you're looking to import product metafields from your store into the Shop Quiz to display them on your quiz's results page, follow the steps outlined below:
+    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
+
+    If you're looking to import product metafields from your store into the Shop Quiz: Product Recommendation Quiz to display them on your quiz's results page, follow the steps outlined below:
+
+=== "WooCommerce"
+
+    [Attributes](https://woocommerce.com/document/managing-product-taxonomies/#product-attributes) in Woocommerce are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Attributes make this possible.
+
+    If you're looking to import product attributes from your store into the Shop Quiz: Product Recommendation Quiz to display them on your quiz's results page, follow the steps outlined below:
+
 
 ## Step 1: Enable Metafields Display
 
-First, enable the display of metafields for individual products:
+=== "Shopify"
 
-1. Navigate to your [Results Page Settings > Basic](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings).
-2. Open the `Individual Product Settings` section.
-3. Activate the `show metafields` toggle.
+    First, enable the display of metafields for individual products:
 
-![Enable Metafields Display](/images/how to add metafields step 1.gif)
+    1. Navigate to your [Results Page Settings > Basic](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings).
+    2. Open the `Individual Product Settings` section.
+    3. Activate the `show metafields` toggle.
+
+    ![Enable Metafields Display](/images/how to add metafields step 1.gif)
+
+=== "WooCommerce"
+
+    First, enable the display of attributes for individual products:
+
+    1. Navigate to your [Results Page Settings > Basic](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings).
+    2. Open the `Individual Product Settings` section.
+    3. Activate the `show metafields` toggle.
+
 
 ## Step 2: Open App Settings
 
 Open [App Settings > Catalogue](https://docs.revenuehunt.com/reference/app-settings/#catalogue) to access the settings to manage your catalog.
 
-## Step 3: Select Metafields
+## Step 3: Select Metafields / Attributes
 
-Select the Metafields namespaces you want to sync with the app by clicking the toggle icon next to each.
+=== "Shopify"
 
-![Select Metafields](/images/how to add metafields step 3.gif)
+    Select the Metafields namespaces you want to sync with the app by clicking the toggle icon next to each.
+
+    ![Select Metafields](/images/how to add metafields step 3.gif)
+
+=== "WooCommerce"
+
+    Activate the `Pass attribute information to result page` setting by clicking the toggle.
+
+    ![how to add attributes woo step 1](/images/how to add metafields woo step 1.png)
 
 ## Step 4: Sync the Catalog
 
-Update your catalog with the new metafields by triggering a [catalog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) from your dashboard.
+=== "Shopify"
+
+    Update your catalog with the new metafields by triggering a [catalog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) from your dashboard.
+
+=== "WooCommerce"
+
+    Update your catalog with the new attributes by triggering a [catalog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) from your dashboard.
+
 
 ## Step 5: Implement Custom JavaScript on the Results Page
 
