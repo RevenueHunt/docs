@@ -4,9 +4,9 @@ icon: material/content-copy
 
 # How to Copy the Quiz from One Store to Another
 
-Transferring a quiz from one store to another with the Shop Quiz app is straightforward. This process allows you to duplicate your quiz design, questions, tags, and the results page, however, **products and collections will not be transferred** due to differing product IDs in the new store.
+Transferring a quiz from one store to another with the Shop Quiz: Product Recommendation Quiz app is straightforward. This process allows you to duplicate your quiz design, questions, tags, and the results page, however, **products and collections will not be transferred** due to differing product IDs in the new store.
 
-Before you begin, ensure the [Shop Quiz app](https://revenuehunt.com/product-recommendation-quiz-shopify/) is installed on both the original and the new store.
+Before you begin, ensure the [Shop Quiz: Product Recommendation Quiz app](https://revenuehunt.com/product-recommendation-quiz-shopify/) is installed on both the original and the new store.
 
 ## Step 1: Generate Export Quiz Code
 
@@ -27,14 +27,14 @@ First, navigate to the quiz you wish to export:
 Ensure you're logged into the destination store:
 
 1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-2. Open the Shop Quiz app from the store's dashboard.
+2. Open the Shop Quiz: Product Recommendation Quiz app from the store's dashboard.
 
 
 ## Step 3: Import the Quiz
 
 Finally, import the quiz into your new store:
 
-1. In the Shop Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
 2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
 3. Choose **import a quiz from another store** and paste the previously generated code.
 
