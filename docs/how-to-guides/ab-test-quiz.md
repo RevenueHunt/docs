@@ -2,22 +2,22 @@
 icon: material/ab-testing
 ---
 
-# How to A/B Test Your Shop Quiz
+# How to A/B Test Your Shop Quiz: Product Recommendation Quiz
 
 A/B testing, or split testing, allows you to compare two versions of your quizzes to see which one performs better. 
 
-This guide will walk you through the process of setting up A/B testing manually using your ability to create, duplicate, and edit quizzes in the Shop Quiz app.
+This guide will walk you through the process of setting up A/B testing manually using your ability to create, duplicate, and edit quizzes in the Shop Quiz: Product Recommendation Quiz app.
 
 Ensure you have:
 
-- Access to the Shop Quiz app where you can create and edit quizzes.
+- Access to the Shop Quiz: Product Recommendation Quiz app where you can create and edit quizzes.
 - Basic understanding of [how to publish quizzes](https://docs.revenuehunt.com/how-to-guides/publish-quiz/) on your website.
 - Access to your website’s backend or a platform that allows you to edit HTML/JavaScript for traffic distribution (optional for advanced routing).
 - Analytics tools or integration such as  [Google Analytics](https://docs.revenuehunt.com/how-to-guides/integrate-google-analytics/) or [Facebook Pixel](https://docs.revenuehunt.com/how-to-guides/integrate-facebook-pixel/). to measure quiz performance.
 
 ## Step 1: Create Two Versions of Your Quiz
 
-- **Design Your Original Quiz**: Create your quiz (Version A) in the Shop Quiz app, focusing on the content and design that you currently believe will perform best.
+- **Design Your Original Quiz**: Create your quiz (Version A) in the Shop Quiz: Product Recommendation Quiz app, focusing on the content and design that you currently believe will perform best.
 - **Duplicate and Modify for Version B**: Use the duplication feature on the dashboard to make a copy of Version A. Alter one or more elements (e.g., title, color scheme, question order) to create Version B. Ensure only one key variable is different to accurately measure the effect of that change. Remember to publish the changes with the top-right Publish button.
 
 ## Step 2: Publish Both Versions on Your Website
@@ -61,4 +61,4 @@ Based on the analysis, decide which version of the quiz is more effective. Imple
 
 
 ---
-A/B testing for quizzes is entirely feasible with the Shop Quiz app. By following this guide, you can uncover valuable insights into what resonates with your audience, leading to better engagement and conversion rates over time.
+A/B testing for quizzes is entirely feasible with the Shop Quiz: Product Recommendation Quiz app. By following this guide, you can uncover valuable insights into what resonates with your audience, leading to better engagement and conversion rates over time.
