@@ -4,7 +4,7 @@ icon: material/language-javascript
 
 # How to Add JavaScript to the Quiz
 
-Unlock the full potential of your Shop Quiz by integrating custom JavaScript. We made it very easy for developers to tap into the quiz response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+Unlock the full potential of your Shop Quiz: Product Recommendation Quiz by integrating custom JavaScript. We made it very easy for developers to tap into the quiz response and get all the information they need: individual answers to questions, triggered tags and recommended products.
 
 With custom JavaScript, you can:
 
@@ -329,4 +329,4 @@ Our application syncs only the base products from your store. Products translate
 A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](https://docs.revenuehunt.com/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
 ---
-This guide outlines the foundational steps and examples for integrating custom JavaScript into your Shop Quiz. 
+This guide outlines the foundational steps and examples for integrating custom JavaScript into your Shop Quiz: Product Recommendation Quiz. 
