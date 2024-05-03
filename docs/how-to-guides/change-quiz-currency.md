@@ -18,7 +18,7 @@ To change the quiz currency:
 
 ## Multi-currency quizzes
 
-At the moment the Shop Quiz doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
+At the moment the Shop Quiz: Product Recommendation Quiz doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
 
 If you run a multi-currency shop there's a workaround. What most customers do is show the product on the results page without the price and instead choose the checkout option to view the product. This way the customer is redirected to the product page from the result where the right price is applied.
 
