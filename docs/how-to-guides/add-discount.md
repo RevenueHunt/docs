@@ -6,68 +6,93 @@ icon: material/sale
 
 Incorporating discount coupons into your quiz allows customers to enjoy special offers on the results page or through a follow-up email. 
 
-!!! note
-
-    Please remember, that the management of these discounts is handled through Shopify, not directly within our app.
-
 ![how to add a discount example](/images/how to add a discount example.png){ width="300" }
 
-This guide explains how to implement Discount Coupons for Checkout with the Shop Quiz app.
+This guide explains how to implement Discount Coupons for Checkout with the Shop Quiz: Product Recommendation Quiz app.
 
-## Step 1: Generate a Discount Code in Shopify
+## Step 1: Generate a Discount Code
 
-To create a Shopify discount code, refer to [this helpful guide](https://help.shopify.com/en/manual/discounts/create-discount-codes#create-a-fixed-value-or-percentage-discount). Activation of this code is necessary before integrating it with your quiz to ensure functionality at checkout. 
+=== "Shopify"
 
-It's essential to select the `manual` option for discount codes in Shopify, as our app can only synchronize with manually created codes.
+    To create a Shopify discount code, refer to [this helpful guide](https://help.shopify.com/en/manual/discounts/create-discount-codes#create-a-fixed-value-or-percentage-discount). Activation of this code is necessary before integrating it with your quiz to ensure functionality at checkout. 
+
+    It's essential to select the `manual` option for discount codes in Shopify, as our app can only synchronize with manually created codes.
+
+    !!! note
+
+        Please remember, that the management of these discounts is handled through Shopify, not directly within our app.
+
+=== "WooCommerce"
+
+    If your store is built on WooCommerce, you’ll need [the Advanced Coupons for WooCommerce plugin](https://wordpress.org/plugins/advanced-coupons-for-woocommerce-free/) for this to work.
+
+    Create a coupon code, then navigate to the URL Coupons section. Make sure the Redirect To URL points to your cart page. Copy the URI (it’s the end part of the URL, excluding the https + your domain name):
+
+    ![how to add discount woo step 1](/images/how to add discount woo step 1.png)
+
+    Example: if the Coupon URL which appears is `https://yourdomain.com/coupon/codexyz/`, then the part you need to copy is `/coupon/codexyz/`. 
+
 
 ## Step 2: Configure Your Discount Code on the Results Page
 
-You can add Static or Dynamic discount codes to your quiz.
+=== "Shopify"
 
-### Static Discount
+    You can add Static or Dynamic discount codes to your quiz.
 
-1. Navigate to [Results Page Settings > Discount Settings](https://docs.revenuehunt.com/reference/quiz-builder/#discounts-settings) and access the Discount Code Settings section. 
-2. Here, you'll find a `Code` field. This field is for entering the discount code that will be automatically applied at checkout.
-    ![how to add discount static](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
+    ### Static Discount
+
+    1. Navigate to [Results Page Settings > Discount Settings](https://docs.revenuehunt.com/reference/quiz-builder/#discounts-settings) and access the Discount Code Settings section. 
+    2. Here, you'll find a `Code` field. This field is for entering the discount code that will be automatically applied at checkout.
+        ![how to add discount static](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
 
-    **Visible discount** - Select the `discount %` from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+        **Visible discount** - Select the `discount %` from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first.
+        **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first.
 
-### Dynamic Discount
+    ### Dynamic Discount
 
-Our system supports the addition of multiple Shopify discount codes on the results page, applied dynamically according to the cart's total value. 
+    Our system supports the addition of multiple Shopify discount codes on the results page, applied dynamically according to the cart's total value. 
 
-1. Start by creating your Shopify discount codes as explained in [Step 1](#step-1-generating-a-discount-code-in-shopify). 
-    
-    !!! note
+    1. Start by creating your Shopify discount codes as explained in [Step 1](#step-1-generating-a-discount-code-in-shopify). 
+        
+        !!! note
 
-        Remember, only manual discount codes are compatible with our app.
+            Remember, only manual discount codes are compatible with our app.
 
-2. Proceed to the quiz's Results Page tab. Within [Results Page Settings > Discounts](https://docs.revenuehunt.com/reference/quiz-builder/#discounts-settings), activate Dynamic Discounts. Click "activate" to open the discount menu.
+    2. Proceed to the quiz's Results Page tab. Within [Results Page Settings > Discounts](https://docs.revenuehunt.com/reference/quiz-builder/#discounts-settings), activate Dynamic Discounts. Click "activate" to open the discount menu.
 
-    ![how to add discount dynamic](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
+        ![how to add discount dynamic](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
-    **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+        **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
 
-    **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+        **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
-    **Discount [A] Settings**
+        **Discount [A] Settings**
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first.
+        - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first.
 
-    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+        - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+        - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
 
-    **+ / add another discount** - Adds a new dynamic discount (Discount [B]).
+        **+ / add another discount** - Adds a new dynamic discount (Discount [B]).
 
-    **bin / delete this discount** - deletes this dynamic discount.
+        **bin / delete this discount** - deletes this dynamic discount.
 
-    **add a discount** - Adds a new dynamic discount below (Discount [B]).
+        **add a discount** - Adds a new dynamic discount below (Discount [B]).
 
-    **deactivate** - Deactivates dynamic discounts.
+        **deactivate** - Deactivates dynamic discounts.
+
+=== "WooCommerce"
+
+    Then in the Product Recommendation Quiz, go to the [Results Page Settings > Checkout Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) and paste the copied URI in the `Cart URL` field.
+
+    ![how to add discount woo step 2](/images/how to add discount woo step 2.png)
+
+    This will apply the coupon code when your customers finish the quiz and proceed to cart, then it will redirect them automatically to the cart page in your store.
+
+ 
 
 ## Step 3: Publish Changes
 
