@@ -1465,19 +1465,56 @@ In the Version History section of Quiz Settings you will find all the published 
 
 ## Connect
 
-![quiz builder connect](/images/manual_quizbuilder_connect.png)
+=== "Shopify"
+
+    ![quiz builder connect](/images/manual_quizbuilder_connect.png)
+
+=== "WooCommerce"
+
+    ![manual_woo_quizbuilder_connect](/images/manual_woo_quizbuilder_connect.png)
+
+=== "Magento"
+
+    ![manual_standalone_quizbuilder_connect](/images/manual_standalone_quizbuilder_connect.png)
+
+=== "BigCommerce"
+
+    ![manual_standalone_quizbuilder_connect](/images/manual_standalone_quizbuilder_connect.png)
+
+=== "Standalone"
+
+    ![manual_standalone_quizbuilder_connect](/images/manual_standalone_quizbuilder_connect.png)
+
 
 In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
 
-To connect the quiz to a particular service, find it on the page and click "Connect". Then follow the instructions displayed in the browser or in the "read more" section.
+To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
 ## Share
 
-![quiz builder share](/images/manual_quizbuilder_share.png)
+=== "Shopify"
+
+    ![quiz builder share](/images/manual_quizbuilder_share.png)
+
+=== "WooCommerce"
+
+    ![manual_woo_quizbuilder_share](/images/manual_woo_quizbuilder_share.png)
+
+=== "Magento"
+
+    ![manual_standalone_quizbuilder_share](/images/manual_standalone_quizbuilder_share.png)
+
+=== "BigCommerce"
+
+    ![manual_standalone_quizbuilder_share](/images/manual_standalone_quizbuilder_share.png)
+
+=== "Standalone"
+
+    ![manual_standalone_quizbuilder_share](/images/manual_standalone_quizbuilder_share.png)
 
 In the Share tab of the Quiz Builder, you can choose how to publish the quiz on your website or how to share it with your customers. Click on the option tiles to see instructions and extra settings. 
 
-For step-by-step instructions check [How to Publish the Quiz]() guide.
+For step-by-step instructions check [How to Publish the Quiz](https://docs.revenuehunt.com/how-to-guides/publish-quiz/) guide.
 
 ### Link
 
@@ -1589,7 +1626,26 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
 
 ### Responses
 
-![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
+=== "Shopify"
+
+    ![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
+
+=== "WooCommerce"
+
+    ![manual_woo_quizbuilder_metrics_responses](/images/manual_woo_quizbuilder_metrics_responses.png)
+
+=== "Magento"
+
+    ![manual_standalone_quizbuilder_metrics_responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
+
+=== "BigCommerce"
+
+    ![manual_standalone_quizbuilder_metrics_responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
+
+=== "Standalone"
+
+    ![manual_standalone_quizbuilder_metrics_responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
+
 
 On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
 
@@ -1641,7 +1697,25 @@ On the left-hand side menu, you'll find the most recent 100 responses the quiz r
 
 ### Analytics
 
-![quiz builder metrics analytics](/images/manual_quizbuilder_metrics_analytics.png)
+=== "Shopify"
+
+    ![quiz builder metrics analytics](/images/manual_quizbuilder_metrics_analytics.png)
+
+=== "WooCommerce"
+
+    ![manual_woo_quizbuilder_metrics_analytics](/images/manual_woo_quizbuilder_metrics_analytics.png)
+
+=== "Magento"
+
+    ![manual_standalone_quizbuilder_metrics_analytics](/images/manual_standalone_quizbuilder_metrics_analytics.png)
+
+=== "BigCommerce"
+
+    ![manual_standalone_quizbuilder_metrics_analytics](/images/manual_standalone_quizbuilder_metrics_analytics.png)
+
+=== "Standalone"
+
+    ![manual_standalone_quizbuilder_metrics_analytics](/images/manual_standalone_quizbuilder_metrics_analytics.png)
 
 The data in the graphs are totals in a selected period of time for a selected quiz. 
 
@@ -1688,7 +1762,26 @@ To change the dates click on the 📆 icon. You can change the period to select 
 
 ### Drop-off
 
-![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
+=== "Shopify"
+
+    ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
+
+=== "WooCommerce"
+
+    ![manual_woo_quizbuilder_metrics_dropoff](/images/manual_woo_quizbuilder_metrics_dropoff.png)
+
+=== "Magento"
+
+    ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
+
+=== "BigCommerce"
+
+    ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
+
+=== "Standalone"
+
+    ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
+
 
 The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
 
