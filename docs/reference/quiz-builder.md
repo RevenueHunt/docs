@@ -917,39 +917,174 @@ With Block Logic you can make blocks visible or hidden based on customer's respo
 
 **Checkout Settings**
 
-![quiz builder resutls page resutls page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
+=== "Shopify"
 
-- **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page.
+    ![quiz builder resutls page resutls page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
 
-    - **Proceed to cart** - After the products are added to the cart, the customer will proceed to the cart page.
+    - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page.
 
-    - **proceed to checkout** - After the products are added to the cart, the customer will proceed to the checkout page.
+        - **Proceed to cart** - After the products are added to the cart, the customer will proceed to the cart page.
 
-- **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+        - **proceed to checkout** - After the products are added to the cart, the customer will proceed to the checkout page.
+
+    - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+
+=== "WooCommerce"
+
+    ![manual_woo_quizbuilder_resultspage_checkoutsettings](/images/manual_woo_quizbuilder_resultspage_checkoutsettings.png){width="500"}
+
+    - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page.
+    - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+    - **Cart URL:** - Typer the cart URL where the customer will be redirected after adding a product to the cart.
+        - **/cart** - After the products are added to the cart, the customer will proceed to the cart page.
+        - **/checkout** - After the products are added to the cart, the customer will proceed to the checkout page.
+
+=== "Magento"
+
+    ![manual_magento_quizbuilder_resultspage_checkoutsettings](/images/manual_magento_quizbuilder_resultspage_checkoutsettings.png){width="500"}
+
+    - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
+    - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+
+
+=== "BigCommerce"
+
+    ![manual_bigcommerce_quizbuilder_resultspage_checkoutsettings](/images/manual_bigcommerce_quizbuilder_resultspage_checkoutsettings.png){width="500"}
+
+    - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
+    - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+
+
+=== "Standalone"
+
+    ![manual_standalone_quizbuilder_resultspage_checkoutsettings](/images/manual_standalone_quizbuilder_resultspage_checkoutsettings.png){width="500"}
+
+    - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+
+    !!! warning
+
+        **Add product to cart** - This option is not available in the Standalone version of the Product Recommendation Quiz.
+    
+    !!! tip
+
+        If you would like to add a product to the cart you can set up your own results page in your store and send all the quiz data there with the help of our [Callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/).
+
 
 **Individual Product Settings**
 
-![quiz builder resutls page resutls page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
+=== "Shopify"
 
-- **Show main product image** - Click to always show the main product image, even when a variant is recommended.
+    ![quiz builder resutls page resutls page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
 
-- **Show variant image** - Click to always show the variant image, instead of the main product image.
+    - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
 
-- **Show price** - Toggle to display the product price on the results page.
+    - **Show variant image** - Click to always show the variant image, instead of the main product image.
 
-- **Show vendors** - Toggle to display the product vendor under the product on the results page.
+    - **Show price** - Toggle to display the product price on the results page.
 
-- **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
+    - **Show vendors** - Toggle to display the product vendor under the product on the results page.
 
-- **Show "more info" link** - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
+    - **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
 
-- **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
+    - **Show "more info" link** - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
 
-    **Truncate description** - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
+    - **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
 
-- **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to sync all the product reviews with the app.
+        **Truncate description** - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
 
-- **Show metafields** - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/how-to-add-product-metafields/).
+    - **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to sync all the product reviews with the app.
+
+        !!! info
+
+            We currently support these review apps for Shopify:
+
+            - Product Reviews by Shopify,
+            - Stamped Product Reviews & UGC,
+            - Judge.me Product Reviews,
+            - Rivyo Product Reviews.
+
+    - **Show metafields** - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/how-to-add-product-metafields/).
+
+=== "WooCommerce"
+
+    ![quiz builder resutls page resutls page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
+
+    - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
+
+    - **Show variant image** - Click to always show the variant image, instead of the main product image.
+
+    - **Show price** - Toggle to display the product price on the results page.
+
+    - **Show vendors** - Toggle to display the product vendor under the product on the results page.
+
+        !!! info
+
+            If you want to display the vendor of each product in the results page, please use [Product Vendors](https://woocommerce.com/products/product-vendors/) by WooCommerce.
+
+    - **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
+
+    - **Show "more info" link** - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
+
+    - **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
+
+        **Truncate description** - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
+
+    - **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to sync all the product reviews with the app.
+
+        !!! info
+
+            We currently sync only the official WooCommerce Reviews.
+
+    - **Show metafields/attributes** - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/how-to-add-product-metafields/).
+
+=== "Magento"
+
+    ![manual_magento_quizbuilder_resultspage_individualproductsettings](/images/manual_magento_quizbuilder_resultspage_individualproductsettings.png){width="500"}
+
+    - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
+
+    - **Show variant image** - Click to always show the variant image, instead of the main product image.
+
+    - **Show price** - Toggle to display the product price on the results page.
+
+    - **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
+
+    - **Show "more info" link** - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
+
+    - **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
+
+    - **Truncate description** - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
+
+
+=== "BigCommerce"
+
+    ![manual_bigcommerce_quizbuilder_resultspage_individualproductsettings](/images/manual_bigcommerce_quizbuilder_resultspage_individualproductsettings.png){width="500"}
+
+    - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
+
+    - **Show variant image** - Click to always show the variant image, instead of the main product image.
+
+    - **Show price** - Toggle to display the product price on the results page.
+
+    - **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
+
+    - **Show "more info" link** - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
+
+    - **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
+
+=== "Standalone"
+
+    ![manual_standalone_quizbuilder_resultspage_individualproductsettings](/images/manual_standalone_quizbuilder_resultspage_individualproductsettings.png){width="500"}
+
+    - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
+
+    - **Show variant image** - Click to always show the variant image, instead of the main product image.
+
+    - **Show price** - Toggle to display the product price on the results page.
+
+    - **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
+
+    - **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
 
 **Style Settings**
 
@@ -1101,27 +1236,124 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 ### General
 
-![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png){width="500"}
+=== "Shopify"
 
-**Quiz name**  - Click on the field to edit the quiz name.
+    ![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png){width="500"}
 
-**Language** - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+    **Quiz name**  - Click on the field to edit the quiz name.
 
-**Currency** - Choose from a dropdown in which currency the product price should be displayes.
+    **Language** - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
 
-**Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
+    **Currency** - Choose from a dropdown in which currency the product price should be displayes.
 
-**Separators** - Choose from a dropdown how the currency number should be displayed.
+    **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
 
-**Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    **Separators** - Choose from a dropdown how the currency number should be displayed.
 
-**Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Facebook Pixel).
+    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
 
-**Use top level product** - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Facebook Pixel).
 
-**Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    **Use top level product** - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
 
-**Quiz ID** - Displays the current quiz ID.
+    **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    **Quiz ID** - Displays the current quiz ID.
+
+=== "WooCommerce"
+
+    ![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png){width="500"}
+
+    **Quiz name**  - Click on the field to edit the quiz name.
+
+    **Language** - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+
+    **Currency** - Choose from a dropdown in which currency the product price should be displayes.
+
+    **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
+
+    **Separators** - Choose from a dropdown how the currency number should be displayed.
+
+    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Facebook Pixel).
+
+    **Use top level product** - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
+
+    **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    **Quiz ID** - Displays the current quiz ID.
+
+=== "Magento"
+
+    ![manual_magento_quizbuilder_quizsettings_general](/images/manual_magento_quizbuilder_quizsettings_general.png){width="300"}
+
+    **Quiz name**  - Click on the field to edit the quiz name.
+
+    **Language** - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+
+    **Currency** - Choose from a dropdown in which currency the product price should be displayes.
+
+    **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
+
+    **Separators** - Choose from a dropdown how the currency number should be displayed.
+
+    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Facebook Pixel).
+
+    **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    **Quiz ID** - Displays the current quiz ID.
+
+=== "BigCommerce"
+
+    ![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png){width="500"}
+
+    **Quiz name**  - Click on the field to edit the quiz name.
+
+    **Language** - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+
+    **Currency** - Choose from a dropdown in which currency the product price should be displayes.
+
+    **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
+
+    **Separators** - Choose from a dropdown how the currency number should be displayed.
+
+    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Facebook Pixel).
+
+    **Use top level product** - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
+
+    **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    **Quiz ID** - Displays the current quiz ID.
+
+=== "Standalone"
+
+    ![manual_magento_quizbuilder_quizsettings_general](/images/manual_magento_quizbuilder_quizsettings_general.png){width="300"}
+
+    **Quiz name**  - Click on the field to edit the quiz name.
+
+    **Language** - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+
+    **Currency** - Choose from a dropdown in which currency the product price should be displayes.
+
+    **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
+
+    **Separators** - Choose from a dropdown how the currency number should be displayed.
+
+    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Facebook Pixel).
+
+    **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    **Quiz ID** - Displays the current quiz ID.
+
+
+
 
 ### Messages
 
