@@ -6,13 +6,45 @@ icon: material/cards
 
 Our solution takes into account your customer's choices to offer highly personalized product recommendations. 
 
-This guide explains how to recommend products with the Shop Quiz app, the underlying algorithm and proposes solutions for complex quizzes.
+This guide explains how to recommend products with the Shop Quiz: Product Recommendation Quiz app, the underlying algorithm and proposes solutions for complex quizzes.
 
 ## Recommendations
 
-Shop Quiz can show on the results page **product variants**, **main products** and **[Recharge subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**. 
+=== "Shopify" 
 
-Shop Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+    Shop Quiz: Product Recommendation Quiz can show on the results page **product variants**, **main products** and **[Recharge subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**. 
+
+    Shop Quiz: Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+
+=== "WooCommerce" 
+
+    Shop Quiz: Product Recommendation Quiz can show on the results page **simple products**, **variable products**, **grouped products**, **external/affiliate products** and **[WooCommerce subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**. 
+
+    Shop Quiz: Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category/tag/attribute](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+
+    !!! warning
+    
+        Product Recommendation Quiz for WooCommerce can sync only one type of variants of variable products. For example, if a variable product has two types of variants, the first one being size, the second being color, the app will be able to only sync the size variant of your products.
+
+
+=== "Magento" 
+
+    Shop Quiz: Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
+
+    Shop Quiz: Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+
+=== "BigCommerce" 
+
+    Shop Quiz: Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
+
+    Shop Quiz: Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+
+=== "Standalone" 
+
+    Shop Quiz: Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
+
+    Shop Quiz: Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+
 
 ## Voting System
 
