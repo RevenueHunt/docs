@@ -97,7 +97,7 @@ Before You Start:
     2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In your store customization options find the main page.
-    5. Find a ` Custom HTML` element. In the element settings paste the code copied from the app.
+    5. Find a `Custom HTML` element. In the element settings paste the code copied from the app.
     6. Save the changes.
     7. From now on, the automatic popup quiz will be visible on the main page.
 
