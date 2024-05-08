@@ -4,13 +4,17 @@ icon: material/calendar-sync
 
 # How to Recommend Subscription Products
 
-Recommending subscription products via the Shop Quiz can significantly enhance your e-commerce strategy by providing a steady revenue stream and fostering long-term customer relationships. 
+Recommending subscription products via the Shop Quiz: Product Recommendation Quiz can significantly enhance your e-commerce strategy by providing a steady revenue stream and fostering long-term customer relationships. 
 
-With the integration of [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) into your product recommendation strategy, you can create a seamless shopping experience for your customers. 
+With the integration of [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) or [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) into your product recommendation strategy, you can create a seamless shopping experience for your customers. 
 
 ![how to recommend subscription products sample product](/images/how to recommend subscription products sample product.png)
 
-This guide explains how to integrate and recommend subscription products with Shop Quiz.
+This guide explains how to integrate and recommend subscription products with Shop Quiz: Product Recommendation Quiz.
+
+!!! warning
+
+    Shop Quiz: Product Recommendation Quiz currently only integrates with [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce. Subscription products are not yet supported in the Product Recommendation Quiz for BigCommerce or Magento. They will not show up on the Results page. However, there’s a workaround explained in the [Other subscriptions](#other-subscriptions) section of the article.
 
 ## ReCharge Subscriptions
 
@@ -33,9 +37,17 @@ Integrating ReCharge with Shopify enhances your ability to recommend subscriptio
 - The customer needs to proceed to the cart first and cannot proceed to checkout directly with subscription products. You can change this in the [checkout settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/).
 - We only integrate with the **new Shopify Checkout**; the old Recharge Checkout is not supported. For instructions on how to migrate from the old ReCharge Checkout to the new Shopify Checkout, check [this article](https://support.rechargepayments.com/hc/en-us/articles/4403505928599).
 
+## WooCommerce Subscriptions
+
+Products created with [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) are automatically synced with the app when you install it. You can find them under [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab in the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
+
+!!! tip
+
+    If you don’t see your WooCommerce subscription products on the list, try to launch a [catalog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) of the app.
+
 ## Other Subscriptions
 
-For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Shop Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
+For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Shop Quiz: Product Reocommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
 
 ### Step 1: Link One-Time Payment Products to Quiz Choices
 1. Identify your subscription products that you wish to promote through the quiz.
@@ -50,4 +62,4 @@ As a result, the buyers will go directly to the product page and can subscribe t
 
 ---
 
-By following these steps and best practices, you can effectively integrate and recommend subscription products via Shop Quiz.
+By following these steps and best practices, you can effectively integrate and recommend subscription products via Shop Quiz: Product Recommendation Quiz.
