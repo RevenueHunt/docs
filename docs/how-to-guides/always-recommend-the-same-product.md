@@ -20,15 +20,15 @@ This strategy positions the product at the forefront of the Results Page every t
 
 For those looking to highlight a new product or collection without dominating the entire recommendation list, creating a dedicated `Products Slot` on the Results Page offers a balanced solution.
 
-1. **Create a Collection for Your Product(s)**: Group the products you wish to feature in a `New Products` collection. For instance, include your `Essentials Makeup Kit COMPLETE` in this collection.
+1. **Create a Collection/Category for Your Product(s)**: Group the products you wish to feature in a `New Products` collection/category. For instance, include your `Essentials Makeup Kit COMPLETE` in this collection.
 
-2. **Ensure Your Store Is Synced**: After creating your collection or adding new products, [sync the app](https://docs.revenuehunt.com/how-to-guides/sync-catalog/).
+2. **Ensure Your Store Is Synced**: After creating your collection/category or adding new products, [sync the app](https://docs.revenuehunt.com/how-to-guides/sync-catalog/).
 
-3. **Link the Collection to Quiz Responses**: Select a quiz question and link your new product or collection to **every response option**. This step is crucial as it ensures the product or collection receives at least one vote, guaranteeing its appearance on the Results Page regardless of quiz outcomes.
+3. **Link the Collection/Category to Quiz Responses**: Select a quiz question and link your new product or collection/category to **every response option**. This step is crucial as it ensures the product or collection/category receives at least one vote, guaranteeing its appearance on the Results Page regardless of quiz outcomes.
 
-4. **Add a Dedicated Slot on the Results Page**: Edit the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) to include a new `Product Slot` specifically for showcasing your selected product or collection. This specialized section will exclusively feature items from your chosen collection, distinguishing them from the general recommendations.
+4. **Add a Dedicated Slot on the Results Page**: Edit the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) to include a new `Product Slot` specifically for showcasing your selected product or collection/category. This specialized section will exclusively feature items from your chosen collection/category, distinguishing them from the general recommendations.
 
-5. **Link colelction to slot**: Make sure to `include` the created collection in the `Product Slot`.
+5. **Link colelction/category to slot**: Make sure to `include` the created collection/category in the `Product Slot`.
 
 5. **Preview and Test Your Setup**: With your dedicated slot in place, click the `Publish` button to update the preview/live quiz. Then, preview the quiz and its results to ensure the new product or collection is displayed as intended. This final step confirms that your selected items are correctly highlighted on the Results Page.
 
