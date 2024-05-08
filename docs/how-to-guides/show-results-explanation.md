@@ -7,7 +7,7 @@ icon: material/lightbulb-question
 
 While our [product recommendation algorithm](https://docs.revenuehunt.com/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won’t automatically display custom text depending on the recommended product.
 
-For this reason, it can be very hard to build a **"personality-type"** quiz with our solution.
+Shop Quiz: Product Recommendation Quiz **doesn't** have a linear score feature yet (as in every time a customer picks a choice, the "score" will receive one point and at the end, based on that score, different results pages will be displayed). For this reason, it can be very hard to build a **"personality-type"** quiz with our solution.
 
 If you want to show different text results depending on the recommended products, this functionality has to be built on the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). There are a few ways to achieve it:
 
