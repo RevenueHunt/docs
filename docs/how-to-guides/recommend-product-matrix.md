@@ -38,9 +38,9 @@ First of all, you should understand that the recommendations algorithm works lik
 
 
 
-### Step 2: Create collections
+### Step 2: Create collections/categories
 
-To recommend the right product, in your eCommerce platform you should create four collections and include in them the following products:
+To recommend the right product, in your eCommerce platform you should create four collections/categories and include in them the following products:
 
 - Collection 1: Teens and 20's
 
@@ -84,12 +84,12 @@ You can start building your quiz.
 
     ![how to recommend products matrix question2](/images/how_to_recommend_products_question2.png)
 
-### Step 4: Link collections
+### Step 4: Link collections/categories
 
 You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
 
-1. **Open Link Collections tab**: To do that, navigate to the [Link Collections](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab in the Quiz Builder.
-2. **Link Collections to choices**: Link the collections to chocies as shown below.
+1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab in the Quiz Builder.
+2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
 
     ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
 
