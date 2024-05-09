@@ -7,13 +7,13 @@ icon: material/format-header-pound
 
 Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax. 
 
-This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Shop Quiz, to help you incorporate various styling elements into your content efficiently.
+This guide will walk you through the basics of Markdown Language, using the syntax supported by RevenueHunt’s Shop Quiz: Product Recommendation Quiz, to help you incorporate various styling elements into your content efficiently.
 
 ??? question "What is Markdown Language?"
 
     Markdown allows you to format words as bold or italic, add images, create lists, and much more, using just regular text with a few non-alphabetic characters, such as `#` or `*`. It's designed to be as straightforward as possible, making it accessible for anyone to learn and use.
 
-## Markdown in Shop Quiz
+## Markdown in Shop Quiz: Product Recommendation Quiz
 
 Shop Quiz utilizes its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
 
@@ -74,4 +74,4 @@ Videos are displayed responsively at 100% of their container’s width, with the
 ```
 
 ---
-Markdown is a simple yet powerful language for formatting text on the web. By mastering the basic syntax elements supported by Shop Quiz, you can effectively enhance your quizzes and content, making them more attractive and engaging for users.
+Markdown is a simple yet powerful language for formatting text on the web. By mastering the basic syntax elements supported by Shop Quiz: Product Recommendation Quiz, you can effectively enhance your quizzes and content, making them more attractive and engaging for users.
