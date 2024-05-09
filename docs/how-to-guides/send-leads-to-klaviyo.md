@@ -14,7 +14,7 @@ To connect the quiz to Klaviyo you’ll have to provide your Klaviyo **Public AP
 
 2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
     ![how to send leads to klaviyo public api key](/images/how to send leads to klaviyo public api key.png)
-3. Navigate back to the Shop Quiz app. 
+3. Navigate back to the Shop Quiz: Product Recommendation Quiz app. 
 4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
     ![how to send leads to klaviyo public api key provided1](/images/how to send leads to klaviyo public api key provided1.png)
     ![how to send leads to klaviyo public api key provided2](/images/how to send leads to klaviyo public api key provided2.png)
@@ -91,10 +91,10 @@ Remember to deactivate the [email Notifications](https://docs.revenuehunt.com/ho
 
 ## Adding Quiz Contacts to Klaviyo List
 
-Shop Quiz allows you to add contacts from the quiz directly to a list in Klaviyo. 
+Shop Quiz: Product Recommendation Quiz allows you to add contacts from the quiz directly to a list in Klaviyo. 
 
 1. To do that you’ll need to provide a **Private API Key**.
-2. To create a new Private Key for the Shop Quiz app login to your Klaviyo account.
+2. To create a new Private Key for the Shop Quiz: Product Recommendation Quiz app login to your Klaviyo account.
 3. In account `Settings` open the `API Keys` tab and create a new Private API Key. For list-specific contact additions, you can get your Klaviyo Private API Key [here](https://www.klaviyo.com/account#api-keys-tab).
     ![how to send leads to klaviyo private api key](/images/how to send leads to klaviyo private api key.png)
 
