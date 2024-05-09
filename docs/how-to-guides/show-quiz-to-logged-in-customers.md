@@ -10,6 +10,10 @@ It’s possible to use the customer metafields to render quiz results onto diffe
 
     This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).
 
+!!! note
+
+    This method works only for Shopify accounts using our [Shop Quiz: Product Recommender](https://revenuehunt.com/product-recommendation-quiz-shopify/) app. Unfortunately, we don't have a solution yet on how to do this in WooCommerce, Magento or BigCommerce.
+
 ## Step 1: Create a New Page Template
 
 1. In your `Online Store > Themes` section, head to `Actions > Edit Code`.
