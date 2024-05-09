@@ -110,5 +110,5 @@ The new app interface gives the option to use Jump Logic and Skip Logic. You sho
 Understanding conditional logic, the foundation of Skip Logic, can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
 
 ---
-This guide explains how to add Skip Logic to your Shop Quiz and hide follow-up questions.
+This guide explains how to add Skip Logic to your Shop Quiz: Product Recommendation Quiz and hide follow-up questions.
 

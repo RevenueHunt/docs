@@ -2,7 +2,7 @@
 icon: material/diversify
 ---
 
-# How to Use Conditional Logic in Shop Quiz
+# How to Use Conditional Logic in Shop Quiz: Product Recommendation Quiz
 
 [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) allows you to branch the quiz or hide content based on customer answers.
 

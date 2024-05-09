@@ -73,4 +73,4 @@ To learn how to build such a quiz check this [step-by-step guide](https://docs.r
 Understanding conditional logic can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
 
 ---
-This guide explains what is Block Logic and how to use it in Shop Quiz.
+This guide explains what is Block Logic and how to use it in Shop Quiz: Product Recommendation Quiz.
