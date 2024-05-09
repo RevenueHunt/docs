@@ -35,7 +35,7 @@ Connecting your quiz to Mailchimp allows for the seamless transfer of leads:
 With [customer tags](https://docs.revenuehunt.com/reference/quiz-builder/#customer-tags), you can segment your audience within Mailchimp based on their quiz responses:
 
 1. Make sure the quiz is connected to Mailchimp. 
-2. Create [customer tags](https://docs.revenuehunt.com/reference/quiz-builder/#customer-tags) in the Shop Quiz app and link them to choices.
+2. Create [customer tags](https://docs.revenuehunt.com/reference/quiz-builder/#customer-tags) in the Shop Quiz: Product Recommendation Quiz app and link them to choices.
 3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
 4. Navigate to the `Audience` section in your Mailchimp account.
 5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
@@ -50,4 +50,4 @@ To override Mailchimp's limitation on pushing detailed quiz data, you can use `c
 2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
 
 ---
-By folloiwng this article, you can set up your post-quiz email flow with MailChimp.
+By following this article, you can set up your post-quiz email flow with MailChimp.
