@@ -1,6 +1,6 @@
 # How to Send Leads to Omnisend
 
-Apart from giving your customers a personalized product recommendation, you can connect your quiz to your Omnisend account so that the quiz results are sent automatically to your mailing list. This way you can segment them based on their responses and follow up with targeted campaigns.
+Apart from giving your customers a personalized product recommendation, you can connect Shop Quiz: Product Recommendation Quiz to your Omnisend account so that the quiz results are sent automatically to your mailing list. This way you can segment them based on their responses and follow up with targeted campaigns.
 
 ## Link Quiz to Omnisend
 
