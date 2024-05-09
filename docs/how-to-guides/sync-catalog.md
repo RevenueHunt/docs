@@ -5,9 +5,9 @@ icon: material/sync
 
 # How to Run a Catalog Sync
 
-If you're missing products or collections from the list in the [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) or [Link Collections](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab, you can run a product sync from the app's dashboard.
+If you're missing products or collections from the list in the [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) or [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab, you can run a product sync from the app's dashboard.
 
-This article will guide you through troubleshooting and syncing your product catalog with the Shop Quiz app.
+This article will guide you through troubleshooting and syncing your product catalog with the Shop Quiz: Product Recommendation Quiz app.
 
 ## Sync Your Products with the App
 
@@ -30,11 +30,32 @@ This article will guide you through troubleshooting and syncing your product cat
 - **Check Sync Status:** If your products or collections aren't showing up as expected, or if the product counts remain at zero, it's possible the initial sync is still in progress or has encountered an issue.
 - **Contact Support:** Should issues persist beyond the expected sync time, please [contact our support team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/). We can manually initiate a complete sync of your shop to ensure everything is up-to-date.
 
-## Selectively Sync Product Collections with Shop Quiz
+## Selectively Sync Product Collections/Categories
 
-For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your Shop Quiz recommendations. Fortunately, Shop Quiz offers a targeted solution: the `collections-first` feature. 
+=== "Shopify"
 
-[:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/sync-selected-collections/)
+    For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your quiz recommendations. Fortunately, Shop Quiz: Product Recommendation Quiz offers a targeted solution: the `collections-first` feature. 
+
+    [:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/sync-selected-collections/)
+
+
+=== "WooCommerce"
+
+    For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your quiz recommendations. Fortunately, Shop Quiz: Prodcut Recommendation Quiz offers a targeted solution: the `categories-first` feature. 
+
+    [:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/sync-selected-collections/)
+
+=== "Magento"
+
+    This feature is not available.
+
+=== "BigCommerce"
+
+    This feature is not available.
+
+=== "Standalone"
+
+    This feature is not available.
 
 ---
-By following these steps, you can update your catalog with the Shop Quiz app, ensuring your products and collections are accurately linked and displayed.
+By following these steps, you can update your catalog with the Shop Quiz: Product Recommendation Quiz app, ensuring your products and collections are accurately linked and displayed.
