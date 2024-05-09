@@ -46,13 +46,13 @@ Zapier is a platform that enables integration with thousands of apps, including 
 
 ### [:material-greater-than-or-equal: ActiveCampaign](https://docs.revenuehunt.com/how-to-guides/send-leads-to-activecampaign/)
 
-Integrating your Shop Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management.
+Integrating your Shop Quiz: Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management.
 
 [:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/send-leads-to-activecampaign/)
 
 ### [:material-webhook: Webhooks](https://docs.revenuehunt.com/how-to-guides/send-leads-to-webhooks/)
 
-Integrating thw quiz with webhooks allows you to automatically send all quiz data, including responses, recommended products, and participant information, to your specified endpoints.
+Integrating the quiz with webhooks allows you to automatically send all quiz data, including responses, recommended products, and participant information, to your specified endpoints.
 
 [:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/send-leads-to-webhooks/)
 
