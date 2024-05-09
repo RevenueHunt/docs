@@ -4,7 +4,7 @@ icon: material/printer-pos-wrench
 
 # How to Troubleshoot Product Recommendations in Your Quiz
 
-Navigating through the product recommendations can be challenging, especially when dealing with numerous products and collections linked to quiz choices. 
+Navigating through the product recommendations can be challenging, especially when dealing with numerous products and collections/categories linked to quiz choices. 
 
 This guide will walk you through the process of troubleshooting product recommendations. It can help you understand why a certain product was recommended or missing from the Results Page.
 
@@ -40,21 +40,21 @@ This guide will walk you through the process of troubleshooting product recommen
 
     Information such as:
 
-    - The collections the product belongs to.
+    - The collections/categories the product belongs to.
     - The number of votes it received and the reasons for its recommendation or absence.
-    - The questions/choices that influenced its votes, including the collections where it was either upvoted or excluded.
+    - The questions/choices that influenced its votes, including the collections/categories where it was either upvoted or excluded.
     - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
 
 8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
 
 !!! tip
 
-    A common issue is a product being misclassified into an incorrect collection or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
+    A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
 
 
 Additionally, you may:
 
-- **Recalculate Recommendations**: If adjustments to the quiz or product collections have been made, use this option to see how these changes affect recommendations.
+- **Recalculate Recommendations**: If adjustments to the quiz or product collections/categories have been made, use this option to see how these changes affect recommendations.
 - **Resend Notifications**: Useful for updating CRM services or sending revised recommendations via email.
 
 
