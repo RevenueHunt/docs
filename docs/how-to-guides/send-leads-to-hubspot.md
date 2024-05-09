@@ -1,6 +1,6 @@
 # How to Send Leads to HubSpot
 
-Integrating your customer quiz with HubSpot can significantly enhance your marketing efforts. 
+Integrating your Shop Quiz: Product Recommendation Quiz with HubSpot can significantly enhance your marketing efforts. 
 
 By automatically sending quiz results to your HubSpot account, you can segment your contacts based on their responses and engage them with personalized campaigns. 
 
@@ -8,12 +8,12 @@ This guide will walk you through the steps to link your quiz to HubSpot, ensurin
 
 Before starting, make sure you have:
 
-- Access to your Shop Quiz
+- Access to your Shop Quiz: Product Recommendation Quiz.
 - An active HubSpot account.
 
 ## Link Quiz to HubSpot
 
-1. Go to the [Quiz Builder]https://docs.revenuehunt.com/reference/quiz-builder/() and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen.
+1. Go to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen.
 2. Within the integration options, find the section dedicated to HubSpot and click on the `Connect` button.
 3. A new browser tab will open, prompting you to authorize the connection between your quiz platform and your HubSpot account.
 4. Select your HubSpot account from the list provided.
