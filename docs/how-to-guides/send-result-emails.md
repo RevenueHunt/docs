@@ -2,15 +2,15 @@
 icon: material/email-heart-outline
 ---
 
-# Setting Up Result Emails with Shop Quiz
+# Setting Up Result Emails with Shop Quiz: Product Recommendation Quiz
 
-Email results notifications enhance customer engagement by following up with participants of your Shop Quiz. 
+Email results notifications enhance customer engagement by following up with participants of your Shop Quiz: Product Recommendation Quiz. 
 
 This guide covers setting up email results for both [quiz respondents](#email-quiz-results-via-shop-quiz-app) and [administartors](#activate-email-notifications-to-admin) and well as sending resutls emails via an [external CRM service](https://docs.revenuehunt.com/how-to-guides/send-leads-to-crm/).
 
-## Email Quiz Results via Shop Quiz app
+## Email Quiz Results via Shop Quiz: Product Recommendation Quiz app
 
-Result emails can be sent directly from the Shop Quiz app to the email provided by the customer. 
+Result emails can be sent directly from the Shop Quiz: Product Recommendation Quiz app to the email provided by the customer. 
 
 Follow the step by step instructions below to active and edit the result emails sent with the app:
 
@@ -177,4 +177,4 @@ Specific use cases:
     ```
 
 ---
-By folowing this guide, you'll learn how to set up result emails for your Shop Quiz.
+By folowing this guide, you'll learn how to set up result emails for your Shop Quiz: Product Recommendation Quiz.
