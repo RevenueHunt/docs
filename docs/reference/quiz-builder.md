@@ -457,6 +457,10 @@
 
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
 
+    !!! tip
+
+        You can also use custom fields as tags within the app by following [these instructions](https://docs.revenuehunt.com//how-to-guides/use-custom-fields-as-tags/)
+
 === "Standalone"
 
     ![quiz builder standalone link ccategories](/images/manual_standalone_quizbuilder_linkcategories.png)

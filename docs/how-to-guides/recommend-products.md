@@ -99,6 +99,11 @@ Products or collections added in the `include` field of the [Link Products](http
 
     - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
     - **Categories**: Every product within a linked category receives a vote when their linked choice is selected.
+    - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
+
+    !!! tip
+
+        You can also use custom fields as tags within the app by following [these instructions](https://docs.revenuehunt.com//how-to-guides/use-custom-fields-as-tags/)
 
 === "Standalone"
 
