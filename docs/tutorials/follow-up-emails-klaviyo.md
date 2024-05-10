@@ -5,7 +5,7 @@ icon: material/numeric-4
 
 # Sending Follow-up Emails with Klaviyo
 
-In this tutorial, you’ll learn how to add Shop Quiz leads to [Klaviyo](https://docs.revenuehunt.com/how-to-guides/send-leads-to-klaviyo/) and how to build a post-quiz email flow in Klaviyo.
+In this tutorial, you’ll learn how to add Shop Quiz: Product Recommendation Quiz leads to [Klaviyo](https://docs.revenuehunt.com/how-to-guides/send-leads-to-klaviyo/) and how to build a post-quiz email flow in Klaviyo.
 
 **You’ll learn:**
 
@@ -49,7 +49,7 @@ Public API Key is essential because it allows us to send information to Klaviyo 
 
 1. To find your Public Key login to your Klaviyo account.
 2. In account `Settings` open the `API Keys` tab and copy the public API Key.
-3. Navigate back to the Shop Quiz app. 
+3. Navigate back to the Shop Quiz: Product Recommendation Quiz app. 
 4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and `edit` the connection.
 5. Paste your Public API Key and `save`.
 6. Publish the changes with the top-right `Publish` button.
@@ -100,7 +100,7 @@ Remember to deactivate the [email Notifications](https://docs.revenuehunt.com/ho
 
 ## Add Contacts to List
 
-Shop Quiz allows you to add contacts from the quiz directly to a **list** in Klaviyo. To do that you’ll need to provide a **Private API Key**.
+Shop Quiz: Product Recommendation Quiz allows you to add contacts from the quiz directly to a **list** in Klaviyo. To do that you’ll need to provide a **Private API Key**.
 
 1. To create a new Private Key for the Shop Quiz app login to your Klaviyo account.
 2. In account `Settings` open the `API Keys` tab and create a `new Private API Key`.
