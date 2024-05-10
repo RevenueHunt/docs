@@ -1,4 +1,4 @@
-# Getting Started with Shop Quiz: Product Recommendation Quiz
+# Getting Started with Shop Quiz
 
 ## What is Shop Quiz: Product Recommendation Quiz?
 
