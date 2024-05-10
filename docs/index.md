@@ -1,8 +1,8 @@
-# Getting Started with Shop Quiz
+# Getting Started with Shop Quiz: Product Recommendation Quiz
 
-## What is Shop Quiz?
+## What is Shop Quiz: Product Recommendation Quiz?
 
-The [Shop Quiz app](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) is a product recommendation and video quiz application designed to enhance the online shopping experience by guiding shoppers through tailored questions, analyzing their responses, and recommending the perfect products based on their preferences. 
+The Shop Quiz: Product Recommendation Quiz app is a product recommendation and video quiz application designed to enhance the online shopping experience by guiding shoppers through tailored questions, analyzing their responses, and recommending the perfect products based on their preferences. 
 
 This interactive tool is compatible with Shopify's official [Shop app](https://shop.app/), aiming to improve customer engagement and increase sales by collecting zero-party data and segmenting leads to grow the audience. It offers personalized product recommendations through interactive quizzes, providing tailored suggestions that match the shopper's needs and preferences. 
 
