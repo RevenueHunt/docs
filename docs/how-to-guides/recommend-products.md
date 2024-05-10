@@ -231,4 +231,8 @@ For this reason, it can be very hard to build a "personality-type" quiz with our
 
 [:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/show-results-explanation/)
 
- 
+### Recommend Products Based on the Number of User Choices
+
+This guide provides information on how to set up a custom solution that will recommend products based on the number of user choices.
+
+[:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/recommend-products-based-on-number-of-user-choices/)
