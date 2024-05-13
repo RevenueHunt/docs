@@ -42,6 +42,41 @@ Finally, import the quiz into your new store:
 
 After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
+## Changing Domains
+
+Follow these steps if you plan to change the domain on which the Shop Quiz: Product Recommendation Quiz app is installed.
+
+=== "Shopify"
+
+    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the Shop Quiz: Product Recommendation Quiz app and your quizzes. You can do so safely.
+
+    If you’re changing the `.myshopify` account, then check [this guide](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+
+=== "WooCommerce"
+
+    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the Shop Quiz: Product Recommendation Quiz app and your quizzes. You can do so safely.
+
+    When changing the domain accounts in WordPress, you’ll have to copy your quiz from the old domain to the new one first. [This article](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two WordPress accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+
+=== "Magento"
+
+    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the Shop Quiz: Product Recommendation Quiz app and your quizzes. You can do so safely.
+
+    When changing the domain accounts in Magento, you’ll have to copy your quiz from the old domain to the new one first. [This article](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Magento accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+
+=== "BigCommerce"
+
+    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the Shop Quiz: Product Recommendation Quiz app and your quizzes. You can do so safely.
+
+    When changing the domain accounts in BigCommerce, you’ll have to copy your quiz from the old domain to the new one first. [This article](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two BigCommerce accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+
+
+=== "Standalone"
+
+    Standalone solution is independent of your domain and can be used on multiple domains simultaneously. Make sure to change your product links in your in-app [Catalogue](https://docs.revenuehunt.com/reference/dashboard/#__tabbed_3_5) or Google Product Feed.
+
+If you have any issues or doubts about changing domains, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+
 ---
 By following these instructions, you can efficiently duplicate your quiz across all your stores, saving time.
 
