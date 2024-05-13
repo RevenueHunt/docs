@@ -36,6 +36,8 @@ theme:
       accent: #CBDAFF
   analytics:
     gtag: G-31VSB4L8T3
+  logo: images/revenuehunt_logo-removebg-preview.png
+  favicon: images/revenuehunt-logo-black.webp
 nav:
   - Docs:
     - Docs: index.md
