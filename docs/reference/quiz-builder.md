@@ -1260,6 +1260,10 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
     **Use top level product** - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
 
+    !!! warning
+
+        For large stores (more than 2,000 products) the option to use the top-level product will not be available. Instead, it’s recommended to make use of automatically created Tags and Varaints to upvote whole groups of products at once in the Link Collections tab.
+
     **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     **Quiz ID** - Displays the current quiz ID.
