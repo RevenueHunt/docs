@@ -115,3 +115,9 @@ We offer a 50% discount on all plans if you subscribe for 2 years and you pay up
 
 Need a 50% discount signing up for two years? – [Get in touch with our Sales Team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/)
 
+## What’s the difference between the WooCommerce extension and a WordPress Plugin?
+
+The [WordPress Plugin](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/) is free to install and puts you directly on our **Free plan**. The Free plan allows up to 100 quiz responses per month without any charges but has a “Powered by RevenueHunt” branding. If your usage exceeds the Free plan, you’ll be asked to upgrade to a Basic plan which is billed monthly.
+
+The [WooCommerce extension](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/) requires a yearly subscription (29$/year) to install the app and puts you on a **Starter Plan**. The Starter Plan allows up to 250 quiz responses per month and has the “Powered by RevenueHunt” branding removed. If your usage exceeds the Starter plan, you’ll be asked to upgrade to a Basic plan which is billed monthly.
+
