@@ -157,5 +157,25 @@ Before you start, ensure you have:
     6. Save the changes.
     7. From now on, whenever someone clicks on the button, a quiz popup will open.
 
+
+## Popup Displays Behind Website the Header
+
+If the Quiz Popup displays behind your website header or the `X` closing button is not visible it's likely that your website's header has an unusually high z-index. This is not something that can be fixed from the app's end but rather from your website's end.
+
+Here's what you can do:
+
+- **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
+- **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme or an empty HTML/custom liquid block on the page where the quiz popup is shown. Here's a sample code:
+    ```html
+    <style>
+    .rh-widget span {
+    top: 150px !important;
+    }
+    </style>
+    ```
+- **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+
+
+
 ---
 You've successfully set up a Quiz Link Popup on your eCommerce store. Don’t forget to click on the “Save” button so the changes are reflected in your store.
