@@ -158,7 +158,7 @@ Before you start, ensure you have:
     7. From now on, whenever someone clicks on the button, a quiz popup will open.
 
 
-## Popup Displays Behind Website the Header
+## Popup Displays Behind Website Header
 
 If the Quiz Popup displays behind your website header or the `X` closing button is not visible it's likely that your website's header has an unusually high z-index. This is not something that can be fixed from the app's end but rather from your website's end.
 
