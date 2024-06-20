@@ -996,6 +996,26 @@ With Block Logic you can make blocks visible or hidden based on customer's respo
 
         **Truncate description** - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
 
+        ??? question "Show custom shorter product description"
+
+            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+
+            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+
+            ![manual quiz builder shorter product description image1](/images/manual quiz builder shorter product description image1.png)
+        
+            And paste the `<!--more-->` code after the introductory blurb:
+
+            ![manual quiz builder shorter product description image2](/images/manual quiz builder shorter product description image2.png)
+
+            This should cut the description on the quiz results page:
+
+            ![manual quiz builder shorter product description image3](/images/manual quiz builder shorter product description image3.png)
+
+            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+
+
+
     - **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to sync all the product reviews with the app.
 
         !!! info
