@@ -70,7 +70,7 @@ To deploy this method, you can insert a script within the theme of your store's 
 
 1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, you'll have to deactivate it and publish the changes.
 2. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
-3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located:
+3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
     ```html
     <script>
     function prqQuizCallback(quizResponse){
