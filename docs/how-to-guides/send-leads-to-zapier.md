@@ -25,6 +25,21 @@ It’s quite simple to set up:
 6. In the Zapier interface, search for "RevenueHunt" (or the quiz platform you're using) and select the version 1.1.1.
 7. Follow the on-screen instructions to continue building your Zap. This process will involve selecting the specific actions and triggers that match how you want your quiz data to be handled.
 
+**OR**
+
+Set up the connection via Zapier:
+
+1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
+![send leads to zapier connect1](/images/send leads to zapier connect1.png)
+2. Select Revenuehunt from the App list.
+![send leads to zapier connect2](/images/send leads to zapier connect2.png)
+3. **Copy API Key** Copy your API Key from the Quiz Builder > Connect > Zapier tab:
+![send leads to zapier connect3](/images/send leads to zapier connect3.png)
+And paste it in the window that pops up:
+![send leads to zapier connect4](/images/send leads to zapier connect4.png)
+Confirm with `Yes, Continue to RevenueHunt`.
+4. **New Connection Added** You should see a `New Connection Added` banner. Then you can use this connection to set up your email flow.
+
 
 ## What Data is Sent to Zapier?
 During the setup, you can check the quiz data that Zapier will receive from the quiz. This includes:
