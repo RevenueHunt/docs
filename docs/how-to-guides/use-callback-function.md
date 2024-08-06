@@ -85,5 +85,83 @@ For a practical demonstration of the callback function at work, visit the demo s
 
 ![how use callback function example](/images/how use callback function example.png)
 
+
+## Making sense of the Callback’s JSON Object
+
+You will find some of the most important data points on the object within the following locations:
+
+### General Data
+
+![how to callback image1](/images/how to callback image1.png)
+
+On the Quiz section, you will find the following entries:
+
+- **Attributes**: You can find most of the quiz information within this object. Some interesting data points include:
+- **ID**: You can see/copy the ID of the quiz here.
+- **Type**: Quiz
+
+### ⤵ Attributes Object
+
+![how to callback image2](/images/how to callback image2.png)
+
+!!! note
+
+    Some of the data points have more properties than others, for example, logic, messages, preferences…
+
+- **Logic**: The conditional logic rules you’ve used on the quiz slides.
+- **Messages**: The text contained within buttons (for example, proceed to cart or see product).
+- **Name**: Name of the Quiz.
+- **Preferences**: The preferences/settings of the Quiz.
+- **⤵ Results**: One of the composite objects. Here you will find the result’s page blocks:
+  ![how to callback image3](/images/how to callback image3.png)
+  
+    One entry in the data array for each block you add:
+    ![how to callback image4](/images/how to callback image4.png)
+
+- **⤵ Slides**: One of the most interesting sections:
+  ![how to callback image5](/images/how to callback image5.png)
+
+    In here, you will find “data”, which contains each of the slides, or questions, you’re using. On each of the slide objects, you can find all the information related to it:
+    ![how to callback image6](/images/how to callback image6.png)
+    
+    ID of the slide and the **⤵ attribute** object with more data. 
+    
+    Let’s open the **⤵ attributes** to better understand which information is contained in it:
+    ![how to callback image7](/images/how to callback image7.png)
+
+    **⤵ Slides >  ⤵ attributes**
+
+    - **Choices**: You can find all the possible choices a respondent can choose here.
+    - **Description**: If you [add a description](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings) to your slide (`question settings → Show description`), you will see your text here.
+    - **Preferences**: All preferences related to how your respondents select your choices.
+    - **Slide type**: The type of slide.
+    - **Title**: The text you’ve written as the title of the slide.
+    - **Validations**: More settings of the question, such as if it's an optional question or not, and how many items/choices they were allowed to select.
+    - **Values**: One of the most important data points, **which answers were selected**. You will note they’re expressed in IDs.
+
+!!! question "How to Know Which Choice the ID(s) Represent?"
+
+    You can simply make a test response, see what option you selected, and jot down the IDs of each response that way. An alternative would be to inspect the element of the choice to see the ID:
+    ![how to callback image8](/images/how to callback image8.png)
+
+    *The ID of this one is `36HzG42` - just take the number after `#choice-[your ID here]`.*
+
+- **⤵ Theme**
+
+  On the Theme, you will find all attributes of the quiz look & feel:
+
+  - **Background Image**: (if you added one) and its opacity.
+  - **Colors**: The colors used throughout the quiz.
+  - **Custom CSS**: If you’ve done so; custom fonts will appear here.
+  - **Font**: The main font being used (or fallback if there’s an issue with your custom-embedded font).
+  - **Name**: Name of the theme used.
+
+![how to callback image9](/images/how to callback image9.png)
+
+More information and data points are available throughout the callback function. You or your developer can also copy the object and paste it into their preferred software for visualizing JSON objects for more clarity and organization.
+
+
+
+
 ---
 By following the steps outlined in this guide, you can effectively tap into quiz responses, offering personalized content and interactions based on user inputs.
