@@ -25,8 +25,8 @@ You can freely edit the content of that section by clicking `Edit` and adding yo
 If you believe the orders tagging is not working as it should, try to following steps:
 
 1. Go to the `Connect` tab and disconnect the quiz from **Shopify Customers** and **Shopify Orders Tagging**. Then, publish the changes with the top-right `Publish` button. 
-2. Connect the quiz again to these tools and (again) publish the changes with the top-right `Publish` button. That should rest the connection.
-3. Use a different browser or incognito browsing mode to open the live quiz on their site (don't test on preview/admin.revenuehunt).
+2. Connect the quiz again to these tools and (again) publish the changes with the top-right `Publish` button. That should reset the connection.
+3. Use a different browser or incognito browsing mode to open the live quiz on your site (don't test on preview/admin.revenuehunt).
 4. Take the quiz all the way to the results, provide the same email in the quiz that will be used for checkout/placing an order. Good idea is using *yourrealemail+test1@youremail.com* for example. 
 5. Add all the products to cart and proceed to cart, then checkout.
 6. Place a valid test order (as explained [here](https://help.shopify.com/en/manual/checkout-settings/test-orders)).
