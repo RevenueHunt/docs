@@ -2,9 +2,10 @@
 
 It’s possible to know exactly which orders in your Shopify Orders tab come from the quiz.
 
-1. To activate this option navigate to the `Connect` tab in the quiz and scroll down to find `Shopify Orders Tagging (Beta)` tab.
-2. To allow the quiz to add tags and question answers to your orders, simply click `connect`.
-3. Make sure to `Publish` the quiz in the top right corner.
+1. Make sure your quiz is connected to [Shopify Customers](https://docs.revenuehunt.com/how-to-guides/send-leads-to-shopify-customers/) and that you've [enabled Order Notes](https://help.shopify.com/en/manual/online-store/themes/themes-by-shopify/vintage-themes/customizing-vintage-themes/get-more-information-with-order-notes) in your Shopify Theme.
+2. To activate Shopify Orders Tagging option navigate to the `Connect` tab in the quiz and scroll down to find `Shopify Orders Tagging (Beta)` tab.
+3. To allow the quiz to add tags and question answers to your orders, simply click `connect`.
+4. Make sure to `Publish` the quiz in the top right corner.
 
 From that moment all the orders under the Shopify Orders list will display a small `Notes` section with the tags related to the quiz.
 
@@ -17,3 +18,19 @@ You can freely edit the content of that section by clicking `Edit` and adding yo
 !!! warning
 
     Some Shopify themes disable the passing of tags to the orders. These themes should have the option to activate this feature in the theme settings manually.
+
+
+## Testing the Connection
+
+If you believe the orders tagging is not working as it should, try to following steps:
+
+1. Go to the `Connect` tab and disconnect the quiz from **Shopify Customers** and **Shopify Orders Tagging**. Then, publish the changes with the top-right `Publish` button. 
+2. Connect the quiz again to these tools and (again) publish the changes with the top-right `Publish` button. That should rest the connection.
+3. Use a different browser or incognito browsing mode to open the live quiz on their site (don't test on preview/admin.revenuehunt).
+4. Take the quiz all the way to the results, provide the same email in the quiz that will be used for checkout/placing an order. Good idea is using *yourrealemail+test1@youremail.com* for example. 
+5. Add all the products to cart and proceed to cart, then checkout.
+6. Place a valid test order (as explained [here](https://help.shopify.com/en/manual/checkout-settings/test-orders)).
+7. Check if the lead was added to **Shopify Customers** section and if it was marked with `Shop Quiz: Product Recommender` in the details.
+8. Go to **Shopify Orders** and check if the order notes appear along the test order placed. 
+
+If you're still having issues, please reach out to our [support team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
