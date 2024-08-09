@@ -20,6 +20,13 @@ You can freely edit the content of that section by clicking `Edit` and adding yo
     Some Shopify themes disable the passing of tags to the orders. These themes should have the option to activate this feature in the theme settings manually.
 
 
+!!! warning
+
+    Shopify Revenue Tracking and Orders Tagging only works if the customer adds the products to the cart directly from the quiz results page **AND** if they immediately proceed to the cart after the quiz, and then right away complete the purchase. If they purchase at a later date, this revenue will not be attributed to the quiz anymore.
+         
+    Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/).
+
+
 ## Testing the Connection
 
 If you believe the orders tagging is not working as it should, try to following steps:

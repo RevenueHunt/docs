@@ -32,6 +32,12 @@ Understanding the revenue generated from quizzes on your eCommerce store can pro
     - **Total Orders Value**: Shows the total value of all orders placed following quiz completion.
     - **Avg. Order Value**: Indicates the average value of orders placed post-quiz.
 
+    !!! warning
+
+         Shopify Revenue Tracking and Orders Tagging only works if the customer adds the products to the cart directly from the quiz results page **AND** if they immediately proceed to the cart after the quiz, and then right away complete the purchase. If they purchase at a later date, this revenue will not be attributed to the quiz anymore.
+         
+         Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/).
+
     ## Tracking Revenue with Google Analytics
 
     For a more detailed analysis you can track quiz revenue alongside other metrics with [Google Analytics](https://docs.revenuehunt.com/how-to-guides/integrate-google-analytics/).
