@@ -30,15 +30,29 @@ Every time your customers take the quiz, their contact details along with all of
 
 1. To view the imported data, navigate to the `contacts` section within HubSpot.
 2. Select any contact that has taken the quiz, and click on `view all properties` to examine the details.
-    ![how to hubspot properties1](/images/how to hubspot properties1.png)
+    ![how to hubspot properties1](/images/how to hubspot image1.png)
 3. You will find a section labeled `Product Recommendation Quiz` or similarly, depending on your quiz setup. This section houses all quiz-related data, including answers and product recommendations.
-    ![how to hubspot properties2](/images/how to hubspot properties2.png)
+    ![how to hubspot properties2](/images/how to hubspot image2.png)
 
 ## Sending Follow-up Emails with HubSpot
 
 You can now use these properties to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
 
 Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
+
+### Using Custom Quiz Properties in Email Templates
+
+To personalize your follow-up emails based on quiz data, you’ll need to pull custom properties into the email templates.
+
+- In HubSpot, navigate to `Marketing > Email > Create email`.
+- In the email editor, use the **Personalization Token** feature.
+- Click on `Insert`, then select Personalization Token from the dropdown.
+    ![how to hubspot image5](/images/how to hubspot image5.png)
+- Choose the custom quiz properties that were captured with your Product Recommendation Quiz. HubSpot will automatically replace these tokens with each contact's respective data during the email send.
+- Use the `Preview` feature to ensure that the custom properties are appearing correctly in your email.
+
+    ![how to hubspot image6](/images/how to hubspot image6.png)
+
 
 !!! info
 
