@@ -1,4 +1,4 @@
-# Dashboard
+# Dashboard - Quizzes
 
 On the dashboard, you'll find all the quizzes that you create.
 
@@ -19,6 +19,22 @@ On the dashboard, you'll find all the quizzes that you create.
     **Help** - Opens the [Success Checklist](#success-checklist).
 
     **New quiz** - Opens the [New quiz](#new-quiz) setup menu.
+
+=== "Shopify V2"
+
+    ![dashboard](/images/manual_shopifyV2_dashboard.png)
+
+    Shopify Side Menu
+
+    ![dashboard side menu](/images/manual_shopifyV2_sidemenu.png)
+
+    **Quizzes** - The dashboard of the app where you can find all the quizzes created.
+
+    **Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+
+    **Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
+
+    **Get support** - Opens the [Support]() menu.
 
 === "WooCommerce"
 
@@ -100,11 +116,51 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Notifications
 
-![dashboard notifications bar](/images/manual_notifications.png)
+=== "Shopify"
 
-**view all** - Opens a list of archived notifications.
+    ![dashboard notifications bar](/images/manual_notifications.png)
 
-**"x"** - Archives a notification.
+    **view all** - Opens a list of archived notifications.
+
+    **"x"** - Archives a notification.
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_notifications](/images/manual_shopifyV2_notifications.png)
+
+    "x" - Archives a notification.
+
+=== "WooCommerce"
+
+    ![dashboard notifications bar](/images/manual_notifications.png)
+
+    **view all** - Opens a list of archived notifications.
+
+    **"x"** - Archives a notification.
+
+=== "Magento"
+
+    ![dashboard notifications bar](/images/manual_notifications.png)
+
+    **view all** - Opens a list of archived notifications.
+
+    **"x"** - Archives a notification.
+
+=== "BigCommerce"
+
+    ![dashboard notifications bar](/images/manual_notifications.png)
+
+    **view all** - Opens a list of archived notifications.
+
+    **"x"** - Archives a notification.
+
+=== "Standalone"
+
+    ![dashboard notifications bar](/images/manual_notifications.png)
+
+    **view all** - Opens a list of archived notifications.
+
+    **"x"** - Archives a notification.
 
 ## MY QUIZZES
 
@@ -140,6 +196,55 @@ On the dashboard, you'll find all the quizzes that you create.
     **show overview** - Shows an overview of the quizzes metrics in the last 30 days.
 
     **show breakdown** - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_dafaultquiz](/images/manual_shopifyV2_dafaultquiz.png)
+
+
+    **Current Quiz** - The main quiz set up for the main Shopify market in your store.
+
+    **1 Responses** - Shows the number of responses the current default quiZ received.
+
+    **1/6 Completed tasts** - Shows the quiz building progress based on the [Success Checklist]().
+
+    **Skincare quiz (morning + night routines)** - Current quiz title. 
+
+    **Last saved: 14 October 2024, 12:09 PM** - Specifies when the last changes to the quiz were saved. 
+
+    **🌎 United Kingdom** - Specifies what market is the default for this quiz.
+
+    ![manual_shopifyV2_allquizzes](/images/manual_shopifyV2_allquizzes.png)
+
+    **All quizzes** - Displays a list of all the quizzes created with this account.
+
+    **Assigned market** - Displays a list of all the quizzes that are assigned to any market in your Shopify Markets.
+
+    **No assigned market** - Displays a list of all the quizzes that are not assigned to any market in your Shopify Markets.
+
+    **Create quiz** - Opens the [New Quiz](#new-quiz) creation menu.
+
+    **...** - Opens quiz management options.
+
+    ![manual_shopifyV2_quizmanagementoptions.png](/images/manual_shopifyV2_quizmanagementoptions.png)
+
+    - **Preview** - Opens the Quiz Preview for testing.
+    - **Quiz Settings** - Opens the [Quiz Settings]() for that quiz.
+    - **Integrations** - Opens the [Integrations]() page for that quiz.
+    - **Responses** - Opens the [Responses]() page where it's possible to view, downalod and troubleshoot response for that quiz.
+    - **Analytics** - Opens the [Metrics]() page where all the quiz analytics are stored, including quiz starts, completions and revenue.
+    - **Copy quiz ID:** - Copies the current quiz ID to clipboard.
+    - **Rename** - Allows you to rename the current quiz.
+    - **Duplicate** - Create a copy of this quiz on the dashboard.
+    - **Remove** - Deletes the current quiz.
+
+    **Publish** - Sets the quiz as current quiz and makes it the default quiz for the main show market and Shop app channel. After clickign the following message will appear:
+
+    ![manual_shopifyV2_allquizzes_publish](/images/manual_shopifyV2_allquizzes_publish.png)
+
+    Clicking `Cancel` cancels the operation. Clicking `Set as default` will confirm the action.
+
+    **Customize** - Opens the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
 
 === "WooCommerce" 
 
@@ -257,11 +362,49 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Tips & Tricks
 
-Displays useful tips and tricks for building a better quiz.
+=== "Shopify"
 
-![dashboard tips](/images/manual_dashboard_tips.png)
+    Displays useful tips and tricks for building a better quiz.
 
-**view all** - Opens archived tips.
+    ![dashboard tips](/images/manual_dashboard_tips.png)
+
+    **view all** - Opens archived tips.
+
+=== "Shopify V2"
+
+    ---
+
+=== "WooCommerce"
+
+    Displays useful tips and tricks for building a better quiz.
+
+    ![dashboard tips](/images/manual_dashboard_tips.png)
+
+    **view all** - Opens archived tips.
+
+=== "Magento"
+
+    Displays useful tips and tricks for building a better quiz.
+
+    ![dashboard tips](/images/manual_dashboard_tips.png)
+
+    **view all** - Opens archived tips.
+
+=== "Bigcommerce"
+
+    Displays useful tips and tricks for building a better quiz.
+
+    ![dashboard tips](/images/manual_dashboard_tips.png)
+
+    **view all** - Opens archived tips.
+
+=== "Standalone"
+
+    Displays useful tips and tricks for building a better quiz.
+
+    ![dashboard tips](/images/manual_dashboard_tips.png)
+
+    **view all** - Opens archived tips.
 
 ## Success Checklist
 
@@ -282,6 +425,10 @@ Displays useful tips and tricks for building a better quiz.
     ![dashbaord success checklist sync app](/images/manual_success_checklist_sync.png){width="500"}
 
     **run manual sync** - Starts a full sync of your product catalog. The sync takes about 30 - 60 minutes to complete. If your store has more than 3,000 product variants, the sync can take longer. Please note that a full sync of your catalog is done every 24 hours.
+
+=== "Shopify V2"
+
+    Coming soon
 
 === "WooCommerce"
 
@@ -379,18 +526,130 @@ Displays useful tips and tricks for building a better quiz.
 
 ## New Quiz
 
-![new quiz page](/images/manual_standalone_newquiz.png)
+=== "Shopify"
 
-**start with an empty quiz** - Choose this if you want to start with an empty quiz. Once clicked, a popup will show asking you to name the quiz (the name can be changed later in Quiz Settings).
+    ![new quiz page](/images/manual_standalone_newquiz.png)
 
-![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
+    **start with an empty quiz** - Choose this if you want to start with an empty quiz. Once clicked, a popup will show asking you to name the quiz (the name can be changed later in Quiz Settings).
 
-**import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-**Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
-![new quiz add quiz from a template](/images/manual_newquiz_template.png){width="500"}
+    **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
 
-**live preview** - Opens a live preview of the quiz templates.
+    ![new quiz add quiz from a template](/images/manual_newquiz_template.png){width="500"}
 
-**use this template** - Adds the template to your dashboard. 
+    **live preview** - Opens a live preview of the quiz templates.
+
+    **use this template** - Adds the template to your dashboard. 
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_createquiz.png](/images/manual_shopifyV2_createquiz.png)
+
+    **Create quiz**
+
+    **From scratch** - Start with a blank quiz. A popup will show asking for the Quiz name.
+
+    ![manual_shopifyV2_createquiz_fromscratch](/images/manual_shopifyV2_createquiz_fromscratch.png)
+
+    Click `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new blank quiz.
+
+    ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png)
+
+    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder]() of the new blank quiz.
+
+    **From template**  - Start a new quiz by selecting a pre-made template and color scheme.
+
+    Select from one of our quiz templates
+
+    Click `Select` to confirm the tempalte choice, `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new quiz.
+
+    ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png)
+
+    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder]() of the new quiz.
+
+    **Import quiz** - Import a quiz by pasting the quiz JSON in the popup.
+
+    ![manual_shopifyV2_createquiz_importquiz](/images/manual_shopifyV2_createquiz_importquiz.png)
+
+    Click `Cancel` to return to the Quizzes or `Import` to open the new quiz.
+
+    !!! note
+
+        For instructions no how to export/import a quiz from one store to another in a JSON format, please check [this guide]().
+
+
+
+=== "WooCommerce"
+
+    ![new quiz page](/images/manual_standalone_newquiz.png)
+
+    **start with an empty quiz** - Choose this if you want to start with an empty quiz. Once clicked, a popup will show asking you to name the quiz (the name can be changed later in Quiz Settings).
+
+    ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
+
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
+
+    ![new quiz add quiz from a template](/images/manual_newquiz_template.png){width="500"}
+
+    **live preview** - Opens a live preview of the quiz templates.
+
+    **use this template** - Adds the template to your dashboard. 
+
+=== "Magento"
+
+    ![new quiz page](/images/manual_standalone_newquiz.png)
+
+    **start with an empty quiz** - Choose this if you want to start with an empty quiz. Once clicked, a popup will show asking you to name the quiz (the name can be changed later in Quiz Settings).
+
+    ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
+
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
+
+    ![new quiz add quiz from a template](/images/manual_newquiz_template.png){width="500"}
+
+    **live preview** - Opens a live preview of the quiz templates.
+
+    **use this template** - Adds the template to your dashboard. 
+
+=== "BigCommerce"
+
+    ![new quiz page](/images/manual_standalone_newquiz.png)
+
+    **start with an empty quiz** - Choose this if you want to start with an empty quiz. Once clicked, a popup will show asking you to name the quiz (the name can be changed later in Quiz Settings).
+
+    ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
+
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
+
+    ![new quiz add quiz from a template](/images/manual_newquiz_template.png){width="500"}
+
+    **live preview** - Opens a live preview of the quiz templates.
+
+    **use this template** - Adds the template to your dashboard. 
+
+=== "Standalone"
+
+    ![new quiz page](/images/manual_standalone_newquiz.png)
+
+    **start with an empty quiz** - Choose this if you want to start with an empty quiz. Once clicked, a popup will show asking you to name the quiz (the name can be changed later in Quiz Settings).
+
+    ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
+
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
+
+    ![new quiz add quiz from a template](/images/manual_newquiz_template.png){width="500"}
+
+    **live preview** - Opens a live preview of the quiz templates.
+
+    **use this template** - Adds the template to your dashboard. 
