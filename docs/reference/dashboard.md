@@ -206,7 +206,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     **1 Responses** - Shows the number of responses the current default quiZ received.
 
-    **1/6 Completed tasts** - Shows the quiz building progress based on the [Success Checklist]().
+    **1/6 Completed tasts** - Shows the quiz building progress based on the [Success Checklist](#success-checklist).
 
     **Skincare quiz (morning + night routines)** - Current quiz title. 
 
@@ -229,10 +229,10 @@ On the dashboard, you'll find all the quizzes that you create.
     ![manual_shopifyV2_quizmanagementoptions.png](/images/manual_shopifyV2_quizmanagementoptions.png)
 
     - **Preview** - Opens the Quiz Preview for testing.
-    - **Quiz Settings** - Opens the [Quiz Settings]() for that quiz.
-    - **Integrations** - Opens the [Integrations]() page for that quiz.
-    - **Responses** - Opens the [Responses]() page where it's possible to view, downalod and troubleshoot response for that quiz.
-    - **Analytics** - Opens the [Metrics]() page where all the quiz analytics are stored, including quiz starts, completions and revenue.
+    - **Quiz Settings** - Opens the [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) for that quiz.
+    - **Integrations** - Opens the [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#share) page for that quiz.
+    - **Responses** - Opens the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) page where it's possible to view, downalod and troubleshoot response for that quiz.
+    - **Analytics** - Opens the [Metrics](https://docs.revenuehunt.com/reference/quiz-builder/#analytics) page where all the quiz analytics are stored, including quiz starts, completions and revenue.
     - **Copy quiz ID:** - Copies the current quiz ID to clipboard.
     - **Rename** - Allows you to rename the current quiz.
     - **Duplicate** - Create a copy of this quiz on the dashboard.
@@ -428,7 +428,13 @@ On the dashboard, you'll find all the quizzes that you create.
 
 === "Shopify V2"
 
-    Coming soon
+    ![manual_shopifyV2_successchecklist](/images/manual_shopifyV2_successchecklist.png)
+
+    Success checklist guides you through every step of creating and optimizing your quiz for maximum results. From setting up tailored product recommendations to collecting leads and promoting your quiz, follow these tasks to ensure you're making the most out of your quiz.
+
+    Red counter `🔴` informs you about tasks from the list that still need to be completed.
+
+    Click the `checkmark ⃝` to mark the task as completed or click the `archive icon 🗂️` to ignore a specific check.
 
 === "WooCommerce"
 
@@ -556,19 +562,19 @@ On the dashboard, you'll find all the quizzes that you create.
 
     Click `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new blank quiz.
 
-    ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png)
+    ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="500"}
 
-    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder]() of the new blank quiz.
+    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) of the new blank quiz.
 
     **From template**  - Start a new quiz by selecting a pre-made template and color scheme.
 
-    Select from one of our quiz templates
+    (Select from one of our quiz templates)
 
     Click `Select` to confirm the tempalte choice, `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new quiz.
 
-    ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png)
+    ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="500"}
 
-    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder]() of the new quiz.
+    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) of the new quiz.
 
     **Import quiz** - Import a quiz by pasting the quiz JSON in the popup.
 
@@ -578,7 +584,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     !!! note
 
-        For instructions no how to export/import a quiz from one store to another in a JSON format, please check [this guide]().
+        For instructions no how to export/import a quiz from one store to another in a JSON format, please check [this guide](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
 
 
