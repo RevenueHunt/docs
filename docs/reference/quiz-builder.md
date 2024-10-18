@@ -46,6 +46,62 @@
 
     **Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
 
+    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+
+    **Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+
+    **Link Collections** - Opens the [Link Collections](#link-collections) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+
+    **Link Products** - Opens the [Link Products](#link-products) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+
+    **Customer Tags** - Opens the [Customer Tags](#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+
+    **Conditional Logic** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder. This is where you'll create branching in your quiz.
+
+    **Quiz Design** - Opens the [Quiz Design](#quiz-design) section of the Quiz Builder. This is where you'll style your quiz.
+
+    **Results Page** - Opens the [Results Page](#results-page) section of the Quiz Builder. This is where you'll edit your results page.
+
+    **Notifications** - Opens the [Notifications](#notifications) section of the Quiz Builder. This is where you'll set up your quiz result emails.
+
+    **Quiz Settings** - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_quizbuilder](/images/manual_shopifyV2_quizbuilder.png)
+
+    Quiz Builder is composed of four sections: 
+
+    - Quiz Builder Menu
+    - Quiz Preview
+    - Questions
+    - Question Settings
+    
+    **Quiz Builder Menu**
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_menu.png)
+
+    From this menu you can switch between the following sections: 
+
+    - [Questions](#quiz-builder-1), 
+    - [Conditional logic](#conditional-logic), 
+    - [Quiz design](#quiz-design), 
+    - [Email notifications](#notifications), 
+    - [Result pages](#results-page) and 
+    - [Success checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist).
+    
+    **Quiz Preview**
+    
+    ![manual_shopifyV2_quizbuilder_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png)
+
+    All the changes that you make to your quiz will be reflected in the interactive Quiz Preview.
+
+    You can toggle between the `Desktop` and the `Mobile` quiz preview with the top menu.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector.png)
+
+    Click the `Activate Inspector` icon to switch to the active inspector mode. In this mode you can click any element of the preview to open it's [Question/Editing Settings](#question-settings).
+
 === "WooCommerce"
 
     ![manual_woo_quizbuilder](/images/manual_woo_quizbuilder.png)
@@ -80,6 +136,26 @@
 
     The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
 
+    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+
+    **Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+
+    **Link Collections** - Opens the [Link Collections](#link-collections) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+
+    **Link Products** - Opens the [Link Products](#link-products) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+
+    **Customer Tags** - Opens the [Customer Tags](#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+
+    **Conditional Logic** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder. This is where you'll create branching in your quiz.
+
+    **Quiz Design** - Opens the [Quiz Design](#quiz-design) section of the Quiz Builder. This is where you'll style your quiz.
+
+    **Results Page** - Opens the [Results Page](#results-page) section of the Quiz Builder. This is where you'll edit your results page.
+
+    **Notifications** - Opens the [Notifications](#notifications) section of the Quiz Builder. This is where you'll set up your quiz result emails.
+
+    **Quiz Settings** - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+
 === "Magento"
 
     ![manual_standalone_quizbuilder](/images/manual_standalone_quizbuilder.png)
@@ -113,6 +189,26 @@
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
     The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+
+    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+
+    **Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+
+    **Link Collections** - Opens the [Link Collections](#link-collections) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+
+    **Link Products** - Opens the [Link Products](#link-products) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+
+    **Customer Tags** - Opens the [Customer Tags](#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+
+    **Conditional Logic** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder. This is where you'll create branching in your quiz.
+
+    **Quiz Design** - Opens the [Quiz Design](#quiz-design) section of the Quiz Builder. This is where you'll style your quiz.
+
+    **Results Page** - Opens the [Results Page](#results-page) section of the Quiz Builder. This is where you'll edit your results page.
+
+    **Notifications** - Opens the [Notifications](#notifications) section of the Quiz Builder. This is where you'll set up your quiz result emails.
+
+    **Quiz Settings** - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
 
 
 === "BigCommerce"
@@ -149,6 +245,26 @@
 
     The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
 
+    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+
+    **Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+
+    **Link Collections** - Opens the [Link Collections](#link-collections) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+
+    **Link Products** - Opens the [Link Products](#link-products) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+
+    **Customer Tags** - Opens the [Customer Tags](#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+
+    **Conditional Logic** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder. This is where you'll create branching in your quiz.
+
+    **Quiz Design** - Opens the [Quiz Design](#quiz-design) section of the Quiz Builder. This is where you'll style your quiz.
+
+    **Results Page** - Opens the [Results Page](#results-page) section of the Quiz Builder. This is where you'll edit your results page.
+
+    **Notifications** - Opens the [Notifications](#notifications) section of the Quiz Builder. This is where you'll set up your quiz result emails.
+
+    **Quiz Settings** - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+
 === "Standalone"
 
     ![manual_standalone_quizbuilder](/images/manual_standalone_quizbuilder.png)
@@ -183,29 +299,28 @@
 
     The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
 
+    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+
+    **Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+
+    **Link Collections** - Opens the [Link Collections](#link-collections) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+
+    **Link Products** - Opens the [Link Products](#link-products) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+
+    **Customer Tags** - Opens the [Customer Tags](#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+
+    **Conditional Logic** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder. This is where you'll create branching in your quiz.
+
+    **Quiz Design** - Opens the [Quiz Design](#quiz-design) section of the Quiz Builder. This is where you'll style your quiz.
+
+    **Results Page** - Opens the [Results Page](#results-page) section of the Quiz Builder. This is where you'll edit your results page.
+
+    **Notifications** - Opens the [Notifications](#notifications) section of the Quiz Builder. This is where you'll set up your quiz result emails.
+
+    **Quiz Settings** - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
 
 
-![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
-
-**Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
-
-**Link Collections** - Opens the [Link Collections](#link-collections) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
-
-**Link Products** - Opens the [Link Products](#link-products) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
-
-**Customer Tags** - Opens the [Customer Tags](#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
-
-**Conditional Logic** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder. This is where you'll create branching in your quiz.
-
-**Quiz Design** - Opens the [Quiz Design](#quiz-design) section of the Quiz Builder. This is where you'll style your quiz.
-
-**Results Page** - Opens the [Results Page](#results-page) section of the Quiz Builder. This is where you'll edit your results page.
-
-**Notifications** - Opens the [Notifications](#notifications) section of the Quiz Builder. This is where you'll set up your quiz result emails.
-
-**Quiz Settings** - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
-
-## Quiz Builder
+## Quiz Builder - Questions
 
 
 === "Shopify"
@@ -214,6 +329,12 @@
 
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Preview** in the top menu.
 
+=== "Shopify V2"
+
+    **Questions**
+    
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions.png)
+    
 === "WooCommerce"
 
     ![manual_woo_quizbuilder_quizbuilder](/images/manual_woo_quizbuilder_quizbuilder.png)
@@ -241,99 +362,551 @@
 
 ### Question Types
 
-**+** / **Add new question** - Opens a menu of quiz questions to add.
+=== "Shopify"
 
-![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
+    **+** / **Add new question** - Opens a menu of quiz questions to add.
 
-**Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+    ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-**Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
+    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
 
-**Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+    **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-**Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
+    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
 
-**Yes/No** - Two choices slide which displays choices as a clickable options.
+    **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
 
-**Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    **Yes/No** - Two choices slide which displays choices as a clickable options.
 
-**Statement** - A statement slide which displays text and a button to proceed to the next question.
+    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
-**Short-text** - An open question slide that allows the user to provide a short text answer.
+    **Statement** - A statement slide which displays text and a button to proceed to the next question.
 
-**Multi-line Text** - An open question slide that allows the user to provide a short text answer.
+    **Short-text** - An open question slide that allows the user to provide a short text answer.
 
-**Date** - A question slide that prompts the user to select or enter a specific date.
+    **Multi-line Text** - An open question slide that allows the user to provide a short text answer.
 
-**File Upload** - An interactive slide where users can upload a file as their response.
+    **Date** - A question slide that prompts the user to select or enter a specific date.
 
-**Name** - A slide designed for users to enter their name, featuring a short text field.
+    **File Upload** - An interactive slide where users can upload a file as their response.
 
-**Number** -  A question type where users are prompted to input a numerical answer.
+    **Name** - A slide designed for users to enter their name, featuring a short text field.
 
-**Email Address** - A slide dedicated to collecting the user's email address through a text field.
+    **Number** -  A question type where users are prompted to input a numerical answer.
 
-**Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
+    **Email Address** - A slide dedicated to collecting the user's email address through a text field.
 
-**Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
+    **Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
+
+    **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
+
+=== "Shopify V2"
+
+    **+ Add question** - Opens a menu of quiz questions to add.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
+
+    *Choices*
+
+    **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
+
+    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+
+    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+
+    **Yes/No** - Two choices slide which displays choices as a clickable options.
+
+    **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
+
+    *Inputs*
+
+    **Short-text** - An open question slide that allows the user to provide a short text answer.
+
+    **Multi-line Text** - An open question slide that allows the user to provide a short text answer.
+
+    **Date** - A question slide that prompts the user to select or enter a specific date.
+
+    **File Upload** - An interactive slide where users can upload a file as their response.
+
+    **Number** -  A question type where users are prompted to input a numerical answer.
+
+    *Messages*
+
+    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+
+    **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
+
+    **Statement** - A statement slide which displays text and a button to proceed to the next question.
+
+    *Contact info*
+
+    **Name** - A slide designed for users to enter their name, featuring a short text field.
+
+    **Email Address** - A slide dedicated to collecting the user's email address through a text field.
+
+    **Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
+
+
+=== "WooCommerce"
+
+    **+** / **Add new question** - Opens a menu of quiz questions to add.
+
+    ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
+
+    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+
+    **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
+
+    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+
+    **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
+
+    **Yes/No** - Two choices slide which displays choices as a clickable options.
+
+    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+
+    **Statement** - A statement slide which displays text and a button to proceed to the next question.
+
+    **Short-text** - An open question slide that allows the user to provide a short text answer.
+
+    **Multi-line Text** - An open question slide that allows the user to provide a short text answer.
+
+    **Date** - A question slide that prompts the user to select or enter a specific date.
+
+    **File Upload** - An interactive slide where users can upload a file as their response.
+
+    **Name** - A slide designed for users to enter their name, featuring a short text field.
+
+    **Number** -  A question type where users are prompted to input a numerical answer.
+
+    **Email Address** - A slide dedicated to collecting the user's email address through a text field.
+
+    **Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
+
+    **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
+
+
+=== "Magento"
+
+    **+** / **Add new question** - Opens a menu of quiz questions to add.
+
+    ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
+
+    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+
+    **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
+
+    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+
+    **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
+
+    **Yes/No** - Two choices slide which displays choices as a clickable options.
+
+    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+
+    **Statement** - A statement slide which displays text and a button to proceed to the next question.
+
+    **Short-text** - An open question slide that allows the user to provide a short text answer.
+
+    **Multi-line Text** - An open question slide that allows the user to provide a short text answer.
+
+    **Date** - A question slide that prompts the user to select or enter a specific date.
+
+    **File Upload** - An interactive slide where users can upload a file as their response.
+
+    **Name** - A slide designed for users to enter their name, featuring a short text field.
+
+    **Number** -  A question type where users are prompted to input a numerical answer.
+
+    **Email Address** - A slide dedicated to collecting the user's email address through a text field.
+
+    **Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
+
+    **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
+
+
+=== "BigCommerce"
+
+    **+** / **Add new question** - Opens a menu of quiz questions to add.
+
+    ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
+
+    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+
+    **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
+
+    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+
+    **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
+
+    **Yes/No** - Two choices slide which displays choices as a clickable options.
+
+    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+
+    **Statement** - A statement slide which displays text and a button to proceed to the next question.
+
+    **Short-text** - An open question slide that allows the user to provide a short text answer.
+
+    **Multi-line Text** - An open question slide that allows the user to provide a short text answer.
+
+    **Date** - A question slide that prompts the user to select or enter a specific date.
+
+    **File Upload** - An interactive slide where users can upload a file as their response.
+
+    **Name** - A slide designed for users to enter their name, featuring a short text field.
+
+    **Number** -  A question type where users are prompted to input a numerical answer.
+
+    **Email Address** - A slide dedicated to collecting the user's email address through a text field.
+
+    **Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
+
+    **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
+
+
+=== "Standalone"
+
+    **+** / **Add new question** - Opens a menu of quiz questions to add.
+
+    ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
+
+    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+
+    **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
+
+    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+
+    **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
+
+    **Yes/No** - Two choices slide which displays choices as a clickable options.
+
+    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+
+    **Statement** - A statement slide which displays text and a button to proceed to the next question.
+
+    **Short-text** - An open question slide that allows the user to provide a short text answer.
+
+    **Multi-line Text** - An open question slide that allows the user to provide a short text answer.
+
+    **Date** - A question slide that prompts the user to select or enter a specific date.
+
+    **File Upload** - An interactive slide where users can upload a file as their response.
+
+    **Name** - A slide designed for users to enter their name, featuring a short text field.
+
+    **Number** -  A question type where users are prompted to input a numerical answer.
+
+    **Email Address** - A slide dedicated to collecting the user's email address through a text field.
+
+    **Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
+
+    **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
+
 
 ### Question Settings
 
-![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
+=== "Shopify"
 
-**question settings** / **wrench icon** - Opens the Question Settings menu.
+    ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
 
-![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
+    **question settings** / **wrench icon** - Opens the Question Settings menu.
 
-- **Question Type** - Allows you to switch between similar question types.
+    ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
 
-- **Button Text** - Change the text button on the slide.
+    - **Question Type** - Allows you to switch between similar question types.
 
-- **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/).
+    - **Button Text** - Change the text button on the slide.
 
-- **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/).
 
-- **Optional** - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
+    - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
-- **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
+    - **Optional** - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
 
-    - **Range** - Select the range of answers a cusotmer can cliced.
+    - **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
 
-- **Image** - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
+        - **Range** - Select the range of answers a cusotmer can cliced.
 
-    - **above** - Places the uplaoded image above the question, on top of the slide.
+    - **Image** - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
+
+        - **above** - Places the uplaoded image above the question, on top of the slide.
+        
+        - **below** - Places the uplaoded image below the question, above the choices.
+
+        - **background** - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+
+        - **split** - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+
+        - **Image Opacity** - A slider which allows to adjust the opacity of the uplaoded image.
+
+    - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+
+        - **responsive** - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
+
+        - **widget** - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
+
+        - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
+
+        - **Video Opacity** - A slider which allows to adjust the opacity of the uplaoded video.
+
+    - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+
+    - **Question ID** - Displays the question unique ID.
+
+    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
+
+    **more options** / **...** - Opens more options menu.
+
+    ![quiz builder question settings more options](/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png){width="300"}
+
+    - **+ add question below** - Adds a new blank question of the same type below.
+    - **Duplicate** - Duplicate this slide. Creates a copy slide below.
+    - **Delete** - Delete this slide. 
+
+=== "Shopify V2"
+
+    **Question Settings Menu**
+
+    This menu changes depending on the element you are currently editing.
     
-    - **below** - Places the uplaoded image below the question, above the choices.
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
+    
+    All the Questions that you add to the quiz will be shown on the Preview. 
+    
+    To test the whole quiz go back to the [Dashboard]() and click `Preview` from the Quiz `...` menu.
 
-    - **background** - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
 
-    - **split** - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+=== "WooCommerce"
 
-    - **Image Opacity** - A slider which allows to adjust the opacity of the uplaoded image.
+    ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
 
-- **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+    **question settings** / **wrench icon** - Opens the Question Settings menu.
 
-    - **responsive** - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
+    ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
 
-    - **widget** - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
+    - **Question Type** - Allows you to switch between similar question types.
 
-    - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
+    - **Button Text** - Change the text button on the slide.
 
-    - **Video Opacity** - A slider which allows to adjust the opacity of the uplaoded video.
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/).
 
-- **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+    - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
-- **Question ID** - Displays the question unique ID.
+    - **Optional** - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
 
-**conditonal logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
+    - **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
 
-**more options** / **...** - Opens more options menu.
+        - **Range** - Select the range of answers a cusotmer can cliced.
 
-![quiz builder question settings more options](/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png){width="300"}
+    - **Image** - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-- **+ add question below** - Adds a new blank question of the same type below.
-- **Duplicate** - Duplicate this slide. Creates a copy slide below.
-- **Delete** - Delete this slide. 
+        - **above** - Places the uplaoded image above the question, on top of the slide.
+        
+        - **below** - Places the uplaoded image below the question, above the choices.
+
+        - **background** - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+
+        - **split** - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+
+        - **Image Opacity** - A slider which allows to adjust the opacity of the uplaoded image.
+
+    - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+
+        - **responsive** - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
+
+        - **widget** - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
+
+        - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
+
+        - **Video Opacity** - A slider which allows to adjust the opacity of the uplaoded video.
+
+    - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+
+    - **Question ID** - Displays the question unique ID.
+
+    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
+
+    **more options** / **...** - Opens more options menu.
+
+    ![quiz builder question settings more options](/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png){width="300"}
+
+    - **+ add question below** - Adds a new blank question of the same type below.
+    - **Duplicate** - Duplicate this slide. Creates a copy slide below.
+    - **Delete** - Delete this slide. 
+
+=== "Magento"
+
+    ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
+
+    **question settings** / **wrench icon** - Opens the Question Settings menu.
+
+    ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
+
+    - **Question Type** - Allows you to switch between similar question types.
+
+    - **Button Text** - Change the text button on the slide.
+
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/).
+
+    - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+
+    - **Optional** - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
+
+    - **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
+
+        - **Range** - Select the range of answers a cusotmer can cliced.
+
+    - **Image** - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
+
+        - **above** - Places the uplaoded image above the question, on top of the slide.
+        
+        - **below** - Places the uplaoded image below the question, above the choices.
+
+        - **background** - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+
+        - **split** - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+
+        - **Image Opacity** - A slider which allows to adjust the opacity of the uplaoded image.
+
+    - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+
+        - **responsive** - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
+
+        - **widget** - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
+
+        - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
+
+        - **Video Opacity** - A slider which allows to adjust the opacity of the uplaoded video.
+
+    - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+
+    - **Question ID** - Displays the question unique ID.
+
+    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
+
+    **more options** / **...** - Opens more options menu.
+
+    ![quiz builder question settings more options](/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png){width="300"}
+
+    - **+ add question below** - Adds a new blank question of the same type below.
+    - **Duplicate** - Duplicate this slide. Creates a copy slide below.
+    - **Delete** - Delete this slide. 
+
+=== "BigCommerce"
+
+    ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
+
+    **question settings** / **wrench icon** - Opens the Question Settings menu.
+
+    ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
+
+    - **Question Type** - Allows you to switch between similar question types.
+
+    - **Button Text** - Change the text button on the slide.
+
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/).
+
+    - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+
+    - **Optional** - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
+
+    - **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
+
+        - **Range** - Select the range of answers a cusotmer can cliced.
+
+    - **Image** - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
+
+        - **above** - Places the uplaoded image above the question, on top of the slide.
+        
+        - **below** - Places the uplaoded image below the question, above the choices.
+
+        - **background** - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+
+        - **split** - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+
+        - **Image Opacity** - A slider which allows to adjust the opacity of the uplaoded image.
+
+    - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+
+        - **responsive** - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
+
+        - **widget** - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
+
+        - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
+
+        - **Video Opacity** - A slider which allows to adjust the opacity of the uplaoded video.
+
+    - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+
+    - **Question ID** - Displays the question unique ID.
+
+    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
+
+    **more options** / **...** - Opens more options menu.
+
+    ![quiz builder question settings more options](/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png){width="300"}
+
+    - **+ add question below** - Adds a new blank question of the same type below.
+    - **Duplicate** - Duplicate this slide. Creates a copy slide below.
+    - **Delete** - Delete this slide. 
+
+=== "Standalone"
+
+    ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
+
+    **question settings** / **wrench icon** - Opens the Question Settings menu.
+
+    ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
+
+    - **Question Type** - Allows you to switch between similar question types.
+
+    - **Button Text** - Change the text button on the slide.
+
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/).
+
+    - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+
+    - **Optional** - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
+
+    - **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
+
+        - **Range** - Select the range of answers a cusotmer can cliced.
+
+    - **Image** - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
+
+        - **above** - Places the uplaoded image above the question, on top of the slide.
+        
+        - **below** - Places the uplaoded image below the question, above the choices.
+
+        - **background** - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+
+        - **split** - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+
+        - **Image Opacity** - A slider which allows to adjust the opacity of the uplaoded image.
+
+    - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+
+        - **responsive** - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
+
+        - **widget** - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
+
+        - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
+
+        - **Video Opacity** - A slider which allows to adjust the opacity of the uplaoded video.
+
+    - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+
+    - **Question ID** - Displays the question unique ID.
+
+    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
+
+    **more options** / **...** - Opens more options menu.
+
+    ![quiz builder question settings more options](/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png){width="300"}
+
+    - **+ add question below** - Adds a new blank question of the same type below.
+    - **Duplicate** - Duplicate this slide. Creates a copy slide below.
+    - **Delete** - Delete this slide. 
 
 ## Link Collections / Link Categories
 
