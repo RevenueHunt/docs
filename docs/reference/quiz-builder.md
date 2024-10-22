@@ -102,6 +102,10 @@
 
     Click the `Activate Inspector` icon to switch to the active inspector mode. In this mode you can click any element of the preview to open it's [Question/Editing Settings](#question-settings).
 
+    !!! note
+    
+        To test the whole quiz go back to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/) and click `Preview` from the Quiz `...` menu.
+
 === "WooCommerce"
 
     ![manual_woo_quizbuilder](/images/manual_woo_quizbuilder.png)
@@ -335,6 +339,18 @@
     
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions.png)
     
+    **+ Add choice** - Adds an extra choice in muliple-choice questions.
+
+    **+Add block** - Adds an extra building block to the quiz question.
+    
+    !!! note
+
+        All block elements added to a question will be visible on a single slide. To add a new slide click `+ Add question`.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes.png)
+
+    **+ Add question** - Opens a menu of quiz questions to add as a new slide.
+
 === "WooCommerce"
 
     ![manual_woo_quizbuilder_quizbuilder](/images/manual_woo_quizbuilder_quizbuilder.png)
@@ -664,17 +680,39 @@
     - **Delete** - Delete this slide. 
 
 === "Shopify V2"
-
-    **Question Settings Menu**
-
-    This menu changes depending on the element you are currently editing.
     
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
-    
-    All the Questions that you add to the quiz will be shown on the Preview. 
-    
-    To test the whole quiz go back to the [Dashboard]() and click `Preview` from the Quiz `...` menu.
 
+    **...** - Opens the question management settings. Click `Duplicate` to duplicate the question or `Remove` to delete it.
+
+    **Background image** - Click `Select image` and then in the popup `Add image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
+    
+    Once uploaded click `Change`to change the image or `Remove` to remove it. 
+
+    **Background postion** - Place the image as a background or split the screen in half with the image. 
+    **Background opacity** - Use the slider to change opacity percentage of the uplaoded image.
+
+    **Custom CSS code** -  Expand to add your own custom CSS code to this section only. 
+
+    !!! note
+
+        To add custom CSS code to your entire quiz, go to [quiz design](#quiz-design).
+
+    **Custom JS code** - Expand to add your own custom JavaScript code to this section only. 
+
+    **Advanced settings** - Expand to see advanced settings.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings.png)
+
+    **Allow overwrite progress bar** - Check to be able to overwrite the default "% complete" progress bar text for this question.
+
+    **Question ID** - Displays the question ID of the selected question.
+
+    **Block Settings**
+
+    ![]()
 
 === "WooCommerce"
 
@@ -907,6 +945,65 @@
     - **+ add question below** - Adds a new blank question of the same type below.
     - **Duplicate** - Duplicate this slide. Creates a copy slide below.
     - **Delete** - Delete this slide. 
+
+
+### Block Settings
+
+=== "Shopify"
+
+
+=== "Shopify V2"
+
+    Each buliding block of your question has individual block settings.
+
+    **Heading** - Adds a heading block to your question.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png)
+
+    Text box allows you to `bold`, `cursive`, `underline` or `strikethrough` your text as well as `add links` and `pContent dynamic source` (recall information from other parts of the quiz).
+
+    `Heading size` and  `Heading alignment` can also be changed in block settings.
+
+    **Text** - Adds a text block to your question.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png)
+
+    Text box allows you to `bold`, `cursive`, `underline` or `strikethrough` your text as well as `add links` and `Content dynamic source` (recall information from other parts of the quiz).
+
+    `Text size` and  `Alignment` can also be changed in block settings.
+
+    **Button settings** - Adds a button to your question.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
+
+    **Button text** - Change the defualt button text. 
+
+    **Button Alignment** - Move the button left, right or center.
+
+    **Image** - Adds an image block to the question. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png)
+
+    Click `Select image` to upload an image from your computer or pick one from your in-app image gallery. Once uploaded, click `Change` to replace the image or `Remove` to delete it. 
+
+    You can adjust the image size in the `Image height`dropdown. 
+
+    `Image Alignment` changes the alignement of the image left, right or center.
+    
+
+=== "WooCommerce"
+
+
+=== "Magento"
+
+
+=== "BigCommerce"
+
+
+=== "Standalone"
+
+
+
 
 ## Link Collections / Link Categories
 
