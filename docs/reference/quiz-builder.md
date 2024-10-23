@@ -954,9 +954,9 @@
 
 === "Shopify V2"
 
-    Each buliding block of your question has individual block settings.
+    Each buliding block of your question has individual block settings. 
 
-    **Heading** - Adds a heading block to your question.
+    **● Heading** - Adds a heading block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png)
 
@@ -964,7 +964,7 @@
 
     `Heading size` and  `Heading alignment` can also be changed in block settings.
 
-    **Text** - Adds a text block to your question.
+    **● Text** - Adds a text block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png)
 
@@ -972,15 +972,15 @@
 
     `Text size` and  `Alignment` can also be changed in block settings.
 
-    **Button settings** - Adds a button to your question.
+    **● Button** - Adds a button to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
 
-    **Button text** - Change the defualt button text. 
+    *Button text* - Change the defualt button text. 
 
-    **Button Alignment** - Move the button left, right or center.
+    *Button Alignment* - Move the button left, right or center.
 
-    **Image** - Adds an image block to the question. 
+    **● Image** - Adds an image block to the question. 
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png)
 
@@ -989,7 +989,105 @@
     You can adjust the image size in the `Image height`dropdown. 
 
     `Image Alignment` changes the alignement of the image left, right or center.
-    
+
+    **● Multiple Choice ● Dropdown ● Yes/No ● Legal/GDPR**
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice.png)
+
+    *Choice type* - Switch between multiple choice, dropdown, pictures, yes/no & legal/GDPR choices for this block.
+
+    *Allow multiple selection* - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.
+
+    *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    **● Picture choice**
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
+
+    *Choice type* - Switch between multiple choice, dropdown, pictures, yes/no & legal/GDPR choices for this block.
+
+    *Allow multiple selection* - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.
+
+    *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Advanced settings* - Opens the advanced choice settings menu.
+
+    *Picture size/ratio* - Choose the picture size for this block. Choose between Tiny icon (24px), Small icon (48px), Medium (1:1) or Large (4:3) picture size.
+
+    *Hide checkbox/radio* - When checked hides the checkbox element from picture choices.
+
+    *Hide image label* - when checked hides the text below each picture choice.
+
+    **● Short text ● Long text** - Adds an open-text question to this block.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext.png)
+
+    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+
+    *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Minimum length* - set a minimum number of characters required in this question answer.
+
+    *Maximum length* - set a maximum number of characters required in this question answer.
+
+    **● Date** - Adds a date question to this block.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date.png)
+
+    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+
+    *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    **● Number** - Adds a numerical question to this block.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number.png)
+
+    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+
+    *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Minimum range* - the minimum number value that can be entered.
+
+    *Maximum range* - the maximum number value that can be entered.
+
+    **● Email** - Adds an email input question to this block.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png)
+
+    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+
+    *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+ 
+    **● Name** - Adds an name input question to this block.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name.png)
+
+    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+
+    *Name* - Select whether you want to ask for the Full Name, First Name or Last Name.
+
+    *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Minimum length* - set a minimum number of characters required in this question answer.
+
+    *Maximum length* - set a maximum number of characters required in this question answer.
+
+    **● File Upload** - Adds a file upload question to this block.
+
+    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+
+    *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    **● Phone number** - Adds a phone number question to this block.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber.png)
+
+    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+
+    *Default Country Code* - Select a default contry code from the dropdown list.
+
+    *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
 
 === "WooCommerce"
 
@@ -1003,6 +1101,62 @@
 === "Standalone"
 
 
+
+### Choice Settings
+
+=== "Shopify"
+
+
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+
+    **Choice label** - Text that's visible on the choice.
+
+    **Choice image** - Shows the image displayed in this picture choice. CLick `Select image` to upload an image for this choice or choose from the in-app image gallery.
+
+    **Upvotes weighting** - Sets a default weight of this choice. If the weight is set to 2, all the upvoted products will receive x2 (double) votes from this choice.
+
+    **Upvotes** - lists all the products, product varaints, collections, tags, variants collections or vendors that are linked to this choice.
+
+    **▼Upvote** - Click to choose an item to upvote. You can upvote individual products, product varaints or entire collections, tags, variants collections or vendors to a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be linked to this choice.
+
+    **Exclude** - lists all the products, product varaints, collections, tags, variants collections or vendors that are excluded in this choice.
+
+    **▼Exclude** - Click to choose an item to exclude. You can exclude individual products, product varaints or entire collections, tags, variants collections or vendors from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+
+    In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
+
+    **Customer tags** - When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM. Click `Search tags` to pick a tag to link to this choice or start typing the name to create a new tag. Confimr with `Add tag`. All the tags you create will be visible at the bottom in grey.
+
+    **Advanced settings** - Opens the advanced choice settings menu.
+
+    *Regular choice* - Regular choice type.
+
+    *None of the above* - If the choice is this type and it is selected, it will disable all the other choices.
+
+    *All of the above* - If the choice is this type and it is selected, it will autoamtically select all the choices in that question.
+
+
+=== "WooCommerce"
+
+
+
+=== "Magento"
+
+
+
+
+=== "BigCommerce"
+
+
+
+
+=== "Standalone"
+
+
+    
 
 
 ## Link Collections / Link Categories
@@ -1036,6 +1190,42 @@
     Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the resutls page, even if they were upvoted in another choice earlier/later.
 
     **Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+
+
+=== "Shopify V2"
+
+    !!! note
+
+        In V2 of the Shop Quiz: Product Recommender app for Shopify you can not only upvote by also recommend entire collections to the customer.
+
+    To add link collections of products to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
+
+    Next chose the weight of this choice:
+
+    **Upvotes weighting** - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products from a collections will receive x2 (double) votes from this choice.
+
+    And use the Upvotes section to choose which collections to link to this choice:
+
+    **Upvotes** - lists all the collections, tags, variants collections or vendors that are linked to this choice.
+
+    **▼Upvote** - Click `▼Upvote` to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. Once selected a popup will show allowing you to select items (collections, tags, varaints, vendors) from your Shopify catalog to be linked to this choice.
+
+    **Exclude** - lists all the products, product varaints, collections, tags, variants collections or vendors that are excluded in this choice.
+
+    **▼Exclude** - Click to choose an item to exclude. You can exclude entire collections, tags, variants collections or vendors from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+
+    !!! warning
+
+        Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_select](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_select.png)
+
+    In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_selected](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_selected.png)
+
 
 === "WooCommerce"
 
@@ -1191,6 +1381,38 @@
 
     **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
 
+=== "Shopify V2"
+
+    To add link products or product variants to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
+
+    Next chose the weight of this choice:
+
+    **Upvotes weighting** - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products upvoted will receive x2 (double) votes from this choice.
+
+    And use the Upvotes section to choose which products or varaints to link to this choice:
+
+    **Upvotes** - lists all the collections, tags, variants collections or vendors that are linked to this choice.
+
+    **▼Upvote** - Click `▼Upvote` to choose an item to upvote. You can upvote products or product variants to a choice. Once selected a popup will show allowing you to select items (product. product variants) from your Shopify catalog to be linked to this choice.
+
+    **Exclude** - lists all the products, product varaints that are excluded in this choice.
+
+    **▼Exclude** - Click to choose an item to exclude. You can exclude individual products, product varaints from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+
+    !!! warning
+
+        Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later
+
+    In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_select](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_select.png)
+
+    In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_selected](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_selected.png)
+
 === "WooCommerce"
 
     ![manual_woo_quizbuilder_linkproducts](/images/manual_wooquizbuilder_linkproducts.png)
@@ -1308,115 +1530,601 @@
 
 ## Customer Tags
 
-![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
+=== "Shopify"
 
-In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
 
-![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
+    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
 
-To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
+    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
 
-Created tag will then show as an available option whenever you select another choice.
+    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
 
-![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+    Created tag will then show as an available option whenever you select another choice.
 
-You can create as many tags as you like. You can link as many tags as you like to the same choice. 
+    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+
+    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
+
+=== "Shopify V2"
+
+    You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
+
+    Click `Search tags` to pick a tag to link to this choice or start typing the name to create a new tag. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag.png)
+    
+    Confirm with `Add tag`. 
+    
+    All the tags you create will be visible at the bottom in grey.
+
+    When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM. 
+
+
+=== "WooCommerce"
+
+    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
+
+    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
+
+    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
+
+    Created tag will then show as an available option whenever you select another choice.
+
+    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+
+    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
+
+=== "Magento"
+
+    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
+
+    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
+
+    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
+
+    Created tag will then show as an available option whenever you select another choice.
+
+    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+
+    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
+
+=== "BigCommerce"
+
+    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
+
+    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
+
+    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
+
+    Created tag will then show as an available option whenever you select another choice.
+
+    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+
+    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
+
+=== "Standalone"
+
+    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
+
+    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
+
+    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
+
+    Created tag will then show as an available option whenever you select another choice.
+
+    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+
+    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
+
+
 
 ## Conditional Logic
 
-![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
+=== "Shopify"
 
-In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
-![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
+    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
-**+** - Zoom in on the logic tree preview.
+    ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
 
-**-** - Zoom out on the logic tree preview.
+    **+** - Zoom in on the logic tree preview.
 
-**[]** - Center the logic tree preview and fit into view.
+    **-** - Zoom out on the logic tree preview.
 
-Drag the logic tree with your mouse left button to navigate to specific branches.
+    **[]** - Center the logic tree preview and fit into view.
 
-![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
+    Drag the logic tree with your mouse left button to navigate to specific branches.
 
-The top menu allows you to switch between questions.
+    ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
 
-**arrow up** - Takes you to the question higher.
+    The top menu allows you to switch between questions.
 
-**arrow down** - Take you to the question lower.
+    **arrow up** - Takes you to the question higher.
+
+    **arrow down** - Take you to the question lower.
+
+=== "Shopify V2"
+
+
+=== "WooCommerce"
+
+    ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
+
+    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+
+    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+
+    ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
+
+    **+** - Zoom in on the logic tree preview.
+
+    **-** - Zoom out on the logic tree preview.
+
+    **[]** - Center the logic tree preview and fit into view.
+
+    Drag the logic tree with your mouse left button to navigate to specific branches.
+
+    ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
+
+    The top menu allows you to switch between questions.
+
+    **arrow up** - Takes you to the question higher.
+
+    **arrow down** - Take you to the question lower.
+
+=== "Magento"
+
+    ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
+
+    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+
+    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+
+    ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
+
+    **+** - Zoom in on the logic tree preview.
+
+    **-** - Zoom out on the logic tree preview.
+
+    **[]** - Center the logic tree preview and fit into view.
+
+    Drag the logic tree with your mouse left button to navigate to specific branches.
+
+    ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
+
+    The top menu allows you to switch between questions.
+
+    **arrow up** - Takes you to the question higher.
+
+    **arrow down** - Take you to the question lower.
+
+=== "BigCommerce"
+
+    ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
+
+    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+
+    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+
+    ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
+
+    **+** - Zoom in on the logic tree preview.
+
+    **-** - Zoom out on the logic tree preview.
+
+    **[]** - Center the logic tree preview and fit into view.
+
+    Drag the logic tree with your mouse left button to navigate to specific branches.
+
+    ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
+
+    The top menu allows you to switch between questions.
+
+    **arrow up** - Takes you to the question higher.
+
+    **arrow down** - Take you to the question lower.
+
+=== "Standalone"
+
+    ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
+
+    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+
+    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+
+    ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
+
+    **+** - Zoom in on the logic tree preview.
+
+    **-** - Zoom out on the logic tree preview.
+
+    **[]** - Center the logic tree preview and fit into view.
+
+    Drag the logic tree with your mouse left button to navigate to specific branches.
+
+    ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
+
+    The top menu allows you to switch between questions.
+
+    **arrow up** - Takes you to the question higher.
+
+    **arrow down** - Take you to the question lower.
 
 ### Jump Logic
 
-Jump Logic allows you to route customers to different questions based on their responses.
+=== "Shopify"
 
-**Add Jump Logic** - Click to add a new Jump Logic rule for the selected question.
+    Jump Logic allows you to route customers to different questions based on their responses.
 
-!!! info
+    **Add Jump Logic** - Click to add a new Jump Logic rule for the selected question.
 
-    All the Jump Logic rules follow the same format
+    !!! info
 
-    - **IF response to** pick the question from a dropdown list
-    - **is**/ **is not** pick a choice from the dropdown list
-    - **THEN go to:** pick a slide from the dropdown list or add a URL 
+        All the Jump Logic rules follow the same format
 
-!!! example
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN go to:** pick a slide from the dropdown list or add a URL 
 
-    ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
+    !!! example
 
-    ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
+        ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
 
-    In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
+        ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
 
-**+** - Add another Jump Logic rule. Adds a new OR logical rule.
+        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
 
-!!! example
+    **+** - Add another Jump Logic rule. Adds a new OR logical rule.
 
-    ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
+    !!! example
 
-    In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
+        ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
 
-**bin** - Delete the current Jump Logic rule.
+        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
 
-**+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    **bin** - Delete the current Jump Logic rule.
 
-!!! example
+    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
-    ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
+    !!! example
 
-    In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
+        ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
 
-**Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
+        In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
+
+    **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
+
+=== "Shopify V2"
+
+
+=== "WooCommerce"
+
+    Jump Logic allows you to route customers to different questions based on their responses.
+
+    **Add Jump Logic** - Click to add a new Jump Logic rule for the selected question.
+
+    !!! info
+
+        All the Jump Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN go to:** pick a slide from the dropdown list or add a URL 
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
+
+        ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
+
+        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
+
+    **+** - Add another Jump Logic rule. Adds a new OR logical rule.
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
+
+        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
+
+    **bin** - Delete the current Jump Logic rule.
+
+    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
+
+        In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
+
+    **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
+
+=== "Magento"
+
+    Jump Logic allows you to route customers to different questions based on their responses.
+
+    **Add Jump Logic** - Click to add a new Jump Logic rule for the selected question.
+
+    !!! info
+
+        All the Jump Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN go to:** pick a slide from the dropdown list or add a URL 
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
+
+        ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
+
+        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
+
+    **+** - Add another Jump Logic rule. Adds a new OR logical rule.
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
+
+        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
+
+    **bin** - Delete the current Jump Logic rule.
+
+    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
+
+        In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
+
+    **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
+
+=== "BigCommerce"
+
+    Jump Logic allows you to route customers to different questions based on their responses.
+
+    **Add Jump Logic** - Click to add a new Jump Logic rule for the selected question.
+
+    !!! info
+
+        All the Jump Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN go to:** pick a slide from the dropdown list or add a URL 
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
+
+        ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
+
+        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
+
+    **+** - Add another Jump Logic rule. Adds a new OR logical rule.
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
+
+        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
+
+    **bin** - Delete the current Jump Logic rule.
+
+    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
+
+        In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
+
+    **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
+
+=== "Standalone"
+
+    Jump Logic allows you to route customers to different questions based on their responses.
+
+    **Add Jump Logic** - Click to add a new Jump Logic rule for the selected question.
+
+    !!! info
+
+        All the Jump Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN go to:** pick a slide from the dropdown list or add a URL 
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
+
+        ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
+
+        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
+
+    **+** - Add another Jump Logic rule. Adds a new OR logical rule.
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
+
+        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
+
+    **bin** - Delete the current Jump Logic rule.
+
+    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
+
+        In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
+
+    **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
 
 ### Skip Logic
 
-Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
+=== "Shopify"
 
-**Add Skip Logic** - Click to add a new Skip Logic rule for the selected question.
+    Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
 
-!!! info
+    **Add Skip Logic** - Click to add a new Skip Logic rule for the selected question.
 
-    All the Skip Logic rules follow the same format
+    !!! info
 
-    - **IF response to** pick the question from a dropdown list
-    - **is**/ **is not** pick a choice from the dropdown list
-    - **THEN this question is skipped**
+        All the Skip Logic rules follow the same format
 
-!!! example
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN this question is skipped**
 
-    ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
+    !!! example
 
-    In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+        ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
 
-All slides that contain Skip Logic will be marked with `"skip logic"` text.
+        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
 
-**+** - Adds another Skip Logic rule. Adds a new OR logical rule.
+    All slides that contain Skip Logic will be marked with `"skip logic"` text.
 
-**bin** - Delete the current Skip Logic rule.
+    **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
 
-**+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    **bin** - Delete the current Skip Logic rule.
+
+    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+=== "Shopify V2"
+
+
+=== "WooCommerce"
+
+    Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
+
+    **Add Skip Logic** - Click to add a new Skip Logic rule for the selected question.
+
+    !!! info
+
+        All the Skip Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN this question is skipped**
+
+    !!! example
+
+        ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
+
+        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+
+    All slides that contain Skip Logic will be marked with `"skip logic"` text.
+
+    **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
+
+    **bin** - Delete the current Skip Logic rule.
+
+    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+=== "Magento"
+
+    Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
+
+    **Add Skip Logic** - Click to add a new Skip Logic rule for the selected question.
+
+    !!! info
+
+        All the Skip Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN this question is skipped**
+
+    !!! example
+
+        ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
+
+        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+
+    All slides that contain Skip Logic will be marked with `"skip logic"` text.
+
+    **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
+
+    **bin** - Delete the current Skip Logic rule.
+
+    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+=== "BigCommerce"
+
+    Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
+
+    **Add Skip Logic** - Click to add a new Skip Logic rule for the selected question.
+
+    !!! info
+
+        All the Skip Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN this question is skipped**
+
+    !!! example
+
+        ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
+
+        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+
+    All slides that contain Skip Logic will be marked with `"skip logic"` text.
+
+    **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
+
+    **bin** - Delete the current Skip Logic rule.
+
+    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+=== "Standalone"
+
+    Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
+
+    **Add Skip Logic** - Click to add a new Skip Logic rule for the selected question.
+
+    !!! info
+
+        All the Skip Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN this question is skipped**
+
+    !!! example
+
+        ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
+
+        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+
+    All slides that contain Skip Logic will be marked with `"skip logic"` text.
+
+    **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
+
+    **bin** - Delete the current Skip Logic rule.
+
+    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
 ## Quiz Design
 
