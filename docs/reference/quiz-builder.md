@@ -1661,6 +1661,25 @@
 
 === "Shopify V2"
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
+
+    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The right-hand menu allows you to add conditional logic rules to questions in the quiz. The center preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+
+    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom.png)
+
+    **+** - Zoom in on the logic tree preview.
+
+    **-** - Zoom out on the logic tree preview.
+
+    **[]** - Center the logic tree preview and fit into view.
+
+    **🔒** - Toggle interactivity. Lock or unlock the interactivaity of hte preview.
+
+    Drag the logic tree with your mouse left button to navigate to specific branches. 
+
+    Click on any of the questions in the quiz to add conditional logic to it.
 
 === "WooCommerce"
 
@@ -1812,6 +1831,50 @@
 
 === "Shopify V2"
 
+    Jump Logic allows you to route customers to different questions based on their responses.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic.png)
+
+    **Jump Logic ▼** - Click to Open the Jump Logic options and add new rules to this question.
+
+    **+ Add another rule (OR)** - Click to add a new OR Jump Logic rule for the selected question.
+
+    !!! info
+
+        All the Jump Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN go to:** pick a slide from the dropdown list or add a URL 
+
+    !!! example
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example.png)
+
+        In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then they will be redirected to Question 8 "SKIN TYPE: OILY".
+
+    **+ Add another rule (OR)** - Add another Jump Logic rule. Adds a new OR logical rule.
+
+    !!! example
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleOR.png)
+
+        In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then they will be redirected to Question 8 "SKIN TYPE: OILY" but if the user chooses a choice "Oily in certain spots" in Question 4 "SKIN TYPE" then they will be redirected to Question 6 "SKIN TYPE: COMBINATION".
+
+    **bin** - Delete the current Jump Logic rule.
+
+    **+ Add concurrent logic (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    !!! example
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleAND](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_exampleAND.png)
+
+        In the example, **only if** a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" **and** a choice "Teens and 20's" in Question 3 "AGE GROUP" they will be redirected to Question 8 "SKIN TYPE: OILY".
+
+   
+    **Default destination** - Select a slide or URL where the user will be always redirected after this slide.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
 
 === "WooCommerce"
 
@@ -2013,6 +2076,35 @@
 
 === "Shopify V2"
 
+    Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
+
+    **Skip Logic ▼** - Click to open the Skip Logic menu or add a new rule to this question.
+
+    **+ Add another rule (OR)** - Click to add a new OR Skip Logic rule for the selected question.
+
+
+
+    !!! info
+
+        All the Skip Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN this question is skipped**
+
+    !!! example
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
+
+        In the example, if a user chooses a choice "Too shiny" in Question 9 "SKIN CONCERNS" then Question 10 "ALERGIES" will be skipped (it will not be shown).
+
+    **+ Add another rule (OR)** - Adds another Skip Logic rule. Adds a new OR logical rule.
+
+    **bin** - Delete the current Skip Logic rule.
+
+    **+ Add concurrent logic (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
 === "WooCommerce"
 
@@ -2128,65 +2220,381 @@
 
 ## Quiz Design
 
-![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
+=== "Shopify"
 
-In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+    ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
 
-![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
+    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
 
-The top menu allows you to switch between questions to preview them.
+    ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
 
-**arrow up** - Takes you to the question higher.
+    The top menu allows you to switch between questions to preview them.
 
-**arrow down** - Take you to the question lower.
+    **arrow up** - Takes you to the question higher.
 
-![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png){width="300"}
+    **arrow down** - Take you to the question lower.
 
-**Questions** - Shows the preview of how the questions look like.
+    ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png){width="300"}
 
-**Results** - Shows the preview of how the results page looks like.
+    **Questions** - Shows the preview of how the questions look like.
+
+    **Results** - Shows the preview of how the results page looks like.
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
+
+    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look. This section allows you to configure the design for your quiz. You can customize the design, sections, and slots to display the desired design to the users.
+
+    **Questions/Results** - Toggle between the preview of the quiz questions and the results page.
+    
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
+
+    **Color scheme** - Choose of of the pre-determined color schemes for your quiz.
+
+    Click `Change` to pick another color scheme.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png)
+
+
+
+=== "WooCommerce"
+
+    ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
+
+    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+
+    ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
+
+    The top menu allows you to switch between questions to preview them.
+
+    **arrow up** - Takes you to the question higher.
+
+    **arrow down** - Take you to the question lower.
+
+    ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png){width="300"}
+
+    **Questions** - Shows the preview of how the questions look like.
+
+    **Results** - Shows the preview of how the results page looks like.
+
+=== "Magento"
+
+    ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
+
+    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+
+    ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
+
+    The top menu allows you to switch between questions to preview them.
+
+    **arrow up** - Takes you to the question higher.
+
+    **arrow down** - Take you to the question lower.
+
+    ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png){width="300"}
+
+    **Questions** - Shows the preview of how the questions look like.
+
+    **Results** - Shows the preview of how the results page looks like.
+
+=== "BigCommerce"
+
+    ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
+
+    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+
+    ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
+
+    The top menu allows you to switch between questions to preview them.
+
+    **arrow up** - Takes you to the question higher.
+
+    **arrow down** - Take you to the question lower.
+
+    ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png){width="300"}
+
+    **Questions** - Shows the preview of how the questions look like.
+
+    **Results** - Shows the preview of how the results page looks like.
+
+=== "Standalone"
+
+    ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
+
+    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+
+    ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
+
+    The top menu allows you to switch between questions to preview them.
+
+    **arrow up** - Takes you to the question higher.
+
+    **arrow down** - Take you to the question lower.
+
+    ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png){width="300"}
+
+    **Questions** - Shows the preview of how the questions look like.
+
+    **Results** - Shows the preview of how the results page looks like.
 
 ### Edit Theme
 
-In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
+=== "Shopify"
 
-![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
+    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
 
-***Wine*** - Displays the name of your current theme.
+    ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
 
-**Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
+    ***Wine*** - Displays the name of your current theme.
 
-**Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+    **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
 
-**Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+    **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
 
-**Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+    **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
 
-**Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+    **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
 
-**Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
+    **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
 
-- **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+    **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
 
-**Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+
+=== "Shopify V2"
+
+    **Basic**  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic.png)
+
+    *Font* - Pick a font for your quiz from the list.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font.png)
+
+    *Primary colors / Choices / Inputs* - Click the color to change it.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors.png)
+
+    Select a color from the picker to change it.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors_picker](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors_picker.png)
+
+    *Background* - Change the background color by clicking on the color. Adjust thje background opacity with the slider or upload a background image by clicking `Select image`.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background.png)
+
+    *Navigation* - Change the colors of the Navigation bar background and border by cliking on the color. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_navigation](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_navigation.png)
+
+    *Show progress bar* - Uncheck to hide the progress bar.
+
+    *Show progress percentage* - Uncheck to hide the % text from the progress bar.
+
+    *Arrows abnd transitions move up/down or left/right* - Select which way the arrows and transitions should be pointing.
+
+    *Animations* - Add animations to transition between questions. Pick the option from the list to see the preview.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_animations](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_animations.png)
+
+    **Advanced** - Add your own CSS code in the box to override the default quiz's styles.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
+
+
+=== "WooCommerce"
+
+    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
+
+    ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
+
+    ***Wine*** - Displays the name of your current theme.
+
+    **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
+
+    **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+
+    **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
+
+    - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+
+=== "Magento"
+
+    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
+
+    ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
+
+    ***Wine*** - Displays the name of your current theme.
+
+    **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
+
+    **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+
+    **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
+
+    - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+
+=== "BigCommerce"
+
+    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
+
+    ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
+
+    ***Wine*** - Displays the name of your current theme.
+
+    **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
+
+    **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+
+    **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
+
+    - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+
+=== "Standalone"
+
+    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
+
+    ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
+
+    ***Wine*** - Displays the name of your current theme.
+
+    **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
+
+    **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+
+    **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
+
+    - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 ### My Themes
 
-In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
+=== "Shopify"
 
-![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
+    In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
 
-**+ add new theme** - Adds a new blank theme to your MY THEMES gallery.
+    ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
 
-**...** - Opens the theme options.
+    **+ add new theme** - Adds a new blank theme to your MY THEMES gallery.
 
-![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png){width="500"}
+    **...** - Opens the theme options.
 
-- **Edit** - Opens the selected theme in EDIT THEME.
+    ![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png){width="500"}
 
-- **Duplicate** - Creates a copy of the selected theme.
+    - **Edit** - Opens the selected theme in EDIT THEME.
 
-- **Delete** - Deletes the selected theme from MY THEMES gallery.
+    - **Duplicate** - Creates a copy of the selected theme.
+
+    - **Delete** - Deletes the selected theme from MY THEMES gallery.
+
+=== "Shopify V2"
+
+
+=== "WooCommerce"
+
+    In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
+
+    ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
+
+    **+ add new theme** - Adds a new blank theme to your MY THEMES gallery.
+
+    **...** - Opens the theme options.
+
+    ![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png){width="500"}
+
+    - **Edit** - Opens the selected theme in EDIT THEME.
+
+    - **Duplicate** - Creates a copy of the selected theme.
+
+    - **Delete** - Deletes the selected theme from MY THEMES gallery.
+
+=== "Magento"
+
+    In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
+
+    ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
+
+    **+ add new theme** - Adds a new blank theme to your MY THEMES gallery.
+
+    **...** - Opens the theme options.
+
+    ![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png){width="500"}
+
+    - **Edit** - Opens the selected theme in EDIT THEME.
+
+    - **Duplicate** - Creates a copy of the selected theme.
+
+    - **Delete** - Deletes the selected theme from MY THEMES gallery.
+
+=== "BigCommerce"
+
+    In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
+
+    ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
+
+    **+ add new theme** - Adds a new blank theme to your MY THEMES gallery.
+
+    **...** - Opens the theme options.
+
+    ![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png){width="500"}
+
+    - **Edit** - Opens the selected theme in EDIT THEME.
+
+    - **Duplicate** - Creates a copy of the selected theme.
+
+    - **Delete** - Deletes the selected theme from MY THEMES gallery.
+
+=== "Standalone"
+
+    In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
+
+    ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
+
+    **+ add new theme** - Adds a new blank theme to your MY THEMES gallery.
+
+    **...** - Opens the theme options.
+
+    ![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png){width="500"}
+
+    - **Edit** - Opens the selected theme in EDIT THEME.
+
+    - **Duplicate** - Creates a copy of the selected theme.
+
+    - **Delete** - Deletes the selected theme from MY THEMES gallery.
 
 ## Results Page
 
