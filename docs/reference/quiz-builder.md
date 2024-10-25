@@ -2598,104 +2598,659 @@
 
 ## Results Page
 
-![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
+=== "Shopify"
 
-In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+    ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
+
+    In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
+
+    In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like. This section allows you to configure the results settings for your quiz. You can customize the result blocks, sections, and slots to display the desired outcome to the users.
+
+    **Results Pages** - the menu where all your results pages are nested.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
+
+    **1. Results page 1** - the first results page, currently editing.
+
+    **+ Add results page** - Add another results page to your quiz. 
+
+    !!! note
+
+        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](#jump-logic) via the quiz Conditional Logic tab.
+
+    **Checkout bar** - Seelct the settings of the checkout bar. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar.png)
+
+    *Show "retake quiz" button* - Uncheck if you want to hide the "retake quiz" button.
+
+    *Proceed to checkout* - After adding the products to cart, the customer will be redirected directly to checkout.
+
+    *Proceed to cart* - After adding the products to cart, the customer will be redirected to the cart page.
+
+    **+ Add section** - Adds a new section to this results page.
+
+    **+ Add block** - Adds a new block to this section.
+
+=== "WooCommerce"
+
+    ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
+
+    In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+
+=== "Magento"
+
+    ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
+
+    In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+
+=== "BigCommerce"
+
+    ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
+
+    In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+
+=== "Standalone"
+
+    ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
+
+    In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
 ### Block Types
 
-**+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
+=== "Shopify"
 
-![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
+    **+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
 
-- **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
+    ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-- **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
 
-- **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+    - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
-- **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
 
-- **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
-- **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
 
-![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+    - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
-### Block Logic
+    ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-**conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+=== "Shopify V2"
 
-![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+    **+ Add block** - Adds a new block to this section.
 
-With Block Logic you can make blocks visible or hidden based on customer's responses.
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
 
-**Add Block Logic** - Adds a new block logic rule.
+    - **Heading** - Adds a new heading to your page, ideal for titles or section breaks.
 
-!!! info
+    - **Text** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
-    All the Block Logic rules follow the same format
+    - **Image** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
-    - **IF response to** pick the question from a dropdown list
-    - **is**/ **is not** pick a choice from the dropdown list
-    - **THEN block is** pick either **Visible** or **Hidden**
-    - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+    - **Button** - Adds a button to the results page. You can add any URL to the button.
 
-!!! example
+    - **Custom HTML** - Adds a block where you can input custom HTML code for advanced content and styling.
 
-    ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+    - **Products** - Adds a block specifically designed for displaying a list of recommended products.
+    
+    - **Products variants** - Adds a block specifically designed for displaying a list of recommended product variants..
 
-    In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+    - **Collection** - Adds a block specifically designed for displaying a list of recommended collections.
 
-- **+** - Adds another Block Logic rule. Adds a new OR logical rule.
 
-- **bin** - Delete the current Block Logic rule.
+=== "WooCommerce"
 
-- **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    **+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
 
-**...** - Opens the more options menu.
+    ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
 
-- **+ add block below** - Opens the **+** / **add block** menu.
+    - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
-- **bin** / **delete block** - Deletes the current block from the resutls page.
+    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+
+    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+
+    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+
+    - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+
+    ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+
+=== "Magento"
+
+    **+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
+
+    ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
+
+    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
+
+    - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+
+    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+
+    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+
+    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+
+    - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+
+    ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+
+=== "BigCommerce"
+
+    **+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
+
+    ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
+
+    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
+
+    - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+
+    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+
+    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+
+    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+
+    - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+
+    ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+
+=== "Standalone"
+
+    **+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
+
+    ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
+
+    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
+
+    - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+
+    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+
+    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+
+    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+
+    - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+
+    ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+
+### Block Logic / Section Logic
+
+=== "Shopify"
+
+    **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+
+    ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+
+    With Block Logic you can make blocks visible or hidden based on customer's responses.
+
+    **Add Block Logic** - Adds a new block logic rule.
+
+    !!! info
+
+        All the Block Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN block is** pick either **Visible** or **Hidden**
+        - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+    !!! example
+
+        ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+
+        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+
+    - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+
+    - **bin** - Delete the current Block Logic rule.
+
+    - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    **...** - Opens the more options menu.
+
+    ![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+
+    - **+ add block below** - Opens the **+** / **add block** menu.
+
+    - **bin** / **delete block** - Deletes the current block from the resutls page.
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic.png)
+
+    With Block Logic you can make blocks visible or hidden based on customer's responses.
+
+    **Display logic**
+
+    **+ Add logic condition (OR)** - Adds a new OR block logic rule.
+
+    **Default** - Select whether this section should be `Shown` or `Hidden` by default.
+
+    !!! info
+
+        All the Block Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN section is** pick either **Shown** or **Hidden**
+        - IN ALL OTHER CASES this section will behave like in the **Default** setting.
+
+    !!! example
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic_exampleOR](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic_exampleOR.png)
+
+        In the example, if a user chooses a choice "Oily" in Question 1 "SKIN TYPE" then this section will be hidden. If they give a different answer in Question 1 this content block will be shown.
+
+    - **+ Add condtion (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    - **bin** - Delete the current Logic rule.
+    
+    - **+ Add condition (OR)** - Adds another Block Logic rule. Adds a new OR logical rule.
+
+
+=== "WooCommerce"
+
+    **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+
+    ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+
+    With Block Logic you can make blocks visible or hidden based on customer's responses.
+
+    **Add Block Logic** - Adds a new block logic rule.
+
+    !!! info
+
+        All the Block Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN block is** pick either **Visible** or **Hidden**
+        - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+    !!! example
+
+        ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+
+        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+
+    - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+
+    - **bin** - Delete the current Block Logic rule.
+
+    - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    **...** - Opens the more options menu.
+
+    ![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+
+    - **+ add block below** - Opens the **+** / **add block** menu.
+
+    - **bin** / **delete block** - Deletes the current block from the resutls page.
+
+=== "Magento"
+
+    **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+
+    ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+
+    With Block Logic you can make blocks visible or hidden based on customer's responses.
+
+    **Add Block Logic** - Adds a new block logic rule.
+
+    !!! info
+
+        All the Block Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN block is** pick either **Visible** or **Hidden**
+        - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+    !!! example
+
+        ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+
+        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+
+    - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+
+    - **bin** - Delete the current Block Logic rule.
+
+    - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    **...** - Opens the more options menu.
+
+    ![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+
+    - **+ add block below** - Opens the **+** / **add block** menu.
+
+    - **bin** / **delete block** - Deletes the current block from the resutls page.
+
+=== "BigCommerce"
+
+    **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+
+    ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+
+    With Block Logic you can make blocks visible or hidden based on customer's responses.
+
+    **Add Block Logic** - Adds a new block logic rule.
+
+    !!! info
+
+        All the Block Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN block is** pick either **Visible** or **Hidden**
+        - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+    !!! example
+
+        ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+
+        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+
+    - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+
+    - **bin** - Delete the current Block Logic rule.
+
+    - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    **...** - Opens the more options menu.
+
+    ![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+
+    - **+ add block below** - Opens the **+** / **add block** menu.
+
+    - **bin** / **delete block** - Deletes the current block from the resutls page.
+
+=== "Standalone"
+
+    **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+
+    ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+
+    With Block Logic you can make blocks visible or hidden based on customer's responses.
+
+    **Add Block Logic** - Adds a new block logic rule.
+
+    !!! info
+
+        All the Block Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN block is** pick either **Visible** or **Hidden**
+        - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+    !!! example
+
+        ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+
+        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+
+    - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+
+    - **bin** - Delete the current Block Logic rule.
+
+    - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    **...** - Opens the more options menu.
+
+    ![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+
+    - **+ add block below** - Opens the **+** / **add block** menu.
+
+    - **bin** / **delete block** - Deletes the current block from the resutls page.
 
 ### Block Settings
 
-🔧 / **wrench icon** - Opens the block settings menu.
+=== "Shopify"
 
-**Product Block Settings**
+    🔧 / **wrench icon** - Opens the block settings menu.
 
-![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
+    **Product Block Settings**
 
-- **Title** - Type a title to be displayed above the recommended products.
+    ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
 
-- **Description** - Add a description to be displayed above the recommended products.
+    - **Title** - Type a title to be displayed above the recommended products.
 
-- **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+    - **Description** - Add a description to be displayed above the recommended products.
 
-- **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
 
-**Slot Block Settings** 
+    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
-![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+    **Slot Block Settings** 
 
-- **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+    ![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
-![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
+    - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
 
-- **Title** - Type a title to be displayed above the slot.
+    ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
 
-- **Description** - Add a description to be displayed above the slot.
+    - **Title** - Type a title to be displayed above the slot.
 
-- **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
+    - **Description** - Add a description to be displayed above the slot.
 
-- **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+    - **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-- **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+    - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
 
-**Slot ID** - Displays the current slot ID.
+    - **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+
+    **Slot ID** - Displays the current slot ID.
+
+=== "Shopify V2"
+
+    Each buliding block of your results page section has individual block settings.
+
+    - **Heading** - Adds a new heading to your page, ideal for titles or section breaks.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading.png)
+
+    Edit the heading text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the heading. 
+
+    Choose the heading size and alignment.
+
+    - **Text** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text.png)
+    
+    Edit the text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the text block. 
+
+    Choose the text size and alignment.
+
+    - **Image** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_image.png)
+
+    To add an image click `Select image`. You can uplaod an image from your device or select from the in-app uploaded image gallery.
+
+    *Image height* - Select the size of the image.
+
+    *Image alignment* - Select the image alignment left, right or center.
+
+    - **Button** - Adds a button to the results page. You can add any URL to the button.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button.png)
+
+    *Button text* - Type the text displayed ont eh button.
+
+    *Button URL* - Add a URL to the button. 
+
+    *Button alignment* - Select he button alignment left, right or center.
+
+    - **Custom HTML** - Adds a block where you can input custom HTML code for advanced content and styling.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html.png)
+
+    
+
+    - **Products** - Adds a block specifically designed for displaying a list of recommended products.
+    
+    - **Products variants** - Adds a block specifically designed for displaying a list of recommended product variants..
+
+    - **Collection** - Adds a block specifically designed for displaying a list of recommended collections.
+
+
+=== "WooCommerce"
+
+    🔧 / **wrench icon** - Opens the block settings menu.
+
+    **Product Block Settings**
+
+    ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
+
+    - **Title** - Type a title to be displayed above the recommended products.
+
+    - **Description** - Add a description to be displayed above the recommended products.
+
+    - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+
+    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+
+    **Slot Block Settings** 
+
+    ![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+
+    - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+
+    ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
+
+    - **Title** - Type a title to be displayed above the slot.
+
+    - **Description** - Add a description to be displayed above the slot.
+
+    - **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
+
+    - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+
+    - **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+
+    **Slot ID** - Displays the current slot ID.
+
+=== "Magento"
+
+    🔧 / **wrench icon** - Opens the block settings menu.
+
+    **Product Block Settings**
+
+    ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
+
+    - **Title** - Type a title to be displayed above the recommended products.
+
+    - **Description** - Add a description to be displayed above the recommended products.
+
+    - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+
+    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+
+    **Slot Block Settings** 
+
+    ![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+
+    - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+
+    ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
+
+    - **Title** - Type a title to be displayed above the slot.
+
+    - **Description** - Add a description to be displayed above the slot.
+
+    - **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
+
+    - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+
+    - **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+
+    **Slot ID** - Displays the current slot ID.
+
+=== "BigCommerce"
+
+    🔧 / **wrench icon** - Opens the block settings menu.
+
+    **Product Block Settings**
+
+    ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
+
+    - **Title** - Type a title to be displayed above the recommended products.
+
+    - **Description** - Add a description to be displayed above the recommended products.
+
+    - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+
+    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+
+    **Slot Block Settings** 
+
+    ![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+
+    - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+
+    ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
+
+    - **Title** - Type a title to be displayed above the slot.
+
+    - **Description** - Add a description to be displayed above the slot.
+
+    - **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
+
+    - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+
+    - **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+
+    **Slot ID** - Displays the current slot ID.
+
+=== "Standalone"
+
+    🔧 / **wrench icon** - Opens the block settings menu.
+
+    **Product Block Settings**
+
+    ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
+
+    - **Title** - Type a title to be displayed above the recommended products.
+
+    - **Description** - Add a description to be displayed above the recommended products.
+
+    - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+
+    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+
+    **Slot Block Settings** 
+
+    ![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+
+    - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+
+    ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
+
+    - **Title** - Type a title to be displayed above the slot.
+
+    - **Description** - Add a description to be displayed above the slot.
+
+    - **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
+
+    - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+
+    - **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+
+    **Slot ID** - Displays the current slot ID.
+
 
 ### Results Page Settings
 
