@@ -3098,13 +3098,64 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html.png)
 
-    
+    - **Products / Products Varaints / Collections** - Adds a block specifically designed for displaying a list of recommended products, product varaints or collections.
 
-    - **Products** - Adds a block specifically designed for displaying a list of recommended products.
-    
-    - **Products variants** - Adds a block specifically designed for displaying a list of recommended product variants..
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
-    - **Collection** - Adds a block specifically designed for displaying a list of recommended collections.
+    *Recommendation type:* - Select whether you prefer to recommend the main products or a product variants. In case of collections there's no extra menu.
+
+    *Min. number of votes:* - Select what minimum number of votes a product or a varaints should receive in order to be displayed in this product block. If a product receives less votes than specified here at the end of the quiz, it will not be shown.
+
+    *Products/Collections Alignment* - Select how the product slot should be aligned on the results page - left, center or right.
+
+    *Slot title/description alignment* - Select how the slot title or description should be aligned within the slot block- left, center or right.
+
+    *Product components layout:* - Select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
+
+    - **+ Add block** - add an extra block to the priduct slot. Below you can find a list of avialble product comonents. All the data are synced directly from your Shopify catalog.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png)
+
+    *Image* - Adds the product image.
+
+    *Title* - Add the product title.
+
+    *Price* - Adds the product price.
+
+    *Buy button* - Adds an "Add to cart" button.
+
+    *Text* - Adds an extra text block. Opens a text block menu that allows you to add your own custom text, link or a personalization.
+
+    *Description* - Adds the product description.
+
+    *Link* - Adds a button link to the product URL.
+
+    *Variants dropdown* - Adds a dropdown that dislays all the product variants.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1.png)
+
+    **Slot 1** - Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Unless you add a filter, the slot will display a list of recommended products, variants or collections.
+
+    **+ Add Slot** - Adds a new slot to the product/collection block.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot.png)
+
+    *Heading* - Adds a custom heading to the slot block.
+
+    *Heading size* - Changes the heading font size.
+
+    *Description* - Adds a custom description to the slot block. Allows to add text, links or personalization.
+
+    *Max. recommended products* - The maximum number of products allowed to be displayed in the slot block.
+
+    **Add filter** - Click `v Add` to select products from which Collections, Tags, Variants or Vendors will be shown in this slot block.
+
+    !!! warning
+
+        If you add a filter, the slot will be able to display the most voted products from the linked collections.
+
+    **Remove filter** - Click `v Exclude` to choose products from which Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
+
 
 
 === "WooCommerce"
@@ -3254,9 +3305,55 @@
 
 ### Results Page Settings
 
-⚙️ / **gear icon** - Opens the results page settings.
+=== "Shopify"
 
-![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
+    ⚙️ / **gear icon** - Opens the results page settings.
+
+    ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
+
+    **Results page name** - Type the name of the results page.
+
+    **Backgroud image** - Click `Select image`to upload a background image or select one from the in-app image gallery.
+
+    **Background opacity** - Use the slider to change the background image opacity percentage.
+
+    **Allow duplicated recommendations** - Check this option to allow products to be shown in more than one product/slot blocks.
+
+    **Show unavailable products** - Check this option to allow out-of-stock products to be displayed on the results page.
+
+    **Custom CSS Code** - Add custom CSS code to this resutls page only.
+
+    **Custom JS code** - Add custom JavaScript to this results page only.
+
+
+
+=== "WooCommerce"
+
+    ⚙️ / **gear icon** - Opens the results page settings.
+
+    ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
+
+=== "Magento"
+
+    ⚙️ / **gear icon** - Opens the results page settings.
+
+    ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
+
+=== "BigCommerce"
+
+    ⚙️ / **gear icon** - Opens the results page settings.
+
+    ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
+
+=== "Standalone"
+
+    ⚙️ / **gear icon** - Opens the results page settings.
+
+    ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
 ### Basic Settings
 
@@ -3273,6 +3370,19 @@
         - **proceed to checkout** - After the products are added to the cart, the customer will proceed to the checkout page.
 
     - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+
+=== "Shopify V2"
+
+    **Checkout bar** - Seelct the settings of the checkout bar.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar.png)
+
+    **Show "retake quiz" button** - Uncheck if you want to hide the "retake quiz" button.
+
+    **Proceed to checkout** - After adding the products to cart, the customer will be redirected directly to checkout.
+
+    **Proceed to cart** - After adding the products to cart, the customer will be redirected to the cart page.
+
 
 === "WooCommerce"
 
@@ -3370,6 +3480,18 @@
 
     - **Show metafields** - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/how-to-add-product-metafields/).
 
+    **Style Settings**
+
+    ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
+
+    **Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+
+    - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+
+=== "Shopify V2"
+
+
+
 === "WooCommerce"
 
     ![quiz builder resutls page resutls page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
@@ -3421,6 +3543,15 @@
 
     - **Show metafields/attributes** - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/how-to-add-product-metafields/).
 
+
+    **Style Settings**
+
+    ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
+
+    **Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+
+    - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+
 === "Magento"
 
     ![manual_magento_quizbuilder_resultspage_individualproductsettings](/images/manual_magento_quizbuilder_resultspage_individualproductsettings.png){width="500"}
@@ -3457,6 +3588,14 @@
 
             You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
+    **Style Settings**
+
+    ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
+
+    **Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+
+    - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+
 
 === "BigCommerce"
 
@@ -3492,6 +3631,14 @@
 
             You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
+    **Style Settings**
+
+    ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
+
+    **Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+
+    - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+
 === "Standalone"
 
     ![manual_standalone_quizbuilder_resultspage_individualproductsettings](/images/manual_standalone_quizbuilder_resultspage_individualproductsettings.png){width="500"}
@@ -3524,153 +3671,780 @@
 
             You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
-**Style Settings**
+    **Style Settings**
 
-![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
+    ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-**Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    **Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
-- **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+    - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
 
 ### Advanced Settings
 
-![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
+=== "Shopify"
 
-**Recommendation Settings**
+    ![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
 
-**If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    **Recommendation Settings**
 
-**If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
+    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
 
-**Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+    **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-**Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.
 
-**Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
+    **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
-**Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+    **Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
+    **Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
 
-**Custom JS Code**
+    ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
-**Custom JavaScript** - Click "Add" to open the JavaScript console.
+    **Custom JS Code**
 
-**Multiple Results Pages**
+    **Custom JavaScript** - Click "Add" to open the JavaScript console.
 
-**Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
+    **Multiple Results Pages**
+
+    **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
+
+=== "Shopify V2"
+
+
+=== "WooCommerce"
+
+    ![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
+
+    **Recommendation Settings**
+
+    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+
+    **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
+
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+
+    **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
+
+    **Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
+
+    **Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+
+    ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
+
+    **Custom JS Code**
+
+    **Custom JavaScript** - Click "Add" to open the JavaScript console.
+
+    **Multiple Results Pages**
+
+    **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
+
+=== "Magento"
+
+    ![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
+
+    **Recommendation Settings**
+
+    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+
+    **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
+
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+
+    **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
+
+    **Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
+
+    **Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+
+    ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
+
+    **Custom JS Code**
+
+    **Custom JavaScript** - Click "Add" to open the JavaScript console.
+
+    **Multiple Results Pages**
+
+    **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
+
+=== "BigCommerce"
+
+    ![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
+
+    **Recommendation Settings**
+
+    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+
+    **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
+
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+
+    **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
+
+    **Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
+
+    **Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+
+    ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
+
+    **Custom JS Code**
+
+    **Custom JavaScript** - Click "Add" to open the JavaScript console.
+
+    **Multiple Results Pages**
+
+    **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
+
+=== "Standalone"
+
+    ![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
+
+    **Recommendation Settings**
+
+    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+
+    **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
+
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+
+    **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
+
+    **Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
+
+    **Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+
+    ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
+
+    **Custom JS Code**
+
+    **Custom JavaScript** - Click "Add" to open the JavaScript console.
+
+    **Multiple Results Pages**
+
+    **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
 ### Multiple Results Pages Settings
 
-![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
+=== "Shopify"
 
-**Results Page 1** 
+    ![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
-- **Edit this page** - Click "edit" to switch to this results page and edit its content.
+    **Results Page 1** 
 
-- **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    - **Edit this page** - Click "edit" to switch to this results page and edit its content.
 
-**Results Page 2**
+    - **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
-- **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
+    **Results Page 2**
 
-- **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    - **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
 
-**Create new Results Page** - add a new results page to your quiz.
+    - **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+
+    **Create new Results Page** - add a new results page to your quiz. 
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
+
+    **+ Add results page** - Click to add an extra resutls page to your quiz. Each results page can have different settings and content.
+
+    !!! note
+
+        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](#jump-logic) via the quiz Conditional Logic tab.
+
+=== "WooCommerce"
+
+    ![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
+
+    **Results Page 1** 
+
+    - **Edit this page** - Click "edit" to switch to this results page and edit its content.
+
+    - **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+
+    **Results Page 2**
+
+    - **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
+
+    - **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+
+    **Create new Results Page** - add a new results page to your quiz.
+
+=== "Magento"
+
+    ![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
+
+    **Results Page 1** 
+
+    - **Edit this page** - Click "edit" to switch to this results page and edit its content.
+
+    - **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+
+    **Results Page 2**
+
+    - **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
+
+    - **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+
+    **Create new Results Page** - add a new results page to your quiz.
+
+=== "BigCommerce"
+
+    ![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
+
+    **Results Page 1** 
+
+    - **Edit this page** - Click "edit" to switch to this results page and edit its content.
+
+    - **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+
+    **Results Page 2**
+
+    - **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
+
+    - **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+
+    **Create new Results Page** - add a new results page to your quiz.
+
+=== "Standalone"
+
+    ![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
+
+    **Results Page 1** 
+
+    - **Edit this page** - Click "edit" to switch to this results page and edit its content.
+
+    - **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+
+    **Results Page 2**
+
+    - **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
+
+    - **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+
+    **Create new Results Page** - add a new results page to your quiz.
+
 
 ### Discounts Settings
 
-![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+=== "Shopify"
 
-**Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
+    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
-- **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
-- **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-**Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
 
-![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
+    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
-**Dynamic Discounts Settings**
+    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
-- **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+    **Dynamic Discounts Settings**
 
-- **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+    - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
 
-**Discount [A]** 
+    - **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
-- **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    **Discount [A]** 
 
-- **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
 
-- **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
-- **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
+    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
 
-- **bin** / **delete this discount** - deletes this dynamic discount.
+    - **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
 
-**add a discount** - Adds a new dynamic discount below (Discount [B]).
+    - **bin** / **delete this discount** - deletes this dynamic discount.
 
-**deactivate** - Deactivates dynamic discounts.
+    **add a discount** - Adds a new dynamic discount below (Discount [B]).
 
+    **deactivate** - Deactivates dynamic discounts.
+
+=== "Shopify V2"
+
+    Coming Soon
+
+=== "WooCommerce"
+
+    ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+
+    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+
+    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
+
+    - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+
+    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+
+    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+
+    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
+
+    **Dynamic Discounts Settings**
+
+    - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+
+    - **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+
+    **Discount [A]** 
+
+    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+
+    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+
+    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+
+    - **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
+
+    - **bin** / **delete this discount** - deletes this dynamic discount.
+
+    **add a discount** - Adds a new dynamic discount below (Discount [B]).
+
+    **deactivate** - Deactivates dynamic discounts.
+
+=== "Magento"
+
+    ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+
+    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+
+    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
+
+    - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+
+    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+
+    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+
+    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
+
+    **Dynamic Discounts Settings**
+
+    - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+
+    - **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+
+    **Discount [A]** 
+
+    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+
+    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+
+    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+
+    - **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
+
+    - **bin** / **delete this discount** - deletes this dynamic discount.
+
+    **add a discount** - Adds a new dynamic discount below (Discount [B]).
+
+    **deactivate** - Deactivates dynamic discounts.
+
+=== "BigCommerce"
+
+    ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+
+    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+
+    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
+
+    - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+
+    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+
+    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+
+    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
+
+    **Dynamic Discounts Settings**
+
+    - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+
+    - **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+
+    **Discount [A]** 
+
+    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+
+    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+
+    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+
+    - **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
+
+    - **bin** / **delete this discount** - deletes this dynamic discount.
+
+    **add a discount** - Adds a new dynamic discount below (Discount [B]).
+
+    **deactivate** - Deactivates dynamic discounts.
+
+=== "BigCommerce"
+
+    ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+
+    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+
+    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
+
+    - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+
+    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+
+    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+
+    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
+
+    **Dynamic Discounts Settings**
+
+    - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+
+    - **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+
+    **Discount [A]** 
+
+    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+
+    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+
+    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+
+    - **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
+
+    - **bin** / **delete this discount** - deletes this dynamic discount.
+
+    **add a discount** - Adds a new dynamic discount below (Discount [B]).
+
+    **deactivate** - Deactivates dynamic discounts.
+
+=== "Standalone"
+
+    ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+
+    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+
+    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
+
+    - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+
+    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+
+    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+
+    ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
+
+    **Dynamic Discounts Settings**
+
+    - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+
+    - **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+
+    **Discount [A]** 
+
+    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+
+    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+
+    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+
+    - **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
+
+    - **bin** / **delete this discount** - deletes this dynamic discount.
+
+    **add a discount** - Adds a new dynamic discount below (Discount [B]).
+
+    **deactivate** - Deactivates dynamic discounts.
 
 ## Notifications
 
-In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
+=== "Shopify"
+
+    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
+
+=== "Shopify V2"
+
+    Coming Soon
+
+=== "WooCommerce"
+
+    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
+
+=== "Magento"
+
+    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
+
+=== "BigCommerce"
+
+    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
+
+=== "Standalone"
+
+    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
 ### To Respondent
 
-![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
+=== "Shopify"
 
-You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](#quiz-builder_1) section to add an email question to your quiz.
+    ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
-To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](#quiz-builder_1) section to add an email question to your quiz.
 
-![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
+    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
 
-TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+    ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
 
-![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
+    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
 
-Select a response from the list to preview how the email will look like.
+    ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
 
-**Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
+    Select a response from the list to preview how the email will look like.
 
-**Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+    **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
 
-**Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
 
-**Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-- **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
-![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
+    - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
-- **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+    ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
-![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
 
+    ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
+
+=== "Shopify V2"
+
+
+=== "WooCommerce"
+
+    ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
+
+    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](#quiz-builder_1) section to add an email question to your quiz.
+
+    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+
+    ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
+
+    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+
+    ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
+
+    Select a response from the list to preview how the email will look like.
+
+    **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
+
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+
+    - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
+
+    ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
+
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+
+    ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
+
+=== "Magento"
+
+    ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
+
+    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](#quiz-builder_1) section to add an email question to your quiz.
+
+    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+
+    ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
+
+    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+
+    ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
+
+    Select a response from the list to preview how the email will look like.
+
+    **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
+
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+
+    - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
+
+    ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
+
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+
+    ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
+
+=== "BigCommerce"
+
+    ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
+
+    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](#quiz-builder_1) section to add an email question to your quiz.
+
+    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+
+    ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
+
+    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+
+    ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
+
+    Select a response from the list to preview how the email will look like.
+
+    **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
+
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+
+    - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
+
+    ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
+
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+
+    ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
+
+=== "Standalone"
+
+    ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
+
+    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](#quiz-builder_1) section to add an email question to your quiz.
+
+    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+
+    ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
+
+    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+
+    ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
+
+    Select a response from the list to preview how the email will look like.
+
+    **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
+
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+
+    - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
+
+    ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
+
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+
+    ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
 ### To Self
 
-![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
+=== "Shopify"
 
-**Get email when someone completes the quiz** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
+    ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
 
-**Get email when someone proceedes to checkout** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+    **Get email when someone completes the quiz** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
 
-![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
+    **Get email when someone proceedes to checkout** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
 
+    ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
+
+=== "Shopify V2"
+
+
+=== "WooCommerce"
+
+    ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
+
+    **Get email when someone completes the quiz** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
+
+    **Get email when someone proceedes to checkout** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+
+    ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
+
+=== "Magento"
+
+    ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
+
+    **Get email when someone completes the quiz** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
+
+    **Get email when someone proceedes to checkout** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+
+    ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
+
+=== "BigCommerce"
+
+    ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
+
+    **Get email when someone completes the quiz** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
+
+    **Get email when someone proceedes to checkout** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+
+    ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
+
+=== "Standalone"
+
+    ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
+
+    **Get email when someone completes the quiz** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
+
+    **Get email when someone proceedes to checkout** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+
+    ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 
 ## Quiz Settings
 
-![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
+=== "Shopify"
 
-In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
+
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
+
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+
+=== "WooCommerce"
+
+    ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
+
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+
+=== "Magento"
+
+    ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
+
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+
+=== "BigCommerce"
+
+    ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
+
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+
+=== "Standalone"
+
+    ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
+
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
 
 ### General
 
@@ -3702,6 +4476,20 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
     **Quiz ID** - Displays the current quiz ID.
 
+=== "Shopify V2"
+
+    **Advanced quiz settings**
+
+    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Facebook Pixel).
+
+    **Quiz migration**
+
+    **Export quiz to another store** - Clicking `Copy quiz code` generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    **Quiz ID: XXXXXX** - Click `Copy quiz ID` to copy the quiz ID to clipboard.
+
 === "WooCommerce"
 
     ![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png){width="500"}
@@ -3797,140 +4585,684 @@ In Quiz Settings you can adjust the quiz language or currency, edit button trans
 
 
 
-### Messages
+### Messages / Quiz Content
 
-![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
+=== "Shopify"
 
-**Language** - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
+    ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
 
-**Buttons**
+    **Language** - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
 
-![quiz builder quiz settings messages buttons](/images/manual_quizbuilder_quizsettings_messages_buttons.png){width="500"}
+    **Buttons**
 
-- **Next** - Default text on the buttons that move the user to the next slide. | Quiz
+    ![quiz builder quiz settings messages buttons](/images/manual_quizbuilder_quizsettings_messages_buttons.png){width="500"}
 
-- **View product** - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
+    - **Next** - Default text on the buttons that move the user to the next slide. | Quiz
 
-- **Add to cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+    - **View product** - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
 
-- **X in cart** - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
+    - **Add to cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
 
-- **Add all to cart** -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+    - **X in cart** - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
 
-- **Unavailable** - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
+    - **Add all to cart** -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
 
-- **View results** - Default text on the button on the "Thank You" slide type. | Quiz
+    - **Unavailable** - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
 
-- **Proceed to...** - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+    - **View results** - Default text on the button on the "Thank You" slide type. | Quiz
 
-- **...Checkout** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
+    - **Proceed to...** - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
 
-- **...Cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
+    - **...Checkout** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
 
-- **Retake quiz** - Default text on the button that allows the user to retake the quiz. | Results Page
+    - **...Cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
 
-- **Read more** - Default text on the product tile that opens the extended product description. | Results Page
+    - **Retake quiz** - Default text on the button that allows the user to retake the quiz. | Results Page
 
-- **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
 
-- **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
 
-**Placeholders**
+    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
 
-![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
+    **Placeholders**
 
-- **Your name** - Default placeholder text on the name question slides. | Quiz
+    ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
 
-- **Your email** - Default placeholder text on the email question slides. | Quiz
+    - **Your name** - Default placeholder text on the name question slides. | Quiz
 
-- **Your phone** - Default placeholder text on the phone question slides. | Quiz
+    - **Your email** - Default placeholder text on the email question slides. | Quiz
 
-- **Select** - Default text on the product tile if the recommended product has variants grouped. | Results Page
+    - **Your phone** - Default placeholder text on the phone question slides. | Quiz
 
-- **Select variant** - Default text on the product tile if the recommended product has variants grouped. | Results Page
+    - **Select** - Default text on the product tile if the recommended product has variants grouped. | Results Page
 
-- **No variants** - Default text on the product tile if the product has variants grouped but the product has no variants. | Results Page
+    - **Select variant** - Default text on the product tile if the recommended product has variants grouped. | Results Page
 
-**Helpers**
+    - **No variants** - Default text on the product tile if the product has variants grouped but the product has no variants. | Results Page
 
-![quiz builder quiz settings messages helpers](/images/manual_quizbuilder_quizsettings_messages_helpers.png){width="500"}
+    **Helpers**
 
-- **and** - Default text used in Information Recalls when recalling answers from multiple-selection questions. | Quiz & Results Page
+    ![quiz builder quiz settings messages helpers](/images/manual_quizbuilder_quizsettings_messages_helpers.png){width="500"}
 
-- **X% complete** - Default text on the quiz progress bar. | Quiz
+    - **and** - Default text used in Information Recalls when recalling answers from multiple-selection questions. | Quiz & Results Page
 
-- **Adding...** - Default text when adding a product to the cart. | Results Page
+    - **X% complete** - Default text on the quiz progress bar. | Quiz
 
-- **Redirecting** - Default text when redirecting the user from the results page. | Results Page
+    - **Adding...** - Default text when adding a product to the cart. | Results Page
 
-- **No results** - - Default text displayed when the quiz cannot produce recommendations. (For example, no products were upvoted or there are no products that match all the customer criteria.) | Results Page
+    - **Redirecting** - Default text when redirecting the user from the results page. | Results Page
 
-- **Drop file here** - Default text on the file upload question slides. | Quiz
+    - **No results** - - Default text displayed when the quiz cannot produce recommendations. (For example, no products were upvoted or there are no products that match all the customer criteria.) | Results Page
 
-- **Click to upload** - Default text on the file upload question slides. | Quiz
+    - **Drop file here** - Default text on the file upload question slides. | Quiz
 
-- **File under 2MB** - Default text on the file upload question slides. | Quiz
+    - **Click to upload** - Default text on the file upload question slides. | Quiz
 
-- **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **File under 2MB** - Default text on the file upload question slides. | Quiz
 
-- **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
 
-- **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
 
-- **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
 
-**Discount Notifications**
+    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
 
-![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
+    **Discount Notifications**
 
-- **Qualifies for discount** - Default text when dynamic discounts are active in the quiz. | Results Page
+    ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
 
-- **Doesn't qualify** - Default text when dynamic discounts are active in the quiz. | Results Page
+    - **Qualifies for discount** - Default text when dynamic discounts are active in the quiz. | Results Page
 
-- **Encourage next discount** - Default text when dynamic discounts are active in the quiz. | Results Page
+    - **Doesn't qualify** - Default text when dynamic discounts are active in the quiz. | Results Page
 
-**Restore default messages** - Click "restore" to set all fields back to default.
+    - **Encourage next discount** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    **Restore default messages** - Click "restore" to set all fields back to default.
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
+
+    **Default quiz content** 
+
+    *Filter items* - Search the messages for a specific one to edit.
+
+    **Select language** - Select a language from the list to change the default app translations. Each individual content can be edited below.
+
+    **Buttons** 
+
+    - *Next* - Default text on the buttons that move the user to the next slide. | Quiz
+
+    - *Add to cart* - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+
+    - *Add all to cart* -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+
+    - *Retake quiz* - Default text on the button that allows the user to retake the quiz. | Results Page
+
+    - *Proceed to Checkout* - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
+
+    - *Proceed to Cart* - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
+
+    **Placeholders** 
+
+    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders.png)
+
+    - *Placeholder for email inputs* - Default placeholder text on the email question slides. | Quiz
+
+    - *Placeholder for phone inputs* - Default placeholder text on the phone question slides. | Quiz
+
+    - *Placeholder for default inputs* - Default placeholder text on the short or long text question slides. | Quiz
+
+    - *Placeholder for date inputs* - Default placeholder on date slides. | Quiz
+
+    - *Placeholder for select variant* - Default placeholder text on variants dropdown | Results Page
+
+    - *Placeholder for first name inputs* - Default placeholder text on the name question slides. | Quiz
+
+    - *Placeholder for full name inputs* - Default placeholder text on the name question slides. | Quiz
+
+    - *Placeholder for last name inputs* - Default placeholder text on the name question slides. | Quiz
+
+    - *Placeholder for number inputs* - Default placeholder text on the number question slides. | Quiz
+
+    - *Placeholder for upload inputs* - Default placeholder text on the file upload question slides. | Quiz
+
+    - *Placeholder for upload file warning* - Default placeholder text on the uplaod question slides warning. | Quiz
+
+    **Helpers**
+
+    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers.png)
+
+    - *Message for file drop* - Default text on the file upload question slides. | Quiz
+
+    - *Message for file size under 10MB* - Default text on the file upload question slides. | Quiz
+
+    - *"and" conector for dynamic source* - Default text displayed between each personalization (information recalls). | Quiz
+
+    - *(Percentage)% complete* - Default text on the quiz progress bar. | Quiz
+
+    - *Loading error retry* - Default text on the results page in case of loading issues. | Results Page
+
+    - *Loading error no response* - Default text on the results page in case of loading issues. | Results Page
+
+    - *Try again* - Default text on the results page in case of loading issues. | Results Page
+
+
+=== "WooCommerce"
+
+    ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
+
+    **Language** - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
+
+    **Buttons**
+
+    ![quiz builder quiz settings messages buttons](/images/manual_quizbuilder_quizsettings_messages_buttons.png){width="500"}
+
+    - **Next** - Default text on the buttons that move the user to the next slide. | Quiz
+
+    - **View product** - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
+
+    - **Add to cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+
+    - **X in cart** - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
+
+    - **Add all to cart** -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+
+    - **Unavailable** - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
+
+    - **View results** - Default text on the button on the "Thank You" slide type. | Quiz
+
+    - **Proceed to...** - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+
+    - **...Checkout** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
+
+    - **...Cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
+
+    - **Retake quiz** - Default text on the button that allows the user to retake the quiz. | Results Page
+
+    - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
+
+    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    **Placeholders**
+
+    ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
+
+    - **Your name** - Default placeholder text on the name question slides. | Quiz
+
+    - **Your email** - Default placeholder text on the email question slides. | Quiz
+
+    - **Your phone** - Default placeholder text on the phone question slides. | Quiz
+
+    - **Select** - Default text on the product tile if the recommended product has variants grouped. | Results Page
+
+    - **Select variant** - Default text on the product tile if the recommended product has variants grouped. | Results Page
+
+    - **No variants** - Default text on the product tile if the product has variants grouped but the product has no variants. | Results Page
+
+    **Helpers**
+
+    ![quiz builder quiz settings messages helpers](/images/manual_quizbuilder_quizsettings_messages_helpers.png){width="500"}
+
+    - **and** - Default text used in Information Recalls when recalling answers from multiple-selection questions. | Quiz & Results Page
+
+    - **X% complete** - Default text on the quiz progress bar. | Quiz
+
+    - **Adding...** - Default text when adding a product to the cart. | Results Page
+
+    - **Redirecting** - Default text when redirecting the user from the results page. | Results Page
+
+    - **No results** - - Default text displayed when the quiz cannot produce recommendations. (For example, no products were upvoted or there are no products that match all the customer criteria.) | Results Page
+
+    - **Drop file here** - Default text on the file upload question slides. | Quiz
+
+    - **Click to upload** - Default text on the file upload question slides. | Quiz
+
+    - **File under 2MB** - Default text on the file upload question slides. | Quiz
+
+    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    **Discount Notifications**
+
+    ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
+
+    - **Qualifies for discount** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    - **Doesn't qualify** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    - **Encourage next discount** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    **Restore default messages** - Click "restore" to set all fields back to default.
+
+=== "Magento"
+
+    ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
+
+    **Language** - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
+
+    **Buttons**
+
+    ![quiz builder quiz settings messages buttons](/images/manual_quizbuilder_quizsettings_messages_buttons.png){width="500"}
+
+    - **Next** - Default text on the buttons that move the user to the next slide. | Quiz
+
+    - **View product** - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
+
+    - **Add to cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+
+    - **X in cart** - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
+
+    - **Add all to cart** -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+
+    - **Unavailable** - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
+
+    - **View results** - Default text on the button on the "Thank You" slide type. | Quiz
+
+    - **Proceed to...** - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+
+    - **...Checkout** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
+
+    - **...Cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
+
+    - **Retake quiz** - Default text on the button that allows the user to retake the quiz. | Results Page
+
+    - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
+
+    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    **Placeholders**
+
+    ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
+
+    - **Your name** - Default placeholder text on the name question slides. | Quiz
+
+    - **Your email** - Default placeholder text on the email question slides. | Quiz
+
+    - **Your phone** - Default placeholder text on the phone question slides. | Quiz
+
+    - **Select** - Default text on the product tile if the recommended product has variants grouped. | Results Page
+
+    - **Select variant** - Default text on the product tile if the recommended product has variants grouped. | Results Page
+
+    - **No variants** - Default text on the product tile if the product has variants grouped but the product has no variants. | Results Page
+
+    **Helpers**
+
+    ![quiz builder quiz settings messages helpers](/images/manual_quizbuilder_quizsettings_messages_helpers.png){width="500"}
+
+    - **and** - Default text used in Information Recalls when recalling answers from multiple-selection questions. | Quiz & Results Page
+
+    - **X% complete** - Default text on the quiz progress bar. | Quiz
+
+    - **Adding...** - Default text when adding a product to the cart. | Results Page
+
+    - **Redirecting** - Default text when redirecting the user from the results page. | Results Page
+
+    - **No results** - - Default text displayed when the quiz cannot produce recommendations. (For example, no products were upvoted or there are no products that match all the customer criteria.) | Results Page
+
+    - **Drop file here** - Default text on the file upload question slides. | Quiz
+
+    - **Click to upload** - Default text on the file upload question slides. | Quiz
+
+    - **File under 2MB** - Default text on the file upload question slides. | Quiz
+
+    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    **Discount Notifications**
+
+    ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
+
+    - **Qualifies for discount** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    - **Doesn't qualify** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    - **Encourage next discount** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    **Restore default messages** - Click "restore" to set all fields back to default.
+
+=== "BigCommerce"
+
+    ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
+
+    **Language** - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
+
+    **Buttons**
+
+    ![quiz builder quiz settings messages buttons](/images/manual_quizbuilder_quizsettings_messages_buttons.png){width="500"}
+
+    - **Next** - Default text on the buttons that move the user to the next slide. | Quiz
+
+    - **View product** - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
+
+    - **Add to cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+
+    - **X in cart** - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
+
+    - **Add all to cart** -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+
+    - **Unavailable** - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
+
+    - **View results** - Default text on the button on the "Thank You" slide type. | Quiz
+
+    - **Proceed to...** - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+
+    - **...Checkout** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
+
+    - **...Cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
+
+    - **Retake quiz** - Default text on the button that allows the user to retake the quiz. | Results Page
+
+    - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
+
+    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    **Placeholders**
+
+    ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
+
+    - **Your name** - Default placeholder text on the name question slides. | Quiz
+
+    - **Your email** - Default placeholder text on the email question slides. | Quiz
+
+    - **Your phone** - Default placeholder text on the phone question slides. | Quiz
+
+    - **Select** - Default text on the product tile if the recommended product has variants grouped. | Results Page
+
+    - **Select variant** - Default text on the product tile if the recommended product has variants grouped. | Results Page
+
+    - **No variants** - Default text on the product tile if the product has variants grouped but the product has no variants. | Results Page
+
+    **Helpers**
+
+    ![quiz builder quiz settings messages helpers](/images/manual_quizbuilder_quizsettings_messages_helpers.png){width="500"}
+
+    - **and** - Default text used in Information Recalls when recalling answers from multiple-selection questions. | Quiz & Results Page
+
+    - **X% complete** - Default text on the quiz progress bar. | Quiz
+
+    - **Adding...** - Default text when adding a product to the cart. | Results Page
+
+    - **Redirecting** - Default text when redirecting the user from the results page. | Results Page
+
+    - **No results** - - Default text displayed when the quiz cannot produce recommendations. (For example, no products were upvoted or there are no products that match all the customer criteria.) | Results Page
+
+    - **Drop file here** - Default text on the file upload question slides. | Quiz
+
+    - **Click to upload** - Default text on the file upload question slides. | Quiz
+
+    - **File under 2MB** - Default text on the file upload question slides. | Quiz
+
+    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    **Discount Notifications**
+
+    ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
+
+    - **Qualifies for discount** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    - **Doesn't qualify** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    - **Encourage next discount** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    **Restore default messages** - Click "restore" to set all fields back to default.
+
+=== "Standalone"
+
+    ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
+
+    **Language** - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
+
+    **Buttons**
+
+    ![quiz builder quiz settings messages buttons](/images/manual_quizbuilder_quizsettings_messages_buttons.png){width="500"}
+
+    - **Next** - Default text on the buttons that move the user to the next slide. | Quiz
+
+    - **View product** - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
+
+    - **Add to cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+
+    - **X in cart** - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
+
+    - **Add all to cart** -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+
+    - **Unavailable** - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
+
+    - **View results** - Default text on the button on the "Thank You" slide type. | Quiz
+
+    - **Proceed to...** - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+
+    - **...Checkout** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
+
+    - **...Cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
+
+    - **Retake quiz** - Default text on the button that allows the user to retake the quiz. | Results Page
+
+    - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
+
+    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    **Placeholders**
+
+    ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
+
+    - **Your name** - Default placeholder text on the name question slides. | Quiz
+
+    - **Your email** - Default placeholder text on the email question slides. | Quiz
+
+    - **Your phone** - Default placeholder text on the phone question slides. | Quiz
+
+    - **Select** - Default text on the product tile if the recommended product has variants grouped. | Results Page
+
+    - **Select variant** - Default text on the product tile if the recommended product has variants grouped. | Results Page
+
+    - **No variants** - Default text on the product tile if the product has variants grouped but the product has no variants. | Results Page
+
+    **Helpers**
+
+    ![quiz builder quiz settings messages helpers](/images/manual_quizbuilder_quizsettings_messages_helpers.png){width="500"}
+
+    - **and** - Default text used in Information Recalls when recalling answers from multiple-selection questions. | Quiz & Results Page
+
+    - **X% complete** - Default text on the quiz progress bar. | Quiz
+
+    - **Adding...** - Default text when adding a product to the cart. | Results Page
+
+    - **Redirecting** - Default text when redirecting the user from the results page. | Results Page
+
+    - **No results** - - Default text displayed when the quiz cannot produce recommendations. (For example, no products were upvoted or there are no products that match all the customer criteria.) | Results Page
+
+    - **Drop file here** - Default text on the file upload question slides. | Quiz
+
+    - **Click to upload** - Default text on the file upload question slides. | Quiz
+
+    - **File under 2MB** - Default text on the file upload question slides. | Quiz
+
+    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+
+    **Discount Notifications**
+
+    ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
+
+    - **Qualifies for discount** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    - **Doesn't qualify** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    - **Encourage next discount** - Default text when dynamic discounts are active in the quiz. | Results Page
+
+    **Restore default messages** - Click "restore" to set all fields back to default.
+
 
 ### Version History
 
-![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
+=== "Shopify"
 
-In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
+    ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
 
-![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
+    In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
 
-**...** - Click to open the restore menu.
+    ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
 
-- **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+    **...** - Click to open the restore menu.
 
-- **Rename this version** - Allows you to rename this saved version of the quiz.
+    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
 
-## Connect
+    - **Rename this version** - Allows you to rename this saved version of the quiz.
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_quizbuilder_quizsettings_versionhistory](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
+
+    In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
+
+    **Version ID: XXXXXX Last saved xx-xx-xxxx** - A version of the quiz.
+
+     **...** - Click to open the restore menu.
+
+    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+
+    - **Restore this version** - Allows you to replca the current version of the quiz with the selected one.
+
+=== "WooCommerce"
+
+    ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
+
+    In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
+
+    ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
+
+    **...** - Click to open the restore menu.
+
+    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+
+    - **Rename this version** - Allows you to rename this saved version of the quiz.
+
+=== "Magento"
+
+    ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
+
+    In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
+
+    ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
+
+    **...** - Click to open the restore menu.
+
+    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+
+    - **Rename this version** - Allows you to rename this saved version of the quiz.
+
+=== "BigCommerce"
+
+    ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
+
+    In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
+
+    ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
+
+    **...** - Click to open the restore menu.
+
+    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+
+    - **Rename this version** - Allows you to rename this saved version of the quiz.
+
+=== "Standalone"
+
+    ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
+
+    In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
+
+    ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
+
+    **...** - Click to open the restore menu.
+
+    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+
+    - **Rename this version** - Allows you to rename this saved version of the quiz.
+
+## Connect / Integrations
 
 === "Shopify"
 
     ![quiz builder connect](/images/manual_quizbuilder_connect.png)
 
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+
+    To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_quizbuilder_integrations](/images/manual_shopifyV2_quizbuilder_integrations.png)
+
+    In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+
+    To connect the quiz to a particular service find it on the page. Then follow the instructions displayed in the browser or in the `read more` section.
+
 === "WooCommerce"
 
     ![manual_woo_quizbuilder_connect](/images/manual_woo_quizbuilder_connect.png)
+
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+
+    To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
 === "Magento"
 
     ![manual_standalone_quizbuilder_connect](/images/manual_standalone_quizbuilder_connect.png)
 
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+
+    To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
+
 === "BigCommerce"
 
     ![manual_standalone_quizbuilder_connect](/images/manual_standalone_quizbuilder_connect.png)
+
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+
+    To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
 === "Standalone"
 
     ![manual_standalone_quizbuilder_connect](/images/manual_standalone_quizbuilder_connect.png)
 
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
 
-In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+    To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
-To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
 ## Share
 
