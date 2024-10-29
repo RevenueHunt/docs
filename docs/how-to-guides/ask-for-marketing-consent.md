@@ -8,37 +8,208 @@ Directly asking for marketing consent or acceptance of data processing in your q
 
 This article outlines several methods to integrate consent requests seamlessly into your quizzes.
 
+!!! note
+
+    Check our latest article [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](https://revenuehunt.com/smart-ways-to-ask-for-marketing-data-processing-consent-in-your-product-recommendation-quiz/) to learn more.
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/3noe-2nWq24" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
 ## Add a Link to Your Privacy Policy
 
-A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). 
+=== "Shopify"
 
-For example, like this:
+    A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). 
 
-```markdown
-By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
-```
+    For example, like this:
+
+    ```markdown
+    By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
+    ```
+
+    ![how to consent privacy policy](https://revenuehunt.com/wp-content/uploads/2024/06/Screenshot-2024-06-14-122634.png)
+
+=== "Shopify V2"
+
+    A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz.
+
+    For example, like this:
+
+    ![how_to_askconsent_addlinktopolicy](/images/how_to_askconsent_addlinktopolicy.png)
+
+=== "WooCommerce"
+
+    A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). 
+
+    For example, like this:
+
+    ```markdown
+    By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
+    ```
+
+    ![how to consent privacy policy](https://revenuehunt.com/wp-content/uploads/2024/06/Screenshot-2024-06-14-122634.png)
+
+=== "Magento"
+
+    A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). 
+
+    For example, like this:
+
+    ```markdown
+    By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
+    ```
+
+    ![how to consent privacy policy](https://revenuehunt.com/wp-content/uploads/2024/06/Screenshot-2024-06-14-122634.png)
+
+=== "BigCommerce"
+
+    A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). 
+
+    For example, like this:
+
+    ```markdown
+    By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
+    ```
+
+    ![how to consent privacy policy](https://revenuehunt.com/wp-content/uploads/2024/06/Screenshot-2024-06-14-122634.png)
+
+=== "Standalone"
+
+    A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). 
+
+    For example, like this:
+
+    ```markdown
+    By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).
+    ```
+
+    ![how to consent privacy policy](https://revenuehunt.com/wp-content/uploads/2024/06/Screenshot-2024-06-14-122634.png)
 
 ## How to Ask for Marketing/Data Processing Consent
 
-### Option 1: Question Description
+### Option 1: Question Description / Text Block
 
-You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
+=== "Shopify"
 
-1. To show question description go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) select a question and open the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
-2. Enable the `question description` feature.
-3. A text field will appear where you can add your consent text.
-4. Include a link to your privacy policy using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/), e.g., `[privacy policy](https://www.linktoyourprivacypolicy.com)`
-5. Publish your changes using the `Publish` button located at the top-right corner.
+    You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
+
+    1. To show question description go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) select a question and open the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    2. Enable the `question description` feature.
+    3. A text field will appear where you can add your consent text.
+    4. Include a link to your privacy policy using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/), e.g., `[privacy policy](https://www.linktoyourprivacypolicy.com)`
+    5. Publish your changes using the `Publish` button located at the top-right corner.
+
+=== "Shopify V2"
+
+    You can inform the customer in any text block that by providing the email address they agree to receive marketing information.
+
+    1. To show an extra text block go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) select a question, cliock `+ Add block` to add a text block.
+    3. A text field will appear where you can add your consent text.
+    4. Include a link to your privacy policy using the link feature in the text box, e.g., `[privacy policy](https://www.linktoyourprivacypolicy.com)`
+    5. Publish your changes using the `Save` button located at the top-right corner.
+
+=== "WooCommerce"
+
+    You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
+
+    1. To show question description go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) select a question and open the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    2. Enable the `question description` feature.
+    3. A text field will appear where you can add your consent text.
+    4. Include a link to your privacy policy using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/), e.g., `[privacy policy](https://www.linktoyourprivacypolicy.com)`
+    5. Publish your changes using the `Publish` button located at the top-right corner.
+
+=== "Magento"
+
+    You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
+
+    1. To show question description go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) select a question and open the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    2. Enable the `question description` feature.
+    3. A text field will appear where you can add your consent text.
+    4. Include a link to your privacy policy using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/), e.g., `[privacy policy](https://www.linktoyourprivacypolicy.com)`
+    5. Publish your changes using the `Publish` button located at the top-right corner.
+
+=== "BigCommerce"
+
+    You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
+
+    1. To show question description go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) select a question and open the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    2. Enable the `question description` feature.
+    3. A text field will appear where you can add your consent text.
+    4. Include a link to your privacy policy using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/), e.g., `[privacy policy](https://www.linktoyourprivacypolicy.com)`
+    5. Publish your changes using the `Publish` button located at the top-right corner.
+
+=== "Standalone"
+
+    You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
+
+    1. To show question description go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) select a question and open the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    2. Enable the `question description` feature.
+    3. A text field will appear where you can add your consent text.
+    4. Include a link to your privacy policy using [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/), e.g., `[privacy policy](https://www.linktoyourprivacypolicy.com)`
+    5. Publish your changes using the `Publish` button located at the top-right corner.
 
 ### Option 2: Marketing Checkmark
 
-Create a marketing consent checkbox by combining quiz slides can ensure users actively consent before proceeding.
+=== "Shopify"
 
-1. Go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) and place a `Multiple Choice` question right after the `email/phone` question slide.
-2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
-3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
-4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
-    ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
+    Create a marketing consent checkbox by combining quiz slides can ensure users actively consent before proceeding.
+
+    1. Go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) and place a `Multiple Choice` question right after the `email/phone` question slide.
+    2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
+    3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
+    4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
+        ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
+
+=== "Shopify V2"
+
+    Create a marketing consent checkbox by combining quiz blocks on one question to ensure users actively consent before proceeding.
+
+    1. Go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) and place a `Multiple Choice` question right after the `email/phone` question slide.
+    2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
+    3. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
+        ![how to ask for marketing consent join questions](/images/how_to_askconsent_addmarketingcheckmark.png)
+
+=== "WooCommerce"
+
+    Create a marketing consent checkbox by combining quiz slides can ensure users actively consent before proceeding.
+
+    1. Go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) and place a `Multiple Choice` question right after the `email/phone` question slide.
+    2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
+    3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
+    4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
+        ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
+
+=== "Magento"
+
+    Create a marketing consent checkbox by combining quiz slides can ensure users actively consent before proceeding.
+
+    1. Go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) and place a `Multiple Choice` question right after the `email/phone` question slide.
+    2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
+    3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
+    4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
+        ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
+
+=== "BigCommerce"
+
+    Create a marketing consent checkbox by combining quiz slides can ensure users actively consent before proceeding.
+
+    1. Go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) and place a `Multiple Choice` question right after the `email/phone` question slide.
+    2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
+    3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
+    4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
+        ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
+
+=== "Standalone"
+
+    Create a marketing consent checkbox by combining quiz slides can ensure users actively consent before proceeding.
+
+    1. Go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) and place a `Multiple Choice` question right after the `email/phone` question slide.
+    2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
+    3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
+    4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
+        ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
 
 ### Option 3: GDPR Question
 
