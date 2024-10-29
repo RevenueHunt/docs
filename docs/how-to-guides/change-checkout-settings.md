@@ -34,6 +34,22 @@ Adjusting the checkout settings in Shop Quiz: Product Recommendation Quiz allows
 
         3. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
+=== "Shopify V2"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar.png)
+
+    1. Open the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).
+    2. Scroll down to the **Checkout bar** section and click on it. 
+    3. From the right-hand side menu you can select the settings of the checkout bar.
+
+        *Show "retake quiz" button* - Uncheck if you want to hide the "retake quiz" button.
+
+        *Proceed to checkout* - After adding the products to cart, the customer will be redirected directly to checkout.
+
+        *Proceed to cart* - After adding the products to cart, the customer will be redirected to the cart page.
+
+    4. Click the top-right `Save` button to update the preview/live quiz.
+
 
 === "WooCommerce"
 
