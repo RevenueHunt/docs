@@ -10,17 +10,88 @@ Before you begin, ensure the [Shop Quiz: Product Recommendation Quiz app](https:
 
 ## Step 1: Generate Export Quiz Code
 
-First, navigate to the quiz you wish to export:
+=== "Shopify"
 
-1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#general).
-2. Click on **Export quiz to another store**. A popup will display a unique code.
-3. **Copy this code** immediately. It remains valid for only 1 hour.
+    First, navigate to the quiz you wish to export:
 
-    ![Export Quiz Step](/images/how to copy the quiz step 1 v2.gif)
+    1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#general).
+    2. Click on **Export quiz to another store**. A popup will display a unique code.
+    3. **Copy this code** immediately. It remains valid for only 1 hour.
 
-    !!! tip
-        
-        To prevent loss, save the export quiz code in a text file.
+        ![Export Quiz Step](/images/how to copy the quiz step 1 v2.gif)
+
+        !!! tip
+            
+            To prevent loss, save the export quiz code in a text file.
+
+=== "Shopify V2"
+
+    First, navigate to the quiz you wish to export:
+
+    1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings).
+    2. Search for **Export quiz to another store** and click `Copy quiz code`. The button generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another. It remains valid for only 1 hour.
+
+        ![Export Quiz Step](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
+
+        !!! tip
+            
+            To prevent loss, save the export quiz code in a text file.
+
+=== "WooCommerce"
+
+    First, navigate to the quiz you wish to export:
+
+    1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#general).
+    2. Click on **Export quiz to another store**. A popup will display a unique code.
+    3. **Copy this code** immediately. It remains valid for only 1 hour.
+
+        ![Export Quiz Step](/images/how to copy the quiz step 1 v2.gif)
+
+        !!! tip
+            
+            To prevent loss, save the export quiz code in a text file.
+
+=== "Magento"
+
+    First, navigate to the quiz you wish to export:
+
+    1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#general).
+    2. Click on **Export quiz to another store**. A popup will display a unique code.
+    3. **Copy this code** immediately. It remains valid for only 1 hour.
+
+        ![Export Quiz Step](/images/how to copy the quiz step 1 v2.gif)
+
+        !!! tip
+            
+            To prevent loss, save the export quiz code in a text file.
+
+=== "BigCommerce"
+
+    First, navigate to the quiz you wish to export:
+
+    1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#general).
+    2. Click on **Export quiz to another store**. A popup will display a unique code.
+    3. **Copy this code** immediately. It remains valid for only 1 hour.
+
+        ![Export Quiz Step](/images/how to copy the quiz step 1 v2.gif)
+
+        !!! tip
+            
+            To prevent loss, save the export quiz code in a text file.
+
+=== "Standalone"
+
+    First, navigate to the quiz you wish to export:
+
+    1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#general).
+    2. Click on **Export quiz to another store**. A popup will display a unique code.
+    3. **Copy this code** immediately. It remains valid for only 1 hour.
+
+        ![Export Quiz Step](/images/how to copy the quiz step 1 v2.gif)
+
+        !!! tip
+            
+            To prevent loss, save the export quiz code in a text file.
 
 ## Step 2: Log in to the Other Store
 
@@ -32,21 +103,92 @@ Ensure you're logged into the destination store:
 
 ## Step 3: Import the Quiz
 
-Finally, import the quiz into your new store:
+=== "Shopify"
 
-1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
-2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
-3. Choose **import a quiz from another store** and paste the previously generated code.
+    Finally, import the quiz into your new store:
 
-    ![Import Quiz Step](/images/how to copy the quiz step 3.gif)
+    1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+    2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
+    3. Choose **import a quiz from another store** and paste the previously generated code.
 
-After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+        ![Import Quiz Step](/images/how to copy the quiz step 3.gif)
+
+    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+
+=== "Shopify V2"
+
+    Finally, import the quiz into your new store:
+
+    1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+    2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
+
+        ![manual_shopifyV2_createquiz](/images/manual_shopifyV2_createquiz.png)
+
+    3. Choose **Import quiz** and paste the previously generated code.
+
+        ![Import Quiz Step](/images/manual_shopifyV2_createquiz_importquiz.png)
+
+    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+
+=== "WooCommerce"
+
+    Finally, import the quiz into your new store:
+
+    1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+    2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
+    3. Choose **import a quiz from another store** and paste the previously generated code.
+
+        ![Import Quiz Step](/images/how to copy the quiz step 3.gif)
+
+    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+
+=== "Magento"
+
+    Finally, import the quiz into your new store:
+
+    1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+    2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
+    3. Choose **import a quiz from another store** and paste the previously generated code.
+
+        ![Import Quiz Step](/images/how to copy the quiz step 3.gif)
+
+    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+
+=== "BigCommerce"
+
+    Finally, import the quiz into your new store:
+
+    1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+    2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
+    3. Choose **import a quiz from another store** and paste the previously generated code.
+
+        ![Import Quiz Step](/images/how to copy the quiz step 3.gif)
+
+    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
+
+=== "Standalone"
+
+    Finally, import the quiz into your new store:
+
+    1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+    2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
+    3. Choose **import a quiz from another store** and paste the previously generated code.
+
+        ![Import Quiz Step](/images/how to copy the quiz step 3.gif)
+
+    After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
 ## Changing Domains
 
 Follow these steps if you plan to change the domain on which the Shop Quiz: Product Recommendation Quiz app is installed.
 
 === "Shopify"
+
+    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the Shop Quiz: Product Recommendation Quiz app and your quizzes. You can do so safely.
+
+    If you’re changing the `.myshopify` account, then check [this guide](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+
+=== "Shopify V2"
 
     If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the Shop Quiz: Product Recommendation Quiz app and your quizzes. You can do so safely.
 
