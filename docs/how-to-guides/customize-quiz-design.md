@@ -208,6 +208,7 @@ Remember, you can also include custom images and styles for each question via th
 
     - Once you've made your changes, click the `Save` button at the top right to apply them to your live or preview quiz.
 
+    To add custom CSS code to a speciifc quiz section only, go to [`Question Settings`](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings) or [`Results Page Settings`](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
 
 === "WooCommerce"
 
