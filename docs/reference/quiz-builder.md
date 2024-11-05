@@ -964,6 +964,14 @@
 
     `Heading size` and  `Heading alignment` can also be changed in block settings.
 
+    **Content dynamic source**: [Content Dynamic Source](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+
+    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png)
+    
+    A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+
+    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
+
     **● Text** - Adds a text block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png)
@@ -971,6 +979,14 @@
     Text box allows you to `bold`, `cursive`, `underline` or `strikethrough` your text as well as `add links` and `Content dynamic source` (recall information from other parts of the quiz).
 
     `Text size` and  `Alignment` can also be changed in block settings.
+
+    **Content dynamic source**: [Content Dynamic Source](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+
+    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png)
+    
+    A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+
+    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
 
     **● Button** - Adds a button to your question.
 
@@ -3066,6 +3082,14 @@
 
     Choose the heading size and alignment.
 
+    **Content dynamic source**: [Content Dynamic Source](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+
+    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png)
+    
+    A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+
+    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
+
     - **Text** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text.png)
@@ -3073,6 +3097,14 @@
     Edit the text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the text block. 
 
     Choose the text size and alignment.
+
+    **Content dynamic source**: [Content Dynamic Source](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+
+    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png)
+    
+    A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+
+    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
 
     - **Image** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
