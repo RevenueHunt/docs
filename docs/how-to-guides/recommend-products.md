@@ -16,6 +16,11 @@ This guide explains how to recommend products with the Shop Quiz: Product Recomm
 
     Shop Quiz: Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
 
+=== "Shopify V2" 
+
+    Shop Quiz: Product Recommendation Quiz can show on the results page **product variants**, **main products**, **collections** and **[Recharge subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**.
+
+
 === "WooCommerce" 
 
     Shop Quiz: Product Recommendation Quiz can show on the results page **simple products**, **variable products**, **grouped products**, **external/affiliate products** and **[WooCommerce subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**. 
@@ -59,11 +64,11 @@ Our product recommendation algorithm works like a voting system:
 ## Understand Inclusion and Exclusion
 
 ### Inclusion
-Products or collections added in the `include` field of the [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) or [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab are upvoted in the final recommendations.
-
-![how to recommend products inclusion](/images/how to recommend products inclusion.png)
+Products or collections added in the `include/upvotes` field of the [Link Products/Collections/Upvote](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab are upvoted in the final recommendations.
 
 === "Shopify"
+
+    ![how to recommend products inclusion](/images/how to recommend products inclusion.png)
 
     How the votes work for each included linked item:
 
@@ -74,7 +79,23 @@ Products or collections added in the `include` field of the [Link Products](http
     - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives a vote when their linked choice is selected.
     - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) needs to be active for this option to appear in the Link Products section.
 
+=== "Shopify V2"
+
+    ![how to recommend products upvote](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+
+    How the votes work for each upvoted item:
+
+    - **Main Products / All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected.
+    - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
+    - **Collections**: Every product within a linked collection receives a vote when their linked choice is selected.
+    - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
+    - **Variant collections**: Created automatically by the app, every product within a linked variant collection receives a vote when their linked choice is selected.
+    - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives a vote when their linked choice is selected.
+
+
 === "WooCommerce"
+
+    ![how to recommend products inclusion](/images/how to recommend products inclusion.png)
 
     How the votes work for each included linked item:
 
@@ -88,12 +109,16 @@ Products or collections added in the `include` field of the [Link Products](http
 
 === "Magento"
 
+    ![how to recommend products inclusion](/images/how to recommend products inclusion.png)
+
     How the votes work for each included linked item:
 
     - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
     - **Categories**: Every product within a linked category receives a vote when their linked choice is selected.
 
 === "BigCommerce"
+
+    ![how to recommend products inclusion](/images/how to recommend products inclusion.png)
 
     How the votes work for each included linked item:
 
@@ -107,6 +132,8 @@ Products or collections added in the `include` field of the [Link Products](http
 
 === "Standalone"
 
+    ![how to recommend products inclusion](/images/how to recommend products inclusion.png)
+
     How the votes work for each included linked item:
 
     - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
@@ -114,12 +141,35 @@ Products or collections added in the `include` field of the [Link Products](http
 
 !!! warning
 
-    If a product variant is linked to choice "A" (via the Link Products tab) and a collection of products that contain this product variant is also linked to choice "A" (via the Link Collections tab), then this product variant will receive **2 votes from the same choice**.`
+    If a product variant is linked to choice "A" (via the Link Products / Upvote tab) and a collection of products that contain this product variant is also linked to choice "A" (via the Link Collections / Upvote tab), then this product variant will receive **2 votes from the same choice**.`
 
 ### Exclusion
-Use the `exclude` field of the [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) or [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
 
-![how to recommend products exclusion](/images/how to recommend products exclusion.png)
+Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
+
+=== "Shopify"
+
+    ![how to recommend products exclusion](/images/how to recommend products exclusion.png)
+
+=== "Shopify V2"
+
+    ![how to recommend products exclusion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+
+=== "WooCommerce"
+
+    ![how to recommend products exclusion](/images/how to recommend products exclusion.png)
+
+=== "Magento"
+
+    ![how to recommend products exclusion](/images/how to recommend products exclusion.png)
+
+=== "BigCommerce"
+
+    ![how to recommend products exclusion](/images/how to recommend products exclusion.png)
+
+=== "Standalone"
+
+    ![how to recommend products exclusion](/images/how to recommend products exclusion.png)
 
 !!! warning
 
@@ -136,8 +186,8 @@ Use the `exclude` field of the [Link Products](https://docs.revenuehunt.com/refe
 
 Follow these steps to set up product recommendations in your Shop Quiz: Product Recommendation Quiz:
 
-1. **Link Products to Choices**: Navigate to the [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) or [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab within your quiz setup. For each choice, link relevant products. 
-    - You can link product variants, collections, tags, variant collections, vendor collections or all variants of the same product at once.
+1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab within your quiz setup. For each choice, link/upvote relevant products. 
+    - You can link./upvote product variants, collections, tags, variant collections, vendor collections or all variants of the same product at once.
 2. **Edit the Results Page**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
 
     !!! tip
@@ -152,14 +202,14 @@ Follow these steps to set up product recommendations in your Shop Quiz: Product 
         ![how to recommend products slots block](/images/how to recommend products slots block.png)
 
 4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
-    - Click [`Publish`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) on the top-right menu to update the preview/live quiz. 
+    - Click [`Publish/Save`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) on the top-right menu to update the preview/live quiz. 
     - Then, click [`Preview`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to test the quiz you've created in a new window. 
     
         !!! note
         
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
-5. **Troubleshoot the Results**: Use the quiz's [built-in search bar](https://docs.revenuehunt.com/reference/quiz-builder/#responses) in the `Metrics > Responses` section to understand why specific products were recommended or missing from the recommendations. 
+5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](https://docs.revenuehunt.com/reference/quiz-builder/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
 
     !!! tip
         Check [How to Troubleshoot Quiz Results](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
