@@ -18,9 +18,9 @@ The [Version History](https://docs.revenuehunt.com/reference/quiz-builder/#versi
 
 ## Understanding Saved Versions
 
-Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button. 
+Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish/Save` button. 
 
-- A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history. 
+- A new version is saved only when you click `Publis/Save` on your quiz. This action updates the preview/live quiz and records a version in the history. 
 - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
 - For better organization and clarity, you have the option to `rename` any saved version. This can help you keep track of significant changes or versions you may want to revert to later.
 
