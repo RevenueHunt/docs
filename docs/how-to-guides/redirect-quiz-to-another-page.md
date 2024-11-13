@@ -13,7 +13,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/), locate the [Jump Logic](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) settings.
 2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
     	![how to redirect quiz ot another page jump logic](/images/how to redirect quiz ot another page jump logic.png)
-3. **Publish & Test Your Setup**: Click the top-right `Publish` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
+3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
 
 Even if you redirect the customer with Jump Logic to another page the quiz responses will be saved in the Quiz Builder's [`Metrics`](https://docs.revenuehunt.com/reference/quiz-builder/#responses) section.
 
@@ -38,21 +38,88 @@ For a more detailed guide on setting up the callback function, refer to [this re
 
 ## Add a Redirection Button to the Results Page
 
-Offering a direct link to another page from your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) can be achieved simply with an **HTML button**.
+=== "Shopify"
 
-1. **Add an HTML Block**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) editor, click the `+` button to insert an `HTML block`.
-2. **Insert the Button Code**: Use the following HTML snippet to add a button:
+      Offering a direct link to another page from your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) can be achieved simply with an **HTML button**.
 
-      ```html
-      <a class="button" href="https://revenuehunt.com/">Visit RevenueHunt.com</a>
-      ```
-   Edit the link URL and text to your liking.
+      1. **Add an HTML Block**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) editor, click the `+` button to insert an `HTML block`.
+      2. **Insert the Button Code**: Use the following HTML snippet to add a button:
 
-3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab, targeting the button with `.lq-results a.button`.
+            ```html
+            <a class="button" href="https://revenuehunt.com/">Visit RevenueHunt.com</a>
+            ```
+      Edit the link URL and text to your liking.
+
+      3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab, targeting the button with `.lq-results a.button`.
+
+=== "Shopify V2"
+
+      Offering a direct link to another page from your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) can be achieved simply with an **Button**.
+
+      1. **Add a Button**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) editor, click the `+ Add block` button to insert a `Button` block.
+      2. **Insert the Button URL**: Use the Button URL filed to add a custom link URL you want the user to be redirected to:
+           
+           ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button.png)
+
+=== "WooCommerce"
+
+      Offering a direct link to another page from your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) can be achieved simply with an **HTML button**.
+
+      1. **Add an HTML Block**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) editor, click the `+` button to insert an `HTML block`.
+      2. **Insert the Button Code**: Use the following HTML snippet to add a button:
+
+            ```html
+            <a class="button" href="https://revenuehunt.com/">Visit RevenueHunt.com</a>
+            ```
+      Edit the link URL and text to your liking.
+
+      3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab, targeting the button with `.lq-results a.button`.
+
+=== "Magento"
+
+      Offering a direct link to another page from your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) can be achieved simply with an **HTML button**.
+
+      1. **Add an HTML Block**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) editor, click the `+` button to insert an `HTML block`.
+      2. **Insert the Button Code**: Use the following HTML snippet to add a button:
+
+            ```html
+            <a class="button" href="https://revenuehunt.com/">Visit RevenueHunt.com</a>
+            ```
+      Edit the link URL and text to your liking.
+
+      3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab, targeting the button with `.lq-results a.button`.
+
+=== "BigCommerce"
+
+      Offering a direct link to another page from your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) can be achieved simply with an **HTML button**.
+
+      1. **Add an HTML Block**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) editor, click the `+` button to insert an `HTML block`.
+      2. **Insert the Button Code**: Use the following HTML snippet to add a button:
+
+            ```html
+            <a class="button" href="https://revenuehunt.com/">Visit RevenueHunt.com</a>
+            ```
+      Edit the link URL and text to your liking.
+
+      3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab, targeting the button with `.lq-results a.button`.
+
+=== "Standalone"
+
+      Offering a direct link to another page from your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) can be achieved simply with an **HTML button**.
+
+      1. **Add an HTML Block**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) editor, click the `+` button to insert an `HTML block`.
+      2. **Insert the Button Code**: Use the following HTML snippet to add a button:
+
+            ```html
+            <a class="button" href="https://revenuehunt.com/">Visit RevenueHunt.com</a>
+            ```
+      Edit the link URL and text to your liking.
+
+      3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab, targeting the button with `.lq-results a.button`.
 
 !!! info
 
-      Redirecting with HTML link does not transfer quiz data to this new redirection page. If you want to send quiz data to another URL use the [callback function](#redirecting-to-a-custom-results-page-via-callback-function).
+      Redirecting with a Button/ HTML link does not transfer quiz data to this new redirection page. If you want to send quiz data to another URL use the [callback function](#redirecting-to-a-custom-results-page-via-callback-function).
 
 --- 
 By following these steps, you can effectively guide customers to relevant pages mid or post-quiz.
