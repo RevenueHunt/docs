@@ -10,6 +10,10 @@ Below, we provide a clear, step-by-step guide on how to use Jump Logic, its work
 
     For instance, in a skincare consult quiz, you may start with a question about the participant's skin type (Dry, Normal, Combination, or Oily). Based on the answer, Jump Logic can direct the participant to questions specifically relevant to their skin type, thereby skipping irrelevant questions and tailoring the quiz experience.
 
+!!! warning
+
+    It is advised not to mix [Jump Logic](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) and [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) in one quiz. Mixing logic rules can lead to unexpected results.
+
 ## Conditional Logic
 
 === "Shopify"
