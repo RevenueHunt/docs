@@ -1,6 +1,6 @@
 # How to use Block Logic
 
-[Block logic](https://docs.revenuehunt.com/reference/quiz-builder/#block-logic) is a feature of the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) that allows you to make blocks visible or hidden based on customer's responses.
+[Block logic or Display Logic](https://docs.revenuehunt.com/reference/quiz-builder/#block-logic) is a feature of the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) that allows you to make blocks visible or hidden based on customer's responses.
 
 ## Results Page
 
@@ -18,44 +18,239 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
     - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
     - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
-## Add Block Logic to Block
+## Add Block Logic to Block / Section
 
-With Block Logic you can make blocks visible or hidden based on customer's responses.
+=== "Shopify"
 
-1. **Find a block**: Start by identifying or adding the block you wish to add Block Logic to. 
-2. **Open Block Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
-    ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+    With Block Logic you can make blocks visible or hidden based on customer's responses.
 
-    **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+    1. **Find a block**: Start by identifying or adding the block you wish to add Block Logic to. 
+    2. **Open Block Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
+        ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-3. Next, select `add Block Logic`.
-    ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+        **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
 
-3. **Add your rules**: Add you block logic rules for when the block should be visible or hidden. 
+    3. Next, select `add Block Logic`.
+        ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
 
-    !!! info
+    3. **Add your rules**: Add you block logic rules for when the block should be visible or hidden. 
 
-        All the Block Logic rules follow the same format
+        !!! info
 
-        - **IF response to** pick the question from a dropdown list
-        - **is**/ **is not** pick a choice from the dropdown list
-        - **THEN block is** pick either **Visible** or **Hidden**
-        - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+            All the Block Logic rules follow the same format
 
-    !!! example
+            - **IF response to** pick the question from a dropdown list
+            - **is**/ **is not** pick a choice from the dropdown list
+            - **THEN block is** pick either **Visible** or **Hidden**
+            - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
 
-        ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+        !!! example
 
-        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+            ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+
+            In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
 
-4. You can add multiple rules by clicking the `+` button.
-    
-    - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
-    - **bin** - Delete the current Block Logic rule.
-    - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    4. You can add multiple rules by clicking the `+` button.
+        
+        - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+        - **bin** - Delete the current Block Logic rule.
+        - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
-4. **Preview and Adjust**: Publish the changes with the top-right Publish button to update the preview/live quiz and test the setup.
+    4. **Preview and Adjust**: Publish the changes with the top-right Publish button to update the preview/live quiz and test the setup.
+
+=== "Shopify V2"
+
+    With Block Logic / Display Logic you can make blocks visible or hidden based on customer's responses.
+
+    1. **Find a section**: Start by identifying or adding the section you wish to add Display Logic to. 
+    2. **Open DisplayLogic settings**: Click on the section and on the right-hand side identify the `Display logic`.
+
+        ![quiz builder results page block menu](https://docs.revenuehunt.com/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic.png)
+
+    3. Next, select `+ Add logic condition (OR)`.
+    3. **Add your rules**: Add your display logic rules for when the block should be visible or hidden. 
+
+        !!! info
+
+            All the Block Logic rules follow the same format
+
+            - **IF response to** pick the question from a dropdown list
+            - **is**/ **is not** pick a choice from the dropdown list
+            - **THEN block is** pick either **Visible** or **Hidden**
+            - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+        !!! example
+
+            ![quiz builder resutls page block logic example](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic_exampleOR.png)
+
+            In the example, if a user chooses a choice "Oily" in Question 1 "SKIN TYPE" then this section will be hidden. If they give a different answer in Question 1 this content block will be shown.
+
+
+    4. You can add multiple rules by clicking the `+` button.
+        
+        - **+ Add condition (OR)** - Adds another Display Logic rule. Adds a new OR logical rule.
+        - **bin** - Delete the current Block Logic rule.
+        - **+ Add condtion (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    4. **Preview and Adjust**: Publish the changes with the top-right `Save` button to update the preview/live quiz and test the setup.
+
+=== "WooCommerce"
+
+    With Block Logic you can make blocks visible or hidden based on customer's responses.
+
+    1. **Find a block**: Start by identifying or adding the block you wish to add Block Logic to. 
+    2. **Open Block Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
+        ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+
+        **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+
+    3. Next, select `add Block Logic`.
+        ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+
+    3. **Add your rules**: Add you block logic rules for when the block should be visible or hidden. 
+
+        !!! info
+
+            All the Block Logic rules follow the same format
+
+            - **IF response to** pick the question from a dropdown list
+            - **is**/ **is not** pick a choice from the dropdown list
+            - **THEN block is** pick either **Visible** or **Hidden**
+            - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+        !!! example
+
+            ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+
+            In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+
+
+    4. You can add multiple rules by clicking the `+` button.
+        
+        - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+        - **bin** - Delete the current Block Logic rule.
+        - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    4. **Preview and Adjust**: Publish the changes with the top-right Publish button to update the preview/live quiz and test the setup.
+
+=== "Magento"
+
+    With Block Logic you can make blocks visible or hidden based on customer's responses.
+
+    1. **Find a block**: Start by identifying or adding the block you wish to add Block Logic to. 
+    2. **Open Block Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
+        ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+
+        **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+
+    3. Next, select `add Block Logic`.
+        ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+
+    3. **Add your rules**: Add you block logic rules for when the block should be visible or hidden. 
+
+        !!! info
+
+            All the Block Logic rules follow the same format
+
+            - **IF response to** pick the question from a dropdown list
+            - **is**/ **is not** pick a choice from the dropdown list
+            - **THEN block is** pick either **Visible** or **Hidden**
+            - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+        !!! example
+
+            ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+
+            In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+
+
+    4. You can add multiple rules by clicking the `+` button.
+        
+        - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+        - **bin** - Delete the current Block Logic rule.
+        - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    4. **Preview and Adjust**: Publish the changes with the top-right Publish button to update the preview/live quiz and test the setup.
+
+=== "BigCommerce"
+
+    With Block Logic you can make blocks visible or hidden based on customer's responses.
+
+    1. **Find a block**: Start by identifying or adding the block you wish to add Block Logic to. 
+    2. **Open Block Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
+        ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+
+        **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+
+    3. Next, select `add Block Logic`.
+        ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+
+    3. **Add your rules**: Add you block logic rules for when the block should be visible or hidden. 
+
+        !!! info
+
+            All the Block Logic rules follow the same format
+
+            - **IF response to** pick the question from a dropdown list
+            - **is**/ **is not** pick a choice from the dropdown list
+            - **THEN block is** pick either **Visible** or **Hidden**
+            - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+        !!! example
+
+            ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+
+            In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+
+
+    4. You can add multiple rules by clicking the `+` button.
+        
+        - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+        - **bin** - Delete the current Block Logic rule.
+        - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    4. **Preview and Adjust**: Publish the changes with the top-right Publish button to update the preview/live quiz and test the setup.
+
+=== "Standalone"
+
+    With Block Logic you can make blocks visible or hidden based on customer's responses.
+
+    1. **Find a block**: Start by identifying or adding the block you wish to add Block Logic to. 
+    2. **Open Block Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
+        ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+
+        **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+
+    3. Next, select `add Block Logic`.
+        ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+
+    3. **Add your rules**: Add you block logic rules for when the block should be visible or hidden. 
+
+        !!! info
+
+            All the Block Logic rules follow the same format
+
+            - **IF response to** pick the question from a dropdown list
+            - **is**/ **is not** pick a choice from the dropdown list
+            - **THEN block is** pick either **Visible** or **Hidden**
+            - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+        !!! example
+
+            ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+
+            In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+
+
+    4. You can add multiple rules by clicking the `+` button.
+        
+        - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+        - **bin** - Delete the current Block Logic rule.
+        - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    4. **Preview and Adjust**: Publish the changes with the top-right Publish button to update the preview/live quiz and test the setup.
+
 
 ## Examples and Applications
 
