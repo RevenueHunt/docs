@@ -36,6 +36,11 @@ Adjusting the checkout settings in Shop Quiz: Product Recommendation Quiz allows
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar.png)
 
     1. Open the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).

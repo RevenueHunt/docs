@@ -26,6 +26,11 @@ Before you begin, ensure the [Shop Quiz: Product Recommendation Quiz app](https:
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     First, navigate to the quiz you wish to export:
 
     1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings).
@@ -117,6 +122,11 @@ Ensure you're logged into the destination store:
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     Finally, import the quiz into your new store:
 
     1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
@@ -189,6 +199,11 @@ Follow these steps if you plan to change the domain on which the Shop Quiz: Prod
     If you’re changing the `.myshopify` account, then check [this guide](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the Shop Quiz: Product Recommendation Quiz app and your quizzes. You can do so safely.
 

@@ -17,6 +17,11 @@ This guide outlines the process for downloading quiz responses from your quiz, a
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     1. To view the last 100 individual responses, navigate to the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab within your dashboard.
 
         ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
@@ -67,6 +72,11 @@ This guide outlines the process for downloading quiz responses from your quiz, a
 
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
 

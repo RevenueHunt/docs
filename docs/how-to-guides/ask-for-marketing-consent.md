@@ -33,6 +33,11 @@ This article outlines several methods to integrate consent requests seamlessly i
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz.
 
     For example, like this:
@@ -103,6 +108,11 @@ This article outlines several methods to integrate consent requests seamlessly i
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     You can inform the customer in any text block that by providing the email address they agree to receive marketing information.
 
     1. To show an extra text block go to the [quiz builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) select a question, cliock `+ Add block` to add a text block.
@@ -163,6 +173,11 @@ This article outlines several methods to integrate consent requests seamlessly i
         ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Create a marketing consent checkbox by combining quiz blocks on one question to ensure users actively consent before proceeding.
 

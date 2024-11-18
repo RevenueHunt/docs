@@ -43,6 +43,11 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     ![how to hide content with logic jump logic](/images/how to hide content with logic shopifyv2 jump logic flow.png)
 
     1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
@@ -221,6 +226,11 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
@@ -396,6 +406,11 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![how to hide content with logic skip logic](/images/how to hide content with logic shopifyv2 skip logic flow.png)
 

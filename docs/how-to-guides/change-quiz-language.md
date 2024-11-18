@@ -22,6 +22,11 @@ icon: material/translate-variant
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     !!! note
     
         Version 2 of the Shop Quiz: Product Recomemnder App for Shopify fully supports the Shopify Markets feature. 
@@ -115,6 +120,11 @@ icon: material/translate-variant
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
 
     !!! note
@@ -225,6 +235,11 @@ icon: material/translate-variant
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     Follow [these instructions](#change-quiz-language-in-settings) to create quizzes in different languages.
 
 === "WooCommerce"
@@ -296,6 +311,11 @@ icon: material/translate-variant
         Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     No extra steps are necessary in this version of the Shop Quiz: Product Recommendation Quiz. The right quiz will already be loaded based on the market it was assigned to.
 
@@ -533,6 +553,11 @@ icon: material/translate-variant
     While awaiting native multi-language plugin support, these steps allow for a versatile approach to presenting and managing quizzes in multiple languages, ensuring a tailored experience for your international audience.
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     No extra steps are necessary in this version of the Shop Quiz: Product Recommendation Quiz. The quiz will display the right products on the resutls page based on the market the quiz was assigned to.
 

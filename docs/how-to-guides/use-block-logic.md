@@ -61,6 +61,11 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     With Block Logic / Display Logic you can make blocks visible or hidden based on customer's responses.
 
     1. **Find a section**: Start by identifying or adding the section you wish to add Display Logic to. 

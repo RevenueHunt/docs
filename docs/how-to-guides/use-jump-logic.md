@@ -46,6 +46,11 @@ Below, we provide a clear, step-by-step guide on how to use Jump Logic, its work
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     ![quiz builder conditional logic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
     In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The right menu allows you to add conditional logic rules to questions in the quiz. The left preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
@@ -230,6 +235,11 @@ Jump Logic allows you to route customers to different questions based on their r
 
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
     2. **Open Jump Logic**: Navigate to the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab and select [`Jump Logic`](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) section.

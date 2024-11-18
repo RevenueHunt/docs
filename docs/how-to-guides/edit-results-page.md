@@ -22,6 +22,11 @@ This guide will walk you through adding elements to your results page using a va
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
     1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
@@ -99,6 +104,11 @@ This guide will walk you through adding elements to your results page using a va
     - **Block Logic**: With [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
 
@@ -282,6 +292,11 @@ This guide will walk you through adding elements to your results page using a va
     - **Multiple Results Pages**: Offer [diverse results pages](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 

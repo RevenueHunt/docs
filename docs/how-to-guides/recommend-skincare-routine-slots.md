@@ -57,6 +57,11 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     To group products into slots, you’ll need to create new collections in your Shopify store. These collections will be used to group your products on the results page.
 
     1. **Identify Product Categories**: Determine your skincare product categories (e.g., Cleansers, Toners, Serums, Moisturizers).
@@ -140,6 +145,11 @@ Once your quiz is set up, you should add products and collections to the choices
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     1. **Go to Link Products/Collections tab**: To add link products or product variants to choices, go to [Questions](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder---questions), select a multiple-choice question, then a choice and open the [Choice Settings](https://docs.revenuehunt.com/reference/quiz-builder/#choice-settings).
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
@@ -188,6 +198,11 @@ Once your quiz is set up, you should add products and collections to the choices
     6. **Choose Product number**: In the [`Slot Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. **Edit the Results Page**: Go to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab and edit the content. Add design elements like headings, logos, and content blocks.
     2. **Add a Product Block**: Use the `+` button to add a `Product Block` to the Results Page.

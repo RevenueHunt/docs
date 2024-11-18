@@ -35,6 +35,10 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify V2"
 
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     ![how_to_javascript_resultspagesettings](/images/how_to_javascript_resultspagesettings.png)
 
     1. Navigate to the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) in the Quiz Builder.
@@ -86,6 +90,10 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "Shopify V2"
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![how_to_javascript_questionsettings](/images/how_to_javascript_questionsettings.png)
 

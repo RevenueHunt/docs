@@ -18,6 +18,11 @@ This guide explains how to recommend products with the Shop Quiz: Product Recomm
 
 === "Shopify V2" 
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     Shop Quiz: Product Recommendation Quiz can show on the results page **product variants**, **main products**, **collections** and **[Recharge subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**.
 
 
@@ -80,6 +85,11 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) needs to be active for this option to appear in the Link Products section.
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![how to recommend products upvote](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
@@ -152,6 +162,11 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
     ![how to recommend products exclusion](/images/how to recommend products exclusion.png)
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![how to recommend products exclusion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 

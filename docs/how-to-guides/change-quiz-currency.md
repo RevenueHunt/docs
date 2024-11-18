@@ -20,6 +20,11 @@ icon: material/currency-usd
 
 === "Shopify V2"
 
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     Version 2 of the Shop Quiz: Product Recomemnder App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. 
     
     To assign a market to the quiz follow the instructions below.
@@ -107,6 +112,11 @@ icon: material/currency-usd
     Now, the product price will not be shown and the customer will be redirected to the product page from the results page.
 
 === "Shopify V2"
+
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Version 2 of the Shop Quiz: Product Recomemnder App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. 
 
