@@ -20,6 +20,10 @@
 
 === "Shopify V2"
 
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     ![manual_shopifyV2_appsettings](/images/manual_shopifyV2_appsettings.png)
 
     From the Store settings menu you can:
@@ -101,6 +105,10 @@
     **Metafields Namespaces** - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields and follow this article to show them in the quiz: [How to Add Product Metafileds](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
 
 === "Shopify V2"
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
 
@@ -285,6 +293,10 @@
 === "Shopify V2"
 
 
+
+    The default quiz will be displayed in the Shop App.
+
+
 === "WooCommerce"
 
 
@@ -308,6 +320,10 @@
 
 
 === "Shopify V2"
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
 
@@ -346,6 +362,10 @@
 
 
 === "Shopify V2"
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_appsettings_switchtov1](/images/manual_shopifyV2_appsettings_switchtov1.png)
 

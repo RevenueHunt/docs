@@ -22,6 +22,10 @@ On the dashboard, you'll find all the quizzes that you create.
 
 === "Shopify V2"
 
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     ![dashboard](/images/manual_shopifyV2_dashboard.png)
 
     Shopify Side Menu
@@ -126,6 +130,10 @@ On the dashboard, you'll find all the quizzes that you create.
 
 === "Shopify V2"
 
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     ![manual_shopifyV2_notifications](/images/manual_shopifyV2_notifications.png)
 
     "x" - Archives a notification.
@@ -198,6 +206,10 @@ On the dashboard, you'll find all the quizzes that you create.
     **show breakdown** - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
 
 === "Shopify V2"
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_dafaultquiz](/images/manual_shopifyV2_dafaultquiz.png)
 
@@ -428,6 +440,10 @@ On the dashboard, you'll find all the quizzes that you create.
 
 === "Shopify V2"
 
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
     ![manual_shopifyV2_successchecklist](/images/manual_shopifyV2_successchecklist.png)
 
     Success checklist guides you through every step of creating and optimizing your quiz for maximum results. From setting up tailored product recommendations to collecting leads and promoting your quiz, follow these tasks to ensure you're making the most out of your quiz.
@@ -551,6 +567,10 @@ On the dashboard, you'll find all the quizzes that you create.
     **use this template** - Adds the template to your dashboard. 
 
 === "Shopify V2"
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_createquiz.png](/images/manual_shopifyV2_createquiz.png)
 
