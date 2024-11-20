@@ -256,6 +256,71 @@ Below is a sample JSON payload sent on the POST request for a skincare quiz:
 }
 ```
 
+## Troubleshooting Broken JSON Responses in Webhooks
+
+If you're experiencing issues where a webhook response contains broken or invalid JSON, here's a step-by-step guide to help you identify and resolve the problem.
+
+**Common Scenario**: When using webhooks to send quiz data, the response may appear broken or improperly formatted. For example, you may see incomplete or misaligned JSON objects in your logs. This could result from an unexpected content type or header configuration.
+
+**Steps to Resolve the Issue**
+
+1. **Check the Content-Type Header:**
+
+    - Inspect the content-type of the webhook payload. 
+
+    - Log the headers to verify the content type being sent. If it is unexpected, this could cause the payload to be interpreted incorrectly.
+
+    Example:
+    ```bash
+    Content-Type: application/x-www-form-urlencoded
+    ```
+
+2. **Verify the Header Configuration**:
+
+    - Compare the headers in your app's webhook configuration with the expected content type in the documentation.
+    
+    - If the content type differs, it may need to be overridden manually in your webhook configuration.
+
+    Example:
+
+    ```json
+    "Content-Type": "application/json"
+    ```
+
+3. **Override the Content-Type in the App Config**:
+
+    - Update the webhook configuration to explicitly set the correct `Content-Type` header.
+
+    - For example, change the content type to `application/json`.
+
+4. **Test the Webhook Connection**:
+
+    After updating the configuration, test the connection:
+
+    - Disconnect the webhook.
+
+    - Reconnect the webhook and test it.
+
+    - Ensure the webhook is properly activated.
+
+5. **Validate the JSON**:
+
+    - Use a tool like [JSONLint](https://jsonlint.com/) to validate the JSON payload.
+
+    - Paste the payload into the tool to ensure it conforms to proper JSON formatting.
+
+6. **Publish Your Changes**:
+
+    - Ensure you click the `Publish` button in the top-right corner after making updates to the webhook configuration. 
+    
+    - Missing this step may result in the changes not being applied.
+
+7. **Retest the Integration**:
+
+    - Complete a full end-to-end test of the quiz, submitting valid test data (e.g., email address, phone number, etc.).
+
+    - Confirm that the webhook receives the corrected JSON payload.
+
 
 ---
 By following this article, you can set up your data flow with Webhooks.
