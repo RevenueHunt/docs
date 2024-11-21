@@ -27,6 +27,21 @@ Make sure you have:
     2. **Add Custom HTML Section**: In the Shopify theme customizer, click `Add section` then select `Custom content`. Remove default content and add a `Custom HTML` section.
     3. **Embed the Quiz**: Paste the copied HTML code into the `HTML` input of the Custom HTML section and save.
 
+=== "Shopify V2"
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
+    1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your homepage.
+        ![how to publish inline quiz shopify v2 main page](/images/how to publish inline quiz shopify v2 main page.png)
+
+        The default quiz for your store will be rendered. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+    3. **Configure Quiz Settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
+        ![how to publish inline quiz shopify v2 main page 2](/images/how to publish inline quiz shopify v2 main page 2.png)
+    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+
 === "WooCommerce"
 
     1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Inline`](https://docs.revenuehunt.com/reference/quiz-builder/#inline) mode.
@@ -94,6 +109,35 @@ Make sure you have:
     1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Inline`](https://docs.revenuehunt.com/reference/quiz-builder/#inline) mode, and `Show Instructions for Legacy Themes` to copy the HTML embed code.
     2. **Insert Quiz into Page**: Navigate to `Online Store > Pages` and select the page to embed the quiz. Click `Show HTML` and paste the embed code into the code editor.
     3. **Single Quiz Per Page**: To avoid issues, embed only one quiz per page. If using a non-Shopify version of the quiz, ensure the `embed.js` code is added to your site's header.
+
+=== "Shopify V2"
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
+    
+    1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard.
+
+    2. **Assign a Theme to a Specific Page (Using Templates)**: Shopify doesn't support applying different themes to individual pages, but you can create custom templates within a theme to give specific pages a unique layout.
+
+        - Create a New Page Template. From the Themes page, click `Actions` next to your published theme. Select `Edit code`.
+
+        - In the code editor, find the `Templates` folder.
+
+        - Click `Add a new template.` Choose Page from the dropdown. Name your template (e.g., custom-page).
+
+        - Customize the code as needed. Click `Save`.
+
+    3. **Assign the Template to a Page** : Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`. 
+        ![how to publish inline quiz shopify v2 new page](/images/how to publish inline quiz shopify v2 new page.png)
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your page template.
+        ![how to publish inline quiz shopify v2 main page](/images/how to publish inline quiz shopify v2 main page.png)
+
+        The default quiz for your store will be rendered. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+    3. **Configure Quiz Settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
+        ![how to publish inline quiz shopify v2 main page 2](/images/how to publish inline quiz shopify v2 main page 2.png)
+    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor. Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
 
 === "WooCommerce"
 
@@ -170,6 +214,11 @@ Make sure you have:
 
     1. **Obtain Inline Embed Code**: From the quiz builder, click `Share`, select `Inline` mode, and `Show Instructions for Legacy Themes` to copy the HTML embed code.
     2. **Create Custom Collection Theme**: Have a developer create a new theme template incorporating the quiz code, then apply this template to the desired collection page.
+
+=== "Shopify V2"
+
+    Coming Soon
+
 
 === "WooCommerce"
 
@@ -250,6 +299,17 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
     3. **Get new code**: Click `Get code` and copy the new HTML embed code.
     4. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embedding-an-inline-quiz-on-the-homepage), [New Page](#embedding-an-inline-quiz-on-a-new-page) or [Collection/Category Page](#embedding-an-inline-quiz-on-a-specific-collectioncategory-page).
 
+=== "Shopify V2"
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
+    1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 -Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your homepage.
+    3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height. Check the `Fixed size` option.
+    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.   
+
 === "WooCommerce"
 
     1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Inline`](https://docs.revenuehunt.com/reference/quiz-builder/#inline) mode.
@@ -313,6 +373,19 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
         <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/dbqHqN" data-autoscroll="false" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
         ```
     4. **Embed the Quiz**: Paste the adjusted HTML code wherever you like on your website.
+
+=== "Shopify V2"
+
+    !!! warning
+
+        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+
+    1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your homepage.
+    3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings. Uncheck the `Automatic Scroll into View` option.
+    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+
+
 
 === "WooCommerce"
 
