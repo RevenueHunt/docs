@@ -26,6 +26,69 @@ Before you start, ensure you have:
     6. **Insert the Popup Link Code**: Paste the previously copied code into the link field.
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
 
+=== "Shopify V2"
+
+    With Version 2 of the Shop Quiz: Product Recommender app, you can easily create links to open a quiz popup anywhere on your website. 
+    
+    To add a popup link to a menu item or button in Shopify, simply type the `#quiz` as the link and save your changes. 
+        
+    ![how to publish link popup shopify v2](/images/how to publish link popup shopify v2.png)
+        
+    When clicked, the default quiz for your store will open. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+
+    !!! note
+
+        To link to a specific quiz, use `#quiz-QUIZID` for Version 1 quizzes or `#quizV2-QUIZID` for Version 2 quizzes. 
+            Replace `QUIZID` with the quiz ID, which you can find in the [dashboard](https://docs.revenuehunt.com/reference/dashboard/) by clicking the `...` three dots next to a quiz and selecting "Copy Quiz ID."
+
+        ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
+
+        To directly link to a specific quiz:
+
+        - For quizzes created with Version 1, use: #quiz-QUIZID
+
+        - For quizzes created with Version 2, use: #quizV2-QUIZID
+
+        Here are examples of how your links might look:
+
+        **Popup Links**:
+
+
+        ``` html
+        #quiz-DmHLGj (Version 1)
+        ```
+            
+        ``` html
+        #quizV2-BfK8Ht (Version 2)
+        ```
+
+        **Direct Page Links**:
+
+
+        ``` html
+        www.yourstore.com/#quiz-DmHLGj
+        ```
+
+        ``` html
+        www.yourstore.com/#quizV2-BfK8Ht
+        ```
+
+            These links can be added anywhere on your website to open a quiz popup.
+
+    Step by step instructions:
+
+    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+    3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the **Link Popup V2** Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
+        	![how to publish quiz link popup app embeds](/images/how to publish quiz link popup app embeds.png)
+    4. **Navigate to Your Site's Navigation Settings**: From your Shopify dashboard, go to `Online Store > Navigation`. Open the menu list you wish to add the quiz link to.
+    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the name field, type in a title for your quiz link, such as “Take Our Quiz”.
+    6. **Insert the #quiz Code**: Type `#quiz` into the link filed and accept the link.
+        ![how to publish link popup shopify v2](/images/how to publish link popup shopify v2.png)
+
+        When clicked, the default quiz for your store will open. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+
+    7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
+
 === "WooCommerce"
 
     1. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to [`Link`](https://docs.revenuehunt.com/reference/quiz-builder/#link).
@@ -93,6 +156,71 @@ Before you start, ensure you have:
     6. **Add a New Section**: Click on **"Add section"** and select **"Image banner"** (or a similar option) from the list.
     7. **Insert a Button Block**: Within the "Image banner" section, add a new block and choose the **"Button"** option.
     8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Paste the link to your quiz in the appropriate field.
+    9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button.
+
+=== "Shopify V2"
+
+    With Version 2 of the Shop Quiz: Product Recommender app, you can easily create links to open a quiz popup anywhere on your website. 
+    
+    To add a popup link to a menu item or button in Shopify, simply type the `#quiz` as the link and save your changes. 
+        
+    ![how to publish link popup shopify v2](/images/how to publish link popup shopify v2.png)
+        
+    When clicked, the default quiz for your store will open. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+
+    !!! note
+
+        To link to a specific quiz, use `#quiz-QUIZID` for Version 1 quizzes or `#quizV2-QUIZID` for Version 2 quizzes. 
+            Replace `QUIZID` with the quiz ID, which you can find in the [dashboard](https://docs.revenuehunt.com/reference/dashboard/) by clicking the `...` three dots next to a quiz and selecting "Copy Quiz ID."
+
+        ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
+
+        To directly link to a specific quiz:
+
+        - For quizzes created with Version 1, use: #quiz-QUIZID
+
+        - For quizzes created with Version 2, use: #quizV2-QUIZID
+
+        Here are examples of how your links might look:
+
+        **Popup Links**:
+
+
+        ``` html
+        #quiz-DmHLGj (Version 1)
+        ```
+            
+        ``` html
+        #quizV2-BfK8Ht (Version 2)
+        ```
+
+        **Direct Page Links**:
+
+
+        ``` html
+        www.yourstore.com/#quiz-DmHLGj
+        ```
+
+        ``` html
+        www.yourstore.com/#quizV2-BfK8Ht
+        ```
+
+            These links can be added anywhere on your website to open a quiz popup.
+
+    Step by step instructions:
+
+    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+    3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup V2 Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
+        	![how to publish quiz link popup app embeds](/images/how to publish quiz link popup app embeds.png)
+    4.  **Navigate to Themes**: Go to `Online Store > Themes`.
+    5. **Enter Theme Customization**: Find the theme you wish to edit and click on the **"Customize"** button.
+    6. **Add a New Section**: Click on **"Add section"** and select **"Image banner"** (or a similar option) from the list.
+    7. **Insert a Button Block**: Within the "Image banner" section, add a new block and choose the **"Button"** option.
+    8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Type `#quiz` in the appropriate link field.
+        ![how to publish link popup shopify v2 button](/images/how to publish link popup shopify v2 button.png)
+
+        When clicked, the default quiz for your store will open. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+
     9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button.
 
 === "WooCommerce"
