@@ -224,8 +224,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         8. Edit the name/subject/email to your liking and select the `HTML email template`.
         9. From the `Integrations >  Klaviyo` tab you can download a ready-to-use email template. 
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how to send leads to klaviyo email tempalte download1.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how to send leads to klaviyo email tempalte download2.png)
+            ![how to send leads to klaviyo email tempalte download1](/images/how to klaviyo shopify v2 get template.png)
+            ![how to send leads to klaviyo email tempalte download2](/images/how to klaviyo shopify v2 copy template.png)
 
             !!! tip
 
@@ -453,9 +453,11 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     5. Copy the private key.
     6. In the Quiz [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
-    8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
+        ![how to klaviyo shopify v2 private api](/images/how to klaviyo shopify v2 private api.png)
+    8. If you go back to the [Quiz Builder > Email Block Settings]() you will now see an new Klaviyo-related menu. Choose and select a list that contacts should be added to.
+        ![how to klaviyo shopify v2 email question settings](/images/how to klaviyo shopify v2 email question settings.png)
     9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
-    10. Save the changes and publish them with the top-right `Publish` button.
+    10. Save the changes and publish them with the top-right `Save` button.
     11. Remember to test the connection with a sample email.
 
 === "WooCommerce"
@@ -596,51 +598,138 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
 
-    ![how to send leads to klaviyo customer profile](/images/how to send leads to klaviyo customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how to klaviyo shopify v2 customer profile.png)
 
     If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
 
+    !!! note
+
+        To build your own email template based on the custom properties we send to Klaviyo, you should familiarize yourself with the [message personalization reference](https://help.klaviyo.com/hc/en-us/articles/4408802648731) in Klaviyo, aka the `{{ person|lookup:"..." }}` function.
+
+    
+
+
+
     **Example Email Templates**
 
-    In this example, we’re using our quiz ID `dbqHqN`, which you’ll need to replace for your quiz ID. Here is the code for reference:
+    **Template 1**
+
+
+    In this example, we’re using our quiz ID `OauZol`, which you’ll need to replace for your quiz ID. Here is the code for reference:
 
         ```html
-        <h3>Hello {{ person|lookup:'Q-dbqHqN ZMiXjj: .Before we get started... what\'s your name?'|default:'' }}!</h3>
-        <p>Here we are making sure the product exists:</p>
-        {% if person|lookup:'SLOT-dbqHqN: Step 1: Cleanser - product_0_image_url' %}
-        <p>Cleanser</p>
-        <p><img alt="This is the cleanser image" src="{{ person|lookup:'SLOT-dbqHqN: Step 1: Cleanser - product_0_image_url'|default:'' }}" /></p>
-        <p>{{ person|lookup:'SLOT-dbqHqN: Step 1: Cleanser - product_0_name'|default:'' }}</p>
-        <p>{{ person|lookup:'SLOT-dbqHqN: Step 1: Cleanser - product_0_price'|default:'' }}</p>
-        <p>{{ person|lookup:'SLOT-dbqHqN: Step 1: Cleanser - product_0_sku'|default:'' }}</p>
-        <p><a href="{{ person|lookup:'SLOT-dbqHqN: Step 1: Cleanser - product_0_url'|default:'' }}">Buy now</a></p>
-        {% endif %}
-        {% if person|lookup:'T-dbqHqN: 40s' %}
-        <p>You are in your forties</p>
-        {% endif %}
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Klaviyo Email Template</title>
+        </head>
+        <body>
+        <div><p>Heading</p></div><div><p>Text</p></div><div>
+                    <div><p>Slot 1</p></div>
+                    <div><p><br></p></div>
+                </div>{% for product_id in person|lookup:"RECOMMENDATIONS-OauZol"|lookup:"rsbs-9ca1c5ac"|lookup:"rsbss-6b027784" %}
+        <table style="width:100%; border: 1px solid #333; padding: 5px; margin-bottom: 25px;">
+        <tr>
+        <td style="width: 80px;">
+        <img alt="{{ person|lookup:"ITEMS_DATA-OauZol"|lookup:product_id|lookup:"title" }}" height="70" src="{{ person|lookup:"ITEMS_DATA-OauZol"|lookup:product_id|lookup:"images"|lookup:"edges"|first|lookup:"node"|lookup:"url" }}" style="width: 70px; height: 70px;" width="70"/>
+        </td>
+        <td>
+        <p style="margin-top: 0; margin-bottom: 10px;"><b>{{ person|lookup:"ITEMS_DATA-OauZol"|lookup:product_id|lookup:"title" }}</b></p>
+        </td>
+        <td>
+        <p>Price: {{ person|lookup:"ITEMS_DATA-OauZol"|lookup:product_id|lookup:"priceRange"|lookup:"minVariantPrice"|lookup:"amount" }} {{ person|lookup:"ITEMS_DATA-OauZol"|lookup:product_id|lookup:"priceRange"|lookup:"minVariantPrice"|lookup:"currencyCode" }}</p>
+        </td>
+        <td>
+        </tr>
+        </table>
+        {% endfor %}
+
+        </body>
+        </html>
         ```
+
+    ![how to klaviyo shopify v2 email template](/images/how to klaviyo shopify v2 email template.png)
 
     This example demonstrated that you can not only include custom properties that are passed from the quiz to your Klaviyo account, but you can also use `IF-ELSE` conditional statements to show/hide content based on the customer’s responses to the quiz.
 
-    !!! note
+    **Template 2**
 
-        Note that when looping through the products, the **count starts in 0 (zero)**, so for example, if you were to display the name of 3 products in a slot you’d have to do it like this:
+    Let's take this JSON of data that is sent to Klaviyyo:
 
-            ```html
-            <p>{{ person|lookup:'SLOT-dbqHqN - product_0_name'|default:'' }}</p>
-            <p>{{ person|lookup:'SLOT-dbqHqN - product_1_name'|default:'' }}</p>
-            <p>{{ person|lookup:'SLOT-dbqHqN - product_2_name'|default:'' }}</p>
-            ```
+    ``` json
+    {"gid://shopify/Product/9527933469013":{"id":"gid://shopify/Product/9527933469013","title":"The Complete Snowboard","images":{"edges":[{"node":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."}}]},"vendor":"Snowboard Vendor","variants":{"edges":[{"node":{"id":"gid://shopify/ProductVariant/49385737060693","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Ice"}},{"node":{"id":"gid://shopify/ProductVariant/49385737093461","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Dawn"}},{"node":{"id":"gid://shopify/ProductVariant/49385737126229","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Powder"}},{"node":{"id":"gid://shopify/ProductVariant/49385737158997","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Electric"}},{"node":{"id":"gid://shopify/ProductVariant/49385737191765","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Sunset"}}]},"priceRange":{"minVariantPrice":{"amount":"699.95","currencyCode":"GBP"}},"description":"This PREMIUM snowboard is so SUPERDUPER awesome!"},"gid://shopify/ProductVariant/49385737060693":{"id":"gid://shopify/ProductVariant/49385737060693","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Ice","product":{"title":"The Complete Snowboard","images":{"edges":[{"node":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."}}]},"priceRange":{"minVariantPrice":{"amount":"699.95","currencyCode":"GBP"}},"description":"This PREMIUM snowboard is so SUPERDUPER awesome!"}}}
+    ```
 
-    Here are some other email templates that you can use as a reference:
+    Below is a comprehensive and structured Klaviyo template format that represents a complete product object and a variant object based on this JSON example. This template can be used for replicating and adapting to other templates.
 
-    - [Basic Slots Template (4-Step Skincare Routine)](https://drive.google.com/file/d/1waa86eP6-Cd7GITOmXbFlvwDC9Nw0JsA/view?usp=sharing) – take [this quiz](https://revenuehunt.com/faqs/sending-leads-to-klaviyo-account/#quiz-dbqHqN) & enter your email to see a demo.
-    - [Advanced Slots Template (Morning & Night Routine)](https://drive.google.com/file/d/1HawvV57Z2dma8XFWdRrmeh5DwGTcVyaM/view?usp=sharing) – take [this quiz](https://skincarequiz.myshopify.com/#quiz-rkHm6Y) & enter your email to see a demo.
-    - [Products List Template (Coffee Recommendations)](https://drive.google.com/file/d/1x33l8q1LZuuzZcQ5F8vZAo8BXjywsGMO/view?usp=sharing) – take [this quiz](https://revenuehunt.com/faqs/sending-leads-to-klaviyo-account/#quiz-aMnHBw) & enter your email to see a demo.
+    **Klaviyo Template: Complete Product Object**
 
-    !!! warning
+    ```html
+    Products:<br>
+    {% for product_id in person|lookup:"RECOMMENDATIONS-umXcjW"|lookup:"rsbs-e73f45a7"|lookup:"rsbss-85a9b652" %}
+    RAW Product ID: {{ product_id }}<br>
 
-        Bear in mind that these templates (unlike the one generated from the Connect > Klaviyo tab) won’t work as is. They were created for a sample quiz. Your developer will have to modify the `custom properties` to match the ones that are passed from the quiz to your Klaviyo account. The `quiz ID` is different, so are other property names.
+    **Product Details:**<br>
+    - **Title:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"title" }}<br>
+    - **Vendor:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"vendor" }}<br>
+    - **Price Range:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"priceRange"|lookup:"minVariantPrice"|lookup:"amount" }} {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"priceRange"|lookup:"minVariantPrice"|lookup:"currencyCode" }}<br>
+    - **Description:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"description" }}<br>
+
+    **Images:**<br>
+    {% for image in person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"images"|lookup:"edges" %}
+    - URL: {{ image.node.url }}<br>
+    - Alt Text: {{ image.node.altText }}<br>
+    {% endfor %}
+    <br>
+
+    **Variants:**<br>
+    {% for variant in person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"variants"|lookup:"edges" %}
+    - **Variant ID:** {{ variant.node.id }}<br>
+    - **Title:** {{ variant.node.title }}<br>
+    - **Price:** {{ variant.node.price.amount }} {{ variant.node.price.currencyCode }}<br>
+    - **Image:** {{ variant.node.image.url }}<br>
+    - **Alt Text:** {{ variant.node.image.altText }}<br>
+    {% endfor %}
+
+    <hr>
+    {% endfor %}
+    ```
+
+    **Klaviyo Template: Complete Variant Object**
+
+    ```html
+    Variants:<br>
+    {% for variant_id in person|lookup:"RECOMMENDATIONS-umXcjW"|lookup:"rsbs-d5ebc107"|lookup:"rsbss-1681ee9d" %}
+    RAW Variant ID: {{ variant_id }}<br>
+
+    **Variant Details:**<br>
+    - **Title:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:variant_id|lookup:"title" }}<br>
+    - **Price:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:variant_id|lookup:"price"|lookup:"amount" }} {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:variant_id|lookup:"price"|lookup:"currencyCode" }}<br>
+    - **Image URL:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:variant_id|lookup:"image"|lookup:"url" }}<br>
+    - **Image Alt Text:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:variant_id|lookup:"image"|lookup:"altText" }}<br>
+    - **Associated Product Title:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:variant_id|lookup:"product"|lookup:"title" }}<br>
+
+    <hr>
+    {% endfor %}
+    ```
+
+    Explanation of Fields:
+
+    - `RECOMMENDATIONS-umXcjW`: Represents the list of recommended products or variants.
+    - `ITEMS_DATA-umXcjW`: Contains detailed product and variant data.
+
+    Loops:
+
+    - The outer loop iterates through each product or variant.
+    - Nested loops fetch associated details like images, variants, etc.
+
+    Fields:
+
+    - Product fields include title, price range, description, vendor, and images.
+    - Variant fields include title, price, image details, and the parent product's title.
+
 
 === "WooCommerce"
 
