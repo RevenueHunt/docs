@@ -38,6 +38,9 @@ By default, all the contacts added to the list via the quiz will be marked as su
 
 ## Set up Shopify Automation Flow
 
+<iframe class="alignnone size-full" title="YouTube video player" src="https://www.youtube.com/embed/GcxUgLyZUZc?si=TdE6-D4EAckWkgCj" width="100%" height="400px" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
+
+
 ![how to shopify customers automation full cycle](/images/how to shopify customers automation full cycle.png)
 
 1. To set up a post-quiz automation head to your `Shopify dashboard > Marketing > Automations` and click `Create Automation`.
