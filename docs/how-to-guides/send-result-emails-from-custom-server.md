@@ -38,7 +38,7 @@ For Office 365 SMTP, whitelist IP `3.14.55.225` to allow email sending.
 
 - **Test Credentails with Thrid Party Tool**: Utilize third-party tools like [GMass SMTP Test](https://www.gmass.co/smtp-test) for SMTP settings verification. If the credentials work there, they will also work in our app. Should you encounter issues, consult with your developer or SMTP service provider.
 - **SMTP Settings Not Working**: Ensure correctness with third-party tools. If issues persist, verify with your SMTP provider.
-- **Office 365 Email Blocking**: Contact support to IP `3.14.55.225` if emails are not sending.
+- **Office 365 Email Blocking**: Contact support to whitelist IP `3.14.55.225` if emails are not sending.
 - **Google Workspace SMTP Failure**: Check if 2FA is enabled and correct app password is used. SMTP port 587 or 465 should work; if not, retry or check Google's support for updates.
 
 
