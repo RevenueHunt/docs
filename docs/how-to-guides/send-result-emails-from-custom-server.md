@@ -19,6 +19,8 @@ SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails acros
 
 ### Outlook Office 365 Users
 
+To find credentials to fill in please check [this Microsoft documentation](https://learn.microsoft.com/en-us/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365).
+
 For Office 365 SMTP, whitelist IP `3.14.55.225` to allow email sending.
 
 - **Whitelisting Steps**:
@@ -27,6 +29,9 @@ For Office 365 SMTP, whitelist IP `3.14.55.225` to allow email sending.
     - Add IP `3.14.55.225` to the `IP Allow List` and enable the `Enable Safe List`.
 
 ### Google Workspace Users
+
+
+To find credentials to fill in please check [this Google documentation](https://support.google.com/a/answer/176600?hl=en).
 
 - **Enable 2-Step Verification** (2FA): Required for SMTP connections.
     - [Enable 2FA](https://support.google.com/accounts/answer/185839)
