@@ -22,7 +22,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/). 
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/). 
 
     ![manual_shopifyV2_appsettings](/images/manual_shopifyV2_appsettings.png)
 
@@ -30,7 +30,7 @@
     
     - Assign quizzes to different markets and languges via the [Markets](#markets) tab.
     - Run a catalog sync from the [Catalogue](#catalogue) tab or check when the last sync was completed.
-    - Switch to the legacy V1 version fo the Shop Quiz app from the [Switch to V1](#switch-to-v1) tab.
+    - Switch to the legacy V1 version fo the RevenueHunt app from the [Switch to V1](#switch-to-v1) tab.
 
 === "WooCommerce"
 
@@ -108,7 +108,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
 
@@ -148,9 +148,9 @@
 
     **SMTP Settings** 
 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. Shop Quiz) to send emails through your email server.
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
 
-    When you connect the Shop Quiz: Product Recommendation Quiz app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
+    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
 
     Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
@@ -176,9 +176,9 @@
 
     **SMTP Settings** 
 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. Shop Quiz) to send emails through your email server.
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
 
-    When you connect the Shop Quiz: Product Recommendation Quiz app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
+    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
 
     Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
@@ -200,9 +200,9 @@
 
     **SMTP Settings** 
 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. Shop Quiz) to send emails through your email server.
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
 
-    When you connect the Shop Quiz: Product Recommendation Quiz app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
+    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
 
     Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
@@ -224,9 +224,9 @@
 
     **SMTP Settings** 
 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. Shop Quiz) to send emails through your email server.
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
 
-    When you connect the Shop Quiz: Product Recommendation Quiz app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
+    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
 
     Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
@@ -248,9 +248,9 @@
 
     **SMTP Settings** 
 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. Shop Quiz) to send emails through your email server.
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
 
-    When you connect the Shop Quiz: Product Recommendation Quiz app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
+    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
 
     Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
@@ -323,7 +323,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
 
@@ -365,12 +365,12 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_appsettings_switchtov1](/images/manual_shopifyV2_appsettings_switchtov1.png)
 
     
-    During this beta testing phase, you can switch back to the original legacy version (V1) of the Shop Quiz app at any time. We will continue to maintain that version for the coming months to ensure you have a reliable option while exploring the new features in Version 2.
+    During this beta testing phase, you can switch back to the original legacy version (V1) of the RevenueHunt app at any time. We will continue to maintain that version for the coming months to ensure you have a reliable option while exploring the new features in Version 2.
 
     From Version 1, you will also have the ability to switch to Version 2 whenever you feel ready to try out the latest enhancements. This flexibility allows you to evaluate the new interface and features without losing access to the familiar functionalities of Version 1.
 

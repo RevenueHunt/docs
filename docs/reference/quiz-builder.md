@@ -70,7 +70,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder](/images/manual_shopifyV2_quizbuilder.png)
 
@@ -341,7 +341,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     **Questions**
     
@@ -428,7 +428,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     **+ Add question** - Opens a menu of quiz questions to add.
 
@@ -695,7 +695,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
     
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
 
@@ -972,7 +972,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Each buliding block of your question has individual block settings. 
 
@@ -1148,7 +1148,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
@@ -1236,11 +1236,11 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     !!! note
 
-        In V2 of the Shop Quiz: Product Recommender app for Shopify you can not only upvote by also recommend entire collections to the customer.
+        In V2 of the RevenueHunt app for Shopify you can not only upvote by also recommend entire collections to the customer.
 
     To add link collections of products to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
 
@@ -1429,7 +1429,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/). 
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/). 
 
     To add link products or product variants to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
 
@@ -1598,7 +1598,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
 
@@ -1715,7 +1715,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
@@ -1889,7 +1889,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Jump Logic allows you to route customers to different questions based on their responses.
 
@@ -2138,7 +2138,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
 
@@ -2308,7 +2308,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
@@ -2436,7 +2436,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     **Basic**  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
 
@@ -2680,7 +2680,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
@@ -2762,7 +2762,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     **+ Add block** - Adds a new block to this section.
 
@@ -2910,7 +2910,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic.png)
 
@@ -3142,7 +3142,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Each buliding block of your results page section has individual block settings.
 
@@ -3419,7 +3419,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
@@ -3483,7 +3483,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     **Checkout bar** - Seelct the settings of the checkout bar.
 
@@ -3961,7 +3961,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
 
@@ -4536,7 +4536,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
@@ -4600,7 +4600,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     **Advanced quiz settings**
 
@@ -4809,7 +4809,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
 
@@ -5275,7 +5275,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizsettings_versionhistory](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
 
@@ -5359,7 +5359,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_integrations](/images/manual_shopifyV2_quizbuilder_integrations.png)
 
@@ -5414,7 +5414,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     To add the quiz to your store, you have to create your quiz first. Then, in Shopify go to `Online Store > Theme` and click ` Customize`.
 
@@ -5472,7 +5472,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     A link that will open the quiz as a popup over your page.
 
@@ -5552,7 +5552,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Quiz embedded inline with a page.
 
@@ -6044,7 +6044,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
@@ -6123,7 +6123,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
 
@@ -6434,17 +6434,17 @@
 
     ![quiz builder metrics analytics total carts](/images/manual_quizbuilder_metrics_analytics_totalcarts.png)
 
-    **Number of Orders (Beta)** - Number of people who have placed an order after completing this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Number of Orders (Beta)** - Number of people who have placed an order after completing this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-    **Total Orders Value (Beta)** - Total value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Total Orders Value (Beta)** - Total value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-    **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
 === "Shopify V2"
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Coming Soon
 
@@ -6488,11 +6488,11 @@
 
     ![quiz builder metrics analytics total carts](/images/manual_quizbuilder_metrics_analytics_totalcarts.png)
 
-    **Number of Orders (Beta)** - Number of people who have placed an order after completing this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Number of Orders (Beta)** - Number of people who have placed an order after completing this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-    **Total Orders Value (Beta)** - Total value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Total Orders Value (Beta)** - Total value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-    **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
 === "Magento"
 
@@ -6534,11 +6534,11 @@
 
     ![quiz builder metrics analytics total carts](/images/manual_quizbuilder_metrics_analytics_totalcarts.png)
 
-    **Number of Orders (Beta)** - Number of people who have placed an order after completing this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Number of Orders (Beta)** - Number of people who have placed an order after completing this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-    **Total Orders Value (Beta)** - Total value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Total Orders Value (Beta)** - Total value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-    **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
 === "BigCommerce"
 
@@ -6580,11 +6580,11 @@
 
     ![quiz builder metrics analytics total carts](/images/manual_quizbuilder_metrics_analytics_totalcarts.png)
 
-    **Number of Orders (Beta)** - Number of people who have placed an order after completing this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Number of Orders (Beta)** - Number of people who have placed an order after completing this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-    **Total Orders Value (Beta)** - Total value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Total Orders Value (Beta)** - Total value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-    **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
 === "Standalone"
 
@@ -6626,11 +6626,11 @@
 
     ![quiz builder metrics analytics total carts](/images/manual_quizbuilder_metrics_analytics_totalcarts.png)
 
-    **Number of Orders (Beta)** - Number of people who have placed an order after completing this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Number of Orders (Beta)** - Number of people who have placed an order after completing this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-    **Total Orders Value (Beta)** - Total value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Total Orders Value (Beta)** - Total value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-    **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the Shop Quiz app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
 
 
@@ -6659,7 +6659,7 @@
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Coming Soon
 

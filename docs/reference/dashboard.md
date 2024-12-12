@@ -24,7 +24,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![dashboard](/images/manual_shopifyV2_dashboard.png)
 
@@ -132,7 +132,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_notifications](/images/manual_shopifyV2_notifications.png)
 
@@ -209,7 +209,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/). 
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/). 
 
     ![manual_shopifyV2_dafaultquiz](/images/manual_shopifyV2_dafaultquiz.png)
 
@@ -442,7 +442,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_successchecklist](/images/manual_shopifyV2_successchecklist.png)
 
@@ -570,7 +570,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_createquiz.png](/images/manual_shopifyV2_createquiz.png)
 
