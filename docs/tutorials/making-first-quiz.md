@@ -2,7 +2,7 @@
 icon: material/numeric-1
 ---
 
-# Making Your First Shop Quiz || Recommending the Best Cleanser
+# Making Your First Product Recommendation Quiz || Recommending the Best Cleanser
 
 In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
 
@@ -24,7 +24,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
 
 ## Intro
 
-So you’re ready to create your first Shop Quiz: Product Recommendation Quiz. 
+So you’re ready to create your first Product Recommendation Quiz. 
 
 The most successful quizzes have two things in common. They are **short** and they are **informative**. You don’t need a long questionnaire to turn visitors into customers. 
 
@@ -95,7 +95,7 @@ Speaking of results. Make sure to also edit the Results Page.
 3. Adjust the quiz’s width and height and generate a code. 
 4. In your website’s menu, you can add a new section and paste the code. 
 
-Voila!  You’ve just created your first Shop Quiz: Product Recommendation Quiz. 
+Voila!  You’ve just created your first Product Recommendation Quiz. 
 
 
 Check out our [documentation](https://docs.revenuehunt.com/) for more resources on getting started with recommendation quizzes.

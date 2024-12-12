@@ -276,7 +276,7 @@ To send contacts to Klaviyo your quiz needs to have an `email question`.
 
 
 1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your homepage.
+2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz from RevenueHunt`. Select it to add to your homepage.
 3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings like quiz height, disable auto scroll, or fix quiz height for consistent results page height.
 4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
@@ -288,7 +288,7 @@ To send contacts to Klaviyo your quiz needs to have an `email question`.
 </div>
 
 
-1. **Copy Quiz ID**: Go to your Shop Quiz [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
 2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
 3. **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID, adjust settings, and activate the toggle.
 4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
@@ -301,7 +301,7 @@ To send contacts to Klaviyo your quiz needs to have an `email question`.
 </div>
 
 
-1. **Copy Quiz ID**: Go to your Shop Quiz [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
 2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
 3. **Embed the Chat Button Quiz**: Select `Chat Button Quiz` from the list.
 4. **Customize the Chat Button**: Enter your Quiz ID into the appropriate field. Adjust the chat button settings as needed. Activate the chat button by toggling it on.

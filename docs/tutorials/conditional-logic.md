@@ -2,7 +2,7 @@
 icon: material/numeric-3
 ---
 
-# Using Conditional Logic in your Shop Quiz: Product Recommendation Quiz
+# Using Conditional Logic in your Product Recommendation Quiz
 
 In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Logic](#skip-logic), and [Block Logic](#block-logic) to show (or hide) questions/content in the quiz as well as the Results Page.
 
@@ -35,7 +35,7 @@ A quiz can act as a professional shopping assistant. It can react to the answers
 
 In this Skin Care Quiz, there are four blocks of text. Each describes in more detail what a skin type needs in terms of skincare.
 
-With Shop Quiz: Product Recommendation Quiz, you can show customers with dry skin certain questions (specifically targeted for them), while customers with oily skin would skip these questions. This can be done in many ways within the app.
+With RevenueHunt app, you can show customers with dry skin certain questions (specifically targeted for them), while customers with oily skin would skip these questions. This can be done in many ways within the app.
 
 **Objective**: In this video, we’ll teach you how to show these texts using [Jump Logic](#jump-logic), [Skip Logic](#skip-logic), or [Block Logic](#block-logic) on the results page.
 

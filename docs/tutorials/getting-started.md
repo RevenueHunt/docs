@@ -2,22 +2,22 @@
 icon: material/numeric-0
 ---
 
-# Getting Started with Shop Quiz: Product Recommendation Quiz
+# Getting Started with Product Recommendation Quiz in RevenueHunt app
 
-In this tutorial, you’ll see an overview of the most important features of the Shop Quiz: Product Recommendation Quiz app.
+In this tutorial, you’ll see an overview of the most important features of the RevenueHunt app.
 
 <div class="videoWrapper">
 <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
-Welcome to Shop Quiz: Product Recommendation Quiz!
+Welcome to RevenueHunt!
 
 Before you start collecting leads and generating sales, here is a quick guide to finding your way around the app.
 
 ## [Dashboard](ttps://docs.revenuehunt.com/reference/dashboard/)
 
-1. When you log in to the Shop Quiz: Product Recommendation Quiz app, the first thing you’ll see is your [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).  This is where you can find all the quizzes that you create.
+1. When you log in to the RevenueHunt app, the first thing you’ll see is your [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).  This is where you can find all the quizzes that you create.
 2. On the right, you can see the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist). It shows the progress you’ve made in building your quiz.
 3. Click on `+ add new quiz` to create a new project. You can start from scratch, or use one of our pre-designed templates to get started.
 
@@ -34,7 +34,7 @@ This is where you’ll create your quiz.
 
 Once you’re happy with the design, you can add products and collections to each question. 
 
-Shop Quiz: Product Recommendation Quiz works like a voting system:
+Product Recommendation Quiz works like a voting system:
 
 - Products are linked to each choice. 
 - When a customer picks that choice, all linked products receive one vote.
@@ -73,7 +73,7 @@ The choice is yours.
 
 ## [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect)
 
-If you want to do more with your Shop Quiz: Product Recommendation Quiz, try integrating it with other tools.
+If you want to do more with your RevenueHunt Product Recommendation Quiz, try integrating it with other tools.
 
 - The [`Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) section lets you see all our integrations. 
 - To set this up, select a platform and click `connect`. 
@@ -87,6 +87,6 @@ The [`Metrics`](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) pa
 - You can download all responses to a CSV file by clicking [here](https://docs.revenuehunt.com/how-to-guides/download-quiz-responses/).
 
 
-That's our Shop Quiz: Product Recommendation Quiz app!
+That's our RevenueHunt app!
 
 Check out our [documentation](https://docs.revenuehunt.com/) for more resources on getting started with recommendation quizzes.

@@ -1,16 +1,16 @@
 # Tutorial Videos
 
-You’re about to create your first Shop Quiz: Product Reocmmendation Quiz but not sure where to start? Below you’ll find a list of helpful tutorials that show you step-by-step how to use the app’s features.
+You’re about to create your first Product Reocmmendation Quiz but not sure where to start? Below you’ll find a list of helpful tutorials that show you step-by-step how to use the app’s features.
 
 [Full Tutorial Playlist](https://www.youtube.com/@productrecommendationquiz1054){ .md-button }
 
-### [Getting Started with Shop Quiz: Product Recommendation Quiz / App Tour](getting-started.md)
+### [Getting Started with Product Recommendation Quiz / App Tour](getting-started.md)
 
-An overview of the most important features of the Shop Quiz: Product Recommendation Quiz app.
+An overview of the most important features of the RevenueHunt app.
 
 [:fontawesome-solid-arrow-right: check tutorial](getting-started.md)
 
-### [Making your first Shop Quiz: Product Recommendation Quiz](making-first-quiz.md)
+### [Making your first Product Recommendation Quiz](making-first-quiz.md)
 
 Make and publish a short quiz that recommends a single product to your customers.
 
@@ -30,7 +30,7 @@ Learn how to use Jump Logic, Skip Logic, and Block logic to show/hide questions/
 
 ### [Sending Follow-up Emails with Klaviyo](follow-up-emails-klaviyo.md)
 
-Learn how to add Shop Quiz: Product Recommendation Quiz leads to Klaviyo and how to build a post-quiz email flow in Klaviyo.
+Learn how to add RevenueHunt: Product Recommendation Quiz leads to Klaviyo and how to build a post-quiz email flow in Klaviyo.
 
 [:fontawesome-solid-arrow-right: check tutorial](follow-up-emails-klaviyo.md)
 

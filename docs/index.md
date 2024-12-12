@@ -1,8 +1,8 @@
-# Getting Started with Shop Quiz
+# Getting Started with RevenueHunt
 
-## What is Shop Quiz: Product Recommendation Quiz?
+## What is RevenueHunt app?
 
-The Shop Quiz: Product Recommendation Quiz app is a product recommendation and video quiz application designed to enhance the online shopping experience by guiding shoppers through tailored questions, analyzing their responses, and recommending the perfect products based on their preferences. 
+The RevenueHunt app is a product recommendation and video quiz application designed to enhance the online shopping experience by guiding shoppers through tailored questions, analyzing their responses, and recommending the perfect products based on their preferences. 
 
 This interactive tool is compatible with Shopify's official [Shop app](https://shop.app/), aiming to improve customer engagement and increase sales by collecting zero-party data and segmenting leads to grow the audience. It offers personalized product recommendations through interactive quizzes, providing tailored suggestions that match the shopper's needs and preferences. 
 
@@ -14,7 +14,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
 
     1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
     2. Grant permissions to connect our app to your Shopify.
-    3. In your Shopify dashboard, go to “Apps” and click on the **Shop Quiz: Product Recommender** to open it.
+    3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt: Recommender Quiz** to open it.
     4. Follow the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) to create and publish your quiz.
     5. Drive traffic to your quiz and start getting sales and leads!
 

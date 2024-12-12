@@ -2,7 +2,7 @@
 icon: material/numeric-2
 ---
 
-# Recommending a Skincare Routine with Shop Quiz: Product Recommendation Quiz
+# Recommending a Skincare Routine with RevenueHunt app
 
 In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) products to your customers organized into near categories.
 
