@@ -155,9 +155,36 @@
 
         App payments are handled by Stripe, the payment processor.
 
+    
     ??? question "How to change my billing details?"
 
-        To change your billing details please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        Payments are handled by Stripe, the payment processor. Since we don’t store credit card details and we don’t have access to them, the process to change it in Stripe would be the following:
+
+        1. You can access all your Stripe billing details via [this link](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+        2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
+
+            ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change billing details.png)
+
+            !!! note
+
+                The login is the email that you used when you first provided your credit card details.
+         
+        3. Once you log in, you’ll see a screen similar to this one:
+            ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change billing details stripe.png)
+        4. There you can edit the invoices and credit card details, download the invoices, cancel the subscription, etc.
+
+            !!! tip
+
+                To add your VAT number on the invoice provide it as a first line of your name or address, for example, JOHN DOE VAT XXXX or VAT XXXX JOHN DOE. Stripe does not have a dedicated field for the VAT number.
+
+        or alternatively:
+
+        1. Access the plugin and navigate to the Plans & Pricing screen
+        2. Click on the “GET FREE” button to downgrade to the Free Plan. This will cancel your Stripe subscription.
+        3. Upgrade again to the Basic Plan, this time introducing your new credit card details.
+        4. We’ll proceed to issue a refund for the days not used in your previous Basic Plan billing cycle.
+
+        If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
 
 === "Standalone"
 
@@ -183,6 +210,33 @@
 
         App payments are handled by Stripe, the payment processor.
 
+    
     ??? question "How to change my billing details?"
 
-        To change your billing details please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        Payments are handled by Stripe, the payment processor. Since we don’t store credit card details and we don’t have access to them, the process to change it in Stripe would be the following:
+
+        1. You can access all your Stripe billing details via [this link](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+        2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
+
+            ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change billing details.png)
+
+            !!! note
+
+                The login is the email that you used when you first provided your credit card details.
+         
+        3. Once you log in, you’ll see a screen similar to this one:
+            ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change billing details stripe.png)
+        4. There you can edit the invoices and credit card details, download the invoices, cancel the subscription, etc.
+
+            !!! tip
+
+                To add your VAT number on the invoice provide it as a first line of your name or address, for example, JOHN DOE VAT XXXX or VAT XXXX JOHN DOE. Stripe does not have a dedicated field for the VAT number.
+
+        or alternatively:
+
+        1. Access the plugin and navigate to the Plans & Pricing screen
+        2. Click on the “GET FREE” button to downgrade to the Free Plan. This will cancel your Stripe subscription.
+        3. Upgrade again to the Basic Plan, this time introducing your new credit card details.
+        4. We’ll proceed to issue a refund for the days not used in your previous Basic Plan billing cycle.
+
+        If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
