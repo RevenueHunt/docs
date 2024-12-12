@@ -12,7 +12,7 @@ The quiz needs to be published on live website (not hidden by a “coming soon�
 
 ## You’re using a cart drawer
 
-Our Shop Quiz app does not integrate with drawer carts at the moment. So after the quiz is over, the quiz is adding products to the “regular” cart instead of the drawer cart in your theme.
+Our RevenueHunt app does not integrate with drawer carts at the moment. So after the quiz is over, the quiz is adding products to the “regular” cart instead of the drawer cart in your theme.
 
 Unfortunately, drawer carts are an added functionality by specific store themes, not a core Shopify feature. Because of that, we cannot integrate with drawer carts at the moment.
 
@@ -25,10 +25,10 @@ You could, instead of adding the product to the cart, send the customer to the p
 
 ## Your product is a subscription product
 
-Shop Quiz is able to sync and recommend subscription products created with ReCharge Subscriptions for Shopify. Check [here](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/) for instructions on how to enable it.
+RevenueHunt app is able to sync and recommend subscription products created with ReCharge Subscriptions for Shopify. Check [here](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/) for instructions on how to enable it.
 
-For other subscription apps, there's a [workaround](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/#other-subscriptions) that allows you to still guide your customers towards subscription options via the Shop Quiz. 
+For other subscription apps, there's a [workaround](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/#other-subscriptions) that allows you to still guide your customers towards subscription options via the RevenueHunt app. 
 
 
 ---
-This article helps with troubleshooting add-to-cart issues in Shop Quiz.
+This article helps with troubleshooting add-to-cart issues in RevenueHunt app.

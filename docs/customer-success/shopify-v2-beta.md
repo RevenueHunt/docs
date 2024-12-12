@@ -1,6 +1,6 @@
-# Shop Quiz Shopify V2 Beta Tester Program
+# RevenueHunt Shopify V2 Beta Tester Program
 
-We’re thrilled to introduce Version 2 of our Shop Quiz: Product Recommender app! 
+We’re thrilled to introduce Version 2 of our RevenueHunt app! 
 
 This new version represents a major leap forward, built from the ground up using insights gathered over six years of supporting Shopify stores with personalized product recommendation quizzes. With a redesigned architecture and a more intuitive user interface, Version 2 is tailored to provide a smoother, more powerful experience.
 
@@ -20,7 +20,7 @@ Please note that Version 2 is a fresh start: **you’ll need to recreate your qu
 
 1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
 2. Grant permissions to connect our app to your Shopify.
-3. In your Shopify dashboard, go to “Apps” and click on the **Shop Quiz: Product Recommender** to open it.
+3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt** to open it.
 4. From the right-hand side Shopify App menu, select `Switch to V2`. 
 
     ![how to shopify v2 beta switch to v2](/images/how to shopify v2 beta switch to v2.png)
@@ -35,7 +35,7 @@ Please note that Version 2 is a fresh start: **you’ll need to recreate your qu
 
     !!! warning
 
-        Shopify V2 **doesn't yet offer** the following features (these features are avialble in Shopify Shop Quiz app V1):
+        Shopify V2 **doesn't yet offer** the following features (these features are avialble in Shopify RevenueHunt app V1):
 
         - Analytics of quiz response and revenue.
         - Adding or syncing discount codes from Shopify.

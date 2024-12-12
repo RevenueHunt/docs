@@ -105,7 +105,7 @@ In other words: if the Basic plan accepts around ~16 responses each day, the Pro
 
 ## Monthy vs Yearly plan
 
-If you’ve just installed the Shop Quiz, it is advised to stay on a monthly plan for some time to check your quiz usage. 
+If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
 
 Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) in the app and select “show yearly”.
 
