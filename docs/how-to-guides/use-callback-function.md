@@ -6,7 +6,7 @@ icon: material/code-json
 
 Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
 
-This guide will walk you through the process of using a callback function for custom integrations with Shop Quiz: Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
+This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
 
 ## What Are Callback Functions?
 

@@ -23,9 +23,9 @@ icon: material/currency-usd
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
-    Version 2 of the Shop Quiz: Product Recomemnder App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. 
+    Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. 
     
     To assign a market to the quiz follow the instructions below.
     
@@ -96,7 +96,7 @@ icon: material/currency-usd
 
 === "Shopify"
 
-    At the moment the Shop Quiz: Product Recommendation Quiz doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
+    At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
 
     If you run a multi-currency shop there's a workaround. What most customers do is show the product on the results page without the price and instead choose the checkout option to view the product. This way the customer is redirected to the product page from the result where the right price is applied.
 
@@ -116,15 +116,15 @@ icon: material/currency-usd
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
-    Version 2 of the Shop Quiz: Product Recomemnder App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. 
+    Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. 
 
     To assign a quiz to the market follow the instructions above.
 
 === "WooCommerce"
 
-    At the moment the Shop Quiz: Product Recommendation Quiz doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
+    At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
 
     If you run a multi-currency shop there's a workaround. What most customers do is show the product on the results page without the price and instead choose the checkout option to view the product. This way the customer is redirected to the product page from the result where the right price is applied.
 
@@ -141,7 +141,7 @@ icon: material/currency-usd
 
 === "Magento"
 
-    At the moment the Shop Quiz: Product Recommendation Quiz doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
+    At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
 
     If you run a multi-currency shop there's a workaround. What most customers do is show the product on the results page without the price and instead choose the checkout option to view the product. This way the customer is redirected to the product page from the result where the right price is applied.
 
@@ -158,7 +158,7 @@ icon: material/currency-usd
 
 === "BigCommerce"
 
-    At the moment the Shop Quiz: Product Recommendation Quiz doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
+    At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
 
     If you run a multi-currency shop there's a workaround. What most customers do is show the product on the results page without the price and instead choose the checkout option to view the product. This way the customer is redirected to the product page from the result where the right price is applied.
 
@@ -175,7 +175,7 @@ icon: material/currency-usd
 
 === "Standalone"
 
-    At the moment the Shop Quiz: Product Recommendation Quiz doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
+    At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
 
     If you run a multi-currency shop there's a workaround. What most customers do is show the product on the results page without the price and instead choose the checkout option to view the product. This way the customer is redirected to the product page from the result where the right price is applied.
 

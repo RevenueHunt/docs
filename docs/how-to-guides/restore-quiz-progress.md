@@ -4,7 +4,7 @@ icon: material/restore-alert
 
 # How to Restore Quiz Progress
 
-Accidentally losing progress or facing unintended changes made by a colleague can be frustrating. Fortunately, if you find yourself in such a situation with your quiz, there is a way to recover a previous stable version of your Shop Quiz: Product Recommendation Quiz. 
+Accidentally losing progress or facing unintended changes made by a colleague can be frustrating. Fortunately, if you find yourself in such a situation with your quiz, there is a way to recover a previous stable version of your Product Recommendation Quiz. 
 
 This guide will walk you through the process of using the [Version History](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) feature to recover an earlier version of your quiz, ensuring your hard work isn't lost.
 

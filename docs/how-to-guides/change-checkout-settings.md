@@ -4,7 +4,7 @@ icon: material/cart-arrow-right
 
 # How to Change Checkout Settings on Your Results Page
 
-Adjusting the checkout settings in Shop Quiz: Product Recommendation Quiz allows you to choose whether your customers will proceed to the cart, checkout or the product page from the results page. Follow the instructions below to change your checkout settings:
+Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allows you to choose whether your customers will proceed to the cart, checkout or the product page from the results page. Follow the instructions below to change your checkout settings:
 
 === "Shopify"
 
@@ -12,7 +12,7 @@ Adjusting the checkout settings in Shop Quiz: Product Recommendation Quiz allows
 
     2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
         ![how to change checkout settings](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
-    3. This is where you can customize how products are added to the cart and how customers proceed to checkout. Shop Quiz: Product Recommendation Quiz offers two primary options for managing how customers interact with products they wish to purchase:
+    3. This is where you can customize how products are added to the cart and how customers proceed to checkout. RevenueHunt's Product Recommendation Quiz offers two primary options for managing how customers interact with products they wish to purchase:
 
         1. **Add Product to Cart**:
 
@@ -39,7 +39,7 @@ Adjusting the checkout settings in Shop Quiz: Product Recommendation Quiz allows
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
         
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar.png)
 
@@ -62,7 +62,7 @@ Adjusting the checkout settings in Shop Quiz: Product Recommendation Quiz allows
 
     2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
         ![manual_woo_quizbuilder_resultspage_checkoutsettings](/images/manual_woo_quizbuilder_resultspage_checkoutsettings.png)
-    3. This is where you can customize how products are added to the cart and how customers proceed to checkout. Shop Quiz: Product Recommendation Quiz offers two primary options for managing how customers interact with products they wish to purchase:
+    3. This is where you can customize how products are added to the cart and how customers proceed to checkout. RevenueHunt's Product Recommendation Quiz offers two primary options for managing how customers interact with products they wish to purchase:
 
         1. **Add Product to Cart**:
 
@@ -91,7 +91,7 @@ Adjusting the checkout settings in Shop Quiz: Product Recommendation Quiz allows
 
     2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
         ![manual_magento_quizbuilder_resultspage_checkoutsettings](/images/manual_magento_quizbuilder_resultspage_checkoutsettings.png){width="500"}
-    3. This is where you can customize how products are added to the cart and how customers proceed to checkout. Shop Quiz: Product Recommendation Quiz offers two primary options for managing how customers interact with products they wish to purchase:
+    3. This is where you can customize how products are added to the cart and how customers proceed to checkout. RevenueHunt's Product Recommendation Quiz offers two primary options for managing how customers interact with products they wish to purchase:
 
         1. **Add Product to Cart**:
 
@@ -117,7 +117,7 @@ Adjusting the checkout settings in Shop Quiz: Product Recommendation Quiz allows
 
     2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
         ![manual_magento_quizbuilder_resultspage_checkoutsettings](/images/manual_magento_quizbuilder_resultspage_checkoutsettings.png){width="500"}
-    3. This is where you can customize how products are added to the cart and how customers proceed to checkout. Shop Quiz: Product Recommendation Quiz offers two primary options for managing how customers interact with products they wish to purchase:
+    3. This is where you can customize how products are added to the cart and how customers proceed to checkout. RevenueHunt's Product Recommendation Quiz offers two primary options for managing how customers interact with products they wish to purchase:
 
         1. **Add Product to Cart**:
 

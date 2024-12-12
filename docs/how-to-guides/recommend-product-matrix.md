@@ -72,7 +72,7 @@ After creating products or collections you may need to sync the app with your st
 
 You can start building your quiz. 
 
-1. **Add new quiz**: Go to the Shop Quiz app and click on `add new quiz`. 
+1. **Add new quiz**: Go to the RevenueHunt app and click on `add new quiz`. 
 2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
 3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
 

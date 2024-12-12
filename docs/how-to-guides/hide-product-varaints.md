@@ -4,7 +4,7 @@ icon: material/sort-variant-off
 
 # How to Hide Product Variants 
 
-Within Shop Quiz: Product Recommendation Quiz it is possible to hide the product variants dropdown on the results page.
+Within Product Recommendation Quiz it is possible to hide the product variants dropdown on the results page.
 
 ![how to hide product varaints image1](/images/how to hide product varaints image1.png)
 

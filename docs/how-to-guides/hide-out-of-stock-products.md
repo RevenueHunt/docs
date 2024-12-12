@@ -20,7 +20,7 @@ icon: material/basket-off-outline
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     You can exclude all out-of-stock items from your recommendations in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
 

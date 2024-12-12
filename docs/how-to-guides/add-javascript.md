@@ -37,7 +37,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![how_to_javascript_resultspagesettings](/images/how_to_javascript_resultspagesettings.png)
 
@@ -93,7 +93,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![how_to_javascript_questionsettings](/images/how_to_javascript_questionsettings.png)
 
@@ -425,4 +425,4 @@ Our application syncs only the base products from your store. Products translate
 A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](https://docs.revenuehunt.com/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
 ---
-This guide outlines the foundational steps and examples for integrating custom JavaScript into your Shop Quiz: Product Recommendation Quiz. 
+This guide outlines the foundational steps and examples for integrating custom JavaScript into your Product Recommendation Quiz. 

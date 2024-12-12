@@ -1,6 +1,6 @@
 # How to Send Leads to HubSpot
 
-Integrating your Shop Quiz: Product Recommendation Quiz with HubSpot can significantly enhance your marketing efforts. 
+Integrating your RevenueHunt Product Recommendation Quiz with HubSpot can significantly enhance your marketing efforts. 
 
 By automatically sending quiz results to your HubSpot account, you can segment your contacts based on their responses and engage them with personalized campaigns. 
 
@@ -8,7 +8,7 @@ This guide will walk you through the steps to link your quiz to HubSpot, ensurin
 
 Before starting, make sure you have:
 
-- Access to your Shop Quiz: Product Recommendation Quiz.
+- Access to your RevenueHunt Product Recommendation Quiz.
 - An active HubSpot account.
 
 ## Link Quiz to HubSpot

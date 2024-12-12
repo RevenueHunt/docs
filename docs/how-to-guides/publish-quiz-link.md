@@ -31,9 +31,9 @@ Before you start, ensure you have:
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
-    With Version 2 of the Shop Quiz: Product Recommender app, you can easily create links to open a quiz popup anywhere on your website. 
+    With Version 2 of the RevenueHunt app, you can easily create links to open a quiz popup anywhere on your website. 
     
     To add a popup link to a menu item or button in Shopify, simply type the `#quiz` as the link and save your changes. 
         
@@ -167,9 +167,9 @@ Before you start, ensure you have:
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
-    With Version 2 of the Shop Quiz: Product Recommender app, you can easily create links to open a quiz popup anywhere on your website. 
+    With Version 2 of the RevenueHunt app, you can easily create links to open a quiz popup anywhere on your website. 
     
     To add a popup link to a menu item or button in Shopify, simply type the `#quiz` as the link and save your changes. 
         

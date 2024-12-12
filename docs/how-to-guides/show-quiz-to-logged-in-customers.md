@@ -12,7 +12,7 @@ It’s possible to use the customer metafields to render quiz results onto diffe
 
 !!! note
 
-    This method works only for Shopify accounts using our [Shop Quiz: Product Recommender](https://revenuehunt.com/product-recommendation-quiz-shopify/) app. Unfortunately, we don't have a solution yet on how to do this in WooCommerce, Magento or BigCommerce.
+    This method works only for Shopify accounts using our [RevenueHunt](https://revenuehunt.com/product-recommendation-quiz-shopify/) app. Unfortunately, we don't have a solution yet on how to do this in WooCommerce, Magento or BigCommerce.
 
 ## Step 1: Create a New Page Template
 

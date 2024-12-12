@@ -10,7 +10,7 @@ icon: material/translate-variant
 
     !!! note
     
-        Version 1 of the Shop Quiz: Product Recomemnder App for Shopify doesn't support the Shopify Markets feature. 
+        Version 1 of the RevenueHunt App for Shopify doesn't support the Shopify Markets feature. 
 
     1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) or [`Quiz Settings -> Messages`](https://docs.revenuehunt.com/reference/quiz-builder/#messages).
 
@@ -25,11 +25,11 @@ icon: material/translate-variant
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     !!! note
     
-        Version 2 of the Shop Quiz: Product Recomemnder App for Shopify fully supports the Shopify Markets feature. 
+        Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. 
 
     Before assigning quizzes to specific markets and languages, you’ll need to create and customize the quiz versions for each language. Here’s how:
 
@@ -124,20 +124,20 @@ icon: material/translate-variant
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
 
     !!! note
     
-        Version 2 of the Shop Quiz: Product Recomemnder App for Shopify fully supports the Shopify Markets feature. 
+        Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. 
 
-    Our Shop Quiz: Product Recommender app allows you to tailor the shopping experience for customers worldwide by selecting specific quizzes for each Shopify Market and its associated languages. Here’s a step-by-step guide to help you change your quiz language based on the visitor’s location and language preference.
+    Our RevenueHunt app allows you to tailor the shopping experience for customers worldwide by selecting specific quizzes for each Shopify Market and its associated languages. Here’s a step-by-step guide to help you change your quiz language based on the visitor’s location and language preference.
 
     **Step 1: Navigate to the Markets Settings**
 
     - Log in to your Shopify Admin Panel.
 
-    - In the left-hand menu, go to Apps and select `Shop Quiz: Product Recommender`.
+    - In the left-hand menu, go to Apps and select `RevenueHunt`.
 
     - Once in the app, look for [App Settings](https://docs.revenuehunt.com/reference/app-settings/) and select the [Markets](https://docs.revenuehunt.com/reference/app-settings/#markets) tab.
 
@@ -238,7 +238,7 @@ icon: material/translate-variant
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Follow [these instructions](#change-quiz-language-in-settings) to create quizzes in different languages.
 
@@ -315,9 +315,9 @@ icon: material/translate-variant
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
-    No extra steps are necessary in this version of the Shop Quiz: Product Recommendation Quiz. The right quiz will already be loaded based on the market it was assigned to.
+    No extra steps are necessary in this version of the RevenueHunt Product Recommendation Quiz. The right quiz will already be loaded based on the market it was assigned to.
 
 === "WooCommerce"
 
@@ -557,9 +557,9 @@ icon: material/translate-variant
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
-    No extra steps are necessary in this version of the Shop Quiz: Product Recommendation Quiz. The quiz will display the right products on the resutls page based on the market the quiz was assigned to.
+    No extra steps are necessary in this version of the RevenueHunt Product Recommendation Quiz. The quiz will display the right products on the resutls page based on the market the quiz was assigned to.
 
 
 === "WooCommerce"

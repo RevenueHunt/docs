@@ -4,7 +4,7 @@ icon: material/slot-machine-outline
 
 # How to Recommend a Skincare Routine with Slots
 
-With Shop Quiz: Product Recommendation Quiz, it is possible to group products into slots and recommend a product for each step in a beauty routine.
+With RevenueHunt Product Recommendation Quiz, it is possible to group products into slots and recommend a product for each step in a beauty routine.
 
 This guide is designed to help merchants effectively use [Product Slot Blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-types) on the results page to organize product recommendations. 
 
@@ -18,7 +18,7 @@ A personalized skincare routine recommendation quiz was chosen as an example to 
 
 ## Step 1: Understand Recommendation Mechanism
 
-Make sure that you're familiar with [how the recommendations work](https://docs.revenuehunt.com/how-to-guides/recommend-products/) in Shop Quiz.
+Make sure that you're familiar with [how the recommendations work](https://docs.revenuehunt.com/how-to-guides/recommend-products/) in RevenueHunt app.
 
 ??? question "How do I get the right recommendations?"
 
@@ -52,7 +52,7 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
 
         ![how to recommend slots cleansers collection](/images/how to recommend slots cleansers collection.png)
 
-    3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update Shop Quiz: Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
 
 === "Shopify V2"
@@ -60,7 +60,7 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     To group products into slots, you’ll need to create new collections in your Shopify store. These collections will be used to group your products on the results page.
 
@@ -83,7 +83,7 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
         - a *Serums* category should have all the serums, etc. 
         - You can have more than one category that includes some of the same products.
 
-    3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update Shop Quiz: Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
 === "Magento"
 
@@ -96,7 +96,7 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
         - a *Serums* category should have all the serums, etc. 
         - You can have more than one category that includes some of the same products.
 
-    3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update Shop Quiz: Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
 === "BigCommerce"
 
@@ -109,7 +109,7 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
         - a *Serums* category should have all the serums, etc. 
         - You can have more than one category that includes some of the same products.
 
-    3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update Shop Quiz: Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
 
 === "Standalone"
@@ -122,7 +122,7 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
         - a *Serums* collection should have all the serums, etc. 
         - You can have more than one collection that includes some of the same products.
 
-    3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update Shop Quiz: Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
 
 ## Step 3: Build the Quiz
@@ -148,7 +148,7 @@ Once your quiz is set up, you should add products and collections to the choices
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. **Go to Link Products/Collections tab**: To add link products or product variants to choices, go to [Questions](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder---questions), select a multiple-choice question, then a choice and open the [Choice Settings](https://docs.revenuehunt.com/reference/quiz-builder/#choice-settings).
 
@@ -202,7 +202,7 @@ Once your quiz is set up, you should add products and collections to the choices
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. **Edit the Results Page**: Go to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab and edit the content. Add design elements like headings, logos, and content blocks.
     2. **Add a Product Block**: Use the `+` button to add a `Product Block` to the Results Page.

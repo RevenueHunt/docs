@@ -9,13 +9,13 @@ icon: material/focus-field-horizontal
 
     [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
 
-    If you're looking to import product metafields from your store into the Shop Quiz: Product Recommendation Quiz to display them on your quiz's results page, follow the steps outlined below:
+    If you're looking to import product metafields from your store into the Product Recommendation Quiz to display them on your quiz's results page, follow the steps outlined below:
 
 === "WooCommerce"
 
     [Attributes](https://woocommerce.com/document/managing-product-taxonomies/#product-attributes) in Woocommerce are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Attributes make this possible.
 
-    If you're looking to import product attributes from your store into the Shop Quiz: Product Recommendation Quiz to display them on your quiz's results page, follow the steps outlined below:
+    If you're looking to import product attributes from your store into the Product Recommendation Quiz to display them on your quiz's results page, follow the steps outlined below:
 
 
 ## Step 1: Enable Metafields Display

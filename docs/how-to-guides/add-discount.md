@@ -8,7 +8,7 @@ Incorporating discount coupons into your quiz allows customers to enjoy special 
 
 ![how to add a discount example](/images/how to add a discount example.png){ width="300" }
 
-This guide explains how to implement Discount Coupons for Checkout with the Shop Quiz: Product Recommendation Quiz app.
+This guide explains how to implement Discount Coupons for Checkout with the RevenueHunt app.
 
 ## Step 1: Generate a Discount Code
 
@@ -106,7 +106,7 @@ Simply go to your quiz settings, find the [Notifications > TO RESPONDENT](https:
 
 ## Apply Discount Only if Customer Leaves Their Email
 
-In Shop Quiz, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
+In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
 
 1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
     ![how to add discount multiple result pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png)

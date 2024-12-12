@@ -55,7 +55,7 @@ For a more detailed guide on setting up the callback function, refer to [this re
 === "Shopify V2"
 
 
-      Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+      Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
       Offering a direct link to another page from your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) can be achieved simply with an **Button**.
 

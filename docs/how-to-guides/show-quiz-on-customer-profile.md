@@ -14,7 +14,7 @@ This guide will walk you through the steps to show the quiz on a customer profil
 
 !!! note
 
-    This method works only for Shopify accounts using our [Shop Quiz: Product Recommender](https://revenuehunt.com/product-recommendation-quiz-shopify/) app. Unfortunately, we don't have a solution yet on how to show the quiz on a customer profile in WooCommerce, Magento or BigCommerce.
+    This method works only for Shopify accounts using our [RevenueHunt](https://revenuehunt.com/product-recommendation-quiz-shopify/) app. Unfortunately, we don't have a solution yet on how to show the quiz on a customer profile in WooCommerce, Magento or BigCommerce.
 
 ## Step 1: Connect Your Quiz to Shopify's Customer List
 

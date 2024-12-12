@@ -4,7 +4,7 @@ icon: material/server
 
 # How to Send Result Emails from Your Server Using SMTP
 
-SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails across the internet. By connecting your Shop Quiz: Product Recommendation Quiz to an SMTP server, emails are sent from your account instead of revenuehunt, enhancing brand consistency and trust.
+SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails across the internet. By connecting your Product Recommendation Quiz to an SMTP server, emails are sent from your account instead of revenuehunt, enhancing brand consistency and trust.
 
 ## Setting Up SMTP Server Connection
 

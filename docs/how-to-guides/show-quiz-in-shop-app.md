@@ -6,13 +6,13 @@ icon: material/store
 
 Shopify's new mobile commerce app, [Shop](https://shop.app/), represents a significant leap forward in enhancing the online shopping experience, offering both Android and iOS users a personalized and streamlined path to discovering and purchasing products from Shopify-powered stores. 
 
-We're excited to inform you that our [Shop Quiz: Product Recommender](https://revenuehunt.com/product-recommendation-quiz-shopify/) has been selected as the **premier quiz solution** for Shop, designed to integrate seamlessly and contribute to a more engaging customer journey.
+We're excited to inform you that our [RevenueHunt app](https://revenuehunt.com/product-recommendation-quiz-shopify/) has been selected as the **premier quiz solution** for Shop, designed to integrate seamlessly and contribute to a more engaging customer journey.
 
 ## Availability and Automatic Integration
 
-Initially, the integration of the Shop Quiz will be available to a select group of merchants. We are working towards making this feature broadly available to all eligible merchants soon.
+Initially, the integration of the RevenueHunt Product Recommendation QUiz will be available to a select group of merchants. We are working towards making this feature broadly available to all eligible merchants soon.
 
-For merchants who meet specific criteria, the Shop Quiz feature will be enabled automatically, making the integration process hassle-free:
+For merchants who meet specific criteria, the Shop App feature will be enabled automatically, making the integration process hassle-free:
 
 !!! info "Eligibility Criteria for Automatic Activation"
 
@@ -22,7 +22,7 @@ For merchants who meet specific criteria, the Shop Quiz feature will be enabled 
 
 ## Managing Your Quiz in Shop app
 
-If the Shop Quiz feature has not been activated for your store automatically, you can manually set it up through the [App Settings](https://docs.revenuehunt.com/reference/app-settings/). 
+If the Shop App feature has not been activated for your store automatically, you can manually set it up through the [App Settings](https://docs.revenuehunt.com/reference/app-settings/). 
 
 1. **Open App Settings**: Navigate to the [`Shop App`](https://docs.revenuehunt.com/reference/app-settings/#shop-app-beta) menu within the [App settings](https://docs.revenuehunt.com/reference/app-settings/#shop-app-beta) to get started.
   ![how to show quiz in shop app settings](/images/manual_appsettings_shopapp_preview.png)
@@ -38,7 +38,7 @@ If the Shop Quiz feature has not been activated for your store automatically, yo
 
 !!! warning
 
-    We strive to offer a seamless and comprehensive user experience with the Shop Quiz integration. However, it's important to note that currently, the **collection of phone numbers via the Shop app quiz is not supported**. We are actively working to include this feature in the near future.
+    We strive to offer a seamless and comprehensive user experience with the Shop App integration. However, it's important to note that currently, the **collection of phone numbers via the Shop app quiz is not supported**. We are actively working to include this feature in the near future.
 
 ---
 By following this article, you'll learn how to show your quiz in the Shop App.

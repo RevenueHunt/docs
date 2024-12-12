@@ -27,7 +27,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Content Dynamic Source allow you to recall any answer the customer provided in the quiz and used in any Text Block or a Heading Block on the results page.
 

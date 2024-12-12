@@ -2,7 +2,7 @@
 
 Whether you’re here to craft your very first quiz or looking to fine-tune the experience with advanced customization, you’ve arrived at the right place. Our collection of how-to guides is designed to assist you at every step of your journey, from initial setup to detailed customization and optimization.
 
-Shop Quiz: Product Recommendation Quiz offers a rich array of features to engage your audience, gather insights, and provide tailored recommendations through quizzes. To help you make the most of these capabilities, we've prepared detailed guides covering a wide range of topics.
+RevenueHunt app offers a rich array of features to engage your audience, gather insights, and provide tailored recommendations through quizzes. To help you make the most of these capabilities, we've prepared detailed guides covering a wide range of topics.
 
 ## Getting Started
 

@@ -44,7 +44,7 @@ The guide will show you how to set up and use Skip Logic, including some example
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![quiz builder conditional logic](/images/how to use skip logic cond logic intro.png)
 
@@ -216,7 +216,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. You can introduce Skip Logic into your quiz by opening the [Quiz Builder > Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab.
     2. Select a question that you want to be skipped and in the right-hand side menu open the [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) dropdown.
@@ -367,5 +367,5 @@ The new app interface gives the option to use Jump Logic and Skip Logic. You sho
 Understanding conditional logic, the foundation of Skip Logic, can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
 
 ---
-This guide explains how to add Skip Logic to your Shop Quiz: Product Recommendation Quiz and hide follow-up questions.
+This guide explains how to add Skip Logic to your Product Recommendation Quiz and hide follow-up questions.
 

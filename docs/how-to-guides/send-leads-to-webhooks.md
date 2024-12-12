@@ -6,7 +6,7 @@ This guide will walk you through the steps to link your quiz to custom webhooks,
 
 Before you start, ensure you have:
 
-- A Shop quiz (product recommendation quiz) from which you want to send data.
+- A RevenueHunt Product Recommendation Quiz from which you want to send data.
 - A valid webhook URL to receive the data.
 
 ## Link Quiz to Webhooks

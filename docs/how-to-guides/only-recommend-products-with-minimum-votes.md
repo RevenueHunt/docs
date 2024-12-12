@@ -48,7 +48,7 @@ To activate this setting in your quiz follow the instructions below.
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
     2. Make sure you understand how our [recommendations algorithm](https://docs.revenuehunt.com/how-to-guides/recommend-products/) works.

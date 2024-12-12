@@ -4,9 +4,9 @@ icon: material/content-copy
 
 # How to Copy the Quiz from One Store to Another
 
-Transferring a quiz from one store to another with the Shop Quiz: Product Recommendation Quiz app is straightforward. This process allows you to duplicate your quiz design, questions, tags, and the results page, however, **products and collections will not be transferred** due to differing product IDs in the new store.
+Transferring a quiz from one store to another with the RevenueHunt app is straightforward. This process allows you to duplicate your quiz design, questions, tags, and the results page, however, **products and collections will not be transferred** due to differing product IDs in the new store.
 
-Before you begin, ensure the [Shop Quiz: Product Recommendation Quiz app](https://revenuehunt.com/product-recommendation-quiz-shopify/) is installed on both the original and the new store.
+Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-recommendation-quiz-shopify/) is installed on both the original and the new store.
 
 ## Step 1: Generate Export Quiz Code
 
@@ -29,7 +29,7 @@ Before you begin, ensure the [Shop Quiz: Product Recommendation Quiz app](https:
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     First, navigate to the quiz you wish to export:
 
@@ -103,7 +103,7 @@ Before you begin, ensure the [Shop Quiz: Product Recommendation Quiz app](https:
 Ensure you're logged into the destination store:
 
 1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
-2. Open the Shop Quiz: Product Recommendation Quiz app from the store's dashboard.
+2. Open the RevenueHunt app from the store's dashboard.
 
 
 ## Step 3: Import the Quiz
@@ -112,7 +112,7 @@ Ensure you're logged into the destination store:
 
     Finally, import the quiz into your new store:
 
-    1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+    1. In the RevenueHunt app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
     2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
@@ -125,11 +125,11 @@ Ensure you're logged into the destination store:
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Finally, import the quiz into your new store:
 
-    1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+    1. In the RevenueHunt app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
     2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
 
         ![manual_shopifyV2_createquiz](/images/manual_shopifyV2_createquiz.png)
@@ -144,7 +144,7 @@ Ensure you're logged into the destination store:
 
     Finally, import the quiz into your new store:
 
-    1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+    1. In the RevenueHunt app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
     2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
@@ -156,7 +156,7 @@ Ensure you're logged into the destination store:
 
     Finally, import the quiz into your new store:
 
-    1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+    1. In the RevenueHunt app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
     2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
@@ -168,7 +168,7 @@ Ensure you're logged into the destination store:
 
     Finally, import the quiz into your new store:
 
-    1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+    1. In the RevenueHunt app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
     2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
@@ -180,7 +180,7 @@ Ensure you're logged into the destination store:
 
     Finally, import the quiz into your new store:
 
-    1. In the Shop Quiz: Product Recommendation Quiz app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+    1. In the RevenueHunt app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
     2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
@@ -190,11 +190,11 @@ Ensure you're logged into the destination store:
 
 ## Changing Domains
 
-Follow these steps if you plan to change the domain on which the Shop Quiz: Product Recommendation Quiz app is installed.
+Follow these steps if you plan to change the domain on which the RevenueHunt app is installed.
 
 === "Shopify"
 
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the Shop Quiz: Product Recommendation Quiz app and your quizzes. You can do so safely.
+    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 
     If you’re changing the `.myshopify` account, then check [this guide](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
@@ -203,27 +203,27 @@ Follow these steps if you plan to change the domain on which the Shop Quiz: Prod
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the Shop Quiz: Product Recommendation Quiz app and your quizzes. You can do so safely.
+    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 
     If you’re changing the `.myshopify` account, then check [this guide](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
 === "WooCommerce"
 
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the Shop Quiz: Product Recommendation Quiz app and your quizzes. You can do so safely.
+    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 
     When changing the domain accounts in WordPress, you’ll have to copy your quiz from the old domain to the new one first. [This article](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two WordPress accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
 === "Magento"
 
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the Shop Quiz: Product Recommendation Quiz app and your quizzes. You can do so safely.
+    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 
     When changing the domain accounts in Magento, you’ll have to copy your quiz from the old domain to the new one first. [This article](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Magento accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
 === "BigCommerce"
 
-    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the Shop Quiz: Product Recommendation Quiz app and your quizzes. You can do so safely.
+    If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 
     When changing the domain accounts in BigCommerce, you’ll have to copy your quiz from the old domain to the new one first. [This article](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two BigCommerce accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 

@@ -6,31 +6,31 @@ icon: material/cards
 
 Our solution takes into account your customer's choices to offer highly personalized product recommendations. 
 
-This guide explains how to recommend products with the Shop Quiz: Product Recommendation Quiz app, the underlying algorithm and proposes solutions for complex quizzes.
+This guide explains how to recommend products with the RevenueHunt app, the underlying algorithm and proposes solutions for complex quizzes.
 
 ## Recommendations
 
 === "Shopify" 
 
-    Shop Quiz: Product Recommendation Quiz can show on the results page **product variants**, **main products** and **[Recharge subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**. 
+    RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **[Recharge subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**. 
 
-    Shop Quiz: Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+    RevenueHunt Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
 
 === "Shopify V2" 
 
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
-    Shop Quiz: Product Recommendation Quiz can show on the results page **product variants**, **main products**, **collections** and **[Recharge subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**.
+    RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products**, **collections** and **[Recharge subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**.
 
 
 === "WooCommerce" 
 
-    Shop Quiz: Product Recommendation Quiz can show on the results page **simple products**, **variable products**, **grouped products**, **external/affiliate products** and **[WooCommerce subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**. 
+    RevenueHunt Product Recommendation Quiz can show on the results page **simple products**, **variable products**, **grouped products**, **external/affiliate products** and **[WooCommerce subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**. 
 
-    Shop Quiz: Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category/tag/attribute](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+    RevenueHunt Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category/tag/attribute](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
 
     !!! warning
     
@@ -39,21 +39,21 @@ This guide explains how to recommend products with the Shop Quiz: Product Recomm
 
 === "Magento" 
 
-    Shop Quiz: Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
+    RevenueHunt Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
 
-    Shop Quiz: Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+    RevenueHunt Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
 
 === "BigCommerce" 
 
-    Shop Quiz: Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
+    RevenueHunt Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
 
-    Shop Quiz: Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+    RevenueHunt Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
 
 === "Standalone" 
 
-    Shop Quiz: Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
+    RevenueHunt Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
 
-    Shop Quiz: Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+    RevenueHunt Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
 
 
 ## Voting System
@@ -89,7 +89,7 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![how to recommend products upvote](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
@@ -166,7 +166,7 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![how to recommend products exclusion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
@@ -199,7 +199,7 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
 ## Recommending the Right Products
 
-Follow these steps to set up product recommendations in your Shop Quiz: Product Recommendation Quiz:
+Follow these steps to set up product recommendations in your Product Recommendation Quiz:
 
 1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab within your quiz setup. For each choice, link/upvote relevant products. 
     - You can link./upvote product variants, collections, tags, variant collections, vendor collections or all variants of the same product at once.
@@ -243,7 +243,7 @@ Check the quiz to learn how to build the quiz outcome you want or consult the *H
 
 ### Recommend a Skincare Routine with Slots
 
-With Shop Quiz: Product Recommendation Quiz, it is possible to group products into slots and recommend a product for each step in a beauty routine.
+With RevenueHunt Product Recommendation Quiz, it is possible to group products into slots and recommend a product for each step in a beauty routine.
 
 ![how to recommend slots example](/images/how to recommend slots example.png)
 
@@ -278,11 +278,11 @@ It describes a step-by-step process involving creating product collections, buil
 
 ### Recommend Subscription Products
 
-Recommending subscription products via the Shop Quiz: Product Recommendation Quiz can significantly enhance your e-commerce strategy by providing a steady revenue stream and fostering long-term customer relationships. With the integration of [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) or WooCommerce Subscriptions into your product recommendation strategy, you can create a seamless shopping experience for your customers. 
+Recommending subscription products via the RevenueHunt Product Recommendation Quiz can significantly enhance your e-commerce strategy by providing a steady revenue stream and fostering long-term customer relationships. With the integration of [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) or WooCommerce Subscriptions into your product recommendation strategy, you can create a seamless shopping experience for your customers. 
 
 ![how to recommend subscription products sample product](/images/how to recommend subscription products sample product.png)
 
-[This guide](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/) explains how to integrate and recommend subscription products with Shop Quiz: Product Recommendation Quiz.
+[This guide](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/) explains how to integrate and recommend subscription products with RevenueHunt Product Recommendation Quiz.
 
 [:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)
 

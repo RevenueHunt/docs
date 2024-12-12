@@ -144,7 +144,7 @@ If you want to show different text results depending on the recommended products
 
     !!! tip
 
-        Instructions on adding custom JavaScript to your Shop Quiz can be found [here](https://docs.revenuehunt.com/how-to-guides/add-javascript/).
+        Instructions on adding custom JavaScript to your Product Recommendation Quiz can be found [here](https://docs.revenuehunt.com/how-to-guides/add-javascript/).
 
 4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
 

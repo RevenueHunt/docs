@@ -64,7 +64,7 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     With Block Logic / Display Logic you can make blocks visible or hidden based on customer's responses.
 
@@ -273,4 +273,4 @@ To learn how to build such a quiz check this [step-by-step guide](https://docs.r
 Understanding conditional logic can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
 
 ---
-This guide explains what is Block Logic and how to use it in Shop Quiz: Product Recommendation Quiz.
+This guide explains what is Block Logic and how to use it in Product Recommendation Quiz.

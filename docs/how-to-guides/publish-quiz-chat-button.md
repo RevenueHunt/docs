@@ -5,7 +5,7 @@ Enhance your Shopify / eCommerce store's interactivity by integrating a chat-lik
 Make sure you have:
 
 - Access to your eCommerce store's admin dashboard.
-- An existing quiz created with the Shop Quiz: Product Recommendation Quiz app.
+- An existing quiz created with the RevenueHunt app.
 - Familiarity with your eCommerce website theme customization options.
 
 ## Chat Button on the Homepage
@@ -18,7 +18,7 @@ Make sure you have:
     <iframe src="https://www.youtube.com/embed/oQyIiA2GwjY?si=X5Pd4YUR5O-sby3u" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    1. **Copy Quiz ID**: Go to your Shop Quiz [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+    1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
     2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
     3. **Embed the Chat Button Quiz**: Select `Chat Button Quiz` from the list.
     4. **Customize the Chat Button**: Enter your Quiz ID into the appropriate field. Adjust the chat button settings as needed. Activate the chat button by toggling it on.

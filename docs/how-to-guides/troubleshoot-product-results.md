@@ -64,7 +64,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. **Explore Responses**: To open the responses sections, go back to the [dashboard](https://docs.revenuehunt.com/reference/quiz-builder/). Pick a quiz and click the `...` to open the quiz menu. From the list pick and click on [`Responses`](https://docs.revenuehunt.com/reference/quiz-builder/#responses).
     

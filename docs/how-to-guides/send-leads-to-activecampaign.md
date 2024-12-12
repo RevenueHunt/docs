@@ -1,13 +1,13 @@
 # How to Send Leads to ActiveCampaign
 
-Integrating your Shop Quiz: Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
+Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
 
 This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and enhanced customer engagement.
 
 Before you begin, ensure you have:
 
 - An active ActiveCampaign account.
-- A quiz built on the Shop Quiz: Product Recommendation Quiz platform.
+- A quiz built on the RevenueHunt platform.
 
 !!! note
 

@@ -7,7 +7,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
 Before You Start:
 
 - Ensure you have administrative access to your eCommerce store.
-- A quiz created with the Shop Quiz: Product Recommendation Quiz app.
+- A quiz created with the RevenueHunt app.
 - (optional) Basic understanding of HTML for editing themes.
 - (optional) Access to your eCommerce theme's code editor.
 
@@ -31,7 +31,7 @@ Before You Start:
     <iframe src="https://www.youtube.com/embed/ZAK781-T1Z8?si=NAy4XjfDeisEw0w-" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    1. **Copy Quiz ID**: Go to your Shop Quiz [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+    1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
     2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
     3. **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID, adjust settings, and activate the toggle.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
@@ -260,7 +260,7 @@ Before You Start:
 
     ### Option 1: Through Shopify Theme
 
-    1. **Copy Quiz ID**: Go to your Shop Quiz [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+    1. **Copy Quiz ID**: Go to your RevenueHunt [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
     2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
     3. **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID and activate the `Exit intent` option in your popup settings.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.

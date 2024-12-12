@@ -37,7 +37,7 @@ If you believe the orders tagging is not working as it should, try to following 
 4. Take the quiz all the way to the results, provide the same email in the quiz that will be used for checkout/placing an order. Good idea is using *yourrealemail+test1@youremail.com* for example. 
 5. Add all the products to cart and proceed to cart, then checkout.
 6. Place a valid test order (as explained [here](https://help.shopify.com/en/manual/checkout-settings/test-orders)).
-7. Check if the lead was added to **Shopify Customers** section and if it was marked with `Shop Quiz: Product Recommender` in the details.
+7. Check if the lead was added to **Shopify Customers** section and if it was marked with `RevenueHunt` in the details.
 8. Go to **Shopify Orders** and check if the order notes appear along the test order placed. 
 
 If you're still having issues, please reach out to our [support team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).

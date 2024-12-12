@@ -1,8 +1,8 @@
-# How to Selectively Sync Product Collections with Shop Quiz
+# How to Selectively Sync Product Collections with RevenueHunt app
 
-For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your quiz recommendations. Fortunately, Shop Quiz: Product Recommendation Quiz offers a targeted solution: the `collections/categories first` feature. 
+For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your quiz recommendations. Fortunately, RevenueHunt app offers a targeted solution: the `collections/categories first` feature. 
 
-The `collections/categories first` feature allows you to prioritize which collections you want to sync with Shop Quiz: Product Recommendation Quiz, enhancing the quiz's performance and avoiding potential technical issues. 
+The `collections/categories first` feature allows you to prioritize which collections you want to sync with the Product Recommendation Quiz, enhancing the quiz's performance and avoiding potential technical issues. 
 
 !!! info
 
@@ -12,7 +12,7 @@ The `collections/categories first` feature allows you to prioritize which collec
 
     This feature is **not available** for Magento, BigCommerce or Standalone accounts.
 
-This guide outlines the steps to select specific collections for synchronization with the Shop Quiz app.
+This guide outlines the steps to select specific collections for synchronization with the RevenueHunt app.
 
 ## Selecting Collections/Categories for Synchronization
 
@@ -22,8 +22,8 @@ This guide outlines the steps to select specific collections for synchronization
     ![how to sync selected collections](/images/how to sync selected collections.gif)
 4. **Monitor Your Product Limit**: Keep an eye on the product limit associated with your current plan. Once this limit is reached, you will not be able to activate additional collections/categories for synchronization.
 5. **Sync Your Selections**: Once you’re done selecting collections/categories, click `run manual sync` to sync them with your store.
-6. **Automatic Updates**: Shop Quiz: Product Recommendation Quiz automatically updates the products from the synced collections/categories once a day, ensuring your quiz always features up-to-date information and product availability.
+6. **Automatic Updates**: RevenueHunt app automatically updates the products from the synced collections/categories once a day, ensuring your quiz always features up-to-date information and product availability.
 
 ---
-This article explains how to use the `collection-first`/`categories-first` feature in Shop Quiz: Product Recommendation Quiz app.
+This article explains how to use the `collection-first`/`categories-first` feature in RevenueHunt app.
 

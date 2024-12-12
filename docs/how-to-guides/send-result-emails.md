@@ -2,9 +2,9 @@
 icon: material/email-heart-outline
 ---
 
-# Setting Up Result Emails with Shop Quiz: Product Recommendation Quiz
+# Setting Up Result Emails with Product Recommendation Quiz
 
-Email results notifications enhance customer engagement by following up with participants of your Shop Quiz: Product Recommendation Quiz. 
+Email results notifications enhance customer engagement by following up with participants of your Product Recommendation Quiz. 
 
 This guide covers setting up email results for both [quiz respondents](#email-quiz-results-via-shop-quiz-app) and [administartors](#activate-email-notifications-to-admin) and well as sending resutls emails via an [external CRM service](https://docs.revenuehunt.com/how-to-guides/send-leads-to-crm/).
 
@@ -17,9 +17,9 @@ This guide covers setting up email results for both [quiz respondents](#email-qu
 
 
 
-## Email Quiz Results via Shop Quiz: Product Recommendation Quiz app
+## Email Quiz Results via RevenueHunt app
 
-Result emails can be sent directly from the Shop Quiz: Product Recommendation Quiz app to the email provided by the customer. 
+Result emails can be sent directly from the RevenueHunt app to the email provided by the customer. 
 
 Follow the step by step instructions below to active and edit the result emails sent with the app:
 
@@ -30,9 +30,9 @@ Follow the step by step instructions below to active and edit the result emails 
 
     !!! note
 
-        SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. Shop Quiz) to send emails through your email server.
+        SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
 
-        When you connect the Shop Quiz: Product Recommendation Quiz app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers will be sent from your email account.
+        When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers will be sent from your email account.
 
         <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
 
@@ -70,9 +70,9 @@ You can receive an email notification every time someone completes the quiz or p
 
     !!! note
 
-        SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. Shop Quiz) to send emails through your email server.
+        SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
 
-        When you connect the Shop Quiz: Product Recommendation Quiz app to your SMTP Server, the notification emails to admin will be sent from your email account.
+        When you connect the RevenueHunt app to your SMTP Server, the notification emails to admin will be sent from your email account.
 
         <b>If you're unsure what credentials to use, check your email provider's documentation (look for "SMTP") or contact their customer support.</b>
 
@@ -218,4 +218,4 @@ Specific use cases:
     ```
 
 ---
-By folowing this guide, you'll learn how to set up result emails for your Shop Quiz: Product Recommendation Quiz.
+By folowing this guide, you'll learn how to set up result emails for your Product Recommendation Quiz.

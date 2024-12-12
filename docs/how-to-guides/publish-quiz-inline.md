@@ -5,7 +5,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
 Make sure you have:
 
 - Access to your eCommerce store's admin dashboard.
-- An existing quiz created with the Shop Quiz: Product Recommendation Quiz app.
+- An existing quiz created with the RevenueHunt app.
 - Familiarity with your store's theme customization options.
 
 ## Embedding an Inline Quiz on the Homepage
@@ -17,7 +17,7 @@ Make sure you have:
     <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/SGEfb-EPCcE?si=ZmignNyehGwF4Ysa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your homepage.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz from RevenueHunt`. Select it to add to your homepage.
     3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
@@ -31,10 +31,10 @@ Make sure you have:
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your homepage.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from RevenueHunt`. Select it to add to your homepage.
         ![how to publish inline quiz shopify v2 main page](/images/how to publish inline quiz shopify v2 main page.png)
 
         The default quiz for your store will be rendered. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
@@ -114,7 +114,7 @@ Make sure you have:
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard.
@@ -131,7 +131,7 @@ Make sure you have:
 
     3. **Assign the Template to a Page** : Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`. 
         ![how to publish inline quiz shopify v2 new page](/images/how to publish inline quiz shopify v2 new page.png)
-    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your page template.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from RevenueHunt`. Select it to add to your page template.
         ![how to publish inline quiz shopify v2 main page](/images/how to publish inline quiz shopify v2 main page.png)
 
         The default quiz for your store will be rendered. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
@@ -288,7 +288,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
     ### Option 1: Through Shopify Theme
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your homepage.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz from RevenueHunt`. Select it to add to your homepage.
     3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height. Check the `Fixed size` option.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
@@ -303,10 +303,10 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 -Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your homepage.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 -Inline Quiz from RevenueHunt`. Select it to add to your homepage.
     3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height. Check the `Fixed size` option.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.   
 
@@ -360,7 +360,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
     ### Option 1: Through Shopify Theme
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your homepage.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz from RevenueHunt`. Select it to add to your homepage.
     3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings. Uncheck the `Automatic Scroll into View` option.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
@@ -378,10 +378,10 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 
     !!! warning
 
-        Version 2 of the Shop Quiz: Product Recommender app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
+        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from Shop Quiz: Product Recommender`. Select it to add to your homepage.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from RevenueHunt`. Select it to add to your homepage.
     3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings. Uncheck the `Automatic Scroll into View` option.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
