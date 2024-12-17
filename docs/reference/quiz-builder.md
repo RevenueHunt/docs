@@ -1229,7 +1229,7 @@
 
     Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the resutls page, even if they were upvoted in another choice earlier/later.
 
-    **Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+    **Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
 
 === "Shopify V2"
@@ -1299,7 +1299,7 @@
 
     Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
 
-    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
 === "Magento"
 
@@ -1329,7 +1329,7 @@
 
     Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
 
-    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
 === "BigCommerce"
 
@@ -1359,7 +1359,7 @@
 
     Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
 
-    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
     !!! tip
 
@@ -1393,7 +1393,7 @@
 
     Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
 
-    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
 ## Link Products
 
@@ -1423,7 +1423,7 @@
 
     Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
 
-    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
 === "Shopify V2"
 
@@ -1491,7 +1491,7 @@
 
     Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
 
-    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
 === "Magento"
 
@@ -1519,7 +1519,7 @@
 
     Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
 
-    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
 === "BigCommerce"
 
@@ -1547,7 +1547,7 @@
 
     Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
 
-    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to update the app.
+    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
 === "Standalone"
 
@@ -3579,7 +3579,7 @@
 
 
 
-    - **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to sync all the product reviews with the app.
+    - **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
 
         !!! info
 
@@ -3647,7 +3647,7 @@
             You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
  
  
-    - **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/how-to-sync-catalog/) to sync all the product reviews with the app.
+    - **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
 
         !!! info
 
