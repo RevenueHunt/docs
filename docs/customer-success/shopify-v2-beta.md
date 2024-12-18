@@ -4,6 +4,8 @@ We’re thrilled to introduce Version 2 of our RevenueHunt app!
 
 This new version represents a major leap forward, built from the ground up using insights gathered over six years of supporting Shopify stores with personalized product recommendation quizzes. With a redesigned architecture and a more intuitive user interface, Version 2 is tailored to provide a smoother, more powerful experience.
 
+![shopifyv2_vid2](/images/shopifyv2_vid2.gif)
+
 In this guide, we’ll walk you through everything you need to know about transitioning to Version 2, including the switching process, key differences between versions, and how to provide feedback to help us refine the app even further. Let’s get started!
 
 ## Transitioning to Version 2: What You Need to Know
