@@ -138,6 +138,8 @@ extra:
 extra_javascript:
   - javascripts/feedback.js
   - javascripts/gtag.js
+  - javascripts/survey.js
+
 
 extra:
   analytics: 
