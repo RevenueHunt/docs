@@ -18,9 +18,14 @@ document.addEventListener("DOMContentLoaded", function () {
     surveyAnchor.style.textDecoration = "underline";
     surveyAnchor.style.color = "#0078D4"; // Customize link color
 
-    // Append text and link to the container
+    // Blank space for better formatting
+    const blankSpace = document.createElement("div");
+    blankSpace.style.height = "10px"; // Adjust space height as needed
+
+    // Append text, link, and blank space to the container
     surveyContainer.appendChild(surveyText);
     surveyContainer.appendChild(surveyAnchor);
+    surveyContainer.appendChild(blankSpace);
 
     // Append the survey container to each page's footer
     const mainContent = document.querySelector("main");
@@ -28,3 +33,4 @@ document.addEventListener("DOMContentLoaded", function () {
         mainContent.appendChild(surveyContainer);
     }
 });
+
