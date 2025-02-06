@@ -654,11 +654,34 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     This example demonstrated that you can not only include custom properties that are passed from the quiz to your Klaviyo account, but you can also use `IF-ELSE` conditional statements to show/hide content based on the customer’s responses to the quiz.
 
-    **Template 2**
+    **Template 1: Get Quiz Answers**
+
+    Display ALL answers
+
+    ```html
+    {% for answer in person|lookup:"ANSWERS-OauZol" %}
+    <p><b>{{answer.type}}</b>: {{answer.value}}</p>
+    {% endfor %}
+    <br>
+    ```
+
+    Display all answers for Specifc Question (a block of type input and ref qbi-f001e647)
+
+    ```html
+    {# Q2: What's your name'? #}
+    {% for answer in person|lookup:"ANSWERS-OauZol" %}
+    {% if answer.blockRef == "qbi-f001e647" %}
+    <p><b>{{answer.type}}</b>: {{answer.value}}</p>
+    {% endif %}
+    {% endfor %}
+    <br>
+    ```
+
+    **Template 2: Get Recommendations**
 
     Let's take this JSON of data that is sent to Klaviyyo:
 
-    ``` json
+    ```json
     {"gid://shopify/Product/9527933469013":{"id":"gid://shopify/Product/9527933469013","title":"The Complete Snowboard","images":{"edges":[{"node":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."}}]},"vendor":"Snowboard Vendor","variants":{"edges":[{"node":{"id":"gid://shopify/ProductVariant/49385737060693","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Ice"}},{"node":{"id":"gid://shopify/ProductVariant/49385737093461","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Dawn"}},{"node":{"id":"gid://shopify/ProductVariant/49385737126229","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Powder"}},{"node":{"id":"gid://shopify/ProductVariant/49385737158997","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Electric"}},{"node":{"id":"gid://shopify/ProductVariant/49385737191765","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Sunset"}}]},"priceRange":{"minVariantPrice":{"amount":"699.95","currencyCode":"GBP"}},"description":"This PREMIUM snowboard is so SUPERDUPER awesome!"},"gid://shopify/ProductVariant/49385737060693":{"id":"gid://shopify/ProductVariant/49385737060693","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Ice","product":{"title":"The Complete Snowboard","images":{"edges":[{"node":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."}}]},"priceRange":{"minVariantPrice":{"amount":"699.95","currencyCode":"GBP"}},"description":"This PREMIUM snowboard is so SUPERDUPER awesome!"}}}
     ```
 
