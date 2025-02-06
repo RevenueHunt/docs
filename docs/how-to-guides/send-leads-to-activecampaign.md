@@ -41,6 +41,11 @@ Once configured, your quiz will be connected, and you can modify settings or upd
 Alternatively, you can initiate the connection from within ActiveCampaign:
 
 1. Go to the Apps menu in ActiveCampaign and search for `Product Recommendation Quiz`.
+
+    !!! warning
+
+        If you're unable to see the Apps page in your account, it is likely because ActiveCampaign branding is turned off for your account. Please try toggling the ActiveCampaign branding setting off and then back on in your account settings. Once you've done that, check if the Apps page appears
+
 2. Select the quiz icon and follow the provided setup instructions. During the setup process, you will be prompted to enter your `ActiveCampaign API Token`. This token is essential for linking the quiz data with your ActiveCampaign account and can be found in the [`Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) > ActiveCampaign section of the app.
 
 !!! note
