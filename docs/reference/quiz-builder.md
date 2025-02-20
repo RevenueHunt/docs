@@ -3206,7 +3206,9 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
-    *Recommendation type:* - Select whether you prefer to recommend the main products or a product variants. In case of collections there's no extra menu.
+    *Recommendation type:* - Select whether you prefer to recommend the main product, product variants or collections.
+
+    *Recommendations system* - Select whether you prefer to show dynamic recommendations based on customer responses or a fixed set of recommended products, varaints or collections.
 
     *Min. number of votes:* - Select what minimum number of votes a product or a varaints should receive in order to be displayed in this product block. If a product receives less votes than specified here at the end of the quiz, it will not be shown.
 
@@ -3252,13 +3254,13 @@
 
     *Max. recommended products* - The maximum number of products allowed to be displayed in the slot block.
 
-    **Add filter** - Click `v Add` to select products from which Collections, Tags, Variants or Vendors will be shown in this slot block.
+    **Add segments** - Click `v Add` to select products from which Collections, Tags, Variants or Vendors will be shown in this slot block.
 
     !!! warning
 
         If you add a filter, the slot will be able to display the most voted products from the linked collections.
 
-    **Remove filter** - Click `v Exclude` to choose products from which Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
+    **Exclude segments** - Click `v Exclude` to choose products from which Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
 
 
 
