@@ -4288,7 +4288,7 @@
 
 === "Shopify V2"
 
-    Coming Soon
+    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
 === "WooCommerce"
 
@@ -4342,6 +4342,15 @@
 
 === "Shopify V2"
 
+    ![manual_shopifyV2_quizbuilder_notification_torespondent](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
+
+    *Send an email when someone completes the quiz* - Activate this option to send notification/results email to the customer email address when they completes the quiz (reaches the results page).
+
+    *Email subject:* - Add the title of the notification email.
+
+    *Email TO:* - Add an email address to which the notification should be sent.
+
+    *HTML email template* - Add HTML email template. The template can be built based on the Metadata provided.
 
 === "WooCommerce"
 
@@ -4485,6 +4494,15 @@
 
 === "Shopify V2"
 
+    ![manual_shopifyV2_quizbuilder_notification_toself](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
+
+    *Receive an email when someone completes the quiz* - Activate this option to recieve notifications to your specified email address when someone completes the quiz (reaches the results page).
+
+    *Email subject:* - Add the title of the notification email.
+
+    *Email TO:* - Add an email address to which the notification should be sent.
+
+    *HTML email template* - Add HTML email template. The template can be built based on the Metadata provided.
 
 === "WooCommerce"
 
@@ -6448,7 +6466,26 @@
 
         Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
-    Coming Soon
+    ![manual_shopifyV2_quizbuilder_metrics_analytics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
+
+    The data in the graphs are totals in a selected period of time for a selected quiz. 
+
+    *Today* - To change the dates click on the `Today` button. You can change the period to select it from the moment you started using the quiz or from a given date.
+
+    *No comparison* - Choose how you want to compare the data in the graphs. 
+
+    *Auto-refresh* - The data will refresh ever 60 seconds. Otherwise, the data is updated every 24 hours.
+
+    **Quiz Starts** - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). 
+
+    **Quiz Responses** - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.
+
+    **Completion Rate** - Percentage of people who have engaged with the quiz and completed it.
+
+    **Numer of carts** - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button.
+
+    **Total carts value** - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout.
+
 
 === "WooCommerce"
 
