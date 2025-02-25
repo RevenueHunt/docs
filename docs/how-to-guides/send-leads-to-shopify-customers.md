@@ -6,9 +6,42 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 ## Link Quiz to Shopify Customers
 
-1. Go to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
-2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
-3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
+=== "Shopify"
+
+    1. Go to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+    2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
+    3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
+
+=== "Shopify V2"
+
+    1. Go to your quiz and click on the [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#connect-integrations) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+    2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
+    ![how to integrate shopify customers shopify v2](/images/how to integrate shopify customers shopify v2.png)
+    3. Click the `Save` button to save the changes and update the preview/live quiz with new settings.
+
+=== "WooCommerce"
+
+    1. Go to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+    2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
+    3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
+
+=== "Magento"
+
+    1. Go to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+    2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
+    3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
+
+=== "BigCommerce"
+
+    1. Go to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+    2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
+    3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
+
+=== "Standalone"
+
+    1. Go to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+    2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
+    3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
 
 Newly captured leads will appear in your Shopify Customers List with their [Customer Tags](https://docs.revenuehunt.com/reference/quiz-builder/#customer-tags) added to their profile.
 
