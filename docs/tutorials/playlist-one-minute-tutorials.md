@@ -213,7 +213,7 @@ To send contacts to Klaviyo your quiz needs to have an `email question`.
 ### Link Popup in Website Menu
 
 <div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/V4gV44ZKu5Y?si=bqGOK_Xo6cZ0FEyV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/g2Gvtsp0LGo?si=PkuvFU3uXlsdsBNW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
@@ -228,7 +228,7 @@ To send contacts to Klaviyo your quiz needs to have an `email question`.
 ### Link Popup as a Button
 
 <div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/s0kxmOEz6iE?si=-bqkGdvVuohgQfvC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/mLms8xRzYCE?si=zc2bIF1Gc0VtEOOQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
@@ -246,7 +246,7 @@ To send contacts to Klaviyo your quiz needs to have an `email question`.
 ### Link Popup Quiz for Social Media
 
 <div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/Bz9yHcBpLv8?si=qrZWudMgkSRFaVib" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/PkWI1OnP6gg?si=F9jPLQ9VY0EYA3-x" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 

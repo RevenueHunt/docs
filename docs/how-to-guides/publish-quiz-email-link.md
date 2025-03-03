@@ -12,7 +12,7 @@ Make sure you have:
 === "Shopify"
 
     <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/Bz9yHcBpLv8?si=nwZj0k1k4nC-jNiy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/PkWI1OnP6gg?si=eTHrvNekv3WhUKOr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     1. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then open the [`Email`](https://docs.revenuehunt.com/reference/quiz-builder/#email) tile and `Show Instructions for legacy themes`. 

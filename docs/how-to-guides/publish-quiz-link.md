@@ -14,7 +14,7 @@ Before you start, ensure you have:
 === "Shopify"
 
     <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/V4gV44ZKu5Y?si=OgHU3u1HtToMFXfO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/g2Gvtsp0LGo?si=bzoClxr1kagdcocL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     1. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to `Link > Show Instructions for legacy themes`. Click on `Get the code` to copy the link provided.
@@ -149,7 +149,7 @@ Before you start, ensure you have:
 === "Shopify"
 
     <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/s0kxmOEz6iE?si=ZBLFAG9qXFYDXukW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/mLms8xRzYCE?si=3I-QqmPeaeIavpHO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     1. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to `Link > Show Instructions for legacy themes`. Click on `Get the code` to copy the link provided.
