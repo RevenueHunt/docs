@@ -23,7 +23,7 @@ Please note that Version 2 is a fresh start: **you’ll need to recreate your qu
 1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
 2. Grant permissions to connect our app to your Shopify.
 3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt** to open it.
-4. From the right-hand side Shopify App menu, select `Switch to V2`. 
+4. From the right-hand side Shopify App menu, select `Switch to Built for Shopify`. 
 
     ![how to shopify v2 beta switch to v2](/images/how to shopify v2 beta switch to v2.png)
 
@@ -39,14 +39,12 @@ Please note that Version 2 is a fresh start: **you’ll need to recreate your qu
 
         Shopify V2 **doesn't yet offer** the following features (these features are avialble in Shopify RevenueHunt app V1):
 
-        - Analytics of quiz response and revenue.
+        - Analytics of quiz revenue.
         - Adding or syncing discount codes from Shopify.
         - Syncing of product metafileds from Shopify.
         - Publish quiz options as an automatic popup or chat icon.
         - Recommending subscription products.
-        - Sedning of result emails directly from the app.
-        - Integration with Facebook Pixel or GA4.
-        - Integration wtih Shopify Customers, Shopify Flows or Shopify Revenue Report.
+        - Integration wtih Shopify Revenue Report.
         - Integration with any CRM platform other than Klaviyo. Other integrations coming soon.
 
 - **Support:** If you run into problems or notice missing features, please [report them to our support team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
