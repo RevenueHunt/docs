@@ -97,19 +97,20 @@ Besides the `viewContent` events, the Pixel will also track when a user:
 
 Here’s a list of all the tracked events:
 
-| Trigger                        | fbq_action  | fbq_event        | fbq_params                                                                                                                                                   |
-|--------------------------------|-------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| User starts a quiz             | track       | ViewContent      | { content_name: quiz_name, content_category: 'quiz' }                                                                                                        |
-| User views a question          | track       | ViewContent      | { content_name: question_title, content_category: 'question' }                                                                                                |
-| User clicks on a choice        | track       | ViewContent      | { content_name: choice_text, content_category: 'choice' }                                                                                                     |
-| User responds to the email     | trackCustom | EmailLead        | { content_name: quiz_name, content_category: 'lead' }                                                                                                        |
-| User responds to the phone     | trackCustom | PhoneLead        | { content_name: quiz_name, content_category: 'lead' }                                                                                                        |
-| User gets to results page      | track       | ViewContent      | { content_name: quiz_title, content_category: 'results' }                                                                                                    |
-| A certain product is recommended in the results page | track | lead | { content_name: product_name, content_type: 'recommendation', content_ids: sku_or_variant_id, value: product_price, currency: quiz_currency }               |
-| Customer clicks on product     | track       | ViewContent      | { content_name: product_name, content_type: 'recommendation', content_ids: sku_or_variant_id, value: product_price, currency: quiz_currency }                 |
-| Customer adds a product to cart| track       | AddToCart        | { content_name: product_name, content_type: 'recommendation', content_ids: sku_or_variant_id, value: product_price, currency: quiz_currency }                 |
-| Customer proceeds to cart/checkout | track   | InitiateCheckout | { num_items: num_products_in_cart, currency: quiz_currency, value: value_of_products_in_cart }                                                              |
-| Customer retakes quiz          | track       | ViewContent      | { content_name: quiz_name, content_category: 'quiz' }                                                                                                        |
+| **Trigger** | **fbq_action** | **fbq_event** | **fbq_params** |
+|---------------------------|--------------|-------------|-----------------------------------------------|
+| User starts a quiz | `track` | `ViewContent` | `{ content_name: quiz_name, content_category: 'quiz' }` |
+| User views a question | `track` | `ViewContent` | `{ content_name: question_title, content_category: 'question' }` |
+| User clicks on a choice | `track` | `ViewContent` | `{ content_name: choice_text, content_category: 'choice' }` |
+| User submits email | `trackCustom` | `EmailLead` | `{ content_name: quiz_name, content_category: 'lead' }` |
+| User submits phone | `trackCustom` | `PhoneLead` | `{ content_name: quiz_name, content_category: 'lead' }` |
+| User gets to results page | `track` | `ViewContent` | `{ content_name: quiz_title, content_category: 'results' }` |
+| User gets to results page | `track` | `Lead` | `{}` |
+| A certain product is recommended in the results page | `track` | `ViewContent` | `{ content_name: product_name, content_type: 'recommendation', content_ids: [sku_or_variant_id], value: product_price, currency: quiz_currency }` |
+| Customer adds a product to cart | `track` | `AddToCart` | `{ content_name: product_name, content_type: 'recommendation', content_ids: [sku_or_variant_id], value: product_price, currency: quiz_currency }` |
+| Customer proceeds to checkout | `track` | `InitiateCheckout` | `{ num_items: num_products_in_cart, currency: quiz_currency, value: value_of_products_in_cart }` |
+| Customer retakes the quiz | `trackCustom` | `RetakeQuiz` | `{ content_name: quiz_name, content_category: 'quiz' }` |
+
 
 
 ## Adding a Custom Pixel
