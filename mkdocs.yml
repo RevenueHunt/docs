@@ -1,4 +1,5 @@
 site_name: RevenueHunt Documentation
+site_url: https://docs.revenuehunt.com
 theme:
   name: material
   features:
