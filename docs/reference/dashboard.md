@@ -556,7 +556,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
 
@@ -616,7 +616,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
 
@@ -634,7 +634,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
 
@@ -652,7 +652,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
 
@@ -670,7 +670,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
 

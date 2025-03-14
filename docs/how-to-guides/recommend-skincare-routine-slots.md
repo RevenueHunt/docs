@@ -36,7 +36,7 @@ Make sure that you're familiar with [how the recommendations work](https://docs.
     - Use [Exclusions](https://docs.revenuehunt.com/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
 
-It's advised to familiarize yourself with this [voting system](https://docs.revenuehunt.com/how-to-guides/how-to-recommend-products/#voting-system) before working with Product Slots.
+It's advised to familiarize yourself with this [voting system](https://docs.revenuehunt.com/how-to-guides/recommend-products/#voting-system) before working with Product Slots.
 
 ## Step 2: Organize Products into Collections/Categories
 

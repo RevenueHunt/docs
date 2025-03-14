@@ -16,4 +16,4 @@ Hotlinking in WordPress is usually enabled by default. WordPress allows you to u
 
 If you want to allow our app to hotlink your images, you can whitelist our server `admin.revenuehunt.com` and our server’s IP address `3.14.55.225`.
 
-[This article](https://betterstudio.com/blog/how-to-disable-hotlinking-in-wordpress/#:~:text=If%20you%20want%20to%20allow,the%20%E2%80%9C%20Allow%20direct%20requests%E2%80%9D) can guide you on how to enable hotlinking on your WordPress site by disabling hotlinking protection.
+[This article](https://serverguy.com/disable-image-hotlinking-in-wordpress/) can guide you on how to enable hotlinking on your WordPress site by disabling hotlinking protection.

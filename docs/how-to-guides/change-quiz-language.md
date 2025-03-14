@@ -530,7 +530,7 @@ icon: material/translate-variant
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](http://127.0.0.1:8000/how-to-guides/add-javascript/).
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/).
 
     1. Instead of adding a product to cart, you can change the [checkout settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
     2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
@@ -566,7 +566,7 @@ icon: material/translate-variant
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](http://127.0.0.1:8000/how-to-guides/add-javascript/).
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/).
 
     1. Instead of adding a product to cart, you can change the [checkout settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
     2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
@@ -592,7 +592,7 @@ icon: material/translate-variant
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](http://127.0.0.1:8000/how-to-guides/add-javascript/).
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/).
 
     1. Instead of adding a product to cart, you can change the [checkout settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
     2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
@@ -618,7 +618,7 @@ icon: material/translate-variant
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](http://127.0.0.1:8000/how-to-guides/add-javascript/).
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/).
 
     1. Instead of adding a product to cart, you can change the [checkout settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
     2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
@@ -644,7 +644,7 @@ icon: material/translate-variant
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](http://127.0.0.1:8000/how-to-guides/add-javascript/).
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/).
 
     1. Instead of adding a product to cart, you can change the [checkout settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
     2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 

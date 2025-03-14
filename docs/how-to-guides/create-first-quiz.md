@@ -64,7 +64,7 @@ To test the quiz, you'll have to save the changes and preview it.
 
 Once you're satisfied with your quiz, you can put it on your website. 
 
-1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](https://docs.revenuehunt.com/how-to-guides/how-to-publish-quiz/) to learn about different ways the quiz can be added.
+1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](https://docs.revenuehunt.com/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added.
 
 ## After Publishing
 

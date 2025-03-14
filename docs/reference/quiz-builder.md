@@ -645,7 +645,7 @@
 
     - **Button Text** - Change the text button on the slide.
 
-    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/).
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/information-recalls/).
 
     - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -742,7 +742,7 @@
 
     - **Button Text** - Change the text button on the slide.
 
-    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/).
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/information-recalls/).
 
     - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -800,7 +800,7 @@
 
     - **Button Text** - Change the text button on the slide.
 
-    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/).
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/information-recalls/).
 
     - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -858,7 +858,7 @@
 
     - **Button Text** - Change the text button on the slide.
 
-    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/).
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/information-recalls/).
 
     - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -916,7 +916,7 @@
 
     - **Button Text** - Change the text button on the slide.
 
-    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/how-to-information-recalls/).
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/information-recalls/).
 
     - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -3592,7 +3592,7 @@
             - Judge.me Product Reviews,
             - Rivyo Product Reviews.
 
-    - **Show metafields** - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/how-to-add-product-metafields/).
+    - **Show metafields** - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
 
     **Style Settings**
 
@@ -3655,7 +3655,7 @@
 
             We currently sync only the official WooCommerce Reviews.
 
-    - **Show metafields/attributes** - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/how-to-add-product-metafields/).
+    - **Show metafields/attributes** - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
 
 
     **Style Settings**
