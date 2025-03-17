@@ -206,7 +206,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         1. To create a new segment in Klaviyo go to `Audience > List & Segements` and click `create a new Segment`.
         2. Name the segment and set up the definition.
-        3. The `PERMALINK-{{quiz_id}}` property is unique for profiles coming from the quiz. If you don’t see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
+        3. The `ANSWERS-{{quiz_id}}` property is unique for profiles coming from the quiz. If you don’t see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
         4. Click `Create a segment`. Now all the contacts coming from the quiz will also be added to this specific segment.
 
     5. **Create an Email Flow**: You’ll have to create a flow that is triggered when someone gets added to the segment we created in the previous step. This is the trickiest part, the emails you send have to be custom-built in Klaviyo. 
