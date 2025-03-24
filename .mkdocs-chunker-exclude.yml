@@ -1,0 +1,9 @@
+global:
+  - docs/how-to-guides/ab-test-quiz.md
+Shopify V2:
+  - docs/how-to-guides/publish-quiz-chat-button.md
+  - docs/how-to-guides/add-discount.md
+  - docs/shopify/v1/**/*.md
+WooCommerce:
+  - docs/woocommerce/legacy/**/*.md
+  - docs/woocommerce/v1/**/*.md
