@@ -234,13 +234,13 @@ On the dashboard, you'll find all the quizzes that you create.
     - **Quiz Settings** - Opens the [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) for that quiz.
     - **Integrations** - Opens the [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#share) page for that quiz.
     - **Responses** - Opens the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) page where it's possible to view, downalod and troubleshoot response for that quiz.
-    - **Analytics** - Opens the [Metrics](https://docs.revenuehunt.com/reference/quiz-builder/#analytics) page where all the quiz analytics are stored, including quiz starts, completions and revenue.
+    - **Analytics** - Opens the [Analytics](https://docs.revenuehunt.com/reference/quiz-builder/#analytics) page where all the quiz analytics are stored, including quiz starts, completions and revenue.
     - **Copy quiz ID:** - Copies the current quiz ID to clipboard.
     - **Rename** - Allows you to rename the current quiz.
     - **Duplicate** - Create a copy of this quiz on the dashboard.
     - **Remove** - Deletes the current quiz.
 
-    **Publish** - Sets the quiz as current quiz and makes it the default quiz for the main show market and Shop app channel. After clickign the following message will appear:
+    **Make default** - Sets the quiz as current quiz and makes it the default quiz for the main show market and Shop app channel. After clickign the following message will appear:
 
     ![manual_shopifyV2_allquizzes_publish](/images/manual_shopifyV2_allquizzes_publish.png)
 
@@ -570,7 +570,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     **From template**  - Start a new quiz by selecting a pre-made template and color scheme.
 
-    (Select from one of our quiz templates)
+    ![manual_shopifyV2_createquiz_templates](/images/manual_shopifyV2_createquiz_templates.png)
 
     Click `Select` to confirm the tempalte choice, `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new quiz.
 
