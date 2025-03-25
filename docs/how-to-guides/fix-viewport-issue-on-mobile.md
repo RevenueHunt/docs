@@ -6,7 +6,7 @@ This guide addresses a common issue where the form on mobile devices is not fixe
 
 ## Problem Description
 
-Users have reported that on mobile devices, the form page is not fixed and moves from left to right, causing a poor user experience. This issue needs to be addressed to ensure the form remains fixed on mobile devices.
+Users have reported that on mobile devices, the form page slightly zooms in when focusing on a text input, causing the page to move from left to right and resulting in a poor user experience. This issue needs to be addressed to ensure the form remains fixed on mobile devices.
 
 ## Solution
 
