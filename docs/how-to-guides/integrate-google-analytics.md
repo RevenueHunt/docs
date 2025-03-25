@@ -26,7 +26,7 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
     1. Make sure you have set up the GA4 tracking on your website.
     1. Head to your quiz and click on the [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#connect-integrations) tab.
     2. Click on the `Activate` button in the Google Analytics section.
-        ![how to integrate ga4 shopify v2](/images/how to integrate ga4 shopify v2.png)
+        ![how to integrate ga4 shopify v2](/images/how_to_integrate_ga4_shopify_v2.png)
     3. Click `Save` to confirm the changes.
     4. Once activated the quiz will connect to the GA4 tracking code already present on your website. It can take up to 72 hours for the data to start appearing in your Meta portal.
 
@@ -72,7 +72,7 @@ Don't know how to find your GA tracking code? [Check this link](https://support.
 
 You’ll be able to see quiz usage and customer behavior in your Google Analytics dashboard, under `Reports > Engagement > Events`.
 
-![how to ga events](/images/how to ga events.png)
+![how to ga events](/images/how_to_ga_events.png)
 
 Events are triggered every time a customer starts a quiz, views a question, picks a choice, gets to the results page, adds a product to the cart, and proceeds to the cart/checkout. You can check more data about unique events by clicking on the specific Event name.
 
@@ -95,17 +95,17 @@ Events are triggered every time a customer starts a quiz, views a question, pick
 
 You’ll see revenue attributed to the quiz in `Engagement > Conversions > Event name > purchase`. Click on the `purchase` event.
 
-![how to ga revenue2](/images/how to ga revenue2.png)
+![how to ga revenue2](/images/how_to_ga_revenue2.png)
 
 Add a `Source` column next to the default channel grouping and look for the rows which include the `revenuehunt` source.
 
-![how to ga events](/images/how to ga events.png)
+![how to ga events](/images/how_to_ga_events.png)
 
 ### Quiz Exploration (BETA)
 
 You can build your own exploration of quiz revenue in your Google Analytics 4 account.
 
-![how to ga exploration](/images/how to ga exploration.png)
+![how to ga exploration](/images/how_to_ga_exploration.png)
 
 The exploration enables you to see how much revenue the quizzes have generated and attribute the original source/medium of the traffic.
 

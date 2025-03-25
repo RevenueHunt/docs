@@ -15,11 +15,11 @@ This article walks you through the process of connecting your quiz to Klavviyo a
     To connect the quiz to Klaviyo you’ll have to provide your Klaviyo **Public API Key**. Public API Key is essential because it allows us to send information to Klaviyo Profiles.
 
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo public api key](/images/how to send leads to klaviyo public api key.png)
+        ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
     4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
-        ![how to send leads to klaviyo public api key provided1](/images/how to send leads to klaviyo public api key provided1.png)
-        ![how to send leads to klaviyo public api key provided2](/images/how to send leads to klaviyo public api key provided2.png)
+        ![how to send leads to klaviyo public api key provided1](/images/how_to_send_leads_to_klaviyo_public_api_key_provided1.png)
+        ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
     5. Publish the changes with the top-right `Publish` button.
     6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
@@ -29,17 +29,17 @@ This article walks you through the process of connecting your quiz to Klavviyo a
 
     Following these steps ensures that every quiz participant's contact information, alongside their responses and product recommendations, are forwarded to your Klaviyo account, registering as `custom properties` within Klaviyo customer Profiles. These properties are instrumental in personalizing Klaviyo email templates.
 
-    ![how to send leads to klaviyo customer profile](/images/how to send leads to klaviyo customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 
 === "Shopify V2"
 
     To connect the quiz to Klaviyo you’ll have to provide your Klaviyo **Public API Key**. Public API Key is essential because it allows us to send information to Klaviyo Profiles.
 
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo public api key](/images/how to send leads to klaviyo public api key.png)
+        ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
     4. In the [`Integrations`](https://docs.revenuehunt.com/reference/quiz-builder/#connect-integrations) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
-        ![how to send leads to klaviyo public api key provided1](/images/how to klaviyo shopify v2 public key.png)
+        ![how to send leads to klaviyo public api key provided1](/images/how_to_klaviyo_shopify_v2_public_key.png)
 
     5. Publish the changes with the top-right `Save` button.
     6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
@@ -49,18 +49,18 @@ This article walks you through the process of connecting your quiz to Klavviyo a
 
     Following these steps ensures that every quiz participant's contact information, alongside their responses and product recommendations, are forwarded to your Klaviyo account, registering as `custom properties` within Klaviyo customer Profiles. These properties are instrumental in personalizing Klaviyo email templates.
 
-    ![how to send leads to klaviyo customer profile](/images/how to klaviyo shopify v2 customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how_to_klaviyo_shopify_v2_customer_profile.png)
 
 === "WooCommerce"
 
     To connect the quiz to Klaviyo you’ll have to provide your Klaviyo **Public API Key**. Public API Key is essential because it allows us to send information to Klaviyo Profiles.
 
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo public api key](/images/how to send leads to klaviyo public api key.png)
+        ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
     4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
-        ![how to send leads to klaviyo public api key provided1](/images/how to send leads to klaviyo public api key provided1.png)
-        ![how to send leads to klaviyo public api key provided2](/images/how to send leads to klaviyo public api key provided2.png)
+        ![how to send leads to klaviyo public api key provided1](/images/how_to_send_leads_to_klaviyo_public_api_key_provided1.png)
+        ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
     5. Publish the changes with the top-right `Publish` button.
     6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
@@ -70,18 +70,18 @@ This article walks you through the process of connecting your quiz to Klavviyo a
 
     Following these steps ensures that every quiz participant's contact information, alongside their responses and product recommendations, are forwarded to your Klaviyo account, registering as `custom properties` within Klaviyo customer Profiles. These properties are instrumental in personalizing Klaviyo email templates.
 
-    ![how to send leads to klaviyo customer profile](/images/how to send leads to klaviyo customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 
 === "Magento"
 
     To connect the quiz to Klaviyo you’ll have to provide your Klaviyo **Public API Key**. Public API Key is essential because it allows us to send information to Klaviyo Profiles.
 
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo public api key](/images/how to send leads to klaviyo public api key.png)
+        ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
     4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
-        ![how to send leads to klaviyo public api key provided1](/images/how to send leads to klaviyo public api key provided1.png)
-        ![how to send leads to klaviyo public api key provided2](/images/how to send leads to klaviyo public api key provided2.png)
+        ![how to send leads to klaviyo public api key provided1](/images/how_to_send_leads_to_klaviyo_public_api_key_provided1.png)
+        ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
     5. Publish the changes with the top-right `Publish` button.
     6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
@@ -91,18 +91,18 @@ This article walks you through the process of connecting your quiz to Klavviyo a
 
     Following these steps ensures that every quiz participant's contact information, alongside their responses and product recommendations, are forwarded to your Klaviyo account, registering as `custom properties` within Klaviyo customer Profiles. These properties are instrumental in personalizing Klaviyo email templates.
 
-    ![how to send leads to klaviyo customer profile](/images/how to send leads to klaviyo customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 
 === "BigCommerce"
 
     To connect the quiz to Klaviyo you’ll have to provide your Klaviyo **Public API Key**. Public API Key is essential because it allows us to send information to Klaviyo Profiles.
 
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo public api key](/images/how to send leads to klaviyo public api key.png)
+        ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
     4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
-        ![how to send leads to klaviyo public api key provided1](/images/how to send leads to klaviyo public api key provided1.png)
-        ![how to send leads to klaviyo public api key provided2](/images/how to send leads to klaviyo public api key provided2.png)
+        ![how to send leads to klaviyo public api key provided1](/images/how_to_send_leads_to_klaviyo_public_api_key_provided1.png)
+        ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
     5. Publish the changes with the top-right `Publish` button.
     6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
@@ -112,18 +112,18 @@ This article walks you through the process of connecting your quiz to Klavviyo a
 
     Following these steps ensures that every quiz participant's contact information, alongside their responses and product recommendations, are forwarded to your Klaviyo account, registering as `custom properties` within Klaviyo customer Profiles. These properties are instrumental in personalizing Klaviyo email templates.
 
-    ![how to send leads to klaviyo customer profile](/images/how to send leads to klaviyo customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 
 === "Standalone"
 
     To connect the quiz to Klaviyo you’ll have to provide your Klaviyo **Public API Key**. Public API Key is essential because it allows us to send information to Klaviyo Profiles.
 
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo public api key](/images/how to send leads to klaviyo public api key.png)
+        ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
     4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
-        ![how to send leads to klaviyo public api key provided1](/images/how to send leads to klaviyo public api key provided1.png)
-        ![how to send leads to klaviyo public api key provided2](/images/how to send leads to klaviyo public api key provided2.png)
+        ![how to send leads to klaviyo public api key provided1](/images/how_to_send_leads_to_klaviyo_public_api_key_provided1.png)
+        ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
     5. Publish the changes with the top-right `Publish` button.
     6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
@@ -133,7 +133,7 @@ This article walks you through the process of connecting your quiz to Klavviyo a
 
     Following these steps ensures that every quiz participant's contact information, alongside their responses and product recommendations, are forwarded to your Klaviyo account, registering as `custom properties` within Klaviyo customer Profiles. These properties are instrumental in personalizing Klaviyo email templates.
 
-    ![how to send leads to klaviyo customer profile](/images/how to send leads to klaviyo customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 
 !!! note
 
@@ -179,8 +179,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         8. Edit the name/subject/email to your liking and select the `HTML email template`.
         9. From the `Connect >  Klaviyo` tab you can download a ready-to-use email template. 
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how to send leads to klaviyo email tempalte download1.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how to send leads to klaviyo email tempalte download2.png)
+            ![how to send leads to klaviyo email tempalte download1](/images/how_to_send_leads_to_klaviyo_email_tempalte_download1.png)
+            ![how to send leads to klaviyo email tempalte download2](/images/how_to_send_leads_to_klaviyo_email_tempalte_download2.png)
 
             !!! tip
 
@@ -224,8 +224,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         8. Edit the name/subject/email to your liking and select the `HTML email template`.
         9. From the `Integrations >  Klaviyo` tab you can download a ready-to-use email template. 
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how to klaviyo shopify v2 get template.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how to klaviyo shopify v2 copy template.png)
+            ![how to send leads to klaviyo email tempalte download1](/images/how_to_klaviyo_shopify_v2_get_template.png)
+            ![how to send leads to klaviyo email tempalte download2](/images/how_to_klaviyo_shopify_v2_copy_template.png)
 
             !!! tip
 
@@ -267,8 +267,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         8. Edit the name/subject/email to your liking and select the `HTML email template`.
         9. From the `Connect >  Klaviyo` tab you can download a ready-to-use email template. 
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how to send leads to klaviyo email tempalte download1.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how to send leads to klaviyo email tempalte download2.png)
+            ![how to send leads to klaviyo email tempalte download1](/images/how_to_send_leads_to_klaviyo_email_tempalte_download1.png)
+            ![how to send leads to klaviyo email tempalte download2](/images/how_to_send_leads_to_klaviyo_email_tempalte_download2.png)
 
             !!! tip
 
@@ -312,8 +312,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         8. Edit the name/subject/email to your liking and select the `HTML email template`.
         9. From the `Connect >  Klaviyo` tab you can download a ready-to-use email template. 
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how to send leads to klaviyo email tempalte download1.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how to send leads to klaviyo email tempalte download2.png)
+            ![how to send leads to klaviyo email tempalte download1](/images/how_to_send_leads_to_klaviyo_email_tempalte_download1.png)
+            ![how to send leads to klaviyo email tempalte download2](/images/how_to_send_leads_to_klaviyo_email_tempalte_download2.png)
 
             !!! tip
 
@@ -357,8 +357,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         8. Edit the name/subject/email to your liking and select the `HTML email template`.
         9. From the `Connect >  Klaviyo` tab you can download a ready-to-use email template. 
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how to send leads to klaviyo email tempalte download1.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how to send leads to klaviyo email tempalte download2.png)
+            ![how to send leads to klaviyo email tempalte download1](/images/how_to_send_leads_to_klaviyo_email_tempalte_download1.png)
+            ![how to send leads to klaviyo email tempalte download2](/images/how_to_send_leads_to_klaviyo_email_tempalte_download2.png)
 
             !!! tip
 
@@ -402,8 +402,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         8. Edit the name/subject/email to your liking and select the `HTML email template`.
         9. From the `Connect >  Klaviyo` tab you can download a ready-to-use email template. 
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how to send leads to klaviyo email tempalte download1.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how to send leads to klaviyo email tempalte download2.png)
+            ![how to send leads to klaviyo email tempalte download1](/images/how_to_send_leads_to_klaviyo_email_tempalte_download1.png)
+            ![how to send leads to klaviyo email tempalte download2](/images/how_to_send_leads_to_klaviyo_email_tempalte_download2.png)
 
             !!! tip
 
@@ -429,7 +429,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     1. To do that you’ll need to provide a **Private API Key**.
     2. To create a new Private Key for the RevenueHunt app login to your Klaviyo account.
     3. In account `Settings` open the `API Keys` tab and create a new Private API Key. For list-specific contact additions, you can get your Klaviyo Private API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo private api key](/images/how to send leads to klaviyo private api key.png)
+        ![how to send leads to klaviyo private api key](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
 
     4. Allow `Full access`.
     5. Copy the private key.
@@ -447,15 +447,15 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     1. To do that you’ll need to provide a **Private API Key**.
     2. To create a new Private Key for the RevenueHunt app login to your Klaviyo account.
     3. In account `Settings` open the `API Keys` tab and create a new Private API Key. For list-specific contact additions, you can get your Klaviyo Private API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo private api key](/images/how to send leads to klaviyo private api key.png)
+        ![how to send leads to klaviyo private api key](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
 
     4. Allow `Full access`.
     5. Copy the private key.
     6. In the Quiz [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
-        ![how to klaviyo shopify v2 private api](/images/how to klaviyo shopify v2 private api.png)
+        ![how to klaviyo shopify v2 private api](/images/how_to_klaviyo_shopify_v2_private_api.png)
     8. If you go back to the [Quiz Builder > Email Block Settings]() you will now see an new Klaviyo-related menu. Choose and select a list that contacts should be added to.
-        ![how to klaviyo shopify v2 email question settings](/images/how to klaviyo shopify v2 email question settings.png)
+        ![how to klaviyo shopify v2 email question settings](/images/how_to_klaviyo_shopify_v2_email_question_settings.png)
     9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
     10. Save the changes and publish them with the top-right `Save` button.
     11. Remember to test the connection with a sample email.
@@ -467,7 +467,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     1. To do that you’ll need to provide a **Private API Key**.
     2. To create a new Private Key for the RevenueHunt app login to your Klaviyo account.
     3. In account `Settings` open the `API Keys` tab and create a new Private API Key. For list-specific contact additions, you can get your Klaviyo Private API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo private api key](/images/how to send leads to klaviyo private api key.png)
+        ![how to send leads to klaviyo private api key](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
 
     4. Allow `Full access`.
     5. Copy the private key.
@@ -485,7 +485,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     1. To do that you’ll need to provide a **Private API Key**.
     2. To create a new Private Key for the RevenueHunt app login to your Klaviyo account.
     3. In account `Settings` open the `API Keys` tab and create a new Private API Key. For list-specific contact additions, you can get your Klaviyo Private API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo private api key](/images/how to send leads to klaviyo private api key.png)
+        ![how to send leads to klaviyo private api key](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
 
     4. Allow `Full access`.
     5. Copy the private key.
@@ -503,7 +503,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     1. To do that you’ll need to provide a **Private API Key**.
     2. To create a new Private Key for the RevenueHunt app login to your Klaviyo account.
     3. In account `Settings` open the `API Keys` tab and create a new Private API Key. For list-specific contact additions, you can get your Klaviyo Private API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo private api key](/images/how to send leads to klaviyo private api key.png)
+        ![how to send leads to klaviyo private api key](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
 
     4. Allow `Full access`.
     5. Copy the private key.
@@ -521,7 +521,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     1. To do that you’ll need to provide a **Private API Key**.
     2. To create a new Private Key for the RevenueHunt app login to your Klaviyo account.
     3. In account `Settings` open the `API Keys` tab and create a new Private API Key. For list-specific contact additions, you can get your Klaviyo Private API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo private api key](/images/how to send leads to klaviyo private api key.png)
+        ![how to send leads to klaviyo private api key](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
 
     4. Allow `Full access`.
     5. Copy the private key.
@@ -546,7 +546,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
 
-    ![how to send leads to klaviyo customer profile](/images/how to send leads to klaviyo customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 
     If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
 
@@ -598,7 +598,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
 
-    ![how to send leads to klaviyo customer profile](/images/how to klaviyo shopify v2 customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how_to_klaviyo_shopify_v2_customer_profile.png)
 
     If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
 
@@ -650,7 +650,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         </html>
         ```
 
-    ![how to klaviyo shopify v2 email template](/images/how to klaviyo shopify v2 email template.png)
+    ![how to klaviyo shopify v2 email template](/images/how_to_klaviyo_shopify_v2_email_template.png)
 
     This example demonstrated that you can not only include custom properties that are passed from the quiz to your Klaviyo account, but you can also use `IF-ELSE` conditional statements to show/hide content based on the customer’s responses to the quiz.
 
@@ -760,7 +760,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
 
-    ![how to send leads to klaviyo customer profile](/images/how to send leads to klaviyo customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 
     If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
 
@@ -812,7 +812,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
 
-    ![how to send leads to klaviyo customer profile](/images/how to send leads to klaviyo customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 
     If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
 
@@ -864,7 +864,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
 
-    ![how to send leads to klaviyo customer profile](/images/how to send leads to klaviyo customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 
     If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
 
@@ -916,7 +916,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
 
-    ![how to send leads to klaviyo customer profile](/images/how to send leads to klaviyo customer profile.png)
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 
     If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
 

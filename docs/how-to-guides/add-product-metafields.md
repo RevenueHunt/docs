@@ -28,7 +28,7 @@ icon: material/focus-field-horizontal
     2. Open the `Individual Product Settings` section.
     3. Activate the `show metafields` toggle.
 
-    ![Enable Metafields Display](/images/how to add metafields step 1.gif)
+    ![Enable Metafields Display](/images/how_to_add_metafields_step_1.gif)
 
 === "WooCommerce"
 
@@ -49,13 +49,13 @@ Open [App Settings > Catalogue](https://docs.revenuehunt.com/reference/app-setti
 
     Select the Metafields namespaces you want to sync with the app by clicking the toggle icon next to each.
 
-    ![Select Metafields](/images/how to add metafields step 3.gif)
+    ![Select Metafields](/images/how_to_add_metafields_step_3.gif)
 
 === "WooCommerce"
 
     Activate the `Pass attribute information to result page` setting by clicking the toggle.
 
-    ![how to add attributes woo step 1](/images/how to add metafields woo step 1.png)
+    ![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)
 
 ## Step 4: Sync the Catalog
 

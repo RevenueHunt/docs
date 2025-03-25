@@ -26,7 +26,7 @@ Understanding the revenue generated from quizzes on your eCommerce store can pro
 
     After the connection is successfully established, you can access the revenue data generated from your quizzes. Go to the [`Metrics > Analytics`](https://docs.revenuehunt.com/reference/quiz-builder/#analytics) section within the RevenueHunt app. Here, you will find the following information:
 
-    ![how to track revenue report metrics](/images/how to track revenue report metrics.png)
+    ![how to track revenue report metrics](/images/how_to_track_revenue_report_metrics.png)
 
     - **Number of Orders**: Displays the number of people who placed an order after completing the quiz.
     - **Total Orders Value**: Shows the total value of all orders placed following quiz completion.

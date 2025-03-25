@@ -35,11 +35,11 @@ Make sure you have:
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
     2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from RevenueHunt`. Select it to add to your homepage.
-        ![how to publish inline quiz shopify v2 main page](/images/how to publish inline quiz shopify v2 main page.png)
+        ![how to publish inline quiz shopify v2 main page](/images/how_to_publish_inline_quiz_shopify_v2_main_page.png)
 
         The default quiz for your store will be rendered. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
     3. **Configure Quiz Settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
-        ![how to publish inline quiz shopify v2 main page 2](/images/how to publish inline quiz shopify v2 main page 2.png)
+        ![how to publish inline quiz shopify v2 main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
 === "WooCommerce"
@@ -130,13 +130,13 @@ Make sure you have:
         - Customize the code as needed. Click `Save`.
 
     3. **Assign the Template to a Page** : Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`. 
-        ![how to publish inline quiz shopify v2 new page](/images/how to publish inline quiz shopify v2 new page.png)
+        ![how to publish inline quiz shopify v2 new page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
     2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from RevenueHunt`. Select it to add to your page template.
-        ![how to publish inline quiz shopify v2 main page](/images/how to publish inline quiz shopify v2 main page.png)
+        ![how to publish inline quiz shopify v2 main page](/images/how_to_publish_inline_quiz_shopify_v2_main_page.png)
 
         The default quiz for your store will be rendered. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
     3. **Configure Quiz Settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
-        ![how to publish inline quiz shopify v2 main page 2](/images/how to publish inline quiz shopify v2 main page 2.png)
+        ![how to publish inline quiz shopify v2 main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor. Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
 
 === "WooCommerce"

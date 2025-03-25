@@ -17,7 +17,7 @@ This guide will walk you through the basics of Markdown Language, using the synt
 
 RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
 
-![how to use markdown languge example](/images/how to use markdown languge example.png)
+![how to use markdown languge example](/images/how_to_use_markdown_languge_example.png)
 
 ### Headings
 

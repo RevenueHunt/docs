@@ -46,7 +46,7 @@ The guide will show you how to set up and use Skip Logic, including some example
 
         Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
-    ![quiz builder conditional logic](/images/how to use skip logic cond logic intro.png)
+    ![quiz builder conditional logic](/images/how_to_use_skip_logic_cond_logic_intro.png)
 
     In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The right menu allows you to add conditional logic rules to questions in the quiz. The left preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
@@ -330,7 +330,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 You want to collect emails from interested customers without deterring others.
 
-![how to use skip logic example2](/images/how to use skip logic example2.png)
+![how to use skip logic example2](/images/how_to_use_skip_logic_example2.png)
 
 **Implementation**
 
@@ -344,7 +344,7 @@ You want to collect emails from interested customers without deterring others.
 
 You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip Logic, which then continues the quiz based on the participant's specific path.
 
-![how to use skip logic example](/images/how to hide content with logic skip logic.png)
+![how to use skip logic example](/images/how_to_hide_content_with_logic_skip_logic.png)
 
 **Implementation**
 

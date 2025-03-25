@@ -29,11 +29,11 @@ If the Shop App feature has not been activated for your store automatically, you
 2. **Select Quiz**: To control which quiz is presented to your customers in the Shop app, simply select your preferred quiz from the dropdown menu. The selected quiz will automatically be set as the default for display in the Shop app.
 3. **Mark as default**: The quiz that appears in your Shop store is the one **marked as default**. You can easily identify the default quiz by looking for a small star icon in the top right corner of the quiz's icon on the dashboard. 
     
-    ![how to show quiz in shop app select quiz](/images/how to show quiz in shop app select quiz.webp)
+    ![how to show quiz in shop app select quiz](/images/how_to_show_quiz_in_shop_app_select_quiz.webp)
     
 4. **Change default quiz**: To set a quiz as the default, use the quizzes dropdown menu on the dashboard.
     
-    ![how to show quiz in shop app mark as default](/images/how to show quiz in shop app mark as default.webp)
+    ![how to show quiz in shop app mark as default](/images/how_to_show_quiz_in_shop_app_mark_as_default.webp)
 
 
 !!! warning

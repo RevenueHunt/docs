@@ -6,7 +6,7 @@ icon: material/at
 
 Information recalls / Content Dynamic Source allow you to reuse participants' previously entered responses, such as their name or quiz answers, in subsequent questions, results pages, or follow-up communications. This personalizes the quiz experience by making it more relevant and engaging for the participant.
 
-![how to use information recalls example filled](/images/how to use information recalls example filled.png)
+![how to use information recalls example filled](/images/how_to_use_information_recalls_example_filled.png)
 
 ## Adding Information Recalls / Content Dynamic Source
 
@@ -17,9 +17,9 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
         - Information Recalls cannot be added to the first question in the quiz.
 
     2. **Select From Available Data**: Upon triggering the recall feature, a dropdown menu will appear, listing all available questions and data points collected from participants up to that point in the quiz. Scroll through the dropdown menu to find the specific piece of information you wish to recall. Whether it's the participant's name, their answers to previous questions, or other collected data, simply click on your choice to select it.
-        ![how to use information recalls clicked](/images/how to use information recalls clicked.png)
+        ![how to use information recalls clicked](/images/how_to_use_information_recalls_clicked.png)
     3. **Implement Recalls**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
-        ![how to use information recalls example](/images/how to use information recalls example.png)
+        ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
 
 
 === "Shopify V2"
@@ -42,7 +42,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
     2. **Select From Available Data**: Upon triggering the dynamic source feature, a dropdown menu will appear, listing all available questions and data points collected from participants up to that point in the quiz. Scroll through the dropdown menu to find the specific piece of information you wish to recall. Whether it's the participant's name, their answers to previous questions, or other collected data, simply click on your choice to select it.
         ![how to use information recalls clicked](/images/how_to_resultspage_dynamiccontent2.png)
     3. **Implement Dynamic Source**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
-        ![how to use information recalls example](/images/how to information recalls shopify v2 example.png)
+        ![how to use information recalls example](/images/how_to_information_recalls_shopify_v2_example.png)
 
 
 === "WooCommerce"
@@ -52,9 +52,9 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
         - Information Recalls cannot be added to the first question in the quiz.
 
     2. **Select From Available Data**: Upon triggering the recall feature, a dropdown menu will appear, listing all available questions and data points collected from participants up to that point in the quiz. Scroll through the dropdown menu to find the specific piece of information you wish to recall. Whether it's the participant's name, their answers to previous questions, or other collected data, simply click on your choice to select it.
-        ![how to use information recalls clicked](/images/how to use information recalls clicked.png)
+        ![how to use information recalls clicked](/images/how_to_use_information_recalls_clicked.png)
     3. **Implement Recalls**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
-        ![how to use information recalls example](/images/how to use information recalls example.png)
+        ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
 
 
 === "Magento"
@@ -64,9 +64,9 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
         - Information Recalls cannot be added to the first question in the quiz.
 
     2. **Select From Available Data**: Upon triggering the recall feature, a dropdown menu will appear, listing all available questions and data points collected from participants up to that point in the quiz. Scroll through the dropdown menu to find the specific piece of information you wish to recall. Whether it's the participant's name, their answers to previous questions, or other collected data, simply click on your choice to select it.
-        ![how to use information recalls clicked](/images/how to use information recalls clicked.png)
+        ![how to use information recalls clicked](/images/how_to_use_information_recalls_clicked.png)
     3. **Implement Recalls**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
-        ![how to use information recalls example](/images/how to use information recalls example.png)
+        ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
 
 
 === "BigCommerce"
@@ -76,9 +76,9 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
         - Information Recalls cannot be added to the first question in the quiz.
 
     2. **Select From Available Data**: Upon triggering the recall feature, a dropdown menu will appear, listing all available questions and data points collected from participants up to that point in the quiz. Scroll through the dropdown menu to find the specific piece of information you wish to recall. Whether it's the participant's name, their answers to previous questions, or other collected data, simply click on your choice to select it.
-        ![how to use information recalls clicked](/images/how to use information recalls clicked.png)
+        ![how to use information recalls clicked](/images/how_to_use_information_recalls_clicked.png)
     3. **Implement Recalls**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
-        ![how to use information recalls example](/images/how to use information recalls example.png)
+        ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
 
 
 === "Standalone"
@@ -88,9 +88,9 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
         - Information Recalls cannot be added to the first question in the quiz.
 
     2. **Select From Available Data**: Upon triggering the recall feature, a dropdown menu will appear, listing all available questions and data points collected from participants up to that point in the quiz. Scroll through the dropdown menu to find the specific piece of information you wish to recall. Whether it's the participant's name, their answers to previous questions, or other collected data, simply click on your choice to select it.
-        ![how to use information recalls clicked](/images/how to use information recalls clicked.png)
+        ![how to use information recalls clicked](/images/how_to_use_information_recalls_clicked.png)
     3. **Implement Recalls**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
-        ![how to use information recalls example](/images/how to use information recalls example.png)
+        ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
 
 ## Where to Add Information Recalls
 

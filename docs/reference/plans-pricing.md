@@ -54,14 +54,14 @@
         1. You can access all your Stripe billing details via [this link](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
         2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
 
-            ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change billing details.png)
+            ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change_billing_details.png)
 
             !!! note
 
                 The login is the email that you used when you first provided your credit card details.
          
         3. Once you log in, you’ll see a screen similar to this one:
-            ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change billing details stripe.png)
+            ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
         4. There you can edit the invoices and credit card details, download the invoices, cancel the subscription, etc.
 
             !!! tip
@@ -108,14 +108,14 @@
         1. You can access all your Stripe billing details via [this link](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
         2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
 
-            ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change billing details.png)
+            ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change_billing_details.png)
 
             !!! note
 
                 The login is the email that you used when you first provided your credit card details.
          
         3. Once you log in, you’ll see a screen similar to this one:
-            ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change billing details stripe.png)
+            ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
         4. There you can edit the invoices and credit card details, download the invoices, cancel the subscription, etc.
 
             !!! tip
@@ -163,14 +163,14 @@
         1. You can access all your Stripe billing details via [this link](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
         2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
 
-            ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change billing details.png)
+            ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change_billing_details.png)
 
             !!! note
 
                 The login is the email that you used when you first provided your credit card details.
          
         3. Once you log in, you’ll see a screen similar to this one:
-            ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change billing details stripe.png)
+            ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
         4. There you can edit the invoices and credit card details, download the invoices, cancel the subscription, etc.
 
             !!! tip
@@ -218,14 +218,14 @@
         1. You can access all your Stripe billing details via [this link](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
         2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
 
-            ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change billing details.png)
+            ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change_billing_details.png)
 
             !!! note
 
                 The login is the email that you used when you first provided your credit card details.
          
         3. Once you log in, you’ll see a screen similar to this one:
-            ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change billing details stripe.png)
+            ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
         4. There you can edit the invoices and credit card details, download the invoices, cancel the subscription, etc.
 
             !!! tip

@@ -24,7 +24,7 @@ Shop Quiz app allows you to [publish your quiz](https://docs.revenuehunt.com/how
 - A small button next to a lipstick collection can help the customer select a shade that’s just right for their complexion.
 - A link in the website’s menu makes the quiz easy to find, after browsing through the contents.
 
-![how to build a succesful quiz image1](/images/how to build a succesful quiz image1.png)
+![how to build a succesful quiz image1](/images/how_to_build_a_succesful_quiz_image1.png)
 
 Ensuring that the quiz is easy to find can make a big difference in your sales conversions. Most quiz takers try the quiz a few times before completing the purchase. Make the quiz visible and you’ll see the sales go up!
 
@@ -36,7 +36,7 @@ You know this already. A beautifully designed website sells better than a generi
 
 Shop Quiz can match your store’s look and feel to the finest details. In the [Quiz Design](https://docs.revenuehunt.com/how-to-guides/customize-quiz-design/) tab you can adjust the quizz’s font, colors, add a background image or even add custom CSS code. WIth CSS you can customize every element of the quiz, from the general layout to the shape of the buttons. You can edit the quiz as well as the Results Page. Check out these beautiful [customization examples](https://revenuehunt.com/templates/#customization) to gather inspiration for your next quiz project!
 
-![how to build a succesful quiz image2](/images/how to build a succesful quiz image2.png)
+![how to build a succesful quiz image2](/images/how_to_build_a_succesful_quiz_image2.png)
 
 ## 3. Come up with a professional name for the quiz
 
@@ -46,7 +46,7 @@ Let’s talk names now. When you hear the word ‘quiz’, what is the first thi
 
 Finding the right name for your quiz can sometimes be key to getting more conversions. A **‘Shade finder’**, a **‘Skincare Routine builder’**, **‘Skin Diagnostic’**, **‘Hair Analysis’** sound more like a professional questionnaire than entertainment, don’t they? The secret is in the name, so try to find something that fits your brand well and provides value for the customer. If you’re not sure what to choose, think about your customer’s most asked questions and start there.
 
-![how to build a succesful quiz image3](/images/how to build a succesful quiz image3.jpg)
+![how to build a succesful quiz image3](/images/how_to_build_a_succesful_quiz_image3.jpg)
 
 ## 4. Add personalized advice
 
@@ -61,7 +61,7 @@ This can be easily done in the Shop Quiz app with [Conditional Logic](https://do
 
 Logic can be a powerful tool that makes the shopper feel like they are talking to a real expert with years of experience.
 
-![how to build a succesful quiz image4](/images/how to build a succesful quiz image4.jpg)
+![how to build a succesful quiz image4](/images/how_to_build_a_succesful_quiz_image4.jpg)
 
 The same logic can also be applied to the contents of the Results Page. A different content block can be shown to customers with dry skin and oily skin. A different advice can be given to customers with colored or natural hair. 
 
@@ -75,9 +75,9 @@ It is not always easy to know whether you have dry or oily skin, whether your co
 
 Adding a **[Picture question](https://docs.revenuehunt.com/reference/quiz-builder/#question-types)** to your Shop Quiz can be a great way to help the customer pick the right answer and help them make an educated purchasing decision. You can add real-life examples for your customers to relate to or design your own beautiful icons that will match your store’s style. A visual quiz gets more completions than a fully-text-based one, so make sure to include some images!
 
-![how to build a succesful quiz image5](/images/how to build a succesful quiz image5.jpg)
+![how to build a succesful quiz image5](/images/how_to_build_a_succesful_quiz_image5.jpg)
 
-![how to build a succesful quiz image6](/images/how to build a succesful quiz image6.jpg)
+![how to build a succesful quiz image6](/images/how_to_build_a_succesful_quiz_image6.jpg)
 
 ## 6. Keep it short
 
@@ -95,7 +95,7 @@ The less choice we have, the less time we spend deciding and the higher the chan
 
 A successful quiz recommends a single product that ticks all the customer’s boxes, or a full routine with a single product for each step. If possible, try to limit the number of recommendations to a bare minimum and see the revenue grow.
 
-![how to build a succesful quiz image7](/images/how to build a succesful quiz image7.png)
+![how to build a succesful quiz image7](/images/how_to_build_a_succesful_quiz_image7.png)
 
 ## 8. Make it Personalized
 
@@ -105,7 +105,7 @@ Want to make the shopping experience ultra personal? Shop Quiz app lets you use 
 
 Take a look at this example of a haircare quiz:
 
-![how to build a succesful quiz image8](/images/how to build a succesful quiz image8.gif)
+![how to build a succesful quiz image8](/images/how_to_build_a_succesful_quiz_image8.gif)
 
 ## 9. Send results to the customer if they want
 
@@ -127,7 +127,7 @@ This one is simple but effective! You want to reward your customers for taking a
 
 You can even add a special code to be used at checkout for the people who answer a specific question. For example, a special discount for customers who want both,a day and night routine, to be recommended.
 
-![how to build a succesful quiz image9](/images/how to build a succesful quiz image9.gif)
+![how to build a succesful quiz image9](/images/how_to_build_a_succesful_quiz_image9.gif)
 
 Now you know the secret to building a successful product selector tool.
 

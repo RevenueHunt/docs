@@ -18,7 +18,7 @@ Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-r
     2. Click on **Export quiz to another store**. A popup will display a unique code.
     3. **Copy this code** immediately. It remains valid for only 1 hour.
 
-        ![Export Quiz Step](/images/how to copy the quiz step 1 v2.gif)
+        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
         !!! tip
             
@@ -50,7 +50,7 @@ Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-r
     2. Click on **Export quiz to another store**. A popup will display a unique code.
     3. **Copy this code** immediately. It remains valid for only 1 hour.
 
-        ![Export Quiz Step](/images/how to copy the quiz step 1 v2.gif)
+        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
         !!! tip
             
@@ -64,7 +64,7 @@ Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-r
     2. Click on **Export quiz to another store**. A popup will display a unique code.
     3. **Copy this code** immediately. It remains valid for only 1 hour.
 
-        ![Export Quiz Step](/images/how to copy the quiz step 1 v2.gif)
+        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
         !!! tip
             
@@ -78,7 +78,7 @@ Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-r
     2. Click on **Export quiz to another store**. A popup will display a unique code.
     3. **Copy this code** immediately. It remains valid for only 1 hour.
 
-        ![Export Quiz Step](/images/how to copy the quiz step 1 v2.gif)
+        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
         !!! tip
             
@@ -92,7 +92,7 @@ Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-r
     2. Click on **Export quiz to another store**. A popup will display a unique code.
     3. **Copy this code** immediately. It remains valid for only 1 hour.
 
-        ![Export Quiz Step](/images/how to copy the quiz step 1 v2.gif)
+        ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
         !!! tip
             
@@ -116,7 +116,7 @@ Ensure you're logged into the destination store:
     2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
-        ![Import Quiz Step](/images/how to copy the quiz step 3.gif)
+        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
 
     After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
@@ -148,7 +148,7 @@ Ensure you're logged into the destination store:
     2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
-        ![Import Quiz Step](/images/how to copy the quiz step 3.gif)
+        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
 
     After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
@@ -160,7 +160,7 @@ Ensure you're logged into the destination store:
     2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
-        ![Import Quiz Step](/images/how to copy the quiz step 3.gif)
+        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
 
     After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
@@ -172,7 +172,7 @@ Ensure you're logged into the destination store:
     2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
-        ![Import Quiz Step](/images/how to copy the quiz step 3.gif)
+        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
 
     After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
@@ -184,7 +184,7 @@ Ensure you're logged into the destination store:
     2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
-        ![Import Quiz Step](/images/how to copy the quiz step 3.gif)
+        ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
 
     After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 

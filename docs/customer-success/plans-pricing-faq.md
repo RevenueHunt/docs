@@ -66,7 +66,7 @@ You can check the Metrics -> Analytics panel to check how many responses your qu
 
 It’s best to explain it based on an example. Let’s say that you are on a Basic plan which allows up to 500 responses per month. These are the number of responses you’ve gotten in the last 30 days:
 
-![plans pricing faq explanation1](/images/plans pricing faq explanation1.png)
+![plans pricing faq explanation1](/images/plans_pricing_faq_explanation1.png)
 
 So:
 
@@ -80,7 +80,7 @@ Now, when does this reset?
 
 Let’s say, that the following day – you get 0 responses. The 30 days would “Roll”, and your table would look like this:
 
-![plans pricing faq explanation2](/images/plans pricing faq explanation2.png)
+![plans pricing faq explanation2](/images/plans_pricing_faq_explanation2.png)
 
 You’ll notice that ALL of the days were “bumped” 1 day back. For example, “Day 3” on the first table, is now on “Day 2”, “Day 4” is now “Day 3” and so on. Meaning, the usage of day 1 has rolled out, and as you haven’t got any new answers, now you have the 32 responses that you had previously on day #1 available – because the sum of your “new” table is only 468 (As the previous day 1 with 32 responses “rolled out”).
 

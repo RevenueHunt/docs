@@ -21,7 +21,7 @@ You can hide these technical choices in the last question using custom CSS code.
 
 [This article](https://docs.revenuehunt.com/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
 
-![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices image1.png)
+![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png)
 
 The custom JavaScript code should be integrated into the final question to assess the user’s choices and click the right choices in order to recommend a product collection accordingly.
 
@@ -29,7 +29,7 @@ The custom JavaScript code should be integrated into the final question to asses
 
 To review the values or choice IDs selected for each slide/question, you can use the JavaScript console and search for the values:
 
-![recommend-products-based-on-number-of-user-choices image2](/images/recommend-products-based-on-number-of-user-choices image2.png)
+![recommend-products-based-on-number-of-user-choices image2](/images/recommend-products-based-on-number-of-user-choices_image2.png)
 
 ---
 This guide provides information on how to set up a custom solution that will recommend products based on the number of user choices.

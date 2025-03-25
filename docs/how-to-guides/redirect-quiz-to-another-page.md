@@ -12,7 +12,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/), locate the [Jump Logic](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) settings.
 2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
-    	![how to redirect quiz ot another page jump logic](/images/how to redirect quiz ot another page jump logic.png)
+    	![how to redirect quiz ot another page jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
 3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
 
 Even if you redirect the customer with Jump Logic to another page the quiz responses will be saved in the Quiz Builder's [`Metrics`](https://docs.revenuehunt.com/reference/quiz-builder/#responses) section.

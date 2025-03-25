@@ -24,11 +24,11 @@ This guide will walk you through the process of troubleshooting product recommen
     2. **Explore Responses**: Within Metrics, locate and open the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
     4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
-        ![how to troubleshoot quiz results preview results](/images/how to troubleshoot quiz results preview results.gif)
+        ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
     5. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
     6. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section at the top of the response to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
 
-        ![how to troubleshoot quiz results search products](/images/how to troubleshoot quiz results search products.gif)
+        ![how to troubleshoot quiz results search products](/images/how_to_troubleshoot_quiz_results_search_products.gif)
 
         **Understanding Product Status Colors**
 
@@ -38,7 +38,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
 
-        ![how to troubleshoot quiz results information](/images/how to troubleshoot quiz results information.gif)
+        ![how to troubleshoot quiz results information](/images/how_to_troubleshoot_quiz_results_information.gif)
 
         Information such as:
 
@@ -110,11 +110,11 @@ This guide will walk you through the process of troubleshooting product recommen
     2. **Explore Responses**: Within Metrics, locate and open the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
     4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
-        ![how to troubleshoot quiz results preview results](/images/how to troubleshoot quiz results preview results.gif)
+        ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
     5. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
     6. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section at the top of the response to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
 
-        ![how to troubleshoot quiz results search products](/images/how to troubleshoot quiz results search products.gif)
+        ![how to troubleshoot quiz results search products](/images/how_to_troubleshoot_quiz_results_search_products.gif)
 
         **Understanding Product Status Colors**
 
@@ -124,7 +124,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
 
-        ![how to troubleshoot quiz results information](/images/how to troubleshoot quiz results information.gif)
+        ![how to troubleshoot quiz results information](/images/how_to_troubleshoot_quiz_results_information.gif)
 
         Information such as:
 
@@ -151,11 +151,11 @@ This guide will walk you through the process of troubleshooting product recommen
     2. **Explore Responses**: Within Metrics, locate and open the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
     4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
-        ![how to troubleshoot quiz results preview results](/images/how to troubleshoot quiz results preview results.gif)
+        ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
     5. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
     6. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section at the top of the response to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
 
-        ![how to troubleshoot quiz results search products](/images/how to troubleshoot quiz results search products.gif)
+        ![how to troubleshoot quiz results search products](/images/how_to_troubleshoot_quiz_results_search_products.gif)
 
         **Understanding Product Status Colors**
 
@@ -165,7 +165,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
 
-        ![how to troubleshoot quiz results information](/images/how to troubleshoot quiz results information.gif)
+        ![how to troubleshoot quiz results information](/images/how_to_troubleshoot_quiz_results_information.gif)
 
         Information such as:
 
@@ -193,11 +193,11 @@ This guide will walk you through the process of troubleshooting product recommen
     2. **Explore Responses**: Within Metrics, locate and open the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
     4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
-        ![how to troubleshoot quiz results preview results](/images/how to troubleshoot quiz results preview results.gif)
+        ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
     5. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
     6. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section at the top of the response to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
 
-        ![how to troubleshoot quiz results search products](/images/how to troubleshoot quiz results search products.gif)
+        ![how to troubleshoot quiz results search products](/images/how_to_troubleshoot_quiz_results_search_products.gif)
 
         **Understanding Product Status Colors**
 
@@ -207,7 +207,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
 
-        ![how to troubleshoot quiz results information](/images/how to troubleshoot quiz results information.gif)
+        ![how to troubleshoot quiz results information](/images/how_to_troubleshoot_quiz_results_information.gif)
 
         Information such as:
 
@@ -235,11 +235,11 @@ This guide will walk you through the process of troubleshooting product recommen
     2. **Explore Responses**: Within Metrics, locate and open the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
     4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
-        ![how to troubleshoot quiz results preview results](/images/how to troubleshoot quiz results preview results.gif)
+        ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
     5. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
     6. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section at the top of the response to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
 
-        ![how to troubleshoot quiz results search products](/images/how to troubleshoot quiz results search products.gif)
+        ![how to troubleshoot quiz results search products](/images/how_to_troubleshoot_quiz_results_search_products.gif)
 
         **Understanding Product Status Colors**
 
@@ -249,7 +249,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     7. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
 
-        ![how to troubleshoot quiz results information](/images/how to troubleshoot quiz results information.gif)
+        ![how to troubleshoot quiz results information](/images/how_to_troubleshoot_quiz_results_information.gif)
 
         Information such as:
 

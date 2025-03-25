@@ -54,11 +54,11 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
     2. Go to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab.
     3. Scroll down and click `+ Add results page`. A second results page will appear below the first.
 
-        ![multi result pages shopify v2 activate multi results page](/images/how to multi result pages shopify v2 activate multi results page.png)
+        ![multi result pages shopify v2 activate multi results page](/images/how_to_multi_result_pages_shopify_v2_activate_multi_results_page.png)
     4. Once you've added your result pages **you'll need to add [**Jump Logic**](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditonal Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab in your Quiz Builder. 
     5. Scroll down the list of questtion and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
     
-        ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/how to multi result pages shopify v2 jump logic multi results page.png)
+        ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/how_to_multi_result_pages_shopify_v2_jump_logic_multi_results_page.png)
 
         To learn more about using Jump Logic, check [this handy guide](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/).
 

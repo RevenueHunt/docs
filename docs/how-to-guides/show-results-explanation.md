@@ -78,7 +78,7 @@ If you want to show different text results depending on the recommended products
         - *You have Combination Skin*  
         - *You have Normal Skin*  
 
-        ![how to show results explenation personalityquiz1](/images/how to show results explenation personalityquiz1.png)
+        ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
 
         2️⃣ **Configure Block Logic Rules**  
 
@@ -91,7 +91,7 @@ If you want to show different text results depending on the recommended products
 
         Then this block will be **Visible**; otherwise, it remains hidden.  
 
-        ![how to show results explenation personalityquiz2](/images/how to show results explenation personalityquiz2.png)
+        ![how to show results explenation personalityquiz2](/images/how_to_show_results_explenation_personalityquiz2.png)
 
         **For Combination Skin:**  
         Combination skin may result from varied answer paths. You’ll need rules for multiple scenarios:  
@@ -115,9 +115,9 @@ If you want to show different text results depending on the recommended products
 
         Then this block will be **Visible**; otherwise, it remains hidden.  
 
-        ![how to show results explenation personalityquiz3](/images/how to show results explenation personalityquiz3.png)
-        ![how to show results explenation personalityquiz4](/images/how to show results explenation personalityquiz4.png)
-        ![how to show results explenation personalityquiz5](/images/how to show results explenation personalityquiz5.png)
+        ![how to show results explenation personalityquiz3](/images/how_to_show_results_explenation_personalityquiz3.png)
+        ![how to show results explenation personalityquiz4](/images/how_to_show_results_explenation_personalityquiz4.png)
+        ![how to show results explenation personalityquiz5](/images/how_to_show_results_explenation_personalityquiz5.png)
 
 
 

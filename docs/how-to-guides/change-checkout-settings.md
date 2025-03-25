@@ -16,7 +16,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
         1. **Add Product to Cart**:
 
-            ![how to change checkout settings add to cart](/images/how to change checkout settings add to cart.png)
+            ![how to change checkout settings add to cart](/images/how_to_change_checkout_settings_add_to_cart.png)
 
             - This option allows you to add selected products directly to the customer's shopping cart. It streamlines the buying process, making it easier for customers to proceed to checkout.
             - After enabling this option, you can further specify whether customers should:
@@ -27,7 +27,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
         2. **Link to Product**:
 
-            ![how to change checkout settings view product](/images/how to change checkout settings view product.png)
+            ![how to change checkout settings view product](/images/how_to_change_checkout_settings_view_product.png)
 
             - Alternatively, you might want customers to have the opportunity to view more details about a product before making a purchase. Selecting this option replaces the direct 'add to cart' action with a `view product` link.
             - When customers click on the `view product` link, they are taken to the individual product page instead of adding the item directly to their cart. This can be beneficial for providing customers with additional product information, images, and reviews that might influence their purchasing decision.
@@ -66,7 +66,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
         1. **Add Product to Cart**:
 
-            ![how to change checkout settings add to cart](/images/how to change checkout settings add to cart.png)
+            ![how to change checkout settings add to cart](/images/how_to_change_checkout_settings_add_to_cart.png)
 
             - This option allows you to add selected products directly to the customer's shopping cart. It streamlines the buying process, making it easier for customers to proceed to checkout.
             - After enabling this option, you can further specify what URL customers should be sent to in the **Cart URL**:
@@ -77,7 +77,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
         2. **Link to Product**:
 
-            ![how to change checkout settings view product](/images/how to change checkout settings view product.png)
+            ![how to change checkout settings view product](/images/how_to_change_checkout_settings_view_product.png)
 
             - Alternatively, you might want customers to have the opportunity to view more details about a product before making a purchase. Selecting this option replaces the direct 'add to cart' action with a `view product` link.
             - When customers click on the `view product` link, they are taken to the individual product page instead of adding the item directly to their cart. This can be beneficial for providing customers with additional product information, images, and reviews that might influence their purchasing decision.
@@ -95,7 +95,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
         1. **Add Product to Cart**:
 
-            ![how to change checkout settings add to cart](/images/how to change checkout settings add to cart.png)
+            ![how to change checkout settings add to cart](/images/how_to_change_checkout_settings_add_to_cart.png)
 
             - This option allows you to add selected products directly to the customer's shopping cart. It streamlines the buying process, making it easier for customers to proceed to checkout.
                     
@@ -103,7 +103,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
         2. **Link to Product**:
 
-            ![how to change checkout settings view product](/images/how to change checkout settings view product.png)
+            ![how to change checkout settings view product](/images/how_to_change_checkout_settings_view_product.png)
 
             - Alternatively, you might want customers to have the opportunity to view more details about a product before making a purchase. Selecting this option replaces the direct 'add to cart' action with a `view product` link.
             - When customers click on the `view product` link, they are taken to the individual product page instead of adding the item directly to their cart. This can be beneficial for providing customers with additional product information, images, and reviews that might influence their purchasing decision.
@@ -121,7 +121,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
         1. **Add Product to Cart**:
 
-            ![how to change checkout settings add to cart](/images/how to change checkout settings add to cart.png)
+            ![how to change checkout settings add to cart](/images/how_to_change_checkout_settings_add_to_cart.png)
 
             - This option allows you to add selected products directly to the customer's shopping cart. It streamlines the buying process, making it easier for customers to proceed to checkout.
                     
@@ -129,7 +129,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
         2. **Link to Product**:
 
-            ![how to change checkout settings view product](/images/how to change checkout settings view product.png)
+            ![how to change checkout settings view product](/images/how_to_change_checkout_settings_view_product.png)
 
             - Alternatively, you might want customers to have the opportunity to view more details about a product before making a purchase. Selecting this option replaces the direct 'add to cart' action with a `view product` link.
             - When customers click on the `view product` link, they are taken to the individual product page instead of adding the item directly to their cart. This can be beneficial for providing customers with additional product information, images, and reviews that might influence their purchasing decision.

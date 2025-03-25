@@ -16,7 +16,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
     1. Go to your quiz and click on the [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#connect-integrations) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
     2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
-    ![how to integrate shopify customers shopify v2](/images/how to integrate shopify customers shopify v2.png)
+    ![how to integrate shopify customers shopify v2](/images/how_to_integrate_shopify_customers_shopify_v2.png)
     3. Click the `Save` button to save the changes and update the preview/live quiz with new settings.
 
 === "WooCommerce"
@@ -45,7 +45,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 Newly captured leads will appear in your Shopify Customers List with their [Customer Tags](https://docs.revenuehunt.com/reference/quiz-builder/#customer-tags) added to their profile.
 
-![how to send leads to shopify customers customer profile](/images/how to send leads to shopify customers customer profile.png)
+![how to send leads to shopify customers customer profile](/images/how_to_send_leads_to_shopify_customers_customer_profile.png)
 
 !!! note
 
@@ -61,7 +61,7 @@ By default, all the contacts added to the list via the quiz will be marked as su
 1. To change the default Consent state and Opt-in level, go to the email or phone question in the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
 2. Open the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
 
-    ![how to send leads to shopify customers consent.png](/images/how to send leads to shopify customers consent.png)
+    ![how_to_send_leads_to_shopify_customers_consent.png](/images/how_to_send_leads_to_shopify_customers_consent.png)
 
     - Under `Consent state`, you can select either `subscribed` or `non-subscribed`.
 
@@ -74,27 +74,27 @@ By default, all the contacts added to the list via the quiz will be marked as su
 <iframe class="alignnone size-full" title="YouTube video player" src="https://www.youtube.com/embed/GcxUgLyZUZc?si=TdE6-D4EAckWkgCj" width="100%" height="400px" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
 
 
-![how to shopify customers automation full cycle](/images/how to shopify customers automation full cycle.png)
+![how to shopify customers automation full cycle](/images/how_to_shopify_customers_automation_full_cycle.png)
 
 1. To set up a post-quiz automation head to your `Shopify dashboard > Marketing > Automations` and click `Create Automation`.
 2. Select a `Custom marketing` automation:
-    ![/how to send leads to shopify customers automation1](/images/how to send leads to shopify customers automation1.png)
+    ![/how to send leads to shopify customers automation1](/images/how_to_send_leads_to_shopify_customers_automation1.png)
 3. **Add a trigger**: Click anywhere and select the first trigger to be `Customer created`.
-    ![how to send leads to shopify customers automation2](/images/how to send leads to shopify customers automation2.png)
+    ![how to send leads to shopify customers automation2](/images/how_to_send_leads_to_shopify_customers_automation2.png)
 4. **Select a condition**: Then, set up a `Condition` that `If all conditions are met > Add criteria > Customer > tags` and set up the following page with the tag that you created in the quiz (that is added to Shopify customer profiles after completing the quiz). 
 
-    ![how to send leads to shopify customers automation3](/images/how to send leads to shopify customers automation3.gif)
+    ![how to send leads to shopify customers automation3](/images/how_to_send_leads_to_shopify_customers_automation3.gif)
 
     !!! note
 
         You need to add the full name of the tag. For example, `prq_oilyskin` or `prq_Oily Skin`.
 
-    ![how to send leads to shopify customers automation4](/images/how to send leads to shopify customers automation4.png)
+    ![how to send leads to shopify customers automation4](/images/how_to_send_leads_to_shopify_customers_automation4.png)
 
 5. **Set up an email**: To send a follow-up email to all the quiz contacts that contain the `prq_ tag`(right after the tag is added to their profile), click `Then > Action` and from the list select `Send marketing email`. Next, select the email template you want to use.
-    ![how to send leads to shopify customers automation6](/images/how to send leads to shopify customers automation6.gif)
+    ![how to send leads to shopify customers automation6](/images/how_to_send_leads_to_shopify_customers_automation6.gif)
 6. **Save**: Remember to save the changes.
-    ![how to send leads to shopify customers automation7](/images/how to send leads to shopify customers automation7.png)
+    ![how to send leads to shopify customers automation7](/images/how_to_send_leads_to_shopify_customers_automation7.png)
 
 Now, all the quiz takers with a specific `prq_ tag` will be sent the marketing email.
 

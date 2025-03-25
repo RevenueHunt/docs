@@ -32,7 +32,7 @@ The Facebook Pixel is an essential analytics tool for tracking user interaction 
 
     1. Go to the [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#connect-integrations) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `Activate`.
-        ![how to integrate fb pixel shopify v2](/images/how to integrate fb pixel shopify v2.png)
+        ![how to integrate fb pixel shopify v2](/images/how_to_integrate_fb_pixel_shopify_v2.png)
     3. Click `Save` to confirm the changes.
     4. Once activated the quiz will connect to the Meta Pixel already present on your website. It can take up to 72 hours for the data to start appearing in your Meta portal.
 
@@ -72,7 +72,7 @@ The Facebook Pixel is an essential analytics tool for tracking user interaction 
 
 With the Pixel activated, the Facebook **Events Manager dashboard** becomes a window into how users interact with your quiz. This data is vital for crafting [Custom Audiences](https://www.facebook.com/business/learn/lessons/custom-audience-tips-with-facebook-pixel) and [Lookalike Audiences](https://www.facebook.com/business/help/164749007013531?id=401668390442328) to refine your marketing strategies.
 
-![how to integrate fb pixel events](/images/how to fb pixel events.png)
+![how to integrate fb pixel events](/images/how_to_fb_pixel_events.png)
 
 ### Tracked Interactions
 

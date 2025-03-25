@@ -19,7 +19,7 @@ This guide outlines the steps to select specific collections for synchronization
 1. **Access the Success Checklist**: To select the collections/categories to sync, go to the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) panel in the `Dashboard`. 
 2. **Initiate Collection/Categories Selection**: Under `Sync Products from your store` click `Choose Active Collections/Categories`.
 3. **Choose Your Collections/Categories**: Next, select the collections/categories you want to sync with the app. The number in brackets `()` shows how many products are currently in the collection/category. Activate or deactivate a collection/category by clicking on the toggle icon.
-    ![how to sync selected collections](/images/how to sync selected collections.gif)
+    ![how to sync selected collections](/images/how_to_sync_selected_collections.gif)
 4. **Monitor Your Product Limit**: Keep an eye on the product limit associated with your current plan. Once this limit is reached, you will not be able to activate additional collections/categories for synchronization.
 5. **Sync Your Selections**: Once you’re done selecting collections/categories, click `run manual sync` to sync them with your store.
 6. **Automatic Updates**: RevenueHunt app automatically updates the products from the synced collections/categories once a day, ensuring your quiz always features up-to-date information and product availability.

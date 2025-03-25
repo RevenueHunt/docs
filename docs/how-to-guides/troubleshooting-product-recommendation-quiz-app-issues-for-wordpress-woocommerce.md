@@ -38,7 +38,7 @@ Possible Causes and Solutions:
 8. **Disable Other Plugins**: Temporarily deactivate other plugins and try granting access to our app to see if they are causing a conflict.
 9. **Cloudflare Cache**: Exclude the WooCommerce API endpoint (/wp-json/wc/v3/) from Cloudflare’s cache. Alternatively, use Cloudflare’s developer mode to bypass the cache temporarily. (Source: https://developers.cloudflare.com/cache/)
 
-![how to troubleshoot wordpress woocommerce image1](/images/how to troubleshoot wordpress woocommerce image1.webp)
+![how to troubleshoot wordpress woocommerce image1](/images/how_to_troubleshoot_wordpress_woocommerce_image1.webp)
 
 Advanced Solutions:
 
@@ -76,7 +76,7 @@ Possible Causes and Solutions:
 
 1. **Check JSON format**. This means that even if your site returns a JSON it may not be in the correct format. The WordPress API is returning a response that is encoded as text/html. Normally, it should be application/json.   This is related to your store or server settings, but can also be influenced by another plugin. It is recommended to check it with your developer and fix it.
 
-![how to troubleshoot wordpress woocommerce image2](/images/how to troubleshoot wordpress woocommerce image2.jpg)
+![how to troubleshoot wordpress woocommerce image2](/images/how_to_troubleshoot_wordpress_woocommerce_image2.jpg)
 
 !!! example "Error Messages"
 
@@ -86,7 +86,7 @@ Possible Causes and Solutions:
 
 1. **Duplicate Plugin Activation**: Deactivate the existing WordPress Plugin (Product recommendation Quiz for eCommerce) before activating the WooCommerce extension (Product Recommendation Quiz for WooCommerce). Don’t worry, you won’t lose any data because your quizzes and responses are stored in our server.
 
-![how to troubleshoot wordpress woocommerce image3](/images/how to troubleshoot wordpress woocommerce image3.png)
+![how to troubleshoot wordpress woocommerce image3](/images/how_to_troubleshoot_wordpress_woocommerce_image3.png)
 
 !!! example "Error Messages"
 

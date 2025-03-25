@@ -151,7 +151,7 @@ console.log(prq);
 
 This line of code will display the available Vue.js functions and properties within the prq scope in your browser's console, allowing you to inspect the quiz data in real-time.
 
-![how to add javascript consolelog](/images/how to add javascript consolelog.png)
+![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
 
 ## Custom JavaScript Capabilities
 

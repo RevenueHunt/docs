@@ -14,7 +14,7 @@ This guide is designed to help merchants effectively use [Product Slot Blocks](h
 
 A personalized skincare routine recommendation quiz was chosen as an example to best demonstrate how to work with this feature. See an example of such a Skincare Quiz [here](https://skincarequiz.myshopify.com/#quiz-rkHm6Y).
 
-![how to recommend slots example](/images/how to recommend slots example.png)
+![how to recommend slots example](/images/how_to_recommend_slots_example.png)
 
 ## Step 1: Understand Recommendation Mechanism
 
@@ -50,7 +50,7 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
         - a *Serums* collection should have all the serums, etc. 
         - You can have more than one collection that includes some of the same products.
 
-        ![how to recommend slots cleansers collection](/images/how to recommend slots cleansers collection.png)
+        ![how to recommend slots cleansers collection](/images/how_to_recommend_slots_cleansers_collection.png)
 
     3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
@@ -70,7 +70,7 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
         - a *Serums* collection should have all the serums, etc. 
         - You can have more than one collection that includes some of the same products.
 
-        ![how to recommend slots cleansers collection](/images/how to recommend slots cleansers collection.png)
+        ![how to recommend slots cleansers collection](/images/how_to_recommend_slots_cleansers_collection.png)
 
 === "WooCommerce"
 
@@ -141,7 +141,7 @@ Once your quiz is set up, you should add products and collections to the choices
     1. **Go to Link Products/Collections tab**: In the Quiz Builder, go to [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) or [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab.
     2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not recieve at least one vote, it will never show up on the results page.
 
-        ![how to recommend slots link products](/images/how to recommend slots link products.png)
+        ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
 === "Shopify V2"
 
@@ -155,35 +155,35 @@ Once your quiz is set up, you should add products and collections to the choices
         ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
     2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not recieve at least one vote, it will never show up on the results page.
 
-        ![how to recommend slots link products](/images/how to recommend slots shopify v2 link products.png)
+        ![how to recommend slots link products](/images/how_to_recommend_slots_shopify_v2_link_products.png)
 
 === "WooCommerce"
 
     1. **Go to Link Products/Collections tab**: In the Quiz Builder, go to [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) or [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab.
     2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not recieve at least one vote, it will never show up on the results page.
 
-        ![how to recommend slots link products](/images/how to recommend slots link products.png)
+        ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
 === "Magento"
 
     1. **Go to Link Products/Collections tab**: In the Quiz Builder, go to [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) or [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab.
     2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not recieve at least one vote, it will never show up on the results page.
 
-        ![how to recommend slots link products](/images/how to recommend slots link products.png)
+        ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
 === "BigCommerce"
 
     1. **Go to Link Products/Collections tab**: In the Quiz Builder, go to [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) or [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab.
     2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not recieve at least one vote, it will never show up on the results page.
 
-        ![how to recommend slots link products](/images/how to recommend slots link products.png)
+        ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
 === "Standalone"
 
     1. **Go to Link Products/Collections tab**: In the Quiz Builder, go to [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) or [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab.
     2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not recieve at least one vote, it will never show up on the results page.
 
-        ![how to recommend slots link products](/images/how to recommend slots link products.png)
+        ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
 ## Step 5: Add Product Slots to the Results Page
 
@@ -194,7 +194,7 @@ Once your quiz is set up, you should add products and collections to the choices
     3. **Add Slots**: Open the [`Slot Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
     5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection/category that's included.
-    ![how to recommend slots slot block](/images/how to recommend slots slot block.png)
+    ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
     6. **Choose Product number**: In the [`Slot Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
 
 === "Shopify V2"
@@ -210,7 +210,7 @@ Once your quiz is set up, you should add products and collections to the choices
     4. **Edit the Slot**: You can add a title or a description to each slot.
     5. **Add Filters**: Add a filter with the corresponding product collection to each slot in the `Add filter` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection that's added in the filter field.
 
-        ![how to recommend slots slot block](/images/how to recommend slots shopify v2 set up filters.png)
+        ![how to recommend slots slot block](/images/how_to_recommend_slots_shopify_v2_set_up_filters.png)
     6. **Choose Product number**: In the [`Product Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
 
 
@@ -221,7 +221,7 @@ Once your quiz is set up, you should add products and collections to the choices
     3. **Add Slots**: Open the [`Slot Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
     5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection/category that's included.
-    ![how to recommend slots slot block](/images/how to recommend slots slot block.png)
+    ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
     6. **Choose Product number**: In the [`Slot Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
 
 === "Magento"
@@ -231,7 +231,7 @@ Once your quiz is set up, you should add products and collections to the choices
     3. **Add Slots**: Open the [`Slot Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
     5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection/category that's included.
-    ![how to recommend slots slot block](/images/how to recommend slots slot block.png)
+    ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
     6. **Choose Product number**: In the [`Slot Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
 
 === "BigCommerce"
@@ -241,7 +241,7 @@ Once your quiz is set up, you should add products and collections to the choices
     3. **Add Slots**: Open the [`Slot Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
     5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection/category that's included.
-    ![how to recommend slots slot block](/images/how to recommend slots slot block.png)
+    ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
     6. **Choose Product number**: In the [`Slot Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
 
 === "Standalone"
@@ -251,7 +251,7 @@ Once your quiz is set up, you should add products and collections to the choices
     3. **Add Slots**: Open the [`Slot Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
     5. **Include Collections/Categories into Slots**: Link the corresponding product collection/category to each slot in the `Include` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection/category that's included.
-    ![how to recommend slots slot block](/images/how to recommend slots slot block.png)
+    ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
     6. **Choose Product number**: In the [`Slot Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
 
 ## Step 6: Test and Troubleshoot

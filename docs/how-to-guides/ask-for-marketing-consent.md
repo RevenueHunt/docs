@@ -170,7 +170,7 @@ This article outlines several methods to integrate consent requests seamlessly i
     2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
     3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
     4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
-        ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
+        ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
 
 === "Shopify V2"
 
@@ -194,7 +194,7 @@ This article outlines several methods to integrate consent requests seamlessly i
     2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
     3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
     4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
-        ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
+        ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
 
 === "Magento"
 
@@ -204,7 +204,7 @@ This article outlines several methods to integrate consent requests seamlessly i
     2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
     3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
     4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
-        ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
+        ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
 
 === "BigCommerce"
 
@@ -214,7 +214,7 @@ This article outlines several methods to integrate consent requests seamlessly i
     2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
     3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
     4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
-        ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
+        ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
 
 === "Standalone"
 
@@ -224,7 +224,7 @@ This article outlines several methods to integrate consent requests seamlessly i
     2. Add a single choice with your consent text, e.g., `I consent to process my data for marketing purposes.`
     3. Return to the `email/phone` question , access [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), and enable the `join next question` option.
     4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
-        ![how to ask for marketing consent join questions](/images/how to ask for marketing consent join questions.png)
+        ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
 
 ### Option 3: GDPR Question
 

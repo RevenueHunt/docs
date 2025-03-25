@@ -83,7 +83,7 @@ The JSON with the quiz response includes:
 
 For a practical demonstration of the callback function at work, visit the demo store at [https://skincarequiz.myshopify.com/](https://skincarequiz.myshopify.com/). Here, you can witness how the quiz responses are handled in a live environment, providing a clearer understanding of the process.
 
-![how use callback function example](/images/how use callback function example.png)
+![how use callback function example](/images/how_use_callback_function_example.png)
 
 
 ## Making sense of the Callback’s JSON Object
@@ -92,7 +92,7 @@ You will find some of the most important data points on the object within the fo
 
 ### General Data
 
-![how to callback image1](/images/how to callback image1.png)
+![how to callback image1](/images/how_to_callback_image1.png)
 
 On the Quiz section, you will find the following entries:
 
@@ -102,7 +102,7 @@ On the Quiz section, you will find the following entries:
 
 ### ⤵ Attributes Object
 
-![how to callback image2](/images/how to callback image2.png)
+![how to callback image2](/images/how_to_callback_image2.png)
 
 !!! note
 
@@ -113,21 +113,21 @@ On the Quiz section, you will find the following entries:
 - **Name**: Name of the Quiz.
 - **Preferences**: The preferences/settings of the Quiz.
 - **⤵ Results**: One of the composite objects. Here you will find the result’s page blocks:
-  ![how to callback image3](/images/how to callback image3.png)
+  ![how to callback image3](/images/how_to_callback_image3.png)
   
     One entry in the data array for each block you add:
-    ![how to callback image4](/images/how to callback image4.png)
+    ![how to callback image4](/images/how_to_callback_image4.png)
 
 - **⤵ Slides**: One of the most interesting sections:
-  ![how to callback image5](/images/how to callback image5.png)
+  ![how to callback image5](/images/how_to_callback_image5.png)
 
     In here, you will find “data”, which contains each of the slides, or questions, you’re using. On each of the slide objects, you can find all the information related to it:
-    ![how to callback image6](/images/how to callback image6.png)
+    ![how to callback image6](/images/how_to_callback_image6.png)
     
     ID of the slide and the **⤵ attribute** object with more data. 
     
     Let’s open the **⤵ attributes** to better understand which information is contained in it:
-    ![how to callback image7](/images/how to callback image7.png)
+    ![how to callback image7](/images/how_to_callback_image7.png)
 
     **⤵ Slides >  ⤵ attributes**
 
@@ -142,7 +142,7 @@ On the Quiz section, you will find the following entries:
 !!! question "How to Know Which Choice the ID(s) Represent?"
 
     You can simply make a test response, see what option you selected, and jot down the IDs of each response that way. An alternative would be to inspect the element of the choice to see the ID:
-    ![how to callback image8](/images/how to callback image8.png)
+    ![how to callback image8](/images/how_to_callback_image8.png)
 
     *The ID of this one is `36HzG42` - just take the number after `#choice-[your ID here]`.*
 
@@ -156,7 +156,7 @@ On the Quiz section, you will find the following entries:
   - **Font**: The main font being used (or fallback if there’s an issue with your custom-embedded font).
   - **Name**: Name of the theme used.
 
-![how to callback image9](/images/how to callback image9.png)
+![how to callback image9](/images/how_to_callback_image9.png)
 
 More information and data points are available throughout the callback function. You or your developer can also copy the object and paste it into their preferred software for visualizing JSON objects for more clarity and organization.
 

@@ -1289,7 +1289,7 @@
 
     You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
 
-    ![quiz builder woo link categoreis link categories](/images/manual_woo_quizbuilder_linkcategories_linked categories.png)
+    ![quiz builder woo link categoreis link categories](/images/manual_woo_quizbuilder_linkcategories_linked_categories.png)
 
     To remove a linked categories click "x" next to the category name.
 
@@ -1319,7 +1319,7 @@
 
     You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
 
-    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked categories.png)
+    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
 
     To remove a linked category click "x" next to the category name.
 
@@ -1349,7 +1349,7 @@
 
     You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
 
-    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked categories.png)
+    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
 
     To remove a linked category click "x" next to the category name.
 
@@ -1383,7 +1383,7 @@
 
     You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
 
-    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked categories.png)
+    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
 
     To remove a linked category click "x" next to the category name.
 
@@ -1481,7 +1481,7 @@
 
     You can link multiple product variants to the same choice.
 
-    ![quiz builder woo link products linked products](/images/manual_woo_quizbuilder_linkproducts_linked products.png)
+    ![quiz builder woo link products linked products](/images/manual_woo_quizbuilder_linkproducts_linked_products.png)
 
     To remove a linked product click "x" next to the product name.
 
@@ -1509,7 +1509,7 @@
 
     You can link multiple product variants to the same choice.
 
-    ![manual_standalone_quizbuilder_linkproducts_linked products](/images/manual_standalone_quizbuilder_linkproducts_linked products.png)
+    ![manual_standalone_quizbuilder_linkproducts_linked products](/images/manual_standalone_quizbuilder_linkproducts_linked_products.png)
 
     To remove a linked product click "x" next to the product name.
 
@@ -1537,7 +1537,7 @@
 
     You can link multiple product variants to the same choice.
 
-    ![manual_standalone_quizbuilder_linkproducts_linked products](/images/manual_standalone_quizbuilder_linkproducts_linked products.png)
+    ![manual_standalone_quizbuilder_linkproducts_linked products](/images/manual_standalone_quizbuilder_linkproducts_linked_products.png)
 
     To remove a linked product click "x" next to the product name.
 
@@ -1565,7 +1565,7 @@
 
     You can link multiple product variants to the same choice.
 
-    ![manual_standalone_quizbuilder_linkproducts_linked products](/images/manual_standalone_quizbuilder_linkproducts_linked products.png)
+    ![manual_standalone_quizbuilder_linkproducts_linked products](/images/manual_standalone_quizbuilder_linkproducts_linked_products.png)
 
     To remove a linked product click "x" next to the product name.
 
@@ -3567,15 +3567,15 @@
 
             This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
-            ![manual quiz builder shorter product description image1](/images/manual quiz builder shorter product description image1.png)
+            ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
             And paste the `<!--more-->` code after the introductory blurb:
 
-            ![manual quiz builder shorter product description image2](/images/manual quiz builder shorter product description image2.png)
+            ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
             This should cut the description on the quiz results page:
 
-            ![manual quiz builder shorter product description image3](/images/manual quiz builder shorter product description image3.png)
+            ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
             You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
@@ -3636,15 +3636,15 @@
 
             This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
-            ![manual quiz builder shorter product description image1](/images/manual quiz builder shorter product description image1.png)
+            ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
             And paste the `<!--more-->` code after the introductory blurb:
 
-            ![manual quiz builder shorter product description image2](/images/manual quiz builder shorter product description image2.png)
+            ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
             This should cut the description on the quiz results page:
 
-            ![manual quiz builder shorter product description image3](/images/manual quiz builder shorter product description image3.png)
+            ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
             You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
  
@@ -3690,15 +3690,15 @@
 
             This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
-            ![manual quiz builder shorter product description image1](/images/manual quiz builder shorter product description image1.png)
+            ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
             And paste the `<!--more-->` code after the introductory blurb:
 
-            ![manual quiz builder shorter product description image2](/images/manual quiz builder shorter product description image2.png)
+            ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
             This should cut the description on the quiz results page:
 
-            ![manual quiz builder shorter product description image3](/images/manual quiz builder shorter product description image3.png)
+            ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
             You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
@@ -3733,15 +3733,15 @@
 
             This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
-            ![manual quiz builder shorter product description image1](/images/manual quiz builder shorter product description image1.png)
+            ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
             And paste the `<!--more-->` code after the introductory blurb:
 
-            ![manual quiz builder shorter product description image2](/images/manual quiz builder shorter product description image2.png)
+            ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
             This should cut the description on the quiz results page:
 
-            ![manual quiz builder shorter product description image3](/images/manual quiz builder shorter product description image3.png)
+            ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
             You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
@@ -3773,15 +3773,15 @@
 
             This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
-            ![manual quiz builder shorter product description image1](/images/manual quiz builder shorter product description image1.png)
+            ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
             And paste the `<!--more-->` code after the introductory blurb:
 
-            ![manual quiz builder shorter product description image2](/images/manual quiz builder shorter product description image2.png)
+            ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
             This should cut the description on the quiz results page:
 
-            ![manual quiz builder shorter product description image3](/images/manual quiz builder shorter product description image3.png)
+            ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
             You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 

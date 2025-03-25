@@ -89,7 +89,7 @@ You can receive an email notification every time someone completes the quiz or p
 
 Each quiz response has metadata which can be used in your emails to personalize them. You can see the `metadata` from the quiz response on the right hand side of each notification:
 
-![how to send result emails metadata](/images/how to send result emails metadata.png)
+![how to send result emails metadata](/images/how_to_send_result_emails_metadata.png)
 
 The metadata from a quiz response can include various details that are useful for personalizing email communications.
 

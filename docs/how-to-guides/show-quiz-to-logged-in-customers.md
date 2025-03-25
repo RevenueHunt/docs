@@ -21,7 +21,7 @@ It’s possible to use the customer metafields to render quiz results onto diffe
     - Template type: `liquid`. 
     - Template name: `quiz`.
 
-![how to show quiz to logged in customers template](/images/how to show quiz to logged in customers template.png)
+![how to show quiz to logged in customers template](/images/how_to_show_quiz_to_logged_in_customers_template.png)
 
 ## Step 2: Add New Page Code
 
@@ -61,7 +61,7 @@ Remember to replace the URL sections in the code with the correct URLs to the qu
 
 1. Go to `Online Store > Pages` and click on the `Add Page` button. 
 2. Add the title, then select the `quiz` Theme template.
-    ![how to show quiz to logged in customers new page](/images/how to show quiz to logged in customers new page.png)
+    ![how to show quiz to logged in customers new page](/images/how_to_show_quiz_to_logged_in_customers_new_page.png)
 
 3. Click on `Save`.
 

@@ -18,7 +18,7 @@ To initiate the integration:
 3. In the newly opened line, paste your webhook URL. The system will automatically save the URL once entered.
 4. After adding the webhook URL, click on the three dots `…` next to the webhook entry and select `Test webhook` from the dropdown menu.
 5. A successful connection test will result in a message, the appearance of which may vary based on your webhook's configuration.
-    ![how to webhook success](/images/how to webhook success.png)
+    ![how to webhook success](/images/how_to_webhook_success.png)
 
 6. If an error occurs during the test, perform the following checks:
     - Verify that your quiz has received responses by checking the `Metrics -> Responses` section. If no responses are present, generate test responses by selecting `Previewing` it.
@@ -33,7 +33,7 @@ To initiate the integration:
 
 Upon activation, all quiz data will be transmitted to your webhook URL via a POST request (including headers).
 
-![how to webhook post](/images/how to webhook post.png)
+![how to webhook post](/images/how_to_webhook_post.png)
 
 If you want to add another webhook to the quiz, click `+add new webhook`, paste a new URL and follow the same steps to test and activate it.
 
@@ -48,7 +48,7 @@ Webhooks will receive all data from the quiz, incluiding:
 
 This data is packaged and sent as a JSON payload in a POST request, ensuring a structured and accessible format for automated processing or integration into other systems.
 
-![how to webhook sample](/images/how to webhook sample.png)
+![how to webhook sample](/images/how_to_webhook_sample.png)
 
 Below is a sample JSON payload sent on the POST request for a skincare quiz:
 

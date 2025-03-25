@@ -29,7 +29,7 @@ Please note that Version 2 is a fresh start: **you’ll need to recreate your qu
 3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt** to open it.
 4. From the right-hand side Shopify App menu, select `Switch to Built for Shopify`. 
 
-    ![how to shopify v2 beta switch to v2](/images/how to shopify v2 beta switch to v2.png)
+    ![how to shopify v2 beta switch to v2](/images/how_to_shopify_v2_beta_switch_to_v2.png)
 
 5. Confirm app access and permissions. 
 6. Follow the instructions in the [App Manual](https://docs.revenuehunt.com/reference/app-settings/#switch-to-v1) to switch back to the original version of the app.

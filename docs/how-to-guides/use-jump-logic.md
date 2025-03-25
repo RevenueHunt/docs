@@ -438,7 +438,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
 Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Jump Logic, which then continues the quiz based on the participant's specific path.
 
-![how to use jump logic](/images/how to hide content with logic jump logic.png)
+![how to use jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
 To learn how to build such a quiz check this [step-by-step guide](https://docs.revenuehunt.com/how-to-guides/hide-content-with-logic/).
 

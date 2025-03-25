@@ -17,7 +17,7 @@ It’s quite simple to set up:
 
 1. Head to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab.
 2. Scroll-down to find Zapier and copy your `Zapier API Key`. You'll need this for the connection process.
-    ![how to send leads to zapier api key](/images/how to send leads to zapier api key.png)
+    ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
 
 3. Within the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab of your quiz, click on the Zapier `Connect` button. 
 4. On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.
@@ -30,13 +30,13 @@ It’s quite simple to set up:
 Set up the connection via Zapier:
 
 1. **Add Connection** Go to Zapier > Apps and click `+ Add Connection`.
-![send leads to zapier connect1](/images/send leads to zapier connect1.png)
+![send leads to zapier connect1](/images/send_leads_to_zapier_connect1.png)
 2. Select Revenuehunt from the App list.
-![send leads to zapier connect2](/images/send leads to zapier connect2.png)
+![send leads to zapier connect2](/images/send_leads_to_zapier_connect2.png)
 3. **Copy API Key** Copy your API Key from the Quiz Builder > Connect > Zapier tab:
-![send leads to zapier connect3](/images/send leads to zapier connect3.png)
+![send leads to zapier connect3](/images/send_leads_to_zapier_connect3.png)
 And paste it in the window that pops up:
-![send leads to zapier connect4](/images/send leads to zapier connect4.png)
+![send leads to zapier connect4](/images/send_leads_to_zapier_connect4.png)
 Confirm with `Yes, Continue to RevenueHunt`.
 4. **New Connection Added** You should see a `New Connection Added` banner. Then you can use this connection to set up your email flow.
 
@@ -48,11 +48,11 @@ During the setup, you can check the quiz data that Zapier will receive from the 
 - Recommended products.
 - Responses to quiz questions.
 
-![how to zapier data example2](/images/how to zapier data example2.png)
+![how to zapier data example2](/images/how_to_zapier_data_example2.png)
 
 After configuring the triggers, you can test the connection in Zapier's `Test trigger` section to ensure the correct data is being captured.
 
-![how to zapier data example1](/images/how to zapier data example1.png)
+![how to zapier data example1](/images/how_to_zapier_data_example1.png)
 
 ## Sending Follow-up Emails Directly from Zapier
 

@@ -263,7 +263,7 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
 
 You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different recommendation about their skincare is shown on the Results Page. This individualized response is made possible by Block Logic.
 
-![how to use block logic example](/images/how to use block logic example.png)
+![how to use block logic example](/images/how_to_use_block_logic_example.png)
 
 To learn how to build such a quiz check this [step-by-step guide](https://docs.revenuehunt.com/how-to-guides/hide-content-with-logic/).
 

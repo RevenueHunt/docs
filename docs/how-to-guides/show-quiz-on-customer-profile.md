@@ -32,7 +32,7 @@ customer.metafields.prq.response_permalink
 
 This is how it looks like within customer/account.liquid file in Shopify:
 
-![how to show quiz on customer profile](/images/how to show quiz on customer profile.png)
+![how to show quiz on customer profile](/images/how_to_show_quiz_on_customer_profile.png)
 
 ## Step 3: Embed the Quiz Results
 
@@ -50,7 +50,7 @@ Then, [generate an embed code](https://docs.revenuehunt.com/how-to-guides/publis
 
 Here’s how it can look on your customer’s profile:
 
-![how to show quiz on customer profile rendered](/images/how to show quiz on customer profile rendered.png)
+![how to show quiz on customer profile rendered](/images/how_to_show_quiz_on_customer_profile_rendered.png)
 
 ---
 This guide provides instructions for developers on showing the quiz on a customer profile in Shopify.
