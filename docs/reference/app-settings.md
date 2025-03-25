@@ -162,7 +162,33 @@
 
 === "Shopify V2"
 
+    ![app settings smtp](/images/manual_shopifyV2_appsettings_smtp.png)
 
+    **SMTP Settings** 
+
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
+
+    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
+
+    Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+
+    **SMTP From** - Set what name and email the customer will see when they receive the email. The "From" field must be in format: `"Full Name" <name@company.com>`.
+
+    **SMTP Server** - Set your server URL. The "Server" field must be in format: `smtp.example.com`.
+
+    **SMTP Username** - Set your SMTP Username.
+
+    **SMTP Password**  - Provide the password associated with the username.
+
+    **SMTP Port** - Set the SMTP port (25, 465, 587 or 2525)
+
+    **SMTP Authentication**  - Select from teh dropdown your SMTP email authentication method.
+
+    **Enable STARTTLS** - Check to enable STARTTLS. *STARTTLS is a protocol command used to upgrade an existing insecure connection to a secure, encrypted connection using TLS (Transport Layer Security). It typically runs over port 587. You should check this if your mail server supports STARTTLS.".*
+
+    **Enable SSL** - Check to enable SLL. *SSL (Secure Sockets Layer) is an older protocol for encrypting connections. If enabled, your connection starts as secure from the beginning (unlike STARTTLS which upgrades after connecting). This is usually used on port 465. Only enable SSL if your SMTP provider specifies SSL.*
+       
+    **Test connection** - Once you've provided all your credentials you can test if the connection to your SMTP server is successful by clicking the `Test` button. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you’re having issues, please get in touch with your developer / SMTP provider.
 
 === "WooCommerce"
 
