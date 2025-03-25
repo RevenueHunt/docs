@@ -1163,13 +1163,13 @@
 
     **Upvotes weighting** - Sets a default weight of this choice. If the weight is set to 2, all the upvoted products will receive x2 (double) votes from this choice.
 
-    **Upvotes** - lists all the products, product varaints, collections, tags, variants collections or vendors that are linked to this choice.
+    **Upvotes** - lists all the products, product variants, collections, tags, variants collections or vendors that are linked to this choice.
 
-    **▼Upvote** - Click to choose an item to upvote. You can upvote individual products, product varaints or entire collections, tags, variants collections or vendors to a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be linked to this choice.
+    **▼Upvote** - Click to choose an item to upvote. You can upvote individual products, product variants or entire collections, tags, variants collections or vendors to a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be linked to this choice.
 
-    **Exclude** - lists all the products, product varaints, collections, tags, variants collections or vendors that are excluded in this choice.
+    **Exclude** - lists all the products, product variants, collections, tags, variants collections or vendors that are excluded in this choice.
 
-    **▼Exclude** - Click to choose an item to exclude. You can exclude individual products, product varaints or entire collections, tags, variants collections or vendors from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+    **▼Exclude** - Click to choose an item to exclude. You can exclude individual products, product variants or entire collections, tags, variants collections or vendors from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
 
     In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
 
@@ -1209,7 +1209,7 @@
 
     Select a collection and it will be automatically added to the choice. 
 
-    **Moisturizers(1)** - (1) The number in the brackets indicates how many product varaints are in that collection.
+    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that collection.
 
     You can link multiple collections to the same choice but be careful. If a product is part of two collections linked to the same choice, it will receive 2 votes from that choice (one vote from each collection linked to that choice).
 
@@ -1243,9 +1243,9 @@
 
     **Upvotes** - lists all the collections, tags, variants collections or vendors that are linked to this choice.
 
-    **▼Upvote** - Click `▼Upvote` to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. Once selected a popup will show allowing you to select items (collections, tags, varaints, vendors) from your Shopify catalog to be linked to this choice.
+    **▼Upvote** - Click `▼Upvote` to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. Once selected a popup will show allowing you to select items (collections, tags, variants, vendors) from your Shopify catalog to be linked to this choice.
 
-    **Exclude** - lists all the products, product varaints, collections, tags, variants collections or vendors that are excluded in this choice.
+    **Exclude** - lists all the products, product variants, collections, tags, variants collections or vendors that are excluded in this choice.
 
     **▼Exclude** - Click to choose an item to exclude. You can exclude entire collections, tags, variants collections or vendors from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
 
@@ -2970,15 +2970,15 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html.png)
 
-    - **Products / Products Varaints / Collections** - Adds a block specifically designed for displaying a list of recommended products, product varaints or collections.
+    - **Products / Products Variants / Collections** - Adds a block specifically designed for displaying a list of recommended products, product variants or collections.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
     *Recommendation type:* - Select whether you prefer to recommend the main product, product variants or collections.
 
-    *Recommendations system* - Select whether you prefer to show dynamic recommendations based on customer responses or a fixed set of recommended products, varaints or collections.
+    *Recommendations system* - Select whether you prefer to show dynamic recommendations based on customer responses or a fixed set of recommended products, variants or collections.
 
-    *Min. number of votes:* - Select what minimum number of votes a product or a varaints should receive in order to be displayed in this product block. If a product receives less votes than specified here at the end of the quiz, it will not be shown.
+    *Min. number of votes:* - Select what minimum number of votes a product or a variants should receive in order to be displayed in this product block. If a product receives less votes than specified here at the end of the quiz, it will not be shown.
 
     *Products/Collections Alignment* - Select how the product slot should be aligned on the results page - left, center or right.
 
@@ -3550,7 +3550,7 @@
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the resutls page will be random.
 
     **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
@@ -3580,7 +3580,7 @@
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the resutls page will be random.
 
     **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
@@ -3608,7 +3608,7 @@
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the resutls page will be random.
 
     **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
@@ -3636,7 +3636,7 @@
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the resutls page will be random.
 
     **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
@@ -3664,7 +3664,7 @@
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If varaints receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the resutls page will be random.
 
     **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
@@ -4344,7 +4344,7 @@
 
     !!! warning
 
-        For large stores (more than 2,000 products) the option to use the top-level product will not be available. Instead, it’s recommended to make use of automatically created Tags and Varaints to upvote whole groups of products at once in the Link Collections tab.
+        For large stores (more than 2,000 products) the option to use the top-level product will not be available. Instead, it’s recommended to make use of automatically created Tags and Variants to upvote whole groups of products at once in the Link Collections tab.
 
     **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 

@@ -6,14 +6,14 @@ icon: material/sort-variant-off
 
 Within Product Recommendation Quiz it is possible to hide the product variants dropdown on the results page.
 
-![how to hide product varaints image1](/images/how_to_hide_product_varaints_image1.png)
+![how to hide product variants image1](/images/how_to_hide_product_variants_image1.png)
 
 
 ## Option 1) Recommend a specific product variant instead
 
 You can recommend a specific product variant instead of the main product by changing your Results Page settings. 
 
-![how to hide product varaints image2](/images/how_to_hide_product_varaints_image2.png)
+![how to hide product variants image2](/images/how_to_hide_product_variants_image2.png)
 
 1. Open [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) > [Advanced](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
 2. Deactivate the `Group product variants` option. 
@@ -25,7 +25,7 @@ You can recommend a specific product variant instead of the main product by chan
 
 It is also possible to recommend only the main product and simply hide the dropdown with custom CSS code. To do that:
 
-![how to hide product varaints image3](/images/how_to_hide_product_varaints_image3.png)
+![how to hide product variants image3](/images/how_to_hide_product_variants_image3.png)
 
 1. Open the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab.
 2. Scroll to the `Custom CSS` section and click `add`.

@@ -231,7 +231,7 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
             Check [How to Edit the Results Page](https://docs.revenuehunt.com/how-to-guides/edit-results-page/) for more information.
 
-    3. **Add a Product Block**: Products/Varaints/Collections can be displayed on the Results Page as a list via the `Product Block` or divided into slots via the `Product Slot Block`. For beginners, it's recommended to use a `Product Block` to show the recommendations.
+    3. **Add a Product Block**: Products/Variants/Collections can be displayed on the Results Page as a list via the `Product Block` or divided into slots via the `Product Slot Block`. For beginners, it's recommended to use a `Product Block` to show the recommendations.
 
         **Product Block** displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last.
 
@@ -277,7 +277,7 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
     3. **Set Fixed Recommendations**: In the [Product Block Settings] set the Recommendations System to `Fixed Recommendations`.
 
         ![how to recommend products shopify v2 recommend fixed products](/images/how_to_recommend_products_shopify_v2_recommend_fixed_products.png)
-    4. **Select Recommended Products**: In Slot Settings > Fixed recommended itents select the products, varaints of collections that should be always recommended to the customer on the resutls page. 
+    4. **Select Recommended Products**: In Slot Settings > Fixed recommended itents select the products, variants of collections that should be always recommended to the customer on the resutls page. 
 
         ![how to recommend products shopify v2 recommend fixed products slot settings](/images/how_to_recommend_products_shopify_v2_recommend_fixed_products_slot_settings.png)
     5. **Save the changes**: Remember to save the changes to update the preview/live quiz.
