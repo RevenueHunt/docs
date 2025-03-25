@@ -32,6 +32,8 @@ To fix this issue, the developer needs to modify the meta viewport tag in the st
 
 3. If the meta viewport tag is missing, add the modified tag to the `<head>` section of your HTML.
 
+![Fix viewport issue mobile](/images/fix_viewport_issue_mobile.png)
+
 ## Testing
 
 After making these changes, test the form on a mobile device to ensure it remains fixed and does not move from side to side.
