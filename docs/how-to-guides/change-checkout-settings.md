@@ -36,11 +36,6 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-        
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar.png)
 
     1. Open the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).
@@ -54,7 +49,6 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
         *Proceed to cart* - After adding the products to cart, the customer will be redirected to the cart page.
 
     4. Click the top-right `Save` button to update the preview/live quiz.
-
 
 === "WooCommerce"
 
@@ -82,7 +76,6 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
             - Alternatively, you might want customers to have the opportunity to view more details about a product before making a purchase. Selecting this option replaces the direct 'add to cart' action with a `view product` link.
             - When customers click on the `view product` link, they are taken to the individual product page instead of adding the item directly to their cart. This can be beneficial for providing customers with additional product information, images, and reviews that might influence their purchasing decision.
 
-
         3. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Magento"
@@ -107,7 +100,6 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
             - Alternatively, you might want customers to have the opportunity to view more details about a product before making a purchase. Selecting this option replaces the direct 'add to cart' action with a `view product` link.
             - When customers click on the `view product` link, they are taken to the individual product page instead of adding the item directly to their cart. This can be beneficial for providing customers with additional product information, images, and reviews that might influence their purchasing decision.
-
 
         3. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -134,11 +126,9 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
             - Alternatively, you might want customers to have the opportunity to view more details about a product before making a purchase. Selecting this option replaces the direct 'add to cart' action with a `view product` link.
             - When customers click on the `view product` link, they are taken to the individual product page instead of adding the item directly to their cart. This can be beneficial for providing customers with additional product information, images, and reviews that might influence their purchasing decision.
 
-
         3. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Standalone"
-
 
     It is **not possible to add the products to cart** with the Standalone version of the Product Recommendation Quiz app. Instead, customers are sent directly to the product page.
 
@@ -149,8 +139,6 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
     !!! tip
 
         If you would like to add a product to the cart you can set up your own results page in your store and send all the quiz data there with the help of our [Callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/).
-
-
 
 ---
 

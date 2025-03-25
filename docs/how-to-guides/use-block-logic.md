@@ -6,7 +6,6 @@
 
 In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
-
 ??? question "What content be added to the Results Page?"
 
     You can add different types of building blocks to your results page:
@@ -50,7 +49,6 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
 
             In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-
     4. You can add multiple rules by clicking the `+` button.
         
         - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
@@ -60,11 +58,6 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
     4. **Preview and Adjust**: Publish the changes with the top-right Publish button to update the preview/live quiz and test the setup.
 
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     With Block Logic / Display Logic you can make blocks visible or hidden based on customer's responses.
 
@@ -90,7 +83,6 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
             ![quiz builder resutls page block logic example](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic_exampleOR.png)
 
             In the example, if a user chooses a choice "Oily" in Question 1 "SKIN TYPE" then this section will be hidden. If they give a different answer in Question 1 this content block will be shown.
-
 
     4. You can add multiple rules by clicking the `+` button.
         
@@ -130,7 +122,6 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
 
             In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-
     4. You can add multiple rules by clicking the `+` button.
         
         - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
@@ -168,7 +159,6 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
             ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
 
             In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
-
 
     4. You can add multiple rules by clicking the `+` button.
         
@@ -208,7 +198,6 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
 
             In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-
     4. You can add multiple rules by clicking the `+` button.
         
         - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
@@ -247,7 +236,6 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
 
             In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-
     4. You can add multiple rules by clicking the `+` button.
         
         - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
@@ -255,7 +243,6 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
         - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
     4. **Preview and Adjust**: Publish the changes with the top-right Publish button to update the preview/live quiz and test the setup.
-
 
 ## Examples and Applications
 
@@ -266,7 +253,6 @@ You want to provide personalized advice based on the customer's skin type. Imagi
 ![how to use block logic example](/images/how_to_use_block_logic_example.png)
 
 To learn how to build such a quiz check this [step-by-step guide](https://docs.revenuehunt.com/how-to-guides/hide-content-with-logic/).
-
 
 ## Additional Resources
 

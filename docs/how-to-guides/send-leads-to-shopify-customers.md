@@ -53,7 +53,6 @@ Newly captured leads will appear in your Shopify Customers List with their [Cust
     
     Customer tags are updated every time a customer takes the quiz.
 
-
 ## Change subscribed/consent status for email and phone questions
 
 By default, all the contacts added to the list via the quiz will be marked as subscribed and their consent to receiving marketing information was given. You can change that in the email and phone questions settings.
@@ -72,7 +71,6 @@ By default, all the contacts added to the list via the quiz will be marked as su
 ## Set up Shopify Automation Flow
 
 <iframe class="alignnone size-full" title="YouTube video player" src="https://www.youtube.com/embed/GcxUgLyZUZc?si=TdE6-D4EAckWkgCj" width="100%" height="400px" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
-
 
 ![how to shopify customers automation full cycle](/images/how_to_shopify_customers_automation_full_cycle.png)
 

@@ -14,11 +14,6 @@ icon: material/download
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
     2. Grant permissions to connect our app to your Shopify.
     3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt** to open it.
@@ -90,7 +85,6 @@ icon: material/download
             rh_token (product_quiz/hidden/rh_token)
 
             rh_shop_hashid (product_quiz/hidden/rh_shop_hashid)
-
 
     2. In your Magento dashboard, navigate to the Marketing tab and open `Product Recommendation Quiz`.
     3. Grant permission to connect our app to your Magento store.

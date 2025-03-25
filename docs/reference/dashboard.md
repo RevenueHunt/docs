@@ -22,11 +22,9 @@ On the dashboard, you'll find all the quizzes that you create.
 
 === "Shopify V2"
 
-    !!! warning
+    ![dashboard_catalogue](/images/manual_shopifyV2_dashboard_catalogue.png)
 
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
-    ![dashboard](/images/manual_shopifyV2_dashboard.png)
+    From the Catalogue tab, you can create and update your products, manually or programmatically.
 
     Shopify Side Menu
 
@@ -130,10 +128,6 @@ On the dashboard, you'll find all the quizzes that you create.
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_notifications](/images/manual_shopifyV2_notifications.png)
 
     "x" - Archives a notification.
@@ -206,10 +200,6 @@ On the dashboard, you'll find all the quizzes that you create.
     **show breakdown** - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/). 
 
     ![manual_shopifyV2_dafaultquiz](/images/manual_shopifyV2_dafaultquiz.png)
 
@@ -440,10 +430,6 @@ On the dashboard, you'll find all the quizzes that you create.
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_successchecklist](/images/manual_shopifyV2_successchecklist.png)
 
     Success checklist guides you through every step of creating and optimizing your quiz for maximum results. From setting up tailored product recommendations to collecting leads and promoting your quiz, follow these tasks to ensure you're making the most out of your quiz.
@@ -530,11 +516,11 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ??? question "How do I find my Google Product Feed URL?"
 
-        To find your Google Product Feed URL in Google Merchant Center, you need to log into your account at https://merchants.google.com/. After logging in click “products”, then “Feeds”. Click the name of the feed you would like to see the URL for, and then click Settings / Fetch schedule. Alternatively, you can find the URL to your product page by editing a product and looking for the Permalink just below the Title box.
+        To find your Google Product Feed URL in Google Merchant Center, you need to log into your account at https://merchants.google.com/. After logging in click "products", then "Feeds". Click the name of the feed you would like to see the URL for, and then click Settings / Fetch schedule. Alternatively, you can find the URL to your product page by editing a product and looking for the Permalink just below the Title box.
 
     !!! warning
 
-        Your Google Product Feed doesn’t work? Try [this service](https://developers.google.com/product-review-feeds/validation/) to validate it.
+        Your Google Product Feed doesn't work? Try [this service](https://developers.google.com/product-review-feeds/validation/) to validate it.
 
     **CATALOGUE** - This is where you can create products and collections of products that can be used in building your quiz. All the changes you make will be saved automatically.
 
@@ -567,10 +553,6 @@ On the dashboard, you'll find all the quizzes that you create.
     **use this template** - Adds the template to your dashboard. 
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_createquiz.png](/images/manual_shopifyV2_createquiz.png)
 

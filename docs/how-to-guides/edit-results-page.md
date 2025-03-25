@@ -22,11 +22,6 @@ This guide will walk you through adding elements to your results page using a va
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
     1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
@@ -104,11 +99,6 @@ This guide will walk you through adding elements to your results page using a va
     - **Block Logic**: With [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
 
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
 
@@ -293,11 +283,6 @@ This guide will walk you through adding elements to your results page using a va
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_quizbuilder_resultspage_settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
     For further customization, you can adjust the [results page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). 
@@ -313,7 +298,6 @@ This guide will walk you through adding elements to your results page using a va
     - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
     - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
 
-
     [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) worth checking:
 
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
@@ -323,7 +307,6 @@ This guide will walk you through adding elements to your results page using a va
             Check [How to Add JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
 
     - **Multiple Results Pages**: Offer [diverse results pages](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
-
 
 === "WooCommerce"
 
@@ -496,9 +479,6 @@ This guide will walk you through adding elements to your results page using a va
             Check [How to Add Product Metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
 
     - **Multiple Results Pages**: Offer [diverse results pages](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
-
-
-
 
 ---
 By following this guide, you can significantly enhance your shop's quiz results page, creating a dynamic, engaging, and personalized shopping experience for your customers.

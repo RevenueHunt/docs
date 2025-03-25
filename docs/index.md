@@ -63,7 +63,6 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
 
     Check out this [step-by-step installation guide](https://docs.revenuehunt.com/how-to-guides/install-app/).
 
-
 ## Frequently Asked Questions
 
 Here's what other people are finding most helpful right now:

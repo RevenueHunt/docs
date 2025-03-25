@@ -111,8 +111,6 @@ Here’s a list of all the tracked events:
 | Customer proceeds to checkout | `track` | `InitiateCheckout` | `{ num_items: num_products_in_cart, currency: quiz_currency, value: value_of_products_in_cart }` |
 | Customer retakes the quiz | `trackCustom` | `RetakeQuiz` | `{ content_name: quiz_name, content_category: 'quiz' }` |
 
-
-
 ## Adding a Custom Pixel
 
 === "Shopify"

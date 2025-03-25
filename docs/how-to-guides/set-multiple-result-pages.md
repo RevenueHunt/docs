@@ -2,12 +2,9 @@
 icon: material/file-document-multiple
 ---
 
-
-
 # How to Set Up Multiple Result Pages
 
 With the RevenueHunt app it is possible to set up Multiple Results Pages. To add an extra Results Page to your quiz follow the instructions below.
-
 
 !!! warning
 
@@ -21,8 +18,6 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
     - Special cases: Some businesses, like medical & supplements companies, might use separate results pages to inform customers when they are not eligible for certain products, e.g., "You're not qualified for X due to [specific reason]."
 
     Carefully consider your quiz goals before enabling this feature to ensure it aligns with your business objectives.
-
-
 
 === "Shopify"
 
@@ -46,8 +41,6 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 
     11. Once Jump Logic is set up and leading the customers to different resutls pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
 
-
-
 === "Shopify V2"
 
     1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
@@ -63,7 +56,6 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
         To learn more about using Jump Logic, check [this handy guide](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/).
 
     6. Once Jump Logic is set up and leading the customers to different resutls pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
-
 
 === "WooCommerce"
 
@@ -87,7 +79,6 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 
     11. Once Jump Logic is set up and leading the customers to different resutls pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
 
-
 === "Magento"
 
     1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
@@ -109,7 +100,6 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
         To learn more about using Jump Logic, check [this handy guide](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/).
 
     11. Once Jump Logic is set up and leading the customers to different resutls pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
-
 
 === "BigCommerce"
 
@@ -133,7 +123,6 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 
     11. Once Jump Logic is set up and leading the customers to different resutls pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
 
-
 === "Standalone"
 
     1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
@@ -155,5 +144,4 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
         To learn more about using Jump Logic, check [this handy guide](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/).
 
     11. Once Jump Logic is set up and leading the customers to different resutls pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
-
 

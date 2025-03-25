@@ -10,7 +10,6 @@ The guide will show you how to set up and use Skip Logic, including some example
 
 ## Conditional Logic
 
-
 === "Shopify"
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
@@ -40,11 +39,6 @@ The guide will show you how to set up and use Skip Logic, including some example
         **arrow down** - Take you to the question lower.
 
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![quiz builder conditional logic](/images/how_to_use_skip_logic_cond_logic_intro.png)
 
@@ -213,11 +207,6 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     1. You can introduce Skip Logic into your quiz by opening the [Quiz Builder > Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab.
     2. Select a question that you want to be skipped and in the right-hand side menu open the [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) dropdown.
 
@@ -360,7 +349,6 @@ The new app interface gives the option to use Jump Logic and Skip Logic. You sho
 
 - **Jump Logic** creates diverging paths within a quiz based on respondent answers, allowing for a branched experience.
 - **Skip Logic**, in contrast, customizes the path by omitting certain questions based on previous answers, keeping the overall sequence intact but personalized.
-
 
 ## Additional Resources
 

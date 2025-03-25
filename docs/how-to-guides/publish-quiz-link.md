@@ -28,11 +28,6 @@ Before you start, ensure you have:
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     With Version 2 of the RevenueHunt app, you can easily create links to open a quiz popup anywhere on your website. 
     
     To add a popup link to a menu item or button in Shopify, simply type the `#quiz` as the link and save your changes. 
@@ -58,7 +53,6 @@ Before you start, ensure you have:
 
         **Popup Links**:
 
-
         ``` html
         #quiz-DmHLGj (Version 1)
         ```
@@ -68,7 +62,6 @@ Before you start, ensure you have:
         ```
 
         **Direct Page Links**:
-
 
         ``` html
         www.yourstore.com/#quiz-DmHLGj
@@ -142,8 +135,6 @@ Before you start, ensure you have:
     4. Navigate to your eCommerce platform Navigation Menu settings and add a new item. Paste the link copied from the app.
     5. Remember to save the changes.
 
-
-
 ## Link Popup as "Take the Quiz" Button
 
 === "Shopify"
@@ -164,10 +155,6 @@ Before you start, ensure you have:
     9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button.
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     With Version 2 of the RevenueHunt app, you can easily create links to open a quiz popup anywhere on your website. 
     
@@ -194,7 +181,6 @@ Before you start, ensure you have:
 
         **Popup Links**:
 
-
         ``` html
         #quiz-DmHLGj (Version 1)
         ```
@@ -204,7 +190,6 @@ Before you start, ensure you have:
         ```
 
         **Direct Page Links**:
-
 
         ``` html
         www.yourstore.com/#quiz-DmHLGj
@@ -296,7 +281,6 @@ Before you start, ensure you have:
     6. Save the changes.
     7. From now on, whenever someone clicks on the button, a quiz popup will open.
 
-
 ## Popup Displays Behind Website Header
 
 If the Quiz Popup displays behind your website header or the `X` closing button is not visible it's likely that your website's header has an unusually high z-index. This is not something that can be fixed from the app's end but rather from your website's end.
@@ -313,8 +297,6 @@ Here's what you can do:
     </style>
     ```
 - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
-
-
 
 ---
 You've successfully set up a Quiz Link Popup on your eCommerce store. Don’t forget to click on the “Save” button so the changes are reflected in your store.

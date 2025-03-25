@@ -30,7 +30,6 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
     3. Click `Save` to confirm the changes.
     4. Once activated the quiz will connect to the GA4 tracking code already present on your website. It can take up to 72 hours for the data to start appearing in your Meta portal.
 
-
 === "WooCommerce"
 
     You can add your Google Analytics Tracking Code to your quiz to understand how your customers are interacting with your quiz, identify bottlenecks, and reduce the drop-off rate.
@@ -89,7 +88,6 @@ Events are triggered every time a customer starts a quiz, views a question, pick
 | Customer adds a product to cart (via "add to cart" or "add all to cart" buttons) | click        | addCart           | product_name   |
 | Customer proceeds to cart/checkout                                  | click        | checkoutButton    | quiz_name      |
 | Customer retakes quiz                                               | click        | retakeQuiz        | quiz_name      |
-
 
 ## Track Quiz Revenue
 
@@ -201,7 +199,6 @@ We strongly recommend not excluding your quiz as a traffic source, but here’s 
 
     3. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, label, and value that you wish to track. This customization allows you to monitor specific user actions on your website.
     4. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
-
 
 === "Magento"
 

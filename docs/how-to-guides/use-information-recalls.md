@@ -21,13 +21,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
     3. **Implement Recalls**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
         ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
 
-
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Content Dynamic Source allow you to recall any answer the customer provided in the quiz and used in any Text Block or a Heading Block on the results page.
 
@@ -44,7 +38,6 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
     3. **Implement Dynamic Source**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
         ![how to use information recalls example](/images/how_to_information_recalls_shopify_v2_example.png)
 
-
 === "WooCommerce"
 
     1. **Initiate Recall Feature**: While crafting your quiz questions or setting up follow-up communications, press the `@` symbol on your keyboard. This action activates the recall feature. 
@@ -55,7 +48,6 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
         ![how to use information recalls clicked](/images/how_to_use_information_recalls_clicked.png)
     3. **Implement Recalls**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
         ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
-
 
 === "Magento"
 
@@ -68,7 +60,6 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
     3. **Implement Recalls**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
         ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
 
-
 === "BigCommerce"
 
     1. **Initiate Recall Feature**: While crafting your quiz questions or setting up follow-up communications, press the `@` symbol on your keyboard. This action activates the recall feature. 
@@ -79,7 +70,6 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
         ![how to use information recalls clicked](/images/how_to_use_information_recalls_clicked.png)
     3. **Implement Recalls**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
         ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
-
 
 === "Standalone"
 
@@ -99,6 +89,5 @@ Information recall can be utilized in various parts of your quiz to enhance pers
 - **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
 - **Results Page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
 - **Email Communications:** Beyond the quiz itself, recall information in your [follow-up emails](https://docs.revenuehunt.com/how-to-guides/send-result-emails/) to provide a cohesive and personalized experience from start to finish. Personalize follow-up emails by including the participant's name in the subject line or email body. Use the "@" symbol to access and insert the participant's name and other relevant information into your email content.
-
 
  

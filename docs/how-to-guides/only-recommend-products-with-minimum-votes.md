@@ -37,18 +37,12 @@ To activate this setting in your quiz follow the instructions below.
 
     From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
 
-
     !!! warning
 
         The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) > Advanced > `Recommendation Settings`.
         ![how to only recommend product with min votes show random products](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
 
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
     2. Make sure you understand how our [recommendations algorithm](https://docs.revenuehunt.com/how-to-guides/recommend-products/) works.
@@ -79,7 +73,6 @@ To activate this setting in your quiz follow the instructions below.
     5. Update the preview/live quiz with these new settings by clicking `Save` in the top-right corner.
 
     From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
-
 
 === "WooCommerce"
 
@@ -113,7 +106,6 @@ To activate this setting in your quiz follow the instructions below.
     7. Update the preview/live quiz with these new settings by clicking `Publish` in the top-right corner.
 
     From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
-
 
     !!! warning
 
@@ -153,7 +145,6 @@ To activate this setting in your quiz follow the instructions below.
 
     From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
 
-
     !!! warning
 
         The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) > Advanced > `Recommendation Settings`.
@@ -192,7 +183,6 @@ To activate this setting in your quiz follow the instructions below.
 
     From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
 
-
     !!! warning
 
         The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) > Advanced > `Recommendation Settings`.
@@ -230,7 +220,6 @@ To activate this setting in your quiz follow the instructions below.
     7. Update the preview/live quiz with these new settings by clicking `Publish` in the top-right corner.
 
     From now on, only products that receive this minimum number of votes will show up as a recommendation on the results page.
-
 
     !!! warning
 

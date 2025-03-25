@@ -54,7 +54,6 @@ Before You Start:
     6. Save the changes and `update` the page.
     7. From now on, the automatic popup quiz will be visible on the main page.
 
-
 === "Magento"
 
     1. Add the following embed.js script before the `</head>` close tag in the header.
@@ -101,8 +100,6 @@ Before You Start:
     6. Save the changes.
     7. From now on, the automatic popup quiz will be visible on the main page.
 
-
-
 ## On a Specific Page
 
 === "Shopify"
@@ -139,7 +136,6 @@ Before You Start:
     9. Under `Enter HTML, CSS or JavaScript code` paste the HTML code copied from the app. 
     10. Remember to save the changes.
     11. From now on, the automatic popup quiz will be visible on that page.
-
 
 === "BigCommerce"
 
@@ -223,7 +219,6 @@ Before You Start:
     5. **Insert the Popup Code**: In the Script Content area, paste the HTML code for your popup. This will include the quiz code from your quiz builder.
     6. **Save and Test**: Save your script settings. Visit your store’s front end in an incognito window to ensure the popup appears correctly on all pages.
 
-
     **Modifying Theme Files**
 
     Alternatively, if you need more control or if the Script Manager does not meet your requirements, you can modify the theme files directly:
@@ -252,7 +247,6 @@ Before You Start:
     4. In your store customization options find the option to edit your store's theme.
     5. In the footer add the HTML code copied from the app. This will ensure the popup shows up on all pages in your store.
     6. Save the changes.
-
 
 ## Show Popup on Exit Intent
 

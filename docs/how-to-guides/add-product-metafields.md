@@ -2,7 +2,6 @@
 icon: material/focus-field-horizontal
 ---
 
-
 # How to Add Product Metafields/Attributes
 
 === "Shopify"
@@ -16,7 +15,6 @@ icon: material/focus-field-horizontal
     [Attributes](https://woocommerce.com/document/managing-product-taxonomies/#product-attributes) in Woocommerce are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Attributes make this possible.
 
     If you're looking to import product attributes from your store into the Product Recommendation Quiz to display them on your quiz's results page, follow the steps outlined below:
-
 
 ## Step 1: Enable Metafields Display
 
@@ -37,7 +35,6 @@ icon: material/focus-field-horizontal
     1. Navigate to your [Results Page Settings > Basic](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings).
     2. Open the `Individual Product Settings` section.
     3. Activate the `show metafields` toggle.
-
 
 ## Step 2: Open App Settings
 
@@ -66,7 +63,6 @@ Open [App Settings > Catalogue](https://docs.revenuehunt.com/reference/app-setti
 === "WooCommerce"
 
     Update your catalog with the new attributes by triggering a [catalog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) from your dashboard.
-
 
 ## Step 5: Implement Custom JavaScript on the Results Page
 
@@ -103,6 +99,5 @@ for (let i = 0; i < products.length; i++) {
 
 ---
 Following these steps will enable you to display specific metafields on your quiz's results page, enhancing your product presentations based on unique attributes or compliance needs.
-
 
  

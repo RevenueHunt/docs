@@ -26,11 +26,6 @@ Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-r
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     First, navigate to the quiz you wish to export:
 
     1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings).
@@ -105,7 +100,6 @@ Ensure you're logged into the destination store:
 1. Log in to the new store's Shopify account in an Incognito/Private browsing mode. This way you can avoid being logged into multiple accounts on the same browser and prevent caching issues.
 2. Open the RevenueHunt app from the store's dashboard.
 
-
 ## Step 3: Import the Quiz
 
 === "Shopify"
@@ -121,11 +115,6 @@ Ensure you're logged into the destination store:
     After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Finally, import the quiz into your new store:
 
@@ -200,11 +189,6 @@ Follow these steps if you plan to change the domain on which the RevenueHunt app
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 
     If you’re changing the `.myshopify` account, then check [this guide](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
@@ -227,7 +211,6 @@ Follow these steps if you plan to change the domain on which the RevenueHunt app
 
     When changing the domain accounts in BigCommerce, you’ll have to copy your quiz from the old domain to the new one first. [This article](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two BigCommerce accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
-
 === "Standalone"
 
     Standalone solution is independent of your domain and can be used on multiple domains simultaneously. Make sure to change your product links in your in-app [Catalogue](https://docs.revenuehunt.com/reference/dashboard/#__tabbed_3_5) or Google Product Feed.
@@ -236,8 +219,4 @@ If you have any issues or doubts about changing domains, please [contact support
 
 ---
 By following these instructions, you can efficiently duplicate your quiz across all your stores, saving time.
-
-
-
-
 

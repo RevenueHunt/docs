@@ -14,13 +14,7 @@ icon: material/basket-off-outline
     4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
     5. Update the preview/live quiz with the top-right `Publish` button.
 
-
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     You can exclude all out-of-stock items from your recommendations in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
 
@@ -50,7 +44,6 @@ icon: material/basket-off-outline
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
     4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
     5. Update the preview/live quiz with the top-right `Publish` button.
-
 
 === "BigCommerce"
 

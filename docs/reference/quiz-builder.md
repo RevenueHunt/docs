@@ -68,10 +68,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_quizbuilder](/images/manual_shopifyV2_quizbuilder.png)
 
     Quiz Builder is composed of four sections: 
@@ -218,7 +214,6 @@
 
     **Quiz Settings** - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
 
-
 === "BigCommerce"
 
     ![manual_standalone_quizbuilder](/images/manual_standalone_quizbuilder.png)
@@ -327,9 +322,7 @@
 
     **Quiz Settings** - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
 
-
 ## Quiz Builder - Questions
-
 
 === "Shopify"
 
@@ -338,10 +331,6 @@
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Preview** in the top menu.
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     **Questions**
     
@@ -382,7 +371,6 @@
     ![manual_standalone_quizbuilder_quizbuilder](/images/manual_standalone_quizbuilder_quizbuilder.png)
 
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Test Quiz** in the top menu.
-
 
 ### Question Types
 
@@ -425,10 +413,6 @@
     **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     **+ Add question** - Opens a menu of quiz questions to add.
 
@@ -474,7 +458,6 @@
 
     **Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
 
-
 === "WooCommerce"
 
     **+** / **Add new question** - Opens a menu of quiz questions to add.
@@ -512,7 +495,6 @@
     **Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
 
     **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
-
 
 === "Magento"
 
@@ -552,7 +534,6 @@
 
     **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
-
 === "BigCommerce"
 
     **+** / **Add new question** - Opens a menu of quiz questions to add.
@@ -591,7 +572,6 @@
 
     **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
-
 === "Standalone"
 
     **+** / **Add new question** - Opens a menu of quiz questions to add.
@@ -629,7 +609,6 @@
     **Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
 
     **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
-
 
 ### Question Settings
 
@@ -693,10 +672,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-    
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
 
     **...** - Opens the question management settings. Click `Duplicate` to duplicate the question or `Remove` to delete it.
@@ -962,17 +937,11 @@
     - **Duplicate** - Duplicate this slide. Creates a copy slide below.
     - **Delete** - Delete this slide. 
 
-
 ### Block Settings
 
 === "Shopify"
 
-
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Each buliding block of your question has individual block settings. 
 
@@ -1124,31 +1093,19 @@
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
 
-
 === "WooCommerce"
-
 
 === "Magento"
 
-
 === "BigCommerce"
 
-
 === "Standalone"
-
-
 
 ### Choice Settings
 
 === "Shopify"
 
-
-
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
@@ -1178,26 +1135,15 @@
 
     *All of the above* - If the choice is this type and it is selected, it will autoamtically select all the choices in that question.
 
-
 === "WooCommerce"
-
-
 
 === "Magento"
 
-
-
-
 === "BigCommerce"
-
-
-
 
 === "Standalone"
 
-
     
-
 
 ## Link Collections / Link Categories
 
@@ -1231,12 +1177,7 @@
 
     **Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
-
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     !!! note
 
@@ -1269,7 +1210,6 @@
     In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_selected](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_selected.png)
-
 
 === "WooCommerce"
 
@@ -1427,179 +1367,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/). 
-
-    To add link products or product variants to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
-
-    Next chose the weight of this choice:
-
-    **Upvotes weighting** - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products upvoted will receive x2 (double) votes from this choice.
-
-    And use the Upvotes section to choose which products or varaints to link to this choice:
-
-    **Upvotes** - lists all the collections, tags, variants collections or vendors that are linked to this choice.
-
-    **▼Upvote** - Click `▼Upvote` to choose an item to upvote. You can upvote products or product variants to a choice. Once selected a popup will show allowing you to select items (product. product variants) from your Shopify catalog to be linked to this choice.
-
-    **Exclude** - lists all the products, product varaints that are excluded in this choice.
-
-    **▼Exclude** - Click to choose an item to exclude. You can exclude individual products, product varaints from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
-
-    !!! warning
-
-        Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later
-
-    In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_select](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_select.png)
-
-    In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_selected](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_selected.png)
-
-=== "WooCommerce"
-
-    ![manual_woo_quizbuilder_linkproducts](/images/manual_wooquizbuilder_linkproducts.png)
-
-    In the Link Products tab, you can link individual product variants from your store to choices. This includes simple products, variable products, grouped products and external/affiliate products.
-
-    !!! warning
-
-        Product Recommendation Quiz for WooCommerce can sync only **one type of variants of variable products**. For example, if a variable product has two types of variants, the first one being *size*, the second being *color*, the app will be able to only sync the *size* variant of your products.
-
-    Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.
-
-    To link a product to a choice click on the white dropdown bar and start typing the name.
-
-    ![quiz builder woo link products search](/images/manual_woo_quizbuilder_linkproducts_pickproducts.png)
-
-    Select a product variant and it will be automatically added to the choice.
-
-    You can link multiple product variants to the same choice.
-
-    ![quiz builder woo link products linked products](/images/manual_woo_quizbuilder_linkproducts_linked_products.png)
-
-    To remove a linked product click "x" next to the product name.
-
-    **excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
-
-    ![quiz builder woo link products exclude](/images/manual_woo_quizbuilder_linkproducts_excludeproducts.png)
-
-    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
-
-    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
-
-=== "Magento"
-
-    ![manual_standalone_quizbuilder_linkproducts](/images/manual_standalone_quizbuilder_linkproducts.png)
-
-    In the Link Products tab, you can link individual product variants from your store to choices.
-
-    Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.
-
-    To link a product to a choice click on the white dropdown bar and start typing the name.
-
-    ![manual_standalone_quizbuilder_linkproducts_pickproducts](/images/manual_standalone_quizbuilder_linkproducts_pickproducts.png)
-
-    Select a product variant and it will be automatically added to the choice.
-
-    You can link multiple product variants to the same choice.
-
-    ![manual_standalone_quizbuilder_linkproducts_linked products](/images/manual_standalone_quizbuilder_linkproducts_linked_products.png)
-
-    To remove a linked product click "x" next to the product name.
-
-    **excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
-
-    ![manual_standalone_quizbuilder_linkproducts_excludeproducts](/images/manual_standalone_quizbuilder_linkproducts_excludeproducts.png)
-
-    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
-
-    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
-
-=== "BigCommerce"
-
-    ![manual_standalone_quizbuilder_linkproducts](/images/manual_standalone_quizbuilder_linkproducts.png)
-
-    In the Link Products tab, you can link individual product variants from your store to choices.
-
-    Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.
-
-    To link a product to a choice click on the white dropdown bar and start typing the name.
-
-    ![manual_standalone_quizbuilder_linkproducts_pickproducts](/images/manual_standalone_quizbuilder_linkproducts_pickproducts.png)
-
-    Select a product variant and it will be automatically added to the choice.
-
-    You can link multiple product variants to the same choice.
-
-    ![manual_standalone_quizbuilder_linkproducts_linked products](/images/manual_standalone_quizbuilder_linkproducts_linked_products.png)
-
-    To remove a linked product click "x" next to the product name.
-
-    **excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
-
-    ![manual_standalone_quizbuilder_linkproducts_excludeproducts](/images/manual_standalone_quizbuilder_linkproducts_excludeproducts.png)
-
-    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
-
-    **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
-
-=== "Standalone"
-
-    ![manual_standalone_quizbuilder_linkproducts](/images/manual_standalone_quizbuilder_linkproducts.png)
-
-    In the Link Products tab, you can link individual product variants from your store to choices.
-
-    Once a product variant is linked to a choice and the customer picks that choice, that product variant will receive 1 vote.
-
-    To link a product to a choice click on the white dropdown bar and start typing the name.
-
-    ![manual_standalone_quizbuilder_linkproducts_pickproducts](/images/manual_standalone_quizbuilder_linkproducts_pickproducts.png)
-
-    Select a product variant and it will be automatically added to the choice.
-
-    You can link multiple product variants to the same choice.
-
-    ![manual_standalone_quizbuilder_linkproducts_linked products](/images/manual_standalone_quizbuilder_linkproducts_linked_products.png)
-
-    To remove a linked product click "x" next to the product name.
-
-    **excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
-
-    ![manual_standalone_quizbuilder_linkproducts_excludeproducts](/images/manual_standalone_quizbuilder_linkproducts_excludeproducts.png)
-
-    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
-
-
-## Customer Tags
-
-=== "Shopify"
-
-    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
-
-    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
-
-    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
-
-    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
-
-    Created tag will then show as an available option whenever you select another choice.
-
-    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
-
-    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
-
-=== "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
 
     To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
@@ -1616,7 +1383,6 @@
 
     When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM. 
 
-
 === "WooCommerce"
 
     ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
@@ -1680,8 +1446,6 @@
     ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
 
     You can create as many tags as you like. You can link as many tags as you like to the same choice. 
-
-
 
 ## Conditional Logic
 
@@ -1712,10 +1476,6 @@
     **arrow down** - Take you to the question lower.
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
@@ -1886,10 +1646,6 @@
     **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Jump Logic allows you to route customers to different questions based on their responses.
 
@@ -2136,10 +1892,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
@@ -2147,8 +1899,6 @@
     **Skip Logic ▼** - Click to open the Skip Logic menu or add a new rule to this question.
 
     **+ Add another rule (OR)** - Click to add a new OR Skip Logic rule for the selected question.
-
-
 
     !!! info
 
@@ -2306,10 +2056,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
     In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look. This section allows you to configure the design for your quiz. You can customize the design, sections, and slots to display the desired design to the users.
@@ -2323,8 +2069,6 @@
     Click `Change` to pick another color scheme.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png)
-
-
 
 === "WooCommerce"
 
@@ -2434,10 +2178,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     **Basic**  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic.png)
@@ -2475,7 +2215,6 @@
     **Advanced** - Add your own CSS code in the box to override the default quiz's styles.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
-
 
 === "WooCommerce"
 
@@ -2595,7 +2334,6 @@
 
 === "Shopify V2"
 
-
 === "WooCommerce"
 
     In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
@@ -2678,10 +2416,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
     In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like. This section allows you to configure the results settings for your quiz. You can customize the result blocks, sections, and slots to display the desired outcome to the users.
@@ -2760,10 +2494,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     **+ Add block** - Adds a new block to this section.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
@@ -2783,7 +2513,6 @@
     - **Products variants** - Adds a block specifically designed for displaying a list of recommended product variants..
 
     - **Collection** - Adds a block specifically designed for displaying a list of recommended collections.
-
 
 === "WooCommerce"
 
@@ -2908,10 +2637,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic.png)
 
     With Block Logic you can make blocks visible or hidden based on customer's responses.
@@ -2942,7 +2667,6 @@
     - **bin** - Delete the current Logic rule.
     
     - **+ Add condition (OR)** - Adds another Block Logic rule. Adds a new OR logical rule.
-
 
 === "WooCommerce"
 
@@ -3140,10 +2864,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     Each buliding block of your results page section has individual block settings.
 
     - **Heading** - Adds a new heading to your page, ideal for titles or section breaks.
@@ -3262,8 +2982,6 @@
 
     **Exclude segments** - Click `v Exclude` to choose products from which Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
 
-
-
 === "WooCommerce"
 
     🔧 / **wrench icon** - Opens the block settings menu.
@@ -3408,7 +3126,6 @@
 
     **Slot ID** - Displays the current slot ID.
 
-
 ### Results Page Settings
 
 === "Shopify"
@@ -3418,10 +3135,6 @@
     ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
@@ -3438,8 +3151,6 @@
     **Custom CSS Code** - Add custom CSS code to this resutls page only.
 
     **Custom JS code** - Add custom JavaScript to this results page only.
-
-
 
 === "WooCommerce"
 
@@ -3483,10 +3194,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     **Checkout bar** - Seelct the settings of the checkout bar.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar.png)
@@ -3496,7 +3203,6 @@
     **Proceed to checkout** - After adding the products to cart, the customer will be redirected directly to checkout.
 
     **Proceed to cart** - After adding the products to cart, the customer will be redirected to the cart page.
-
 
 === "WooCommerce"
 
@@ -3515,14 +3221,12 @@
     - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
     - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
-
 === "BigCommerce"
 
     ![manual_bigcommerce_quizbuilder_resultspage_checkoutsettings](/images/manual_bigcommerce_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 
     - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
     - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
-
 
 === "Standalone"
 
@@ -3537,7 +3241,6 @@
     !!! tip
 
         If you would like to add a product to the cart you can set up your own results page in your store and send all the quiz data there with the help of our [Callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/).
-
 
 **Individual Product Settings**
 
@@ -3579,8 +3282,6 @@
 
             You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
-
-
     - **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
 
         !!! info
@@ -3603,8 +3304,6 @@
     - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
 === "Shopify V2"
-
-
 
 === "WooCommerce"
 
@@ -3657,7 +3356,6 @@
 
     - **Show metafields/attributes** - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
 
-
     **Style Settings**
 
     ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
@@ -3709,7 +3407,6 @@
     **Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
     - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-
 
 === "BigCommerce"
 
@@ -3793,7 +3490,6 @@
 
     - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-
 ### Advanced Settings
 
 === "Shopify"
@@ -3825,7 +3521,6 @@
     **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
 === "Shopify V2"
-
 
 === "WooCommerce"
 
@@ -3961,10 +3656,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
 
     **+ Add results page** - Click to add an extra resutls page to your quiz. Each results page can have different settings and content.
@@ -4044,7 +3735,6 @@
     - **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
     **Create new Results Page** - add a new results page to your quiz.
-
 
 ### Discounts Settings
 
@@ -4554,10 +4244,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
     In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
@@ -4617,10 +4303,6 @@
     **Quiz ID** - Displays the current quiz ID.
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     **Advanced quiz settings**
 
@@ -4726,9 +4408,6 @@
 
     **Quiz ID** - Displays the current quiz ID.
 
-
-
-
 ### Messages / Quiz Content
 
 === "Shopify"
@@ -4827,10 +4506,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
 
     **Default quiz content** 
@@ -4896,7 +4571,6 @@
     - *Loading error no response* - Default text on the results page in case of loading issues. | Results Page
 
     - *Try again* - Default text on the results page in case of loading issues. | Results Page
-
 
 === "WooCommerce"
 
@@ -5274,7 +4948,6 @@
 
     **Restore default messages** - Click "restore" to set all fields back to default.
 
-
 ### Version History
 
 === "Shopify"
@@ -5292,10 +4965,6 @@
     - **Rename this version** - Allows you to rename this saved version of the quiz.
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_quizsettings_versionhistory](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
 
@@ -5377,10 +5046,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_quizbuilder_integrations](/images/manual_shopifyV2_quizbuilder_integrations.png)
 
     In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
@@ -5419,7 +5084,6 @@
 
     To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
-
 ## Share / Publish
 
 === "Shopify"
@@ -5432,11 +5096,7 @@
 
 === "Shopify V2" 
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
-    To add the quiz to your store, you have to create your quiz first. Then, in Shopify go to `Online Store > Theme` and click ` Customize`.
+        To add the quiz to your store, you have to create your quiz first. Then, in Shopify go to `Online Store > Theme` and click ` Customize`.
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore.png)
     
@@ -5490,11 +5150,7 @@
 
 === "Shopify V2" 
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
-    A link that will open the quiz as a popup over your page.
+        A link that will open the quiz as a popup over your page.
 
     To add a link popup to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. Open `App Embeds` and toggle the button to acitvate the `V2 - Link Popup Quiz`.
 
@@ -5569,10 +5225,6 @@
     - **Fixed height** - Will set a fixed height of the quiz iframe as specified in the **Height** field above. Toggle to activate. 
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Quiz embedded inline with a page.
 
@@ -5686,8 +5338,6 @@
 
 === "Shopify V2"
 
-
-
 === "WooCommerce" 
 
     A quiz popup appears after X seconds.
@@ -5792,8 +5442,6 @@
 
 === "Shopify V2"
 
-
-
 === "WooCommerce"
 
     Direct link to the quiz for social media.
@@ -5857,8 +5505,6 @@
     - **Popup height** - Adjust the width of the quiz by typing the percentage number.
 
 === "Shopify V2"
-
-
 
 === "WooCommerce" 
 
@@ -5939,8 +5585,6 @@
     - **Greeting message** - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
 === "Shopify V2"
-
-
 
 === "WooCommerce" 
 
@@ -6062,10 +5706,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
 === "WooCommerce"
@@ -6089,7 +5729,6 @@
 === "Shopify"
 
     ![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
-
 
     On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
 
@@ -6140,10 +5779,6 @@
     **resend notifications** - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
 
@@ -6197,11 +5832,9 @@
 
     ![manual_shopifyV2_quizbuilder_responses_sample2_productdetails](/images/manual_shopifyV2_quizbuilder_responses_sample2_productdetails.png)
 
-
 === "WooCommerce"
 
     ![manual_woo_quizbuilder_metrics_responses](/images/manual_woo_quizbuilder_metrics_responses.png)
-
 
     On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
 
@@ -6255,7 +5888,6 @@
 
     ![manual_standalone_quizbuilder_metrics_responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
 
-
     On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
 
     **Export all as CSV** - Click to generate a CSV file with all the quiz responses from the last 90 days. Once ready, a downloadable link will show up on your dashboard once the CSV file is finished generating.
@@ -6307,7 +5939,6 @@
 === "BigCommerce"
 
     ![manual_standalone_quizbuilder_metrics_responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
-
 
     On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
 
@@ -6361,7 +5992,6 @@
 
     ![manual_standalone_quizbuilder_metrics_responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
 
-
     On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
 
     **Export all as CSV** - Click to generate a CSV file with all the quiz responses from the last 90 days. Once ready, a downloadable link will show up on your dashboard once the CSV file is finished generating.
@@ -6409,8 +6039,6 @@
     **recalculate recommendations** - Recalculate the responses according to the current quiz setup.
 
     **resend notifications** - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
-
-
 
 ### Analytics
 
@@ -6462,10 +6090,6 @@
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_quizbuilder_metrics_analytics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
 
     The data in the graphs are totals in a selected period of time for a selected quiz. 
@@ -6485,7 +6109,6 @@
     **Numer of carts** - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button.
 
     **Total carts value** - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout.
-
 
 === "WooCommerce"
 
@@ -6671,9 +6294,6 @@
 
     **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-
-
-
 ### Drop-off
 
 === "Shopify"
@@ -6695,10 +6315,6 @@
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Coming Soon
 
@@ -6773,8 +6389,4 @@
     **chart** - Displays the dropoff rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
-
-
-
-
 

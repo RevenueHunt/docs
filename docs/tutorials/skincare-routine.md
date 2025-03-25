@@ -84,7 +84,6 @@ Let’s get started.
         - a *Serums* collection should have all the serums, etc.
     3. To create a collection, go to the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) and open the `Catalogue` by clicking `view products`. For each category, create a collection in your Standalone account via the Catalogue tab or a Google Product Feed with the right products.
 
-
 ## Sync
 
 Once you’ve made changes to your products and collections/categories, you should [sync them](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) with the app. 
@@ -219,7 +218,6 @@ Now you’re ready to publish the quiz on your website. Let’s add it [inline w
     10. Remember to save the changes.
     11. From now on, the inline quiz will be visible on that page.
 
-
 === "BigCommerce"
 
     1. Add the following embed.js script before the `</head>` close tag in the header.
@@ -248,8 +246,6 @@ Now you’re ready to publish the quiz on your website. Let’s add it [inline w
     6. Save the changes.
     7. From now on, the inline quiz will be visible on that page.
 
-
 Congratulations! You’ve just created and published your first skincare routine quiz!
-
 
 Check out our [documentation](https://docs.revenuehunt.com/) for more resources on getting started with recommendation quizzes.

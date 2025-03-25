@@ -32,7 +32,6 @@ This guide explains how to implement Discount Coupons for Checkout with the Reve
 
     Example: if the Coupon URL which appears is `https://yourdomain.com/coupon/codexyz/`, then the part you need to copy is `/coupon/codexyz/`. 
 
-
 ## Step 2: Configure Your Discount Code on the Results Page
 
 === "Shopify"
@@ -44,7 +43,6 @@ This guide explains how to implement Discount Coupons for Checkout with the Reve
     1. Navigate to [Results Page Settings > Discount Settings](https://docs.revenuehunt.com/reference/quiz-builder/#discounts-settings) and access the Discount Code Settings section. 
     2. Here, you'll find a `Code` field. This field is for entering the discount code that will be automatically applied at checkout.
         ![how to add discount static](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
-
 
         **Visible discount** - Select the `discount %` from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
@@ -142,7 +140,4 @@ In RevenueHunt app, it is possible to apply a discount at checkout only for the 
 
 ---
 By following these steps, you can effectively integrate discounts into your quiz, enhancing customer engagement and potentially increasing conversions.
-
-
-
 

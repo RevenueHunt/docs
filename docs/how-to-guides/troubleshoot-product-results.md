@@ -53,18 +53,12 @@ This guide will walk you through the process of troubleshooting product recommen
 
         A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
 
-
     Additionally, you may:
 
     - **Recalculate Recommendations**: If adjustments to the quiz or product collections/categories have been made, use this option to see how these changes affect recommendations.
     - **Resend Notifications**: Useful for updating CRM services or sending revised recommendations via email.
 
 === "Shopify V2" 
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. **Explore Responses**: To open the responses sections, go back to the [dashboard](https://docs.revenuehunt.com/reference/quiz-builder/). Pick a quiz and click the `...` to open the quiz menu. From the list pick and click on [`Responses`](https://docs.revenuehunt.com/reference/quiz-builder/#responses).
     
@@ -77,8 +71,6 @@ This guide will walk you through the process of troubleshooting product recommen
         ![manual_shopifyV2_quizbuilder_responses_sample1](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
     3. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
     4. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
-
-
 
         **Understanding Product Status Colors**
 
@@ -102,7 +94,6 @@ This guide will walk you through the process of troubleshooting product recommen
     !!! tip
 
         A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
-
 
 === "WooCommerce" 
 
@@ -138,7 +129,6 @@ This guide will walk you through the process of troubleshooting product recommen
     !!! tip
 
         A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
-
 
     Additionally, you may:
 
@@ -180,12 +170,10 @@ This guide will walk you through the process of troubleshooting product recommen
 
         A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
 
-
     Additionally, you may:
 
     - **Recalculate Recommendations**: If adjustments to the quiz or product collections/categories have been made, use this option to see how these changes affect recommendations.
     - **Resend Notifications**: Useful for updating CRM services or sending revised recommendations via email.
-
 
 === "BigCommerce" 
 
@@ -218,11 +206,9 @@ This guide will walk you through the process of troubleshooting product recommen
 
     8. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
 
-
     !!! tip
 
         A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
-
 
     Additionally, you may:
 
@@ -264,12 +250,10 @@ This guide will walk you through the process of troubleshooting product recommen
 
         A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
 
-
     Additionally, you may:
 
     - **Recalculate Recommendations**: If adjustments to the quiz or product collections/categories have been made, use this option to see how these changes affect recommendations.
     - **Resend Notifications**: Useful for updating CRM services or sending revised recommendations via email.
-
 
 ---
 

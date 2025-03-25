@@ -20,11 +20,6 @@ icon: material/currency-usd
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. 
     
     To assign a market to the quiz follow the instructions below.
@@ -113,11 +108,6 @@ icon: material/currency-usd
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. 
 
     To assign a quiz to the market follow the instructions above.
@@ -192,5 +182,4 @@ icon: material/currency-usd
 
 ---
 This article explains how to change quiz currency and how to handle multi-currency setup.
-
 

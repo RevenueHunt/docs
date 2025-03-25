@@ -22,11 +22,6 @@ icon: material/translate-variant
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     !!! note
     
         Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. 
@@ -49,7 +44,6 @@ icon: material/translate-variant
 
       ![https://docs.revenuehunt.com/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png](https://docs.revenuehunt.com/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
 
-
     **Step 3: Translate Questions and Choices Separately:**
 
     The questions and answer choices won’t automatically translate; you’ll need to manually update these for each language version. 
@@ -65,7 +59,6 @@ icon: material/translate-variant
     By following these steps, you’ll have a well-localized quiz experience ready for each market and language, which you can then manage seamlessly in the Markets tab of your app settings.
 
 === "WooCommerce"
-
 
     1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) or [`Quiz Settings -> Messages`](https://docs.revenuehunt.com/reference/quiz-builder/#messages).
 
@@ -105,7 +98,6 @@ icon: material/translate-variant
     3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](https://docs.revenuehunt.com/reference/quiz-builder/#messages) tab.
     4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
 
-
 ## Set Up Multilingual Quizzes
 
 === "Shopify"
@@ -120,12 +112,6 @@ icon: material/translate-variant
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
 
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
 
     !!! note
     
@@ -178,7 +164,6 @@ icon: material/translate-variant
     - Click the `Hide All Locales` option. This will simplify the view by removing language-specific distinctions.
 
     - The default quiz you’ve selected for that Market will now display to all visitors from that region, regardless of their language.
-
 
     By following these steps, you’ll be able to customize your quizzes by Market and language, ensuring each visitor has a tailored experience that feels relevant and engaging.
 
@@ -234,11 +219,6 @@ icon: material/translate-variant
     - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
 
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     Follow [these instructions](#change-quiz-language-in-settings) to create quizzes in different languages.
 
@@ -311,11 +291,6 @@ icon: material/translate-variant
         Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
 
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     No extra steps are necessary in this version of the RevenueHunt Product Recommendation Quiz. The right quiz will already be loaded based on the market it was assigned to.
 
@@ -420,7 +395,6 @@ icon: material/translate-variant
     !!! warning
 
         Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
-
 
 === "BigCommerce"
 
@@ -554,13 +528,7 @@ icon: material/translate-variant
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     No extra steps are necessary in this version of the RevenueHunt Product Recommendation Quiz. The quiz will display the right products on the resutls page based on the market the quiz was assigned to.
-
 
 === "WooCommerce"
 

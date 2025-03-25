@@ -46,11 +46,6 @@ Below, we provide a clear, step-by-step guide on how to use Jump Logic, its work
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![quiz builder conditional logic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
     In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The right menu allows you to add conditional logic rules to questions in the quiz. The left preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
@@ -233,13 +228,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     5. **Preview and Adjust:** Publish the changes with the top-right `Publish` button to update the preview/live quiz and test the setup.
 
-
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
     2. **Open Jump Logic**: Navigate to the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab and select [`Jump Logic`](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) section.
@@ -278,7 +267,6 @@ Jump Logic allows you to route customers to different questions based on their r
             ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
 
     5. **Preview and Adjust:** Publish the changes with the top-right `Save` button to update the preview/live quiz and test the setup.
-
 
 === "WooCommerce"
 
@@ -451,7 +439,6 @@ It's not recommended to use both Jump Logic and Skip Logic on one quiz.
 ## Additional Resources
 
 Understanding conditional logic, the foundation of Jump Logic, can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
-
 
 ---
 Jump Logic is a versatile tool that enriches quizzes by introducing customized paths based on participant responses. By setting up conditional statements, quiz creators can design interactive and personalized experiences, ensuring that each participant's journey through the quiz is relevant to their inputs.

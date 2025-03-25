@@ -18,7 +18,6 @@ This guide will walk you through adding JavaScript to quiz questions and the res
 !!! warning
     This guide is meant for developers and Shopify Partners. If you're not familiar with the basics of JavaScript and the Vue.js framework, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).
 
-
 ## Access the Custom JavaScript Console
 
 You can add custom JavaScirpt to the quiz results page and the quiz questions.
@@ -34,10 +33,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     ![how_to_javascript_resultspagesettings](/images/how_to_javascript_resultspagesettings.png)
 
@@ -78,7 +73,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
-
 ### Quiz Questions
 
 === "Shopify"
@@ -91,10 +85,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![how_to_javascript_questionsettings](/images/how_to_javascript_questionsettings.png)
 
     1. Navigate to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
@@ -102,7 +92,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     3. Scroll down to find the **Custom JavaScript** section and open it.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Save` button to update the preview/live quiz.
-
 
 === "WooCommerce"
 
@@ -140,7 +129,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     JavaScript added to the first Welcome slide in the quiz builder will be applied to all slides.
 
-
 ## Console.log(prq) Function
 
 To begin, let's log the quiz response object to the console:
@@ -176,7 +164,6 @@ The `prq` object is your gateway to customizing the quiz experience. Here's how 
 **Navigation and Engagement**
 
 - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
-
 
 ```html
 /* List of all the quiz slides/questions (including the responded values) */
@@ -271,7 +258,6 @@ You can do it two ways:
     var destination_element = document.querySelectorAll(".lq-block")[0];
     destination_element.appendChild(element);
     ```
-
 
 ### Example 2: Insert calculations
 

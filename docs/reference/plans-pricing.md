@@ -18,7 +18,6 @@
 
         Payments are handled directly by Shopify. You should see app charges on your Shopify bill.
 
-
     ??? question "How to change my billing details?"
 
         Since Shopify handles the payments, you can change your billing details directly in your Shopify payments.

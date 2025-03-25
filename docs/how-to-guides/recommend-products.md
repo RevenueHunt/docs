@@ -18,13 +18,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
 === "Shopify V2" 
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products**, **collections** and **[Recharge subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**.
-
 
 === "WooCommerce" 
 
@@ -35,7 +29,6 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
     !!! warning
     
         Product Recommendation Quiz for WooCommerce can sync only one type of variants of variable products. For example, if a variable product has two types of variants, the first one being size, the second being color, the app will be able to only sync the size variant of your products.
-
 
 === "Magento" 
 
@@ -54,7 +47,6 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
 
     RevenueHunt Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
-
 
 ## Voting System
 
@@ -86,11 +78,6 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![how to recommend products upvote](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
     How the votes work for each upvoted item:
@@ -101,7 +88,6 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
     - **Variant collections**: Created automatically by the app, every product within a linked variant collection receives a vote when their linked choice is selected.
     - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives a vote when their linked choice is selected.
-
 
 === "WooCommerce"
 
@@ -163,11 +149,6 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![how to recommend products exclusion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
 === "WooCommerce"
@@ -190,12 +171,11 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
     Once a product is excluded in a choice it will **never show** as a recommendation, even if it's upvoted in another choice earlier/later in the quiz.
 
-
 !!! example
 
     If you want the recommended products to be filtered out by question, you can do that using the `exclude` feature. For example, if you want to show only recommendations within a certain price range, you can use the exclude collections feature as in the example below.
     ![how to recommend products exclusion example](/images/how_to_recommend_products_exclusion_example.png)
-    This way if a customer chooses that he doesn’t want to spend more than 100$, all the products over that price will be excluded from the recommendations.
+    This way if a customer chooses that he doesn't want to spend more than 100$, all the products over that price will be excluded from the recommendations.
 
 ## Recommending the Right Products
 
@@ -269,7 +249,6 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
         ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 
-
     4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
         - Click [`Publish/Save`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) on the top-right menu to update the preview/live quiz. 
         - Then, click [`Preview`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to test the quiz you've created in a new window. 
@@ -304,7 +283,6 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
     5. **Save the changes**: Remember to save the changes to update the preview/live quiz.
 
     By setting up fixed recommendations, you ensure that the customer will always be shown the same products, no matter what choices they pick throughout the quiz.
-
 
 === "WooCommerce"
 
@@ -480,24 +458,18 @@ It is possible to limit the number of recommended products on the results page b
 
 [:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/)
 
-
 ### Recommend products that match multiple criteria (matrix)
 
 [This article](https://docs.revenuehunt.com/how-to-guides/recommend-product-matrix/) outlines a method for recommending skincare products based on multiple criteria using a product matrix to categorize recommendations. 
 
-
-
 | Age/Skin type   | Dry or Normal                                                                                                                                                 | Oily                                                                                                                                                                  |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Teens and 20’s  | Redness-Relief Refreshing Cleansing Lotion;<br>Ultra Facial Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Moisturizing Cream-Gel                   | Neutrogena Oil-Free Acne Face Wash;<br>Balancing Force Oil Control Toner;<br>Resist Ultra-Light Super Antioxidant Concentrate Serum;<br>Oil-Free Moisture Lotion     |
-| 30’s and above  | All Natural Face Cleanser;<br>Fresh Rose Deep Hydration Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Organix Facial Moisturizer                     | FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin           |
-
-
+| Teens and 20's  | Redness-Relief Refreshing Cleansing Lotion;<br>Ultra Facial Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Moisturizing Cream-Gel                   | Neutrogena Oil-Free Acne Face Wash;<br>Balancing Force Oil Control Toner;<br>Resist Ultra-Light Super Antioxidant Concentrate Serum;<br>Oil-Free Moisture Lotion     |
+| 30's and above  | All Natural Face Cleanser;<br>Fresh Rose Deep Hydration Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Organix Facial Moisturizer                     | FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary "Buffet" + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin           |
 
 It describes a step-by-step process involving creating product collections, building and linking quizzes to these collections, and utilizing a voting system algorithm to prioritize product suggestions, catering to complex customer profiles and ensuring personalized recommendations.
 
 [:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/recommend-product-matrix/)
-
 
 ### Recommend Subscription Products
 
@@ -515,10 +487,9 @@ Recommending subscription products via the RevenueHunt Product Recommendation Qu
 
 [:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/always-recommend-the-same-product/)
 
-
 ### Show Results Explanation
 
-While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won’t automatically display custom text depending on the recommended product.
+While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product.
 
 For this reason, it can be very hard to build a "personality-type" quiz with our solution. [This article](https://docs.revenuehunt.com/how-to-guides/show-results-explanation/) proposes some solutions for this problem.
 

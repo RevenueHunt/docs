@@ -36,11 +36,6 @@ Remember, you can also include custom images and styles for each question via th
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
     In the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) section of the quiz builder you can change how the quiz `Questions` or the `Results Page` look. 
@@ -189,17 +184,11 @@ Remember, you can also include custom images and styles for each question via th
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     **Advanced Customizations**
 
     For those with coding knowledge, the `Advanced` customization panel within the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) offers the flexibility to input custom CSS, allowing you to override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
-
 
     - **Find an Element Selector**: To target a specific element in your quiz, right-click on it in your browser and select `Inspect` to view the element’s selector.
 
@@ -371,11 +360,6 @@ Remember, you can also include custom images and styles for each question via th
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     To personalize the text within each question, open the [**`Block Settings`**](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) for each content block. 
     
     Each block type — Heading, Text, or Button —has unique customization options that let you control the styling and positioning of text elements.
@@ -408,7 +392,6 @@ Remember, you can also include custom images and styles for each question via th
     - **Button Alignment**: Adjust the button's position (left, center, or right) for a balanced layout within the quiz.
 
     By adjusting these settings, you can tailor the styling of each text element to enhance user experience and reinforce your brand’s design.
-
 
 === "WooCommerce"
 
@@ -558,7 +541,6 @@ Remember, you can also include custom images and styles for each question via th
 
     If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#add-custom-css-code) code for that. 
 
-
 ## Adding Images and Videos
 
 === "Shopify"
@@ -577,12 +559,6 @@ Remember, you can also include custom images and styles for each question via th
         ```
 
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
 
     Enhance your quiz with visual elements by using the **Image** and **Picture Choice** blocks. These options allow you to add standalone images or offer picture-based answer choices, making your quiz more engaging and visually appealing.
 
@@ -624,7 +600,6 @@ Remember, you can also include custom images and styles for each question via th
 
     These settings allow you to control how images appear and interact within your quiz, making it visually engaging.
 
-
 === "WooCommerce"
 
     You can add images to your quiz in serveral ways. 
@@ -684,7 +659,6 @@ Remember, you can also include custom images and styles for each question via th
         ```html
         ![](https://youtu.be/0_tO8HgJiLQ)  
         ```
-
 
 ## Individual Question Design
 
@@ -881,8 +855,6 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
 === "Shopify V2"
 
-
-
 === "WooCommerce"
 
     Here are a few popular CSS selectors and codes to style elements in the quiz:
@@ -1051,7 +1023,6 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         color: white;
         }
         ```
-
 
 === "Magento"
 
@@ -1222,7 +1193,6 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         ```
 
-
 === "BigCommerce"
 
     Here are a few popular CSS selectors and codes to style elements in the quiz:
@@ -1391,7 +1361,6 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         color: white;
         }
         ```
-
 
 === "Standalone"
 

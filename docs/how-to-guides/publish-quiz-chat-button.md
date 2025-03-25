@@ -88,7 +88,6 @@ Make sure you have:
     6. Save the changes.
     7. From now on, the chat icon popup quiz will be visible on the main page.
 
-
 ## Chat Button on All Pages
 
 If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop’s theme.

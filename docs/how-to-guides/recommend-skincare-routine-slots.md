@@ -35,7 +35,6 @@ Make sure that you're familiar with [how the recommendations work](https://docs.
     - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/).
     - Use [Exclusions](https://docs.revenuehunt.com/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
-
 It's advised to familiarize yourself with this [voting system](https://docs.revenuehunt.com/how-to-guides/recommend-products/#voting-system) before working with Product Slots.
 
 ## Step 2: Organize Products into Collections/Categories
@@ -54,13 +53,7 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
 
     3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
-
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     To group products into slots, you’ll need to create new collections in your Shopify store. These collections will be used to group your products on the results page.
 
@@ -111,7 +104,6 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
 
     3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
-
 === "Standalone"
 
     To group products into slots, you’ll need to create new collections in your Standalone account's [Catalogue](https://docs.revenuehunt.com/reference/dashboard/#success-checklist). These collections will be used to group your products on the results page.
@@ -123,7 +115,6 @@ It's advised to familiarize yourself with this [voting system](https://docs.reve
         - You can have more than one collection that includes some of the same products.
 
     3. **Catalog Sync**: Perform a [catlog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
-
 
 ## Step 3: Build the Quiz
 
@@ -144,11 +135,6 @@ Once your quiz is set up, you should add products and collections to the choices
         ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
 === "Shopify V2"
-
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. **Go to Link Products/Collections tab**: To add link products or product variants to choices, go to [Questions](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder---questions), select a multiple-choice question, then a choice and open the [Choice Settings](https://docs.revenuehunt.com/reference/quiz-builder/#choice-settings).
 
@@ -199,11 +185,6 @@ Once your quiz is set up, you should add products and collections to the choices
 
 === "Shopify V2"
 
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     1. **Edit the Results Page**: Go to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab and edit the content. Add design elements like headings, logos, and content blocks.
     2. **Add a Product Block**: Use the `+` button to add a `Product Block` to the Results Page.
     3. **Add Slots**: Open the [`Product Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
@@ -212,7 +193,6 @@ Once your quiz is set up, you should add products and collections to the choices
 
         ![how to recommend slots slot block](/images/how_to_recommend_slots_shopify_v2_set_up_filters.png)
     6. **Choose Product number**: In the [`Product Block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
-
 
 === "WooCommerce"
 

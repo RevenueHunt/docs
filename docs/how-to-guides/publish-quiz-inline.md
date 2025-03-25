@@ -29,10 +29,6 @@ Make sure you have:
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
     2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from RevenueHunt`. Select it to add to your homepage.
         ![how to publish inline quiz shopify v2 main page](/images/how_to_publish_inline_quiz_shopify_v2_main_page.png)
@@ -112,11 +108,6 @@ Make sure you have:
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
-    
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard.
 
     2. **Assign a Theme to a Specific Page (Using Templates)**: Shopify doesn't support applying different themes to individual pages, but you can create custom templates within a theme to give specific pages a unique layout.
@@ -167,7 +158,6 @@ Make sure you have:
     10. Remember to save the changes.
     11. From now on, the inline quiz will be visible on that page.
 
-
 === "BigCommerce"
 
     1. Add the following embed.js script before the `</head>` close tag in the header.
@@ -200,7 +190,6 @@ Make sure you have:
 
     You can add a link to this page to your website menu or use the link to this new page in your marketing campaigns.
 
-
 ## Embedding an Inline Quiz on a Specific Collection/Category Page
 
 === "Shopify"
@@ -218,7 +207,6 @@ Make sure you have:
 === "Shopify V2"
 
     Coming Soon
-
 
 === "WooCommerce"
 
@@ -278,7 +266,6 @@ Make sure you have:
     6. Save the changes.
     7. From now on, the inline quiz will be visible on that category page.
 
-
 ## Fixing the Size of the Inline Quiz
 
 To prevent the quiz from adjusting size based on content, manually set a fixed width and height in the quiz settings or embed code.
@@ -300,10 +287,6 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
     4. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embedding-an-inline-quiz-on-the-homepage), [New Page](#embedding-an-inline-quiz-on-a-new-page) or [Collection/Category Page](#embedding-an-inline-quiz-on-a-specific-collectioncategory-page).
 
 === "Shopify V2"
-
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
     2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 -Inline Quiz from RevenueHunt`. Select it to add to your homepage.
@@ -376,16 +359,10 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 
 === "Shopify V2"
 
-    !!! warning
-
-        Version 2 of the RevenueHunt app is not yet available. It is currently in the beta testing phase. Learn more [here](https://docs.revenuehunt.com/customer-success/shopify-v2-beta/).
-
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
     2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from RevenueHunt`. Select it to add to your homepage.
     3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings. Uncheck the `Automatic Scroll into View` option.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-
-
 
 === "WooCommerce"
 

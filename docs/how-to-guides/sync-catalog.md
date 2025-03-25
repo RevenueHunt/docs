@@ -2,7 +2,6 @@
 icon: material/sync
 ---
 
-
 # How to Run a Catalog Sync
 
 If you're missing products or collections from the list in the [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) or [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab, you can run a product sync from the app's dashboard.
@@ -37,7 +36,6 @@ This article will guide you through troubleshooting and syncing your product cat
     For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your quiz recommendations. Fortunately,RevenueHunt app offers a targeted solution: the `collections-first` feature. 
 
     [:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/sync-selected-collections/)
-
 
 === "WooCommerce"
 

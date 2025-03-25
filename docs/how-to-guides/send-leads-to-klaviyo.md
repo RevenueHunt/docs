@@ -141,7 +141,6 @@ This article walks you through the process of connecting your quiz to Klavviyo a
 
     **Character Limitations**: Special characters (e.g., è, é, ê) may impede data transmission.
 
-
 ## Sending Follow-up Emails via Klaviyo
 
 It’s possible to send the product recommendation follow-up emails via Klaviyo, although this is not something that’s a one-click install. It should be built by someone with technical knowledge and experience in Klaviyo. 
@@ -537,7 +536,6 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     It is possible to add contacts to Klaviyo List but there may be a better way: instead of adding them to a general list you can create **dynamic segments** based on your customers’ responses to send them hyper-targeted campaigns. Highly segmented campaigns return more than 3X the revenue per recipient as unsegmented campaigns.
     With Klaviyo you can create segments to filter your leads and assign email flows to each segment. [Read more](#sending-follow-up-emails-via-klaviyo) about how to create and use segments on Klaviyo.
 
-
 ## Use Quiz Data In Klaviyo Email Templates
 
 === "Shopify"
@@ -608,12 +606,9 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     
 
-
-
     **Example Email Templates**
 
     **Template 1**
-
 
     In this example, we’re using our quiz ID `OauZol`, which you’ll need to replace for your quiz ID. Here is the code for reference:
 
@@ -752,7 +747,6 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     - Product fields include title, price range, description, vendor, and images.
     - Variant fields include title, price, image details, and the parent product's title.
-
 
 === "WooCommerce"
 
