@@ -699,6 +699,12 @@
 
     **Allow overwrite progress bar** - Check to be able to overwrite the default "% complete" progress bar text for this question.
 
+    **Auto-advance question** - Check if you want the question to automatically proceed to the next one after the selected time. Once checked you can choose the duration of the slide from the dropdown. 
+
+    !!! note
+
+        Auto-advance feature is only avialble in questions without user input.
+
     **Question ID** - Displays the question ID of the selected question.
 
     **Block Settings**
@@ -1001,7 +1007,7 @@
 
     *Choice type* - Switch between multiple choice, dropdown, pictures, yes/no & legal/GDPR choices for this block.
 
-    *Allow multiple selection* - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.
+    *Allow multiple selection* - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question. `Error message`filed allows you to add a message to the user if they select too many options.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
 
@@ -1023,6 +1029,16 @@
 
     *Hide image label* - when checked hides the text below each picture choice.
 
+    **● Slider**
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider.png)
+
+    *Slider type* - Select the visual slider type between `Bar`, `Buttons` or `Stars`.
+
+    *Display bar value tooltip* - Check if you want to see the labels with each value.
+
+    *Labels* - Unfold to add (type in) the labels to each step in the slider.
+
     **● Short text ● Long text** - Adds an open-text question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext.png)
@@ -1030,6 +1046,8 @@
     *Placeholder* - The default text diplayed in the textbox visible to the customer.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Error message* - Add a default error message in case entered text is too short or too long.
 
     *Minimum length* - set a minimum number of characters required in this question answer.
 
@@ -1039,9 +1057,27 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date.png)
 
+    *Date format* - The default date format customer should enter.
+
+    *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Error message* - Add a default error message in case entered text is incorrect.
+
+    **● File upload**
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_fileupload](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_fileupload.png)
+
     *Placeholder* - The default text diplayed in the textbox visible to the customer.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Error message* - Add a default message in case of an error.
+
+    *Placeholder description* - The default text diplayed in the textbox visible to the customer.
+
+    *File size error message* - Add a default message in case of an error.
+
+    *File format error message* - Add a default message in case of an error.
 
     **● Number** - Adds a numerical question to this block.
 
@@ -1050,6 +1086,8 @@
     *Placeholder* - The default text diplayed in the textbox visible to the customer.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Error message* - Add a default error message in case entered text is too short or too long.
 
     *Minimum range* - the minimum number value that can be entered.
 
@@ -1062,36 +1100,46 @@
     *Placeholder* - The default text diplayed in the textbox visible to the customer.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Error message* - Add a default error message in case entered text is incorrect.
  
     **● Name** - Adds an name input question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name.png)
 
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
-
     *Name* - Select whether you want to ask for the Full Name, First Name or Last Name.
 
+    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Error message* - Add a default error message in case entered text is too short or too long.
 
     *Minimum length* - set a minimum number of characters required in this question answer.
 
     *Maximum length* - set a maximum number of characters required in this question answer.
 
-    **● File Upload** - Adds a file upload question to this block.
-
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
-
-    *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
-
     **● Phone number** - Adds a phone number question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber.png)
 
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
-
     *Default Country Code* - Select a default contry code from the dropdown list.
 
+    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Error message* - Add a default error message in case entered text is incorrect.
+
+    **● Custom HTML** - Adds a custom HTML block question to this block.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customhtml](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customhtml.png)
+
+    *HTML editor* - Code box where you can input your custom code.
+
+
+
+
 
 === "WooCommerce"
 
