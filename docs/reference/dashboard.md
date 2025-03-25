@@ -22,21 +22,21 @@ On the dashboard, you'll find all the quizzes that you create.
 
 === "Shopify V2"
 
-    ![dashboard_catalogue](/images/manual_shopifyV2_dashboard_catalogue.png)
-
-    From the Catalogue tab, you can create and update your products, manually or programmatically.
-
+    ![dashboard_catalogue](/images/manual_shopifyV2_dashboard.png)
+    
     Shopify Side Menu
 
     ![dashboard side menu](/images/manual_shopifyV2_sidemenu.png)
 
     **Quizzes** - The dashboard of the app where you can find all the quizzes created.
 
-    **Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+    **Analytics** - Opens the [Analytics tab](https://docs.revenuehunt.com/reference/quiz-builder/#analytics) where you can check the quiz performance.
 
     **Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
 
-    **Get support** - Opens the [Support]() menu.
+    **Get support** - Opens the [Support](#support) menu.
+
+    **Switch to legacy app** - Click to (switch to the legacy version of the app)[#switch-to-v1]. All your progress will be saved when you switch versions.
 
 === "WooCommerce"
 
@@ -662,6 +662,43 @@ On the dashboard, you'll find all the quizzes that you create.
 
     **use this template** - Adds the template to your dashboard. 
 
+## Support
+
+=== "Shopify"
+
+
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_dashboard_support](/images/manual_shopifyV2_dashboard_support.png)
+
+    The **Get Support** section helps users quickly find answers, resolve issues, and get in touch with the support team. It provides essential resources to guide users through using the app effectively.
+
+    **Frequently Asked Questions** - Browse common issues and solutions.
+
+    **Video Tutorials** - Watch walkthroughs and how-tos on using features.
+
+    **App Status & Uptime** - Check if the app is currently operational or if there are any known outages.
+
+    **Plans and Pricing** - Review available plans and their features or compare pricing tiers.
+
+    **Contact Support** - Submit a support request or start a conversation with the team.
+
+
+=== "WooCommerce"
+
+
+
+=== "Magento"
+
+
+
+=== "BigCommerce"
+
+
+
+=== "Standalone" 
+
 
 ## Switch to V1
 
@@ -671,18 +708,18 @@ On the dashboard, you'll find all the quizzes that you create.
 
 === "Shopify V2"
 
-    ![manual_shopifyV2_appsettings_switchtov1](/images/manual_shopifyV2_appsettings_switchtov1.png)
+    ![manual_shopifyV2_sidemenu](/images/manual_shopifyV2_sidemenu.png)
 
     
-    During this beta testing phase, you can switch back to the original legacy version (V1) of the RevenueHunt app at any time. We will continue to maintain that version for the coming months to ensure you have a reliable option while exploring the new features in Version 2.
+    You can switch back to the original legacy version (V1) of the RevenueHunt app at any time. We will continue to maintain that version for the coming months to ensure you have a reliable option while exploring the new features in Version 2.
 
     From Version 1, you will also have the ability to switch to Version 2 whenever you feel ready to try out the latest enhancements. This flexibility allows you to evaluate the new interface and features without losing access to the familiar functionalities of Version 1.
 
-    **Switch to V1** - Click this option to switch to a legacy verison of our Shopify app (V1).
+    **Switch to legacy app** - Click this option to switch to a legacy verison of our Shopify app (V1).
 
     !!! warning
 
-        If you have any questions or need assistance during this transition, feel free to [reach out to our support team]().
+        If you have any questions or need assistance during this transition, feel free to [reach out to our support team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
 
 
 === "WooCommerce"
