@@ -30,7 +30,7 @@
     
     - Assign quizzes to different markets and languges via the [Markets](#markets) tab.
     - Run a catalog sync from the [Catalogue](#catalogue) tab or check when the last sync was completed.
-    - Switch to the legacy V1 version fo the RevenueHunt app from the [Switch to V1](#switch-to-v1) tab.
+    - Provide your email [SMTP scredentials](#smtp) to send result emails from your email provider.
 
 === "WooCommerce"
 
