@@ -2,6 +2,10 @@
 
 We’re thrilled to introduce Version 2 of our RevenueHunt app! 
 
+<div class="videoWrapper">
+<iframe src="https://www.youtube.com/embed/MeWGbfCLnEw?si=ZXy4Q8tWkmwv5WRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 This new version represents a major leap forward, built from the ground up using insights gathered over six years of supporting Shopify stores with personalized product recommendation quizzes. With a redesigned architecture and a more intuitive user interface, Version 2 is tailored to provide a smoother, more powerful experience.
 
 ![shopifyv2_vid2](/images/shopifyv2_vid2.gif)
