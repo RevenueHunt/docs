@@ -108,9 +108,9 @@
 
     Our app automatically updates your store's catalog daily and after changes. This includes products, collections, tags, variants, and vendors. You can also manually pull the catalog anytime to ensure that all information is up-to-date and accurate.
 
-    **Pull Catalogue** - Start a new catlogue sync. This takes a few minutes.
+    **Import Catalogue** - Start a new catlogue sync. This takes a few minutes.
 
-    **Last catalogue pull:** - The last time an item from a catalog was updated (in real time) in the app.
+    **Last catalogue import:** - The last time an item from a catalog was updated (in real time) in the app.
 
     **Catalogue processed at:** - The last time the product catalog was fully processed and updated.
 
@@ -368,47 +368,6 @@
 
 
 === "Standalone" 
-
-    
-
-## Switch to V1
-
-=== "Shopify"
-
-
-
-=== "Shopify V2"
-
-    ![manual_shopifyV2_appsettings_switchtov1](/images/manual_shopifyV2_appsettings_switchtov1.png)
-
-    
-    During this beta testing phase, you can switch back to the original legacy version (V1) of the RevenueHunt app at any time. We will continue to maintain that version for the coming months to ensure you have a reliable option while exploring the new features in Version 2.
-
-    From Version 1, you will also have the ability to switch to Version 2 whenever you feel ready to try out the latest enhancements. This flexibility allows you to evaluate the new interface and features without losing access to the familiar functionalities of Version 1.
-
-    **Switch to V1** - Click this option to switch to a legacy verison of our Shopify app (V1).
-
-    !!! warning
-
-        If you have any questions or need assistance during this transition, feel free to [reach out to our support team]().
-
-
-=== "WooCommerce"
-
-
-
-=== "Magento"
-
-
-
-=== "BigCommerce"
-
-
-
-=== "Standalone" 
-
-    
-
 
 
 

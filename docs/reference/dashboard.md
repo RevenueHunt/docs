@@ -661,3 +661,45 @@ On the dashboard, you'll find all the quizzes that you create.
     **live preview** - Opens a live preview of the quiz templates.
 
     **use this template** - Adds the template to your dashboard. 
+
+
+## Switch to V1
+
+=== "Shopify"
+
+
+
+=== "Shopify V2"
+
+    ![manual_shopifyV2_appsettings_switchtov1](/images/manual_shopifyV2_appsettings_switchtov1.png)
+
+    
+    During this beta testing phase, you can switch back to the original legacy version (V1) of the RevenueHunt app at any time. We will continue to maintain that version for the coming months to ensure you have a reliable option while exploring the new features in Version 2.
+
+    From Version 1, you will also have the ability to switch to Version 2 whenever you feel ready to try out the latest enhancements. This flexibility allows you to evaluate the new interface and features without losing access to the familiar functionalities of Version 1.
+
+    **Switch to V1** - Click this option to switch to a legacy verison of our Shopify app (V1).
+
+    !!! warning
+
+        If you have any questions or need assistance during this transition, feel free to [reach out to our support team]().
+
+
+=== "WooCommerce"
+
+
+
+=== "Magento"
+
+
+
+=== "BigCommerce"
+
+
+
+=== "Standalone" 
+
+    
+
+
+
