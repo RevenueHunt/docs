@@ -349,11 +349,17 @@
 
     ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
 
-    **Show All Locales** - Displays a list of all markets and lanugages. Once activated gives you a chance to pick a different quiz that will be shown by dafault for the customer from that Market **and** lanuguage.
+    **Show All Locales** -  Click ➜ to displays a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by dafault for the customer from that Market **and** lanuguage.
 
     ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
 
-    **Hide All Locales** - Return to a simplified view of all Markets, without language disctinction. The app will show the default quiz for all the visitors from that Market regardless of the language they chose.
+    **Hide All Locales** - Click 🡻 to return to a simplified view of all Markets, without language disctinction. The app will show the default quiz for all the visitors from that Market regardless of the language they chose.
+
+    **Default** - Select the default quiz for a speciifc region.
+
+    **Language** - Selct a default quiz for a specific language in this region.
+
+    **Currency** - Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
 
 === "WooCommerce"
 
