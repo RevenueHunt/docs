@@ -23,7 +23,7 @@ Before you start, ensure you have:
         ![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
     4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
         ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
-    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the name field, type in a title for your quiz link, such as “Take Our Quiz”.
+    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as “Take Our Quiz”.
     6. **Insert the Popup Link Code**: Paste the previously copied code into the link field.
         ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
@@ -82,8 +82,8 @@ Before you start, ensure you have:
         ![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
     4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
         ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
-    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the name field, type in a title for your quiz link, such as “Take Our Quiz”.
-    6. **Insert the #quiz Code**: Type `#quiz` into the link filed and accept the link.
+    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as “Take Our Quiz”.
+    6. **Insert the #quiz Code**: Type `#quiz` into the link input and then click on `Save`.
         ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
 
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
