@@ -191,8 +191,8 @@
 
 ---
 
-← [Back to Quiz Builder Index](index/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Quiz Builder - Questions](questions/)
-Next: [Link Products](link-products/) →
+← Previous: [Questions](/reference/quiz-builder/questions/)
+Next: [Link Products](/reference/quiz-builder/link-products/) →

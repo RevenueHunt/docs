@@ -870,7 +870,7 @@
 
 ---
 
-← [Back to Quiz Builder Index](index/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-Next: [Link Collections / Link Categories](link-collections/) →
+Next: [Link Collections / Link Categories](/reference/quiz-builder/link-collections/) →

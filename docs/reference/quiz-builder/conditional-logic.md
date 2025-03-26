@@ -586,8 +586,8 @@
 
 ---
 
-← [Back to Quiz Builder Index](index/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Link Products](link-products/)
-Next: [Quiz design](/references/quiz-builder/quiz-design/) →
+← Previous: [Link Products](/reference/quiz-builder/link-products/)
+Next: [Quiz design](/reference/quiz-builder/quiz-design/) →

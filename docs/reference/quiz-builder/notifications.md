@@ -265,8 +265,8 @@
 
 ---
 
-← [Back to Quiz Builder Index](index/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Results Page](results-page/)
-Next: [Quiz Settings](quiz-settings/) →
+← Previous: [Results Page](/reference/quiz-builder/results-page/)
+Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →

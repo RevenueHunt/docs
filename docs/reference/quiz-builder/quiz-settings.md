@@ -801,8 +801,8 @@
 
 ---
 
-← [Back to Quiz Builder Index](index/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Notifications](notifications/)
-Next: [Connect / Integrations](connect-integrations/) →
+← Previous: [Notifications](/reference/quiz-builder/notifications/)
+Next: [Connect / Integrations](/reference/quiz-builder/connect-integrations/) →

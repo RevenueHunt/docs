@@ -693,7 +693,7 @@
 
 ---
 
-← [Back to Quiz Builder Index](index/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Share / Publish](share-publish/)
+← Previous: [Share / Publish](/reference/quiz-builder/share-publish/)

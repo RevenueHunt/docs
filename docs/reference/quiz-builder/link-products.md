@@ -113,8 +113,8 @@
 
 ---
 
-← [Back to Quiz Builder Index](index/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Link Collections / Link Categories](link-collections/)
-Next: [Conditional logic](/references/quiz-builder/conditional-logic/) →
+← Previous: [Link Collections / Link Categories](/reference/quiz-builder/link-collections/)
+Next: [Conditional logic](/reference/quiz-builder/conditional-logic/) →

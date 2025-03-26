@@ -615,8 +615,8 @@
 
 ---
 
-← [Back to Quiz Builder Index](index/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Connect / Integrations](connect-integrations/)
-Next: [Metrics](metrics/) →
+← Previous: [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
+Next: [Metrics](/reference/quiz-builder/metrics/) →

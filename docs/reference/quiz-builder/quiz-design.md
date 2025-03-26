@@ -375,8 +375,8 @@
 
 ---
 
-← [Back to Quiz Builder Index](index/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Conditional logic](/references/quiz-builder/conditional-logic/)
-Next: [Results Page](results-page/) →
+← Previous: [Conditional logic](/reference/quiz-builder/conditional-logic/)
+Next: [Results Page](/reference/quiz-builder/results-page/) →

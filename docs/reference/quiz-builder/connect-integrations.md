@@ -51,8 +51,8 @@
 
 ---
 
-← [Back to Quiz Builder Index](index/)
+← [Back to Quiz Builder Index](/reference/quiz-builder/)
 
 
-← Previous: [Quiz Settings](quiz-settings/)
-Next: [Share / Publish](share-publish/) →
+← Previous: [Quiz Settings](/reference/quiz-builder/quiz-settings/)
+Next: [Share / Publish](/reference/quiz-builder/share-publish/) →
