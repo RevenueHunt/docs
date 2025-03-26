@@ -24,9 +24,11 @@ Before you start, ensure you have:
     4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
         ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
     5. **Add a New Menu Item**: Click on the `Add menu item` button. In the name field, type in a title for your quiz link, such as “Take Our Quiz”.
-        ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
     6. **Insert the Popup Link Code**: Paste the previously copied code into the link field.
+        ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
+
+        When clicked, the default quiz for your store will open. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
 === "Shopify V2"
 
@@ -83,13 +85,12 @@ Before you start, ensure you have:
     4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
         ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
     5. **Add a New Menu Item**: Click on the `Add menu item` button. In the name field, type in a title for your quiz link, such as “Take Our Quiz”.
-        ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
     6. **Insert the #quiz Code**: Type `#quiz` into the link filed and accept the link.
         ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
 
-        When clicked, the default quiz for your store will open. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
+
+        When clicked, the default quiz for your store will open. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
 === "WooCommerce"
 
