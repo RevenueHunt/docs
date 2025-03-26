@@ -10,6 +10,8 @@ Make sure you have:
 
 ## Embedding an Inline Quiz on the Homepage
 
+Place the quiz on your homepage to start collecting leads from first-time visitors.
+
 === "Shopify"
 
     ### Option 1: Through Shopify Theme
@@ -33,7 +35,7 @@ Make sure you have:
     2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from RevenueHunt`. Select it to add to your homepage.
         ![how to publish inline quiz shopify v2 main page](/images/how_to_publish_inline_quiz_shopify_v2_main_page.png)
 
-        The default quiz for your store will be rendered. If you’ve configured [Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+        The default quiz for your store will be rendered. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
     3. **Configure Quiz Settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
         ![how to publish inline quiz shopify v2 main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
