@@ -19,7 +19,7 @@ To activate this setting in your quiz follow the instructions below.
             - If no products have been linked or all the products have been excluded, the results page will appear empty
             - If there's a draw in the number of votes, the app will randomize the order of products.
 
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
         ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
@@ -89,7 +89,7 @@ To activate this setting in your quiz follow the instructions below.
             - If no products have been linked or all the products have been excluded, the results page will appear empty
             - If there's a draw in the number of votes, the app will randomize the order of products.
 
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
         ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
@@ -127,7 +127,7 @@ To activate this setting in your quiz follow the instructions below.
             - If no products have been linked or all the products have been excluded, the results page will appear empty
             - If there's a draw in the number of votes, the app will randomize the order of products.
 
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
         ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
@@ -165,7 +165,7 @@ To activate this setting in your quiz follow the instructions below.
             - If no products have been linked or all the products have been excluded, the results page will appear empty
             - If there's a draw in the number of votes, the app will randomize the order of products.
 
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
         ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
@@ -203,7 +203,7 @@ To activate this setting in your quiz follow the instructions below.
             - If no products have been linked or all the products have been excluded, the results page will appear empty
             - If there's a draw in the number of votes, the app will randomize the order of products.
 
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
         ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)

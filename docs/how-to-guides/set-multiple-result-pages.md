@@ -22,7 +22,7 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 === "Shopify"
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/).
     3. Under [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab scroll down to **Multiple Results Pages** and click `activate`. 
     4. A new tab called [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) will appear. Click on it to open the Multiple Results Pages menu.
     5. In the menu, you will see all the results pages created in this quiz.
@@ -60,7 +60,7 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 === "WooCommerce"
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/).
     3. Under [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab scroll down to **Multiple Results Pages** and click `activate`. 
     4. A new tab called [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) will appear. Click on it to open the Multiple Results Pages menu.
     5. In the menu, you will see all the results pages created in this quiz.
@@ -82,7 +82,7 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 === "Magento"
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/).
     3. Under [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab scroll down to **Multiple Results Pages** and click `activate`. 
     4. A new tab called [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) will appear. Click on it to open the Multiple Results Pages menu.
     5. In the menu, you will see all the results pages created in this quiz.
@@ -104,7 +104,7 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 === "BigCommerce"
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/).
     3. Under [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab scroll down to **Multiple Results Pages** and click `activate`. 
     4. A new tab called [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) will appear. Click on it to open the Multiple Results Pages menu.
     5. In the menu, you will see all the results pages created in this quiz.
@@ -126,7 +126,7 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 === "Standalone"
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and open the [Results Page Settings](/reference/quiz-builder/results-page/).
     3. Under [Advanced](/reference/quiz-builder/results-page/#advanced-settings) tab scroll down to **Multiple Results Pages** and click `activate`. 
     4. A new tab called [`MULTIPLE RESULTS PAGES`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) will appear. Click on it to open the Multiple Results Pages menu.
     5. In the menu, you will see all the results pages created in this quiz.

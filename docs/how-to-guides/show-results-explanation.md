@@ -146,7 +146,7 @@ If you want to show different text results depending on the recommended products
 
         Instructions on adding custom JavaScript to your Product Recommendation Quiz can be found [here](/how-to-guides/add-javascript/).
 
-4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/-settings) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
+4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
 
 ---
 This article explains how to show why a certain product was recommended to the customer.

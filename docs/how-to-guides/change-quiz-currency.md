@@ -99,7 +99,7 @@ icon: material/currency-usd
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
-    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/).
     4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
     5. Scroll down to `Individual Product Settings`. 
     5. Search for `Show price` and click the toggle to deactivate it. 
@@ -122,7 +122,7 @@ icon: material/currency-usd
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
-    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/).
     4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
     5. Scroll down to `Individual Product Settings`. 
     5. Search for `Show price` and click the toggle to deactivate it. 
@@ -139,7 +139,7 @@ icon: material/currency-usd
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
-    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/).
     4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
     5. Scroll down to `Individual Product Settings`. 
     5. Search for `Show price` and click the toggle to deactivate it. 
@@ -156,7 +156,7 @@ icon: material/currency-usd
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
-    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/).
     4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
     5. Scroll down to `Individual Product Settings`. 
     5. Search for `Show price` and click the toggle to deactivate it. 
@@ -173,7 +173,7 @@ icon: material/currency-usd
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
-    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/).
     4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
     5. Scroll down to `Individual Product Settings`. 
     5. Search for `Show price` and click the toggle to deactivate it. 

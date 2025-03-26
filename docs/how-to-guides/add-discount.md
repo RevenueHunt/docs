@@ -84,7 +84,7 @@ This guide explains how to implement Discount Coupons for Checkout with the Reve
 
 === "WooCommerce"
 
-    Then in the Product Recommendation Quiz, go to the [Results Page Settings > Checkout Settings](/reference/quiz-builder/results-page/-settings) and paste the copied URI in the `Cart URL` field.
+    Then in the Product Recommendation Quiz, go to the [Results Page Settings > Checkout Settings](/reference/quiz-builder/results-page/) and paste the copied URI in the `Cart URL` field.
 
     ![how to add discount woo step 2](/images/how_to_add_discount_woo_step_2.png)
 

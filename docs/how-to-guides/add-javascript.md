@@ -26,7 +26,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/-settings) in the Quiz Builder.
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
@@ -36,14 +36,14 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     ![how_to_javascript_resultspagesettings](/images/how_to_javascript_resultspagesettings.png)
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/-settings) in the Quiz Builder.
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Scroll down to find the **Custom JavaScript** section and open it.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Save` button to update the preview/live quiz.
 
 === "WooCommerce"
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/-settings) in the Quiz Builder.
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
@@ -51,7 +51,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Magento"
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/-settings) in the Quiz Builder.
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
@@ -59,7 +59,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "BigCommerce"
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/-settings) in the Quiz Builder.
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
@@ -67,7 +67,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Standalone"
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/-settings) in the Quiz Builder.
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
