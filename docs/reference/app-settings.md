@@ -100,7 +100,7 @@
 
     ![app settings catalogue](/images/manual_appsettings_catalogue.png)
 
-    **Metafields Namespaces** - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields and follow this article to show them in the quiz: [How to Add Product Metafileds](/how-to-guides/add-product-metafields/).
+    **Metafields Namespaces** - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields and follow this article to show them in the quiz: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
 
 === "Shopify V2"
 
@@ -121,7 +121,7 @@
     **What information to pull from your products** - Choose custom settings for your products within the app.
 
     - **Short/Long description in products** - By selecting one or the other you can choose which description of your products will be shown on the results page.
-    - **Pass attribute information to result page** - Toggle to activate/desactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafileds](/how-to-guides/how-to-add-product-metafields/).
+    - **Pass attribute information to result page** - Toggle to activate/desactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafields](/how-to-guides/how-to-add-product-metafields/).
     - **Use attributes as categories** - Allows you to use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](/reference/quiz-builder/link-collections/).
 
 === "Magento"

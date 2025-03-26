@@ -79,7 +79,7 @@ You can receive an email notification every time someone completes the quiz or p
 1. **Open Notifications**: Navigate to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
 2. **Activate Notifications**: Toggle the button to activate the emails. Here, you can opt to receive an email for each quiz completion and/or when someone proceeds to the cart or checkout.
     ![how to send resutl emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
-3. Add your email address in the `Send email notification to` filed.
+3. Add your email address in the `Send email notification to` field.
 4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
 
 

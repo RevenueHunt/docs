@@ -45,7 +45,7 @@ Please note that Version 2 is a fresh start: **you’ll need to recreate your qu
 
         - Analytics of quiz revenue.
         - Adding or syncing discount codes from Shopify.
-        - Syncing of product metafileds from Shopify.
+        - Syncing of product metafields from Shopify.
         - Publish quiz options as an automatic popup or chat icon.
         - Recommending subscription products.
         - Integration wtih Shopify Revenue Report.

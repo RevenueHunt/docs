@@ -57,7 +57,7 @@ For a more detailed guide on setting up the callback function, refer to [this re
       Offering a direct link to another page from your [Results Page](/reference/quiz-builder/results-page/) can be achieved simply with an **Button**.
 
       1. **Add a Button**: In the [Results Page](/reference/quiz-builder/results-page/) editor, click the `+ Add block` button to insert a `Button` block.
-      2. **Insert the Button URL**: Use the Button URL filed to add a custom link URL you want the user to be redirected to:
+      2. **Insert the Button URL**: Use the Button URL field to add a custom link URL you want the user to be redirected to:
            
            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button.png)
 

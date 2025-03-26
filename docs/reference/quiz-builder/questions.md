@@ -683,7 +683,7 @@
 
     *Choice type* - Switch between multiple choice, dropdown, pictures, yes/no & legal/GDPR choices for this block.
 
-    *Allow multiple selection* - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question. `Error message`filed allows you to add a message to the user if they select too many options.
+    *Allow multiple selection* - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question. `Error message`field allows you to add a message to the user if they select too many options.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
 
