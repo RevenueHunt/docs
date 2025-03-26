@@ -25,7 +25,7 @@ icon: material/currency-usd
     To assign a market to the quiz follow the instructions below.
     
     1. Open the [App Settings](/reference/app-settings/).
-    2. Open the [Markets](/reference/app-settings/#markets) tab.
+    2. Open the [Shopify Markets](/reference/app-settings/#markets) tab.
         ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
     3. Find a market and click the `dropdown list` to select the quiz that should be default for this market. 
         ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)

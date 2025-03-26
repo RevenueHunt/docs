@@ -26,7 +26,7 @@
 
     From the Store settings menu you can:
     
-    - Assign quizzes to different markets and languges via the [Markets](#markets) tab.
+    - Assign quizzes to different markets and languges via the [Shopify Markets](#markets) tab.
     - Run a catalog sync from the [Catalogue](#catalogue) tab or check when the last sync was completed.
     - Provide your email [SMTP scredentials](#smtp) to send result emails from your email provider.
 
@@ -333,7 +333,7 @@
 
 
 
-## Markets
+## Shopify Markets
 
 === "Shopify"
 

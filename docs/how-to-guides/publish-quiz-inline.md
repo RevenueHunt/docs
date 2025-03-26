@@ -127,7 +127,7 @@ Create a dedicated landing page for the quiz to drive traffic from paid ads or m
     5. **Assign the Template to a Page**: Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`. 
         ![how to publish inline quiz shopify v2 new page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
 
-        The default quiz for your store will be rendered. If you’ve configured [Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+        The default quiz for your store will be rendered. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
         ![how to publish inline quiz shopify v2 main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
 
     6. **Save Changes**: Ensure all changes are saved before exiting the theme editor.

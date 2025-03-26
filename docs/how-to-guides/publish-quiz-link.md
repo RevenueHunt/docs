@@ -34,7 +34,7 @@ Before you start, ensure you have:
         
     ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
         
-    When clicked, the default quiz for your store will open. If you’ve configured [Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+    When clicked, the default quiz for your store will open. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
     !!! note
 
@@ -83,7 +83,7 @@ Before you start, ensure you have:
     6. **Insert the #quiz Code**: Type `#quiz` into the link filed and accept the link.
         ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
 
-        When clicked, the default quiz for your store will open. If you’ve configured [Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+        When clicked, the default quiz for your store will open. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
 
@@ -162,7 +162,7 @@ Before you start, ensure you have:
         
     ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
         
-    When clicked, the default quiz for your store will open. If you’ve configured [Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+    When clicked, the default quiz for your store will open. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
     !!! note
 
@@ -213,7 +213,7 @@ Before you start, ensure you have:
     8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Type `#quiz` in the appropriate link field.
         ![how to publish link popup shopify v2 button](/images/how_to_publish_link_popup_shopify_v2_button.png)
 
-        When clicked, the default quiz for your store will open. If you’ve configured [Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+        When clicked, the default quiz for your store will open. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
     9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button.
 
