@@ -28,8 +28,6 @@ Before you start, ensure you have:
         ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
 
-        When clicked, the default quiz for your store will open. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-
 === "Shopify V2"
 
     With Version 2 of the RevenueHunt app, you can easily create links to open a quiz popup anywhere on your website. 
