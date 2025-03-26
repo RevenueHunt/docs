@@ -30,7 +30,7 @@ The Facebook Pixel is an essential analytics tool for tracking user interaction 
 
     To integrate the Meta Pixel with your quiz:
 
-    1. Go to the [Integrations](/reference/quiz-builder/connect-integrations/-integrations) tab within your quiz settings.
+    1. Go to the [Integrations](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `Activate`.
         ![how to integrate fb pixel shopify v2](/images/how_to_integrate_fb_pixel_shopify_v2.png)
     3. Click `Save` to confirm the changes.
