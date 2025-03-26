@@ -10,7 +10,7 @@
 
 === "Shopify V2" 
 
-        To add the quiz to your store, you have to create your quiz first. Then, in Shopify go to `Online Store > Theme` and click ` Customize`.
+    To add the quiz to your store, you have to create your quiz first. Then, in Shopify go to `Online Store > Theme` and click ` Customize`.
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore.png)
     
@@ -64,7 +64,7 @@
 
 === "Shopify V2" 
 
-        A link that will open the quiz as a popup over your page.
+    A link that will open the quiz as a popup over your page.
 
     To add a link popup to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. Open `App Embeds` and toggle the button to acitvate the `V2 - Link Popup Quiz`.
 
