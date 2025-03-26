@@ -6,7 +6,7 @@ This guide offers practical steps and strategies to reduce drop-off rates and ma
 
 ### Step 1: Review In-App Drop-Off Metrics
 
-Start by examining the [drop-off metrics](https://docs.revenuehunt.com/reference/quiz-builder/#drop-off) provided by RevenueHunt Product Recommendation Quiz. These metrics will highlight where participants are leaving the quiz, allowing you to pinpoint problem areas effectively.
+Start by examining the [drop-off metrics](/reference/quiz-builder/metrics/#drop-off) provided by RevenueHunt Product Recommendation Quiz. These metrics will highlight where participants are leaving the quiz, allowing you to pinpoint problem areas effectively.
 
 ### Step 2: Identify High Drop-off Questions
 
@@ -17,7 +17,7 @@ Focus on questions with the highest drop-off rates, especially those asking for 
 **Shorten Your Quiz**: Limit the number of questions. A shorter quiz is more likely to keep participants engaged, increasing completion rates.
 
 **Optimize Email Collection**:
-  - Make the email question optional in [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings) and clearly indicate this choice to the user.
+  - Make the email question optional in [question settings](/reference/quiz-builder/questions/#question-settings) and clearly indicate this choice to the user.
   - Offer an incentive, like a discount, for participants willing to provide their email. This can make the option more appealing without making it mandatory.
 
 ### Step 4: A/B Testing
@@ -28,10 +28,10 @@ Run both the original and the modified quizzes simultaneously to see which versi
 
 !!! tip
 
-    Check our [How to A/B Test You Quiz](https://docs.revenuehunt.com/how-to-guides/ab-test-quiz/) article for instructions.
+    Check our [How to A/B Test You Quiz](/how-to-guides/ab-test-quiz/) article for instructions.
 
 ### Step 5: Analyze and Adjust
-Use the Product Recommendation Quiz [analytics](https://docs.revenuehunt.com/reference/quiz-builder/#analytics) or [GA4](https://docs.revenuehunt.com/how-to-guides/integrate-google-analytics/) to review the performance of both quiz versions.
+Use the Product Recommendation Quiz [analytics](/reference/quiz-builder/metrics/#analytics) or [GA4](/how-to-guides/integrate-google-analytics/) to review the performance of both quiz versions.
 
 Pay attention to the completion rates and participant feedback to understand what works best.
 

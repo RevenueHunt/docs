@@ -50,10 +50,10 @@ If you need help building & styling your dream quiz, you can find affordable fre
 
 Feeling unsure about where to begin? We've curated resources to jump-start your journey:
 
-- [Video Tutorials](https://docs.revenuehunt.com/tutorials/): Our concise and informative tutorials are great for learning the basics of building your quiz.
-- [How To Articles](https://docs.revenuehunt.com/how-to-guides/create-first-quiz/): Explore detailed articles for in-depth guidance on specific features and troubleshooting steps.
+- [Video Tutorials](/tutorials/): Our concise and informative tutorials are great for learning the basics of building your quiz.
+- [How To Articles](/how-to-guides/create-first-quiz/): Explore detailed articles for in-depth guidance on specific features and troubleshooting steps.
 
 
 ## Troubleshooting Quiz Results
 
-Encountering unexpected quiz outcomes? We have a tool designed to help you diagnose and resolve such issues efficiently. Discover how to troubleshoot your quiz for insights on recommendations or missing products by visiting our [troubleshooting guide](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/).
+Encountering unexpected quiz outcomes? We have a tool designed to help you diagnose and resolve such issues efficiently. Discover how to troubleshoot your quiz for insights on recommendations or missing products by visiting our [troubleshooting guide](/how-to-guides/troubleshoot-product-results/).

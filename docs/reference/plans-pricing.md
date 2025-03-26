@@ -8,9 +8,9 @@
 
     **view larger plans** - Opens a list of larger plans offered in the app.
 
-    **Pricing FAQs** - Opens the [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq/) page.
+    **Pricing FAQs** - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
-    **check out this FAQs article** - Opens the [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq/) page.
+    **check out this FAQs article** - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
     **Get Basic/Pro** - Click to upgrade your plan to Basic/Pro. After clicking you'll be taken to the Shopify payment page to approve the subscription.
 
@@ -30,9 +30,9 @@
 
     **view larger plans** - Opens a list of larger plans offered in the app.
 
-    **Pricing FAQs** - Opens the [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq/) page.
+    **Pricing FAQs** - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
-    **check out this FAQs article** - Opens the [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq/) page.
+    **check out this FAQs article** - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
     **Get Basic/Pro** - Click to upgrade your plan to Basic/Pro. After clicking you'll be taken to the Shopify payment page to approve the subscription.
 
@@ -74,7 +74,7 @@
         3. Upgrade again to the Basic Plan, this time introducing your new credit card details.
         4. We’ll proceed to issue a refund for the days not used in your previous Basic Plan billing cycle.
 
-        If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](/how-to-guides/contact-customer-support/).
 
 === "Magento"
 
@@ -84,9 +84,9 @@
 
     **view larger plans** - Opens a list of larger plans offered in the app.
 
-    **Pricing FAQs** - Opens the [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq/) page.
+    **Pricing FAQs** - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
-    **check out this FAQs article** - Opens the [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq/) page.
+    **check out this FAQs article** - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
     **Get Basic/Pro** - Click to upgrade your plan to Basic/Pro. After clicking you'll be taken to the Shopify payment page to approve the subscription.
 
@@ -128,7 +128,7 @@
         3. Upgrade again to the Basic Plan, this time introducing your new credit card details.
         4. We’ll proceed to issue a refund for the days not used in your previous Basic Plan billing cycle.
 
-        If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](/how-to-guides/contact-customer-support/).
 
 === "BigCommerce"
 
@@ -138,9 +138,9 @@
 
     **view larger plans** - Opens a list of larger plans offered in the app.
 
-    **Pricing FAQs** - Opens the [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq/) page.
+    **Pricing FAQs** - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
-    **check out this FAQs article** - Opens the [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq/) page.
+    **check out this FAQs article** - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
     **Get Basic/Pro** - Click to upgrade your plan to Basic/Pro. After clicking you'll be taken to the Shopify payment page to approve the subscription.
 
@@ -183,7 +183,7 @@
         3. Upgrade again to the Basic Plan, this time introducing your new credit card details.
         4. We’ll proceed to issue a refund for the days not used in your previous Basic Plan billing cycle.
 
-        If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](/how-to-guides/contact-customer-support/).
 
 === "Standalone"
 
@@ -193,9 +193,9 @@
 
     **view larger plans** - Opens a list of larger plans offered in the app.
 
-    **Pricing FAQs** - Opens the [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq/) page.
+    **Pricing FAQs** - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
-    **check out this FAQs article** - Opens the [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq/) page.
+    **check out this FAQs article** - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
     **Get Basic/Pro** - Click to upgrade your plan to Basic/Pro. After clicking you'll be taken to the Shopify payment page to approve the subscription.
 
@@ -238,4 +238,4 @@
         3. Upgrade again to the Basic Plan, this time introducing your new credit card details.
         4. We’ll proceed to issue a refund for the days not used in your previous Basic Plan billing cycle.
 
-        If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](/how-to-guides/contact-customer-support/).

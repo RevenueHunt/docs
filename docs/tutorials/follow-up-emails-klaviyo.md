@@ -5,7 +5,7 @@ icon: material/numeric-4
 
 # Sending Follow-up Emails with Klaviyo
 
-In this tutorial, you’ll learn how to add RevenueHunt app (Product Recommendation Quiz) leads to [Klaviyo](https://docs.revenuehunt.com/how-to-guides/send-leads-to-klaviyo/) and how to build a post-quiz email flow in Klaviyo.
+In this tutorial, you’ll learn how to add RevenueHunt app (Product Recommendation Quiz) leads to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and how to build a post-quiz email flow in Klaviyo.
 
 **You’ll learn:**
 
@@ -24,7 +24,7 @@ In this tutorial, you’ll learn how to add RevenueHunt app (Product Recommendat
 
 ## Intro
 
-In this tutorial, you’ll learn how to connect your quiz to [Klaviyo](https://docs.revenuehunt.com/how-to-guides/send-leads-to-klaviyo/) and set up a post-quiz email flow.
+In this tutorial, you’ll learn how to connect your quiz to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and set up a post-quiz email flow.
 
 Connecting the quiz to Klaviyo can significantly increase your sales. 
 
@@ -36,10 +36,10 @@ Sending a follow-up email with Klaviyo is very easy. Let’s get started.
 
 To send contacts to Klaviyo your quiz needs to have an `email question`. 
 
-1. You can add it to the quiz from the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) tab.
-2. You can [ask for marketing consent](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent/) directly in the quiz. For example:
-    - You can inform the customer in the [question description](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent#option-1-question-description) that by providing the email address they agree to receive marketing information.
-    - Or you can add a [marketing checkmark](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent#option-2-marketing-checkmark) by joining two slides together. 
+1. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.
+2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz. For example:
+    - You can inform the customer in the [question description](/how-to-guides/ask-for-marketing-consent#option-1-question-description) that by providing the email address they agree to receive marketing information.
+    - Or you can add a [marketing checkmark](/how-to-guides/ask-for-marketing-consent#option-2-marketing-checkmark) by joining two slides together. 
 
 ## Connect Quiz to Klaviyo
 
@@ -50,7 +50,7 @@ Public API Key is essential because it allows us to send information to Klaviyo 
 1. To find your Public Key login to your Klaviyo account.
 2. In account `Settings` open the `API Keys` tab and copy the public API Key.
 3. Navigate back to the RevenueHunt app. 
-4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and `edit` the connection.
+4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.
 5. Paste your Public API Key and `save`.
 6. Publish the changes with the top-right `Publish` button.
 7. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
@@ -86,7 +86,7 @@ Now all the contacts coming from the quiz will also be added to this specific se
 1. Grab the `EMAIL` action and drop it below the flow trigger.
 2. Click on the `...` three dots and `edit the email`.
 3. Edit the `name/subject/email` to your liking and select the `HTML email template`.
-4. From the [`Connect >  Klaviyo`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab you can **download a ready-to-use email template**.
+4. From the [`Connect >  Klaviyo`](/reference/quiz-builder/connect-integrations/) tab you can **download a ready-to-use email template**.
 5. Copy the code and go back to Klaviyo.
 6. Open the `HTML email template` and remove the existing code.
 7. Paste the new template code.
@@ -96,7 +96,7 @@ Now all the contacts coming from the quiz will also be added to this specific se
 
 From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
 
-Remember to deactivate the [email Notifications](https://docs.revenuehunt.com/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
+Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
 
 ## Add Contacts to List
 
@@ -106,7 +106,7 @@ RevenueHunt app allows you to add contacts from the quiz directly to a **list** 
 2. In account `Settings` open the `API Keys` tab and create a `new Private API Key`.
 3. Allow `Full access`.
 4. Copy the private key.
-5. In the Quiz [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab scroll to Klaviyo and edit the connection.
+5. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
 6. Paste your Private API Key.
 7. Choose to `mark all profiles as true` and select a list that contacts should be added to.
 8. Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
@@ -117,4 +117,4 @@ Congratulations!
 
 You’ve learned how to create a quiz email flow in Klaviyo.
 
-Check out our [documentation](https://docs.revenuehunt.com/) for more resources on getting started with recommendation quizzes.
+Check out our [documentation](/) for more resources on getting started with recommendation quizzes.

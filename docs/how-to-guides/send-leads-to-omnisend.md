@@ -12,7 +12,7 @@ Apart from giving your customers a personalized product recommendation, you can 
 
         It's advisable to label your API key with a recognizable name like `revenuehunt` or `shopquiz` for easy identification later. 
 
-2. Access the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and navigate to the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab at the top of your screen.
+2. Access the [Quiz Builder](/reference/quiz-builder/) and navigate to the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of your screen.
 2. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
 3. In the popup that appears, you'll need to enter your `Omnisend API Key` into the input field, then click `save`.
     ![how to send leads to omnisend api key](/images/how_to_send_leads_to_omnisend_api_key.png)

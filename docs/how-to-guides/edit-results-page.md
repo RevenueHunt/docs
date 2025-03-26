@@ -4,7 +4,7 @@ icon: material/playlist-edit
 
 # How to Edit Your Product Recommendation Quiz Results Page
 
-You can customize your quiz design as well as the look of your quiz's [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
+You can customize your quiz design as well as the look of your quiz's [Results Page](/reference/quiz-builder/results-page/). 
 
 This guide will walk you through adding elements to your results page using a variety of content blocks and creating of dynamic results page with Block logic.
 
@@ -15,9 +15,9 @@ This guide will walk you through adding elements to your results page using a va
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
 
     1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-    2. **Add Blocks**: Insert [building blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
-    3. **Configure the Block**: Adjust [block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) or set [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings). Use [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) for further customization with [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) and [product metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
+    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Block Logic](/how-to-guides/use-block-logic/) for conditional visibility.
+    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
     5. **Review and Test**: Click the top-right `Publish` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
 
 === "Shopify V2"
@@ -25,11 +25,11 @@ This guide will walk you through adding elements to your results page using a va
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
     1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-    2. **Add Blocks**: Insert [building blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
+    2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
-    3. **Configure the Block**: Adjust [block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings). For dynamic elements, use [information recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) or set [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, manage out-of-stock and duplicate product recommendations under [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). From there you can add further customization with [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) and CSS. 
+    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings). For dynamic elements, use [information recalls](/how-to-guides/use-information-recalls/) or set [Block Logic](/how-to-guides/use-block-logic/) for conditional visibility.
+    4. **Adjust Page Settings**: Tailor the checkout process, manage out-of-stock and duplicate product recommendations under [Results Page Settings](/reference/quiz-builder/results-page/-settings). From there you can add further customization with [JavaScript](/how-to-guides/add-javascript/) and CSS. 
     5. **Review and Test**: Click the top-right `Save` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
 
 === "WooCommerce"
@@ -37,9 +37,9 @@ This guide will walk you through adding elements to your results page using a va
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
 
     1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-    2. **Add Blocks**: Insert [building blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
-    3. **Configure the Block**: Adjust [block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) or set [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings). Use [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) for further customization with [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) and [product metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
+    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Block Logic](/how-to-guides/use-block-logic/) for conditional visibility.
+    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
     5. **Review and Test**: Click the top-right `Publish` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
 
 === "Magento"
@@ -47,9 +47,9 @@ This guide will walk you through adding elements to your results page using a va
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
 
     1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-    2. **Add Blocks**: Insert [building blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
-    3. **Configure the Block**: Adjust [block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) or set [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings). Use [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) for further customization with [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) and [product metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
+    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Block Logic](/how-to-guides/use-block-logic/) for conditional visibility.
+    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
     5. **Review and Test**: Click the top-right `Publish` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
 
 === "BigCommerce"
@@ -57,9 +57,9 @@ This guide will walk you through adding elements to your results page using a va
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
 
     1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-    2. **Add Blocks**: Insert [building blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
-    3. **Configure the Block**: Adjust [block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) or set [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings). Use [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) for further customization with [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) and [product metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
+    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Block Logic](/how-to-guides/use-block-logic/) for conditional visibility.
+    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
     5. **Review and Test**: Click the top-right `Publish` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
 
 === "Standalone"
@@ -67,9 +67,9 @@ This guide will walk you through adding elements to your results page using a va
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
 
     1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
-    2. **Add Blocks**: Insert [building blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-types) such as Heading, Content, HTML, Image, Products List, as needed.
-    3. **Configure the Block**: Adjust [block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) or set [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings). Use [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) for further customization with [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) and [product metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, as needed.
+    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings) or ,for dynamic elements, use the `@` symbol for [information recalls](/how-to-guides/use-information-recalls/) or set [Block Logic](/how-to-guides/use-block-logic/) for conditional visibility.
+    4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
     5. **Review and Test**: Click the top-right `Publish` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
 
 ## Add Content
@@ -84,7 +84,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    Available [Block Types](https://docs.revenuehunt.com/reference/quiz-builder/#block-types):
+    Available [Block Types](/reference/quiz-builder/results-page/#block-types):
 
     1. **Heading Block**: Use for adding titles or headings.
     2. **Content Block**: Ideal for adding text explanations about product matches.
@@ -95,8 +95,8 @@ This guide will walk you through adding elements to your results page using a va
 
     Dynamic elements of the results page:
 
-    - **Information Recalls**: [Information Recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
-    - **Block Logic**: With [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    - **Information Recalls**: [Information Recalls](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    - **Block Logic**: With [Block Logic](/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
 
 === "Shopify V2"
 
@@ -108,7 +108,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![how to edit the results page block types](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
 
-    Available [Block Types](https://docs.revenuehunt.com/reference/quiz-builder/#block-types):
+    Available [Block Types](/reference/quiz-builder/results-page/#block-types):
 
     - **Heading** - Adds a new heading to your page, ideal for titles or section breaks.
 
@@ -128,7 +128,7 @@ This guide will walk you through adding elements to your results page using a va
 
     Dynamic elements of the results page:
 
-    - **Content dynamic source**: [Content Dynamic Source](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+    - **Content dynamic source**: [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
 
         ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png)
     
@@ -136,7 +136,7 @@ This guide will walk you through adding elements to your results page using a va
 
         ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
     
-    - **Block Logic**: With [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    - **Block Logic**: With [Block Logic](/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic.png)
 
@@ -150,7 +150,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    Available [Block Types](https://docs.revenuehunt.com/reference/quiz-builder/#block-types):
+    Available [Block Types](/reference/quiz-builder/results-page/#block-types):
 
     1. **Heading Block**: Use for adding titles or headings.
     2. **Content Block**: Ideal for adding text explanations about product matches.
@@ -161,8 +161,8 @@ This guide will walk you through adding elements to your results page using a va
 
     Dynamic elements of the results page:
 
-    - **Information Recalls**: [Information Recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
-    - **Block Logic**: With [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    - **Information Recalls**: [Information Recalls](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    - **Block Logic**: With [Block Logic](/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
 
 === "Magento"
 
@@ -174,7 +174,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    Available [Block Types](https://docs.revenuehunt.com/reference/quiz-builder/#block-types):
+    Available [Block Types](/reference/quiz-builder/results-page/#block-types):
 
     1. **Heading Block**: Use for adding titles or headings.
     2. **Content Block**: Ideal for adding text explanations about product matches.
@@ -185,8 +185,8 @@ This guide will walk you through adding elements to your results page using a va
 
     Dynamic elements of the results page:
 
-    - **Information Recalls**: [Information Recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
-    - **Block Logic**: With [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    - **Information Recalls**: [Information Recalls](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    - **Block Logic**: With [Block Logic](/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
 
 === "BigCommerce"
 
@@ -198,7 +198,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    Available [Block Types](https://docs.revenuehunt.com/reference/quiz-builder/#block-types):
+    Available [Block Types](/reference/quiz-builder/results-page/#block-types):
 
     1. **Heading Block**: Use for adding titles or headings.
     2. **Content Block**: Ideal for adding text explanations about product matches.
@@ -209,8 +209,8 @@ This guide will walk you through adding elements to your results page using a va
 
     Dynamic elements of the results page:
 
-    - **Information Recalls**: [Information Recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
-    - **Block Logic**: With [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    - **Information Recalls**: [Information Recalls](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    - **Block Logic**: With [Block Logic](/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
 
 === "Standalone"
 
@@ -222,7 +222,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    Available [Block Types](https://docs.revenuehunt.com/reference/quiz-builder/#block-types):
+    Available [Block Types](/reference/quiz-builder/results-page/#block-types):
 
     1. **Heading Block**: Use for adding titles or headings.
     2. **Content Block**: Ideal for adding text explanations about product matches.
@@ -233,8 +233,8 @@ This guide will walk you through adding elements to your results page using a va
 
     Dynamic elements of the results page:
 
-    - **Information Recalls**: [Information Recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
-    - **Block Logic**: With [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    - **Information Recalls**: [Information Recalls](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    - **Block Logic**: With [Block Logic](/how-to-guides/use-block-logic/) you can make blocks visible or hidden based on customer's responses. Block logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
 
 ## Adjust Results Page Settings
 
@@ -242,17 +242,17 @@ This guide will walk you through adding elements to your results page using a va
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/-settings). 
 
-    [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) worth checking:
+    [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
 
     - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. 
         
         !!! tip
 
-            Check the [How to Change Checkout Settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) for detailed instructions.
+            Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
 
-    - **Show Product Reviews**: Display [product reviews](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) to add credibility and influence decisions. 
+    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions. 
 
         !!! info
             We currently support these review apps for Shopify: 
@@ -264,65 +264,65 @@ This guide will walk you through adding elements to your results page using a va
 
             And WooCommerce Product Reviews.
 
-    [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) worth checking:
+    [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
 
         !!! tip
             
-            Check [How to Add JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
+            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
 
     - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page. 
 
         !!! tip
-            Check [How to Add Product Metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
+            Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
 
-    - **Multiple Results Pages**: Offer [diverse results pages](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+    - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
 
 === "Shopify V2"
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
-    For further customization, you can adjust the [results page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/-settings). 
 
-    [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) worth checking:
+    [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
 
     - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. 
         
         !!! tip
 
-            Check the [How to Change Checkout Settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) for detailed instructions.
+            Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
 
-    [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) worth checking:
+    [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
 
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
 
         !!! tip
             
-            Check [How to Add JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
+            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
 
-    - **Multiple Results Pages**: Offer [diverse results pages](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+    - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
 
 === "WooCommerce"
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/-settings). 
 
-    [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) worth checking:
+    [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
 
     - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. 
         
         !!! tip
 
-            Check the [How to Change Checkout Settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) for detailed instructions.
+            Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
 
-    - **Show Product Reviews**: Display [product reviews](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) to add credibility and influence decisions. 
+    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions. 
 
         !!! info
             We currently support these review apps for Shopify: 
@@ -334,38 +334,38 @@ This guide will walk you through adding elements to your results page using a va
 
             And WooCommerce Product Reviews.
 
-    [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) worth checking:
+    [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
 
         !!! tip
             
-            Check [How to Add JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
+            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
 
     - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page. 
 
         !!! tip
-            Check [How to Add Product Metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
+            Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
 
-    - **Multiple Results Pages**: Offer [diverse results pages](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+    - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
 
 === "Magento"
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/-settings). 
 
-    [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) worth checking:
+    [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
 
     - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. 
         
         !!! tip
 
-            Check the [How to Change Checkout Settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) for detailed instructions.
+            Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
 
-    - **Show Product Reviews**: Display [product reviews](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) to add credibility and influence decisions. 
+    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions. 
 
         !!! info
             We currently support these review apps for Shopify: 
@@ -377,38 +377,38 @@ This guide will walk you through adding elements to your results page using a va
 
             And WooCommerce Product Reviews.
 
-    [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) worth checking:
+    [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
 
         !!! tip
             
-            Check [How to Add JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
+            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
 
     - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page. 
 
         !!! tip
-            Check [How to Add Product Metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
+            Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
 
-    - **Multiple Results Pages**: Offer [diverse results pages](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+    - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
 
 === "BigCommerce"
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/-settings). 
 
-    [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) worth checking:
+    [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
 
     - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. 
         
         !!! tip
 
-            Check the [How to Change Checkout Settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) for detailed instructions.
+            Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
 
-    - **Show Product Reviews**: Display [product reviews](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) to add credibility and influence decisions. 
+    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions. 
 
         !!! info
             We currently support these review apps for Shopify: 
@@ -420,38 +420,38 @@ This guide will walk you through adding elements to your results page using a va
 
             And WooCommerce Product Reviews.
 
-    [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) worth checking:
+    [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
 
         !!! tip
             
-            Check [How to Add JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
+            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
 
     - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page. 
 
         !!! tip
-            Check [How to Add Product Metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
+            Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
 
-    - **Multiple Results Pages**: Offer [diverse results pages](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+    - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
 
 === "Standalone"
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/-settings). 
 
-    [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) worth checking:
+    [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
 
     - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. 
         
         !!! tip
 
-            Check the [How to Change Checkout Settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) for detailed instructions.
+            Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
 
-    - **Show Product Reviews**: Display [product reviews](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings) to add credibility and influence decisions. 
+    - **Show Product Reviews**: Display [product reviews](/reference/quiz-builder/results-page/#basic-settings) to add credibility and influence decisions. 
 
         !!! info
             We currently support these review apps for Shopify: 
@@ -463,22 +463,22 @@ This guide will walk you through adding elements to your results page using a va
 
             And WooCommerce Product Reviews.
 
-    [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) worth checking:
+    [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
 
         !!! tip
             
-            Check [How to Add JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
+            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
 
     - **Product Metafields**: Use metafields or attributes to display specific product details, enhancing information on the results page. 
 
         !!! tip
-            Check [How to Add Product Metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
+            Check [How to Add Product Metafields](/how-to-guides/add-product-metafields/) for detailed instructions on showing product metafields on the results page.
 
-    - **Multiple Results Pages**: Offer [diverse results pages](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+    - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
 
 ---
 By following this guide, you can significantly enhance your shop's quiz results page, creating a dynamic, engaging, and personalized shopping experience for your customers.

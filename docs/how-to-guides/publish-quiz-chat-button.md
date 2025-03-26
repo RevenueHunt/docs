@@ -18,7 +18,7 @@ Make sure you have:
     <iframe src="https://www.youtube.com/embed/oQyIiA2GwjY?si=X5Pd4YUR5O-sby3u" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+    1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
     2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
     3. **Embed the Chat Button Quiz**: Select `Chat Button Quiz` from the list.
     4. **Customize the Chat Button**: Enter your Quiz ID into the appropriate field. Adjust the chat button settings as needed. Activate the chat button by toggling it on.
@@ -26,7 +26,7 @@ Make sure you have:
 
     ### Option 2: Manual
 
-    1. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Chat button`](https://docs.revenuehunt.com/reference/quiz-builder/#chat) mode, and `Show Instructions for Legacy Themes`.
+    1. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode, and `Show Instructions for Legacy Themes`.
     2. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code.
     3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
     4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code. paste this code into the HTML of your desired pages.
@@ -34,7 +34,7 @@ Make sure you have:
 
 === "WooCommerce"
 
-    1. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Chat button`](https://docs.revenuehunt.com/reference/quiz-builder/#chat) mode.
+    1. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
     2. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code. Copy the code.
     3. In WordPress, open `Pages` and find the Front Page. Click `Edit` to open the page.
     4. In the editor, find a `Custom HTML` element and add it to the page.
@@ -49,7 +49,7 @@ Make sure you have:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Chat button`](https://docs.revenuehunt.com/reference/quiz-builder/#chat) mode.
+    2. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
     3. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code. Copy the code.  
     4. In your Magento dashboard go to `Content` > `Blocks`. Click `Add New Block`.
     5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`. 
@@ -67,7 +67,7 @@ Make sure you have:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Chat button`](https://docs.revenuehunt.com/reference/quiz-builder/#chat) mode.
+    2. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
     3. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code. Copy the code.  
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Find the main page.
     5. Switch to the `HTML` editor. Paste the HTML code copied from the app.
@@ -81,7 +81,7 @@ Make sure you have:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Chat button`](https://docs.revenuehunt.com/reference/quiz-builder/#chat) mode.
+    2. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
     3. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code. Copy the code.  
     4. In your store customization options find the main page.
     5. Find a `Custom HTML` element. In the element settings paste the code copied from the app.

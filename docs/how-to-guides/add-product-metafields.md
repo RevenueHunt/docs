@@ -22,7 +22,7 @@ icon: material/focus-field-horizontal
 
     First, enable the display of metafields for individual products:
 
-    1. Navigate to your [Results Page Settings > Basic](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings).
+    1. Navigate to your [Results Page Settings > Basic](/reference/quiz-builder/results-page/#basic-settings).
     2. Open the `Individual Product Settings` section.
     3. Activate the `show metafields` toggle.
 
@@ -32,13 +32,13 @@ icon: material/focus-field-horizontal
 
     First, enable the display of attributes for individual products:
 
-    1. Navigate to your [Results Page Settings > Basic](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings).
+    1. Navigate to your [Results Page Settings > Basic](/reference/quiz-builder/results-page/#basic-settings).
     2. Open the `Individual Product Settings` section.
     3. Activate the `show metafields` toggle.
 
 ## Step 2: Open App Settings
 
-Open [App Settings > Catalogue](https://docs.revenuehunt.com/reference/app-settings/#catalogue) to access the settings to manage your catalog.
+Open [App Settings > Catalogue](/reference/app-settings/#catalogue) to access the settings to manage your catalog.
 
 ## Step 3: Select Metafields / Attributes
 
@@ -58,20 +58,20 @@ Open [App Settings > Catalogue](https://docs.revenuehunt.com/reference/app-setti
 
 === "Shopify"
 
-    Update your catalog with the new metafields by triggering a [catalog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) from your dashboard.
+    Update your catalog with the new metafields by triggering a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.
 
 === "WooCommerce"
 
-    Update your catalog with the new attributes by triggering a [catalog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) from your dashboard.
+    Update your catalog with the new attributes by triggering a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.
 
 ## Step 5: Implement Custom JavaScript on the Results Page
 
-To display the metafield values on your results page, [custom JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) is required:
+To display the metafield values on your results page, [custom JavaScript](/how-to-guides/add-javascript/) is required:
 
 1. Your developer will need to write custom JavaScript code to render the metafield value in the desired location on the results page.
 2. This customization falls outside the support scope of our app.
 
-Here's a sample code that replaces the product description with the `descriptors-subtitle` metafield. This code should be added in the [Custom JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) input under [Results Page Settings > Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings):
+Here's a sample code that replaces the product description with the `descriptors-subtitle` metafield. This code should be added in the [Custom JavaScript](/how-to-guides/add-javascript/) input under [Results Page Settings > Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings):
 
 ```javascript
 window.recommendedProducts = prq.recommendedProducts();

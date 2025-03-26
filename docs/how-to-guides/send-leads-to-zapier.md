@@ -15,11 +15,11 @@ Before beginning, ensure you have:
 How to connect the quiz to your CRM via Zapier
 It’s quite simple to set up:
 
-1. Head to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab.
+1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
 2. Scroll-down to find Zapier and copy your `Zapier API Key`. You'll need this for the connection process.
     ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
 
-3. Within the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab of your quiz, click on the Zapier `Connect` button. 
+3. Within the [Connect](/reference/quiz-builder/connect-integrations/) tab of your quiz, click on the Zapier `Connect` button. 
 4. On the prompt, select `Accept Invite & Build a Zap` to proceed to Zapier's website.
 5. Once redirected to Zapier, click on `Make a Zap`.
 6. In the Zapier interface, search for "RevenueHunt" (or the quiz platform you're using) and select the version 1.1.1.

@@ -48,15 +48,15 @@ This is a list of topics that are covered in the playlist.
 <iframe src="https://www.youtube.com/embed/CkvnOEWX1a4?si=-d1MioWsU0DPaH6B" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-1. Let’s add a new quiz from your [dashaboard](https://docs.revenuehunt.com/reference/dashboard/).
-2. [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) is where you’ll create your quiz. 
+1. Let’s add a new quiz from your [dashboard](/reference/dashboard/).
+2. [Quiz Builder](/reference/quiz-builder/) is where you’ll create your quiz. 
 3. Click on the `+` plus sign and choose a question type. 
 4. You can edit the question and you’ll see how it looks in the preview.
-5. To change [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings), click on :material-wrench:, a little wrench icon. Here, you can change things like adding a question description or an image.
-6. To make the quiz more personal you can add a `Name question` and recall the answer in other parts of the quiz using [information recalls (@)](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/).
+5. To change [question settings](/reference/quiz-builder/questions/#question-settings), click on :material-wrench:, a little wrench icon. Here, you can change things like adding a question description or an image.
+6. To make the quiz more personal you can add a `Name question` and recall the answer in other parts of the quiz using [information recalls (@)](/how-to-guides/use-information-recalls/).
 7. To select the best cleanser, you may want to know the client's age, skin type and the environment they live in. `Multiple-choice questions` may be the best way to find out this information. Let’s ask about a skin type. 
 8. Finally, we should find out the environment they live in. To make the quiz more interesting, we’ll use a `Picture question` here. 
-9. Don’t forget to add an `email question`! That’s how you’ll collect valuable leads for your marketing campaigns. In the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings) you can make this one optional.
+9. Don’t forget to add an `email question`! That’s how you’ll collect valuable leads for your marketing campaigns. In the [question settings](/reference/quiz-builder/questions/#question-settings) you can make this one optional.
 10. Once you have all your questions you can move them around by drag and drop. 
 11. Make sure to keep the quiz short. Customers typically drop out after question 8 and almost nobody gets to question 12. There’s power in simplicity!
 
@@ -69,11 +69,11 @@ This is a list of topics that are covered in the playlist.
 
 Once you’re happy with the design, you can add products to each question. It is a very important step! 
 
-1. Our [success checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) will remind you if there are no products associated with the answers.
-2. To add a product, go to the [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab and click on the blank space after the answer.
+1. Our [success checklist](/reference/dashboard/#success-checklist) will remind you if there are no products associated with the answers.
+2. To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.
 3. Your synced products will appear as a list. Scroll down to select items or just start typing the name.
 4. Multiple products can be assigned to the same answer.
-5. Product Recommendation Quiz works like a [voting system](https://docs.revenuehunt.com/how-to-guides/recommend-products/). 
+5. Product Recommendation Quiz works like a [voting system](/how-to-guides/recommend-products/). 
     - Products are linked to each choice. 
     - When a customer picks that choice, all linked products receive one vote.
     - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
@@ -84,12 +84,12 @@ Once you’re happy with the design, you can add products to each question. It i
 
 Once your quiz is built and styled, you should add products and collections to individual choices.
 
-1. To do that, go to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and open the [Link Collections](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab. 
+1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections](/reference/quiz-builder/link-collections/) tab. 
 2. For the age question, you can link the *youth* and *anti-aging* collections created earlier.
 3. Then, let’s link the *skin type* collections.
 4. You can link one or more collections to the same choice.
 5. Continue like this and make sure that each choice in the quiz has products or collections linked, otherwise you may end up with empty results.
-6. Product recommendation algorithm works like a [voting system](https://docs.revenuehunt.com/how-to-guides/recommend-products/). 
+6. Product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/). 
     - Products are linked to each choice.
     - When a customer picks that choice all the linked products receive one vote.
     - This includes all the products inside the linked collection. 
@@ -105,17 +105,17 @@ Once your quiz is built and styled, you should add products and collections to i
 
 Now let’s make the quiz pretty. 
 
-1. You can change the look of your quiz in the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab.
-2. In the [My Themes gallery](https://docs.revenuehunt.com/reference/quiz-builder/#my-themes), you’ll see some premade themes that you can choose from.
-3. Or you can create your own design by clicking [Edit Theme](https://docs.revenuehunt.com/reference/quiz-builder/#edit-theme).
+1. You can change the look of your quiz in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
+2. In the [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes), you’ll see some premade themes that you can choose from.
+3. Or you can create your own design by clicking [Edit Theme](/reference/quiz-builder/quiz-design/#edit-theme).
 4. To make the quiz match the store’s style let’s:
     - edit the font, 
     - change the background color, 
     - remove or add a background image, 
     - and change the color of the buttons and choices. 
-5. You can even [add custom CSS code](https://docs.revenuehunt.com/how-to-guides/customize-quiz-design/#add-custom-css-code) to make the quiz unique.
+5. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make the quiz unique.
 6. All the changes you make will be saved automatically.
-7. Once you’re done, you can change the name of your theme and it will be saved in [My Themes gallery](https://docs.revenuehunt.com/reference/quiz-builder/#my-themes). You’ll be able to apply it to other quizzes that you create.
+7. Once you’re done, you can change the name of your theme and it will be saved in [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes). You’ll be able to apply it to other quizzes that you create.
 
 ### Editing the Results Page, Adding Product Blocks, Adding Logos, Using Markdown Language
 
@@ -125,13 +125,13 @@ Now let’s make the quiz pretty.
 
 Speaking of results. Make sure to also edit the Results Page.
 
-1. Just like in the Quiz Builder, you can add multiple sections to your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
+1. Just like in the Quiz Builder, you can add multiple sections to your [Results Page](/reference/quiz-builder/results-page/). 
 2. Click on a `+` plus sign to select a block type. 
     - In `content blocks`, you can write insightful information about the product recommended.
     - With an `image block`, you can add your brand’s logo.
     - In the `Products block`, you can select how many products will be recommended. 
-3. You can use the [Markdown language](https://docs.revenuehunt.com/how-to-guides/use-markdown/) to make your quiz pop. Markdowns allow you to add **boldness** or *emphasis* to your text but also insert links, images, and videos. For more information about the Markdown language, check our [How-To documentation](https://docs.revenuehunt.com/how-to-guides/) section.
-4. The [Result Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) allow you to further customize the quiz with a background image.
+3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdowns allow you to add **boldness** or *emphasis* to your text but also insert links, images, and videos. For more information about the Markdown language, check our [How-To documentation](/how-to-guides/) section.
+4. The [Result Page settings](/reference/quiz-builder/results-page/-settings) allow you to further customize the quiz with a background image.
 
 
 ### Excluding Products from Recommendations
@@ -140,9 +140,9 @@ Speaking of results. Make sure to also edit the Results Page.
 <iframe src="https://www.youtube.com/embed/gRWKNg2PXzo?si=pbmMjBSAsYe1GjQe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](https://docs.revenuehunt.com/how-to-guides/recommend-products/#exclusion) feature. 
+Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/recommend-products/#exclusion) feature. 
 
-1. To exclude a product go to the [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab and select a question. 
+1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question. 
 2. Tap on the greyed `exclude products` text and a white bar will appear. 
 3. Simply add the products that contain an allergen.
 
@@ -182,7 +182,7 @@ Now let’s add a space for products.
 
 1. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
 2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products. 
-3. In [product slot settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can:
+3. In [product slot settings](/reference/quiz-builder/questions/#block-settings) you can:
     - Edit the slot name, 
     - Add a description,
     - And select how many products should be recommended in each slot.
@@ -201,10 +201,10 @@ Now let’s add a space for products.
 
 To send contacts to Klaviyo your quiz needs to have an `email question`. 
 
-1. You can add it to the quiz from the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) tab.
-2. You can [ask for marketing consent](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent/) directly in the quiz. For example:
-    - You can inform the customer in the [question description](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent#option-1-question-description) that by providing the email address they agree to receive marketing information.
-    - Or you can add a [marketing checkmark](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent#option-2-marketing-checkmark) by joining two slides together. 
+1. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab.
+2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz. For example:
+    - You can inform the customer in the [question description](/how-to-guides/ask-for-marketing-consent#option-1-question-description) that by providing the email address they agree to receive marketing information.
+    - Or you can add a [marketing checkmark](/how-to-guides/ask-for-marketing-consent#option-2-marketing-checkmark) by joining two slides together. 
 
 
 
@@ -288,7 +288,7 @@ To send contacts to Klaviyo your quiz needs to have an `email question`.
 </div>
 
 
-1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
 2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
 3. **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID, adjust settings, and activate the toggle.
 4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
@@ -301,7 +301,7 @@ To send contacts to Klaviyo your quiz needs to have an `email question`.
 </div>
 
 
-1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
 2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
 3. **Embed the Chat Button Quiz**: Select `Chat Button Quiz` from the list.
 4. **Customize the Chat Button**: Enter your Quiz ID into the appropriate field. Adjust the chat button settings as needed. Activate the chat button by toggling it on.
@@ -315,9 +315,9 @@ To send contacts to Klaviyo your quiz needs to have an `email question`.
 </div>
 
 
-Once you’ve made changes to your products and collections, you should [sync them](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) with the app. 
+Once you’ve made changes to your products and collections, you should [sync them](/how-to-guides/sync-catalog/) with the app. 
 
-1. The process is done automatically in the background but to make it faster, you can hit the [sync button](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) in the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist).
+1. The process is done automatically in the background but to make it faster, you can hit the [sync button](/how-to-guides/sync-catalog/) in the [Success Checklist](/reference/dashboard/#success-checklist).
 2. The sync may take between 30 to 60 minutes.
 3. Once it’s finished, all your products and collections will be up to date in the app.
 
@@ -329,11 +329,11 @@ Once you’ve made changes to your products and collections, you should [sync th
 <iframe src="https://www.youtube.com/embed/3BPO0a5qsHM?si=-s991O0c7CPGb-BE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-The [`Metrics`](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) panel is where you’ll be able to analyze quiz responses.
+The [`Metrics`](/reference/quiz-builder/metrics/) panel is where you’ll be able to analyze quiz responses.
 
-- Scroll down in [`analytics`](https://docs.revenuehunt.com/reference/quiz-builder/#analytics) to see a general overview of your results, like how many people viewed your quiz, how many people started it, and the number of responses. 
-- The [`responses`](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab lets you dive deeper into individual respondents to see how they answered each question.
-- You can download all responses to a CSV file by clicking [here](https://docs.revenuehunt.com/how-to-guides/download-quiz-responses/).
+- Scroll down in [`analytics`](/reference/quiz-builder/metrics/#analytics) to see a general overview of your results, like how many people viewed your quiz, how many people started it, and the number of responses. 
+- The [`responses`](/reference/quiz-builder/metrics/#responses) tab lets you dive deeper into individual respondents to see how they answered each question.
+- You can download all responses to a CSV file by clicking [here](/how-to-guides/download-quiz-responses/).
 
 ## Using Jump Logic
 
@@ -348,16 +348,16 @@ Let’s start with Jump Logic.
 2. Make it longer by adding a description.
 3. One statement will be needed for each type of skin advice.
 
-Now, how can we make only one block appear, instead of all of them, one after the other? We can use [Jump Logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/).
+Now, how can we make only one block appear, instead of all of them, one after the other? We can use [Jump Logic](/how-to-guides/use-jump-logic/).
 
-1. Open the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab and select a question. 
-2. Let’s add the first [Jump logic](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) condition:
+1. Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select a question. 
+2. Let’s add the first [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) condition:
     - If the answer to `‘How does your skin feel on an average day?’` is `‘Dry and tight all over’` then *Dry skin* advice should appear. 
 3. Click on the `+` plus sign to add another statement that can be true. This creates an additional `OR` conditional statement.
     - If the answer to `‘How does your skin feel on an average day?’` is `‘Oily all over’` then *Oily skin* advice should appear. 
 4. The `OR` separator between conditions means that only one of these has to be true for the logic to work.
 5. Let’s add conditions for the *Combination* and *Normal* skin.
-6. To ensure the customer doesn’t see all four statements additional [Jump logic](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) should be added to each of them. 
+6. To ensure the customer doesn’t see all four statements additional [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) should be added to each of them. 
 7. Click on a `statement` question.
 8. In the `Always jump to…` section, indicate the question or a page that should preceed it.
 9. Do the same for the other three statements.
@@ -369,7 +369,7 @@ It seems that everything works correctly, well done!
 
 You’ve successfully added Jump Logic to your quiz. Your customers will now be able to see this personalized advice whenever they take the quiz.
 
-[Jump Logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/) is a powerful tool. It can also be used to:
+[Jump Logic](/how-to-guides/use-jump-logic/) is a powerful tool. It can also be used to:
 
 - redirect the customer to another, external URL directly from the quiz,
 - create branching in the quiz to send the customer to different answering paths,
@@ -383,11 +383,11 @@ You’ve successfully added Jump Logic to your quiz. Your customers will now be 
 </div>
 
 
-For linear quizzes, using [Skip Logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/) instead is recommended.
+For linear quizzes, using [Skip Logic](/how-to-guides/use-skip-logic/) instead is recommended.
 
 To achieve the same effect you can set up your statements to be shown one after another.
 
-1. Navigate to the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab, select a question and open the [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) menu.
+1. Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab, select a question and open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) menu.
 2. Then, add a Skip Logic rule to each statement. For example, when selecting a *Dry skin* statement, the rule states:
     - If the answer question `‘How does your skin feel on an average day?’` **IS NOT**  `Dry and tight all over`, then this question is skipped.
     - This implies that the *Dry skin* statement will **NOT** be skipped only if the answer to that question is `Dry and thigh all over`. In all other cases, the statement will **NOT** be shown.
@@ -397,7 +397,7 @@ To achieve the same effect you can set up your statements to be shown one after 
 
 It worked! The correct statement is shown and all the others are skipped based on the skin type the customer selected in the previous question.
 
-[Skip logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/) can also be used to:
+[Skip logic](/how-to-guides/use-skip-logic/) can also be used to:
 
 - show or hide a number of follow-up questions,
 - show or hide follow-up content based on questions that allow multiple answers.
@@ -409,13 +409,13 @@ It worked! The correct statement is shown and all the others are skipped based o
 </div>
 
 
-Logic can also be applied to the contents of your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
+Logic can also be applied to the contents of your [Results Page](/reference/quiz-builder/results-page/). 
 
-With [Block logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/), you can show or hide elements of your results page based on the customer's answers.
+With [Block logic](/how-to-guides/use-block-logic/), you can show or hide elements of your results page based on the customer's answers.
 
-1. Let’s add four `Content blocks` with the skin type advice to your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).
-2. You can edit the block text with [Markdown language](https://docs.revenuehunt.com/how-to-guides/use-markdown/).
-3. Now, how can we make only one block appear, instead of all of them? We can add [Block logic](https://docs.revenuehunt.com/reference/quiz-builder/#block-logic).
+1. Let’s add four `Content blocks` with the skin type advice to your [Results Page](/reference/quiz-builder/results-page/).
+2. You can edit the block text with [Markdown language](/how-to-guides/use-markdown/).
+3. Now, how can we make only one block appear, instead of all of them? We can add [Block logic](/reference/quiz-builder/conditional-logic/#block-logic).
 4. To do that, activate it in the lower right corner with the `...` button. 
 5. Let’s add the first logic condition.
     - If the answer to `‘How does your skin feel on an average day?’` is `‘Dry and tight all over’` then this block (*Dry skin block*) will be **Visible**. 
@@ -425,7 +425,7 @@ With [Block logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/),
 
 You’ve now successfully used Block logic to show and hide content on the Results page.
 
-[Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) is a powerful tool that can also be used to:
+[Block Logic](/how-to-guides/use-block-logic/) is a powerful tool that can also be used to:
 
 - show different image results depending on customer answers
 - or show product blocks with different numbers of recommendations. 

@@ -29,7 +29,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
 
 ## Intro 
 
-In this tutorial, you’ll learn how to use simple [conditional logic](https://docs.revenuehunt.com/how-to-guides/use-conditional-logic/) to give personalized advice. 
+In this tutorial, you’ll learn how to use simple [conditional logic](/how-to-guides/use-conditional-logic/) to give personalized advice. 
 
 A quiz can act as a professional shopping assistant. It can react to the answers given by the customer and provide valuable feedback. All it takes is a bit of logic. 
 
@@ -47,16 +47,16 @@ Let’s start with Jump Logic.
 2. Make it longer by adding a description.
 3. One statement will be needed for each type of skin advice.
 
-Now, how can we make only one block appear, instead of all of them, one after the other? We can use [Jump Logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/).
+Now, how can we make only one block appear, instead of all of them, one after the other? We can use [Jump Logic](/how-to-guides/use-jump-logic/).
 
-1. Open the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab and select a question. 
-2. Let’s add the first [Jump logic](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) condition:
+1. Open the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select a question. 
+2. Let’s add the first [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) condition:
     - If the answer to `‘How does your skin feel on an average day?’` is `‘Dry and tight all over’` then *Dry skin* advice should appear. 
 3. Click on the `+` plus sign to add another statement that can be true. This creates an additional `OR` conditional statement.
     - If the answer to `‘How does your skin feel on an average day?’` is `‘Oily all over’` then *Oily skin* advice should appear. 
 4. The `OR` separator between conditions means that only one of these has to be true for the logic to work.
 5. Let’s add conditions for the *Combination* and *Normal* skin.
-6. To ensure the customer doesn’t see all four statements additional [Jump logic](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) should be added to each of them. 
+6. To ensure the customer doesn’t see all four statements additional [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) should be added to each of them. 
 7. Click on a `statement` question.
 8. In the `Always jump to…` section, indicate the question or a page that should preceed it.
 9. Do the same for the other three statements.
@@ -68,7 +68,7 @@ It seems that everything works correctly, well done!
 
 You’ve successfully added Jump Logic to your quiz. Your customers will now be able to see this personalized advice whenever they take the quiz.
 
-[Jump Logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/) is a powerful tool. It can also be used to:
+[Jump Logic](/how-to-guides/use-jump-logic/) is a powerful tool. It can also be used to:
 
 - redirect the customer to another, external URL directly from the quiz,
 - create branching in the quiz to send the customer to different answering paths,
@@ -77,11 +77,11 @@ You’ve successfully added Jump Logic to your quiz. Your customers will now be 
 
 ## Skip Logic
 
-For linear quizzes, using [Skip Logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/) instead is recommended.
+For linear quizzes, using [Skip Logic](/how-to-guides/use-skip-logic/) instead is recommended.
 
 To achieve the same effect you can set up your statements to be shown one after another.
 
-1. Navigate to the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab, select a question and open the [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) menu.
+1. Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab, select a question and open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) menu.
 2. Then, add a Skip Logic rule to each statement. For example, when selecting a *Dry skin* statement, the rule states:
     - If the answer question `‘How does your skin feel on an average day?’` **IS NOT**  `Dry and tight all over`, then this question is skipped.
     - This implies that the *Dry skin* statement will **NOT** be skipped only if the answer to that question is `Dry and thigh all over`. In all other cases, the statement will **NOT** be shown.
@@ -91,20 +91,20 @@ To achieve the same effect you can set up your statements to be shown one after 
 
 It worked! The correct statement is shown and all the others are skipped based on the skin type the customer selected in the previous question.
 
-[Skip logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/) can also be used to:
+[Skip logic](/how-to-guides/use-skip-logic/) can also be used to:
 
 - show or hide a number of follow-up questions,
 - show or hide follow-up content based on questions that allow multiple answers.
 
 ## Block Logic
 
-Logic can also be applied to the contents of your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
+Logic can also be applied to the contents of your [Results Page](/reference/quiz-builder/results-page/). 
 
-With [Block logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/), you can show or hide elements of your results page based on the customer's answers.
+With [Block logic](/how-to-guides/use-block-logic/), you can show or hide elements of your results page based on the customer's answers.
 
-1. Let’s add four `Content blocks` with the skin type advice to your [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).
-2. You can edit the block text with [Markdown language](https://docs.revenuehunt.com/how-to-guides/use-markdown/).
-3. Now, how can we make only one block appear, instead of all of them? We can add [Block logic](https://docs.revenuehunt.com/reference/quiz-builder/#block-logic).
+1. Let’s add four `Content blocks` with the skin type advice to your [Results Page](/reference/quiz-builder/results-page/).
+2. You can edit the block text with [Markdown language](/how-to-guides/use-markdown/).
+3. Now, how can we make only one block appear, instead of all of them? We can add [Block logic](/reference/quiz-builder/conditional-logic/#block-logic).
 4. To do that, activate it in the lower right corner with the `...` button. 
 5. Let’s add the first logic condition.
     - If the answer to `‘How does your skin feel on an average day?’` is `‘Dry and tight all over’` then this block (*Dry skin block*) will be **Visible**. 
@@ -114,7 +114,7 @@ With [Block logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/),
 
 You’ve now successfully used Block logic to show and hide content on the Results page.
 
-[Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) is a powerful tool that can also be used to:
+[Block Logic](/how-to-guides/use-block-logic/) is a powerful tool that can also be used to:
 
 - show different image results depending on customer answers
 - or show product blocks with different numbers of recommendations. 
@@ -122,5 +122,5 @@ You’ve now successfully used Block logic to show and hide content on the Resul
 
 Congratulations! You’ve learned how to use simple logic to show personalized advice to your customers.
 
-Check out our [documentation](https://docs.revenuehunt.com/) for more resources on getting started with recommendation quizzes.
+Check out our [documentation](/) for more resources on getting started with recommendation quizzes.
 

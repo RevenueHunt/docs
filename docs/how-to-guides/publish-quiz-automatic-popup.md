@@ -31,14 +31,14 @@ Before You Start:
     <iframe src="https://www.youtube.com/embed/ZAK781-T1Z8?si=NAy4XjfDeisEw0w-" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+    1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
     2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
     3. **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID, adjust settings, and activate the toggle.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
     ### Option 2: Manual
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode, and `Show Instructions for Legacy Themes`.
+    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode, and `Show Instructions for Legacy Themes`.
     2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
     4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
@@ -46,7 +46,7 @@ Before You Start:
 
 === "WooCommerce"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     3. In WordPress, open `Pages` and find the Front Page. Click `Edit` to open the page.
     4. In the editor, find a `Custom HTML` element and add it to the page.
@@ -61,7 +61,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In your Magento dashboard go to `Content` > `Blocks`. Click `Add New Block`.
     5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`. 
@@ -79,7 +79,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Find the main page.
     5. Switch to the `HTML` editor. Paste the HTML code copied from the app.
@@ -93,7 +93,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In your store customization options find the main page.
     5. Find a `Custom HTML` element. In the element settings paste the code copied from the app.
@@ -111,7 +111,7 @@ Before You Start:
 
 === "WooCommerce"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     3. In WordPress, open `Pages` and find the page where you want the popup to show. Click `Edit` to open the page.
     4. In the editor, find a `Custom HTML` element and add it to the page.
@@ -126,7 +126,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In your Magento dashbaord go to `Content` > `Pages`. Click `Add New Page` or open an existing page.
     5. Edit the Page and open the `Content` tab. Click `Edit with Page Builder`. 
@@ -144,7 +144,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Click `Create a Web Page` or pen an existing page.
     5. Under `Web Page Details` > `Page Content` switch to the `HTML` editor. Paste the HTML code copied from the app.
@@ -158,7 +158,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In your store customization options find the page you want the quiz to show on.
     5. Find a ` Custom HTML` element. In the element settings paste the code copied from the app.
@@ -169,7 +169,7 @@ Before You Start:
 
 === "Shopify"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select `Automatic` mode, and `Show Instructions for Legacy Themes`.
+    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select `Automatic` mode, and `Show Instructions for Legacy Themes`.
     2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     3. **Edit Theme's Source Code**: Navigate to `Online Store > Themes`, click `Actions > Edit Code` to access the theme editor.
     4. **Locate and Edit File**: Find the `</body>` tag in `theme.liquid` or `footer.liquid`. Paste the popup code just before this tag.
@@ -242,7 +242,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code. Copy the HTML code.
     4. In your store customization options find the option to edit your store's theme.
     5. In the footer add the HTML code copied from the app. This will ensure the popup shows up on all pages in your store.
@@ -254,14 +254,14 @@ Before You Start:
 
     ### Option 1: Through Shopify Theme
 
-    1. **Copy Quiz ID**: Go to your RevenueHunt [dashboard](https://docs.revenuehunt.com/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+    1. **Copy Quiz ID**: Go to your RevenueHunt [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
     2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
     3. **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID and activate the `Exit intent` option in your popup settings.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
     ### Option 2: Manual
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode, and `Show Instructions for Legacy Themes`.
+    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode, and `Show Instructions for Legacy Themes`.
     2. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
     3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
     4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
@@ -269,7 +269,7 @@ Before You Start:
 
 === "WooCommerce"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     2. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
     3. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).
 
@@ -280,7 +280,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
     4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).      
 
@@ -291,7 +291,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
     4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).  
 
@@ -302,7 +302,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
     4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).          
 
@@ -310,7 +310,7 @@ Before You Start:
 
 === "Shopify"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode, and `Show Instructions for Legacy Themes`.
+    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode, and `Show Instructions for Legacy Themes`.
     2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     3. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example: 
 
@@ -324,7 +324,7 @@ Before You Start:
 
 === "WooCommerce"
 
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     3. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example: 
 
@@ -341,7 +341,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     4. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example: 
 
@@ -358,7 +358,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     4. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example: 
 
@@ -375,7 +375,7 @@ Before You Start:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Automatic`](https://docs.revenuehunt.com/reference/quiz-builder/#automatic) mode.
+    2. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
     3. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     4. **Modify Popup Code**: To show the popup more than once per session until completion, add `data-aggressive="true"` to your popup code. Example: 
 

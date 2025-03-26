@@ -10,8 +10,8 @@ SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails acros
 
 ![how to set up smtp](/images/manual_appsettings_smtp.png)
 
-1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](https://docs.revenuehunt.com/reference/app-settings/).
-2. **Locate SMTP Settings**: Select the [SMTP tab](https://docs.revenuehunt.com/reference/app-settings/#smtp).
+1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
+2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
 3. **Enter SMTP Details**: Fill in your SMTP server details. 
 
     !!! note

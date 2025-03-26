@@ -22,9 +22,9 @@ For merchants who meet specific criteria, the Shop App feature will be enabled a
 
 ## Managing Your Quiz in Shop app
 
-If the Shop App feature has not been activated for your store automatically, you can manually set it up through the [App Settings](https://docs.revenuehunt.com/reference/app-settings/). 
+If the Shop App feature has not been activated for your store automatically, you can manually set it up through the [App Settings](/reference/app-settings/). 
 
-1. **Open App Settings**: Navigate to the [`Shop App`](https://docs.revenuehunt.com/reference/app-settings/#shop-app-beta) menu within the [App settings](https://docs.revenuehunt.com/reference/app-settings/#shop-app-beta) to get started.
+1. **Open App Settings**: Navigate to the [`Shop App`](/reference/app-settings/#shop-app-beta) menu within the [App settings](/reference/app-settings/#shop-app-beta) to get started.
   ![how to show quiz in shop app settings](/images/manual_appsettings_shopapp_preview.png)
 2. **Select Quiz**: To control which quiz is presented to your customers in the Shop app, simply select your preferred quiz from the dropdown menu. The selected quiz will automatically be set as the default for display in the Shop app.
 3. **Mark as default**: The quiz that appears in your Shop store is the one **marked as default**. You can easily identify the default quiz by looking for a small star icon in the top right corner of the quiz's icon on the dashboard. 

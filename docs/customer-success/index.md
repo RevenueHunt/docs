@@ -10,7 +10,7 @@ Key Articles to Get You Started:
 
     In this guide, we cover the step-by-step process to build a quiz that not only recommends products but also provides a personalized shopping experience for your customers and grows your sales.
 
-2. [📉 How to Reduce Drop-Off](https://docs.revenuehunt.com/customer-success/reduce-dropoff/)
+2. [📉 How to Reduce Drop-Off](/customer-success/reduce-dropoff/)
 
     From designing intuitive interfaces to crafting compelling content, we provide actionable tips to help you retain user attention and improve completion rates.
 
@@ -34,6 +34,6 @@ Key Articles to Get You Started:
 
     Learn how to effectively ask for marketing consent in your product recommendation quizzes to boost user engagement and data collection.
 
-At RevenueHunt, we're dedicated to your success. Explore our resources, implement our strategies, and watch your e-commerce store thrive. If you have any questions or need further assistance, [our support team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/) is always here to help.
+At RevenueHunt, we're dedicated to your success. Explore our resources, implement our strategies, and watch your e-commerce store thrive. If you have any questions or need further assistance, [our support team](/how-to-guides/contact-customer-support/) is always here to help.
 
 Let's get started and take your store to new heights with RevenueHunt!

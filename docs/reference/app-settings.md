@@ -100,7 +100,7 @@
 
     ![app settings catalogue](/images/manual_appsettings_catalogue.png)
 
-    **Metafields Namespaces** - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields and follow this article to show them in the quiz: [How to Add Product Metafileds](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    **Metafields Namespaces** - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields and follow this article to show them in the quiz: [How to Add Product Metafileds](/how-to-guides/add-product-metafields/).
 
 === "Shopify V2"
 
@@ -121,8 +121,8 @@
     **What information to pull from your products** - Choose custom settings for your products within the app.
 
     - **Short/Long description in products** - By selecting one or the other you can choose which description of your products will be shown on the results page.
-    - **Pass attribute information to result page** - Toggle to activate/desactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafileds](https://docs.revenuehunt.com/how-to-guides/how-to-add-product-metafields/).
-    - **Use attributes as categories** - Allows you to use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections).
+    - **Pass attribute information to result page** - Toggle to activate/desactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafileds](/how-to-guides/how-to-add-product-metafields/).
+    - **Use attributes as categories** - Allows you to use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](/reference/quiz-builder/link-collections/).
 
 === "Magento"
 
@@ -132,7 +132,7 @@
 
 === "Standalone"
 
-    To access the **Catalogue** settings in the standalone version of the Product Recommendation Quiz, open the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) or [this link](https://admin.revenuehunt.com/catalogue).
+    To access the **Catalogue** settings in the standalone version of the Product Recommendation Quiz, open the [Success Checklist](/reference/dashboard/#success-checklist) or [this link](https://admin.revenuehunt.com/catalogue).
 
 ## SMTP
 
@@ -146,7 +146,7 @@
 
     When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
 
-    Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     **Name to display(From):** - Set what name and email the customer will see when they receive the email.
 
@@ -170,7 +170,7 @@
 
     When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
 
-    Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     **SMTP From** - Set what name and email the customer will see when they receive the email. The "From" field must be in format: `"Full Name" <name@company.com>`.
 
@@ -200,7 +200,7 @@
 
     When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
 
-    Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     **Name to display(From):** - Set what name and email the customer will see when they receive the email.
 
@@ -224,7 +224,7 @@
 
     When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
 
-    Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     **Name to display(From):** - Set what name and email the customer will see when they receive the email.
 
@@ -248,7 +248,7 @@
 
     When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
 
-    Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     **Name to display(From):** - Set what name and email the customer will see when they receive the email.
 
@@ -272,7 +272,7 @@
 
     When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
 
-    Check [How to Send Result Emails from your own server](https://docs.revenuehunt.com/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     **Name to display(From):** - Set what name and email the customer will see when they receive the email.
 

@@ -8,15 +8,15 @@ icon: material/currency-usd
 
     To change the quiz currency:
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Navigate to the [`Quiz Settings > General`](https://docs.revenuehunt.com/reference/quiz-builder/#general) tab.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
 
     !!! info
 
-        If you're missing a currency from the list, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        If you're missing a currency from the list, please [contact support](/how-to-guides/contact-customer-support/).
 
 === "Shopify V2"
 
@@ -24,8 +24,8 @@ icon: material/currency-usd
     
     To assign a market to the quiz follow the instructions below.
     
-    1. Open the [App Settings](https://docs.revenuehunt.com/reference/app-settings/).
-    2. Open the [Markets](https://docs.revenuehunt.com/reference/app-settings/#markets) tab.
+    1. Open the [App Settings](/reference/app-settings/).
+    2. Open the [Markets](/reference/app-settings/#markets) tab.
         ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
     3. Find a market and click the `dropdown list` to select the quiz that should be default for this market. 
         ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
@@ -35,57 +35,57 @@ icon: material/currency-usd
 
     To change the quiz currency:
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Navigate to the [`Quiz Settings > General`](https://docs.revenuehunt.com/reference/quiz-builder/#general) tab.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
 
     !!! info
 
-        If you're missing a currency from the list, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        If you're missing a currency from the list, please [contact support](/how-to-guides/contact-customer-support/).
 
 === "Magento"
 
     To change the quiz currency:
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Navigate to the [`Quiz Settings > General`](https://docs.revenuehunt.com/reference/quiz-builder/#general) tab.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
 
     !!! info
 
-        If you're missing a currency from the list, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        If you're missing a currency from the list, please [contact support](/how-to-guides/contact-customer-support/).
 
 === "BigCommerce"
 
     To change the quiz currency:
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Navigate to the [`Quiz Settings > General`](https://docs.revenuehunt.com/reference/quiz-builder/#general) tab.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
 
     !!! info
 
-        If you're missing a currency from the list, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        If you're missing a currency from the list, please [contact support](/how-to-guides/contact-customer-support/).
 
 === "Standalone"
 
     To change the quiz currency:
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Navigate to the [`Quiz Settings > General`](https://docs.revenuehunt.com/reference/quiz-builder/#general) tab.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
 
     !!! info
 
-        If you're missing a currency from the list, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        If you're missing a currency from the list, please [contact support](/how-to-guides/contact-customer-support/).
 
 ## Multi-currency quizzes
 
@@ -97,10 +97,10 @@ icon: material/currency-usd
 
     Follow these steps to apply this workaround:
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Navigate to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).
-    3. Open the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
-    4. In [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
+    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
     5. Scroll down to `Individual Product Settings`. 
     5. Search for `Show price` and click the toggle to deactivate it. 
 
@@ -120,10 +120,10 @@ icon: material/currency-usd
 
     Follow these steps to apply this workaround:
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Navigate to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).
-    3. Open the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
-    4. In [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
+    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
     5. Scroll down to `Individual Product Settings`. 
     5. Search for `Show price` and click the toggle to deactivate it. 
 
@@ -137,10 +137,10 @@ icon: material/currency-usd
 
     Follow these steps to apply this workaround:
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Navigate to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).
-    3. Open the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
-    4. In [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
+    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
     5. Scroll down to `Individual Product Settings`. 
     5. Search for `Show price` and click the toggle to deactivate it. 
 
@@ -154,10 +154,10 @@ icon: material/currency-usd
 
     Follow these steps to apply this workaround:
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Navigate to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).
-    3. Open the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
-    4. In [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
+    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
     5. Scroll down to `Individual Product Settings`. 
     5. Search for `Show price` and click the toggle to deactivate it. 
 
@@ -171,10 +171,10 @@ icon: material/currency-usd
 
     Follow these steps to apply this workaround:
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Navigate to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).
-    3. Open the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
-    4. In [Basic Settings](https://docs.revenuehunt.com/reference/quiz-builder/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
+    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
     5. Scroll down to `Individual Product Settings`. 
     5. Search for `Show price` and click the toggle to deactivate it. 
 

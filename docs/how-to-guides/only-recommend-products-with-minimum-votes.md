@@ -6,8 +6,8 @@ To activate this setting in your quiz follow the instructions below.
 
 === "Shopify"
 
-    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
-    2. Make sure you understand how our [recommendations algorithm](https://docs.revenuehunt.com/how-to-guides/recommend-products/) works.
+    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
+    2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
 
         ??? question "How do I get the right recommendations?"
 
@@ -19,13 +19,13 @@ To activate this setting in your quiz follow the instructions below.
             - If no products have been linked or all the products have been excluded, the results page will appear empty
             - If there's a draw in the number of votes, the app will randomize the order of products.
 
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
-    2. Open the [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
         ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
 
-    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings). 
-    5. Open the [Product/Slot Block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) and find the `Min. Number of Votes`. 
+    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](/reference/quiz-builder/questions/#block-settings). 
+    5. Open the [Product/Slot Block settings](/reference/quiz-builder/questions/#block-settings) and find the `Min. Number of Votes`. 
     6. Click on a dropdown and select a number. You can change the number of minumun votes to the number that fits your quiz setup. 
         ![how_to_only_recommend_product_with_min_votes_block_settings.png](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
 
@@ -39,13 +39,13 @@ To activate this setting in your quiz follow the instructions below.
 
     !!! warning
 
-        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) > Advanced > `Recommendation Settings`.
+        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
         ![how to only recommend product with min votes show random products](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
 
 === "Shopify V2"
 
-    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
-    2. Make sure you understand how our [recommendations algorithm](https://docs.revenuehunt.com/how-to-guides/recommend-products/) works.
+    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
+    2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
 
         ??? question "How do I get the right recommendations?"
 
@@ -57,8 +57,8 @@ To activate this setting in your quiz follow the instructions below.
             - If no products have been linked or all the products have been excluded, the results page will appear empty
             - If there's a draw in the number of votes, the app will randomize the order of products.
 
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).
-    2. Open the [Product Block Settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings_1).
+    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page](/reference/quiz-builder/results-page/).
+    2. Open the [Product Block Settings](/reference/quiz-builder/results-page/#block-settings).
     3. Scroll down to find the `Minimum number of votes` setting.
         ![how to only recommend product with min votes results page settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
@@ -76,8 +76,8 @@ To activate this setting in your quiz follow the instructions below.
 
 === "WooCommerce"
 
-    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
-    2. Make sure you understand how our [recommendations algorithm](https://docs.revenuehunt.com/how-to-guides/recommend-products/) works.
+    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
+    2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
 
         ??? question "How do I get the right recommendations?"
 
@@ -89,13 +89,13 @@ To activate this setting in your quiz follow the instructions below.
             - If no products have been linked or all the products have been excluded, the results page will appear empty
             - If there's a draw in the number of votes, the app will randomize the order of products.
 
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
-    2. Open the [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
         ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
 
-    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings). 
-    5. Open the [Product/Slot Block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) and find the `Min. Number of Votes`. 
+    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](/reference/quiz-builder/questions/#block-settings). 
+    5. Open the [Product/Slot Block settings](/reference/quiz-builder/questions/#block-settings) and find the `Min. Number of Votes`. 
     6. Click on a dropdown and select a number. You can change the number of minumun votes to the number that fits your quiz setup. 
         ![how_to_only_recommend_product_with_min_votes_block_settings.png](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
 
@@ -109,13 +109,13 @@ To activate this setting in your quiz follow the instructions below.
 
     !!! warning
 
-        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) > Advanced > `Recommendation Settings`.
+        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
         ![how to only recommend product with min votes show random products](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
 
 === "Magento"
 
-    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
-    2. Make sure you understand how our [recommendations algorithm](https://docs.revenuehunt.com/how-to-guides/recommend-products/) works.
+    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
+    2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
 
         ??? question "How do I get the right recommendations?"
 
@@ -127,13 +127,13 @@ To activate this setting in your quiz follow the instructions below.
             - If no products have been linked or all the products have been excluded, the results page will appear empty
             - If there's a draw in the number of votes, the app will randomize the order of products.
 
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
-    2. Open the [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
         ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
 
-    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings). 
-    5. Open the [Product/Slot Block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) and find the `Min. Number of Votes`. 
+    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](/reference/quiz-builder/questions/#block-settings). 
+    5. Open the [Product/Slot Block settings](/reference/quiz-builder/questions/#block-settings) and find the `Min. Number of Votes`. 
     6. Click on a dropdown and select a number. You can change the number of minumun votes to the number that fits your quiz setup. 
         ![how_to_only_recommend_product_with_min_votes_block_settings.png](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
 
@@ -147,13 +147,13 @@ To activate this setting in your quiz follow the instructions below.
 
     !!! warning
 
-        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) > Advanced > `Recommendation Settings`.
+        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
         ![how to only recommend product with min votes show random products](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
 
 === "BigCommerce"
 
-    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
-    2. Make sure you understand how our [recommendations algorithm](https://docs.revenuehunt.com/how-to-guides/recommend-products/) works.
+    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
+    2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
 
         ??? question "How do I get the right recommendations?"
 
@@ -165,13 +165,13 @@ To activate this setting in your quiz follow the instructions below.
             - If no products have been linked or all the products have been excluded, the results page will appear empty
             - If there's a draw in the number of votes, the app will randomize the order of products.
 
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
-    2. Open the [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
         ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
 
-    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings). 
-    5. Open the [Product/Slot Block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) and find the `Min. Number of Votes`. 
+    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](/reference/quiz-builder/questions/#block-settings). 
+    5. Open the [Product/Slot Block settings](/reference/quiz-builder/questions/#block-settings) and find the `Min. Number of Votes`. 
     6. Click on a dropdown and select a number. You can change the number of minumun votes to the number that fits your quiz setup. 
         ![how_to_only_recommend_product_with_min_votes_block_settings.png](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
 
@@ -185,13 +185,13 @@ To activate this setting in your quiz follow the instructions below.
 
     !!! warning
 
-        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) > Advanced > `Recommendation Settings`.
+        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
         ![how to only recommend product with min votes show random products](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
 
 === "Standalone"
 
-    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
-    2. Make sure you understand how our [recommendations algorithm](https://docs.revenuehunt.com/how-to-guides/recommend-products/) works.
+    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
+    2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
 
         ??? question "How do I get the right recommendations?"
 
@@ -203,13 +203,13 @@ To activate this setting in your quiz follow the instructions below.
             - If no products have been linked or all the products have been excluded, the results page will appear empty
             - If there's a draw in the number of votes, the app will randomize the order of products.
 
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
-    2. Open the [Advanced Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the `Minimum number of votes` setting and activate it by clicking the toggle.
         ![how to only recommend product with min votes results page settings](/images/how_to_only_recommend_product_with_min_votes_results_page_settings.png)
 
-    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings). 
-    5. Open the [Product/Slot Block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) and find the `Min. Number of Votes`. 
+    4. Once this option is active, the **Products Block** (or a **Slots Block**) on your results page will show extra setting in the [Block Settings](/reference/quiz-builder/questions/#block-settings). 
+    5. Open the [Product/Slot Block settings](/reference/quiz-builder/questions/#block-settings) and find the `Min. Number of Votes`. 
     6. Click on a dropdown and select a number. You can change the number of minumun votes to the number that fits your quiz setup. 
         ![how_to_only_recommend_product_with_min_votes_block_settings.png](/images/how_to_only_recommend_product_with_min_votes_block_settings.png)
 
@@ -223,7 +223,7 @@ To activate this setting in your quiz follow the instructions below.
 
     !!! warning
 
-        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings) > Advanced > `Recommendation Settings`.
+        The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
         ![how to only recommend product with min votes show random products](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
 
 ---

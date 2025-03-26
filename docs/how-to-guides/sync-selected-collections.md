@@ -6,7 +6,7 @@ The `collections/categories first` feature allows you to prioritize which collec
 
 !!! info
 
-    To activate this feature in your account, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+    To activate this feature in your account, please [contact support](/how-to-guides/contact-customer-support/).
 
 !!! note
 
@@ -16,7 +16,7 @@ This guide outlines the steps to select specific collections for synchronization
 
 ## Selecting Collections/Categories for Synchronization
 
-1. **Access the Success Checklist**: To select the collections/categories to sync, go to the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) panel in the `Dashboard`. 
+1. **Access the Success Checklist**: To select the collections/categories to sync, go to the [Success Checklist](/reference/dashboard/#success-checklist) panel in the `Dashboard`. 
 2. **Initiate Collection/Categories Selection**: Under `Sync Products from your store` click `Choose Active Collections/Categories`.
 3. **Choose Your Collections/Categories**: Next, select the collections/categories you want to sync with the app. The number in brackets `()` shows how many products are currently in the collection/category. Activate or deactivate a collection/category by clicking on the toggle icon.
     ![how to sync selected collections](/images/how_to_sync_selected_collections.gif)

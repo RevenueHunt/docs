@@ -40,7 +40,7 @@ This guide explains how to implement Discount Coupons for Checkout with the Reve
 
     ### Static Discount
 
-    1. Navigate to [Results Page Settings > Discount Settings](https://docs.revenuehunt.com/reference/quiz-builder/#discounts-settings) and access the Discount Code Settings section. 
+    1. Navigate to [Results Page Settings > Discount Settings](/reference/quiz-builder/results-page/#discounts-settings) and access the Discount Code Settings section. 
     2. Here, you'll find a `Code` field. This field is for entering the discount code that will be automatically applied at checkout.
         ![how to add discount static](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -58,7 +58,7 @@ This guide explains how to implement Discount Coupons for Checkout with the Reve
 
             Remember, only manual discount codes are compatible with our app.
 
-    2. Proceed to the quiz's Results Page tab. Within [Results Page Settings > Discounts](https://docs.revenuehunt.com/reference/quiz-builder/#discounts-settings), activate Dynamic Discounts. Click "activate" to open the discount menu.
+    2. Proceed to the quiz's Results Page tab. Within [Results Page Settings > Discounts](/reference/quiz-builder/results-page/#discounts-settings), activate Dynamic Discounts. Click "activate" to open the discount menu.
 
         ![how to add discount dynamic](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
@@ -84,7 +84,7 @@ This guide explains how to implement Discount Coupons for Checkout with the Reve
 
 === "WooCommerce"
 
-    Then in the Product Recommendation Quiz, go to the [Results Page Settings > Checkout Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) and paste the copied URI in the `Cart URL` field.
+    Then in the Product Recommendation Quiz, go to the [Results Page Settings > Checkout Settings](/reference/quiz-builder/results-page/-settings) and paste the copied URI in the `Cart URL` field.
 
     ![how to add discount woo step 2](/images/how_to_add_discount_woo_step_2.png)
 
@@ -94,19 +94,19 @@ This guide explains how to implement Discount Coupons for Checkout with the Reve
 
 ## Step 3: Publish Changes
 
-1. Click the top-right [`Publish` button](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to apply your changes to the live quiz/preview.
+1. Click the top-right [`Publish` button](/reference/quiz-builder/questions/) to apply your changes to the live quiz/preview.
 
 ## (Optional) Including Discount Codes in Follow-Up Emails
 
 To further personalize the customer experience, you can incorporate the discount code within the follow-up email and results page. This allows customers to conveniently copy and paste the code at checkout.
 
-Simply go to your quiz settings, find the [Notifications > TO RESPONDENT](https://docs.revenuehunt.com/reference/quiz-builder/#to-respondent) tab, and edit the message to include your discount code text.
+Simply go to your quiz settings, find the [Notifications > TO RESPONDENT](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
 
 ## Apply Discount Only if Customer Leaves Their Email
 
 In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
 
-1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](https://docs.revenuehunt.com/reference/quiz-builder/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
+1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
     ![how to add discount multiple result pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png)
 2. You can then rename the page and edit it by clicking `edit`.
     ![how to add discount result pages](/images/how_to_add_discount_result_pages.png)
@@ -116,7 +116,7 @@ In RevenueHunt app, it is possible to apply a discount at checkout only for the 
 
         For the discount to work, you need to set it up first in your Shopify store. Check the [first part of this article](#how-to-add-a-discounts-to-your-quiz) for instructions.
 
-4. **Add a discount question**: Next, navigate to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `discount question` by clicking `+`. 
+4. **Add a discount question**: Next, navigate to the [Quiz Builder](/reference/quiz-builder/) and add a `discount question` by clicking `+`. 
     ![how to add discount discount question](/images/how_to_add_discount_discount_question.png)
 
 5. **Add an email question**: Then, add an `email question` by clicking `+`.

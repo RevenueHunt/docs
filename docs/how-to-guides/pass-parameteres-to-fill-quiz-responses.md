@@ -36,8 +36,8 @@ window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
 **Solution**: You can pass parameters to the quiz (eg. product ID) and “store” them in a question as a pre-filled answer.
 
  
-1. You will first need to create a `Short Text` question to store the product ID. Check how to add this question [here](https://docs.revenuehunt.com/reference/quiz-builder/#question-types).
-2. Copy that question ID from [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+1. You will first need to create a `Short Text` question to store the product ID. Check how to add this question [here](/reference/quiz-builder/questions/#question-types).
+2. Copy that question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
 3. Then in your main product page include the following script, so you can add some script like this to your product page:
 
 ```html

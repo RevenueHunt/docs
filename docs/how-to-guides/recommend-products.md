@@ -12,19 +12,19 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
 === "Shopify" 
 
-    RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **[Recharge subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**. 
+    RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **[Recharge subscription products](/how-to-guides/recommend-subscription-products/)**. 
 
-    RevenueHunt Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+    RevenueHunt Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](/how-to-guides/recommend-skincare-routine-slots/).
 
 === "Shopify V2" 
 
-    RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products**, **collections** and **[Recharge subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**.
+    RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products**, **collections** and **[Recharge subscription products](/how-to-guides/recommend-subscription-products/)**.
 
 === "WooCommerce" 
 
-    RevenueHunt Product Recommendation Quiz can show on the results page **simple products**, **variable products**, **grouped products**, **external/affiliate products** and **[WooCommerce subscription products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)**. 
+    RevenueHunt Product Recommendation Quiz can show on the results page **simple products**, **variable products**, **grouped products**, **external/affiliate products** and **[WooCommerce subscription products](/how-to-guides/recommend-subscription-products/)**. 
 
-    RevenueHunt Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category/tag/attribute](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+    RevenueHunt Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category/tag/attribute](/how-to-guides/recommend-skincare-routine-slots/).
 
     !!! warning
     
@@ -34,19 +34,19 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
 
-    RevenueHunt Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+    RevenueHunt Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category](/how-to-guides/recommend-skincare-routine-slots/).
 
 === "BigCommerce" 
 
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
 
-    RevenueHunt Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+    RevenueHunt Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category](/how-to-guides/recommend-skincare-routine-slots/).
 
 === "Standalone" 
 
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants** and **main products**. 
 
-    RevenueHunt Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/).
+    RevenueHunt Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](/how-to-guides/recommend-skincare-routine-slots/).
 
 ## Voting System
 
@@ -61,7 +61,7 @@ Our product recommendation algorithm works like a voting system:
 ## Understand Inclusion and Exclusion
 
 ### Inclusion
-Products or collections added in the `include/upvotes` field of the [Link Products/Collections/Upvote](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab are upvoted in the final recommendations.
+Products or collections added in the `include/upvotes` field of the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab are upvoted in the final recommendations.
 
 === "Shopify"
 
@@ -74,7 +74,7 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
     - **Variant collections**: Created automatically by the app, every product within a linked variant collection receives a vote when their linked choice is selected.
     - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives a vote when their linked choice is selected.
-    - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) needs to be active for this option to appear in the Link Products section.
+    - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](/reference/quiz-builder/quiz-settings/) needs to be active for this option to appear in the Link Products section.
 
 === "Shopify V2"
 
@@ -101,7 +101,7 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     - **Affiliate Products** - Individual products receive a vote when their linked choice is selected. On the results page the customer is redirected to the affiliate link (not the store link).
     - **Categories**: Every product within a linked category receives a vote when their linked choice is selected.
     - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
-    - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) needs to be active for this option to appear in the Link Products section.
+    - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](/reference/quiz-builder/quiz-settings/) needs to be active for this option to appear in the Link Products section.
 
 === "Magento"
 
@@ -124,7 +124,7 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
 
     !!! tip
 
-        You can also use custom fields as tags within the app by following [these instructions](https://docs.revenuehunt.com//how-to-guides/use-custom-fields-as-tags/)
+        You can also use custom fields as tags within the app by following [these instructions](//how-to-guides/use-custom-fields-as-tags/)
 
 === "Standalone"
 
@@ -141,7 +141,7 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
 
 ### Exclusion
 
-Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
+Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/quiz-builder/link-products/) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
 
 === "Shopify"
 
@@ -183,36 +183,36 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
     Follow these steps to set up product recommendations in your Product Recommendation Quiz:
 
-    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab within your quiz setup. For each choice, link/upvote relevant products. 
+    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab within your quiz setup. For each choice, link/upvote relevant products. 
         - You can link./upvote product variants, collections, tags, variant collections, vendor collections or all variants of the same product at once.
-    2. **Edit the Results Page**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
+    2. **Edit the Results Page**: In the [Results Page](/reference/quiz-builder/results-page/) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
 
         !!! tip
 
-            Check [How to Edit the Results Page](https://docs.revenuehunt.com/how-to-guides/edit-results-page/) for more information.
+            Check [How to Edit the Results Page](/how-to-guides/edit-results-page/) for more information.
 
     3. **Add a Product Block**: Products can be displayed on the Results Page as a list via the `Product Block` or divided into slots via the `Product Slot Block`. For beginners, it's recommended to use a `Product Block` to show the recommendations.
-        - **Product Block** displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last. In [Product Block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
+        - **Product Block** displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last. In [Product Block settings](/reference/quiz-builder/questions/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
             ![how to recommend products product block](/images/how_to_recommend_products_product_block.png){width="500"}
 
-        - **Product Slot Blocks** allow you to display the products in clear steps, for example as a skincare routine. Each Product Slot will recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
+        - **Product Slot Blocks** allow you to display the products in clear steps, for example as a skincare routine. Each Product Slot will recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
             ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 
     4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
-        - Click [`Publish/Save`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) on the top-right menu to update the preview/live quiz. 
-        - Then, click [`Preview`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to test the quiz you've created in a new window. 
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz. 
+        - Then, click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created in a new window. 
         
             !!! note
             
                 You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
-    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](https://docs.revenuehunt.com/reference/quiz-builder/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
+    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
 
         !!! tip
-            Check [How to Troubleshoot Quiz Results](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
+            Check [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
             
     6. **Refine the Results**: If you want to make the results ultra-precise, you can also:
-        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use Exclusions**: You can use [Exclusions](#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
@@ -223,13 +223,13 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
     **→ OPTION 1: Based on Customer Responses**
 
-    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab within your quiz setup. For each choice, link/upvote relevant products. 
+    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab within your quiz setup. For each choice, link/upvote relevant products. 
         - You can link./upvote product variants, collections, tags, variant collections, vendor collections or all variants of the same product at once.
-    2. **Edit the Results Page**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
+    2. **Edit the Results Page**: In the [Results Page](/reference/quiz-builder/results-page/) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
 
         !!! tip
 
-            Check [How to Edit the Results Page](https://docs.revenuehunt.com/how-to-guides/edit-results-page/) for more information.
+            Check [How to Edit the Results Page](/how-to-guides/edit-results-page/) for more information.
 
     3. **Add a Product Block**: Products/Variants/Collections can be displayed on the Results Page as a list via the `Product Block` or divided into slots via the `Product Slot Block`. For beginners, it's recommended to use a `Product Block` to show the recommendations.
 
@@ -237,33 +237,33 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
         ![how to recommend products shopify v2 recommend products based on responses](/images/how_to_recommend_products_shopify_v2_recommend_products_based_on_responses.png)
         
-        In [Product Block > Slot settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
+        In [Product Block > Slot settings](/reference/quiz-builder/questions/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
 
         ![how to recommend products shopify v2 recommend products based on responses max products](/images/how_to_recommend_products_shopify_v2_recommend_products_based_on_responses_max_products.png)
 
         ![how to recommend products product block](/images/how_to_recommend_products_product_block.png){width="500"}
 
-        Product Block also allows you to display the products in clear steps, for example as a **skincare routine**. Each Product Block that has an added **Segement Filter** can recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
+        Product Block also allows you to display the products in clear steps, for example as a **skincare routine**. Each Product Block that has an added **Segement Filter** can recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
 
         ![how to recommend products shopify v2 recommend products based on responses segements](/images/how_to_recommend_products_shopify_v2_recommend_products_based_on_responses_segements.png)
 
         ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 
     4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
-        - Click [`Publish/Save`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) on the top-right menu to update the preview/live quiz. 
-        - Then, click [`Preview`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to test the quiz you've created in a new window. 
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz. 
+        - Then, click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created in a new window. 
         
             !!! note
             
                 You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
-    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](https://docs.revenuehunt.com/reference/quiz-builder/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
+    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
 
         !!! tip
-            Check [How to Troubleshoot Quiz Results](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
+            Check [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
             
     6. **Refine the Results**: If you want to make the results ultra-precise, you can also:
-        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use Exclusions**: You can use [Exclusions](#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
@@ -288,36 +288,36 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
     Follow these steps to set up product recommendations in your Product Recommendation Quiz:
 
-    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab within your quiz setup. For each choice, link/upvote relevant products. 
+    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab within your quiz setup. For each choice, link/upvote relevant products. 
         - You can link./upvote product variants, collections, tags, variant collections, vendor collections or all variants of the same product at once.
-    2. **Edit the Results Page**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
+    2. **Edit the Results Page**: In the [Results Page](/reference/quiz-builder/results-page/) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
 
         !!! tip
 
-            Check [How to Edit the Results Page](https://docs.revenuehunt.com/how-to-guides/edit-results-page/) for more information.
+            Check [How to Edit the Results Page](/how-to-guides/edit-results-page/) for more information.
 
     3. **Add a Product Block**: Products can be displayed on the Results Page as a list via the `Product Block` or divided into slots via the `Product Slot Block`. For beginners, it's recommended to use a `Product Block` to show the recommendations.
-        - **Product Block** displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last. In [Product Block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
+        - **Product Block** displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last. In [Product Block settings](/reference/quiz-builder/questions/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
             ![how to recommend products product block](/images/how_to_recommend_products_product_block.png){width="500"}
 
-        - **Product Slot Blocks** allow you to display the products in clear steps, for example as a skincare routine. Each Product Slot will recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
+        - **Product Slot Blocks** allow you to display the products in clear steps, for example as a skincare routine. Each Product Slot will recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
             ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 
     4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
-        - Click [`Publish/Save`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) on the top-right menu to update the preview/live quiz. 
-        - Then, click [`Preview`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to test the quiz you've created in a new window. 
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz. 
+        - Then, click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created in a new window. 
         
             !!! note
             
                 You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
-    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](https://docs.revenuehunt.com/reference/quiz-builder/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
+    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
 
         !!! tip
-            Check [How to Troubleshoot Quiz Results](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
+            Check [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
             
     6. **Refine the Results**: If you want to make the results ultra-precise, you can also:
-        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use Exclusions**: You can use [Exclusions](#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
@@ -326,36 +326,36 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
     Follow these steps to set up product recommendations in your Product Recommendation Quiz:
 
-    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab within your quiz setup. For each choice, link/upvote relevant products. 
+    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab within your quiz setup. For each choice, link/upvote relevant products. 
         - You can link./upvote product variants, collections, tags, variant collections, vendor collections or all variants of the same product at once.
-    2. **Edit the Results Page**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
+    2. **Edit the Results Page**: In the [Results Page](/reference/quiz-builder/results-page/) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
 
         !!! tip
 
-            Check [How to Edit the Results Page](https://docs.revenuehunt.com/how-to-guides/edit-results-page/) for more information.
+            Check [How to Edit the Results Page](/how-to-guides/edit-results-page/) for more information.
 
     3. **Add a Product Block**: Products can be displayed on the Results Page as a list via the `Product Block` or divided into slots via the `Product Slot Block`. For beginners, it's recommended to use a `Product Block` to show the recommendations.
-        - **Product Block** displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last. In [Product Block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
+        - **Product Block** displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last. In [Product Block settings](/reference/quiz-builder/questions/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
             ![how to recommend products product block](/images/how_to_recommend_products_product_block.png){width="500"}
 
-        - **Product Slot Blocks** allow you to display the products in clear steps, for example as a skincare routine. Each Product Slot will recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
+        - **Product Slot Blocks** allow you to display the products in clear steps, for example as a skincare routine. Each Product Slot will recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
             ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 
     4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
-        - Click [`Publish/Save`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) on the top-right menu to update the preview/live quiz. 
-        - Then, click [`Preview`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to test the quiz you've created in a new window. 
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz. 
+        - Then, click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created in a new window. 
         
             !!! note
             
                 You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
-    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](https://docs.revenuehunt.com/reference/quiz-builder/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
+    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
 
         !!! tip
-            Check [How to Troubleshoot Quiz Results](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
+            Check [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
             
     6. **Refine the Results**: If you want to make the results ultra-precise, you can also:
-        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use Exclusions**: You can use [Exclusions](#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
@@ -364,36 +364,36 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
     Follow these steps to set up product recommendations in your Product Recommendation Quiz:
 
-    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab within your quiz setup. For each choice, link/upvote relevant products. 
+    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab within your quiz setup. For each choice, link/upvote relevant products. 
         - You can link./upvote product variants, collections, tags, variant collections, vendor collections or all variants of the same product at once.
-    2. **Edit the Results Page**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
+    2. **Edit the Results Page**: In the [Results Page](/reference/quiz-builder/results-page/) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
 
         !!! tip
 
-            Check [How to Edit the Results Page](https://docs.revenuehunt.com/how-to-guides/edit-results-page/) for more information.
+            Check [How to Edit the Results Page](/how-to-guides/edit-results-page/) for more information.
 
     3. **Add a Product Block**: Products can be displayed on the Results Page as a list via the `Product Block` or divided into slots via the `Product Slot Block`. For beginners, it's recommended to use a `Product Block` to show the recommendations.
-        - **Product Block** displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last. In [Product Block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
+        - **Product Block** displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last. In [Product Block settings](/reference/quiz-builder/questions/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
             ![how to recommend products product block](/images/how_to_recommend_products_product_block.png){width="500"}
 
-        - **Product Slot Blocks** allow you to display the products in clear steps, for example as a skincare routine. Each Product Slot will recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
+        - **Product Slot Blocks** allow you to display the products in clear steps, for example as a skincare routine. Each Product Slot will recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
             ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 
     4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
-        - Click [`Publish/Save`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) on the top-right menu to update the preview/live quiz. 
-        - Then, click [`Preview`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to test the quiz you've created in a new window. 
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz. 
+        - Then, click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created in a new window. 
         
             !!! note
             
                 You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
-    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](https://docs.revenuehunt.com/reference/quiz-builder/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
+    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
 
         !!! tip
-            Check [How to Troubleshoot Quiz Results](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
+            Check [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
             
     6. **Refine the Results**: If you want to make the results ultra-precise, you can also:
-        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use Exclusions**: You can use [Exclusions](#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
@@ -402,36 +402,36 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](https://docs.
 
     Follow these steps to set up product recommendations in your Product Recommendation Quiz:
 
-    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab within your quiz setup. For each choice, link/upvote relevant products. 
+    1. **Link Products to Choices**: Navigate to the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab within your quiz setup. For each choice, link/upvote relevant products. 
         - You can link./upvote product variants, collections, tags, variant collections, vendor collections or all variants of the same product at once.
-    2. **Edit the Results Page**: In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
+    2. **Edit the Results Page**: In the [Results Page](/reference/quiz-builder/results-page/) tab you can edit the content of your results screen. You can add a heading, content block, image block, HTML block, Product Block or a Product Slot block. 
 
         !!! tip
 
-            Check [How to Edit the Results Page](https://docs.revenuehunt.com/how-to-guides/edit-results-page/) for more information.
+            Check [How to Edit the Results Page](/how-to-guides/edit-results-page/) for more information.
 
     3. **Add a Product Block**: Products can be displayed on the Results Page as a list via the `Product Block` or divided into slots via the `Product Slot Block`. For beginners, it's recommended to use a `Product Block` to show the recommendations.
-        - **Product Block** displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last. In [Product Block settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
+        - **Product Block** displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last. In [Product Block settings](/reference/quiz-builder/questions/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
             ![how to recommend products product block](/images/how_to_recommend_products_product_block.png){width="500"}
 
-        - **Product Slot Blocks** allow you to display the products in clear steps, for example as a skincare routine. Each Product Slot will recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
+        - **Product Slot Blocks** allow you to display the products in clear steps, for example as a skincare routine. Each Product Slot will recommend the most-voted product from a collection that's linked to it. *Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.* 
             ![how to recommend products slots block](/images/how_to_recommend_products_slots_block.png)
 
     4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
-        - Click [`Publish/Save`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) on the top-right menu to update the preview/live quiz. 
-        - Then, click [`Preview`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to test the quiz you've created in a new window. 
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz. 
+        - Then, click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created in a new window. 
         
             !!! note
             
                 You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
-    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](https://docs.revenuehunt.com/reference/quiz-builder/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
+    5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
 
         !!! tip
-            Check [How to Troubleshoot Quiz Results](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
+            Check [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
             
     6. **Refine the Results**: If you want to make the results ultra-precise, you can also:
-        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use Exclusions**: You can use [Exclusions](#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
@@ -448,19 +448,19 @@ With RevenueHunt Product Recommendation Quiz, it is possible to group products i
 
 ![how to recommend slots example](/images/how_to_recommend_slots_example.png)
 
-[This guide](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/) is designed to help merchants effectively use [Product Slot Blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-types) on the results page to organize product recommendations.
+[This guide](/how-to-guides/recommend-skincare-routine-slots/) is designed to help merchants effectively use [Product Slot Blocks](/reference/quiz-builder/results-page/#block-types) on the results page to organize product recommendations.
 
-[:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/)
+[:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-skincare-routine-slots/)
 
-### [How to Only Recommend Products with X Votes or More](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/)
+### [How to Only Recommend Products with X Votes or More](/how-to-guides/only-recommend-products-with-minimum-votes/)
 
 It is possible to limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners.
 
-[:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-minimum-votes/)
+[:fontawesome-solid-arrow-right: learn more](/how-to-guides/only-recommend-products-with-minimum-votes/)
 
 ### Recommend products that match multiple criteria (matrix)
 
-[This article](https://docs.revenuehunt.com/how-to-guides/recommend-product-matrix/) outlines a method for recommending skincare products based on multiple criteria using a product matrix to categorize recommendations. 
+[This article](/how-to-guides/recommend-product-matrix/) outlines a method for recommending skincare products based on multiple criteria using a product matrix to categorize recommendations. 
 
 | Age/Skin type   | Dry or Normal                                                                                                                                                 | Oily                                                                                                                                                                  |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -469,7 +469,7 @@ It is possible to limit the number of recommended products on the results page b
 
 It describes a step-by-step process involving creating product collections, building and linking quizzes to these collections, and utilizing a voting system algorithm to prioritize product suggestions, catering to complex customer profiles and ensuring personalized recommendations.
 
-[:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/recommend-product-matrix/)
+[:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-product-matrix/)
 
 ### Recommend Subscription Products
 
@@ -477,26 +477,26 @@ Recommending subscription products via the RevenueHunt Product Recommendation Qu
 
 ![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png)
 
-[This guide](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/) explains how to integrate and recommend subscription products with RevenueHunt Product Recommendation Quiz.
+[This guide](/how-to-guides/recommend-subscription-products/) explains how to integrate and recommend subscription products with RevenueHunt Product Recommendation Quiz.
 
-[:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/)
+[:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/)
 
 ### Ensure a Specific Product Always Appears on Your Results Page
 
-[This guide](https://docs.revenuehunt.com/how-to-guides/always-recommend-the-same-product/) provides a clear, step-by-step process to making sure that specific products are always visible on the Results Page of your quiz, regardless of the customer's choices.
+[This guide](/how-to-guides/always-recommend-the-same-product/) provides a clear, step-by-step process to making sure that specific products are always visible on the Results Page of your quiz, regardless of the customer's choices.
 
-[:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/always-recommend-the-same-product/)
+[:fontawesome-solid-arrow-right: learn more](/how-to-guides/always-recommend-the-same-product/)
 
 ### Show Results Explanation
 
 While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product.
 
-For this reason, it can be very hard to build a "personality-type" quiz with our solution. [This article](https://docs.revenuehunt.com/how-to-guides/show-results-explanation/) proposes some solutions for this problem.
+For this reason, it can be very hard to build a "personality-type" quiz with our solution. [This article](/how-to-guides/show-results-explanation/) proposes some solutions for this problem.
 
-[:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/show-results-explanation/)
+[:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
 
 ### Recommend Products Based on the Number of User Choices
 
 This guide provides information on how to set up a custom solution that will recommend products based on the number of user choices.
 
-[:fontawesome-solid-arrow-right: learn more](https://docs.revenuehunt.com/how-to-guides/recommend-products-based-on-number-of-user-choices/)
+[:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-products-based-on-number-of-user-choices/)

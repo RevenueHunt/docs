@@ -32,7 +32,7 @@ Please note that Version 2 is a fresh start: **you’ll need to recreate your qu
     ![how to shopify v2 beta switch to v2](/images/how_to_shopify_v2_beta_switch_to_v2.png)
 
 5. Confirm app access and permissions. 
-6. Follow the instructions in the [App Manual](https://docs.revenuehunt.com/reference/app-settings/#switch-to-v1) to switch back to the original version of the app.
+6. Follow the instructions in the [App Manual](/reference/app-settings/#switch-to-v1) to switch back to the original version of the app.
 
 ## Important Notes
 
@@ -51,6 +51,6 @@ Please note that Version 2 is a fresh start: **you’ll need to recreate your qu
         - Integration wtih Shopify Revenue Report.
         - Integration with any CRM platform other than Klaviyo. Other integrations coming soon.
 
-- **Support:** If you run into problems or notice missing features, please [report them to our support team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+- **Support:** If you run into problems or notice missing features, please [report them to our support team](/how-to-guides/contact-customer-support/).
 
 If you find that you prefer Version 1, you can easily switch back through the settings page. We will continue to maintain Version 1 for years to come.

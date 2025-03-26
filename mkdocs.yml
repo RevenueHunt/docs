@@ -39,6 +39,8 @@ theme:
     gtag: G-31VSB4L8T3
   logo: images/revenuehunt_logo-removebg-preview.png
   favicon: images/revenuehunt-logo-black.webp
+plugins:
+  - search
 nav:
   - Docs:
     - Docs: index.md
@@ -56,58 +58,77 @@ nav:
     - PLAYLIST - One Minute Tutorials: tutorials/playlist-one-minute-tutorials.md
   - How-to Guides:
     - How-to Guides Index: how-to-guides/index.md
-    - A/B Test Your Quiz: how-to-guides/ab-test-quiz.md
-    - Add Discount: how-to-guides/add-discount.md
-    - Add JavaScript: how-to-guides/add-javascript.md
-    - Add Product Metafields: how-to-guides/add-product-metafields.md
-    - Ask for Marketing Consent: how-to-guides/ask-for-marketing-consent.md
-    - Change Checkout Settings: how-to-guides/change-checkout-settings.md
-    - Change Quiz Currency: how-to-guides/change-quiz-currency.md
-    - Change Quiz Language: how-to-guides/change-quiz-language.md
-    - Check Quiz Loading Speed: how-to-guides/check-quiz-loading-speed.md
-    - Contact Customer Support: how-to-guides/contact-customer-support.md
-    - Copy Quiz from One Store to Another: how-to-guides/copy-the-quiz-from-one-store-to-another.md
-    - Create Your First Quiz: how-to-guides/create-first-quiz.md
-    - Customize Quiz Design: how-to-guides/customize-quiz-design.md
-    - Download Quiz Responses: how-to-guides/download-quiz-responses.md
-    - Edit the Results Page: how-to-guides/edit-results-page.md
-    - Fix Viewport Issue on Mobile: how-to-guides/fix-viewport-issue-on-mobile.md
-    - Hide Content with Logic: how-to-guides/hide-content-with-logic.md
-    - Hide Out-Of-Stock Products: how-to-guides/hide-out-of-stock-products.md
-    - Hide Product Variants: how-to-guides/hide-product-variants.md
-    - Install App: how-to-guides/install-app.md
-    - Integrate Facebook Pixel: how-to-guides/integrate-facebook-pixel.md
-    - Integrate Google Analytics: how-to-guides/integrate-google-analytics.md
-    - Join Questions: how-to-guides/join-questions.md
-    - Missing Product Images: how-to-guides/missing-product-images.md
-    - Pass Parameters to Pre-Fill Quiz Responses: how-to-guides/pass-parameteres-to-fill-quiz-responses.md
-    - Publish the Quiz on Your Website: how-to-guides/publish-quiz.md
-    - Recommend Products: how-to-guides/recommend-products.md
-    - Recommend Subscription Products: how-to-guides/recommend-subscription-products.md
-    - Recommend Slots (Skincare Routine): how-to-guides/recommend-skincare-routine-slots.md
-    - Redirect Quiz to Another Page: how-to-guides/redirect-quiz-to-another-page.md
-    - Restore Quiz Progress: how-to-guides/restore-quiz-progress.md
-    - Send Leads to Your CRM: how-to-guides/send-leads-to-crm.md
-    - Send Result Emails: how-to-guides/send-result-emails.md
-    - Set Multiple Result Pages: how-to-guides/set-multiple-result-pages.md
-    - Show Quiz in Shop App: how-to-guides/show-quiz-in-shop-app.md
-    - Show Quiz on Customer Profile: how-to-guides/show-quiz-on-customer-profile.md
-    - Show Quiz Only to Logged-In Customers: how-to-guides/show-quiz-to-logged-in-customers.md
-    - Show Results Explanation: how-to-guides/show-results-explanation.md
-    - Sync Catalog: how-to-guides/sync-catalog.md
-    - Track Quiz Revenue: how-to-guides/track-quiz-revenue.md
-    - Troubleshoot Quiz Results: how-to-guides/troubleshoot-product-results.md
-    - Troubleshoot App Issues for WordPress/WooCommerce: how-to-guides/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce.md
-    - Use Callback Function: how-to-guides/use-callback-function.md
-    - Use Conditional Logic: how-to-guides/use-conditional-logic.md
-    - Use Information Recalls: how-to-guides/use-information-recalls.md
-    - Use Markdown Language: how-to-guides/use-markdown.md
+    - Getting Started:
+      - Install App: how-to-guides/install-app.md
+      - Create Your First Quiz: how-to-guides/create-first-quiz.md
+      - Contact Customer Support: how-to-guides/contact-customer-support.md
+    - Quiz Design & Customization:
+      - Customize Quiz Design: how-to-guides/customize-quiz-design.md
+      - Change Quiz Language: how-to-guides/change-quiz-language.md
+      - Change Quiz Currency: how-to-guides/change-quiz-currency.md
+      - Edit the Results Page: how-to-guides/edit-results-page.md
+      - Use Markdown Language: how-to-guides/use-markdown.md
+      - Set Multiple Result Pages: how-to-guides/set-multiple-result-pages.md
+      - Use Information Recalls: how-to-guides/use-information-recalls.md
+      - Join Questions: how-to-guides/join-questions.md
+      - A/B Test Your Quiz: how-to-guides/ab-test-quiz.md
+    - Product Recommendations:
+      - Recommend Products: how-to-guides/recommend-products.md
+      - Recommend Subscription Products: how-to-guides/recommend-subscription-products.md
+      - Recommend Slots (Skincare Routine): how-to-guides/recommend-skincare-routine-slots.md
+      - Hide Out-Of-Stock Products: how-to-guides/hide-out-of-stock-products.md
+      - Hide Product Variants: how-to-guides/hide-product-variants.md
+      - Add Product Metafields: how-to-guides/add-product-metafields.md
+      - Troubleshoot Quiz Results: how-to-guides/troubleshoot-product-results.md
+    - Quiz Logic & Advanced Features:
+      - Use Conditional Logic: how-to-guides/use-conditional-logic.md
+      - Hide Content with Logic: how-to-guides/hide-content-with-logic.md 
+      - Add JavaScript: how-to-guides/add-javascript.md
+      - Add Discount: how-to-guides/add-discount.md
+      - Use Callback Function: how-to-guides/use-callback-function.md
+      - Pass Parameters to Pre-Fill Quiz Responses: how-to-guides/pass-parameteres-to-fill-quiz-responses.md
+      - Show Results Explanation: how-to-guides/show-results-explanation.md
+    - Publishing & Display:
+      - Publish the Quiz on Your Website: how-to-guides/publish-quiz.md
+      - Show Quiz in Shop App: how-to-guides/show-quiz-in-shop-app.md
+      - Show Quiz on Customer Profile: how-to-guides/show-quiz-on-customer-profile.md
+      - Show Quiz Only to Logged-In Customers: how-to-guides/show-quiz-to-logged-in-customers.md
+      - Redirect Quiz to Another Page: how-to-guides/redirect-quiz-to-another-page.md
+      - Change Checkout Settings: how-to-guides/change-checkout-settings.md
+      - Restore Quiz Progress: how-to-guides/restore-quiz-progress.md
+    - Integrations & Data Collection:
+      - Send Leads to Your CRM: how-to-guides/send-leads-to-crm.md
+      - Ask for Marketing Consent: how-to-guides/ask-for-marketing-consent.md
+      - Integrate Facebook Pixel: how-to-guides/integrate-facebook-pixel.md
+      - Integrate Google Analytics: how-to-guides/integrate-google-analytics.md
+      - Send Result Emails: how-to-guides/send-result-emails.md
+      - Track Quiz Revenue: how-to-guides/track-quiz-revenue.md
+      - Download Quiz Responses: how-to-guides/download-quiz-responses.md
+    - Troubleshooting & Maintenance:
+      - Fix Viewport Issue on Mobile: how-to-guides/fix-viewport-issue-on-mobile.md
+      - Missing Product Images: how-to-guides/missing-product-images.md
+      - Sync Catalog: how-to-guides/sync-catalog.md
+      - Copy Quiz from One Store to Another: how-to-guides/copy-the-quiz-from-one-store-to-another.md
+      - Check Quiz Loading Speed: how-to-guides/check-quiz-loading-speed.md
+      - Troubleshoot App Issues for WordPress/WooCommerce: how-to-guides/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce.md
   - App Manual:
-    - App Manual: reference/index.md
+    - Overview: reference/index.md
     - Dashboard: reference/dashboard.md
-    - Quiz Builder: reference/quiz-builder.md
     - Plans & Pricing: reference/plans-pricing.md
     - App Settings: reference/app-settings.md
+    - Quiz Builder:
+      - Overview: reference/quiz-builder/index.md
+      - Questions: reference/quiz-builder/questions.md
+      - Link Collections: reference/quiz-builder/link-collections.md
+      - Link Products: reference/quiz-builder/link-products.md
+      - Conditional Logic: reference/quiz-builder/conditional-logic.md
+      - Quiz Design: reference/quiz-builder/quiz-design.md
+      - Results Page: reference/quiz-builder/results-page.md
+      - Notifications: reference/quiz-builder/notifications.md
+      - Quiz Settings: reference/quiz-builder/quiz-settings.md
+      - Connect / Integrations: reference/quiz-builder/connect-integrations.md
+      - Share / Publish: reference/quiz-builder/share-publish.md
+      - Metrics: reference/quiz-builder/metrics.md
   - Customer Success:
     - Customer Success: customer-success/index.md
     - Plans & Pricing FAQ: customer-success/plans-pricing-faq.md
@@ -124,44 +145,29 @@ nav:
     - How to Adapt Product Quizzes for Different Markets and Languages: https://revenuehunt.com/how-to-adapt-product-quizzes-for-different-markets-and-languages/
     - Shopify V2 Beta: customer-success/shopify-v2-beta.md
 
-
-# plugins:
-#   - social
-
-# extra:
-#   social:
-#     - icon: fontawesome/brands/github-alt
-#       link: https://github.com/RevenueHunt
-
 extra:
   analytics:
     provider: google
     property: G-31VSB4L8T3
+  feedback:
+    title: Was this page helpful?
+    ratings:
+      - icon: material/emoticon-happy-outline
+        name: This page was helpful
+        data: 1
+        note: >-
+          Thanks for your feedback!
+      - icon: material/emoticon-sad-outline
+        name: This page could be improved
+        data: 0
+        note: >- 
+          Thanks for your feedback! Help us improve this page by
+          using our <a href="https://docs.revenuehunt.com/how-to-guides/contact-customer-support/" target="_blank" rel="noopener">feedback form</a>.
 
 extra_javascript:
   - javascripts/feedback.js
   - javascripts/gtag.js
   - javascripts/survey.js
-
-
-extra:
-  analytics: 
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >- 
-            Thanks for your feedback! Help us improve this page by
-            using our <a href="https://docs.revenuehunt.com/how-to-guides/contact-customer-support/" target="_blank" rel="noopener">feedback form</a>.
-
-
 
 extra_css:
   - docs.css

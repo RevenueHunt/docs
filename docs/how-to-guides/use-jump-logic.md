@@ -1,6 +1,6 @@
 # How to Use Jump Logic
 
-[Jump Logic](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) is a tool designed to personalize the experience of quiz participants by guiding them down different paths based on their answers. 
+[Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) is a tool designed to personalize the experience of quiz participants by guiding them down different paths based on their answers. 
 
 Below, we provide a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
 
@@ -12,7 +12,7 @@ Below, we provide a clear, step-by-step guide on how to use Jump Logic, its work
 
 !!! warning
 
-    It is advised not to mix [Jump Logic](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) and [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) in one quiz. Mixing logic rules can lead to unexpected results.
+    It is advised not to mix [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) and [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) in one quiz. Mixing logic rules can lead to unexpected results.
 
 ## Conditional Logic
 
@@ -20,7 +20,7 @@ Below, we provide a clear, step-by-step guide on how to use Jump Logic, its work
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -48,7 +48,7 @@ Below, we provide a clear, step-by-step guide on how to use Jump Logic, its work
 
     ![quiz builder conditional logic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The right menu allows you to add conditional logic rules to questions in the quiz. The left preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The right menu allows you to add conditional logic rules to questions in the quiz. The left preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -70,7 +70,7 @@ Below, we provide a clear, step-by-step guide on how to use Jump Logic, its work
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -98,7 +98,7 @@ Below, we provide a clear, step-by-step guide on how to use Jump Logic, its work
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -126,7 +126,7 @@ Below, we provide a clear, step-by-step guide on how to use Jump Logic, its work
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -154,7 +154,7 @@ Below, we provide a clear, step-by-step guide on how to use Jump Logic, its work
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -192,8 +192,8 @@ Jump Logic allows you to route customers to different questions based on their r
 
 === "Shopify"
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. **Open Jump Logic**: Navigate to the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab and select [`Jump Logic`](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) section.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. **Open Jump Logic**: Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.
     3.  **Add Jump Logic**: Click `Add Jump Logic` to add a new Jump Logic rule for the selected question. Here, you'll define your conditional statement using the template:
         - IF the response to `question X`
         - IS EQUAL TO `choice Y`
@@ -230,8 +230,8 @@ Jump Logic allows you to route customers to different questions based on their r
 
 === "Shopify V2"
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. **Open Jump Logic**: Navigate to the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab and select [`Jump Logic`](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) section.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. **Open Jump Logic**: Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.
     3.  **Add Jump Logic**: Click `+ Add another rule` to add a new Jump Logic rule for the selected question. Here, you'll define your conditional statement using the template:
         - IF the response to `question X`
         - IS EQUAL TO `choice Y`
@@ -270,8 +270,8 @@ Jump Logic allows you to route customers to different questions based on their r
 
 === "WooCommerce"
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. **Open Jump Logic**: Navigate to the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab and select [`Jump Logic`](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) section.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. **Open Jump Logic**: Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.
     3.  **Add Jump Logic**: Click `Add Jump Logic` to add a new Jump Logic rule for the selected question. Here, you'll define your conditional statement using the template:
         - IF the response to `question X`
         - IS EQUAL TO `choice Y`
@@ -308,8 +308,8 @@ Jump Logic allows you to route customers to different questions based on their r
 
 === "Magento"
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. **Open Jump Logic**: Navigate to the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab and select [`Jump Logic`](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) section.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. **Open Jump Logic**: Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.
     3.  **Add Jump Logic**: Click `Add Jump Logic` to add a new Jump Logic rule for the selected question. Here, you'll define your conditional statement using the template:
         - IF the response to `question X`
         - IS EQUAL TO `choice Y`
@@ -346,8 +346,8 @@ Jump Logic allows you to route customers to different questions based on their r
 
 === "BigCommerce"
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. **Open Jump Logic**: Navigate to the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab and select [`Jump Logic`](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) section.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. **Open Jump Logic**: Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.
     3.  **Add Jump Logic**: Click `Add Jump Logic` to add a new Jump Logic rule for the selected question. Here, you'll define your conditional statement using the template:
         - IF the response to `question X`
         - IS EQUAL TO `choice Y`
@@ -384,8 +384,8 @@ Jump Logic allows you to route customers to different questions based on their r
 
 === "Standalone"
 
-    1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. **Open Jump Logic**: Navigate to the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab and select [`Jump Logic`](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) section.
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. **Open Jump Logic**: Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.
     3.  **Add Jump Logic**: Click `Add Jump Logic` to add a new Jump Logic rule for the selected question. Here, you'll define your conditional statement using the template:
         - IF the response to `question X`
         - IS EQUAL TO `choice Y`
@@ -428,7 +428,7 @@ Imagine creating a quiz that determines a personalized skincare routine. *Questi
 
 ![how to use jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
-To learn how to build such a quiz check this [step-by-step guide](https://docs.revenuehunt.com/how-to-guides/hide-content-with-logic/).
+To learn how to build such a quiz check this [step-by-step guide](/how-to-guides/hide-content-with-logic/).
 
 ### Jump Logic vs. Skip Logic
 

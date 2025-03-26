@@ -2,7 +2,7 @@
 
 It’s possible to know exactly which orders in your Shopify Orders tab come from the quiz.
 
-1. Make sure your quiz is connected to [Shopify Customers](https://docs.revenuehunt.com/how-to-guides/send-leads-to-shopify-customers/) and that you've [enabled Order Notes](https://help.shopify.com/en/manual/online-store/themes/themes-by-shopify/vintage-themes/customizing-vintage-themes/get-more-information-with-order-notes) in your Shopify Theme.
+1. Make sure your quiz is connected to [Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) and that you've [enabled Order Notes](https://help.shopify.com/en/manual/online-store/themes/themes-by-shopify/vintage-themes/customizing-vintage-themes/get-more-information-with-order-notes) in your Shopify Theme.
 2. To activate Shopify Orders Tagging option navigate to the `Connect` tab in the quiz and scroll down to find `Shopify Orders Tagging (Beta)` tab.
 3. To allow the quiz to add tags and question answers to your orders, simply click `connect`.
 4. Make sure to `Publish` the quiz in the top right corner.
@@ -24,7 +24,7 @@ You can freely edit the content of that section by clicking `Edit` and adding yo
 
     Shopify Revenue Tracking and Orders Tagging only works if the customer adds the products to the cart directly from the quiz results page **AND** if they immediately proceed to the cart after the quiz, and then right away complete the purchase. If they purchase at a later date, this revenue will not be attributed to the quiz anymore.
          
-    Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/).
+    Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](/how-to-guides/change-checkout-settings/).
 
 
 ## Testing the Connection
@@ -40,4 +40,4 @@ If you believe the orders tagging is not working as it should, try to following 
 7. Check if the lead was added to **Shopify Customers** section and if it was marked with `RevenueHunt` in the details.
 8. Go to **Shopify Orders** and check if the order notes appear along the test order placed. 
 
-If you're still having issues, please reach out to our [support team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+If you're still having issues, please reach out to our [support team](/how-to-guides/contact-customer-support/).

@@ -17,7 +17,7 @@ Before you start, ensure you have:
     <iframe src="https://www.youtube.com/embed/g2Gvtsp0LGo?si=bzoClxr1kagdcocL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    1. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to `Link > Show Instructions for legacy themes`. Click on `Get the code` to copy the link provided.
+    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to `Link > Show Instructions for legacy themes`. Click on `Get the code` to copy the link provided.
     2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
     3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
         	![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
@@ -34,12 +34,12 @@ Before you start, ensure you have:
         
     ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
         
-    When clicked, the default quiz for your store will open. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+    When clicked, the default quiz for your store will open. If you’ve configured [Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
     !!! note
 
         To link to a specific quiz, use `#quiz-QUIZID` for Version 1 quizzes or `#quizV2-QUIZID` for Version 2 quizzes. 
-            Replace `QUIZID` with the quiz ID, which you can find in the [dashboard](https://docs.revenuehunt.com/reference/dashboard/) by clicking the `...` three dots next to a quiz and selecting "Copy Quiz ID."
+            Replace `QUIZID` with the quiz ID, which you can find in the [dashboard](/reference/dashboard/) by clicking the `...` three dots next to a quiz and selecting "Copy Quiz ID."
 
         ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
 
@@ -83,13 +83,13 @@ Before you start, ensure you have:
     6. **Insert the #quiz Code**: Type `#quiz` into the link filed and accept the link.
         ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
 
-        When clicked, the default quiz for your store will open. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+        When clicked, the default quiz for your store will open. If you’ve configured [Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
 
 === "WooCommerce"
 
-    1. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to [`Link`](https://docs.revenuehunt.com/reference/quiz-builder/#link).
+    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
     2.  Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     3. Go to the `Appearance` tab and open the `Menus`.
     4. Pick a menu and add a `Custom Link`. Paste the copied link into the `URL` section and edit the link text, for example, you can call it "Coffee Quiz".
@@ -103,7 +103,7 @@ Before you start, ensure you have:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to [`Link`](https://docs.revenuehunt.com/reference/quiz-builder/#link).
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. Navigate to your `Catalog > Categories` and follow [Adobe instructions](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) to create a new menu level or a custom menu item. Use the link copied from the app to create this menu item.
     5. Remember to save the changes. 
@@ -115,7 +115,7 @@ Before you start, ensure you have:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to [`Link`](https://docs.revenuehunt.com/reference/quiz-builder/#link).
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. Navigate to your `Storefront > Web Pages` menu and click `Create a Web Page`.
     5. Under `Page Type` select that This Page Will `Link to Another website or document`. 
@@ -130,7 +130,7 @@ Before you start, ensure you have:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to [`Link`](https://docs.revenuehunt.com/reference/quiz-builder/#link).
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. Navigate to your eCommerce platform Navigation Menu settings and add a new item. Paste the link copied from the app.
     5. Remember to save the changes.
@@ -143,7 +143,7 @@ Before you start, ensure you have:
     <iframe src="https://www.youtube.com/embed/mLms8xRzYCE?si=3I-QqmPeaeIavpHO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    1. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to `Link > Show Instructions for legacy themes`. Click on `Get the code` to copy the link provided.
+    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to `Link > Show Instructions for legacy themes`. Click on `Get the code` to copy the link provided.
     2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
     3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
         	![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
@@ -162,12 +162,12 @@ Before you start, ensure you have:
         
     ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
         
-    When clicked, the default quiz for your store will open. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+    When clicked, the default quiz for your store will open. If you’ve configured [Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
     !!! note
 
         To link to a specific quiz, use `#quiz-QUIZID` for Version 1 quizzes or `#quizV2-QUIZID` for Version 2 quizzes. 
-            Replace `QUIZID` with the quiz ID, which you can find in the [dashboard](https://docs.revenuehunt.com/reference/dashboard/) by clicking the `...` three dots next to a quiz and selecting "Copy Quiz ID."
+            Replace `QUIZID` with the quiz ID, which you can find in the [dashboard](/reference/dashboard/) by clicking the `...` three dots next to a quiz and selecting "Copy Quiz ID."
 
         ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
 
@@ -213,13 +213,13 @@ Before you start, ensure you have:
     8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Type `#quiz` in the appropriate link field.
         ![how to publish link popup shopify v2 button](/images/how_to_publish_link_popup_shopify_v2_button.png)
 
-        When clicked, the default quiz for your store will open. If you’ve configured [Markets](https://docs.revenuehunt.com/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+        When clicked, the default quiz for your store will open. If you’ve configured [Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
     9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button.
 
 === "WooCommerce"
 
-    1. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to [`Link`](https://docs.revenuehunt.com/reference/quiz-builder/#link).
+    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
     2. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     3. In WordPress, go to `Pages` and find the page that corresponds to the Front Page. Click 'Edit'.
     4. In the WordPress Page Builder add a `Buttons` block. This will automatically add one button to your page builder.
@@ -235,7 +235,7 @@ Before you start, ensure you have:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to [`Link`](https://docs.revenuehunt.com/reference/quiz-builder/#link).
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. In your Magento dashbaord go to `Content` > `Blocks`. Click `Add New Block`.
     5. Edit the Block Title, Identifier and Store View and click `Edit with Page Builder`. 
@@ -253,7 +253,7 @@ Before you start, ensure you have:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to [`Link`](https://docs.revenuehunt.com/reference/quiz-builder/#link).
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Find the main page.
     5. Switch to the `HTML` editor. Find the place where you want to add the button and add the following HTML code. Remember to replace the `#quiz-QUIZID` with the link copied from the app.
@@ -270,7 +270,7 @@ Before you start, ensure you have:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then to [`Link`](https://docs.revenuehunt.com/reference/quiz-builder/#link).
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
     4. In your store customization options find the main page.
     5. Find the place where you want to add the button and find the button element. Add button text and paste the link copied from the app.
@@ -296,7 +296,7 @@ Here's what you can do:
     }
     </style>
     ```
-- **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+- **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
 
 ---
 You've successfully set up a Quiz Link Popup on your eCommerce store. Don’t forget to click on the “Save” button so the changes are reflected in your store.

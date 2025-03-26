@@ -15,14 +15,14 @@ Make sure you have:
     <iframe src="https://www.youtube.com/embed/PkWI1OnP6gg?si=eTHrvNekv3WhUKOr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    1. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then open the [`Email`](https://docs.revenuehunt.com/reference/quiz-builder/#email) tile and `Show Instructions for legacy themes`. 
+    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile and `Show Instructions for legacy themes`. 
     2. **Customize Popup Dimensions**: Input your desired dimensions for the width and height to optimize the viewer's experience.
     3. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared via email.
     4. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.
 
 === "WooCommerce"
 
-    1. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then open the [`Email`](https://docs.revenuehunt.com/reference/quiz-builder/#email) tile. 
+    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile. 
     2. **Customize Popup Dimensions**: Input your desired dimensions for the width and height to optimize the viewer's experience.
     3. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared via email.
     4. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.
@@ -34,7 +34,7 @@ Make sure you have:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then open the [`Email`](https://docs.revenuehunt.com/reference/quiz-builder/#email) tile. 
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile. 
     3. **Customize Popup Dimensions**: Input your desired dimensions for the width and height to optimize the viewer's experience.
     4. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared via email.
     5. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.
@@ -46,7 +46,7 @@ Make sure you have:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then open the [`Email`](https://docs.revenuehunt.com/reference/quiz-builder/#email) tile. 
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile. 
     3. **Customize Popup Dimensions**: Input your desired dimensions for the width and height to optimize the viewer's experience.
     4. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared via email.
     5. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.
@@ -58,7 +58,7 @@ Make sure you have:
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the app, then open the [`Email`](https://docs.revenuehunt.com/reference/quiz-builder/#email) tile. 
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile. 
     3. **Customize Popup Dimensions**: Input your desired dimensions for the width and height to optimize the viewer's experience.
     4. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. Edit the link URL to add your website URL. It should look like this `https://yourwebsite.com/#quiz-QUIZID/`. This link is now ready to be shared via email.
     5. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.

@@ -26,8 +26,8 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
-    1. Navigate to the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) in the Quiz Builder.
-    2. Select [**Advanced Settings**](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/-settings) in the Quiz Builder.
+    2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
@@ -36,39 +36,39 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     ![how_to_javascript_resultspagesettings](/images/how_to_javascript_resultspagesettings.png)
 
-    1. Navigate to the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) in the Quiz Builder.
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/-settings) in the Quiz Builder.
     2. Scroll down to find the **Custom JavaScript** section and open it.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Save` button to update the preview/live quiz.
 
 === "WooCommerce"
 
-    1. Navigate to the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) in the Quiz Builder.
-    2. Select [**Advanced Settings**](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/-settings) in the Quiz Builder.
+    2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "Magento"
 
-    1. Navigate to the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) in the Quiz Builder.
-    2. Select [**Advanced Settings**](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/-settings) in the Quiz Builder.
+    2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "BigCommerce"
 
-    1. Navigate to the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) in the Quiz Builder.
-    2. Select [**Advanced Settings**](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/-settings) in the Quiz Builder.
+    2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "Standalone"
 
-    1. Navigate to the [Results Page Settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) in the Quiz Builder.
-    2. Select [**Advanced Settings**](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/-settings) in the Quiz Builder.
+    2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
@@ -77,8 +77,8 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
-    1. Navigate to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Open [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
+    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
@@ -87,40 +87,40 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     ![how_to_javascript_questionsettings](/images/how_to_javascript_questionsettings.png)
 
-    1. Navigate to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Open [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
+    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Scroll down to find the **Custom JavaScript** section and open it.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Save` button to update the preview/live quiz.
 
 === "WooCommerce"
 
-    1. Navigate to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Open [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
+    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "Magento"
 
-    1. Navigate to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Open [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
+    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "BigCommerce"
 
-    1. Navigate to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Open [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
+    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
       
 === "Standalone"
 
-    1. Navigate to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-    2. Open [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
+    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Scroll down to find the **Custom JavaScript** section and click `add`.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
@@ -408,7 +408,7 @@ function valuesIncludes(values, c) {
 
 Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
 
-A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](https://docs.revenuehunt.com/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
 ---
 This guide outlines the foundational steps and examples for integrating custom JavaScript into your Product Recommendation Quiz. 

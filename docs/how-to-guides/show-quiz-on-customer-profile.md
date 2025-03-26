@@ -18,7 +18,7 @@ This guide will walk you through the steps to show the quiz on a customer profil
 
 ## Step 1: Connect Your Quiz to Shopify's Customer List
 
-To ensure quiz results are associated with the correct customer profile, the first step involves linking your quiz tool with [Shopify's Customer List](https://docs.revenuehunt.com/how-to-guides/send-leads-to-shopify-customers/). Follow the instructions in [this article](https://docs.revenuehunt.com/how-to-guides/send-leads-to-shopify-customers/) to check if the quiz was connected correctly.
+To ensure quiz results are associated with the correct customer profile, the first step involves linking your quiz tool with [Shopify's Customer List](/how-to-guides/send-leads-to-shopify-customers/). Follow the instructions in [this article](/how-to-guides/send-leads-to-shopify-customers/) to check if the quiz was connected correctly.
 
 ## Step 2: Edit the customers/account.liquid File
 
@@ -42,7 +42,7 @@ To render the whole results page within an iframe on a profile,  you will need t
 <script src="https://admin.revenuehunt.com/embed.js" async></script>
 ```
 
-Then, [generate an embed code](https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) from the [Share](https://docs.revenuehunt.com/reference/quiz-builder/#share) section of the quiz and insert the quiz iframe code (as you can see on line 68):
+Then, [generate an embed code](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) from the [Share](/reference/quiz-builder/share-publish/) section of the quiz and insert the quiz iframe code (as you can see on line 68):
 
 ```html
 <iframe src="{{ customer.metafields.prq.response_permalink }}" style="width:100%; border: none; margin-bottom: 30px; position: absolute; left: 0;" />

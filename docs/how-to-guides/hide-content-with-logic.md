@@ -4,7 +4,7 @@ icon: material/eye-off
 
 # How to Show or Hide Content Based on Quiz Answers
 
-In this article, you’ll discover how to use `IF-THEN` conditional logic to display customized text to quiz takers. This includes adding custom text within your quiz using [Jump Logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/), displaying custom text on the Results page with [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/), and achieving similar effects with [Skip Logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/).
+In this article, you’ll discover how to use `IF-THEN` conditional logic to display customized text to quiz takers. This includes adding custom text within your quiz using [Jump Logic](/how-to-guides/use-jump-logic/), displaying custom text on the Results page with [Block Logic](/how-to-guides/use-block-logic/), and achieving similar effects with [Skip Logic](/how-to-guides/use-skip-logic/).
 
 Using a skincare routine quiz as an example, we'll show how custom text is displayed based on the customer’s skin type.
 
@@ -18,7 +18,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -33,11 +33,11 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
 
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
 
-    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -45,11 +45,11 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_flow.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
-            Use the [images or text blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) to help customers determine their skin type.
+            Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
 
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
 
@@ -62,7 +62,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. 
     
-        To add jump logic, you should to the [conditional logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab and select the Skin type question. 
+        To add jump logic, you should to the [conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the Skin type question. 
     
         Then, Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type.  Like this:
 
@@ -74,7 +74,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     4. **Add Default destination Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. 
     
-        This is done by going to the [jump logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/) tab and scrolling toward the `Default destination` section. Point each statement to the next question.
+        This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Default destination` section. Point each statement to the next question.
 
         ![how to hide content with logic shopifyv2 jump logic default destination](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_default_destination.png)
 
@@ -84,7 +84,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -99,11 +99,11 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
 
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
 
-    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -111,7 +111,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -126,11 +126,11 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
 
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
 
-    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -138,7 +138,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -153,11 +153,11 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
 
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
 
-    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -165,7 +165,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -180,11 +180,11 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
 
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
 
-    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -192,7 +192,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "Shopify"
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -210,9 +210,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
         !!! tip    
         
-            Make the heading stand out with [markdown language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
+            Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Block Logic**: If we don’t add [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Block Logic**: If we don’t add [Block Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
         ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
 
@@ -220,13 +220,13 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "Shopify V2"
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
-            Use the [images or text blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) to help customers determine their skin type.
+            Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
 
-    2. **Add Content Sections to Results Page**: Go to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) and add a new `sections`. To add a new section click the `+ Add section` sign. 
+    2. **Add Content Sections to Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign. 
     
         Add multiple content blocks describing the specific skin type and its challenges. For example:
 
@@ -240,7 +240,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
             
 
-    3. **Add Display Logic**: If we don’t add [Display Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. 
+    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. 
     
         To add Display Logic, select a content block and in the right-hand menu locate `Display logic`. Click on `+ Add consition (OR)`. 
         
@@ -252,7 +252,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "WooCommerce"
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -270,9 +270,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
         !!! tip    
         
-            Make the heading stand out with [markdown language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
+            Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Block Logic**: If we don’t add [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Block Logic**: If we don’t add [Block Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
         ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
 
@@ -280,7 +280,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "Magento"
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -298,9 +298,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
         !!! tip    
         
-            Make the heading stand out with [markdown language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
+            Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Block Logic**: If we don’t add [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Block Logic**: If we don’t add [Block Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
         ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
 
@@ -308,7 +308,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "BigCommerce"
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -326,9 +326,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
         !!! tip    
         
-            Make the heading stand out with [markdown language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
+            Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Block Logic**: If we don’t add [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Block Logic**: If we don’t add [Block Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
         ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
 
@@ -336,7 +336,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "Standalone"
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -354,9 +354,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
         !!! tip    
         
-            Make the heading stand out with [markdown language](https://docs.revenuehunt.com/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
+            Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Block Logic**: If we don’t add [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Block Logic**: If we don’t add [Block Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
         ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
 
@@ -368,7 +368,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -383,7 +383,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
@@ -393,11 +393,11 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
-            Use the [images or text blocks](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) to help customers determine their skin type.
+            Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
 
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
 
@@ -410,7 +410,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. 
     
-        To add [skip logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/), you should go the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab and select the quesiton that should be skipped.  
+        To add [skip logic](/how-to-guides/use-skip-logic/), you should go the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the quesiton that should be skipped.  
     
         Next, in the right-hand menu locte the `Skip Logic` section.
     
@@ -430,7 +430,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -445,7 +445,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
@@ -455,7 +455,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -470,7 +470,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
@@ -480,7 +480,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -495,7 +495,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
@@ -505,7 +505,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -520,11 +520,11 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
+    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add [skip logic](/how-to-guides/use-skip-logic/), you should go back to the skin type question and select `conditional logic`. Next, you should navigate to the `Skip Logic` section and add a skip logic rule to each statement. Use skip logic to ensure that only relevant statement questions appear based on the customer's skin type selection.
 
         ![how to hide content with logic skip logic statement](/images/how_to_hide_content_with_logic_skip_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 ---
-For more detailed instructions on using [Jump Logic](https://docs.revenuehunt.com/how-to-guides/use-jump-logic/), [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/), and [Skip Logic](https://docs.revenuehunt.com/how-to-guides/use-skip-logic/), consider checking the respective articles linked throughout this guide.
+For more detailed instructions on using [Jump Logic](/how-to-guides/use-jump-logic/), [Block Logic](/how-to-guides/use-block-logic/), and [Skip Logic](/how-to-guides/use-skip-logic/), consider checking the respective articles linked throughout this guide.

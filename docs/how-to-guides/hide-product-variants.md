@@ -15,7 +15,7 @@ You can recommend a specific product variant instead of the main product by chan
 
 ![how to hide product variants image2](/images/how_to_hide_product_variants_image2.png)
 
-1. Open [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) > [Advanced](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
+1. Open [Results Page settings](/reference/quiz-builder/results-page/-settings) > [Advanced](/reference/quiz-builder/results-page/#advanced-settings).
 2. Deactivate the `Group product variants` option. 
 3. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
 
@@ -27,7 +27,7 @@ It is also possible to recommend only the main product and simply hide the dropd
 
 ![how to hide product variants image3](/images/how_to_hide_product_variants_image3.png)
 
-1. Open the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab.
+1. Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
 2. Scroll to the `Custom CSS` section and click `add`.
 3. Paste the following code into the CSS console:
 

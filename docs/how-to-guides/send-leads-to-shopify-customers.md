@@ -1,6 +1,6 @@
 # How to Send Quiz Leads to Shopify Customers
 
-You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](https://docs.revenuehunt.com/reference/quiz-builder/#customer-tags).
+You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/link-collections/#customer-tags).
 
 This article explains how to connect your quiz to Shopify Customers and build a Shopify Flow targeted at quiz takers.
 
@@ -8,42 +8,42 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 === "Shopify"
 
-    1. Go to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
     2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
     3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
 
 === "Shopify V2"
 
-    1. Go to your quiz and click on the [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#connect-integrations) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+    1. Go to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/-integrations) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
     2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
     ![how to integrate shopify customers shopify v2](/images/how_to_integrate_shopify_customers_shopify_v2.png)
     3. Click the `Save` button to save the changes and update the preview/live quiz with new settings.
 
 === "WooCommerce"
 
-    1. Go to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
     2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
     3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
 
 === "Magento"
 
-    1. Go to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
     2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
     3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
 
 === "BigCommerce"
 
-    1. Go to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
     2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
     3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
 
 === "Standalone"
 
-    1. Go to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
+    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
     2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
     3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
 
-Newly captured leads will appear in your Shopify Customers List with their [Customer Tags](https://docs.revenuehunt.com/reference/quiz-builder/#customer-tags) added to their profile.
+Newly captured leads will appear in your Shopify Customers List with their [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) added to their profile.
 
 ![how to send leads to shopify customers customer profile](/images/how_to_send_leads_to_shopify_customers_customer_profile.png)
 
@@ -57,8 +57,8 @@ Newly captured leads will appear in your Shopify Customers List with their [Cust
 
 By default, all the contacts added to the list via the quiz will be marked as subscribed and their consent to receiving marketing information was given. You can change that in the email and phone questions settings.
 
-1. To change the default Consent state and Opt-in level, go to the email or phone question in the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
-2. Open the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+1. To change the default Consent state and Opt-in level, go to the email or phone question in the [Quiz Builder](/reference/quiz-builder/questions/).
+2. Open the [question settings](/reference/quiz-builder/questions/#question-settings).
 
     ![how_to_send_leads_to_shopify_customers_consent.png](/images/how_to_send_leads_to_shopify_customers_consent.png)
 

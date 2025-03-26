@@ -24,7 +24,7 @@ The JSON with the quiz response includes:
 
 !!! note
 
-    Note that this callback function will also be triggered if your customers reach the results page via [follow-up emails](https://docs.revenuehunt.com/how-to-guides/send-result-emails/) you send your customers with a link to their results.
+    Note that this callback function will also be triggered if your customers reach the results page via [follow-up emails](/how-to-guides/send-result-emails/) you send your customers with a link to their results.
 
 
 ## Implementing the Callback Function
@@ -132,7 +132,7 @@ On the Quiz section, you will find the following entries:
     **⤵ Slides >  ⤵ attributes**
 
     - **Choices**: You can find all the possible choices a respondent can choose here.
-    - **Description**: If you [add a description](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings) to your slide (`question settings → Show description`), you will see your text here.
+    - **Description**: If you [add a description](/reference/quiz-builder/questions/#question-settings) to your slide (`question settings → Show description`), you will see your text here.
     - **Preferences**: All preferences related to how your respondents select your choices.
     - **Slide type**: The type of slide.
     - **Title**: The text you’ve written as the title of the slide.

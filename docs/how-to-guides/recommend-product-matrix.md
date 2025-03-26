@@ -33,8 +33,8 @@ First of all, you should understand that the recommendations algorithm works lik
 
     If you want to make the results ultra-precise, you can also:
 
-    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#advanced-settings).
-    - Use [Exclusions](https://docs.revenuehunt.com/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
+    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
 
 
@@ -66,14 +66,14 @@ To recommend the right product, in your eCommerce platform you should create fou
 |-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Oily      | **Teens and 20’s:**<br>Neutrogena Oil-Free Acne Face Wash;<br>Balancing Force Oil Control Toner;<br>Resist Ultra-Light Super Antioxidant Concentrate Serum;<br>Oil-Free Moisture Lotion<br>**30’s and above:**<br>FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin |
 
-After creating products or collections you may need to sync the app with your store. Here‘s [How to Sync Your Catalog with the App](https://docs.revenuehunt.com/how-to-guides/sync-catalog/).
+After creating products or collections you may need to sync the app with your store. Here‘s [How to Sync Your Catalog with the App](/how-to-guides/sync-catalog/).
 
 ### Step 3: Build the quiz
 
 You can start building your quiz. 
 
 1. **Add new quiz**: Go to the RevenueHunt app and click on `add new quiz`. 
-2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
+2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](/reference/quiz-builder/).
 3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
 
     - The first question is about the client’s age.
@@ -88,7 +88,7 @@ You can start building your quiz.
 
 You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
 
-1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab in the Quiz Builder.
+1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
 2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
 
     ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
@@ -97,7 +97,7 @@ You should link the collections created in [Step 2](#step-2-create-collections) 
 
 For the products to show on the Results Page, you need to add a `Products Block`. 
 
-1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).
+1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
 2. **Add a Product Block**:  Clicking the `+` to add a block type. Slect a `Product Block` from the dropdown list.
 3. **Limit the numebr of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
 
@@ -105,8 +105,8 @@ For the products to show on the Results Page, you need to add a `Products Block`
 
 Now that the quiz is built and product are linked to each choice, you can test the quiz. To test the quiz, you'll have to save the changes and preview it.
 
-1. **Publish the changes**: Click [`Publish`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
-2. **Preview the quiz**: Click [`Preview`](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) to test the quiz you've created in a new window. You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
+1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
+2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created in a new window. You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 3. **Check results** : Go through the quiz and check if the correct products are recommended. Let’s check this answering route:
 
     - What’s your age?
@@ -119,7 +119,7 @@ If the quiz is set up correctly, the following products should be recommended in
 
 ![how to recommend products matrix resutls1](/images/how_to_recommend_products_results1.png)
 
-If you’re not getting the expected results, please check [this article](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results/) to learn how to troubleshoot the quiz results.
+If you’re not getting the expected results, please check [this article](/how-to-guides/troubleshoot-product-results/) to learn how to troubleshoot the quiz results.
 
 ??? question "Why were these products recommended?"
 
@@ -143,7 +143,7 @@ If you’re not getting the expected results, please check [this article](https:
 
     When products receive the same amount of votes, the algorithm randomizes the order in which they are shown on the Results page.
 
-If you’d like to organize the products in a specific order, you can create `Product Slots` on the Results Page. Check [this article](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots/) to learn how to do that.
+If you’d like to organize the products in a specific order, you can create `Product Slots` on the Results Page. Check [this article](/how-to-guides/recommend-skincare-routine-slots/) to learn how to do that.
 
 ## Complex product matrix
 
@@ -153,7 +153,7 @@ If your product Matrix looks more like a list, there is another way to achieve y
 
 The outcome of the quiz depends on 3 factors: skin type, age, and skin concern. In each case, the products recommended differing.
 
-For this complex matrix, creating separate collections for each outcome is possible, but there’s also an alternative. What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
+For this complex matrix, creating separate collections for each outcome is possible, but there’s also an alternative. What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
 
 Here’s an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
 

@@ -5,15 +5,15 @@ icon: material/lightbulb-question
 
 # How to Show Results Explanation
 
-While our [product recommendation algorithm](https://docs.revenuehunt.com/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won’t automatically display custom text depending on the recommended product.
+While our [product recommendation algorithm](/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won’t automatically display custom text depending on the recommended product.
 
 RevenueHunt app **doesn't** have a linear score feature yet (as in every time a customer picks a choice, the "score" will receive one point and at the end, based on that score, different results pages will be displayed). For this reason, it can be very hard to build a **"personality-type"** quiz with our solution.
 
-If you want to show different text results depending on the recommended products, this functionality has to be built on the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). There are a few ways to achieve it:
+If you want to show different text results depending on the recommended products, this functionality has to be built on the [Results Page](/reference/quiz-builder/results-page/). There are a few ways to achieve it:
 
-1. **Information Recalls**: Use [Information Recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) to display a customer's answers within a content block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
+1. **Information Recalls**: Use [Information Recalls](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-2. **Block Logic**: [Block Logic](https://docs.revenuehunt.com/reference/quiz-builder/#block-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance on setting up Block Logic, see [here](https://docs.revenuehunt.com/how-to-guides/use-block-logic/). 
+2. **Block Logic**: [Block Logic](/reference/quiz-builder/conditional-logic/#block-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance on setting up Block Logic, see [here](/how-to-guides/use-block-logic/). 
 
     !!! tip
     
@@ -57,7 +57,7 @@ If you want to show different text results depending on the recommended products
         - Answers that indicate **Dry Skin** link to products formulated for dry skin.  
         - Answers suggesting **Oily Skin** link to products designed for oily skin.  
 
-        This setup ensures that the quiz [product recommendation algorithm](https://docs.revenuehunt.com/how-to-guides/recommend-products/) will automatically provide the most relevant product suggestions.
+        This setup ensures that the quiz [product recommendation algorithm](/how-to-guides/recommend-products/) will automatically provide the most relevant product suggestions.
 
         *Note: This part is easy. The most difficult part is displaying the right text that corresponds to the product recommendation.*
 
@@ -82,7 +82,7 @@ If you want to show different text results depending on the recommended products
 
         2️⃣ **Configure Block Logic Rules**  
 
-        Set [Block Logic](https://docs.revenuehunt.com/how-to-guides/use-block-logic/) rules for when each block should appear, based on the answers.  
+        Set [Block Logic](/how-to-guides/use-block-logic/) rules for when each block should appear, based on the answers.  
 
         **For Dry Skin:**  
         - If the answer to **Question 1: Oiliness** is *Dry and tight all over*.  
@@ -144,9 +144,9 @@ If you want to show different text results depending on the recommended products
 
     !!! tip
 
-        Instructions on adding custom JavaScript to your Product Recommendation Quiz can be found [here](https://docs.revenuehunt.com/how-to-guides/add-javascript/).
+        Instructions on adding custom JavaScript to your Product Recommendation Quiz can be found [here](/how-to-guides/add-javascript/).
 
-4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
+4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/-settings) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
 
 ---
 This article explains how to show why a certain product was recommended to the customer.

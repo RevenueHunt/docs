@@ -30,7 +30,7 @@
 
 ## Upgrading or Downgrading Your Plan
 
-If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](https://docs.revenuehunt.com/reference/plans-pricing/) page in the app.
+If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
 
 Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Shopify will automatically discount the proportional part of the monthly plan that hasn’t been used.
 
@@ -38,7 +38,7 @@ Bear in mind that if you need to upgrade/downgrade we’re very flexible. When c
 
 Billing is handled directly by Shopify. Charges for the app will be visible on your monthly invoice from Shopify. You can change your billing details directly in your Shopify store settings.
 
-If you have any other questions about billing or refunds, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
 
 ## What happens when I reach my quiz responses limit?
 
@@ -54,7 +54,7 @@ When you reach your quiz responses limit, your users will see a message like the
 
 Quiz Responses are counted as the number of people who have completed the quiz (reached the Results Page). If someone starts the quiz and abandons it partway through, this does not count as a response.
 
-You can check your responses in the [Metrics > Analytics](https://docs.revenuehunt.com/reference/quiz-builder/#analytics) tab inside the Quiz Builder.
+You can check your responses in the [Metrics > Analytics](/reference/quiz-builder/metrics/#analytics) tab inside the Quiz Builder.
 
 ## When do my plan responses reset?
 
@@ -107,13 +107,13 @@ In other words: if the Basic plan accepts around ~16 responses each day, the Pro
 
 If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
 
-Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) in the app and select “show yearly”.
+Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
 
 ## Discounts
 
 We offer a 50% discount on all plans if you subscribe for 2 years and you pay upfront. However, we do recommend starting with the monthly plan, for 2-3 months until you start getting results & sales, before committing to a 2-year plan.
 
-Need a 50% discount signing up for two years? – [Get in touch with our Sales Team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/)
+Need a 50% discount signing up for two years? – [Get in touch with our Sales Team](/how-to-guides/contact-customer-support/)
 
 ## What’s the difference between the WooCommerce extension and a WordPress Plugin?
 

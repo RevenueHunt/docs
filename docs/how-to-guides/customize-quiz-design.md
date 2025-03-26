@@ -6,15 +6,15 @@ icon: material/palette-outline
 
 You can change the quiz's appearance to fit your store's style. 
 
-Use the customization options in the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab or add your own style with [CSS](#add-custom-css-code) or [JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/). You can modify any part of the quiz or results page with custom CSS.
+Use the customization options in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab or add your own style with [CSS](#add-custom-css-code) or [JavaScript](/how-to-guides/add-javascript/). You can modify any part of the quiz or results page with custom CSS.
 
-Remember, you can also include custom images and styles for each question via the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+Remember, you can also include custom images and styles for each question via the [question settings](/reference/quiz-builder/questions/#question-settings).
 
 ## Quiz Design Tab
 
 === "Shopify"
 
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
     2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
     3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
@@ -38,7 +38,7 @@ Remember, you can also include custom images and styles for each question via th
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
-    In the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) section of the quiz builder you can change how the quiz `Questions` or the `Results Page` look. 
+    In the [Quiz Design](/reference/quiz-builder/quiz-design/) section of the quiz builder you can change how the quiz `Questions` or the `Results Page` look. 
     
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
 
@@ -72,7 +72,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "WooCommerce"
 
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
     2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
     3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
@@ -94,7 +94,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "Magento"
 
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
     2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
     3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
@@ -116,7 +116,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "BigCommerce"
 
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
     2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
     3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
@@ -138,7 +138,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "Standalone"
 
-    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+    1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
     2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
     3. **Edit Theme**: Our theme editor allows you to pick one of our multiple color palettes, choose from multiple fonts and add a default background image to your quiz.
         ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
@@ -164,7 +164,7 @@ Remember, you can also include custom images and styles for each question via th
 
     Via the CSS console, you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS.
 
-    1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab.
+    1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
     4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
@@ -178,7 +178,7 @@ Remember, you can also include custom images and styles for each question via th
         #question-AbC7Zde  p {color: red;}
         ```
 
-        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](/reference/quiz-builder/questions/#question-settings).
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
@@ -186,7 +186,7 @@ Remember, you can also include custom images and styles for each question via th
 
     **Advanced Customizations**
 
-    For those with coding knowledge, the `Advanced` customization panel within the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) offers the flexibility to input custom CSS, allowing you to override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
+    For those with coding knowledge, the `Advanced` customization panel within the [Quiz Design](/reference/quiz-builder/quiz-design/) offers the flexibility to input custom CSS, allowing you to override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
 
@@ -203,17 +203,17 @@ Remember, you can also include custom images and styles for each question via th
         ```css
         #question-AbC7Zde p { color: red; }
         ```
-        In this case, the color of the paragraph will change to red only for the question with ID `AbC7Zde`. You can find a question’s ID in [`Quiz Builder > Question Settings`](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+        In this case, the color of the paragraph will change to red only for the question with ID `AbC7Zde`. You can find a question’s ID in [`Quiz Builder > Question Settings`](/reference/quiz-builder/questions/#question-settings).
 
     - Once you've made your changes, click the `Save` button at the top right to apply them to your live or preview quiz.
 
-    To add custom CSS code to a speciifc quiz section only, go to [`Question Settings`](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings) or [`Results Page Settings`](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings).
+    To add custom CSS code to a speciifc quiz section only, go to [`Question Settings`](/reference/quiz-builder/questions/#question-settings) or [`Results Page Settings`](/reference/quiz-builder/results-page/-settings).
 
 === "WooCommerce"
 
     Via the CSS console, you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS.
 
-    1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab.
+    1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
     4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
@@ -227,7 +227,7 @@ Remember, you can also include custom images and styles for each question via th
         #question-AbC7Zde  p {color: red;}
         ```
 
-        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](/reference/quiz-builder/questions/#question-settings).
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
@@ -235,7 +235,7 @@ Remember, you can also include custom images and styles for each question via th
 
     Via the CSS console, you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS.
 
-    1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab.
+    1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
     4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
@@ -249,7 +249,7 @@ Remember, you can also include custom images and styles for each question via th
         #question-AbC7Zde  p {color: red;}
         ```
 
-        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](/reference/quiz-builder/questions/#question-settings).
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
@@ -257,7 +257,7 @@ Remember, you can also include custom images and styles for each question via th
 
     Via the CSS console, you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS.
 
-    1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab.
+    1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
     4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
@@ -271,7 +271,7 @@ Remember, you can also include custom images and styles for each question via th
         #question-AbC7Zde  p {color: red;}
         ```
 
-        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](/reference/quiz-builder/questions/#question-settings).
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
@@ -279,7 +279,7 @@ Remember, you can also include custom images and styles for each question via th
 
     Via the CSS console, you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS.
 
-    1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab.
+    1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
     3. **Find an element selector**:  To find a selector for the element, inspect it in your browser by right-clicking.
     4. **Add specificity to your CSS rules**: You can add specificity to your CSS rules, so that they are applied only to the quiz or a certain question. For example:
@@ -293,7 +293,7 @@ Remember, you can also include custom images and styles for each question via th
         #question-AbC7Zde  p {color: red;}
         ```
 
-        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](/reference/quiz-builder/questions/#question-settings).
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
@@ -323,7 +323,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "Shopify"
 
-    You can use [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
 
     ??? question "What is Markdown Languge?"
             
@@ -360,7 +360,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "Shopify V2"
 
-    To personalize the text within each question, open the [**`Block Settings`**](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) for each content block. 
+    To personalize the text within each question, open the [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for each content block. 
     
     Each block type — Heading, Text, or Button —has unique customization options that let you control the styling and positioning of text elements.
 
@@ -377,7 +377,7 @@ Remember, you can also include custom images and styles for each question via th
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png)
 
-    Use the `Text` block to add regular text content to your question. Within the [**`Block Settings`**](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) for text, you can:
+    Use the `Text` block to add regular text content to your question. Within the [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for text, you can:
 
     - **Format Text**: Similar to the heading block, you can bold, italicize, underline, or strikethrough text, add links, and dynamically source content.
     - **Size and Alignment**: Change the text size and alignment to suit the layout and readability of your quiz.
@@ -386,7 +386,7 @@ Remember, you can also include custom images and styles for each question via th
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
 
-    To include a button within your question, select the `Button` block. The [**`Block Settings`**](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) for buttons allow you to:
+    To include a button within your question, select the `Button` block. The [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for buttons allow you to:
 
     - **Button Text**: Customize the default text displayed on the button to reflect the action you want users to take.
     - **Button Alignment**: Adjust the button's position (left, center, or right) for a balanced layout within the quiz.
@@ -395,7 +395,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "WooCommerce"
 
-    You can use [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
 
     ??? question "What is Markdown Languge?"
             
@@ -432,7 +432,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "Magento"
 
-    You can use [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
 
     ??? question "What is Markdown Languge?"
             
@@ -469,7 +469,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "BigCommerce"
 
-    You can use [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
 
     ??? question "What is Markdown Languge?"
             
@@ -506,7 +506,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "Standalone"
 
-    You can use [Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
+    You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
 
     ??? question "What is Markdown Languge?"
             
@@ -547,7 +547,7 @@ Remember, you can also include custom images and styles for each question via th
 
     You can add images to your quiz in serveral ways. 
 
-    - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the resutls page with Markdown language.
         - Images:
         ```html
@@ -566,7 +566,7 @@ Remember, you can also include custom images and styles for each question via th
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png)
 
-    To add an image within a question, use the `Image` block. The [**`Block Settings`**](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) for images offer the following customization options:
+    To add an image within a question, use the `Image` block. The [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for images offer the following customization options:
 
     - **Upload or Select an Image**: Click `Select image` to upload an image from your computer or choose from your in-app image gallery. Once uploaded, you can click `Change` to replace the image or `Remove` to delete it.
     - **Image Size**: Adjust the image height using the `Image height` dropdown to scale the image as needed.
@@ -576,13 +576,13 @@ Remember, you can also include custom images and styles for each question via th
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
 
-    The `Picture Choice` block lets you offer visual choices for multiple-choice questions, enhancing interactivity. [**`Block Settings`**](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) for picture choices include:
+    The `Picture Choice` block lets you offer visual choices for multiple-choice questions, enhancing interactivity. [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for picture choices include:
 
     - **Picture Size/Ratio**: Choose the size and aspect ratio of the images in this block, from Tiny icon (24px), Small icon (48px), Medium (1:1), or Large (4:3).
     - **Hide Checkbox/Radio**: Hide the checkbox or radio selection indicator for picture choices.
     - **Hide Image Label**: Hide the text label displayed under each picture choice for a cleaner design.
 
-    To upload an image to each choice, open the [**`Choice Settings`**](https://docs.revenuehunt.com/reference/quiz-builder/#choice-settings).
+    To upload an image to each choice, open the [**`Choice Settings`**](/reference/quiz-builder/questions/#choice-settings).
 
     **Adding a Background Image**
 
@@ -590,7 +590,7 @@ Remember, you can also include custom images and styles for each question via th
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
 
-    To add a background image to a specific question go to the [**`Question Settings`**](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings):
+    To add a background image to a specific question go to the [**`Question Settings`**](/reference/quiz-builder/questions/#question-settings):
 
     - **Select a Background Image**: Click `Select image` in the question management settings, then click `Add image` to upload a background image from your computer. Alternatively, choose an existing image from your quiz gallery. Once uploaded, click `Change` to replace the image or `Remove` to delete it.
     - **Background Position**: Set the image to cover the entire background or split the screen, displaying the image on one half and content on the other.
@@ -604,7 +604,7 @@ Remember, you can also include custom images and styles for each question via th
 
     You can add images to your quiz in serveral ways. 
 
-    - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the resutls page with Markdown language.
         - Images:
         ```html
@@ -619,7 +619,7 @@ Remember, you can also include custom images and styles for each question via th
 
     You can add images to your quiz in serveral ways. 
 
-    - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the resutls page with Markdown language.
         - Images:
         ```html
@@ -634,7 +634,7 @@ Remember, you can also include custom images and styles for each question via th
 
     You can add images to your quiz in serveral ways. 
 
-    - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the resutls page with Markdown language.
         - Images:
         ```html
@@ -649,7 +649,7 @@ Remember, you can also include custom images and styles for each question via th
 
     You can add images to your quiz in serveral ways. 
 
-    - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+    - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
     - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the resutls page with Markdown language.
         - Images:
         ```html
@@ -662,9 +662,9 @@ Remember, you can also include custom images and styles for each question via th
 
 ## Individual Question Design
 
-In addition to the overall Quiz Design options, you can add a unique image to every question through the Quiz Builder by accessing the [question settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+In addition to the overall Quiz Design options, you can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
 
-The question settings also allow you to incorporate [custom JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) into your quiz design.
+The question settings also allow you to incorporate [custom JavaScript](/how-to-guides/add-javascript/) into your quiz design.
 
 ## Results Page Design
 
@@ -672,11 +672,11 @@ The Results Page also has its own customization options.
 
 !!! tip
 
-    Check [this article](https://docs.revenuehunt.com/how-to-guides/edit-results-page/) to learn more about styling your results page.
+    Check [this article](/how-to-guides/edit-results-page/) to learn more about styling your results page.
 
-In addition to the basic elements, you can set a unique background image for each result page through the [results page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). You can also use these settings to apply [custom JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript/) to your quiz design.
+In addition to the basic elements, you can set a unique background image for each result page through the [results page settings](/reference/quiz-builder/results-page/-settings). You can also use these settings to apply [custom JavaScript](/how-to-guides/add-javascript/) to your quiz design.
 
-If you find the default results page too restrictive, you might want to **create a custom results page** on your site and direct all quiz data to it using the [Callback Function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/). This function enables you to collect all quiz responses in JSON format on any page you choose.
+If you find the default results page too restrictive, you might want to **create a custom results page** on your site and direct all quiz data to it using the [Callback Function](/how-to-guides/use-callback-function/). This function enables you to collect all quiz responses in JSON format on any page you choose.
 
 ## Customization Examples
 

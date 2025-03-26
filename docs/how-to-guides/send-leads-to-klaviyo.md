@@ -2,7 +2,7 @@
 
 Apart from giving your customers personalized product recommendations, you can connect your quiz to Klaviyo. This way all the contacts coming from the quiz will be added to your Klaviyo account and you can create targeted email campaigns to upsell them.
 
-This article walks you through the process of connecting your quiz to Klavviyo and setting up post-quiz email flow. You can also follow our step-by-step [tutorial](https://docs.revenuehunt.com/tutorials/follow-up-emails-klaviyo/).
+This article walks you through the process of connecting your quiz to Klavviyo and setting up post-quiz email flow. You can also follow our step-by-step [tutorial](/tutorials/follow-up-emails-klaviyo/).
 
 <div class="videoWrapper">
 <iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=A3Q1Ly_hZqWCIXrx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -17,7 +17,7 @@ This article walks you through the process of connecting your quiz to Klavviyo a
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
         ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
-    4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
+    4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
         ![how to send leads to klaviyo public api key provided1](/images/how_to_send_leads_to_klaviyo_public_api_key_provided1.png)
         ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
@@ -38,7 +38,7 @@ This article walks you through the process of connecting your quiz to Klavviyo a
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
         ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
-    4. In the [`Integrations`](https://docs.revenuehunt.com/reference/quiz-builder/#connect-integrations) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
+    4. In the [`Integrations`](/reference/quiz-builder/connect-integrations/-integrations) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
         ![how to send leads to klaviyo public api key provided1](/images/how_to_klaviyo_shopify_v2_public_key.png)
 
     5. Publish the changes with the top-right `Save` button.
@@ -58,7 +58,7 @@ This article walks you through the process of connecting your quiz to Klavviyo a
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
         ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
-    4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
+    4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
         ![how to send leads to klaviyo public api key provided1](/images/how_to_send_leads_to_klaviyo_public_api_key_provided1.png)
         ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
@@ -79,7 +79,7 @@ This article walks you through the process of connecting your quiz to Klavviyo a
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
         ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
-    4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
+    4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
         ![how to send leads to klaviyo public api key provided1](/images/how_to_send_leads_to_klaviyo_public_api_key_provided1.png)
         ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
@@ -100,7 +100,7 @@ This article walks you through the process of connecting your quiz to Klavviyo a
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
         ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
-    4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
+    4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
         ![how to send leads to klaviyo public api key provided1](/images/how_to_send_leads_to_klaviyo_public_api_key_provided1.png)
         ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
@@ -121,7 +121,7 @@ This article walks you through the process of connecting your quiz to Klavviyo a
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
         ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
-    4. In the [`Quiz > Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
+    4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
         ![how to send leads to klaviyo public api key provided1](/images/how_to_send_leads_to_klaviyo_public_api_key_provided1.png)
         ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
@@ -153,8 +153,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 === "Shopify"
 
-    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) tab by clicking `+` and selecting `email` from the dropdown list.
-    2. You can also [ask for marketing consent](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
+    2. You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
     3. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
     4. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
@@ -194,12 +194,12 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
 
-    Remember to deactivate the [email Notifications](https://docs.revenuehunt.com/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
+    Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
 
 === "Shopify V2"
 
-    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) tab by clicking `+` and selecting `email` from the dropdown list.
-    2. You can also [ask for marketing consent](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
+    2. You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
     3. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
     4. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
@@ -241,8 +241,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 === "WooCommerce"
 
-    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) tab by clicking `+` and selecting `email` from the dropdown list.
-    2. You can also [ask for marketing consent](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
+    2. You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
     3. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
     4. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
@@ -282,12 +282,12 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
 
-    Remember to deactivate the [email Notifications](https://docs.revenuehunt.com/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
+    Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
 
 === "Magento"
 
-    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) tab by clicking `+` and selecting `email` from the dropdown list.
-    2. You can also [ask for marketing consent](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
+    2. You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
     3. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
     4. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
@@ -327,12 +327,12 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
 
-    Remember to deactivate the [email Notifications](https://docs.revenuehunt.com/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
+    Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
 
 === "BigCommerce"
 
-    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) tab by clicking `+` and selecting `email` from the dropdown list.
-    2. You can also [ask for marketing consent](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
+    2. You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
     3. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
     4. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
@@ -372,12 +372,12 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
 
-    Remember to deactivate the [email Notifications](https://docs.revenuehunt.com/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
+    Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
 
 === "Standalone"
 
-    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) tab by clicking `+` and selecting `email` from the dropdown list.
-    2. You can also [ask for marketing consent](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
+    2. You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
     3. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
     4. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
@@ -417,7 +417,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
 
-    Remember to deactivate the [email Notifications](https://docs.revenuehunt.com/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
+    Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
 
 ## Adding Quiz Contacts to Klaviyo List
 
@@ -432,7 +432,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     4. Allow `Full access`.
     5. Copy the private key.
-    6. In the Quiz [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab scroll to Klaviyo and edit the connection.
+    6. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
     8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
     9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
@@ -450,7 +450,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     4. Allow `Full access`.
     5. Copy the private key.
-    6. In the Quiz [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab scroll to Klaviyo and edit the connection.
+    6. In the Quiz [Integrations](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
         ![how to klaviyo shopify v2 private api](/images/how_to_klaviyo_shopify_v2_private_api.png)
     8. If you go back to the [Quiz Builder > Email Block Settings]() you will now see an new Klaviyo-related menu. Choose and select a list that contacts should be added to.
@@ -470,7 +470,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     4. Allow `Full access`.
     5. Copy the private key.
-    6. In the Quiz [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab scroll to Klaviyo and edit the connection.
+    6. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
     8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
     9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
@@ -488,7 +488,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     4. Allow `Full access`.
     5. Copy the private key.
-    6. In the Quiz [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab scroll to Klaviyo and edit the connection.
+    6. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
     8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
     9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
@@ -506,7 +506,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     4. Allow `Full access`.
     5. Copy the private key.
-    6. In the Quiz [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab scroll to Klaviyo and edit the connection.
+    6. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
     8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
     9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
@@ -524,7 +524,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     4. Allow `Full access`.
     5. Copy the private key.
-    6. In the Quiz [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab scroll to Klaviyo and edit the connection.
+    6. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
     8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
     9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.

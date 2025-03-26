@@ -13,7 +13,7 @@ Before you start, ensure you have:
 
 To initiate the integration:
 
-1. Navigate to the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) section of your quiz.
+1. Navigate to the [Connect](/reference/quiz-builder/connect-integrations/) section of your quiz.
 2. Scroll down to the "Webhooks" option and click on `Connect` to expand the input field.
 3. In the newly opened line, paste your webhook URL. The system will automatically save the URL once entered.
 4. After adding the webhook URL, click on the three dots `…` next to the webhook entry and select `Test webhook` from the dropdown menu.

@@ -13,7 +13,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 === "Shopify"
 
     1. **Initiate Recall Feature**: While crafting your quiz questions or setting up follow-up communications, press the `@` symbol on your keyboard. This action activates the recall feature. 
-        - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+        - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](/reference/quiz-builder/questions/#question-settings).
         - Information Recalls cannot be added to the first question in the quiz.
 
     2. **Select From Available Data**: Upon triggering the recall feature, a dropdown menu will appear, listing all available questions and data points collected from participants up to that point in the quiz. Scroll through the dropdown menu to find the specific piece of information you wish to recall. Whether it's the participant's name, their answers to previous questions, or other collected data, simply click on your choice to select it.
@@ -25,7 +25,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 
     Content Dynamic Source allow you to recall any answer the customer provided in the quiz and used in any Text Block or a Heading Block on the results page.
 
-    1. **Initiate Content Dynamic Source**: While crafting your quiz questions, results page or setting up follow-up communications, open the text or heading [`block settings`](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings).
+    1. **Initiate Content Dynamic Source**: While crafting your quiz questions, results page or setting up follow-up communications, open the text or heading [`block settings`](/reference/quiz-builder/questions/#block-settings).
 
     2. To add an dynamic content source open a Text or a Headign block and click the Dynamic content source icon.
 
@@ -41,7 +41,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 === "WooCommerce"
 
     1. **Initiate Recall Feature**: While crafting your quiz questions or setting up follow-up communications, press the `@` symbol on your keyboard. This action activates the recall feature. 
-        - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+        - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](/reference/quiz-builder/questions/#question-settings).
         - Information Recalls cannot be added to the first question in the quiz.
 
     2. **Select From Available Data**: Upon triggering the recall feature, a dropdown menu will appear, listing all available questions and data points collected from participants up to that point in the quiz. Scroll through the dropdown menu to find the specific piece of information you wish to recall. Whether it's the participant's name, their answers to previous questions, or other collected data, simply click on your choice to select it.
@@ -52,7 +52,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 === "Magento"
 
     1. **Initiate Recall Feature**: While crafting your quiz questions or setting up follow-up communications, press the `@` symbol on your keyboard. This action activates the recall feature. 
-        - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+        - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](/reference/quiz-builder/questions/#question-settings).
         - Information Recalls cannot be added to the first question in the quiz.
 
     2. **Select From Available Data**: Upon triggering the recall feature, a dropdown menu will appear, listing all available questions and data points collected from participants up to that point in the quiz. Scroll through the dropdown menu to find the specific piece of information you wish to recall. Whether it's the participant's name, their answers to previous questions, or other collected data, simply click on your choice to select it.
@@ -63,7 +63,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 === "BigCommerce"
 
     1. **Initiate Recall Feature**: While crafting your quiz questions or setting up follow-up communications, press the `@` symbol on your keyboard. This action activates the recall feature. 
-        - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+        - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](/reference/quiz-builder/questions/#question-settings).
         - Information Recalls cannot be added to the first question in the quiz.
 
     2. **Select From Available Data**: Upon triggering the recall feature, a dropdown menu will appear, listing all available questions and data points collected from participants up to that point in the quiz. Scroll through the dropdown menu to find the specific piece of information you wish to recall. Whether it's the participant's name, their answers to previous questions, or other collected data, simply click on your choice to select it.
@@ -74,7 +74,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 === "Standalone"
 
     1. **Initiate Recall Feature**: While crafting your quiz questions or setting up follow-up communications, press the `@` symbol on your keyboard. This action activates the recall feature. 
-        - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](https://docs.revenuehunt.com/reference/quiz-builder/#question-settings).
+        - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](/reference/quiz-builder/questions/#question-settings).
         - Information Recalls cannot be added to the first question in the quiz.
 
     2. **Select From Available Data**: Upon triggering the recall feature, a dropdown menu will appear, listing all available questions and data points collected from participants up to that point in the quiz. Scroll through the dropdown menu to find the specific piece of information you wish to recall. Whether it's the participant's name, their answers to previous questions, or other collected data, simply click on your choice to select it.
@@ -88,6 +88,6 @@ Information recall can be utilized in various parts of your quiz to enhance pers
 
 - **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
 - **Results Page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
-- **Email Communications:** Beyond the quiz itself, recall information in your [follow-up emails](https://docs.revenuehunt.com/how-to-guides/send-result-emails/) to provide a cohesive and personalized experience from start to finish. Personalize follow-up emails by including the participant's name in the subject line or email body. Use the "@" symbol to access and insert the participant's name and other relevant information into your email content.
+- **Email Communications:** Beyond the quiz itself, recall information in your [follow-up emails](/how-to-guides/send-result-emails/) to provide a cohesive and personalized experience from start to finish. Personalize follow-up emails by including the participant's name in the subject line or email body. Use the "@" symbol to access and insert the participant's name and other relevant information into your email content.
 
  

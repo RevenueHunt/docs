@@ -17,8 +17,8 @@ Before you begin, ensure you have:
 
 To integrate your quiz with ActiveCampaign:
 
-1. Open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-2. Click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab located at the top of the screen to access the integration settings.
+1. Open the [Quiz Builder](/reference/quiz-builder/).
+2. Click on the [Connect](/reference/quiz-builder/connect-integrations/) tab located at the top of the screen to access the integration settings.
 3. In the integration options, locate ActiveCampaign and copy the `API Token`. You'll need it later.
     ![how to send leads to activecampaign](/images/how_to_send_leads_to_activecampaign.png)
 4. Click the `Connect` button within the ActiveCampaign section.
@@ -46,7 +46,7 @@ Alternatively, you can initiate the connection from within ActiveCampaign:
 
         If you're unable to see the Apps page in your account, it is likely because ActiveCampaign branding is turned off for your account. Please try toggling the ActiveCampaign branding setting off and then back on in your account settings. Once you've done that, check if the Apps page appears
 
-2. Select the quiz icon and follow the provided setup instructions. During the setup process, you will be prompted to enter your `ActiveCampaign API Token`. This token is essential for linking the quiz data with your ActiveCampaign account and can be found in the [`Connect`](https://docs.revenuehunt.com/reference/quiz-builder/#connect) > ActiveCampaign section of the app.
+2. Select the quiz icon and follow the provided setup instructions. During the setup process, you will be prompted to enter your `ActiveCampaign API Token`. This token is essential for linking the quiz data with your ActiveCampaign account and can be found in the [`Connect`](/reference/quiz-builder/connect-integrations/) > ActiveCampaign section of the app.
 
 !!! note
 

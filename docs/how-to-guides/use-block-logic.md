@@ -1,10 +1,10 @@
 # How to use Block Logic
 
-[Block logic or Display Logic](https://docs.revenuehunt.com/reference/quiz-builder/#block-logic) is a feature of the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) that allows you to make blocks visible or hidden based on customer's responses.
+[Block logic or Display Logic](/reference/quiz-builder/conditional-logic/#block-logic) is a feature of the [Results Page](/reference/quiz-builder/results-page/) that allows you to make blocks visible or hidden based on customer's responses.
 
 ## Results Page
 
-In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+In the [Results Page](/reference/quiz-builder/results-page/) section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
 ??? question "What content be added to the Results Page?"
 
@@ -64,7 +64,7 @@ In the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#resul
     1. **Find a section**: Start by identifying or adding the section you wish to add Display Logic to. 
     2. **Open DisplayLogic settings**: Click on the section and on the right-hand side identify the `Display logic`.
 
-        ![quiz builder results page block menu](https://docs.revenuehunt.com/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic.png)
+        ![quiz builder results page block menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic.png)
 
     3. Next, select `+ Add logic condition (OR)`.
     3. **Add your rules**: Add your display logic rules for when the block should be visible or hidden. 
@@ -252,7 +252,7 @@ You want to provide personalized advice based on the customer's skin type. Imagi
 
 ![how to use block logic example](/images/how_to_use_block_logic_example.png)
 
-To learn how to build such a quiz check this [step-by-step guide](https://docs.revenuehunt.com/how-to-guides/hide-content-with-logic/).
+To learn how to build such a quiz check this [step-by-step guide](/how-to-guides/hide-content-with-logic/).
 
 ## Additional Resources
 

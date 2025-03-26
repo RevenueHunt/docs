@@ -15,11 +15,11 @@ The recommendation process is based on how many choices the user selects out of 
 
 ## How can I ensure that users don’t see the choices in the last question?
 
-You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](https://docs.revenuehunt.com/how-to-guides/customize-quiz-design/).
+You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](/how-to-guides/customize-quiz-design/).
 
 ## Where do I input the custom JavaScript code?
 
-[This article](https://docs.revenuehunt.com/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
+[This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
 
 ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png)
 

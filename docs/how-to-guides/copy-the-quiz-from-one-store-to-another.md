@@ -14,7 +14,7 @@ Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-r
 
     First, navigate to the quiz you wish to export:
 
-    1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#general).
+    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
     2. Click on **Export quiz to another store**. A popup will display a unique code.
     3. **Copy this code** immediately. It remains valid for only 1 hour.
 
@@ -28,7 +28,7 @@ Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-r
 
     First, navigate to the quiz you wish to export:
 
-    1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings).
+    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/).
     2. Search for **Export quiz to another store** and click `Copy quiz code`. The button generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another. It remains valid for only 1 hour.
 
         ![Export Quiz Step](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
@@ -41,7 +41,7 @@ Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-r
 
     First, navigate to the quiz you wish to export:
 
-    1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#general).
+    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
     2. Click on **Export quiz to another store**. A popup will display a unique code.
     3. **Copy this code** immediately. It remains valid for only 1 hour.
 
@@ -55,7 +55,7 @@ Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-r
 
     First, navigate to the quiz you wish to export:
 
-    1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#general).
+    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
     2. Click on **Export quiz to another store**. A popup will display a unique code.
     3. **Copy this code** immediately. It remains valid for only 1 hour.
 
@@ -69,7 +69,7 @@ Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-r
 
     First, navigate to the quiz you wish to export:
 
-    1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#general).
+    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
     2. Click on **Export quiz to another store**. A popup will display a unique code.
     3. **Copy this code** immediately. It remains valid for only 1 hour.
 
@@ -83,7 +83,7 @@ Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-r
 
     First, navigate to the quiz you wish to export:
 
-    1. Go to [Quiz Settings > General](https://docs.revenuehunt.com/reference/quiz-builder/#general).
+    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
     2. Click on **Export quiz to another store**. A popup will display a unique code.
     3. **Copy this code** immediately. It remains valid for only 1 hour.
 
@@ -106,8 +106,8 @@ Ensure you're logged into the destination store:
 
     Finally, import the quiz into your new store:
 
-    1. In the RevenueHunt app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
-    2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
+    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
         ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
@@ -118,8 +118,8 @@ Ensure you're logged into the destination store:
 
     Finally, import the quiz into your new store:
 
-    1. In the RevenueHunt app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
-    2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
+    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
 
         ![manual_shopifyV2_createquiz](/images/manual_shopifyV2_createquiz.png)
 
@@ -133,8 +133,8 @@ Ensure you're logged into the destination store:
 
     Finally, import the quiz into your new store:
 
-    1. In the RevenueHunt app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
-    2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
+    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
         ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
@@ -145,8 +145,8 @@ Ensure you're logged into the destination store:
 
     Finally, import the quiz into your new store:
 
-    1. In the RevenueHunt app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
-    2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
+    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
         ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
@@ -157,8 +157,8 @@ Ensure you're logged into the destination store:
 
     Finally, import the quiz into your new store:
 
-    1. In the RevenueHunt app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
-    2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
+    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
         ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
@@ -169,8 +169,8 @@ Ensure you're logged into the destination store:
 
     Finally, import the quiz into your new store:
 
-    1. In the RevenueHunt app, navigate to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
-    2. Click on the [New Quiz](https://docs.revenuehunt.com/reference/dashboard/#new-quiz) option.
+    1. In the RevenueHunt app, navigate to the [Dashboard](/reference/dashboard/).
+    2. Click on the [New Quiz](/reference/dashboard/#new-quiz) option.
     3. Choose **import a quiz from another store** and paste the previously generated code.
 
         ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
@@ -213,9 +213,9 @@ Follow these steps if you plan to change the domain on which the RevenueHunt app
 
 === "Standalone"
 
-    Standalone solution is independent of your domain and can be used on multiple domains simultaneously. Make sure to change your product links in your in-app [Catalogue](https://docs.revenuehunt.com/reference/dashboard/#__tabbed_3_5) or Google Product Feed.
+    Standalone solution is independent of your domain and can be used on multiple domains simultaneously. Make sure to change your product links in your in-app [Catalogue](/reference/dashboard/#__tabbed_3_5) or Google Product Feed.
 
-If you have any issues or doubts about changing domains, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+If you have any issues or doubts about changing domains, please [contact support](/how-to-guides/contact-customer-support/).
 
 ---
 By following these instructions, you can efficiently duplicate your quiz across all your stores, saving time.

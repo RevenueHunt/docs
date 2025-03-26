@@ -1,12 +1,12 @@
 # How to Use Skip Logic
 
-[Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. 
+[Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. 
 
 The guide will show you how to set up and use Skip Logic, including some examples of how it works.
 
 !!! warning
 
-    It is advised not to mix [Jump Logic](https://docs.revenuehunt.com/reference/quiz-builder/#jump-logic) and [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) in one quiz. Mixing logic rules can lead to unexpected results.
+    It is advised not to mix [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) and [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) in one quiz. Mixing logic rules can lead to unexpected results.
 
 ## Conditional Logic
 
@@ -14,7 +14,7 @@ The guide will show you how to set up and use Skip Logic, including some example
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -42,7 +42,7 @@ The guide will show you how to set up and use Skip Logic, including some example
 
     ![quiz builder conditional logic](/images/how_to_use_skip_logic_cond_logic_intro.png)
 
-    In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The right menu allows you to add conditional logic rules to questions in the quiz. The left preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The right menu allows you to add conditional logic rules to questions in the quiz. The left preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -64,7 +64,7 @@ The guide will show you how to set up and use Skip Logic, including some example
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -92,7 +92,7 @@ The guide will show you how to set up and use Skip Logic, including some example
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -120,7 +120,7 @@ The guide will show you how to set up and use Skip Logic, including some example
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -148,7 +148,7 @@ The guide will show you how to set up and use Skip Logic, including some example
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -186,8 +186,8 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 === "Shopify"
 
-    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) of a question.
-    2. Open the [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) tab. 
+    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](/reference/quiz-builder/conditional-logic/) of a question.
+    2. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab. 
     3. **Add Skip Logic**: From here, click `Add Skip Logic`. You can create a new Skip Logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
 
         !!! example
@@ -207,8 +207,8 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 === "Shopify V2"
 
-    1. You can introduce Skip Logic into your quiz by opening the [Quiz Builder > Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) tab.
-    2. Select a question that you want to be skipped and in the right-hand side menu open the [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) dropdown.
+    1. You can introduce Skip Logic into your quiz by opening the [Quiz Builder > Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    2. Select a question that you want to be skipped and in the right-hand side menu open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) dropdown.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
     3. **Add Skip Logic**: From here, click `+ Add another rule (OR)`. You can create a new Skip Logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
@@ -229,8 +229,8 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 === "WooCommerce"
 
-    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) of a question.
-    2. Open the [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) tab. 
+    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](/reference/quiz-builder/conditional-logic/) of a question.
+    2. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab. 
     3. **Add Skip Logic**: From here, click `Add Skip Logic`. You can create a new Skip Logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
 
         !!! example
@@ -250,8 +250,8 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 === "Magento"
 
-    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) of a question.
-    2. Open the [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) tab. 
+    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](/reference/quiz-builder/conditional-logic/) of a question.
+    2. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab. 
     3. **Add Skip Logic**: From here, click `Add Skip Logic`. You can create a new Skip Logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
 
         !!! example
@@ -271,8 +271,8 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 === "BigCommerce"
 
-    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) of a question.
-    2. Open the [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) tab. 
+    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](/reference/quiz-builder/conditional-logic/) of a question.
+    2. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab. 
     3. **Add Skip Logic**: From here, click `Add Skip Logic`. You can create a new Skip Logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
 
         !!! example
@@ -292,8 +292,8 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 === "Standalone"
 
-    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](https://docs.revenuehunt.com/reference/quiz-builder/#conditional-logic) of a question.
-    2. Open the [Skip Logic](https://docs.revenuehunt.com/reference/quiz-builder/#skip-logic) tab. 
+    1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](/reference/quiz-builder/conditional-logic/) of a question.
+    2. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab. 
     3. **Add Skip Logic**: From here, click `Add Skip Logic`. You can create a new Skip Logic statement specifying the conditions under which the current question should be bypassed. These statements follow a simple format: IF the answer to `question X` IS EQUAL TO `choice Y`, THEN skip this question. 
 
         !!! example
@@ -337,7 +337,7 @@ You want to provide personalized advice based on the customer's skin type. Imagi
 
 **Implementation**
 
-To learn how to build such a quiz check this [step-by-step guide](https://docs.revenuehunt.com/how-to-guides/hide-content-with-logic/).
+To learn how to build such a quiz check this [step-by-step guide](/how-to-guides/hide-content-with-logic/).
 
 - Add a multiple-choice question about skin type (Dry, Normal, Oily, or Combination).
 - Create separate statement questions for each skin type, detailing specific advice or information.

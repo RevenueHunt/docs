@@ -8,7 +8,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
 === "Shopify"
 
-    1. **Access Results Page Settings**: Begin by navigating to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab in the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). Click this icon to proceed.
+    1. **Access Results Page Settings**: Begin by navigating to the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](/reference/quiz-builder/results-page/-settings). Click this icon to proceed.
 
     2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
         ![how to change checkout settings](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
@@ -38,7 +38,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar.png)
 
-    1. Open the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page).
+    1. Open the [Results Page](/reference/quiz-builder/results-page/).
     2. Scroll down to the **Checkout bar** section and click on it. 
     3. From the right-hand side menu you can select the settings of the checkout bar.
 
@@ -52,7 +52,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
 === "WooCommerce"
 
-    1. **Access Results Page Settings**: Begin by navigating to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab in the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). Click this icon to proceed.
+    1. **Access Results Page Settings**: Begin by navigating to the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](/reference/quiz-builder/results-page/-settings). Click this icon to proceed.
 
     2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
         ![manual_woo_quizbuilder_resultspage_checkoutsettings](/images/manual_woo_quizbuilder_resultspage_checkoutsettings.png)
@@ -80,7 +80,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
 === "Magento"
 
-    1. **Access Results Page Settings**: Begin by navigating to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab in the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). Click this icon to proceed.
+    1. **Access Results Page Settings**: Begin by navigating to the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](/reference/quiz-builder/results-page/-settings). Click this icon to proceed.
 
     2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
         ![manual_magento_quizbuilder_resultspage_checkoutsettings](/images/manual_magento_quizbuilder_resultspage_checkoutsettings.png){width="500"}
@@ -105,7 +105,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
 === "BigCommerce"
 
-    1. **Access Results Page Settings**: Begin by navigating to the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) tab in the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](https://docs.revenuehunt.com/reference/quiz-builder/#results-page-settings). Click this icon to proceed.
+    1. **Access Results Page Settings**: Begin by navigating to the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](/reference/quiz-builder/results-page/-settings). Click this icon to proceed.
 
     2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
         ![manual_magento_quizbuilder_resultspage_checkoutsettings](/images/manual_magento_quizbuilder_resultspage_checkoutsettings.png){width="500"}
@@ -138,7 +138,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
     
     !!! tip
 
-        If you would like to add a product to the cart you can set up your own results page in your store and send all the quiz data there with the help of our [Callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/).
+        If you would like to add a product to the cart you can set up your own results page in your store and send all the quiz data there with the help of our [Callback function](/how-to-guides/use-callback-function/).
 
 ---
 

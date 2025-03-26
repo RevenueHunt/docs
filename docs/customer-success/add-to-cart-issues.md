@@ -8,7 +8,7 @@ The quiz needs to be published on live website (not hidden by a “coming soon�
 
 !!! tip
 
-    Check [this article](https://docs.revenuehunt.com/how-to-guides/publish-quiz/) to learn how to publish your quiz.
+    Check [this article](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
 
 ## You’re using a cart drawer
 
@@ -20,14 +20,14 @@ You could, instead of adding the product to the cart, send the customer to the p
 
 !!! tip
 
-    Check [this article](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
+    Check [this article](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
 
 
 ## Your product is a subscription product
 
-RevenueHunt app is able to sync and recommend subscription products created with ReCharge Subscriptions for Shopify. Check [here](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/) for instructions on how to enable it.
+RevenueHunt app is able to sync and recommend subscription products created with ReCharge Subscriptions for Shopify. Check [here](/how-to-guides/recommend-subscription-products/) for instructions on how to enable it.
 
-For other subscription apps, there's a [workaround](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products/#other-subscriptions) that allows you to still guide your customers towards subscription options via the RevenueHunt app. 
+For other subscription apps, there's a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) that allows you to still guide your customers towards subscription options via the RevenueHunt app. 
 
 
 ---

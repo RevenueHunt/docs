@@ -10,9 +10,9 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![dashboard side menu](/images/manual_sidemenu.png){width="500"}
 
-    **Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+    **Plans & Pricing** - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
 
-    **App Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
+    **App Settings** - Opens the [App Settings](/reference/app-settings/) menu.
 
     ![dashboard top menu](/images/manual_dashboard_topmenu.png){width="400"}
 
@@ -30,9 +30,9 @@ On the dashboard, you'll find all the quizzes that you create.
 
     **Quizzes** - The dashboard of the app where you can find all the quizzes created.
 
-    **Analytics** - Opens the [Analytics tab](https://docs.revenuehunt.com/reference/quiz-builder/#analytics) where you can check the quiz performance.
+    **Analytics** - Opens the [Analytics tab](/reference/quiz-builder/metrics/#analytics) where you can check the quiz performance.
 
-    **Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
+    **Settings** - Opens the [App Settings](/reference/app-settings/) menu.
 
     **Get support** - Opens the [Support](#support) menu.
 
@@ -42,9 +42,9 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![manual_woo_dashboard](/images/manual_woo_dashboard.png)
 
-    **Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+    **Plans & Pricing** - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
 
-    **⚙️ App Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
+    **⚙️ App Settings** - Opens the [App Settings](/reference/app-settings/) menu.
 
     **❔ Help** - Opens the Help menu.
 
@@ -53,17 +53,17 @@ On the dashboard, you'll find all the quizzes that you create.
     - **❔ Frequently Asked Questions** - Opens our FAQ page with app documentation.
     - **▶ Video Tutorials** - Opens the video tutorials page. 
     - **🛈 App Status & Uptime** - Opens the page where one can check if the app has any technical issues.
-    - **💲 Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
-    - **✉️ Contact Support** - Opens the page to [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+    - **💲 Plans & Pricing** - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+    - **✉️ Contact Support** - Opens the page to [contact support](/how-to-guides/contact-customer-support/).
 
     **🔲 / square** - Opens the quiz full-screen in a new tab.
 
 
 === "Magento"
 
-    **Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+    **Plans & Pricing** - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
 
-    **⚙️ App Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
+    **⚙️ App Settings** - Opens the [App Settings](/reference/app-settings/) menu.
 
     **❔ Help** - Opens the Help menu.
 
@@ -72,16 +72,16 @@ On the dashboard, you'll find all the quizzes that you create.
     - **❔ Frequently Asked Questions** - Opens our FAQ page with app documentation.
     - **▶ Video Tutorials** - Opens the video tutorials page. 
     - **🛈 App Status & Uptime** - Opens the page where one can check if the app has any technical issues.
-    - **💲 Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
-    - **✉️ Contact Support** - Opens the page to [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+    - **💲 Plans & Pricing** - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+    - **✉️ Contact Support** - Opens the page to [contact support](/how-to-guides/contact-customer-support/).
 
     **🔲 / square** - Opens the quiz full-screen in a new tab.
 
 === "BigCommerce"
 
-    **Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+    **Plans & Pricing** - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
 
-    **⚙️ App Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
+    **⚙️ App Settings** - Opens the [App Settings](/reference/app-settings/) menu.
 
     **❔ Help** - Opens the Help menu.
 
@@ -90,8 +90,8 @@ On the dashboard, you'll find all the quizzes that you create.
     - **❔ Frequently Asked Questions** - Opens our FAQ page with app documentation.
     - **▶ Video Tutorials** - Opens the video tutorials page. 
     - **🛈 App Status & Uptime** - Opens the page where one can check if the app has any technical issues.
-    - **💲 Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
-    - **✉️ Contact Support** - Opens the page to [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+    - **💲 Plans & Pricing** - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+    - **✉️ Contact Support** - Opens the page to [contact support](/how-to-guides/contact-customer-support/).
 
     **🔲 / square** - Opens the quiz full-screen in a new tab.
 
@@ -99,9 +99,9 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![manual_standalone_dashboard](/images/manual_standalone_dashboard.png)
 
-    **Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+    **Plans & Pricing** - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
 
-    **⚙️ App Settings** - Opens the [App Settings](https://docs.revenuehunt.com/reference/app-settings/) menu.
+    **⚙️ App Settings** - Opens the [App Settings](/reference/app-settings/) menu.
 
     **❔ Help** - Opens the Help menu.
 
@@ -110,8 +110,8 @@ On the dashboard, you'll find all the quizzes that you create.
     - **❔ Frequently Asked Questions** - Opens our FAQ page with app documentation.
     - **▶ Video Tutorials** - Opens the video tutorials page. 
     - **🛈 App Status & Uptime** - Opens the page where one can check if the app has any technical issues.
-    - **💲 Plans & Pricing** - Opens the [Plans & Pricing tab](https://docs.revenuehunt.com/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
-    - **✉️ Contact Support** - Opens the page to [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+    - **💲 Plans & Pricing** - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+    - **✉️ Contact Support** - Opens the page to [contact support](/how-to-guides/contact-customer-support/).
 
 
 
@@ -170,7 +170,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![dashboard tutorial quiz](/images/manual_tutorial_quiz.png){width="300"}
 
-    **Tutorial Quiz (copy)** - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
+    **Tutorial Quiz (copy)** - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](/reference/quiz-builder/questions/).
 
     **0 leads** - Indicates the total number of quiz responses the quiz received.
 
@@ -178,15 +178,15 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![dashboard quiz menu](/images/manual_dots_menu.png){width="400"}
 
-    - **Edit** - Opens the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
-    - **Connect** - Opens the [Connect tab](https://docs.revenuehunt.com/reference/quiz-builder/#connect) within the Quiz Builder.
-    - **Share** - Opens the [Share tab](https://docs.revenuehunt.com/reference/quiz-builder/#share) within the Quiz Builder.
-    - **Metrics** - Opens the [Metrics tab](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) within the Quiz Builder.
+    - **Edit** - Opens the [Quiz Builder](/reference/quiz-builder/questions/).
+    - **Connect** - Opens the [Connect tab](/reference/quiz-builder/connect-integrations/) within the Quiz Builder.
+    - **Share** - Opens the [Share tab](/reference/quiz-builder/share-publish/) within the Quiz Builder.
+    - **Metrics** - Opens the [Metrics tab](/reference/quiz-builder/metrics/) within the Quiz Builder.
     - **Preview** - Opens the Quiz Preview.
     - **Publish** - Publish quiz changes to the Preview/Live Quiz. (If you have not yet added the quiz to your website as a link or an embed, clicking "Publish" will simply update the preview.)
     - **Make a copy** - Create a copy of this quiz on the dashboard.
     - **Export Responses as CSV** - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
-    - **Version History** - Open the [Version History tab](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) in Quiz Builder > Quiz Settings.
+    - **Version History** - Open the [Version History tab](/reference/quiz-builder/quiz-settings/#version-history) in Quiz Builder > Quiz Settings.
     - **Copy quiz ID: xxx** - Copy the quiz ID of the current quiz.
     - **Set as Default Quiz** - Set as a default quiz to be displayed in the Shop App.
     - **Delete** - Delete the quiz.
@@ -231,10 +231,10 @@ On the dashboard, you'll find all the quizzes that you create.
     ![manual_shopifyV2_quizmanagementoptions.png](/images/manual_shopifyV2_quizmanagementoptions.png)
 
     - **Preview** - Opens the Quiz Preview for testing.
-    - **Quiz Settings** - Opens the [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) for that quiz.
-    - **Integrations** - Opens the [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#share) page for that quiz.
-    - **Responses** - Opens the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) page where it's possible to view, downalod and troubleshoot response for that quiz.
-    - **Analytics** - Opens the [Analytics](https://docs.revenuehunt.com/reference/quiz-builder/#analytics) page where all the quiz analytics are stored, including quiz starts, completions and revenue.
+    - **Quiz Settings** - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) for that quiz.
+    - **Integrations** - Opens the [Integrations](/reference/quiz-builder/share-publish/) page for that quiz.
+    - **Responses** - Opens the [Responses](/reference/quiz-builder/metrics/#responses) page where it's possible to view, downalod and troubleshoot response for that quiz.
+    - **Analytics** - Opens the [Analytics](/reference/quiz-builder/metrics/#analytics) page where all the quiz analytics are stored, including quiz starts, completions and revenue.
     - **Copy quiz ID:** - Copies the current quiz ID to clipboard.
     - **Rename** - Allows you to rename the current quiz.
     - **Duplicate** - Create a copy of this quiz on the dashboard.
@@ -246,7 +246,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     Clicking `Cancel` cancels the operation. Clicking `Set as default` will confirm the action.
 
-    **Customize** - Opens the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
+    **Customize** - Opens the [Quiz Builder](/reference/quiz-builder/questions/).
 
 === "WooCommerce" 
 
@@ -254,7 +254,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     **+ new quiz** - Opens the [New quiz](#new-quiz) setup menu.
 
-    **Demo Quiz (copy)** - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
+    **Demo Quiz (copy)** - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](/reference/quiz-builder/questions/).
 
     **4096 leads** - Indicates the total number of quiz responses the quiz received.
 
@@ -262,15 +262,15 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![dashboard quiz menu](/images/manual_dots_menu.png){width="400"}
 
-    - **Edit** - Opens the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
-    - **Connect** - Opens the [Connect tab](https://docs.revenuehunt.com/reference/quiz-builder/#connect) within the Quiz Builder.
-    - **Share** - Opens the [Share tab](https://docs.revenuehunt.com/reference/quiz-builder/#share) within the Quiz Builder.
-    - **Metrics** - Opens the [Metrics tab](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) within the Quiz Builder.
+    - **Edit** - Opens the [Quiz Builder](/reference/quiz-builder/questions/).
+    - **Connect** - Opens the [Connect tab](/reference/quiz-builder/connect-integrations/) within the Quiz Builder.
+    - **Share** - Opens the [Share tab](/reference/quiz-builder/share-publish/) within the Quiz Builder.
+    - **Metrics** - Opens the [Metrics tab](/reference/quiz-builder/metrics/) within the Quiz Builder.
     - **Preview** - Opens the Quiz Preview.
     - **Publish** - Publish quiz changes to the Preview/Live Quiz. (If you have not yet added the quiz to your website as a link or an embed, clicking "Publish" will simply update the preview.)
     - **Make a copy** - Create a copy of this quiz on the dashboard.
     - **Export Responses as CSV** - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
-    - **Version History** - Open the [Version History tab](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) in Quiz Builder > Quiz Settings.
+    - **Version History** - Open the [Version History tab](/reference/quiz-builder/quiz-settings/#version-history) in Quiz Builder > Quiz Settings.
     - **Copy quiz ID: xxx** - Copy the quiz ID of the current quiz.
     - **Delete** - Delete the quiz.
 
@@ -288,7 +288,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     **+ new quiz** - Opens the [New quiz](#new-quiz) setup menu.
 
-    **Demo Quiz (copy)** - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
+    **Demo Quiz (copy)** - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](/reference/quiz-builder/questions/).
 
     **4096 leads** - Indicates the total number of quiz responses the quiz received.
 
@@ -296,15 +296,15 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![dashboard quiz menu](/images/manual_dots_menu.png){width="400"}
 
-    - **Edit** - Opens the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
-    - **Connect** - Opens the [Connect tab](https://docs.revenuehunt.com/reference/quiz-builder/#connect) within the Quiz Builder.
-    - **Share** - Opens the [Share tab](https://docs.revenuehunt.com/reference/quiz-builder/#share) within the Quiz Builder.
-    - **Metrics** - Opens the [Metrics tab](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) within the Quiz Builder.
+    - **Edit** - Opens the [Quiz Builder](/reference/quiz-builder/questions/).
+    - **Connect** - Opens the [Connect tab](/reference/quiz-builder/connect-integrations/) within the Quiz Builder.
+    - **Share** - Opens the [Share tab](/reference/quiz-builder/share-publish/) within the Quiz Builder.
+    - **Metrics** - Opens the [Metrics tab](/reference/quiz-builder/metrics/) within the Quiz Builder.
     - **Preview** - Opens the Quiz Preview.
     - **Publish** - Publish quiz changes to the Preview/Live Quiz. (If you have not yet added the quiz to your website as a link or an embed, clicking "Publish" will simply update the preview.)
     - **Make a copy** - Create a copy of this quiz on the dashboard.
     - **Export Responses as CSV** - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
-    - **Version History** - Open the [Version History tab](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) in Quiz Builder > Quiz Settings.
+    - **Version History** - Open the [Version History tab](/reference/quiz-builder/quiz-settings/#version-history) in Quiz Builder > Quiz Settings.
     - **Copy quiz ID: xxx** - Copy the quiz ID of the current quiz.
     - **Delete** - Delete the quiz.
 
@@ -314,7 +314,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     **+ new quiz** - Opens the [New quiz](#new-quiz) setup menu.
 
-    **Demo Quiz (copy)** - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
+    **Demo Quiz (copy)** - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](/reference/quiz-builder/questions/).
 
     **4096 leads** - Indicates the total number of quiz responses the quiz received.
 
@@ -322,15 +322,15 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![dashboard quiz menu](/images/manual_dots_menu.png){width="400"}
 
-    - **Edit** - Opens the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
-    - **Connect** - Opens the [Connect tab](https://docs.revenuehunt.com/reference/quiz-builder/#connect) within the Quiz Builder.
-    - **Share** - Opens the [Share tab](https://docs.revenuehunt.com/reference/quiz-builder/#share) within the Quiz Builder.
-    - **Metrics** - Opens the [Metrics tab](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) within the Quiz Builder.
+    - **Edit** - Opens the [Quiz Builder](/reference/quiz-builder/questions/).
+    - **Connect** - Opens the [Connect tab](/reference/quiz-builder/connect-integrations/) within the Quiz Builder.
+    - **Share** - Opens the [Share tab](/reference/quiz-builder/share-publish/) within the Quiz Builder.
+    - **Metrics** - Opens the [Metrics tab](/reference/quiz-builder/metrics/) within the Quiz Builder.
     - **Preview** - Opens the Quiz Preview.
     - **Publish** - Publish quiz changes to the Preview/Live Quiz. (If you have not yet added the quiz to your website as a link or an embed, clicking "Publish" will simply update the preview.)
     - **Make a copy** - Create a copy of this quiz on the dashboard.
     - **Export Responses as CSV** - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
-    - **Version History** - Open the [Version History tab](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) in Quiz Builder > Quiz Settings.
+    - **Version History** - Open the [Version History tab](/reference/quiz-builder/quiz-settings/#version-history) in Quiz Builder > Quiz Settings.
     - **Copy quiz ID: xxx** - Copy the quiz ID of the current quiz.
     - **Delete** - Delete the quiz.
 
@@ -340,7 +340,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     **+ new quiz** - Opens the [New quiz](#new-quiz) setup menu.
 
-    **Demo Quiz (copy)** - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
+    **Demo Quiz (copy)** - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](/reference/quiz-builder/questions/).
 
     **4096 leads** - Indicates the total number of quiz responses the quiz received.
 
@@ -348,15 +348,15 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![dashboard quiz menu](/images/manual_dots_menu.png){width="400"}
 
-    - **Edit** - Opens the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1).
-    - **Connect** - Opens the [Connect tab](https://docs.revenuehunt.com/reference/quiz-builder/#connect) within the Quiz Builder.
-    - **Share** - Opens the [Share tab](https://docs.revenuehunt.com/reference/quiz-builder/#share) within the Quiz Builder.
-    - **Metrics** - Opens the [Metrics tab](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) within the Quiz Builder.
+    - **Edit** - Opens the [Quiz Builder](/reference/quiz-builder/questions/).
+    - **Connect** - Opens the [Connect tab](/reference/quiz-builder/connect-integrations/) within the Quiz Builder.
+    - **Share** - Opens the [Share tab](/reference/quiz-builder/share-publish/) within the Quiz Builder.
+    - **Metrics** - Opens the [Metrics tab](/reference/quiz-builder/metrics/) within the Quiz Builder.
     - **Preview** - Opens the Quiz Preview.
     - **Publish** - Publish quiz changes to the Preview/Live Quiz. (If you have not yet added the quiz to your website as a link or an embed, clicking "Publish" will simply update the preview.)
     - **Make a copy** - Create a copy of this quiz on the dashboard.
     - **Export Responses as CSV** - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
-    - **Version History** - Open the [Version History tab](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) in Quiz Builder > Quiz Settings.
+    - **Version History** - Open the [Version History tab](/reference/quiz-builder/quiz-settings/#version-history) in Quiz Builder > Quiz Settings.
     - **Copy quiz ID: xxx** - Copy the quiz ID of the current quiz.
     - **Delete** - Delete the quiz.
 
@@ -542,7 +542,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
 
@@ -566,7 +566,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="500"}
 
-    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) of the new blank quiz.
+    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder](/reference/quiz-builder/questions/) of the new blank quiz.
 
     **From template**  - Start a new quiz by selecting a pre-made template and color scheme.
 
@@ -576,7 +576,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="500"}
 
-    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-builder_1) of the new quiz.
+    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder](/reference/quiz-builder/questions/) of the new quiz.
 
     **Import quiz** - Import a quiz by pasting the quiz JSON in the popup.
 
@@ -586,7 +586,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     !!! note
 
-        For instructions no how to export/import a quiz from one store to another in a JSON format, please check [this guide](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another/).
+        For instructions no how to export/import a quiz from one store to another in a JSON format, please check [this guide](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
 
 
@@ -598,7 +598,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
 
@@ -616,7 +616,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
 
@@ -634,7 +634,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
 
@@ -652,7 +652,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
 
-    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    **import quiz from another store** - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     **Select from one of our Quiz Templates**  - Allows you to use one of our pre-designed templates.
 
@@ -719,7 +719,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     !!! warning
 
-        If you have any questions or need assistance during this transition, feel free to [reach out to our support team](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        If you have any questions or need assistance during this transition, feel free to [reach out to our support team](/how-to-guides/contact-customer-support/).
 
 
 === "WooCommerce"

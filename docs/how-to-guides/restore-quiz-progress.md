@@ -6,15 +6,15 @@ icon: material/restore-alert
 
 Accidentally losing progress or facing unintended changes made by a colleague can be frustrating. Fortunately, if you find yourself in such a situation with your quiz, there is a way to recover a previous stable version of your Product Recommendation Quiz. 
 
-This guide will walk you through the process of using the [Version History](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) feature to recover an earlier version of your quiz, ensuring your hard work isn't lost.
+This guide will walk you through the process of using the [Version History](/reference/quiz-builder/quiz-settings/#version-history) feature to recover an earlier version of your quiz, ensuring your hard work isn't lost.
 
 ## Accessing Version History
 
-The [Version History](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
+The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
 
 1. **Open Your Quiz**: Navigate to the quiz you're working on.
-2. **Go to Quiz Settings**: Look for the [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings) option within the Quiz Builder.
-3. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](https://docs.revenuehunt.com/reference/quiz-builder/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
+2. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder.
+3. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
 
 ## Understanding Saved Versions
 
@@ -30,7 +30,7 @@ If you need to recover a previous version of the quiz:
 
 1. **Select the Version**: Identify the version you want to recover from the list. Use the colored `tags` and `time stamps` as a guide to find the version with the desired changes.
 2. **Use the Three Dots Menu**: Next to the version you want to recover, click on the three dots menu `...` for options.
-3. **Recover Quiz Version**: Select to `create a new quiz from this version`. Once clicked, a new quiz copy will appear on your [Dashboard](https://docs.revenuehunt.com/reference/dashboard/).
+3. **Recover Quiz Version**: Select to `create a new quiz from this version`. Once clicked, a new quiz copy will appear on your [Dashboard](/reference/dashboard/).
 
 ---
 Follow instructions above to recover a puiblished quiz version.

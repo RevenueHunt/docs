@@ -82,13 +82,13 @@ Let’s get started.
         - a *Cleansers* collection should have all the cleansing products, 
         - a *Toners* collection should have all the toning products, 
         - a *Serums* collection should have all the serums, etc.
-    3. To create a collection, go to the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) and open the `Catalogue` by clicking `view products`. For each category, create a collection in your Standalone account via the Catalogue tab or a Google Product Feed with the right products.
+    3. To create a collection, go to the [Success Checklist](/reference/dashboard/#success-checklist) and open the `Catalogue` by clicking `view products`. For each category, create a collection in your Standalone account via the Catalogue tab or a Google Product Feed with the right products.
 
 ## Sync
 
-Once you’ve made changes to your products and collections/categories, you should [sync them](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) with the app. 
+Once you’ve made changes to your products and collections/categories, you should [sync them](/how-to-guides/sync-catalog/) with the app. 
 
-1. The process is done automatically in the background but to make it faster, you can hit the [sync button](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) in the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist).
+1. The process is done automatically in the background but to make it faster, you can hit the [sync button](/how-to-guides/sync-catalog/) in the [Success Checklist](/reference/dashboard/#success-checklist).
 2. The sync may take between 30 to 60 minutes.
 3. Once it’s finished, all your products and collections will be up to date in the app.
 
@@ -99,28 +99,28 @@ Once you’ve made changes to your products and collections/categories, you shou
 Now you can build your quiz. 
 
 1. You can start from scratch or use one of our [pre-designed Skincare templates](https://revenuehunt.com/templates/).
-2. Check out our [previous step-by-step tutorial](https://docs.revenuehunt.com/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/).
-3. Start building the quiz by [adding simple questions](https://docs.revenuehunt.com/reference/quiz-builder/#question-types) relevant to the customer.
+2. Check out our [previous step-by-step tutorial](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
+3. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
 4. Use a `Name question` to make the quiz personal.
 5. `Multiple-choice questions` can be useful in finding out the client’s age, skin type, skin concerns or the environment they live in.
-6. Additionally, a skin sensitivity question will be added. In the [next section](#exclude-products) of this tutorial, you’ll learn how to [exclude products](https://docs.revenuehunt.com/how-to-guides/recommend-products/#exclusion) containing allergens from your recommendations.
+6. Additionally, a skin sensitivity question will be added. In the [next section](#exclude-products) of this tutorial, you’ll learn how to [exclude products](/how-to-guides/recommend-products/#exclusion) containing allergens from your recommendations.
 7. Finish the quiz with an `email question`. Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
 
 ## Quiz Design
 
-1. In the [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-design) tab, you can change the look and feel of the quiz.
-2. You can even [add custom CSS code](https://docs.revenuehunt.com/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
+1. In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
+2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
 
 ## Link Collections/Categories
 
 Once your quiz is built and styled, you should add products and collections to individual choices.
 
-1. To do that, go to the [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/) and open the [Link Collections/Categories](https://docs.revenuehunt.com/reference/quiz-builder/#link-collections) tab. 
+1. To do that, go to the [Quiz Builder](/reference/quiz-builder/) and open the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab. 
 2. For the age question, you can link the *youth* and *anti-aging* collections/categories created earlier.
 3. Then, let’s link the *skin type* collections/categories.
 4. You can link one or more collections/categories to the same choice.
 5. Continue like this and make sure that each choice in the quiz has products or collections/categories linked, otherwise you may end up with empty results.
-6. Product recommendation algorithm works like a [voting system](https://docs.revenuehunt.com/how-to-guides/recommend-products/). 
+6. Product recommendation algorithm works like a [voting system](/how-to-guides/recommend-products/). 
     - Products are linked to each choice.
     - When a customer picks that choice all the linked products receive one vote.
     - This includes all the products inside the linked collection. 
@@ -128,9 +128,9 @@ Once your quiz is built and styled, you should add products and collections to i
 
 ## Exclude Products
 
-Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](https://docs.revenuehunt.com/how-to-guides/recommend-products/#exclusion) feature. 
+Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/recommend-products/#exclusion) feature. 
 
-1. To exclude a product go to the [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) tab and select a question. 
+1. To exclude a product go to the [Link Products](/reference/quiz-builder/link-products/) tab and select a question. 
 2. Tap on the greyed `exclude products` text and a white bar will appear. 
 3. Simply add the products that contain an allergen.
 
@@ -142,12 +142,12 @@ Now, when a customer says he’s sensitive to *aloe vera*, all the products that
 
 ## Edit the Results Page
 
-It’s time to edit the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page). 
+It’s time to edit the [Results Page](/reference/quiz-builder/results-page/). 
 
 1. Add a heading, a logo or a content block to customize the page.
-2. Check the [previous tutorial](https://docs.revenuehunt.com/tutorials/making-first-quiz/), to see examples of different blocks being used.
+2. Check the [previous tutorial](/tutorials/making-first-quiz/), to see examples of different blocks being used.
 3. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
-4. Remember to use [Markdown language](https://docs.revenuehunt.com/how-to-guides/use-markdown/) to style your text. 
+4. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
 
 The page is almost done. 
 
@@ -157,7 +157,7 @@ Now let’s add a space for products.
 
 1. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
 2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products. 
-3. In [product slot settings](https://docs.revenuehunt.com/reference/quiz-builder/#block-settings) you can:
+3. In [product slot settings](/reference/quiz-builder/questions/#block-settings) you can:
     - Edit the slot name, 
     - Add a description,
     - And select how many products should be recommended in each slot.
@@ -178,11 +178,11 @@ Et voila! You’ve just created a dynamic result page for your beauty quiz!
 
 ## Publish
 
-Now you’re ready to publish the quiz on your website. Let’s add it [inline with a new page](https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page). 
+Now you’re ready to publish the quiz on your website. Let’s add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page). 
 
 === "Shopify"
 
-    1. To do that, go to the [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share) tab and select the `Inline` publish option.
+    1. To do that, go to the [`Share`](/reference/quiz-builder/share-publish/) tab and select the `Inline` publish option.
     2. Click `Show Instructions for Legacy Themes`.
     3. Adjust the quiz’s width and height and click `Get code` to generate a code. 
     3. Copy the code and navigate to your `Online Store > Pages` in Shopify. 
@@ -192,7 +192,7 @@ Now you’re ready to publish the quiz on your website. Let’s add it [inline w
 
 === "WooCommerce"
 
-    1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Inline`](https://docs.revenuehunt.com/reference/quiz-builder/#inline) mode.
+    1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     2. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     3. In WordPress, open `Pages` and click `Add New Page`.
     4. In the editor, add a page title. Then, find a `Custom HTML` element and add it to the page in a place where you want the quiz to show.
@@ -207,7 +207,7 @@ Now you’re ready to publish the quiz on your website. Let’s add it [inline w
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Inline`](https://docs.revenuehunt.com/reference/quiz-builder/#inline) mode.
+    2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In your Magento dashbaord go to `Content` > `Pages`. Click `Add New Page`.
     5. Edit the Page Title and open the `Content` tab. Click `Edit with Page Builder`. 
@@ -225,7 +225,7 @@ Now you’re ready to publish the quiz on your website. Let’s add it [inline w
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Inline`](https://docs.revenuehunt.com/reference/quiz-builder/#inline) mode.
+    2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In BigCommerce, go to `Storefront` > `Web Pages`. Click `Create a Web Page`.
     5. Under `Web Page Details` > `Page Content` switch to the `HTML` editor. Paste the HTML code copied from the app.
@@ -239,7 +239,7 @@ Now you’re ready to publish the quiz on your website. Let’s add it [inline w
         <script src="https://admin.revenuehunt.com/embed.js" async></script>
         ```
         Without it, the quiz won't be loaded on your website.
-    2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](https://docs.revenuehunt.com/reference/quiz-builder/#share), select [`Inline`](https://docs.revenuehunt.com/reference/quiz-builder/#inline) mode.
+    2. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode.
     3. Edit the inline quiz settings and click `Get the code`. Copy the HTML embed code.
     4. In your store customization options find the `Pages` menu and create a new page.
     5. In the page editor find a ` Custom HTML` element. In the element settings paste the code copied from the app.
@@ -248,4 +248,4 @@ Now you’re ready to publish the quiz on your website. Let’s add it [inline w
 
 Congratulations! You’ve just created and published your first skincare routine quiz!
 
-Check out our [documentation](https://docs.revenuehunt.com/) for more resources on getting started with recommendation quizzes.
+Check out our [documentation](/) for more resources on getting started with recommendation quizzes.

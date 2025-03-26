@@ -9,7 +9,7 @@ icon: material/download
     1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
     2. Grant permissions to connect our app to your Shopify.
     3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt** to open it.
-    4. Follow the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) to create and publish your quiz.
+    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
     5. Drive traffic to your quiz and start getting sales and leads!
 
 === "Shopify V2"
@@ -19,7 +19,7 @@ icon: material/download
     3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt** to open it.
     4. From the right-hand side Shopify App menu, select `Switch to V2`. 
     5. Confirm app access and permissions. 
-    6. Follow the instructions in the [App Manual](https://docs.revenuehunt.com/reference/app-settings/#switch-to-v1) to switch back to the original version of the app.
+    6. Follow the instructions in the [App Manual](/reference/app-settings/#switch-to-v1) to switch back to the original version of the app.
 
 === "WooCommerce"
 
@@ -34,7 +34,7 @@ icon: material/download
 
     3. In your WordPress dashboard, navigate to the `Product Quiz` tab.
     4. Grant permission to connect our app to your WooCommerce.
-    5. Follow the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) to create and publish your quiz.
+    5. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
     6. Drive traffic to your quiz and start getting sales and leads!
 
     If you have any issues with your WooCommerce installation please check [this article](https://revenuehunt.com/faqs/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce/).
@@ -88,7 +88,7 @@ icon: material/download
 
     2. In your Magento dashboard, navigate to the Marketing tab and open `Product Recommendation Quiz`.
     3. Grant permission to connect our app to your Magento store.
-    4. Follow the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) to create and publish your quiz.
+    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
     5. Drive traffic to your quiz and start getting sales and leads!
     
     If you have any issues, follow the instructions provided in GitHub [here](https://github.com/RevenueHunt/product-recommendation-quiz-for-magento).
@@ -126,11 +126,11 @@ icon: material/download
 
     1. Sign up for the standalone version of the **RevenueHunt Product Recommendation Quiz** [here](https://admin.revenuehunt.com/register). All you need is an email and a password.
     2. Once registered, you can log in to your account [here](https://admin.revenuehunt.com/login).
-    2. Add products and collections. Check how to do that [here](https://docs.revenuehunt.com/reference/dashboard/#success-checklist). You can access your in-app Product [Catalogue](https://admin.revenuehunt.com/catalogue) at all times.
-    3. Follow the [Success Checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist) to create and publish your quiz.
+    2. Add products and collections. Check how to do that [here](/reference/dashboard/#success-checklist). You can access your in-app Product [Catalogue](https://admin.revenuehunt.com/catalogue) at all times.
+    3. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
     4. Drive traffic to your quiz and start getting sales and leads!
     
 
     !!! note
 
-        If you want to change the username or password, please [contact support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/).
+        If you want to change the username or password, please [contact support](/how-to-guides/contact-customer-support/).

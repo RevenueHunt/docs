@@ -18,7 +18,7 @@ Here’s a list of ten things every Shop Quiz should have (and how to add them):
 
 You can have the most beautiful and thought-through quiz in the world but it won’t be useful if your customers cannot find it. Just like a real-life shop attendant, the quiz should reach out to the customers to ask ‘Is there anything I can help you with?’. 
 
-Shop Quiz app allows you to [publish your quiz](https://docs.revenuehunt.com/how-to-guides/publish-quiz/) in several places on the website. You can embed a link in your website’s menu, add a `Take the Quiz` button, publish the quiz inline with your website or add a pop-up when a new customer visit’s your site for the first time. Most popular quizzes are embedded in several ways onto the website to help customers at different stages of their shopping journey. For example:
+Shop Quiz app allows you to [publish your quiz](/how-to-guides/publish-quiz/) in several places on the website. You can embed a link in your website’s menu, add a `Take the Quiz` button, publish the quiz inline with your website or add a pop-up when a new customer visit’s your site for the first time. Most popular quizzes are embedded in several ways onto the website to help customers at different stages of their shopping journey. For example:
 
 - A well-designed banner at the header of the website showcases the quiz as a novelty and spikes curiosity. 
 - A small button next to a lipstick collection can help the customer select a shade that’s just right for their complexion.
@@ -34,7 +34,7 @@ Ensuring that the quiz is easy to find can make a big difference in your sales c
 
 You know this already. A beautifully designed website sells better than a generic one and so does the quiz! 
 
-Shop Quiz can match your store’s look and feel to the finest details. In the [Quiz Design](https://docs.revenuehunt.com/how-to-guides/customize-quiz-design/) tab you can adjust the quizz’s font, colors, add a background image or even add custom CSS code. WIth CSS you can customize every element of the quiz, from the general layout to the shape of the buttons. You can edit the quiz as well as the Results Page. Check out these beautiful [customization examples](https://revenuehunt.com/templates/#customization) to gather inspiration for your next quiz project!
+Shop Quiz can match your store’s look and feel to the finest details. In the [Quiz Design](/how-to-guides/customize-quiz-design/) tab you can adjust the quizz’s font, colors, add a background image or even add custom CSS code. WIth CSS you can customize every element of the quiz, from the general layout to the shape of the buttons. You can edit the quiz as well as the Results Page. Check out these beautiful [customization examples](https://revenuehunt.com/templates/#customization) to gather inspiration for your next quiz project!
 
 ![how to build a succesful quiz image2](/images/how_to_build_a_succesful_quiz_image2.png)
 
@@ -54,7 +54,7 @@ Finding the right name for your quiz can sometimes be key to getting more conver
 
 One way to make the quiz more than just a product selector is to add personalized advice based on customer answers. A skincare shop would probably recommend a different product to customers with dry and oily skin. What if along the way they could also get some tips and tricks on how to take care of their skin? 
 
-This can be easily done in the Shop Quiz app with [Conditional Logic](https://docs.revenuehunt.com/how-to-guides/hide-content-with-logic/). With logic, you can send customers down different answering paths, and show or hide content based on their answers.
+This can be easily done in the Shop Quiz app with [Conditional Logic](/how-to-guides/hide-content-with-logic/). With logic, you can send customers down different answering paths, and show or hide content based on their answers.
 
 - Does your customer have dry skin? Ask them about their primary skin concerns and skip the questions meant for oily skin. 
 - Your customer suffers from hair loss? Ask them about the primary cause (medication, genetic conditions, lifestyle) and base your recommendation off-of their answers. 
@@ -73,7 +73,7 @@ The Results Page is also a great place to give additional “how to use” advic
 
 It is not always easy to know whether you have dry or oily skin, whether your complexion is light or dark, what exactly your hair-color is called… There’s no better way to help the customer choose than by showing them an example. 
 
-Adding a **[Picture question](https://docs.revenuehunt.com/reference/quiz-builder/#question-types)** to your Shop Quiz can be a great way to help the customer pick the right answer and help them make an educated purchasing decision. You can add real-life examples for your customers to relate to or design your own beautiful icons that will match your store’s style. A visual quiz gets more completions than a fully-text-based one, so make sure to include some images!
+Adding a **[Picture question](/reference/quiz-builder/questions/#question-types)** to your Shop Quiz can be a great way to help the customer pick the right answer and help them make an educated purchasing decision. You can add real-life examples for your customers to relate to or design your own beautiful icons that will match your store’s style. A visual quiz gets more completions than a fully-text-based one, so make sure to include some images!
 
 ![how to build a succesful quiz image5](/images/how_to_build_a_succesful_quiz_image5.jpg)
 
@@ -101,7 +101,7 @@ A successful quiz recommends a single product that ticks all the customer’s bo
 
 *(Recall names & answers)*
 
-Want to make the shopping experience ultra personal? Shop Quiz app lets you use the information provided by the customer and add it to various parts of the quiz. You can, for example, ask for a person’s name and recall the answer in the next question, on the Results Page or even in the follow-up email. [Information Recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls/) are a powerful tool which makes your quiz look professional, while actually being very simple to implement. 
+Want to make the shopping experience ultra personal? Shop Quiz app lets you use the information provided by the customer and add it to various parts of the quiz. You can, for example, ask for a person’s name and recall the answer in the next question, on the Results Page or even in the follow-up email. [Information Recalls](/how-to-guides/use-information-recalls/) are a powerful tool which makes your quiz look professional, while actually being very simple to implement. 
 
 Take a look at this example of a haircare quiz:
 
@@ -115,7 +115,7 @@ A well-structured sales funnel, with a Shop Quiz and a targeted email campaign, 
 
 Think about a marketing campaign focused on people living in large urban areas, where a proper morning or evening skin routine is especially important for a clear complexion. Big brands know that a swift follow-up is crucial to maintaining the customer’s attention. 
 
-With Shop Quiz, you’re able to [send quiz results](https://docs.revenuehunt.com/how-to-guides/send-result-emails/) directly to the customer seconds after completing the quiz. You can even connect your quiz to [Klaviyo](https://docs.revenuehunt.com/how-to-guides/send-leads-to-klaviyo/) and send the customer a full list of results including product pictures, descriptions, discount codes or instructions for use.
+With Shop Quiz, you’re able to [send quiz results](/how-to-guides/send-result-emails/) directly to the customer seconds after completing the quiz. You can even connect your quiz to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and send the customer a full list of results including product pictures, descriptions, discount codes or instructions for use.
 
 While collecting emails is a very important part of a sales, some customers prefer to take time before trusting your brand with this information. Some customers will leave immediately and some just want to see the results. To ensure the quality of the leads generated by the quiz the Shop Quiz app allows you to **make the email question optional** or even give a customer a choice if they want to see it or not.
 
@@ -123,7 +123,7 @@ While collecting emails is a very important part of a sales, some customers pref
 
 *(Automatic discounts)*
 
-This one is simple but effective! You want to reward your customers for taking a minute of their time to fill in all this valuable information (for your business). Adding a [discount code](https://docs.revenuehunt.com/how-to-guides/add-discount/) at the end of the quiz can be a great way to encourage shoppers to finish the purchase. Shop Quiz app syncs the discount codes you’ve set up in your store and can apply them automatically to every shopping cart.
+This one is simple but effective! You want to reward your customers for taking a minute of their time to fill in all this valuable information (for your business). Adding a [discount code](/how-to-guides/add-discount/) at the end of the quiz can be a great way to encourage shoppers to finish the purchase. Shop Quiz app syncs the discount codes you’ve set up in your store and can apply them automatically to every shopping cart.
 
 You can even add a special code to be used at checkout for the people who answer a specific question. For example, a special discount for customers who want both,a day and night routine, to be recommended.
 
@@ -131,4 +131,4 @@ You can even add a special code to be used at checkout for the people who answer
 
 Now you know the secret to building a successful product selector tool.
 
-Do you need help building your first Shop Quiz? Check our extensive [Documentation](https://docs.revenuehunt.com/), watch a [Tutorial Video](https://docs.revenuehunt.com/tutorials/) or take the [Support Quiz](https://docs.revenuehunt.com/how-to-guides/contact-customer-support/) to reach out to us directly.
+Do you need help building your first Shop Quiz? Check our extensive [Documentation](/), watch a [Tutorial Video](/tutorials/) or take the [Support Quiz](/how-to-guides/contact-customer-support/) to reach out to us directly.

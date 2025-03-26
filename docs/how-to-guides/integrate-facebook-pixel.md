@@ -14,13 +14,13 @@ The Facebook Pixel is an essential analytics tool for tracking user interaction 
 
 !!! note
 
-    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
 
 === "Shopify"
 
     If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
-    1. Go to the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab within your quiz settings.
+    1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Facebook Pixel section and hit `connect`.
     3. Enter your unique `Facebook Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
 
@@ -30,7 +30,7 @@ The Facebook Pixel is an essential analytics tool for tracking user interaction 
 
     To integrate the Meta Pixel with your quiz:
 
-    1. Go to the [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#connect-integrations) tab within your quiz settings.
+    1. Go to the [Integrations](/reference/quiz-builder/connect-integrations/-integrations) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `Activate`.
         ![how to integrate fb pixel shopify v2](/images/how_to_integrate_fb_pixel_shopify_v2.png)
     3. Click `Save` to confirm the changes.
@@ -40,7 +40,7 @@ The Facebook Pixel is an essential analytics tool for tracking user interaction 
 
     If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
-    1. Go to the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab within your quiz settings.
+    1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Facebook Pixel section and hit `connect`.
     3. Enter your unique `Facebook Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
 
@@ -48,7 +48,7 @@ The Facebook Pixel is an essential analytics tool for tracking user interaction 
 
     If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
-    1. Go to the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab within your quiz settings.
+    1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Facebook Pixel section and hit `connect`.
     3. Enter your unique `Facebook Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
 
@@ -56,7 +56,7 @@ The Facebook Pixel is an essential analytics tool for tracking user interaction 
 
     If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
-    1. Go to the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab within your quiz settings.
+    1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Facebook Pixel section and hit `connect`.
     3. Enter your unique `Facebook Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
 
@@ -64,7 +64,7 @@ The Facebook Pixel is an essential analytics tool for tracking user interaction 
 
     If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
-    1. Go to the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab within your quiz settings.
+    1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Facebook Pixel section and hit `connect`.
     3. Enter your unique `Facebook Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
 
@@ -115,12 +115,12 @@ Here’s a list of all the tracked events:
 
 === "Shopify"
 
-    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
+    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
+    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
+    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
         <script>
@@ -135,11 +135,11 @@ Here’s a list of all the tracked events:
 
 === "Shopify V2"
 
-    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
+    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, you'll have to deactivate it and publish the changes.
+    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
     2. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
         <script>
@@ -154,12 +154,12 @@ Here’s a list of all the tracked events:
 
 === "WooCommerce"
 
-    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
+    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
+    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
+    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
         <script>
@@ -174,12 +174,12 @@ Here’s a list of all the tracked events:
 
 === "Magento"
 
-    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
+    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
+    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
+    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
         <script>
@@ -194,12 +194,12 @@ Here’s a list of all the tracked events:
 
 === "BigCommerce"
 
-    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
+    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
+    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
+    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
         <script>
@@ -214,12 +214,12 @@ Here’s a list of all the tracked events:
 
 === "Standalone"
 
-    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
+    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab, you'll have to deactivate it and publish the changes.
-    2. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
+    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
+    2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
         <script>

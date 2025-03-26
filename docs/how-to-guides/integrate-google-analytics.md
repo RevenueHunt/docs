@@ -10,13 +10,13 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
 
 !!! note
 
-    Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+    Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
 
 === "Shopify"
 
     You can add your Google Analytics Tracking Code to your quiz to understand how your customers are interacting with your quiz, identify bottlenecks, and reduce the drop-off rate.
 
-    1. Head to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab.
+    1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `connect` button in the Google Analytics section and paste your Google Analytics Tracking Code (**G-xxxxx** for GA4).
 
 === "Shopify V2"
@@ -24,7 +24,7 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
     You can connect your Google Analytics Tracking Code to your quiz to understand how your customers are interacting with your quiz, identify bottlenecks, and reduce the drop-off rate.
 
     1. Make sure you have set up the GA4 tracking on your website.
-    1. Head to your quiz and click on the [Integrations](https://docs.revenuehunt.com/reference/quiz-builder/#connect-integrations) tab.
+    1. Head to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/-integrations) tab.
     2. Click on the `Activate` button in the Google Analytics section.
         ![how to integrate ga4 shopify v2](/images/how_to_integrate_ga4_shopify_v2.png)
     3. Click `Save` to confirm the changes.
@@ -34,28 +34,28 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
 
     You can add your Google Analytics Tracking Code to your quiz to understand how your customers are interacting with your quiz, identify bottlenecks, and reduce the drop-off rate.
 
-    1. Head to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab.
+    1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `connect` button in the Google Analytics section and paste your Google Analytics Tracking Code (**G-xxxxx** for GA4).
 
 === "Magento"
 
     You can add your Google Analytics Tracking Code to your quiz to understand how your customers are interacting with your quiz, identify bottlenecks, and reduce the drop-off rate.
 
-    1. Head to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab.
+    1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `connect` button in the Google Analytics section and paste your Google Analytics Tracking Code (**G-xxxxx** for GA4).
 
 === "BigCommerce"
 
     You can add your Google Analytics Tracking Code to your quiz to understand how your customers are interacting with your quiz, identify bottlenecks, and reduce the drop-off rate.
 
-    1. Head to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab.
+    1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `connect` button in the Google Analytics section and paste your Google Analytics Tracking Code (**G-xxxxx** for GA4).
 
 === "Standalone"
 
     You can add your Google Analytics Tracking Code to your quiz to understand how your customers are interacting with your quiz, identify bottlenecks, and reduce the drop-off rate.
 
-    1. Head to your quiz and click on the [Connect](https://docs.revenuehunt.com/reference/quiz-builder/#connect) tab.
+    1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `connect` button in the Google Analytics section and paste your Google Analytics Tracking Code (**G-xxxxx** for GA4).
 
 ### How to Find Your GA4 Tracking Code
@@ -123,7 +123,7 @@ The exploration enables you to see how much revenue the quizzes have generated a
 We strongly recommend not excluding your quiz as a traffic source, but here’s how to do it if you need to.
 
 1. Exclude the `admin.revenuehunt.com` domain in Google Analytics. [More info on how to exclude referral traffic here](https://support.google.com/analytics/answer/2795830?hl=en).
-2. Deactivate the `Set revenuehunt/quiz as UTM source/medium` toggle in the [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/#quiz-settings).
+2. Deactivate the `Set revenuehunt/quiz as UTM source/medium` toggle in the [Quiz Settings](/reference/quiz-builder/quiz-settings/).
 
 ??? question "Why Returning Users from Excluded Domains Still Appear in Your Reports?"
     
@@ -133,11 +133,11 @@ We strongly recommend not excluding your quiz as a traffic source, but here’s 
 
 === "Shopify"
 
-    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
+    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
+    1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     2. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
         <script>
@@ -178,11 +178,11 @@ We strongly recommend not excluding your quiz as a traffic source, but here’s 
 
 === "WooCommerce"
 
-    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
+    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
+    1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     2. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
         <script>
@@ -202,11 +202,11 @@ We strongly recommend not excluding your quiz as a traffic source, but here’s 
 
 === "Magento"
 
-    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
+    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
+    1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     2. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
         <script>
@@ -226,11 +226,11 @@ We strongly recommend not excluding your quiz as a traffic source, but here’s 
 
 === "BigCommerce"
 
-    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
+    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
+    1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     2. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
         <script>
@@ -250,11 +250,11 @@ We strongly recommend not excluding your quiz as a traffic source, but here’s 
 
 === "Standalone"
 
-    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
+    For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Understand the Callback Function**: Visit the [FAQ page](https://docs.revenuehunt.com/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
+    1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     2. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
         <script>

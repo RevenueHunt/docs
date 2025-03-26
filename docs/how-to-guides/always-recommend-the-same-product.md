@@ -11,7 +11,7 @@ This guide provides a clear, step-by-step process to making sure that specific p
 
 This approach ensures your chosen product always tops the Results Page by securing the most votes.
 
-1. Access the [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/#link-products) section of the Quiz Builder. 
+1. Access the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. 
 2. Link your selected product with **every choice** available in the quiz. This method guarantees that the product collects votes with each customer selection, ensuring its appearance on the Results Page.
 
 This strategy positions the product at the forefront of the Results Page every time.
@@ -22,11 +22,11 @@ For those looking to highlight a new product or collection without dominating th
 
 1. **Create a Collection/Category for Your Product(s)**: Group the products you wish to feature in a `New Products` collection/category. For instance, include your `Essentials Makeup Kit COMPLETE` in this collection.
 
-2. **Ensure Your Store Is Synced**: After creating your collection/category or adding new products, [sync the app](https://docs.revenuehunt.com/how-to-guides/sync-catalog/).
+2. **Ensure Your Store Is Synced**: After creating your collection/category or adding new products, [sync the app](/how-to-guides/sync-catalog/).
 
 3. **Link the Collection/Category to Quiz Responses**: Select a quiz question and link your new product or collection/category to **every response option**. This step is crucial as it ensures the product or collection/category receives at least one vote, guaranteeing its appearance on the Results Page regardless of quiz outcomes.
 
-4. **Add a Dedicated Slot on the Results Page**: Edit the [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/#results-page) to include a new `Product Slot` specifically for showcasing your selected product or collection/category. This specialized section will exclusively feature items from your chosen collection/category, distinguishing them from the general recommendations.
+4. **Add a Dedicated Slot on the Results Page**: Edit the [Results Page](/reference/quiz-builder/results-page/) to include a new `Product Slot` specifically for showcasing your selected product or collection/category. This specialized section will exclusively feature items from your chosen collection/category, distinguishing them from the general recommendations.
 
 5. **Link colelction/category to slot**: Make sure to `include` the created collection/category in the `Product Slot`.
 

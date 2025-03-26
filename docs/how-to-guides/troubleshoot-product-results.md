@@ -10,18 +10,18 @@ This guide will walk you through the process of troubleshooting product recommen
 
 !!! warning "Understanding the basics"
 
-    When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [voting system](https://docs.revenuehunt.com/how-to-guides/how-to-recommend-products/#voting-system) that influences product visibility.
+    When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [voting system](/how-to-guides/how-to-recommend-products/#voting-system) that influences product visibility.
 
 ## Step-by-Step Process to Check Recommendations
 
 !!! tip
 
-    Before you begin, open the [Responses section](https://docs.revenuehunt.com/reference/quiz-builder/#responses) from the [App manual](https://docs.revenuehunt.com/reference/) in the new browser window. It will come in handy.
+    Before you begin, open the [Responses section](/reference/quiz-builder/metrics/#responses) from the [App manual](/reference/) in the new browser window. It will come in handy.
 
 === "Shopify" 
 
-    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) in the Quiz Builder.
-    2. **Explore Responses**: Within Metrics, locate and open the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
+    2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
     4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
         ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
@@ -60,7 +60,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
 === "Shopify V2" 
 
-    1. **Explore Responses**: To open the responses sections, go back to the [dashboard](https://docs.revenuehunt.com/reference/quiz-builder/). Pick a quiz and click the `...` to open the quiz menu. From the list pick and click on [`Responses`](https://docs.revenuehunt.com/reference/quiz-builder/#responses).
+    1. **Explore Responses**: To open the responses sections, go back to the [dashboard](/reference/quiz-builder/). Pick a quiz and click the `...` to open the quiz menu. From the list pick and click on [`Responses`](/reference/quiz-builder/metrics/#responses).
     
         ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
     
@@ -97,8 +97,8 @@ This guide will walk you through the process of troubleshooting product recommen
 
 === "WooCommerce" 
 
-    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) in the Quiz Builder.
-    2. **Explore Responses**: Within Metrics, locate and open the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
+    2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
     4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
         ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
@@ -137,8 +137,8 @@ This guide will walk you through the process of troubleshooting product recommen
 
 === "Magento" 
 
-    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) in the Quiz Builder.
-    2. **Explore Responses**: Within Metrics, locate and open the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
+    2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
     4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
         ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
@@ -177,8 +177,8 @@ This guide will walk you through the process of troubleshooting product recommen
 
 === "BigCommerce" 
 
-    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) in the Quiz Builder.
-    2. **Explore Responses**: Within Metrics, locate and open the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
+    2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
     4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
         ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
@@ -217,8 +217,8 @@ This guide will walk you through the process of troubleshooting product recommen
 
 === "Standalone" 
 
-    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](https://docs.revenuehunt.com/reference/quiz-builder/#metrics) in the Quiz Builder.
-    2. **Explore Responses**: Within Metrics, locate and open the [Responses](https://docs.revenuehunt.com/reference/quiz-builder/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+    1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
+    2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
     4. **Preview the Results Page**: Use the provided link at the bottom of the response details to access the Results Page corresponding to the chosen response. 
         ![how to troubleshoot quiz results preview results](/images/how_to_troubleshoot_quiz_results_preview_results.gif)
