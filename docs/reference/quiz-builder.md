@@ -1445,7 +1445,7 @@
 
     ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
 
-    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
+    You can create as many tags as you like. You can link as many tags as you like to the same choice.
 
 === "Magento"
 
@@ -1461,7 +1461,7 @@
 
     ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
 
-    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
+    You can create as many tags as you like. You can link as many tags as you like to the same choice.
 
 === "BigCommerce"
 
@@ -1477,7 +1477,7 @@
 
     ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
 
-    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
+    You can create as many tags as you like. You can link as many tags as you like to the same choice.
 
 === "Standalone"
 
@@ -1493,7 +1493,107 @@
 
     ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
 
-    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
+    You can create as many tags as you like. You can link as many tags as you like to the same choice.
+
+## Customer Tags
+
+=== "Shopify"
+
+    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
+
+    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
+
+    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
+
+    Created tag will then show as an available option whenever you select another choice.
+
+    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+
+    You can create as many tags as you like. You can link as many tags as you like to the same choice.
+
+=== "Shopify V2"
+
+    You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
+
+    Click `Search tags` to pick a tag to link to this choice or start typing the name to create a new tag.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag.png)
+
+    Confirm with `Add tag`.
+
+    All the tags you create will be visible at the bottom in grey.
+
+    When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM.
+
+=== "WooCommerce"
+
+    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
+
+    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
+
+    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
+
+    Created tag will then show as an available option whenever you select another choice.
+
+    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+
+    You can create as many tags as you like. You can link as many tags as you like to the same choice.
+
+=== "Magento"
+
+    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
+
+    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
+
+    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
+
+    Created tag will then show as an available option whenever you select another choice.
+
+    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+
+    You can create as many tags as you like. You can link as many tags as you like to the same choice.
+
+=== "BigCommerce"
+
+    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
+
+    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
+
+    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
+
+    Created tag will then show as an available option whenever you select another choice.
+
+    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+
+    You can create as many tags as you like. You can link as many tags as you like to the same choice.
+
+=== "Standalone"
+
+    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
+
+    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
+
+    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
+
+    Created tag will then show as an available option whenever you select another choice.
+
+    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+
+    You can create as many tags as you like. You can link as many tags as you like to the same choice.
 
 ## Conditional Logic
 
@@ -2888,7 +2988,7 @@
 
     - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
 
-    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
     **Slot Block Settings** 
 
@@ -3044,7 +3144,7 @@
 
     - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
 
-    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
     **Slot Block Settings** 
 
@@ -3080,7 +3180,7 @@
 
     - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
 
-    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
     **Slot Block Settings** 
 
@@ -3116,7 +3216,7 @@
 
     - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
 
-    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
     **Slot Block Settings** 
 
@@ -3152,7 +3252,7 @@
 
     - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
 
-    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
     **Slot Block Settings** 
 
@@ -3316,7 +3416,7 @@
 
             It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
             ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -3324,11 +3424,11 @@
 
             ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-            This should cut the description on the quiz results page:
+            This should cut the description on the quiz results page:
 
             ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
     - **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
 
@@ -3381,7 +3481,7 @@
 
             It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
             ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -3389,11 +3489,11 @@
 
             ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-            This should cut the description on the quiz results page:
+            This should cut the description on the quiz results page:
 
             ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
  
  
     - **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
@@ -3434,7 +3534,7 @@
 
             It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
             ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -3442,11 +3542,11 @@
 
             ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-            This should cut the description on the quiz results page:
+            This should cut the description on the quiz results page:
 
             ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
     **Style Settings**
 
@@ -3476,7 +3576,7 @@
 
             It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
             ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -3484,11 +3584,11 @@
 
             ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-            This should cut the description on the quiz results page:
+            This should cut the description on the quiz results page:
 
             ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
     **Style Settings**
 
@@ -3516,7 +3616,7 @@
 
             It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
             ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -3524,11 +3624,11 @@
 
             ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-            This should cut the description on the quiz results page:
+            This should cut the description on the quiz results page:
 
             ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
     **Style Settings**
 
@@ -3546,7 +3646,7 @@
 
     **Recommendation Settings**
 
-    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
@@ -3576,7 +3676,7 @@
 
     **Recommendation Settings**
 
-    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
@@ -3604,7 +3704,7 @@
 
     **Recommendation Settings**
 
-    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
@@ -3632,7 +3732,7 @@
 
     **Recommendation Settings**
 
-    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
@@ -3660,7 +3760,7 @@
 
     **Recommendation Settings**
 
-    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
@@ -4344,7 +4444,7 @@
 
     !!! warning
 
-        For large stores (more than 2,000 products) the option to use the top-level product will not be available. Instead, it’s recommended to make use of automatically created Tags and Variants to upvote whole groups of products at once in the Link Collections tab.
+        For large stores (more than 2,000 products) the option to use the top-level product will not be available. Instead, it's recommended to make use of automatically created Tags and Variants to upvote whole groups of products at once in the Link Collections tab.
 
     **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
