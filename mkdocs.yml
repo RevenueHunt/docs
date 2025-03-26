@@ -121,6 +121,7 @@ nav:
       - Questions: reference/quiz-builder/questions.md
       - Link Collections: reference/quiz-builder/link-collections.md
       - Link Products: reference/quiz-builder/link-products.md
+      - Customer Tags: reference/quiz-builder/customer-tags.md
       - Conditional Logic: reference/quiz-builder/conditional-logic.md
       - Quiz Design: reference/quiz-builder/quiz-design.md
       - Results Page: reference/quiz-builder/results-page.md
