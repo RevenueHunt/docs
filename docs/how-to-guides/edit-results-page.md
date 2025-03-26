@@ -29,7 +29,7 @@ This guide will walk you through adding elements to your results page using a va
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
     3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings). For dynamic elements, use [information recalls](/how-to-guides/use-information-recalls/) or set [Block Logic](/how-to-guides/use-block-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, manage out-of-stock and duplicate product recommendations under [Results Page Settings](/reference/quiz-builder/results-page/-settings). From there you can add further customization with [JavaScript](/how-to-guides/add-javascript/) and CSS. 
+    4. **Adjust Page Settings**: Tailor the checkout process, manage out-of-stock and duplicate product recommendations under [Results Page Settings](/reference/quiz-builder/results-page/). From there you can add further customization with [JavaScript](/how-to-guides/add-javascript/) and CSS. 
     5. **Review and Test**: Click the top-right `Save` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
 
 === "WooCommerce"
@@ -242,7 +242,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/-settings). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/). 
 
     [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
 
@@ -285,7 +285,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/-settings). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/). 
 
     [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
 
@@ -312,7 +312,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/-settings). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/). 
 
     [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
 
@@ -355,7 +355,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/-settings). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/). 
 
     [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
 
@@ -398,7 +398,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/-settings). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/). 
 
     [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
 
@@ -441,7 +441,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/-settings). 
+    For further customization, you can adjust the [results page settings](/reference/quiz-builder/results-page/). 
 
     [Basic Settings](/reference/quiz-builder/results-page/#basic-settings) worth checking:
 

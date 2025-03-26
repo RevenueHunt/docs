@@ -15,7 +15,7 @@ You can recommend a specific product variant instead of the main product by chan
 
 ![how to hide product variants image2](/images/how_to_hide_product_variants_image2.png)
 
-1. Open [Results Page settings](/reference/quiz-builder/results-page/-settings) > [Advanced](/reference/quiz-builder/results-page/#advanced-settings).
+1. Open [Results Page settings](/reference/quiz-builder/results-page/) > [Advanced](/reference/quiz-builder/results-page/#advanced-settings).
 2. Deactivate the `Group product variants` option. 
 3. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
 

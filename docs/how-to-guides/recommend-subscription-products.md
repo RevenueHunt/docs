@@ -55,7 +55,7 @@ For other subscription apps, there's a workaround that allows you to still guide
 3. **Link one-time payment products to chocies**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
 
 ### Step 2: Adjust Checkout Settings
-1. **Open Results Page settings**: Navigate to the [Results Page settings](/reference/quiz-builder/results-page/-settings) within your Product Recommendation Quiz Results Page.
+1. **Open Results Page settings**: Navigate to the [Results Page settings](/reference/quiz-builder/results-page/) within your Product Recommendation Quiz Results Page.
 2. **Change Checkout Settings**: Change the [Checkout Settings](/how-to-guides/change-checkout-settings/) from “Add to cart” to “Link to product.” This adjustment ensures that instead of adding the product directly to their shopping cart, customers will be directed to the product page on your website.
 
 As a result, the buyers will go directly to the product page and can subscribe there.

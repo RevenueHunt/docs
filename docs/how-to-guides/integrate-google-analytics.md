@@ -24,7 +24,7 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
     You can connect your Google Analytics Tracking Code to your quiz to understand how your customers are interacting with your quiz, identify bottlenecks, and reduce the drop-off rate.
 
     1. Make sure you have set up the GA4 tracking on your website.
-    1. Head to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/-integrations) tab.
+    1. Head to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `Activate` button in the Google Analytics section.
         ![how to integrate ga4 shopify v2](/images/how_to_integrate_ga4_shopify_v2.png)
     3. Click `Save` to confirm the changes.

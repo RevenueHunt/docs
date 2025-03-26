@@ -131,7 +131,7 @@ Speaking of results. Make sure to also edit the Results Page.
     - With an `image block`, you can add your brand’s logo.
     - In the `Products block`, you can select how many products will be recommended. 
 3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdowns allow you to add **boldness** or *emphasis* to your text but also insert links, images, and videos. For more information about the Markdown language, check our [How-To documentation](/how-to-guides/) section.
-4. The [Result Page settings](/reference/quiz-builder/results-page/-settings) allow you to further customize the quiz with a background image.
+4. The [Result Page settings](/reference/quiz-builder/results-page/) allow you to further customize the quiz with a background image.
 
 
 ### Excluding Products from Recommendations

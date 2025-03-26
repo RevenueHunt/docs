@@ -6,9 +6,9 @@ icon: material/basket-off-outline
 
 === "Shopify"
 
-    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
 
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/-settings) (a cog icon).
+    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
     4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
@@ -16,20 +16,20 @@ icon: material/basket-off-outline
 
 === "Shopify V2"
 
-    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/-settings).
+    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/).
     3. Scroll to the `Show Unavailable products` field.
     4. uncheck the button to deactivate showing unavialble or out-of-stock products as recommendations.
     5. Update the preview/live quiz with the top-right `Save` button.
 
 === "WooCommerce"
 
-    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
 
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/-settings) (a cog icon).
+    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
     4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
@@ -37,9 +37,9 @@ icon: material/basket-off-outline
 
 === "Magento"
 
-    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
 
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/-settings) (a cog icon).
+    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
     4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
@@ -47,9 +47,9 @@ icon: material/basket-off-outline
 
 === "BigCommerce"
 
-    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
 
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/-settings) (a cog icon).
+    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
     4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
@@ -57,9 +57,9 @@ icon: material/basket-off-outline
 
 === "Standalone"
 
-    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/-settings).
+    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
 
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/-settings) (a cog icon).
+    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
     4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.

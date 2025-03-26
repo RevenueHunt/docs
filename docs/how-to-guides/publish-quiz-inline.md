@@ -96,7 +96,9 @@ Place the quiz on your homepage to start collecting leads from first-time visito
     6. Save the changes.
     7. From now on, the inline quiz will be visible on the main page.
 
-## Embedding an Inline Quiz on a New Page
+## Embedding an Inline Quiz on a Dedicated Landing Page
+
+Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
 
 === "Shopify"
 
@@ -110,27 +112,27 @@ Place the quiz on your homepage to start collecting leads from first-time visito
 
 === "Shopify V2"
 
-    1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard.
+    1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
 
-    2. **Assign a Theme to a Specific Page (Using Templates)**: Shopify doesn't support applying different themes to individual pages, but you can create custom templates within a theme to give specific pages a unique layout.
+    2. **Create a New Page Template**: click on the `Templates` menu in the header.
+        ![Create a new Page template](/images/landing-page-create-a.png)
+        Navigate to `Pages` and click on the `Create template` link. Name your template (e.g., quiz-page) and set it as "Based on" your Default page template. 
+        ![Create a new Page template](/images/landing-page-create-b.png)
+    
+    3. **Add Inline Quiz Section**: Click on the `Add section` link and from the `Apps` section, find `V2 - Inline Quiz` from RevenueHunt. Select it to add to your quiz page template.
+        ![Add section inline quiz](/images/landing-page-add-section-app-inline-quiz.png)
 
-        - Create a New Page Template. From the Themes page, click `Actions` next to your published theme. Select `Edit code`.
+    4. **Configure Quiz Settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
 
-        - In the code editor, find the `Templates` folder.
-
-        - Click `Add a new template.` Choose Page from the dropdown. Name your template (e.g., custom-page).
-
-        - Customize the code as needed. Click `Save`.
-
-    3. **Assign the Template to a Page** : Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`. 
+    5. **Assign the Template to a Page**: Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`. 
         ![how to publish inline quiz shopify v2 new page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
-    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from RevenueHunt`. Select it to add to your page template.
-        ![how to publish inline quiz shopify v2 main page](/images/how_to_publish_inline_quiz_shopify_v2_main_page.png)
 
-        The default quiz for your store will be rendered. If you’ve configured [Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-    3. **Configure Quiz Settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
+        The default quiz for your store will be rendered. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
         ![how to publish inline quiz shopify v2 main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
-    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor. Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
+
+    6. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+    
+        Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
 
 === "WooCommerce"
 
@@ -192,7 +194,7 @@ Place the quiz on your homepage to start collecting leads from first-time visito
 
     You can add a link to this page to your website menu or use the link to this new page in your marketing campaigns.
 
-## Embedding an Inline Quiz on a Specific Collection/Category Page
+## Embedding an Inline Quiz on a Specific Collection/Category
 
 === "Shopify"
 

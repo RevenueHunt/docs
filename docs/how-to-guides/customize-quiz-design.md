@@ -207,7 +207,7 @@ Remember, you can also include custom images and styles for each question via th
 
     - Once you've made your changes, click the `Save` button at the top right to apply them to your live or preview quiz.
 
-    To add custom CSS code to a speciifc quiz section only, go to [`Question Settings`](/reference/quiz-builder/questions/#question-settings) or [`Results Page Settings`](/reference/quiz-builder/results-page/-settings).
+    To add custom CSS code to a speciifc quiz section only, go to [`Question Settings`](/reference/quiz-builder/questions/#question-settings) or [`Results Page Settings`](/reference/quiz-builder/results-page/).
 
 === "WooCommerce"
 
@@ -674,7 +674,7 @@ The Results Page also has its own customization options.
 
     Check [this article](/how-to-guides/edit-results-page/) to learn more about styling your results page.
 
-In addition to the basic elements, you can set a unique background image for each result page through the [results page settings](/reference/quiz-builder/results-page/-settings). You can also use these settings to apply [custom JavaScript](/how-to-guides/add-javascript/) to your quiz design.
+In addition to the basic elements, you can set a unique background image for each result page through the [results page settings](/reference/quiz-builder/results-page/). You can also use these settings to apply [custom JavaScript](/how-to-guides/add-javascript/) to your quiz design.
 
 If you find the default results page too restrictive, you might want to **create a custom results page** on your site and direct all quiz data to it using the [Callback Function](/how-to-guides/use-callback-function/). This function enables you to collect all quiz responses in JSON format on any page you choose.
 

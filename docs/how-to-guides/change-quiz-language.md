@@ -52,11 +52,11 @@ icon: material/translate-variant
 
     **Step 4: Assign the Quiz to the Right Market and Language:**
 
-    - Once each quiz version is ready, go to [App Settings > Markets](/reference/app-settings/#markets).
+    - Once each quiz version is ready, go to [App Settings > Shopify Markets](/reference/app-settings/#markets).
 
     - Select the appropriate market and language, and link each translated quiz to its respective locale. This will ensure that visitors see the correct quiz based on their market and language settings.
 
-    By following these steps, you’ll have a well-localized quiz experience ready for each market and language, which you can then manage seamlessly in the Markets tab of your app settings.
+    By following these steps, you’ll have a well-localized quiz experience ready for each market and language, which you can then manage seamlessly in the Shopify Markets tab of your app settings.
 
 === "WooCommerce"
 
@@ -119,19 +119,19 @@ icon: material/translate-variant
 
     Our RevenueHunt app allows you to tailor the shopping experience for customers worldwide by selecting specific quizzes for each Shopify Market and its associated languages. Here’s a step-by-step guide to help you change your quiz language based on the visitor’s location and language preference.
 
-    **Step 1: Navigate to the Markets Settings**
+    **Step 1: Navigate to the Shopify Markets Settings**
 
     - Log in to your Shopify Admin Panel.
 
     - In the left-hand menu, go to Apps and select `RevenueHunt`.
 
-    - Once in the app, look for [App Settings](/reference/app-settings/) and select the [Markets](/reference/app-settings/#markets) tab.
+    - Once in the app, look for [App Settings](/reference/app-settings/) and select the [Shopify Markets](/reference/app-settings/#markets) tab.
 
-    **Step 2: Assign a Quiz to a Specific Market**
+    **Step 2: Assign a Quiz to a Specific Shopify Market**
 
-    - In the [Markets](/reference/app-settings/#markets) tab, you’ll see a `dropdown list` that shows all available quizzes.
+    - In the [Shopify Markets](/reference/app-settings/#markets) tab, you’ll see a `dropdown list` that shows all available quizzes.
     
-    - From the Markets section, select the Shopify Market where you’d like to assign a quiz.
+    - From the Shopify Markets section, select the Shopify Market where you’d like to assign a quiz.
 
       ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
 
@@ -141,7 +141,7 @@ icon: material/translate-variant
 
     If you want to customize quizzes based on both market and language:
 
-    - Toggle the `Show All Locales` option to display a detailed list of Markets and associated languages.
+    - Toggle the `Show All Locales` option to display a detailed list of markets and associated languages.
 
     - You’ll now be able to assign different quizzes for each language within the same market:
 

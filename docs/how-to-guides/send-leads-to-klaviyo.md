@@ -38,7 +38,7 @@ This article walks you through the process of connecting your quiz to Klavviyo a
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
         ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
-    4. In the [`Integrations`](/reference/quiz-builder/connect-integrations/-integrations) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
+    4. In the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
         ![how to send leads to klaviyo public api key provided1](/images/how_to_klaviyo_shopify_v2_public_key.png)
 
     5. Publish the changes with the top-right `Save` button.

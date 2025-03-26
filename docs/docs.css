@@ -36,3 +36,7 @@
     border: none;
     cursor: pointer;
 }
+
+.tabbed-block p img {
+    margin: 10px 0;
+}
