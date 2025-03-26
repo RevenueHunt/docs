@@ -220,7 +220,7 @@ To send contacts to Klaviyo your quiz needs to have an `email question`.
 1. **Obtain the Popup Link Code**: Go to the `Share` section of the app, then to `Link > Show Instructions for legacy themes`. Click on `Get the code` to copy the link provided.
 2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
 3. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
-4. **Navigate to Your Site's Navigation Settings**: From your Shopify dashboard, go to `Online Store > Navigation`. Open the menu list you wish to add the quiz link to.
+4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
 5. **Add a New Menu Item**: Click on the `Add menu item` button. In the name field, type in a title for your quiz link, such as “Take Our Quiz”.
 6. **Insert the Popup Link Code**: Paste the previously copied code into the link field.
 7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.

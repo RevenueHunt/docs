@@ -20,9 +20,11 @@ Before you start, ensure you have:
     1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to `Link > Show Instructions for legacy themes`. Click on `Get the code` to copy the link provided.
     2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
     3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
-        	![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
-    4. **Navigate to Your Site's Navigation Settings**: From your Shopify dashboard, go to `Online Store > Navigation`. Open the menu list you wish to add the quiz link to.
+        ![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
+    4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
+        ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
     5. **Add a New Menu Item**: Click on the `Add menu item` button. In the name field, type in a title for your quiz link, such as “Take Our Quiz”.
+        ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
     6. **Insert the Popup Link Code**: Paste the previously copied code into the link field.
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
 
@@ -77,9 +79,11 @@ Before you start, ensure you have:
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
     3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the **Link Popup V2** Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
-        	![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
-    4. **Navigate to Your Site's Navigation Settings**: From your Shopify dashboard, go to `Online Store > Navigation`. Open the menu list you wish to add the quiz link to.
+        ![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
+    4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
+        ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
     5. **Add a New Menu Item**: Click on the `Add menu item` button. In the name field, type in a title for your quiz link, such as “Take Our Quiz”.
+        ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
     6. **Insert the #quiz Code**: Type `#quiz` into the link filed and accept the link.
         ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
 
