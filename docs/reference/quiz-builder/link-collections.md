@@ -36,7 +36,7 @@
 
         In V2 of the RevenueHunt app for Shopify you can not only upvote by also recommend entire collections to the customer.
 
-    To add link collections of products to choices, go to [Questions](questions/), select a  multiple-choice question, then a choice and open the [Choice Settings](questions/#choice-settings).
+    To add link collections of products to choices, go to [Questions](/references/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [Choice Settings](questions/#choice-settings).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
 

@@ -336,7 +336,7 @@
 
     - **Question ID** - Displays the question unique ID.
 
-    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](conditional-logic/) section of the Quiz Builder.
+    **conditonal logic** / **tree icon** - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     **more options** / **...** - Opens more options menu.
 
@@ -365,7 +365,7 @@
 
     !!! note
 
-        To add custom CSS code to your entire quiz, go to [quiz design](quiz-design/).
+        To add custom CSS code to your entire quiz, go to [Quiz design](/references/quiz-builder/quiz-design/).
 
     **Custom JS code** - Expand to add your own custom JavaScript code to this section only. 
 
@@ -435,7 +435,7 @@
 
     - **Question ID** - Displays the question unique ID.
 
-    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](conditional-logic/) section of the Quiz Builder.
+    **conditonal logic** / **tree icon** - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     **more options** / **...** - Opens more options menu.
 
@@ -493,7 +493,7 @@
 
     - **Question ID** - Displays the question unique ID.
 
-    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](conditional-logic/) section of the Quiz Builder.
+    **conditonal logic** / **tree icon** - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     **more options** / **...** - Opens more options menu.
 
@@ -551,7 +551,7 @@
 
     - **Question ID** - Displays the question unique ID.
 
-    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](conditional-logic/) section of the Quiz Builder.
+    **conditonal logic** / **tree icon** - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     **more options** / **...** - Opens more options menu.
 
@@ -609,7 +609,7 @@
 
     - **Question ID** - Displays the question unique ID.
 
-    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](conditional-logic/) section of the Quiz Builder.
+    **conditonal logic** / **tree icon** - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     **more options** / **...** - Opens more options menu.
 

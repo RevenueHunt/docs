@@ -590,4 +590,4 @@
 
 
 ← Previous: [Link Products](link-products/)
-Next: [Quiz Design](quiz-design/) →
+Next: [Quiz design](/references/quiz-builder/quiz-design/) →

@@ -378,5 +378,5 @@
 ← [Back to Quiz Builder Index](index/)
 
 
-← Previous: [Conditional Logic](conditional-logic/)
+← Previous: [Conditional logic](/references/quiz-builder/conditional-logic/)
 Next: [Results Page](results-page/) →

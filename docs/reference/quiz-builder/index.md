@@ -42,9 +42,9 @@
 
     **Customer Tags** - Opens the [Customer Tags](link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
 
-    **Conditional Logic** - Opens the [Conditional Logic](conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
+    **Conditional Logic** - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
 
-    **Quiz Design** - Opens the [Quiz Design](quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
+    **Quiz Design** - Opens the [Quiz design](/references/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
 
     **Results Page** - Opens the [Results Page](results-page/) section of the Quiz Builder. This is where you'll edit your results page.
 
@@ -77,11 +77,11 @@
 
     From this menu you can switch between the following sections: 
 
-    - [Questions](questions/), 
-    - [Conditional logic](conditional-logic/), 
-    - [Quiz design](quiz-design/), 
-    - [Email notifications](notifications/), 
-    - [Result pages](results-page/) and 
+    - [Questions](/references/quiz-builder/questions/), 
+    - [Conditional logic](/references/quiz-builder/conditional-logic/), 
+    - [Quiz design](/references/quiz-builder/quiz-design/), 
+    - [Email notifications](/references/quiz-builder/notifications/), 
+    - [Result pages](/references/quiz-builder/results-page/) and 
     - [Success checklist](/reference/dashboard/#success-checklist).
     
     **Quiz Preview**
@@ -144,9 +144,9 @@
 
     **Customer Tags** - Opens the [Customer Tags](link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
 
-    **Conditional Logic** - Opens the [Conditional Logic](conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
+    **Conditional Logic** - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
 
-    **Quiz Design** - Opens the [Quiz Design](quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
+    **Quiz Design** - Opens the [Quiz design](/references/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
 
     **Results Page** - Opens the [Results Page](results-page/) section of the Quiz Builder. This is where you'll edit your results page.
 
@@ -198,9 +198,9 @@
 
     **Customer Tags** - Opens the [Customer Tags](link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
 
-    **Conditional Logic** - Opens the [Conditional Logic](conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
+    **Conditional Logic** - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
 
-    **Quiz Design** - Opens the [Quiz Design](quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
+    **Quiz Design** - Opens the [Quiz design](/references/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
 
     **Results Page** - Opens the [Results Page](results-page/) section of the Quiz Builder. This is where you'll edit your results page.
 
@@ -252,9 +252,9 @@
 
     **Customer Tags** - Opens the [Customer Tags](link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
 
-    **Conditional Logic** - Opens the [Conditional Logic](conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
+    **Conditional Logic** - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
 
-    **Quiz Design** - Opens the [Quiz Design](quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
+    **Quiz Design** - Opens the [Quiz design](/references/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
 
     **Results Page** - Opens the [Results Page](results-page/) section of the Quiz Builder. This is where you'll edit your results page.
 
@@ -306,9 +306,9 @@
 
     **Customer Tags** - Opens the [Customer Tags](link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
 
-    **Conditional Logic** - Opens the [Conditional Logic](conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
+    **Conditional Logic** - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
 
-    **Quiz Design** - Opens the [Quiz Design](quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
+    **Quiz Design** - Opens the [Quiz design](/references/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
 
     **Results Page** - Opens the [Results Page](results-page/) section of the Quiz Builder. This is where you'll edit your results page.
 
@@ -318,11 +318,11 @@
 
 
 ## Contents
-- [Questions](questions/)
+- [Questions](/references/quiz-builder/questions/)
 - [Link Collections / Link Categories](link-collections/)
 - [Link Products](link-products/)
-- [Conditional Logic](conditional-logic/)
-- [Quiz Design](quiz-design/)
+- [Conditional logic](/references/quiz-builder/conditional-logic/)
+- [Quiz design](/references/quiz-builder/quiz-design/)
 - [Results Page](results-page/)
 - [Notifications](notifications/)
 - [Quiz Settings](quiz-settings/)

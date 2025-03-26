@@ -1569,5 +1569,5 @@
 ← [Back to Quiz Builder Index](index/)
 
 
-← Previous: [Quiz Design](quiz-design/)
+← Previous: [Quiz design](/references/quiz-builder/quiz-design/)
 Next: [Notifications](notifications/) →

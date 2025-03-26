@@ -32,7 +32,7 @@
 
     You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
 
-    To add customer tags to choices, go to [Questions](questions/), select a  multiple-choice question, then a choice and open the [Choice Settings](questions/#choice-settings).
+    To add customer tags to choices, go to [Questions](/references/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [Choice Settings](questions/#choice-settings).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
 
@@ -117,4 +117,4 @@
 
 
 ← Previous: [Link Collections / Link Categories](link-collections/)
-Next: [Conditional Logic](conditional-logic/) →
+Next: [Conditional logic](/references/quiz-builder/conditional-logic/) →
