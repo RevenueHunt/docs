@@ -131,7 +131,8 @@ Create a dedicated landing page for the quiz to drive traffic from paid ads or m
         ![how to publish inline quiz shopify v2 main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
 
     6. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-    Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
+    
+        Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
 
 === "WooCommerce"
 
