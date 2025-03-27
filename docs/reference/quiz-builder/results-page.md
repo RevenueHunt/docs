@@ -516,9 +516,13 @@
 
     *Min. number of votes:* - Select what minimum number of votes a product or a variants should receive in order to be displayed in this product block. If a product receives less votes than specified here at the end of the quiz, it will not be shown.
 
+    *Slot title/description alignment* - Select how the slot title or description should be aligned within the slot block- left, center or right.
+
     *Products/Collections Alignment* - Select how the product slot should be aligned on the results page - left, center or right.
 
-    *Slot title/description alignment* - Select how the slot title or description should be aligned within the slot block- left, center or right.
+    *Heading size* - Select the text size of the slot heading.
+
+    *Description size* - Select the text size of the slot description.
 
     *Product components layout:* - Select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
 
@@ -528,23 +532,23 @@
 
     *Image* - Adds the product image.
 
-    *Title* - Add the product title.
+    *Heading* - Add the product title.
 
     *Price* - Adds the product price.
 
-    *Buy button* - Adds an "Add to cart" button.
+    *Add to cart button* - Adds an "Add to cart" button.
 
     *Text* - Adds an extra text block. Opens a text block menu that allows you to add your own custom text, link or a personalization.
 
     *Description* - Adds the product description.
 
-    *Link* - Adds a button link to the product URL.
+    *Link to product* - Adds a button link to the product URL.
 
     *Variants dropdown* - Adds a dropdown that dislays all the product variants.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1.png)
 
-    **Slot 1** - Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Unless you add a filter, the slot will display a list of recommended products, variants or collections.
+    **Slot 1** - Slots allow you to recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...). Unless you add a filter, the slot will display a list of recommended products, variants or collections.
 
     **+ Add Slot** - Adds a new slot to the product/collection block.
 
@@ -552,19 +556,19 @@
 
     *Heading* - Adds a custom heading to the slot block.
 
-    *Heading size* - Changes the heading font size.
-
     *Description* - Adds a custom description to the slot block. Allows to add text, links or personalization.
+
+    *Slot width* - Select the default slot width.
 
     *Max. recommended products* - The maximum number of products allowed to be displayed in the slot block.
 
-    **Add segments** - Click `v Add` to select products from which Collections, Tags, Variants or Vendors will be shown in this slot block.
+    **Add segments** - Click `v Add` to select products from which Products, Varaints,Collections, Tags, Variants or Vendors will be shown in this slot block.
 
     !!! warning
 
-        If you add a filter, the slot will be able to display the most voted products from the linked collections.
+        If you add a segement, the slot will be able to display the most voted products from the linked products/collections.
 
-    **Exclude segments** - Click `v Exclude` to choose products from which Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
+    **Exclude segments** - Click `v Exclude` to choose products from which Products, Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
 
 === "WooCommerce"
 
