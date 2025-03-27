@@ -851,7 +851,11 @@
 
     **Customer tags** - When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM. Click `Search tags` to pick a tag to link to this choice or start typing the name to create a new tag. Confimr with `Add tag`. All the tags you create will be visible at the bottom in grey.
 
-    **Advanced settings** - Opens the advanced choice settings menu.
+    **Advanced settings** - Opens the advanced choice settings menu. 
+    
+    !!! note
+
+        Avialble only if `Allow multipe selection` is active in Multiple-Choice [Block Settings](#block-settings).
 
     *Regular choice* - Regular choice type.
 
