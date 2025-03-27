@@ -174,10 +174,6 @@
 
     *Arrows abnd transitions move up/down or left/right* - Select which way the arrows and transitions should be pointing.
 
-    *Animations* - Add animations to transition between questions. Pick the option from the list to see the preview.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_animations](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_animations.png)
-
     **Advanced** - Add your own CSS code in the box to override the default quiz's styles.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
