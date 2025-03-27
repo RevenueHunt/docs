@@ -66,9 +66,17 @@
 
     *Email subject:* - Add the title of the notification email.
 
-    *Email TO:* - Add an email address to which the notification should be sent.
+    *Reply-to:* - Add an email address to which the notification should be sent.
 
-    *HTML email template* - Add HTML email template. The template can be built based on the Metadata provided.
+    *Email-to:* - Seelct a slide that contains the email questions from the dropdown.
+
+    *Email liquid template* - Add a liquid email template. The template can be built based on the Metadata provided.
+
+    *Useful code snippets:* - Click on an item below  to copy the code snippets to customize the Liquid email template.
+
+    *Items list snippet* - Lists all the recomended products.
+
+    *Responses by block snippet* - Lists all the customer answers.
 
 === "WooCommerce"
 
