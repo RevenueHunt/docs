@@ -16,23 +16,13 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
 
-    **1. Results page 1** - the first results page, currently editing.
+    **Results page 1** - the first results page, currently editing.
 
     **+ Add results page** - Add another results page to your quiz. 
 
     !!! note
 
         The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](conditional-logic/#jump-logic) via the quiz Conditional Logic tab.
-
-    **Checkout bar** - Seelct the settings of the checkout bar. 
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar.png)
-
-    *Show "retake quiz" button* - Uncheck if you want to hide the "retake quiz" button.
-
-    *Proceed to checkout* - After adding the products to cart, the customer will be redirected directly to checkout.
-
-    *Proceed to cart* - After adding the products to cart, the customer will be redirected to the cart page.
 
     **+ Add section** - Adds a new section to this results page.
 
@@ -186,7 +176,7 @@
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-### Block Logic / Section Logic
+### Block Logic / Display Section Logic
 
 === "Shopify"
 
@@ -231,17 +221,17 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic.png)
 
-    With Block Logic you can make blocks visible or hidden based on customer's responses.
+    With Display Logic you can make **sections** visible or hidden based on customer's responses.
 
     **Display logic**
 
-    **+ Add logic condition (OR)** - Adds a new OR block logic rule.
+    **+ Add condition (OR)** - Adds a new OR block logic rule.
 
     **Default** - Select whether this section should be `Shown` or `Hidden` by default.
 
     !!! info
 
-        All the Block Logic rules follow the same format
+        All the Display Logic rules follow the same format
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
@@ -496,6 +486,8 @@
 
     To add an image click `Select image`. You can uplaod an image from your device or select from the in-app uploaded image gallery.
 
+    *Alt text* - Add an alternative text for this image.
+
     *Image height* - Select the size of the image.
 
     *Image alignment* - Select the image alignment left, right or center.
@@ -738,7 +730,19 @@
 
     **Allow duplicated recommendations** - Check this option to allow products to be shown in more than one product/slot blocks.
 
-    **Show unavailable products** - Check this option to allow out-of-stock products to be displayed on the results page.
+    **Checkout options** - Seelct the settings of the checkout bar.
+
+    *Show bar* - Uncheck to hide the checkout bar.
+
+    *Show "retake quiz" button* - Uncheck if you want to hide the "retake quiz" button.
+
+    *Show "Add all to cart" button* - Uncheck to hide the "Add all to cart" button from the footer.
+
+    **Next destination for users** - Choose where customers go after the results page.
+
+    *Proceed to checkout* - After adding the products to cart, the customer will be redirected directly to checkout.
+
+    *Proceed to cart* - After adding the products to cart, the customer will be redirected to the cart page.
 
     **Custom CSS Code** - Add custom CSS code to this resutls page only.
 
@@ -786,15 +790,7 @@
 
 === "Shopify V2"
 
-    **Checkout bar** - Seelct the settings of the checkout bar.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar.png)
-
-    **Show "retake quiz" button** - Uncheck if you want to hide the "retake quiz" button.
-
-    **Proceed to checkout** - After adding the products to cart, the customer will be redirected directly to checkout.
-
-    **Proceed to cart** - After adding the products to cart, the customer will be redirected to the cart page.
+    Check [Results Page settings](#results-page-settings) > `Checkout options`.
 
 === "WooCommerce"
 
