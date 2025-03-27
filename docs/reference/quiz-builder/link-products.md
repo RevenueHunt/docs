@@ -30,21 +30,35 @@
 
 === "Shopify V2"
 
-    You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+    To add link products or product variants to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
 
-    To add customer tags to choices, go to [Questions](/references/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [Choice Settings](questions/#choice-settings).
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
+    Next chose the weight of this choice:
 
-    Click `Search tags` to pick a tag to link to this choice or start typing the name to create a new tag. 
+    **Upvotes weighting** - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products upvoted will receive x2 (double) votes from this choice.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag.png)
-    
-    Confirm with `Add tag`. 
-    
-    All the tags you create will be visible at the bottom in grey.
+    And use the Upvotes section to choose which products or varaints to link to this choice:
 
-    When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM. 
+    **Upvotes** - lists all the collections, tags, variants collections or vendors that are linked to this choice.
+
+    **▼Upvote** - Click `▼Upvote` to choose an item to upvote. You can upvote products or product variants to a choice. Once selected a popup will show allowing you to select items (product. product variants) from your Shopify catalog to be linked to this choice.
+
+    **Exclude** - lists all the products, product varaints that are excluded in this choice.
+
+    **▼Exclude** - Click to choose an item to exclude. You can exclude individual products, product varaints from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+
+    !!! warning
+
+        Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later
+
+    In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_select](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_select.png)
+
+    In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_selected](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_selected.png)
 
 === "WooCommerce"
 
