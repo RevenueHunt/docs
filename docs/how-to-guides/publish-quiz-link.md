@@ -38,47 +38,10 @@ Before you start, ensure you have:
         
     When clicked, the default quiz for your store will open. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
-    !!! note
-
-        To link to a specific quiz, use `#quiz-QUIZID` for Version 1 quizzes or `#quizV2-QUIZID` for Version 2 quizzes. 
-            Replace `QUIZID` with the quiz ID, which you can find in the [dashboard](/reference/dashboard/) by clicking the `...` three dots next to a quiz and selecting "Copy Quiz ID."
-
-        ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
-
-        To directly link to a specific quiz:
-
-        - For quizzes created with Version 1, use: #quiz-QUIZID
-
-        - For quizzes created with Version 2, use: #quizV2-QUIZID
-
-        Here are examples of how your links might look:
-
-        **Popup Links**:
-
-        ``` html
-        #quiz-DmHLGj (Version 1)
-        ```
-            
-        ``` html
-        #quizV2-BfK8Ht (Version 2)
-        ```
-
-        **Direct Page Links**:
-
-        ``` html
-        www.yourstore.com/#quiz-DmHLGj
-        ```
-
-        ``` html
-        www.yourstore.com/#quizV2-BfK8Ht
-        ```
-
-            These links can be added anywhere on your website to open a quiz popup.
-
     Step by step instructions:
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the **Link Popup V2** Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
+    3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup V2 Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
         ![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
     4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
         ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
@@ -166,43 +129,6 @@ Before you start, ensure you have:
     ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
         
     When clicked, the default quiz for your store will open. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-
-    !!! note
-
-        To link to a specific quiz, use `#quiz-QUIZID` for Version 1 quizzes or `#quizV2-QUIZID` for Version 2 quizzes. 
-            Replace `QUIZID` with the quiz ID, which you can find in the [dashboard](/reference/dashboard/) by clicking the `...` three dots next to a quiz and selecting "Copy Quiz ID."
-
-        ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
-
-        To directly link to a specific quiz:
-
-        - For quizzes created with Version 1, use: #quiz-QUIZID
-
-        - For quizzes created with Version 2, use: #quizV2-QUIZID
-
-        Here are examples of how your links might look:
-
-        **Popup Links**:
-
-        ``` html
-        #quiz-DmHLGj (Version 1)
-        ```
-            
-        ``` html
-        #quizV2-BfK8Ht (Version 2)
-        ```
-
-        **Direct Page Links**:
-
-        ``` html
-        www.yourstore.com/#quiz-DmHLGj
-        ```
-
-        ``` html
-        www.yourstore.com/#quizV2-BfK8Ht
-        ```
-
-            These links can be added anywhere on your website to open a quiz popup.
 
     Step by step instructions:
 
@@ -305,7 +231,9 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
 
 === "Shopify V2"
 
-    **For Shopify V2 users**, we've added a z-index configuration option in the app settings:
+    The z-index determines the order of elements on the page. If the quiz popup is behind your website header or the `X` closing button is not visible, you can try to change the z-index configuration option in the app settings.
+
+    Here is how to change the z-index configuration option in the app settings:
 
     1. Go to your Shopify admin dashboard and navigate to `Online Store > Themes > Customize`.
     2. Within theme customization, go to `App Embeds` and find the `V2 - Link Popup` settings.
@@ -381,3 +309,75 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
 
 ---
 You've successfully set up a Quiz Link Popup on your eCommerce store. Don't forget to click on the "Save" button so the changes are reflected in your store.
+
+
+## Linking to Multiple Quizzes
+
+In some cases, you might want to have links to different quizzes on the same page. This section explains how to set up multiple quiz links for different platforms.
+
+=== "Shopify"
+
+    For Shopify (V1), you can link to specific quizzes by creating different popup links for each quiz.
+    
+    1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz.
+    2. Navigate to `Link > Show Instructions for legacy themes`.
+    3. Click on `Get the code` to copy the unique link for that specific quiz.
+    4. Add each unique link to different menu items, buttons, or page elements.
+
+=== "Shopify V2"
+
+    For Shopify V2, you can link to specific quizzes by using the format `#quiz-QUIZID` instead of just `#quiz`.
+
+    1. **Find Your Quiz ID**: Go to the [dashboard](/reference/dashboard/) and locate the quiz you want to link to.
+    2. **Copy the Quiz ID**: Click the `...` three dots next to the quiz and select "Copy Quiz ID."
+       
+       ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
+    
+    3. **Create Your Link**: Use the format `#quiz-QUIZID` for your link. For example, if your quiz ID is "DmHLGj", your link would be `#quiz-DmHLGj`.
+    
+    4. **Add the Link**: Follow the same steps as described earlier for adding a link to a menu item or button, but use your specific quiz link instead of just `#quiz`.
+    
+    **Example use cases:**
+    
+    - Different quizzes for different product categories (e.g., "#quiz-ABC123" for skincare quiz, "#quiz-XYZ789" for makeup quiz)
+    - A/B testing different quiz versions
+    - Seasonal or promotional quizzes alongside your main quiz
+
+    !!! note "Legacy Integration Support"
+        If you're using both V1 and V2 integrations simultaneously (very rare case), you can use `#quizV2-QUIZID` to specifically target V2 quizzes.
+
+=== "WooCommerce"
+
+    For WooCommerce, each quiz has its own unique link code:
+    
+    1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz you want to link to.
+    2. Navigate to [`Link`](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
+    3. Click on `Get the code` to copy the unique link for each quiz.
+    4. Add these links to different menu items, buttons, or page elements as needed.
+
+=== "Magento"
+
+    For Magento, each quiz has its own unique link code:
+    
+    1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz you want to link to.
+    2. Navigate to [`Link`](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
+    3. Click on `Get the code` to copy the unique link for each quiz.
+    4. Add each unique link to different menu items, buttons, or page elements.
+
+=== "BigCommerce"
+
+    For BigCommerce, each quiz has its own unique link code:
+    
+    1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz you want to link to.
+    2. Navigate to [`Link`](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
+    3. Click on `Get the code` to copy the unique link for each quiz.
+    4. Add these links to different web pages, menu items, buttons, or other elements as needed.
+
+=== "Standalone"
+
+    For standalone implementations, each quiz has its own unique link code:
+    
+    1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz you want to link to.
+    2. Navigate to [`Link`](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
+    3. Click on `Get the code` to copy the unique link for each quiz.
+    4. Add these links to different menu items, buttons, or page elements as needed.
