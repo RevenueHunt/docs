@@ -8,19 +8,15 @@ This is an app manual. You'll find here an explanation of all the buttons and fu
 
 On the dashboard, you'll find all the quizzes that you create. From the dashboard, you can run a catalog sync, check the success checklist, or create a new quiz.
 
-![dashboard](/images/manual_dashboard.png)
-
 [:fontawesome-solid-arrow-right: continue reading](dashboard/)
 
 ## [Quiz Builder](quiz-builder/index/)
-
-![quiz builder quiz builder section](/images/manual_quizbuilder_quizbuilder.png)
 
 In Quiz Builder you'll create your quiz. Via the Quiz Builder, you can add questions to your quiz, link products, edit the results page, language, currency, or set up integrations and results emails.
 
 Quiz Builder is composed of the following sections:
 
-### [Quiz Builder](/reference/quiz-builder/questions/)
+### [Questions](/reference/quiz-builder/questions/)
 
 This is where you'll add questions/slides to your quiz..
 
@@ -68,15 +64,11 @@ This is where you'll check your quiz metrics and responses.
 
 ## [Plans & Pricing](plans-pricing/)
 
-![plans & pricing page](/images/manual_plans_pricing.png)
-
 In the Plans & Pricing section, you can find details of our pricing plans and upgrade or downgrade your account's plan.
 
 [:fontawesome-solid-arrow-right: continue reading](plans-pricing/)
 
 ## [App Settings](app-settings/)
-
-![app settings general](/images/manual_appsettings_general.png)
 
 In the App Settings section, you adjust your contact details, change GDPR settings, sync metafields, connect your SMTP server, or set up the Shop App.
 
