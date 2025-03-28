@@ -312,9 +312,9 @@
 
 === "Shopify V2"
 
+    At this moment in time, there is no way to activate the Shop App in the Shopify V2 version of the app.
 
-
-    The default quiz will be displayed in the Shop App.
+    We are actively working on this feature and will update this section once it's available.
 
 
 === "WooCommerce"
