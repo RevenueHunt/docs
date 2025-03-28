@@ -76,6 +76,22 @@
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
 
+    You can adjust the popup options:
+
+    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+
+    - *Popup width (% of screen)* - Controls the width of the quiz popup window as a percentage of the user's screen width.
+    - *Popup height (% of screen)* - Controls the height of the quiz popup window as a percentage of the user's screen height.
+    - *Popup z-index* - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+
+    Then, follow the step by step instructions provided in the `Add the quiz as a link-triggered popup` or in our [How to Set Up a Quiz Link Popup on Your Store](how-to-guides/publish-quiz-link/) to add a quiz link to your website.
+
+    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
+
+    !!! warning
+
+        Check [How to Set Up a Quiz Link Popup on Your Store](how-to-guides/publish-quiz-link/) for step by step instructions.
+
 === "WooCommerce"
 
     A link that will open the quiz as a popup over your page.
