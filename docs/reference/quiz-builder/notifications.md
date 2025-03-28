@@ -228,7 +228,11 @@
 
     *Email TO:* - Add an email address to which the notification should be sent.
 
-    *HTML email template* - Add HTML email template. The template can be built based on the Metadata provided.
+    *Email liquid template* - Add liquid email template. The template can be built based on the Metadata provided.
+
+    *Useful code snippets:* - Click on an item below  to copy the code snippets to customize the Liquid email template.
+
+    *Personal information template* - Lists all the personal infomation provided by the user.
 
 === "WooCommerce"
 

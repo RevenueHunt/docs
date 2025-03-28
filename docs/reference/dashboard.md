@@ -30,6 +30,8 @@ On the dashboard, you'll find all the quizzes that you create.
 
     **Quizzes** - The dashboard of the app where you can find all the quizzes created.
 
+    **Publish** - Opens the [Publish](/reference/quiz-builder/share-publish/) instructions for how to add the quiz to the webstie.
+
     **Analytics** - Opens the [Analytics tab](/reference/quiz-builder/metrics/#analytics) where you can check the quiz performance.
 
     **Settings** - Opens the [App Settings](/reference/app-settings/) menu.
@@ -231,6 +233,7 @@ On the dashboard, you'll find all the quizzes that you create.
     ![manual_shopifyV2_quizmanagementoptions.png](/images/manual_shopifyV2_quizmanagementoptions.png)
 
     - **Preview** - Opens the Quiz Preview for testing.
+    - **Publish** - Opens the [Publish](/reference/quiz-builder/share-publish/) instructions that explain how to put the quiz on the website.
     - **Quiz Settings** - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) for that quiz.
     - **Integrations** - Opens the [Integrations](/reference/quiz-builder/share-publish/) page for that quiz.
     - **Responses** - Opens the [Responses](/reference/quiz-builder/metrics/#responses) page where it's possible to view, downalod and troubleshoot response for that quiz.

@@ -8,13 +8,19 @@
 
     For step-by-step instructions check [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide.
 
-=== "Shopify V2" 
+=== "Shopify V2"
 
-    To add the quiz to your store, you have to create your quiz first. Then, in Shopify go to `Online Store > Theme` and click ` Customize`.
+    ![/images/manual_shopifyV2_quizbuilder_share_publish_publishinthemenu.png](/images/manual_shopifyV2_quizbuilder_share_publish_publishinthemenu.png)
 
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore.png)
+    To add the quiz to your store, go the `Publish` tab from your [Dashboard](/reference/dashboard/) side menu.
     
-    For step-by-step instructions check [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide.
+    ![manual_shopifyV2_quizbuilder_share_publish_publishpage](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
+
+    There, you will find step-by-step instructions on how to publish the default quiz onto your website.
+
+    !!! tip
+    
+        You can also check our [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide.
 
 === "WooCommerce"
 
