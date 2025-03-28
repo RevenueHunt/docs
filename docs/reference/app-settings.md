@@ -168,7 +168,7 @@
 
     SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
 
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won’t be sent from our *no-reply@prq.email* email account, they’ll be sent from your email account. 
+    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
 
     Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
@@ -184,11 +184,11 @@
 
     **SMTP Authentication**  - Select from teh dropdown your SMTP email authentication method.
 
-    **Enable STARTTLS** - Check to enable STARTTLS. *STARTTLS is a protocol command used to upgrade an existing insecure connection to a secure, encrypted connection using TLS (Transport Layer Security). It typically runs over port 587. You should check this if your mail server supports STARTTLS.".*
+    **Enable STARTTLS** - Check to enable STARTTLS. *STARTTLS is a protocol command used to upgrade an existing insecure connection to a secure, encrypted connection using TLS (Transport Layer Security). It typically runs over port 587. You should check this if your mail server supports STARTTLS".* Note that this option is enabled by default, but you should untick it if your SMTP server does not support STARTTLS, as this could prevent successful connections.
 
-    **Enable SSL** - Check to enable SLL. *SSL (Secure Sockets Layer) is an older protocol for encrypting connections. If enabled, your connection starts as secure from the beginning (unlike STARTTLS which upgrades after connecting). This is usually used on port 465. Only enable SSL if your SMTP provider specifies SSL.*
+    **Enable SSL** - Check to enable SLL. *SSL (Secure Sockets Layer) is an older protocol for encrypting connections. If enabled, your connection starts as secure from the beginning (unlike STARTTLS which upgrades after connecting). This is usually used on port 465. Only enable SSL if your SMTP provider specifies SSL.* This option is enabled by default, but should be unticked for SMTP servers that don't use SSL encryption.
        
-    **Test connection** - Once you've provided all your credentials you can test if the connection to your SMTP server is successful by clicking the `Test` button. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you’re having issues, please get in touch with your developer / SMTP provider.
+    **Test connection** - Once you've provided all your credentials you can test if the connection to your SMTP server is successful by clicking the `Test` button. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
 
 === "WooCommerce"
 
@@ -312,32 +312,14 @@
 
 === "Shopify V2"
 
-    At this moment in time, there is no way to activate the Shop App in the Shopify V2 version of the app.
-
-    We are actively working on this feature and will update this section once it's available.
-
-
-=== "WooCommerce"
-
-
-
-=== "Magento"
-
-
-
-=== "BigCommerce"
-
-
-
-=== "Standalone" 
-
+    At this moment in time, there is no way to activate the Shop App in the Shopify V2 version of the app. We are actively working on this feature and will update this section once it's available.
 
 
 ## Shopify Markets
 
 === "Shopify"
 
-
+    Shopify Markets integration is only available in the Shopify V2 version of the app. This feature is not supported in the original Shopify app version.
 
 === "Shopify V2"
 
@@ -360,21 +342,3 @@
     **Language** - Selct a default quiz for a specific language in this region.
 
     **Currency** - Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
-
-=== "WooCommerce"
-
-
-
-=== "Magento"
-
-
-
-=== "BigCommerce"
-
-
-
-=== "Standalone" 
-
-
-
-
