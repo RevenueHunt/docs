@@ -84,7 +84,7 @@
     - *Popup height (% of screen)* - Controls the height of the quiz popup window as a percentage of the user's screen height.
     - *Popup z-index* - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
-    Then, follow the step by step instructions provided in the `Add the quiz as a link-triggered popup` or in our [How to Set Up a Quiz Link Popup on Your Store](how-to-guides/publish-quiz-link/) to add a quiz link to your website.
+    Then, follow the step by step instructions provided in the `Add the quiz as a link-triggered popup` section or in our [How to Set Up a Quiz Link Popup on Your Store](how-to-guides/publish-quiz-link/) to add a quiz link to your website.
 
     ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
 
@@ -172,9 +172,16 @@
 
     In Inline Quiz settings, you can choose the `Quiz height (in pixels)`, just type the number in.
 
-    *Automatic scroll into View* - Uncheck this option if you don't want the quiz to scroll into view.
+    - *Automatic scroll into View* - Uncheck this option if you don't want the quiz to scroll into view.
+    - *Fixed height* - Will set a fixed height of the quiz iframe as specified in the **Height** field above. This also fixes the height of the results page.
 
-    *Fixed height* - Will set a fixed height of the quiz iframe as specified in the **Height** field above. This also fixes the height of the results page.
+    Then, follow the step by step instructions provided in the `Add the quiz to your home page` section, `Add the quiz to a dedicated landing page` section or in our [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) to add a quiz link to your website.
+
+    ![manual_shopifyV2_quizbuilder_share_publish_inlinepublish](/images/manual_shopifyV2_quizbuilder_share_publish_inlinepublish.png)
+
+    !!! warning
+
+        Check [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
 
 === "WooCommerce"
 
@@ -378,6 +385,44 @@
 
 === "Shopify V2"
 
+    Direct link to the quiz for social media.
+
+    To create a link popup for socials, in Shopify, go to `Online Store > Theme` and click ` Customize`. Open `App Embeds` and toggle the button to acitvate the `V2 - Link Popup Quiz`.
+
+    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
+
+    You can adjust the popup options:
+
+    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+
+    - *Popup width (% of screen)* - Controls the width of the quiz popup window as a percentage of the user's screen width.
+    - *Popup height (% of screen)* - Controls the height of the quiz popup window as a percentage of the user's screen height.
+    - *Popup z-index* - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+
+    Then, follow the step by step instructions provided in the `Share the quiz as an external link` section or in our [How to Get an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/) to add a quiz link to your website.
+
+    ![manual_shopifyV2_quizbuilder_share_publish_externallink](/images/manual_shopifyV2_quizbuilder_share_publish_externallink.png)
+
+    !!! warning
+
+        Check [How to Get an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/) for step by step instructions.
+
+    ### Share the quiz as an external link
+
+    Share a link to your quiz on email campaigns, social media posts, paid ads, or any other communication channel.
+
+    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+
+    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Link Popup Quiz option and toggle it on. This action will automatically add the RevenueHunt script to your site, enabling quiz links to load in a popup.
+
+    3. **Save changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
+
+    4. **Copy the link to the quiz popup**: The direct link to your quiz popup is https://skincarequizstore.myshopify.com/#quiz.
+
+    5. **Share the link**: Share the link to the quiz popup with your audience. You can add it to your email campaigns, social media posts, or any other communication channel.
+
+    When clicked, the default quiz for your store will open. If you've configured Shopify Markets, the default quiz for that specific market will be shown instead.
+
 === "WooCommerce"
 
     Direct link to the quiz for social media.
@@ -441,6 +486,8 @@
     - **Popup height** - Adjust the width of the quiz by typing the percentage number.
 
 === "Shopify V2"
+
+    Check [External link](#external) instructions.
 
 === "WooCommerce" 
 
