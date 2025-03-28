@@ -317,18 +317,7 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
     !!! note
         Setting the z-index too high might hide other elements like chat buttons. The ideal setting will depend on your specific theme's configuration.
         
-    If adjusting the z-index setting doesn't solve the issue, try these alternative solutions:
-
-    - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
-    - **Move the `X` closing sign lower.** You can add custom CSS code to your theme:
-        ```html
-        <style>
-        .rh-widget span {
-        top: 150px !important;
-        }
-        </style>
-        ```
-    - **Publish the quiz inline with a page instead.** Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+    If adjusting the z-index setting doesn't solve the issue, try to **publish the quiz inline with a page instead.** Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
 
 === "WooCommerce"
 
