@@ -8,17 +8,89 @@ SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails acros
 
 ## Setting Up SMTP Server Connection
 
-![how to set up smtp](/images/manual_appsettings_smtp.png)
+=== "Shopify"
 
-1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
-2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
-3. **Enter SMTP Details**: Fill in your SMTP server details. 
+    ![how to set up smtp](/images/manual_appsettings_smtp.png)
 
-    !!! note
+    1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
+    2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
+    3. **Enter SMTP Details**: Fill in your SMTP server details. 
 
-        If you're not sure how to fill it in, try contacting your email service provider or check their documentation (search for "SMTP" on the documentation page).
+        !!! note
 
-4. **Test and Activate**: Click on `test connection & activate`. If the test is succsefull, from now on all the emails will be sent from your server. If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues)
+            If you're not sure how to fill it in, try contacting your email service provider or check their documentation (search for "SMTP" on the documentation page).
+
+    4. **Test and Activate**: Click on `test connection & activate`. If the test is succsefull, from now on all the emails will be sent from your server. If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues)
+
+=== "Shopify V2"
+
+    ![how to set up smtp](/images/manual_appsettings_smtp.png)
+
+    1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
+    2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
+    3. **Enter SMTP Details**: Fill in your SMTP server details. 
+
+        !!! note
+
+            If you're not sure how to fill it in, try contacting your email service provider or check their documentation (search for "SMTP" on the documentation page).
+
+    4. **Test and Activate**: Click on `test connection & activate`. If the test is succsefull, from now on all the emails will be sent from your server. If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues)
+
+=== "WooCommerce"
+
+    ![how to set up smtp](/images/manual_appsettings_smtp.png)
+
+    1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
+    2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
+    3. **Enter SMTP Details**: Fill in your SMTP server details. 
+
+        !!! note
+
+            If you're not sure how to fill it in, try contacting your email service provider or check their documentation (search for "SMTP" on the documentation page).
+
+    4. **Test and Activate**: Click on `test connection & activate`. If the test is succsefull, from now on all the emails will be sent from your server. If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues)
+
+=== "Magento"
+
+    ![how to set up smtp](/images/manual_appsettings_smtp.png)
+
+    1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
+    2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
+    3. **Enter SMTP Details**: Fill in your SMTP server details. 
+
+        !!! note
+
+            If you're not sure how to fill it in, try contacting your email service provider or check their documentation (search for "SMTP" on the documentation page).
+
+    4. **Test and Activate**: Click on `test connection & activate`. If the test is succsefull, from now on all the emails will be sent from your server. If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues)
+
+=== "BigCommerce"
+
+    ![how to set up smtp](/images/manual_appsettings_smtp.png)
+
+    1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
+    2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
+    3. **Enter SMTP Details**: Fill in your SMTP server details. 
+
+        !!! note
+
+            If you're not sure how to fill it in, try contacting your email service provider or check their documentation (search for "SMTP" on the documentation page).
+
+    4. **Test and Activate**: Click on `test connection & activate`. If the test is succsefull, from now on all the emails will be sent from your server. If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues)
+
+=== "Standalone"
+
+    ![how to set up smtp](/images/manual_appsettings_smtp.png)
+
+    1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
+    2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
+    3. **Enter SMTP Details**: Fill in your SMTP server details. 
+
+        !!! note
+
+            If you're not sure how to fill it in, try contacting your email service provider or check their documentation (search for "SMTP" on the documentation page).
+
+    4. **Test and Activate**: Click on `test connection & activate`. If the test is succsefull, from now on all the emails will be sent from your server. If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues)
 
 ## Specific SMTP Configurations
 
