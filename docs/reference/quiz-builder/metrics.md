@@ -88,6 +88,8 @@
 
     ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
 
+    **All / With recommendations / No recommendations** - Switch to filter responses that recieved product recommendations and those that did not.
+
     *☐ / Checkbox* - Click to select all the responses or select one by one.
     
     *Response date* - The date and time the response has been submitted.
@@ -110,9 +112,9 @@
 
     ![manual_shopifyV2_quizbuilder_responses_sample1_checkproduct](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct.png)
 
-    **Customer** - Displays the **Contact information** provided by the customer in the quiz.
+    **Customer data** - Displays the **Contact information** provided by the customer in the quiz.
 
-    **Tags** - Displays the customer tags associated with this response. Customer tags help you understand your customer's needs, as well as helping with segmentation and retargeting
+    **Customer Tags** - Displays the customer tags associated with this response. Customer tags help you understand your customer's needs, as well as helping with segmentation and retargeting
 
     **Responses to Questions** - This section displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question.
 
@@ -390,9 +392,15 @@
 
 === "Shopify V2"
 
+    ![manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard1](/images/manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard1.png)
+
+    Access the Analytics from the [Dashboard](/reference/dashboard/). Pick a quiz and click the  `...` to open the quiz menu. From the list pick and click on `Analytics`.
+
     ![manual_shopifyV2_quizbuilder_metrics_analytics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
 
     The data in the graphs are totals in a selected period of time for a selected quiz. 
+
+    Click the `Quiz name` to change the quiz.
 
     *Today* - To change the dates click on the `Today` button. You can change the period to select it from the moment you started using the quiz or from a given date.
 
