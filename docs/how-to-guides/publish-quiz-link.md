@@ -23,7 +23,7 @@ Before you start, ensure you have:
         ![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
     4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
         ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
-    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as “Take Our Quiz”.
+    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take Our Quiz".
     6. **Insert the Popup Link Code**: Paste the previously copied code into the link field and then click on `Save`.
         ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
@@ -36,7 +36,7 @@ Before you start, ensure you have:
         
     ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
         
-    When clicked, the default quiz for your store will open. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+    When clicked, the default quiz for your store will open. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
     !!! note
 
@@ -82,13 +82,13 @@ Before you start, ensure you have:
         ![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
     4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
         ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
-    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as “Take Our Quiz”.
+    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take Our Quiz".
     6. **Insert the #quiz Code**: Type `#quiz` into the link field and then click on `Save`.
         ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
 
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
 
-        When clicked, the default quiz for your store will open. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+        When clicked, the default quiz for your store will open. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
 === "WooCommerce"
 
@@ -165,7 +165,7 @@ Before you start, ensure you have:
         
     ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
         
-    When clicked, the default quiz for your store will open. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+    When clicked, the default quiz for your store will open. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
     !!! note
 
@@ -216,7 +216,7 @@ Before you start, ensure you have:
     8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Type `#quiz` in the appropriate link field.
         ![how to publish link popup shopify v2 button](/images/how_to_publish_link_popup_shopify_v2_button.png)
 
-        When clicked, the default quiz for your store will open. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+        When clicked, the default quiz for your store will open. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
     9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button.
 
@@ -286,20 +286,109 @@ Before you start, ensure you have:
 
 ## Popup Displays Behind Website Header
 
-If the Quiz Popup displays behind your website header or the `X` closing button is not visible it's likely that your website's header has an unusually high z-index. This is not something that can be fixed from the app's end but rather from your website's end.
+If the Quiz Popup displays behind your website header or the `X` closing button is not visible it's likely that your website's header has an unusually high z-index. This can be fixed either from the app settings or from your website's theme.
 
-Here's what you can do:
+=== "Shopify"
 
-- **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
-- **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme or an empty HTML/custom liquid block on the page where the quiz popup is shown. Here's a sample code:
-    ```html
-    <style>
-    .rh-widget span {
-    top: 150px !important;
-    }
-    </style>
-    ```
-- **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+    If the Quiz Popup displays behind your website header or the `X` closing button is not visible, try these solutions:
+
+    - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
+    - **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme or an empty HTML/custom liquid block on the page where the quiz popup is shown. Here's a sample code:
+        ```html
+        <style>
+        .rh-widget span {
+        top: 150px !important;
+        }
+        </style>
+        ```
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+
+=== "Shopify V2"
+
+    **For Shopify V2 users**, we've added a z-index configuration option in the app settings:
+
+    1. Go to your Shopify admin dashboard and navigate to `Online Store > Themes > Customize`.
+    2. Within theme customization, go to `App Embeds` and find the `V2 - Link Popup` settings.
+    3. Look for the z-index setting and increase the value (try with 1000 first, if that doesn't work, try 10000).
+    4. Save your changes.
+
+    ![z-index setting in V2 Link Popup](/images/how_to_publish_quiz_link_popup_zindex_setting.png)
+
+    !!! note
+        Setting the z-index too high might hide other elements like chat buttons. The ideal setting will depend on your specific theme's configuration.
+        
+    If adjusting the z-index setting doesn't solve the issue, try these alternative solutions:
+
+    - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
+    - **Move the `X` closing sign lower.** You can add custom CSS code to your theme:
+        ```html
+        <style>
+        .rh-widget span {
+        top: 150px !important;
+        }
+        </style>
+        ```
+    - **Publish the quiz inline with a page instead.** Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+
+=== "WooCommerce"
+
+    If the Quiz Popup displays behind your website header or the `X` closing button is not visible, try these solutions:
+
+    - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
+    - **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme or an empty HTML block on the page where the quiz popup is shown. Here's a sample code:
+        ```html
+        <style>
+        .rh-widget span {
+        top: 150px !important;
+        }
+        </style>
+        ```
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+
+=== "Magento"
+
+    If the Quiz Popup displays behind your website header or the `X` closing button is not visible, try these solutions:
+
+    - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
+    - **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme. Here's a sample code:
+        ```html
+        <style>
+        .rh-widget span {
+        top: 150px !important;
+        }
+        </style>
+        ```
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+
+=== "BigCommerce"
+
+    If the Quiz Popup displays behind your website header or the `X` closing button is not visible, try these solutions:
+
+    - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
+    - **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme. Here's a sample code:
+        ```html
+        <style>
+        .rh-widget span {
+        top: 150px !important;
+        }
+        </style>
+        ```
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+
+=== "Standalone"
+
+    If the Quiz Popup displays behind your website header or the `X` closing button is not visible, try these solutions:
+
+    - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
+    - **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme. Here's a sample code:
+        ```html
+        <style>
+        .rh-widget span {
+        top: 150px !important;
+        }
+        </style>
+        ```
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
 
 ---
-You've successfully set up a Quiz Link Popup on your eCommerce store. Don’t forget to click on the “Save” button so the changes are reflected in your store.
+You've successfully set up a Quiz Link Popup on your eCommerce store. Don't forget to click on the "Save" button so the changes are reflected in your store.
