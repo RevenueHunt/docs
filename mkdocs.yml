@@ -50,7 +50,7 @@ nav:
     - Customer Success: customer-success/index.md
   - Tutorials:
     - Tutorials: tutorials/index.md
-    - Shop Quiz Tour: tutorials/getting-started.md
+    - App Tour: tutorials/getting-started.md
     - Making your First Quiz: tutorials/making-first-quiz.md
     - Recommending a Skincare Routine: tutorials/skincare-routine.md
     - Using Conditional Logic: tutorials/conditional-logic.md
