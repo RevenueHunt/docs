@@ -112,6 +112,14 @@ icon: material/currency-usd
 
     To assign a quiz to the market follow the instructions above.
 
+    To change the currency format:
+
+    1. Go to the [App Settings](/reference/app-settings/)
+    2. Open the [Shopify Markets](/reference/app-settings/#markets) tab.
+    3. Find the market you want to change the currency format for and click on the `Currency` field to set up the format you want.  Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
+        ![how_to_shopifyv2_change_currency](/images/how_to_shopifyv2_change_currency.png)
+    4. Once assigned, the quiz will show the product prices in the currency set up for that market. 
+
 === "WooCommerce"
 
     At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
