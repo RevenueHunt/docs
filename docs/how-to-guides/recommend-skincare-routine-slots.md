@@ -189,9 +189,9 @@ Once your quiz is set up, you should add products and collections to the choices
     2. **Add a Product Block**: Use the `+` button to add a `Product Block` to the Results Page.
     3. **Add Slots**: Open the [`Product Block settings`](/reference/quiz-builder/questions/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
-    5. **Add Filters**: Add a filter with the corresponding product collection to each slot in the `Add filter` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection that's added in the filter field.
+    5. **Add Segments**: Add a segment with the corresponding product collection to each slot in the `Add segment` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection that's added in the segment field.
 
-        ![how to recommend slots slot block](/images/how_to_recommend_slots_shopify_v2_set_up_filters.png)
+        ![how to recommend slots slot block](/images/how_to_recommend_slots_shopify_v2_set_up_filters.png){width=50%}
     6. **Choose Product number**: In the [`Product Block settings`](/reference/quiz-builder/questions/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
 
 === "WooCommerce"

@@ -18,7 +18,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
 === "Shopify V2" 
 
-    RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products**, **collections** and **[Recharge subscription products](/how-to-guides/recommend-subscription-products/)**.
+    RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **collections**.
 
 === "WooCommerce" 
 
