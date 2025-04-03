@@ -17,7 +17,7 @@ icon: material/download
     1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
     2. Grant permissions to connect our app to your Shopify.
     3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt** to open it.
-    4. From the right-hand side Shopify App menu, select `Switch to V2`. 
+    4. From the right-hand side Shopify App menu, select `Switch to Built for Shopify`. 
     5. Confirm app access and permissions. 
     6. Follow the instructions in the [App Manual](/reference/app-settings/#switch-to-v1) to switch back to the original version of the app.
 

@@ -7,9 +7,42 @@ icon: material/pencil
 
 Follow these steps to create your first quiz with the RevenueHunt app. You can also follow our [introduction video tutorial](/tutorials/getting-started/).
 
-<div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=ftq73J4rFKtW_yGr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+=== "Shopify"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+=== "Shopify V2"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/NKj9iQ7ZkR0?si=8s1zE3hbDXaDSuFC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+=== "WooCommerce"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+=== "Magento"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>          
+
+=== "BigCommerce"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>          
+
+=== "Standalone"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>          
 
 ## Step 1: Create a New Quiz
 
