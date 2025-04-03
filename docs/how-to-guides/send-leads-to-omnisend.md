@@ -4,7 +4,7 @@ Apart from giving your customers a personalized product recommendation, you can 
 
 ## Link Quiz to Omnisend
 
-1. **Generate Omnisend API Key**: First, you'll have to generate a new API Key in Omnisend. To do that,visit the `API section` in your Omnisend account and select the option `This API key will only allow adding new subscribers`. Copy the API Key.
+1. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). To do that,visit the `API section` in your Omnisend account and select the option `This API key will only allow adding new subscribers`. Copy the API Key.
 
     ![how to send leads to omnisend api key generate](/images/how_to_send_leads_to_omnisend_api_key_generate.png)
 
@@ -12,17 +12,38 @@ Apart from giving your customers a personalized product recommendation, you can 
 
         It's advisable to label your API key with a recognizable name like `revenuehunt` or `shopquiz` for easy identification later. 
 
-2. Access the [Quiz Builder](/reference/quiz-builder/) and navigate to the [Connect](/reference/quiz-builder/connect-integrations/) tab at the top of your screen.
+2. Access the [Quiz Builder](/reference/quiz-builder/) and navigate to the [Connect/Integrations](/reference/quiz-builder/connect-integrations/) tab.
 2. Scroll to the Omnisend section and click on the `Connect` button to initiate the connection process.
-3. In the popup that appears, you'll need to enter your `Omnisend API Key` into the input field, then click `save`.
-    ![how to send leads to omnisend api key](/images/how_to_send_leads_to_omnisend_api_key.png)
-4. Update the preview/live quiz with the top-right `Publish` button to save the connection. 
+3. In the popup/field that appears, you'll need to enter your `Omnisend API Key` into the input field, then click `save`.
+4. Update the preview/live quiz with the top-right `Publish/Save` button to save the connection. 
 
 Following these steps ensures that every time a customer completes your quiz, their contact details, quiz responses, and product recommendations are automatically sent to your Omnisend account. 
 
 We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Omnisend profile. This information will appear in the customer’s profile as `custom properties`.
 
-![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+=== "Shopify"
+
+    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+
+=== "Shopify V2"
+
+    ![how to omnisend custom properties](/images/how_to_shopifyv2_omnisend_custom_properties.gif)
+
+=== "WooCommerce"
+
+    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+
+=== "Magento"
+
+    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+
+=== "BigCommerce"
+
+    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+
+=== "Standalone"
+
+    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
 
 If you need to add any additional information to the email template, your developer can do so by pulling the appropriate custom properties from the user profile.
  
@@ -41,6 +62,8 @@ It’s possible to send the product recommendations via Omnisend, although this 
     ![how to omnisend flow](/images/how_to_omnisend_flow.gif)
 4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) knowledge. Use Omnisend’s existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand’s style guide.
 
+=== "Shopify"
+
     Here are some email templates that you can use as a reference:
 
     - [Basic Slots Template (4-Step Skincare Routine)](https://docs.google.com/document/d/1wy-_nb0nGyU0_NsWB6YZMiXbXiA2sMyrGu6ks7TqzjQ/edit?usp=sharing)
@@ -49,6 +72,58 @@ It’s possible to send the product recommendations via Omnisend, although this 
 
     Bear in mind that the templates won’t work by just copy/pasting. These templates were created for our demo quiz. Your developer will have to modify the `custom properties` in these templates to match the ones that are passed from the quiz to your Omnisend account. The `quiz ID` is different, so are other property names. After the changes are made, your developer can insert the code as a `custom HTML block` on the Omnisend email template.
 
+=== "Shopify V2"
+
+    In the [Integrations](/reference/quiz-builder/connect-integrations/) section, under `Omnisend`, you can find the `omnisend template`. 
+    
+    ![how to shopifyv2 omnisend template](/images/how_to_shopifyv2_omnisend_template.png)
+    
+    Click on the button to receive and copy an HTML email template specifically tailored for the quiz.
+    
+    ![how to shopifyv2 omnisend template copy](/images/how_to_shopifyv2_omnisend_template_copy.png)
+
+    You can use this template as a reference to create your own.
+
+=== "WooCommerce"
+
+    Here are some email templates that you can use as a reference:
+
+    - [Basic Slots Template (4-Step Skincare Routine)](https://docs.google.com/document/d/1wy-_nb0nGyU0_NsWB6YZMiXbXiA2sMyrGu6ks7TqzjQ/edit?usp=sharing)
+    - [Advanced Slots Template (Morning & Night Routine)](https://docs.google.com/document/d/1RIXL2zF0ErGbUX5IwCRXjnr8bNV3wXuZQuuy3NmbL_I/edit?usp=sharing)
+    - [Products List Template (Coffee Recommendations)](https://docs.google.com/document/d/175YmJpZ_iTahGFip46MGb6fcn5cupNsCEuZFxMnFCAg/edit?usp=sharing)
+
+    Bear in mind that the templates won’t work by just copy/pasting. These templates were created for our demo quiz. Your developer will have to modify the `custom properties` in these templates to match the ones that are passed from the quiz to your Omnisend account. The `quiz ID` is different, so are other property names. After the changes are made, your developer can insert the code as a `custom HTML block` on the Omnisend email template.
+
+=== "Magento"
+
+    Here are some email templates that you can use as a reference:
+
+    - [Basic Slots Template (4-Step Skincare Routine)](https://docs.google.com/document/d/1wy-_nb0nGyU0_NsWB6YZMiXbXiA2sMyrGu6ks7TqzjQ/edit?usp=sharing)
+    - [Advanced Slots Template (Morning & Night Routine)](https://docs.google.com/document/d/1RIXL2zF0ErGbUX5IwCRXjnr8bNV3wXuZQuuy3NmbL_I/edit?usp=sharing)
+    - [Products List Template (Coffee Recommendations)](https://docs.google.com/document/d/175YmJpZ_iTahGFip46MGb6fcn5cupNsCEuZFxMnFCAg/edit?usp=sharing)
+
+    Bear in mind that the templates won’t work by just copy/pasting. These templates were created for our demo quiz. Your developer will have to modify the `custom properties` in these templates to match the ones that are passed from the quiz to your Omnisend account. The `quiz ID` is different, so are other property names. After the changes are made, your developer can insert the code as a `custom HTML block` on the Omnisend email template.     
+
+
+=== "BigCommerce"
+
+    Here are some email templates that you can use as a reference:
+
+    - [Basic Slots Template (4-Step Skincare Routine)](https://docs.google.com/document/d/1wy-_nb0nGyU0_NsWB6YZMiXbXiA2sMyrGu6ks7TqzjQ/edit?usp=sharing)
+    - [Advanced Slots Template (Morning & Night Routine)](https://docs.google.com/document/d/1RIXL2zF0ErGbUX5IwCRXjnr8bNV3wXuZQuuy3NmbL_I/edit?usp=sharing)
+    - [Products List Template (Coffee Recommendations)](https://docs.google.com/document/d/175YmJpZ_iTahGFip46MGb6fcn5cupNsCEuZFxMnFCAg/edit?usp=sharing)
+
+    Bear in mind that the templates won’t work by just copy/pasting. These templates were created for our demo quiz. Your developer will have to modify the `custom properties` in these templates to match the ones that are passed from the quiz to your Omnisend account. The `quiz ID` is different, so are other property names. After the changes are made, your developer can insert the code as a `custom HTML block` on the Omnisend email template.
+
+=== "Standalone"
+
+    Here are some email templates that you can use as a reference:
+
+    - [Basic Slots Template (4-Step Skincare Routine)](https://docs.google.com/document/d/1wy-_nb0nGyU0_NsWB6YZMiXbXiA2sMyrGu6ks7TqzjQ/edit?usp=sharing)
+    - [Advanced Slots Template (Morning & Night Routine)](https://docs.google.com/document/d/1RIXL2zF0ErGbUX5IwCRXjnr8bNV3wXuZQuuy3NmbL_I/edit?usp=sharing)
+    - [Products List Template (Coffee Recommendations)](https://docs.google.com/document/d/175YmJpZ_iTahGFip46MGb6fcn5cupNsCEuZFxMnFCAg/edit?usp=sharing)
+
+    Bear in mind that the templates won’t work by just copy/pasting. These templates were created for our demo quiz. Your developer will have to modify the `custom properties` in these templates to match the ones that are passed from the quiz to your Omnisend account. The `quiz ID` is different, so are other property names. After the changes are made, your developer can insert the code as a `custom HTML block` on the Omnisend email template.
 
 ## Customer Tags in Omnisend
 
