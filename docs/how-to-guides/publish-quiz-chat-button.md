@@ -32,6 +32,10 @@ Make sure you have:
     4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code. paste this code into the HTML of your desired pages.
     5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
+=== "Shopify V2"
+
+    Coming Soon
+
 === "WooCommerce"
 
     1. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode.
@@ -90,7 +94,7 @@ Make sure you have:
 
 ## Chat Button on All Pages
 
-If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop’s theme.
+If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
 
 ---
 By following these instructions, you can successfully add a chat-like button to your Shopify/eCommerce store that opens a quiz popup.

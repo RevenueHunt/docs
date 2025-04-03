@@ -44,6 +44,10 @@ Before You Start:
     4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
     5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
+=== "Shopify V2"
+
+    Coming Soon
+
 === "WooCommerce"
 
     1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode.
@@ -108,6 +112,10 @@ Before You Start:
     2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     3. **Embed Code on Page**: In Shopify, go to `Online Store > Pages`, select the page, click `Show HTML`, and paste the popup code.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+
+=== "Shopify V2"
+
+    Coming Soon
 
 === "WooCommerce"
 
@@ -175,6 +183,10 @@ Before You Start:
     4. **Locate and Edit File**: Find the `</body>` tag in `theme.liquid` or `footer.liquid`. Paste the popup code just before this tag.
     5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
+=== "Shopify V2"
+
+    Coming Soon
+
 === "WooCommerce"
 
     1. **Install a Popup Plugin**: First, you'll need a plugin that can create and manage popups. Popular options include 'Popup Maker' or 'Elementor' if you're looking for something with more design flexibility. Install and activate your chosen plugin through the WordPress dashboard.
@@ -217,7 +229,7 @@ Before You Start:
     3. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
     4. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     5. **Insert the Popup Code**: In the Script Content area, paste the HTML code for your popup. This will include the quiz code from your quiz builder.
-    6. **Save and Test**: Save your script settings. Visit your store’s front end in an incognito window to ensure the popup appears correctly on all pages.
+    6. **Save and Test**: Save your script settings. Visit your store's front end in an incognito window to ensure the popup appears correctly on all pages.
 
     **Modifying Theme Files**
 
@@ -231,7 +243,7 @@ Before You Start:
     1. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
     2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
     3. **Access the Theme Files**: Navigate to `Storefront` > `My Themes`. Click on `Advanced` > `Edit Theme Files`.
-    4. **Modify the Footer File**: Locate the file typically named `footer.html` or similar under the `Templates` directory. Paste your popup’s HTML code just before the closing </body> tag.
+    4. **Modify the Footer File**: Locate the file typically named `footer.html` or similar under the `Templates` directory. Paste your popup's HTML code just before the closing </body> tag.
     5. **Save and Deploy**: Save your changes and preview them. Once confirmed, deploy the changes live.
     6. **Testing**: Clear your browser cache and check the popup functionality across different pages and devices to ensure consistent behavior.
 
@@ -266,6 +278,10 @@ Before You Start:
     3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
     4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
     5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+
+=== "Shopify V2"
+
+    Coming Soon
 
 === "WooCommerce"
 
@@ -321,6 +337,10 @@ Before You Start:
     4. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
     5. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
     6. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+
+=== "Shopify V2"
+
+    Coming Soon
 
 === "WooCommerce"
 
