@@ -36,17 +36,24 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
 === "Shopify V2"
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
     1. Open the [Results Page](/reference/quiz-builder/results-page/).
-    2. Scroll down to the **Checkout bar** section and click on it. 
-    3. From the right-hand side menu you can select the settings of the checkout bar.
+    2. Open the [Results Page settings](/reference/quiz-builder/results-page/#results-page-settings).
+    3. Find the `Checkout options` section and open it.
+    4. Select the `Checkout options` you want to use.
+
+        *Show bar* - Uncheck to hide the checkout bar.
 
         *Show "retake quiz" button* - Uncheck if you want to hide the "retake quiz" button.
 
-        *Proceed to checkout* - After adding the products to cart, the customer will be redirected directly to checkout.
+        Show "Add all to cart" button - Uncheck to hide the "Add all to cart" button from the footer.
 
-        *Proceed to cart* - After adding the products to cart, the customer will be redirected to the cart page.
+        Next destination for users - Choose where customers go after the results page.
+
+        Proceed to checkout - After adding the products to cart, the customer will be redirected directly to checkout.
+
+        Proceed to cart - After adding the products to cart, the customer will be redirected to the cart page.
 
     4. Click the top-right `Save` button to update the preview/live quiz.
 
@@ -142,4 +149,4 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
 ---
 
-By following these steps, you can effectively customize the checkout experience on your eCommerce store, enhancing the customer journey from product discovery to purchase.
+By following these steps, you can customize the checkout experience on your eCommerce quiz, improving the customer journey from product discovery to purchase.
