@@ -48,7 +48,7 @@
 
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Test Quiz** in the top menu.
 
-### Question Types
+## Question Types
 
 === "Shopify"
 
@@ -286,7 +286,7 @@
 
     **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
-### Question Settings
+## Question Settings
 
 === "Shopify"
 
@@ -619,7 +619,7 @@
     - **Duplicate** - Duplicate this slide. Creates a copy slide below.
     - **Delete** - Delete this slide. 
 
-### Block Settings
+## Block Settings
 
 === "Shopify"
 
@@ -627,7 +627,9 @@
 
     Each buliding block of your question has individual block settings. 
 
-    **● Heading** - Adds a heading block to your question.
+    ### Heading
+    
+    Adds a heading block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png)
 
@@ -643,7 +645,9 @@
 
     ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
 
-    **● Text** - Adds a text block to your question.
+    ###Text
+    
+    Adds a text block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png)
 
@@ -659,7 +663,9 @@
 
     ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
 
-    **● Button** - Adds a button to your question.
+    ###Button
+
+    Adds a button to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
 
@@ -667,7 +673,9 @@
 
     *Button Alignment* - Move the button left, right or center.
 
-    **● Image** - Adds an image block to the question. 
+    ###Image
+
+    Adds an image block to the question. 
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png)
 
@@ -677,7 +685,9 @@
 
     `Image Alignment` changes the alignement of the image left, right or center.
 
-    **● Multiple Choice ● Dropdown ● Yes/No ● Legal/GDPR**
+    ###Multiple Choice 
+    
+    Adds a multiple choice block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice.png)
 
@@ -687,7 +697,9 @@
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
 
-    **● Picture choice**
+    ###Picture choice
+
+    Adds a picture choice block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
 
@@ -705,7 +717,9 @@
 
     *Hide image label* - when checked hides the text below each picture choice.
 
-    **● Slider**
+    ###Slider
+
+    Adds a slider block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider.png)
 
@@ -715,7 +729,9 @@
 
     *Labels* - Unfold to add (type in) the labels to each step in the slider.
 
-    **● Short text ● Long text** - Adds an open-text question to this block.
+    ###Short Long Text
+    
+    Adds an open-text question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext.png)
 
@@ -729,7 +745,9 @@
 
     *Maximum length* - set a maximum number of characters required in this question answer.
 
-    **● Date** - Adds a date question to this block.
+    ###Date
+
+    Adds a date question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date.png)
 
@@ -739,7 +757,7 @@
 
     *Error message* - Add a default error message in case entered text is incorrect.
 
-    **● File upload**
+    ###File upload
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_fileupload](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_fileupload.png)
 
@@ -755,7 +773,7 @@
 
     *File format error message* - Add a default message in case of an error.
 
-    **● Number** - Adds a numerical question to this block.
+    ###Number
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number.png)
 
@@ -769,7 +787,9 @@
 
     *Maximum range* - the maximum number value that can be entered.
 
-    **● Email** - Adds an email input question to this block.
+    ###Email
+
+    Adds an email input question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png)
 
@@ -779,7 +799,9 @@
 
     *Error message* - Add a default error message in case entered text is incorrect.
  
-    **● Name** - Adds an name input question to this block.
+    ###Name
+
+    Adds an name input question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name.png)
 
@@ -795,7 +817,9 @@
 
     *Maximum length* - set a maximum number of characters required in this question answer.
 
-    **● Phone number** - Adds a phone number question to this block.
+    ###Phone number
+
+    Adds a phone number question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber.png)
 
@@ -807,7 +831,9 @@
 
     *Error message* - Add a default error message in case entered text is incorrect.
 
-    **● Custom HTML** - Adds a custom HTML block question to this block.
+    ###Custom HTML
+
+    Adds a custom HTML block question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customhtml](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customhtml.png)
 
@@ -825,7 +851,7 @@
 
 === "Standalone"
 
-### Choice Settings
+## Choice Settings
 
 === "Shopify"
 
