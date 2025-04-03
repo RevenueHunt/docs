@@ -52,7 +52,7 @@
 
     In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
-### Block Types
+## Block Types
 
 === "Shopify"
 
@@ -176,7 +176,7 @@
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-### Block Logic / Display Section Logic
+## Block Logic / Display Section Logic
 
 === "Shopify"
 
@@ -406,7 +406,7 @@
 
     - **bin** / **delete block** - Deletes the current block from the resutls page.
 
-### Block Settings
+## Block Settings
 
 === "Shopify"
 
@@ -448,7 +448,9 @@
 
     Each buliding block of your results page section has individual block settings.
 
-    - **Heading** - Adds a new heading to your page, ideal for titles or section breaks.
+    ###Heading
+    
+    Adds a new heading to your page, ideal for titles or section breaks.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading.png)
 
@@ -464,7 +466,9 @@
 
     ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
 
-    - **Text** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+    ###Text
+    
+    Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text.png)
     
@@ -480,7 +484,9 @@
 
     ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
 
-    - **Image** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+    ###Image
+    
+    Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_image.png)
 
@@ -492,7 +498,9 @@
 
     *Image alignment* - Select the image alignment left, right or center.
 
-    - **Button** - Adds a button to the results page. You can add any URL to the button.
+    ###Button
+    
+    Adds a button to the results page. You can add any URL to the button.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button.png)
 
@@ -502,11 +510,15 @@
 
     *Button alignment* - Select he button alignment left, right or center.
 
-    - **Custom HTML** - Adds a block where you can input custom HTML code for advanced content and styling.
+    ###Custom HTML
+    
+    Adds a block where you can input custom HTML code for advanced content and styling.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html.png)
 
-    - **Products / Products Variants / Collections** - Adds a block specifically designed for displaying a list of recommended products, product variants or collections.
+    ###Products / Products Variants / Collections
+    
+    Adds a block specifically designed for displaying a list of recommended products, product variants or collections.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
@@ -515,6 +527,8 @@
     *Recommendations system* - Select whether you prefer to show dynamic recommendations based on customer responses or a fixed set of recommended products, variants or collections.
 
     *Min. number of votes:* - Select what minimum number of votes a product or a variants should receive in order to be displayed in this product block. If a product receives less votes than specified here at the end of the quiz, it will not be shown.
+
+    *Slot layout* - Select the layout of the slot block. 
 
     *Slot title/description alignment* - Select how the slot title or description should be aligned within the slot block- left, center or right.
 
@@ -714,7 +728,7 @@
 
     **Slot ID** - Displays the current slot ID.
 
-### Results Page Settings
+## Results Page Settings
 
 === "Shopify"
 
