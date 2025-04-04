@@ -50,6 +50,22 @@ Understanding the revenue generated from quizzes on your eCommerce store can pro
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-quiz-answers-in-orders/)
 
+=== "Shopify V2"
+
+    You can tag orders coming from the quiz by connecting it to Shopify Customers via the Integrations tab.
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/connect-shopify-customers/)
+
+    !!! warning
+
+        RevenueHunt Revenue Report is not available in Shopify V2 yet but is currently in development.
+
+    You can also track quiz revenue alongside other metrics with [Google Analytics](/how-to-guides/integrate-google-analytics/).
+
+    ![how to show revenue in google analytics](/images/how_to_ga_revenue2.png)
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/integrate-google-analytics/)
+
 === "WooCommerce"
 
     You can track quiz revenue alongside other metrics with [Google Analytics](/how-to-guides/integrate-google-analytics/).
