@@ -8,14 +8,61 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 ## Using Jump Logic for Conditional Redirection
 
-[Jump Logic](/how-to-guides/use-jump-logic/) offers a dynamic way to direct customers to specific URLs based on their quiz interactions. Here’s how to implement it:
+[Jump Logic](/how-to-guides/use-jump-logic/) offers a dynamic way to direct customers to specific URLs based on their quiz interactions. Here's how to implement it:
 
-1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
-2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
+=== "Shopify"
+
+    1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
+    2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
     	![how to redirect quiz ot another page jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
-3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
+    3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
 
-Even if you redirect the customer with Jump Logic to another page the quiz responses will be saved in the Quiz Builder's [`Metrics`](/reference/quiz-builder/metrics/#responses) section.
+    Even if you redirect the customer with Jump Logic to another page the quiz responses will be saved in the Quiz Builder's [`Metrics`](/reference/quiz-builder/metrics/#responses) section.
+
+=== "Shopify V2"
+
+    1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
+    2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
+    	![how to redirect quiz ot another page jump logic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
+    3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
+
+    Even if you redirect the customer with Jump Logic to another page the quiz responses will be saved in the Quiz Builder's [`Metrics`](/reference/quiz-builder/metrics/#responses) section.
+
+=== "WooCommerce"
+
+    1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
+    2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
+    	![how to redirect quiz ot another page jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+    3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
+
+    Even if you redirect the customer with Jump Logic to another page the quiz responses will be saved in the Quiz Builder's [`Metrics`](/reference/quiz-builder/metrics/#responses) section.
+
+=== "Magento"
+
+    1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
+    2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
+    	![how to redirect quiz ot another page jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+    3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
+
+    Even if you redirect the customer with Jump Logic to another page the quiz responses will be saved in the Quiz Builder's [`Metrics`](/reference/quiz-builder/metrics/#responses) section.
+
+=== "BigCommerce"
+
+    1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
+    2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
+    	![how to redirect quiz ot another page jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+    3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
+
+    Even if you redirect the customer with Jump Logic to another page the quiz responses will be saved in the Quiz Builder's [`Metrics`](/reference/quiz-builder/metrics/#responses) section.
+
+=== "Standalone"
+
+    1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
+    2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
+    	![how to redirect quiz ot another page jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+    3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
+
+    Even if you redirect the customer with Jump Logic to another page the quiz responses will be saved in the Quiz Builder's [`Metrics`](/reference/quiz-builder/metrics/#responses) section.
 
 !!! info
 
@@ -25,16 +72,75 @@ Even if you redirect the customer with Jump Logic to another page the quiz respo
 
 You can use our [callback function](/how-to-guides/use-callback-function/) to redirect the customers to another (custom-built) Results Page. This allows for greater flexibility in handling quiz data and customizing the quiz resutls look.
 
-!!! warning
+=== "Shopify"
 
-      To do this, you'll need basic knowledge of JavaScript and handling JSON data.
+    !!! warning
 
-1. **Set Up the Callback Function**: Implement the [callback function](/how-to-guides/use-callback-function/) on your website to capture quiz results in JSON format.
-2. **Store and Redirect**: Configure the function to store the results locally (e.g., in the browser's local storage or cookies) before redirecting the user to your custom Results Page.
-3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. Make sure that the results page is loaded even for a fraction of a second for the data to trasfer correctly. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage/cookies, before any redirection occurs. 
-4. **Use the Data**: On your custom page, use the `console.log(quizResponse)` function to retrieve and use the quiz data as needed.
+          To do this, you'll need basic knowledge of JavaScript and handling JSON data.
 
-For a more detailed guide on setting up the callback function, refer to [this resource](/how-to-guides/use-callback-function/).
+    1. **Set Up the Callback Function**: Implement the [callback function](/how-to-guides/use-callback-function/) on your website to capture quiz results in JSON format.
+    2. **Store and Redirect**: Configure the function to store the results locally (e.g., in the browser's local storage or cookies) before redirecting the user to your custom Results Page.
+    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. Make sure that the results page is loaded even for a fraction of a second for the data to trasfer correctly. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage/cookies, before any redirection occurs. 
+    4. **Use the Data**: On your custom page, use the `console.log(quizResponse)` function to retrieve and use the quiz data as needed.
+
+    For a more detailed guide on setting up the callback function, refer to [this resource](/how-to-guides/use-callback-function/).
+
+=== "Shopify V2"
+
+    Coming soon.
+
+
+=== "WooCommerce"
+
+    !!! warning
+
+          To do this, you'll need basic knowledge of JavaScript and handling JSON data.
+
+    1. **Set Up the Callback Function**: Implement the [callback function](/how-to-guides/use-callback-function/) on your website to capture quiz results in JSON format.
+    2. **Store and Redirect**: Configure the function to store the results locally (e.g., in the browser's local storage or cookies) before redirecting the user to your custom Results Page.
+    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. Make sure that the results page is loaded even for a fraction of a second for the data to trasfer correctly. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage/cookies, before any redirection occurs. 
+    4. **Use the Data**: On your custom page, use the `console.log(quizResponse)` function to retrieve and use the quiz data as needed.
+
+    For a more detailed guide on setting up the callback function, refer to [this resource](/how-to-guides/use-callback-function/).
+
+=== "Magento"
+
+    !!! warning
+
+          To do this, you'll need basic knowledge of JavaScript and handling JSON data.
+
+    1. **Set Up the Callback Function**: Implement the [callback function](/how-to-guides/use-callback-function/) on your website to capture quiz results in JSON format.
+    2. **Store and Redirect**: Configure the function to store the results locally (e.g., in the browser's local storage or cookies) before redirecting the user to your custom Results Page.
+    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. Make sure that the results page is loaded even for a fraction of a second for the data to trasfer correctly. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage/cookies, before any redirection occurs. 
+    4. **Use the Data**: On your custom page, use the `console.log(quizResponse)` function to retrieve and use the quiz data as needed.
+
+    For a more detailed guide on setting up the callback function, refer to [this resource](/how-to-guides/use-callback-function/).
+
+=== "BigCommerce"
+
+    !!! warning
+
+          To do this, you'll need basic knowledge of JavaScript and handling JSON data.
+
+    1. **Set Up the Callback Function**: Implement the [callback function](/how-to-guides/use-callback-function/) on your website to capture quiz results in JSON format.
+    2. **Store and Redirect**: Configure the function to store the results locally (e.g., in the browser's local storage or cookies) before redirecting the user to your custom Results Page.
+    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. Make sure that the results page is loaded even for a fraction of a second for the data to trasfer correctly. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage/cookies, before any redirection occurs. 
+    4. **Use the Data**: On your custom page, use the `console.log(quizResponse)` function to retrieve and use the quiz data as needed.
+
+    For a more detailed guide on setting up the callback function, refer to [this resource](/how-to-guides/use-callback-function/).
+
+=== "Standalone"
+
+    !!! warning
+
+          To do this, you'll need basic knowledge of JavaScript and handling JSON data.
+
+    1. **Set Up the Callback Function**: Implement the [callback function](/how-to-guides/use-callback-function/) on your website to capture quiz results in JSON format.
+    2. **Store and Redirect**: Configure the function to store the results locally (e.g., in the browser's local storage or cookies) before redirecting the user to your custom Results Page.
+    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. Make sure that the results page is loaded even for a fraction of a second for the data to trasfer correctly. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage/cookies, before any redirection occurs. 
+    4. **Use the Data**: On your custom page, use the `console.log(quizResponse)` function to retrieve and use the quiz data as needed.
+
+    For a more detailed guide on setting up the callback function, refer to [this resource](/how-to-guides/use-callback-function/).
 
 ## Add a Redirection Button to the Results Page
 
