@@ -198,4 +198,4 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
-  &copy; 2024 <a href="https://revenuehunt.com"  target="_blank" rel="noopener">RevenueHunt</a>
+  &copy; 2025 <a href="https://revenuehunt.com"  target="_blank" rel="noopener">RevenueHunt</a>
