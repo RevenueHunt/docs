@@ -662,6 +662,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     To show the recommended products in the email, you can use the following code copied from the Klaviyo template in the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab:
 
+    ![how_to_klaviyo_shopify_v2_get_template](/images/how_to_klaviyo_shopify_v2_get_template.png)
+
     ```html
     {# ======================================== #}
     {# INDIVIDUAL ITEM RECOMMENDATIONS BY SLOT  #}
@@ -857,6 +859,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     **EXAMPLE 2 - DISPLAY QUIZ ANSWERS**
 
     A Skincare Quiz with ID `YN5L9G` wants to display all customer answers in the email. To do this, you can use the following code copied from the Klaviyo template in the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab:
+
+    ![how_to_klaviyo_shopify_v2_get_template](/images/how_to_klaviyo_shopify_v2_get_template.png)
 
     ```html
     {# ======================================= #}
