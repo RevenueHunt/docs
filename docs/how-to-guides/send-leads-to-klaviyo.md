@@ -220,19 +220,21 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     6. **Edit the Email**: In the next steps, you should edit the email template.
 
         7. Click on the `three dots` and edit the email.
-        8. Edit the name/subject/email to your liking and select the `HTML email template`.
-        9. From the `Integrations >  Klaviyo` tab you can download a ready-to-use email template. 
+        8. Edit the template to your liking. To add content from the quiz, add an `HTML element` into your template.
+        9. From the `Integrations >  Klaviyo` tab you can download a list of HTML/Django email template codes that you can use to add content from the quiz to you Klaviyo email template. For example, you will find there codes to display the list of recommended products, the customer answers or the result page content.
         
             ![how to send leads to klaviyo email tempalte download1](/images/how_to_klaviyo_shopify_v2_get_template.png)
             ![how to send leads to klaviyo email tempalte download2](/images/how_to_klaviyo_shopify_v2_copy_template.png)
+
+            !!! warning
+
+                The template codes are specific to Shopify V2. They will work if you just copy/paste them into an HTML block in a Klaviyo template and preview the email as one of the quiz subscribers. However, **the codes are raw code and may require some styling by a developer to fit your needs**. Learn more about building your own quiz email template for Klaviyo [this section](#use-quiz-data-in-klaviyo-email-templates).
 
             !!! tip
 
                 If you would rather create your own email template, check [this section](#use-quiz-data-in-klaviyo-email-templates) for more details.
 
-        10. Copy the code and go back to Klaviyo.
-        11. Open the `HTML email template` and remove the existing code.
-        12. Paste the new template code.
+        12. Paste the new template code into the HTML element.
         13. You can then `preview` the email as one of your segment subscribers.
         14. Make sure to `Save` the changes and click `Done`.
         15. Return to your flow and turn your email `LIVE`.
@@ -548,7 +550,65 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
 
-    **Example Email Templates**
+
+=== "Shopify V2"
+
+    If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
+
+    We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
+
+    ![how to send leads to klaviyo customer profile](/images/how_to_klaviyo_shopify_v2_customer_profile.png)
+
+    If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
+
+    !!! note
+
+        To build your own email template based on the custom properties we send to Klaviyo, you should familiarize yourself with the [message personalization reference](https://help.klaviyo.com/hc/en-us/articles/4408802648731) in Klaviyo, aka the `{{ person|lookup:"..." }}` function.
+
+=== "WooCommerce"
+
+    If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
+
+    We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
+
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
+
+    If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
+
+=== "Magento"
+
+    If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
+
+    We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
+
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
+
+    If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
+
+=== "BigCommerce"
+
+    If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
+
+    We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
+
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
+
+    If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
+
+
+=== "Standalone"
+
+    If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
+
+    We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
+
+    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
+
+    If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
+
+### Example Email Templates
+
+=== "Shopify"
 
     In this example, we’re using our quiz ID `dbqHqN`, which you’ll need to replace for your quiz ID. Here is the code for reference:
 
@@ -592,173 +652,311 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 === "Shopify V2"
 
-    If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
 
-    We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
+    **EXAMPLE 1 - DISPLAY RECOMMENDED PRODUCTS**
 
-    ![how to send leads to klaviyo customer profile](/images/how_to_klaviyo_shopify_v2_customer_profile.png)
+    In this example, a quiz with ID `YN5L9G` recommends a simple list of products.
 
-    If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
+    ![how_to_shipifyv2_klaviyo_template_productlist1](/images/how_to_shipifyv2_klaviyo_template_productlist1.png){width="300"}
+
+
+    To show the recommended products in the email, you can use the following code copied from the Klaviyo template in the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab:
+
+    ```html
+    {# ======================================== #}
+    {# INDIVIDUAL ITEM RECOMMENDATIONS BY SLOT  #}
+    {# ======================================== #}
+    <p>
+    <b>Display recommendation of item 0 for slot rsbss-ca4fba94 </b>
+    <br>
+    Title: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'title' }}
+    <br>
+    Description: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'description' }}
+    <br>
+    Price: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'price'|lookup:'amount' }} {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'price'|lookup:'currencyCode' }}
+    <br>
+    Online URL: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'onlineUrl' }}
+    <br>
+    Image URL: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'image'|lookup:'url' }}
+    </p>
+
+    <p>
+    <b>Display recommendation of item 1 for slot rsbss-ca4fba94 </b>
+    <br>
+    Title: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'1'|lookup:'title' }}
+    <br>
+    Description: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'1'|lookup:'description' }}
+    <br>
+    Price: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'1'|lookup:'price'|lookup:'amount' }} {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'1'|lookup:'price'|lookup:'currencyCode' }}
+    <br>
+    Online URL: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'1'|lookup:'onlineUrl' }}
+    <br>
+    Image URL: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'1'|lookup:'image'|lookup:'url' }}
+    </p>
+
+    <p>
+    <b>Display recommendation of item 2 for slot rsbss-ca4fba94 </b>
+    <br>
+    Title: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'2'|lookup:'title' }}
+    <br>
+    Description: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'2'|lookup:'description' }}
+    <br>
+    Price: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'2'|lookup:'price'|lookup:'amount' }} {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'2'|lookup:'price'|lookup:'currencyCode' }}
+    <br>
+    Online URL: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'2'|lookup:'onlineUrl' }}
+    <br>
+    Image URL: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'2'|lookup:'image'|lookup:'url' }}
+    </p>
+
+    <p>
+    <b>Display recommendation of item 3 for slot rsbss-ca4fba94 </b>
+    <br>
+    Title: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'title' }}
+    <br>
+    Description: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'description' }}
+    <br>
+    Price: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'price'|lookup:'amount' }} {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'price'|lookup:'currencyCode' }}
+    <br>
+    Online URL: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'onlineUrl' }}
+    <br>
+    Image URL: {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'image'|lookup:'url' }}
+    </p>h3>
+    ```
+    If you paste this code into an HTML block in a Klaviyo template and preview the email as one of the quiz subscribers, you will see the recommended products.
+
+    ![how_to_shipifyv2_klaviyo_template_productlist2](/images/how_to_shipifyv2_klaviyo_template_productlist2.png)
+
+    To style the recommended products, your developer will need to add CSS classes to the HTML code and style it the way you want. For example, this is a styled version of the code above:
+
+    ```html
+    <!-- Two-Column Product Grid for Klaviyo Email -->
+
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" align="center" style="font-family: sans-serif;">
+    <tr>
+        <!-- Product 0 -->
+        <td style="width: 50%; padding: 10px; vertical-align: top;">
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border: 1px solid #ddd; border-radius: 8px; padding: 16px;">
+            <tr>
+            <td style="text-align: center;">
+                <img src="{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'image'|lookup:'url' }}" alt="Product 0" style="width: 100%; max-width: 250px; border-radius: 6px; margin-bottom: 12px;">
+                <h3 style="font-size: 18px; color: #333; margin: 10px 0;">
+                {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'title' }}
+                </h3>
+                <p style="font-size: 14px; color: #555; margin-bottom: 10px;">
+                {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'description' }}
+                </p>
+                <p style="font-size: 16px; color: #111; font-weight: bold; margin-bottom: 12px;">
+                {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'price'|lookup:'amount' }} {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'price'|lookup:'currencyCode' }}
+                </p>
+                <a href="{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'onlineUrl' }}" style="background-color: #1a73e8; color: #fff; padding: 10px 16px; text-decoration: none; border-radius: 4px; display: inline-block;">
+                View Product
+                </a>
+            </td>
+            </tr>
+        </table>
+        </td>
+
+        <!-- Product 1 -->
+        <td style="width: 50%; padding: 10px; vertical-align: top;">
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border: 1px solid #ddd; border-radius: 8px; padding: 16px;">
+            <tr>
+            <td style="text-align: center;">
+                <img src="{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'1'|lookup:'image'|lookup:'url' }}" alt="Product 1" style="width: 100%; max-width: 250px; border-radius: 6px; margin-bottom: 12px;">
+                <h3 style="font-size: 18px; color: #333; margin: 10px 0;">
+                {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'1'|lookup:'title' }}
+                </h3>
+                <p style="font-size: 14px; color: #555; margin-bottom: 10px;">
+                {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'1'|lookup:'description' }}
+                </p>
+                <p style="font-size: 16px; color: #111; font-weight: bold; margin-bottom: 12px;">
+                {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'1'|lookup:'price'|lookup:'amount' }} {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'1'|lookup:'price'|lookup:'currencyCode' }}
+                </p>
+                <a href="{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'1'|lookup:'onlineUrl' }}" style="background-color: #1a73e8; color: #fff; padding: 10px 16px; text-decoration: none; border-radius: 4px; display: inline-block;">
+                View Product
+                </a>
+            </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+
+    <tr>
+        <!-- Product 2 -->
+        <td style="width: 50%; padding: 10px; vertical-align: top;">
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border: 1px solid #ddd; border-radius: 8px; padding: 16px;">
+            <tr>
+            <td style="text-align: center;">
+                <img src="{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'2'|lookup:'image'|lookup:'url' }}" alt="Product 2" style="width: 100%; max-width: 250px; border-radius: 6px; margin-bottom: 12px;">
+                <h3 style="font-size: 18px; color: #333; margin: 10px 0;">
+                {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'2'|lookup:'title' }}
+                </h3>
+                <p style="font-size: 14px; color: #555; margin-bottom: 10px;">
+                {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'2'|lookup:'description' }}
+                </p>
+                <p style="font-size: 16px; color: #111; font-weight: bold; margin-bottom: 12px;">
+                {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'2'|lookup:'price'|lookup:'amount' }} {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'2'|lookup:'price'|lookup:'currencyCode' }}
+                </p>
+                <a href="{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'2'|lookup:'onlineUrl' }}" style="background-color: #1a73e8; color: #fff; padding: 10px 16px; text-decoration: none; border-radius: 4px; display: inline-block;">
+                View Product
+                </a>
+            </td>
+            </tr>
+        </table>
+        </td>
+
+        <!-- Product 3 -->
+        <td style="width: 50%; padding: 10px; vertical-align: top;">
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border: 1px solid #ddd; border-radius: 8px; padding: 16px;">
+            <tr>
+            <td style="text-align: center;">
+                <img src="{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'image'|lookup:'url' }}" alt="Product 3" style="width: 100%; max-width: 250px; border-radius: 6px; margin-bottom: 12px;">
+                <h3 style="font-size: 18px; color: #333; margin: 10px 0;">
+                {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'title' }}
+                </h3>
+                <p style="font-size: 14px; color: #555; margin-bottom: 10px;">
+                {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'description' }}
+                </p>
+                <p style="font-size: 16px; color: #111; font-weight: bold; margin-bottom: 12px;">
+                {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'price'|lookup:'amount' }} {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'price'|lookup:'currencyCode' }}
+                </p>
+                <a href="{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'3'|lookup:'onlineUrl' }}" style="background-color: #1a73e8; color: #fff; padding: 10px 16px; text-decoration: none; border-radius: 4px; display: inline-block;">
+                View Product
+                </a>
+            </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+    </table>
+    ```
+
+    In Klaviyo, it will look like this:
+
+    ![how_to_shipifyv2_klaviyo_template_productlist3](/images/how_to_shipifyv2_klaviyo_template_productlist3.png)
+
+    !!! tip
+
+        You can feed the template code to a large language model (LLM) like ChatGPT or Gemini to generate a styled version of the code.
+
+    You can use elements of the code in your Klaviyo template elements. For example, you can use the `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'title' }}` to display the title of the first product in a text block.
+
+    ![how_to_shipifyv2_klaviyo_template_productlist4](/images/how_to_shipifyv2_klaviyo_template_productlist4.png)
 
     !!! note
 
-        To build your own email template based on the custom properties we send to Klaviyo, you should familiarize yourself with the [message personalization reference](https://help.klaviyo.com/hc/en-us/articles/4408802648731) in Klaviyo, aka the `{{ person|lookup:"..." }}` function.
+        In this example, here's a product object structure that was sent to Klaviyo:
 
-    
+        - Display recommendation of **item 0** for **slot rsbss-ca4fba94**
+        - Title: `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'title' }}`
+        - Description: `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'description' }}`	
+        - Price: `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'price'|lookup:'amount' }} {{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'price'|lookup:'currencyCode' }}`
+        - Online URL: `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'onlineUrl' }}`
+        - Image URL: `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'image'|lookup:'url' }}`
 
-    **Example Email Templates**
 
-    **Template 1**
+    **EXAMPLE 2 - DISPLAY QUIZ ANSWERS**
 
-    In this example, we’re using our quiz ID `OauZol`, which you’ll need to replace for your quiz ID. Here is the code for reference:
-
-        ```html
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>Klaviyo Email Template</title>
-        </head>
-        <body>
-        <div><p>Heading</p></div><div><p>Text</p></div><div>
-                    <div><p>Slot 1</p></div>
-                    <div><p><br></p></div>
-                </div>{% for product_id in person|lookup:"RECOMMENDATIONS-OauZol"|lookup:"rsbs-9ca1c5ac"|lookup:"rsbss-6b027784" %}
-        <table style="width:100%; border: 1px solid #333; padding: 5px; margin-bottom: 25px;">
-        <tr>
-        <td style="width: 80px;">
-        <img alt="{{ person|lookup:"ITEMS_DATA-OauZol"|lookup:product_id|lookup:"title" }}" height="70" src="{{ person|lookup:"ITEMS_DATA-OauZol"|lookup:product_id|lookup:"images"|lookup:"edges"|first|lookup:"node"|lookup:"url" }}" style="width: 70px; height: 70px;" width="70"/>
-        </td>
-        <td>
-        <p style="margin-top: 0; margin-bottom: 10px;"><b>{{ person|lookup:"ITEMS_DATA-OauZol"|lookup:product_id|lookup:"title" }}</b></p>
-        </td>
-        <td>
-        <p>Price: {{ person|lookup:"ITEMS_DATA-OauZol"|lookup:product_id|lookup:"priceRange"|lookup:"minVariantPrice"|lookup:"amount" }} {{ person|lookup:"ITEMS_DATA-OauZol"|lookup:product_id|lookup:"priceRange"|lookup:"minVariantPrice"|lookup:"currencyCode" }}</p>
-        </td>
-        <td>
-        </tr>
-        </table>
-        {% endfor %}
-
-        </body>
-        </html>
-        ```
-
-    ![how to klaviyo shopify v2 email template](/images/how_to_klaviyo_shopify_v2_email_template.png)
-
-    This example demonstrated that you can not only include custom properties that are passed from the quiz to your Klaviyo account, but you can also use `IF-ELSE` conditional statements to show/hide content based on the customer’s responses to the quiz.
-
-    **Template 1: Get Quiz Answers**
-
-    Display ALL answers
+    A Skincare Quiz with ID `YN5L9G` wants to display all customer answers in the email. To do this, you can use the following code copied from the Klaviyo template in the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab:
 
     ```html
-    {% for answer in person|lookup:"ANSWERS-OauZol" %}
-    <p><b>{{answer.type}}</b>: {{answer.value}}</p>
-    {% endfor %}
+    {# ======================================= #}
+    {# INFORMATION GATHERED FROM THE QUESTIONS #}
+    {# ======================================= #}
+    <p>
+    <p>
+    <b>Display quiz name</b>
     <br>
-    ```
-
-    Display all answers for Specifc Question (a block of type input and ref qbi-f001e647)
-
-    ```html
-    {# Q2: What's your name'? #}
-    {% for answer in person|lookup:"ANSWERS-OauZol" %}
-    {% if answer.blockRef == "qbi-f001e647" %}
-    <p><b>{{answer.type}}</b>: {{answer.value}}</p>
-    {% endif %}
-    {% endfor %}
+    Quiz name: {{ person|lookup:'QUIZ_NAME-YN5L9G' }}
+    </p>
+    <p>
+    <b>Display personal information</b>
     <br>
-    ```
-
-    **Template 2: Get Recommendations**
-
-    Let's take this JSON of data that is sent to Klaviyyo:
-
-    ```json
-    {"gid://shopify/Product/9527933469013":{"id":"gid://shopify/Product/9527933469013","title":"The Complete Snowboard","images":{"edges":[{"node":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."}}]},"vendor":"Snowboard Vendor","variants":{"edges":[{"node":{"id":"gid://shopify/ProductVariant/49385737060693","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Ice"}},{"node":{"id":"gid://shopify/ProductVariant/49385737093461","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Dawn"}},{"node":{"id":"gid://shopify/ProductVariant/49385737126229","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Powder"}},{"node":{"id":"gid://shopify/ProductVariant/49385737158997","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Electric"}},{"node":{"id":"gid://shopify/ProductVariant/49385737191765","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Sunset"}}]},"priceRange":{"minVariantPrice":{"amount":"699.95","currencyCode":"GBP"}},"description":"This PREMIUM snowboard is so SUPERDUPER awesome!"},"gid://shopify/ProductVariant/49385737060693":{"id":"gid://shopify/ProductVariant/49385737060693","image":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."},"price":{"amount":"699.95","currencyCode":"GBP"},"title":"Ice","product":{"title":"The Complete Snowboard","images":{"edges":[{"node":{"url":"https://cdn.shopify.com/s/files/1/0892/2936/1493/files/Main_589fc064-24a2-4236-9eaf-13b2bd35d21d.jpg?v=1724423244","altText":"Top and bottom view of a snowboard. The top view shows abstract circles and lines in shades of teal.\n The bottom view shows abstract circles and lines in shades of purple and blue with the text “SHOPIFY” in a\n sans serif typeface on top."}}]},"priceRange":{"minVariantPrice":{"amount":"699.95","currencyCode":"GBP"}},"description":"This PREMIUM snowboard is so SUPERDUPER awesome!"}}}
-    ```
-
-    Below is a comprehensive and structured Klaviyo template format that represents a complete product object and a variant object based on this JSON example. This template can be used for replicating and adapting to other templates.
-
-    **Klaviyo Template: Complete Product Object**
-
-    ```html
-    Products:<br>
-    {% for product_id in person|lookup:"RECOMMENDATIONS-umXcjW"|lookup:"rsbs-e73f45a7"|lookup:"rsbss-85a9b652" %}
-    RAW Product ID: {{ product_id }}<br>
-
-    **Product Details:**<br>
-    - **Title:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"title" }}<br>
-    - **Vendor:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"vendor" }}<br>
-    - **Price Range:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"priceRange"|lookup:"minVariantPrice"|lookup:"amount" }} {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"priceRange"|lookup:"minVariantPrice"|lookup:"currencyCode" }}<br>
-    - **Description:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"description" }}<br>
-
-    **Images:**<br>
-    {% for image in person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"images"|lookup:"edges" %}
-    - URL: {{ image.node.url }}<br>
-    - Alt Text: {{ image.node.altText }}<br>
-    {% endfor %}
+    First name: {{ person.first_name }}
+    <br>
+    Last name: {{ person.last_name }}
+    </p>
+    </p><p><b>Display all answers for a specific block</b>
     <br>
 
-    **Variants:**<br>
-    {% for variant in person|lookup:"ITEMS_DATA-umXcjW"|lookup:product_id|lookup:"variants"|lookup:"edges" %}
-    - **Variant ID:** {{ variant.node.id }}<br>
-    - **Title:** {{ variant.node.title }}<br>
-    - **Price:** {{ variant.node.price.amount }} {{ variant.node.price.currencyCode }}<br>
-    - **Image:** {{ variant.node.image.url }}<br>
-    - **Alt Text:** {{ variant.node.image.altText }}<br>
-    {% endfor %}
+    {# Display answer for a block of type input and ref qbi-6c4248f5 #}
+    Q2: BEFORE WE BEGIN
+    <br>
+    {{ person|lookup:'ANSWER_BY_BLOCK-qbi-6c4248f5-YN5L9G' }}
+    <br>
 
-    <hr>
-    {% endfor %}
+    {# Display answer for a block of type choice and ref qbc-dd744cf3 #}
+    Q3: AGE GROUP
+    <br>
+    {{ person|lookup:'ANSWER_BY_BLOCK-qbc-dd744cf3-YN5L9G' }}
+    <br>
+
+    {# Display answer for a block of type choice and ref qbc-485600ce #}
+    Q4: SKIN TYPE
+    <br>
+    {{ person|lookup:'ANSWER_BY_BLOCK-qbc-485600ce-YN5L9G' }}
+    <br>
+
+    {# Display answer for a block of type choice and ref qbc-e8cf3180 #}
+    Q9: SKIN CONCERNS
+    <br>
+    {{ person|lookup:'ANSWER_BY_BLOCK-qbc-e8cf3180-YN5L9G' }}
+    <br>
+
+    {# Display answer for a block of type choice and ref qbc-329aaeff #}
+    Q10: ALERGIES
+    <br>
+    {{ person|lookup:'ANSWER_BY_BLOCK-qbc-329aaeff-YN5L9G' }}
+    <br>
+
+    {# Display answer for a block of type input and ref qbi-29f016cf #}
+    Q11: WE'VE GOT YOUR RESULTS - #1 [email]
+    <br>
+    {{ person|lookup:'ANSWER_BY_BLOCK-qbi-29f016cf-YN5L9G' }}
+    <br>
+
+    {# Display answer for a block of type choice and ref qbc-cb601cf6 #}
+    Q11: WE'VE GOT YOUR RESULTS - #2 [multiple_choice]
+    <br>
+    {{ person|lookup:'ANSWER_BY_BLOCK-qbc-cb601cf6-YN5L9G' }}
+    <br>
+    </p>
     ```
+    When this code is copied into an HTML block in a Klaviyo template and previewd as one of the quiz subscribes is will display a full list of all the answers.
 
-    **Klaviyo Template: Complete Variant Object**
+    ![how_to_shipifyv2_klaviyo_template_answerslist1](/images/how_to_shipifyv2_klaviyo_template_answerslist1.png)
 
-    ```html
-    Variants:<br>
-    {% for variant_id in person|lookup:"RECOMMENDATIONS-umXcjW"|lookup:"rsbs-d5ebc107"|lookup:"rsbss-1681ee9d" %}
-    RAW Variant ID: {{ variant_id }}<br>
+    If you want to show specific answers in your email template, you can copy parts of the code. For example, you can use `{{ person|lookup:'ANSWER_BY_BLOCK-qbc-dd744cf3-YN5L9G' }}` to  display answer for Q3: AGE GROUP (ref qbc-dd744cf3).
 
-    **Variant Details:**<br>
-    - **Title:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:variant_id|lookup:"title" }}<br>
-    - **Price:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:variant_id|lookup:"price"|lookup:"amount" }} {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:variant_id|lookup:"price"|lookup:"currencyCode" }}<br>
-    - **Image URL:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:variant_id|lookup:"image"|lookup:"url" }}<br>
-    - **Image Alt Text:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:variant_id|lookup:"image"|lookup:"altText" }}<br>
-    - **Associated Product Title:** {{ person|lookup:"ITEMS_DATA-umXcjW"|lookup:variant_id|lookup:"product"|lookup:"title" }}<br>
+    Here's how to use it in a Klaviyo template text block:
 
-    <hr>
-    {% endfor %}
-    ```
+    ![how_to_shipifyv2_klaviyo_template_answerslist2](/images/how_to_shipifyv2_klaviyo_template_answerslist2.png)
 
-    Explanation of Fields:
+    !!! note
 
-    - `RECOMMENDATIONS-umXcjW`: Represents the list of recommended products or variants.
-    - `ITEMS_DATA-umXcjW`: Contains detailed product and variant data.
+        In this example, here's how to get answers for a specific question:
 
-    Loops:
+        Quiz name: `{{ person|lookup:'QUIZ_NAME-YN5L9G' }}`
 
-    - The outer loop iterates through each product or variant.
-    - Nested loops fetch associated details like images, variants, etc.
+        First name: `{{ person.first_name }}`
 
-    Fields:
+        Last name: `{{ person.last_name }}`
 
-    - Product fields include title, price range, description, vendor, and images.
-    - Variant fields include title, price, image details, and the parent product's title.
+        Q2: BEFORE WE BEGIN: `{{ person|lookup:'ANSWER_BY_BLOCK-qbi-6c4248f5-YN5L9G' }}`
+
+        Q3: AGE GROUP: `{{ person|lookup:'ANSWER_BY_BLOCK-qbc-dd744cf3-YN5L9G' }}`
+
+        Q4: SKIN TYPE: `{{ person|lookup:'ANSWER_BY_BLOCK-qbc-485600ce-YN5L9G' }}`
+
+        Q9: SKIN CONCERNS: `{{ person|lookup:'ANSWER_BY_BLOCK-qbc-e8cf3180-YN5L9G' }}`
+
+        Q10: ALERGIES: `{{ person|lookup:'ANSWER_BY_BLOCK-qbc-329aaeff-YN5L9G' }}`
+
+        Q11: WE'VE GOT YOUR RESULTS - #1 [email]: `{{ person|lookup:'ANSWER_BY_BLOCK-qbi-29f016cf-YN5L9G' }}`
+        
+        Q11: WE'VE GOT YOUR RESULTS - #2 [multiple_choice]: `{{ person|lookup:'ANSWER_BY_BLOCK-qbc-cb601cf6-YN5L9G' }}`
+
 
 === "WooCommerce"
-
-    If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
-
-    We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
-
-    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
-
-    If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
-
-    **Example Email Templates**
 
     In this example, we’re using our quiz ID `dbqHqN`, which you’ll need to replace for your quiz ID. Here is the code for reference:
 
@@ -802,16 +1000,6 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 === "Magento"
 
-    If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
-
-    We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
-
-    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
-
-    If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
-
-    **Example Email Templates**
-
     In this example, we’re using our quiz ID `dbqHqN`, which you’ll need to replace for your quiz ID. Here is the code for reference:
 
         ```html
@@ -854,16 +1042,6 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 === "BigCommerce"
 
-    If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
-
-    We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
-
-    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
-
-    If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
-
-    **Example Email Templates**
-
     In this example, we’re using our quiz ID `dbqHqN`, which you’ll need to replace for your quiz ID. Here is the code for reference:
 
         ```html
@@ -905,16 +1083,6 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         Bear in mind that these templates (unlike the one generated from the Connect > Klaviyo tab) won’t work as is. They were created for a sample quiz. Your developer will have to modify the `custom properties` to match the ones that are passed from the quiz to your Klaviyo account. The `quiz ID` is different, so are other property names.
 
 === "Standalone"
-
-    If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
-
-    We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Klaviyo profile. This information will appear in the customer’s profile as `custom properties`.
-
-    ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
-
-    If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
-
-    **Example Email Templates**
 
     In this example, we’re using our quiz ID `dbqHqN`, which you’ll need to replace for your quiz ID. Here is the code for reference:
 
