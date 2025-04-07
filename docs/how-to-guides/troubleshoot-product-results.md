@@ -51,7 +51,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     !!! tip
 
-        A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
+        A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
 
     Additionally, you may:
 
@@ -93,7 +93,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     !!! tip
 
-        A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
+        A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
 
 === "WooCommerce" 
 
@@ -128,7 +128,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     !!! tip
 
-        A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
+        A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
 
     Additionally, you may:
 
@@ -168,7 +168,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     !!! tip
 
-        A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
+        A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
 
     Additionally, you may:
 
@@ -208,7 +208,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     !!! tip
 
-        A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
+        A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
 
     Additionally, you may:
 
@@ -248,7 +248,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     !!! tip
 
-        A common issue is a product being misclassified into an incorrect collection/category or accidentally excluded in quiz settings. Paying close attention to these details can significantly enhance the accuracy of your product recommendations.
+        A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
 
     Additionally, you may:
 

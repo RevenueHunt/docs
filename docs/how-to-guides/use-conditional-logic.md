@@ -8,7 +8,7 @@ icon: material/diversify
 
 ## [How to Show or Hide Content Based on Quiz Answers](/how-to-guides/hide-content-with-logic/)
 
-In this article, you’ll discover how to use `IF-THEN` conditional logic to display customized text to quiz takers. This includes adding custom text within your quiz using [Jump Logic](/how-to-guides/use-jump-logic/), displaying custom text on the Results page with [Block Logic](/how-to-guides/use-block-logic/), and achieving similar effects with [Skip Logic](/how-to-guides/use-skip-logic/).
+In this article, you’ll discover how to use `IF-THEN` conditional logic to display customized text to quiz takers. This includes adding custom text within your quiz using [Jump Logic](/how-to-guides/use-jump-logic/), displaying custom text on the Results page with [Block Logic/Display Logic](/how-to-guides/use-block-logic/), and achieving similar effects with [Skip Logic](/how-to-guides/use-skip-logic/).
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/hide-content-with-logic/)
 
@@ -29,7 +29,7 @@ Skip Logic is a tool used in quizzes or surveys to make answering questions smoo
 
 ## [How to Use Block Logic](/how-to-guides/use-block-logic/)
 
-Block logic is a feature of the Results Page that allows you to make blocks visible or hidden based on customer's responses. [This article](/how-to-guides/use-block-logic/) explains how to use Block Logic on the Results Page.
+Block logic or Display logic is a feature of the Results Page that allows you to make blocks visible or hidden based on customer's responses. [This article](/how-to-guides/use-block-logic/) explains how to use Block Logic on the Results Page.
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/use-block-logic/)
 
