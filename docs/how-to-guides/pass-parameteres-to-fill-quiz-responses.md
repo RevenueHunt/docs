@@ -33,7 +33,7 @@ window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
 
 **Use case**: You’ve embedded the quiz on all product pages and want to know from which product page the quiz was taken.
 
-**Solution**: You can pass parameters to the quiz (eg. product ID) and “store” them in a question as a pre-filled answer.
+**Solution**: You can pass parameters to the quiz (eg. choice ID) and “store” them in a question as a pre-filled answer.
 
  
 1. You will first need to create a `Short Text` question to store the product ID. Check how to add this question [here](/reference/quiz-builder/questions/#question-types).
@@ -43,7 +43,7 @@ window.prq_vars.cdRDCc = 'xDAwDe;aSEfBq';
 ```html
 <script>
 window.prq_vars = {}; 
-window.prq_vars.questionID = 'productID';
+window.prq_vars.questionID = 'choiceID';
 </script>
 ```
 
