@@ -558,7 +558,15 @@
 
     *Link to product* - Adds a button link to the product URL.
 
+    *Vendor* - Adds the product vendor.
+
     *Variants dropdown* - Adds a dropdown that dislays all the product variants.
+
+    *Metafield* - Adds a metafield to the product block. Select a metafiled to diplsay from the `Select a metafield` dropdown. Note: You can also display a metafield by adding a `Text` block to your product layout and adding the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/).
+
+    !!! note
+
+        The app can only sync and show the custom text product metafields.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1.png)
 
