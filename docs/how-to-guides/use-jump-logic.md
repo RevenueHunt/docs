@@ -4,6 +4,8 @@
 
 Below, we provide a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
 
+<div class="videoWrapper"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 ??? question "What is Jump Logic?"
 
     Jump Logic operates on conditional statements, similar to the `IF-THEN-ELSE` logic found in programming. It enables the quiz creator to direct participants to different follow-up questions or content based on their responses to previous questions. This is particularly useful in creating quizzes that adapt to the user's input, offering a personalized path through the quiz.

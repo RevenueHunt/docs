@@ -2,6 +2,8 @@
 
 [Block logic or Display Logic](/reference/quiz-builder/conditional-logic/#block-logic) is a feature of the [Results Page](/reference/quiz-builder/results-page/) that allows you to make blocks visible or hidden based on customer's responses.
 
+<div class="videoWrapper"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=-3_Sv297f8B4-KPi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 ## Results Page
 
 In the [Results Page](/reference/quiz-builder/results-page/) section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.

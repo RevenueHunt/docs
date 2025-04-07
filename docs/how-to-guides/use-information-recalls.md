@@ -84,7 +84,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 
 ## Where to Add Information Recalls
 
-Information recall can be utilized in various parts of your quiz to enhance personalization:
+Information recall / Content Dynamic Source can be used in various parts of your quiz to enhance personalization:
 
 - **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
 - **Results Page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
