@@ -46,7 +46,20 @@ Before You Start:
 
 === "Shopify V2"
 
-    Coming Soon
+    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Automatic Popup Quiz option and toggle it on.
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
+    3. **Configure Popup Settings**: 
+
+        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png){width="50%"}
+
+        - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
+        - Adjust the `Popup Width` and `Height` (as percentage of screen)
+        - Set the `Popup z-index` to control layering with other elements
+        - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
+    4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
+
+    When visitors come to your store, the default quiz for your store will open automatically based on your settings. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
 === "WooCommerce"
 
@@ -115,7 +128,21 @@ Before You Start:
 
 === "Shopify V2"
 
-    Coming Soon
+    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+    2. Go to your specific page theme and edit it. If you don't have a specific page theme, create one and apply it to the page via the Online Store > Pages section.
+    3. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Automatic Popup Quiz option and toggle it on.
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
+    4. **Configure Popup Settings**: 
+
+        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png){width="50%"}
+
+        - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
+        - Adjust the `Popup Width` and `Height` (as percentage of screen)
+        - Set the `Popup z-index` to control layering with other elements
+        - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
+    5. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
+
+    The popup will now appear on your specific page according to the configured settings.
 
 === "WooCommerce"
 
@@ -185,7 +212,20 @@ Before You Start:
 
 === "Shopify V2"
 
-    Coming Soon
+    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Automatic Popup Quiz option and toggle it on.
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
+    3. **Configure Popup Settings**: 
+
+        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png){width="50%"}
+
+        - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
+        - Adjust the `Popup Width` and `Height` (as percentage of screen)
+        - Set the `Popup z-index` to control layering with other elements
+        - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
+    4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
+
+    The popup will now appear across all pages of your store according to the configured settings.
 
 === "WooCommerce"
 
@@ -281,7 +321,17 @@ Before You Start:
 
 === "Shopify V2"
 
-    Coming Soon
+    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Automatic Popup Quiz option and toggle it on.
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
+    3. **Configure Exit Intent**: 
+
+        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png){width="50%"}
+        - Toggle on the `Trigger Popup on Exit Intent` option
+        - Adjust other settings like `Popup Width` and `Height` as needed
+    4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
+
+    The popup will now appear when visitors show exit intent (moving cursor towards closing the tab/window).
 
 === "WooCommerce"
 
@@ -340,7 +390,7 @@ Before You Start:
 
 === "Shopify V2"
 
-    Coming Soon
+    It is not possible to show the popup more than once per session in Shopify V2 unless you activate the `Exit intent` option following the instructions [here](#show-popup-on-exit-intent).
 
 === "WooCommerce"
 

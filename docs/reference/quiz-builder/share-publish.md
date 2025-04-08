@@ -281,6 +281,32 @@
 
 === "Shopify V2"
 
+    A quiz popup appears after X seconds.
+
+    To add an automatic popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `V2 - Automatic Popup Quiz`.
+
+    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
+
+    You can adjust the popup options:
+
+    ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png){width="50%"}
+
+    - *Popup Delay (in seconds)* - Set up the number of seconds after which the quiz popup will be automatically displayed.
+    - *Popup Width (% of screen)* - Controls the width of the quiz popup window as a percentage of the user's screen width.
+    - *Popup Height (% of screen)* - Controls the height of the quiz popup window as a percentage of the user's screen height.
+    - *Popup z-index* - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+    - *Trigger Popup on Exit Intent* - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
+
+    Then, follow the step by step instructions provided in our [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) to add an automatic popup to your website.
+
+    !!! warning
+
+        Check [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) for step by step instructions.
+
+    !!! note
+
+        By default, the popup is only shown once per session unless Exit Intent is enabled.
+
 === "WooCommerce" 
 
     A quiz popup appears after X seconds.
