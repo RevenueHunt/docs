@@ -24,6 +24,8 @@
 
     **+ Add question** - Opens a menu of quiz questions to add as a new slide.
 
+    To remove a question, click on the question and go to [Question settings](/references/quiz-builder/questions/#question-settings).
+
 === "WooCommerce"
 
     ![manual_woo_quizbuilder_quizbuilder](/images/manual_woo_quizbuilder_quizbuilder.png)
@@ -352,6 +354,8 @@
 
     **...** - Opens the question management settings. Click `Duplicate` to duplicate the question or `Remove` to delete it.
 
+    ![manual_shoopifyV2_remove](/images/manual_shoopifyV2_remove.png)
+
     **Background image** - Click `Select image` and then in the popup `Add image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery. 
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
@@ -626,6 +630,8 @@
 === "Shopify V2"
 
     Each buliding block of your question has individual block settings. 
+
+    **bin** - Click on the bin icon to remove the block.
 
     ### Heading
     

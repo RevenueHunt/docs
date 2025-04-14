@@ -28,6 +28,10 @@
 
     **+ Add block** - Adds a new block to this section.
 
+    To remove a section or a block, click the **bin** icon.
+
+    To remove a Result Page, click on the Result Page and go to [Result Page settings](#results-page-settings).
+
 === "WooCommerce"
 
     ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
@@ -95,6 +99,8 @@
     - **Products variants** - Adds a block specifically designed for displaying a list of recommended product variants..
 
     - **Collection** - Adds a block specifically designed for displaying a list of recommended collections.
+
+    **bin** - Click on the bin icon to remove the block.
 
 === "WooCommerce"
 
@@ -747,6 +753,10 @@
 === "Shopify V2"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
+
+    **...** - Opens the results page settings. Click `Duplicate` to duplicate the results page or `Remove` to delete it.
+
+    ![manual_shoopifyV2_remove](/images/manual_shoopifyV2_remove.png)
 
     **Results page name** - Type the name of the results page.
 
