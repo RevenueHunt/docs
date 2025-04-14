@@ -381,3 +381,64 @@ In some cases, you might want to have links to different quizzes on the same pag
     2. Navigate to [`Link`](/reference/quiz-builder/share-publish/#link) and edit the **Popup Options**.
     3. Click on `Get the code` to copy the unique link for each quiz.
     4. Add these links to different menu items, buttons, or page elements as needed.
+
+## The quiz you are looking for does not exist
+
+![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+
+=== "Shopify"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+
+    1. Go back to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    2. Go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**. Then in Shopify, go back to Online Store > Themes > Customize and under the `App Embeds` section active the `Link Popup Quiz`. 
+    3. Check the Quiz Link. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*
+    4. Save your changes and refresh the page.
+    
+=== "Shopify V2"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+
+    1. Ensure that you have activated the `V2 - Link Popup Quiz` in the  Online Store > Theme > Customize > `App Embeds` section and **not** the the regular `Link Popup Quiz`.
+        ![docs/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png](/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png)
+
+        If a wrong link popup is activated, you will see the error message "The quiz you are looking for does not exist" when trying to link to a V2 quiz. 
+        
+        To solve this simply deactivate the `Link Popup` and activate the `V2 - Link Popup` one. Then, save the changes.
+    2. Verify that the link is correctly formatted. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz`.
+
+=== "WooCommerce"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+
+    1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
+    3. Verify that the link is correctly formatted. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*        
+
+=== "Magento"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+
+    1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
+    3. Verify that the link is correctly formatted. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*   
+
+=== "BigCommerce"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+
+    1. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    2. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
+    3. Verify that the link is correctly formatted. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*                     
+
+=== "Standalone"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+
+    1. Ensure you've added the following embed.js script to your website. Without it, the quiz won't be loaded on your website.
+        ```html
+        <script src="https://admin.revenuehunt.com/embed.js" async></script>
+        ```
+    2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    3. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
+    4. Verify that the link is correctly formatted. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*   

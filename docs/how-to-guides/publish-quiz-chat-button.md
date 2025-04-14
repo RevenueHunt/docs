@@ -96,5 +96,72 @@ Make sure you have:
 
 If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
 
+
+## The quiz you are looking for does not exist
+
+![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
+
+=== "Shopify"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:
+
+    1. Go back to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    2. Go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**. Then in Shopify, go back to Online Store > Themes > Customize and under the `App Embeds` select the `Chat Button Quiz` option.
+    3. Paste the Quiz ID in the `Quiz ID` field. *Note: the Quiz ID is case-sensitive.*
+        ![how_to_publish_shipifyV2_V1publisherrorchatbutton](/images/how_to_publish_shipifyV2_V1publisherrorchatv1.png)
+    4. Save your changes and refresh the page.
+    
+=== "Shopify V2"
+
+    Coming Soon
+
+=== "WooCommerce"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:
+
+    1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
+    2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    3. If the quiz is still not displayed,try adding our embed.js script to the page via a custom HTML element.
+        ```html
+        <script src="https://admin.revenuehunt.com/embed.js" async></script>
+        ```
+    4. Save the changes and refresh the page.
+
+=== "Magento"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:
+
+    1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
+    2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    3. If the quiz is still not displayed,try adding our embed.js script to the page via a custom HTML element.
+        ```html
+        <script src="https://admin.revenuehunt.com/embed.js" async></script>
+        ```
+    4. Save the changes and refresh the page.
+
+=== "BigCommerce"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:
+
+    1. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
+    2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    3. If the quiz is still not displayed,try adding our embed.js script to the page via a custom HTML element.
+        ```html
+        <script src="https://admin.revenuehunt.com/embed.js" async></script>
+        ```
+    4. Save the changes and refresh the page.
+
+=== "Standalone"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:
+
+    1. Make sure you have added our embed.js script to the page via a custom HTML element.
+        ```html
+        <script src="https://admin.revenuehunt.com/embed.js" async></script>
+        ```
+    2. Make sure to generate the correct embed code from the [Share](/reference/quiz-builder/share-publish/) section. If in doubt, regenerate the embed code and re-paste it in the page.
+    3. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    4. Save the changes and refresh the page.   
+
 ---
 By following these instructions, you can successfully add a chat-like button to your Shopify/eCommerce store that opens a quiz popup.
