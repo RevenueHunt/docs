@@ -32,6 +32,9 @@ Before you start, ensure you have:
 
     With Version 2 of the RevenueHunt app, you can easily create links to open a quiz popup anywhere on your website. 
     
+    !!! warning "Shopify 1.0 Theme Compatibility"
+        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
+    
     To add a popup link to a menu item or button in Shopify, simply type the `#quiz` as the link and save your changes. 
         
     ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
@@ -123,6 +126,9 @@ Before you start, ensure you have:
 === "Shopify V2"
 
     With Version 2 of the RevenueHunt app, you can easily create links to open a quiz popup anywhere on your website. 
+    
+    !!! warning "Shopify 1.0 Theme Compatibility"
+        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
     
     To add a popup link to a menu item or button in Shopify, simply type the `#quiz` as the link and save your changes. 
         
@@ -396,6 +402,9 @@ In some cases, you might want to have links to different quizzes on the same pag
     4. Save your changes and refresh the page.
     
 === "Shopify V2"
+
+    !!! warning "Shopify 1.0 Theme Compatibility"
+        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
 
