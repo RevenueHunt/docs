@@ -13,7 +13,7 @@ Ensure you have:
 - Access to the RevenueHunt app where you can create and edit quizzes.
 - Basic understanding of [how to publish quizzes](/how-to-guides/publish-quiz/) on your website.
 - Access to your website’s backend or a platform that allows you to edit HTML/JavaScript for traffic distribution (optional for advanced routing).
-- Analytics tools or integration such as  [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Facebook Pixel](/how-to-guides/integrate-facebook-pixel/). to measure quiz performance.
+- Analytics tools or integration such as  [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/). to measure quiz performance.
 
 ## Step 1: Create Two Versions of Your Quiz
 
@@ -47,7 +47,7 @@ To manually distribute traffic:
 
 ## Step 4: Track and Analyze Results
 
-- **Set Up Analytics**: Ensure each quiz version has tracking set up. By default, we track the quiz starts, completions, conversion rate, and drop-off in the [Metrics](/reference/quiz-builder/metrics/) panel. For more advanced analytics, you can connect your quizzes to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Facebook Pixel](/how-to-guides/integrate-facebook-pixel/).
+- **Set Up Analytics**: Ensure each quiz version has tracking set up. By default, we track the quiz starts, completions, conversion rate, and drop-off in the [Metrics](/reference/quiz-builder/metrics/) panel. For more advanced analytics, you can connect your quizzes to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
 - **Analyze Performance**: After a significant amount of traffic has interacted with both versions, analyze the data to identify which version achieved better performance based on your predefined goals (e.g., higher completion rates).
 
 ## Step 5: Implement Improvements
