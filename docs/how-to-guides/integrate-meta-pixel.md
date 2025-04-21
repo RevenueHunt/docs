@@ -2,15 +2,15 @@
 icon: material/facebook
 ---
 
-# How to Integrate Your Facebook Pixel Meta Pixel
+# How to Integrate Your Meta Pixel
 
-The Facebook Pixel is an essential analytics tool for tracking user interaction with your quiz and gauging the success of your Facebook ads.
+The Meta Pixel is an essential analytics tool for tracking user interaction with your quiz and gauging the success of your Facebook ads.
 
-??? question "What is Facebook Pixel?"
+??? question "What is Meta Pixel?"
 
     This small piece of code placed on your website helps you monitor conversions from ads, improve the performance of future advertising, and create targeted audiences based on past interactions with your website.
 
-## Setting Up Your Facebook Pixel
+## Setting Up Your Meta Pixel
 
 !!! note
 
@@ -21,8 +21,8 @@ The Facebook Pixel is an essential analytics tool for tracking user interaction 
     If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
-    2. Find the Facebook Pixel section and hit `connect`.
-    3. Enter your unique `Facebook Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
+    2. Find the Meta Pixel section and hit `connect`.
+    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
 
 === "Shopify V2"
 
@@ -41,32 +41,32 @@ The Facebook Pixel is an essential analytics tool for tracking user interaction 
     If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
-    2. Find the Facebook Pixel section and hit `connect`.
-    3. Enter your unique `Facebook Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
+    2. Find the Meta Pixel section and hit `connect`.
+    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
 
 === "Magento"
 
     If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
-    2. Find the Facebook Pixel section and hit `connect`.
-    3. Enter your unique `Facebook Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
+    2. Find the Meta Pixel section and hit `connect`.
+    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
 
 === "BigCommerce"
 
     If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
-    2. Find the Facebook Pixel section and hit `connect`.
-    3. Enter your unique `Facebook Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
+    2. Find the Meta Pixel section and hit `connect`.
+    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
 
 === "Standalone"
 
     If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
-    2. Find the Facebook Pixel section and hit `connect`.
-    3. Enter your unique `Facebook Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
+    2. Find the Meta Pixel section and hit `connect`.
+    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
 
 ## Tracking Engagement with Facebook Events Manager
 
@@ -119,7 +119,7 @@ Here’s a list of all the tracked events:
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
+    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
     2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
@@ -139,7 +139,7 @@ Here’s a list of all the tracked events:
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
+    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
     2. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
         <script>
@@ -158,7 +158,7 @@ Here’s a list of all the tracked events:
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
+    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
     2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
@@ -178,7 +178,7 @@ Here’s a list of all the tracked events:
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
+    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
     2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
@@ -198,7 +198,7 @@ Here’s a list of all the tracked events:
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
+    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
     2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
@@ -218,7 +218,7 @@ Here’s a list of all the tracked events:
 
     To deploy this method, you can insert a script within the theme of your store's page, especially where a quiz is featured. Follow these steps:
 
-    1. **Deactivate Facebook Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
+    1. **Deactivate Meta Pixel**: If you have previously connected a pixel through the [Connect](/reference/quiz-builder/connect-integrations/) tab, you'll have to deactivate it and publish the changes.
     2. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) on custom integrations to learn how our callback function operates and how it can be utilized for tracking custom events.
     3. **Embed the Custom Script**: Insert the following script into the theme of your store’s page where the quiz or the event you want to track is located (load it sitewide and put it into the theme.liquid):
         ```html
@@ -233,4 +233,4 @@ Here’s a list of all the tracked events:
     5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
 
 ---
-By implementing the Facebook Pixel, you'll harness powerful data to optimize your ad campaigns, personalize the user experience, and ultimately, increase conversions.
+By implementing the Meta Pixel, you'll harness powerful data to optimize your ad campaigns, personalize the user experience, and ultimately, increase conversions.

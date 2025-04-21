@@ -11,7 +11,7 @@ With custom JavaScript, you can:
 - add custom behavior, images, texts or logic
 - display custom product recommendations
 - forward to any particular page on your store
-- add tracking codes to specific questions (Google Analytics, Facebook Pixel)
+- add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
 This guide will walk you through adding JavaScript to quiz questions and the results page. 
 
