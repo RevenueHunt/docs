@@ -134,6 +134,10 @@ On the dashboard, you'll find all the quizzes that you create.
 
     "x" - Archives a notification.
 
+    **Get support** - Opens the [Support](#support) menu.
+
+    **Quiz Copilot** - Opens the Quiz Copilot, an AI assistant that helps you create quizzes.
+
 === "WooCommerce"
 
     ![dashboard notifications bar](/images/manual_notifications.png)
@@ -377,7 +381,11 @@ On the dashboard, you'll find all the quizzes that you create.
 
 === "Shopify V2"
 
-    ---
+    ![manual_shopifyV2_tipstricks](/images/manual_shopifyV2_tipstricks.png)
+
+    **Read more** - Opens the tip.
+
+    **What's New** - Displays the latest updates and features of the app.
 
 === "WooCommerce"
 

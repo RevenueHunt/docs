@@ -22,6 +22,26 @@
 
         Since Shopify handles the payments, you can change your billing details directly in your Shopify payments.
 
+=== "Shopify V2"
+
+
+    !!! warning
+    
+        The app is curently in **beta testing phase** and the usage is completely **free**. You will be notified once the beta phase will be coming to a close with sufficient time to decide if you want to upgrade to a paid plan. If your quiz usage is below the limits of the free plan, you can stay on the free plan.
+
+    ![manual_shopifyv2_plans](/images/manual_shopifyv2_plans.png)
+
+    **Your current plan** - Displays the current plan you are on.
+
+    **Manage** - click to cancel your current plan.
+
+    **Billing period** - Choose between monthly or yearly billing.
+
+    **Plan details** - Click to view the details of all the pricing plans, what is the fee, response limit, and cost per response.
+
+    **Upgrade** - Click to upgrade to a paid plan.
+
+
 === "WooCommerce"
 
     ![woocommerce plans & pricing page](/images/manual_woo_plans_pricing.png)
