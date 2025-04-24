@@ -100,6 +100,10 @@
     
         To test the whole quiz go back to the [Dashboard](/reference/dashboard/) and click `Preview` from the Quiz `...` menu.
 
+        ![manual_shopifyV2_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_preview.png)
+
+        From there you can also open the Quiz Copilot (AI assistant) by clicking the `Quiz Copilot` icon or **Undo/Redo** your quiz changes.    
+
 === "WooCommerce"
 
     ![manual_woo_quizbuilder](/images/manual_woo_quizbuilder.png)

@@ -69,28 +69,72 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
         ![quiz builder results page block menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic.png)
 
     3. Next, select `+ Add logic condition (OR)`.
-    3. **Add your rules**: Add your display logic rules for when the block should be visible or hidden. 
 
-        !!! info
-
-            All the Block Logic rules follow the same format
-
-            - **IF response to** pick the question from a dropdown list
-            - **is**/ **is not** pick a choice from the dropdown list
-            - **THEN block is** pick either **Visible** or **Hidden**
-            - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
-
-        !!! example
-
-            ![quiz builder resutls page block logic example](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic_exampleOR.png)
-
-            In the example, if a user chooses a choice "Oily" in Question 1 "SKIN TYPE" then this section will be hidden. If they give a different answer in Question 1 this content block will be shown.
-
-    4. You can add multiple rules by clicking the `+` button.
         
-        - **+ Add condition (OR)** - Adds another Display Logic rule. Adds a new OR logical rule.
-        - **bin** - Delete the current Block Logic rule.
-        - **+ Add condtion (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+
+        !!! info "➡️ Method 1: Using Answer-Based Display Logic"
+    
+            **Add your rules**: Add your display logic rules for when the block should be visible or hidden based on specific answers. 
+
+            !!! info
+
+                All the Block Logic rules follow the same format
+
+                - **IF response to** pick the question from a dropdown list
+                - **is**/ **is not** pick a choice from the dropdown list
+                - **THEN block is** pick either **Visible** or **Hidden**
+                - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+            !!! example
+
+                ![quiz builder resutls page block logic example](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic_exampleOR.png)
+
+                In the example, if a user chooses a choice "Oily" in Question 1 "SKIN TYPE" then this section will be hidden. If they give a different answer in Question 1 this content block will be shown.
+
+            You can add multiple rules by clicking the `+` button.
+            
+            - **+ Add condition (OR)** - Adds another Display Logic rule. Adds a new OR logical rule.
+            - **bin** - Delete the current Block Logic rule.
+            - **+ Add condtion (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+
+
+        !!! info "➡️ Method 2: Using Score-Based Display Logic"
+
+            **Assign Scores to Choices**: Shopify V2 offers an alternative method using a scoring system to personalize results.
+            
+            - Go to each question in your quiz
+            - For each choice, open the choice settings
+            - Assign appropriate point values to each choice
+
+            !!! example
+
+                For example, with skin type questions:
+                - Dry skin choices: 1 point
+                - Normal skin choices: 2 points
+                - Oily skin choices: 3 points
+                - Combination skin choices: 4 points
+                - Sensitive skin choices: 5 points
+
+            ![assigning scores to choices](/images/how_to_hide_content_with_logic_shopifyv2_scoring.png)
+
+            **Add Score-Based Display Logic**: On the Results Page, select a content block and in the right-hand menu locate `Display logic`.
+            
+            - Click on `+ Add condition (OR)`
+            - Instead of using question-specific conditions, use the `The variable with the highest score...` or `The score of the variable...` option
+            - Set up range conditions to control when each content block should be visible/hidden
+
+            !!! example
+
+                For example:
+                - Dry skin content: Total score is between 5-7 points
+                - Normal skin content: Total score is between 8-12 points
+                - Oily skin content: Total score is between 13-17 points
+                - Combination skin content: Total score is between 18-22 points
+                - Sensitive skin content: Total score is between 23-25 points
+
+            ![score-based display logic](/images/how_to_hide_content_with_logic_shopifyv2_score_logic.png)
 
     4. **Preview and Adjust**: Publish the changes with the top-right `Save` button to update the preview/live quiz and test the setup.
 

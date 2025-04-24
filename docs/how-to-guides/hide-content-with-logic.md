@@ -240,15 +240,57 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
             
 
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. 
     
-        To add Display Logic, select a content block and in the right-hand menu locate `Display logic`. Click on `+ Add consition (OR)`. 
+
+    3. **Add Display Logic**: If we don't add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. 
+
+        !!! info "*➡️ Method 1: Using Answer-Based Display Logic"
+    
+            To add Display Logic, select a content block and in the right-hand menu locate `Display logic`. Click on `+ Add consition (OR)`. 
+            
+            Set up IF-THEN statements to control when each statement block should be visible or hidden based on the customer's choices. Like this:
+
+            ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_rule.png)
+
         
-        Set up IF-THEN statements to control when each statement block should be visible or hidden based on the customer's choices. Like this:
 
-        ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_rule.png)
+        !!! info "➡️ Method 2: Using Score-Based Display Logic"
 
-    4. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+            **Assign Scores to Choices**: Shopify V2 offers an alternative method using a scoring system to personalize results.
+        
+            - Go to each question in your quiz
+            - For each choice, open the choice settings
+            - Assign appropriate point values to each choice
+
+            !!! example
+
+                For example, with skin type questions:
+                - Dry skin choices: 1 point
+                - Normal skin choices: 2 points
+                - Oily skin choices: 3 points
+                - Combination skin choices: 4 points
+                - Sensitive skin choices: 5 points
+
+            ![assigning scores to choices](/images/how_to_hide_content_with_logic_shopifyv2_scoring.png)
+
+            **Add Score-Based Display Logic**: On the Results Page, select a content block and in the right-hand menu locate `Display logic`.
+        
+            - Click on `+ Add condition (OR)`
+            - Instead of using question-specific conditions, use the `The varaible with the highest score...` or `The score of the varaible...` option
+            - Set up range conditions to control when each content block should be visible/hidden.
+
+            !!! example
+
+                For example:
+                - Dry skin content: Total score is between 5-7 points
+                - Normal skin content: Total score is between 8-12 points
+                - Oily skin content: Total score is between 13-17 points
+                - Combination skin content: Total score is between 18-22 points
+                - Sensitive skin content: Total score is between 23-25 points
+
+            ![score-based display logic](/images/how_to_hide_content_with_logic_shopifyv2_score_logic.png)
+
+    5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
 
 === "WooCommerce"
 
