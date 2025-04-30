@@ -99,7 +99,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 !!! tip "How to set this up?"
 
-    Check out the [Set Up Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/) guide.
+    Check out the [Set Up Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#one-results-page) guide.
 
 ### Multiple Results Pages
 
@@ -109,7 +109,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 !!! tip "How to set this up?"
 
-    Check out the [Set Up Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/) guide.
+    Check out the [Set Up Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#multiple-results-pages) guide.
 
 ## 🎯 Custom Scoring System 
 
@@ -131,7 +131,7 @@ Assign numerical scores to each choice in your quiz. Then, use Display Logic to 
 
 !!! tip "How to set this up?"
 
-    Check out the [Set Up Scoring System Quiz](/how-to-guides/set-up-scoring-quiz/) guide.
+    Check out the [Set Up Scoring System Quiz](/how-to-guides/set-up-scoring-quiz/#one-results-page) guide.
 
 
 ### Multiple Results Pages
@@ -142,7 +142,7 @@ Assign numerical scores to each choice in your quiz. Then, use Jump Logic or Ski
 
 !!! tip "How to set this up?"
 
-    Check out the [Set Up Scoring System Quiz](/how-to-guides/set-up-scoring-quiz/) guide.
+    Check out the [Set Up Scoring System Quiz](/how-to-guides/set-up-scoring-quiz/#multiple-results-pages) guide.
 
 ---
 
