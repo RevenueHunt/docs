@@ -349,8 +349,11 @@ In some cases, you might want to have links to different quizzes on the same pag
     - A/B testing different quiz versions
     - Seasonal or promotional quizzes alongside your main quiz
 
-    !!! note "Legacy Integration Support"
-        If you're using both V1 and V2 integrations simultaneously (very rare case), you can use `#quizV2-QUIZID` to specifically target V2 quizzes.
+    !!! example "Example"
+        
+        `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another. 
+            
+        To find your Quiz ID, go to the [dashboard](/reference/dashboard/) and identify a quiz. Click on the `...` and copy the ID.
 
 === "WooCommerce"
 
