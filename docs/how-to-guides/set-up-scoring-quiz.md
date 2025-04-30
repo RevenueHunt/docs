@@ -1,4 +1,4 @@
-# Set Up Scoring Quiz
+# How to Set Up Scoring Quiz
 
 ## One Results Page
 
@@ -6,35 +6,191 @@ Assign numerical scores to each choice in your quiz. Then, use Display Logic to 
 
 ![how_to_shopify_v2_recommendations_scoring](/images/how_to_shopify_v2_recommendations_scoring.png)
 
-How to set this up? Check out the [Set Up Scoring System Quiz](/how-to-guides/set-up-scoring-quiz/) guide.
+Follow these steps to set up a scoring quiz with one results page:
 
-1. Go to each question in your quiz
-2. For each choice, open the choice settings
-3. Assign appropriate point values to each choice
 
-**Implementing score-based display logic:**
+=== "Shopify"
 
-1. On the Results Page, select a content block
-2. In the right-hand menu, locate Display Logic
-3. Click on + Add condition (OR)
-4. Use "The variable with the highest score..." or "The score of the variable..." option
-5. Set up range conditions to control content visibility
+    Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
-!!! example 
 
-    For skin type recommendations:
-    - Assign points to choices (Dry: 1, Normal: 2, Oily: 3, Combination: 4, Sensitive: 5)
+=== "Shopify V2"
 
-    Set display logic for content blocks based on total scores:
-    - Dry skin content: Score between 5-7 points
-    - Normal skin content: Score between 8-12 points
-    - Oily skin content: Score between 13-17 points
-    - Combination skin content: Score between 18-22 points
-    - Sensitive skin content: Score between 23-25 points
+    !!! tip
 
+        We have Scoring Quiz template avialble among the Quiz Templates. To use it go to the [Dashboard]/(reference/dashboard/) and click on `Create Quiz` button. Then, select `Scoring Quiz` template.
+
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, enviornemnet etc. if you are creating a quiz for a skin care brand.
+
+    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and assign appropriate point values to each choice via the [Choice Settings](/reference/quiz-builderchoice-settings/) section. 
+
+        ![assigning scores to choices](/images/how_to_shopifyv2_scoringquiz_addscore.png)
+
+        !!! example
+
+            For example, with skin type questions:
+
+            - Dry skin choices: 1 point
+            - Normal skin choices: 2 points
+            - Oily skin choices: 3 points
+            - Combination skin choices: 4 points
+            - Sensitive skin choices: 5 points
+
+    2. **Add Content Sections to Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign. 
+    
+        Add multiple content blocks describing the specific skin type and its challenges. For example:
+
+        ![how to hide content with logic shopifyv2 block logic sections](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_sections.png)
+
+        !!! example
+
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
+            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+
+        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product Block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  
+
+        ![how_to_shopifyv2_scoringquiz_fixedrecommendations](/images/how_to_shopifyv2_scoringquiz_fixedrecommendations.png)
+            
+    3. **Add Score-Based Display Logic**: On the Results Page, select a content block and in the right-hand menu locate `Display logic`.
+        
+        - Click on `+ Add condition (OR)`
+        - Instead of using question-specific conditions, use the `The varaible with the highest score...` or `The score of the varaible...` option
+        - Set up range conditions to control when each content block should be visible/hidden.
+
+        ![score-based display logic](/images/how_to_shopifyv2_scoringquiz_displaylogic.png)
+
+        !!! example
+
+            For example:
+
+            - Dry skin content: Total score is between 5-7 points
+            - Normal skin content: Total score is between 8-12 points
+            - Oily skin content: Total score is between 13-17 points
+            - Combination skin content: Total score is between 18-22 points
+            - Sensitive skin content: Total score is between 23-25 points
+
+    5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+
+=== "WooCommerce"
+
+    Scoring system is not available in WooCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+
+=== "Magento"
+
+    Scoring system is not available in Magento. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "BigCommerce"
+
+    Scoring system is not available in BigCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "Standalone"
+
+    Scoring system is not available in Standalone. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 ## Multiple Results Pages
 
-Assign numerical scores to each choice in your quiz. Then, use Jump Logic or Skip Logic to direct customers to different results pages based on their accumulated scores. 
+Assign numerical scores to each choice in your quiz. Then, use Jump Logic to direct customers to different results pages based on their accumulated scores. 
 
 ![how_to_shopify_v2_recommendations_scoring_logic](/images/how_to_shopify_v2_recommendations_scoring_logic.png)
+
+Follow these steps to set up a scoring quiz with multiple results pages:
+
+
+=== "Shopify"
+
+    Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+
+=== "Shopify V2"
+
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, enviornemnet etc. if you are creating a quiz for a skin care brand.
+
+    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and assign appropriate point values to each choice via the [Choice Settings](/reference/quiz-builderchoice-settings/) section. 
+
+        ![assigning scores to choices](/images/how_to_shopifyv2_scoringquiz_addscore.png)
+
+        !!! example
+
+            For example, with skin type questions:
+
+            - Dry skin choices: 1 point
+            - Normal skin choices: 2 points
+            - Oily skin choices: 3 points
+            - Combination skin choices: 4 points
+            - Sensitive skin choices: 5 points
+
+    3. **Create Multiple Results Pages**: Go to the [Results Page](/reference/quiz-builder/results-page/) section and click `+ Add Results Page` to create additional results pages. Create one results page for each possible outcome.
+
+        ![how_to_shopifyv2_scoringquiz_multiresutlspages](/images/how_to_shopifyv2_scoringquiz_multiresutlspages.png)
+
+        !!! example
+
+            For example:
+            - Results Page 1: Dry Skin Routine
+            - Results Page 2: Normal Skin Routine
+            - Results Page 3: Oily Skin Routine
+            - Results Page 4: Combination Skin Routine
+            - Results Page 5: Sensitive Skin Routine
+
+    3. **Add Content to Each Results Page**: For each results page, addustom text describing the specific skin type and its challenges, product recommendations for that skin type and any additional content blocks relevant to that skin type.
+
+        To each results page add a section with content describing the specific skin type and its challenges. For example:
+
+        ![how to hide content with logic shopifyv2 block logic sections](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_sections.png)
+
+        !!! example
+
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
+            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+
+        Make sure to add product blocks to each results page and set the `Recommendation System` to `Fixed Recommendations` in the [Product Block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).
+
+        ![how_to_shopifyv2_scoringquiz_fixedrecommendations](/images/how_to_shopifyv2_scoringquiz_fixedrecommendations.png) 
+
+    4. **Set Up Jump Logic Based on Scores**: Go tp the [Conditional Logic](/reference/quiz-builder/conditional-logic/) section of Quiz Builder. Find the last question in your quiz and open the [Jump Logic settings](/reference/quiz-builder/conditional-logic/#jump-logic):
+        
+        - Click on `+ Add condition (OR)`
+        - Select `The variable with the highest score...` or `The score of the variable...` option
+        - Set up range conditions to control which results page the user will be directed to
+
+        ![how_to_shopifyv2_scoringquiz_multiresutlspages_logic](/images/how_to_shopifyv2_scoringquiz_multiresutlspages_logic.png)
+
+        !!! example
+
+            For example:
+
+            - If total score is between 5-7 points → Jump to Dry Skin Routine
+            - If total score is between 8-12 points → Jump to Normal Skin Routine
+            - If total score is between 13-17 points → Jump to Oily Skin Routine
+            - If total score is between 18-22 points → Jump to Combination Skin Routine
+            - If total score is between 23-25 points → Jump to Sensitive Skin Routine
+
+    5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+
+=== "WooCommerce"
+
+    Scoring system is not available in WooCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+
+=== "Magento"
+
+    Scoring system is not available in Magento. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "BigCommerce"
+
+    Scoring system is not available in BigCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "Standalone"
+
+    Scoring system is not available in Standalone. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+
+
+---
+
+This article explains how to set up a scoring quiz with one results page and multiple results pages in the RevenueHunt app.

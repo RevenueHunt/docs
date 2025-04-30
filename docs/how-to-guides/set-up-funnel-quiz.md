@@ -1,4 +1,4 @@
-# Set Up Funnel Quiz
+# How to Set Up Funnel Quiz
 
 The voting system counts product "votes" based on customer quiz choices and recommends products with the highest votes.
 

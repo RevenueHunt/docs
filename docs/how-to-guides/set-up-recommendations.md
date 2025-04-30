@@ -4,7 +4,14 @@ icon: material/cards
 
 # How to Set Up Recommendations
 
-There are three ways to set up product recommendations within the RevenueHunt app:
+Product recommendations are the heart of any successful quiz experience. They help guide customers to the perfect products for their needs, increasing conversion rates and customer satisfaction. In this guide, we'll explore different recommendation systems that can be implemented in your RevenueHunt quiz, each designed for different use cases and business needs.
+
+| Recommendation System | Best For | Key Features | Complexity |
+|----------------------|----------|--------------|------------|
+| ✍🏻 Voting System | Most quizzes, especially product finders | - Dynamic product recommendations<br>- Adapts to product catalog changes<br>- Works as a funnel | Low to Medium |
+| 🧩 Fixed Recommendations | Complex branching quizzes | - Pre-determined product sections<br>- Precise control over outcomes<br>- Multiple results pages | Medium |
+| 🎯 Custom Scoring System | Personality-type quizzes | - Weighted scoring system<br>- Nuanced recommendations<br>- Variable outcomes | Medium to High |
+
 
 ## ✍🏻 Voting System
 
