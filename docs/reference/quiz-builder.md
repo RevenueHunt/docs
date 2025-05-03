@@ -4656,68 +4656,49 @@
 
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
 
-    **Default quiz content** 
+    **Default quiz content**
 
     *Filter items* - Search the messages for a specific one to edit.
 
     **Select language** - Select a language from the list to change the default app translations. Each individual content can be edited below.
 
-    **Buttons** 
+    **Buttons**
+    *This section defines the default text for various buttons. Note that once a button is created (e.g., on a question block), its text can be individually edited directly in the Quiz Builder.*
 
-    - *Next* - Default text on the buttons that move the user to the next slide. | Quiz
-
+    - *Next* - Default text on the buttons that move the user to the next question. | Quiz
     - *Add to cart* - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
-
     - *Add all to cart* -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
-
     - *Retake quiz* - Default text on the button that allows the user to retake the quiz. | Results Page
-
     - *Proceed to Checkout* - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
-
     - *Proceed to Cart* - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
 
-    **Placeholders** 
+    **Placeholders**
+    *This section defines the default placeholder text for various input fields. Note that once an input field is created (e.g., on a question block), its placeholder text can be individually edited directly in the Quiz Builder.*
 
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders.png)
 
-    - *Placeholder for email inputs* - Default placeholder text on the email question slides. | Quiz
-
-    - *Placeholder for phone inputs* - Default placeholder text on the phone question slides. | Quiz
-
-    - *Placeholder for default inputs* - Default placeholder text on the short or long text question slides. | Quiz
-
-    - *Placeholder for date inputs* - Default placeholder on date slides. | Quiz
-
+    - *Placeholder for email inputs* - Default placeholder text on the email question block. | Quiz
+    - *Placeholder for phone inputs* - Default placeholder text on the phone question block. | Quiz
+    - *Placeholder for default inputs* - Default placeholder text on the short or long text question block. | Quiz
+    - *Placeholder for date inputs* - Default placeholder on date question block. | Quiz
     - *Placeholder for select variant* - Default placeholder text on variants dropdown | Results Page
-
-    - *Placeholder for first name inputs* - Default placeholder text on the name question slides. | Quiz
-
-    - *Placeholder for full name inputs* - Default placeholder text on the name question slides. | Quiz
-
-    - *Placeholder for last name inputs* - Default placeholder text on the name question slides. | Quiz
-
-    - *Placeholder for number inputs* - Default placeholder text on the number question slides. | Quiz
-
-    - *Placeholder for upload inputs* - Default placeholder text on the file upload question slides. | Quiz
-
-    - *Placeholder for upload file warning* - Default placeholder text on the uplaod question slides warning. | Quiz
+    - *Placeholder for first name inputs* - Default placeholder text on the name question block. | Quiz
+    - *Placeholder for full name inputs* - Default placeholder text on the name question block. | Quiz
+    - *Placeholder for last name inputs* - Default placeholder text on the name question block. | Quiz
+    - *Placeholder for number inputs* - Default placeholder text on the number question block. | Quiz
+    - *Placeholder for upload inputs* - Default placeholder text on the file upload question block. | Quiz
+    - *Placeholder for upload file warning* - Default placeholder text on the uplaod question block warning. | Quiz
 
     **Helpers**
 
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers.png)
 
-    - *Message for file drop* - Default text on the file upload question slides. | Quiz
-
-    - *Message for file size under 10MB* - Default text on the file upload question slides. | Quiz
-
+    - *Message for file drop* - Default text on the file upload question block. | Quiz
+    - *Message for file size under 10MB* - Default text on the file upload question block. | Quiz
     - *"and" conector for dynamic source* - Default text displayed between each personalization (information recalls). | Quiz
-
     - *(Percentage)% complete* - Default text on the quiz progress bar. | Quiz
-
     - *Loading error retry* - Default text on the results page in case of loading issues. | Results Page
-
     - *Loading error no response* - Default text on the results page in case of loading issues. | Results Page
-
     - *Try again* - Default text on the results page in case of loading issues. | Results Page
 
 === "WooCommerce"
