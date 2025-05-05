@@ -352,11 +352,13 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
 
+    **🗑 Remove question** - Click to delete this question.
+
     **...** - Opens the question management settings. Click `Duplicate` to duplicate the question or `Remove` to delete it.
 
     ![manual_shoopifyV2_remove](/images/manual_shoopifyV2_remove.png)
 
-    **Background image** - Click `Select image` and then in the popup `Add image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery. 
+    **Image upload** - Click `Select image` and then in the popup `Add image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery. 
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
     
@@ -387,9 +389,6 @@
 
     **Question ID** - Displays the question ID of the selected question.
 
-    **Block Settings**
-
-    ![]()
 
 === "WooCommerce"
 
@@ -631,43 +630,51 @@
 
     Each buliding block of your question has individual block settings. 
 
-    **bin** - Click on the bin icon to remove the block.
+    **🗑 / bin** - Click on the bin icon to remove the block.
 
     ### Heading
     
     Adds a heading block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png){width="300"}
 
-    Text box allows you to `bold`, `cursive`, `underline` or `strikethrough` your text as well as `add links` and `pContent dynamic source` (recall information from other parts of the quiz).
+    Text box allows you to `bold`, `cursive`, `underline` or `strikethrough` your text as well as `add links` and `Content dynamic source` (recall information from other parts of the quiz).
 
     `Heading size` and  `Heading alignment` can also be changed in block settings.
 
-    **Content dynamic source**: [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+    **☰ / Content dynamic source**: [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
 
-    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png)
+    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
     
     A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
 
-    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
+    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+
+    ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
+
+    **🗑 Remove block** - Click to delete this block.
 
     ###Text
     
     Adds a text block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png){width="300"}
 
     Text box allows you to `bold`, `cursive`, `underline` or `strikethrough` your text as well as `add links` and `Content dynamic source` (recall information from other parts of the quiz).
 
     `Text size` and  `Alignment` can also be changed in block settings.
 
-    **Content dynamic source**: [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+    **☰ / Content dynamic source**: [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
 
-    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png)
+    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
     
     A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
 
-    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
+    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+
+    ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
+
+    **🗑 Remove block** - Click to delete this block.
 
     ###Button
 
