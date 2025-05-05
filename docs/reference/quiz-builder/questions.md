@@ -654,6 +654,12 @@
 
     **🗑 Remove block** - Click to delete this block.
 
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    **...** - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.
+
     ###Text
     
     Adds a text block to your question.
@@ -676,6 +682,12 @@
 
     **🗑 Remove block** - Click to delete this block.
 
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    **...** - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.
+
     ###Button
 
     Adds a button to your question.
@@ -686,29 +698,53 @@
 
     *Button Alignment* - Move the button left, right or center.
 
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    **...** - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.
+
     ###Image
 
     Adds an image block to the question. 
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png){width="300"}
 
     Click `Select image` to upload an image from your computer or pick one from your in-app image gallery. Once uploaded, click `Change` to replace the image or `Remove` to delete it. 
+
+    Add in `Alt text` to make the image more accessible. *Note: Alt text is used by screen readers to describe the image to visually impaired users.*
 
     You can adjust the image size in the `Image height`dropdown. 
 
     `Image Alignment` changes the alignement of the image left, right or center.
 
+    **🗑 Remove block** - Click to delete this block.
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    **...** - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.
+
     ###Multiple Choice 
     
     Adds a multiple choice block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice.png){width="300"}
 
-    *Choice type* - Switch between multiple choice, dropdown, pictures, yes/no & legal/GDPR choices for this block.
-
-    *Allow multiple selection* - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question. `Error message`field allows you to add a message to the user if they select too many options.
+    *Choice type* - Switch between multiple choice, dropdown, pictures, slider, yes/no & legal/GDPR choices for this block.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Allow multiple selection* - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be selected in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question. `Error message`field allows you to add a message to the user if they select too many options.
+
+    **🗑 Remove block** - Click to delete this block.
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    **...** - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.    
 
     ###Picture choice
 
@@ -716,11 +752,13 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
 
-    *Choice type* - Switch between multiple choice, dropdown, pictures, yes/no & legal/GDPR choices for this block.
-
-    *Allow multiple selection* - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.
+    *Choice type* - Switch between multiple choice, dropdown, pictures, slider, yes/no & legal/GDPR choices for this block.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    *Enable horizontal carousel on mobile* - If checked, allows users to scroll picture options horizontally on mobile devices.
+
+    *Allow multiple selection* - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.
 
     *Advanced settings* - Opens the advanced choice settings menu.
 
@@ -730,17 +768,37 @@
 
     *Hide image label* - when checked hides the text below each picture choice.
 
+    **🗑 Remove block** - Click to delete this block.
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    **...** - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.    
+
     ###Slider
 
     Adds a slider block to your question.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider.png){width="300"}
+
+    *Choice type* - Switch between multiple choice, dropdown, pictures, slider, yes/no & legal/GDPR choices for this block.
 
     *Slider type* - Select the visual slider type between `Bar`, `Buttons` or `Stars`.
 
     *Display bar value tooltip* - Check if you want to see the labels with each value.
 
+    *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
+
     *Labels* - Unfold to add (type in) the labels to each step in the slider.
+
+    **🗑 Remove block** - Click to delete this block.
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    **...** - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.  
 
     ###Short Long Text
     
@@ -758,6 +816,8 @@
 
     *Maximum length* - set a maximum number of characters required in this question answer.
 
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.
+
     ###Date
 
     Adds a date question to this block.
@@ -769,6 +829,8 @@
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
 
     *Error message* - Add a default error message in case entered text is incorrect.
+
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.
 
     ###File upload
 
@@ -786,6 +848,8 @@
 
     *File format error message* - Add a default message in case of an error.
 
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.
+
     ###Number
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number.png)
@@ -800,6 +864,8 @@
 
     *Maximum range* - the maximum number value that can be entered.
 
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.
+
     ###Email
 
     Adds an email input question to this block.
@@ -811,6 +877,8 @@
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
 
     *Error message* - Add a default error message in case entered text is incorrect.
+
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.
  
     ###Name
 
@@ -830,6 +898,8 @@
 
     *Maximum length* - set a maximum number of characters required in this question answer.
 
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.
+
     ###Phone number
 
     Adds a phone number question to this block.
@@ -844,6 +914,8 @@
 
     *Error message* - Add a default error message in case entered text is incorrect.
 
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.
+
     ###Custom HTML
 
     Adds a custom HTML block question to this block.
@@ -852,7 +924,7 @@
 
     *HTML editor* - Code box where you can input your custom code.
 
-
+    **Block ID** - Unique identifier for the block, useful for debugging or API use.
 
 
 
