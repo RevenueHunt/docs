@@ -56,6 +56,10 @@ Remember, you can also include custom images and styles for each question via th
 
     In the `Basic` customization menu, you can adjust fundamental design elements such as colors, fonts, backgrounds, and navigation.
 
+    !!! info
+
+        In Shopify V2, the font for the headings and body of the quiz is inherited from the store Shopify theme.
+
     - **Font**: Select a font from the available list to give your quiz a unique character.
     - **Primary Colors / Choices / Inputs**: Click on any color block to bring up a color picker and adjust hues to your preference.
 
