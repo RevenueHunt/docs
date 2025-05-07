@@ -16,14 +16,14 @@ icon: material/basket-off-outline
 
 === "Shopify V2"
 
-    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
+    You can now exclude all out-of-stock items from your recommendations directly in the **Store settings** under the **Catalogue** tab.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
+    1. Go to **Store settings** and select [**Catalogue**](/reference/app-settings/#catalogue) from the left menu.
+    2. In the **Inventory filter** section, check the box labeled **Filter products by inventory level** and set the **Minimum stock level** (can be negative).
+    3. This will ensure that products below the minimum stock threshold (including out-of-stock products) will not be recommended.
+    4. Save the changes.
 
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/).
-    3. Scroll to the `Show Unavailable products` field.
-    4. uncheck the button to deactivate showing unavialble or out-of-stock products as recommendations.
-    5. Update the preview/live quiz with the top-right `Save` button.
+    By following these steps, out-of-stock products will be hidden from your recommendations.
 
 === "WooCommerce"
 
