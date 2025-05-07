@@ -194,7 +194,9 @@
 
     **Enable SSL** - Check to enable SLL. *SSL (Secure Sockets Layer) is an older protocol for encrypting connections. If enabled, your connection starts as secure from the beginning (unlike STARTTLS which upgrades after connecting). This is usually used on port 465. Only enable SSL if your SMTP provider specifies SSL.* This option is enabled by default, but should be unticked for SMTP servers that don't use SSL encryption.
        
-    **Test connection** - Once you've provided all your credentials you can test if the connection to your SMTP server is successful by clicking the `Test` button. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    !!! tip "Troubleshooting"
+
+        If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
 
 === "WooCommerce"
 
@@ -348,3 +350,30 @@
     **Language** - Selct a default quiz for a specific language in this region.
 
     **Currency** - Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
+
+## Plans & Pricing
+
+=== "Shopify"
+
+    Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
+
+=== "Shopify V2"
+
+    Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.   
+
+
+=== "WooCommerce"
+
+    Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
+
+=== "Magento"
+
+    Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
+
+=== "BigCommerce"
+
+    Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
+
+=== "Standalone"
+
+    Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.   
