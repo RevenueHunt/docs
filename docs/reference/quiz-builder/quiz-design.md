@@ -152,6 +152,10 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_font.png)
 
+    !!! note
+
+        In Shopify V2, the font for the headings and body of the quiz is inherited from the store Shopify theme if the font is set to `Inherit`.
+
     *Primary colors / Choices / Inputs* - Click the color to change it.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors.png)
