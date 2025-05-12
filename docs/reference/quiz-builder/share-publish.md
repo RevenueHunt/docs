@@ -170,10 +170,20 @@
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
 
-    In Inline Quiz settings, you can choose the `Quiz height (in pixels)`, just type the number in.
+    In Inline Quiz settings, you can adjust:
 
-    - *Automatic scroll into View* - Uncheck this option if you don't want the quiz to scroll into view.
-    - *Fixed height* - Will set a fixed height of the quiz iframe as specified in the **Height** field above. This also fixes the height of the results page.
+    - *Quiz height (in pixels)* - Sets the minimum height of the quiz. It expands if the content is taller.
+
+    - *Fixed height* - Keeps the quiz height fixed. Turn off to allow automatic height adjustment.
+
+    - *Full width quiz* - Makes the quiz span the full width of the page. Off by default (Shopify recommended).
+
+    - *Auto-scroll on retake quiz* - Scrolls to the quiz automatically when retaking it, if enabled.
+
+    - *Quiz ID (optional)* - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
+
+    - *Manage app* - Opens the RevenueHunt dashboard with full settings and options.
+
 
     Then, follow the step by step instructions provided in the `Add the quiz to your home page` section, `Add the quiz to a dedicated landing page` section or in our [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) to add a quiz link to your website.
 
