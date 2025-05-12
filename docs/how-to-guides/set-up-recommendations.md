@@ -121,6 +121,17 @@ Recommended for personality-type quizzes. Assign point values to choices and use
     - When you need to weigh different factors with varying importance
     - Creating nuanced recommendation categories
 
+### Winning Variable Quiz
+
+Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted varaible.
+
+![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png)
+
+!!! tip "How to set this up?"
+
+    Check out the [Set Up Scoring System Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) guide.
+
+
 
 ### One Results Page
 

@@ -1,5 +1,90 @@
 # How to Set Up Scoring Quiz
 
+
+## Winning Variable Quiz 
+
+Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted varaible.
+
+![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png)
+
+Follow these steps to set up a winning variable quiz:       
+
+=== "Shopify"
+
+    Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+
+=== "Shopify V2"
+
+    Let's imagine you are creating a quiz for a skin care brand. You want to know which skin type the customer has.
+
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their skin condition. For example: itchiness, tightness, dryness, etc. if you are creating a quiz for a skin care brand.
+
+    2. **Assign Variables and Scores to Choices**: Go to each question in your quiz. For each choice, open the [choice settings](/reference/quiz-builderchoice-settings/) and assign varibales to each choice. 
+
+        !!! example
+
+            Question 1: How does your skin feel when you wake up in the morning?
+
+            - Choice 1: Tight (variable `dry skin` +1)
+            - Choice 2: Normal (variable `normal skin` +1)
+            - Choice 3: Oily (variable `oily skin` +1)
+            - Choice 4: Combination (variable `combination skin` +1)
+            - Choice 5: Sensitive (variable `sensitive skin` +1)  
+
+            Question 2: How does your skin usually look by midday?
+
+            - Choice 1: Still tight (variable `dry skin` +1)
+            - Choice 2: Same as in the morning (variable `normal skin` +1)
+            - Choice 3: Shiny (variable `oily skin` +1)
+            - Choice 4: T-zone shiny (variable `combination skin` +1)
+            - Choice 5: Red and irritated (variable `sensitive skin` +1)
+
+    3. **Add a Results Page and Sections**: Add a [Results Page](/reference/quiz-builder/results-page/) to your quiz. On the Results Page add several **Sections** with Heading, Text and Product Block that shows products for specific skin type and its challenges.
+
+        !!! example
+
+            Section 1: Dry Skin
+
+            Section 2: Normal Skin
+
+            Section 3: Oily Skin
+
+            Section 4: Combination Skin 
+
+            Section 5: Sensitive Skin
+
+    4. **Add a Product Block to Each Section**: Add a [Product Block](/reference/quiz-builder/product-block/) to each section on your Results Page. In the Product Block settings set the `Recommendation System` to `Fixed Recommendations` and select the products you want to recommend for that skin type.  
+
+    5. **Add Display Logic**: Add a [Display Logic](/reference/quiz-builder/display-logic/) to each section on your Results Page to tell it when to be shown or hidden based on the winning variable.
+
+        !!! example
+
+            - If the variable with the highest score is `dry skin`, then Section 1 is **visible**. Otherwise Default visibility is **hidden**.
+            - If the variable with the highest score is `normal skin`, then Section 2 is **visible**. Otherwise Default visibility is **hidden**.
+            - If the variable with the highest score is `oily skin`, then Section 3 is **visible**. Otherwise Default visibility is **hidden**.
+            - If the variable with the highest score is `combination skin`, then Section 4 is **visible**. Otherwise Default visibility is **hidden**.
+            - If the variable with the highest score is `sensitive skin`, then Section 5 is **visible**. Otherwise Default visibility is **hidden**.
+
+    6. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+
+=== "WooCommerce"
+
+    Scoring system is not available in WooCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).         
+
+=== "Magento"
+
+    Scoring system is not available in Magento. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "BigCommerce"
+
+    Scoring system is not available in BigCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).     
+
+=== "Standalone"
+
+    Scoring system is not available in Standalone. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).  
+
+
 ## One Results Page
 
 Assign numerical scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the accumulated scores.
