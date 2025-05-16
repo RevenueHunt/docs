@@ -58,7 +58,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
     
         Add multiple content blocks describing the specific skin type and its challenges. For example:
 
-        ![how to hide content with logic shopifyv2 block logic sections](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_sections.png)
+        ![how to hide content with logic shopifyv2 block logic sections](/images/how_to_shopifyv2_fixedrecommendationquiz_sectionsresultspage.png)
 
         !!! example
 
@@ -67,18 +67,24 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product Block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  
+    3. **Add Product Blocks**: To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product Block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  
+
+        ![how to recommend products fixed recommendations resultspage](/images/how_to_shopifyv2_fixedrecommendationquiz_fixedrecommendationsresultspage.png)
 
         ![how_to_shopifyv2_scoringquiz_fixedrecommendations](/images/how_to_shopifyv2_scoringquiz_fixedrecommendations.png)         
+
+        Then, select the max. number of products to show in the `Slot` settings and select which products to show.
+
+        ![how to recommend products fixed recommendations resultspage2](/images/how_to_shopifyv2_fixedrecommendationquiz_fixedrecommendationsresultspage2.png)
             
 
     3. **Add Display Logic**: If we don't add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. 
     
-        To add Display Logic, select a content block and in the right-hand menu locate `Display logic`. Click on `+ Add consition (OR)`. 
+        To add Display Logic, select a content block and in the right-hand menu locate `Display logic`. Click on `+ Add condition (OR)`. 
               
         Set up IF-THEN statements to control when each statement block should be visible or hidden based on the customer's choices. Like this:
 
-        ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_rule.png)
+        ![how to hide content with logic block logic statement](/images/how_to_shopifyv2_fixedrecommendationquiz_displaylogic.png)
 
     5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
 
@@ -202,17 +208,19 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 === "Shopify"
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. 
 
         !!! tip
 
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
 
-    2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each skin type (Dry, Normal, Oily, Combination).
+    2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each result (for example, based on skin type (Dry, Normal, Oily, Combination)).
 
-        ![how to set up multiple results pages](/images/how_to_set_up_multiple_results_pages.png)
+        !!! tip
 
-    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges. For example:
+            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+
+    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
 
         !!! example
 
@@ -221,13 +229,19 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    4. **Add Product Blocks to Each Results Page**: For each results page, add a `Product Block` with the specific products you want to recommend for that skin type.
+    4. **Branch your quiz**: Use Jump Logic to branch your quiz and **link the recommended produsts to the choices in the last question on each branch**.
 
-        ![how to add product blocks to results pages](/images/how_to_add_product_blocks_to_results_pages.png)
+        Stage 1:
 
-    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and set up Jump Logic to direct customers to the appropriate results page based on their skin type choice.
+        ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
 
-        ![how to set up jump logic for results pages](/images/how_to_set_up_jump_logic_for_results_pages.png)
+        Stage 2:
+
+        ![how to recommend products complex matrix logic tree](/images/how_to_shopifyv_fixedrecommendationquiz_mrp_branching.png)
+
+    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and set up Jump Logic to direct customers to the appropriate results page based on their choices.
+
+        ![how to recommend products complex matrix logic tree](/images/how_to_shopifyv_fixedrecommendationquiz_mrp_resultsjumps.png)
 
         !!! tip
 
@@ -245,7 +259,9 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
     2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+ Add Results Page` button to create additional results pages. Create a separate results page for each skin type (Dry, Normal, Oily, Combination).
 
-    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges. For example:
+    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges. For example:+
+
+        ![how to set up multiple results pages](/images/how_to_shopifyv2_fixedrecommendationquiz_resultpages.png)
 
         !!! example
 
@@ -256,20 +272,29 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
     4. **Add Product Blocks to Each Results Page**: For each results page, add a `Products Block` with the specific products you want to recommend for that skin type.
 
-        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product Block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  
+        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product Block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  +
+
+        ![how to recommend products fixed recommendations resultspage](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_fixedrecommendationsresultspage.png)
 
         ![how_to_shopifyv2_scoringquiz_fixedrecommendations](/images/how_to_shopifyv2_scoringquiz_fixedrecommendations.png)     
 
+        Then go to Slot settings and select the max. number of products to show and select which products to show.
 
-    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and set up [Jump Logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) to direct customers to the appropriate results page based on their skin type choice.
+        ![how to recommend products fixed recommendations resultspage2](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_fixedrecommendationsresultspage2.png)
+
+
+    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and pick the last question in the quiz. Set up [Jump Logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) to direct customers to the appropriate results page based on their skin type choice.
+
+        ![how to set up jump logic for results pages](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_jumplogic.png)
 
         Open the Jump Logic options and add new rules to this question. Click `+ Add another rule (OR)` to add a new OR Jump Logic rule for the selected question.
 
+
         !!! example
 
-            ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example.png)
+            ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_jumplogic_example.png)
 
-            In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then they will be redirected to Question 8 "SKIN TYPE: OILY".
+            In the example, if a user chooses a choice "Not too oily..." in Question 4 "SKIN TYPE" then they will be redirected to Results Page 2.
 
         !!! tip
 
@@ -279,17 +304,19 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 === "WooCommerce"
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. 
 
         !!! tip
 
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
 
-    2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each skin type (Dry, Normal, Oily, Combination).
+    2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each result (for example, based on skin type (Dry, Normal, Oily, Combination)).
 
-        ![how to set up multiple results pages](/images/how_to_set_up_multiple_results_pages.png)
+        !!! tip
 
-    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges. For example:
+            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+
+    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
 
         !!! example
 
@@ -298,13 +325,19 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    4. **Add Product Blocks to Each Results Page**: For each results page, add a `Product Block` with the specific products you want to recommend for that skin type.
+    4. **Branch your quiz**: Use Jump Logic to branch your quiz and **link the recommended produsts to the choices in the last question on each branch**.
 
-        ![how to add product blocks to results pages](/images/how_to_add_product_blocks_to_results_pages.png)
+        Stage 1:
 
-    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and set up Jump Logic to direct customers to the appropriate results page based on their skin type choice.
+        ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
 
-        ![how to set up jump logic for results pages](/images/how_to_set_up_jump_logic_for_results_pages.png)
+        Stage 2:
+
+        ![how to recommend products complex matrix logic tree](/images/how_to_shopifyv_fixedrecommendationquiz_mrp_branching.png)
+
+    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and set up Jump Logic to direct customers to the appropriate results page based on their choices.
+
+        ![how to recommend products complex matrix logic tree](/images/how_to_shopifyv_fixedrecommendationquiz_mrp_resultsjumps.png)
 
         !!! tip
 
@@ -314,17 +347,19 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 === "Magento"
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. 
 
         !!! tip
 
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
 
-    2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each skin type (Dry, Normal, Oily, Combination).
+    2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each result (for example, based on skin type (Dry, Normal, Oily, Combination)).
 
-        ![how to set up multiple results pages](/images/how_to_set_up_multiple_results_pages.png)
+        !!! tip
 
-    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges. For example:
+            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+
+    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
 
         !!! example
 
@@ -333,13 +368,19 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    4. **Add Product Blocks to Each Results Page**: For each results page, add a `Product Block` with the specific products you want to recommend for that skin type.
+    4. **Branch your quiz**: Use Jump Logic to branch your quiz and **link the recommended produsts to the choices in the last question on each branch**.
 
-        ![how to add product blocks to results pages](/images/how_to_add_product_blocks_to_results_pages.png)
+        Stage 1:
 
-    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and set up Jump Logic to direct customers to the appropriate results page based on their skin type choice.
+        ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
 
-        ![how to set up jump logic for results pages](/images/how_to_set_up_jump_logic_for_results_pages.png)
+        Stage 2:
+
+        ![how to recommend products complex matrix logic tree](/images/how_to_shopifyv_fixedrecommendationquiz_mrp_branching.png)
+
+    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and set up Jump Logic to direct customers to the appropriate results page based on their choices.
+
+        ![how to recommend products complex matrix logic tree](/images/how_to_shopifyv_fixedrecommendationquiz_mrp_resultsjumps.png)
 
         !!! tip
 
@@ -349,17 +390,19 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 === "BigCommerce"
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. 
 
         !!! tip
 
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
 
-    2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each skin type (Dry, Normal, Oily, Combination).
+    2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each result (for example, based on skin type (Dry, Normal, Oily, Combination)).
 
-        ![how to set up multiple results pages](/images/how_to_set_up_multiple_results_pages.png)
+        !!! tip
 
-    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges. For example:
+            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+
+    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
 
         !!! example
 
@@ -368,13 +411,19 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    4. **Add Product Blocks to Each Results Page**: For each results page, add a `Product Block` with the specific products you want to recommend for that skin type.
+    4. **Branch your quiz**: Use Jump Logic to branch your quiz and **link the recommended produsts to the choices in the last question on each branch**.
 
-        ![how to add product blocks to results pages](/images/how_to_add_product_blocks_to_results_pages.png)
+        Stage 1:
 
-    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and set up Jump Logic to direct customers to the appropriate results page based on their skin type choice.
+        ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
 
-        ![how to set up jump logic for results pages](/images/how_to_set_up_jump_logic_for_results_pages.png)
+        Stage 2:
+
+        ![how to recommend products complex matrix logic tree](/images/how_to_shopifyv_fixedrecommendationquiz_mrp_branching.png)
+
+    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and set up Jump Logic to direct customers to the appropriate results page based on their choices.
+
+        ![how to recommend products complex matrix logic tree](/images/how_to_shopifyv_fixedrecommendationquiz_mrp_resultsjumps.png)
 
         !!! tip
 
@@ -384,17 +433,19 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 === "Standalone"
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. 
 
         !!! tip
 
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
 
-    2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each skin type (Dry, Normal, Oily, Combination).
+    2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each result (for example, based on skin type (Dry, Normal, Oily, Combination)).
 
-        ![how to set up multiple results pages](/images/how_to_set_up_multiple_results_pages.png)
+        !!! tip
 
-    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges. For example:
+            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+
+    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
 
         !!! example
 
@@ -403,13 +454,19 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    4. **Add Product Blocks to Each Results Page**: For each results page, add a `Product Block` with the specific products you want to recommend for that skin type.
+    4. **Branch your quiz**: Use Jump Logic to branch your quiz and **link the recommended produsts to the choices in the last question on each branch**.
 
-        ![how to add product blocks to results pages](/images/how_to_add_product_blocks_to_results_pages.png)
+        Stage 1:
 
-    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and set up Jump Logic to direct customers to the appropriate results page based on their skin type choice.
+        ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
 
-        ![how to set up jump logic for results pages](/images/how_to_set_up_jump_logic_for_results_pages.png)
+        Stage 2:
+
+        ![how to recommend products complex matrix logic tree](/images/how_to_shopifyv_fixedrecommendationquiz_mrp_branching.png)
+
+    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and set up Jump Logic to direct customers to the appropriate results page based on their choices.
+
+        ![how to recommend products complex matrix logic tree](/images/how_to_shopifyv_fixedrecommendationquiz_mrp_resultsjumps.png)
 
         !!! tip
 
