@@ -1,5 +1,7 @@
 # How to Set Up Funnel Quiz
 
+## Funnel Quiz 
+
 
 <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/f249d672fe414dc390715b210a94a75a?sid=0a795570-01c5-4777-b6b1-62b0a0da3387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -329,6 +331,266 @@ Product recommendation algorithm works like a voting system:
         - **Use Exclusions**: You can use [Exclusions](#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
+
+
+
+## Funnel Quiz that Skips Slides
+
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/706166edd208443f8982525d62455f46?sid=555e7d4e-fbb9-4650-bb79-1b9e3887f85b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+Show different follow-up questions based on customer choices in a multiple-choice, multiple selection question. For example, ask about skin concerns and then only show follow-up questions related to the selected concerns. The algorithm counts votes only from questions and answers shown to each customer. 
+
+![how_to_shopify_v2_recommendations_skiplogic.png](/images/how_to_shopify_v2_recommendations_skiplogic.png)
+
+![how_to_hide_content_with_logic_shopifyv2_skip_logic_flow](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
+
+=== "Shopify"
+
+    RevenueHunt Product Recommendation Quiz can use skip logic to show different follow-up questions based on customer choices. The quiz can skip irrelevant questions based on user selections, improving engagement and relevance.
+
+    Follow these steps to set up a funnel quiz with skip logic:
+
+    1. **Create Initial Question**: Create a multiple-choice question about the user's main concerns:
+        - Open the RevenueHunt Quiz Builder and create a new quiz
+        - Add a multiple-choice question asking about main concerns (e.g., skin concerns)
+        - Add options such as Acne, Pigmentation, Blackheads, Flaky Skin
+        - Enable 'Allow Multiple Selection' to let users select more than one option
+
+    2. **Add Follow-Up Questions**: For each main concern, add corresponding follow-up questions:
+        - Create a question for each option (e.g., Acne, Pigmentation, etc.)
+        - Ensure follow-up questions are set up in the same order as the options in the initial question
+        - Customize each follow-up question to be relevant to its specific concern
+
+    3. **Set Up Skip Logic**: Configure conditional logic for each follow-up question:
+        - Navigate to the Conditional Logic tab for each follow-up question
+        - Add rules to skip questions if the corresponding concern was not selected
+        - For example: If 'Skin Concerns' is not 'Acne', skip the Acne questions
+        - Repeat for each follow-up question and corresponding concern
+
+    4. **Link Products to Choices**: Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab within your quiz setup:
+        - For each choice, link relevant products/variants
+        - The quiz will count votes only from questions that were shown to the user
+
+    5. **Test the Quiz Logic**: After setting up questions and skip logic:
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz
+        - Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz in a new window
+        - Select multiple concerns to verify that only relevant follow-up questions are displayed
+        - Repeat with different selections to ensure the logic works correctly
+
+    6. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if needed:
+        - Check why specific questions were shown or skipped
+        - Verify that product recommendations match user selections
+
+    By using skip logic, your quiz will only show relevant questions based on customer choices, creating a more personalized experience and more accurate product recommendations.
+
+
+=== "Shopify V2"
+
+    RevenueHunt Product Recommendation Quiz can use skip logic to show different follow-up questions based on customer choices. The quiz can skip irrelevant questions based on user selections, improving engagement and relevance.
+
+    Follow these steps to set up a funnel quiz with skip logic:
+
+    1. **Create Initial Question**: Create a multiple-choice question about the user's main concerns:
+
+        ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_mulriplechoice.png)
+
+        - Open the Revenue Hunt quiz app and create a new quiz
+        - Add a multiple-choice question asking about main concerns (e.g., skin concerns)
+        - Add options such as Acne, Pigmentation, Blackheads, Flaky Skin
+        - Enable 'Allow Multiple Selection' in the [`multiple-choice settings`](/reference/quiz-builder/questions/#multiple-choice-settings) to let users select more than one option
+
+    2. **Add Follow-Up Questions**: For each main concern, add corresponding follow-up questions:
+
+        ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_followup.png)
+
+        - Create a question for each option (e.g., Acne, Pigmentation, etc.)
+        - Ensure follow-up questions are set up in the same order as the options in the initial question
+        - Customize each follow-up question to be relevant to its specific concern
+
+    3. **Set Up Skip Logic**: Configure conditional logic for each follow-up question:
+
+        ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_skiplogic.png)
+
+        - Navigate to the Conditional Logic tab for each follow-up question
+        - Add rules to skip questions if the corresponding concern was not selected
+        - For example: If 'Skin Concerns' is not 'Acne', skip the Acne questions
+        - Repeat for each follow-up question and corresponding concern
+
+    4. **Link Products to Choices**: Navigate to the [Upvote](/reference/quiz-builder/link-products/) tab within your quiz setup:
+
+        ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_linkproduct.png)
+
+        - For each choice, upvote relevant products
+        - Products or collections added in the `upvotes` field are upvoted in the final recommendations
+        - The quiz will count votes only from questions that were shown to the user
+
+    5. **Test the Quiz Logic**: After setting up questions and skip logic:
+        - Click [`Save`](/reference/quiz-builder/questions/) to update the preview/live quiz
+        - Use the preview feature to test different combinations of selections
+        - Select multiple concerns (e.g., 'Acne' and 'Blackheads') to verify that only relevant follow-up questions are displayed
+        - Repeat with different selections to ensure the logic works correctly
+
+    6. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) if needed:
+        - Check why specific questions were shown or skipped
+        - Verify that product recommendations match user selections
+
+    By using skip logic, your quiz will only show relevant questions based on customer choices, creating a more personalized experience and more accurate product recommendations.
+
+=== "WooCommerce"
+
+    RevenueHunt Product Recommendation Quiz can use skip logic to show different follow-up questions based on customer choices. The quiz can skip irrelevant questions based on user selections, improving engagement and relevance.
+
+    Follow these steps to set up a funnel quiz with skip logic:
+
+    1. **Create Initial Question**: Create a multiple-choice question about the user's main concerns:
+        - Open the RevenueHunt Quiz Builder and create a new quiz
+        - Add a multiple-choice question asking about main concerns (e.g., skin concerns)
+        - Add options such as Acne, Pigmentation, Blackheads, Flaky Skin
+        - Enable 'Allow Multiple Selection' to let users select more than one option
+
+    2. **Add Follow-Up Questions**: For each main concern, add corresponding follow-up questions:
+        - Create a question for each option (e.g., Acne, Pigmentation, etc.)
+        - Ensure follow-up questions are set up in the same order as the options in the initial question
+        - Customize each follow-up question to be relevant to its specific concern
+
+    3. **Set Up Skip Logic**: Configure conditional logic for each follow-up question:
+        - Navigate to the Conditional Logic tab for each follow-up question
+        - Add rules to skip questions if the corresponding concern was not selected
+        - For example: If 'Skin Concerns' is not 'Acne', skip the Acne questions
+        - Repeat for each follow-up question and corresponding concern
+
+    4. **Link Products to Choices**: Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab within your quiz setup:
+        - For each choice, link relevant products (simple products, variable products, or grouped products)
+        - The quiz will count votes only from questions that were shown to the user
+
+    5. **Test the Quiz Logic**: After setting up questions and skip logic:
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz
+        - Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz in a new window
+        - Select multiple concerns to verify that only relevant follow-up questions are displayed
+        - Repeat with different selections to ensure the logic works correctly
+
+    6. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if needed:
+        - Check why specific questions were shown or skipped
+        - Verify that product recommendations match user selections
+
+    By using skip logic, your quiz will only show relevant questions based on customer choices, creating a more personalized experience and more accurate product recommendations.
+
+=== "Magento"
+
+    RevenueHunt Product Recommendation Quiz can use skip logic to show different follow-up questions based on customer choices. The quiz can skip irrelevant questions based on user selections, improving engagement and relevance.
+
+    Follow these steps to set up a funnel quiz with skip logic:
+
+    1. **Create Initial Question**: Create a multiple-choice question about the user's main concerns:
+        - Open the RevenueHunt Quiz Builder and create a new quiz
+        - Add a multiple-choice question asking about main concerns (e.g., skin concerns)
+        - Add options such as Acne, Pigmentation, Blackheads, Flaky Skin
+        - Enable 'Allow Multiple Selection' to let users select more than one option
+
+    2. **Add Follow-Up Questions**: For each main concern, add corresponding follow-up questions:
+        - Create a question for each option (e.g., Acne, Pigmentation, etc.)
+        - Ensure follow-up questions are set up in the same order as the options in the initial question
+        - Customize each follow-up question to be relevant to its specific concern
+
+    3. **Set Up Skip Logic**: Configure conditional logic for each follow-up question:
+        - Navigate to the Conditional Logic tab for each follow-up question
+        - Add rules to skip questions if the corresponding concern was not selected
+        - For example: If 'Skin Concerns' is not 'Acne', skip the Acne questions
+        - Repeat for each follow-up question and corresponding concern
+
+    4. **Link Products to Choices**: Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab within your quiz setup:
+        - For each choice, link relevant products or variants
+        - The quiz will count votes only from questions that were shown to the user
+
+    5. **Test the Quiz Logic**: After setting up questions and skip logic:
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz
+        - Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz in a new window
+        - Select multiple concerns to verify that only relevant follow-up questions are displayed
+        - Repeat with different selections to ensure the logic works correctly
+
+    6. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if needed:
+        - Check why specific questions were shown or skipped
+        - Verify that product recommendations match user selections
+
+    By using skip logic, your quiz will only show relevant questions based on customer choices, creating a more personalized experience and more accurate product recommendations.
+
+=== "BigCommerce"
+
+    RevenueHunt Product Recommendation Quiz can use skip logic to show different follow-up questions based on customer choices. The quiz can skip irrelevant questions based on user selections, improving engagement and relevance.
+
+    Follow these steps to set up a funnel quiz with skip logic:
+
+    1. **Create Initial Question**: Create a multiple-choice question about the user's main concerns:
+        - Open the RevenueHunt Quiz Builder and create a new quiz
+        - Add a multiple-choice question asking about main concerns (e.g., skin concerns)
+        - Add options such as Acne, Pigmentation, Blackheads, Flaky Skin
+        - Enable 'Allow Multiple Selection' to let users select more than one option
+
+    2. **Add Follow-Up Questions**: For each main concern, add corresponding follow-up questions:
+        - Create a question for each option (e.g., Acne, Pigmentation, etc.)
+        - Ensure follow-up questions are set up in the same order as the options in the initial question
+        - Customize each follow-up question to be relevant to its specific concern
+
+    3. **Set Up Skip Logic**: Configure conditional logic for each follow-up question:
+        - Navigate to the Conditional Logic tab for each follow-up question
+        - Add rules to skip questions if the corresponding concern was not selected
+        - For example: If 'Skin Concerns' is not 'Acne', skip the Acne questions
+        - Repeat for each follow-up question and corresponding concern
+
+    4. **Link Products to Choices**: Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab within your quiz setup:
+        - For each choice, link relevant products or variants
+        - The quiz will count votes only from questions that were shown to the user
+
+    5. **Test the Quiz Logic**: After setting up questions and skip logic:
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz
+        - Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz in a new window
+        - Select multiple concerns to verify that only relevant follow-up questions are displayed
+        - Repeat with different selections to ensure the logic works correctly
+
+    6. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if needed:
+        - Check why specific questions were shown or skipped
+        - Verify that product recommendations match user selections
+
+    By using skip logic, your quiz will only show relevant questions based on customer choices, creating a more personalized experience and more accurate product recommendations.
+
+=== "Standalone"
+
+    RevenueHunt Product Recommendation Quiz can use skip logic to show different follow-up questions based on customer choices. The quiz can skip irrelevant questions based on user selections, improving engagement and relevance.
+
+    Follow these steps to set up a funnel quiz with skip logic:
+
+    1. **Create Initial Question**: Create a multiple-choice question about the user's main concerns:
+        - Open the RevenueHunt Quiz Builder and create a new quiz
+        - Add a multiple-choice question asking about main concerns (e.g., skin concerns)
+        - Add options such as Acne, Pigmentation, Blackheads, Flaky Skin
+        - Enable 'Allow Multiple Selection' to let users select more than one option
+
+    2. **Add Follow-Up Questions**: For each main concern, add corresponding follow-up questions:
+        - Create a question for each option (e.g., Acne, Pigmentation, etc.)
+        - Ensure follow-up questions are set up in the same order as the options in the initial question
+        - Customize each follow-up question to be relevant to its specific concern
+
+    3. **Set Up Skip Logic**: Configure conditional logic for each follow-up question:
+        - Navigate to the Conditional Logic tab for each follow-up question
+        - Add rules to skip questions if the corresponding concern was not selected
+        - For example: If 'Skin Concerns' is not 'Acne', skip the Acne questions
+        - Repeat for each follow-up question and corresponding concern
+
+    4. **Link Products to Choices**: Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab within your quiz setup:
+        - For each choice, link relevant products or variants
+        - The quiz will count votes only from questions that were shown to the user
+
+    5. **Test the Quiz Logic**: After setting up questions and skip logic:
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz
+        - Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz in a new window
+        - Select multiple concerns to verify that only relevant follow-up questions are displayed
+        - Repeat with different selections to ensure the logic works correctly
+
+    6. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if needed:
+        - Check why specific questions were shown or skipped
+        - Verify that product recommendations match user selections
+
+    By using skip logic, your quiz will only show relevant questions based on customer choices, creating a more personalized experience and more accurate product recommendations.
 
 
 

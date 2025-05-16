@@ -66,7 +66,7 @@ Show different follow-up questions based on customer choices in a multiple-choic
 
 !!! tip "How to set this up?"
 
-    Check out the [Skip Logic Quiz](/how-to-guides/hide-content-with-logic/#skip-logic-how-to-show-custom-text-in-the-quiz) guide.
+    Check out the [Skip Logic Quiz](/how-to-guides/hide-content-with-logic/#skip-logic-how-to-show-custom-text-in-the-quiz) and [Funnel Quiz that Skips Slides](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides) guides.
 
 ### Funnel Quiz that Shows Custom Text Based on Choices
 
