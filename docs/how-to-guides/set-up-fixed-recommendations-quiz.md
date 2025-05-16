@@ -6,9 +6,11 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
     - Good for complex branching quizzes with multiple very precise outcomes and product recommendations.
 
+    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
+
 ## One Results Page 
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/a83d8d15f00a4bfb9adf5f76aeadee83?sid=823442a4-3bb0-412a-8fe6-30ee138c17b2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/316e4dcc9db14812a76ace51e85b6fe5?sid=cdb69306-37dd-4331-8e76-aeb763351f12" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 **Option 1:** Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Block Logic display rules.
 
