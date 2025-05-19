@@ -236,7 +236,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         1. To create a new segment in Klaviyo go to `Audience > List & Segements` and click `create a new Segment`.
         2. Name the segment and set up the definition.
-        3. The `ANSWERS-{{quiz_id}}` property is unique for profiles coming from the quiz. If you don’t see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
+        3. The `ANSWERS_BY_BLOCK-{{quiz_id}}` property is unique for profiles coming from the quiz. If you don’t see the ANSWERS_BY_BLOCK property in the dropdown menu, you may need to take a test quiz and try again.
         4. Click `Create a segment`. Now all the contacts coming from the quiz will also be added to this specific segment.
 
     5. **Create an Email Flow**: You’ll have to create a flow that is triggered when someone gets added to the segment we created in the previous step. This is the trickiest part, the emails you send have to be custom-built in Klaviyo. 
@@ -468,7 +468,10 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     6. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
     8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
-    9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+
+        !!! warning
+            Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+
     10. Save the changes and publish them with the top-right `Publish` button.
     11. Remember to test the connection with a sample email.
 
@@ -488,7 +491,10 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         ![how to klaviyo shopify v2 private api](/images/how_to_klaviyo_shopify_v2_private_api.png)
     8. If you go back to the [Quiz Builder > Email Block Settings]() you will now see an new Klaviyo-related menu. Choose and select a list that contacts should be added to.
         ![how to klaviyo shopify v2 email question settings](/images/how_to_klaviyo_shopify_v2_email_question_settings.png)
-    9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+
+        !!! warning
+            Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+
     10. Save the changes and publish them with the top-right `Save` button.
     11. Remember to test the connection with a sample email.
 
@@ -506,7 +512,10 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     6. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
     8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
-    9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+
+        !!! warning
+            Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+
     10. Save the changes and publish them with the top-right `Publish` button.
     11. Remember to test the connection with a sample email.
 
@@ -524,7 +533,10 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     6. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
     8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
-    9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+
+        !!! warning
+            Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+
     10. Save the changes and publish them with the top-right `Publish` button.
     11. Remember to test the connection with a sample email.
 
@@ -542,7 +554,10 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     6. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
     8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
-    9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+
+        !!! warning
+            Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+
     10. Save the changes and publish them with the top-right `Publish` button.
     11. Remember to test the connection with a sample email.
 
@@ -560,7 +575,10 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     6. In the Quiz [Connect](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
     8. Choose to `mark all profiles as true` and select a list that contacts should be added to.
-    9. Keep in mind that contacts from the quiz can be added only to a [`Single Opt-in`](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+
+        !!! warning
+            Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+            
     10. Save the changes and publish them with the top-right `Publish` button.
     11. Remember to test the connection with a sample email.
 
