@@ -126,7 +126,7 @@ In RevenueHunt app, it is possible to apply a discount at checkout only for the 
 
     !!! tip
 
-        To learn more about Jump Logic, check [this article]().
+        To learn more about Jump Logic, check [this article](/how-to-guides/use-jump-logic/).
 
 6. **FIRST JUMP LOGIC – DISCOUNT QUESTION**: To add Jump Logic to the discount question, click the `conditional logic` button. In the `Jump Logic` menu, select `Add Jump Logic`. Add the following logic condition:
     ![how to add discount jump logic 1](/images/how_to_add_discount_jump_logic_1.png)

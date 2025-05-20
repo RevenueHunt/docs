@@ -3896,7 +3896,7 @@
 
     - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
     **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
@@ -3910,7 +3910,7 @@
 
     **Discount [A]** 
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
     - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
@@ -3938,7 +3938,7 @@
 
     - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
     **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
@@ -3952,7 +3952,7 @@
 
     **Discount [A]** 
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
     - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
@@ -3976,7 +3976,7 @@
 
     - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
     **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
@@ -3990,7 +3990,7 @@
 
     **Discount [A]** 
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
     - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
@@ -4014,7 +4014,7 @@
 
     - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
     **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
@@ -4028,7 +4028,7 @@
 
     **Discount [A]** 
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
     - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
@@ -4052,7 +4052,7 @@
 
     - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
     **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
@@ -4066,7 +4066,7 @@
 
     **Discount [A]** 
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
     - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
@@ -4090,7 +4090,7 @@
 
     - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
     **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
@@ -4104,7 +4104,7 @@
 
     **Discount [A]** 
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz]().
+    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
     - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
@@ -4166,7 +4166,7 @@
 
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
-    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
     **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
@@ -4174,7 +4174,7 @@
 
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
-    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
@@ -4210,7 +4210,7 @@
 
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
-    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
     **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
@@ -4218,7 +4218,7 @@
 
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
-    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
@@ -4242,7 +4242,7 @@
 
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
-    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
     **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
@@ -4250,7 +4250,7 @@
 
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
-    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
@@ -4274,7 +4274,7 @@
 
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
-    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
     **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
@@ -4282,7 +4282,7 @@
 
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
-    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
@@ -4306,7 +4306,7 @@
 
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
-    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
     **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
@@ -4314,7 +4314,7 @@
 
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
-    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
@@ -5911,7 +5911,7 @@
 
     ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
 
-    To open the responses sections, go back to the [dashboard](). Pick a quiz and click the `...` to open the quiz menu. From the list pick and click on `Responses`.
+    To open the responses sections, go back to the [dashboard](/reference/dashboard/). Pick a quiz and click the `...` to open the quiz menu. From the list pick and click on `Responses`.
 
     In the Responses section you will find a list of the latest quiz responses sorted by date.
 

@@ -489,7 +489,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     6. In the Quiz [Integrations](/reference/quiz-builder/connect-integrations/) tab scroll to Klaviyo and edit the connection.
     7. Paste your Private API Key.
         ![how to klaviyo shopify v2 private api](/images/how_to_klaviyo_shopify_v2_private_api.png)
-    8. If you go back to the [Quiz Builder > Email Block Settings]() you will now see an new Klaviyo-related menu. Choose and select a list that contacts should be added to.
+    8. If you go back to the [Quiz Builder > Email Block Settings](/reference/quiz-builder/questions/#email) you will now see an new Klaviyo-related menu. Choose and select a list that contacts should be added to.
         ![how to klaviyo shopify v2 email question settings](/images/how_to_klaviyo_shopify_v2_email_question_settings.png)
 
         !!! warning

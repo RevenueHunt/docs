@@ -110,7 +110,7 @@ icon: material/download
     1. Navigate to our [BigCommerce Marketplace listing](https://admin.revenuehunt.com/bc/affiliate_code), find **Product Recommendation Quiz** and click on `get this app`.
     2. Grant permission to connect our app to your BigCommerce store. 
     3. In your BigCommerce dashboard, go to `Apps` and click on our app.
-    4. Follow the [Success Checklist]() to create and publish your quiz.
+    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
     5. Drive traffic to your quiz and start getting sales and leads!
 
 === "Standalone"

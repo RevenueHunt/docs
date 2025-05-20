@@ -82,7 +82,7 @@
 
     ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
 
-    To open the responses sections, go back to the [dashboard](). Pick a quiz and click the `...` to open the quiz menu. From the list pick and click on `Responses`.
+    To open the responses sections, go back to the [dashboard](/reference/dashboard/). Pick a quiz and click the `...` to open the quiz menu. From the list pick and click on `Responses`.
 
     In the Responses section you will find a list of the latest quiz responses sorted by date.
 

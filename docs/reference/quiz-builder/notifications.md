@@ -46,7 +46,7 @@
 
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
-    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
     **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
@@ -54,7 +54,7 @@
 
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
-    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
@@ -98,7 +98,7 @@
 
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
-    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
     **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
@@ -106,7 +106,7 @@
 
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
-    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
@@ -130,7 +130,7 @@
 
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
-    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
     **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
@@ -138,7 +138,7 @@
 
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
-    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
@@ -162,7 +162,7 @@
 
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
-    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
     **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
@@ -170,7 +170,7 @@
 
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
-    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
@@ -194,7 +194,7 @@
 
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
-    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
+    **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
     **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
 
@@ -202,7 +202,7 @@
 
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
 
-    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
+    - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 

@@ -5,7 +5,7 @@ Automating the transfer of quiz results to your Mailchimp account streamlines th
 !!! warning "Important Considerations"
 
     - **Limited Data Transfer**: Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
-    - **Alternative Services**: For functionality beyond basic data transfer, platforms like [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) or [Omnisend]() are recommended. These services offer more robust integration options for personalized follow-ups.
+    - **Alternative Services**: For functionality beyond basic data transfer, platforms like [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) or [Omnisend](/how-to-guides/send-leads-to-omnisend/) are recommended. These services offer more robust integration options for personalized follow-ups.
 
 Before you begin, ensure you have:
 

@@ -272,8 +272,8 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/qu
 
     If you don't want to display dynamic recommendations based on customer responses, you can set up fixed recommendations on your Results Page. 
 
-    1. **Open the Results Page**: Navigate to the [Results Page tab]().
-    2. **Add a Product Block**: Add a [Product Block]() to your Results Page.
+    1. **Open the Results Page**: Navigate to the [Results Page](/reference/quiz-builder/results-page/).
+    2. **Add a Product Block**: Add a [Product Block](/tutorials/playlist-one-minute-tutorials/#editing-the-results-page-adding-product-blocks-adding-logos-using-markdown-language) to your Results Page.
     3. **Set Fixed Recommendations**: In the [Product Block Settings] set the Recommendations System to `Fixed Recommendations`.
 
         ![how to recommend products shopify v2 recommend fixed products](/images/how_to_recommend_products_shopify_v2_recommend_fixed_products.png)
