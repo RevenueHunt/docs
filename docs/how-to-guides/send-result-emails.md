@@ -6,7 +6,7 @@ icon: material/email-heart-outline
 
 Email results notifications enhance customer engagement by following up with participants of your Product Recommendation Quiz. 
 
-This guide covers setting up email results for both [quiz respondents](#email-quiz-results-via-shop-quiz-app) and [administartors](#activate-email-notifications-to-admin) and well as sending resutls emails via an [external CRM service](/how-to-guides/send-leads-to-crm/).
+This guide covers setting up email results for both [quiz respondents](#email-quiz-results-via-shop-quiz-app) and [administartors](#activate-email-notifications-to-admin) and well as sending results emails via an [external CRM service](/how-to-guides/send-leads-to-crm/).
 
 
 !!! warning
@@ -40,7 +40,7 @@ Follow the step by step instructions below to active and edit the result emails 
     1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
     2. **Activate Respondent Emails**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle the `Send email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they recieve the resutls.
+    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they recieve the results.
     4. **Email TO**: If you have more than one email question in your quiz, choose an answer to which email question should be used to send the result emails. If you have only one email question, it will be selected by default.
     5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
     5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
@@ -68,7 +68,7 @@ Follow the step by step instructions below to active and edit the result emails 
     1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
     2. **Activate Respondent Emails**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and check the `Send email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
-    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they recieve the resutls.
+    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they recieve the results.
     4. **Email TO**: Choose an answer to which email question should be used to send the result emails to.
     5. **Email Subject**: Edit the title of the email that customers will receive. 
     5. **Edit Email Content**: Configure the email your customers will receive. Email template requires the knowledge of HTML and liquid to be edited. You can find *useful code snippets* in a field below. Click on an item below to copy the code snippets to customize the Liquid email template. For example, you can use the `items list snippet` to display the recommended products in the email or the `responses by block snippet` to display the customer answers. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use liquid code to loop through and display recommended products or customize content based on quiz outcomes. 
@@ -100,7 +100,7 @@ Follow the step by step instructions below to active and edit the result emails 
     1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
     2. **Activate Respondent Emails**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle the `Send email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they recieve the resutls.
+    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they recieve the results.
     4. **Email TO**: If you have more than one email question in your quiz, choose an answer to which email question should be used to send the result emails. If you have only one email question, it will be selected by default.
     5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
     5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
@@ -128,7 +128,7 @@ Follow the step by step instructions below to active and edit the result emails 
     1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
     2. **Activate Respondent Emails**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle the `Send email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they recieve the resutls.
+    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they recieve the results.
     4. **Email TO**: If you have more than one email question in your quiz, choose an answer to which email question should be used to send the result emails. If you have only one email question, it will be selected by default.
     5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
     5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
@@ -156,7 +156,7 @@ Follow the step by step instructions below to active and edit the result emails 
     1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
     2. **Activate Respondent Emails**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle the `Send email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they recieve the resutls.
+    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they recieve the results.
     4. **Email TO**: If you have more than one email question in your quiz, choose an answer to which email question should be used to send the result emails. If you have only one email question, it will be selected by default.
     5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
     5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
@@ -184,7 +184,7 @@ Follow the step by step instructions below to active and edit the result emails 
     1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
     2. **Activate Respondent Emails**: Go to [`Notifications > TO RESPONDENT`](/reference/quiz-builder/notifications/#to-respondent) and toggle the `Send email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they recieve the resutls.
+    3. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they recieve the results.
     4. **Email TO**: If you have more than one email question in your quiz, choose an answer to which email question should be used to send the result emails. If you have only one email question, it will be selected by default.
     5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
     5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.

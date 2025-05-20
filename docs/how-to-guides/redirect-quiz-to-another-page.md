@@ -70,7 +70,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 ## Redirecting to a Custom Results Page via Callback Function
 
-You can use our [callback function](/how-to-guides/use-callback-function/) to redirect the customers to another (custom-built) Results Page. This allows for greater flexibility in handling quiz data and customizing the quiz resutls look.
+You can use our [callback function](/how-to-guides/use-callback-function/) to redirect the customers to another (custom-built) Results Page. This allows for greater flexibility in handling quiz data and customizing the quiz results look.
 
 === "Shopify"
 

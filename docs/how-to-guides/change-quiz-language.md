@@ -528,7 +528,7 @@ icon: material/translate-variant
 
 === "Shopify V2"
 
-    No extra steps are necessary in this version of the RevenueHunt Product Recommendation Quiz. The quiz will display the right products on the resutls page based on the market the quiz was assigned to.
+    No extra steps are necessary in this version of the RevenueHunt Product Recommendation Quiz. The quiz will display the right products on the results page based on the market the quiz was assigned to.
 
 === "WooCommerce"
 

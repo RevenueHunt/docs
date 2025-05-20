@@ -70,13 +70,13 @@ Show different follow-up questions based on customer choices in a multiple-choic
 
 ### Funnel Quiz that Shows Custom Text Based on Choices
 
-Show or hide different text blocks on the results page. This approach requires predicting every possible answering route and adding block logic rules for each text block. 
+Show or hide different text blocks on the results page. This approach requires predicting every possible answering route and adding display logic rules for each text block. 
 
 ![how_to_shopify_v2_recommendations_funnel_blocklogic](/images/how_to_shopify_v2_recommendations_funnel_blocklogic.png)
 
 !!! tip "How to set this up?"
 
-    Check out the [Block Logic Quiz](/how-to-guides/hide-content-with-logic/#block-logic-how-to-show-custom-text-on-the-results-page) guide.
+    Check out the [Display Logic Quiz](/how-to-guides/hide-content-with-logic/#block-logic-how-to-show-custom-text-on-the-results-page) guide.
 
 !!! warning "Not recommended for personality-type quizzes"
 
@@ -93,7 +93,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 ### One Results Page 
 
-**Option 1:** Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Block Logic display rules.
+**Option 1:** Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
 
 ![docs/images/how_to_shopify_v2_recommendations_blocklogic.png](/images/how_to_shopify_v2_recommendations_blocklogic.png)
 
@@ -103,7 +103,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 ### Multiple Results Pages
 
-**Option 2:** Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent resutls pages.	
+**Option 2:** Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent results pages.	
 
 ![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png)
 

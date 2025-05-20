@@ -277,7 +277,7 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/qu
     3. **Set Fixed Recommendations**: In the [Product Block Settings] set the Recommendations System to `Fixed Recommendations`.
 
         ![how to recommend products shopify v2 recommend fixed products](/images/how_to_recommend_products_shopify_v2_recommend_fixed_products.png)
-    4. **Select Recommended Products**: In Slot Settings > Fixed recommended itents select the products, variants of collections that should be always recommended to the customer on the resutls page. 
+    4. **Select Recommended Products**: In Slot Settings > Fixed recommended items select the products, variants of collections that should be always recommended to the customer on the results page. 
 
         ![how to recommend products shopify v2 recommend fixed products slot settings](/images/how_to_recommend_products_shopify_v2_recommend_fixed_products_slot_settings.png)
     5. **Save the changes**: Remember to save the changes to update the preview/live quiz.

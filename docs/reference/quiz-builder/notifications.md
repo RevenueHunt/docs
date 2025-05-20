@@ -44,7 +44,7 @@
 
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
 
-    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
@@ -96,7 +96,7 @@
 
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
 
-    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
@@ -128,7 +128,7 @@
 
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
 
-    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
@@ -160,7 +160,7 @@
 
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
 
-    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
@@ -192,7 +192,7 @@
 
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
 
-    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 

@@ -140,7 +140,7 @@
 
     - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 === "Shopify V2"
 
@@ -204,7 +204,7 @@
 
     - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 === "Magento"
 
@@ -228,7 +228,7 @@
 
     - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 === "BigCommerce"
 
@@ -252,7 +252,7 @@
 
     - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 === "Standalone"
 
@@ -276,7 +276,7 @@
 
     - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 ### My Themes
 

@@ -1221,7 +1221,7 @@
 
     ![quiz builder link collections exclude](/images/manual_quizbuilder_linkcollections_exclude.png)
 
-    Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+    Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the results page, even if they were upvoted in another choice earlier/later.
 
     **Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
@@ -1251,7 +1251,7 @@
 
     !!! warning
 
-        Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later
+        Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the results page, even if it was upvoted in another choice earlier/later
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_select](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_select.png)
 
@@ -1285,7 +1285,7 @@
 
     ![quiz builder link collections exclude](/images/manual_woo_quizbuilder_linkcategories_excludecategories.png)
 
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
 
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
@@ -1315,7 +1315,7 @@
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
 
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
@@ -1345,7 +1345,7 @@
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
 
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
@@ -1379,7 +1379,7 @@
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
 
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
@@ -1409,7 +1409,7 @@
 
     ![quiz builder link products exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
 
-    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
+    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the results page, even if it was upvoted in another choice earlier/later.
 
     **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
@@ -2322,7 +2322,7 @@
 
     - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 === "Shopify V2"
 
@@ -2386,7 +2386,7 @@
 
     - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 === "Magento"
 
@@ -2410,7 +2410,7 @@
 
     - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 === "BigCommerce"
 
@@ -2434,7 +2434,7 @@
 
     - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 === "Standalone"
 
@@ -2458,7 +2458,7 @@
 
     - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 ### My Themes
 
@@ -2622,7 +2622,7 @@
 
 === "Shopify"
 
-    **+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
+    **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
 
     ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
@@ -2664,7 +2664,7 @@
 
 === "WooCommerce"
 
-    **+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
+    **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
 
     ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
@@ -2684,7 +2684,7 @@
 
 === "Magento"
 
-    **+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
+    **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
 
     ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
@@ -2704,7 +2704,7 @@
 
 === "BigCommerce"
 
-    **+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
+    **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
 
     ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
@@ -2724,7 +2724,7 @@
 
 === "Standalone"
 
-    **+** / **add block** - Opens a menu of content blocks that you can add to your resutls page. You can drag an drop the blocks to change the order.
+    **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
 
     ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
@@ -2742,21 +2742,21 @@
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-### Block Logic / Section Logic
+### Display Logic / Section Logic
 
 === "Shopify"
 
-    **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+    **conditional logic** / **tree icon** - Opens the [Display Logic](#block-logic) menu.
 
-    ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
 
-    With Block Logic you can make blocks visible or hidden based on customer's responses.
+    With Display Logic you can make blocks visible or hidden based on customer's responses.
 
-    **Add Block Logic** - Adds a new block logic rule.
+    **Add Display Logic** - Adds a new display logic rule.
 
     !!! info
 
-        All the Block Logic rules follow the same format
+        All the Display Logic rules follow the same format
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
@@ -2765,39 +2765,39 @@
 
     !!! example
 
-        ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-    - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+    - **+** - Adds another Display Logic rule. Adds a new OR logical rule.
 
-    - **bin** - Delete the current Block Logic rule.
+    - **bin** - Delete the current Display Logic rule.
 
     - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
     **...** - Opens the more options menu.
 
-    ![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+    ![quiz builder results page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
 
     - **+ add block below** - Opens the **+** / **add block** menu.
 
-    - **bin** / **delete block** - Deletes the current block from the resutls page.
+    - **bin** / **delete block** - Deletes the current block from the results page.
 
 === "Shopify V2"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic.png)
 
-    With Block Logic you can make blocks visible or hidden based on customer's responses.
+    With Display Logic you can make blocks visible or hidden based on customer's responses.
 
     **Display logic**
 
-    **+ Add logic condition (OR)** - Adds a new OR block logic rule.
+    **+ Add logic condition (OR)** - Adds a new OR display logic rule.
 
     **Default** - Select whether this section should be `Shown` or `Hidden` by default.
 
     !!! info
 
-        All the Block Logic rules follow the same format
+        All the Display Logic rules follow the same format
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
@@ -2814,21 +2814,21 @@
 
     - **bin** - Delete the current Logic rule.
     
-    - **+ Add condition (OR)** - Adds another Block Logic rule. Adds a new OR logical rule.
+    - **+ Add condition (OR)** - Adds another Display Logic rule. Adds a new OR logical rule.
 
 === "WooCommerce"
 
-    **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+    **conditional logic** / **tree icon** - Opens the [Display Logic](#block-logic) menu.
 
-    ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
 
-    With Block Logic you can make blocks visible or hidden based on customer's responses.
+    With Display Logic you can make blocks visible or hidden based on customer's responses.
 
-    **Add Block Logic** - Adds a new block logic rule.
+    **Add Display Logic** - Adds a new display logic rule.
 
     !!! info
 
-        All the Block Logic rules follow the same format
+        All the Display Logic rules follow the same format
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
@@ -2837,37 +2837,37 @@
 
     !!! example
 
-        ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-    - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+    - **+** - Adds another Display Logic rule. Adds a new OR logical rule.
 
-    - **bin** - Delete the current Block Logic rule.
+    - **bin** - Delete the current Display Logic rule.
 
     - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
     **...** - Opens the more options menu.
 
-    ![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+    ![quiz builder results page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
 
     - **+ add block below** - Opens the **+** / **add block** menu.
 
-    - **bin** / **delete block** - Deletes the current block from the resutls page.
+    - **bin** / **delete block** - Deletes the current block from the results page.
 
 === "Magento"
 
-    **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+    **conditional logic** / **tree icon** - Opens the [Display Logic](#block-logic) menu.
 
-    ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
 
-    With Block Logic you can make blocks visible or hidden based on customer's responses.
+    With Display Logic you can make blocks visible or hidden based on customer's responses.
 
-    **Add Block Logic** - Adds a new block logic rule.
+    **Add Display Logic** - Adds a new display logic rule.
 
     !!! info
 
-        All the Block Logic rules follow the same format
+        All the Display Logic rules follow the same format
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
@@ -2876,37 +2876,37 @@
 
     !!! example
 
-        ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-    - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+    - **+** - Adds another Display Logic rule. Adds a new OR logical rule.
 
-    - **bin** - Delete the current Block Logic rule.
+    - **bin** - Delete the current Display Logic rule.
 
     - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
     **...** - Opens the more options menu.
 
-    ![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+    ![quiz builder results page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
 
     - **+ add block below** - Opens the **+** / **add block** menu.
 
-    - **bin** / **delete block** - Deletes the current block from the resutls page.
+    - **bin** / **delete block** - Deletes the current block from the results page.
 
 === "BigCommerce"
 
-    **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+    **conditional logic** / **tree icon** - Opens the [Display Logic](#block-logic) menu.
 
-    ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
 
-    With Block Logic you can make blocks visible or hidden based on customer's responses.
+    With Display Logic you can make blocks visible or hidden based on customer's responses.
 
-    **Add Block Logic** - Adds a new block logic rule.
+    **Add Display Logic** - Adds a new display logic rule.
 
     !!! info
 
-        All the Block Logic rules follow the same format
+        All the Display Logic rules follow the same format
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
@@ -2915,37 +2915,37 @@
 
     !!! example
 
-        ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-    - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+    - **+** - Adds another Display Logic rule. Adds a new OR logical rule.
 
-    - **bin** - Delete the current Block Logic rule.
+    - **bin** - Delete the current Display Logic rule.
 
     - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
     **...** - Opens the more options menu.
 
-    ![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+    ![quiz builder results page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
 
     - **+ add block below** - Opens the **+** / **add block** menu.
 
-    - **bin** / **delete block** - Deletes the current block from the resutls page.
+    - **bin** / **delete block** - Deletes the current block from the results page.
 
 === "Standalone"
 
-    **conditional logic** / **tree icon** - Opens the [Block Logic](#block-logic) menu.
+    **conditional logic** / **tree icon** - Opens the [Display Logic](#block-logic) menu.
 
-    ![quiz builder resutls page block logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
 
-    With Block Logic you can make blocks visible or hidden based on customer's responses.
+    With Display Logic you can make blocks visible or hidden based on customer's responses.
 
-    **Add Block Logic** - Adds a new block logic rule.
+    **Add Display Logic** - Adds a new display logic rule.
 
     !!! info
 
-        All the Block Logic rules follow the same format
+        All the Display Logic rules follow the same format
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
@@ -2954,23 +2954,23 @@
 
     !!! example
 
-        ![quiz builder resutls page block logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-    - **+** - Adds another Block Logic rule. Adds a new OR logical rule.
+    - **+** - Adds another Display Logic rule. Adds a new OR logical rule.
 
-    - **bin** - Delete the current Block Logic rule.
+    - **bin** - Delete the current Display Logic rule.
 
     - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
     **...** - Opens the more options menu.
 
-    ![quiz builder resutls page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+    ![quiz builder results page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
 
     - **+ add block below** - Opens the **+** / **add block** menu.
 
-    - **bin** / **delete block** - Deletes the current block from the resutls page.
+    - **bin** / **delete block** - Deletes the current block from the results page.
 
 ### Block Settings
 
@@ -2992,7 +2992,7 @@
 
     **Slot Block Settings** 
 
-    ![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+    ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
     - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
 
@@ -3148,7 +3148,7 @@
 
     **Slot Block Settings** 
 
-    ![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+    ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
     - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
 
@@ -3184,7 +3184,7 @@
 
     **Slot Block Settings** 
 
-    ![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+    ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
     - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
 
@@ -3220,7 +3220,7 @@
 
     **Slot Block Settings** 
 
-    ![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+    ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
     - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
 
@@ -3256,7 +3256,7 @@
 
     **Slot Block Settings** 
 
-    ![quiz builder resutls page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+    ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
     - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
 
@@ -3296,7 +3296,7 @@
 
     **Show unavailable products** - Check this option to allow out-of-stock products to be displayed on the results page.
 
-    **Custom CSS Code** - Add custom CSS code to this resutls page only.
+    **Custom CSS Code** - Add custom CSS code to this results page only.
 
     **Custom JS code** - Add custom JavaScript to this results page only.
 
@@ -3330,7 +3330,7 @@
 
 === "Shopify"
 
-    ![quiz builder resutls page resutls page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
+    ![quiz builder results page results page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
 
     - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page.
 
@@ -3394,7 +3394,7 @@
 
 === "Shopify"
 
-    ![quiz builder resutls page resutls page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
+    ![quiz builder results page results page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
 
     - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
 
@@ -3445,9 +3445,9 @@
 
     **Style Settings**
 
-    ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
+    ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    **Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    **Background image** - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
     - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
@@ -3455,7 +3455,7 @@
 
 === "WooCommerce"
 
-    ![quiz builder resutls page resutls page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
+    ![quiz builder results page results page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
 
     - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
 
@@ -3506,9 +3506,9 @@
 
     **Style Settings**
 
-    ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
+    ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    **Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    **Background image** - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
     - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
@@ -3550,9 +3550,9 @@
 
     **Style Settings**
 
-    ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
+    ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    **Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    **Background image** - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
     - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
@@ -3592,9 +3592,9 @@
 
     **Style Settings**
 
-    ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
+    ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    **Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    **Background image** - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
     - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
@@ -3632,9 +3632,9 @@
 
     **Style Settings**
 
-    ![quiz builder resutls page resutls page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
+    ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    **Background image** - Click "Add" to upload a background image to the resutls page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    **Background image** - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
     - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
@@ -3642,7 +3642,7 @@
 
 === "Shopify"
 
-    ![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
+    ![quiz builder results page results page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
 
     **Recommendation Settings**
 
@@ -3650,7 +3650,7 @@
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
 
     **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
@@ -3672,7 +3672,7 @@
 
 === "WooCommerce"
 
-    ![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
+    ![quiz builder results page results page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
 
     **Recommendation Settings**
 
@@ -3680,7 +3680,7 @@
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
 
     **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
@@ -3700,7 +3700,7 @@
 
 === "Magento"
 
-    ![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
+    ![quiz builder results page results page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
 
     **Recommendation Settings**
 
@@ -3708,7 +3708,7 @@
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
 
     **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
@@ -3728,7 +3728,7 @@
 
 === "BigCommerce"
 
-    ![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
+    ![quiz builder results page results page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
 
     **Recommendation Settings**
 
@@ -3736,7 +3736,7 @@
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
 
     **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
@@ -3756,7 +3756,7 @@
 
 === "Standalone"
 
-    ![quiz builder resutls page resutls page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
+    ![quiz builder results page results page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
 
     **Recommendation Settings**
 
@@ -3764,7 +3764,7 @@
 
     **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the resutls page will be random.
+    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
 
     **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
@@ -3786,7 +3786,7 @@
 
 === "Shopify"
 
-    ![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
+    ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
     **Results Page 1** 
 
@@ -3806,7 +3806,7 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
 
-    **+ Add results page** - Click to add an extra resutls page to your quiz. Each results page can have different settings and content.
+    **+ Add results page** - Click to add an extra results page to your quiz. Each results page can have different settings and content.
 
     !!! note
 
@@ -3814,7 +3814,7 @@
 
 === "WooCommerce"
 
-    ![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
+    ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
     **Results Page 1** 
 
@@ -3832,7 +3832,7 @@
 
 === "Magento"
 
-    ![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
+    ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
     **Results Page 1** 
 
@@ -3850,7 +3850,7 @@
 
 === "BigCommerce"
 
-    ![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
+    ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
     **Results Page 1** 
 
@@ -3868,7 +3868,7 @@
 
 === "Standalone"
 
-    ![quiz builder resutls page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
+    ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
     **Results Page 1** 
 
@@ -3888,7 +3888,7 @@
 
 === "Shopify"
 
-    ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+    ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
     **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
@@ -3930,7 +3930,7 @@
 
 === "WooCommerce"
 
-    ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+    ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
     **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
@@ -3968,7 +3968,7 @@
 
 === "Magento"
 
-    ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+    ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
     **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
@@ -4006,7 +4006,7 @@
 
 === "BigCommerce"
 
-    ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+    ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
     **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
@@ -4044,7 +4044,7 @@
 
 === "BigCommerce"
 
-    ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+    ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
     **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
@@ -4082,7 +4082,7 @@
 
 === "Standalone"
 
-    ![quiz builder resutls page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
+    ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
     **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
@@ -4164,7 +4164,7 @@
 
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
 
-    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
@@ -4208,7 +4208,7 @@
 
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
 
-    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
@@ -4240,7 +4240,7 @@
 
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
 
-    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
@@ -4272,7 +4272,7 @@
 
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
 
-    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
@@ -4304,7 +4304,7 @@
 
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
 
-    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the resutls.
+    **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls]() to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
@@ -5707,7 +5707,7 @@
 
     - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the resutls page. Toggle to activate.
+    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
     - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
 
@@ -5737,7 +5737,7 @@
 
     - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the resutls page. Toggle to activate.
+    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
     - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
 
@@ -5765,7 +5765,7 @@
 
     - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the resutls page. Toggle to activate.
+    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
     - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
 
@@ -5793,7 +5793,7 @@
 
     - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the resutls page. Toggle to activate.
+    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
     - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
 
@@ -5821,7 +5821,7 @@
 
     - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the resutls page. Toggle to activate.
+    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
     - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
 

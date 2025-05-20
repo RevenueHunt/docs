@@ -24,7 +24,7 @@
 
     ![quiz builder link products exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
 
-    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later.
+    Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the results page, even if it was upvoted in another choice earlier/later.
 
     **Missing products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 
@@ -50,7 +50,7 @@
 
     !!! warning
 
-        Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later
+        Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the results page, even if it was upvoted in another choice earlier/later
 
     In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
 

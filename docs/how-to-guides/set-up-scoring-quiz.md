@@ -127,7 +127,7 @@ Follow these steps to set up a scoring quiz with one results page:
     
         Add multiple content blocks describing the specific skin type and its challenges. For example:
 
-        ![how to hide content with logic shopifyv2 block logic sections](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_sections.png)
+        ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_sections.png)
 
         !!! example
 
@@ -211,7 +211,7 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
     3. **Create Multiple Results Pages**: Go to the [Results Page](/reference/quiz-builder/results-page/) section and click `+ Add Results Page` to create additional results pages. Create one results page for each possible outcome.
 
-        ![how_to_shopifyv2_scoringquiz_multiresutlspages](/images/how_to_shopifyv2_scoringquiz_multiresutlspages.png)
+        ![how_to_shopifyv2_scoringquiz_multiresultspages](/images/how_to_shopifyv2_scoringquiz_multiresultspages.png)
 
         !!! example
 
@@ -226,7 +226,7 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
         To each results page add a section with content describing the specific skin type and its challenges. For example:
 
-        ![how to hide content with logic shopifyv2 block logic sections](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_sections.png)
+        ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_sections.png)
 
         !!! example
 
@@ -245,7 +245,7 @@ Follow these steps to set up a scoring quiz with multiple results pages:
         - Select `The variable with the highest score...` or `The score of the variable...` option
         - Set up range conditions to control which results page the user will be directed to
 
-        ![how_to_shopifyv2_scoringquiz_multiresutlspages_logic](/images/how_to_shopifyv2_scoringquiz_multiresutlspages_logic.png)
+        ![how_to_shopifyv2_scoringquiz_multiresultspages_logic](/images/how_to_shopifyv2_scoringquiz_multiresultspages_logic.png)
 
         !!! example
 

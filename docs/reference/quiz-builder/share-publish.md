@@ -597,7 +597,7 @@
 
     - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the resutls page. Toggle to activate.
+    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
     - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
 
@@ -627,7 +627,7 @@
 
     - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the resutls page. Toggle to activate.
+    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
     - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
 
@@ -655,7 +655,7 @@
 
     - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the resutls page. Toggle to activate.
+    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
     - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
 
@@ -683,7 +683,7 @@
 
     - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the resutls page. Toggle to activate.
+    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
     - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
 
@@ -711,7 +711,7 @@
 
     - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the resutls page. Toggle to activate.
+    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
     - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
 

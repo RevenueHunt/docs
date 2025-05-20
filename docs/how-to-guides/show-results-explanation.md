@@ -13,7 +13,7 @@ If you want to show different text results depending on the recommended products
 
 1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-2. **Block Logic**: [Block Logic](/reference/quiz-builder/conditional-logic/#block-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance on setting up Block Logic, see [here](/how-to-guides/use-block-logic/). 
+2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#block-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance on setting up Display Logic, see [here](/how-to-guides/use-block-logic/). 
 
     !!! tip
     
@@ -63,9 +63,9 @@ If you want to show different text results depending on the recommended products
 
         ---
 
-        **Step 3: Displaying Skin Type Text Results with Block Logic**
+        **Step 3: Displaying Skin Type Text Results with Display Logic**
 
-        If you want to display a text summary, like "You have Dry/Oily/Combination/Normal skin," use **Block Logic** to conditionally show content blocks based on customer answers.  
+        If you want to display a text summary, like "You have Dry/Oily/Combination/Normal skin," use **Display Logic** to conditionally show content blocks based on customer answers.  
 
         **Example Setup:**
 
@@ -80,9 +80,9 @@ If you want to show different text results depending on the recommended products
 
         ![how to show results explenation personalityquiz1](/images/how_to_show_results_explenation_personalityquiz1.png)
 
-        2️⃣ **Configure Block Logic Rules**  
+        2️⃣ **Configure Display Logic Rules**  
 
-        Set [Block Logic](/how-to-guides/use-block-logic/) rules for when each block should appear, based on the answers.  
+        Set [Display Logic](/how-to-guides/use-block-logic/) rules for when each block should appear, based on the answers.  
 
         **For Dry Skin:**  
         - If the answer to **Question 1: Oiliness** is *Dry and tight all over*.  
@@ -124,7 +124,7 @@ If you want to show different text results depending on the recommended products
 
         3️⃣ **Repeat this process for all other possible combinations of answers.**
         
-        You will have to add similar rules to all the content blocks on the Results Page to show the right text in the end. This means you will have to predict every possible combination of answers a customer can make and add it as Block logic to ensure that the correct text block is shown. 
+        You will have to add similar rules to all the content blocks on the Results Page to show the right text in the end. This means you will have to predict every possible combination of answers a customer can make and add it as Display logic to ensure that the correct text block is shown. 
 
         ---
 
@@ -140,7 +140,7 @@ If you want to show different text results depending on the recommended products
 
 
 
-3. **Custom JavaScript**: For a more refined approach, consider hiring a developer to create a custom JavaScript function. This function can show specific text tailored to the ID of the recommended product. Your developer could also add custom values to quiz choices and create a scoring system for the quiz to then display the right text on the resutls page. 
+3. **Custom JavaScript**: For a more refined approach, consider hiring a developer to create a custom JavaScript function. This function can show specific text tailored to the ID of the recommended product. Your developer could also add custom values to quiz choices and create a scoring system for the quiz to then display the right text on the results page. 
 
     !!! tip
 

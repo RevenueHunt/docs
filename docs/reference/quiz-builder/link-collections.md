@@ -26,7 +26,7 @@
 
     ![quiz builder link collections exclude](/images/manual_quizbuilder_linkcollections_exclude.png)
 
-    Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+    Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the results page, even if they were upvoted in another choice earlier/later.
 
     **Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 
@@ -56,7 +56,7 @@
 
     !!! warning
 
-        Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the resutls page, even if it was upvoted in another choice earlier/later
+        Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the results page, even if it was upvoted in another choice earlier/later
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_select](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_select.png)
 
@@ -90,7 +90,7 @@
 
     ![quiz builder link collections exclude](/images/manual_woo_quizbuilder_linkcategories_excludecategories.png)
 
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
 
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 
@@ -120,7 +120,7 @@
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
 
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 
@@ -150,7 +150,7 @@
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
 
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 
@@ -184,7 +184,7 @@
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the resutls page, even if they were upvoted in another choice earlier/later.
+    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
 
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 

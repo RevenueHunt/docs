@@ -12,7 +12,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/316e4dcc9db14812a76ace51e85b6fe5?sid=cdb69306-37dd-4331-8e76-aeb763351f12" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-**Option 1:** Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Block Logic display rules.
+**Option 1:** Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
 
 ![docs/images/how_to_shopify_v2_recommendations_blocklogic.png](/images/how_to_shopify_v2_recommendations_blocklogic.png)
 
@@ -40,9 +40,9 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Block Logic**: If we don’t add [Block Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
-        ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -58,7 +58,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
     
         Add multiple content blocks describing the specific skin type and its challenges. For example:
 
-        ![how to hide content with logic shopifyv2 block logic sections](/images/how_to_shopifyv2_fixedrecommendationquiz_sectionsresultspage.png)
+        ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_shopifyv2_fixedrecommendationquiz_sectionsresultspage.png)
 
         !!! example
 
@@ -84,7 +84,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
               
         Set up IF-THEN statements to control when each statement block should be visible or hidden based on the customer's choices. Like this:
 
-        ![how to hide content with logic block logic statement](/images/how_to_shopifyv2_fixedrecommendationquiz_displaylogic.png)
+        ![how to hide content with logic display logic statement](/images/how_to_shopifyv2_fixedrecommendationquiz_displaylogic.png)
 
     5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
 
@@ -110,9 +110,9 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Block Logic**: If we don’t add [Block Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
-        ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -138,9 +138,9 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Block Logic**: If we don’t add [Block Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
-        ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -166,9 +166,9 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Block Logic**: If we don’t add [Block Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
-        ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -194,15 +194,15 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Block Logic**: If we don’t add [Block Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Block Logic, select a content block and click on `block logic`. Next, click `add block logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
-        ![how to hide content with logic block logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 ## Multiple Results Pages 
 
-**Option 2:** Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent resutls pages.	
+**Option 2:** Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent results pages.	
 
 ![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png)
 

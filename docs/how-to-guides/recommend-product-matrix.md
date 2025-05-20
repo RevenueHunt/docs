@@ -117,7 +117,7 @@ Now that the quiz is built and product are linked to each choice, you can test t
  
 If the quiz is set up correctly, the following products should be recommended in accordance with the product matrix:
 
-![how to recommend products matrix resutls1](/images/how_to_recommend_products_results1.png)
+![how to recommend products matrix results1](/images/how_to_recommend_products_results1.png)
 
 If you’re not getting the expected results, please check [this article](/how-to-guides/troubleshoot-product-results/) to learn how to troubleshoot the quiz results.
 
@@ -139,7 +139,7 @@ If you’re not getting the expected results, please check [this article](/how-t
 
     These products recieved the most amount of votes (2) so they were recommended.
 
-    ![how to recommend products matrix resutls1](/images/how_to_recommend_products_results1.png)
+    ![how to recommend products matrix results1](/images/how_to_recommend_products_results1.png)
 
     When products receive the same amount of votes, the algorithm randomizes the order in which they are shown on the Results page.
 

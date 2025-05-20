@@ -24,7 +24,7 @@ Make and publish a short quiz that recommends a group of complementary products 
 
 ### [Using Conditional Logic](/tutorials/conditional-logic/)
 
-Learn how to use Jump Logic, Skip Logic, and Block logic to show/hide questions/content in the quiz as well as in the Results Page.
+Learn how to use Jump Logic, Skip Logic, and Display logic to show/hide questions/content in the quiz as well as in the Results Page.
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/conditional-logic/)
 

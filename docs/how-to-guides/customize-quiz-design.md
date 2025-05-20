@@ -27,7 +27,7 @@ Remember, you can also include custom images and styles for each question via th
         - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
         - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
 
     4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
@@ -89,7 +89,7 @@ Remember, you can also include custom images and styles for each question via th
         - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
         - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
 
     4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
@@ -111,7 +111,7 @@ Remember, you can also include custom images and styles for each question via th
         - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
         - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
 
     4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
@@ -133,7 +133,7 @@ Remember, you can also include custom images and styles for each question via th
         - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
         - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
 
     4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
@@ -155,7 +155,7 @@ Remember, you can also include custom images and styles for each question via th
         - **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
         - **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
         - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
+        - **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking. 
 
     4. **My Themes**: All themes that you’ve created or edited will appear in the `My Themes` tab. 
         ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="500"}
@@ -166,7 +166,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "Shopify"
 
-    Via the CSS console, you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS.
+    Via the CSS console, you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS.
 
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
@@ -215,7 +215,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "WooCommerce"
 
-    Via the CSS console, you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS.
+    Via the CSS console, you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS.
 
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
@@ -237,7 +237,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "Magento"
 
-    Via the CSS console, you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS.
+    Via the CSS console, you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS.
 
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
@@ -259,7 +259,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "BigCommerce"
 
-    Via the CSS console, you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS.
+    Via the CSS console, you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS.
 
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
@@ -281,7 +281,7 @@ Remember, you can also include custom images and styles for each question via th
 
 === "Standalone"
 
-    Via the CSS console, you can add any custom styling rules. Any element of the quiz or the resutls page can be customized via CSS.
+    Via the CSS console, you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS.
 
     1. **Open the Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. **Open the CSS console**: In the theme editor, click on the `add` button in the Custom CSS section. This should open an input where you can add your custom CSS to the quiz. Your developer will be able to add custom CSS which will override the default styles of the quiz.
@@ -552,7 +552,7 @@ Remember, you can also include custom images and styles for each question via th
     You can add images to your quiz in serveral ways. 
 
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the resutls page with Markdown language.
+    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
@@ -609,7 +609,7 @@ Remember, you can also include custom images and styles for each question via th
     You can add images to your quiz in serveral ways. 
 
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the resutls page with Markdown language.
+    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
@@ -624,7 +624,7 @@ Remember, you can also include custom images and styles for each question via th
     You can add images to your quiz in serveral ways. 
 
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the resutls page with Markdown language.
+    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
@@ -639,7 +639,7 @@ Remember, you can also include custom images and styles for each question via th
     You can add images to your quiz in serveral ways. 
 
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the resutls page with Markdown language.
+    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
@@ -654,7 +654,7 @@ Remember, you can also include custom images and styles for each question via th
     You can add images to your quiz in serveral ways. 
 
     - **Upload images/videos via question settings**: You can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
-    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the resutls page with Markdown language.
+    - **Embed images/videos via Markdown Language**: You can embed unique ijmages or videos into text blocks in your question description or the results page with Markdown language.
         - Images:
         ```html
         ![alt text](https://www.example.com/path/to/image.jpg)
