@@ -4,7 +4,7 @@ icon: material/numeric-3
 
 # Using Conditional Logic in your Product Recommendation Quiz
 
-In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Logic](#skip-logic), and [Display Logic](#block-logic) to show (or hide) questions/content in the quiz as well as the Results Page.
+In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Logic](#skip-logic), and [Display Logic](#display-logic) to show (or hide) questions/content in the quiz as well as the Results Page.
 
 **You’ll learn:**
 
@@ -37,7 +37,7 @@ In this Skin Care Quiz, there are four blocks of text. Each describes in more de
 
 With RevenueHunt app, you can show customers with dry skin certain questions (specifically targeted for them), while customers with oily skin would skip these questions. This can be done in many ways within the app.
 
-**Objective**: In this video, we’ll teach you how to show these texts using [Jump Logic](#jump-logic), [Skip Logic](#skip-logic), or [Display Logic](#block-logic) on the results page.
+**Objective**: In this video, we’ll teach you how to show these texts using [Jump Logic](#jump-logic), [Skip Logic](#skip-logic), or [Display Logic](#display-logic) on the results page.
 
 ## Jump Logic
 
@@ -100,11 +100,11 @@ It worked! The correct statement is shown and all the others are skipped based o
 
 Logic can also be applied to the contents of your [Results Page](/reference/quiz-builder/results-page/). 
 
-With [Display logic](/how-to-guides/use-block-logic/), you can show or hide elements of your results page based on the customer's answers.
+With [Display logic](/how-to-guides/use-display-logic/), you can show or hide elements of your results page based on the customer's answers.
 
 1. Let’s add four `Content blocks` with the skin type advice to your [Results Page](/reference/quiz-builder/results-page/).
 2. You can edit the block text with [Markdown language](/how-to-guides/use-markdown/).
-3. Now, how can we make only one block appear, instead of all of them? We can add [Display logic](/reference/quiz-builder/conditional-logic/#block-logic).
+3. Now, how can we make only one block appear, instead of all of them? We can add [Display logic](/reference/quiz-builder/conditional-logic/#display-logic).
 4. To do that, activate it in the lower right corner with the `...` button. 
 5. Let’s add the first logic condition.
     - If the answer to `‘How does your skin feel on an average day?’` is `‘Dry and tight all over’` then this block (*Dry skin block*) will be **Visible**. 
@@ -114,7 +114,7 @@ With [Display logic](/how-to-guides/use-block-logic/), you can show or hide elem
 
 You’ve now successfully used Display logic to show and hide content on the Results page.
 
-[Display Logic](/how-to-guides/use-block-logic/) is a powerful tool that can also be used to:
+[Display Logic](/how-to-guides/use-display-logic/) is a powerful tool that can also be used to:
 
 - show different image results depending on customer answers
 - or show product blocks with different numbers of recommendations. 

@@ -1,6 +1,6 @@
 # How to use Display Logic
 
-[Display logic or Display Logic](/reference/quiz-builder/conditional-logic/#block-logic) is a feature of the [Results Page](/reference/quiz-builder/results-page/) that allows you to make blocks visible or hidden based on customer's responses.
+[Display logic or Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) is a feature of the [Results Page](/reference/quiz-builder/results-page/) that allows you to make blocks visible or hidden based on customer's responses.
 
 <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=-3_Sv297f8B4-KPi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
@@ -29,10 +29,10 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     2. **Open Display Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
         ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-        **conditional logic** / **tree icon** - Opens the [Display Logic](#block-logic) menu.
+        **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
 
     3. Next, select `add Display Logic`.
-        ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+        ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     3. **Add your rules**: Add you display logic rules for when the block should be visible or hidden. 
 
@@ -47,7 +47,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
         !!! example
 
-            ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+            ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
 
             In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
@@ -66,7 +66,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     1. **Find a section**: Start by identifying or adding the section you wish to add Display Logic to. 
     2. **Open DisplayLogic settings**: Click on the section and on the right-hand side identify the `Display logic`.
 
-        ![quiz builder results page block menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic.png)
+        ![quiz builder results page block menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
     3. Next, select `+ Add logic condition (OR)`.
 
@@ -88,7 +88,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
             !!! example
 
-                ![quiz builder results page display logic example](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic_exampleOR.png)
+                ![quiz builder results page display logic example](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_exampleOR.png)
 
                 In the example, if a user chooses a choice "Oily" in Question 1 "SKIN TYPE" then this section will be hidden. If they give a different answer in Question 1 this content block will be shown.
 
@@ -146,10 +146,10 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     2. **Open Display Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
         ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-        **conditional logic** / **tree icon** - Opens the [Display Logic](#block-logic) menu.
+        **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
 
     3. Next, select `add Display Logic`.
-        ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+        ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     3. **Add your rules**: Add you display logic rules for when the block should be visible or hidden. 
 
@@ -164,7 +164,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
         !!! example
 
-            ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+            ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
 
             In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
@@ -184,10 +184,10 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     2. **Open Display Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
         ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-        **conditional logic** / **tree icon** - Opens the [Display Logic](#block-logic) menu.
+        **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
 
     3. Next, select `add Display Logic`.
-        ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+        ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     3. **Add your rules**: Add you display logic rules for when the block should be visible or hidden. 
 
@@ -202,7 +202,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
         !!! example
 
-            ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+            ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
 
             In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
@@ -222,10 +222,10 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     2. **Open Display Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
         ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-        **conditional logic** / **tree icon** - Opens the [Display Logic](#block-logic) menu.
+        **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
 
     3. Next, select `add Display Logic`.
-        ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+        ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     3. **Add your rules**: Add you display logic rules for when the block should be visible or hidden. 
 
@@ -240,7 +240,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
         !!! example
 
-            ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+            ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
 
             In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
@@ -260,10 +260,10 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     2. **Open Display Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
         ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-        **conditional logic** / **tree icon** - Opens the [Display Logic](#block-logic) menu.
+        **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
 
     3. Next, select `add Display Logic`.
-        ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+        ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     3. **Add your rules**: Add you display logic rules for when the block should be visible or hidden. 
 
@@ -278,7 +278,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
         !!! example
 
-            ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+            ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
 
             In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
@@ -296,7 +296,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different recommendation about their skincare is shown on the Results Page. This individualized response is made possible by Display Logic.
 
-![how to use display logic example](/images/how_to_use_block_logic_example.png)
+![how to use display logic example](/images/how_to_use_display_logic_example.png)
 
 To learn how to build such a quiz check this [step-by-step guide](/how-to-guides/hide-content-with-logic/).
 

@@ -4,7 +4,7 @@ icon: material/eye-off
 
 # How to Show or Hide Content Based on Quiz Answers
 
-In this article, you’ll discover how to use `IF-THEN` conditional logic to display customized text to quiz takers. This includes adding custom text within your quiz using [Jump Logic](/how-to-guides/use-jump-logic/), displaying custom text on the Results page with [Display Logic](/how-to-guides/use-block-logic/), and achieving similar effects with [Skip Logic](/how-to-guides/use-skip-logic/).
+In this article, you’ll discover how to use `IF-THEN` conditional logic to display customized text to quiz takers. This includes adding custom text within your quiz using [Jump Logic](/how-to-guides/use-jump-logic/), displaying custom text on the Results page with [Display Logic](/how-to-guides/use-display-logic/), and achieving similar effects with [Skip Logic](/how-to-guides/use-skip-logic/).
 
 Using a skincare routine quiz as an example, we'll show how custom text is displayed based on the customer’s skin type.
 
@@ -212,9 +212,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
-        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -230,7 +230,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
     
         Add multiple content blocks describing the specific skin type and its challenges. For example:
 
-        ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_sections.png)
+        ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_display_logic_sections.png)
 
         !!! example
 
@@ -242,7 +242,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
     
 
-    3. **Add Display Logic**: If we don't add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. 
+    3. **Add Display Logic**: If we don't add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. 
 
         !!! info "*➡️ Method 1: Using Answer-Based Display Logic"
     
@@ -250,7 +250,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
             
             Set up IF-THEN statements to control when each statement block should be visible or hidden based on the customer's choices. Like this:
 
-            ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_rule.png)
+            ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_shopifyv2_display_logic_rule.png)
 
         
 
@@ -314,9 +314,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
-        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -342,9 +342,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
-        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -370,9 +370,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
-        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -398,9 +398,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-block-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
-        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_block_logic_statement.png)
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
@@ -569,4 +569,4 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 ---
-For more detailed instructions on using [Jump Logic](/how-to-guides/use-jump-logic/), [Display Logic](/how-to-guides/use-block-logic/), and [Skip Logic](/how-to-guides/use-skip-logic/), consider checking the respective articles linked throughout this guide.
+For more detailed instructions on using [Jump Logic](/how-to-guides/use-jump-logic/), [Display Logic](/how-to-guides/use-display-logic/), and [Skip Logic](/how-to-guides/use-skip-logic/), consider checking the respective articles linked throughout this guide.

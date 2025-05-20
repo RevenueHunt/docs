@@ -72,11 +72,11 @@ Show different follow-up questions based on customer choices in a multiple-choic
 
 Show or hide different text blocks on the results page. This approach requires predicting every possible answering route and adding display logic rules for each text block. 
 
-![how_to_shopify_v2_recommendations_funnel_blocklogic](/images/how_to_shopify_v2_recommendations_funnel_blocklogic.png)
+![how_to_shopify_v2_recommendations_funnel_displaylogic](/images/how_to_shopify_v2_recommendations_funnel_displaylogic.png)
 
 !!! tip "How to set this up?"
 
-    Check out the [Display Logic Quiz](/how-to-guides/hide-content-with-logic/#block-logic-how-to-show-custom-text-on-the-results-page) guide.
+    Check out the [Display Logic Quiz](/how-to-guides/hide-content-with-logic/#display-logic-how-to-show-custom-text-on-the-results-page) guide.
 
 !!! warning "Not recommended for personality-type quizzes"
 
@@ -95,7 +95,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 **Option 1:** Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
 
-![docs/images/how_to_shopify_v2_recommendations_blocklogic.png](/images/how_to_shopify_v2_recommendations_blocklogic.png)
+![docs/images/how_to_shopify_v2_recommendations_displaylogic.png](/images/how_to_shopify_v2_recommendations_displaylogic.png)
 
 !!! tip "How to set this up?"
 

@@ -127,7 +127,7 @@ Follow these steps to set up a scoring quiz with one results page:
     
         Add multiple content blocks describing the specific skin type and its challenges. For example:
 
-        ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_sections.png)
+        ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_display_logic_sections.png)
 
         !!! example
 
@@ -226,7 +226,7 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
         To each results page add a section with content describing the specific skin type and its challenges. For example:
 
-        ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_block_logic_sections.png)
+        ![how to hide content with logic shopifyv2 display logic sections](/images/how_to_hide_content_with_logic_shopifyv2_display_logic_sections.png)
 
         !!! example
 

@@ -186,9 +186,9 @@
 
 === "Shopify"
 
-    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#block-logic) menu.
+    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#display-logic) menu.
 
-    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     With Display Logic you can make blocks visible or hidden based on customer's responses.
 
@@ -205,7 +205,7 @@
 
     !!! example
 
-        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
@@ -225,7 +225,7 @@
 
 === "Shopify V2"
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
     With Display Logic you can make **sections** visible or hidden based on customer's responses.
 
@@ -246,7 +246,7 @@
 
     !!! example
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic_exampleOR](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocklogic_exampleOR.png)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_exampleOR](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_exampleOR.png)
 
         In the example, if a user chooses a choice "Oily" in Question 1 "SKIN TYPE" then this section will be hidden. If they give a different answer in Question 1 this content block will be shown.
 
@@ -258,9 +258,9 @@
 
 === "WooCommerce"
 
-    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#block-logic) menu.
+    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#display-logic) menu.
 
-    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     With Display Logic you can make blocks visible or hidden based on customer's responses.
 
@@ -277,7 +277,7 @@
 
     !!! example
 
-        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
@@ -297,9 +297,9 @@
 
 === "Magento"
 
-    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#block-logic) menu.
+    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#display-logic) menu.
 
-    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     With Display Logic you can make blocks visible or hidden based on customer's responses.
 
@@ -316,7 +316,7 @@
 
     !!! example
 
-        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
@@ -336,9 +336,9 @@
 
 === "BigCommerce"
 
-    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#block-logic) menu.
+    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#display-logic) menu.
 
-    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     With Display Logic you can make blocks visible or hidden based on customer's responses.
 
@@ -355,7 +355,7 @@
 
     !!! example
 
-        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
@@ -375,9 +375,9 @@
 
 === "Standalone"
 
-    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#block-logic) menu.
+    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#display-logic) menu.
 
-    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic.png)
+    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     With Display Logic you can make blocks visible or hidden based on customer's responses.
 
@@ -394,7 +394,7 @@
 
     !!! example
 
-        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_blocklogic_example.png)
+        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 

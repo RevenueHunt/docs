@@ -13,7 +13,7 @@ If you want to show different text results depending on the recommended products
 
 1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#block-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance on setting up Display Logic, see [here](/how-to-guides/use-block-logic/). 
+2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance on setting up Display Logic, see [here](/how-to-guides/use-display-logic/). 
 
     !!! tip
     
@@ -82,7 +82,7 @@ If you want to show different text results depending on the recommended products
 
         2️⃣ **Configure Display Logic Rules**  
 
-        Set [Display Logic](/how-to-guides/use-block-logic/) rules for when each block should appear, based on the answers.  
+        Set [Display Logic](/how-to-guides/use-display-logic/) rules for when each block should appear, based on the answers.  
 
         **For Dry Skin:**  
         - If the answer to **Question 1: Oiliness** is *Dry and tight all over*.  
