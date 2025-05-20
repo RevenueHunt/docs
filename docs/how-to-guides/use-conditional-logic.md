@@ -29,7 +29,7 @@ Skip Logic is a tool used in quizzes or surveys to make answering questions smoo
 
 ## [How to Use Display Logic](/how-to-guides/use-display-logic/)
 
-Display logic or Display logic is a feature of the Results Page that allows you to make blocks visible or hidden based on customer's responses. [This article](/how-to-guides/use-display-logic/) explains how to use Display Logic on the Results Page.
+Display logic is a feature of the Results Page that allows you to make elements visible or hidden based on conditional logic rules. [This article](/how-to-guides/use-display-logic/) explains how to use Display Logic on the Results Page.
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/use-display-logic/)
 
