@@ -1,4 +1,4 @@
-# App Settings - Store Settings
+# App Settings
 
 ## General
 
@@ -8,27 +8,29 @@
 
     **Your Profile**
 
-    **Shop email** - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
 
-    **Your best email** -  Provide your best email (not your store email) for communication in case of issues.
+    `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
 
-    **Send notifications to email** - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
 
     **Data & GDPR**
 
-    **Anonymize quiz respones after 30 days** - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
+    `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
 
 === "Shopify V2"
-
-    Navigate to the Settings tab in the app.
 
     ![manual_shopifyV2_appsettings](/images/manual_shopifyV2_appsettings.png)
 
     From the Store settings menu you can:
     
-    - Assign quizzes to different markets and languges via the [Shopify Markets](#markets) tab.
-    - Run a catalog sync from the [Catalogue](#catalogue) tab or check when the last sync was completed.
-    - Provide your email [SMTP scredentials](#smtp) to send result emails from your email provider.
+    `Shopify Markets` - Assign quizzes to different markets and languges via the [Shopify Markets](#markets) tab.
+
+    `Catalogue` - Run a catalog sync from the [Catalogue](#catalogue) tab or check when the last sync was completed.
+
+    `SMTP settings` - Provide your email [SMTP scredentials](#smtp) to send result emails from your email provider.
+
+    `Plans and pricing` - Manage you current subscription and plan details from the [Plans & Pricing](#plans-pricing) tab.
 
 === "WooCommerce"
 
@@ -36,15 +38,15 @@
 
     **Your Profile**
 
-    **Shop email** - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
 
-    **Your best email** -  Provide your best email (not your store email) for communication in case of issues.
+    `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
 
-    **Send notifications to email** - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
 
     **Data & GDPR**
 
-    **Anonymize quiz respones after 30 days** - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
+    `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
 
 === "Magento"
 
@@ -52,15 +54,15 @@
 
     **Your Profile**
 
-    **Shop email** - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
 
-    **Your best email** -  Provide your best email (not your store email) for communication in case of issues.
+    `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
 
-    **Send notifications to email** - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
 
     **Data & GDPR**
 
-    **Anonymize quiz respones after 30 days** - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
+    `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
 
 === "BigCommerce"
 
@@ -68,15 +70,15 @@
 
     **Your Profile**
 
-    **Shop email** - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
 
-    **Your best email** -  Provide your best email (not your store email) for communication in case of issues.
+    `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
 
-    **Send notifications to email** - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
 
     **Data & GDPR**
 
-    **Anonymize quiz respones after 30 days** - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
+    `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
 
 === "Standalone"
 
@@ -84,15 +86,15 @@
 
     **Your Profile**
 
-    **Shop email** - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
 
-    **Your best email** -  Provide your best email (not your store email) for communication in case of issues.
+    `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
 
-    **Send notifications to email** - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
 
     **Data & GDPR**
 
-    **Anonymize quiz respones after 30 days** - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
+    `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
 
 ## Catalogue
 
@@ -100,7 +102,11 @@
 
     ![app settings catalogue](/images/manual_appsettings_catalogue.png)
 
-    **Metafields Namespaces** - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields and follow this article to show them in the quiz: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
+    `Metafields Namespaces` - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields.
+    
+    !!! tip
+
+        Follow this article to show metafields in the quiz: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
 
 === "Shopify V2"
 
@@ -108,13 +114,13 @@
 
     Our app automatically updates your store's catalog daily and after changes. This includes products, collections, tags, variants, and vendors. You can also manually pull the catalog anytime to ensure that all information is up-to-date and accurate.
 
-    **Import Catalogue** - Start a new catlogue sync. This takes a few minutes.
+    `Import Catalogue` - Start a new catlogue sync. This takes a few minutes.
 
-    **Last catalogue import:** - The last time an item from a catalog was updated (in real time) in the app.
+    `Last catalogue import:` - The last time an item from a catalog was updated (in real time) in the app.
 
-    **Catalogue processed at:** - The last time the product catalog was fully processed and updated.
+    `Catalogue processed at:` - The last time the product catalog was fully processed and updated.
 
-    **Inventory Filter** - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.   
+    `Inventory Filter` - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.   
 
     If you check the `Filter products by inventory level` box, the app will hide any products that are low or out of stock from quiz recommendations. This prevents customers from seeing or clicking on products that are unavailable to purchase. If left unchecked, the app may still recommend products even if they are sold out. Once checked, the **`Minimum stock level`** option will become avilable. You can set the minimum stock level for products to be eligible for recommendations.
 
@@ -126,9 +132,11 @@
 
     **What information to pull from your products** - Choose custom settings for your products within the app.
 
-    - **Short/Long description in products** - By selecting one or the other you can choose which description of your products will be shown on the results page.
-    - **Pass attribute information to result page** - Toggle to activate/desactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafields](/how-to-guides/how-to-add-product-metafields/).
-    - **Use attributes as categories** - Allows you to use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](/reference/quiz-builder/link-collections/).
+    `Short/Long description in products` - By selecting one or the other you can choose which description of your products will be shown on the results page.
+
+    `Pass attribute information to result page` - Toggle to activate/desactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafields](/how-to-guides/how-to-add-product-metafields/).
+
+    `Use attributes as categories` - Allows you to use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](/reference/quiz-builder/link-collections/).
 
 === "Magento"
 
@@ -152,19 +160,21 @@
 
     When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
 
-    Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    !!! tip
 
-    **Name to display(From):** - Set what name and email the customer will see when they receive the email.
+        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
-    **SMTP Server** - Set your server URL.
+    `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 
-    **SMTP Username** - Set your SMTP Username.
+    `SMTP Server` - Set your server URL.
 
-    **SMTP Password**  - Provide the password associated with the username.
+    `SMTP Username` - Set your SMTP Username.
 
-    **SMTP Port** - Set the SMTP port (25, 465, 587 or 2525)
+    `SMTP Password`  - Provide the password associated with the username.
+
+    `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
         
-    **test connection & activate** - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
 
 === "Shopify V2"
 
@@ -176,23 +186,25 @@
 
     When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
 
-    Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    !!! tip
 
-    **SMTP From** - Set what name and email the customer will see when they receive the email. The "From" field must be in format: `"Full Name" <name@company.com>`.
+        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
-    **SMTP Server** - Set your server URL. The "Server" field must be in format: `smtp.example.com`.
+    `SMTP From` - Set what name and email the customer will see when they receive the email. The "From" field must be in format: `"Full Name" <name@company.com>`.
 
-    **SMTP Username** - Set your SMTP Username.
+    `SMTP Server` - Set your server URL. The "Server" field must be in format: `smtp.example.com`.
 
-    **SMTP Password**  - Provide the password associated with the username.
+    `SMTP Username` - Set your SMTP Username.
 
-    **SMTP Port** - Set the SMTP port (25, 465, 587 or 2525)
+    `SMTP Password`  - Provide the password associated with the username.
 
-    **SMTP Authentication**  - Select from teh dropdown your SMTP email authentication method.
+    `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
 
-    **Enable STARTTLS** - Check to enable STARTTLS. *STARTTLS is a protocol command used to upgrade an existing insecure connection to a secure, encrypted connection using TLS (Transport Layer Security). It typically runs over port 587. You should check this if your mail server supports STARTTLS".* Note that this option is enabled by default, but you should untick it if your SMTP server does not support STARTTLS, as this could prevent successful connections.
+    `SMTP Authentication`  - Select from teh dropdown your SMTP email authentication method.
 
-    **Enable SSL** - Check to enable SLL. *SSL (Secure Sockets Layer) is an older protocol for encrypting connections. If enabled, your connection starts as secure from the beginning (unlike STARTTLS which upgrades after connecting). This is usually used on port 465. Only enable SSL if your SMTP provider specifies SSL.* This option is enabled by default, but should be unticked for SMTP servers that don't use SSL encryption.
+    `Enable STARTTLS` - Check to enable STARTTLS. *STARTTLS is a protocol command used to upgrade an existing insecure connection to a secure, encrypted connection using TLS (Transport Layer Security). It typically runs over port 587. You should check this if your mail server supports STARTTLS".* Note that this option is enabled by default, but you should untick it if your SMTP server does not support STARTTLS, as this could prevent successful connections.
+
+    `Enable SSL` - Check to enable SLL. *SSL (Secure Sockets Layer) is an older protocol for encrypting connections. If enabled, your connection starts as secure from the beginning (unlike STARTTLS which upgrades after connecting). This is usually used on port 465. Only enable SSL if your SMTP provider specifies SSL.* This option is enabled by default, but should be unticked for SMTP servers that don't use SSL encryption.
        
     !!! tip "Troubleshooting"
 
@@ -208,19 +220,21 @@
 
     When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
 
-    Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    !!! tip 
 
-    **Name to display(From):** - Set what name and email the customer will see when they receive the email.
+        Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
-    **SMTP Server** - Set your server URL.
+    `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 
-    **SMTP Username** - Set your SMTP Username.
+    `SMTP Server` - Set your server URL.
 
-    **SMTP Password**  - Provide the password associated with the username.
+    `SMTP Username` - Set your SMTP Username.
 
-    **SMTP Port** - Set the SMTP port (25, 465, 587 or 2525)
+    `SMTP Password`  - Provide the password associated with the username.
+
+    `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
         
-    **test connection & activate** - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
 
 === "Magento"
 
@@ -232,19 +246,21 @@
 
     When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
 
-    Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    !!! tip
 
-    **Name to display(From):** - Set what name and email the customer will see when they receive the email.
+        Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
-    **SMTP Server** - Set your server URL.
+    `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 
-    **SMTP Username** - Set your SMTP Username.
+    `SMTP Server` - Set your server URL.
 
-    **SMTP Password**  - Provide the password associated with the username.
+    `SMTP Username` - Set your SMTP Username.
 
-    **SMTP Port** - Set the SMTP port (25, 465, 587 or 2525)
+    `SMTP Password`  - Provide the password associated with the username.
+
+    `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
         
-    **test connection & activate** - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
 
 === "BigCommerce"
 
@@ -256,19 +272,21 @@
 
     When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
 
-    Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    !!! tip
 
-    **Name to display(From):** - Set what name and email the customer will see when they receive the email.
+        Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
-    **SMTP Server** - Set your server URL.
+    `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 
-    **SMTP Username** - Set your SMTP Username.
+    `SMTP Server` - Set your server URL.
 
-    **SMTP Password**  - Provide the password associated with the username.
+    `SMTP Username` - Set your SMTP Username.
 
-    **SMTP Port** - Set the SMTP port (25, 465, 587 or 2525)
+    `SMTP Password`  - Provide the password associated with the username.
+
+    `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
         
-    **test connection & activate** - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
 
 === "Standalone"
 
@@ -280,21 +298,23 @@
 
     When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
 
-    Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+    !!! tip
 
-    **Name to display(From):** - Set what name and email the customer will see when they receive the email.
+        Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
-    **SMTP Server** - Set your server URL.
+    `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 
-    **SMTP Username** - Set your SMTP Username.
+    `SMTP Server` - Set your server URL.
 
-    **SMTP Password**  - Provide the password associated with the username.
+    `SMTP Username` - Set your SMTP Username.
 
-    **SMTP Port** - Set the SMTP port (25, 465, 587 or 2525)
+    `SMTP Password`  - Provide the password associated with the username.
+
+    `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
         
-    **test connection & activate** - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
 
-## Shop App (Beta)
+## Shop App
 
 === "Shopify"
 
@@ -302,19 +322,19 @@
 
     **Entry Point Settings**
 
-    **Activate Entry Point** - Toggle to activate a quiz in the Shop App.
+    `Activate Entry Point` - Toggle to activate a quiz in the Shop App.
 
-    **Quiz Dropdown** - Select from a list of quizzes which one should be featured in the Shop App.
+    `Quiz Dropdown` - Select from a list of quizzes which one should be featured in the Shop App.
 
-    **TITLE** - Type a title for your Shop App quiz.
+    `Title` - Type a title for your Shop App quiz.
 
-    **DESCRIPTION** - Provide a short description of the quiz.
+    `Description` - Provide a short description of the quiz.
 
-    **CTA TEXT** - Type what will be written on the button that opens the quiz.
+    `CTA Text` - Type what will be written on the button that opens the quiz.
 
-    **Quiz Image URL** - Provide a URL of an image you'd like to see featured on the Shop App quiz page.
+    `Quiz Image URL` - Provide a URL of an image you'd like to see featured on the Shop App quiz page.
 
-    **Entry Point Preview** - Shows a preview of how the quiz entry point will look on your store's page in the Shop App.
+    `Entry Point Preview` - Shows a preview of how the quiz entry point will look on your store's page in the Shop App.
 
     ![app settings shop app preview](/images/manual_appsettings_shopapp_preview.png)
 
@@ -339,17 +359,17 @@
 
     ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
 
-    **Show All Locales** -  Click ➜ to displays a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by dafault for the customer from that Market **and** lanuguage.
+    `Show All Locales` -  Click to display a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by dafault for the customer from that Market **and** lanuguage.
 
     ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
 
-    **Hide All Locales** - Click 🡻 to return to a simplified view of all Markets, without language disctinction. The app will show the default quiz for all the visitors from that Market regardless of the language they chose.
+    `Hide All Locales` - Click to return to a simplified view of all Markets, without language disctinction. The app will show the default quiz for all the visitors from that Market regardless of the language they chose.
 
-    **Default** - Select the default quiz for a speciifc region.
+    `Default` - Select the default quiz for a speciifc region.
 
-    **Language** - Selct a default quiz for a specific language in this region.
+    `Language` - Selct a default quiz for a specific language in this region.
 
-    **Currency** - Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
+    `Currency` - Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
 
 ## Plans & Pricing
 
