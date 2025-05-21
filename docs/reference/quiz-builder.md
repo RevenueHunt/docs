@@ -6,9 +6,9 @@
 
     The Quiz Builder is divided into several sections.
 
-    **Dashboard** - Click to go back to the Dashboard (exit the Quiz Builder).
+    `Dashboard` - Click to go back to the Dashboard (exit the Quiz Builder).
 
-    **Demo Quiz** - Displays the quiz name. Quiz name can be changed in [Quiz Settings](#quiz-settings).
+    `Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](#quiz-settings).
 
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
@@ -16,55 +16,55 @@
 
     ![quiz builder top menu](/images/manual_quizbuilder_topmenu.png)
 
-    **Preview** - Opens the quiz preview in a new tab.
+    `Preview` - Opens the quiz preview in a new tab.
 
-    **Edit** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
+    `Edit` - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
 
-    **Connect** - Opens the [Connect](#connect) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+    `Connect` - Opens the [Connect](#connect) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
 
-    **Share** - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+    `Share` - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
 
-    **Metrics** - Opens the [Metrics](#metrics) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+    `Metrics` - Opens the [Metrics](#metrics) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
 
-    **Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
 
     ![quiz builder top menu](/images/manual_quizbuilder_topmenu.png)
 
-    **Preview** - Opens the quiz preview in a new tab.
+    `Preview` - Opens the quiz preview in a new tab.
 
     !!! tip
     
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
 
-    **Edit** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
+    `Edit` - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder.
 
-    **Connect** - Opens the [Connect](#connect) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+    `Connect` - Opens the [Connect](#connect) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
 
-    **Share** - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+    `Share` - Opens the [Share](#share) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
 
-    **Metrics** - Opens the [Metrics](#metrics) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+    `Metrics` - Opens the [Metrics](#metrics) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
 
-    **Publish** - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
 
     ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
-    **Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+    `Quiz Builder` - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 
-    **Link Collections** - Opens the [Link Collections](#link-collections) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+    `Link Collections` - Opens the [Link Collections](#link-collections) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
 
-    **Link Products** - Opens the [Link Products](#link-products) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+    `Link Products` - Opens the [Link Products](#link-products) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
 
-    **Customer Tags** - Opens the [Customer Tags](#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+    `Customer Tags` - Opens the [Customer Tags](#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
 
-    **Conditional Logic** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder. This is where you'll create branching in your quiz.
+    `Conditional Logic` - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder. This is where you'll create branching in your quiz.
 
-    **Quiz Design** - Opens the [Quiz Design](#quiz-design) section of the Quiz Builder. This is where you'll style your quiz.
+    `Quiz Design` - Opens the [Quiz Design](#quiz-design) section of the Quiz Builder. This is where you'll style your quiz.
 
-    **Results Page** - Opens the [Results Page](#results-page) section of the Quiz Builder. This is where you'll edit your results page.
+    `Results Page` - Opens the [Results Page](#results-page) section of the Quiz Builder. This is where you'll edit your results page.
 
-    **Notifications** - Opens the [Notifications](#notifications) section of the Quiz Builder. This is where you'll set up your quiz result emails.
+    `Notifications` - Opens the [Notifications](#notifications) section of the Quiz Builder. This is where you'll set up your quiz result emails.
 
-    **Quiz Settings** - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+    `Quiz Settings` - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
 
 === "Shopify V2"
 
@@ -72,10 +72,10 @@
 
     Quiz Builder is composed of four sections: 
 
-    - Quiz Builder Menu
-    - Quiz Preview
-    - Questions
-    - Question Settings
+    - 1️⃣ Quiz Builder Menu
+    - 2️⃣ Questions
+    - 3️⃣ Quiz Preview 
+    - 4️⃣ Question Settings
     
     **Quiz Builder Menu**
 
