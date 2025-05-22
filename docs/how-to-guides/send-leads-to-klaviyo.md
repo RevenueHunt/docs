@@ -614,6 +614,25 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         To build your own email template based on the custom properties we send to Klaviyo, you should familiarize yourself with the [message personalization reference](https://help.klaviyo.com/hc/en-us/articles/4408802648731) in Klaviyo, aka the `{{ person|lookup:"..." }}` function.
 
+    !!! warning
+
+        Some custom properties sent to Klaviyo from the quiz such as `ANSWER_BY_BLOCK`, `CHOICE`, `RESPONSE_ID`, `RESULT_REF`, `RESULT_SECTIONS` or `TAGS` are sent as an array, meaning that their values get **overwritten** with new data upon each quiz completion.
+
+        However, properties such as `RECOMMENDATIONS_BY_SLOT` or `RESULT_CONTENT_BY_BLOCK` are sent as a JSON object, meaning that their values get **appended** to the existing data upon each quiz completion. 
+
+        If you want to make sure that in your Klaviyo template, the **values get overwritten** with new data upon each quiz completion and you want to use our pre-defined Klaviyo email tempalte which you can download from [Integrations](/reference/quiz-builder/connect-integrations/) tab, make sure to only use the code snippet that starts with the following comment:
+        
+        
+        ```html
+        {# ================================================================= #}
+        {# DYNAMIC RESULT PAGE CONTENT (LOOPS THROUGH RESULT_SECTIONS-lBJ9bk) #}
+        {# This template loops through the result sections and blocks          #}
+        {# It will adapt if you change the results page structure in the quiz editor #}
+        {# ================================================================= #}
+        ```
+
+
+
 === "WooCommerce"
 
     If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
