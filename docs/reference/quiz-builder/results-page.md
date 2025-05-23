@@ -12,25 +12,24 @@
 
     In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like. This section allows you to configure the results settings for your quiz. You can customize the result blocks, sections, and slots to display the desired outcome to the users.
 
-    **Results Pages** - the menu where all your results pages are nested.
+    `Results Page` - the menu where all your results pages are nested.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
 
-    **Results page 1** - the first results page, currently editing.
+    `Results page 1` - the first results page, currently editing.
 
-    **+ Add results page** - Add another results page to your quiz. 
+    `+ Add slot` - Adds a new slot to this [Products block](/reference/quiz-builder/results-page/#products-products-variants-collections). To remove a section or a block, click the `bin` icon.
+
+    `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
+
+    `+ Add section` - Adds a new section to this results page. To remove a section or a block, click the `bin` icon.
+
+    `+ Add results page` - Add another results page to your quiz. To remove a Result Page, click on the Result Page and go to [Result Page settings](#results-page-settings).
 
     !!! note
 
         The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](conditional-logic/#jump-logic) via the quiz Conditional Logic tab.
 
-    **+ Add section** - Adds a new section to this results page.
-
-    **+ Add block** - Adds a new block to this section.
-
-    To remove a section or a block, click the **bin** icon.
-
-    To remove a Result Page, click on the Result Page and go to [Result Page settings](#results-page-settings).
 
 === "WooCommerce"
 
@@ -60,125 +59,127 @@
 
 === "Shopify"
 
-    **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
+    `+` / `add block` - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
 
     ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
+    `Heading Block` - Adds a new heading to your page, ideal for titles or section breaks.
 
-    - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+    `Content Block` - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
-    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+    `HTML Block` - Adds a block where you can input custom HTML code for advanced content and styling.
 
-    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+    `Image Block` - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
-    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+    `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
 === "Shopify V2"
 
-    **+ Add block** - Adds a new block to this section.
+    `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
 
-    - **Heading** - Adds a new heading to your page, ideal for titles or section breaks.
+    `Heading` - Adds a new heading to your page, ideal for titles or section breaks.
 
-    - **Text** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+    `Text` - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
-    - **Image** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+    `Image` - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
-    - **Button** - Adds a button to the results page. You can add any URL to the button.
+    `Video` - Adds a video block to the results page. You can upload your own video.
 
-    - **Custom HTML** - Adds a block where you can input custom HTML code for advanced content and styling.
+    `Button` - Adds a button to the results page. You can add any URL to the button.
 
-    - **Products** - Adds a block specifically designed for displaying a list of recommended products.
+    `Custom HTML` - Adds a block where you can input custom HTML code for advanced content and styling.
+
+    `Products` - Adds a block specifically designed for displaying a list of recommended products.
     
-    - **Products variants** - Adds a block specifically designed for displaying a list of recommended product variants..
+    `Products variants` - Adds a block specifically designed for displaying a list of recommended product variants.
 
-    - **Collection** - Adds a block specifically designed for displaying a list of recommended collections.
+    `Collection` - Adds a block specifically designed for displaying a list of recommended collections.
 
-    **bin** - Click on the bin icon to remove the block.
+    `bin` - Click on the bin icon to remove the block.
 
 === "WooCommerce"
 
-    **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
+    `+` / `add block` - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
 
     ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
+    `Heading Block` - Adds a new heading to your page, ideal for titles or section breaks.
 
-    - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+    `Content Block` - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
-    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+    `HTML Block` - Adds a block where you can input custom HTML code for advanced content and styling.
 
-    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+    `Image Block` - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
-    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+    `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
 === "Magento"
 
-    **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
+    `+` / `add block` - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
 
     ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
+    `Heading Block` - Adds a new heading to your page, ideal for titles or section breaks.
 
-    - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+    `Content Block` - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
-    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+    `HTML Block` - Adds a block where you can input custom HTML code for advanced content and styling.
 
-    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+    `Image Block` - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
-    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+    `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
 === "BigCommerce"
 
-    **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
+    `+` / `add block` - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
 
     ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
+    `Heading Block` - Adds a new heading to your page, ideal for titles or section breaks.
 
-    - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+    `Content Block` - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
-    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+    `HTML Block` - Adds a block where you can input custom HTML code for advanced content and styling.
 
-    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+    `Image Block` - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
-    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+    `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
 === "Standalone"
 
-    **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
+    `+` / `add block` - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
 
     ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
-    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
+    `Heading Block` - Adds a new heading to your page, ideal for titles or section breaks.
 
-    - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+    `Content Block` - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
-    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+    `HTML Block` - Adds a block where you can input custom HTML code for advanced content and styling.
 
-    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+    `Image Block` - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
-    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+    `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
@@ -186,13 +187,13 @@
 
 === "Shopify"
 
-    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#display-logic) menu.
+    `conditional logic` / `tree icon` - Opens the [Display Logic](conditional-logic/#display-logic) menu.
 
     ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     With Display Logic you can make blocks visible or hidden based on customer's responses.
 
-    **Add Display Logic** - Adds a new display logic rule.
+    `Add Display Logic` - Adds a new display logic rule.
 
     !!! info
 
@@ -209,19 +210,19 @@
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-    - **+** - Adds another Display Logic rule. Adds a new OR logical rule.
+    `+` - Adds another Display Logic rule. Adds a new OR logical rule.
 
-    - **bin** - Delete the current Display Logic rule.
+    `bin` - Delete the current Display Logic rule.
 
-    - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    `+ add concurrent logic` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
-    **...** - Opens the more options menu.
+    `...` - Opens the more options menu.
 
     ![quiz builder results page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
 
-    - **+ add block below** - Opens the **+** / **add block** menu.
+    `+ add block below` - Opens the **+** / **add block** menu.
 
-    - **bin** / **delete block** - Deletes the current block from the results page.
+    `bin` / `delete block` - Deletes the current block from the results page.
 
 === "Shopify V2"
 
@@ -231,40 +232,88 @@
 
     **Display logic**
 
-    **+ Add condition (OR)** - Adds a new OR display logic rule.
+    `+ Add condition (OR)` - Adds a new OR display logic rule.
 
-    **Default** - Select whether this section should be `Shown` or `Hidden` by default.
+    `+ Add condtion (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    `bin` - Delete the current Logic rule.
+    
+    `+ Add condition (OR)` - Adds another Display Logic rule. Adds a new OR logical rule.
+
+    `Default` - Select whether this section should be `Shown` or `Hidden` by default.
+
+    ---
+
+    There are three types of Display Logic rules you can choose from:
+
+    **Type 1: IF The response to the question...**
+
+    Then the Display Logic rules follow the following format:
+
+    - **IF response to** pick the question from a dropdown list
+    - **is**/ **is not** pick a choice from the dropdown list
+    - **THEN section is Visible** 
+    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display Logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display Logic rule is triggered.
+
+    !!! example "Example 1"
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
+
+        In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then this section will be visible. If they give a different answer in Question 4 this content block will be hidden.
+
+    **Type 2: IF The score of the variable...**
+
+    Then the Display Logic rules follow the following format:
+
+    - **IF The score of the variable** 
+    - **score** pick the variable from a dropdown list
+    - **is equal to**/ **is not equal to** / **is greater than**/ **is less than** / **is greater than or equal to** / **is less than or equal to** pick a choice from the dropdown list
+    - **Number** / **Another variable** pick a choice from the dropdown list
+    - **0** / **1** / **2** / **other numerical value** type a value in the input field
+    - **THEN section is Visible** 
+    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display Logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display Logic rule is triggered.
+
 
     !!! info
 
-        All the Display Logic rules follow the same format
+        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
 
-        - **IF response to** pick the question from a dropdown list
-        - **is**/ **is not** pick a choice from the dropdown list
-        - **THEN section is** pick either **Shown** or **Hidden**
-        - IN ALL OTHER CASES this section will behave like in the **Default** setting.
 
-    !!! example
+    !!! example "Example 2"
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_exampleOR](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_exampleOR.png)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
 
-        In the example, if a user chooses a choice "Oily" in Question 1 "SKIN TYPE" then this section will be hidden. If they give a different answer in Question 1 this content block will be shown.
+        In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
 
-    - **+ Add condtion (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    **Type 3: IF the variable with the highest score...**
 
-    - **bin** - Delete the current Logic rule.
-    
-    - **+ Add condition (OR)** - Adds another Display Logic rule. Adds a new OR logical rule.
+    Then the Display Logic rules follow the following format:
+
+    - **IF the variable with the highest score** 
+    - **score** pick the variable from a dropdown list
+    - **THEN section is Visible**
+    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display Logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display Logic rule is triggered.
+
+    !!! info
+
+        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
+
+
+    !!! example "Example 3"
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible.png)
+
+        In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
 
 === "WooCommerce"
 
-    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#display-logic) menu.
+    `conditional logic` / `tree icon` - Opens the [Display Logic](conditional-logic/#display-logic) menu.
 
     ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     With Display Logic you can make blocks visible or hidden based on customer's responses.
 
-    **Add Display Logic** - Adds a new display logic rule.
+    `Add Display Logic` - Adds a new display logic rule.
 
     !!! info
 
@@ -281,29 +330,29 @@
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-    - **+** - Adds another Display Logic rule. Adds a new OR logical rule.
+    `+` - Adds another Display Logic rule. Adds a new OR logical rule.
 
-    - **bin** - Delete the current Display Logic rule.
+    `bin` - Delete the current Display Logic rule.
 
-    - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    `+ add concurrent logic` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
-    **...** - Opens the more options menu.
+    `...` - Opens the more options menu.
 
     ![quiz builder results page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
 
-    - **+ add block below** - Opens the **+** / **add block** menu.
+    `+ add block below` - Opens the **+** / **add block** menu.
 
-    - **bin** / **delete block** - Deletes the current block from the results page.
+    `bin` / `delete block` - Deletes the current block from the results page.
 
 === "Magento"
 
-    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#display-logic) menu.
+    `conditional logic` / `tree icon` - Opens the [Display Logic](conditional-logic/#display-logic) menu.
 
     ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     With Display Logic you can make blocks visible or hidden based on customer's responses.
 
-    **Add Display Logic** - Adds a new display logic rule.
+    `Add Display Logic` - Adds a new display logic rule.
 
     !!! info
 
@@ -320,29 +369,29 @@
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-    - **+** - Adds another Display Logic rule. Adds a new OR logical rule.
+    `+` - Adds another Display Logic rule. Adds a new OR logical rule.
 
-    - **bin** - Delete the current Display Logic rule.
+    `bin` - Delete the current Display Logic rule.
 
-    - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    `+ add concurrent logic` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
-    **...** - Opens the more options menu.
+    `...` - Opens the more options menu.
 
     ![quiz builder results page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
 
-    - **+ add block below** - Opens the **+** / **add block** menu.
+    `+ add block below` - Opens the **+** / **add block** menu.
 
-    - **bin** / **delete block** - Deletes the current block from the results page.
+    `bin` / `delete block` - Deletes the current block from the results page.
 
 === "BigCommerce"
 
-    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#display-logic) menu.
+    `conditional logic` / `tree icon` - Opens the [Display Logic](conditional-logic/#display-logic) menu.
 
     ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     With Display Logic you can make blocks visible or hidden based on customer's responses.
 
-    **Add Display Logic** - Adds a new display logic rule.
+    `Add Display Logic` - Adds a new display logic rule.
 
     !!! info
 
@@ -359,29 +408,29 @@
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-    - **+** - Adds another Display Logic rule. Adds a new OR logical rule.
+    `+` - Adds another Display Logic rule. Adds a new OR logical rule.
 
-    - **bin** - Delete the current Display Logic rule.
+    `bin` - Delete the current Display Logic rule.
 
-    - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    `+ add concurrent logic` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
-    **...** - Opens the more options menu.
+    `...` - Opens the more options menu.
 
     ![quiz builder results page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
 
-    - **+ add block below** - Opens the **+** / **add block** menu.
+    `+ add block below` - Opens the **+** / **add block** menu.
 
-    - **bin** / **delete block** - Deletes the current block from the results page.
+    `bin` / `delete block` - Deletes the current block from the results page.
 
 === "Standalone"
 
-    **conditional logic** / **tree icon** - Opens the [Display Logic](conditional-logic/#display-logic) menu.
+    `conditional logic` / `tree icon` - Opens the [Display Logic](conditional-logic/#display-logic) menu.
 
     ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
     With Display Logic you can make blocks visible or hidden based on customer's responses.
 
-    **Add Display Logic** - Adds a new display logic rule.
+    `Add Display Logic` - Adds a new display logic rule.
 
     !!! info
 
@@ -398,19 +447,19 @@
 
         In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
 
-    - **+** - Adds another Display Logic rule. Adds a new OR logical rule.
+    `+` - Adds another Display Logic rule. Adds a new OR logical rule.
 
-    - **bin** - Delete the current Display Logic rule.
+    `bin` - Delete the current Display Logic rule.
 
-    - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+    `+ add concurrent logic` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
-    **...** - Opens the more options menu.
+    `...` - Opens the more options menu.
 
     ![quiz builder results page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
 
-    - **+ add block below** - Opens the **+** / **add block** menu.
+    `+ add block below` - Opens the **+** / **add block** menu.
 
-    - **bin** / **delete block** - Deletes the current block from the results page.
+    `bin` / `delete block` - Deletes the current block from the results page.
 
 ## Block Settings
 
