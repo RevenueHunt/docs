@@ -18,17 +18,24 @@
 
 === "Shopify V2"
 
+    
     You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
 
-    To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
+    To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [`Choice Settings`](questions/#choice-settings).
+
+    ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyv2_openchoicesettings.png)
+
+    Click on a choice to open the [`Choice Settings`](questions/#choice-settings).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
 
-    Click `Search tags` to pick a tag to link to this choice or start typing the name to create a new tag.
+    Click `Search or create tags` to pick a tag to link to this choice or start typing the name to create a new tag.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag.png)
 
-    Confirm with `Add tag`.
+    Confirm by saving the changes with the top `Save` button.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag_savechanges](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag_savechanges.png)
 
     All the tags you create will be visible at the bottom in grey.
 
