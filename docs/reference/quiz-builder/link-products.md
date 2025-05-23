@@ -30,23 +30,27 @@
 
 === "Shopify V2"
 
-    To add link products or product variants to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
+    To add link products or product variants to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [`Choice Settings`](questions/#choice-settings).
+
+    ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyv2_openchoicesettings.png)
+
+    Click on a choice to open the [`Choice Settings`](questions/#choice-settings).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
 
-    Next chose the weight of this choice:
+    Next, chose the weight of this choice:
 
-    **Upvotes weighting** - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products upvoted will receive x2 (double) votes from this choice.
+    `Upvotes weighting` - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products upvoted will receive x2 (double) votes from this choice.
 
-    And use the Upvotes section to choose which products or varaints to link to this choice:
+    And use the `Upvotes` section to choose which products or varaints to link to this choice:
 
-    **Upvotes** - lists all the collections, tags, variants collections or vendors that are linked to this choice.
+    `Upvotes` - lists all the products or product variants that are linked to this choice.
 
-    **▼Upvote** - Click `▼Upvote` to choose an item to upvote. You can upvote products or product variants to a choice. Once selected a popup will show allowing you to select items (product. product variants) from your Shopify catalog to be linked to this choice.
+    `▼Upvote` - Click `▼Upvote` to choose an item to upvote. You can upvote products or product variants to a choice. Once selected a popup will show allowing you to select items (product. product variants) from your Shopify catalog to be linked to this choice.
 
-    **Exclude** - lists all the products, product varaints that are excluded in this choice.
+    `Exclude` - lists all the products, product varaints that are excluded in this choice.
 
-    **▼Exclude** - Click to choose an item to exclude. You can exclude individual products, product varaints from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+    `▼Exclude` - Click to choose an item to exclude. You can exclude individual products, product varaints from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
 
     !!! warning
 
@@ -54,7 +58,7 @@
 
     In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_select](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_select.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_select](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvoteproducts_select.png){width="500"}
 
     In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
 

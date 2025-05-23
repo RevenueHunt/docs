@@ -32,33 +32,37 @@
 
 === "Shopify V2"
 
+    To link collections of products to choices, go to [Questions](/references/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [`Choice Settings`](questions/#choice-settings).
+
+    ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyv2_openchoicesettings.png)
+
+    Click on a choice to open the [`Choice Settings`](questions/#choice-settings).
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
+
+    Next, chose the weight of this choice:
+
+    `Upvotes weighting` - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products from a collections will receive x2 (double) votes from this choice.
+
+    And use the Upvotes section to choose which collections to link to this choice:
+
+    `Upvotes` - lists all the collections, tags, variants collections or vendors that are linked to this choice.
+
+    `▼Upvote` - Click `▼Upvote` to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. Once selected a popup will show allowing you to select items (collections, tags, variants, vendors) from your Shopify catalog to be linked to this choice.
+
     !!! note
 
         In V2 of the RevenueHunt app for Shopify you can not only upvote by also recommend entire collections to the customer.
 
-    To add link collections of products to choices, go to [Questions](/references/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [Choice Settings](questions/#choice-settings).
+    `Exclude` - lists all the products, product variants, collections, tags, variants collections or vendors that are excluded in this choice.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
-
-    Next chose the weight of this choice:
-
-    **Upvotes weighting** - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products from a collections will receive x2 (double) votes from this choice.
-
-    And use the Upvotes section to choose which collections to link to this choice:
-
-    **Upvotes** - lists all the collections, tags, variants collections or vendors that are linked to this choice.
-
-    **▼Upvote** - Click `▼Upvote` to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. Once selected a popup will show allowing you to select items (collections, tags, variants, vendors) from your Shopify catalog to be linked to this choice.
-
-    **Exclude** - lists all the products, product variants, collections, tags, variants collections or vendors that are excluded in this choice.
-
-    **▼Exclude** - Click to choose an item to exclude. You can exclude entire collections, tags, variants collections or vendors from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+    `▼Exclude` - Click to choose an item to exclude. You can exclude entire collections, tags, variants collections or vendors from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
 
     !!! warning
 
         Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the results page, even if it was upvoted in another choice earlier/later
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_select](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_select.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_select](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_select.png){width="500"}
 
     In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
 
