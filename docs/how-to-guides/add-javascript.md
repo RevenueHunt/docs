@@ -937,8 +937,8 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     ```javascript
     /* In the Custom Javascript section */
-    // get the element
-    var element = document.getElementById("body_mass_index_calculation");
+    // const shadowHost = document.querySelector('#shadow-quiz');
+    const shadowRoot = shadowHost.shadowRoot;
 
     // Using answers object to find responses for weight and height
     // Assuming you have questions with these keys - replace with your actual question IDs
