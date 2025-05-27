@@ -726,7 +726,7 @@
 
     `Remove` - Deletes the current block from the results page.
 
-    ### Product Component Layout
+    ### Product Components Layout
 
     `Product components layout` - Select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
 
@@ -734,7 +734,11 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png){width="500"}
 
+
+
     `Image` - Adds the product image.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image.png)
 
     `Heading` - Add the product title.
 
@@ -744,15 +748,23 @@
 
     `Text` - Adds an extra text block. Opens a text block menu that allows you to add your own custom text, link or a personalization.
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text.png)
+
     `Description` - Adds the product description.
 
     `Link to product` - Adds a button link to the product URL.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
 
     `Vendor` - Adds the product vendor.
 
     `Variants dropdown` - Adds a dropdown that dislays all the product variants.
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_varaintsdropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_varaintsdropdown.png)
+
     `Metafield` - Adds a metafield to the product block. Select a metafiled to diplsay from the `Select a metafield` dropdown. Note: You can also display a metafield by adding a `Text` block to your product layout and adding the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/).
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafield](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafieldpng.png)
 
     !!! note
 
