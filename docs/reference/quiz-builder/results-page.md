@@ -246,6 +246,8 @@
 
     There are three types of Display Logic rules you can choose from:
 
+    ---
+
     **Type 1: IF The response to the question...**
 
     Then the Display Logic rules follow the following format:
@@ -260,6 +262,8 @@
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
         In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then this section will be visible. If they give a different answer in Question 4 this content block will be hidden.
+
+    ---
 
     **Type 2: IF The score of the variable...**
 
@@ -284,6 +288,8 @@
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
 
         In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
+
+    ---
 
     **Type 3: IF the variable with the highest score...**
 
@@ -465,45 +471,45 @@
 
 === "Shopify"
 
-    🔧 / **wrench icon** - Opens the block settings menu.
+    `🔧 / wrench icon` - Opens the block settings menu.
 
     **Product Block Settings**
 
     ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
 
-    - **Title** - Type a title to be displayed above the recommended products.
+    `Title` - Type a title to be displayed above the recommended products.
 
-    - **Description** - Add a description to be displayed above the recommended products.
+    `Description` - Add a description to be displayed above the recommended products.
 
-    - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
 
-    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
     **Slot Block Settings** 
 
     ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
-    - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+    `Add a slot` - Adds a new slot to the slot block. You can have multiple slots in a slot block.
 
     ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
 
-    - **Title** - Type a title to be displayed above the slot.
+    `Title` - Type a title to be displayed above the slot.
 
-    - **Description** - Add a description to be displayed above the slot.
+    `Description` - Add a description to be displayed above the slot.
 
-    - **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
+    `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
 
-    - **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
 
-    **Slot ID** - Displays the current slot ID.
+    `Slot ID` - Displays the current slot ID.
 
 === "Shopify V2"
 
     Each buliding block of your results page section has individual block settings.
 
-    ###Heading
+    ### Heading
     
     Adds a new heading to your page, ideal for titles or section breaks.
 
@@ -513,15 +519,35 @@
 
     Choose the heading size and alignment.
 
-    **Content dynamic source**: [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+    ---
 
-    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png)
+    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+
+    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
     
     A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
 
-    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
+    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
-    ###Text
+    ---
+
+    `Block ID` - Displays the current block ID.
+
+    `Remove block` - Deletes the current block from the results page.
+
+    Click `...` to open the more options menu. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+
+
+    `Duplicate` - Duplicates the current block.
+
+    `Remove` - Deletes the current block from the results page.
+
+
+
+
+    ### Text
     
     Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
@@ -531,15 +557,33 @@
 
     Choose the text size and alignment.
 
-    **Content dynamic source**: [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+    ---
 
-    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png)
+    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+
+    ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
     
     A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
 
-    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
+    ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
-    ###Image
+    ---
+
+    `Block ID` - Displays the current block ID.
+
+    `Remove block` - Deletes the current block from the results page.
+
+    Click `...` to open the more options menu. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+
+
+    `Duplicate` - Duplicates the current block.
+
+    `Remove` - Deletes the current block from the results page.
+
+
+    ### Image
     
     Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
@@ -547,255 +591,371 @@
 
     To add an image click `Select image`. You can uplaod an image from your device or select from the in-app uploaded image gallery.
 
-    *Alt text* - Add an alternative text for this image.
+    `Alt text` - Add an alternative text for this image.
 
-    *Image height* - Select the size of the image.
+    `Image height` - Select the size of the image.
 
-    *Image alignment* - Select the image alignment left, right or center.
+    `Image alignment` - Select the image alignment left, right or center.
 
-    ###Button
+
+    `Block ID` - Displays the current block ID.
+
+    `Remove block` - Deletes the current block from the results page.
+
+    Click `...` to open the more options menu. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+
+
+    `Duplicate` - Duplicates the current block.
+
+    `Remove` - Deletes the current block from the results page.
+
+
+
+    ### Video
+
+    Adds a video to the results page. You can upload your own video or select from the in-app uploaded video gallery.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_video](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_video.png)
+
+    To add a video click `Select video`. You can uplaod a video from your device or select from the in-app uploaded video gallery.
+
+    `Alt text` - Add an alternative text for this video.
+
+    `Video aspect ratio` - Select the aspect ratio of the video.
+
+    `Video alignment` - Select the video alignment left, right or center.
+
+
+    `Block ID` - Displays the current block ID.
+
+    `Remove block` - Deletes the current block from the results page.
+
+    Click `...` to open the more options menu. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+
+
+    `Duplicate` - Duplicates the current block.
+
+    `Remove` - Deletes the current block from the results page.
+
+
+    ### Button
     
     Adds a button to the results page. You can add any URL to the button.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button.png)
 
-    *Button text* - Type the text displayed ont eh button.
+    `Button text` - Type the text displayed ont eh button.
 
-    *Button URL* - Add a URL to the button. 
+    `Button URL` - Add a URL to the button. 
 
-    *Button alignment* - Select he button alignment left, right or center.
+    `Open in new tab` - Select this option to open the link in a new tab.
 
-    ###Custom HTML
+    `Button alignment` - Select the button alignment left, right or center.
+
+    
+    `Block ID` - Displays the current block ID.
+
+    `Remove block` - Deletes the current block from the results page.
+
+    Click `...` to open the more options menu. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+
+
+    `Duplicate` - Duplicates the current block.
+
+    `Remove` - Deletes the current block from the results page.
+
+    ### Custom HTML
     
     Adds a block where you can input custom HTML code for advanced content and styling.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html.png)
 
-    ###Products / Products Variants / Collections
+    
+    `Block ID` - Displays the current block ID.
+
+    `Remove block` - Deletes the current block from the results page.
+
+    Click `...` to open the more options menu. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+
+
+    `Duplicate` - Duplicates the current block.
+
+    `Remove` - Deletes the current block from the results page.
+
+    ### Products / Products Variants / Collections
     
     Adds a block specifically designed for displaying a list of recommended products, product variants or collections.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
-    *Recommendation type:* - Select whether you prefer to recommend the main product, product variants or collections.
+    `Recommendation type` - Select whether you prefer to recommend the main product, product variants or collections.
 
-    *Recommendations system* - Select whether you prefer to show dynamic recommendations based on customer responses or a fixed set of recommended products, variants or collections.
+    `Recommendations system` - Select whether you prefer to show dynamic recommendations based on customer responses or a fixed set of recommended products, variants or collections.
 
-    *Min. number of votes:* - Select what minimum number of votes a product or a variants should receive in order to be displayed in this product block. If a product receives less votes than specified here at the end of the quiz, it will not be shown.
+    `Min. number of votes` - Select what minimum number of votes a product or a variants should receive in order to be displayed in this product block. If a product receives less votes than specified here at the end of the quiz, it will not be shown.
 
-    *Slot layout* - Select the layout of the slot block. 
+    `Slot layout` - Select the layout of the slot block. 
 
-    *Slot title/description alignment* - Select how the slot title or description should be aligned within the slot block- left, center or right.
+    `Slot title/description alignment` - Select how the slot title or description should be aligned within the slot block- left, center or right.
 
-    *Products/Collections Alignment* - Select how the product slot should be aligned on the results page - left, center or right.
+    `Products/Collections Alignment` - Select how the product slot should be aligned on the results page - left, center or right.
 
-    *Heading size* - Select the text size of the slot heading.
+    `Heading size` - Select the text size of the slot heading.
 
-    *Description size* - Select the text size of the slot description.
+    `Description size` - Select the text size of the slot description.
 
-    *Product components layout:* - Select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
+    `No recommendations message` - Add a message to be displayed if there are no recommendations. If the "No recommendations message" is empty, no message will be shown when there are no recommendations.
 
-    - **+ Add block** - add an extra block to the priduct slot. Below you can find a list of avialble product comonents. All the data are synced directly from your Shopify catalog.
+    `Block ID` - Displays the current block ID.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png)
+    `Remove block` - Deletes the current block from the results page.
 
-    *Image* - Adds the product image.
+    Click `...` to open the more options menu. 
 
-    *Heading* - Add the product title.
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 
-    *Price* - Adds the product price.
+    `Duplicate` - Duplicates the current block.
 
-    *Add to cart button* - Adds an "Add to cart" button.
+    `Remove` - Deletes the current block from the results page.
 
-    *Text* - Adds an extra text block. Opens a text block menu that allows you to add your own custom text, link or a personalization.
+    ### Product Component Layout
 
-    *Description* - Adds the product description.
+    `Product components layout` - Select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
 
-    *Link to product* - Adds a button link to the product URL.
+    `+ Add block` - add an extra block to the priduct slot. Below you can find a list of avialble product comonents. All the data are synced directly from your Shopify catalog.
 
-    *Vendor* - Adds the product vendor.
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png){width="500"}
 
-    *Variants dropdown* - Adds a dropdown that dislays all the product variants.
+    `Image` - Adds the product image.
 
-    *Metafield* - Adds a metafield to the product block. Select a metafiled to diplsay from the `Select a metafield` dropdown. Note: You can also display a metafield by adding a `Text` block to your product layout and adding the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/).
+    `Heading` - Add the product title.
+
+    `Price` - Adds the product price.
+
+    `Add to cart button` - Adds an "Add to cart" button.
+
+    `Text` - Adds an extra text block. Opens a text block menu that allows you to add your own custom text, link or a personalization.
+
+    `Description` - Adds the product description.
+
+    `Link to product` - Adds a button link to the product URL.
+
+    `Vendor` - Adds the product vendor.
+
+    `Variants dropdown` - Adds a dropdown that dislays all the product variants.
+
+    `Metafield` - Adds a metafield to the product block. Select a metafiled to diplsay from the `Select a metafield` dropdown. Note: You can also display a metafield by adding a `Text` block to your product layout and adding the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/).
 
     !!! note
 
         The app can only sync and show the string, single_line_text_field, multi_line_text_field, date, and number product metafields. Rich_text_fields metafields are not currently supported.
 
+    ### Product Slot
+
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1.png)
 
-    **Slot 1** - Slots allow you to recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...). Unless you add a filter, the slot will display a list of recommended products, variants or collections.
+    `Slot 1` - Slots allow you to recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...). 
+    
+    !!! info
 
-    **+ Add Slot** - Adds a new slot to the product/collection block.
+        Slots display products based on the `Recommendations system` set up in [Product Block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
+        
+        If the recommendations system is set to `Based on customer's reponses` then the slot will display the most voted products based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
+
+        If the recommendations system is set to `Fixed` then the slot will display the products that are linked to the slot.
+
+    `+ Add Slot` - Adds a new slot to the product/collection block.
+
+    ---
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot.png)
 
-    *Heading* - Adds a custom heading to the slot block.
+    `Heading` - Adds a custom heading to the slot block.
 
-    *Description* - Adds a custom description to the slot block. Allows to add text, links or personalization.
+    `Description` - Adds a custom description to the slot block. Allows to add text, links or personalization.
 
-    *Slot width* - Select the default slot width.
+    `Slot width` - Select the default slot width.
 
-    *Max. recommended products* - The maximum number of products allowed to be displayed in the slot block.
+    `Max. recommended products` - The maximum number of products allowed to be displayed in the slot block.
 
-    **Add segments** - Click `v Add` to select products from which Products, Varaints,Collections, Tags, Variants or Vendors will be shown in this slot block.
+    `Add segments` - Click `v Add` to select products from which Products, Varaints,Collections, Tags, Variants or Vendors will be shown in this slot block.
+
+    !!! info
+
+        Slots display products based on the `Recommendations system` set up in [Product Block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
+        
+        If the recommendations system is set to `Based on customer's reponses` then the slot will display the most voted products based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
+
+        If the recommendations system is set to `Fixed` then the slot will display the products that are linked to the slot.
 
     !!! warning
 
-        If you add a segement, the slot will be able to display the most voted products from the linked products/collections.
+        If the recommendations system is set to `Based on customer's reponses` then the slot will display the most voted products based on customer choices. 
 
-    **Exclude segments** - Click `v Exclude` to choose products from which Products, Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
+        If you add a segement, the slot will be able to display the most voted products from the linked products/collections.
+        
+        Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
+
+    `Exclude segments` - Click `v Exclude` to choose products from which Products, Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
+
 
 === "WooCommerce"
 
-    🔧 / **wrench icon** - Opens the block settings menu.
+    `🔧 / wrench icon` - Opens the block settings menu.
 
     **Product Block Settings**
 
     ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
 
-    - **Title** - Type a title to be displayed above the recommended products.
+    `Title` - Type a title to be displayed above the recommended products.
 
-    - **Description** - Add a description to be displayed above the recommended products.
+    `Description` - Add a description to be displayed above the recommended products.
 
-    - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
 
-    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
     **Slot Block Settings** 
 
     ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
-    - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+    `Add a slot` - Adds a new slot to the slot block. You can have multiple slots in a slot block.
 
     ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
 
-    - **Title** - Type a title to be displayed above the slot.
+    `Title` - Type a title to be displayed above the slot.
 
-    - **Description** - Add a description to be displayed above the slot.
+    `Description` - Add a description to be displayed above the slot.
 
-    - **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
+    `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
 
-    - **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
 
-    **Slot ID** - Displays the current slot ID.
+    `Slot ID` - Displays the current slot ID.
 
 === "Magento"
 
-    🔧 / **wrench icon** - Opens the block settings menu.
+    `🔧 / wrench icon` - Opens the block settings menu.
 
     **Product Block Settings**
 
     ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
 
-    - **Title** - Type a title to be displayed above the recommended products.
+    `Title` - Type a title to be displayed above the recommended products.
 
-    - **Description** - Add a description to be displayed above the recommended products.
+    `Description` - Add a description to be displayed above the recommended products.
 
-    - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
 
-    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
     **Slot Block Settings** 
 
     ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
-    - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+    `Add a slot` - Adds a new slot to the slot block. You can have multiple slots in a slot block.
 
     ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
 
-    - **Title** - Type a title to be displayed above the slot.
+    `Title` - Type a title to be displayed above the slot.
 
-    - **Description** - Add a description to be displayed above the slot.
+    `Description` - Add a description to be displayed above the slot.
 
-    - **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
+    `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
 
-    - **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
 
-    **Slot ID** - Displays the current slot ID.
+    `Slot ID` - Displays the current slot ID.
 
 === "BigCommerce"
 
-    🔧 / **wrench icon** - Opens the block settings menu.
+    `🔧 / wrench icon` - Opens the block settings menu.
 
     **Product Block Settings**
 
     ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
 
-    - **Title** - Type a title to be displayed above the recommended products.
+    `Title` - Type a title to be displayed above the recommended products.
 
-    - **Description** - Add a description to be displayed above the recommended products.
+    `Description` - Add a description to be displayed above the recommended products.
 
-    - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
 
-    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
     **Slot Block Settings** 
 
     ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
-    - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+    `Add a slot` - Adds a new slot to the slot block. You can have multiple slots in a slot block.
 
     ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
 
-    - **Title** - Type a title to be displayed above the slot.
+    `Title` - Type a title to be displayed above the slot.
 
-    - **Description** - Add a description to be displayed above the slot.
+    `Description` - Add a description to be displayed above the slot.
 
-    - **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
+    `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
 
-    - **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
 
-    **Slot ID** - Displays the current slot ID.
+    `Slot ID` - Displays the current slot ID.
 
 === "Standalone"
 
-    🔧 / **wrench icon** - Opens the block settings menu.
+    `🔧 / wrench icon` - Opens the block settings menu.
 
     **Product Block Settings**
 
     ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
 
-    - **Title** - Type a title to be displayed above the recommended products.
+    `Title` - Type a title to be displayed above the recommended products.
 
-    - **Description** - Add a description to be displayed above the recommended products.
+    `Description` - Add a description to be displayed above the recommended products.
 
-    - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
 
-    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+    `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
     **Slot Block Settings** 
 
     ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
 
-    - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+    `Add a slot` - Adds a new slot to the slot block. You can have multiple slots in a slot block.
 
     ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
 
-    - **Title** - Type a title to be displayed above the slot.
+    `Title` - Type a title to be displayed above the slot.
 
-    - **Description** - Add a description to be displayed above the slot.
+    `Description` - Add a description to be displayed above the slot.
 
-    - **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
+    `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
 
-    - **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
 
-    **Slot ID** - Displays the current slot ID.
+    `Slot ID` - Displays the current slot ID.
 
 ## Results Page Settings
 
 === "Shopify"
 
-    ⚙️ / **gear icon** - Opens the results page settings.
+    `⚙️ / gear icon` - Opens the results page settings.
 
     ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
@@ -803,57 +963,65 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
-    **...** - Opens the results page settings. Click `Duplicate` to duplicate the results page or `Remove` to delete it.
+    `...` - Opens the results page settings. Click `Duplicate` to duplicate the results page or `Remove` to delete it.
 
     ![manual_shoopifyV2_remove](/images/manual_shoopifyV2_remove.png)
 
-    **Results page name** - Type the name of the results page.
+    `Results page name` - Type the name of the results page.
 
-    **Backgroud image** - Click `Select image`to upload a background image or select one from the in-app image gallery.
+    `Background image` - Click `Select image` to upload a background image or select one from the in-app image gallery.
 
-    **Background opacity** - Use the slider to change the background image opacity percentage.
+    `Background opacity` - Use the slider to change the background image opacity percentage.
 
-    **Allow duplicated recommendations** - Check this option to allow products to be shown in more than one product/slot blocks.
+    `Allow duplicated recommendations` - Check this option to allow products to be shown in more than one product/slot blocks.
 
-    **Checkout options** - Seelct the settings of the checkout bar.
+    `Checkout options` - Seelct the settings of the checkout bar.
 
-    *Show bar* - Uncheck to hide the checkout bar.
+    `Show bar` - Uncheck to hide the checkout bar.
 
-    *Show "retake quiz" button* - Uncheck if you want to hide the "retake quiz" button.
+    `Show "Retake quiz" button` - Uncheck if you want to hide the "retake quiz" button.
 
-    *Show "Add all to cart" button* - Uncheck to hide the "Add all to cart" button from the footer.
+    `Show "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer.
 
-    **Next destination for users** - Choose where customers go after the results page.
+    `Next destination for users` - Choose where customers go after the results page.
 
-    *Proceed to checkout* - After adding the products to cart, the customer will be redirected directly to checkout.
+    `Proceed to checkout` - After adding the products to cart, the customer will be redirected directly to checkout.
 
-    *Proceed to cart* - After adding the products to cart, the customer will be redirected to the cart page.
+    `Proceed to cart` - After adding the products to cart, the customer will be redirected to the cart page. 
 
-    **Custom CSS Code** - Add custom CSS code to this results page only.
+    !!! info
 
-    **Custom JS code** - Add custom JavaScript to this results page only.
+        The texts of the results page bar can be changed in [quiz settings > content > messages](https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings/#messages).
+
+    `Custom CSS code` - Add custom CSS code to this results page only.
+
+    `Custom JS code` - Add custom JavaScript to this results page only.
+
+    `Results page ID` - Displays the current results page ID.
+
+    `Remove results page` - Deletes the current results page.
 
 === "WooCommerce"
 
-    ⚙️ / **gear icon** - Opens the results page settings.
+    `⚙️ / gear icon` - Opens the results page settings.
 
     ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
 === "Magento"
 
-    ⚙️ / **gear icon** - Opens the results page settings.
+    `⚙️ / gear icon` - Opens the results page settings.
 
     ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
 === "BigCommerce"
 
-    ⚙️ / **gear icon** - Opens the results page settings.
+    `⚙️ / gear icon` - Opens the results page settings.
 
     ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
 === "Standalone"
 
-    ⚙️ / **gear icon** - Opens the results page settings.
+    `⚙️ / gear icon` - Opens the results page settings.
 
     ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
@@ -865,13 +1033,13 @@
 
     ![quiz builder results page results page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
 
-    - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page.
+    `Add product to cart` - Allows the user to add the recommended products to the cart directly from the results page.
 
-        - **Proceed to cart** - After the products are added to the cart, the customer will proceed to the cart page.
+    `Proceed to cart` - After the products are added to the cart, the customer will proceed to the cart page.
 
-        - **proceed to checkout** - After the products are added to the cart, the customer will proceed to the checkout page.
+    `Proceed to checkout` - After the products are added to the cart, the customer will proceed to the checkout page.
 
-    - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+    `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
 === "Shopify V2"
 
@@ -881,35 +1049,41 @@
 
     ![manual_woo_quizbuilder_resultspage_checkoutsettings](/images/manual_woo_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 
-    - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page.
-    - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
-    - **Cart URL:** - Typer the cart URL where the customer will be redirected after adding a product to the cart.
-        - **/cart** - After the products are added to the cart, the customer will proceed to the cart page.
-        - **/checkout** - After the products are added to the cart, the customer will proceed to the checkout page.
+    `Add product to cart` - Allows the user to add the recommended products to the cart directly from the results page.
+
+    `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+
+    `Cart URL:` - Typeer the cart URL where the customer will be redirected after adding a product to the cart.
+
+    `/cart` - After the products are added to the cart, the customer will proceed to the cart page.
+
+    `/checkout` - After the products are added to the cart, the customer will proceed to the checkout page.
 
 === "Magento"
 
     ![manual_magento_quizbuilder_resultspage_checkoutsettings](/images/manual_magento_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 
-    - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
-    - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+    `Add product to cart` - Allows the user to add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
+
+    `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
 === "BigCommerce"
 
     ![manual_bigcommerce_quizbuilder_resultspage_checkoutsettings](/images/manual_bigcommerce_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 
-    - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
-    - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+    `Add product to cart` - Allows the user to add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
+
+    `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
 === "Standalone"
 
     ![manual_standalone_quizbuilder_resultspage_checkoutsettings](/images/manual_standalone_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 
-    - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
+    `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
     !!! warning
 
-        **Add product to cart** - This option is not available in the Standalone version of the Product Recommendation Quiz.
+        `Add product to cart` - This option is not available in the Standalone version of the Product Recommendation Quiz.
     
     !!! tip
 
@@ -921,60 +1095,60 @@
 
     ![quiz builder results page results page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
 
-    - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
+    `Show main product image` - Click to always show the main product image, even when a variant is recommended.
 
-    - **Show variant image** - Click to always show the variant image, instead of the main product image.
+    `Show variant image` - Click to always show the variant image, instead of the main product image.
 
-    - **Show price** - Toggle to display the product price on the results page.
+    `Show price` - Toggle to display the product price on the results page.
 
-    - **Show vendors** - Toggle to display the product vendor under the product on the results page.
+    `Show vendors` - Toggle to display the product vendor under the product on the results page.
 
-    - **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
+    `Show CTA button` - Toggle to display the "add to cart" or "view product" button under the products on the results page.
 
-    - **Show "more info" link** - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
+    `Show "more info" link` - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
 
-    - **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
+    `Show description` - Toggle to display the product description below the product name on the results page. An additional option is displayed.
 
-        **Truncate description** - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
+    `Truncate description` - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
 
-        ??? question "Show custom shorter product description"
+    ??? question "Show custom shorter product description"
 
-            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
-            ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
+        ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
-            And paste the `<!--more-->` code after the introductory blurb:
+        And paste the `<!--more-->` code after the introductory blurb:
 
-            ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
+        ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-            This should cut the description on the quiz results page:
+        This should cut the description on the quiz results page:
 
-            ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
+        ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+        You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
-    - **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
+    `Show reviews` - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
 
-        !!! info
+    !!! info
 
-            We currently support these review apps for Shopify:
+         We currently support these review apps for Shopify:
 
-            - Product Reviews by Shopify,
-            - Stamped Product Reviews & UGC,
-            - Judge.me Product Reviews,
-            - Rivyo Product Reviews.
+        - Product Reviews by Shopify,
+        - Stamped Product Reviews & UGC,
+        - Judge.me Product Reviews,
+        - Rivyo Product Reviews.
 
-    - **Show metafields** - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    `Show metafields` - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
 
     **Style Settings**
 
     ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    **Background image** - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
-    - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
 
 === "Shopify V2"
 
@@ -982,186 +1156,186 @@
 
     ![quiz builder results page results page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
 
-    - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
+    `Show main product image` - Click to always show the main product image, even when a variant is recommended.
 
-    - **Show variant image** - Click to always show the variant image, instead of the main product image.
+    `Show variant image` - Click to always show the variant image, instead of the main product image.
 
-    - **Show price** - Toggle to display the product price on the results page.
+    `Show price` - Toggle to display the product price on the results page.
 
-    - **Show vendors** - Toggle to display the product vendor under the product on the results page.
+    `Show vendors` - Toggle to display the product vendor under the product on the results page.
 
-        !!! info
+    !!! info
 
-            If you want to display the vendor of each product in the results page, please use [Product Vendors](https://woocommerce.com/products/product-vendors/) by WooCommerce.
+        If you want to display the vendor of each product in the results page, please use [Product Vendors](https://woocommerce.com/products/product-vendors/) by WooCommerce.
 
-    - **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
+    `Show CTA button` - Toggle to display the "add to cart" or "view product" button under the products on the results page.
 
-    - **Show "more info" link** - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
+    `Show "more info" link` - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
 
-    - **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
+    `Show description` - Toggle to display the product description below the product name on the results page. An additional option is displayed.
 
-        **Truncate description** - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
+    `Truncate description` - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
 
-        ??? question "Show custom shorter product description"
+    ??? question "Show custom shorter product description"
 
-            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
-            ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
+        ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
-            And paste the `<!--more-->` code after the introductory blurb:
+        And paste the `<!--more-->` code after the introductory blurb:
 
-            ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
+        ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-            This should cut the description on the quiz results page:
+        This should cut the description on the quiz results page:
 
-            ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
+        ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+        You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
  
  
-    - **Show reviews** - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
+    `Show reviews` - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
 
-        !!! info
+    !!! info
 
-            We currently sync only the official WooCommerce Reviews.
+         We currently sync only the official WooCommerce Reviews.
 
-    - **Show metafields/attributes** - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    `Show metafields/attributes` - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
 
     **Style Settings**
 
     ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    **Background image** - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
-    - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
 
 === "Magento"
 
     ![manual_magento_quizbuilder_resultspage_individualproductsettings](/images/manual_magento_quizbuilder_resultspage_individualproductsettings.png){width="500"}
 
-    - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
+    `Show main product image` - Click to always show the main product image, even when a variant is recommended.
 
-    - **Show variant image** - Click to always show the variant image, instead of the main product image.
+    `Show variant image` - Click to always show the variant image, instead of the main product image.
 
-    - **Show price** - Toggle to display the product price on the results page.
+    `Show price` - Toggle to display the product price on the results page.
 
-    - **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
+    `Show CTA button` - Toggle to display the "add to cart" or "view product" button under the products on the results page.
 
-    - **Show "more info" link** - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
+    `Show "more info" link` - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
 
-    - **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
+    `Show description` - Toggle to display the product description below the product name on the results page. An additional option is displayed.
 
-    - **Truncate description** - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
+    `Truncate description` - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
 
-        ??? question "Show custom shorter product description"
+    ??? question "Show custom shorter product description"
 
-            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
-            ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
+        ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
-            And paste the `<!--more-->` code after the introductory blurb:
+        And paste the `<!--more-->` code after the introductory blurb:
 
-            ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
+        ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-            This should cut the description on the quiz results page:
+        This should cut the description on the quiz results page:
 
-            ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
+        ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+        You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
     **Style Settings**
 
     ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    **Background image** - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
-    - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
 
 === "BigCommerce"
 
     ![manual_bigcommerce_quizbuilder_resultspage_individualproductsettings](/images/manual_bigcommerce_quizbuilder_resultspage_individualproductsettings.png){width="500"}
 
-    - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
+    `Show main product image` - Click to always show the main product image, even when a variant is recommended.
 
-    - **Show variant image** - Click to always show the variant image, instead of the main product image.
+    `Show variant image` - Click to always show the variant image, instead of the main product image.
 
-    - **Show price** - Toggle to display the product price on the results page.
+    `Show price` - Toggle to display the product price on the results page.
 
-    - **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
+    `Show CTA button` - Toggle to display the "add to cart" or "view product" button under the products on the results page.
 
-    - **Show "more info" link** - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
+    `Show "more info" link` - Toggle to display a "more info" link below the product name or description on the results page. The link takes you to the product page.
 
-    - **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
+    `Show description` - Toggle to display the product description below the product name on the results page. An additional option is displayed.
 
-        ??? question "Show custom shorter product description"
+    ??? question "Show custom shorter product description"
 
-            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
-            ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
+        ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
-            And paste the `<!--more-->` code after the introductory blurb:
+        And paste the `<!--more-->` code after the introductory blurb:
 
-            ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
+        ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-            This should cut the description on the quiz results page:
+        This should cut the description on the quiz results page:
 
-            ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
+        ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+        You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
     **Style Settings**
 
     ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    **Background image** - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
-    - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
 
 === "Standalone"
 
     ![manual_standalone_quizbuilder_resultspage_individualproductsettings](/images/manual_standalone_quizbuilder_resultspage_individualproductsettings.png){width="500"}
 
-    - **Show main product image** - Click to always show the main product image, even when a variant is recommended.
+    `Show main product image` - Click to always show the main product image, even when a variant is recommended.
 
-    - **Show variant image** - Click to always show the variant image, instead of the main product image.
+    `Show variant image` - Click to always show the variant image, instead of the main product image.
 
-    - **Show price** - Toggle to display the product price on the results page.
+    `Show price` - Toggle to display the product price on the results page.
 
-    - **Show CTA button** - Toggle to display the "add to cart" or "view product" button under the products on the results page.
+    `Show CTA button` - Toggle to display the "add to cart" or "view product" button under the products on the results page.
 
-    - **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
+    `Show description` - Toggle to display the product description below the product name on the results page. An additional option is displayed.
 
-        ??? question "Show custom shorter product description"
+    ??? question "Show custom shorter product description"
 
-            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
-            ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
+        ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
-            And paste the `<!--more-->` code after the introductory blurb:
+        And paste the `<!--more-->` code after the introductory blurb:
 
-            ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
+        ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
 
-            This should cut the description on the quiz results page:
+        This should cut the description on the quiz results page:
 
-            ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
+        ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-            You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+        You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
 
     **Style Settings**
 
     ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
 
-    **Background image** - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
+    `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
-    - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
 
 ### Advanced Settings
 
@@ -1171,27 +1345,27 @@
 
     **Recommendation Settings**
 
-    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    `If no results, no products` - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
 
-    **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
+    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
+    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
 
-    **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
+    `Show unavailable products` - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
-    **Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
+    `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    **Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
 
     ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
     **Custom JS Code**
 
-    **Custom JavaScript** - Click "Add" to open the JavaScript console.
+    `Custom JavaScript` - Click "Add" to open the JavaScript console.
 
     **Multiple Results Pages**
 
-    **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
+    `Activate multiple results pages` - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
 === "Shopify V2"
 
@@ -1201,27 +1375,27 @@
 
     **Recommendation Settings**
 
-    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    `If no results, no products` - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
 
-    **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
+    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
+    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
 
-    **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
+    `Show unavailable products` - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
-    **Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
+    `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    **Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
 
     ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
     **Custom JS Code**
 
-    **Custom JavaScript** - Click "Add" to open the JavaScript console.
+    `Custom JavaScript` - Click "Add" to open the JavaScript console.
 
     **Multiple Results Pages**
 
-    **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
+    `Activate multiple results pages` - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
 === "Magento"
 
@@ -1229,27 +1403,27 @@
 
     **Recommendation Settings**
 
-    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    `If no results, no products` - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
 
-    **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
+    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
+    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
 
-    **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
+    `Show unavailable products` - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
-    **Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
+    `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    **Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
 
     ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
     **Custom JS Code**
 
-    **Custom JavaScript** - Click "Add" to open the JavaScript console.
+    `Custom JavaScript` - Click "Add" to open the JavaScript console.
 
     **Multiple Results Pages**
 
-    **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
+    `Activate multiple results pages` - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
 === "BigCommerce"
 
@@ -1257,27 +1431,27 @@
 
     **Recommendation Settings**
 
-    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    `If no results, no products` - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
 
-    **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
+    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
+    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
 
-    **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
+    `Show unavailable products` - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
-    **Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
+    `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    **Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
 
     ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
     **Custom JS Code**
 
-    **Custom JavaScript** - Click "Add" to open the JavaScript console.
+    `Custom JavaScript` - Click "Add" to open the JavaScript console.
 
     **Multiple Results Pages**
 
-    **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
+    `Activate multiple results pages` - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
 === "Standalone"
 
@@ -1285,27 +1459,27 @@
 
     **Recommendation Settings**
 
-    **If no results, no products** - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    `If no results, no products` - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
 
-    **If no results, random products** - If there are no products that can be recommended the app will show random products that received any votes.
+    `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
 
-    **Group product variants** - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
+    `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
 
-    **Show unavailable products** - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
+    `Show unavailable products` - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
 
-    **Allow duplicated recommendations** - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
+    `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    **Minimum number of votes** - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
 
     ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
     **Custom JS Code**
 
-    **Custom JavaScript** - Click "Add" to open the JavaScript console.
+    `Custom JavaScript` - Click "Add" to open the JavaScript console.
 
     **Multiple Results Pages**
 
-    **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
+    `Activate multiple results pages` - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
 ### Multiple Results Pages Settings
 
@@ -1315,23 +1489,23 @@
 
     **Results Page 1** 
 
-    - **Edit this page** - Click "edit" to switch to this results page and edit its content.
+    `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
-    - **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
     **Results Page 2**
 
-    - **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
+    `You're editing this Results Page settings & blocks` - Indicates which results page you are currently editing.
 
-    - **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
-    **Create new Results Page** - add a new results page to your quiz. 
+    `Create new Results Page` - add a new results page to your quiz. 
 
 === "Shopify V2"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
 
-    **+ Add results page** - Click to add an extra results page to your quiz. Each results page can have different settings and content.
+    `+ Add results page` - Click to add an extra results page to your quiz. Each results page can have different settings and content.
 
     !!! note
 
@@ -1343,17 +1517,17 @@
 
     **Results Page 1** 
 
-    - **Edit this page** - Click "edit" to switch to this results page and edit its content.
+    `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
-    - **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
     **Results Page 2**
 
-    - **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
+    `You're editing this Results Page settings & blocks` - Indicates which results page you are currently editing.
 
-    - **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
-    **Create new Results Page** - add a new results page to your quiz.
+    `Create new Results Page` - add a new results page to your quiz.
 
 === "Magento"
 
@@ -1361,17 +1535,17 @@
 
     **Results Page 1** 
 
-    - **Edit this page** - Click "edit" to switch to this results page and edit its content.
+    `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
-    - **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
     **Results Page 2**
 
-    - **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
+    `You're editing this Results Page settings & blocks` - Indicates which results page you are currently editing.
 
-    - **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
-    **Create new Results Page** - add a new results page to your quiz.
+    `Create new Results Page` - add a new results page to your quiz.
 
 === "BigCommerce"
 
@@ -1379,17 +1553,17 @@
 
     **Results Page 1** 
 
-    - **Edit this page** - Click "edit" to switch to this results page and edit its content.
+    `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
-    - **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
     **Results Page 2**
 
-    - **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
+    `You're editing this Results Page settings & blocks` - Indicates which results page you are currently editing.
 
-    - **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
-    **Create new Results Page** - add a new results page to your quiz.
+    `Create new Results Page` - add a new results page to your quiz.
 
 === "Standalone"
 
@@ -1397,17 +1571,17 @@
 
     **Results Page 1** 
 
-    - **Edit this page** - Click "edit" to switch to this results page and edit its content.
+    `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
-    - **This is currently the default Results Page** - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
     **Results Page 2**
 
-    - **You're editing this Results Page settings & blocks** - Indicates which results page you are currently editing.
+    `You're editing this Results Page settings & blocks` - Indicates which results page you are currently editing.
 
-    - **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
-    **Create new Results Page** - add a new results page to your quiz.
+    `Create new Results Page` - add a new results page to your quiz.
 
 ### Discounts Settings
 
@@ -1415,39 +1589,39 @@
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
-    - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+    `Visible discount` - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+    `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
     **Dynamic Discounts Settings**
 
-    - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+    `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
 
-    - **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+    `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
     **Discount [A]** 
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+    `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+    `Discount percentage` - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+    `Min. value in cart` - Type the value of products added to the cart on the results page above which the discount will be applied.
 
-    - **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
+    `+` / `add another discount` - adds a new dynamic discount (Discount [B]).
 
-    - **bin** / **delete this discount** - deletes this dynamic discount.
+    `bin` / `delete this discount` - deletes this dynamic discount.
 
-    **add a discount** - Adds a new dynamic discount below (Discount [B]).
+    `add a discount` - Adds a new dynamic discount below (Discount [B]).
 
-    **deactivate** - Deactivates dynamic discounts.
+    `deactivate` - Deactivates dynamic discounts.
 
 === "Shopify V2"
 
@@ -1457,191 +1631,191 @@
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
-    - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+    `Visible discount` - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+    `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
     **Dynamic Discounts Settings**
 
-    - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+    `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
 
-    - **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+    `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
     **Discount [A]** 
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+    `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+    `Discount percentage` - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+    `Min. value in cart` - Type the value of products added to the cart on the results page above which the discount will be applied.
 
-    - **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
+    `+` / `add another discount` - adds a new dynamic discount (Discount [B]).
 
-    - **bin** / **delete this discount** - deletes this dynamic discount.
+    `bin` / `delete this discount` - deletes this dynamic discount.
 
-    **add a discount** - Adds a new dynamic discount below (Discount [B]).
+    `add a discount` - Adds a new dynamic discount below (Discount [B]).
 
-    **deactivate** - Deactivates dynamic discounts.
+    `deactivate` - Deactivates dynamic discounts.
 
 === "Magento"
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
-    - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+    `Visible discount` - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+    `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
     **Dynamic Discounts Settings**
 
-    - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+    `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
 
-    - **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+    `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
     **Discount [A]** 
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+    `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+    `Discount percentage` - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+    `Min. value in cart` - Type the value of products added to the cart on the results page above which the discount will be applied.
 
-    - **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
+    `+` / `add another discount` - adds a new dynamic discount (Discount [B]).
 
-    - **bin** / **delete this discount** - deletes this dynamic discount.
+    `bin` / `delete this discount` - deletes this dynamic discount.
 
-    **add a discount** - Adds a new dynamic discount below (Discount [B]).
+    `add a discount` - Adds a new dynamic discount below (Discount [B]).
 
-    **deactivate** - Deactivates dynamic discounts.
+    `deactivate` - Deactivates dynamic discounts.
 
 === "BigCommerce"
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
-    - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+    `Visible discount` - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+    `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
     **Dynamic Discounts Settings**
 
-    - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+    `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
 
-    - **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+    `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
     **Discount [A]** 
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+    `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+    `Discount percentage` - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+    `Min. value in cart` - Type the value of products added to the cart on the results page above which the discount will be applied.
 
-    - **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
+    `+` / `add another discount` - adds a new dynamic discount (Discount [B]).
 
-    - **bin** / **delete this discount** - deletes this dynamic discount.
+    `bin` / `delete this discount` - deletes this dynamic discount.
 
-    **add a discount** - Adds a new dynamic discount below (Discount [B]).
+    `add a discount` - Adds a new dynamic discount below (Discount [B]).
 
-    **deactivate** - Deactivates dynamic discounts.
+    `deactivate` - Deactivates dynamic discounts.
 
 === "BigCommerce"
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
-    - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+    `Visible discount` - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+    `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
     **Dynamic Discounts Settings**
 
-    - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+    `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
 
-    - **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+    `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
     **Discount [A]** 
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+    `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+    `Discount percentage` - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+    `Min. value in cart` - Type the value of products added to the cart on the results page above which the discount will be applied.
 
-    - **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
+    `+` / `add another discount` - adds a new dynamic discount (Discount [B]).
 
-    - **bin** / **delete this discount** - deletes this dynamic discount.
+    `bin` / `delete this discount` - deletes this dynamic discount.
 
-    **add a discount** - Adds a new dynamic discount below (Discount [B]).
+    `add a discount` - Adds a new dynamic discount below (Discount [B]).
 
-    **deactivate** - Deactivates dynamic discounts.
+    `deactivate` - Deactivates dynamic discounts.
 
 === "Standalone"
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
-    - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
+    `Visible discount` - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+    `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
     **Dynamic Discounts Settings**
 
-    - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
+    `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
 
-    - **Encourage discounts** - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
+    `Encourage discounts` - The notification will also include a message telling the customer how close they are to receiving the next highest discount. Toggle to enable/disable.
 
     **Discount [A]** 
 
-    - **Discount code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+    `Discount code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    - **Discount percentage** - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
+    `Discount percentage` - Type the discount %. The percentage discount will be visible in the results page products. The discount code will be automatically redeemed at checkout.
 
-    - **Min. value in cart** - Type the value of products added to the cart on the results page above which the discount will be applied.
+    `Min. value in cart` - Type the value of products added to the cart on the results page above which the discount will be applied.
 
-    - **+** / **add another discount** - adds a new dynamic discount (Discount [B]).
+    `+` / `add another discount` - adds a new dynamic discount (Discount [B]).
 
-    - **bin** / **delete this discount** - deletes this dynamic discount.
+    `bin` / `delete this discount` - deletes this dynamic discount.
 
-    **add a discount** - Adds a new dynamic discount below (Discount [B]).
+    `add a discount` - Adds a new dynamic discount below (Discount [B]).
 
-    **deactivate** - Deactivates dynamic discounts.
+    `deactivate` - Deactivates dynamic discounts.
 
 
 

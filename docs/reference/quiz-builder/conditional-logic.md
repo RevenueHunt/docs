@@ -218,8 +218,11 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
 
+    ---
 
     There are three types of Jump Logic rules you can choose from:
+
+    ---
 
     **Type 1: IF The response to the question...**
 
@@ -247,6 +250,7 @@
 
         In the example, **only if** a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" **and** a choice "Teens and 20's" in Question 3 "AGE GROUP" they will be redirected to Question 8 "SKIN TYPE: OILY".
 
+    ---
 
     **Type 2: IF The score of the variable...**
 
@@ -269,7 +273,8 @@
 
         In the example if the score of the varaible `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` after the customer answers Question 9 then the user will be redirected to the `Resutls page 1`.
 
-       
+    ---
+
     **Type 3: IF the variable with the highest score...**
 
     Then the Jump Logic rules follow the following format:
@@ -506,7 +511,11 @@
 
     `+ Add concurrent logic (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
+    ---
+
     There are three types of Skip Logic rules you can choose from:
+
+    ---
 
     **Type 1: IF The response to the question...**
 
@@ -521,6 +530,8 @@
         ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example.png)
 
         In the example, if a user chooses a choice "Too shiny" in Question 9 "SKIN CONCERNS" then Question 10 "ALERGIES" will be skipped (it will not be shown).
+
+    ---
 
     **Type 2: IF The score of the variable...**
 
@@ -543,7 +554,8 @@
 
         In the example if the score of the varaible `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` then question 9 will be skipped.
 
-    
+    ---
+
     **Type 3: IF the variable with the highest score...**
 
     Then the Skip Logic rules follow the following format:
