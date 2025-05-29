@@ -490,6 +490,149 @@ You can receive an email notification every time someone completes the quiz or p
     - `recommendationsBySlot`: products recommended by the quiz
     - `resultContentByBlock`: dynamic text, tips, and headings from the result page
 
+
+    
+    !!! info "Quiz Response Metadata Structure"
+
+        ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
+        
+        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic result pages, follow-up emails, and custom workflows.
+
+        ---
+
+        **Basic Information**
+
+        `responseId` - Unique ID for this specific quiz response
+
+        `resultRef` - Internal reference to the results layout
+
+        `quizId` - ID of the quiz that was completed
+
+        `quizName` - Name of the quiz
+
+        `firstName / fullName` - Name entered by the user
+
+        `email` - Email address submitted
+
+        `createdAt` - Timestamp of quiz completion (ISO format)
+
+        ---
+
+        **User Answers (`answersByBlock`)**
+
+        ```json
+        "answersByBlock": {
+        "qbc-485600ce": {
+        "type": "picture_choice",
+        "value": "Dry and tight all over",
+        "choicesRefs": ["qbcc-30928613"]
+        }
+        }
+        ```
+
+        Each quiz question block is mapped to the user's response.
+
+        Fields inside each entry:
+
+        `type` - The kind of question (e.g. multiple_choice, picture_choice, email)
+
+        `value` - The answer selected or typed by the user
+
+        `choicesRefs` - List of selected choice references (used internally)
+
+        Example: `qbc-485600ce` → `type: picture_choice`, `value: "Dry and tight all over"`, `choicesRefs: ["qbcc-30928613"]`
+    
+        ---
+
+        **Tags**
+
+        ```json
+        "tags": []
+        ```
+
+        `tags` - A list of tags to assign to the respondent. Often used for segmentation. Empty if unused.
+
+        ---
+
+        **Product Recommendations (`recommendationsBySlot`)**
+
+        ```json
+        "recommendationsBySlot": {
+        "rsbss-33464eed": {
+        "type": "product",
+        "value": "Ordinary Serum",
+        "variants": [
+        ```
+
+        Each result "slot" contains one or more product recommendations.
+
+        Each product object includes: id, title, vendor, handle: Shopify product metadata
+
+        `variants` - Variant ID, price, and image per product
+
+        `slotHeading / slotDescription` - Rich text HTML displayed on result pages
+
+        `image` - URL for the main product image
+
+        `price` - Object with amount and currencyCode
+
+        Example: `rsbss-33464eed` → contains "Ordinary Serum", $45 USD
+
+        ---
+
+        **Variable Scores (`variableScores`)**
+
+        ```json
+        "variableScores": { "score": 0 }
+        ```
+
+        Used only if the quiz has a scoring logic. Contains numerical results or score breakdowns.
+
+        --- 
+
+        **Result Sections (`resultSections`)**
+
+        ```json
+        "resultSections": [
+        "rsbh-273d9ef6": {
+        "type": "heading",
+        "content": "<p>Here's what your skin wants!</p>"
+        }
+        ]
+        ```
+
+        An ordered array of blocks that make up the results page. Each block can be:
+
+        `heading`
+
+        `text`
+
+        `products`
+
+        `button`
+
+        Products blocks have a slots array that contains product lists grouped by slot reference.
+
+        ---
+
+        **Rendered Result Content (`resultContentByBlock`)**
+
+        ```json
+        "rsbh-273d9ef6": {
+        "type": "heading",
+        "content": "<p>Here's what your skin wants!</p>"
+        }       
+        ```
+
+        A lookup table of rendered content for each block (used in external templates like email).
+
+        Each entry is keyed by the block reference and contains:
+
+        `type` - Type of block (text, heading, products, etc.)
+
+        `content or slots` - The rendered HTML or product data
+
+
     **How to Use Metadata in Liquid Templates**
 
     Display Their First Name: `Hi {{ person.firstName | default: 'there' }},` or `Hi {{ person.answersByBlock.qbi-6c4248f5.value | default: 'there' }},`
@@ -505,6 +648,12 @@ You can receive an email notification every time someone completes the quiz or p
         <p><strong>Answer:</strong> {{ block.value }}</p>
         {% endfor %}
         ```
+
+    Show an link to the quiz results page: Use the `responseId` to create a link to the quiz results page. Just add `#response-{{ responseId }}` to the end of your results page URL in any link.
+
+    ```liquid
+    <a href="https://yourwebsite.com/#response-{{ responseId }}">View your quiz results</a>
+    ```
 
     Show Recommended Products: If your quiz sends recommended products under `recommendationsBySlot`, you can display them like this:
 

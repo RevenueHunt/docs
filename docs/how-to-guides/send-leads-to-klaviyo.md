@@ -721,7 +721,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 === "Shopify V2"
 
 
-    **EXAMPLE 1 - DISPLAY RECOMMENDED PRODUCTS**
+    ### Example 1 - Display Recommended Products
 
     In this example, a quiz with ID `YN5L9G` recommends a simple list of products.
 
@@ -924,7 +924,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         - Image URL: `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'image'|lookup:'url' }}`
 
 
-    **EXAMPLE 2 - DISPLAY QUIZ ANSWERS**
+    ### Example 2 - Display Quiz Answers
 
     A Skincare Quiz with ID `YN5L9G` wants to display all customer answers in the email. To do this, you can use the following code copied from the Klaviyo template in the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab:
 
@@ -1026,6 +1026,20 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         Q11: WE'VE GOT YOUR RESULTS - #1 [email]: `{{ person|lookup:'ANSWER_BY_BLOCK-qbi-29f016cf-YN5L9G' }}`
         
         Q11: WE'VE GOT YOUR RESULTS - #2 [multiple_choice]: `{{ person|lookup:'ANSWER_BY_BLOCK-qbc-cb601cf6-YN5L9G' }}`
+
+    ### Example 3 - Display Link to Quiz Results
+
+    Use the `RESPONSE_ID-QuizID` to create a link to the quiz results page. Just add `#response-{{ person|lookup:'RESPONSE_ID-QuizID' }}` to the end of your results page href attribute in any link or URL. 
+
+
+    !!! example
+
+        `<a href="https://yourwebsite.com/#response-{{ person|lookup:'RESPONSE_ID-Gli0KD' }}">View your quiz results</a>`
+
+        where `Gli0KD` is the quiz ID and
+
+        - `{{ person|lookup:'RESPONSE_ID-Gli0KD' }}` fetches the dynamic response ID (e.g., eVgV0Y).
+
 
 
 === "WooCommerce"

@@ -125,6 +125,96 @@ It’s possible to send the product recommendations via Omnisend, although this 
 
     Bear in mind that the templates won’t work by just copy/pasting. These templates were created for our demo quiz. Your developer will have to modify the `custom properties` in these templates to match the ones that are passed from the quiz to your Omnisend account. The `quiz ID` is different, so are other property names. After the changes are made, your developer can insert the code as a `custom HTML block` on the Omnisend email template.
 
+## Use Quiz Data In Omnisend Email Templates
+
+You can use the quiz data in your Omnisend email templates by using the `custom properties` that are passed from the quiz to your Omnisend account.
+
+=== "Shopify"
+
+    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+
+=== "Shopify V2"
+
+    ![how to omnisend custom properties](/images/how_to_shopifyv2_omnisend_custom_properties.gif)
+
+=== "WooCommerce"
+
+    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+
+=== "Magento"
+
+    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+
+=== "BigCommerce"
+
+    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+
+=== "Standalone"
+
+    ![how to omnisend custom properties](/images/how_to_omnisend_custom_properties.gif)
+
+If you need to add any additional information to the email template, your developer can do so by pulling the appropriate custom properties from the user profile.
+
+### Display a Link to the Quiz Results in an email
+
+
+=== "Shopify"
+
+    Use the `permalink_koHP8VA` in your email template. This property already contains a full url to the quiz results page.
+
+    !!! example
+
+        `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
+
+
+=== "Shopify V2"
+
+    Use the `quiz_QUIZID_response_id` to create a link to the quiz results page. Just add `#response-{{ person|lookup:'quiz_QUIZID_response_id' }}` to the end of your results page href attribute in any link or URL. 
+
+
+    !!! example
+
+        `<a href="https://yourwebsite.com/#response-{{ contact.custom.quiz_lBJ9bk_response_id }}">View your quiz results</a>
+
+        where `lBJ9bk` is the quiz ID and
+
+        - `{{ contact.custom.quiz_lBJ9bk_response_id }}` fetches the dynamic response ID (e.g., eVgV0Y).
+
+=== "WooCommerce"
+
+    Use the `permalink_koHP8VA` in your email template. This property already contains a full url to the quiz results page.
+
+    !!! example
+
+        `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
+
+=== "Magento"
+
+    Use the `permalink_koHP8VA` in your email template. This property already contains a full url to the quiz results page.
+
+    !!! example
+
+        `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
+
+=== "BigCommerce"   
+
+    Use the `permalink_koHP8VA` in your email template. This property already contains a full url to the quiz results page.
+
+    !!! example
+
+        `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
+
+=== "Standalone"
+
+    Use the `permalink_koHP8VA` in your email template. This property already contains a full url to the quiz results page.
+
+    !!! example
+
+        `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
+
+
+
+
 ## Customer Tags in Omnisend
 
 Note that while customer profiles are updated with new quiz takes—including answers and product recommendations—Omnisend does not automatically remove unselected tags from previous sessions. A `tags_quizID` property is used to track the latest customer tags, which can be utilized to create segmented audiences for targeted marketing efforts.
