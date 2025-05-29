@@ -54,25 +54,29 @@
 
     For step-by-step instructions check [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide.
 
-### Link
+## Link
 
 === "Shopify"
 
     A link that will open the quiz as a popup over your page.
 
+    `Instructions for legacy themes` - Opens extra settings menu.
+
     ![quiz builder share link](/images/manual_quizbuilder_share_link.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "Shopify V2" 
 
-    A link that will open the quiz as a popup over your page.
+    What's a Link Popup? It's a link that will open the quiz as a popup over your page.
 
-    To add a link popup to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. Open `App Embeds` and toggle the button to acitvate the `V2 - Link Popup Quiz`.
+    To add a link popup to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
+    
+    Open `App Embeds` and toggle the button to acitvate the `V2 - Link Popup Quiz`.
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
 
@@ -80,9 +84,13 @@
 
     ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
 
-    - *Popup width (% of screen)* - Controls the width of the quiz popup window as a percentage of the user's screen width.
-    - *Popup height (% of screen)* - Controls the height of the quiz popup window as a percentage of the user's screen height.
-    - *Popup z-index* - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+    `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
+
+    `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
+
+    `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+
+    `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
     Then, follow the step by step instructions provided in the `Add the quiz as a link-triggered popup` section or in our [How to Set Up a Quiz Link Popup on Your Store](how-to-guides/publish-quiz-link/) to add a quiz link to your website.
 
@@ -96,51 +104,59 @@
 
     A link that will open the quiz as a popup over your page.
 
+    `Instructions for legacy themes` - Opens extra settings menu.
+
     ![quiz builder share link](/images/manual_quizbuilder_share_link.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "Magento"
 
     A link that will open the quiz as a popup over your page.
 
+    `Instructions for legacy themes` - Opens extra settings menu.
+
     ![quiz builder share link](/images/manual_quizbuilder_share_link.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "BigCommerce"
 
     A link that will open the quiz as a popup over your page.
 
+    `Instructions for legacy themes` - Opens extra settings menu.
+
     ![quiz builder share link](/images/manual_quizbuilder_share_link.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "Standalone"
 
     A link that will open the quiz as a popup over your page.
 
+    `Instructions for legacy themes` - Opens extra settings menu.
+
     ![quiz builder share link](/images/manual_quizbuilder_share_link.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
-### Inline
+## Inline
 
 === "Shopify"
 
@@ -148,42 +164,47 @@
 
     ![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
 
-    - **EMBEDDED QUIZ OPTIONS**
+    **EMBEDDED QUIZ OPTIONS**
 
-    - **Width** - Adjust the width of the quiz by typing the percentage number or px value.
+    `Width` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    - **Height** - Adjust the width of the quiz by typing the percentage number or px value.
+    `Height` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    - **Fixed height** - Will set a fixed height of the quiz iframe as specified in the **Height** field above. Toggle to activate. 
+    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
 
 === "Shopify V2"
 
-    Quiz embedded inline with a page.
+    What's an Inline Quiz? It's a quiz embedded inline with a page.
+
+    To add an inline quiz to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
+
+    Then, `+ Add section`, click the `Apps`. From the list, pick the `V2 - Inline Quiz`.
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline.png)
 
-    To add an inline quiz to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. Then, `+ Add section`, click the `Apps`. From the list, pick the `V2 - Inline Quiz`.
+    In the `V2 - Inline Quiz` section, you can adjust the inline quiz settings.    
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
 
     In Inline Quiz settings, you can adjust:
 
-    - *Quiz height (in pixels)* - Sets the minimum height of the quiz. It expands if the content is taller.
+    `Quiz height (in pixels)` - Sets the minimum height of the quiz. It expands if the content is taller.
 
-    - *Fixed height* - Keeps the quiz height fixed. Turn off to allow automatic height adjustment.
+    `Fixed height` - Keeps the quiz height fixed. Turn off to allow automatic height adjustment.
 
-    - *Full width quiz* - Makes the quiz span the full width of the page. Off by default (Shopify recommended).
+    `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended). 
 
-    - *Auto-scroll on retake quiz* - Scrolls to the quiz automatically when retaking it, if enabled.
+    `Auto-scroll on retake quiz` - Enable this to make the quiz auto-scroll when the user retakes the quiz. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
 
-    - *Quiz ID (optional)* - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
+    `Auto-scroll on question change` - Enable this to make the quiz auto-scroll when the user navigates to another question. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
 
-    - *Manage app* - Opens the RevenueHunt dashboard with full settings and options.
+    `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
+    `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
     Then, follow the step by step instructions provided in the `Add the quiz to your home page` section, `Add the quiz to a dedicated landing page` section or in our [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) to add a quiz link to your website.
 
@@ -199,17 +220,17 @@
 
     ![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
 
-    - **EMBEDDED QUIZ OPTIONS**
+    **EMBEDDED QUIZ OPTIONS**
 
-    - **Width** - Adjust the width of the quiz by typing the percentage number or px value.
+    `Width` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    - **Height** - Adjust the width of the quiz by typing the percentage number or px value.
+    `Height` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    - **Fixed height** - Will set a fixed height of the quiz iframe as specified in the **Height** field above. Toggle to activate. 
+    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
 
 === "Magento"
 
@@ -217,17 +238,17 @@
 
     ![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
 
-    - **EMBEDDED QUIZ OPTIONS**
+    **EMBEDDED QUIZ OPTIONS**
 
-    - **Width** - Adjust the width of the quiz by typing the percentage number or px value.
+    `Width` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    - **Height** - Adjust the width of the quiz by typing the percentage number or px value.
+    `Height` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    - **Fixed height** - Will set a fixed height of the quiz iframe as specified in the **Height** field above. Toggle to activate. 
+    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
 
 === "BigCommerce"
 
@@ -235,17 +256,17 @@
 
     ![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
 
-    - **EMBEDDED QUIZ OPTIONS**
+    **EMBEDDED QUIZ OPTIONS**
 
-    - **Width** - Adjust the width of the quiz by typing the percentage number or px value.
+    `Width` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    - **Height** - Adjust the width of the quiz by typing the percentage number or px value.
+    `Height` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    - **Fixed height** - Will set a fixed height of the quiz iframe as specified in the **Height** field above. Toggle to activate. 
+    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
 
 === "Standalone"
 
@@ -253,19 +274,19 @@
 
     ![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
 
-    - **EMBEDDED QUIZ OPTIONS**
+    **EMBEDDED QUIZ OPTIONS**
 
-    - **Width** - Adjust the width of the quiz by typing the percentage number or px value.
+    `Width` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    - **Height** - Adjust the width of the quiz by typing the percentage number or px value.
+    `Height` - Adjust the width of the quiz by typing the percentage number or px value.
 
-    - **Fixed height** - Will set a fixed height of the quiz iframe as specified in the **Height** field above. Toggle to activate. 
+    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
 
-### Automatic
+## Automatic
 
 === "Shopify" 
 
@@ -275,23 +296,23 @@
 
     ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share automatic legacy](/images/manual_quizbuilder_share_automatic_legacy.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Wait seconds** - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
+    `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
 
-    - **Exit intent** - Show the automatic popup when the customer is exit intent. Toggle to activate.
+    `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
 === "Shopify V2"
 
-    A quiz popup appears after X seconds.
+    What's an Automatic Popup? It's a quiz popup that appears after X seconds.
 
     To add an automatic popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `V2 - Automatic Popup Quiz`.
 
@@ -299,13 +320,17 @@
 
     You can adjust the popup options:
 
-    ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png){width="50%"}
+    ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 
-    - *Popup Delay (in seconds)* - Set up the number of seconds after which the quiz popup will be automatically displayed.
-    - *Popup Width (% of screen)* - Controls the width of the quiz popup window as a percentage of the user's screen width.
-    - *Popup Height (% of screen)* - Controls the height of the quiz popup window as a percentage of the user's screen height.
-    - *Popup z-index* - Determines the stacking order of the quiz popup relative to other elements on the webpage.
-    - *Trigger Popup on Exit Intent* - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
+    `Popup Delay (in seconds)` - Set up the number of seconds after which the quiz popup will be automatically displayed.
+
+    `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
+
+    `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
+
+    `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+
+    `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
 
     Then, follow the step by step instructions provided in our [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) to add an automatic popup to your website.
 
@@ -325,19 +350,19 @@
 
     ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share automatic legacy](/images/manual_quizbuilder_share_automatic_legacy.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Wait seconds** - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
+    `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
 
-    - **Exit intent** - Show the automatic popup when the customer is exit intent. Toggle to activate.
+    `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
 === "Magento" 
 
@@ -347,19 +372,19 @@
 
     ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share automatic legacy](/images/manual_quizbuilder_share_automatic_legacy.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Wait seconds** - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
+    `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
 
-    - **Exit intent** - Show the automatic popup when the customer is exit intent. Toggle to activate.
+    `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
 === "BigCommerce" 
 
@@ -369,19 +394,19 @@
 
     ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share automatic legacy](/images/manual_quizbuilder_share_automatic_legacy.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Wait seconds** - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
+    `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
 
-    - **Exit intent** - Show the automatic popup when the customer is exit intent. Toggle to activate.
+    `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
 === "Standalone" 
 
@@ -391,21 +416,21 @@
 
     ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share automatic legacy](/images/manual_quizbuilder_share_automatic_legacy.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Wait seconds** - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
+    `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
 
-    - **Exit intent** - Show the automatic popup when the customer is exit intent. Toggle to activate.
+    `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
-### External
+## External
 
 === "Shopify"
 
@@ -413,15 +438,15 @@
 
     ![quiz builder share external](/images/manual_quizbuilder_share_external.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "Shopify V2"
 
-    Direct link to the quiz for social media.
+    What's an External Link? It's a direct link to the quiz for social media.
 
     To create a link popup for socials, in Shopify, go to `Online Store > Theme` and click ` Customize`. Open `App Embeds` and toggle the button to acitvate the `V2 - Link Popup Quiz`.
 
@@ -431,9 +456,11 @@
 
     ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
 
-    - *Popup width (% of screen)* - Controls the width of the quiz popup window as a percentage of the user's screen width.
-    - *Popup height (% of screen)* - Controls the height of the quiz popup window as a percentage of the user's screen height.
-    - *Popup z-index* - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+    `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
+
+    `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
+
+    `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
     Then, follow the step by step instructions provided in the `Share the quiz as an external link` section or in our [How to Get an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/) to add a quiz link to your website.
 
@@ -465,11 +492,11 @@
 
     ![quiz builder share external](/images/manual_quizbuilder_share_external.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "Magento"
 
@@ -477,11 +504,11 @@
 
     ![quiz builder share external](/images/manual_quizbuilder_share_external.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "BigCommerce"
 
@@ -489,11 +516,11 @@
 
     ![quiz builder share external](/images/manual_quizbuilder_share_external.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "Standalone"
 
@@ -501,13 +528,13 @@
 
     ![quiz builder share external](/images/manual_quizbuilder_share_external.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
-### Email
+## Email
 
 === "Shopify" 
 
@@ -515,11 +542,11 @@
 
     ![quiz builder share email](/images/manual_quizbuilder_share_email.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "Shopify V2"
 
@@ -531,11 +558,11 @@
 
     ![quiz builder share email](/images/manual_quizbuilder_share_email.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "Magento" 
 
@@ -543,11 +570,11 @@
 
     ![quiz builder share email](/images/manual_quizbuilder_share_email.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "BigCommerce" 
 
@@ -555,11 +582,11 @@
 
     ![quiz builder share email](/images/manual_quizbuilder_share_email.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "Standalone" 
 
@@ -567,13 +594,13 @@
 
     ![quiz builder share email](/images/manual_quizbuilder_share_email.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
-### Chat
+## Chat
 
 === "Shopify" 
 
@@ -581,29 +608,64 @@
 
     ![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
     ![quiz builder share chat legacy button](/images/manual_quizbuilder_share_chat_legacy_button.png)
 
-    - **CHAT BUTTON OPTIONS**
+    **CHAT BUTTON OPTIONS**
 
-    - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
+    `Chat button color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
+    `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
-    - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
+    `Notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
 
-    - **Greeting message** - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
+    `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
 === "Shopify V2"
+
+
+    What's a Chat Popup? It's a quiz popup that appears after a visitor clicks on a chat-like button.
+
+    To add a chat popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `V2 - Chat Button Quiz`.
+
+    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
+
+    You can adjust the chat button options:
+
+    ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+
+    `Chat Button Color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
+
+    `Chat Icon Color` - Adjust the color of the chat icon by selecting one from the tool or adding a #color.
+
+    `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
+
+    `Show notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
+
+    `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Leave it empty to hide
+
+    `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
+
+    `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
+
+    `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+
+    `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
+
+    Then, follow the step by step instructions provided in our [How to Set Up Chat Button Popups](https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/) to add a chat popup to your website.
+
+    !!! warning
+
+        Check [How to Set Up Chat Button Popups](https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/) for step by step instructions.
 
 === "WooCommerce" 
 
@@ -611,27 +673,27 @@
 
     ![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the heightof the quiz by typing the percentage number.
 
     ![quiz builder share chat legacy button](/images/manual_quizbuilder_share_chat_legacy_button.png)
 
-    - **CHAT BUTTON OPTIONS**
+    **CHAT BUTTON OPTIONS**
 
-    - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
+    `Chat button color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
+    `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
-    - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
+    `Notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
 
-    - **Greeting message** - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
+    `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
 === "Magento" 
 
@@ -639,27 +701,27 @@
 
     ![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
     ![quiz builder share chat legacy button](/images/manual_quizbuilder_share_chat_legacy_button.png)
 
-    - **CHAT BUTTON OPTIONS**
+    **CHAT BUTTON OPTIONS**
 
-    - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
+    `Chat button color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
+    `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
-    - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
+    `Notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
 
-    - **Greeting message** - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
+    `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
 === "BigCommerce" 
 
@@ -667,27 +729,27 @@
 
     ![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
     ![quiz builder share chat legacy button](/images/manual_quizbuilder_share_chat_legacy_button.png)
 
-    - **CHAT BUTTON OPTIONS**
+    **CHAT BUTTON OPTIONS**
 
-    - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
+    `Chat button color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
+    `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
-    - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
+    `Notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
 
-    - **Greeting message** - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
+    `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
 === "Standalone" 
 
@@ -695,27 +757,27 @@
 
     ![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
 
-    ***Instructions for legacy themes*** - Opens extra settings menu.
+    `Instructions for legacy themes` - Opens extra settings menu.
 
     ![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)
 
-    - **POPUP OPTIONS**
+    **POPUP OPTIONS**
 
-    - **Popup width** - Adjust the width of the quiz by typing the percentage number.
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
 
-    - **Popup height** - Adjust the width of the quiz by typing the percentage number.
+    `Popup height` - Adjust the width of the quiz by typing the percentage number.
 
     ![quiz builder share chat legacy button](/images/manual_quizbuilder_share_chat_legacy_button.png)
 
-    - **CHAT BUTTON OPTIONS**
+    **CHAT BUTTON OPTIONS**
 
-    - **Chat button color** - Adjust the color of the chat button by selecting one from the tool or adding a #color.
+    `Chat button color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    - **Hide after quiz completion** - Hide the chat button after the customer reaches the results page. Toggle to activate.
+    `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
-    - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
+    `Notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
 
-    - **Greeting message** - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
+    `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
 
 ---
