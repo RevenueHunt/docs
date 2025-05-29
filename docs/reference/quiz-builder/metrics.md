@@ -24,7 +24,7 @@
 
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
-### Responses
+## Responses
 
 === "Shopify"
 
@@ -80,59 +80,102 @@
 
 === "Shopify V2"
 
-    ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
+    To open the responses sections, go back to the [dashboard](/reference/dashboard/). 
 
-    To open the responses sections, go back to the [dashboard](/reference/dashboard/). Pick a quiz and click the `...` to open the quiz menu. From the list pick and click on `Responses`.
+    Pick a quiz and click the `...` to open the quiz menu. 
+
+    From the list pick and click on `Responses`.
+
+    ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
 
     In the Responses section you will find a list of the latest quiz responses sorted by date.
 
     ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
 
-    **All / With recommendations / No recommendations** - Switch to filter responses that recieved product recommendations and those that did not.
-
-    *☐ / Checkbox* - Click to select all the responses or select one by one.
+    `All` / `With recommendations` / `No recommendations` - Switch to filter responses that recieved product recommendations and those that did not.
     
-    *Response date* - The date and time the response has been submitted.
+    `Export CSV` - Download the selected responses in a CSV file format.
 
-    *Name* - Name provided by the quiz taker.
+    `Response date` - The date and time the response has been submitted.
 
-    *Email* - Email provided by the quiz taker.
+    `Type` - The type of quiz response, eg. `Preview` or `Customer`. Preview responses are created when you click the `Preview` button in the quiz builder. Customer responses are created when a customer completes the quiz on the live site.
 
-    *Recommendations* - The number of recommended products.
+    `Name` - Name provided by the quiz taker.
 
-    **View** - Click to open the response details.
+    `Email` - Email provided by the quiz taker.
 
-    **Export CSV** - Download the selected responses in a CSV file format.
+    `Recommendations` - The number of recommended products.
+
+    `View` - Click to open the response details.
+
+    ![manual_shopifyV2_quizbuilder_responses_viewmenu](/images/manual_shopifyV2_quizbuilder_responses_viewmenu.png)
+
+    `View response` - Click to open the response in a new tab.
+
+    `Debug mode` - Click to open the response in debug mode.
+
+    `Analysis` - Click to open the response analysis page.
+
+    ### Resonse analysis
+
+    Each response analysis page displays the following sections:
 
     ![manual_shopifyV2_quizbuilder_responses_sample1](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
 
-    **Why was a product recommended or not in this response?** - This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
-
-    **v Select item to check** - Click to select a product from the catalog and analyze it against the response. Choose an item below to know why it was recommended or not.
-
-    ![manual_shopifyV2_quizbuilder_responses_sample1_checkproduct](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct.png)
-
-    **Customer data** - Displays the **Contact information** provided by the customer in the quiz.
-
-    **Customer Tags** - Displays the customer tags associated with this response. Customer tags help you understand your customer's needs, as well as helping with segmentation and retargeting
-
-    **Responses to Questions** - This section displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question.
+    **Responses to questions** - Displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question. Click `▼` on a question to expand it and check the details.
 
     ![manual_shopifyV2_quizbuilder_responses_sample2](/images/manual_shopifyV2_quizbuilder_responses_sample2.png)
 
-    **Result** - Showecases the results page results.
+    **Why was a product recommended or not in this response?** - This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
 
-    **S1: QUIZ RESULTS** - Displays the name of the section recommended.
+    `v Select item to check` - Click to select a product from the catalog and analyze it against the response. Choose an item below to know why it was recommended or not.
 
-    **Products** 
+    ![manual_shopifyV2_quizbuilder_responses_sample1_checkproduct](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct.png)
 
-    **↪ SLOT Name** - Displays the name of the slot.
-    
-    **↪ Filters** - Displays filters applied to this Slots block.
-    
-    **↪ Recommendations** - Products were recommended in a Slots block. Click a product to check why it was recommended.
+    `Contact information` - Displays the contact information provided by the customer in the quiz such as name, email, phone number, etc.
+
+    `Customer Tags` - Displays the customer tags associated with this response. Customer tags help you understand your customer's needs, as well as helping with segmentation and retargeting.
+
+    **Result: Results page 1** - - Displays the name of the results page recommended. This screen displays the configuration of a Result Section and explains what was shown to the customer and why.
 
     ![manual_shopifyV2_quizbuilder_responses_sample2_productdetails](/images/manual_shopifyV2_quizbuilder_responses_sample2_productdetails.png)
+
+    **Section Overview**
+
+    `Section Title` - Displays the name of the section recommended.
+
+    `Section Ref` - Internal reference used to identify the section.
+
+
+    **Display logic**
+
+    `Show more details` - click to expand the display logic section.
+
+    `Default visibility` - `Visible` or `Hidden` - The section explains if the section was shown or not.
+
+    `Conditional Logic` - This section explains if the section was shown based on the quiz logic.
+
+    `Conditions` - Explains why the section was shown or hidden based on the quiz logic.
+
+
+    **Section blocks with slots** - Displays the blocks with slots in detail. Each section can include one or more blocks.
+
+    `Block Ref` - Internal reference used to identify the block.
+
+    `Block Type` - `Products` or `Collections` or `Text` - This block explains the block type.
+
+    `Minimum Upvotes` - The minimum number of upvotes a product must receive to be shown in the block.
+
+    `Recommendation System` - `Fixed recommendations` or `Based on customer responses` - This explains if the recommendations are fixed or dynamic.
+
+    **Slots in Detail** - Displays the slots in detail. Each block contains one or more slots, which define which products are shown and how they are selected:
+
+    `Slot Ref` - Internal reference used to identify the slot.
+
+    `Fixed Items` -  Exlpains that the recommendations are fixed in this slot and shows which products were selected.
+
+    `Recommendations` - Final products shown to the user.
+
 
 === "WooCommerce"
 
@@ -342,7 +385,7 @@
 
     **resend notifications** - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
 
-### Analytics
+## Analytics
 
 === "Shopify"
 
@@ -602,7 +645,7 @@
 
     **Avg. Order Value (Beta)** - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-### Drop-off
+## Drop-off
 
 === "Shopify"
 
