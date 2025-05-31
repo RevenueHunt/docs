@@ -1,0 +1,110 @@
+# RevenueHunt Documentation
+
+> Comprehensive documentation for RevenueHunt's product recommendation quiz platform, including setup, customization, integrations, troubleshooting, and customer success strategies.
+
+This site is built with [MkDocs](https://www.mkdocs.org/) using the Material theme. The documentation is organized into Tutorials, How-to Guides, an App Manual (Reference), and Customer Success resources. Each section below lists key guides and references to help users get started, customize, and optimize their RevenueHunt experience.
+
+## Getting Started & Tutorials
+- [Docs Home](https://docs.revenuehunt.com/index.md): Main landing page for the documentation.
+- [Tutorials Overview](https://docs.revenuehunt.com/tutorials/index.md): Introduction to tutorials.
+- [App Tour](https://docs.revenuehunt.com/tutorials/getting-started.md): Guided tour of the app.
+- [Making your First Quiz](https://docs.revenuehunt.com/tutorials/making-first-quiz.md): Step-by-step guide to creating your first quiz.
+- [Recommending a Skincare Routine](https://docs.revenuehunt.com/tutorials/skincare-routine.md): Example use case.
+- [Using Conditional Logic](https://docs.revenuehunt.com/tutorials/conditional-logic.md): How to add logic to your quizzes.
+- [Send follow-up emails with Klaviyo](https://docs.revenuehunt.com/tutorials/follow-up-emails-klaviyo.md): Integration tutorial.
+- [One Minute Tutorials Playlist](https://docs.revenuehunt.com/tutorials/playlist-one-minute-tutorials.md): Quick video guides.
+
+## How-to Guides
+- [How-to Guides Overview](https://docs.revenuehunt.com/how-to-guides/index.md): Index of all how-to guides.
+- **Getting Started:**
+  - [Install App](https://docs.revenuehunt.com/how-to-guides/install-app.md): Installation instructions.
+  - [Create Your First Quiz](https://docs.revenuehunt.com/how-to-guides/create-first-quiz.md): Quick start for new users.
+  - [Contact Customer Support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support.md): How to get help.
+- **Quiz Design & Customization:**
+  - [Customize Quiz Design](https://docs.revenuehunt.com/how-to-guides/customize-quiz-design.md): Design customization options.
+  - [Change Quiz Language](https://docs.revenuehunt.com/how-to-guides/change-quiz-language.md): Localization guide.
+  - [Change Quiz Currency](https://docs.revenuehunt.com/how-to-guides/change-quiz-currency.md): Currency settings.
+  - [Edit the Results Page](https://docs.revenuehunt.com/how-to-guides/edit-results-page.md): Results page customization.
+  - [Use Markdown Language](https://docs.revenuehunt.com/how-to-guides/use-markdown.md): Using markdown in quizzes.
+  - [Set Multiple Result Pages](https://docs.revenuehunt.com/how-to-guides/set-multiple-result-pages.md): Multiple results configuration.
+  - [Use Information Recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls.md): Recall information in quizzes.
+  - [Join Questions](https://docs.revenuehunt.com/how-to-guides/join-questions.md): Combine questions.
+  - [A/B Test Your Quiz](https://docs.revenuehunt.com/how-to-guides/ab-test-quiz.md): Run A/B tests.
+- **Product Recommendations:**
+  - [Recommend Products](https://docs.revenuehunt.com/how-to-guides/recommend-products.md): Product recommendation setup.
+  - [Set Up Recommendations](https://docs.revenuehunt.com/how-to-guides/set-up-recommendations.md): Configure recommendations.
+  - [Recommend Subscription Products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products.md): Subscription product recommendations.
+  - [Recommend Slots (Skincare Routine)](https://docs.revenuehunt.com/how-to-guides/recommend-skincare-routine-slots.md): Slot-based recommendations.
+  - [Hide Out-Of-Stock Products](https://docs.revenuehunt.com/how-to-guides/hide-out-of-stock-products.md): Exclude unavailable products.
+  - [Hide Product Variants](https://docs.revenuehunt.com/how-to-guides/hide-product-variants.md): Exclude variants.
+  - [Add Product Metafields](https://docs.revenuehunt.com/how-to-guides/add-product-metafields.md): Use metafields in recommendations.
+  - [Troubleshoot Quiz Results](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results.md): Troubleshooting guide.
+- **Quiz Logic & Advanced Features:**
+  - [Use Conditional Logic](https://docs.revenuehunt.com/how-to-guides/use-conditional-logic.md): Advanced quiz logic.
+  - [Hide Content with Logic](https://docs.revenuehunt.com/how-to-guides/hide-content-with-logic.md): Conditional content display.
+  - [Add JavaScript](https://docs.revenuehunt.com/how-to-guides/add-javascript.md): Custom JS in quizzes.
+  - [Add Discount](https://docs.revenuehunt.com/how-to-guides/add-discount.md): Discount setup.
+  - [Use Callback Function](https://docs.revenuehunt.com/how-to-guides/use-callback-function.md): Callback integration.
+  - [Pass Parameters to Pre-Fill Quiz Responses](https://docs.revenuehunt.com/how-to-guides/pass-parameteres-to-fill-quiz-responses.md): Pre-fill quiz answers.
+  - [Show Results Explanation](https://docs.revenuehunt.com/how-to-guides/show-results-explanation.md): Explain quiz results.
+- **Publishing & Display:**
+  - [Publish the Quiz on Your Website](https://docs.revenuehunt.com/how-to-guides/publish-quiz.md): Embed quizzes.
+  - [Show Quiz in Shop App](https://docs.revenuehunt.com/how-to-guides/show-quiz-in-shop-app.md): Display in Shop App.
+  - [Show Quiz on Customer Profile](https://docs.revenuehunt.com/how-to-guides/show-quiz-on-customer-profile.md): Customer profile integration.
+  - [Show Quiz Only to Logged-In Customers](https://docs.revenuehunt.com/how-to-guides/show-quiz-to-logged-in-customers.md): Restrict access.
+  - [Redirect Quiz to Another Page](https://docs.revenuehunt.com/how-to-guides/redirect-quiz-to-another-page.md): Redirect after quiz.
+  - [Change Checkout Settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings.md): Checkout configuration.
+  - [Restore Quiz Progress](https://docs.revenuehunt.com/how-to-guides/restore-quiz-progress.md): User experience improvement.
+- **Integrations & Data Collection:**
+  - [Send Leads to Your CRM](https://docs.revenuehunt.com/how-to-guides/send-leads-to-crm.md): CRM integration.
+  - [Ask for Marketing Consent](https://docs.revenuehunt.com/how-to-guides/ask-for-marketing-consent.md): Consent collection.
+  - [Use Customer Tags](https://docs.revenuehunt.com/how-to-guides/use-customer-tags.md): Tagging customers.
+  - [Integrate Meta Pixel](https://docs.revenuehunt.com/how-to-guides/integrate-meta-pixel.md): Meta Pixel integration.
+  - [Integrate Google Analytics](https://docs.revenuehunt.com/how-to-guides/integrate-google-analytics.md): Analytics integration.
+  - [Send Result Emails](https://docs.revenuehunt.com/how-to-guides/send-result-emails.md): Email results to users.
+  - [Track Quiz Revenue](https://docs.revenuehunt.com/how-to-guides/track-quiz-revenue.md): Revenue tracking.
+  - [Download Quiz Responses](https://docs.revenuehunt.com/how-to-guides/download-quiz-responses.md): Export responses.
+- **Troubleshooting & Maintenance:**
+  - [Fix Viewport Issue on Mobile](https://docs.revenuehunt.com/how-to-guides/fix-viewport-issue-on-mobile.md): Mobile troubleshooting.
+  - [Update Shopify Cart Drawer](https://docs.revenuehunt.com/how-to-guides/update-shopify-cart-drawer.md): Shopify integration.
+  - [Missing Product Images](https://docs.revenuehunt.com/how-to-guides/missing-product-images.md): Image troubleshooting.
+  - [Sync Catalog](https://docs.revenuehunt.com/how-to-guides/sync-catalog.md): Catalog synchronization.
+  - [Copy Quiz from One Store to Another](https://docs.revenuehunt.com/how-to-guides/copy-the-quiz-from-one-store-to-another.md): Copy quizzes between stores.
+  - [Check Quiz Loading Speed](https://docs.revenuehunt.com/how-to-guides/check-quiz-loading-speed.md): Performance optimization.
+  - [Troubleshoot App Issues for WordPress/WooCommerce](https://docs.revenuehunt.com/how-to-guides/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce.md): WordPress/WooCommerce troubleshooting.
+
+## App Manual (Reference)
+- [App Manual Overview](https://docs.revenuehunt.com/reference/index.md): Reference documentation home.
+- [Dashboard](https://docs.revenuehunt.com/reference/dashboard.md): Dashboard features.
+- [Plans & Pricing](https://docs.revenuehunt.com/reference/plans-pricing.md): Subscription details.
+- [App Settings](https://docs.revenuehunt.com/reference/app-settings.md): Configuration options.
+- **Quiz Builder:**
+  - [Quiz Builder Overview](https://docs.revenuehunt.com/reference/quiz-builder/index.md): Main quiz builder documentation.
+  - [Questions](https://docs.revenuehunt.com/reference/quiz-builder/questions.md): Managing quiz questions.
+  - [Link Collections](https://docs.revenuehunt.com/reference/quiz-builder/link-collections.md): Linking collections.
+  - [Link Products](https://docs.revenuehunt.com/reference/quiz-builder/link-products.md): Linking products.
+  - [Customer Tags](https://docs.revenuehunt.com/reference/quiz-builder/customer-tags.md): Tagging customers.
+  - [Conditional Logic](https://docs.revenuehunt.com/reference/quiz-builder/conditional-logic.md): Logic reference.
+  - [Quiz Design](https://docs.revenuehunt.com/reference/quiz-builder/quiz-design.md): Design settings.
+  - [Results Page](https://docs.revenuehunt.com/reference/quiz-builder/results-page.md): Results configuration.
+  - [Notifications](https://docs.revenuehunt.com/reference/quiz-builder/notifications.md): Notification settings.
+  - [Quiz Settings](https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings.md): Quiz configuration.
+  - [Connect / Integrations](https://docs.revenuehunt.com/reference/quiz-builder/connect-integrations.md): Integrations setup.
+  - [Share / Publish](https://docs.revenuehunt.com/reference/quiz-builder/share-publish.md): Sharing and publishing quizzes.
+  - [Metrics](https://docs.revenuehunt.com/reference/quiz-builder/metrics.md): Analytics and reporting.
+
+## Customer Success
+- [Customer Success Home](https://docs.revenuehunt.com/customer-success/index.md): Customer success stories and resources.
+- [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq.md): Frequently asked questions.
+- [How to Build a Successful Shop Quiz](https://revenuehunt.com/how-to-build-a-successful-ecommerce-quiz/): Best practices for quiz creation.
+- [How to Reduce Drop Off](https://docs.revenuehunt.com/customer-success/reduce-dropoff.md): Reducing quiz abandonment.
+- [Why Products Are Not Added To Cart](https://docs.revenuehunt.com/customer-success/add-to-cart-issues.md): Troubleshooting add-to-cart issues.
+- [11 Easy Ways to Promote Your Quiz](https://revenuehunt.com/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/): Promotion strategies.
+- [Build an Effective Sales Funnel](https://revenuehunt.com/build-sales-funnel-shopify-store/): Sales funnel optimization.
+- [Product Quiz Metrics: What to Track](https://revenuehunt.com/product-quiz-metrics-what-to-track-to-convert-better/): Analytics for better conversion.
+- [How to Use Customer Tags in Product Quizzes](https://revenuehunt.com/how-to-use-customer-tags-in-product-quizzes-to-maximize-sales/): Maximizing sales with tags.
+- [Smart Ways to Ask for Marketing Consent](https://revenuehunt.com/smart-ways-to-ask-for-marketing-data-processing-consent-in-your-product-recommendation-quiz/): Consent best practices.
+- [How to Create a Video Quiz](https://revenuehunt.com/practical-guide-create-a-video-quiz-for-your-e-commerce-website/): Video quiz guide.
+- [Why Your Product Quiz is NOT Converting Well](https://revenuehunt.com/why-your-product-quiz-is-not-converting-well/): Conversion troubleshooting.
+- [How to Adapt Product Quizzes for Different Markets and Languages](https://revenuehunt.com/how-to-adapt-product-quizzes-for-different-markets-and-languages/): Localization strategies.
+- [Shopify V2 Beta](https://docs.revenuehunt.com/customer-success/shopify-v2-beta.md): Beta program information. 
