@@ -60,7 +60,7 @@ This is where you'll choose how to publish the quiz on your website or share it.
 
 This is where you'll check your quiz metrics and responses.
 
-[:fontawesome-solid-arrow-right: continue reading](quiz-builder/index/)
+[:fontawesome-solid-arrow-right: continue reading](quiz-builder/)
 
 ## [Plans & Pricing](plans-pricing/)
 
