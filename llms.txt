@@ -107,4 +107,4 @@ This site is built with [MkDocs](https://www.mkdocs.org/) using the Material the
 - [How to Create a Video Quiz](https://revenuehunt.com/practical-guide-create-a-video-quiz-for-your-e-commerce-website/): Video quiz guide.
 - [Why Your Product Quiz is NOT Converting Well](https://revenuehunt.com/why-your-product-quiz-is-not-converting-well/): Conversion troubleshooting.
 - [How to Adapt Product Quizzes for Different Markets and Languages](https://revenuehunt.com/how-to-adapt-product-quizzes-for-different-markets-and-languages/): Localization strategies.
-- [Shopify V2 Beta](https://docs.revenuehunt.com/customer-success/shopify-v2-beta.md): Beta program information. 
+- [Built for Shopify Beta Program](https://docs.revenuehunt.com/customer-success/shopify-v2-beta.md): Beta program information. 
