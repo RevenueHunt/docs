@@ -116,7 +116,7 @@
 
     `Analysis` - Click to open the response analysis page.
 
-    ### Resonse analysis
+    ### Response analysis
 
     Each response analysis page displays the following sections:
 
