@@ -87,8 +87,7 @@ You can use our [callback function](/how-to-guides/use-callback-function/) to re
 
 === "Shopify V2"
 
-    Coming soon.
-
+    The callback function is not supported in Shopify V2. However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
 
 === "WooCommerce"
 
