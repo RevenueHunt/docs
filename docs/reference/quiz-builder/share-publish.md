@@ -76,7 +76,7 @@
 
     To add a link popup to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
     
-    Open `App Embeds` and toggle the button to acitvate the `V2 - Link Popup Quiz`.
+    Open `App Embeds` and toggle the button to acitvate the `Link Popup Quiz`.
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
 
@@ -182,7 +182,7 @@
 
     To add an inline quiz to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
 
-    Then, `+ Add section`, click the `Apps`. From the list, pick the `V2 - Inline Quiz`.
+    Then, `+ Add section`, click the `Apps`. From the list, pick the `Inline Quiz`.
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline.png)
 
@@ -314,7 +314,7 @@
 
     What's an Automatic Popup? It's a quiz popup that appears after X seconds.
 
-    To add an automatic popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `V2 - Automatic Popup Quiz`.
+    To add an automatic popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Automatic Popup Quiz`.
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
 
@@ -448,7 +448,7 @@
 
     What's an External Link? It's a direct link to the quiz for social media.
 
-    To create a link popup for socials, in Shopify, go to `Online Store > Theme` and click ` Customize`. Open `App Embeds` and toggle the button to acitvate the `V2 - Link Popup Quiz`.
+    To create a link popup for socials, in Shopify, go to `Online Store > Theme` and click ` Customize`. Open `App Embeds` and toggle the button to acitvate the `Link Popup Quiz`.
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
 
@@ -635,7 +635,7 @@
 
     What's a Chat Popup? It's a quiz popup that appears after a visitor clicks on a chat-like button.
 
-    To add a chat popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `V2 - Chat Button Quiz`.
+    To add a chat popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Chat Button Quiz`.
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
 
