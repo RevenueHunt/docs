@@ -257,6 +257,12 @@ On the dashboard, you'll find all the quizzes that you create.
     - `Duplicate` - Create a copy of this quiz on the dashboard.
     - `Remove` - Deletes the current quiz.
 
+    !!! warning
+
+        On the default quiz, the `Remove` option is disabled. This is to prevent the user from removing the default quiz. 
+        
+        If you want to remove or delete the default quiz, you can do so by setting another quiz as default via the `...` > `Make default quiz` quiz management options. Once the quiz is no longer the default quiz, the `Remove` option will become available.
+
     `Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) menu.
 
     `Customize` - Opens the [Quiz Builder](/reference/quiz-builder/questions/).
