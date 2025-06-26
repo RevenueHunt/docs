@@ -744,6 +744,18 @@
 
     `Price` - Adds the product price.
 
+    !!! warning "Why the Compare-at Price May Not Show on the Results Page"
+
+        If the **compare-at price** is missing or showing as `null` on the quiz results page, this is often due to **Shopify Markets settings**. By default, Shopify can hide compare-at prices for customers in certain regions—especially in the **European Economic Area (EEA)**—due to local pricing or legal restrictions.
+
+        How to Fix It:
+
+        Go to **Shopify Admin → Settings → Markets → Preferences** and ensure that compare-at prices are enabled for the relevant market (e.g., Germany or the EEA). 
+
+        ![how_to_shopifyv2_change_quiz_languge_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_languge_markets_compareatissue.png)
+        
+        You can test this by previewing the quiz on your live store while simulating a visitor from the affected country.
+
     `Add to cart button` - Adds an "Add to cart" button.
 
     `Text` - Adds an extra text block. Opens a text block menu that allows you to add your own custom text, link or a personalization.

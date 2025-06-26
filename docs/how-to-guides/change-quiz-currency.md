@@ -120,6 +120,18 @@ icon: material/currency-usd
         ![how_to_shopifyv2_change_currency](/images/how_to_shopifyv2_change_currency.png)
     4. Once assigned, the quiz will show the product prices in the currency set up for that market. 
 
+    !!! warning "Why the Compare-at Price May Not Show on the Results Page"
+
+        If the **compare-at price** is missing or showing as `null` on the quiz results page, this is often due to **Shopify Markets settings**. By default, Shopify can hide compare-at prices for customers in certain regions—especially in the **European Economic Area (EEA)**—due to local pricing or legal restrictions.
+
+        How to Fix It:
+
+        Go to **Shopify Admin → Settings → Markets → Preferences** and ensure that compare-at prices are enabled for the relevant market (e.g., Germany or the EEA). 
+
+        ![how_to_shopifyv2_change_quiz_languge_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_languge_markets_compareatissue.png)
+        
+        You can test this by previewing the quiz on your live store while simulating a visitor from the affected country.
+
 === "WooCommerce"
 
     At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
