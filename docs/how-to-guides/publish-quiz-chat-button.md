@@ -34,7 +34,23 @@ Make sure you have:
 
 === "Shopify V2"
 
-    Coming Soon
+    !!! warning "Shopify 1.0 Theme Compatibility"
+        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
+
+    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the Chat Popup Quiz option and toggle it on.
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
+    3. **Configure Popup Settings**: 
+
+        ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png){width="50%"}
+
+        - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
+        - Adjust the `Popup Width` and `Height` (as percentage of screen)
+        - Set the `Popup z-index` to control layering with other elements
+        - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
+    4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
+
+    When visitors come to your store, the default quiz for your store will open automatically based on your settings. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
 === "WooCommerce"
 
@@ -94,7 +110,29 @@ Make sure you have:
 
 ## Chat Button on All Pages
 
-If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
+=== "Shopify"
+
+    If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
+
+=== "Shopify V2"
+
+    Coming Soon
+
+=== "WooCommerce"
+
+    If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
+
+=== "Magento"
+
+    If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
+
+=== "BigCommerce"
+
+    If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
+
+=== "Standalone"
+
+    If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
 
 
 ## The quiz you are looking for does not exist
@@ -113,7 +151,18 @@ If you want the chat button to appear across your entire store, follow the [Manu
     
 === "Shopify V2"
 
-    Coming Soon
+    !!! warning "Shopify 1.0 Theme Compatibility"
+        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to activate an automatic popup quiz, follow these steps:
+
+    1. Ensure that you have activated the `Chat Button Quiz` in the  Online Store > Theme > Customize > `App Embeds` and **not** the the legacy `Chat Button Quiz Legacy`.
+        ![how_to_publish_shipifyV2_V1publisherrorchatbutton](/images/how_to_publish_shipifyV2_V1publisherrorchatpopup.png)
+
+        If a wrong chat button quiz is activated, you will see the error message "The quiz you are looking for does not exist" when trying to link to a V2 quiz. 
+        
+        To solve this simply deactivate the `Chat Button Quiz Legacy` and activate the `Chat Button Quiz` one. 
+    2. Save the changes.
 
 === "WooCommerce"
 

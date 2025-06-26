@@ -22,7 +22,7 @@ This guide will show you how to generate an external quiz link suitable for shar
         Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Link Popup Quiz option and toggle it on. This action will automatically add the RevenueHunt script to your site, enabling quiz links to load in a popup.
+    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Link Popup Quiz` option and toggle it on. This action will automatically add the RevenueHunt script to your site, enabling quiz links to load in a popup.
         ![how to publish quiz link popup app embeds](/images/how_to_publish_quiz_link_popup_app_embeds.png)
     3. **Save changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
     4. **Copy the link to the quiz popup**: The direct link to your quiz popup is https://yourstore.myshopify.com/#quiz.
@@ -102,12 +102,12 @@ This guide will show you how to generate an external quiz link suitable for shar
 
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
 
-    1. Ensure that you have activated the `V2 - Link Popup Quiz` in the  Online Store > Theme > Customize > `App Embeds` section and **not** the the regular `Link Popup Quiz`.
+    1. Ensure that you have activated the `Link Popup Quiz` in the  Online Store > Theme > Customize > `App Embeds` section and **not** the the legacy `Link Popup Quiz Legacy`.
         ![docs/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png](/images/how_to_publish_shipifyV2_V1publisherrorlinkpopup.png)
 
         If a wrong link popup is activated, you will see the error message "The quiz you are looking for does not exist" when trying to link to a V2 quiz. 
         
-        To solve this simply deactivate the `Link Popup` and activate the `V2 - Link Popup` one. Then, save the changes.
+        To solve this simply deactivate the `Link Popup Quiz Legacy` and activate the `Link Popup Quiz` one. Then, save the changes.
     2. Verify that the link is correctly formatted. Ensure that the link you've created is correctly formatted and it follows the format `#quiz`.
 
 === "WooCommerce"

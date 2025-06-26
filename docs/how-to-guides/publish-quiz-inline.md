@@ -35,7 +35,7 @@ Place the quiz on your homepage to start collecting leads from first-time visito
         Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from RevenueHunt`. Select it to add to your homepage.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz from RevenueHunt`. Select it to add to your homepage.
         ![how to publish inline quiz shopify v2 main page](/images/how_to_publish_inline_quiz_shopify_v2_main_page.png)
 
         The default quiz for your store will be rendered. If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
@@ -122,7 +122,7 @@ Create a dedicated landing page for the quiz to drive traffic from paid ads or m
         Navigate to `Pages` and click on the `Create template` link. Name your template (e.g., quiz-page) and set it as "Based on" your Default page template. 
         ![Create a new Page template](/images/landing-page-create-b.png)
     
-    3. **Add Inline Quiz Section**: Click on the `Add section` link and from the `Apps` section, find `V2 - Inline Quiz` from RevenueHunt. Select it to add to your quiz page template.
+    3. **Add Inline Quiz Section**: Click on the `Add section` link and from the `Apps` section, find `Inline Quiz` from RevenueHunt. Select it to add to your quiz page template.
         ![Add section inline quiz](/images/landing-page-add-section-app-inline-quiz.png)
 
     4. **Configure Quiz Settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
@@ -296,7 +296,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 === "Shopify V2"
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 -Inline Quiz from RevenueHunt`. Select it to add to your homepage.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz` from RevenueHunt. Select it to add to your homepage.
     3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height. Check the `Fixed size` option.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.   
 
@@ -367,7 +367,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 === "Shopify V2"
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
-    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `V2 - Inline Quiz from RevenueHunt`. Select it to add to your homepage.
+    2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz` from RevenueHunt. Select it to add to your homepage.
     3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings. Uncheck the `Automatic Scroll into View` option.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
@@ -448,12 +448,12 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 
     If you see the error message "The quiz you are looking for does not exist" when trying to embed a quiz, follow these steps:
 
-    1. Ensure that you have activated the `V2 - Inline Quiz` in the  Online Store > Theme > Customize > `+ Section` > `Apps` and **not** the the regular `Inline Quiz`.
+    1. Ensure that you have activated the `Inline Quiz` in the  Online Store > Theme > Customize > `+ Section` > `Apps` and **not** the the legacy `Inline Quiz Legacy`.
         ![how_to_publish_shipifyV2_V1publisherrorinlinequiz](/images/how_to_publish_shipifyV2_V1publisherrorinlinequiz.png)
 
         If a wrong inline quiz is activated, you will see the error message "The quiz you are looking for does not exist" when trying to link to a V2 quiz. 
         
-        To solve this simply deactivate the `Inline Quiz` and activate the `V2 - Inline Quiz` one. 
+        To solve this simply deactivate the `Inline Quiz Legacy` and activate the `Inline Quiz` one. 
     2. Save the changes.
 
 === "WooCommerce"

@@ -242,7 +242,7 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
     Here is how to change the z-index configuration option in the app settings:
 
     1. Go to your Shopify admin dashboard and navigate to `Online Store > Themes > Customize`.
-    2. Within theme customization, go to `App Embeds` and find the `V2 - Link Popup` settings.
+    2. Within theme customization, go to `App Embeds` and find the `Link Popup Quiz` settings.
     3. Look for the z-index setting and increase the value (try with 1000 first, if that doesn't work, try 10000).
     4. Save your changes.
 

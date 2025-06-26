@@ -50,7 +50,7 @@ Before You Start:
         Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Automatic Popup Quiz option and toggle it on.
+    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
     3. **Configure Popup Settings**: 
 
@@ -136,7 +136,7 @@ Before You Start:
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
     2. Go to your specific page theme and edit it. If you don't have a specific page theme, create one and apply it to the page via the Online Store > Pages section.
-    3. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Automatic Popup Quiz option and toggle it on.
+    3. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
     4. **Configure Popup Settings**: 
 
@@ -222,7 +222,7 @@ Before You Start:
         Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Automatic Popup Quiz option and toggle it on.
+    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
     3. **Configure Popup Settings**: 
 
@@ -335,7 +335,7 @@ Before You Start:
         Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Automatic Popup Quiz option and toggle it on.
+    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
     3. **Configure Exit Intent**: 
 
@@ -489,12 +489,12 @@ Before You Start:
 
     If you see the error message "The quiz you are looking for does not exist" when trying to activate an automatic popup quiz, follow these steps:
 
-    1. Ensure that you have activated the `V2 - Automatic Popup Quiz` in the  Online Store > Theme > Customize > `App Embeds` and **not** the the regular `Automatic Popup Quiz`.
+    1. Ensure that you have activated the `Automatic Popup Quiz` in the  Online Store > Theme > Customize > `App Embeds` and **not** the the legacy `Automatic Popup Quiz Legacy`.
         ![how_to_publish_shipifyV2_V1publisherrorautomaticpopup](/images/how_to_publish_shipifyV2_V1publisherrorautromaticpopup.png)
 
         If a wrong automatic popup quiz is activated, you will see the error message "The quiz you are looking for does not exist" when trying to link to a V2 quiz. 
         
-        To solve this simply deactivate the `Automatic Popup Quiz` and activate the `V2 - Automatic Popup Quiz` one. 
+        To solve this simply deactivate the `Automatic Popup Quiz Legacy` and activate the `Automatic Popup Quiz` one. 
     2. Save the changes.
 
 === "WooCommerce"
