@@ -2,6 +2,8 @@
 
 Apart from giving your customers a personalized product recommendation, you can connect Product Recommendation Quiz to your Omnisend account so that the quiz results are sent automatically to your mailing list. This way you can segment them based on their responses and follow up with targeted campaigns.
 
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/763403d8f6e74461875845e68fe39e12?sid=2103a65c-be3d-4efd-80d8-a01173a4a30b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ## Link Quiz to Omnisend
 
 1. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). To do that,visit the `API section` in your Omnisend account and select the option `This API key will only allow adding new subscribers`. Copy the API Key.
