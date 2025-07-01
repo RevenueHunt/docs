@@ -127,6 +127,8 @@ Before you start, ensure you have:
 
 === "Shopify V2"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/eaf80c4430474a049f05089eb12186db?sid=e280e84e-bcb4-4253-a92c-26b93056dfb1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     With Version 2 of the RevenueHunt app, you can easily create links to open a quiz popup anywhere on your website. 
     
     !!! warning "Shopify 1.0 Theme Compatibility"
