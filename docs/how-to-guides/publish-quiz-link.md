@@ -336,6 +336,8 @@ In some cases, you might want to have links to different quizzes on the same pag
 
 === "Shopify V2"
 
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/b65c503f49ed4664875df3e6addd8380?sid=6d7edd43-ec04-4dfd-848e-2a7337980800" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     For Shopify V2, you can link to specific quizzes by using the format `#quiz-QUIZID` instead of just `#quiz`.
 
     1. **Find Your Quiz ID**: Go to the [dashboard](/reference/dashboard/) and locate the quiz you want to link to.
