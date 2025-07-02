@@ -24,20 +24,30 @@ Before reaching out, you can view our [app status page](https://status.revenuehu
 
 ## What Level of Support is Offered
 
-We offer email support to all our users, whether they’re free or paid, and Zoom support to merchants on any of our paid plans. We don’t have a chat feature.
+We offer email support to all our users, whether they’re free or paid.
 
-Our support team will answer any questions regarding:
+We offer live chat and videocall support to merchants on any of our paid plans. We only have a chat available for merchants using our Built for Shopify app.
 
-- using the Quiz Builder,
-- customizing the quiz design,
-- understanding the recommendation algorithm,
-- adding custom behaviors,
-- integrating with other apps,
-- quiz metrics
-- troubleshooting
+### Our support team can help you with:
 
-Any query that comes through to us is answered within 2-3 hours on the same day. If your question requires further explanation, our support team will offer to schedule a support call via Zoom.
+- Using the Quiz Builder  
+- Customizing the quiz design with our built-in tools  
+- Understanding the recommendation algorithm  
+- Integrating the quiz with other apps  
+- Interpreting quiz metrics and analytics  
+- Troubleshooting why certain products are (or aren’t) recommended in the results  
 
+We respond to every query within **2–3 hours on the same business day**. If your question needs more in-depth assistance, our team will offer to schedule a live one-on-one call.
+
+### What we **cannot** do for you:
+
+- Add custom behaviors with JavaScript (your developer should handle this)  
+- Add custom styles with CSS (your developer should handle this)  
+- Debug your WooCommerce store setup or configuration (your developer should handle this)  
+- Debug issues related to your Shopify theme (your developer or the theme’s developer should handle this)  
+- Create or edit Klaviyo templates (please contact Klaviyo for this)
+
+Please note: while our app lets you include custom JavaScript and CSS in your quiz, we’re a small team and can’t supply or maintain those code snippets. Any advanced customization must be handled by your developer.
  
 ## Can You Build a Quiz for Me?
 
