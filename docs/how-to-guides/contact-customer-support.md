@@ -28,7 +28,7 @@ We offer email support to all our users, whether they’re free or paid.
 
 We offer live chat and videocall support to merchants on any of our paid plans. We only have a chat available for merchants using our Built for Shopify app.
 
-### Our support team can help you with:
+### What our support team **can** help you with:
 
 - Using the Quiz Builder  
 - Customizing the quiz design with our built-in tools  
