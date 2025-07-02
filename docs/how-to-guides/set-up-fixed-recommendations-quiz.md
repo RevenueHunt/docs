@@ -2,11 +2,17 @@
 
 Recommended for quizzes with complex branching. Set up fixed sections with pre-determined products to be shown on the results page. Then add logic to control visibility of each section or results page.
 
+Use this method for: 
+
+- Quizzes with multiple very precise outcomes and product recommendations
+- Quizzes with complex branching
+- Quizzes that require a lot of logic conditions 
+
 !!! info "Benefits"
 
     - Good for complex branching quizzes with multiple very precise outcomes and product recommendations.
 
-    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
+    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png){width=300px;}
 
 ## One Results Page 
 
@@ -203,6 +209,12 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 ## Multiple Results Pages 
 
 **Option 2:** Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent results pages.	
+
+!!! note
+
+    The difference between this method and the previous one is that in this method you set up multiple results pages and control visbility by adding branching with Jump Logic that leads to diferent results pages while the previous method is a single results page with multiple content + product blocks controlled by Display Logic. 
+    
+    Overall, both methods are the same, the difference is only in where you add the conditonal logic (Display Logic vs Jump Logic).
 
 ![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png)
 

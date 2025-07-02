@@ -1,11 +1,19 @@
 # How to Set Up Scoring Quiz
 
+Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted varaibl or a score.
+
 
 ## Winning Variable Quiz 
 
 <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/7b44356b9eba4fb3a24b6e595fd48088?sid=f5da200d-6189-457b-8a99-24395da4df8a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted varaible.
+
+Use this method for: 
+
+- Personality type quizzes
+- Dosha quizzes
+- Quizzes that show different text results based on choices
 
 ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png)
 
@@ -92,6 +100,11 @@ Follow these steps to set up a winning variable quiz:
 Assign numerical scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the accumulated scores.
 
 ![how_to_shopify_v2_recommendations_scoring](/images/how_to_shopify_v2_recommendations_scoring.png)
+
+Use this method for: 
+
+- Scoring quizzes
+- Quizzes that show different text results based on choices
 
 Follow these steps to set up a scoring quiz with one results page:
 
@@ -183,6 +196,11 @@ Assign numerical scores to each choice in your quiz. Then, use Jump Logic to dir
 
 ![how_to_shopify_v2_recommendations_scoring_logic](/images/how_to_shopify_v2_recommendations_scoring_logic.png)
 
+Use this method for: 
+
+- Scoring quizzes
+- Quizzes that show different text results based on choices
+
 Follow these steps to set up a scoring quiz with multiple results pages:
 
 
@@ -216,6 +234,7 @@ Follow these steps to set up a scoring quiz with multiple results pages:
         !!! example
 
             For example:
+
             - Results Page 1: Dry Skin Routine
             - Results Page 2: Normal Skin Routine
             - Results Page 3: Oily Skin Routine
@@ -239,7 +258,7 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
         ![how_to_shopifyv2_scoringquiz_fixedrecommendations](/images/how_to_shopifyv2_scoringquiz_fixedrecommendations.png) 
 
-    4. **Set Up Jump Logic Based on Scores**: Go tp the [Conditional Logic](/reference/quiz-builder/conditional-logic/) section of Quiz Builder. Find the last question in your quiz and open the [Jump Logic settings](/reference/quiz-builder/conditional-logic/#jump-logic):
+    4. **Set Up Jump Logic Based on Scores**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) section of Quiz Builder. Find the last question in your quiz and open the [Jump Logic settings](/reference/quiz-builder/conditional-logic/#jump-logic):
         
         - Click on `+ Add condition (OR)`
         - Select `The variable with the highest score...` or `The score of the variable...` option
