@@ -45,9 +45,9 @@ We respond to every query within **2–3 hours on the same business day**. If yo
 - Add custom styles with CSS (your developer should handle this)  
 - Debug your WooCommerce store setup or configuration (your developer should handle this)  
 - Debug issues related to your Shopify theme (your developer or the theme’s developer should handle this)  
-- Create or edit Klaviyo templates (please contact Klaviyo for this)
+- Create or edit Klaviyo templates (please contact a [Klaviyo template developer](https://www.fiverr.com/gigs/klaviyo-template) for this)
 
-Please note: while our app lets you include custom JavaScript and CSS in your quiz, we’re a small team and can’t supply or maintain those code snippets. Any advanced customization must be handled by your developer.
+**Please note:** while our app lets you include custom JavaScript and CSS in your quiz, we’re a small team and can’t supply or maintain those code snippets. Any advanced customization must be handled by your developer. If you don’t have an in-house developer you can find affordable freelance developers on platforms like [Upwork](https://www.upwork.com/) or [Fiverr](https://www.fiverr.com/).
  
 ## Can You Build a Quiz for Me?
 
