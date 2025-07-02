@@ -14,6 +14,8 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 === "Shopify V2"
 
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/f0ee0d468b6d4e1faf8fa9a29383232a?sid=d238f4a2-85ce-4270-a7d6-2d63730b7155" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     1. Go to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
     2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
     ![how to integrate shopify customers shopify v2](/images/how_to_integrate_shopify_customers_shopify_v2.png)
