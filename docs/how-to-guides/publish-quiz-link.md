@@ -54,6 +54,9 @@ Before you start, ensure you have:
     6. **Insert the #quiz Code**: Type `#quiz` into the link field and then click on `Save`.
         ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
 
+        !!! warning
+            Don't add the full URL into the `Link` filed. It should only contain the `#quiz` text and **not** a full URL like `http://yourwebsite.com/#quiz`.
+
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
 
         When clicked, the default quiz for your store will open. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
@@ -151,6 +154,9 @@ Before you start, ensure you have:
     7. **Insert a Button Block**: Within the "Image banner" section, add a new block and choose the **"Button"** option.
     8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Type `#quiz` in the appropriate link field.
         ![how to publish link popup shopify v2 button](/images/how_to_publish_link_popup_shopify_v2_button.png)
+
+        !!! warning
+            Don't add the full URL into the `Link` filed. It should only contain the `#quiz` text and **not** a full URL like `http://yourwebsite.com/#quiz`.
 
         When clicked, the default quiz for your store will open. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
@@ -317,8 +323,6 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
         ```
     - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
 
----
-You've successfully set up a Quiz Link Popup on your eCommerce store. Don't forget to click on the "Save" button so the changes are reflected in your store.
 
 
 ## Linking to Multiple Quizzes
@@ -360,6 +364,9 @@ In some cases, you might want to have links to different quizzes on the same pag
         `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another. 
             
         To find your Quiz ID, go to the [dashboard](/reference/dashboard/) and identify a quiz. Click on the `...` and copy the ID.
+
+    !!! warning
+        Don't add the full URL into the `Link` filed. It should only contain the `#quiz-QUIZID` text and **not** a full URL like `http://yourwebsite.com/#quiz-QUIZID`.
 
 === "WooCommerce"
 
@@ -460,3 +467,6 @@ In some cases, you might want to have links to different quizzes on the same pag
     2. Ensure that the quiz is published and active. Go to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
     3. Check that the quiz ID is correct. Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**.
     4. Verify that the link is correctly formatted. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*   
+
+    ---
+    This article explains how to publish a quiz created with RevenueHunt Quizzes app as a Link Popup on your website.
