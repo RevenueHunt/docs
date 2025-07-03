@@ -26,7 +26,7 @@ Before reaching out, you can view our [app status page](https://status.revenuehu
 
 We offer email support to all our users, whether they’re free or paid.
 
-We offer live chat and videocall support to merchants on any of our paid plans. We only have a chat available for merchants using our Built for Shopify app.
+Live chat is reserved for merchants on any of our paid plans, and video calls are available to merchants on the Pro plan and above. We only have a chat available for merchants using our Built for Shopify app.
 
 ### What our support team **can** help you with:
 
