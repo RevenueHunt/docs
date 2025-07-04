@@ -20,6 +20,40 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **collections**.
 
+    In Shopify V2, there are several ways to recommend products:
+
+    **✅ Option 1: Recommend Most Voted Products**
+
+    *Best for most quizzes.*
+
+    ![how_to_shopify_v2_recommendations_funnel](/images/how_to_shopify_v2_recommendations_funnel.png){width="300"}
+
+    - Link products or collections to each quiz choice.
+    - On the results page, add a product block that displays the most voted items.
+    - You can show multiple product slots to recommend a routine or bundle.
+
+    **🧠 Option 2: Use Scoring or Variables**
+
+    *Best for personality-style quizzes.*
+
+    ![how_to_shopify_v2_recommendations_displaylogic](/images/how_to_shopify_v2_recommendations_displaylogic.png){width="300"}
+
+    - Assign a score or custom variable to each choice in the quiz.
+    - Set up result sections with fixed recommendations for each type of outcome.
+    - Use display logic to show the right section based on the score or variable with the highest value.
+    - **Example:** Show Section A if the top variable is "blue", Section B if it’s "red".
+
+    **🧩 Option 3: Use Complex Display Logic**
+
+    *Best for advanced logic or detailed recommendation matrices.*
+
+    ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png){width="300"}
+
+    - Create logic-based paths that lead users to different result pages.
+    - Or use one results page with multiple sections and display logic for each.
+    - Show/hide each section depending on the customer’s answers.
+
+
 === "WooCommerce" 
 
     RevenueHunt Product Recommendation Quiz can show on the results page **simple products**, **variable products**, **grouped products**, **external/affiliate products** and **[WooCommerce subscription products](/how-to-guides/recommend-subscription-products/)**. 
