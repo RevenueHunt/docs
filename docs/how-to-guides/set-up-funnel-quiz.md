@@ -1,6 +1,6 @@
 # How to Set Up Funnel Quiz
 
-The voting system counts product "votes" based on customer quiz choices and recommends products with the highest votes.
+A Funnel Quiz helps your customers find the best product by assigning “votes” to products as they answer questions. The quiz counts these votes and recommends the most relevant products at the end.
 
 Use this method for: 
 
@@ -8,6 +8,142 @@ Use this method for:
 - Most quizzes, especially product finders
 - Your first product recommendation quiz
 - Quizzes without complex branching
+
+
+## Voting System
+
+Our product recommendation algorithm works like a voting system:
+
+- Product variants are linked to each choice.
+- When a customer picks a choice, all linked products receive one vote.
+- After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes.
+- If no products have been linked or all the products have been excluded, the results page will appear empty.
+- If there's a draw in the number of votes, the app will randomize the order of products.
+
+## Understand Inclusion and Exclusion
+
+### Inclusion
+Products or collections added in the `include/upvotes` field of the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab are upvoted in the final recommendations.
+
+=== "Shopify"
+
+    ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
+
+    How the votes work for each included linked item:
+
+    - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
+    - **Collections**: Every product within a linked collection receives a vote when their linked choice is selected.
+    - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
+    - **Variant collections**: Created automatically by the app, every product within a linked variant collection receives a vote when their linked choice is selected.
+    - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives a vote when their linked choice is selected.
+    - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](/reference/quiz-builder/quiz-settings/) needs to be active for this option to appear in the Link Products section.
+
+=== "Shopify V2"
+
+    ![how to recommend products upvote](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+
+    How the votes work for each upvoted item:
+
+    - **Main Products / All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected.
+    - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
+    - **Collections**: Every product within a linked collection receives a vote when their linked choice is selected.
+    - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
+    - **Variant collections**: Created automatically by the app, every product within a linked variant collection receives a vote when their linked choice is selected.
+    - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives a vote when their linked choice is selected.
+
+    !!! tip
+    
+        You can also recommend pure text results by setting up different sections on the results page and controlling visibility of each section with Display Logic. This option is not dependent on the voting system but rather on custom scoring system or conditional logic.
+
+
+
+=== "WooCommerce"
+
+    ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
+
+    How the votes work for each included linked item:
+
+    - **Simple Products** - Individual products receive a vote when their linked choice is selected.
+    - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
+    - **Product Bundles**: A bundle is treated as an individual product. Every bundle recieves one vote when their linked choice is selected.
+    - **Affiliate Products** - Individual products receive a vote when their linked choice is selected. On the results page the customer is redirected to the affiliate link (not the store link).
+    - **Categories**: Every product within a linked category receives a vote when their linked choice is selected.
+    - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
+    - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](/reference/quiz-builder/quiz-settings/) needs to be active for this option to appear in the Link Products section.
+
+=== "Magento"
+
+    ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
+
+    How the votes work for each included linked item:
+
+    - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
+    - **Categories**: Every product within a linked category receives a vote when their linked choice is selected.
+
+=== "BigCommerce"
+
+    ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
+
+    How the votes work for each included linked item:
+
+    - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
+    - **Categories**: Every product within a linked category receives a vote when their linked choice is selected.
+    - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
+
+    !!! tip
+
+        You can also use custom fields as tags within the app by following [these instructions](//how-to-guides/use-custom-fields-as-tags/)
+
+=== "Standalone"
+
+    ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
+
+    How the votes work for each included linked item:
+
+    - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
+    - **Collections**: Every product within a linked collection receives a vote when their linked choice is selected.
+
+!!! warning
+
+    If a product variant is linked to choice "A" (via the Link Products / Upvote tab) and a collection of products that contain this product variant is also linked to choice "A" (via the Link Collections / Upvote tab), then this product variant will receive **2 votes from the same choice**.`
+
+### Exclusion
+
+Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/quiz-builder/link-products/) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
+
+=== "Shopify"
+
+    ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
+
+=== "Shopify V2"
+
+    ![how to recommend products exclusion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+
+=== "WooCommerce"
+
+    ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
+
+=== "Magento"
+
+    ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
+
+=== "BigCommerce"
+
+    ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
+
+=== "Standalone"
+
+    ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
+
+!!! warning
+
+    Once a product is excluded in a choice it will **never show** as a recommendation, even if it's upvoted in another choice earlier/later in the quiz.
+
+!!! example
+
+    If you want the recommended products to be filtered out by question, you can do that using the `exclude` feature. For example, if you want to show only recommendations within a certain price range, you can use the exclude collections feature as in the example below.
+    ![how to recommend products exclusion example](/images/how_to_recommend_products_exclusion_example.png)
+    This way if a customer chooses that he doesn't want to spend more than 100$, all the products over that price will be excluded from the recommendations.
 
 ## Funnel Quiz 
 

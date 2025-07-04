@@ -8,9 +8,9 @@ Product recommendations are the heart of any successful quiz experience. They he
 
 | Recommendation System | Best For | Key Features | Complexity |
 |----------------------|----------|--------------|------------|
-| ✍🏻 Voting System | Most quizzes, especially product finders, narrowing down a large product catalog | - Dynamic product recommendations<br>- Adapts to product catalog changes<br>- Works as a funnel | Low to Medium |
-| 🧩 Fixed Recommendations | Complex branching quizzes, Quizzes with multiple very precise outcomes and product recommendations, Quizzes that require a lot of logic conditions | - Pre-determined product sections<br>- Precise control over outcomes<br>- Multiple results pages | Medium |
-| 🎯 Custom Scoring System | Personality-type quizzes, Dosha quizzes, Scoring quizzes, Quizzes that show different text results based on choices | - Weighted scoring system<br>- Adding variables to choices<br>- Variable outcomes based on score or variable | Medium to High |
+| [✍🏻 Voting System](/how-to-guides/set-up-funnel-quiz/) | Most quizzes, especially product finders, narrowing down a large product catalog | - Dynamic product recommendations<br>- Adapts to product catalog changes<br>- Works as a funnel | Low to Medium |
+| [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/) | Complex branching quizzes, Quizzes with multiple very precise outcomes and product recommendations, Quizzes that require a lot of logic conditions | - Pre-determined product sections<br>- Precise control over outcomes<br>- Multiple results pages | Medium |
+| [🎯 Custom Scoring System](/how-to-guides/set-up-scoring-quiz/) | Personality-type quizzes, Dosha quizzes, Scoring quizzes, Quizzes that show different text results based on choices | - Weighted scoring system<br>- Adding variables to choices<br>- Variable outcomes based on score or variable | Medium to High |
 
 
 ## ✍🏻 Voting System
