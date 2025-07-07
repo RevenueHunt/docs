@@ -371,6 +371,8 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
 === "Shopify V2"
 
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/a6aa2b811b6f4adc87f986f0441d6328?sid=f4329a4f-b169-46b6-9a66-2c66644577b8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, enviornemnet etc. if you are creating a quiz for a skin care brand.
 
     2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and assign appropriate point values to each choice via the [Choice Settings](/reference/quiz-builderchoice-settings/) section. 
