@@ -6,11 +6,16 @@ icon: material/cards
 
 Product recommendations are the heart of any successful quiz experience. They help guide customers to the perfect products for their needs, increasing conversion rates and customer satisfaction. In this guide, we'll explore different recommendation systems that can be implemented in your RevenueHunt quiz, each designed for different use cases and business needs.
 
+![how_to_recommend_products_decision_tree_V2](/images/how_to_recommend_products_decision_tree_V2.png)
+
 | Recommendation System | Best For | Key Features | Complexity |
-|----------------------|----------|--------------|------------|
-| [✍🏻 Voting System](/how-to-guides/set-up-funnel-quiz/) | Most quizzes, especially product finders, narrowing down a large product catalog | - Dynamic product recommendations<br>- Adapts to product catalog changes<br>- Works as a funnel | Low to Medium |
-| [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/) | Complex branching quizzes, Quizzes with multiple very precise outcomes and product recommendations, Quizzes that require a lot of logic conditions | - Pre-determined product sections<br>- Precise control over outcomes<br>- Multiple results pages | Medium |
-| [🎯 Custom Scoring System](/how-to-guides/set-up-scoring-quiz/) | Personality-type quizzes, Dosha quizzes, Scoring quizzes, Quizzes that show different text results based on choices | - Weighted scoring system<br>- Adding variables to choices<br>- Variable outcomes based on score or variable | Medium to High |
+|------------------------|----------|--------------|------------|
+| [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/) | Showing the same product(s) to everyone regardless of answers | - Simple setup<br>- Products always shown<br>- No logic or conditions | Very Low |
+| [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/) | Most quizzes, especially product finders or large catalogs | - Automatically adapts to answers<br>- Simple linking of products to choices<br>- Randomized tie-breaking | Low to Medium |
+| [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/recommend-skincare-routine-slots/) | Product recommendation routines, different product categories (e.g. cleanser + moisturizer) | - Slot-based grouping<br>- Step-by-step product recommendations<br>- Still uses dynamic voting | Medium |
+| [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/) | Personality quizzes, Dosha tests, where outcome depends on which variable (A, B, C...) got the most choices | - Tracks most frequent variable<br>- Outputs results by majority<br>- Often used for typology quizzes | Medium |
+| [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/) | Quizzes that need to calculate values or mix scoring with conditions | - Weighted scoring<br>- Adds hidden variables<br>- Logic can combine score + other rules | Medium to High |
+| [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple result pages<br>- Allows display rules and custom text | High |
 
 
 ## ✍🏻 Voting System
@@ -18,70 +23,76 @@ Product recommendations are the heart of any successful quiz experience. They he
 
 Recommended for most quizzes. The voting system counts product "votes" based on customer quiz choices and recommends products with the highest votes.
 
-!!! note "Benefits of the Voting System Algorithm"  
+!!! note "Use this method for:"  
 
-    - Most versatile solution that adapts to changes in your product catalog
-    - Always recommends top products based on customer choices
-    - Works as a funnel to effectively narrow down product selection
+    - Helping customers narrow down a large product catalog
+    - Most quizzes, especially product finders
+    - Your first product recommendation quiz
+    - Quizzes without complex branching
 
 ### Funnel Quiz
 
 The voting system counts product "votes" based on customer quiz choices and recommends products with the highest votes.
 
-![how_to_shopify_v2_recommendations_funnel](/images/how_to_shopify_v2_recommendations_funnel.png) 
+![how_to_shopify_v2_recommendations_funnel](/images/how_to_shopify_v2_recommendations_funnel.png){width=500}
 
 Product recommendation algorithm works like a voting system:
 
 - Product variants are linked to each choice.
 - When a customer picks a choice, all linked products receive one vote.
-- After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes.
-- If no products have been linked or all the products have been excluded, the results page will appear empty.
-- If there's a draw in the number of votes, the app will randomize the order of products.
-- You can limit recommendations to a specific number of products or a minimum vote threshold
-- Supports arranging recommendations into Slots to recommend complete product routines
+- After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of votes, the app will randomize the order of products.*
+- You can limit recommendations to a specific number of products or a minimum vote threshold.
 
 !!! tip "How to set this up?"
 
-    Check out the [Set Up Funnel Quiz](/how-to-guides/set-up-funnel-quiz/) guide.
+    Check out the [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/) guide.
 
+### Funnel Quiz with Slots
 
+The voting system counts product "votes" based on customer quiz choices and then recommends highest voted products based on a filter added to each slot. For example, you can recommend a full skincare routine with a quiz that takes into account the customer answers and shows the most voted cleanser, toner, serum and moisturizer arranged into specific slots. 
+
+![how_to_shopify_v2_recommendations_funnel_with_slots](/images/how_to_shopify_v2_recommendations_funnel_with_slots.png){width=500}
+
+!!! tip "How to set this up?"
+
+    Check out the [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/recommend-skincare-routine-slots/) guide.
 
 ### Funnel Quiz with Branching
 
 Branch your quiz to show different follow-up questions based on customer choices. The algorithm counts votes only from questions and answers shown to each customer.
 
-  ![how_to_shopify_v2_recommendations_jumplogic](/images/how_to_shopify_v2_recommendations_jumplogic.png)
+  ![how_to_shopify_v2_recommendations_jumplogic](/images/how_to_shopify_v2_recommendations_jumplogic.png){width=500}
 
 !!! tip "How to set this up?"
 
-    Check out the [Jump Logic Quiz](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) guide.
+    Check out the [Jump Logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) and [✍🏻 Voting System (Funnel Quiz with Branching)](//how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) guides.
 
 ### Funnel Quiz that Skips Slides
 
 Show different follow-up questions based on customer choices in a multiple-choice, multiple selection question. For example, ask about skin concerns and then only show follow-up questions related to the selected concerns. The algorithm counts votes only from questions and answers shown to each customer. 
 
-![how_to_shopify_v2_recommendations_skiplogic.png](/images/how_to_shopify_v2_recommendations_skiplogic.png)
+![how_to_shopify_v2_recommendations_skiplogic.png](/images/how_to_shopify_v2_recommendations_skiplogic.png){width=500}
 
 ![how_to_hide_content_with_logic_shopifyv2_skip_logic_flow](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
 
 !!! tip "How to set this up?"
 
-    Check out the [Skip Logic Quiz](/how-to-guides/hide-content-with-logic/#skip-logic-how-to-show-custom-text-in-the-quiz) and [Funnel Quiz that Skips Slides](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides) guides.
+    Check out the [Skip Logic Quiz](/how-to-guides/hide-content-with-logic/#skip-logic-how-to-show-custom-text-in-the-quiz) and [✍🏻 Voting System (Funnel Quiz that Skips Slides)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides) guides.
 
 ### Funnel Quiz that Shows Custom Text Based on Choices
 
+!!! warning "Not recommended for personality-type quizzes"
+
+    Not recommended for personality-type quizzes due to complexity. For this application, try the [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/) or [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/) solutions.
+
+
 Show or hide different text blocks on the results page. This approach requires predicting every possible answering route and adding display logic rules for each text block. 
 
-![how_to_shopify_v2_recommendations_funnel_displaylogic](/images/how_to_shopify_v2_recommendations_funnel_displaylogic.png)
+![how_to_shopify_v2_recommendations_funnel_displaylogic](/images/how_to_shopify_v2_recommendations_funnel_displaylogic.png){width=500}
 
 !!! tip "How to set this up?"
 
     Check out the [Display Logic Quiz](/how-to-guides/hide-content-with-logic/#display-logic-how-to-show-custom-text-on-the-results-page) guide.
-
-!!! warning "Not recommended for personality-type quizzes"
-
-    Not recommended for personality-type quizzes due to complexity. For this application, try the [Custom Scoring System](/how-to-guides/custom-scoring-system/) solution.
-
 
 ## 🧩 Fixed Recommendations
 
@@ -95,7 +106,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 **Option 1:** Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
 
-![docs/images/how_to_shopify_v2_recommendations_displaylogic.png](/images/how_to_shopify_v2_recommendations_displaylogic.png)
+![docs/images/how_to_shopify_v2_recommendations_displaylogic.png](/images/how_to_shopify_v2_recommendations_displaylogic.png){width=500}
 
 !!! tip "How to set this up?"
 
@@ -105,7 +116,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
 
 **Option 2:** Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent results pages.	
 
-![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png)
+![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png){width=500}
 
 !!! tip "How to set this up?"
 
@@ -125,7 +136,7 @@ Recommended for personality-type quizzes. Assign point values to choices and use
 
 Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted varaible.
 
-![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png)
+![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png){width=500}
 
 !!! tip "How to set this up?"
 
@@ -137,7 +148,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 
 Assign numerical scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the accumulated scores.
 
-![how_to_shopify_v2_recommendations_scoring](/images/how_to_shopify_v2_recommendations_scoring.png)
+![how_to_shopify_v2_recommendations_scoring](/images/how_to_shopify_v2_recommendations_scoring.png){width=500}
 
 
 !!! tip "How to set this up?"
@@ -149,7 +160,7 @@ Assign numerical scores to each choice in your quiz. Then, use Display Logic to 
 
 Assign numerical scores to each choice in your quiz. Then, use Jump Logic or Skip Logic to direct customers to different results pages based on their accumulated scores. 
 
-![how_to_shopify_v2_recommendations_scoring_logic](/images/how_to_shopify_v2_recommendations_scoring_logic.png)
+![how_to_shopify_v2_recommendations_scoring_logic](/images/how_to_shopify_v2_recommendations_scoring_logic.png){width=500}
 
 !!! tip "How to set this up?"
 

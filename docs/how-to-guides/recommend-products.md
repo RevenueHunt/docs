@@ -20,6 +20,22 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **collections**.
 
+    If you add a Block to your results page, you can choose to display **product variants**, **main products** or **collections** under [Block Settings > Recommendations Type](/reference/quiz-builder/results-page/#products-products-variants-collections). 
+
+    - If you chose a **Products** under Recommendations Type, the Slot will show the main product with a optional dropdown to choose the specific variant. The order in which the product variants are displayed is based on the number of votes they received. If all varaints of the same product received the same number of votes, the variants will be displayed in random order.
+
+    - If you chose a **Product Varaints** under Recommendations Type, the Slot will show recommended variants of a product with the full name of a product followed by the varaint name, for example "Toner - 100ml". 
+    
+        !!! note
+        
+            It is not possible to display the variants in a dropdown with this option, because it's meant to lead the user to the specific variant of a product. If you want to display the variants in a dropdown, you can use a **Products** option instead.
+
+    - If you chose a **Collections** under Recommendations Type, the Slot will show the recommended a specific collection from your Shopify store. 
+
+        !!! note
+
+            If your recommended collections doesn't show any image, it's likely becuase you have not yet added an image to the collection in your Shopify > Products > Collections section. Once you add an image, the collection will show the image on the results page.
+
 
 === "WooCommerce" 
 
@@ -293,11 +309,17 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
 === "Shopify V2"
 
+    ![how_to_recommend_products_decision_tree_V2](/images/how_to_recommend_products_decision_tree_V2.png)
+
     | Recommendation System | Best For | Key Features | Complexity |
-    |----------------------|----------|--------------|------------|
-    | [✍🏻 Voting System](/how-to-guides/set-up-funnel-quiz/) | Most quizzes, especially product finders, narrowing down a large product catalog | - Dynamic product recommendations<br>- Adapts to product catalog changes<br>- Works as a funnel | Low to Medium |
-    | [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/) | Complex branching quizzes, Quizzes with multiple very precise outcomes and product recommendations, Quizzes that require a lot of logic conditions | - Pre-determined product sections<br>- Precise control over outcomes<br>- Multiple results pages | Medium |
-    | [🎯 Custom Scoring System](/how-to-guides/set-up-scoring-quiz/) | Personality-type quizzes, Dosha quizzes, Scoring quizzes, Quizzes that show different text results based on choices | - Weighted scoring system<br>- Adding variables to choices<br>- Variable outcomes based on score or variable | Medium to High |
+    |------------------------|----------|--------------|------------|
+    | [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/) | Showing the same product(s) to everyone regardless of answers | - Simple setup<br>- Products always shown<br>- No logic or conditions | Very Low |
+    | [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/) | Most quizzes, especially product finders or large catalogs | - Automatically adapts to answers<br>- Simple linking of products to choices<br>- Randomized tie-breaking | Low to Medium |
+    | [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/recommend-skincare-routine-slots/) | Product recommendation routines, different product categories (e.g. cleanser + moisturizer) | - Slot-based grouping<br>- Step-by-step product recommendations<br>- Still uses dynamic voting | Medium |
+    | [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/) | Personality quizzes, Dosha tests, where outcome depends on which variable (A, B, C...) got the most choices | - Tracks most frequent variable<br>- Outputs results by majority<br>- Often used for typology quizzes | Medium |
+    | [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/) | Quizzes that need to calculate values or mix scoring with conditions | - Weighted scoring<br>- Adds hidden variables<br>- Logic can combine score + other rules | Medium to High |
+    | [🧩 Fixed Recommendations with Display Logic](https://docs.revenuehunt.com/how-to-guides/set-up-fixed-recommendations-quiz/) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple result pages<br>- Allows display rules and custom text | High |
+
 
 
 === "WooCommerce"
