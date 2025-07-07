@@ -31,7 +31,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
     This method makes specific products appear for all customers, regardless of their quiz answers.
 
-    1. Go to the Link Products section in Quiz Builder
+    1. Go to the [Link Products section](/reference/quiz-builder/link-products/) in [Quiz Builder](/reference/quiz-builder/)
     2. Choose any question in your quiz
     3. Link your desired fixed products to EVERY choice in that question
     4. These products will now receive votes regardless of customer choices
@@ -41,40 +41,35 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
     This method lets you combine dynamic recommendations with fixed products by creating a separate product block.
 
-    1. **Create a Collection for Fixed Products**
-        - Create a new collection in Shopify
-        - Add the products you want to always show
-        - For example: "Essential Products" or "Featured Items"
+    1. **Create a Collection for Fixed Products** - Create a new collection in Shopify with the products you want to always show. *For example: "Essential Products" or "Featured Items"*
 
     2. **Sync Your Store**
-        - Go to Store Settings in the app
-        - Click "Sync Products" to update your catalog
+        - Go to [Success Checklist](/reference/quiz-builder/success-checklist/) in the app
+        - Click `Sync Catalog` to update your catalog
 
     3. **Link the Collection**
-        - Go to Link Products in Quiz Builder
+        - Go to [Link Products](/reference/quiz-builder/link-products/) in [Quiz Builder](/reference/quiz-builder/)
         - Select any question in your quiz
         - Link your new collection to EVERY choice
         - This ensures these products always get votes
 
     4. **Set Up the Results Page**
-        - Add two separate Product Blocks:
-            1. First block: Shows dynamic recommendations based on quiz answers
-            2. Second block: Shows only products from your fixed collection
-        - For the fixed products block:
-            - Set "Filter by Collection" to your new collection
-            - Adjust how many products to display
-            - Customize the block title (e.g., "Recommended Essentials")
+        - Add two separate Blocks to your [Results Page](/reference/quiz-builder/results-page/):
+            1. Product Block: Shows dynamic recommendations based on quiz answers.
+            2. Slot Block: Shows most voted products from the collection thats linked to the Slot. Make sure to customize the Block title, description and in the Included Collections field, link the newly created collection. Ajust how many products to display.
 
     5. **Test Your Setup**
         - Save and preview the quiz
         - Take the quiz multiple times with different answers
         - Verify that:
             - Dynamic recommendations change based on answers
-            - Fixed products always appear in their dedicated block
+            - Fixed products always appear in their dedicated Slot
 
 
 === "Shopify V2"
 
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/a8b065fe66ec462091e84ca1848577bd?sid=88e11900-db7b-4d42-8cf6-4b68821d96fb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    
     1. To show the same products to everyone regardless of the customer answers, add a [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) to the Results Page and set the `Recommendation System` to `Fixed Recommendations`.
     2. Under `Slot 1` select the products you want to show.
     3. Save the changes and preview the quiz.
@@ -88,7 +83,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
     This method makes specific products appear for all customers, regardless of their quiz answers.
 
-    1. Go to the Link Products section in Quiz Builder
+    1. Go to the [Link Products section](/reference/quiz-builder/link-products/) in [Quiz Builder](/reference/quiz-builder/)
     2. Choose any question in your quiz
     3. Link your desired fixed products to EVERY choice in that question
     4. These products will now receive votes regardless of customer choices
@@ -98,36 +93,29 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
     This method lets you combine dynamic recommendations with fixed products by creating a separate product block.
 
-    1. **Create a Collection for Fixed Products**
-        - Create a new collection in Shopify
-        - Add the products you want to always show
-        - For example: "Essential Products" or "Featured Items"
+    1. **Create a Collection for Fixed Products** - Create a new collection in Shopify with the products you want to always show. *For example: "Essential Products" or "Featured Items"*
 
     2. **Sync Your Store**
-        - Go to Store Settings in the app
-        - Click "Sync Products" to update your catalog
+        - Go to [Success Checklist](/reference/quiz-builder/success-checklist/) in the app
+        - Click `Sync Catalog` to update your catalog
 
     3. **Link the Collection**
-        - Go to Link Products in Quiz Builder
+        - Go to [Link Products](/reference/quiz-builder/link-products/) in [Quiz Builder](/reference/quiz-builder/)
         - Select any question in your quiz
         - Link your new collection to EVERY choice
         - This ensures these products always get votes
 
     4. **Set Up the Results Page**
-        - Add two separate Product Blocks:
-            1. First block: Shows dynamic recommendations based on quiz answers
-            2. Second block: Shows only products from your fixed collection
-        - For the fixed products block:
-            - Set "Filter by Collection" to your new collection
-            - Adjust how many products to display
-            - Customize the block title (e.g., "Recommended Essentials")
+        - Add two separate Blocks to your [Results Page](/reference/quiz-builder/results-page/):
+            1. Product Block: Shows dynamic recommendations based on quiz answers.
+            2. Slot Block: Shows most voted products from the collection thats linked to the Slot. Make sure to customize the Block title, description and in the Included Collections field, link the newly created collection. Ajust how many products to display.
 
     5. **Test Your Setup**
         - Save and preview the quiz
         - Take the quiz multiple times with different answers
         - Verify that:
             - Dynamic recommendations change based on answers
-            - Fixed products always appear in their dedicated block
+            - Fixed products always appear in their dedicated Slot
 
 === "Magento"
 
@@ -138,7 +126,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
     This method makes specific products appear for all customers, regardless of their quiz answers.
 
-    1. Go to the Link Products section in Quiz Builder
+    1. Go to the [Link Products section](/reference/quiz-builder/link-products/) in [Quiz Builder](/reference/quiz-builder/)
     2. Choose any question in your quiz
     3. Link your desired fixed products to EVERY choice in that question
     4. These products will now receive votes regardless of customer choices
@@ -148,36 +136,29 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
     This method lets you combine dynamic recommendations with fixed products by creating a separate product block.
 
-    1. **Create a Collection for Fixed Products**
-        - Create a new collection in Shopify
-        - Add the products you want to always show
-        - For example: "Essential Products" or "Featured Items"
+    1. **Create a Collection for Fixed Products** - Create a new collection in Shopify with the products you want to always show. *For example: "Essential Products" or "Featured Items"*
 
     2. **Sync Your Store**
-        - Go to Store Settings in the app
-        - Click "Sync Products" to update your catalog
+        - Go to [Success Checklist](/reference/quiz-builder/success-checklist/) in the app
+        - Click `Sync Catalog` to update your catalog
 
     3. **Link the Collection**
-        - Go to Link Products in Quiz Builder
+        - Go to [Link Products](/reference/quiz-builder/link-products/) in [Quiz Builder](/reference/quiz-builder/)
         - Select any question in your quiz
         - Link your new collection to EVERY choice
         - This ensures these products always get votes
 
     4. **Set Up the Results Page**
-        - Add two separate Product Blocks:
-            1. First block: Shows dynamic recommendations based on quiz answers
-            2. Second block: Shows only products from your fixed collection
-        - For the fixed products block:
-            - Set "Filter by Collection" to your new collection
-            - Adjust how many products to display
-            - Customize the block title (e.g., "Recommended Essentials")
+        - Add two separate Blocks to your [Results Page](/reference/quiz-builder/results-page/):
+            1. Product Block: Shows dynamic recommendations based on quiz answers.
+            2. Slot Block: Shows most voted products from the collection thats linked to the Slot. Make sure to customize the Block title, description and in the Included Collections field, link the newly created collection. Ajust how many products to display.
 
     5. **Test Your Setup**
         - Save and preview the quiz
         - Take the quiz multiple times with different answers
         - Verify that:
             - Dynamic recommendations change based on answers
-            - Fixed products always appear in their dedicated block
+            - Fixed products always appear in their dedicated Slot
 
 === "BigCommerce"
 
@@ -188,7 +169,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
     This method makes specific products appear for all customers, regardless of their quiz answers.
 
-    1. Go to the Link Products section in Quiz Builder
+    1. Go to the [Link Products section](/reference/quiz-builder/link-products/) in [Quiz Builder](/reference/quiz-builder/)
     2. Choose any question in your quiz
     3. Link your desired fixed products to EVERY choice in that question
     4. These products will now receive votes regardless of customer choices
@@ -198,36 +179,29 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
     This method lets you combine dynamic recommendations with fixed products by creating a separate product block.
 
-    1. **Create a Collection for Fixed Products**
-        - Create a new collection in Shopify
-        - Add the products you want to always show
-        - For example: "Essential Products" or "Featured Items"
+    1. **Create a Collection for Fixed Products** - Create a new collection in Shopify with the products you want to always show. *For example: "Essential Products" or "Featured Items"*
 
     2. **Sync Your Store**
-        - Go to Store Settings in the app
-        - Click "Sync Products" to update your catalog
+        - Go to [Success Checklist](/reference/quiz-builder/success-checklist/) in the app
+        - Click `Sync Catalog` to update your catalog
 
     3. **Link the Collection**
-        - Go to Link Products in Quiz Builder
+        - Go to [Link Products](/reference/quiz-builder/link-products/) in [Quiz Builder](/reference/quiz-builder/)
         - Select any question in your quiz
         - Link your new collection to EVERY choice
         - This ensures these products always get votes
 
     4. **Set Up the Results Page**
-        - Add two separate Product Blocks:
-            1. First block: Shows dynamic recommendations based on quiz answers
-            2. Second block: Shows only products from your fixed collection
-        - For the fixed products block:
-            - Set "Filter by Collection" to your new collection
-            - Adjust how many products to display
-            - Customize the block title (e.g., "Recommended Essentials")
+        - Add two separate Blocks to your [Results Page](/reference/quiz-builder/results-page/):
+            1. Product Block: Shows dynamic recommendations based on quiz answers.
+            2. Slot Block: Shows most voted products from the collection thats linked to the Slot. Make sure to customize the Block title, description and in the Included Collections field, link the newly created collection. Ajust how many products to display.
 
     5. **Test Your Setup**
         - Save and preview the quiz
         - Take the quiz multiple times with different answers
         - Verify that:
             - Dynamic recommendations change based on answers
-            - Fixed products always appear in their dedicated block
+            - Fixed products always appear in their dedicated Slot
 
 === "Standalone"
 
@@ -238,7 +212,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
     This method makes specific products appear for all customers, regardless of their quiz answers.
 
-    1. Go to the Link Products section in Quiz Builder
+    1. Go to the [Link Products section](/reference/quiz-builder/link-products/) in [Quiz Builder](/reference/quiz-builder/)
     2. Choose any question in your quiz
     3. Link your desired fixed products to EVERY choice in that question
     4. These products will now receive votes regardless of customer choices
@@ -248,44 +222,35 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
     This method lets you combine dynamic recommendations with fixed products by creating a separate product block.
 
-    1. **Create a Collection for Fixed Products**
-        - Create a new collection in Shopify
-        - Add the products you want to always show
-        - For example: "Essential Products" or "Featured Items"
+    1. **Create a Collection for Fixed Products** - Create a new collection in Shopify with the products you want to always show. *For example: "Essential Products" or "Featured Items"*
 
     2. **Sync Your Store**
-        - Go to Store Settings in the app
-        - Click "Sync Products" to update your catalog
+        - Go to [Success Checklist](/reference/quiz-builder/success-checklist/) in the app
+        - Click `Sync Catalog` to update your catalog
 
     3. **Link the Collection**
-        - Go to Link Products in Quiz Builder
+        - Go to [Link Products](/reference/quiz-builder/link-products/) in [Quiz Builder](/reference/quiz-builder/)
         - Select any question in your quiz
         - Link your new collection to EVERY choice
         - This ensures these products always get votes
 
     4. **Set Up the Results Page**
-        - Add two separate Product Blocks:
-            1. First block: Shows dynamic recommendations based on quiz answers
-            2. Second block: Shows only products from your fixed collection
-        - For the fixed products block:
-            - Set "Filter by Collection" to your new collection
-            - Adjust how many products to display
-            - Customize the block title (e.g., "Recommended Essentials")
+        - Add two separate Blocks to your [Results Page](/reference/quiz-builder/results-page/):
+            1. Product Block: Shows dynamic recommendations based on quiz answers.
+            2. Slot Block: Shows most voted products from the collection thats linked to the Slot. Make sure to customize the Block title, description and in the Included Collections field, link the newly created collection. Ajust how many products to display.
 
     5. **Test Your Setup**
         - Save and preview the quiz
         - Take the quiz multiple times with different answers
         - Verify that:
             - Dynamic recommendations change based on answers
-            - Fixed products always appear in their dedicated block
+            - Fixed products always appear in their dedicated Slot
 
 ## Fixed Recommendations with Display Logic and One Results Page 
 
 Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
 
 ![docs/images/how_to_shopify_v2_recommendations_displaylogic.png](/images/how_to_shopify_v2_recommendations_displaylogic.png){width=500}
-
-
 
 === "Shopify"
 
@@ -527,6 +492,8 @@ Set up multiple results pages with unique fixed product recommendations and text
     6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/23f2c55346e64f3091ef6c70ad874dc1?sid=58d565f5-8bf8-4f85-b934-4b8d042818d8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 

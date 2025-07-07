@@ -120,7 +120,9 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
     - On the results page, add a product block that displays the most voted items.
     - You can show multiple product slots to recommend a routine or bundle.
 
-    Follow [this guide](/how-to-guides/set-up-funnel-quiz/) to learn how to set up this option.
+    !!! note
+
+        Follow [this guide](/how-to-guides/set-up-funnel-quiz/) to learn how to set up this option.
 
     **🎯 Option 2: Use Scoring or Variables**
 
@@ -133,7 +135,9 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
     - Use display logic to show the right section based on the score or variable with the highest value.
     - **Example:** Show Section A if the top variable is "blue", Section B if it’s "red".
 
-    Follow [this guide](/how-to-guides/set-up-scoring-quiz/) to learn how to set up this option.
+    !!! note   
+
+        Follow [this guide](/how-to-guides/set-up-scoring-quiz/) to learn how to set up this option.
 
     **🧩 Option 3: Use Complex Display Logic**
 
@@ -145,7 +149,9 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
     - Or use one results page with multiple sections and display logic for each.
     - Show/hide each section depending on the customer’s answers.
 
-    Follow [this guide](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up this option.
+    !!! note
+        
+        Follow [this guide](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up this option.
 
 === "WooCommerce"
 
@@ -495,3 +501,6 @@ It is possible to limit the number of recommended products on the results page b
 This guide provides information on how to set up a custom solution that will recommend products based on the number of user choices.
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
+
+---
+This article explains how what products can be recommended with RevenueHunt Quiz app and how to set up the quiz to recommend them.
