@@ -178,7 +178,7 @@ Assign numerical scores to each choice in your quiz. Then, use Jump Logic or Ski
 
 !!! tip "How to set this up?"
 
-    Check out the [🎯 Custom Scoring System (Score + Variable)](http://127.0.0.1:8000/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-multiple-results-pages) guide.
+    Check out the [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-multiple-results-pages) guide.
 
 ---
 
