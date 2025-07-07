@@ -110,7 +110,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     In Shopify V2, there are several ways to recommend products:
 
-    **✅ Option 1: Recommend Most Voted Products**
+    **✍🏻 Option 1: Recommend Most Voted Products**
 
     *Best for most quizzes.*
 
@@ -122,7 +122,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     Follow [this guide](/how-to-guides/set-up-funnel-quiz/) to learn how to set up this option.
 
-    **🧠 Option 2: Use Scoring or Variables**
+    **🎯 Option 2: Use Scoring or Variables**
 
     *Best for personality-style quizzes.*
 
@@ -133,7 +133,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
     - Use display logic to show the right section based on the score or variable with the highest value.
     - **Example:** Show Section A if the top variable is "blue", Section B if it’s "red".
 
-    Follow [this guide](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to set up this option.
+    Follow [this guide](/how-to-guides/set-up-scoring-quiz/) to learn how to set up this option.
 
     **🧩 Option 3: Use Complex Display Logic**
 
@@ -145,7 +145,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
     - Or use one results page with multiple sections and display logic for each.
     - Show/hide each section depending on the customer’s answers.
 
-    Follow [this guide](/how-to-guides/set-up-fixed-recommendations-quiz/#one-results-page) to learn how to set up this option.
+    Follow [this guide](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up this option.
 
 === "WooCommerce"
 
@@ -313,12 +313,12 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     | Recommendation System | Best For | Key Features | Complexity |
     |------------------------|----------|--------------|------------|
-    | [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/) | Showing the same product(s) to everyone regardless of answers | - Simple setup<br>- Products always shown<br>- No logic or conditions | Very Low |
-    | [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/) | Most quizzes, especially product finders or large catalogs | - Automatically adapts to answers<br>- Simple linking of products to choices<br>- Randomized tie-breaking | Low to Medium |
-    | [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/recommend-skincare-routine-slots/) | Product recommendation routines, different product categories (e.g. cleanser + moisturizer) | - Slot-based grouping<br>- Step-by-step product recommendations<br>- Still uses dynamic voting | Medium |
-    | [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/) | Personality quizzes, Dosha tests, where outcome depends on which variable (A, B, C...) got the most choices | - Tracks most frequent variable<br>- Outputs results by majority<br>- Often used for typology quizzes | Medium |
-    | [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/) | Quizzes that need to calculate values or mix scoring with conditions | - Weighted scoring<br>- Adds hidden variables<br>- Logic can combine score + other rules | Medium to High |
-    | [🧩 Fixed Recommendations with Display Logic](https://docs.revenuehunt.com/how-to-guides/set-up-fixed-recommendations-quiz/) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple result pages<br>- Allows display rules and custom text | High |
+    | [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) | Showing the same product(s) to everyone regardless of answers | - Simple setup<br>- Products always shown<br>- No logic or conditions | Very Low |
+    | [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz) | Most quizzes, especially product finders or large catalogs | - Automatically adapts to answers<br>- Simple linking of products to choices<br>- Randomized tie-breaking | Low to Medium |
+    | [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots) | Product recommendation routines, different product categories (e.g. cleanser + moisturizer) | - Slot-based grouping<br>- Step-by-step product recommendations<br>- Still uses dynamic voting | Medium |
+    | [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) | Personality quizzes, Dosha tests, where outcome depends on which variable (A, B, C...) got the most choices | - Tracks most frequent variable<br>- Outputs results by majority<br>- Often used for typology quizzes | Medium |
+    | [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) | Quizzes that need to calculate values or mix scoring with conditions | - Weighted scoring<br>- Adds hidden variables<br>- Logic can combine score + other rules | Medium to High |
+    | [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple result pages<br>- Allows display rules and custom text | High |
 
 
 
@@ -347,41 +347,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
     <script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/X2Hy6G" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
 
 
-## Specific Use Cases
-
-### [Recommend Most Voted Products](/how-to-guides/set-up-funnel-quiz/)
-
-![how_to_shopify_v2_recommendations_funnel](/images/how_to_shopify_v2_recommendations_funnel.png){width="300"}
-
-[This guide](/how-to-guides/set-up-funnel-quiz/) is designed to help merchants effectively use [Product Slot Blocks](/reference/quiz-builder/results-page/#block-types) on the results page to organize product recommendations.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/set-up-funnel-quiz/)    
-
-### [Recommend a Skincare Routine with Most Voted Products](/how-to-guides/recommend-skincare-routine-slots/)
-
-With RevenueHunt Product Recommendation Quiz, it is possible to group products into slots and recommend a product for each step in a beauty routine.
-
-![how to recommend slots example](/images/how_to_recommend_slots_example.png){width="300"}
-
-[This guide](/how-to-guides/recommend-skincare-routine-slots/) is designed to help merchants effectively use [Product Slot Blocks](/reference/quiz-builder/results-page/#block-types) on the results page to organize product recommendations.
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-skincare-routine-slots/)
-
-### [Recommend Fixed Products Based on a Custom Variable - Personality Type Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
-
-Recommended for personality-type, dosha and quizzes that want to show different text results based on choices. Assign varaibles and scores to choices and use the total scores to determine which products to recommend.
-
-![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png){width="300"}
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
-
-### [Recommend Fixed Products Based on a Custom Score](/how-to-guides/set-up-scoring-quiz/#one-results-page)
-
-Recommended for personality-type quizzes and quizzes that want to show different text results based on choices. Assign point values to choices and use the total scores to determine which products to recommend.
-
-![how_to_shopify_v2_recommendations_scoring](/images/how_to_shopify_v2_recommendations_scoring.png){width="300"}
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/set-up-scoring-quiz/#one-results-page)
+## Specific Setup Guides
 
 ### [Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 
@@ -404,22 +370,6 @@ It describes a step-by-step process involving creating product collections, buil
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-product-matrix/)
 
-### Recommend Product Based on a Complex Product Matrix
-
-Recommended for quizzes with complex branching. Set up fixed sections with pre-determined products to be shown on the results page. Then add logic to control visibility of each section or results page.
-
-![docs/images/how_to_shopify_v2_recommendations_displaylogic.png](/images/how_to_shopify_v2_recommendations_displaylogic.png){width="300"}
-
-Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
-
-or
-
-![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png){width="300"}
-
-Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent results pages.	
-
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/set-up-fixed-recommendations-quiz/)
-
 
 ### [Only Recommend Products with X Votes or More](/how-to-guides/only-recommend-products-with-minimum-votes/)
 
@@ -430,30 +380,118 @@ It is possible to limit the number of recommended products on the results page b
 
 ### Recommend Subscription Products
 
-Recommending subscription products via the RevenueHunt Product Recommendation Quiz can significantly enhance your e-commerce strategy by providing a steady revenue stream and fostering long-term customer relationships. With the integration of [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) or WooCommerce Subscriptions into your product recommendation strategy, you can create a seamless shopping experience for your customers. 
+=== "Shopify"
 
-![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png){width="150"}
 
-[This guide](/how-to-guides/recommend-subscription-products/) explains how to integrate and recommend subscription products with RevenueHunt Product Recommendation Quiz.
+    If you're using a legacy version of the RevenueHunt app for Shopify and Rechare Subscriptions check [this guide](/how-to-guides/recommend-subscription-products/) to learn how to recommend subscription products directly from the quiz.
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/)
+    ![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png){width="150"}
+
+    For other subscription apps check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/)
+
+=== "Shopify V2"
+
+    The new RevenueHunt app for Shopify doesn't yet support recommending subscription products.
+
+    Check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#other-subscriptions)
+
+=== "WooCommerce"
+
+    If you're using a WooCommerce Subscriptions check [this guide](/how-to-guides/recommend-subscription-products/#woocommerce-subscriptions/) to learn how to recommend subscription products directly from the quiz.
+
+    ![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png){width="150"}
+
+    For other subscription apps check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#woocommerce-subscriptions)
+
+=== "BigCommerce"
+
+    The RevenueHunt app for BigCommerce doesn't yet support recommending subscription products.
+
+    Check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#other-subscriptions)
+
+=== "Magento"
+
+    The RevenueHunt app for Magento doesn't yet support recommending subscription products.
+
+    Check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#other-subscriptions)
+
+=== "Standalone"
+
+    The RevenueHunt app for Headless eCommerce (Standalone) doesn't yet support recommending subscription products.
+
+    Check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#other-subscriptions)
+
+
+
 
 ### Ensure a Specific Product Always Appears on Your Results Page
 
-[This guide](/how-to-guides/always-recommend-the-same-product/) provides a clear, step-by-step process to making sure that specific products are always visible on the Results Page of your quiz, regardless of the customer's choices.
+[This guide](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) provides a clear, step-by-step process to making sure that specific products are always visible on the Results Page of your quiz, regardless of the customer's choices.
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/always-recommend-the-same-product/)
+[:fontawesome-solid-arrow-right: learn more](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations)
 
 ### Show Results Explanation
 
-While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product.
+=== "Shopify" 
 
-For this reason, it can be very hard to build a "personality-type" quiz with our solution. [This article](/how-to-guides/show-results-explanation/) proposes some solutions for this problem.
+    While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
+    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless eCommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
+
+=== "Shopify V2"
+
+    While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product.
+
+    To show an text that explains why a certain product was recommended, follow the guide for [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) if you're building a personality-type quiz or [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) if you're building a quiz with a lot of logic conditions, precise rules, or exceptions. 
+
+=== "WooCommerce" 
+
+    While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
+
+    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless eCommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
+
+=== "Magento" 
+
+    While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
+
+    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless eCommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
+
+=== "BigCommerce" 
+
+    While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
+
+    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless eCommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
+
+=== "Standalone" 
+
+    While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
+
+    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless eCommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
 
 ### Recommend Products Based on the Number of User Choices
 
 This guide provides information on how to set up a custom solution that will recommend products based on the number of user choices.
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-products-based-on-number-of-user-choices/)
+[:fontawesome-solid-arrow-right: learn more](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)

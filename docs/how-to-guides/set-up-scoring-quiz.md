@@ -2,20 +2,19 @@
 
 Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted varaibl or a score.
 
+!!! info "Use this method for:"
+
+    - Personality type quizzes, Dosha quizzes
+    - Quizzes that show different results based on the number of user choices (for example if the customer chooses most As, Bs, Cs, etc.)
+    - Quizzes that show different text results based on choices
+    - Quizzes that need to calculate scores that show different products
+
 
 ## Winning Variable Quiz 
 
-<div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/7b44356b9eba4fb3a24b6e595fd48088?sid=f5da200d-6189-457b-8a99-24395da4df8a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
 Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted varaible.
 
-Use this method for: 
-
-- Personality type quizzes
-- Dosha quizzes
-- Quizzes that show different text results based on choices
-
-![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png)
+![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png){width=500}
 
 Follow these steps to set up a winning variable quiz:       
 
@@ -24,7 +23,45 @@ Follow these steps to set up a winning variable quiz:
     Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
+    Alternatively, your developer can also try this setup:
+
+    
+    ??? question "Do I need advanced technical skills to set this up?"
+
+        While the process isn’t entirely plug-and-play, with the assistance of a developer, it’s manageable. If you’re not familiar with JavaScript or CSS, seeking developer help is advisable.
+
+    **How do I recommend products based on the number of user choices?**
+
+    The recommendation process is based on how many choices the user selects out of the given set. Here’s a step-by-step guide:
+
+    1. **Create collections/categories**. Create distinct collections for each group of products you wish to recommend, e.g., “1/10 choices selected,” “2/10 choices selected,” etc.
+    2. **Add hidden choices**. In your final question, include a multiple-choice option that correlates with the aforementioned collections/categories. This ensures that each choice connects to its respective recommended collection/category. Make sure to hide these choices from the user with custom CSS code.
+    3. **Add custom JavaScript**. Using custom JavaScript, evaluate the choices selected throughout the quiz and write a piece of code that automatically selects one of the hidden choices in the last question. This will determine which product collection/category to recommend based on the number of choices the user made.
+
+    **How can I ensure that users don’t see the choices in the last question?**
+
+    You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](/how-to-guides/customize-quiz-design/).
+
+    **Where do I input the custom JavaScript code?**
+
+    [This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
+
+    ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png){width=500}
+
+    The custom JavaScript code should be integrated into the final question to assess the user’s choices and click the right choices in order to recommend a product collection accordingly.
+
+    **How can I identify the selected choices from each slide or question with JavaScript?**
+
+    To review the values or choice IDs selected for each slide/question, you can use the JavaScript console and search for the values:
+
+    ![recommend-products-based-on-number-of-user-choices image2](/images/recommend-products-based-on-number-of-user-choices_image2.png)
+
+
+
+
 === "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/7b44356b9eba4fb3a24b6e595fd48088?sid=f5da200d-6189-457b-8a99-24395da4df8a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     Let's imagine you are creating a quiz for a skin care brand. You want to know which skin type the customer has.
 
@@ -80,26 +117,158 @@ Follow these steps to set up a winning variable quiz:
 
 === "WooCommerce"
 
-    Scoring system is not available in WooCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).         
+    Scoring system is not available in WooCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).    
+
+    Alternatively, your developer can also try this setup:
+
+    
+    ??? question "Do I need advanced technical skills to set this up?"
+
+        While the process isn’t entirely plug-and-play, with the assistance of a developer, it’s manageable. If you’re not familiar with JavaScript or CSS, seeking developer help is advisable.
+
+    **How do I recommend products based on the number of user choices?**
+
+    The recommendation process is based on how many choices the user selects out of the given set. Here’s a step-by-step guide:
+
+    1. **Create collections/categories**. Create distinct collections for each group of products you wish to recommend, e.g., “1/10 choices selected,” “2/10 choices selected,” etc.
+    2. **Add hidden choices**. In your final question, include a multiple-choice option that correlates with the aforementioned collections/categories. This ensures that each choice connects to its respective recommended collection/category. Make sure to hide these choices from the user with custom CSS code.
+    3. **Add custom JavaScript**. Using custom JavaScript, evaluate the choices selected throughout the quiz and write a piece of code that automatically selects one of the hidden choices in the last question. This will determine which product collection/category to recommend based on the number of choices the user made.
+
+    **How can I ensure that users don’t see the choices in the last question?**
+
+    You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](/how-to-guides/customize-quiz-design/).
+
+    **Where do I input the custom JavaScript code?**
+
+    [This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
+
+    ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png){width=500}
+
+    The custom JavaScript code should be integrated into the final question to assess the user’s choices and click the right choices in order to recommend a product collection accordingly.
+
+    **How can I identify the selected choices from each slide or question with JavaScript?**
+
+    To review the values or choice IDs selected for each slide/question, you can use the JavaScript console and search for the values:
+
+    ![recommend-products-based-on-number-of-user-choices image2](/images/recommend-products-based-on-number-of-user-choices_image2.png)     
 
 === "Magento"
 
     Scoring system is not available in Magento. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
+    Alternatively, your developer can also try this setup:
+
+    
+    ??? question "Do I need advanced technical skills to set this up?"
+
+        While the process isn’t entirely plug-and-play, with the assistance of a developer, it’s manageable. If you’re not familiar with JavaScript or CSS, seeking developer help is advisable.
+
+    **How do I recommend products based on the number of user choices?**
+
+    The recommendation process is based on how many choices the user selects out of the given set. Here’s a step-by-step guide:
+
+    1. **Create collections/categories**. Create distinct collections for each group of products you wish to recommend, e.g., “1/10 choices selected,” “2/10 choices selected,” etc.
+    2. **Add hidden choices**. In your final question, include a multiple-choice option that correlates with the aforementioned collections/categories. This ensures that each choice connects to its respective recommended collection/category. Make sure to hide these choices from the user with custom CSS code.
+    3. **Add custom JavaScript**. Using custom JavaScript, evaluate the choices selected throughout the quiz and write a piece of code that automatically selects one of the hidden choices in the last question. This will determine which product collection/category to recommend based on the number of choices the user made.
+
+    **How can I ensure that users don’t see the choices in the last question?**
+
+    You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](/how-to-guides/customize-quiz-design/).
+
+    **Where do I input the custom JavaScript code?**
+
+    [This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
+
+    ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png){width=500}
+
+    The custom JavaScript code should be integrated into the final question to assess the user’s choices and click the right choices in order to recommend a product collection accordingly.
+
+    **How can I identify the selected choices from each slide or question with JavaScript?**
+
+    To review the values or choice IDs selected for each slide/question, you can use the JavaScript console and search for the values:
+
+    ![recommend-products-based-on-number-of-user-choices image2](/images/recommend-products-based-on-number-of-user-choices_image2.png)
+
 === "BigCommerce"
 
-    Scoring system is not available in BigCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).     
+    Scoring system is not available in BigCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/). 
+
+    Alternatively, your developer can also try this setup:
+
+    
+    ??? question "Do I need advanced technical skills to set this up?"
+
+        While the process isn’t entirely plug-and-play, with the assistance of a developer, it’s manageable. If you’re not familiar with JavaScript or CSS, seeking developer help is advisable.
+
+    **How do I recommend products based on the number of user choices?**
+
+    The recommendation process is based on how many choices the user selects out of the given set. Here’s a step-by-step guide:
+
+    1. **Create collections/categories**. Create distinct collections for each group of products you wish to recommend, e.g., “1/10 choices selected,” “2/10 choices selected,” etc.
+    2. **Add hidden choices**. In your final question, include a multiple-choice option that correlates with the aforementioned collections/categories. This ensures that each choice connects to its respective recommended collection/category. Make sure to hide these choices from the user with custom CSS code.
+    3. **Add custom JavaScript**. Using custom JavaScript, evaluate the choices selected throughout the quiz and write a piece of code that automatically selects one of the hidden choices in the last question. This will determine which product collection/category to recommend based on the number of choices the user made.
+
+    **How can I ensure that users don’t see the choices in the last question?**
+
+    You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](/how-to-guides/customize-quiz-design/).
+
+    **Where do I input the custom JavaScript code?**
+
+    [This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
+
+    ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png){width=500}
+
+    The custom JavaScript code should be integrated into the final question to assess the user’s choices and click the right choices in order to recommend a product collection accordingly.
+
+    **How can I identify the selected choices from each slide or question with JavaScript?**
+
+    To review the values or choice IDs selected for each slide/question, you can use the JavaScript console and search for the values:
+
+    ![recommend-products-based-on-number-of-user-choices image2](/images/recommend-products-based-on-number-of-user-choices_image2.png)    
 
 === "Standalone"
 
     Scoring system is not available in Standalone. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).  
 
+    Alternatively, your developer can also try this setup:
 
-## One Results Page
+    
+    ??? question "Do I need advanced technical skills to set this up?"
+
+        While the process isn’t entirely plug-and-play, with the assistance of a developer, it’s manageable. If you’re not familiar with JavaScript or CSS, seeking developer help is advisable.
+
+    **How do I recommend products based on the number of user choices?**
+
+    The recommendation process is based on how many choices the user selects out of the given set. Here’s a step-by-step guide:
+
+    1. **Create collections/categories**. Create distinct collections for each group of products you wish to recommend, e.g., “1/10 choices selected,” “2/10 choices selected,” etc.
+    2. **Add hidden choices**. In your final question, include a multiple-choice option that correlates with the aforementioned collections/categories. This ensures that each choice connects to its respective recommended collection/category. Make sure to hide these choices from the user with custom CSS code.
+    3. **Add custom JavaScript**. Using custom JavaScript, evaluate the choices selected throughout the quiz and write a piece of code that automatically selects one of the hidden choices in the last question. This will determine which product collection/category to recommend based on the number of choices the user made.
+
+    **How can I ensure that users don’t see the choices in the last question?**
+
+    You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](/how-to-guides/customize-quiz-design/).
+
+    **Where do I input the custom JavaScript code?**
+
+    [This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
+
+    ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png){width=500}
+
+    The custom JavaScript code should be integrated into the final question to assess the user’s choices and click the right choices in order to recommend a product collection accordingly.
+
+    **How can I identify the selected choices from each slide or question with JavaScript?**
+
+    To review the values or choice IDs selected for each slide/question, you can use the JavaScript console and search for the values:
+
+    ![recommend-products-based-on-number-of-user-choices image2](/images/recommend-products-based-on-number-of-user-choices_image2.png)
+
+
+## Scoring Quiz with One Results Page
 
 Assign numerical scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the accumulated scores.
 
-![how_to_shopify_v2_recommendations_scoring](/images/how_to_shopify_v2_recommendations_scoring.png)
+![how_to_shopify_v2_recommendations_scoring](/images/how_to_shopify_v2_recommendations_scoring.png){width=500}
 
 Use this method for: 
 
@@ -190,11 +359,11 @@ Follow these steps to set up a scoring quiz with one results page:
 
     Scoring system is not available in Standalone. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
-## Multiple Results Pages
+## Scoring Quiz with Multiple Results Pages
 
 Assign numerical scores to each choice in your quiz. Then, use Jump Logic to direct customers to different results pages based on their accumulated scores. 
 
-![how_to_shopify_v2_recommendations_scoring_logic](/images/how_to_shopify_v2_recommendations_scoring_logic.png)
+![how_to_shopify_v2_recommendations_scoring_logic](/images/how_to_shopify_v2_recommendations_scoring_logic.png){width=500}
 
 Use this method for: 
 
@@ -207,7 +376,6 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 === "Shopify"
 
     Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
-
 
 === "Shopify V2"
 

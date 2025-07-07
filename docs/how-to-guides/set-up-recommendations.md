@@ -10,12 +10,12 @@ Product recommendations are the heart of any successful quiz experience. They he
 
 | Recommendation System | Best For | Key Features | Complexity |
 |------------------------|----------|--------------|------------|
-| [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/) | Showing the same product(s) to everyone regardless of answers | - Simple setup<br>- Products always shown<br>- No logic or conditions | Very Low |
-| [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/) | Most quizzes, especially product finders or large catalogs | - Automatically adapts to answers<br>- Simple linking of products to choices<br>- Randomized tie-breaking | Low to Medium |
-| [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/recommend-skincare-routine-slots/) | Product recommendation routines, different product categories (e.g. cleanser + moisturizer) | - Slot-based grouping<br>- Step-by-step product recommendations<br>- Still uses dynamic voting | Medium |
-| [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/) | Personality quizzes, Dosha tests, where outcome depends on which variable (A, B, C...) got the most choices | - Tracks most frequent variable<br>- Outputs results by majority<br>- Often used for typology quizzes | Medium |
-| [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/) | Quizzes that need to calculate values or mix scoring with conditions | - Weighted scoring<br>- Adds hidden variables<br>- Logic can combine score + other rules | Medium to High |
-| [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple result pages<br>- Allows display rules and custom text | High |
+| [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) | Showing the same product(s) to everyone regardless of answers | - Simple setup<br>- Products always shown<br>- No logic or conditions | Very Low |
+| [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz) | Most quizzes, especially product finders or large catalogs | - Automatically adapts to answers<br>- Simple linking of products to choices<br>- Randomized tie-breaking | Low to Medium |
+| [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots) | Product recommendation routines, different product categories (e.g. cleanser + moisturizer) | - Slot-based grouping<br>- Step-by-step product recommendations<br>- Still uses dynamic voting | Medium |
+| [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) | Personality quizzes, Dosha tests, where outcome depends on which variable (A, B, C...) got the most choices | - Tracks most frequent variable<br>- Outputs results by majority<br>- Often used for typology quizzes | Medium |
+| [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) | Quizzes that need to calculate values or mix scoring with conditions | - Weighted scoring<br>- Adds hidden variables<br>- Logic can combine score + other rules | Medium to High |
+| [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple result pages<br>- Allows display rules and custom text | High |
 
 
 ## ✍🏻 Voting System
@@ -140,25 +140,25 @@ Set up multiple results pages with unique fixed product recommendations and text
 
 Recommended for personality-type quizzes. Assign point values to choices and use the total scores to determine which products to recommend.
 
-!!! info "Benefits"
+!!! info "Use this method for:"
 
-    - Personality quizzes with variable outcomes
-    - When you need to weigh different factors with varying importance
-    - Creating nuanced recommendation categories
+    - Personality type quizzes, Dosha quizzes
+    - Quizzes that show different results based on the number of choices (for example if the customer chooses most As, Bs, Cs, etc.)
+    - Quizzes that show different text results based on choices
+    - Quizzes that need to calculate scores that show different products
 
 ### Winning Variable Quiz
 
-Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted varaible.
+Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content and product blocks on the Results Page based on the custom score or most voted variable.
 
 ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png){width=500}
 
 !!! tip "How to set this up?"
 
-    Check out the [Set Up Scoring System Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) guide.
+    Check out the [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) guide.
 
 
-
-### One Results Page
+### Scoring Quiz with One Results Page
 
 Assign numerical scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the accumulated scores.
 
@@ -167,10 +167,10 @@ Assign numerical scores to each choice in your quiz. Then, use Display Logic to 
 
 !!! tip "How to set this up?"
 
-    Check out the [Set Up Scoring System Quiz](/how-to-guides/set-up-scoring-quiz/#one-results-page) guide.
+    Check out the [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) guide.
 
 
-### Multiple Results Pages
+### Scoring Quiz with Multiple Results Pages
 
 Assign numerical scores to each choice in your quiz. Then, use Jump Logic or Skip Logic to direct customers to different results pages based on their accumulated scores. 
 
@@ -178,7 +178,7 @@ Assign numerical scores to each choice in your quiz. Then, use Jump Logic or Ski
 
 !!! tip "How to set this up?"
 
-    Check out the [Set Up Scoring System Quiz](/how-to-guides/set-up-scoring-quiz/#multiple-results-pages) guide.
+    Check out the [🎯 Custom Scoring System (Score + Variable)](http://127.0.0.1:8000/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-multiple-results-pages) guide.
 
 ---
 
