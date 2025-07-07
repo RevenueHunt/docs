@@ -545,6 +545,8 @@ The voting system counts product "votes" based on customer quiz choices and then
 
 === "Shopify V2"
 
+    <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/f249d672fe414dc390715b210a94a75a?sid=0a795570-01c5-4777-b6b1-62b0a0da3387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     Follow these steps to set up a funnel quiz with product slots in Shopify V2:
 
     **Step 1: Understand Recommendation Mechanism**

@@ -270,11 +270,6 @@ Assign numerical scores to each choice in your quiz. Then, use Display Logic to 
 
 ![how_to_shopify_v2_recommendations_scoring](/images/how_to_shopify_v2_recommendations_scoring.png){width=500}
 
-Use this method for: 
-
-- Scoring quizzes
-- Quizzes that show different text results based on choices
-
 Follow these steps to set up a scoring quiz with one results page:
 
 
@@ -284,6 +279,8 @@ Follow these steps to set up a scoring quiz with one results page:
 
 
 === "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/bdfab85a0d3b4ecf9beb264fb2a19299?sid=6742d6dc-e3e5-4a3b-a7de-bbd1381170c1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! tip
 
@@ -364,11 +361,6 @@ Follow these steps to set up a scoring quiz with one results page:
 Assign numerical scores to each choice in your quiz. Then, use Jump Logic to direct customers to different results pages based on their accumulated scores. 
 
 ![how_to_shopify_v2_recommendations_scoring_logic](/images/how_to_shopify_v2_recommendations_scoring_logic.png){width=500}
-
-Use this method for: 
-
-- Scoring quizzes
-- Quizzes that show different text results based on choices
 
 Follow these steps to set up a scoring quiz with multiple results pages:
 
