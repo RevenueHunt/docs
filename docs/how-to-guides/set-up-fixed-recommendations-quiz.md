@@ -2,25 +2,288 @@
 
 Recommended for quizzes with complex branching. Set up fixed sections with pre-determined products to be shown on the results page. Then add logic to control visibility of each section or results page.
 
-Use this method for: 
+!!! info "Use this method for:"
 
-- Quizzes with multiple very precise outcomes and product recommendations
-- Quizzes with complex branching
-- Quizzes that require a lot of logic conditions 
+    - Quizzes that show the same product(s) to everyone regardless of answers
+    - Quizzes with multiple very precise outcomes and product recommendations
+    - Quizzes with complex branching
+    - Quizzes that require a lot of logic conditions and custom text
 
-!!! info "Benefits"
+!!! tip
 
-    - Good for complex branching quizzes with multiple very precise outcomes and product recommendations.
+    If your product matrix looks something like the below, this method is for you.
 
     ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png){width=300px;}
 
-## One Results Page 
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/316e4dcc9db14812a76ace51e85b6fe5?sid=cdb69306-37dd-4331-8e76-aeb763351f12" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+## Always The Same Recommendations
 
-**Option 1:** Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
+Set up a fixed section with pre-determined products to be shown on the results page regardless of the customer answers.
 
-![docs/images/how_to_shopify_v2_recommendations_displaylogic.png](/images/how_to_shopify_v2_recommendations_displaylogic.png)
+![how_to_shopify_v2_recommendations_fixedrecommendations](/images/how_to_shopify_v2_recommendations_fixedrecommendations.png){width=500}
+
+=== "Shopify"
+
+    !!! note "Legacy Version Workaround"
+        The legacy version of the app doesn't have direct support for fixed product recommendations. However, you can use one of these two workarounds to achieve the same result.
+
+    **Option 1: Show the Same Products to Everyone**
+
+    This method makes specific products appear for all customers, regardless of their quiz answers.
+
+    1. Go to the Link Products section in Quiz Builder
+    2. Choose any question in your quiz
+    3. Link your desired fixed products to EVERY choice in that question
+    4. These products will now receive votes regardless of customer choices
+    5. They will appear at the top of the Results Page due to having the most votes
+
+    **Option 2: Create a Dedicated Fixed Products Section**
+
+    This method lets you combine dynamic recommendations with fixed products by creating a separate product block.
+
+    1. **Create a Collection for Fixed Products**
+        - Create a new collection in Shopify
+        - Add the products you want to always show
+        - For example: "Essential Products" or "Featured Items"
+
+    2. **Sync Your Store**
+        - Go to Store Settings in the app
+        - Click "Sync Products" to update your catalog
+
+    3. **Link the Collection**
+        - Go to Link Products in Quiz Builder
+        - Select any question in your quiz
+        - Link your new collection to EVERY choice
+        - This ensures these products always get votes
+
+    4. **Set Up the Results Page**
+        - Add two separate Product Blocks:
+            1. First block: Shows dynamic recommendations based on quiz answers
+            2. Second block: Shows only products from your fixed collection
+        - For the fixed products block:
+            - Set "Filter by Collection" to your new collection
+            - Adjust how many products to display
+            - Customize the block title (e.g., "Recommended Essentials")
+
+    5. **Test Your Setup**
+        - Save and preview the quiz
+        - Take the quiz multiple times with different answers
+        - Verify that:
+            - Dynamic recommendations change based on answers
+            - Fixed products always appear in their dedicated block
+
+
+=== "Shopify V2"
+
+    1. To show the same products to everyone regardless of the customer answers, add a [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) to the Results Page and set the `Recommendation System` to `Fixed Recommendations`.
+    2. Under `Slot 1` select the products you want to show.
+    3. Save the changes and preview the quiz.
+
+=== "WooCommerce"
+
+    !!! note "Workaround"
+        The WooCommerce version of the app doesn't have direct support for fixed product recommendations. However, you can use one of these two workarounds to achieve the same result.
+
+    **Option 1: Show the Same Products to Everyone**
+
+    This method makes specific products appear for all customers, regardless of their quiz answers.
+
+    1. Go to the Link Products section in Quiz Builder
+    2. Choose any question in your quiz
+    3. Link your desired fixed products to EVERY choice in that question
+    4. These products will now receive votes regardless of customer choices
+    5. They will appear at the top of the Results Page due to having the most votes
+
+    **Option 2: Create a Dedicated Fixed Products Section**
+
+    This method lets you combine dynamic recommendations with fixed products by creating a separate product block.
+
+    1. **Create a Collection for Fixed Products**
+        - Create a new collection in Shopify
+        - Add the products you want to always show
+        - For example: "Essential Products" or "Featured Items"
+
+    2. **Sync Your Store**
+        - Go to Store Settings in the app
+        - Click "Sync Products" to update your catalog
+
+    3. **Link the Collection**
+        - Go to Link Products in Quiz Builder
+        - Select any question in your quiz
+        - Link your new collection to EVERY choice
+        - This ensures these products always get votes
+
+    4. **Set Up the Results Page**
+        - Add two separate Product Blocks:
+            1. First block: Shows dynamic recommendations based on quiz answers
+            2. Second block: Shows only products from your fixed collection
+        - For the fixed products block:
+            - Set "Filter by Collection" to your new collection
+            - Adjust how many products to display
+            - Customize the block title (e.g., "Recommended Essentials")
+
+    5. **Test Your Setup**
+        - Save and preview the quiz
+        - Take the quiz multiple times with different answers
+        - Verify that:
+            - Dynamic recommendations change based on answers
+            - Fixed products always appear in their dedicated block
+
+=== "Magento"
+
+    !!! note "Workaround"
+        The Magento version of the app doesn't have direct support for fixed product recommendations. However, you can use one of these two workarounds to achieve the same result.
+
+    **Option 1: Show the Same Products to Everyone**
+
+    This method makes specific products appear for all customers, regardless of their quiz answers.
+
+    1. Go to the Link Products section in Quiz Builder
+    2. Choose any question in your quiz
+    3. Link your desired fixed products to EVERY choice in that question
+    4. These products will now receive votes regardless of customer choices
+    5. They will appear at the top of the Results Page due to having the most votes
+
+    **Option 2: Create a Dedicated Fixed Products Section**
+
+    This method lets you combine dynamic recommendations with fixed products by creating a separate product block.
+
+    1. **Create a Collection for Fixed Products**
+        - Create a new collection in Shopify
+        - Add the products you want to always show
+        - For example: "Essential Products" or "Featured Items"
+
+    2. **Sync Your Store**
+        - Go to Store Settings in the app
+        - Click "Sync Products" to update your catalog
+
+    3. **Link the Collection**
+        - Go to Link Products in Quiz Builder
+        - Select any question in your quiz
+        - Link your new collection to EVERY choice
+        - This ensures these products always get votes
+
+    4. **Set Up the Results Page**
+        - Add two separate Product Blocks:
+            1. First block: Shows dynamic recommendations based on quiz answers
+            2. Second block: Shows only products from your fixed collection
+        - For the fixed products block:
+            - Set "Filter by Collection" to your new collection
+            - Adjust how many products to display
+            - Customize the block title (e.g., "Recommended Essentials")
+
+    5. **Test Your Setup**
+        - Save and preview the quiz
+        - Take the quiz multiple times with different answers
+        - Verify that:
+            - Dynamic recommendations change based on answers
+            - Fixed products always appear in their dedicated block
+
+=== "BigCommerce"
+
+    !!! note "Workaround"
+        The BigCommerce version of the app doesn't have direct support for fixed product recommendations. However, you can use one of these two workarounds to achieve the same result.
+
+    **Option 1: Show the Same Products to Everyone**
+
+    This method makes specific products appear for all customers, regardless of their quiz answers.
+
+    1. Go to the Link Products section in Quiz Builder
+    2. Choose any question in your quiz
+    3. Link your desired fixed products to EVERY choice in that question
+    4. These products will now receive votes regardless of customer choices
+    5. They will appear at the top of the Results Page due to having the most votes
+
+    **Option 2: Create a Dedicated Fixed Products Section**
+
+    This method lets you combine dynamic recommendations with fixed products by creating a separate product block.
+
+    1. **Create a Collection for Fixed Products**
+        - Create a new collection in Shopify
+        - Add the products you want to always show
+        - For example: "Essential Products" or "Featured Items"
+
+    2. **Sync Your Store**
+        - Go to Store Settings in the app
+        - Click "Sync Products" to update your catalog
+
+    3. **Link the Collection**
+        - Go to Link Products in Quiz Builder
+        - Select any question in your quiz
+        - Link your new collection to EVERY choice
+        - This ensures these products always get votes
+
+    4. **Set Up the Results Page**
+        - Add two separate Product Blocks:
+            1. First block: Shows dynamic recommendations based on quiz answers
+            2. Second block: Shows only products from your fixed collection
+        - For the fixed products block:
+            - Set "Filter by Collection" to your new collection
+            - Adjust how many products to display
+            - Customize the block title (e.g., "Recommended Essentials")
+
+    5. **Test Your Setup**
+        - Save and preview the quiz
+        - Take the quiz multiple times with different answers
+        - Verify that:
+            - Dynamic recommendations change based on answers
+            - Fixed products always appear in their dedicated block
+
+=== "Standalone"
+
+    !!! note "Workaround"
+        The Standalone version of the app doesn't have direct support for fixed product recommendations. However, you can use one of these two workarounds to achieve the same result.
+
+    **Option 1: Show the Same Products to Everyone**
+
+    This method makes specific products appear for all customers, regardless of their quiz answers.
+
+    1. Go to the Link Products section in Quiz Builder
+    2. Choose any question in your quiz
+    3. Link your desired fixed products to EVERY choice in that question
+    4. These products will now receive votes regardless of customer choices
+    5. They will appear at the top of the Results Page due to having the most votes
+
+    **Option 2: Create a Dedicated Fixed Products Section**
+
+    This method lets you combine dynamic recommendations with fixed products by creating a separate product block.
+
+    1. **Create a Collection for Fixed Products**
+        - Create a new collection in Shopify
+        - Add the products you want to always show
+        - For example: "Essential Products" or "Featured Items"
+
+    2. **Sync Your Store**
+        - Go to Store Settings in the app
+        - Click "Sync Products" to update your catalog
+
+    3. **Link the Collection**
+        - Go to Link Products in Quiz Builder
+        - Select any question in your quiz
+        - Link your new collection to EVERY choice
+        - This ensures these products always get votes
+
+    4. **Set Up the Results Page**
+        - Add two separate Product Blocks:
+            1. First block: Shows dynamic recommendations based on quiz answers
+            2. Second block: Shows only products from your fixed collection
+        - For the fixed products block:
+            - Set "Filter by Collection" to your new collection
+            - Adjust how many products to display
+            - Customize the block title (e.g., "Recommended Essentials")
+
+    5. **Test Your Setup**
+        - Save and preview the quiz
+        - Take the quiz multiple times with different answers
+        - Verify that:
+            - Dynamic recommendations change based on answers
+            - Fixed products always appear in their dedicated block
+
+## Fixed Recommendations with Display Logic and One Results Page 
+
+Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
+
+![docs/images/how_to_shopify_v2_recommendations_displaylogic.png](/images/how_to_shopify_v2_recommendations_displaylogic.png){width=500}
 
 
 
@@ -36,8 +299,8 @@ Use this method for:
 
         !!! example
 
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that's deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn't experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin's natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
             
@@ -46,13 +309,15 @@ Use this method for:
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don't add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
         ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/316e4dcc9db14812a76ace51e85b6fe5?sid=cdb69306-37dd-4331-8e76-aeb763351f12" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
@@ -68,8 +333,8 @@ Use this method for:
 
         !!! example
 
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that's deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn't experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin's natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
@@ -106,8 +371,8 @@ Use this method for:
 
         !!! example
 
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that's deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn't experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin's natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
             
@@ -116,7 +381,7 @@ Use this method for:
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don't add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
         ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
 
@@ -134,8 +399,8 @@ Use this method for:
 
         !!! example
 
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that's deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn't experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin's natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
             
@@ -144,7 +409,7 @@ Use this method for:
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don't add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
         ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
 
@@ -162,8 +427,8 @@ Use this method for:
 
         !!! example
 
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that's deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn't experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin's natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
             
@@ -172,7 +437,7 @@ Use this method for:
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don't add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
         ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
 
@@ -190,8 +455,8 @@ Use this method for:
 
         !!! example
 
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that's deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn't experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin's natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
             
@@ -200,15 +465,15 @@ Use this method for:
         
             Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
 
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+    3. **Add Display Logic**: If we don't add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
 
         ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
-## Multiple Results Pages 
+## Fixed Recommendations with Display Logic and Multiple Results Pages 
 
-**Option 2:** Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent results pages.	
+Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent results pages.	
 
 !!! note
 
@@ -216,7 +481,7 @@ Use this method for:
     
     Overall, both methods are the same, the difference is only in where you add the conditonal logic (Display Logic vs Jump Logic).
 
-![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png)
+![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png){width=500}
 
 === "Shopify"
 
@@ -486,3 +751,5 @@ Use this method for:
 
     6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
+---
+This article explains how to set up a quiz with fixed recommendations or recommendations controlled by strict Display Logic rules.

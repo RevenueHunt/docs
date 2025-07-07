@@ -1734,3 +1734,7 @@ Show or hide different text blocks on the results page based on customer choices
     1. Click "Publish/Save" to update the quiz
     2. Test thoroughly! Try different answer combinations. Verify correct content blocks appear.
     3. Use the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/) to verify logic and check product recommendations.
+
+
+---
+This article explains how to set up a quiz that recommends products based on customer choices using a built-in voting system.

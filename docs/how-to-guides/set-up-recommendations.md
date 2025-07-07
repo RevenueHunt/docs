@@ -45,7 +45,7 @@ Product recommendation algorithm works like a voting system:
 
 !!! tip "How to set this up?"
 
-    Check out the [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/) guide.
+    Check out the [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz) guide.
 
 ### Funnel Quiz with Slots
 
@@ -55,7 +55,7 @@ The voting system counts product "votes" based on customer quiz choices and then
 
 !!! tip "How to set this up?"
 
-    Check out the [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/recommend-skincare-routine-slots/) guide.
+    Check out the [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots) guide.
 
 ### Funnel Quiz with Branching
 
@@ -65,7 +65,7 @@ Branch your quiz to show different follow-up questions based on customer choices
 
 !!! tip "How to set this up?"
 
-    Check out the [Jump Logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) and [✍🏻 Voting System (Funnel Quiz with Branching)](//how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) guides.
+    Check out the [✍🏻 Voting System (Funnel Quiz with Branching)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-branching) and [Jump Logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) guides.
 
 ### Funnel Quiz that Skips Slides
 
@@ -77,7 +77,7 @@ Show different follow-up questions based on customer choices in a multiple-choic
 
 !!! tip "How to set this up?"
 
-    Check out the [Skip Logic Quiz](/how-to-guides/hide-content-with-logic/#skip-logic-how-to-show-custom-text-in-the-quiz) and [✍🏻 Voting System (Funnel Quiz that Skips Slides)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides) guides.
+    Check out the [✍🏻 Voting System (Funnel Quiz that Skips Slides)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides) and [Skip Logic](/how-to-guides/hide-content-with-logic/#skip-logic-how-to-show-custom-text-in-the-quiz) guides.
 
 ### Funnel Quiz that Shows Custom Text Based on Choices
 
@@ -92,35 +92,49 @@ Show or hide different text blocks on the results page. This approach requires p
 
 !!! tip "How to set this up?"
 
-    Check out the [Display Logic Quiz](/how-to-guides/hide-content-with-logic/#display-logic-how-to-show-custom-text-on-the-results-page) guide.
+    Check out the [✍🏻 Voting System (Funnel Quiz that Shows Custom Text Based on Choices)](http://127.0.0.1:8000/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-shows-custom-text-based-on-choices) and [Display Logic](/how-to-guides/hide-content-with-logic/#display-logic-how-to-show-custom-text-on-the-results-page) guides.
 
 ## 🧩 Fixed Recommendations
 
-Recommended for quizzes with complex branching. Set up fixed sections with pre-determined products to be shown on the results page. Then add logic to control visibility of each section or results page.
+Recommended for quizzes with complex branching and multiple very precise outcomes and product recommendations. Set up fixed sections with pre-determined products to be shown on the results page. Then add logic to control visibility of each section or results page.
 
-!!! info "Benefits"
+!!! info "Use this method for:"
 
-    - Good for complex branching quizzes with multiple very precise outcomes and product recommendations.
+    - Quizzes that show the same product(s) to everyone regardless of answers
+    - Quizzes with multiple very precise outcomes and product recommendations
+    - Quizzes with complex branching
+    - Quizzes that require a lot of logic conditions and custom text
 
-### One Results Page 
+### Always The Same Recommendations
 
-**Option 1:** Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
+Set up a fixed section with pre-determined products to be shown on the results page regardless of the customer answers.
+
+![how_to_shopify_v2_recommendations_fixedrecommendations](/images/how_to_shopify_v2_recommendations_fixedrecommendations.png){width=500}
+
+!!! tip "How to set this up?"
+
+    Check out the [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) guide.
+
+
+### With Display Logic and One Results Page 
+
+Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
 
 ![docs/images/how_to_shopify_v2_recommendations_displaylogic.png](/images/how_to_shopify_v2_recommendations_displaylogic.png){width=500}
 
 !!! tip "How to set this up?"
 
-    Check out the [Set Up Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#one-results-page) guide.
+    Check out the [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) guide.
 
-### Multiple Results Pages
+### With Display Logic and Multiple Results Pages
 
-**Option 2:** Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent results pages.	
+Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent results pages.	
 
 ![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png){width=500}
 
 !!! tip "How to set this up?"
 
-    Check out the [Set Up Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#multiple-results-pages) guide.
+    Check out the [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-multiple-results-pages) guide.
 
 ## 🎯 Custom Scoring System 
 
