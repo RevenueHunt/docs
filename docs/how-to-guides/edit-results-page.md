@@ -8,6 +8,38 @@ You can customize your quiz design as well as the look of your quiz's [Results P
 
 This guide will walk you through adding elements to your results page using a variety of content blocks and creating of dynamic results page with Display logic.
 
+=== "Shopify"
+
+
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    
+
+=== "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d5d6b20a4a5245fc9ea409d3584810e4?sid=312e4ef3-b1ee-4a53-af40-dc0cc5be4a38" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+=== "WooCommerce"
+
+
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+=== "Magento"
+
+
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>  
+
+=== "BigCommerce"
+
+
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+=== "Standalone"
+
+
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+
+
 ## Build Your Results Page
 
 === "Shopify"
@@ -481,4 +513,4 @@ This guide will walk you through adding elements to your results page using a va
     - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
 
 ---
-By following this guide, you can significantly enhance your shop's quiz results page, creating a dynamic, engaging, and personalized shopping experience for your customers.
+By following this guide, you'll learn how to edit the results page, add visual elements, product blocks and create dynamic results page with Display logic.
