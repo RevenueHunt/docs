@@ -4,7 +4,7 @@ icon: material/palette-outline
 
 # How to Customize the Quiz Design
 
-You can change the quiz's appearance to fit your store's style. 
+You can change the quiz's appearance to fit your store's style. This guide explains how to customize the quiz design with built-in app settings and question/choice settings, but also how to add custom CSS and JavaScript to your quiz to further customize the quiz design.
 
 Use the customization options in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab or add your own style with [CSS](#add-custom-css-code) or [JavaScript](/how-to-guides/add-javascript/). You can modify any part of the quiz or results page with custom CSS.
 
@@ -595,7 +595,7 @@ Remember, you can also include custom images and styles for each question via th
 
     **Image Block**
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png){width="300"}
 
     To add an image within a question, use the `Image` block. The [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for images offer the following customization options:
 
@@ -1561,3 +1561,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         color: white;
         }
         ```
+
+
+---
+This article explains how to customize the quiz design with built-in app settings and question/choice settings, but also how to add custom CSS and JavaScript to your quiz to further customize the quiz design.

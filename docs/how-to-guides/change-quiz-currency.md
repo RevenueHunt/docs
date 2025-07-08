@@ -4,12 +4,18 @@ icon: material/currency-usd
 
 # How to Change Quiz Currency
 
+This guide explains how to change the currency of your quiz and how to handle multi-currency setups based on Shopify Markets.
+
+## Change the quiz currency
+
 === "Shopify"
 
     To change the quiz currency:
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
+
+        ![manual_shopify_quizbuilder_quizsettings_general](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
@@ -23,8 +29,12 @@ icon: material/currency-usd
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d460aea970c04b9ea6388b37329eccea?sid=d2137eb0-344a-4930-a905-2d9388743629" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. 
+
+    !!! warning
+
+        If you don't have Shopify Markets set up yet, you can create them by following the instructions for [Shopify Markets](https://help.shopify.com/en/manual/international/managing).
     
-    To assign a market to the quiz follow the instructions below.
+    To assign a quiz to a specific Shopify Market and show prices in the currency of that market, follow the instructions below.
     
     1. Open the [App Settings](/reference/app-settings/).
     2. Open the [Shopify Markets](/reference/app-settings/#markets) tab.
@@ -32,6 +42,9 @@ icon: material/currency-usd
     3. Find a market and click the `dropdown list` to select the quiz that should be default for this market. 
         ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
     4. Once assigned, the quiz will show the product prices in the currency set up for that market.
+    5. If you want to change the currency format, use the `Currency` field to set up the format you want. Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
+        ![how_to_shopifyv2_change_currency](/images/how_to_shopifyv2_change_currency.png)   
+
 
 === "WooCommerce"
 
@@ -39,6 +52,8 @@ icon: material/currency-usd
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
+    
+        ![manual_shopify_quizbuilder_quizsettings_general](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
@@ -53,6 +68,8 @@ icon: material/currency-usd
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
+    
+        ![manual_shopify_quizbuilder_quizsettings_general](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
@@ -67,6 +84,8 @@ icon: material/currency-usd
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
+    
+        ![manual_shopify_quizbuilder_quizsettings_general](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
@@ -81,6 +100,8 @@ icon: material/currency-usd
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
+    
+        ![manual_shopify_quizbuilder_quizsettings_general](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
     3. Scroll down to the `Currency` field and click on the dropdown.
     4. Select your currency from the list.
     5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
@@ -114,7 +135,11 @@ icon: material/currency-usd
 
     Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. 
 
-    To assign a quiz to the market follow the instructions above.
+    !!! warning
+
+        If you don't have Shopify Markets set up yet, you can create them by following the instructions for [Shopify Markets](https://help.shopify.com/en/manual/international/managing).
+    
+    To assign a quiz to a specific Shopify Market and show prices in the currency of that market, follow the instructions below.
 
     To change the currency format:
 
@@ -205,5 +230,5 @@ icon: material/currency-usd
     Now, the product price will not be shown and the customer will be redirected to the product page from the results page.
 
 ---
-This article explains how to change quiz currency and how to handle multi-currency setup.
+This article explains how to change quiz currency and how to handle multi-currency setup based on Shopify Markets.
 

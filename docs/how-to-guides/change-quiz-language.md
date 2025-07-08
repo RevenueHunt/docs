@@ -4,7 +4,7 @@ icon: material/translate-variant
 
 # How to Change the Language of Your Quiz
 
-This guide will help you change the language of your quiz, translate it into different languages, and set up Shopify Markets to display the quiz in different languages based on the visitor's location and language preference.
+This guide will help you change the language of your quiz, translate it into different languages or set up Shopify Markets to display the quiz in different languages based on the visitor's location and language preference.
 
 ## Change Quiz Language in Settings
 
@@ -16,7 +16,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
 
-        ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
+        ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
         
     2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
     3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
@@ -54,7 +54,13 @@ This guide will help you change the language of your quiz, translate it into dif
 
     - Go through each question and answer choice to ensure they are accurately translated and culturally relevant for each target language.
 
-    **Step 4: Assign the Quiz to the Right Market and Language:**
+    **Step 4: Change Translations for Buttons and Helpers:**
+
+    - Go to the [Quiz Settings > Content](/reference/quiz-builder/quiz-settings/#content) tab.
+
+    - Change the translations for buttons and helpers for each language version.
+    
+    **Step 5: Assign the Quiz to the Right Market and Language:**
 
     - Once each quiz version is ready, go to [App Settings > Shopify Markets](/reference/app-settings/#markets).
 
@@ -66,7 +72,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
 
-        ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
+        ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
         
     2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
     3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
@@ -76,7 +82,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
 
-        ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
+        ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
         
     2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
     3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
@@ -86,7 +92,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
 
-        ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
+        ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
         
     2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
     3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
@@ -96,7 +102,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
 
-        ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
+        ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
         
     2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
     3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
@@ -627,4 +633,4 @@ This guide will help you change the language of your quiz, translate it into dif
 
 
 ---
-While awaiting native multi-language plugin support, these steps allow for a versatile approach to presenting and managing quizzes in multiple languages, ensuring a tailored experience for your international audience.
+This article explains how to change the language of your quiz, translate it into different languages or set up Shopify Markets to display the quiz in different languages based on the visitor's location and language preference.
