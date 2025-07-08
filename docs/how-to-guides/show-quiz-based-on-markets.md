@@ -8,6 +8,8 @@ This article explains how to show a quiz based on Shopify Markets.
 
 With RevenueHunt Quizzes app, you can show a different quiz to users from different markets and languages.
 
+<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d2744a8c7b1c4c9f8e895257ccd56433?sid=1e6aae11-829e-4e37-8bed-8f2f7422be40" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ## Step 1: Configure Shopify Markets
 
 To start, make sure you have [Shopify Markets](https://help.shopify.com/en/manual/international/managing) enabled and cofigured in your Shopify store. In order to show a quiz in a differnt currency or language, you first need to have a market configured in your Shopify store for these currencies or languages.
