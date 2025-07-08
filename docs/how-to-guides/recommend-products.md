@@ -128,7 +128,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     *Best for personality-style quizzes.*
 
-    ![how_to_shopify_v2_recommendations_displaylogic](/images/how_to_shopify_v2_recommendations_displaylogic.png){width="300"}
+    ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png){width="300"}
 
     - Assign a score or custom variable to each choice in the quiz.
     - Set up result sections with fixed recommendations for each type of outcome.
@@ -143,7 +143,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     *Best for advanced logic or detailed recommendation matrices.*
 
-    ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png){width="300"}
+    ![how_to_shopify_v2_recommendations_displaylogic](/images/how_to_shopify_v2_recommendations_displaylogic.png){width="300"}
 
     - Create logic-based paths that lead users to different result pages.
     - Or use one results page with multiple sections and display logic for each.

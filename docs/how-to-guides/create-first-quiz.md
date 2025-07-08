@@ -205,6 +205,9 @@ Follow these steps to create your first quiz with the RevenueHunt app. You can a
     - Create complex logic branching in the quiz that leads the user to different results pages with fixed recomemendations and text 
     - Create one results page with multple sections and via display logic tell each section when to be shown or hidden based on the customer's answers.
 
+    !!! tip
+        If you're not sure which option to choose, check out our [How to Set Up Recommendations guide](/how-to-guides/set-up-recommendations/) that contains a decision tree to help you choose the best option for your quiz.
+
 
 === "WooCommerce"
 

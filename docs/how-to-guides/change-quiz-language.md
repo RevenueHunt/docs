@@ -4,6 +4,8 @@ icon: material/translate-variant
 
 # How to Change the Language of Your Quiz
 
+This guide will help you change the language of your quiz, translate it into different languages, and set up Shopify Markets to display the quiz in different languages based on the visitor's location and language preference.
+
 ## Change Quiz Language in Settings
 
 === "Shopify"
@@ -21,6 +23,8 @@ icon: material/translate-variant
     4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
 
 === "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/c636603e986a41a6a932c7721add7dcf?sid=5abfc134-cb3d-4ba6-934f-991533d5a11d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! note
     
@@ -111,7 +115,90 @@ icon: material/translate-variant
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
 
+    **Step 1: Create Quizzes in Different Languages**
+
+    - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
+    - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+
+    **Step 2: Display the Correct Quiz Based on Browser Language**
+
+    Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
+
+    - Detect the browser's language.
+    - Map this language to the corresponding quiz ID.
+    - Update quiz links and iframes on your site to point to the correct quiz version.
+
+    Script sample code:
+
+    ```javascript
+    document.addEventListener("DOMContentLoaded", function() {
+      // Check browser's preferred language (get the first two characters to ignore region)
+      const language = navigator.language.substring(0,2);
+      
+      // Your mapping of languages to quiz IDs
+      const quizMapping = {
+        'en': 'abc123',
+        'fr': 'dfg456',
+        'de': 'xyz423'
+      };
+
+      // Default language (fallback to English if not found)
+      const defaultQuizId = quizMapping[language] || quizMapping['en'];
+
+      // Find all quiz links and update the href
+      const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
+      quizLinks.forEach(link => {
+        link.setAttribute('href', '#quiz-' + defaultQuizId);
+      });
+
+      // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
+      const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+      quizIframes.forEach(iframe => {
+        const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+        iframe.src = newSrc;
+
+        // If the parent div has the data-url attribute, update it as well
+        const parentDiv = iframe.parentElement;
+        if (parentDiv && parentDiv.hasAttribute('data-url')) {
+          const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+          parentDiv.setAttribute('data-url', newDataUrl);
+        }
+      });
+    });
+    ```
+
+    !!! warning
+
+        Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
+
+    **Step 3: Redirect to Translated Product URL**
+
+    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
+
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+
+    1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
+    2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
+    3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
+    4. To redirect to an English translation of a product, one can use:
+            ```javascript
+            let shopURL = "https://www.example.com";
+
+            var links = document.querySelectorAll(".lq-product a");
+
+            for (let i = 0; i < links.length; i++) {
+            var href = links[i].href;
+            links[i].href = href.replace(shopURL,shopURL+"/en");
+            }
+            ```
+
+    5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
+
+
+
 === "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/c636603e986a41a6a932c7721add7dcf?sid=5abfc134-cb3d-4ba6-934f-991533d5a11d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! note
     
@@ -169,6 +256,7 @@ icon: material/translate-variant
 
 === "WooCommerce"
 
+
     While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
 
     How does it work?
@@ -177,19 +265,90 @@ icon: material/translate-variant
     - Then, each of these quizzes will have a **unique quiz ID**. 
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
+
+    **Step 1: Create Quizzes in Different Languages**
+
+    - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
+    - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+
+    **Step 2: Display the Correct Quiz Based on Browser Language**
+
+    Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
+
+    - Detect the browser's language.
+    - Map this language to the corresponding quiz ID.
+    - Update quiz links and iframes on your site to point to the correct quiz version.
+
+    Script sample code:
+
+    ```javascript
+    document.addEventListener("DOMContentLoaded", function() {
+      // Check browser's preferred language (get the first two characters to ignore region)
+      const language = navigator.language.substring(0,2);
+      
+      // Your mapping of languages to quiz IDs
+      const quizMapping = {
+        'en': 'abc123',
+        'fr': 'dfg456',
+        'de': 'xyz423'
+      };
+
+      // Default language (fallback to English if not found)
+      const defaultQuizId = quizMapping[language] || quizMapping['en'];
+
+      // Find all quiz links and update the href
+      const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
+      quizLinks.forEach(link => {
+        link.setAttribute('href', '#quiz-' + defaultQuizId);
+      });
+
+      // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
+      const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+      quizIframes.forEach(iframe => {
+        const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+        iframe.src = newSrc;
+
+        // If the parent div has the data-url attribute, update it as well
+        const parentDiv = iframe.parentElement;
+        if (parentDiv && parentDiv.hasAttribute('data-url')) {
+          const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+          parentDiv.setAttribute('data-url', newDataUrl);
+        }
+      });
+    });
+    ```
+
+    !!! warning
+
+        Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
+
+    **Step 3: Redirect to Translated Product URL**
+
+    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
+
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+
+    1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
+    2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
+    3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
+    4. To redirect to an English translation of a product, one can use:
+            ```javascript
+            let shopURL = "https://www.example.com";
+
+            var links = document.querySelectorAll(".lq-product a");
+
+            for (let i = 0; i < links.length; i++) {
+            var href = links[i].href;
+            links[i].href = href.replace(shopURL,shopURL+"/en");
+            }
+            ```
+
+    5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
+
+
 
 === "Magento"
 
-    While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
-
-    How does it work?
-
-    - For now, it is possible to [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language. 
-    - Then, each of these quizzes will have a **unique quiz ID**. 
-    - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
-    - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
-
-=== "BigCommerce"
 
     While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
 
@@ -200,7 +359,89 @@ icon: material/translate-variant
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
 
-=== "Standalone"
+    **Step 1: Create Quizzes in Different Languages**
+
+    - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
+    - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+
+    **Step 2: Display the Correct Quiz Based on Browser Language**
+
+    Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
+
+    - Detect the browser's language.
+    - Map this language to the corresponding quiz ID.
+    - Update quiz links and iframes on your site to point to the correct quiz version.
+
+    Script sample code:
+
+    ```javascript
+    document.addEventListener("DOMContentLoaded", function() {
+      // Check browser's preferred language (get the first two characters to ignore region)
+      const language = navigator.language.substring(0,2);
+      
+      // Your mapping of languages to quiz IDs
+      const quizMapping = {
+        'en': 'abc123',
+        'fr': 'dfg456',
+        'de': 'xyz423'
+      };
+
+      // Default language (fallback to English if not found)
+      const defaultQuizId = quizMapping[language] || quizMapping['en'];
+
+      // Find all quiz links and update the href
+      const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
+      quizLinks.forEach(link => {
+        link.setAttribute('href', '#quiz-' + defaultQuizId);
+      });
+
+      // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
+      const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+      quizIframes.forEach(iframe => {
+        const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+        iframe.src = newSrc;
+
+        // If the parent div has the data-url attribute, update it as well
+        const parentDiv = iframe.parentElement;
+        if (parentDiv && parentDiv.hasAttribute('data-url')) {
+          const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+          parentDiv.setAttribute('data-url', newDataUrl);
+        }
+      });
+    });
+    ```
+
+    !!! warning
+
+        Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
+
+    **Step 3: Redirect to Translated Product URL**
+
+    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
+
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+
+    1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
+    2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
+    3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
+    4. To redirect to an English translation of a product, one can use:
+            ```javascript
+            let shopURL = "https://www.example.com";
+
+            var links = document.querySelectorAll(".lq-product a");
+
+            for (let i = 0; i < links.length; i++) {
+            var href = links[i].href;
+            links[i].href = href.replace(shopURL,shopURL+"/en");
+            }
+            ```
+
+    5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
+
+
+
+=== "BigCommerce"
+
 
     While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
 
@@ -211,35 +452,105 @@ icon: material/translate-variant
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
 
-### Step 1: Create Quizzes in Different Languages
-
-=== "Shopify"
+    **Step 1: Create Quizzes in Different Languages**
 
     - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
     - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
 
-=== "Shopify V2"
+    **Step 2: Display the Correct Quiz Based on Browser Language**
 
-    Follow [these instructions](#change-quiz-language-in-settings) to create quizzes in different languages.
+    Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
 
-=== "WooCommerce"
+    - Detect the browser's language.
+    - Map this language to the corresponding quiz ID.
+    - Update quiz links and iframes on your site to point to the correct quiz version.
 
-    - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
-    - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+    Script sample code:
 
-=== "BigCommerce"
+    ```javascript
+    document.addEventListener("DOMContentLoaded", function() {
+      // Check browser's preferred language (get the first two characters to ignore region)
+      const language = navigator.language.substring(0,2);
+      
+      // Your mapping of languages to quiz IDs
+      const quizMapping = {
+        'en': 'abc123',
+        'fr': 'dfg456',
+        'de': 'xyz423'
+      };
 
-    - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
-    - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
+      // Default language (fallback to English if not found)
+      const defaultQuizId = quizMapping[language] || quizMapping['en'];
+
+      // Find all quiz links and update the href
+      const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
+      quizLinks.forEach(link => {
+        link.setAttribute('href', '#quiz-' + defaultQuizId);
+      });
+
+      // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
+      const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
+      quizIframes.forEach(iframe => {
+        const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+        iframe.src = newSrc;
+
+        // If the parent div has the data-url attribute, update it as well
+        const parentDiv = iframe.parentElement;
+        if (parentDiv && parentDiv.hasAttribute('data-url')) {
+          const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
+          parentDiv.setAttribute('data-url', newDataUrl);
+        }
+      });
+    });
+    ```
+
+    !!! warning
+
+        Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
+
+    **Step 3: Redirect to Translated Product URL**
+
+    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
+
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
+
+    1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
+    2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
+    3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
+    4. To redirect to an English translation of a product, one can use:
+            ```javascript
+            let shopURL = "https://www.example.com";
+
+            var links = document.querySelectorAll(".lq-product a");
+
+            for (let i = 0; i < links.length; i++) {
+            var href = links[i].href;
+            links[i].href = href.replace(shopURL,shopURL+"/en");
+            }
+            ```
+
+    5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
+
+
 
 === "Standalone"
 
+
+    While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
+
+    How does it work?
+
+    - For now, it is possible to [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language. 
+    - Then, each of these quizzes will have a **unique quiz ID**. 
+    - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
+    - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
+
+    **Step 1: Create Quizzes in Different Languages**
+
     - **Manual Translation**: Begin by manually translating your quizzes into the desired languages. Each translated quiz will have a unique quiz ID.
     - **Quiz Settings Adjustment**: Navigate to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) to modify the language of interactive elements like buttons. However, note that questions and choices need manual translation.
 
-### Step 2: Display the Correct Quiz Based on Browser Language
-
-=== "Shopify"
+    **Step 2: Display the Correct Quiz Based on Browser Language**
 
     Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
 
@@ -290,217 +601,7 @@ icon: material/translate-variant
 
         Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
 
-=== "Shopify V2"
-
-    No extra steps are necessary in this version of the RevenueHunt Product Recommendation Quiz. The right quiz will already be loaded based on the market it was assigned to.
-
-=== "WooCommerce"
-
-    Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
-
-    - Detect the browser's language.
-    - Map this language to the corresponding quiz ID.
-    - Update quiz links and iframes on your site to point to the correct quiz version.
-
-    Script sample code:
-
-    ```javascript
-    document.addEventListener("DOMContentLoaded", function() {
-      // Check browser's preferred language (get the first two characters to ignore region)
-      const language = navigator.language.substring(0,2);
-      
-      // Your mapping of languages to quiz IDs
-      const quizMapping = {
-        'en': 'abc123',
-        'fr': 'dfg456',
-        'de': 'xyz423'
-      };
-
-      // Default language (fallback to English if not found)
-      const defaultQuizId = quizMapping[language] || quizMapping['en'];
-
-      // Find all quiz links and update the href
-      const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
-      quizLinks.forEach(link => {
-        link.setAttribute('href', '#quiz-' + defaultQuizId);
-      });
-
-      // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-      const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
-      quizIframes.forEach(iframe => {
-        const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-        iframe.src = newSrc;
-
-        // If the parent div has the data-url attribute, update it as well
-        const parentDiv = iframe.parentElement;
-        if (parentDiv && parentDiv.hasAttribute('data-url')) {
-          const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-          parentDiv.setAttribute('data-url', newDataUrl);
-        }
-      });
-    });
-    ```
-
-    !!! warning
-
-        Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
-
-=== "Magento"
-
-    Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
-
-    - Detect the browser's language.
-    - Map this language to the corresponding quiz ID.
-    - Update quiz links and iframes on your site to point to the correct quiz version.
-
-    Script sample code:
-
-    ```javascript
-    document.addEventListener("DOMContentLoaded", function() {
-      // Check browser's preferred language (get the first two characters to ignore region)
-      const language = navigator.language.substring(0,2);
-      
-      // Your mapping of languages to quiz IDs
-      const quizMapping = {
-        'en': 'abc123',
-        'fr': 'dfg456',
-        'de': 'xyz423'
-      };
-
-      // Default language (fallback to English if not found)
-      const defaultQuizId = quizMapping[language] || quizMapping['en'];
-
-      // Find all quiz links and update the href
-      const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
-      quizLinks.forEach(link => {
-        link.setAttribute('href', '#quiz-' + defaultQuizId);
-      });
-
-      // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-      const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
-      quizIframes.forEach(iframe => {
-        const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-        iframe.src = newSrc;
-
-        // If the parent div has the data-url attribute, update it as well
-        const parentDiv = iframe.parentElement;
-        if (parentDiv && parentDiv.hasAttribute('data-url')) {
-          const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-          parentDiv.setAttribute('data-url', newDataUrl);
-        }
-      });
-    });
-    ```
-
-    !!! warning
-
-        Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
-
-=== "BigCommerce"
-
-    Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
-
-    - Detect the browser's language.
-    - Map this language to the corresponding quiz ID.
-    - Update quiz links and iframes on your site to point to the correct quiz version.
-
-    Script sample code:
-
-    ```javascript
-    document.addEventListener("DOMContentLoaded", function() {
-      // Check browser's preferred language (get the first two characters to ignore region)
-      const language = navigator.language.substring(0,2);
-      
-      // Your mapping of languages to quiz IDs
-      const quizMapping = {
-        'en': 'abc123',
-        'fr': 'dfg456',
-        'de': 'xyz423'
-      };
-
-      // Default language (fallback to English if not found)
-      const defaultQuizId = quizMapping[language] || quizMapping['en'];
-
-      // Find all quiz links and update the href
-      const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
-      quizLinks.forEach(link => {
-        link.setAttribute('href', '#quiz-' + defaultQuizId);
-      });
-
-      // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-      const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
-      quizIframes.forEach(iframe => {
-        const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-        iframe.src = newSrc;
-
-        // If the parent div has the data-url attribute, update it as well
-        const parentDiv = iframe.parentElement;
-        if (parentDiv && parentDiv.hasAttribute('data-url')) {
-          const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-          parentDiv.setAttribute('data-url', newDataUrl);
-        }
-      });
-    });
-    ```
-
-    !!! warning
-
-        Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
-
-=== "Standalone"
-
-    Use JavaScript to show the appropriate quiz to users based on their browser's language setting. The script should:
-
-    - Detect the browser's language.
-    - Map this language to the corresponding quiz ID.
-    - Update quiz links and iframes on your site to point to the correct quiz version.
-
-    Script sample code:
-
-    ```javascript
-    document.addEventListener("DOMContentLoaded", function() {
-      // Check browser's preferred language (get the first two characters to ignore region)
-      const language = navigator.language.substring(0,2);
-      
-      // Your mapping of languages to quiz IDs
-      const quizMapping = {
-        'en': 'abc123',
-        'fr': 'dfg456',
-        'de': 'xyz423'
-      };
-
-      // Default language (fallback to English if not found)
-      const defaultQuizId = quizMapping[language] || quizMapping['en'];
-
-      // Find all quiz links and update the href
-      const quizLinks = document.querySelectorAll('a[href^="#quiz-"]');
-      quizLinks.forEach(link => {
-        link.setAttribute('href', '#quiz-' + defaultQuizId);
-      });
-
-      // Find all iframes with quiz URLs and update the src attribute and the data-url attribute of the parent div
-      const quizIframes = document.querySelectorAll('iframe[src^="https://admin.revenuehunt.com/public/quiz/"]');
-      quizIframes.forEach(iframe => {
-        const newSrc = iframe.src.replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-        iframe.src = newSrc;
-
-        // If the parent div has the data-url attribute, update it as well
-        const parentDiv = iframe.parentElement;
-        if (parentDiv && parentDiv.hasAttribute('data-url')) {
-          const newDataUrl = parentDiv.getAttribute('data-url').replace(/quiz\/\w+/, 'quiz/' + defaultQuizId);
-          parentDiv.setAttribute('data-url', newDataUrl);
-        }
-      });
-    });
-    ```
-
-    !!! warning
-
-        Make sure that you don’t publish two quizzes on the same page, as this may lead to unwanted behavior.
-
-### Step 3: Redirect to Translated Product URL
-
-=== "Shopify"
+    **Step 3: Redirect to Translated Product URL**
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
 
@@ -523,113 +624,7 @@ icon: material/translate-variant
 
     5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
 
-    ---
-    While awaiting native multi-language plugin support, these steps allow for a versatile approach to presenting and managing quizzes in multiple languages, ensuring a tailored experience for your international audience.
 
-=== "Shopify V2"
 
-    No extra steps are necessary in this version of the RevenueHunt Product Recommendation Quiz. The quiz will display the right products on the results page based on the market the quiz was assigned to.
-
-=== "WooCommerce"
-
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
-
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
-
-    1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-    2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
-    3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
-    4. To redirect to an English translation of a product, one can use:
-            ```javascript
-            let shopURL = "https://www.example.com";
-
-            var links = document.querySelectorAll(".lq-product a");
-
-            for (let i = 0; i < links.length; i++) {
-            var href = links[i].href;
-            links[i].href = href.replace(shopURL,shopURL+"/en");
-            }
-            ```
-
-    5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
-
-    ---
-    While awaiting native multi-language plugin support, these steps allow for a versatile approach to presenting and managing quizzes in multiple languages, ensuring a tailored experience for your international audience.
-
-=== "Magento"
-
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
-
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
-
-    1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-    2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
-    3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
-    4. To redirect to an English translation of a product, one can use:
-            ```javascript
-            let shopURL = "https://www.example.com";
-
-            var links = document.querySelectorAll(".lq-product a");
-
-            for (let i = 0; i < links.length; i++) {
-            var href = links[i].href;
-            links[i].href = href.replace(shopURL,shopURL+"/en");
-            }
-            ```
-
-    5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
-
-    ---
-    While awaiting native multi-language plugin support, these steps allow for a versatile approach to presenting and managing quizzes in multiple languages, ensuring a tailored experience for your international audience.
-
-=== "BigCommerce"
-
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
-
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
-
-    1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-    2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
-    3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
-    4. To redirect to an English translation of a product, one can use:
-            ```javascript
-            let shopURL = "https://www.example.com";
-
-            var links = document.querySelectorAll(".lq-product a");
-
-            for (let i = 0; i < links.length; i++) {
-            var href = links[i].href;
-            links[i].href = href.replace(shopURL,shopURL+"/en");
-            }
-            ```
-
-    5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
-
-    ---
-    While awaiting native multi-language plugin support, these steps allow for a versatile approach to presenting and managing quizzes in multiple languages, ensuring a tailored experience for your international audience.
-
-=== "Standalone"
-
-    Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will be displayed in the original language. 
-
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with [JavaScript](/how-to-guides/add-javascript/).
-
-    1. Instead of adding a product to cart, you can change the [checkout settings](/how-to-guides/change-checkout-settings/) to `link to product` and point customers to the translated product page.
-    2. By default, the customer will be redirected to the original product URL, but you can force an automatic URL change via JavaScript. 
-    3. For example, you can tell the Results Page to automatically change all the links from this `https://www.example.com/products/productA` to this `https://www.example.com/en/products/productA` This way your customers will be automatically redirected to the translated product page.
-    4. To redirect to an English translation of a product, one can use:
-            ```javascript
-            let shopURL = "https://www.example.com";
-
-            var links = document.querySelectorAll(".lq-product a");
-
-            for (let i = 0; i < links.length; i++) {
-            var href = links[i].href;
-            links[i].href = href.replace(shopURL,shopURL+"/en");
-            }
-            ```
-
-    5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
-
-    ---
-    While awaiting native multi-language plugin support, these steps allow for a versatile approach to presenting and managing quizzes in multiple languages, ensuring a tailored experience for your international audience.
+---
+While awaiting native multi-language plugin support, these steps allow for a versatile approach to presenting and managing quizzes in multiple languages, ensuring a tailored experience for your international audience.
