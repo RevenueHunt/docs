@@ -172,6 +172,5 @@ This article explains how to add product metafields/attributes to products on yo
     ![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
 
 ---
-Following these steps will enable you to display specific metafields on your quiz's results page, enhancing your product presentations based on unique attributes or compliance needs.
-
+Following these steps will enable you to display specific metafields on your quiz's results page, ensuring compliance with local regulations and improving your product presentations.
  
