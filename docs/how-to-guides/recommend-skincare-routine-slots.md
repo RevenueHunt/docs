@@ -8,9 +8,40 @@ With RevenueHunt Product Recommendation Quiz, it is possible to group products i
 
 This guide is designed to help merchants effectively use [Product Slot Blocks](/reference/quiz-builder/results-page/#block-types) on the results page to organize product recommendations. 
 
-<div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+=== "Shopify"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+=== "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/f249d672fe414dc390715b210a94a75a?sid=0a795570-01c5-4777-b6b1-62b0a0da3387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+=== "WooCommerce"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+=== "Magento"
+
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+=== "BigCommerce"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+=== "Standalone"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
 A personalized skincare routine recommendation quiz was chosen as an example to best demonstrate how to work with this feature. See an example of such a Skincare Quiz [here](https://skincarequiz.myshopify.com/#quiz-rkHm6Y).
 
@@ -191,7 +222,7 @@ Once your quiz is set up, you should add products and collections to the choices
     4. **Edit the Slot**: You can add a title or a description to each slot.
     5. **Add Segments**: Add a segment with the corresponding product collection to each slot in the `Add segment` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection that's added in the segment field.
 
-        ![how to recommend slots slot block](/images/how_to_recommend_slots_shopify_v2_set_up_filters.png){width=50%}
+        ![how to recommend slots slot block](/images/how_to_shopifyV2_recommend_routine_with_slots.png)
     6. **Choose Product number**: In the [`Product Block settings`](/reference/quiz-builder/questions/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
 
 === "WooCommerce"
@@ -246,4 +277,4 @@ Now that the slots are built and product/collections are linked to each choice, 
         Check [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
 
 ---
-By adhering to these steps, you can offer a valuable tool to your customers, enhancing their shopping experience through personalized skincare routine recommendations.
+This article explains how to set up a quiz that recommends products organized into different categories on the results page, for example, a skincare routine based on the customer's answers.

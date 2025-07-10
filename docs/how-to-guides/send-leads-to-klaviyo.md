@@ -72,7 +72,7 @@ This article walks you through the process of connecting your quiz to Klavviyo a
     4. In the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
         ![how to send leads to klaviyo public api key provided1](/images/how_to_klaviyo_shopify_v2_public_key.png)
 
-    5. Publish the changes with the top-right `Save` button.
+    5. Publish the changes with the top `Save` button.
     6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
     7. To verify the test, open `Kalviyo > Audeince > Profiles` section. If a new profile was added the integration was successful.
 
@@ -184,12 +184,11 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 === "Shopify"
 
-    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
-    2. You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
-    3. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
-    4. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
+    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list. You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    2. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
+    3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
-        1. To create a new segment in Klaviyo go to `Audience > List & Segements` and click `create a new Segment`.
+        1. To create a new segment in Klaviyo go to `Audience > List & Segements` and click `create a new Segment`. 
         2. Name the segment and set up the definition.
         3. The `PERMALINK-{{quiz_id}}` property is unique for profiles coming from the quiz. If you don’t see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
         4. Click `Create a segment`. Now all the contacts coming from the quiz will also be added to this specific segment.
@@ -226,6 +225,15 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
 
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
+
+    !!! tip "How to send an email every time someone completes the quiz?"
+
+        First, you need to set up a segment based on the `PERMALINK-{{quiz_id}}` property to filter quiz takers. Once the segment is created, you can build a flow that triggers when users are added to this segment, sends them their quiz results via email, and then **removes the `PERMALINK-{{quiz_id}}` property from their profile** to allow for re-entry if they retake the quiz.
+
+        For example:
+
+        ![how to send leads to klaviyo resend email with each quiz retake](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
+
 
 === "Shopify V2"
 
@@ -272,6 +280,15 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
 
+    !!! tip "How to send an email every time someone completes the quiz?"
+
+        First, you need to set up a segment based on (for example) the `ANSWERS_BY_BLOCK-{{quiz_id}}` property to filter quiz takers. Once the segment is created, you can build a flow that triggers when users are added to this segment, sends them their quiz results via email, and then **removes the `ANSWERS_BY_BLOCK-{{quiz_id}}` property from their profile** to allow for re-entry if they retake the quiz.
+
+        For example:
+
+        ![how to send leads to klaviyo resend email with each quiz retake](/images/how_to_shopifyv2_klaviyo_resend_email_with_each_quiz_retake.png)
+
+
 === "WooCommerce"
 
     1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
@@ -316,6 +333,14 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
 
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
+
+    !!! tip "How to send an email every time someone completes the quiz?"
+
+        First, you need to set up a segment based on the `PERMALINK-{{quiz_id}}` property to filter quiz takers. Once the segment is created, you can build a flow that triggers when users are added to this segment, sends them their quiz results via email, and then **removes the `PERMALINK-{{quiz_id}}` property from their profile** to allow for re-entry if they retake the quiz.
+
+        For example:
+
+        ![how to send leads to klaviyo resend email with each quiz retake](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
 
 === "Magento"
 
@@ -362,6 +387,14 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
 
+    !!! tip "How to send an email every time someone completes the quiz?"
+
+        First, you need to set up a segment based on the `PERMALINK-{{quiz_id}}` property to filter quiz takers. Once the segment is created, you can build a flow that triggers when users are added to this segment, sends them their quiz results via email, and then **removes the `PERMALINK-{{quiz_id}}` property from their profile** to allow for re-entry if they retake the quiz.
+
+        For example:
+
+        ![how to send leads to klaviyo resend email with each quiz retake](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
+
 === "BigCommerce"
 
     1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
@@ -407,6 +440,14 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
 
+    !!! tip "How to send an email every time someone completes the quiz?"
+
+        First, you need to set up a segment based on the `PERMALINK-{{quiz_id}}` property to filter quiz takers. Once the segment is created, you can build a flow that triggers when users are added to this segment, sends them their quiz results via email, and then **removes the `PERMALINK-{{quiz_id}}` property from their profile** to allow for re-entry if they retake the quiz.
+
+        For example:
+
+        ![how to send leads to klaviyo resend email with each quiz retake](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
+
 === "Standalone"
 
     1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
@@ -451,6 +492,14 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
 
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
+
+    !!! tip "How to send an email every time someone completes the quiz?"
+
+        First, you need to set up a segment based on the `PERMALINK-{{quiz_id}}` property to filter quiz takers. Once the segment is created, you can build a flow that triggers when users are added to this segment, sends them their quiz results via email, and then **removes the `PERMALINK-{{quiz_id}}` property from their profile** to allow for re-entry if they retake the quiz.
+
+        For example:
+
+        ![how to send leads to klaviyo resend email with each quiz retake](/images/how_to_klaviyo_resend_email_with_each_quiz_retake.png)
 
 ## Adding Quiz Contacts to Klaviyo List
 

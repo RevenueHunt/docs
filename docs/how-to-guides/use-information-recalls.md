@@ -12,6 +12,8 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 
 === "Shopify"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/71f4dd83be8747719557e5571a48edfb?sid=97b689d3-4e21-4794-aedd-8d0c623072b2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     1. **Initiate Recall Feature**: While crafting your quiz questions or setting up follow-up communications, press the `@` symbol on your keyboard. This action activates the recall feature. 
         - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](/reference/quiz-builder/questions/#question-settings).
         - Information Recalls cannot be added to the first question in the quiz.
@@ -22,6 +24,8 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
         ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
 
 === "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/3c48487859ab403ab4af2d16588ff37f?sid=79951f9f-3e23-424f-9bb4-6963850b6e79" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     Content Dynamic Source allow you to recall any answer the customer provided in the quiz and used in any Text Block or a Heading Block on the results page.
 
@@ -40,6 +44,8 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 
 === "WooCommerce"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/71f4dd83be8747719557e5571a48edfb?sid=97b689d3-4e21-4794-aedd-8d0c623072b2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     1. **Initiate Recall Feature**: While crafting your quiz questions or setting up follow-up communications, press the `@` symbol on your keyboard. This action activates the recall feature. 
         - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](/reference/quiz-builder/questions/#question-settings).
         - Information Recalls cannot be added to the first question in the quiz.
@@ -50,6 +56,8 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
         ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
 
 === "Magento"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/71f4dd83be8747719557e5571a48edfb?sid=97b689d3-4e21-4794-aedd-8d0c623072b2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Initiate Recall Feature**: While crafting your quiz questions or setting up follow-up communications, press the `@` symbol on your keyboard. This action activates the recall feature. 
         - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](/reference/quiz-builder/questions/#question-settings).
@@ -62,6 +70,8 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 
 === "BigCommerce"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/71f4dd83be8747719557e5571a48edfb?sid=97b689d3-4e21-4794-aedd-8d0c623072b2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     1. **Initiate Recall Feature**: While crafting your quiz questions or setting up follow-up communications, press the `@` symbol on your keyboard. This action activates the recall feature. 
         - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](/reference/quiz-builder/questions/#question-settings).
         - Information Recalls cannot be added to the first question in the quiz.
@@ -72,6 +82,8 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
         ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
 
 === "Standalone"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/71f4dd83be8747719557e5571a48edfb?sid=97b689d3-4e21-4794-aedd-8d0c623072b2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Initiate Recall Feature**: While crafting your quiz questions or setting up follow-up communications, press the `@` symbol on your keyboard. This action activates the recall feature. 
         - If nothing happens after you click the `@` symbol, you can also initiate this function from [Question Settings](/reference/quiz-builder/questions/#question-settings).
@@ -84,10 +96,52 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 
 ## Where to Add Information Recalls
 
-Information recall / Content Dynamic Source can be used in various parts of your quiz to enhance personalization:
+=== "Shopify"
 
-- **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
-- **Results Page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
-- **Email Communications:** Beyond the quiz itself, recall information in your [follow-up emails](/how-to-guides/send-result-emails/) to provide a cohesive and personalized experience from start to finish. Personalize follow-up emails by including the participant's name in the subject line or email body. Use the "@" symbol to access and insert the participant's name and other relevant information into your email content.
+    Information recall / Content Dynamic Source can be used in various parts of your quiz to enhance personalization:
 
- 
+    - **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
+    - **Results Page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
+    - **Email Communications:** Beyond the quiz itself, recall information in your [follow-up emails](/how-to-guides/send-result-emails/) to provide a cohesive and personalized experience from start to finish. Personalize follow-up emails by including the participant's name in the subject line or email body. Use the "@" symbol to access and insert the participant's name and other relevant information into your email content.
+
+=== "Shopify V2"
+
+    Information recall / Content Dynamic Source can be used in various parts of your quiz to enhance personalization:
+
+    - **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
+    - **Results Page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
+
+=== "WooCommerce"
+
+    Information recall / Content Dynamic Source can be used in various parts of your quiz to enhance personalization:
+
+    - **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
+    - **Results Page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
+    - **Email Communications:** Beyond the quiz itself, recall information in your [follow-up emails](/how-to-guides/send-result-emails/) to provide a cohesive and personalized experience from start to finish. Personalize follow-up emails by including the participant's name in the subject line or email body. Use the "@" symbol to access and insert the participant's name and other relevant information into your email content.
+
+=== "Magento"   
+
+    Information recall / Content Dynamic Source can be used in various parts of your quiz to enhance personalization:
+
+    - **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
+    - **Results Page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
+    - **Email Communications:** Beyond the quiz itself, recall information in your [follow-up emails](/how-to-guides/send-result-emails/) to provide a cohesive and personalized experience from start to finish. Personalize follow-up emails by including the participant's name in the subject line or email body. Use the "@" symbol to access and insert the participant's name and other relevant information into your email content.
+
+=== "BigCommerce"
+
+    Information recall / Content Dynamic Source can be used in various parts of your quiz to enhance personalization:
+
+    - **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
+    - **Results Page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
+    - **Email Communications:** Beyond the quiz itself, recall information in your [follow-up emails](/how-to-guides/send-result-emails/) to provide a cohesive and personalized experience from start to finish. Personalize follow-up emails by including the participant's name in the subject line or email body. Use the "@" symbol to access and insert the participant's name and other relevant information into your email content.
+
+=== "Standalone"
+
+    Information recall / Content Dynamic Source can be used in various parts of your quiz to enhance personalization:
+
+    - **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
+    - **Results Page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
+    - **Email Communications:** Beyond the quiz itself, recall information in your [follow-up emails](/how-to-guides/send-result-emails/) to provide a cohesive and personalized experience from start to finish. Personalize follow-up emails by including the participant's name in the subject line or email body. Use the "@" symbol to access and insert the participant's name and other relevant information into your email content.
+
+---
+This article explains how to use information recalls / Content Dynamic Source in your quiz to recall user's answers and personalize the quiz experience for your customers.
