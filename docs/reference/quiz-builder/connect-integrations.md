@@ -21,6 +21,7 @@
         - [Omnisend](/how-to-guides/send-leads-to-omnisend/)
         - [Google Analytics](/how-to-guides/integrate-google-analytics/)
         - [Meta Pixel](/how-to-guides/integrate-meta-pixel/)
+        - [Webhooks](/how-to-guides/send-leads-to-webhooks/)
 
     To open the Integrations tab, go to the [Dashboard](/reference/dashboard/) and open the [Quiz Settings](/reference/quiz-builder/quiz-settings/) page.
 

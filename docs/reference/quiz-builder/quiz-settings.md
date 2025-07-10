@@ -10,7 +10,7 @@
 
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts, set up integrtations, notificaiton emails to self and result emails to quiz takers, or restore a previously publsihed version of the quiz.
 
 === "WooCommerce"
 
@@ -77,6 +77,10 @@
     **Quiz accessibility settings**
 
     `Disable zooming in on mobile devices` - Activating this setting will prevent the user from zooming in on mobile devices.
+
+    **Quiz payload settings**
+
+    `Include the product variants in the payload sent to Klaviyo, Zapier, other CRM apps, Webhooks, etc.` - Activating this setting will include the product variants in the payload sent to Klaviyo, Zapier, other CRM apps, Webhooks, etc. If deactivated, only the main product information will be sent.
 
     **Quiz migration**
 
@@ -761,6 +765,59 @@
 === "Standalone"
 
     Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
+
+
+### Emails to self
+
+=== "Shopify"
+
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+
+=== "Shopify V2"
+
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+
+=== "WooCommerce"
+
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+
+=== "Magento"
+
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+
+=== "BigCommerce"
+
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+
+=== "Standalone"
+
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+
+### Emails to respondents
+
+=== "Shopify"
+
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+
+=== "Shopify V2"
+
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+
+=== "WooCommerce"
+
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+
+=== "Magento"
+
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+
+=== "BigCommerce"
+
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+
+=== "Standalone"
+
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
 
 ### Version History
 

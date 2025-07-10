@@ -62,6 +62,8 @@
 
     ![manual_shopifyV2_quizbuilder_notification_torespondent](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
 
+    **Email template**
+
     `Send an email when someone completes the quiz` - Activate this option to send notification/results email to the customer email address when they completes the quiz (reaches the results page).
 
     `Email-to:` - Select a slide that contains the email questions from the dropdown.
@@ -72,11 +74,19 @@
 
     `Email liquid template` - Add a liquid email template. The template can be built based on the Metadata provided.
 
+    `Reset` - Resets the email template to the default template.
+
     `Useful code snippets:` - Click on an item below  to copy the code snippets to customize the Liquid email template.
 
     `Items list snippet` - Lists all the recomended products.
 
     `Responses by block snippet` - Lists all the customer answers.
+
+    **Email preview**
+
+    `Jul 10, 2025 12:35 PM` - Date of the quiz completion. Click to open a dropdown and chose a different response.
+
+    `From:` - Email address of the sender. Go to the [App Settings > SMTP section](/reference/app-settings/#smtp/) to set up your email server details. Otherwise, the email will be sent from RevenueHunt email address.
 
     `Metadata` - Lists all the metadata provided by the customer.
 
@@ -384,19 +394,188 @@
 
     ![manual_shopifyV2_quizbuilder_notification_toself](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
 
+    **Email template**
+
     `Receive an email when someone completes the quiz` - Activate this option to recieve notifications to your specified email address when someone completes the quiz (reaches the results page).
 
-    `Email TO:` - Add an email address to which the notification should be sent.
+    `Email to:` - Add an email address to which the notification should be sent.
 
     `Email subject:` - Add the title of the notification email.
 
     `Email liquid template` - Add liquid email template. The template can be built based on the Metadata provided.
+
+    `Reset` - Resets the email template to the default template.
 
     `Useful code snippets:` - Click on an item below  to copy the code snippets to customize the Liquid email template.
 
     `Personal information template` - Lists all the personal infomation provided by the user.
 
     `Responses by block snippet` - Lists all the customer answers.
+
+    **Email preview**
+
+    `Jul 10, 2025 12:35 PM` - Date of the quiz completion. Click to open a dropdown and chose a different response.
+
+    `From:` - Email address of the sender. Go to the [App Settings > SMTP section](/reference/app-settings/#smtp/) to set up your email server details. Otherwise, the email will be sent from RevenueHunt email address.
+
+    `Metadata` - Lists all the metadata provided by the customer.
+
+    `Expand all` - Expands all the metadata.
+
+    `Copy to clipboard` - Copies the selected metadata to the clipboard.
+
+    !!! info "Quiz Response Metadata Structure"
+
+        ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
+        
+        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic result pages, follow-up emails, and custom workflows.
+
+        ---
+
+        **Basic Information**
+
+        `responseId` - Unique ID for this specific quiz response
+
+        `resultRef` - Internal reference to the results layout
+
+        `quizId` - ID of the quiz that was completed
+
+        `quizName` - Name of the quiz
+
+        `firstName / fullName` - Name entered by the user
+
+        `email` - Email address submitted
+
+        `createdAt` - Timestamp of quiz completion (ISO format)
+
+        ---
+
+        **User Answers (`answersByBlock`)**
+
+        ```json
+        "answersByBlock": {
+        "qbc-485600ce": {
+        "type": "picture_choice",
+        "value": "Dry and tight all over",
+        "choicesRefs": ["qbcc-30928613"]
+        }
+        }
+        ```
+
+        Each quiz question block is mapped to the user's response.
+
+        Fields inside each entry:
+
+        `type` - The kind of question (e.g. multiple_choice, picture_choice, email)
+
+        `value` - The answer selected or typed by the user
+
+        `choicesRefs` - List of selected choice references (used internally)
+
+        Example: `qbc-485600ce` → `type: picture_choice`, `value: "Dry and tight all over"`, `choicesRefs: ["qbcc-30928613"]`
+    
+        ---
+
+        **Tags**
+
+        ```json
+        "tags": []
+        ```
+
+        `tags` - A list of tags to assign to the respondent. Often used for segmentation. Empty if unused.
+
+        ---
+
+        **Product Recommendations (`recommendationsBySlot`)**
+
+        ```json
+        "recommendationsBySlot": {
+        "rsbss-33464eed": {
+        "type": "product",
+        "value": "Ordinary Serum",
+        "variants": [
+        ```
+
+        Each result "slot" contains one or more product recommendations.
+
+        Each product object includes: id, title, vendor, handle: Shopify product metadata
+
+        `variants` - Variant ID, price, and image per product
+
+        `slotHeading / slotDescription` - Rich text HTML displayed on result pages
+
+        `image` - URL for the main product image
+
+        `price` - Object with amount and currencyCode
+
+        Example: `rsbss-33464eed` → contains "Ordinary Serum", $45 USD
+
+        ---
+
+        **Variable Scores (`variableScores`)**
+
+        ```json
+        "variableScores": { "score": 0 }
+        ```
+
+        Used only if the quiz has a scoring logic. Contains numerical results or score breakdowns.
+
+        --- 
+
+        **Result Sections (`resultSections`)**
+
+        ```json
+        "resultSections": [
+        "rsbh-273d9ef6": {
+        "type": "heading",
+        "content": "<p>Here's what your skin wants!</p>"
+        }
+        ]
+        ```
+
+        An ordered array of blocks that make up the results page. Each block can be:
+
+        `heading`
+
+        `text`
+
+        `products`
+
+        `button`
+
+        Products blocks have a slots array that contains product lists grouped by slot reference.
+
+        ---
+
+        **Rendered Result Content (`resultContentByBlock`)**
+
+        ```json
+        "rsbh-273d9ef6": {
+        "type": "heading",
+        "content": "<p>Here's what your skin wants!</p>"
+        }       
+        ```
+
+        A lookup table of rendered content for each block (used in external templates like email).
+
+        Each entry is keyed by the block reference and contains:
+
+        `type` - Type of block (text, heading, products, etc.)
+
+        `content or slots` - The rendered HTML or product data
+
+    !!! info "Use Cases"
+
+        This metadata allows you to:
+
+        - Personalize result pages based on user answers
+
+        - Send dynamic follow-up emails with relevant product suggestions
+
+        - Store quiz responses for analytics and customer profiling
+
+        - Integrate with marketing tools like Klaviyo or HubSpot using dynamic fields
+
 
 === "WooCommerce"
 
