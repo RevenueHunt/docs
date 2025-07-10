@@ -122,6 +122,22 @@ Recommending products based on numerical answers (like age or room size) can be 
 
         ![use dropdown question to ask age ranges](https://loom.com/i/7606561efb5a4012860717b5ec6a468f?workflows_screenshot=true)
 
+    !!! example "Example - Year of Birth"
+
+        Change "What's your year of birth?" from an input field to a dropdown with:
+
+        - 1990
+        - 1991
+        - 1992
+        - 1993
+        - 1994
+        - 1995
+        - 1996
+
+        This lets you assign relevant products to each year.
+
+        ![use dropdown question to ask year of birth](/images/how_to_recommend_products_based_on_numerical_inputs_shopify_yearbirthquestion_dropdown.png) 
+
     Once you switch to finite answers, you can:
 
     - [Upvote](/reference/quiz-builder/link-products/) specific products, variants or collections to each choice
