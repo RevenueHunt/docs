@@ -10,7 +10,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
 !!! warning "Understanding the basics"
 
-    When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [voting system](/how-to-guides/how-to-recommend-products/#voting-system) that influences product visibility.
+    When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [voting system](/how-to-guides/how-to-recommend-products/#voting-system) or [display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) that influences product visibility.
 
 ## Step-by-Step Process to Check Recommendations
 
@@ -19,6 +19,9 @@ This guide will walk you through the process of troubleshooting product recommen
     Before you begin, open the [Responses section](/reference/quiz-builder/metrics/#responses) from the [App manual](/reference/) in the new browser window. It will come in handy.
 
 === "Shopify" 
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
     1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
     2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
@@ -60,6 +63,8 @@ This guide will walk you through the process of troubleshooting product recommen
 
 === "Shopify V2" 
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/6d81b8a150b8407fb478f7fbd753714c?sid=53b6d242-f3eb-4c23-9339-f1990963cf23" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     1. **Explore Responses**: To open the responses sections, go back to the [dashboard](/reference/quiz-builder/). Pick a quiz and click the `...` to open the quiz menu. From the list pick and click on [`Responses`](/reference/quiz-builder/metrics/#responses).
     
         ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
@@ -96,6 +101,8 @@ This guide will walk you through the process of troubleshooting product recommen
         A common issue is a product being **misclassified** into an incorrect collection/category or **accidentally excluded** in quiz settings. Paying close attention to these details can significantly improve the accuracy of your product recommendations.
 
 === "WooCommerce" 
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
     2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
@@ -137,6 +144,8 @@ This guide will walk you through the process of troubleshooting product recommen
 
 === "Magento" 
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
     2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
@@ -177,6 +186,8 @@ This guide will walk you through the process of troubleshooting product recommen
 
 === "BigCommerce" 
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
     2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
@@ -216,6 +227,8 @@ This guide will walk you through the process of troubleshooting product recommen
     - **Resend Notifications**: Useful for updating CRM services or sending revised recommendations via email.
 
 === "Standalone" 
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Access Quiz Metrics**: First, navigate to the quiz [Metrics](/reference/quiz-builder/metrics/) in the Quiz Builder.
     2. **Explore Responses**: Within Metrics, locate and open the [Responses](/reference/quiz-builder/metrics/#responses) tab. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
