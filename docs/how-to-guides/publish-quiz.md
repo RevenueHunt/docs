@@ -40,9 +40,9 @@ Share a direct link to the quiz on social media platforms.
 - **Purpose**: For leveraging social media posts to engage users.
 - **Implementation Guide**: [Creating an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/).
 
-### Email Popup
+### Email Quiz Link
 
-Incorporate a quiz popup link in your emails or newsletters.
+Incorporate a quiz link in your emails or newsletters.
 
 - **Purpose**: To engage users directly through email marketing.
 - **Implementation Guide**: [Generating an Email Popup Link](/how-to-guides/publish-quiz-email-link/).

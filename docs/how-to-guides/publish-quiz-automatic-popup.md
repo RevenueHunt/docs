@@ -133,26 +133,7 @@ Before You Start:
 
 === "Shopify V2"
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/91959036fe7b4ed8a1787ba9aae52110?sid=be1c9731-32df-418f-b5b9-8e44252d08db" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    !!! warning "Shopify 1.0 Theme Compatibility"
-        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
-
-    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. Go to your specific page theme and edit it. If you don't have a specific page theme, create one and apply it to the page via the Online Store > Pages section.
-    3. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
-    4. **Configure Popup Settings**: 
-
-        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png){width="50%"}
-
-        - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
-        - Adjust the `Popup Width` and `Height` (as percentage of screen)
-        - Set the `Popup z-index` to control layering with other elements
-        - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
-    5. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-
-    The popup will now appear on your specific page according to the configured settings.
+    Unfortunately, it's not possible to apply App Embeds such as Automatic Popup Quiz on specific page only. App Embeds are only applied site-wide. Therefore, the Automatic Popup Quiz (if activated) will be visible on all pages.
 
 === "WooCommerce"
 

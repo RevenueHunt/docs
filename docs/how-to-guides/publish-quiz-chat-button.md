@@ -168,28 +168,7 @@ Make sure you have:
 
 === "Shopify V2"
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/1697bfccba9444d787b814563228dd8a?sid=85e45a66-4d4a-423b-966e-caef9232825f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-
-    !!! warning "Shopify 1.0 Theme Compatibility"
-        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
-
-    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. Go to your specific page theme and edit it. If you don't have a specific page theme, create one and apply it to the page via the Online Store > Pages section.
-    3. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Chat Popup Quiz` option and toggle it on.
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
-    4. **Configure Popup Settings**: 
-
-        ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png){width="50%"}
-
-        - Adjust the color or the chat, icon, chat positon
-        - Add a greetings message
-        - Adjust the `Popup Width` and `Height` (as percentage of screen)
-        - Set the `Popup z-index` to control layering with other elements
-    5. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-
-    The chat button will now appear on your specific page according to the configured settings. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.   
-
+    Unfortunately, it's not possible to apply App Embeds such as Chat Button Quiz on specific page only. App Embeds are only applied site-wide. Therefore, the Chat Button Quiz (if activated) will be visible on all pages.
 
 === "WooCommerce"
 
