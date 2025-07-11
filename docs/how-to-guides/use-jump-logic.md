@@ -738,6 +738,8 @@ Jump Logic allows you to route customers to different questions based on their r
 
 === "Shopify V2"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/312b3b8099174391abe9f5f17b6918bb?sid=a2a23561-5939-405f-83cc-a4fb66128e4c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     With Jump Logic, you can send users to an external URL based on their answers.
 
     ![how to send users to an external url jump logic](https://loom.com/i/87753ed6e35d45ee8f0abfb0d1c3c92b?workflows_screenshot=true)
