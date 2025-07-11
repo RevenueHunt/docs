@@ -8,13 +8,46 @@ In this article, you’ll discover how to use `IF-THEN` conditional logic to dis
 
 Using a skincare routine quiz as an example, we'll show how custom text is displayed based on the customer’s skin type.
 
-<div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+=== "Shopify"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+=== "Shopify V2"
+
+
+=== "WooCommerce"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+=== "Magento"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+=== "BigCommerce"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+=== "Standalone"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 
 ## Jump Logic: How to Show Custom Text in the Quiz
 
 === "Shopify"
+
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
@@ -42,6 +75,8 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/33942abdef344d19a6e95b478c3f1e8a?sid=16f14cfc-9a54-4eb3-8a90-9ac6e8729195" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_flow.png)
 
@@ -82,6 +117,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "WooCommerce"
 
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
@@ -108,6 +146,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Magento"
+
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
@@ -136,6 +177,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "BigCommerce"
 
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
@@ -162,6 +206,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Standalone"
+
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
@@ -191,6 +238,8 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 ## Display Logic: How to Show Custom Text on the Results Page
 
 === "Shopify"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
@@ -294,6 +343,8 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "WooCommerce"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
@@ -321,6 +372,8 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Magento"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
@@ -350,6 +403,8 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "BigCommerce"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
@@ -377,6 +432,8 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Standalone"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
@@ -408,6 +465,8 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "Shopify"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
@@ -432,6 +491,8 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/974fa05168164ed691522e5ced0f36d1?sid=0609fcf4-60c9-4098-86cb-6503c343f73c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
 
@@ -470,6 +531,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "WooCommerce"
 
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
@@ -494,6 +558,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Magento"
+
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
@@ -520,6 +587,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 === "BigCommerce"
 
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
@@ -544,6 +614,9 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "Standalone"
+
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
 

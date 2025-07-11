@@ -650,6 +650,32 @@ Jump Logic allows you to route customers to different questions based on their r
 
     With Jump Logic, you can send users to different results pages based on their answers.
 
+    **Implementation**
+
+    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    3. Pick the question you want to add redirect logic to.
+    4. Click on that question and open the `Jump Logic` tab.
+    5. Click `+ Add Jump Logic` and set up a redirection rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then go to `Results Page 1`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Oily`, then go to `Results Page 2`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Normal`, then go to `Results Page 3`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Combination`, then go to `Results Page 4`.
+
+    6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.   
+    
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
 
 
@@ -665,6 +691,32 @@ Jump Logic allows you to route customers to different questions based on their r
 
     With Jump Logic, you can send users to different results pages based on their answers.
 
+    **Implementation**
+
+    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    3. Pick the question you want to add redirect logic to.
+    4. Click on that question and open the `Jump Logic` tab.
+    5. Click `+ Add another rule(OR)` and set up a redirection rule.
+
+        !!! example
+
+            IF the response to the question `Q1: What is your skin type?` is `Dry`, then go to `Results Page 1`.
+
+            OR
+
+            IF the response to the question `Q1: What is your skin type?` is `Oily`, then go to `Results Page 2`.
+
+            OR
+
+            IF the response to the question `Q1: What is your skin type?` is `Normal`, then go to `Results Page 3`.
+
+            OR
+
+            IF the response to the question `Q1: What is your skin type?` is `Combination`, then go to `Results Page 4`.
+
+    6. **Save the changes**: Click the top-right `Save` button to update the preview/live quiz.   
+
     ![send users to different results pages jump logic](https://loom.com/i/cf75df4cb4574b2ab7f4b81eff37c83e?workflows_screenshot=true)
 
     !!! info
@@ -674,8 +726,35 @@ Jump Logic allows you to route customers to different questions based on their r
 
 === "WooCommerce"
 
+
     With Jump Logic, you can send users to different results pages based on their answers.
 
+    **Implementation**
+
+    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    3. Pick the question you want to add redirect logic to.
+    4. Click on that question and open the `Jump Logic` tab.
+    5. Click `+ Add Jump Logic` and set up a redirection rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then go to `Results Page 1`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Oily`, then go to `Results Page 2`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Normal`, then go to `Results Page 3`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Combination`, then go to `Results Page 4`.
+
+    6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.   
+    
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
 
 
@@ -687,40 +766,121 @@ Jump Logic allows you to route customers to different questions based on their r
 
 === "Magento"
 
+
     With Jump Logic, you can send users to different results pages based on their answers.
 
+    **Implementation**
 
+    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    3. Pick the question you want to add redirect logic to.
+    4. Click on that question and open the `Jump Logic` tab.
+    5. Click `+ Add Jump Logic` and set up a redirection rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then go to `Results Page 1`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Oily`, then go to `Results Page 2`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Normal`, then go to `Results Page 3`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Combination`, then go to `Results Page 4`.
+
+    6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.   
+    
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
 
 
     !!! info
 
         Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
-
 
 
 
 === "BigCommerce"
 
-    With Jump Logic, you can send users to different results pages based on their answers.
-
-    ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
-
-    !!! tip
-
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
-
-
-
-=== "Standalone"
 
     With Jump Logic, you can send users to different results pages based on their answers.
 
+    **Implementation**
+
+    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    3. Pick the question you want to add redirect logic to.
+    4. Click on that question and open the `Jump Logic` tab.
+    5. Click `+ Add Jump Logic` and set up a redirection rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then go to `Results Page 1`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Oily`, then go to `Results Page 2`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Normal`, then go to `Results Page 3`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Combination`, then go to `Results Page 4`.
+
+    6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.   
+    
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+
 
     !!! info
 
         Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+
+
+=== "Standalone"
+
+
+    With Jump Logic, you can send users to different results pages based on their answers.
+
+    **Implementation**
+
+    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    3. Pick the question you want to add redirect logic to.
+    4. Click on that question and open the `Jump Logic` tab.
+    5. Click `+ Add Jump Logic` and set up a redirection rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then go to `Results Page 1`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Oily`, then go to `Results Page 2`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Normal`, then go to `Results Page 3`.
+
+            OR
+
+            IF the answer to the question `Q1: What is your skin type?` is `Combination`, then go to `Results Page 4`.
+
+    6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.   
+    
+    ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+
+
+    !!! info
+
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+
 
 
 ### Sending Users to an External URL
@@ -729,7 +889,27 @@ Jump Logic allows you to route customers to different questions based on their r
 
     With Jump Logic, you can send users to an external URL based on their answers.
 
+    **Implementation**
+
+    1. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    2. Pick the question you want to add redirect logic to.
+    3. Click on that question and open the `Jump Logic` tab.
+    4. Click `+ Add Jump Logic` and set up a redirection rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then go to the URL `https://yourstore.com/dry-skin`.
+
+    5. To always redirect users to a specific page after a certain question, you can set up a `Always jump to` rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then always jumpto the URL `https://yourstore.com/dry-skin`.
+
+    6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+
 
     !!! info
 
@@ -742,18 +922,56 @@ Jump Logic allows you to route customers to different questions based on their r
 
     With Jump Logic, you can send users to an external URL based on their answers.
 
+    **Implementation**
+
+    1. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    2. Pick the question you want to add redirect logic to.
+    3. Click on that question and open the `Jump Logic` tab.
+    4. Click `+ Add another rule(OR)` and set up a redirection rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then redirect the user to the URL `https://yourstore.com/dry-skin`.
+
+    5. To always redirect users to a specific page after a certain question, you can set up a `Default destination` rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then `Link to URL` and paste the desired URL, for example `https://yourstore.com/dry-skin`.
+
+    6. **Save the changes**: Click the top-right `Save` button to update the preview/live quiz.
+
     ![how to send users to an external url jump logic](https://loom.com/i/87753ed6e35d45ee8f0abfb0d1c3c92b?workflows_screenshot=true)
 
     !!! info
 
         Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
 
-
 === "WooCommerce"
 
     With Jump Logic, you can send users to an external URL based on their answers.
 
+    **Implementation**
+
+    1. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    2. Pick the question you want to add redirect logic to.
+    3. Click on that question and open the `Jump Logic` tab.
+    4. Click `+ Add Jump Logic` and set up a redirection rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then go to the URL `https://yourstore.com/dry-skin`.
+
+    5. To always redirect users to a specific page after a certain question, you can set up a `Always jump to` rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then always jumpto the URL `https://yourstore.com/dry-skin`.
+
+    6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+
 
     !!! info
 
@@ -764,7 +982,27 @@ Jump Logic allows you to route customers to different questions based on their r
 
     With Jump Logic, you can send users to an external URL based on their answers.
 
+    **Implementation**
+
+    1. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    2. Pick the question you want to add redirect logic to.
+    3. Click on that question and open the `Jump Logic` tab.
+    4. Click `+ Add Jump Logic` and set up a redirection rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then go to the URL `https://yourstore.com/dry-skin`.
+
+    5. To always redirect users to a specific page after a certain question, you can set up a `Always jump to` rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then always jumpto the URL `https://yourstore.com/dry-skin`.
+
+    6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+
 
     !!! info
 
@@ -775,7 +1013,27 @@ Jump Logic allows you to route customers to different questions based on their r
 
     With Jump Logic, you can send users to an external URL based on their answers.
 
+    **Implementation**
+
+    1. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    2. Pick the question you want to add redirect logic to.
+    3. Click on that question and open the `Jump Logic` tab.
+    4. Click `+ Add Jump Logic` and set up a redirection rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then go to the URL `https://yourstore.com/dry-skin`.
+
+    5. To always redirect users to a specific page after a certain question, you can set up a `Always jump to` rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then always jumpto the URL `https://yourstore.com/dry-skin`.
+
+    6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+
 
     !!! info
 
@@ -786,7 +1044,27 @@ Jump Logic allows you to route customers to different questions based on their r
 
     With Jump Logic, you can send users to an external URL based on their answers.
 
+    **Implementation**
+
+    1. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    2. Pick the question you want to add redirect logic to.
+    3. Click on that question and open the `Jump Logic` tab.
+    4. Click `+ Add Jump Logic` and set up a redirection rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then go to the URL `https://yourstore.com/dry-skin`.
+
+    5. To always redirect users to a specific page after a certain question, you can set up a `Always jump to` rule.
+
+        !!! example
+
+            IF the answer to the question `Q1: What is your skin type?` is `Dry`, then always jumpto the URL `https://yourstore.com/dry-skin`.
+
+    6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+
 
     !!! info
 
