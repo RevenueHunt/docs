@@ -464,6 +464,8 @@ Jump Logic allows you to route customers to different questions based on their r
 === "Shopify"
 
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
@@ -492,6 +494,8 @@ Jump Logic allows you to route customers to different questions based on their r
 
 
 === "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/a07ebf26de5e476987f4848deda621e5?sid=49688c89-77ad-47d9-8c26-2790ae09d041" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     Jump Logic allows you to branch the quiz based on the participant's responses.
 
@@ -531,6 +535,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
 === "WooCommerce"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
 
@@ -559,6 +564,8 @@ Jump Logic allows you to route customers to different questions based on their r
 
 
 === "Magento"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
@@ -589,6 +596,8 @@ Jump Logic allows you to route customers to different questions based on their r
 
 === "BigCommerce"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
 
@@ -617,6 +626,8 @@ Jump Logic allows you to route customers to different questions based on their r
 
 
 === "Standalone"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
