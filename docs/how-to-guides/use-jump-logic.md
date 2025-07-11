@@ -4,7 +4,35 @@
 
 Below, we provide a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
 
-<div class="videoWrapper"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+=== "Shopify"
+
+    <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+=== "Shopify V2" 
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/33942abdef344d19a6e95b478c3f1e8a?sid=afaef802-31f9-485e-b8a1-94f7dab57037" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+=== "WooCommerce"
+
+
+    <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+=== "Magento"
+
+
+    <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+=== "BigCommerce" 
+
+
+    <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+=== "Standalone" 
+
+
+    <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
 
 ??? question "What is Jump Logic?"
 
@@ -424,13 +452,305 @@ Jump Logic allows you to route customers to different questions based on their r
 
 ## Examples and Applications
 
-### Quiz Flow Customization
+### Branching the Quiz
 
-Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Jump Logic, which then continues the quiz based on the participant's specific path.
+=== "Shopify"
 
-![how to use jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
 
-To learn how to build such a quiz check this [step-by-step guide](/how-to-guides/hide-content-with-logic/).
+    ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
+
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+
+        !!! tip
+
+            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+
+    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+
+        !!! example
+
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
+            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+
+    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+
+        ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
+
+    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+
+    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+
+
+
+=== "Shopify V2"
+
+    Jump Logic allows you to branch the quiz based on the participant's responses.
+
+    For example, you can create a quiz that asks the participant about their skin type and then based on the answer, you can redirect them to a different question or content.
+
+    ![how to use jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_default_destination.png)
+
+    **How to set this up?**
+
+    **Step 1: Add Questions and Follow-up Statements** Create a quiz with a main question and follow-up questions or statement. For example, a skincare quiz with a skin type question and four different texts based on user responses.
+
+    ![how to use jump logic](https://loom.com/i/11c8cff2e27a451a8c8b40b348de4a42?workflows_screenshot=true)
+
+    **Step 2: Add Jump Logic** Add Jump Logic to the main question. Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab. Select the main question, in this example it's the skin type question (Question 4).
+
+    Add Jump Logic rules for each skin type response, like the following example:
+
+    ![how to use jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_rule.png){width="300"}
+
+    - Dry and tight all over → Dry skin type statement
+    - Not too oily, not too dry → Normal skin type
+    - Oily in certain spots → Combination skin type
+    - Oily all over → Oily skin type.
+
+
+    **Step 3: Adjust Default Destinations for Each Statement** Change default destinations for each skin type text.
+
+    ![how to use jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_rule2.png){width="300"}
+    
+    - Dry skin type → Next question (skin concerns)
+    - Combination skin type → Next question (skin concerns)
+    - Normal skin type → Next question (skin concerns)
+    - Oily skin type → Next question (skin concerns).
+
+
+    **Step 4: Save & Test the Logic** Save changes with the top-right `Save` button and `Preview` the quiz. Test each skin type option to ensure correct text is displayed.
+
+=== "WooCommerce"
+
+
+    ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
+
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+
+        !!! tip
+
+            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+
+    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+
+        !!! example
+
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
+            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+
+    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+
+        ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
+
+    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+
+    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+
+
+=== "Magento"
+
+
+    ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
+
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+
+        !!! tip
+
+            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+
+    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+
+        !!! example
+
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
+            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+
+    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+
+        ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
+
+    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+
+    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+
+
+=== "BigCommerce"
+
+
+    ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
+
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+
+        !!! tip
+
+            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+
+    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+
+        !!! example
+
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
+            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+
+    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+
+        ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
+
+    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+
+    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+
+
+=== "Standalone"
+
+
+    ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
+
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+
+        !!! tip
+
+            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+
+    2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
+
+        !!! example
+
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
+            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+
+    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. To add jump logic, you should go back to the skin type question and select [conditional logic](/reference/quiz-builder/conditional-logic/). Set up `IF-THEN` statements with `OR` logic to direct the customer to the correct text based on their skin type. 
+
+        ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_jump_logic_statement.png)
+
+    4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
+
+    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+
+### Sending Users to Different Results Pages
+
+=== "Shopify"
+
+    With Jump Logic, you can send users to different results pages based on their answers.
+
+    !!! tip
+
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to send users to different results pages based on their answers.
+
+
+    ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+
+
+
+=== "Shopify V2"
+
+    With Jump Logic, you can send users to different results pages based on their answers.
+
+    !!! tip
+
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to send users to different results pages based on their answers.
+
+
+    ![send users to different results pages jump logic](https://loom.com/i/cf75df4cb4574b2ab7f4b81eff37c83e?workflows_screenshot=true)
+
+
+=== "WooCommerce"
+
+    With Jump Logic, you can send users to different results pages based on their answers.
+
+    !!! tip
+
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to send users to different results pages based on their answers.
+
+
+    ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+
+
+
+=== "Magento"
+
+    With Jump Logic, you can send users to different results pages based on their answers.
+
+    !!! tip
+
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to send users to different results pages based on their answers.
+
+
+    ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+
+
+
+=== "BigCommerce"
+
+    With Jump Logic, you can send users to different results pages based on their answers.
+
+    !!! tip
+
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to send users to different results pages based on their answers.
+
+
+    ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+
+=== "Standalone"
+
+    With Jump Logic, you can send users to different results pages based on their answers.
+
+    !!! tip
+
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to send users to different results pages based on their answers.
+
+
+    ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+
+### Sending Users to an External URL
+
+=== "Shopify"
+
+    With Jump Logic, you can send users to an external URL based on their answers.
+
+    ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+
+=== "Shopify V2"
+
+    With Jump Logic, you can send users to an external URL based on their answers.
+
+    ![how to send users to an external url jump logic](https://loom.com/i/87753ed6e35d45ee8f0abfb0d1c3c92b?workflows_screenshot=true)
+
+=== "WooCommerce"
+
+    With Jump Logic, you can send users to an external URL based on their answers.
+
+    ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+    
+=== "Magento"
+
+    With Jump Logic, you can send users to an external URL based on their answers.
+
+    ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+
+=== "BigCommerce"
+
+    With Jump Logic, you can send users to an external URL based on their answers.
+
+    ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+
+=== "Standalone"
+
+    With Jump Logic, you can send users to an external URL based on their answers.
+
+    ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+
+
 
 ### Jump Logic vs. Skip Logic
 
