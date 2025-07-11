@@ -2,7 +2,14 @@
 
 [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) is a tool designed to personalize the experience of quiz participants by guiding them down different paths based on their answers. 
 
-Below, we provide a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
+!!! info "Use Jump Logic to:"
+
+    - Send users to different follow-up questions or content based on their answers.
+    - Branch the quiz based on the user's answers.
+    - Send users to different results pages based on their answers.
+    - Send users to an external URL based on their answers.
+
+In this article, we provide a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
 
 === "Shopify"
 
@@ -643,37 +650,38 @@ Jump Logic allows you to route customers to different questions based on their r
 
     With Jump Logic, you can send users to different results pages based on their answers.
 
-    !!! tip
-
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to send users to different results pages based on their answers.
-
-
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+
+
+    !!! info
+
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
 
 
 
 === "Shopify V2"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/da7a84ecaa3f4cad9d575bd652f58958?sid=0869f3ff-82aa-444e-8caa-ff8c5dfdb698" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     With Jump Logic, you can send users to different results pages based on their answers.
 
-    !!! tip
-
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to send users to different results pages based on their answers.
-
-
     ![send users to different results pages jump logic](https://loom.com/i/cf75df4cb4574b2ab7f4b81eff37c83e?workflows_screenshot=true)
+
+    !!! info
+
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
 
 
 === "WooCommerce"
 
     With Jump Logic, you can send users to different results pages based on their answers.
 
-    !!! tip
-
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to send users to different results pages based on their answers.
-
-
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+
+
+    !!! info
+
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
 
 
 
@@ -681,12 +689,14 @@ Jump Logic allows you to route customers to different questions based on their r
 
     With Jump Logic, you can send users to different results pages based on their answers.
 
-    !!! tip
-
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to send users to different results pages based on their answers.
-
 
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+
+
+    !!! info
+
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+
 
 
 
@@ -694,23 +704,24 @@ Jump Logic allows you to route customers to different questions based on their r
 
     With Jump Logic, you can send users to different results pages based on their answers.
 
+    ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+
     !!! tip
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to send users to different results pages based on their answers.
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
 
 
-    ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
 
 === "Standalone"
 
     With Jump Logic, you can send users to different results pages based on their answers.
 
-    !!! tip
-
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to send users to different results pages based on their answers.
-
-
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
+
+    !!! info
+
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+
 
 ### Sending Users to an External URL
 
@@ -720,23 +731,43 @@ Jump Logic allows you to route customers to different questions based on their r
 
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
 
+    !!! info
+
+        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+
+
 === "Shopify V2"
 
     With Jump Logic, you can send users to an external URL based on their answers.
 
     ![how to send users to an external url jump logic](https://loom.com/i/87753ed6e35d45ee8f0abfb0d1c3c92b?workflows_screenshot=true)
 
+    !!! info
+
+        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+
+
 === "WooCommerce"
 
     With Jump Logic, you can send users to an external URL based on their answers.
 
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
-    
+
+    !!! info
+
+        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+
+
 === "Magento"
 
     With Jump Logic, you can send users to an external URL based on their answers.
 
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+
+    !!! info
+
+        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+
 
 === "BigCommerce"
 
@@ -744,11 +775,20 @@ Jump Logic allows you to route customers to different questions based on their r
 
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
 
+    !!! info
+
+        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+
+
 === "Standalone"
 
     With Jump Logic, you can send users to an external URL based on their answers.
 
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
+
+    !!! info
+
+        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
 
 
 
@@ -756,11 +796,13 @@ Jump Logic allows you to route customers to different questions based on their r
 
 While Jump Logic and Skip Logic may seem similar, they serve distinct purposes. **Jump Logic** creates separate, divergent paths for participants based on their answers, effectively jumping to different questions or content. **Skip Logic**, on the other hand, determines if a question should be presented or skipped, maintaining a single path but customizing the questions seen by the participant. 
 
-It's not recommended to use both Jump Logic and Skip Logic on one quiz.
+!!! warning
+
+    It's not recommended to use both Jump Logic and Skip Logic on one quiz.
 
 ## Additional Resources
 
 Understanding conditional logic, the foundation of Jump Logic, can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
 
 ---
-Jump Logic is a versatile tool that enriches quizzes by introducing customized paths based on participant responses. By setting up conditional statements, quiz creators can design interactive and personalized experiences, ensuring that each participant's journey through the quiz is relevant to their inputs.
+This article explains how to use Jump Logic in the quiz to send users to different follow-up questions, results pages or external URLs based on their answers.
