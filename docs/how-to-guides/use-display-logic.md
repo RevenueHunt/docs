@@ -2,6 +2,14 @@
 
 [Display logic](/reference/quiz-builder/conditional-logic/#display-logic) is a feature of the [Results Page](/reference/quiz-builder/results-page/) that allows you to make elements visible or hidden on the results page based on conditional logic rules.
 
+!!! info "Use Display Logic to:"
+
+    - Show or hide content on the results page based on customer's responses to questions.
+    - Show or hide content on the results page based on the score of a variable (custom scoring quiz, personality-type quiz).
+    - Show or hide content on the results page based on the variable with the highest score (personality-type quiz).
+
+In this article, we provide a clear, step-by-step guide on how to use Display Logic, its workings, and examples to illustrate its functionality.
+
 === "Shopify"
 
     <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=-3_Sv297f8B4-KPi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -923,4 +931,4 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 Understanding conditional logic can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
 
 ---
-This guide explains what is Display Logic and how to use it in Product Recommendation Quiz.
+This guide explains what is Display Logic and how to use it in Product Recommendation Quiz to show or hide content based on customer's responses to questions, the score of a variable (custom scoring quiz, personality-type quiz), or the variable with the highest score (personality-type quiz).

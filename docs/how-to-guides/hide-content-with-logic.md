@@ -4,9 +4,9 @@ icon: material/eye-off
 
 # How to Show or Hide Content Based on Quiz Answers
 
-In this article, you’ll discover how to use `IF-THEN` conditional logic to display customized text to quiz takers. This includes adding custom text within your quiz using [Jump Logic](/how-to-guides/use-jump-logic/), displaying custom text on the Results page with [Display Logic](/how-to-guides/use-display-logic/), and achieving similar effects with [Skip Logic](/how-to-guides/use-skip-logic/).
+In this article, you’ll discover how to use `IF-THEN` conditional logic to hide or show certain questions or sections based on customer answers to quiz questions. This includes conditionally hiding certain questions or statements within your quiz using [Jump Logic](/how-to-guides/use-jump-logic/) or [Skip Logic](/how-to-guides/use-skip-logic/) and showing or hiding blocks/sections on the Results page with [Display Logic](/how-to-guides/use-display-logic/).
 
-Using a skincare routine quiz as an example, we'll show how custom text is displayed based on the customer’s skin type.
+Using a skincare routine quiz as an example, we'll show how custom text and result can be displayed based on the customer’s skin type.
 
 === "Shopify"
 
@@ -378,7 +378,7 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
             In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
 
-    5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+    5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz. Test the quiz by clicking the `Preview` button and selecting different answers and checking if the correct content blocks are displayed.
 
 === "WooCommerce"
 
@@ -682,3 +682,5 @@ Using a skincare routine quiz as an example, we'll show how custom text is displ
 
 ---
 For more detailed instructions on using [Jump Logic](/how-to-guides/use-jump-logic/), [Display Logic](/how-to-guides/use-display-logic/), and [Skip Logic](/how-to-guides/use-skip-logic/), consider checking the respective articles linked throughout this guide.
+
+This article explains how to use Jump Logic, Skip Logic or Display Logic to hide/show content in the quiz based on customer     answers.
