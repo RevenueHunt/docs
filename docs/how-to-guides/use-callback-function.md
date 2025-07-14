@@ -4,13 +4,48 @@ icon: material/code-json
 
 # How to Use Callback Function for Custom Integrations
 
-!!! warning
+=== "Shopify"
+
+      Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
+
+      This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
+
+
+=== "Shopify V2"
+
+    !!! warning
+
+        The callback function is not supported in Shopify V2.
 
     The callback function is not supported in Shopify V2. However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
 
-Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
+=== "WooCommerce"
 
-This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
+    Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
+
+    This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
+
+
+=== "Magento"
+
+    Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
+
+    This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
+
+
+=== "BigCommerce"
+
+    Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
+
+    This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
+
+
+=== "Standalone"
+
+    Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
+
+    This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
+
 
 ## What Are Callback Functions?
 
@@ -33,54 +68,272 @@ The JSON with the quiz response includes:
 
 ## Implementing the Callback Function
 
-1. **Initial Setup**: To begin, insert the following code into your store's theme, ideally just before the closing `</head>` tag:
-   ```html
-   <script>
-     function prqQuizCallback(quizResponse){
-       console.log(quizResponse);
-     }
-   </script>
-   ```
-    This simple example utilizes a `console.log()` function to output the JSON containing all the quiz response data. However, this is merely a starting point. Developers are encouraged to tailor the above callback function to meet their specific needs.
-2. **Store the Data**: Confirm that the callback response is being correctly stored on your website. An effective method involves wrapping the redirection logic within the callback function itself. This ensures the data is mapped or saved before any redirection takes place. For example:
-    ```javascript
-    function prqQuizCallback(quizResponse) {
-    // Code to map or save the data...
+=== "Shopify"
 
-    // Then, redirect the user to the desired page:
-    window.location.href = 'yourTargetURLHere';
-    }
-    ```
-    Choose an appropriate storage solution for the callback response, such as cookies, local storage, or even as query parameters in the URL, depending on your specific needs and the nature of the data.
-
-3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage, before any redirection occurs. It's critical to ensure the results page is accessed even for a fraction of a second to allow this process to unfold correctly.
-4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
-    - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
+    1. **Initial Setup**: To begin, insert the following code into your store's theme, ideally just before the closing `</head>` tag:
       ```html
-      prqSlideCallback(event);
-      // triggered when customer responds to a question (slide)
-
-      prqAddOneToCartCallback(event);
-      // triggered when customer adds one product to cart 
-
-      prqAddedOneToCartCallback(event);
-      // triggered when the product has already been added to the cart 
-    
-      prqRemoveOneFromCartCallback(event);
-      // triggered when customer removes one product from cart 
-
-      prqRemovedOneFromCartCallback(event);
-      // triggered when the product has already been removed from the cart (only Shopify) 
-
-      prqAddAllToCartCallback(event); 
-      // triggered when customer adds all products to cart 
-
-      prqAddedAllToCartCallback(event);
-      // triggered when all the products have already been added to the cart 
-
-      prqAppLoadedCallback();
-      // triggered when the Product Recommendation Quiz app has been loaded 
+      <script>
+        function prqQuizCallback(quizResponse){
+          console.log(quizResponse);
+        }
+      </script>
       ```
+        This simple example utilizes a `console.log()` function to output the JSON containing all the quiz response data. However, this is merely a starting point. Developers are encouraged to tailor the above callback function to meet their specific needs.
+    2. **Store the Data**: Confirm that the callback response is being correctly stored on your website. An effective method involves wrapping the redirection logic within the callback function itself. This ensures the data is mapped or saved before any redirection takes place. For example:
+        ```javascript
+        function prqQuizCallback(quizResponse) {
+        // Code to map or save the data...
+
+        // Then, redirect the user to the desired page:
+        window.location.href = 'yourTargetURLHere';
+        }
+        ```
+        Choose an appropriate storage solution for the callback response, such as cookies, local storage, or even as query parameters in the URL, depending on your specific needs and the nature of the data.
+
+    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage, before any redirection occurs. It's critical to ensure the results page is accessed even for a fraction of a second to allow this process to unfold correctly.
+    4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
+        - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
+          ```html
+          prqSlideCallback(event);
+          // triggered when customer responds to a question (slide)
+
+          prqAddOneToCartCallback(event);
+          // triggered when customer adds one product to cart 
+
+          prqAddedOneToCartCallback(event);
+          // triggered when the product has already been added to the cart 
+        
+          prqRemoveOneFromCartCallback(event);
+          // triggered when customer removes one product from cart 
+
+          prqRemovedOneFromCartCallback(event);
+          // triggered when the product has already been removed from the cart (only Shopify) 
+
+          prqAddAllToCartCallback(event); 
+          // triggered when customer adds all products to cart 
+
+          prqAddedAllToCartCallback(event);
+          // triggered when all the products have already been added to the cart 
+
+          prqAppLoadedCallback();
+          // triggered when the Product Recommendation Quiz app has been loaded 
+          ```
+
+=== "Shopify V2"
+
+    !!! warning
+
+        Not supported in this version of the RevenueHunt app. 
+
+    Not supported in this version of the RevenueHunt app.  However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
+
+
+=== "WooCommerce"
+
+
+    1. **Initial Setup**: To begin, insert the following code into your store's theme, ideally just before the closing `</head>` tag:
+      ```html
+      <script>
+        function prqQuizCallback(quizResponse){
+          console.log(quizResponse);
+        }
+      </script>
+      ```
+        This simple example utilizes a `console.log()` function to output the JSON containing all the quiz response data. However, this is merely a starting point. Developers are encouraged to tailor the above callback function to meet their specific needs.
+    2. **Store the Data**: Confirm that the callback response is being correctly stored on your website. An effective method involves wrapping the redirection logic within the callback function itself. This ensures the data is mapped or saved before any redirection takes place. For example:
+        ```javascript
+        function prqQuizCallback(quizResponse) {
+        // Code to map or save the data...
+
+        // Then, redirect the user to the desired page:
+        window.location.href = 'yourTargetURLHere';
+        }
+        ```
+        Choose an appropriate storage solution for the callback response, such as cookies, local storage, or even as query parameters in the URL, depending on your specific needs and the nature of the data.
+
+    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage, before any redirection occurs. It's critical to ensure the results page is accessed even for a fraction of a second to allow this process to unfold correctly.
+    4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
+        - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
+          ```html
+          prqSlideCallback(event);
+          // triggered when customer responds to a question (slide)
+
+          prqAddOneToCartCallback(event);
+          // triggered when customer adds one product to cart 
+
+          prqAddedOneToCartCallback(event);
+          // triggered when the product has already been added to the cart 
+        
+          prqRemoveOneFromCartCallback(event);
+          // triggered when customer removes one product from cart 
+
+          prqRemovedOneFromCartCallback(event);
+          // triggered when the product has already been removed from the cart (only Shopify) 
+
+          prqAddAllToCartCallback(event); 
+          // triggered when customer adds all products to cart 
+
+          prqAddedAllToCartCallback(event);
+          // triggered when all the products have already been added to the cart 
+
+          prqAppLoadedCallback();
+          // triggered when the Product Recommendation Quiz app has been loaded 
+          ```
+
+=== "Magento"
+
+
+    1. **Initial Setup**: To begin, insert the following code into your store's theme, ideally just before the closing `</head>` tag:
+      ```html
+      <script>
+        function prqQuizCallback(quizResponse){
+          console.log(quizResponse);
+        }
+      </script>
+      ```
+        This simple example utilizes a `console.log()` function to output the JSON containing all the quiz response data. However, this is merely a starting point. Developers are encouraged to tailor the above callback function to meet their specific needs.
+    2. **Store the Data**: Confirm that the callback response is being correctly stored on your website. An effective method involves wrapping the redirection logic within the callback function itself. This ensures the data is mapped or saved before any redirection takes place. For example:
+        ```javascript
+        function prqQuizCallback(quizResponse) {
+        // Code to map or save the data...
+
+        // Then, redirect the user to the desired page:
+        window.location.href = 'yourTargetURLHere';
+        }
+        ```
+        Choose an appropriate storage solution for the callback response, such as cookies, local storage, or even as query parameters in the URL, depending on your specific needs and the nature of the data.
+
+    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage, before any redirection occurs. It's critical to ensure the results page is accessed even for a fraction of a second to allow this process to unfold correctly.
+    4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
+        - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
+          ```html
+          prqSlideCallback(event);
+          // triggered when customer responds to a question (slide)
+
+          prqAddOneToCartCallback(event);
+          // triggered when customer adds one product to cart 
+
+          prqAddedOneToCartCallback(event);
+          // triggered when the product has already been added to the cart 
+        
+          prqRemoveOneFromCartCallback(event);
+          // triggered when customer removes one product from cart 
+
+          prqRemovedOneFromCartCallback(event);
+          // triggered when the product has already been removed from the cart (only Shopify) 
+
+          prqAddAllToCartCallback(event); 
+          // triggered when customer adds all products to cart 
+
+          prqAddedAllToCartCallback(event);
+          // triggered when all the products have already been added to the cart 
+
+          prqAppLoadedCallback();
+          // triggered when the Product Recommendation Quiz app has been loaded 
+          ```
+
+=== "BigCommerce"
+
+
+    1. **Initial Setup**: To begin, insert the following code into your store's theme, ideally just before the closing `</head>` tag:
+      ```html
+      <script>
+        function prqQuizCallback(quizResponse){
+          console.log(quizResponse);
+        }
+      </script>
+      ```
+        This simple example utilizes a `console.log()` function to output the JSON containing all the quiz response data. However, this is merely a starting point. Developers are encouraged to tailor the above callback function to meet their specific needs.
+    2. **Store the Data**: Confirm that the callback response is being correctly stored on your website. An effective method involves wrapping the redirection logic within the callback function itself. This ensures the data is mapped or saved before any redirection takes place. For example:
+        ```javascript
+        function prqQuizCallback(quizResponse) {
+        // Code to map or save the data...
+
+        // Then, redirect the user to the desired page:
+        window.location.href = 'yourTargetURLHere';
+        }
+        ```
+        Choose an appropriate storage solution for the callback response, such as cookies, local storage, or even as query parameters in the URL, depending on your specific needs and the nature of the data.
+
+    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage, before any redirection occurs. It's critical to ensure the results page is accessed even for a fraction of a second to allow this process to unfold correctly.
+    4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
+        - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
+          ```html
+          prqSlideCallback(event);
+          // triggered when customer responds to a question (slide)
+
+          prqAddOneToCartCallback(event);
+          // triggered when customer adds one product to cart 
+
+          prqAddedOneToCartCallback(event);
+          // triggered when the product has already been added to the cart 
+        
+          prqRemoveOneFromCartCallback(event);
+          // triggered when customer removes one product from cart 
+
+          prqRemovedOneFromCartCallback(event);
+          // triggered when the product has already been removed from the cart (only Shopify) 
+
+          prqAddAllToCartCallback(event); 
+          // triggered when customer adds all products to cart 
+
+          prqAddedAllToCartCallback(event);
+          // triggered when all the products have already been added to the cart 
+
+          prqAppLoadedCallback();
+          // triggered when the Product Recommendation Quiz app has been loaded 
+          ```
+
+=== "Standalone"
+
+    1. **Initial Setup**: To begin, insert the following code into your store's theme, ideally just before the closing `</head>` tag:
+      ```html
+      <script>
+        function prqQuizCallback(quizResponse){
+          console.log(quizResponse);
+        }
+      </script>
+      ```
+        This simple example utilizes a `console.log()` function to output the JSON containing all the quiz response data. However, this is merely a starting point. Developers are encouraged to tailor the above callback function to meet their specific needs.
+    2. **Store the Data**: Confirm that the callback response is being correctly stored on your website. An effective method involves wrapping the redirection logic within the callback function itself. This ensures the data is mapped or saved before any redirection takes place. For example:
+        ```javascript
+        function prqQuizCallback(quizResponse) {
+        // Code to map or save the data...
+
+        // Then, redirect the user to the desired page:
+        window.location.href = 'yourTargetURLHere';
+        }
+        ```
+        Choose an appropriate storage solution for the callback response, such as cookies, local storage, or even as query parameters in the URL, depending on your specific needs and the nature of the data.
+
+    3. **Access the Results Page First**: The callback function is designed to trigger upon reaching the quiz's results page. This sequence ensures that the callback captures the quiz response, saving it as JSON in your website's local storage, before any redirection occurs. It's critical to ensure the results page is accessed even for a fraction of a second to allow this process to unfold correctly.
+    4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
+        - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
+          ```html
+          prqSlideCallback(event);
+          // triggered when customer responds to a question (slide)
+
+          prqAddOneToCartCallback(event);
+          // triggered when customer adds one product to cart 
+
+          prqAddedOneToCartCallback(event);
+          // triggered when the product has already been added to the cart 
+        
+          prqRemoveOneFromCartCallback(event);
+          // triggered when customer removes one product from cart 
+
+          prqRemovedOneFromCartCallback(event);
+          // triggered when the product has already been removed from the cart (only Shopify) 
+
+          prqAddAllToCartCallback(event); 
+          // triggered when customer adds all products to cart 
+
+          prqAddedAllToCartCallback(event);
+          // triggered when all the products have already been added to the cart 
+
+          prqAppLoadedCallback();
+          // triggered when the Product Recommendation Quiz app has been loaded 
+          ```
 
 
 ## Seeing Callback Function in Action
