@@ -4,9 +4,13 @@ icon: material/cart-arrow-right
 
 # How to Change Checkout Settings on Your Results Page
 
-Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allows you to choose whether your customers will proceed to the cart, checkout or the product page from the results page. Follow the instructions below to change your checkout settings:
+Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allows you to choose whether your customers will proceed to the cart, checkout or the product page from the results page. 
+
+Follow the instructions below to change your checkout settings:
 
 === "Shopify"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f2ddc47043904e48bb08cbadc6f24233?sid=2f93b324-dc00-42ff-89cf-bd759e0f3a44" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Access Results Page Settings**: Begin by navigating to the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](/reference/quiz-builder/results-page/). Click this icon to proceed.
 
@@ -36,6 +40,8 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
 === "Shopify V2"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/06af5680a59145e1838fe2bcfdcbd583?sid=4ad4cf1d-2aa4-4fec-9d5d-58d86da70932" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
     1. Open the [Results Page](/reference/quiz-builder/results-page/).
@@ -58,6 +64,8 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
     4. Click the top-right `Save` button to update the preview/live quiz.
 
 === "WooCommerce"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f2ddc47043904e48bb08cbadc6f24233?sid=2f93b324-dc00-42ff-89cf-bd759e0f3a44" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Access Results Page Settings**: Begin by navigating to the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](/reference/quiz-builder/results-page/). Click this icon to proceed.
 
@@ -87,6 +95,9 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
 === "Magento"
 
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f2ddc47043904e48bb08cbadc6f24233?sid=2f93b324-dc00-42ff-89cf-bd759e0f3a44" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     1. **Access Results Page Settings**: Begin by navigating to the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](/reference/quiz-builder/results-page/). Click this icon to proceed.
 
     2. **Locate Checkout Settings**: Within the settings menu, navigate to the `Basic` section, and from there, find the `Checkout Settings`. 
@@ -111,6 +122,9 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
         3. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 === "BigCommerce"
+
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f2ddc47043904e48bb08cbadc6f24233?sid=2f93b324-dc00-42ff-89cf-bd759e0f3a44" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Access Results Page Settings**: Begin by navigating to the [Results Page](/reference/quiz-builder/results-page/) tab in the [Quiz Builder](/reference/quiz-builder/). Here, you will find a clog icon indicating the [Results Page settings](/reference/quiz-builder/results-page/). Click this icon to proceed.
 
@@ -149,4 +163,4 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
 ---
 
-By following these steps, you can customize the checkout experience on your eCommerce quiz, improving the customer journey from product discovery to purchase.
+By following these steps, you can edit the checkout settings on your RevenueHunt eCommerce quiz.
