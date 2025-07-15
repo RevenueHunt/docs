@@ -12,7 +12,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 === "Shopify"
 
-    1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
+    1. **Navigate to the Conditional Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab, select the last question in the quiz (or another question if you want to redirect the customer after a specific question). In the menu that opens, go the [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) tab. 
     2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
     	![how to redirect quiz ot another page jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
     3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
@@ -21,7 +21,9 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 === "Shopify V2"
 
-    1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
+      <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/312b3b8099174391abe9f5f17b6918bb?sid=2f2dc229-23be-418c-9c7a-ab66922c30f8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    1. **Navigate to the Conditional Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab, select the last question in the quiz (or another question if you want to redirect the customer after a specific question). In the menu that opens, go the [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) tab. 
     2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
     	![how to redirect quiz ot another page jump logic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
     3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
@@ -30,7 +32,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 === "WooCommerce"
 
-    1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
+    1. **Navigate to the Conditional Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab, select the last question in the quiz (or another question if you want to redirect the customer after a specific question). In the menu that opens, go the [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) tab. 
     2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
     	![how to redirect quiz ot another page jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
     3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
@@ -39,7 +41,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 === "Magento"
 
-    1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
+    1. **Navigate to the Conditional Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab, select the last question in the quiz (or another question if you want to redirect the customer after a specific question). In the menu that opens, go the [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) tab. 
     2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
     	![how to redirect quiz ot another page jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
     3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
@@ -48,7 +50,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 === "BigCommerce"
 
-    1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
+    1. **Navigate to the Conditional Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab, select the last question in the quiz (or another question if you want to redirect the customer after a specific question). In the menu that opens, go the [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) tab. 
     2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
     	![how to redirect quiz ot another page jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
     3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
@@ -57,7 +59,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 === "Standalone"
 
-    1. **Navigate to the Jump Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) settings.
+    1. **Navigate to the Conditional Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab, select the last question in the quiz (or another question if you want to redirect the customer after a specific question). In the menu that opens, go the [`Jump Logic`](/reference/quiz-builder/
     2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
     	![how to redirect quiz ot another page jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
     3. **Publish & Test Your Setup**: Click the top-right `Publish/Save` button to update the preview/live quiz. Then, `Preview` the quiz to ensure the redirection wors correctly. 
@@ -87,7 +89,11 @@ You can use our [callback function](/how-to-guides/use-callback-function/) to re
 
 === "Shopify V2"
 
-    The callback function is not supported in Shopify V2. However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
+    !!! warning
+
+          The callback function is not supported in Shopify V2.
+
+      The callback function is not supported in Shopify V2. However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
 
 === "WooCommerce"
 
