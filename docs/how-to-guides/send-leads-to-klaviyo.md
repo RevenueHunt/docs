@@ -64,6 +64,8 @@ This article walks you through the process of connecting your quiz to Klavviyo a
 
 === "Shopify V2"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/6727d1784d0043fabf3ea67b4ffff9cb?sid=fedc89b4-df6e-4932-af42-824695fd64ee" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     To connect the quiz to Klaviyo you’ll have to provide your Klaviyo **Public API Key**. Public API Key is essential because it allows us to send information to Klaviyo Profiles.
 
     2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
@@ -237,15 +239,22 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 === "Shopify V2"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/126845d7c0604a179bfb13008ecec49b?sid=56d70777-4fcf-4dc7-b336-7503f1e003c4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
-    2. You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
-    3. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
-    4. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
+
+        !!! tip
+
+            You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
+    2. **Connect Quiz to Klaviyo**: Follow the instructions in [this section](#link-your-quiz-to-klaviyo) to learn how to connect your quiz to Klaviyo correctly.
+    3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
         1. To create a new segment in Klaviyo go to `Audience > List & Segements` and click `create a new Segment`.
         2. Name the segment and set up the definition.
         3. The `ANSWERS_BY_BLOCK-{{quiz_id}}` property is unique for profiles coming from the quiz. If you don’t see the ANSWERS_BY_BLOCK property in the dropdown menu, you may need to take a test quiz and try again.
         4. Click `Create a segment`. Now all the contacts coming from the quiz will also be added to this specific segment.
+
+
 
     5. **Create an Email Flow**: You’ll have to create a flow that is triggered when someone gets added to the segment we created in the previous step. This is the trickiest part, the emails you send have to be custom-built in Klaviyo. 
 
@@ -256,14 +265,16 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         5. Confirm with `DONE`.
         6. Grab the `EMAIL` action and drop it below the flow trigger.
 
+        ![how to send leads to klaviyo shopify v2 create email flow](https://loom.com/i/01df24e93900407b9141998dfb070a2e?workflows_screenshot=true)
+
     6. **Edit the Email**: In the next steps, you should edit the email template.
 
         7. Click on the `three dots` and edit the email.
         8. Edit the template to your liking. To add content from the quiz, add an `HTML element` into your template.
         9. From the `Integrations >  Klaviyo` tab you can download a list of HTML/Django email template codes that you can use to add content from the quiz to you Klaviyo email template. For example, you will find there codes to display the list of recommended products, the customer answers or the result page content.
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how_to_klaviyo_shopify_v2_get_template.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how_to_klaviyo_shopify_v2_copy_template.png)
+            ![how to send leads to klaviyo email tempalte download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
+            ![how to send leads to klaviyo email tempalte download2](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
 
             !!! warning
 
@@ -274,6 +285,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
                 If you would rather create your own email template, check [this section](#use-quiz-data-in-klaviyo-email-templates) for more details.
 
         12. Paste the new template code into the HTML element.
+
+            ![how to send leads to klaviyo shopify v2 example template in klaviyo](https://loom.com/i/04a9f5a3d3a040d2a97c2b393fc18c41?workflows_screenshot=true)
         13. You can then `preview` the email as one of your segment subscribers.
         14. Make sure to `Save` the changes and click `Done`.
         15. Return to your flow and turn your email `LIVE`.
@@ -525,6 +538,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     11. Remember to test the connection with a sample email.
 
 === "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f3e6576d0f4a4c4583255723ef8987cf?sid=833abcf5-148e-4db5-bcf2-d1694339ffea" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     RevenueHunt app allows you to add contacts from the quiz directly to a list in Klaviyo. 
 
