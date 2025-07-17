@@ -788,13 +788,15 @@
 
     `Slot 1` - Slots allow you to recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...). 
     
-    !!! info
+    !!! info "How Slots Work"
 
         Slots display products based on the `Recommendations system` set up in [Product Block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
         
         If the recommendations system is set to `Based on customer's reponses` then the slot will display the most voted products based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
 
         If the recommendations system is set to `Fixed` then the slot will display the products that are linked to the slot.
+
+        <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/3dcb55fbc6e749019fe609d311915de6?sid=44a004e0-acde-4fe8-9f50-6ca1e6f21289" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     `+ Add Slot` - Adds a new slot to the product/collection block.
 
