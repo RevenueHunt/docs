@@ -353,9 +353,32 @@
     
     Once uploaded click `Change`to change the image or `Remove` to remove it. 
 
-    `Image postion` - Place the image as a `background` or `split` the screen in half with the image. 
+    **Background image settings**
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png){width="300"}
+
+    `Image layout` - Place the image as a `background` or `split` the screen in half with the image. 
 
     `Image opacity` - Use the slider to change opacity percentage of the uplaoded image.
+
+    **Split image settings**
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png)
+
+    `Image layout` - Place the image as a `background` or `split` the screen in half with the image. 
+
+    `Image opacity` - Use the slider to change opacity percentage of the uplaoded image.
+
+    `Image position (desktop)` - Choose whether the image should be placed `left` or `right` of the question on desktop.
+
+    `Image position (mobile)` - Choose whether the image should be placed `above`, `below` a question or `hidden` on mobile.
+
+    !!! tip
+        Switch between the desktop and mobile view by clicking the `desktop` or `mobile` icon in the top right corner of the middle screen.
+
+    !!! tip
+        Check this guide to learn how to optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
+
 
     `Custom CSS code` -  Expand to add your own custom CSS code to this section only. 
 
@@ -767,6 +790,13 @@
     `Hide checkbox/radio` - When checked hides the checkbox element from picture choices.
 
     `Hide image label` - when checked hides the text below each picture choice.
+
+    `Fit full image in box (no cropping)` - When checked, the image will be displayed in the box without cropping.
+
+    `Optimize images size` - If unchecked, the images will be loaded at their original size.
+
+    !!! tip
+        Check this guide to learn how to optimize your images for the quiz: [How to Optimize Images for the Quiz](/how-to-guides/add-adjust-images/).
 
     `🗑 Remove block` - Click to delete this block.
 
