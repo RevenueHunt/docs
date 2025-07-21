@@ -6,23 +6,114 @@ We’re thrilled to introduce the Built for Shopify version of our RevenueHunt a
 <iframe src="https://www.youtube.com/embed/MeWGbfCLnEw?si=ZXy4Q8tWkmwv5WRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-This new version represents a major leap forward, built from the ground up using insights gathered over six years of supporting Shopify stores with personalized product recommendation quizzes. With a redesigned architecture and a more intuitive user interface, our Built for Shopify app is tailored to provide a smoother, more powerful experience.
+This new version has been completely reimagined from the ground up to offer a seamless, modern experience tailored for Shopify merchants.
 
 ![shopifyv2_vid2](/images/shopifyv2_vid2.gif)
 
-In this guide, we’ll walk you through everything you need to know about transitioning to our Built for Shopify app, including the switching process, key differences between versions, and how to provide feedback to help us refine the app even further. Let’s get started!
+In this guide, we’ll walk you through everything you need to know about transitioning from the Legacy app to our Built for Shopify app, including the switching process, key differences between versions, and how to provide feedback to help us refine the app even further. Let’s get started!
 
-## Transitioning to Built for Shopify: What You Need to Know
+!!! info "What is Built for Shopify?"
 
-As a beta tester, you'll have exclusive early access to our Built for Shopify app, giving you the chance to explore its enhanced capabilities while enjoying free usage during the beta phase. Plus, as a thank-you for being part of this exciting journey, you’ll receive a 25% lifetime discount on all plans once the Built for Shopify version is officially released.
+    Built for Shopify is Shopify’s highest standard for app development. BFS apps are:
 
-Please note that the Built for Shopify app is a fresh start: **you’ll need to recreate your quizzes, including all questions, choices, and product or collection recommendations**. But rest assured, you can switch between the Legacy and Built for Shopify versions at any time if you need to.
+    - Natively optimized for Shopify
 
-!!! important
+    - Faster, more secure, and scalable
 
-    During the beta phase, **usage is FREE**, and once we release, you'll receive a **25% discount** on all our plans for life.
+    - Seamlessly integrated with Shopify admin
 
-## Switch between the Legacy and Built for Shopify versions
+    By switching to our BFS version of our RevenueHunt app, you’re upgrading to an app that performs better, works more intuitively, and is future-ready.
+
+## Key Feature Improvements
+
+### Core Functionality
+
+| Feature                         | Legacy App              | Built for Shopify (Beta) |
+|---------------------------------|--------------------------|---------------------------|
+| Build Quizzes                   | ✅                       | ✅                        |
+| Recommend Products & Variants  | ✅                       | ✅                        |
+| Recommend Collections           | ❌                       | ✅ 👈                      |
+| Fixed Recommendations           | ❌                       | ✅ 👈                      |
+| Large Product Catalog Support   | ❌ (Limited to 5K)       | ✅ 👈                      |
+| Shopify Markets Support         | ❌                       | ✅ 👈                      |
+| Add Product to Cart             | ✅                       | ✅                        |
+| Send Result Emails              | ✅                       | ✅                        |
+
+
+**Shopify Markets Support 🌍** - The BFS version now integrates with Shopify Markets, allowing multilingual and multi-currency quizzes. Merchants can create separate quizzes for different languages and automatically assign quizzes to the right market based on visitor location.
+
+![shopify markets support](https://docs.revenuehunt.com/images/manual_shopifyV2_appsettings_markets_showall.png){width="500"}
+
+
+**Flexible Recommendation System** - You now have full control with Fixed and Dynamic Recommendations. Dynamic: Tailored based on responses. Fixed: Manually chosen, static for all users. By Slot: Combine both approaches for even greater control.
+
+![recommendations system](https://revenuehunt.com/wp-content/uploads/2025/03/recommendationssystemsv2.png)
+
+**Recommend Entire Collections** - Now you can suggest whole collections instead of just individual products. Perfect for bundles, seasonal lines, or product types. Keeps content fresh with automatic collection updates.
+
+![recommend collections](https://revenuehunt.com/wp-content/uploads/2025/03/collectionsrecommend.png)
+
+
+### Improved Design and Publishing Options
+
+| Feature                    | Legacy App         | Built for Shopify (Beta)    |
+|----------------------------|--------------------|------------------------------|
+| Quiz Embed                 | ❌ (iframe)        | ✅ (native block or popup) 👈 |
+| Modern Templates           | ❌                 | ✅ 👈                          |
+| In-App Customization       | ❌ (limited)       | ✅ (extensive) 👈              |
+| Drag-and-Drop Builder      | ❌                 | ✅ 👈                          |
+| Custom CSS/JS              | ✅                 | ✅                            |
+| Mobile-Friendly            | ✅                 | ✅                            |
+
+
+
+**Fully Native Store Integration** - No more iframes—your quiz is now fully embedded as a Shopify block or popup. Compatible with third-party apps, analytics, and checkout flows. Faster and more SEO/analytics friendly.
+
+![native store integration](https://revenuehunt.com/wp-content/uploads/2025/03/embedquiz-768x582.png)
+
+**Powerful Design System 🎨** - With the new Shopify-like Block Editor, you can add/reorder blocks for questions, results, product slots, HTML, etc. Customize typography, colors, buttons, layout—no code needed. This lets you create stunning quizzes that truly match your brand.
+
+![power design system](https://revenuehunt.com/wp-content/uploads/2025/03/quizdesignv2-768x559.png)
+
+**New Drag-and-Drop Conditional Logic 👆🏼** - Design complex branching paths with ease using our visual interface for jump/skip logic. Intuitive system similar to Shopify's theme editor. Perfect for personalized journeys and advanced quiz flows.
+
+![new drag and drop conditional logic](https://docs.revenuehunt.com/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
+
+
+### Integrations
+
+| Integration                   | Legacy App | Built for Shopify (Beta) |
+|-------------------------------|------------|---------------------------|
+| Shopify Discounts             | ✅         | ❌ (Coming Soon)          |
+| Product Metafields Sync       | ✅         | ✅                        |
+| Recharge Subscriptions        | ✅         | ❌                        |
+| Google Analytics 4 (GA4)      | ✅         | ✅                        |
+| Meta (Facebook) Pixel         | ✅         | ✅                        |
+| Klaviyo Integration           | ✅         | ✅                        |
+| Mailchimp Integration         | ✅         | ❌ (Coming Soon)          |
+| ActiveCampaign Integration    | ✅         | ❌ (Coming Soon)          |
+| HubSpot Integration           | ✅         | ❌ (Coming Soon)          |
+| Omnisend Integration          | ✅         | ✅                        |
+| Webhooks Support              | ✅         | ✅          |
+
+
+## Switch between Legacy and Built for Shopify versions
+
+!!! info "Why Switch to the Built for Shopify Version?"
+
+    - 💰 25% Lifetime Discount — For all beta testers. During the beta phase, **usage is FREE**, and once we release, you'll receive a **25% discount** on all our plans for life.
+
+    - ⚙️ Modern & Fast Interface — Built to feel like a natural extension of Shopify
+
+    - 🧩 More Customization — Visual builder, native blocks, smart logic
+
+    - 🌐 Shopify Markets Support — Perfect for global brands
+
+    - 🛒 Flexible Recommendations — Products, variants, or entire collections
+
+!!! warning
+
+    Please note that the Built for Shopify app is a fresh start: **you’ll need to recreate your quizzes, including all questions, choices, and product or collection recommendations**. But rest assured, you can switch between the Legacy and Built for Shopify versions at any time if you need to.
 
 1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
 2. Grant permissions to connect our app to your Shopify.
@@ -33,24 +124,12 @@ Please note that the Built for Shopify app is a fresh start: **you’ll need to 
 
 5. Confirm app access and permissions. 
 6. From the `Built for Shopify` version, you can easily switch back to the legacy version of the app following the same steps.
+7. If you find that you prefer the Legacy app, you can easily [switch back through the same settings](/reference/dashboard/#switch-to-v1). We will continue to maintain it for years to come.
 
-## Important Notes
 
-- **New Experience:** Our Built for Shopify app is designed primarily for new users and may present challenges for those familiar with the Legacy app.
-- **Beta Status:** As this version is still in beta, it may not include all the features of the Legacy app, and you might encounter some issues.
+!!! info "Support"
 
-    !!! warning
+    If you run into problems or notice missing features, please [report them to our support team](/how-to-guides/contact-customer-support/).
 
-        The Built for Shopify app **doesn't yet offer** the following features (these features are avialble in the Legacy RevenueHunt app):
-
-        - Analytics of quiz revenue.
-        - Adding or syncing discount codes from Shopify.
-        - Syncing of product metafields from Shopify.
-        - Publish quiz options as an automatic popup or chat icon.
-        - Recommending subscription products.
-        - Integration wtih Shopify Revenue Report.
-        - Integration with any CRM platform other than Klaviyo. Other integrations coming soon.
-
-- **Support:** If you run into problems or notice missing features, please [report them to our support team](/how-to-guides/contact-customer-support/).
-
-If you find that you prefer the Legacy app, you can easily switch back through the settings page. We will continue to maintain it for years to come.
+---
+This article explains what is the new Built for Shopify version of the RevenueHunt app and how to switch between the Legacy and Built for Shopify versions of the RevenueHunt app.
