@@ -10,6 +10,63 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
     - Quizzes that need to calculate scores that show different products
 
 
+## How to Add Scores or Variables to Choices
+
+=== "Shopify"
+
+    Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "Shopify V2" 
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f4daa9fcce0e4764865b49844600b7e0?sid=9529b937-8c1f-42f6-86b1-edcbbc717c8e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    Custom scores or variables can be assigned to choices in the quiz in order to set up a scoring quiz, personality type quiz, dosha quiz, etc.
+
+    To add scores or variables to choices, follow these steps:
+
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
+    2. Open the [Choice Settings](/reference/quiz-builder/choice-settings/).
+    3. Find the `Scores and calculations` section.
+    4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
+
+        ![how to add scores or variables to choices](https://loom.com/i/8180f5a1dd8c48a894ac3a6300bd7fe4?workflows_screenshot=true)
+        !!! example
+
+            - For choice one, set the score to 1.
+            - For choice two, set the score to 2.
+            - For choice three, set the score to 3.
+
+    5. To create a new variable, click on the `Search or create variable` search bar and start typing the name of the variable you want to create (e.g. `dry skin` or `variable1`). 
+    6. Once you've typed the full name, a dropdown will appear that will allow you to `Create a new variable "xxx"`. Click on it to add a new variable.
+
+        ![how to add scores or variables to choices](https://loom.com/i/7b28b691b0e8451dadaaab68807ae51f?workflows_screenshot=true)
+    7. Once a new variable is created, you can assign a score to it.
+    8. Repeat the process for each choice in that question and move on to the next question in your quiz.
+
+    !!! tip
+
+        To learn how to use these variables to set up a personality type quiz, dosha quiz, scoring quiz, etc. check out the following articles:
+
+        - [How to Use Display Logic](/how-to-guides/use-display-logic/)
+        - [How to Set Up a Personality Type Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
+        - [How to Set Up a Scoring Quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
+
+=== "WooCommerce"
+
+    Scoring system is not available in the WooCommerce version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "Magento"
+
+    Scoring system is not available in the Magento version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "BigCommerce"
+
+    Scoring system is not available in the BigCommerce version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+=== "Standalone"
+
+    Scoring system is not available in the Standalone version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
 ## Winning Variable Quiz 
 
 Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted varaible.
@@ -67,7 +124,11 @@ Follow these steps to set up a winning variable quiz:
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their skin condition. For example: itchiness, tightness, dryness, etc. if you are creating a quiz for a skin care brand.
 
-    2. **Assign Variables and Scores to Choices**: Go to each question in your quiz. For each choice, open the [choice settings](/reference/quiz-builderchoice-settings/) and assign varibales to each choice. 
+    2. **Assign Variables and Scores to Choices**: Go to each question in your quiz. For each choice, open the [choice settings](/reference/quiz-builderchoice-settings/) and [assign varibales to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices). 
+
+        !!! tip
+
+            To learn how to add scores or variables to choices, check out this guide: [How to Add Scores or Variables to Choices](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices).
 
         !!! example
 
@@ -288,9 +349,13 @@ Follow these steps to set up a scoring quiz with one results page:
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, enviornemnet etc. if you are creating a quiz for a skin care brand.
 
-    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and assign appropriate point values to each choice via the [Choice Settings](/reference/quiz-builderchoice-settings/) section. 
+    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builderchoice-settings/) section. 
 
         ![assigning scores to choices](/images/how_to_shopifyv2_scoringquiz_addscore.png)
+
+        !!! tip
+
+            To learn how to add scores or variables to choices, check out this guide: [How to Add Scores or Variables to Choices](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices).
 
         !!! example
 
@@ -375,7 +440,11 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, enviornemnet etc. if you are creating a quiz for a skin care brand.
 
-    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and assign appropriate point values to each choice via the [Choice Settings](/reference/quiz-builderchoice-settings/) section. 
+    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builderchoice-settings/) section. 
+
+        !!! tip
+
+            To learn how to add scores or variables to choices, check out this guide: [How to Add Scores or Variables to Choices](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices).
 
         ![assigning scores to choices](/images/how_to_shopifyv2_scoringquiz_addscore.png)
 
