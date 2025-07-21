@@ -1,3 +1,8 @@
+---
+icon: material/image-area
+---
+
+
 # How to Add and Adjust Images in the Quiz
 
 
