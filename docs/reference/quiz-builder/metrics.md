@@ -122,6 +122,8 @@
 
     ![manual_shopifyV2_quizbuilder_responses_sample1](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
 
+    `Analyze response` - Click to open the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window. The Copilot will ask you the following question: *"I can help you analyze this quiz response. What seems to be the issue? You can select a common question below or type your own."* and once you reply it will provide a detailed analysis of the response, help you identify the root cause of the issue and suggest improvements.
+
     **Responses to questions** - Displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question. Click `▼` on a question to expand it and check the details.
 
     ![manual_shopifyV2_quizbuilder_responses_sample2](/images/manual_shopifyV2_quizbuilder_responses_sample2.png)

@@ -250,6 +250,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
             Clicking `Cancel` cancels the operation. Clicking `Set as default` will confirm the action.
 
+    - `Analyze Quiz` - Opens the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window. It asks the Copilot to *"Analyze my quiz and give me insights on how to improve it"*. Quiz Copilot will process the request and provide insights on how to improve the quiz.
     - `Responses` - Opens the [Responses](/reference/quiz-builder/metrics/#responses) page where it's possible to view, downalod and troubleshoot response for that quiz.
     - `Analytics` - Opens the [Analytics](/reference/quiz-builder/metrics/#analytics) page where all the quiz analytics are stored, including quiz starts, completions and revenue.
     - `Copy quiz ID:` - Copies the current quiz ID to clipboard.

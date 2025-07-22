@@ -25,6 +25,11 @@ icon: material/chat-question-outline
         - Explaining how to publish the quiz on your website
         - Creating a quiz from a copy/pasted text
         - Creating and editing a Klaviyo email template
+        - Analyzing quiz logic
+        - Analyzing product recommendations
+        - Analyzing quiz flow
+        - Improving engagement
+        - Improving quiz completion rate
 
     !!! warning "Quiz Copilot is still being improved"
 

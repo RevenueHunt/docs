@@ -77,22 +77,28 @@
         The [`Questions`](/references/quiz-builder/questions/) section allows you to add, edit and delete questions from your quiz.
     3. Quiz Preview 
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png){width="300"}
+        ![manual_shopifyV2_quizbuilder_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png){width="500"}
 
         All the changes that you make to your quiz will be reflected in the interactive Quiz Preview.
+
+        `˙⟡` - Click the stars icon to open the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window and ask for help in analyzing the quiz. Quiz Copilot will ask you the following question: *"I am here to help you analyze your quiz. What would you like to do? You will have some pre-determined options such as Analyze quiz logic, Analyze product recommendations, Analyze quiz flow, Improve engagement, Improve quiz completion rate"* and once you reply it will provide a detailed analysis of the quiz, help you identify the root cause of the issue and suggest improvements.
 
         You can toggle between the `Desktop` and the `Mobile` quiz preview with the top menu.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector.png)
 
-        Click the `Activate Inspector` icon to switch to the active inspector mode. In this mode you can click any element of the preview to open it's [Question/Editing Settings](questions/#question-settings).
+        Click the `Activate Inspector` / `Deactivate Inspector` icon to switch to the active inspector mode. In this mode you can click any element of the preview to open it's [Question/Editing Settings](questions/#question-settings).
+
+        Use the `↶` undo / `↷` redo buttons to revert your changes.
+
+
     4. Question Settings
 
         In the [`Question Settings`](/references/quiz-builder/questions/#question-settings) section adjust specific settings of the question, change elements alignment or upload an image.
 
     
     
-    Any changes you make to your quiz will be remembered and need to be saved with the top `Save` button in order to move on to the next section of the Quiz Builder.
+    Any changes you make to your quiz will be remembered and need to be saved with the top `Save` button in order to move on to the next section of the Quiz Builder. You can discard your changes by clicking the `Discard` button.
 
     ![manual_shopifyV2_quizbuilder_unsavedchanges](/images/manual_shopifyV2_quizbuilder_unsavedchanges.png)
 
@@ -101,8 +107,16 @@
 
     ![manual_shopifyV2_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_preview.png)
 
-    From the `...` menu	 you can open the Quiz Copilot (AI assistant) by clicking the `Quiz Copilot` icon, open the [Quiz settings](/reference/quiz-builder/quiz-settings/) or `Undo/Redo` your quiz changes. 
-   
+    From the `...` menu	 you can:
+    
+    `˙⟡ Quiz Copilot`- open the Quiz Copilot (AI assistant) by clicking the `Quiz Copilot` icon.
+
+    `Quiz settings`- open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
+
+    `Quiz Responses` - open the [Quiz Responses](/reference/quiz-builder/metrics/#quiz-responses) section.
+
+    `Analytics` - open the [Analytics](/reference/quiz-builder/metrics/#analytics) section.
+
 
 === "WooCommerce"
 
@@ -333,3 +347,6 @@
 - [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
 - [Share / Publish](/reference/quiz-builder/share-publish/)
 - [Metrics](/reference/quiz-builder/metrics/)
+
+---
+This is the RevenueHunt App Manual - Section: Quiz Builder.
