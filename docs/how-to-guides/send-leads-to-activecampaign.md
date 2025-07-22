@@ -4,7 +4,7 @@
 
     Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
 
-    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and enhanced customer engagement.
+    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and improved customer engagement.
 
     Before you begin, ensure you have:
 
@@ -23,7 +23,7 @@
 
     One option includes using our [Webhooks](/how-to-guides/send-leads-to-webhooks/) integration to send quiz leads to ActiveCampaign. Another, includes manually adding the quiz leads to ActiveCampaign by uploading a CSV file generated from the quiz.
 
-    This guide explain how you can send quiz data to Hubspot with a workaround.
+    This guide explain how you can send quiz data to ActiveCampaign with a workaround.
 
 
 === "WooCommerce"
@@ -31,7 +31,7 @@
 
     Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
 
-    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and enhanced customer engagement.
+    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and improved customer engagement.
 
     Before you begin, ensure you have:
 
@@ -48,7 +48,7 @@
 
     Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
 
-    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and enhanced customer engagement.
+    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and improved customer engagement.
 
     Before you begin, ensure you have:
 
@@ -65,7 +65,7 @@
 
     Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
 
-    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and enhanced customer engagement.
+    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and improved customer engagement.
 
     Before you begin, ensure you have:
 
@@ -82,7 +82,7 @@
 
     Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign allows for a seamless transition of valuable customer data directly into your email marketing campaigns and CRM management. 
 
-    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and enhanced customer engagement.
+    This guide will navigate you through the steps to link your quiz with ActiveCampaign, enabling you to use quiz data for targeted follow-ups and improved customer engagement.
 
     Before you begin, ensure you have:
 
@@ -421,24 +421,7 @@
 
         For more information about using data in customer profile for ActiveCampaign, please refer to [ActiveCampaign documentation](https://developers.activecampaign.com/reference/contact-fields).
 
-    Sample steps to add these custom fields to a new profile:
-
-    1. Navigate to `Lists -> Manage fields` within ActiveCampaign and click `Add Field` to create new fields for the extra quiz data.
-        ![how to send leads to activecampaign new field1](/images/how_to_send_leads_to_activecampaign_new_field1.png)
-    2. Name each field appropriately. These fields will be categorized under `General Details`.
-        ![how to send leads to activecampaign new field2](/images/how_to_send_leads_to_activecampaign_new_field2.png)
-    3. These fields will be categorized under `General Details`.
-        ![how to send leads to activecampaign new field3](/images/how_to_send_leads_to_activecampaign_new_field3.png)
-    3. Return to the Product Recommendation Quiz app in ActiveCampaign to map these new fields, ensuring future contacts from the quiz are enriched with this custom information.
-        ![how to activecampaign mapping](/images/how_to_activecampaign_mapping.png)
-
-    After that, all the new contacts from the quiz will receive more custom information.
-
-    ![how to activecampaign profile](/images/how_to_activecampaign_profile.png)
-
-
-
-
+    To set up a redirection of selected data to ActiveCampaign, you can use our Webhooks integration. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, check [ActiveCampaign's webhooks documentation](https://developers.activecampaign.com/page/webhooks) for more information on how to set up a redirection of selected data to ActiveCampaign.
 
 
 === "WooCommerce"
@@ -611,8 +594,7 @@
     To automate email communications based on quiz participation:
 
     1. Within ActiveCampaign, go to the `Automations` menu and create a new automation.
-    2. Set a trigger related to the Product Recommendation Quiz by selecting the appropriate quiz under `Apps`.
-        ![how to activecampaign automation](/images/how_to_activecampaign_automation.gif)
+    2. Set a trigger related to the custom properties you added to the contact profile via Webhooks.
     3. Following the trigger setup, design your email template. Incorporate personalization by adding `custom properties`, such as direct links to quiz responses, to your text blocks.
         ![how to activecampaign add custom properties](/images/how_to_activecampaign_add_custom_properties.gif)
 
@@ -680,8 +662,7 @@
 === "Shopify V2"
 
 
-
-    Unfortunately, for now, the only information about the recommended products we’re able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
+    Unfortunately, for now, the only information about the recommended products we were able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
 
     To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Shopify first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
 
@@ -691,7 +672,7 @@
 
     Unfortunately, for now, the only information about the recommended products we’re able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
 
-    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Shopify first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
+    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to WooCommerce first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
 
 === "Magento"
 
@@ -699,7 +680,7 @@
 
     Unfortunately, for now, the only information about the recommended products we’re able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
 
-    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Shopify first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
+    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Magento first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
 
 === "BigCommerce"
 
@@ -707,7 +688,7 @@
 
     Unfortunately, for now, the only information about the recommended products we’re able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
 
-    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Shopify first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
+    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to BigCommerce first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
 
 === "Standalone"
 
@@ -715,11 +696,11 @@
 
     Unfortunately, for now, the only information about the recommended products we’re able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
 
-    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Shopify first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
+    To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to your Google Product Catalog first.
 
 
 ---
-By following this article, you can set up your post-quiz email flow with ActiveCampaign.
+This article explaina how to connect the quiz to ActiveCampaign, send leads to ActiveCampaign and send follow-up emails with ActiveCampaign.
 
 
 
