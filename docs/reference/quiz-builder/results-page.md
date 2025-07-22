@@ -740,12 +740,10 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image.png)
 
-    `Picture size/ratio` - Choose the picture size for this block. Choose between Medium (1:1) or Original picture size (as uploaded to your Shopify Product).
-
-    `Optimize images size` - If unchecked, the images will be loaded at their original size.
+    `Picture size/ratio` - Choose the picture size for this block. Choose between `Medium (1:1)` or `Original` picture size (as uploaded to your Shopify Product). 
 
     !!! tip
-        Check this guide to learn how to optimize your images for the quiz: [How to Optimize Images for the Quiz](/how-to-guides/add-adjust-images/).
+        Check this guide to learn how to add and adjust images for the quiz: [How to Add and Adjust Images](/how-to-guides/add-adjust-images/).
 
     `Heading` - Add the product title.
 

@@ -793,10 +793,8 @@
 
     `Fit full image in box (no cropping)` - When checked, the image will be displayed in the box without cropping.
 
-    `Optimize images size` - If unchecked, the images will be loaded at their original size.
-
     !!! tip
-        Check this guide to learn how to optimize your images for the quiz: [How to Optimize Images for the Quiz](/how-to-guides/add-adjust-images/).
+        Check this guide to learn how to add and adjust images for the quiz: [How to Add and Adjust Images](/how-to-guides/add-adjust-images/).
 
     `🗑 Remove block` - Click to delete this block.
 

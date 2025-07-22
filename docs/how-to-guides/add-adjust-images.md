@@ -1317,10 +1317,6 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
         - `Hide checkbox/radio` to hide the checkbox/radio element from picture choices.
         - `Hide image label` to hide the text below each picture choice.
         - `Fit full image in box (no cropping)` to display the image in the box without cropping.
-        - `Optimize images size` to load the images in their original size. If unchecked, the images will be loaded at their original size.
-
-        !!! note
-            By default choice pictures are **compressed and optimized** for faster loading and better quiz performance. If you want to load images in their original size, you can uncheck the `Optimize images size` option.
 
     9. You can also enable the horizontal carousel on mobile by checking the `Enable horizontal carousel on mobile` option. 
 
@@ -1476,16 +1472,12 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     6. Under `+ Add block` you can add an extra block to the product slot. All the data are synced directly from your Shopify catalog.
 
-    7. Under `Image` you can adjust the image size and opacity.
+    7. Under `Image` you can adjust the image size.
 
         `Picture size/ratio` - Choose the picture size for this block. Choose between `Medium (1:1)` or `Original` picture size (as uploaded to your Shopify Product).
 
-        `Optimize images size` - If unchecked, the images will be loaded at their original size.
-
         !!! note
             Product images are taken directly from your Shopify catalog. Product slots diplsay the first image of the product, variant or a collection as uploaded to your Shopify Products/Collections section. 
-
-            By default product images are **compressed and optimized** for faster loading and better quiz performance. If you want to load images in their original size, you can uncheck the `Optimize images size` option.
 
 
         !!! tip
