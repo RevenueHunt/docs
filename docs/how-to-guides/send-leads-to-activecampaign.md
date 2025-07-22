@@ -400,7 +400,7 @@
 === "Shopify V2"
 
 
-    With the quiz integrated, you might want to enhance contact profiles with additional custom information derived from quiz results.
+    With the quiz integrated via [one of our alternative methods](/how-to-guides/send-leads-to-activecampaign/#alternative-ways-to-send-quiz-leads-to-activecampaign), you should be able to tag contact profiles with additional custom information derived from quiz results.
 
     Here’s a list of additional custom information that can be added to your contact profile:
 
@@ -415,7 +415,13 @@
     - Permalink Hash
     - Recommended Product IDs
 
-    To add these fields to a new profile:
+    !!! warning
+
+        Since you are using one of our alternative methods to connect to ActiveCampaign, you will have full control over the data that is sent to ActiveCampaign. The data provided above are only a list of the most common fields that are sent to ActiveCampaign.
+
+        For more information about using data in customer profile for ActiveCampaign, please refer to [ActiveCampaign documentation](https://developers.activecampaign.com/reference/contact-fields).
+
+    Sample steps to add these custom fields to a new profile:
 
     1. Navigate to `Lists -> Manage fields` within ActiveCampaign and click `Add Field` to create new fields for the extra quiz data.
         ![how to send leads to activecampaign new field1](/images/how_to_send_leads_to_activecampaign_new_field1.png)
