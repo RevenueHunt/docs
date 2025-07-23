@@ -109,6 +109,7 @@ nav:
       - Integrate Meta Pixel: how-to-guides/integrate-meta-pixel.md
       - Integrate Google Analytics: how-to-guides/integrate-google-analytics.md
       - Send Result Emails: how-to-guides/send-result-emails.md
+      - Connect SMTP for Email: how-to-guides/send-result-emails-from-custom-server.md
       - Track Quiz Revenue: how-to-guides/track-quiz-revenue.md
       - Download Quiz Responses: how-to-guides/download-quiz-responses.md
     - Troubleshooting & Maintenance:
