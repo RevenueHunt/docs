@@ -18,15 +18,15 @@ The Meta Pixel is an essential analytics tool for tracking user interaction with
 
 === "Shopify"
 
-    If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+    If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
+    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.
 
 === "Shopify V2"
 
-    If you have not implemented a Pixel on your website yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, add it to your website.
+    If you have not implemented a Pixel on your website yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, add it to your website.
 
     To integrate the Meta Pixel with your quiz:
 
@@ -38,39 +38,39 @@ The Meta Pixel is an essential analytics tool for tracking user interaction with
 
 === "WooCommerce"
 
-    If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+    If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
+    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.
 
 === "Magento"
 
-    If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+    If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
+    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.
 
 === "BigCommerce"
 
-    If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+    If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
+    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.
 
 === "Standalone"
 
-    If you don't have a Pixel yet, set one up following [Facebook's guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
+    If you don't have a Pixel yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, integrate it with your quiz:
 
     1. Go to the [Connect](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
     2. Find the Meta Pixel section and hit `connect`.
-    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Facebook.
+    3. Enter your unique `Meta Pixel ID`. If you haven’t created one already, follow [these instructions](https://www.facebook.com/business/help/952192354843755?id=1205376682832142) to create a new Pixel in Meta.
 
-## Tracking Engagement with Facebook Events Manager
+## Tracking Engagement with Meta Events Manager
 
-With the Pixel activated, the Facebook **Events Manager dashboard** becomes a window into how users interact with your quiz. This data is vital for crafting [Custom Audiences](https://www.facebook.com/business/learn/lessons/custom-audience-tips-with-facebook-pixel) and [Lookalike Audiences](https://www.facebook.com/business/help/164749007013531?id=401668390442328) to refine your marketing strategies.
+With the Pixel activated, the Meta **Events Manager dashboard** becomes a window into how users interact with your quiz. This data is vital for crafting [Custom Audiences](https://www.facebook.com/business/learn/lessons/custom-audience-tips-with-facebook-pixel) and [Lookalike Audiences](https://www.facebook.com/business/help/164749007013531?id=401668390442328) to refine your marketing strategies.
 
 ![how to integrate fb pixel events](/images/how_to_fb_pixel_events.png)
 
