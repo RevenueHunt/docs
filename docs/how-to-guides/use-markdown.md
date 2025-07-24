@@ -16,6 +16,8 @@ icon: material/format-header-pound
         Markdown allows you to format words as bold or italic, add images, create lists, and much more, using just regular text with a few non-alphabetic characters, such as `#` or `*`. It's designed to be as straightforward as possible, making it accessible for anyone to learn and use.
 
 
+
+
 === "Shopify V2"
 
     The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.

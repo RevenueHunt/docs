@@ -9,6 +9,8 @@ When integrating a quiz into your online store, it's crucial to ensure it loads 
 This guide outlines steps to diagnose and resolve quiz loading issues by optimizing the loading process.
 
 
+
+
 === "Shopify"
 
     
