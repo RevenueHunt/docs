@@ -10,6 +10,7 @@ Transferring a quiz from one store to another with the RevenueHunt app is straig
     Before you begin, ensure the [RevenueHunt app](https://revenuehunt.com/product-recommendation-quiz-shopify/) is installed on both the original and the new store.
 
 
+
 !!! warning
 
     It is not possible to copy a quiz created with the legacy version of the RevenueHunt app into the new Built for Shopify version of the app.
