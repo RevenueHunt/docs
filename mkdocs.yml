@@ -41,8 +41,8 @@ theme:
   favicon: images/revenuehunt-logo-black.webp
 plugins:
   - search
-  - copy_markdown_plugin
   - git-revision-date-localized
+  - copy_markdown_plugin
 nav:
   - Docs:
     - Docs: index.md
