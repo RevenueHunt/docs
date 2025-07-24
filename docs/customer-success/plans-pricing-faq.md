@@ -1,54 +1,446 @@
 ## Plans & Pricing Details
 
-- We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
-- Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
-- If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
-- We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
-- If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
-- There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
+=== "Shopify"
+
+
+    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
+    - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
+    - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
+    - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
+
+
+=== "Shopify V2"
+
+
+    !!! warning
+    
+        The app is curently in **beta testing phase** and the usage is completely **free**. You will be notified once the beta phase will be coming to a close with sufficient time to decide if you want to upgrade to a paid plan. If your quiz usage is below the limits of the free plan, you can stay on the free plan.
+
+
+    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
+    - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
+    - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
+    - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
+
+
+
+=== "WooCommerce"
+
+
+    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
+    - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
+    - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
+    - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
+
+
+
+=== "Magento"
+
+
+    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
+    - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
+    - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
+    - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
+
+
+
+=== "BigCommerce"
+
+
+    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
+    - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
+    - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
+    - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
+
+
+
+=== "Standalone"
+
+
+    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
+    - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
+    - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
+    - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
+
+
+
 
 ### Plan Options and Responses
 
-| Plan Name       | Monthly Fee | Max. Responses | Cost per Response  |
-|-----------------|-------------|----------------|--------------------|
-| Free            | 0 USD/mo.   | 100/mo.        | -                  |
-| Basic           | 39 USD/mo.  | 500/mo.        | 0.080 USD/response |
-| Pro             | 99 USD/mo.  | 1000/mo.       | 0.010 USD/response |
-| Premium         | 199 USD/mo. | 2500/mo.       | 0.080 USD/response |
-| Enterprise 5K   | 299 USD/mo. | 5000/mo.       | 0.060 USD/response |
-| Enterprise 8K   | 399 USD/mo. | 8000/mo.       | 0.050 USD/response |
-| Enterprise 12K  | 499 USD/mo. | 12000/mo.      | 0.042 USD/response |
-| Enterprise 20K  | 599 USD/mo. | 20000/mo.      | 0.030 USD/response |
-| Enterprise 30K  | 699 USD/mo. | 30000/mo.      | 0.023 USD/response |
-| Enterprise 40K  | 799 USD/mo. | 40000/mo.      | 0.020 USD/response |
-| Enterprise 60K  | 899 USD/mo. | 60000/mo.      | 0.015 USD/response |
-| Enterprise 100K | 999 USD/mo. | 100000/mo.     | 0.010 USD/response |
-| Enterprise 150K | 1099 USD/mo.| 150000/mo.     | 0.007 USD/response |
-| Enterprise 200K | 1199 USD/mo.| 200000/mo.     | 0.006 USD/response |
-| Enterprise 300K | 1299 USD/mo.| 300000/mo.     | 0.004 USD/response |
-| Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
+=== "Shopify"
+
+    | Plan Name       | Monthly Fee | Max. Responses | Cost per Response  |
+    |-----------------|-------------|----------------|--------------------|
+    | Free            | 0 USD/mo.   | 100/mo.        | -                  |
+    | Basic           | 39 USD/mo.  | 500/mo.        | 0.080 USD/response |
+    | Pro             | 99 USD/mo.  | 1000/mo.       | 0.010 USD/response |
+    | Premium         | 199 USD/mo. | 2500/mo.       | 0.080 USD/response |
+    | Enterprise 5K   | 299 USD/mo. | 5000/mo.       | 0.060 USD/response |
+    | Enterprise 8K   | 399 USD/mo. | 8000/mo.       | 0.050 USD/response |
+    | Enterprise 12K  | 499 USD/mo. | 12000/mo.      | 0.042 USD/response |
+    | Enterprise 20K  | 599 USD/mo. | 20000/mo.      | 0.030 USD/response |
+    | Enterprise 30K  | 699 USD/mo. | 30000/mo.      | 0.023 USD/response |
+    | Enterprise 40K  | 799 USD/mo. | 40000/mo.      | 0.020 USD/response |
+    | Enterprise 60K  | 899 USD/mo. | 60000/mo.      | 0.015 USD/response |
+    | Enterprise 100K | 999 USD/mo. | 100000/mo.     | 0.010 USD/response |
+    | Enterprise 150K | 1099 USD/mo.| 150000/mo.     | 0.007 USD/response |
+    | Enterprise 200K | 1199 USD/mo.| 200000/mo.     | 0.006 USD/response |
+    | Enterprise 300K | 1299 USD/mo.| 300000/mo.     | 0.004 USD/response |
+    | Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
+
+
+=== "Shopify V2"
+
+
+    !!! warning
+    
+        The app is curently in **beta testing phase** and the usage is completely **free**. You will be notified once the beta phase will be coming to a close with sufficient time to decide if you want to upgrade to a paid plan. If your quiz usage is below the limits of the free plan, you can stay on the free plan.
+
+
+    | Plan name  | Monthly fee      | Max. responses   | Cost per response |
+    |------------|------------------|------------------|-------------------|
+    | Free       | $0 USD/mo.       | 100 /30 days     | Free              |
+    | Basic      | $39 USD/mo.      | 500 /30 days     | $0.078 USD        |
+    | Pro        | $99 USD/mo.      | 1,000 /30 days   | $0.099 USD        |
+    | Premium    | $199 USD/mo.     | 2,500 /30 days   | $0.080 USD        |
+    | Unlimited  | $299 USD/mo.     | Unlimited        | -                 |
+
+
+
+=== "WooCommerce"
+
+
+    | Plan Name       | Monthly Fee | Max. Responses | Cost per Response  |
+    |-----------------|-------------|----------------|--------------------|
+    | Free            | 0 USD/mo.   | 100/mo.        | -                  |
+    | Basic           | 39 USD/mo.  | 500/mo.        | 0.080 USD/response |
+    | Pro             | 99 USD/mo.  | 1000/mo.       | 0.010 USD/response |
+    | Premium         | 199 USD/mo. | 2500/mo.       | 0.080 USD/response |
+    | Enterprise 5K   | 299 USD/mo. | 5000/mo.       | 0.060 USD/response |
+    | Enterprise 8K   | 399 USD/mo. | 8000/mo.       | 0.050 USD/response |
+    | Enterprise 12K  | 499 USD/mo. | 12000/mo.      | 0.042 USD/response |
+    | Enterprise 20K  | 599 USD/mo. | 20000/mo.      | 0.030 USD/response |
+    | Enterprise 30K  | 699 USD/mo. | 30000/mo.      | 0.023 USD/response |
+    | Enterprise 40K  | 799 USD/mo. | 40000/mo.      | 0.020 USD/response |
+    | Enterprise 60K  | 899 USD/mo. | 60000/mo.      | 0.015 USD/response |
+    | Enterprise 100K | 999 USD/mo. | 100000/mo.     | 0.010 USD/response |
+    | Enterprise 150K | 1099 USD/mo.| 150000/mo.     | 0.007 USD/response |
+    | Enterprise 200K | 1199 USD/mo.| 200000/mo.     | 0.006 USD/response |
+    | Enterprise 300K | 1299 USD/mo.| 300000/mo.     | 0.004 USD/response |
+    | Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
+
+
+
+=== "Magento"
+
+
+
+    | Plan Name       | Monthly Fee | Max. Responses | Cost per Response  |
+    |-----------------|-------------|----------------|--------------------|
+    | Free            | 0 USD/mo.   | 100/mo.        | -                  |
+    | Basic           | 39 USD/mo.  | 500/mo.        | 0.080 USD/response |
+    | Pro             | 99 USD/mo.  | 1000/mo.       | 0.010 USD/response |
+    | Premium         | 199 USD/mo. | 2500/mo.       | 0.080 USD/response |
+    | Enterprise 5K   | 299 USD/mo. | 5000/mo.       | 0.060 USD/response |
+    | Enterprise 8K   | 399 USD/mo. | 8000/mo.       | 0.050 USD/response |
+    | Enterprise 12K  | 499 USD/mo. | 12000/mo.      | 0.042 USD/response |
+    | Enterprise 20K  | 599 USD/mo. | 20000/mo.      | 0.030 USD/response |
+    | Enterprise 30K  | 699 USD/mo. | 30000/mo.      | 0.023 USD/response |
+    | Enterprise 40K  | 799 USD/mo. | 40000/mo.      | 0.020 USD/response |
+    | Enterprise 60K  | 899 USD/mo. | 60000/mo.      | 0.015 USD/response |
+    | Enterprise 100K | 999 USD/mo. | 100000/mo.     | 0.010 USD/response |
+    | Enterprise 150K | 1099 USD/mo.| 150000/mo.     | 0.007 USD/response |
+    | Enterprise 200K | 1199 USD/mo.| 200000/mo.     | 0.006 USD/response |
+    | Enterprise 300K | 1299 USD/mo.| 300000/mo.     | 0.004 USD/response |
+    | Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
+
+
+
+=== "BigCommerce"
+
+
+    | Plan Name       | Monthly Fee | Max. Responses | Cost per Response  |
+    |-----------------|-------------|----------------|--------------------|
+    | Free            | 0 USD/mo.   | 100/mo.        | -                  |
+    | Basic           | 39 USD/mo.  | 500/mo.        | 0.080 USD/response |
+    | Pro             | 99 USD/mo.  | 1000/mo.       | 0.010 USD/response |
+    | Premium         | 199 USD/mo. | 2500/mo.       | 0.080 USD/response |
+    | Enterprise 5K   | 299 USD/mo. | 5000/mo.       | 0.060 USD/response |
+    | Enterprise 8K   | 399 USD/mo. | 8000/mo.       | 0.050 USD/response |
+    | Enterprise 12K  | 499 USD/mo. | 12000/mo.      | 0.042 USD/response |
+    | Enterprise 20K  | 599 USD/mo. | 20000/mo.      | 0.030 USD/response |
+    | Enterprise 30K  | 699 USD/mo. | 30000/mo.      | 0.023 USD/response |
+    | Enterprise 40K  | 799 USD/mo. | 40000/mo.      | 0.020 USD/response |
+    | Enterprise 60K  | 899 USD/mo. | 60000/mo.      | 0.015 USD/response |
+    | Enterprise 100K | 999 USD/mo. | 100000/mo.     | 0.010 USD/response |
+    | Enterprise 150K | 1099 USD/mo.| 150000/mo.     | 0.007 USD/response |
+    | Enterprise 200K | 1199 USD/mo.| 200000/mo.     | 0.006 USD/response |
+    | Enterprise 300K | 1299 USD/mo.| 300000/mo.     | 0.004 USD/response |
+    | Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
+
+
+
+
+=== "Standalone"
+
+
+    | Plan Name       | Monthly Fee | Max. Responses | Cost per Response  |
+    |-----------------|-------------|----------------|--------------------|
+    | Free            | 0 USD/mo.   | 100/mo.        | -                  |
+    | Basic           | 39 USD/mo.  | 500/mo.        | 0.080 USD/response |
+    | Pro             | 99 USD/mo.  | 1000/mo.       | 0.010 USD/response |
+    | Premium         | 199 USD/mo. | 2500/mo.       | 0.080 USD/response |
+    | Enterprise 5K   | 299 USD/mo. | 5000/mo.       | 0.060 USD/response |
+    | Enterprise 8K   | 399 USD/mo. | 8000/mo.       | 0.050 USD/response |
+    | Enterprise 12K  | 499 USD/mo. | 12000/mo.      | 0.042 USD/response |
+    | Enterprise 20K  | 599 USD/mo. | 20000/mo.      | 0.030 USD/response |
+    | Enterprise 30K  | 699 USD/mo. | 30000/mo.      | 0.023 USD/response |
+    | Enterprise 40K  | 799 USD/mo. | 40000/mo.      | 0.020 USD/response |
+    | Enterprise 60K  | 899 USD/mo. | 60000/mo.      | 0.015 USD/response |
+    | Enterprise 100K | 999 USD/mo. | 100000/mo.     | 0.010 USD/response |
+    | Enterprise 150K | 1099 USD/mo.| 150000/mo.     | 0.007 USD/response |
+    | Enterprise 200K | 1199 USD/mo.| 200000/mo.     | 0.006 USD/response |
+    | Enterprise 300K | 1299 USD/mo.| 300000/mo.     | 0.004 USD/response |
+    | Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
+
+
+
 
 ## Upgrading or Downgrading Your Plan
 
-If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
+=== "Shopify"
 
-Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Shopify will automatically discount the proportional part of the monthly plan that hasn’t been used.
+    If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
+
+    Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Shopify will automatically discount the proportional part of the monthly plan that hasn’t been used.
+
+
+=== "Shopify V2"
+
+
+    If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [App Settings > Plans & Pricing](/reference/plans-pricing/) page in the app.
+
+    Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Shopify will automatically discount the proportional part of the monthly plan that hasn’t been used.
+
+=== "WooCommerce"
+
+
+    If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
+
+    Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Stripe will automatically discount the proportional part of the monthly plan that hasn’t been used.
+
+=== "Magento"
+
+
+    If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
+
+    Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Stripe will automatically discount the proportional part of the monthly plan that hasn’t been used.
+
+=== "BigCommerce"
+
+
+    If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
+
+    Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Stripe will automatically discount the proportional part of the monthly plan that hasn’t been used.
+
+=== "Standalone"
+
+
+    If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
+
+    Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Stripe will automatically discount the proportional part of the monthly plan that hasn’t been used.
+
+
 
 ## Billing & Invoices
 
-Billing is handled directly by Shopify. Charges for the app will be visible on your monthly invoice from Shopify. You can change your billing details directly in your Shopify store settings.
+=== "Shopify"
 
-If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
+    Billing is handled directly by Shopify. Charges for the app will be visible on your monthly invoice from Shopify. You can change your billing details directly in your Shopify store settings.
+
+    If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
+
+=== "Shopify V2"
+
+
+
+    !!! warning
+    
+        The app is curently in **beta testing phase** and the usage is completely **free**. You will be notified once the beta phase will be coming to a close with sufficient time to decide if you want to upgrade to a paid plan. If your quiz usage is below the limits of the free plan, you can stay on the free plan.
+
+
+    Billing is handled directly by Shopify. Charges for the app will be visible on your monthly invoice from Shopify. You can change your billing details directly in your Shopify store settings.
+
+    If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
+
+=== "WooCommerce"
+
+    Billing is handled by Stripe, the payment processor. Charges for the app will be visible on your [Stripe account](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE). 
+
+    Check the [Invoices tab](/reference/plans-pricing/) in the Plans & Pricing page to see your invoices.
+
+    ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
+    
+    !!! tip 
+        You can change your billing details directly in your Stripe account following [this guide](/reference/plans-pricing/#how-to-change-my-billing-details).
+
+    If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
+
+
+=== "Magento"
+
+
+
+    Billing is handled by Stripe, the payment processor. Charges for the app will be visible on your [Stripe account](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE). 
+
+    Check the [Invoices tab](/reference/plans-pricing/) in the Plans & Pricing page to see your invoices.
+
+    ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
+    
+    !!! tip 
+        You can change your billing details directly in your Stripe account following [this guide](/reference/plans-pricing/#how-to-change-my-billing-details).
+
+    If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
+
+
+=== "BigCommerce"
+
+
+    Billing is handled by Stripe, the payment processor. Charges for the app will be visible on your [Stripe account](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE). 
+
+    Check the [Invoices tab](/reference/plans-pricing/) in the Plans & Pricing page to see your invoices.
+
+    ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
+    
+    !!! tip 
+        You can change your billing details directly in your Stripe account following [this guide](/reference/plans-pricing/#how-to-change-my-billing-details).
+
+    If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
+
+
+
+=== "Standalone"
+
+
+    Billing is handled by Stripe, the payment processor. Charges for the app will be visible on your [Stripe account](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE). 
+
+    Check the [Invoices tab](/reference/plans-pricing/) in the Plans & Pricing page to see your invoices.
+
+    ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
+    
+    !!! tip 
+        You can change your billing details directly in your Stripe account following [this guide](/reference/plans-pricing/#how-to-change-my-billing-details).
+
+    If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
+
+
 
 ## What happens when I reach my quiz responses limit?
 
-We will notify you by email and in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
 
-When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
+=== "Shopify"
 
-You can delete your responses, but this won’t affect your monthly quiz usage.
+    We will notify you by email and in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
 
-When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
+    !!! tip
+
+        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/quiz-builder/app-settings/#general) in order to receive email notifications about your quiz responses limit.
+
+    When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
+
+    You can delete your responses, but this won’t affect your monthly quiz usage.
+
+    When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
+
+=== "Shopify V2"
+
+
+
+    !!! warning
+    
+        The app is curently in **beta testing phase** and the usage is completely **free**. You will be notified once the beta phase will be coming to a close with sufficient time to decide if you want to upgrade to a paid plan. If your quiz usage is below the limits of the free plan, you can stay on the free plan.
+
+
+    We will notify you in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
+
+    When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
+
+    You can delete your responses, but this won’t affect your monthly quiz usage.
+
+    When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
+
+=== "WooCommerce"
+
+    We will notify you by email and in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
+
+    !!! tip
+
+        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/quiz-builder/app-settings/#general) in order to receive email notifications about your quiz responses limit.
+
+    When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
+
+    You can delete your responses, but this won’t affect your monthly quiz usage.
+
+    When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
+
+
+=== "Magento"
+
+    We will notify you by email and in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
+
+    !!! tip
+
+        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/quiz-builder/app-settings/#general) in order to receive email notifications about your quiz responses limit.
+
+    When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
+
+    You can delete your responses, but this won’t affect your monthly quiz usage.
+
+    When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
+
+=== "BigCommerce"
+
+    We will notify you by email and in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
+
+    !!! tip
+
+        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/quiz-builder/app-settings/#general) in order to receive email notifications about your quiz responses limit.
+
+    When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
+
+    You can delete your responses, but this won’t affect your monthly quiz usage.
+
+    When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
+
+
+=== "Standalone"
+
+    We will notify you by email and in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
+
+    !!! tip
+
+        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/quiz-builder/app-settings/#general) in order to receive email notifications about your quiz responses limit.
+
+    When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
+
+    You can delete your responses, but this won’t affect your monthly quiz usage.
+
+    When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
+
+
+
 
 ## What counts as a paid response?
 
@@ -105,15 +497,70 @@ In other words: if the Basic plan accepts around ~16 responses each day, the Pro
 
 ## Monthy vs Yearly plan
 
-If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
+=== "Shopify"
 
-Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
+    If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
+
+    Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
+
+
+=== "Shopify V2"
+
+
+    !!! warning
+    
+        The app is curently in **beta testing phase** and the usage is completely **free**. You will be notified once the beta phase will be coming to a close with sufficient time to decide if you want to upgrade to a paid plan. If your quiz usage is below the limits of the free plan, you can stay on the free plan.
+
+
+    If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
+
+    Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select the `Billing Period` to `Annualy`.
+
+
+=== "WooCommerce"
+
+
+    If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
+
+    Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
+
+=== "Magento"
+
+
+    If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
+
+    Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
+
+
+=== "BigCommerce"
+
+
+    If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
+
+    Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
+
+
+=== "Standalone"
+
+
+    If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
+
+    Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
+
+
+
+
+
+
 
 ## Discounts
 
 We offer a 50% discount on all plans if you subscribe for 2 years and you pay upfront. However, we do recommend starting with the monthly plan, for 2-3 months until you start getting results & sales, before committing to a 2-year plan.
 
-Need a 50% discount signing up for two years? – [Get in touch with our Sales Team](/how-to-guides/contact-customer-support/)
+
+!!! tip
+
+    Need a 50% discount signing up for two years? – [Get in touch with our Sales Team](/how-to-guides/contact-customer-support/)
 
 ## What’s the difference between the WooCommerce extension and a WordPress Plugin?
 
@@ -121,3 +568,6 @@ The [WordPress Plugin](https://wordpress.org/plugins/product-recommendation-quiz
 
 The [WooCommerce extension](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/) requires a yearly subscription (29$/year) to install the app and puts you on a **Starter Plan**. The Starter Plan allows up to 250 quiz responses per month and has the “Powered by RevenueHunt” branding removed. If your usage exceeds the Starter plan, you’ll be asked to upgrade to a Basic plan which is billed monthly.
 
+
+---
+This article provides answers to the most common questions about our plans and pricing in the RevenueHunt app. If you have any other questions, please [contact support](/how-to-guides/contact-customer-support/).

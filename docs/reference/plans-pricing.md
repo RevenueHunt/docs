@@ -37,9 +37,6 @@
 
     `Upgrade` - Click to upgrade to a paid plan.
 
-     ## How to change my billing details?
-
-    Since Shopify handles the payments, you can change your billing details directly in your Shopify payments.
 
 
 === "WooCommerce"
