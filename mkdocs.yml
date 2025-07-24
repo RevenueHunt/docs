@@ -42,6 +42,7 @@ theme:
 plugins:
   - search
   - copy_markdown_plugin
+  - git-revision-date-localized
 nav:
   - Docs:
     - Docs: index.md
