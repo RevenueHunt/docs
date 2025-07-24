@@ -6,14 +6,84 @@ It describes a step-by-step process involving creating product collections, link
 
 ## Simple product matrix
 
-Let’s say that you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
+=== "Shopify"
 
-This means that your product matrix looks something like this:
+    Let’s say that you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
 
-| Age/Skin type   | Dry or Normal                                                                                                                                                 | Oily                                                                                                                                                                  |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Teens and 20’s  | Redness-Relief Refreshing Cleansing Lotion;<br>Ultra Facial Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Moisturizing Cream-Gel                   | Neutrogena Oil-Free Acne Face Wash;<br>Balancing Force Oil Control Toner;<br>Resist Ultra-Light Super Antioxidant Concentrate Serum;<br>Oil-Free Moisture Lotion     |
-| 30’s and above  | All Natural Face Cleanser;<br>Fresh Rose Deep Hydration Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Organix Facial Moisturizer                     | FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin           |
+    This means that your product matrix looks something like this:
+
+    | Age/Skin type   | Dry or Normal                                                                                                                                                 | Oily                                                                                                                                                                  |
+    |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Teens and 20’s  | Redness-Relief Refreshing Cleansing Lotion;<br>Ultra Facial Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Moisturizing Cream-Gel                   | Neutrogena Oil-Free Acne Face Wash;<br>Balancing Force Oil Control Toner;<br>Resist Ultra-Light Super Antioxidant Concentrate Serum;<br>Oil-Free Moisture Lotion     |
+    | 30’s and above  | All Natural Face Cleanser;<br>Fresh Rose Deep Hydration Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Organix Facial Moisturizer                     | FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin           |
+
+
+=== "Shopify V2"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/b19268d9b4b84bd0a04093d9e0047398?sid=f1e60add-8900-4d74-b415-9a4217e28722" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+
+    Let’s say that you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
+
+    This means that your product matrix looks something like this:
+
+    | Age/Skin type   | Dry or Normal                                                                                                                                                 | Oily                                                                                                                                                                  |
+    |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Teens and 20’s  | Redness-Relief Refreshing Cleansing Lotion;<br>Ultra Facial Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Moisturizing Cream-Gel                   | Neutrogena Oil-Free Acne Face Wash;<br>Balancing Force Oil Control Toner;<br>Resist Ultra-Light Super Antioxidant Concentrate Serum;<br>Oil-Free Moisture Lotion     |
+    | 30’s and above  | All Natural Face Cleanser;<br>Fresh Rose Deep Hydration Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Organix Facial Moisturizer                     | FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin           |
+
+
+=== "WooCommerce"
+
+
+    Let’s say that you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
+
+    This means that your product matrix looks something like this:
+
+    | Age/Skin type   | Dry or Normal                                                                                                                                                 | Oily                                                                                                                                                                  |
+    |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Teens and 20’s  | Redness-Relief Refreshing Cleansing Lotion;<br>Ultra Facial Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Moisturizing Cream-Gel                   | Neutrogena Oil-Free Acne Face Wash;<br>Balancing Force Oil Control Toner;<br>Resist Ultra-Light Super Antioxidant Concentrate Serum;<br>Oil-Free Moisture Lotion     |
+    | 30’s and above  | All Natural Face Cleanser;<br>Fresh Rose Deep Hydration Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Organix Facial Moisturizer                     | FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin           |
+
+
+=== "Magento"
+
+
+    Let’s say that you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
+
+    This means that your product matrix looks something like this:
+
+    | Age/Skin type   | Dry or Normal                                                                                                                                                 | Oily                                                                                                                                                                  |
+    |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Teens and 20’s  | Redness-Relief Refreshing Cleansing Lotion;<br>Ultra Facial Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Moisturizing Cream-Gel                   | Neutrogena Oil-Free Acne Face Wash;<br>Balancing Force Oil Control Toner;<br>Resist Ultra-Light Super Antioxidant Concentrate Serum;<br>Oil-Free Moisture Lotion     |
+    | 30’s and above  | All Natural Face Cleanser;<br>Fresh Rose Deep Hydration Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Organix Facial Moisturizer                     | FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin           |
+
+
+=== "BigCommerce"
+
+
+    Let’s say that you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
+
+    This means that your product matrix looks something like this:
+
+    | Age/Skin type   | Dry or Normal                                                                                                                                                 | Oily                                                                                                                                                                  |
+    |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Teens and 20’s  | Redness-Relief Refreshing Cleansing Lotion;<br>Ultra Facial Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Moisturizing Cream-Gel                   | Neutrogena Oil-Free Acne Face Wash;<br>Balancing Force Oil Control Toner;<br>Resist Ultra-Light Super Antioxidant Concentrate Serum;<br>Oil-Free Moisture Lotion     |
+    | 30’s and above  | All Natural Face Cleanser;<br>Fresh Rose Deep Hydration Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Organix Facial Moisturizer                     | FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin           |
+
+
+=== "Standalone"
+
+
+    Let’s say that you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
+
+    This means that your product matrix looks something like this:
+
+    | Age/Skin type   | Dry or Normal                                                                                                                                                 | Oily                                                                                                                                                                  |
+    |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Teens and 20’s  | Redness-Relief Refreshing Cleansing Lotion;<br>Ultra Facial Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Moisturizing Cream-Gel                   | Neutrogena Oil-Free Acne Face Wash;<br>Balancing Force Oil Control Toner;<br>Resist Ultra-Light Super Antioxidant Concentrate Serum;<br>Oil-Free Moisture Lotion     |
+    | 30’s and above  | All Natural Face Cleanser;<br>Fresh Rose Deep Hydration Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Organix Facial Moisturizer                     | FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin           |
+
 
 
 ### Step 1: Understand the algorithm
@@ -66,46 +136,245 @@ To recommend the right product, in your eCommerce platform you should create fou
 |-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Oily      | **Teens and 20’s:**<br>Neutrogena Oil-Free Acne Face Wash;<br>Balancing Force Oil Control Toner;<br>Resist Ultra-Light Super Antioxidant Concentrate Serum;<br>Oil-Free Moisture Lotion<br>**30’s and above:**<br>FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin |
 
-After creating products or collections you may need to sync the app with your store. Here‘s [How to Sync Your Catalog with the App](/how-to-guides/sync-catalog/).
+
+!!! tip "Sync your catalog"
+
+    After creating products or collections you may need to sync the app with your store. Here‘s [How to Sync Your Catalog with the App](/how-to-guides/sync-catalog/).
 
 ### Step 3: Build the quiz
 
-You can start building your quiz. 
+=== "Shopify"
 
-1. **Add new quiz**: Go to the RevenueHunt app and click on `add new quiz`. 
-2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](/reference/quiz-builder/).
-3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
+    You can start building your quiz. 
 
-    - The first question is about the client’s age.
+    1. **Add new quiz**: Go to the RevenueHunt app and click on `add new quiz`. 
+    2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](/reference/quiz-builder/).
+    3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
 
-    ![how to recommend products matrix question1](/images/how_to_recommend_products_question1.png)
+        - The first question is about the client’s age.
 
-    - The second question is about client’s skin type.
+        ![how to recommend products matrix question1](/images/how_to_recommend_products_question1.png)
 
-    ![how to recommend products matrix question2](/images/how_to_recommend_products_question2.png)
+        - The second question is about client’s skin type.
+
+        ![how to recommend products matrix question2](/images/how_to_recommend_products_question2.png)
+
+=== "Shopify V2"
+
+
+    You can start building your quiz. 
+
+    1. **Add new quiz**: Go to the RevenueHunt app and click on `+ Add new quiz`. 
+    2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](/reference/quiz-builder/).
+    3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
+
+        - The first question is about the client’s age.
+
+        ![how to recommend products matrix question1](/images/how_to_shopifyv2_recommend_product_matrix_question1.png)
+
+        - The second question is about client’s skin type.
+
+        ![how to recommend products matrix question2](/images/how_to_shopifyv2_recommend_product_matrix_question2.png)
+
+
+=== "WooCommerce"
+
+    You can start building your quiz. 
+
+    1. **Add new quiz**: Go to the RevenueHunt app and click on `add new quiz`. 
+    2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](/reference/quiz-builder/).
+    3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
+
+        - The first question is about the client’s age.
+
+        ![how to recommend products matrix question1](/images/how_to_recommend_products_question1.png)
+
+        - The second question is about client’s skin type.
+
+        ![how to recommend products matrix question2](/images/how_to_recommend_products_question2.png)
+
+=== "Magento"
+
+
+    You can start building your quiz. 
+
+    1. **Add new quiz**: Go to the RevenueHunt app and click on `add new quiz`. 
+    2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](/reference/quiz-builder/).
+    3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
+
+        - The first question is about the client’s age.
+
+        ![how to recommend products matrix question1](/images/how_to_recommend_products_question1.png)
+
+        - The second question is about client’s skin type.
+
+        ![how to recommend products matrix question2](/images/how_to_recommend_products_question2.png)
+
+=== "BigCommerce"
+
+
+    You can start building your quiz. 
+
+    1. **Add new quiz**: Go to the RevenueHunt app and click on `add new quiz`. 
+    2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](/reference/quiz-builder/).
+    3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
+
+        - The first question is about the client’s age.
+
+        ![how to recommend products matrix question1](/images/how_to_recommend_products_question1.png)
+
+        - The second question is about client’s skin type.
+
+        ![how to recommend products matrix question2](/images/how_to_recommend_products_question2.png)
+
+=== "Standalone"
+
+
+    You can start building your quiz. 
+
+    1. **Add new quiz**: Go to the RevenueHunt app and click on `add new quiz`. 
+    2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](/reference/quiz-builder/).
+    3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
+
+        - The first question is about the client’s age.
+
+        ![how to recommend products matrix question1](/images/how_to_recommend_products_question1.png)
+
+        - The second question is about client’s skin type.
+
+        ![how to recommend products matrix question2](/images/how_to_recommend_products_question2.png)
+
+
+
+
 
 ### Step 4: Link collections/categories
 
-You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
+=== "Shopify"
 
-1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
-2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
+    You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
 
-    ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
+    1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
+    2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
+
+        ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
+
+=== "Shopify V2"
+
+
+    You should upvote the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
+
+    1. **Open Choice Settings**: To do that, navigate to the [Questions](/reference/quiz-builder/questions/) tab in the Quiz Builder and click on a choice to open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
+    2. **Upvote Collections**: In Choice settings, find the `Upvote` button and select `Collections` from the dropdown.
+    3. For each choice find a collection to be added from your catalog and add it to the choice.
+
+        ![how to recommend products matrix link collections](/images/how_to_shopifyv2_recommend_product_matrix_upvotecollections.png)
+
+=== "WooCommerce"
+
+
+    You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
+
+    1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
+    2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
+
+        ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
+
+=== "Magento"
+
+
+    You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
+
+    1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
+    2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
+
+        ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
+
+=== "BigCommerce"
+
+
+    You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
+
+    1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
+    2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
+
+        ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
+
+=== "Standalone"
+
+
+    You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
+
+    1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
+    2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
+
+        ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
+
+
+
+
+
+
 
 ### Step 5: Create a Products block on the Results Page
 
-For the products to show on the Results Page, you need to add a `Products Block`. 
+=== "Shopify"
 
-1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
-2. **Add a Product Block**:  Clicking the `+` to add a block type. Slect a `Product Block` from the dropdown list.
-3. **Limit the numebr of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
+    For the products to show on the Results Page, you need to add a `Products Block`. 
+
+    1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
+    2. **Add a Product Block**:  Clicking the `+` to add a block type. Slect a `Product Block` from the dropdown list.
+    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
+
+=== "Shopify V2"
+
+
+    For the products to show on the Results Page, you need to add a `Products Block`. 
+
+    1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
+    2. **Add a Product Block**:  Clicking the `+ Add block` to add a block type. Slect a `Product Block` from the dropdown list.
+    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the [`Product Block settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) and select how many products should be recommended in this Product Block from the dropdown.
+
+=== "WooCommerce"
+
+    For the products to show on the Results Page, you need to add a `Products Block`. 
+
+    1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
+    2. **Add a Product Block**:  Clicking the `+` to add a block type. Slect a `Product Block` from the dropdown list.
+    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
+
+=== "Magento"
+
+
+    For the products to show on the Results Page, you need to add a `Products Block`. 
+
+    1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
+    2. **Add a Product Block**:  Clicking the `+` to add a block type. Slect a `Product Block` from the dropdown list.
+    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
+
+=== "BigCommerce"
+
+
+    For the products to show on the Results Page, you need to add a `Products Block`. 
+
+    1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
+    2. **Add a Product Block**:  Clicking the `+` to add a block type. Slect a `Product Block` from the dropdown list.
+    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
+
+=== "Standalone"
+
+
+    For the products to show on the Results Page, you need to add a `Products Block`. 
+
+    1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
+    2. **Add a Product Block**:  Clicking the `+` to add a block type. Slect a `Product Block` from the dropdown list.
+    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
 
 ### Step 6: Preview the quiz and check results
 
 Now that the quiz is built and product are linked to each choice, you can test the quiz. To test the quiz, you'll have to save the changes and preview it.
 
-1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
+1. **Publish the changes**: Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish/Save` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
 2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created in a new window. You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 3. **Check results** : Go through the quiz and check if the correct products are recommended. Let’s check this answering route:
 
@@ -147,34 +416,227 @@ If you’d like to organize the products in a specific order, you can create `Pr
 
 ## Complex product matrix
 
-If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
+=== "Shopify"
 
-![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
+    If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
 
-The outcome of the quiz depends on 3 factors: skin type, age, and skin concern. In each case, the products recommended differing.
+    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
 
-For this complex matrix, creating separate collections for each outcome is possible, but there’s also an alternative. What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
+    The outcome of the quiz depends on 3 factors: skin type, age, and skin concern. In each case, the products recommended differing.
 
-Here’s an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
+    For this complex matrix, creating separate collections for each outcome is possible, but there’s also an alternative. What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
 
-![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
+    Here’s an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
 
-The Jump Logic for bnranching is applied to *Question 2*, the skin type question.
+    ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
 
-![how to recommend products complex matrix jump logic 1](/images/how_to_recommend_products_complexmatrix_jumplogic1.png)
+    The Jump Logic for bnranching is applied to *Question 2*, the skin type question.
 
-![how to recommend products complex matrix jump logic 2](/images/how_to_recommend_products_complexmatrix_jumplogic2.png)
+    ![how to recommend products complex matrix jump logic 1](/images/how_to_recommend_products_complexmatrix_jumplogic1.png)
 
-And *Questions 4, 6, 8, and 10* to point the customer to the Results Page directly after completing the branch:
+    ![how to recommend products complex matrix jump logic 2](/images/how_to_recommend_products_complexmatrix_jumplogic2.png)
 
-![how to recommend products complex matrix jump logic 3](/images/how_to_recommend_products_complexmatrix_jumplogic3.png)
+    And *Questions 4, 6, 8, and 10* to point the customer to the Results Page directly after completing the branch:
 
-This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
+    ![how to recommend products complex matrix jump logic 3](/images/how_to_recommend_products_complexmatrix_jumplogic3.png)
 
-!!! warning
+    This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
 
-    A lot of conditional logic can significantly slow down the loading times of the quiz builder app (it doesn’t affect the quiz as viewed by the customer though). 
+    !!! tip
+
+        Check this guide [Set up fixed recommendations quiz](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up a quiz with fixed recommendations and display logic for very precise product recommendations.
+
+    !!! warning
+
+        A lot of conditional logic can significantly slow down the loading times of the quiz builder app (it doesn’t affect the quiz as viewed by the customer though). 
+        
+        If you plan on building a quiz with a lot of conditional logic, **consider splitting the quiz into multiple smaller quizzes** instead. There’s no limit to how many quizzes can be published on your webiste. 
+        
+        In the example above, you can create 4 different quizzes for skin types (Dry, Oily, Combination, or Normal skin), or you can create a quiz for different age groups.
+
+
+=== "Shopify V2"
+
+
+
+    If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
+
+    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
+
+    The outcome of the quiz depends on 3 factors: skin type, age, and skin concern. In each case, the products recommended differing.
+
+    For this complex matrix, creating separate collections for each outcome is possible, but there’s also an **alternative**.
     
-    If you plan on building a quiz with a lot of conditional logic, **consider splitting the quiz into multiple smaller quizzes** instead. There’s no limit to how many quizzes can be published on your webiste. 
-    
-    In the example above, you can create 4 different quizzes for skin types (Dry, Oily, Combination, or Normal skin), or you can create a quiz for different age groups.
+    What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
+
+    Here’s an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
+
+    ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
+
+    !!! tip
+
+        Check this guide [Set up fixed recommendations quiz](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up a quiz with fixed recommendations and display logic for very precise product recommendations.
+
+   
+
+=== "WooCommerce"
+
+
+    If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
+
+    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
+
+    The outcome of the quiz depends on 3 factors: skin type, age, and skin concern. In each case, the products recommended differing.
+
+    For this complex matrix, creating separate collections for each outcome is possible, but there’s also an alternative. What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
+
+    Here’s an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
+
+    ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
+
+    The Jump Logic for bnranching is applied to *Question 2*, the skin type question.
+
+    ![how to recommend products complex matrix jump logic 1](/images/how_to_recommend_products_complexmatrix_jumplogic1.png)
+
+    ![how to recommend products complex matrix jump logic 2](/images/how_to_recommend_products_complexmatrix_jumplogic2.png)
+
+    And *Questions 4, 6, 8, and 10* to point the customer to the Results Page directly after completing the branch:
+
+    ![how to recommend products complex matrix jump logic 3](/images/how_to_recommend_products_complexmatrix_jumplogic3.png)
+
+    This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
+
+    !!! tip
+
+        Check this guide [Set up fixed recommendations quiz](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up a quiz with fixed recommendations and display logic for very precise product recommendations.
+
+    !!! warning
+
+        A lot of conditional logic can significantly slow down the loading times of the quiz builder app (it doesn’t affect the quiz as viewed by the customer though). 
+        
+        If you plan on building a quiz with a lot of conditional logic, **consider splitting the quiz into multiple smaller quizzes** instead. There’s no limit to how many quizzes can be published on your webiste. 
+        
+        In the example above, you can create 4 different quizzes for skin types (Dry, Oily, Combination, or Normal skin), or you can create a quiz for different age groups.
+
+=== "Magento"
+
+
+    If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
+
+    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
+
+    The outcome of the quiz depends on 3 factors: skin type, age, and skin concern. In each case, the products recommended differing.
+
+    For this complex matrix, creating separate collections for each outcome is possible, but there’s also an alternative. What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
+
+    Here’s an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
+
+    ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
+
+    The Jump Logic for bnranching is applied to *Question 2*, the skin type question.
+
+    ![how to recommend products complex matrix jump logic 1](/images/how_to_recommend_products_complexmatrix_jumplogic1.png)
+
+    ![how to recommend products complex matrix jump logic 2](/images/how_to_recommend_products_complexmatrix_jumplogic2.png)
+
+    And *Questions 4, 6, 8, and 10* to point the customer to the Results Page directly after completing the branch:
+
+    ![how to recommend products complex matrix jump logic 3](/images/how_to_recommend_products_complexmatrix_jumplogic3.png)
+
+    This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
+
+    !!! tip
+
+        Check this guide [Set up fixed recommendations quiz](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up a quiz with fixed recommendations and display logic for very precise product recommendations.
+
+    !!! warning
+
+        A lot of conditional logic can significantly slow down the loading times of the quiz builder app (it doesn’t affect the quiz as viewed by the customer though). 
+        
+        If you plan on building a quiz with a lot of conditional logic, **consider splitting the quiz into multiple smaller quizzes** instead. There’s no limit to how many quizzes can be published on your webiste. 
+        
+        In the example above, you can create 4 different quizzes for skin types (Dry, Oily, Combination, or Normal skin), or you can create a quiz for different age groups.
+
+=== "BigCommerce"
+
+
+    If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
+
+    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
+
+    The outcome of the quiz depends on 3 factors: skin type, age, and skin concern. In each case, the products recommended differing.
+
+    For this complex matrix, creating separate collections for each outcome is possible, but there’s also an alternative. What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
+
+    Here’s an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
+
+    ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
+
+    The Jump Logic for bnranching is applied to *Question 2*, the skin type question.
+
+    ![how to recommend products complex matrix jump logic 1](/images/how_to_recommend_products_complexmatrix_jumplogic1.png)
+
+    ![how to recommend products complex matrix jump logic 2](/images/how_to_recommend_products_complexmatrix_jumplogic2.png)
+
+    And *Questions 4, 6, 8, and 10* to point the customer to the Results Page directly after completing the branch:
+
+    ![how to recommend products complex matrix jump logic 3](/images/how_to_recommend_products_complexmatrix_jumplogic3.png)
+
+    This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
+
+    !!! tip
+
+        Check this guide [Set up fixed recommendations quiz](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up a quiz with fixed recommendations and display logic for very precise product recommendations.
+
+    !!! warning
+
+        A lot of conditional logic can significantly slow down the loading times of the quiz builder app (it doesn’t affect the quiz as viewed by the customer though). 
+        
+        If you plan on building a quiz with a lot of conditional logic, **consider splitting the quiz into multiple smaller quizzes** instead. There’s no limit to how many quizzes can be published on your webiste. 
+        
+        In the example above, you can create 4 different quizzes for skin types (Dry, Oily, Combination, or Normal skin), or you can create a quiz for different age groups.
+
+=== "Standalone"
+
+
+
+    If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
+
+    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
+
+    The outcome of the quiz depends on 3 factors: skin type, age, and skin concern. In each case, the products recommended differing.
+
+    For this complex matrix, creating separate collections for each outcome is possible, but there’s also an alternative. What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
+
+    Here’s an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
+
+    ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
+
+    The Jump Logic for bnranching is applied to *Question 2*, the skin type question.
+
+    ![how to recommend products complex matrix jump logic 1](/images/how_to_recommend_products_complexmatrix_jumplogic1.png)
+
+    ![how to recommend products complex matrix jump logic 2](/images/how_to_recommend_products_complexmatrix_jumplogic2.png)
+
+    And *Questions 4, 6, 8, and 10* to point the customer to the Results Page directly after completing the branch:
+
+    ![how to recommend products complex matrix jump logic 3](/images/how_to_recommend_products_complexmatrix_jumplogic3.png)
+
+    This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
+
+    !!! tip
+
+        Check this guide [Set up fixed recommendations quiz](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up a quiz with fixed recommendations and display logic for very precise product recommendations.
+
+    !!! warning
+
+        A lot of conditional logic can significantly slow down the loading times of the quiz builder app (it doesn’t affect the quiz as viewed by the customer though). 
+        
+        If you plan on building a quiz with a lot of conditional logic, **consider splitting the quiz into multiple smaller quizzes** instead. There’s no limit to how many quizzes can be published on your webiste. 
+        
+        In the example above, you can create 4 different quizzes for skin types (Dry, Oily, Combination, or Normal skin), or you can create a quiz for different age groups.
+
+
+
+---
+This article explains how to set up a quiz with a product matrix. If you're looking for a more detailed guide on how to set up a quiz with product recommendations, check out [this article](/how-to-guides/set-up-recommendations/).
