@@ -126,10 +126,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
-!!! tip
-
-    JavaScript added to the first Welcome slide in the quiz builder will be applied to all slides.
-
 ## Console.log(x) Function
 
 === "Shopify"
