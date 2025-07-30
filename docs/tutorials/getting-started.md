@@ -4,9 +4,20 @@ icon: material/numeric-0
 
 # Getting Started with Product Recommendation Quiz in RevenueHunt app
 
-In this tutorial, you'll see an overview of the most important features of the RevenueHunt app.
-
+   
 === "Shopify"
+
+    In this tutorial, you'll see an overview of the most important features of the RevenueHunt app.
+
+    !!! info "You'll learn:"
+
+        - how to quickly find your way around the app
+        - how to find different sections in the app
+        - how to add first quiz
+        - how to link and recommend products
+        - how to edit the quiz content and design
+        - how to find quiz share and publish options
+
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -14,11 +25,38 @@ In this tutorial, you'll see an overview of the most important features of the R
 
 === "Shopify V2"
 
+
+    In this tutorial, you'll see an overview of the most important features of the RevenueHunt app.
+
+    !!! info "You'll learn:"
+
+        - how to quickly find your way around the app
+        - how to find different sections in the app
+        - how to add first quiz
+        - how to link and recommend products
+        - how to find sections that edit the quiz content and design
+        - how to find quiz settings and integrations
+        - how to find quiz analytics and responses
+        - how to find quiz share and publish options
+
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/NKj9iQ7ZkR0?si=8s1zE3hbDXaDSuFC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 === "WooCommerce"
+
+
+    In this tutorial, you'll see an overview of the most important features of the RevenueHunt app.
+
+
+    !!! info "You'll learn:"
+
+        - how to quickly find your way around the app
+        - how to find different sections in the app
+        - how to add first quiz
+        - how to link and recommend products
+        - how to edit the quiz content and design
+        - how to find quiz share and publish options
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -26,17 +64,56 @@ In this tutorial, you'll see an overview of the most important features of the R
 
 === "Magento"
 
+
+    In this tutorial, you'll see an overview of the most important features of the RevenueHunt app.
+
+
+    !!! info "You'll learn:"
+
+        - how to quickly find your way around the app
+        - how to find different sections in the app
+        - how to add first quiz
+        - how to link and recommend products
+        - how to edit the quiz content and design
+        - how to find quiz share and publish options
+
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>          
 
 === "BigCommerce"
 
+
+    In this tutorial, you'll see an overview of the most important features of the RevenueHunt app.
+
+
+    !!! info "You'll learn:"
+
+        - how to quickly find your way around the app
+        - how to find different sections in the app
+        - how to add first quiz
+        - how to link and recommend products
+        - how to edit the quiz content and design
+        - how to find quiz share and publish options
+
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>          
 
 === "Standalone"
+
+
+    In this tutorial, you'll see an overview of the most important features of the RevenueHunt app.
+
+
+    !!! info "You'll learn:"
+
+        - how to quickly find your way around the app
+        - how to find different sections in the app
+        - how to add first quiz
+        - how to link and recommend products
+        - how to edit the quiz content and design
+        - how to find quiz share and publish options
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -480,4 +557,5 @@ Before you start collecting leads and generating sales, here is a quick guide to
 
 That's our RevenueHunt app!
 
-Check out our [documentation](/docs) for more resources on getting started with recommendation quizzes.
+---
+This article provides a step by step video tutorial on how to get started with the RevenueHunt app.

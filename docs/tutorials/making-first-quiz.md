@@ -4,21 +4,22 @@ icon: material/numeric-1
 
 # Making Your First Product Recommendation Quiz || Recommending the Best Cleanser
 
-In this tutorial, you'll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
-
-**You'll learn:**
-
-- how to build a quiz from scratch
-- different question types and how to use them
-- how to recall information from the previous questions
-- how to customize quiz design
-- how to link products
-- how the recommendation algorithm works
-- how to edit the results page
-- how to use Markdown Language
-- How to publish the quiz
 
 === "Shopify"
+
+    In this tutorial, you'll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
+
+    !!! info "You'll learn:"
+
+        - how to build a quiz from scratch
+        - different question types and how to use them
+        - how to recall information from the previous questions
+        - how to customize quiz design
+        - how to link products
+        - how the recommendation algorithm works
+        - how to edit the results page
+        - how to use Markdown Language
+        - How to publish the quiz
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/nVR8slJPSpY?si=6l2Vvz7i73IpJqzB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -26,11 +27,38 @@ In this tutorial, you'll learn how to make and publish a short quiz that recomme
 
 === "Shopify V2"
 
+    In this tutorial, you'll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
+
+    !!! info "You'll learn:"
+
+        - how to build a quiz from scratch
+        - different question types and how to use them
+        - how to recall information from the previous questions
+        - how to customize quiz design
+        - how to link products
+        - how the recommendation algorithm works
+        - how to edit the results page
+        - How to publish the quiz as link popup in site menu
+
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/Vd8ZR6Vyvik?si=nPKj0Izs1CU9O8j1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>      
 
 === "WooCommerce"
+
+    In this tutorial, you'll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
+
+    !!! info "You'll learn:"
+
+        - how to build a quiz from scratch
+        - different question types and how to use them
+        - how to recall information from the previous questions
+        - how to customize quiz design
+        - how to link products
+        - how the recommendation algorithm works
+        - how to edit the results page
+        - how to use Markdown Language
+        - How to publish the quiz
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/nVR8slJPSpY?si=6l2Vvz7i73IpJqzB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -38,17 +66,59 @@ In this tutorial, you'll learn how to make and publish a short quiz that recomme
 
 === "Magento"
 
+    In this tutorial, you'll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
+
+    !!! info "You'll learn:"
+
+        - how to build a quiz from scratch
+        - different question types and how to use them
+        - how to recall information from the previous questions
+        - how to customize quiz design
+        - how to link products
+        - how the recommendation algorithm works
+        - how to edit the results page
+        - how to use Markdown Language
+        - How to publish the quiz
+
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/nVR8slJPSpY?si=6l2Vvz7i73IpJqzB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>                  
 
 === "BigCommerce"
 
+    In this tutorial, you'll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
+
+    !!! info "You'll learn:"
+
+        - how to build a quiz from scratch
+        - different question types and how to use them
+        - how to recall information from the previous questions
+        - how to customize quiz design
+        - how to link products
+        - how the recommendation algorithm works
+        - how to edit the results page
+        - how to use Markdown Language
+        - How to publish the quiz
+
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/nVR8slJPSpY?si=6l2Vvz7i73IpJqzB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>  
 
 === "Standalone"
+
+    In this tutorial, you'll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
+
+    !!! info "You'll learn:"
+
+        - how to build a quiz from scratch
+        - different question types and how to use them
+        - how to recall information from the previous questions
+        - how to customize quiz design
+        - how to link products
+        - how the recommendation algorithm works
+        - how to edit the results page
+        - how to use Markdown Language
+        - How to publish the quiz
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/nVR8slJPSpY?si=6l2Vvz7i73IpJqzB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -451,4 +521,5 @@ Speaking of results. Make sure to also edit the Results Page.
     Voila!  You've just created your first Product Recommendation Quiz. 
 
 
-Check out our [documentation](/reference/quiz-builder/) for more resources on getting started with recommendation quizzes.
+---
+This article provides a step by step video tutorial on how to create a short quiz that recommends the best cosmetic (skincare) product to your customers.
