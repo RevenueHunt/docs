@@ -14,7 +14,11 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 
 === "Shopify"
 
-    Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead.    
+    
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
 
 === "Shopify V2" 
 
@@ -53,19 +57,31 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 
 === "WooCommerce"
 
-    Scoring system is not available in the WooCommerce version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the WooCommerce version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 === "Magento"
 
-    Scoring system is not available in the Magento version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the Magento version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 === "BigCommerce"
 
-    Scoring system is not available in the BigCommerce version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the BigCommerce version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 === "Standalone"
 
-    Scoring system is not available in the Standalone version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the Standalone version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 ## Winning Variable Quiz 
 
@@ -77,7 +93,10 @@ Follow these steps to set up a winning variable quiz:
 
 === "Shopify"
 
-    Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
     Alternatively, your developer can also try this setup:
@@ -178,7 +197,10 @@ Follow these steps to set up a winning variable quiz:
 
 === "WooCommerce"
 
-    Scoring system is not available in WooCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).    
+    Scoring system is not available in the WooCommerce version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
     Alternatively, your developer can also try this setup:
 
@@ -215,7 +237,10 @@ Follow these steps to set up a winning variable quiz:
 
 === "Magento"
 
-    Scoring system is not available in Magento. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the Magento version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
     Alternatively, your developer can also try this setup:
 
@@ -252,7 +277,10 @@ Follow these steps to set up a winning variable quiz:
 
 === "BigCommerce"
 
-    Scoring system is not available in BigCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/). 
+    Scoring system is not available in the BigCommerce version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
     Alternatively, your developer can also try this setup:
 
@@ -289,7 +317,10 @@ Follow these steps to set up a winning variable quiz:
 
 === "Standalone"
 
-    Scoring system is not available in Standalone. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).  
+    Scoring system is not available in the Standalone version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
     Alternatively, your developer can also try this setup:
 
@@ -336,7 +367,10 @@ Follow these steps to set up a scoring quiz with one results page:
 
 === "Shopify"
 
-    Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead.    
+    
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
 === "Shopify V2"
@@ -406,20 +440,35 @@ Follow these steps to set up a scoring quiz with one results page:
 
 === "WooCommerce"
 
-    Scoring system is not available in WooCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the RevenueHunt app for WooCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
 === "Magento"
 
-    Scoring system is not available in Magento. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the RevenueHunt app for Magento. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
 
 === "BigCommerce"
 
-    Scoring system is not available in BigCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the RevenueHunt app for BigCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
 
 === "Standalone"
 
-    Scoring system is not available in Standalone. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the Standalone version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
 
 ## Scoring Quiz with Multiple Results Pages
 
@@ -432,7 +481,11 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
 === "Shopify"
 
-    Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
 
 === "Shopify V2"
 
@@ -511,20 +564,34 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
 === "WooCommerce"
 
-    Scoring system is not available in WooCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the WooCommerce version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
 === "Magento"
 
-    Scoring system is not available in Magento. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the Magento version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
 
 === "BigCommerce"
 
-    Scoring system is not available in BigCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the BigCommerce version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
 
 === "Standalone"
 
-    Scoring system is not available in Standalone. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+    Scoring system is not available in the Standalone version of the RevenueHunt app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
 
