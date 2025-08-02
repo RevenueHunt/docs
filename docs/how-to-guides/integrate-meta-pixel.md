@@ -218,7 +218,7 @@ Here’s a list of all the tracked events:
 | User clicks on a choice | `track` | `ViewContent` | `{ content_name: choice_text, content_category: 'choice' }` |
 | User submits email | `trackCustom` | `EmailLead` | `{ content_name: quiz_name, content_category: 'lead' }` |
 | User submits phone | `trackCustom` | `PhoneLead` | `{ content_name: quiz_name, content_category: 'lead' }` |
-| User gets to results page | `track` | `ViewContent` | `{ content_name: quiz_title, content_category: 'results' }` |
+| User gets to results page | `track` | `ViewContent` | `{ content_name: results_page_title, content_category: 'results' }` |
 | User gets to results page | `track` | `Lead` | `{}` |
 | A certain product is recommended in the results page | `track` | `ViewContent` | `{ content_name: product_name, content_type: 'recommendation', content_ids: [sku_or_variant_id], value: product_price, currency: quiz_currency }` |
 | Customer adds a product to cart | `track` | `AddToCart` | `{ content_name: product_name, content_type: 'recommendation', content_ids: [sku_or_variant_id], value: product_price, currency: quiz_currency }` |

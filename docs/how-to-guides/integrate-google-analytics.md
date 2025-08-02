@@ -82,7 +82,7 @@ Events are triggered every time a customer starts a quiz, views a question, pick
 | User clicks on a choice or selects an option from a dropdown        | click        | choice            | choice_text    |
 | User responds to the email question                                 | submit       | email             | quiz_name      |
 | User responds to the phone question                                 | submit       | phone             | quiz_name      |
-| User gets to results page                                           | view         | results           | quiz_name      |
+| User gets to results page                                           | view         | results           | results_page_title      |
 | A certain product is recommended in the results page                | recommendation | product          | product_name   |
 | Customer clicks on product (view product button or image)           | view         | product           | product_name   |
 | Customer adds a product to cart (via "add to cart" or "add all to cart" buttons) | click        | addCart           | product_name   |
