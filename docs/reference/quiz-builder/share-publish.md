@@ -192,7 +192,9 @@
 
     In Inline Quiz settings, you can adjust:
 
-    `Quiz height (in pixels)` - Sets the minimum height of the quiz. It expands if the content is taller.
+    `Quiz height` - The initial height of the quiz. If the quiz is not tall enough, after the first question, it will expand to fit the content.
+
+    `Quiz height (unit)` - The unit of the quiz height. Default is `Pixels (px)`. You can change it to `Viewport height percentage (vh)`.
 
     `Fixed height` - Keeps the quiz height fixed. Turn off to allow automatic height adjustment.
 
