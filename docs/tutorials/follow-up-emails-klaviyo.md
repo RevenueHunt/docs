@@ -7,16 +7,16 @@ icon: material/numeric-4
 
 In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendation Quiz) leads to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and how to build a post-quiz email flow in Klaviyo.
 
-**You'll learn:**
+!!! info "You'll learn:"
 
-- how to add an email question to your quiz
-- how to ask for marketing consent in your quiz
-- how to connect your quiz to Klaviyo
-- how to send quiz leads to Klaviyo Profiles
-- how to send quiz leads to Klaviyo Lists
-- how to segment customers coming from the quiz in Klaviyo
-- how to create a result email flow in Klaviyo
-- how to use our built-in Klaviyo email templates
+    - how to add an email question to your quiz
+    - how to ask for marketing consent in your quiz
+    - how to connect your quiz to Klaviyo
+    - how to send quiz leads to Klaviyo Profiles
+    - how to send quiz leads to Klaviyo Lists
+    - how to segment customers coming from the quiz in Klaviyo
+    - how to create a result email flow in Klaviyo
+    - how to use our built-in Klaviyo email templates
 
 === "Shopify"
 
@@ -148,8 +148,8 @@ Sending a follow-up email with Klaviyo is very easy. Let's get started.
     1. To find your Public Key login to your Klaviyo account.
     2. In account `Settings` open the `API Keys` tab and copy the public API Key.
     3. Navigate back to the RevenueHunt app. 
-    4. In the app navigation, go to `Integrations > Marketing` and click on Klaviyo.
-    5. Paste your Public API Key and `save`.
+    4. In the app navigation, go to `Integrations` and look for Klaviyo.
+    5. Paste your Public API Key.
     6. Save your quiz changes.
     7. Test quiz all the way to the results. Make sure to provide a sample email that doesn't already exist in your Kalviyo account.
     8. To verify the test, open `Kalviyo > Profiles` section.
@@ -248,9 +248,13 @@ Sending a follow-up email with Klaviyo is very easy. Let's get started.
     All quiz contacts can be grouped into a **segment** in Klaviyo. 
 
     1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `create a new Segment`.
-    2. Name the segment and set up the definition.
-    3. The `ANSWERS_BY_BLOCK-QuizID` property is unique for profiles coming from the quiz.
-    4. If you don't see the `ANSWERS_BY_BLOCK-QuizID` property in the dropdown menu, you may need to take a test quiz and try again.
+    2. Name the segment and set up the definition. 
+    3. Select `Properties about someone` and add a property that will be unique for profiles coming from the quiz. For example, `ANSWERS_BY_BLOCK-QuizID` property is unique for profiles coming from the quiz.  
+
+        !!! tip
+            If you don't see the `ANSWERS_BY_BLOCK-QuizID` property in the dropdown menu, you may need to take a test quiz and try again.
+
+    4. Set the following rule: `ANSWERS_BY_BLOCK-QuizID` `is set` Type: `text`.
     5. Click `Create a segment`.
 
     Now all the contacts coming from the quiz will also be added to this specific segment.
@@ -379,7 +383,7 @@ Sending a follow-up email with Klaviyo is very easy. Let's get started.
     1. Grab the `EMAIL` action and drop it below the flow trigger.
     2. Click on the `...` three dots and `edit the email`.
     3. Edit the `name/subject/email` to your liking and and add a new email template.
-    4. From the `Integrations > Marketing > Klaviyo` section you can **download a ready-to-use email template**.
+    4. From the `Integrations > Klaviyo` section you can **download a ready-to-use email template**.
     5. Copy the code and go back to Klaviyo.
     6. Open the email template and add an `HTML block` to your template.
     7. Paste the new template code.
@@ -573,9 +577,10 @@ Sending a follow-up email with Klaviyo is very easy. Let's get started.
     9. Save the changes and publish them with the top-right `Publish` button.
     10. Remember to test the connection with a sample email via the `Preview` button.
 
----
 
 Congratulations!
 
 You've learned how to create a quiz email flow in Klaviyo.
 
+---
+This artticle explains how to create a post-quiz email flow in Klaviyo.
