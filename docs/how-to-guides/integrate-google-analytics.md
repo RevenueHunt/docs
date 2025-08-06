@@ -75,19 +75,19 @@ You’ll be able to see quiz usage and customer behavior in your Google Analytic
 
 Events are triggered every time a customer starts a quiz, views a question, picks a choice, gets to the results page, adds a product to the cart, and proceeds to the cart/checkout. You can check more data about unique events by clicking on the specific Event name.
 
-| Trigger                                                             | Event Action | Event Category    | Event Label    |
-|---------------------------------------------------------------------|--------------|-------------------|----------------|
-| User starts a quiz (clicks on the button of the first question or the welcome question) | view         | start             | quiz_name      |
-| User views a question                                               | view         | question          | question_title |
-| User clicks on a choice or selects an option from a dropdown        | click        | choice            | choice_text    |
-| User responds to the email question                                 | submit       | email             | quiz_name      |
-| User responds to the phone question                                 | submit       | phone             | quiz_name      |
-| User gets to results page                                           | view         | results           | results_page_title      |
-| A certain product is recommended in the results page                | recommendation | product          | product_name   |
-| Customer clicks on product (view product button or image)           | view         | product           | product_name   |
-| Customer adds a product to cart (via "add to cart" or "add all to cart" buttons) | click        | addCart           | product_name   |
-| Customer proceeds to cart/checkout                                  | click        | checkoutButton    | quiz_name      |
-| Customer retakes quiz                                               | click        | retakeQuiz        | quiz_name      |
+| Trigger                                                             | Event Name | Event Parameters    |
+|---------------------------------------------------------------------|------------|-----------------|
+| User starts a quiz (clicks on the button of the first question or the welcome question) | quiz_started_{quiz_name} | quiz_name |
+| User views a question                                               | question_viewed_{question_title} | question_title |
+| User clicks on a choice or selects an option from a dropdown        | block_answered_{choice_text} | choice_text |
+| User responds to the email question                                 | email_lead_{quiz_name} | quiz_name |
+| User responds to the phone question                                 | phone_lead_{quiz_name} | quiz_name |
+| User gets to results page                                           | results_page_viewed_{results_title} | results_title |
+| A certain product is recommended in the results page                | product_recommended_{product_name} | product_name |
+| Customer clicks on product (view product button or image)           | product_clicked_{product_name} | product_name |
+| Customer adds a product to cart (via "add to cart" or "add all to cart" buttons) | product_added_to_cart_{product_name} | product_name |
+| Customer proceeds to cart/checkout                                  | proceed_to_checkout_{quiz_name} | quiz_name |
+| Customer retakes quiz                                               | retake_quiz_{quiz_name} | quiz_name |
 
 ## Track Quiz Revenue
 
