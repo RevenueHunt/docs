@@ -51,7 +51,7 @@ SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails acros
 
 === "Shopify V2"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/822e8b91009c4032bbefaa66e69b5ef6?sid=cfb0adaa-056c-4bef-af84-2547a30f07d9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/i5eUNaSdET4?si=0WMwUXM-CTzcqHkU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
     2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
