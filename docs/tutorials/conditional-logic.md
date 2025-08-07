@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-4
+icon: material/numeric-5
 ---
 
 # Using Conditional Logic in your Product Recommendation Quiz
