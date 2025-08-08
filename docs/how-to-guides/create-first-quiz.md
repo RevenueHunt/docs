@@ -288,6 +288,10 @@ Follow these steps to create your first quiz with the RevenueHunt app. You can a
 
     Once you have your questions, you'll have to link products to choices to show recommendations to the customer.
 
+    !!! tip "How do I add products to Standalone RevenueHunt App?"
+    
+        Check this how-to article to learn how to add products and collections to the Standalone version of the RevenueHunt app: [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
+
     1. **Go to Link Products/Collections/Choice Settings tab**: In the Quiz Builder, select a choice and go to [Link Products](/reference/quiz-builder/link-products/)/ [Link Collections](/reference/quiz-builder/link-collections/) / [Choice Settings](/reference/quiz-builder/questions/#choice-settings) tab.
     2. **Upvote Products**: Link product variants or collections to each choice. This determines the product recommendations based on customer responses. In the end, the Results Page will display the products sorted by the number of votes.
     3. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. You can change the number of recommended products in the [Product Block settings](/reference/quiz-builder/questions/#block-settings).

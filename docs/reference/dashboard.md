@@ -559,13 +559,9 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![manual_standalone_succcesschecklist_productfeed](/images/manual_standalone_succcesschecklist_productfeed.png)
 
-    ??? question "How do I find my Google Product Feed URL?"
+    !!! tip "How do I find and connect my Google Product Feed URL?"
 
-        To find your Google Product Feed URL in Google Merchant Center, you need to log into your account at https://merchants.google.com/. After logging in click "products", then "Feeds". Click the name of the feed you would like to see the URL for, and then click Settings / Fetch schedule. Alternatively, you can find the URL to your product page by editing a product and looking for the Permalink just below the Title box.
-
-    !!! warning
-
-        Your Google Product Feed doesn't work? Try [this service](https://developers.google.com/product-review-feeds/validation/) to validate it.
+        Check this how-to article to learn how to find and connect your Google Product Feed URL: [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
 
     `CATALOGUE` - This is where you can create products and collections of products that can be used in building your quiz. All the changes you make will be saved automatically.
 

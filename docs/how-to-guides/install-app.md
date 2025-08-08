@@ -155,7 +155,10 @@ icon: material/download
     2. Add products and collections. Check how to do that [here](/reference/dashboard/#success-checklist). You can access your in-app Product [Catalogue](https://admin.revenuehunt.com/catalogue) at all times.
     3. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
     4. Drive traffic to your quiz and start getting sales and leads!
+
+    !!! tip "How do I add products to Standalone RevenueHunt App?"
     
+        Check this how-to article to learn how to add products and collections to the Standalone version of the RevenueHunt app: [How to Add Products in Standalone RevenueHunt App](/how-to-guides/add-products-gpf/).
 
     !!! note
 
