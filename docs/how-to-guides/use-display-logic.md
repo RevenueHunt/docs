@@ -16,7 +16,7 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
 
 === "Shopify V2"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/2b244cde228e450c9908aed5459b99f2?sid=4c29fdc3-35f1-4a41-bdfa-00d8c61c861b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=3YY9lVuHYozbUYVq" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "WooCommerce"
 
@@ -423,7 +423,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 === "Shopify V2" 
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f4daa9fcce0e4764865b49844600b7e0?sid=9529b937-8c1f-42f6-86b1-edcbbc717c8e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=EoRzoYJ04e48VsJu&amp;start=96" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     Custom scores or variables can be assigned to choices in the quiz in order to set up a scoring quiz, personality type quiz, dosha quiz, etc.
 
@@ -519,7 +519,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 === "Shopify V2"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e67cd57ffed540a38d7cb755917070e2?sid=692b59ce-b22b-4ff3-aaa7-3721a714e8d7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=w8QWpvi3Ga5dbtxl&amp;start=11" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     **Scenario**
 
@@ -740,7 +740,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 === "Shopify V2"
 
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/945943f6b0f94f52b1868152e38a0a7b?sid=f444c592-fc91-4ac5-95b1-c3359a6ae7dc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=G0PM__FcEyQJDtBp&amp;start=189" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     **Scenario**
 
@@ -872,7 +872,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 === "Shopify V2"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e9edc9f9c5e9407099a11db010d44161?sid=d813acbb-9746-4642-920a-53e125e468ee" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=JG9rNnYpv1aqcdvO&amp;start=269" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     **Scenario**
 
