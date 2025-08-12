@@ -16,6 +16,10 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
 === "Shopify V2"
 
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/s71v8NfNRWk?si=c-8mefpQoHOvppvX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 
 === "WooCommerce"
 
@@ -76,7 +80,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
 === "Shopify V2"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/33942abdef344d19a6e95b478c3f1e8a?sid=16f14cfc-9a54-4eb3-8a90-9ac6e8729195" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=hcgIntH-XecaQxua" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_flow.png)
 
