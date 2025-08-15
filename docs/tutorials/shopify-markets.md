@@ -246,7 +246,7 @@ icon: material/numeric-6
     3. Click `Show all locales` and every market listing will expand with extra dropdown field for languages available in your Shopify store.
 
         !!! info
-            The list of languages avialble in the RevneueHunt app is synced directly from your `Shopify Settings > Languages` and is managed in Shopify via the **Translate & Adapt** app.
+            The list of languages available in the RevenueHunt app is synced directly from your `Shopify Settings > Languages` and is managed in Shopify via the **Translate & Adapt** app.
 
     4. Click on a dropdown next to each language name to set a default quiz for each language.
     
