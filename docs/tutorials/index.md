@@ -22,11 +22,24 @@ Make and publish a short quiz that recommends a group of complementary products 
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/skincare-routine/)
 
+### [Building a Skin Type Quiz](/tutorials/skintype-quiz/)
+
+Make and publish a quiz that determines your customers' skin type and recommends a group of complementary products to your customers.
+
+[:fontawesome-solid-arrow-right: check tutorial](/tutorials/skintype-quiz/)
+
+
 ### [Using Conditional Logic](/tutorials/conditional-logic/)
 
 Learn how to use Jump Logic, Skip Logic, and Display logic to show/hide questions/content in the quiz as well as in the Results Page.
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/conditional-logic/)
+
+### [Sending Emails](/tutorials/sending-emails/)
+
+Learn how to send emails to your quiz leads with the RevenueHunt app.
+
+[:fontawesome-solid-arrow-right: check tutorial](/tutorials/sending-emails/)
 
 ### [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/)
 
@@ -34,10 +47,12 @@ Learn how to add RevenueHunt: Product Recommendation Quiz leads to Klaviyo and h
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/follow-up-emails-klaviyo/)
 
-### [PLAYLIST - One Minute Tutorials](/tutorials/playlist-one-minute-tutorials/)
 
-For quick questions, check out our "One Minute Tutorials" playlist that covers a wide range of topics about our app.
+### [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/)
 
-[:fontawesome-solid-arrow-right: check playlist](/tutorials/playlist-one-minute-tutorials/)
+Learn how to display different quizzes for different Shopify markets, and how to show quizzes in different languages or currencies based on your market settings in the RevenueHunt app.
+
+[:fontawesome-solid-arrow-right: check tutorial](/tutorials/shopify-markets/)
+
 
 
