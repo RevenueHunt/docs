@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-4
+icon: material/numeric-5
 ---
 
 # Sending Follow-up Emails with Klaviyo
@@ -31,18 +31,18 @@ icon: material/numeric-4
 
     !!! info "You'll learn:"
 
-        - how to add an email question to your quiz
-        - how to ask for marketing consent in your quiz
-        - how to connect your quiz to Klaviyo
-        - how to send quiz leads to Klaviyo Profiles
-        - how to send quiz leads to Klaviyo Lists
-        - how to segment customers coming from the quiz in Klaviyo
-        - how to create a result email flow in Klaviyo
-        - how to use our built-in Klaviyo email templates
 
+        - how to add an email question to your quiz,
+        - how to ask for marketing consent in your quiz,
+        - how to connect your quiz to Klaviyo,
+        - how to send quiz leads to Klaviyo Profiles,
+        - how to send quiz leads to Klaviyo Lists,
+        - how to segment customers coming from the quiz in Klaviyo,
+        - how to create a result email flow in Klaviyo,
+        - how to find a Klaviyo email template,
+        - how to edit a Klaviyo email template for the quiz.
 
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/b204f4d367334c11a8700767a2b5152c?sid=7948bc7d-55d3-4924-a8ed-93e6c9511cb4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/1ccqOIhfskw?si=d2P4C1kq47S6jhd4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "WooCommerce"
 
