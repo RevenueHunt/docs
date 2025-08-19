@@ -4,7 +4,35 @@ icon: material/google-analytics
 
 # How to Track Quiz Performance with Google Analytics
 
-Google Analytics offers a powerful way to gain insights into user engagement with your quizzes. Linking your quiz with Google Analytics can provide valuable data on user interaction, pinpoint engagement issues, and help minimize abandonment rates.
+=== "Shopify"
+
+    Google Analytics offers a powerful way to gain insights into user engagement with your quizzes. Linking your quiz with Google Analytics can provide valuable data on user interaction, pinpoint engagement issues, and help minimize abandonment rates.
+
+=== "Shopify V2"
+
+
+    Google Analytics offers a powerful way to gain insights into user engagement with your quizzes. Linking your quiz with Google Analytics can provide valuable data on user interaction, pinpoint engagement issues, and help minimize abandonment rates.
+
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/4f4960d62ead431b8f8fa785287df760?sid=cb45da59-66f5-48c4-a665-41ff5056d009" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+
+=== "WooCommerce"       
+
+    Google Analytics offers a powerful way to gain insights into user engagement with your quizzes. Linking your quiz with Google Analytics can provide valuable data on user interaction, pinpoint engagement issues, and help minimize abandonment rates.
+
+=== "Magento"
+
+    Google Analytics offers a powerful way to gain insights into user engagement with your quizzes. Linking your quiz with Google Analytics can provide valuable data on user interaction, pinpoint engagement issues, and help minimize abandonment rates.
+
+=== "BigCommerce"
+
+    Google Analytics offers a powerful way to gain insights into user engagement with your quizzes. Linking your quiz with Google Analytics can provide valuable data on user interaction, pinpoint engagement issues, and help minimize abandonment rates.
+
+=== "Standalone"
+
+
+    Google Analytics offers a powerful way to gain insights into user engagement with your quizzes. Linking your quiz with Google Analytics can provide valuable data on user interaction, pinpoint engagement issues, and help minimize abandonment rates.
+
 
 ## Connect Quiz to Google Analytics
 
@@ -18,12 +46,25 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
 
     1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `connect` button in the Google Analytics section and paste your Google Analytics Tracking Code (**G-xxxxx** for GA4).
+    3. Publish the changes with the top-right `Publish` button.
+
+    !!! info "How to Find Your GA4 Tracking Code"
+
+        Don't know how to find your GA tracking code? [Check this link](https://support.google.com/analytics/answer/1008080).
+
+        1. Open your GA4 account and navigate to `Settings > Data Streams`.
+        2. Select or set up a new data stream for your website.
+        3. Open the stream and copy the Measurement ID.
 
 === "Shopify V2"
 
     You can connect your Google Analytics Tracking Code to your quiz to understand how your customers are interacting with your quiz, identify bottlenecks, and reduce the drop-off rate.
 
-    1. Make sure you have set up the GA4 tracking on your website.
+    1. Make sure you have set up the GA4 tracking on your website. 
+
+        !!! tip
+
+            Don't know how to connect your website to Google Analytics or find your GA tracking code? [Check this link](https://support.google.com/analytics/answer/1008080).
     1. Head to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `Activate` button in the Google Analytics section.
         ![how to integrate ga4 shopify v2](/images/how_to_integrate_ga4_shopify_v2.png)
@@ -36,6 +77,15 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
 
     1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `connect` button in the Google Analytics section and paste your Google Analytics Tracking Code (**G-xxxxx** for GA4).
+    3. Publish the changes with the top-right `Publish` button.
+
+    !!! info "How to Find Your GA4 Tracking Code"    
+
+        Don't know how to find your GA tracking code? [Check this link](https://support.google.com/analytics/answer/1008080).
+
+        1. Open your GA4 account and navigate to `Settings > Data Streams`.
+        2. Select or set up a new data stream for your website.
+        3. Open the stream and copy the Measurement ID.
 
 === "Magento"
 
@@ -43,6 +93,15 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
 
     1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `connect` button in the Google Analytics section and paste your Google Analytics Tracking Code (**G-xxxxx** for GA4).
+    3. Publish the changes with the top-right `Publish` button.
+
+    !!! info "How to Find Your GA4 Tracking Code"    
+
+        Don't know how to find your GA tracking code? [Check this link](https://support.google.com/analytics/answer/1008080).
+
+        1. Open your GA4 account and navigate to `Settings > Data Streams`.
+        2. Select or set up a new data stream for your website.
+        3. Open the stream and copy the Measurement ID.
 
 === "BigCommerce"
 
@@ -50,6 +109,15 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
 
     1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `connect` button in the Google Analytics section and paste your Google Analytics Tracking Code (**G-xxxxx** for GA4).
+    3. Publish the changes with the top-right `Publish` button.
+
+    !!! info "How to Find Your GA4 Tracking Code"    
+
+        Don't know how to find your GA tracking code? [Check this link](https://support.google.com/analytics/answer/1008080).
+
+        1. Open your GA4 account and navigate to `Settings > Data Streams`.
+        2. Select or set up a new data stream for your website.
+        3. Open the stream and copy the Measurement ID.
 
 === "Standalone"
 
@@ -57,15 +125,15 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
 
     1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `connect` button in the Google Analytics section and paste your Google Analytics Tracking Code (**G-xxxxx** for GA4).
+    3. Publish the changes with the top-right `Publish` button.
 
-### How to Find Your GA4 Tracking Code
+    !!! info "How to Find Your GA4 Tracking Code"    
 
-Don't know how to find your GA tracking code? [Check this link](https://support.google.com/analytics/answer/1008080).
+        Don't know how to find your GA tracking code? [Check this link](https://support.google.com/analytics/answer/1008080).
 
-1. Open your GA4 account and navigate to `Settings > Data Streams`.
-2. Select or set up a new data stream for your website.
-3. Open the stream and copy the Measurement ID.
-4. Copy the Measurement ID into the app’s `Connect > Google Analytics` section and publish the changes.
+        1. Open your GA4 account and navigate to `Settings > Data Streams`.
+        2. Select or set up a new data stream for your website.
+        3. Open the stream and copy the Measurement ID.
 
 ## Track Customer Behavior (Events)
 
@@ -271,3 +339,6 @@ We strongly recommend not excluding your quiz as a traffic source, but here’s 
 
     3. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, label, and value that you wish to track. This customization allows you to monitor specific user actions on your website.
     4. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+
+---
+This article explains how to connect the quiz to Google Analytics and track quiz performance in GA4.
