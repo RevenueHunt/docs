@@ -15,7 +15,9 @@ icon: material/sale
 
 === "Shopify V2"
 
-    It is not currently possible to add discount codes or coupons directly into your quiz results page built with the new version of the RevenueHunt app for Shopify. You can, however, add a coupon code to the [result emails](#include-discount-codes-in-follow-up-emails) that can be sent to the customer.
+    With the Built for Shopify version of the RevenueHunt app, it is possible to **add a discount code as text** to the quiz last question or results page as well as the [result emails](#include-discount-codes-in-follow-up-emails).
+
+    It is **not** currently possible to **automatically sync/add discount codes** or coupons directly into your quiz results page built with the new version of the RevenueHunt app for Shopify.
     
     If you have a discount applied to certain products in your store, these reduced prices will be reflected in the quiz results page automatically.
 
@@ -145,9 +147,29 @@ icon: material/sale
 
 === "Shopify V2"
 
-    It is not currently possible to add discount coupons into your quiz built with the new version of the RevenueHunt app for Shopify. 
+    You can add a discount code as text within a [text block](/reference/quiz-builder/results-page/#text) on the quiz Results page. Users will be able to copy and paste the discount code at checkout.
+
+    1. Open the [Results Page](/reference/quiz-builder/results-page/).
+    2. Click on `Add block`.
+    3. Select `Text` block.
+    4. Add the discount code to the text field.
+    5. Save the changes with the top-right `Save` button.
+
+    ![how to add discount text block](/images/how_to_shopifyv2_add_discount_as_text.png)
+
+
+
+    !!! tip
+
+        You can also add a discount code to the [result emails](/reference/quiz-builder/notifications/#to-respondent) by adding the discount code to the text field.
+
+    !!! warning
+
+        It is not currently possible to automatically sync discount coupons into your quiz built with the new version of the RevenueHunt app for Shopify. 
+
+    !!! info
     
-    If you have a discount applied to certain products in your store, these reduced prices will be reflected in the quiz results page automatically.
+        If you have a discount applied to certain products in your store, these reduced prices will be reflected in the quiz results page automatically.
 
 === "WooCommerce"
 
