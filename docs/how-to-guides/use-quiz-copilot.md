@@ -90,6 +90,19 @@ icon: material/chat-question-outline
     3. The generated code for the Klaviyo email template can be copied by clicking the `Copy` icon.
     4. Paste the generated code directly into an HTML block in your Klaviyo email template.
 
+    ### Example 4: Translating Quiz to Another Language
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=cDSpAoLc0j56Q-0j&amp;start=115" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
+
+    Quiz Copilot can also be used to translate a quiz to another language.
+
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    2. Ask Quiz Copilot to translate your main  quiz to another language.
+    3. Quiz Copilot will generate a new quiz copy in the desired language.
+    4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
+    5. If satisfied with the quiz, save the changes with the `Save` button.
+    6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
+
 === "WooCommerce"
 
     Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the legacy version of the RevenueHunt app for WooCommerce.

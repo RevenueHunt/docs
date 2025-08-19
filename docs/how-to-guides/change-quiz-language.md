@@ -6,6 +6,10 @@ icon: material/translate-variant
 
 This guide will help you change the language of your quiz, translate it into different languages or set up Shopify Markets to display the quiz in different languages based on the visitor's location and language preference.
 
+!!! tip "Tutorial"
+    
+    Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
+
 ## Change Quiz Language in Settings
 
 === "Shopify"
@@ -26,10 +30,6 @@ This guide will help you change the language of your quiz, translate it into dif
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/c636603e986a41a6a932c7721add7dcf?sid=5abfc134-cb3d-4ba6-934f-991533d5a11d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    !!! tip "Tutorial"
-    
-        Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
-
     Before assigning quizzes to specific markets and languages, you’ll need to create and customize the quiz versions for each language. Here’s how:
 
     **Step 1: Create Your Initial Quiz:**
@@ -40,9 +40,13 @@ This guide will help you change the language of your quiz, translate it into dif
 
     **Step 2: Duplicate the Quiz for Each Language:**
 
-    - From the [Dashbaord](/reference/dashboard/), select the option to `Duplicate` your original quiz.
+    - From the [Dashbaord](/reference/dashboard/), select the option to `Duplicate` your original quiz or ask [Quiz Copilot](docs/how-to-guides/use-quiz-copilot/) to create a new translated quiz copy for you.
 
       ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
+
+    !!! tip
+    
+        [Quiz Copilot](docs/how-to-guides/use-quiz-copilot/) can be used to translate and duplicate quizzes. Just open a chat with it and ask it to duplicate the main quiz for you in a different language.
 
     - For each duplicate quiz, go into the [`Quiz settings > Quiz content`](/reference/quiz-builder/quiz-settings/#messages) and update the language for all buttons, popups, and other interface elements.
 
@@ -50,7 +54,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     **Step 3: Translate Questions and Choices Separately:**
 
-    The questions and answer choices won’t automatically translate; you’ll need to manually update these for each language version. 
+    Unless you've used [Quiz Copilot](docs/how-to-guides/use-quiz-copilot/) to translate the quiz, the questions and answer choices won’t automatically translate; you’ll need to manually update these for each language version. 
 
     - Go through each question and answer choice to ensure they are accurately translated and culturally relevant for each target language.
 
@@ -61,6 +65,10 @@ This guide will help you change the language of your quiz, translate it into dif
     - Change the translations for buttons and helpers for each language version.
     
     **Step 5: Assign the Quiz to the Right Market and Language:**
+
+    !!! tip "Tutorial"
+    
+        Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
 
     - Once each quiz version is ready, go to [App Settings > Shopify Markets](/reference/app-settings/#markets).
 
