@@ -1,3 +1,9 @@
+---
+icon: material/numeric-1
+---
+
+
+
 # How to Reduce Drop-off and Maximize Quiz Completion Rate
 
 Quizzes can be a powerful tool to engage users, collect valuable data, and even segment your audience for targeted marketing. However, creating a quiz that maintains the user's interest from start to finish can be challenging. High drop-off rates can significantly affect the effectiveness of your quiz.
