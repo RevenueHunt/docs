@@ -1,4 +1,4 @@
-# RevenueHunt "Built for Shopify" Beta Tester Program
+# RevenueHunt is now Built for Shopify
 
 We’re thrilled to introduce the Built for Shopify version of our RevenueHunt app! 
 
@@ -28,7 +28,7 @@ In this guide, we’ll walk you through everything you need to know about transi
 
 ### Core Functionality
 
-| Feature                         | Legacy App              | Built for Shopify (Beta) |
+| Feature                         | Legacy App              | Built for Shopify |
 |---------------------------------|--------------------------|---------------------------|
 | Build Quizzes                   | ✅                       | ✅                        |
 | Recommend Products & Variants  | ✅                       | ✅                        |
@@ -56,7 +56,7 @@ In this guide, we’ll walk you through everything you need to know about transi
 
 ### Improved Design and Publishing Options
 
-| Feature                    | Legacy App         | Built for Shopify (Beta)    |
+| Feature                    | Legacy App         | Built for Shopify    |
 |----------------------------|--------------------|------------------------------|
 | Quiz Embed                 | ❌ (iframe)        | ✅ (native block or popup) 👈 |
 | Modern Templates           | ❌                 | ✅ 👈                          |
@@ -82,7 +82,7 @@ In this guide, we’ll walk you through everything you need to know about transi
 
 ### Integrations
 
-| Integration                   | Legacy App | Built for Shopify (Beta) |
+| Integration                   | Legacy App | Built for Shopify |
 |-------------------------------|------------|---------------------------|
 | Shopify Discounts             | ✅         | ❌ (Coming Soon)          |
 | Product Metafields Sync       | ✅         | ✅                        |
@@ -100,8 +100,6 @@ In this guide, we’ll walk you through everything you need to know about transi
 ## Switch between Legacy and Built for Shopify versions
 
 !!! info "Why Switch to the Built for Shopify Version?"
-
-    - 💰 25% Lifetime Discount — For all beta testers. During the beta phase, **usage is FREE**, and once we release, you'll receive a **25% discount** on all our plans for life.
 
     - ⚙️ Modern & Fast Interface — Built to feel like a natural extension of Shopify
 
