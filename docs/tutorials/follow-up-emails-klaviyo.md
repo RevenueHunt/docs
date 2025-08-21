@@ -42,7 +42,7 @@ icon: material/numeric-5
         - how to find a Klaviyo email template,
         - how to edit a Klaviyo email template for the quiz.
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/1ccqOIhfskw?si=d2P4C1kq47S6jhd4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/1ccqOIhfskw?si=8px5Gl4sDuavHuDe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "WooCommerce"
 
@@ -666,7 +666,7 @@ icon: material/numeric-5
 
     8. Paste the code in the `HTML` block in Klaviyo email.
     9. Next, `Preview` the email as one of your segment subscribers to check what information is displayed.
-    10. You can freely edit the email template to your liking. For example, you can remove all the sections of the code that you don't need. You can also style the provided email code. Keep in mind, that you may need help from a developer to edit the tempalte code. Alternatively, you can try asking an AI agent like ChatGPT or Claude for help in styling the email.
+    10. You can freely edit the email template to your liking. For example, you can remove all the sections of the code that you don't need. You can also style the provided email code. Keep in mind, that you may need help from a developer to edit the tempalte code. Alternatively, you can try asking [Quiz Copilot](/how-to-guides/use-quiz-copilot/) or another AI agent like ChatGPT or Claude for help in styling the email.
     
         !!! tip
             Check the [Use quiz data in Klaviyo email templates](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) article to learn how to customize your Klaviyo email template with quiz properties.
