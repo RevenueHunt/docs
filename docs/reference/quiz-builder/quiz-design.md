@@ -192,6 +192,11 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
 
+    !!! info "App CSS Structure"
+
+        For a detailed overview of the CSS structure of the app and CSS examples, see the [App CSS Structure](/reference/css-structure/) reference.
+
+
 === "WooCommerce"
 
     In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.

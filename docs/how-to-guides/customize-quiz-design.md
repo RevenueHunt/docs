@@ -223,6 +223,10 @@ Remember, you can also include custom images and styles for each question via th
 
     - **Find an Element Selector**: To target a specific element in your quiz, right-click on it in your browser and select `Inspect` to view the element’s selector.
 
+        !!! info "App CSS Structure"
+
+            For a detailed overview of the CSS structure of the app and CSS examples, see the [App CSS Structure](/reference/css-structure/) reference.
+
     - **Add Specificity to CSS Rules**: Use specific selectors to apply styles only to particular parts of your quiz. For example:
     ```css
     #quiz p { color: red; }
@@ -333,20 +337,24 @@ Remember, you can also include custom images and styles for each question via th
 1. **Find a Google Font**: To upload a custom Google Font to the quiz, first navigate to the font’s page. For example: [Quicksand](https://fonts.google.com/specimen/Quicksand).
 2. **Copy Font code**: Then, select the styles you want to be applied and copy the import font URL and font family CSS rules.
 3. **Write CSS code**: To add a Google font to the quiz elements (h1-h6, p) use this sample code:
-    ```html
-    @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
-    .quicksand-font {
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    }
+    !!! example "Example: Google Font Code"
 
-    h1, h2, h3, h4, h5, h6, p, button, div{
-    font-family: 'Quicksand', sans-serif ;
-    }
-    ```
+        ```html
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+        .quicksand-font {
+        font-family: "Quicksand", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        }
+
+        h1, h2, h3, h4, h5, h6, p, button, div{
+        font-family: 'Quicksand', sans-serif ;
+        }
+        ```
+
 5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
 6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
@@ -741,27 +749,28 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
     Here are a few popular CSS selectors and codes to style elements in the quiz:
 
-    - Hide Progress Bar in the footer
+
+    ??? example "Hide Progress Bar in the footer"
         ```html
         /* Hide Progress Bar in the footer */
         .lq-progress-box{
         display: none;
         }
         ```
-    - Change the styles of the choices
+    ??? example "Change the styles of the choices"
         ```html
         /* Change the styles of the choices */
         li.lq-choice, li.lq-choice{
         /* your CSS rules go here */
         }
         ```
-    - Change the styles of the picture choices
+    ??? example "Change the styles of the picture choices"
         ```html
         .lq-images li.lq-choice, .lq-images li.lq-choice{
         /* your CSS rules go here */
         }
         ```
-    -  Place the footer bar at the top, for more visibility
+    ??? example "Place the footer bar at the top, for more visibility"
         ```html
         .lq-footer, .lq-footer{
         position: absolute;
@@ -770,7 +779,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         margin: 0;
         }
         ```
-    - Make "Back" and "Next" arrows point left and right
+    ??? example "Make 'Back' and 'Next' arrows point left and right"
         ```html
         #nav-next .fa, #nav-back .fa {
             -webkit-transform: rotate(-90deg);
@@ -780,7 +789,11 @@ We offer complete flexibility to developers for personalizing both the quiz and 
             transform: rotate(-90deg);
         }
         ```
-    - Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+
+    ??? example "Adding a custom font"
+
+        Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+
         ```html
         @font-face {
         font-family: "Morion";
@@ -791,7 +804,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         font-family: Morion, serif;
         }
         ```
-    - Hide the "add all to cart" button 
+    ??? example "Hide the 'add all to cart' button"
+
         ```html
         /*Hide the "add all to cart" button */
 
@@ -799,7 +813,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
             display: none;
         }
         ```
-    - Hide the product variants
+    ??? example "Hide the product variants"
+
         ```html
         /* this hides the product variants */
         .no-variants-dropdown {
@@ -812,7 +827,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         display: none;
         }
         ```
-    -  Adds quiz border
+    ??? example "Adds quiz border"
+
         ```html
         /* Adds quiz border */
         .lq-quiz {
@@ -820,7 +836,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         border-color: red;
         }
         ```
-    - Change Picture Choices to Icons
+    ??? example "Change Picture Choices to Icons"
+
         ```html
         /* Change Picture Choices to Icons */
 
@@ -876,28 +893,32 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         }
         ```
-    - Muliptle choice questions: change the selected options background
+    ??? example "Muliptle choice questions: change the selected options background"
+
         ```html
         /* Muliptle choice questions: change the selected options background */
         li.lq-selected .lq-letter {
         background-color: gray;
         }
         ```
-    - Change the color of the Retake Quiz text
+    ??? example "Change the color of the Retake Quiz text"
+
         ```html
         /* Change the color of the Retake Quiz text */
         .lq-retake-quiz {
         color: black;
         }
         ```
-    - Change the background of the Add to Cart button
+    ??? example "Change the background of the Add to Cart button"
+
         ```html
         /* Change the background of the Add to Cart button */
         .lq-checkout {
         background-color: #ff7028;
         }
         ```
-    - Change the background of the singluar Add to cart buttons
+    ??? example "Change the background of the singluar Add to cart buttons"
+
         ```html
         /* Change the background of the singluar Add to cart buttons */
         .lq-btn-content {
@@ -908,31 +929,35 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
 === "Shopify V2"
 
-=== "WooCommerce"
+    !!! info "App CSS Structure"
 
+        For a detailed overview of the CSS structure of the app and CSS examples, see the [App CSS Structure](/reference/css-structure/) reference.
+
+=== "WooCommerce"
     Here are a few popular CSS selectors and codes to style elements in the quiz:
 
-    - Hide Progress Bar in the footer
+
+    ??? example "Hide Progress Bar in the footer"
         ```html
         /* Hide Progress Bar in the footer */
         .lq-progress-box{
         display: none;
         }
         ```
-    - Change the styles of the choices
+    ??? example "Change the styles of the choices"
         ```html
         /* Change the styles of the choices */
         li.lq-choice, li.lq-choice{
         /* your CSS rules go here */
         }
         ```
-    - Change the styles of the picture choices
+    ??? example "Change the styles of the picture choices"
         ```html
         .lq-images li.lq-choice, .lq-images li.lq-choice{
         /* your CSS rules go here */
         }
         ```
-    -  Place the footer bar at the top, for more visibility
+    ??? example "Place the footer bar at the top, for more visibility"
         ```html
         .lq-footer, .lq-footer{
         position: absolute;
@@ -941,7 +966,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         margin: 0;
         }
         ```
-    - Make "Back" and "Next" arrows point left and right
+    ??? example "Make 'Back' and 'Next' arrows point left and right"
         ```html
         #nav-next .fa, #nav-back .fa {
             -webkit-transform: rotate(-90deg);
@@ -951,7 +976,11 @@ We offer complete flexibility to developers for personalizing both the quiz and 
             transform: rotate(-90deg);
         }
         ```
-    - Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+
+    ??? example "Adding a custom font"
+
+        Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+
         ```html
         @font-face {
         font-family: "Morion";
@@ -962,7 +991,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         font-family: Morion, serif;
         }
         ```
-    - Hide the "add all to cart" button 
+    ??? example "Hide the 'add all to cart' button"
+
         ```html
         /*Hide the "add all to cart" button */
 
@@ -970,7 +1000,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
             display: none;
         }
         ```
-    - Hide the product variants
+    ??? example "Hide the product variants"
+
         ```html
         /* this hides the product variants */
         .no-variants-dropdown {
@@ -983,7 +1014,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         display: none;
         }
         ```
-    -  Adds quiz border
+    ??? example "Adds quiz border"
+
         ```html
         /* Adds quiz border */
         .lq-quiz {
@@ -991,7 +1023,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         border-color: red;
         }
         ```
-    - Change Picture Choices to Icons
+    ??? example "Change Picture Choices to Icons"
+
         ```html
         /* Change Picture Choices to Icons */
 
@@ -1047,28 +1080,32 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         }
         ```
-    - Muliptle choice questions: change the selected options background
+    ??? example "Muliptle choice questions: change the selected options background"
+
         ```html
         /* Muliptle choice questions: change the selected options background */
         li.lq-selected .lq-letter {
         background-color: gray;
         }
         ```
-    - Change the color of the Retake Quiz text
+    ??? example "Change the color of the Retake Quiz text"
+
         ```html
         /* Change the color of the Retake Quiz text */
         .lq-retake-quiz {
         color: black;
         }
         ```
-    - Change the background of the Add to Cart button
+    ??? example "Change the background of the Add to Cart button"
+
         ```html
         /* Change the background of the Add to Cart button */
         .lq-checkout {
         background-color: #ff7028;
         }
         ```
-    - Change the background of the singluar Add to cart buttons
+    ??? example "Change the background of the singluar Add to cart buttons"
+
         ```html
         /* Change the background of the singluar Add to cart buttons */
         .lq-btn-content {
@@ -1078,30 +1115,30 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
 
 === "Magento"
-
     Here are a few popular CSS selectors and codes to style elements in the quiz:
 
-    - Hide Progress Bar in the footer
+
+    ??? example "Hide Progress Bar in the footer"
         ```html
         /* Hide Progress Bar in the footer */
         .lq-progress-box{
         display: none;
         }
         ```
-    - Change the styles of the choices
+    ??? example "Change the styles of the choices"
         ```html
         /* Change the styles of the choices */
         li.lq-choice, li.lq-choice{
         /* your CSS rules go here */
         }
         ```
-    - Change the styles of the picture choices
+    ??? example "Change the styles of the picture choices"
         ```html
         .lq-images li.lq-choice, .lq-images li.lq-choice{
         /* your CSS rules go here */
         }
         ```
-    -  Place the footer bar at the top, for more visibility
+    ??? example "Place the footer bar at the top, for more visibility"
         ```html
         .lq-footer, .lq-footer{
         position: absolute;
@@ -1110,7 +1147,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         margin: 0;
         }
         ```
-    - Make "Back" and "Next" arrows point left and right
+    ??? example "Make 'Back' and 'Next' arrows point left and right"
         ```html
         #nav-next .fa, #nav-back .fa {
             -webkit-transform: rotate(-90deg);
@@ -1120,7 +1157,11 @@ We offer complete flexibility to developers for personalizing both the quiz and 
             transform: rotate(-90deg);
         }
         ```
-    - Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+
+    ??? example "Adding a custom font"
+
+        Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+
         ```html
         @font-face {
         font-family: "Morion";
@@ -1131,7 +1172,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         font-family: Morion, serif;
         }
         ```
-    - Hide the "add all to cart" button 
+    ??? example "Hide the 'add all to cart' button"
+
         ```html
         /*Hide the "add all to cart" button */
 
@@ -1139,7 +1181,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
             display: none;
         }
         ```
-    - Hide the product variants
+    ??? example "Hide the product variants"
+
         ```html
         /* this hides the product variants */
         .no-variants-dropdown {
@@ -1152,7 +1195,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         display: none;
         }
         ```
-    -  Adds quiz border
+    ??? example "Adds quiz border"
+
         ```html
         /* Adds quiz border */
         .lq-quiz {
@@ -1160,7 +1204,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         border-color: red;
         }
         ```
-    - Change Picture Choices to Icons
+    ??? example "Change Picture Choices to Icons"
+
         ```html
         /* Change Picture Choices to Icons */
 
@@ -1216,28 +1261,32 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         }
         ```
-    - Muliptle choice questions: change the selected options background
+    ??? example "Muliptle choice questions: change the selected options background"
+
         ```html
         /* Muliptle choice questions: change the selected options background */
         li.lq-selected .lq-letter {
         background-color: gray;
         }
         ```
-    - Change the color of the Retake Quiz text
+    ??? example "Change the color of the Retake Quiz text"
+
         ```html
         /* Change the color of the Retake Quiz text */
         .lq-retake-quiz {
         color: black;
         }
         ```
-    - Change the background of the Add to Cart button
+    ??? example "Change the background of the Add to Cart button"
+
         ```html
         /* Change the background of the Add to Cart button */
         .lq-checkout {
         background-color: #ff7028;
         }
         ```
-    - Change the background of the singluar Add to cart buttons
+    ??? example "Change the background of the singluar Add to cart buttons"
+
         ```html
         /* Change the background of the singluar Add to cart buttons */
         .lq-btn-content {
@@ -1247,30 +1296,30 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
 
 === "BigCommerce"
-
     Here are a few popular CSS selectors and codes to style elements in the quiz:
 
-    - Hide Progress Bar in the footer
+
+    ??? example "Hide Progress Bar in the footer"
         ```html
         /* Hide Progress Bar in the footer */
         .lq-progress-box{
         display: none;
         }
         ```
-    - Change the styles of the choices
+    ??? example "Change the styles of the choices"
         ```html
         /* Change the styles of the choices */
         li.lq-choice, li.lq-choice{
         /* your CSS rules go here */
         }
         ```
-    - Change the styles of the picture choices
+    ??? example "Change the styles of the picture choices"
         ```html
         .lq-images li.lq-choice, .lq-images li.lq-choice{
         /* your CSS rules go here */
         }
         ```
-    -  Place the footer bar at the top, for more visibility
+    ??? example "Place the footer bar at the top, for more visibility"
         ```html
         .lq-footer, .lq-footer{
         position: absolute;
@@ -1279,7 +1328,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         margin: 0;
         }
         ```
-    - Make "Back" and "Next" arrows point left and right
+    ??? example "Make 'Back' and 'Next' arrows point left and right"
         ```html
         #nav-next .fa, #nav-back .fa {
             -webkit-transform: rotate(-90deg);
@@ -1289,7 +1338,11 @@ We offer complete flexibility to developers for personalizing both the quiz and 
             transform: rotate(-90deg);
         }
         ```
-    - Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+
+    ??? example "Adding a custom font"
+
+        Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+
         ```html
         @font-face {
         font-family: "Morion";
@@ -1300,7 +1353,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         font-family: Morion, serif;
         }
         ```
-    - Hide the "add all to cart" button 
+    ??? example "Hide the 'add all to cart' button"
+
         ```html
         /*Hide the "add all to cart" button */
 
@@ -1308,7 +1362,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
             display: none;
         }
         ```
-    - Hide the product variants
+    ??? example "Hide the product variants"
+
         ```html
         /* this hides the product variants */
         .no-variants-dropdown {
@@ -1321,7 +1376,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         display: none;
         }
         ```
-    -  Adds quiz border
+    ??? example "Adds quiz border"
+
         ```html
         /* Adds quiz border */
         .lq-quiz {
@@ -1329,7 +1385,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         border-color: red;
         }
         ```
-    - Change Picture Choices to Icons
+    ??? example "Change Picture Choices to Icons"
+
         ```html
         /* Change Picture Choices to Icons */
 
@@ -1385,28 +1442,32 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         }
         ```
-    - Muliptle choice questions: change the selected options background
+    ??? example "Muliptle choice questions: change the selected options background"
+
         ```html
         /* Muliptle choice questions: change the selected options background */
         li.lq-selected .lq-letter {
         background-color: gray;
         }
         ```
-    - Change the color of the Retake Quiz text
+    ??? example "Change the color of the Retake Quiz text"
+
         ```html
         /* Change the color of the Retake Quiz text */
         .lq-retake-quiz {
         color: black;
         }
         ```
-    - Change the background of the Add to Cart button
+    ??? example "Change the background of the Add to Cart button"
+
         ```html
         /* Change the background of the Add to Cart button */
         .lq-checkout {
         background-color: #ff7028;
         }
         ```
-    - Change the background of the singluar Add to cart buttons
+    ??? example "Change the background of the singluar Add to cart buttons"
+
         ```html
         /* Change the background of the singluar Add to cart buttons */
         .lq-btn-content {
@@ -1416,30 +1477,30 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         ```
 
 === "Standalone"
-
     Here are a few popular CSS selectors and codes to style elements in the quiz:
 
-    - Hide Progress Bar in the footer
+
+    ??? example "Hide Progress Bar in the footer"
         ```html
         /* Hide Progress Bar in the footer */
         .lq-progress-box{
         display: none;
         }
         ```
-    - Change the styles of the choices
+    ??? example "Change the styles of the choices"
         ```html
         /* Change the styles of the choices */
         li.lq-choice, li.lq-choice{
         /* your CSS rules go here */
         }
         ```
-    - Change the styles of the picture choices
+    ??? example "Change the styles of the picture choices"
         ```html
         .lq-images li.lq-choice, .lq-images li.lq-choice{
         /* your CSS rules go here */
         }
         ```
-    -  Place the footer bar at the top, for more visibility
+    ??? example "Place the footer bar at the top, for more visibility"
         ```html
         .lq-footer, .lq-footer{
         position: absolute;
@@ -1448,7 +1509,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         margin: 0;
         }
         ```
-    - Make "Back" and "Next" arrows point left and right
+    ??? example "Make 'Back' and 'Next' arrows point left and right"
         ```html
         #nav-next .fa, #nav-back .fa {
             -webkit-transform: rotate(-90deg);
@@ -1458,7 +1519,11 @@ We offer complete flexibility to developers for personalizing both the quiz and 
             transform: rotate(-90deg);
         }
         ```
-    - Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+
+    ??? example "Adding a custom font"
+
+        Adding a custom font (you'll have to host the font in your server). If your fonts are hosted within your Shopify store, they' may appear as a "private" fonts or hosted within a site restricted for us. If you want to use that font it'd have to be hosted elsewhere, and that way you could implement them within the quiz. Alternatively, check [Upload Google Font](#upload-a-google-font).
+
         ```html
         @font-face {
         font-family: "Morion";
@@ -1469,7 +1534,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         font-family: Morion, serif;
         }
         ```
-    - Hide the "add all to cart" button 
+    ??? example "Hide the 'add all to cart' button"
+
         ```html
         /*Hide the "add all to cart" button */
 
@@ -1477,7 +1543,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
             display: none;
         }
         ```
-    - Hide the product variants
+    ??? example "Hide the product variants"
+
         ```html
         /* this hides the product variants */
         .no-variants-dropdown {
@@ -1490,7 +1557,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         display: none;
         }
         ```
-    -  Adds quiz border
+    ??? example "Adds quiz border"
+
         ```html
         /* Adds quiz border */
         .lq-quiz {
@@ -1498,7 +1566,8 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         border-color: red;
         }
         ```
-    - Change Picture Choices to Icons
+    ??? example "Change Picture Choices to Icons"
+
         ```html
         /* Change Picture Choices to Icons */
 
@@ -1554,28 +1623,32 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         }
         ```
-    - Muliptle choice questions: change the selected options background
+    ??? example "Muliptle choice questions: change the selected options background"
+
         ```html
         /* Muliptle choice questions: change the selected options background */
         li.lq-selected .lq-letter {
         background-color: gray;
         }
         ```
-    - Change the color of the Retake Quiz text
+    ??? example "Change the color of the Retake Quiz text"
+
         ```html
         /* Change the color of the Retake Quiz text */
         .lq-retake-quiz {
         color: black;
         }
         ```
-    - Change the background of the Add to Cart button
+    ??? example "Change the background of the Add to Cart button"
+
         ```html
         /* Change the background of the Add to Cart button */
         .lq-checkout {
         background-color: #ff7028;
         }
         ```
-    - Change the background of the singluar Add to cart buttons
+    ??? example "Change the background of the singluar Add to cart buttons"
+
         ```html
         /* Change the background of the singluar Add to cart buttons */
         .lq-btn-content {
