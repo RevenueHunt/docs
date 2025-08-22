@@ -5,7 +5,7 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
 === "Shopify"
 
     1. Make sure your quiz is connected to [Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) and that you've [enabled Order Notes](https://help.shopify.com/en/manual/online-store/themes/themes-by-shopify/vintage-themes/customizing-vintage-themes/get-more-information-with-order-notes) in your Shopify Theme.
-    2. To activate Shopify Orders Tagging option navigate to the `Connect` tab in the quiz and scroll down to find `Shopify Orders Tagging (Beta)` tab.
+    2. To activate Shopify Orders Tagging option navigate to the `Connect` tab in the quiz and scroll down to find `Shopify Orders Tagging` tab.
     3. To allow the quiz to add tags and question answers to your orders, simply click `connect`.
     4. Make sure to `Publish` the quiz in the top right corner.
 

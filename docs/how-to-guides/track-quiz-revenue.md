@@ -22,7 +22,7 @@ This documentation outlines how to track quiz analytics and revenue generated fr
 
     1. **Enable Order Notes**: You need to enable Order Notes in your Theme Settings for this feature to work. Follow [these instructions](https://help.shopify.com/en/manual/online-store/themes/themes-by-shopify/vintage-themes/customizing-vintage-themes/get-more-information-with-order-notes) to enable them or contact your theme developer.
     2. **Open the Connect tab**: Open the RevenueHunt app and navigate to the [Connect](/reference/quiz-builder/connect-integrations/) tab.
-    3. **Conect to Shopify Reprots**: Scroll down to find the **Shopify Revenue Report (Beta)** section. Click on the `Connect` button within the Shopify Revenue Report (Beta) section.
+    3. **Conect to Shopify Reprots**: Scroll down to find the **Shopify Revenue Report** section. Click on the `Connect` button within the Shopify Revenue Report section.
     4. **Give consent**: The system will ask for your consent to access orders. Once accepted, it will establish a connection between the RevenueHunt app and your Shopify account, allowing the app to start gathering order data tagged by the quiz.
     5. **Publish the changes**: Click on the top-right `Publish` button to updated the quiz preview/live quiz and save the changes.
 
