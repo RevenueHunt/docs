@@ -29,7 +29,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
     To add scores or variables to choices, follow these steps:
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
-    2. Open the [Choice Settings](/reference/quiz-builder/choice-settings/).
+    2. Open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
 
@@ -143,7 +143,7 @@ Follow these steps to set up a winning variable quiz:
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their skin condition. For example: itchiness, tightness, dryness, etc. if you are creating a quiz for a skin care brand.
 
-    2. **Assign Variables and Scores to Choices**: Go to each question in your quiz. For each choice, open the [choice settings](/reference/quiz-builderchoice-settings/) and [assign varibales to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices). 
+    2. **Assign Variables and Scores to Choices**: Go to each question in your quiz. For each choice, open the [choice settings](/reference/quiz-builder/questions/#choice-settings) and [assign varibales to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices). 
 
         !!! tip
 
@@ -181,9 +181,9 @@ Follow these steps to set up a winning variable quiz:
 
             Section 5: Sensitive Skin
 
-    4. **Add a Product Block to Each Section**: Add a [Product Block](/reference/quiz-builder/product-block/) to each section on your Results Page. In the Product Block settings set the `Recommendation System` to `Fixed Recommendations` and select the products you want to recommend for that skin type.  
+    4. **Add a Product Block to Each Section**: Add a [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) to each section on your Results Page. In the Product Block settings set the `Recommendation System` to `Fixed Recommendations` and select the products you want to recommend for that skin type.  
 
-    5. **Add Display Logic**: Add a [Display Logic](/reference/quiz-builder/display-logic/) to each section on your Results Page to tell it when to be shown or hidden based on the winning variable.
+    5. **Add Display Logic**: Add a [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) to each section on your Results Page to tell it when to be shown or hidden based on the winning variable.
 
         !!! example
 
@@ -383,7 +383,7 @@ Follow these steps to set up a scoring quiz with one results page:
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, enviornemnet etc. if you are creating a quiz for a skin care brand.
 
-    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builderchoice-settings/) section. 
+    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) section. 
 
         ![assigning scores to choices](/images/how_to_shopifyv2_scoringquiz_addscore.png)
 
@@ -493,7 +493,7 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, enviornemnet etc. if you are creating a quiz for a skin care brand.
 
-    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builderchoice-settings/) section. 
+    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) section. 
 
         !!! tip
 

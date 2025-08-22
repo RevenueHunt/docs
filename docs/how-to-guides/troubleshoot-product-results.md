@@ -10,7 +10,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
 !!! warning "Understanding the basics"
 
-    When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [voting system](/how-to-guides/how-to-recommend-products/#voting-system) or [display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) that influences product visibility.
+    When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [voting system](/how-to-guides/set-up-funnel-quiz/#voting-system) or [display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) that influences product visibility.
 
 ## Step-by-Step Process to Check Recommendations
 

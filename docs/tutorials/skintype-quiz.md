@@ -62,7 +62,7 @@ icon: material/numeric-3
 
     Next, let’s build the quiz. 
     
-    1. Head over to the [Quiz Builder](/reference/quiz-builder/quiz-builder/) > [Questions](/reference/quiz-builder/questions/).
+    1. Head over to the [Quiz Builder](/reference/quiz-builder/) > [Questions](/reference/quiz-builder/questions/).
     2. Add [multiple-choice questions](/reference/quiz-builder/questions/#multiple-choice) with 5 choices each. These should help determine the customer’s skin condition. Each question and choice should give clues about the user's skin type.
 
         !!! tip
@@ -175,7 +175,7 @@ icon: material/numeric-3
 
     If you see the wrong result, double-check your variables and scoring in the [Questions](/reference/quiz-builder/questions/) tab.
 
-    If you need help debugging, go to the [Responses](/reference/quiz-builder/responses/) tab and open [Analysis](/reference/quiz-builder/metrics/#response-analysis).
+    If you need help debugging, go to the [Responses](/reference/quiz-builder/metrics/#responses) tab and open [Analysis](/reference/quiz-builder/metrics/#response-analysis).
 
     This section:
 
@@ -192,8 +192,8 @@ icon: material/numeric-3
 
     In Shopify, you can make the quiz appear as a popup by simply linking a button or menu item to `#quiz`.
 
-    1. Set the quiz as default by going to the [Dashboard](/reference/quiz-builder/dashboard/) and clicking on the `Set as default` button.
-    2. Head over to the [Publish](/reference/quiz-builder/publish/) tab and check the `Add the quiz as a link triggered pop-up` option for step-bystep instructions on how to do this.
+    1. Set the quiz as default by going to the [Dashboard](/reference/dashboard/) and clicking on the `Set as default` button.
+    2. Head over to the [Publish](/reference/quiz-builder/share-publish/) tab and check the `Add the quiz as a link triggered pop-up` option for step-bystep instructions on how to do this.
     3. In Shopify, go to `Online Store > Themes`, and click `Customize` on your current theme.
     4. Go to `App Embeds` in the left sidebar. Find the `Link Popup Quiz` by Rand make sure it’s toggled on.  This will load the quiz script and allow it to open in a popup when the link is clicked.
     5. Now, to add a quiz button. Inside the theme editor, choose a section that contains a button, like `Rich text`.

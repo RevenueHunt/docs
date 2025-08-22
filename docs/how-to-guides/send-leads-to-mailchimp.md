@@ -128,7 +128,7 @@
 
     It is **not yet possible** to link your Product Recommendation Quiz created in the new Built for Shopify version of the RevenueHunt app to Mailchimp.
 
-    Check [Alternative Ways to Send Quiz Leads to Mailchimp](#alternative-ways-to-send-quiz-leads-to-mailchimp) to learn how you can send quiz leads to Mailchimp anyway.
+    Check [Alternative Ways to Send Quiz Leads to Mailchimp](/how-to-guides/send-leads-to-mailchimp/#alternative-ways-to-send-quiz-leads-to-mailchimp) to learn how you can send quiz leads to Mailchimp anyway.
 
 === "WooCommerce"
 
@@ -443,7 +443,7 @@
 
     If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
 
-    1. **Connect Your Quiz to MailChimp.** Follow the instructions in the [Alternative Ways to Send Quiz Leads to Mailchimp](/how-to-guides/alternative-ways-to-send-quiz-leads-to-mailchimp) section to send your quiz leads to Mailchimp.
+    1. **Connect Your Quiz to MailChimp.** Follow the instructions in the [Alternative Ways to Send Quiz Leads to Mailchimp](/how-to-guides/send-leads-to-mailchimp/#alternative-ways-to-send-quiz-leads-to-mailchimp) section to send your quiz leads to Mailchimp.
 
         !!! tip
 

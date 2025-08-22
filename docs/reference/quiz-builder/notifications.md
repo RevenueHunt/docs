@@ -30,7 +30,7 @@
 
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](questions/) section to add an email question to your quiz.
+    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
 
     To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
 
@@ -254,7 +254,7 @@
 
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](questions/) section to add an email question to your quiz.
+    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
 
     To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
 
@@ -286,7 +286,7 @@
 
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](questions/) section to add an email question to your quiz.
+    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
 
     To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
 
@@ -318,7 +318,7 @@
 
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](questions/) section to add an email question to your quiz.
+    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
 
     To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
 
@@ -350,7 +350,7 @@
 
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](questions/) section to add an email question to your quiz.
+    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
 
     To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
 

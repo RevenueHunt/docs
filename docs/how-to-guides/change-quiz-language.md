@@ -40,13 +40,13 @@ This guide will help you change the language of your quiz, translate it into dif
 
     **Step 2: Duplicate the Quiz for Each Language:**
 
-    - From the [Dashbaord](/reference/dashboard/), select the option to `Duplicate` your original quiz or ask [Quiz Copilot](docs/how-to-guides/use-quiz-copilot/) to create a new translated quiz copy for you.
+    - From the [Dashbaord](/reference/dashboard/), select the option to `Duplicate` your original quiz or ask [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to create a new translated quiz copy for you.
 
       ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
 
     !!! tip
     
-        [Quiz Copilot](docs/how-to-guides/use-quiz-copilot/) can be used to translate and duplicate quizzes. Just open a chat with it and ask it to duplicate the main quiz for you in a different language.
+        [Quiz Copilot](/how-to-guides/use-quiz-copilot/) can be used to translate and duplicate quizzes. Just open a chat with it and ask it to duplicate the main quiz for you in a different language.
 
     - For each duplicate quiz, go into the [`Quiz settings > Quiz content`](/reference/quiz-builder/quiz-settings/#messages) and update the language for all buttons, popups, and other interface elements.
 
@@ -54,7 +54,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     **Step 3: Translate Questions and Choices Separately:**
 
-    Unless you've used [Quiz Copilot](docs/how-to-guides/use-quiz-copilot/) to translate the quiz, the questions and answer choices won’t automatically translate; you’ll need to manually update these for each language version. 
+    Unless you've used [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to translate the quiz, the questions and answer choices won’t automatically translate; you’ll need to manually update these for each language version. 
 
     - Go through each question and answer choice to ensure they are accurately translated and culturally relevant for each target language.
 

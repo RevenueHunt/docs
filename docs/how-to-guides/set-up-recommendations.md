@@ -95,7 +95,7 @@ Show or hide different text blocks on the results page. This approach requires p
 
 !!! tip "How to set this up?"
 
-    Check out the [✍🏻 Voting System (Funnel Quiz that Shows Custom Text Based on Choices)](http://127.0.0.1:8000/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-shows-custom-text-based-on-choices) and [Display Logic](/how-to-guides/hide-content-with-logic/#display-logic-how-to-show-custom-text-on-the-results-page) guides.
+    Check out the [✍🏻 Voting System (Funnel Quiz that Shows Custom Text Based on Choices)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-shows-custom-text-based-on-choices) and [Display Logic](/how-to-guides/hide-content-with-logic/#display-logic-how-to-show-custom-text-on-the-results-page) guides.
 
 ## 🧩 Fixed Recommendations
 

@@ -44,7 +44,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
     1. **Create a Collection for Fixed Products** - Create a new collection in Shopify with the products you want to always show. *For example: "Essential Products" or "Featured Items"*
 
     2. **Sync Your Store**
-        - Go to [Success Checklist](/reference/quiz-builder/success-checklist/) in the app
+        - Go to [Success Checklist](/reference/dashboard/#success-checklist) in the app
         - Click `Sync Catalog` to update your catalog
 
     3. **Link the Collection**
@@ -96,7 +96,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
     1. **Create a Collection for Fixed Products** - Create a new collection in Shopify with the products you want to always show. *For example: "Essential Products" or "Featured Items"*
 
     2. **Sync Your Store**
-        - Go to [Success Checklist](/reference/quiz-builder/success-checklist/) in the app
+        - Go to [Success Checklist](/reference/dashboard/#success-checklist) in the app
         - Click `Sync Catalog` to update your catalog
 
     3. **Link the Collection**
@@ -139,7 +139,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
     1. **Create a Collection for Fixed Products** - Create a new collection in Shopify with the products you want to always show. *For example: "Essential Products" or "Featured Items"*
 
     2. **Sync Your Store**
-        - Go to [Success Checklist](/reference/quiz-builder/success-checklist/) in the app
+        - Go to [Success Checklist](/reference/dashboard/#success-checklist) in the app
         - Click `Sync Catalog` to update your catalog
 
     3. **Link the Collection**
@@ -182,7 +182,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
     1. **Create a Collection for Fixed Products** - Create a new collection in Shopify with the products you want to always show. *For example: "Essential Products" or "Featured Items"*
 
     2. **Sync Your Store**
-        - Go to [Success Checklist](/reference/quiz-builder/success-checklist/) in the app
+        - Go to [Success Checklist](/reference/dashboard/#success-checklist) in the app
         - Click `Sync Catalog` to update your catalog
 
     3. **Link the Collection**
@@ -225,7 +225,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
     1. **Create a Collection for Fixed Products** - Create a new collection in Shopify with the products you want to always show. *For example: "Essential Products" or "Featured Items"*
 
     2. **Sync Your Store**
-        - Go to [Success Checklist](/reference/quiz-builder/success-checklist/) in the app
+        - Go to [Success Checklist](/reference/dashboard/#success-checklist) in the app
         - Click `Sync Catalog` to update your catalog
 
     3. **Link the Collection**

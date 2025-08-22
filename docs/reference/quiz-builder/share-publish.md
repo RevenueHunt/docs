@@ -92,13 +92,13 @@
 
     `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    Then, follow the step by step instructions provided in the `Add the quiz as a link-triggered popup` section or in our [How to Set Up a Quiz Link Popup on Your Store](how-to-guides/publish-quiz-link/) to add a quiz link to your website.
+    Then, follow the step by step instructions provided in the `Add the quiz as a link-triggered popup` section or in our [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/) to add a quiz link to your website.
 
     ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
 
     !!! warning
 
-        Check [How to Set Up a Quiz Link Popup on Your Store](how-to-guides/publish-quiz-link/) for step by step instructions.
+        Check [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/) for step by step instructions.
 
 === "WooCommerce"
 

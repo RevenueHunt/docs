@@ -134,7 +134,7 @@
 
     `Short/Long description in products` - By selecting one or the other you can choose which description of your products will be shown on the results page.
 
-    `Pass attribute information to result page` - Toggle to activate/desactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafields](/how-to-guides/how-to-add-product-metafields/).
+    `Pass attribute information to result page` - Toggle to activate/desactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
 
     `Use attributes as categories` - Allows you to use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](/reference/quiz-builder/link-collections/).
 
@@ -222,7 +222,7 @@
 
     !!! tip 
 
-        Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 
@@ -248,7 +248,7 @@
 
     !!! tip
 
-        Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 
@@ -274,7 +274,7 @@
 
     !!! tip
 
-        Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 
@@ -300,7 +300,7 @@
 
     !!! tip
 
-        Check [How to Send Result Emails from your own server](/how-to-guides/how-to-send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
 
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
 

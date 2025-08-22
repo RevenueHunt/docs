@@ -339,7 +339,7 @@
 
     !!! tip
 
-        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/quiz-builder/app-settings/#general) in order to receive email notifications about your quiz responses limit.
+        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/app-settings/#general) in order to receive email notifications about your quiz responses limit.
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
@@ -364,7 +364,7 @@
 
     !!! tip
 
-        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/quiz-builder/app-settings/#general) in order to receive email notifications about your quiz responses limit.
+        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/app-settings/#general) in order to receive email notifications about your quiz responses limit.
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
@@ -379,7 +379,7 @@
 
     !!! tip
 
-        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/quiz-builder/app-settings/#general) in order to receive email notifications about your quiz responses limit.
+        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/app-settings/#general) in order to receive email notifications about your quiz responses limit.
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
@@ -393,7 +393,7 @@
 
     !!! tip
 
-        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/quiz-builder/app-settings/#general) in order to receive email notifications about your quiz responses limit.
+        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/app-settings/#general) in order to receive email notifications about your quiz responses limit.
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
@@ -408,7 +408,7 @@
 
     !!! tip
 
-        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/quiz-builder/app-settings/#general) in order to receive email notifications about your quiz responses limit.
+        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/app-settings/#general) in order to receive email notifications about your quiz responses limit.
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 

@@ -1655,7 +1655,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify V2"
 
-    In this version of the Revenuehunt app you can direct users to different markets via the [App Settings > Shopify Markets tab](https://app.revenuehunt.com/settings/shopify-markets) and the product will be already shown in the right language and currency. 
+    In this version of the Revenuehunt app you can direct users to different markets via the [App Settings > Shopify Markets tab](/reference/app-settings/#shopify-markets) and the product will be already shown in the right language and currency. 
 
 === "WooCommerce"
 

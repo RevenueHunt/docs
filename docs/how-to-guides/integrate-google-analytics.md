@@ -493,7 +493,7 @@ icon: material/google-analytics
 
 === "Shopify"
 
-    Depending on the custom events that you've programed in the [first step](/how-to-guides/ga4/#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
+    Depending on the custom events that you've programed in the [first step](/how-to-guides/integrate-google-analytics/#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
 
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or expolre the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 
@@ -562,28 +562,28 @@ icon: material/google-analytics
 === "WooCommerce"
 
 
-    Depending on the custom events that you've programed in the [first step](/how-to-guides/ga4/#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
+    Depending on the custom events that you've programed in the [first step](#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
 
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or expolre the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 
 === "Magento"
 
 
-    Depending on the custom events that you've programed in the [first step](/how-to-guides/ga4/#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
+    Depending on the custom events that you've programed in the [first step](#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
 
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or expolre the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 
 === "BigCommerce"
 
 
-    Depending on the custom events that you've programed in the [first step](/how-to-guides/ga4/#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
+    Depending on the custom events that you've programed in the [first step](#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
 
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or expolre the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 
 === "Standalone"
 
 
-    Depending on the custom events that you've programed in the [first step](/how-to-guides/ga4/#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
+    Depending on the custom events that you've programed in the [first step](#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
 
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or expolre the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 

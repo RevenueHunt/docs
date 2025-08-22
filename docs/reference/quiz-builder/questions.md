@@ -14,13 +14,13 @@
     
     `+ Add choice` - Adds an extra choice in muliple-choice questions. To remove a choice, click on the 🗑 bin icon.
 
-    `+ Add block` - Adds an extra [building block](/references/quiz-builder/building-blocks/) to the quiz question. To remove a block, click on the 🗑 bin icon.
+    `+ Add block` - Adds an extra [building block](/reference/quiz-builder/questions/#block-settings) to the quiz question. To remove a block, click on the 🗑 bin icon.
     
     !!! note
 
         All block elements added to a question will be visible on a single slide. To add a new slide click `+ Add question`. 
 
-    `+ Add question` - Opens a menu of quiz questions to add as a new slide. To remove a question, click on the question and go to [Question settings](/references/quiz-builder/questions/#question-settings).
+    `+ Add question` - Opens a menu of quiz questions to add as a new slide. To remove a question, click on the question and go to [Question settings](/reference/quiz-builder/questions/#question-settings).
 
 === "WooCommerce"
 
@@ -88,7 +88,7 @@
 
 === "Shopify V2"
 
-    `+ Add question` - Opens a menu of quiz questions to add. To remove a question, click on the question and go to [Question settings](/references/quiz-builder/questions/#question-settings).
+    `+ Add question` - Opens a menu of quiz questions to add. To remove a question, click on the question and go to [Question settings](/reference/quiz-builder/questions/#question-settings).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
 
@@ -296,7 +296,7 @@
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -325,7 +325,7 @@
 
     `Question ID` - Displays the question unique ID.
 
-    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder.
+    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     `more options` / `...` - Opens more options menu.
 
@@ -384,7 +384,7 @@
 
     !!! note
 
-        To add custom CSS code to your entire quiz, go to [Quiz design](/references/quiz-builder/quiz-design/).
+        To add custom CSS code to your entire quiz, go to [Quiz design](/reference/quiz-builder/quiz-design/).
 
     `Custom JS code` - Expand to add your own custom JavaScript code to this section only. 
 
@@ -415,7 +415,7 @@
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -451,7 +451,7 @@
 
     `Question ID` - Displays the question unique ID.
 
-    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder.
+    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     `more options` / `...` - Opens more options menu.
 
@@ -473,7 +473,7 @@
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -509,7 +509,7 @@
 
     `Question ID` - Displays the question unique ID.
 
-    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder.
+    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     `more options` / `...` - Opens more options menu.
 
@@ -531,7 +531,7 @@
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -567,7 +567,7 @@
 
     `Question ID` - Displays the question unique ID.
 
-    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder.
+    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     `more options` / `...` - Opens more options menu.
 
@@ -589,7 +589,7 @@
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -625,7 +625,7 @@
 
     `Question ID` - Displays the question unique ID.
 
-    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/references/quiz-builder/conditional-logic/) section of the Quiz Builder.
+    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     `more options` / `...` - Opens more options menu.
 
@@ -641,7 +641,7 @@
 
 === "Shopify V2"
 
-    `+ Add block` - Adds an extra [building block](/references/quiz-builder/building-blocks/) to the quiz question. To remove a block, click on the 🗑 bin icon.
+    `+ Add block` - Adds an extra [building block](/reference/quiz-builder/questions/#block-settings) to the quiz question. To remove a block, click on the 🗑 bin icon.
     
     !!! note
 

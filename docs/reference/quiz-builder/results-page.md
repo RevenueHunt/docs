@@ -28,7 +28,7 @@
 
     !!! note
 
-        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](conditional-logic/#jump-logic) via the quiz Conditional Logic tab.
+        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional Logic tab.
 
 
 === "WooCommerce"
@@ -187,7 +187,7 @@
 
 === "Shopify"
 
-    `conditional logic` / `tree icon` - Opens the [Display Logic](conditional-logic/#display-logic) menu.
+    `conditional logic` / `tree icon` - Opens the [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) menu.
 
     ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
@@ -313,7 +313,7 @@
 
 === "WooCommerce"
 
-    `conditional logic` / `tree icon` - Opens the [Display Logic](conditional-logic/#display-logic) menu.
+    `conditional logic` / `tree icon` - Opens the [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) menu.
 
     ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
@@ -352,7 +352,7 @@
 
 === "Magento"
 
-    `conditional logic` / `tree icon` - Opens the [Display Logic](conditional-logic/#display-logic) menu.
+    `conditional logic` / `tree icon` - Opens the [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) menu.
 
     ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
@@ -391,7 +391,7 @@
 
 === "BigCommerce"
 
-    `conditional logic` / `tree icon` - Opens the [Display Logic](conditional-logic/#display-logic) menu.
+    `conditional logic` / `tree icon` - Opens the [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) menu.
 
     ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
@@ -430,7 +430,7 @@
 
 === "Standalone"
 
-    `conditional logic` / `tree icon` - Opens the [Display Logic](conditional-logic/#display-logic) menu.
+    `conditional logic` / `tree icon` - Opens the [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) menu.
 
     ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
 
@@ -1522,13 +1522,13 @@
 
     `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
-    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 
     **Results Page 2**
 
     `You're editing this Results Page settings & blocks` - Indicates which results page you are currently editing.
 
-    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 
     `Create new Results Page` - add a new results page to your quiz. 
 
@@ -1540,7 +1540,7 @@
 
     !!! note
 
-        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](#jump-logic) via the quiz Conditional Logic tab.
+        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional Logic tab.
 
 === "WooCommerce"
 
@@ -1550,13 +1550,13 @@
 
     `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
-    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 
     **Results Page 2**
 
     `You're editing this Results Page settings & blocks` - Indicates which results page you are currently editing.
 
-    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 
     `Create new Results Page` - add a new results page to your quiz.
 
@@ -1568,13 +1568,13 @@
 
     `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
-    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 
     **Results Page 2**
 
     `You're editing this Results Page settings & blocks` - Indicates which results page you are currently editing.
 
-    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 
     `Create new Results Page` - add a new results page to your quiz.
 
@@ -1586,13 +1586,13 @@
 
     `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
-    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 
     **Results Page 2**
 
     `You're editing this Results Page settings & blocks` - Indicates which results page you are currently editing.
 
-    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 
     `Create new Results Page` - add a new results page to your quiz.
 
@@ -1604,13 +1604,13 @@
 
     `Edit this page` - Click "edit" to switch to this results page and edit its content.
 
-    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `This is currently the default Results Page` - Indicates which page is the default one. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 
     **Results Page 2**
 
     `You're editing this Results Page settings & blocks` - Indicates which results page you are currently editing.
 
-    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
+    `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 
     `Create new Results Page` - add a new results page to your quiz.
 

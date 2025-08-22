@@ -298,7 +298,7 @@ icon: material/sale
 
     To further personalize the customer experience, you can incorporate the discount code within the follow-up email sent to the customer with quiz results. This allows customers to conveniently copy and paste the code at checkout.
 
-    Simply go to the [Quiz Settings](/reference/quiz-builder/settings/), find the [Emails to respondents](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
+    Simply go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [Emails to respondents](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
 
     !!! info
 

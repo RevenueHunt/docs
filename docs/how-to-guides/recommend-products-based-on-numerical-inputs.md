@@ -268,9 +268,9 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     After generating options, you can:
 
-    - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/block-settings/)
-    - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/choice-settings/)
-    - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/choice-settings/)
+    - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/questions/#block-settings)
+    - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
+    - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
     - Set up [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the user's choices
 
     This helps users select a range easily while ensuring you offer relevant products.
@@ -279,9 +279,9 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     After generating options, you can:
 
-    - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/block-settings/)
-    - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/choice-settings/)
-    - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/choice-settings/)
+    - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/questions/#block-settings)
+    - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
+    - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
     - Set up [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the user's choices
 
     This helps users select a range easily while ensuring you offer relevant products.
@@ -290,9 +290,9 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     After generating options, you can:
 
-    - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/block-settings/)
-    - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/choice-settings/)
-    - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/choice-settings/)
+    - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/questions/#block-settings)
+    - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
+    - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
     - Set up [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the user's choices
 
     This helps users select a range easily while ensuring you offer relevant products.
@@ -301,9 +301,9 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     After generating options, you can:
 
-    - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/block-settings/)
-    - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/choice-settings/)
-    - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/choice-settings/)
+    - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/questions/#block-settings)
+    - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
+    - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
     - Set up [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the user's choices
 
     This helps users select a range easily while ensuring you offer relevant products.
@@ -313,8 +313,8 @@ Recommending products based on numerical answers (like age or room size) can be 
     After generating options, you can:
 
     - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/block-settings/)
-    - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/choice-settings/)
-    - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/choice-settings/)
+    - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
+    - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
     - Set up [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the user's choices
 
     This helps users select a range easily while ensuring you offer relevant products.
@@ -323,9 +323,9 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     After generating options, you can:
 
-    - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/block-settings/)
-    - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/choice-settings/)
-    - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/choice-settings/)
+    - Switch between question types (dropdown, multiple choice, etc.) via [Block Settings](/reference/quiz-builder/questions/#block-settings)
+    - Tweak the answer labels in [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
+    - Assign products to each choice via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
     - Set up [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the user's choices
 
     This helps users select a range easily while ensuring you offer relevant products.

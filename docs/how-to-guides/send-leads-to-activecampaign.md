@@ -419,7 +419,7 @@
 
         Since you are using one of our alternative methods to connect to ActiveCampaign, you will have full control over the data that is sent to ActiveCampaign. The data provided above are only a list of the most common fields that are sent to ActiveCampaign.
 
-        For more information about using data in customer profile for ActiveCampaign, please refer to [ActiveCampaign documentation](https://developers.activecampaign.com/reference/contact-fields).
+        For more information about using data in customer profile for ActiveCampaign, please refer to [ActiveCampaign documentation](https://help.activecampaign.com/hc/en-us/articles/115001374664-How-to-manage-custom-contact-fields).
 
     To set up a redirection of selected data to ActiveCampaign, you can use our Webhooks integration. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, check [ActiveCampaign's webhooks documentation](https://developers.activecampaign.com/page/webhooks) for more information on how to set up a redirection of selected data to ActiveCampaign.
 

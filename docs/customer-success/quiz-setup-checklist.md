@@ -154,7 +154,7 @@ Collecting emails turns quiz takers into long-term customers. Sending results bu
 
     Check this video tutorial to learn how to send emails with the RevenueHunt app: [Sending Emails](/tutorials/sending-emails/)
 
-☐ For advanced features, [connect the quiz to your CRM](/how-to-guides/connect-quiz-to-crm/) (eg. Klaviyo, Omnisend, Mailchimp, Webhooks, etc.) and set up a follow-up email campaign
+☐ For advanced features, [connect the quiz to your CRM](/how-to-guides/send-leads-to-crm/) (eg. Klaviyo, Omnisend, Mailchimp, Webhooks, etc.) and set up a follow-up email campaign
 
 ☐ Personalize emails with quiz answers + product recommendations
 

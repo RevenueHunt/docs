@@ -351,7 +351,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
         !!! info
 
-            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
+            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 
 
         !!! example "Example 2"
@@ -373,7 +373,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
         !!! info
 
-            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
+            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 
 
         !!! example "Example 3"

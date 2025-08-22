@@ -23,7 +23,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
     If you have not implemented a Pixel on your website yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, add it to your website.
 
 
-    1. **Connect Meta Pixel to your Shopify Store**: Navigate to your Shopify `Store settings > Customer events`. Ensure that the Meta (Facebook) Pixel is integrated. If not, use the [Facebook and Instagram Meta app](https://apps.shopify.com/facebook-and-instagram-meta-app) for integration.
+    1. **Connect Meta Pixel to your Shopify Store**: Navigate to your Shopify `Store settings > Customer events`. Ensure that the Meta (Facebook) Pixel is integrated. If not, use the [Facebook and Instagram Meta app](https://apps.shopify.com/facebook) for integration.
     2. **Set Up Data Sources**: Open the Facebook and Instagram app in Shopify. Go to `settings` and set `shared data` to `maximum` to track advanced and custom events. Choose or create a **data set** for tracking. 
 
         ![how to integrate fb pixel shopify v2](/images/how_to_shopifyv2_integrate_meta_pixel_facebookappsettings.png)

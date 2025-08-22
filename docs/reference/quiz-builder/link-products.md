@@ -30,11 +30,11 @@
 
 === "Shopify V2"
 
-    To add link products or product variants to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [`Choice Settings`](questions/#choice-settings).
+    To add link products or product variants to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
 
     ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyv2_openchoicesettings.png)
 
-    Click on a choice to open the [`Choice Settings`](questions/#choice-settings).
+    Click on a choice to open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
 

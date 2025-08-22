@@ -10,7 +10,7 @@ On the dashboard, you'll find all the quizzes that you create. From the dashboar
 
 [:fontawesome-solid-arrow-right: continue reading](dashboard/)
 
-## [Quiz Builder](quiz-builder/index/)
+## [Quiz Builder](/reference/quiz-builder/)
 
 In Quiz Builder you'll create your quiz. Via the Quiz Builder, you can add questions to your quiz, link products, edit the results page, language, currency, or set up integrations and results emails.
 

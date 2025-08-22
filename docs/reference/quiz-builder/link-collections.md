@@ -32,11 +32,11 @@
 
 === "Shopify V2"
 
-    To link collections of products to choices, go to [Questions](/references/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [`Choice Settings`](questions/#choice-settings).
+    To link collections of products to choices, go to [Questions](/reference/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
 
     ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyv2_openchoicesettings.png)
 
-    Click on a choice to open the [`Choice Settings`](questions/#choice-settings).
+    Click on a choice to open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
 
@@ -160,7 +160,7 @@
 
     !!! tip
 
-        You can also use custom fields as tags within the app by following [these instructions](//how-to-guides/use-custom-fields-as-tags/)
+        You can also use custom fields as tags within the app by following [these instructions](/how-to-guides/use-custom-fields-as-tags/)
 
 === "Standalone"
 

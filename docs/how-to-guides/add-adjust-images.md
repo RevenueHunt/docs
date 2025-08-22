@@ -15,15 +15,15 @@ This article explains how you can add images to your quiz and provides tips on h
 
 There are the different ways you can add images to your quiz in the RevenueHunt app:
 
-- **[Quiz Background image](/how-to-guides/improve-image-quality/#quiz-background-image)** - You can uplaod a background image for the whole quiz via the [Quiz Design tab](/reference/quiz-builder/quiz-design/).
+- **[Quiz Background image](/how-to-guides/add-adjust-images/#quiz-background-image)** - You can uplaod a background image for the whole quiz via the [Quiz Design tab](/reference/quiz-builder/quiz-design/).
 
-- **[Question Background/Split image](/how-to-guides/improve-image-quality/#question-backgroundsplit-image)** - You can upload a background image to each question in the quiz via the [question settings](/reference/quiz-builder/questions/#picture-choice).
+- **[Question Background/Split image](/how-to-guides/add-adjust-images/#question-backgroundsplit-image)** - You can upload a background image to each question in the quiz via the [question settings](/reference/quiz-builder/questions/#picture-choice).
 
-- **[Image Block](/how-to-guides/improve-image-quality/#image-blocks)** - You can upload an individual image via an Image Block directly into one of the quiz [questions](/reference/quiz-builder/questions/) or [results page](/reference/quiz-builder/results-page/).
+- **[Image Block](/how-to-guides/add-adjust-images/#image-blocks)** - You can upload an individual image via an Image Block directly into one of the quiz [questions](/reference/quiz-builder/questions/) or [results page](/reference/quiz-builder/results-page/).
 
-- **[Picture Choice](/how-to-guides/improve-image-quality/#picture-choices)** - You can add a [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) to your question, which will allow you to add an image to each choice in that multiple choice question.
+- **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - You can add a [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) to your question, which will allow you to add an image to each choice in that multiple choice question.
 
-- **[Product Image](/how-to-guides/improve-image-quality/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-image-in-productvariantscollection-blocks) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
+- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-image-in-productvariantscollection-blocks) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
 
 
 ### Quiz Background Image

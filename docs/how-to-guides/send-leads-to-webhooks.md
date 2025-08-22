@@ -45,7 +45,7 @@ Before you start, ensure you have:
 
     1. **Prepare Your Quiz**. Ensure your quiz is fully set up with all the questions you want. Open the [Quiz Settings](/reference/quiz-builder/quiz-settings/).
     
-    2. **Access the Webhooks Integration**. Scroll down to the [Integrations](/reference/quiz-builder/integrations/) section. Click on **Webhooks** to open the integration panel.
+    2. **Access the Webhooks Integration**. Scroll down to the [Integrations](/reference/quiz-builder/quiz-settings/#integrations) section. Click on **Webhooks** to open the integration panel.
     
     3. **Add a New Webhook**. Click `+ Add Webhook`. You can use a service like [Webhook.site](https://webhook.site) to generate a temporary endpoint if you want to test the feature.
 
