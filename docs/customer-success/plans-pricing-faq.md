@@ -13,12 +13,6 @@
 
 === "Shopify V2"
 
-
-    !!! warning
-    
-        The app is curently in **beta testing phase** and the usage is completely **free**. You will be notified once the beta phase will be coming to a close with sufficient time to decide if you want to upgrade to a paid plan. If your quiz usage is below the limits of the free plan, you can stay on the free plan.
-
-
     - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
     - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
@@ -101,12 +95,7 @@
     | Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
 
 
-=== "Shopify V2"
-
-
-    !!! warning
-    
-        The app is curently in **beta testing phase** and the usage is completely **free**. You will be notified once the beta phase will be coming to a close with sufficient time to decide if you want to upgrade to a paid plan. If your quiz usage is below the limits of the free plan, you can stay on the free plan.
+=== "Shopify V2"    
 
 
     | Plan name  | Monthly fee      | Max. responses   | Cost per response |
@@ -275,12 +264,6 @@
 === "Shopify V2"
 
 
-
-    !!! warning
-    
-        The app is curently in **beta testing phase** and the usage is completely **free**. You will be notified once the beta phase will be coming to a close with sufficient time to decide if you want to upgrade to a paid plan. If your quiz usage is below the limits of the free plan, you can stay on the free plan.
-
-
     Billing is handled directly by Shopify. Charges for the app will be visible on your monthly invoice from Shopify. You can change your billing details directly in your Shopify store settings.
 
     If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
@@ -365,12 +348,6 @@
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
 === "Shopify V2"
-
-
-
-    !!! warning
-    
-        The app is curently in **beta testing phase** and the usage is completely **free**. You will be notified once the beta phase will be coming to a close with sufficient time to decide if you want to upgrade to a paid plan. If your quiz usage is below the limits of the free plan, you can stay on the free plan.
 
 
     We will notify you in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
@@ -505,12 +482,7 @@ In other words: if the Basic plan accepts around ~16 responses each day, the Pro
 
 
 === "Shopify V2"
-
-
-    !!! warning
     
-        The app is curently in **beta testing phase** and the usage is completely **free**. You will be notified once the beta phase will be coming to a close with sufficient time to decide if you want to upgrade to a paid plan. If your quiz usage is below the limits of the free plan, you can stay on the free plan.
-
 
     If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
 

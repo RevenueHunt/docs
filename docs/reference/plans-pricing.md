@@ -20,11 +20,7 @@
 
 === "Shopify V2"
 
-
-    !!! warning
     
-        The app is curently in **beta testing phase** and the usage is completely **free**. You will be notified once the beta phase will be coming to a close with sufficient time to decide if you want to upgrade to a paid plan. If your quiz usage is below the limits of the free plan, you can stay on the free plan.
-
     ![manual_shopifyv2_plans](/images/manual_shopifyv2_plans.png)
 
     `Your current plan` - Displays the current plan you are on.
