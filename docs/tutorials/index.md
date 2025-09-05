@@ -16,6 +16,12 @@ Make and publish a short quiz that recommends a single product to your customers
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/making-first-quiz/)
 
+### [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-succesful-quiz/)
+
+We've identified key elements that make quizzes popular with shoppers and drive results.
+
+[:fontawesome-solid-arrow-right: check tutorial](/customer-success/how-to-build-succesful-quiz/)
+
 ### [Recommending a Skincare Routine](/tutorials/skincare-routine/)
 
 Make and publish a short quiz that recommends a group of complementary products to your customers.
