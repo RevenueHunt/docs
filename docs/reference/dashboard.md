@@ -140,6 +140,12 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `Read more` - Opens the notification.
 
+    *Theme extensions status* - Informs you if the RevenueHunt Quiz App theme extension is active and where it's installed in your Shopify store theme
+
+    ![manual_shopifyv2_dashboard_notifications_themeextensionstatus.png](/images/manual_shopifyv2_dashboard_notifications_themeextensionstatus.png)
+
+    `Edit` - Opens the Theme Extension Status page. 
+
 === "WooCommerce"
 
     ![dashboard notifications bar](/images/manual_notifications.png)
