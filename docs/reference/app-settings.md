@@ -120,9 +120,13 @@
 
     `Catalogue processed at:` - The last time the product catalog was fully processed and updated.
 
-    `Inventory Filter` - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.   
+    `Low inventory Filter` - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.   
 
     If you check the `Filter products by inventory level` box, the app will hide any products that are low or out of stock from quiz recommendations. This prevents customers from seeing or clicking on products that are unavailable to purchase. If left unchecked, the app may still recommend products even if they are sold out. Once checked, the **`Minimum stock level`** option will become avilable. You can set the minimum stock level for products to be eligible for recommendations.
+
+    `Draft products` - this setting lets you control which products are eligible to be recommended in the quiz results based on draft status.
+
+    `Include draft products in recommendations` - When enabled, recommendations will include products or variants that are in draft status. Draft products could be recommended and will be shown in the 'Quiz preview' and under [Responses > Analysis](/reference/quiz-builder/metrics/#response-analysis). This setting is useful if you want to build your quiz with draft products and test it before publishing them. Draft products won't be displayed in the live quiz until they're published.
 
 
 
@@ -318,6 +322,10 @@
 
 === "Shopify"
 
+    !!! warning
+
+        Shopify has announced that they’ll be sunsetting all Shop Minis app integrations, including our Shop Minis app.
+
     ![app settings shop app](/images/manual_appsettings_shopapp.png)
 
     **Entry Point Settings**
@@ -340,7 +348,7 @@
 
 === "Shopify V2"
 
-    At this moment in time, there is no way to activate the Shop App in the Shopify V2 version of the app. We are actively working on this feature and will update this section once it's available.
+    At this moment in time, there is no way to activate the Shop App in the Shopify V2 version of the app. 
 
 
 ## Shopify Markets

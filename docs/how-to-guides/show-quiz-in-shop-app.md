@@ -4,6 +4,10 @@ icon: material/store
 
 # How to Show Quiz in Shop App
 
+!!! warning
+
+    Shopify has announced that they’ll be sunsetting all Shop Minis app integrations, including our Shop Minis app.
+
 Shopify's new mobile commerce app, [Shop](https://shop.app/), represents a significant leap forward in enhancing the online shopping experience, offering both Android and iOS users a personalized and streamlined path to discovering and purchasing products from Shopify-powered stores. 
 
 We're excited to inform you that our [RevenueHunt app](https://revenuehunt.com/product-recommendation-quiz-shopify/) has been selected as the **premier quiz solution** for Shop, designed to integrate seamlessly and contribute to a more engaging customer journey.
