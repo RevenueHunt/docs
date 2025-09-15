@@ -734,22 +734,22 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png){width="500"}
 
-
-
     `Image` - Adds the product image.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image.png)
 
     `Picture size/ratio` - Choose the picture size for this block. Choose between `Medium (1:1)` or `Original` picture size (as uploaded to your Shopify Product). 
 
+    `Optimize images size` - Select this option to optimize the image size for the quiz. If unchecked, the image will be displayed in the original size.
+
     !!! tip
         Check this guide to learn how to add and adjust images for the quiz: [How to Add and Adjust Images](/how-to-guides/add-adjust-images/).
 
-    `Heading` - Add the product title.
+    `Heading` - Add the product title as set up in Shopify Products.
 
-    `Price` - Adds the product price.
+    `Price` - Adds the product price as set up in Shopify Products.
 
-    !!! warning "Why the Compare-at Price May Not Show on the Results Page"
+    ??? warning "Why the Compare-at Price May Not Show on the Results Page"
 
         If the **compare-at price** is missing or showing as `null` on the quiz results page, this is often due to **Shopify Markets settings**. By default, Shopify can hide compare-at prices for customers in certain regions—especially in the **European Economic Area (EEA)**—due to local pricing or legal restrictions.
 
@@ -763,19 +763,19 @@
 
     `Add to cart button` - Adds an "Add to cart" button.
 
-    `Text` - Adds an extra text block. Opens a text block menu that allows you to add your own custom text, link or a personalization.
+    `Text` - Adds an extra text block. Opens a text block menu that allows you to add your own custom text, link or a personalization (you can for example add a [content dynamic source](/how-to-guides/use-information-recalls/) to recall information from the quiz).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text.png)
 
-    `Description` - Adds the product description.
+    `Description` - Adds the product description as set up in Shopify Products.
 
-    `Link to product` - Adds a button link to the product URL.
+    `Link to product` - Adds a button link to the product URL. Links open only on live storefronts. They won't open in quiz preview or on password-protected stores.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
 
-    `Vendor` - Adds the product vendor.
+    `Vendor` - Adds the product vendor as set up in Shopify Products.
 
-    `Variants dropdown` - Adds a dropdown that dislays all the product variants.
+    `Variants dropdown` - Adds a dropdown that dislays all the product variants. The dropdown will always be hidden if no products in the same block have variants or if the slots are stacked.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_varaintsdropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_varaintsdropdown.png)
 
@@ -783,9 +783,47 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafield](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafieldpng.png)
 
-    !!! note
+    !!! info "Supported metafields"
 
-        The app can only sync and show the string, single_line_text_field, multi_line_text_field, date, and number product metafields. Rich_text_fields metafields are not currently supported.
+        The app can only sync and show the *string*, *single_line_text_field*, *multi_line_text_field*, *date*, and *number* product metafields. *Rich_text_fields* metafields are not currently supported.
+
+    `Reviews` - Adds a product reviews block as star rating and review count.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews.png)
+
+    `Review app` - Select the review app to display the reviews from. Once you select the review app, save the changes with the top-right `Save` button.
+
+    !!! info "Supported review apps"
+    
+        We currently support these review apps for Shopify:
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps.png)
+    
+        - Judge.me,
+        - Yotpo,
+        - Stamped,
+        - Loox.
+
+    `Subscription` - Adds an option to subscribe to the product for a specific duration.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription.png)
+
+    `Subscription app` - Select the subscription app to display the subscription from. Once you select the subscription app, save the changes with the top-right `Save` button.
+
+    !!! info "Supported subscription apps"
+    
+        We are in the process of implementing these subscription apps for Shopify:
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps.png)
+    
+        - Shopify Subscriptions,
+        - ReCharge Subscriptions (Pro plan only).
+
+        If you wish to integrate a subscription app that is not supported yet, please reach out to our [customer support team](/how-to-guides/contact-customer-support/) and we will be happy to help you.
+    
+
+
+
 
     ### Product Slot
 
@@ -793,7 +831,7 @@
 
     `Slot 1` - Slots allow you to recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...). 
     
-    !!! info "How Slots Work"
+    ??? info "How Slots Work"
 
         Slots display products based on the `Recommendations system` set up in [Product Block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
         
@@ -819,7 +857,7 @@
 
     `Add segments` - Click `v Add` to select products from which Products, Varaints,Collections, Tags, Variants or Vendors will be shown in this slot block.
 
-    !!! info
+    ??? info "How Slots Work"
 
         Slots display products based on the `Recommendations system` set up in [Product Block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
         
@@ -827,7 +865,9 @@
 
         If the recommendations system is set to `Fixed` then the slot will display the products that are linked to the slot.
 
-    !!! warning
+        <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/3dcb55fbc6e749019fe609d311915de6?sid=44a004e0-acde-4fe8-9f50-6ca1e6f21289" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    !!! warning "Filtering"
 
         If the recommendations system is set to `Based on customer's reponses` then the slot will display the most voted products based on customer choices. 
 
@@ -1006,13 +1046,17 @@
 
     `Allow duplicated recommendations` - Check this option to allow products to be shown in more than one product/slot blocks.
 
-    `Checkout options` - Seelct the settings of the checkout bar.
+    `Bar options` - Seelct the settings of the checkout bar.
 
     `Show bar` - Uncheck to hide the checkout bar.
 
     `Show "Retake quiz" button` - Uncheck if you want to hide the "retake quiz" button.
 
-    `Show "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer.
+    `Show cart/checkout options` - Select the settings of the cart/checkout options.
+
+    *Cart/checkout options*
+    
+    `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
 
     `Next destination for users` - Choose where customers go after the results page.
 
@@ -1024,9 +1068,51 @@
 
         The texts of the results page bar can be changed in [quiz settings > content > messages](https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings/#messages).
 
-    `Custom CSS code` - Add custom CSS code to this results page only.
+    `Discount code` - Add a discount code to the results page. The discount code will be applied at checkout. The code must be a valid discount code in your Shopify store.
 
-    `Custom JS code` - Add custom JavaScript to this results page only.
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
+
+    ??? tip "How to add a discount code"
+
+        The code must be a valid discount code in your store. Check this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
+
+    `Custom CSS code` - Add custom CSS code to this results page only. To add custom CSS code to your entire quiz, go to [quiz design](/reference/quiz-builder/quiz-design/).
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customcss](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customcss.png)
+
+    `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
+
+    `Custom JS code` - Add custom JavaScript to this results page only. Custom JS will not work in the quiz builder, it will only work in the preview or live quiz.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customjs.png)
+
+    `✨Get help with custom JavaScript` - Opens a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
+
+    ??? info "Available JavaScript data and functions"
+
+        Available data and functions:
+
+        ```javascript
+        Quiz.currentQuestion
+        Quiz.questions
+        Quiz.answers
+        Quiz.variableScores
+        Quiz.highestVariableRef
+        Quiz.next()
+        Quiz.previous()
+        Quiz.querySelector()
+        Quiz.getElementById()
+
+        // Examples:
+        if (Quiz.variableScores.skinSensitivity > 80) {
+        Quiz.next();
+        }
+
+        const element = Quiz.getElementById('my-element');
+        if (element) {
+        element.textContent = 'Updated!';
+        } 
+        ```
 
     `Results page ID` - Displays the current results page ID.
 
@@ -1538,9 +1624,11 @@
 
     `+ Add results page` - Click to add an extra results page to your quiz. Each results page can have different settings and content.
 
-    !!! note
+    !!! info "Jump Logic is required"
 
         The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional Logic tab.
+
+        Check out [this guide](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump Logic.
 
 === "WooCommerce"
 
@@ -1656,7 +1744,14 @@
 
 === "Shopify V2"
 
-    Coming Soon
+    1. To add a discount code to the results page, open the [Results Page Settings](/reference/quiz-builder/results-page/#results-page-settings).
+    2. Locate the `Discount code` section and paste the discount code in the `Code` field. Note that the code must be a valid discount code in your Shopify store.
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
+
+    !!! tip "How to add a discount code"
+
+        Check out [this guide](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
 
 === "WooCommerce"
 
