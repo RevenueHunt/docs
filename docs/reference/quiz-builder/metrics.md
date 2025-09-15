@@ -92,9 +92,15 @@
 
     ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
 
+    !!! warning "Test responses removal"
+
+        Admin responses and quiz previews are removed from the list **after 24 hours** to don't add to your plan's limits.
+
     `All` / `With recommendations` / `No recommendations` - Switch to filter responses that recieved product recommendations and those that did not.
     
-    `Export CSV` - Download the selected responses in a CSV file format.
+    `Export CSV` - Download the selected responses in a CSV file format. A pop-up will appear that allows you to select an email address to send the CSV file to. For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
+
+    ![manual_shopifyV2_quizbuilder_responses_exportCSV](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
 
     `Response date` - The date and time the response has been submitted.
 
