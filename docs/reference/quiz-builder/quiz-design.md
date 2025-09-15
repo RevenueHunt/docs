@@ -196,6 +196,8 @@
 
         For a detailed overview of the CSS structure of the app and CSS examples, see the [App CSS Structure](/reference/css-structure/) reference.
 
+    `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.	
+
 
 === "WooCommerce"
 
