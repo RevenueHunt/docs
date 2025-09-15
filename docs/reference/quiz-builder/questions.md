@@ -382,11 +382,44 @@
 
     `Custom CSS code` -  Expand to add your own custom CSS code to this section only. 
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customCSS](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customCSS.png)
+
+    `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
+
     !!! note
 
         To add custom CSS code to your entire quiz, go to [Quiz design](/reference/quiz-builder/quiz-design/).
 
     `Custom JS code` - Expand to add your own custom JavaScript code to this section only. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customJS.png)
+
+    `✨Get help with custom JavaScript` - Opens a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
+
+    ??? info "Available JavaScript data and functions"
+
+        Available data and functions:
+        ```javascript
+        Quiz.currentQuestion
+        Quiz.questions
+        Quiz.answers
+        Quiz.variableScores
+        Quiz.highestVariableRef
+        Quiz.next()
+        Quiz.previous()
+        Quiz.querySelector()
+        Quiz.getElementById()
+
+        // Examples:
+        if (Quiz.variableScores.skinSensitivity > 80) {
+        Quiz.next();
+        }
+
+        const element = Quiz.getElementById('my-element');
+        if (element) {
+        element.textContent = 'Updated!';
+        } 
+        ```
 
     `Advanced settings` - Expand to see advanced settings.
 
