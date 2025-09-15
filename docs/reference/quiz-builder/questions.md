@@ -812,13 +812,17 @@
 
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 
-    `Enable horizontal carousel on mobile` - If checked, allows users to scroll picture options horizontally on mobile devices.
-
-    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.
+    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option opens the `Error message`, `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.`Error message` - add a message to the user if they select too many options.
 
     `Advanced settings` - Opens the advanced choice settings menu.
 
-    `Picture size/ratio` - Choose the picture size for this block. Choose between Tiny icon (24px), Small icon (48px), Medium (1:1) or Large (4:3) picture size.
+    `Picture size/ratio` - Choose the picture size for this block. Choose between `Tiny icon (24px)`, `Small icon (48px)`, `Medium (1:1)` or `Large (4:3)` picture size. 
+
+    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_picturesizeratio.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_picturesizeratio.png)
+    
+    If you select `Medium (1:1)` in the `Picture size/ratio` dropdown, an additional option for chosing a `Mobile layout` will appear. There you can choose how this block will be displayed on mobile devices - either as a `Carousel`, `One per row` or `Two per row`.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_mobilelayout](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_mobilelayout.png)
 
     `Hide checkbox/radio` - When checked hides the checkbox element from picture choices.
 
