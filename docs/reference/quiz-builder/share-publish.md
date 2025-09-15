@@ -16,11 +16,19 @@
     
     ![manual_shopifyV2_quizbuilder_share_publish_publishpage](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
 
-    There, you will find step-by-step instructions on how to publish the default quiz onto your website.
+    `Theme extensions status` - Informs you if the RevenueHunt Quiz App theme extension is active and where it's installed in your Shopify store theme
+
+    ![manual_shopifyv2_dashboard_notifications_themeextensionstatus](/images/manual_shopifyv2_dashboard_notifications_themeextensionstatus.png)
+
+    `Edit` - Opens the Theme Extension Status page.
+
+
+    Below, you will find step-by-step instructions on how to publish the default quiz onto your website. Click on the option tiles to see instructions and extra settings.
 
     !!! tip
     
-        You can also check our [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide.
+        Check our [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide for detailed instructions.
+
 
 === "WooCommerce"
 
@@ -72,31 +80,31 @@
 
 === "Shopify V2" 
 
-    What's a Link Popup? It's a link that will open the quiz as a popup over your page.
+    !!! info "What's a Link Popup?"
+        It's a link that will open the quiz as a popup over your page.
 
-    To add a link popup to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
-    
-    Open `App Embeds` and toggle the button to acitvate the `Link Popup Quiz`.
+    1. To add a link popup to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
+    2. Open `App Embeds` and toggle the button to acitvate the `Link Popup Quiz`.
 
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
 
-    You can adjust the popup options:
+    3. You can adjust the popup options:
 
-    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+        ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
 
-    `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
+        `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
 
-    `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
+        `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
 
-    `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+        `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
-    `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
+        `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    Then, follow the step by step instructions provided in the `Add the quiz as a link-triggered popup` section or in our [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/) to add a quiz link to your website.
+    4. Then, follow the step by step instructions provided in the `Add the quiz as a link-triggered popup` section or in our [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/) to add a quiz link to your website.
 
-    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
+        ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
 
-    !!! warning
+    !!! tip "Check our guide"
 
         Check [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/) for step by step instructions.
 
@@ -178,41 +186,39 @@
 
 === "Shopify V2"
 
-    What's an Inline Quiz? It's a quiz embedded inline with a page.
+    !!! info "What's an Inline Quiz?"
+        It's a quiz embedded inline with a page.
 
-    To add an inline quiz to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
+    1. To add an inline quiz to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
+    2. Then, `+ Add section`, click the `Apps`. From the list, pick the `Inline Quiz`.
 
-    Then, `+ Add section`, click the `Apps`. From the list, pick the `Inline Quiz`.
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline.png)
 
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline.png)
+    3. In the `V2 - Inline Quiz` section, you can adjust the inline quiz settings.
 
-    In the `V2 - Inline Quiz` section, you can adjust the inline quiz settings.    
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
 
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+        `Quiz height` - The initial height of the quiz. If the quiz is not tall enough, after the first question, it will expand to fit the content.
 
-    In Inline Quiz settings, you can adjust:
+        `Quiz height (unit)` - The unit of the quiz height. Default is `Pixels (px)`. You can change it to `Viewport height percentage (vh)`.
 
-    `Quiz height` - The initial height of the quiz. If the quiz is not tall enough, after the first question, it will expand to fit the content.
+        `Fixed height` - Keeps the quiz height fixed. Turn off to allow automatic height adjustment.
 
-    `Quiz height (unit)` - The unit of the quiz height. Default is `Pixels (px)`. You can change it to `Viewport height percentage (vh)`.
+        `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended). 
 
-    `Fixed height` - Keeps the quiz height fixed. Turn off to allow automatic height adjustment.
+        `Auto-scroll on retake quiz` - Enable this to make the quiz auto-scroll when the user retakes the quiz. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
 
-    `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended). 
+        `Auto-scroll on question change` - Enable this to make the quiz auto-scroll when the user navigates to another question. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
 
-    `Auto-scroll on retake quiz` - Enable this to make the quiz auto-scroll when the user retakes the quiz. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
+        `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
-    `Auto-scroll on question change` - Enable this to make the quiz auto-scroll when the user navigates to another question. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
+        `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
+    5. Then, follow the step by step instructions provided in the `Add the quiz to your home page` section, `Add the quiz to a dedicated landing page` section or in our [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) to add a quiz link to your website.
 
-    `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
+        ![manual_shopifyV2_quizbuilder_share_publish_inlinepublish](/images/manual_shopifyV2_quizbuilder_share_publish_inlinepublish.png)
 
-    Then, follow the step by step instructions provided in the `Add the quiz to your home page` section, `Add the quiz to a dedicated landing page` section or in our [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) to add a quiz link to your website.
-
-    ![manual_shopifyV2_quizbuilder_share_publish_inlinepublish](/images/manual_shopifyV2_quizbuilder_share_publish_inlinepublish.png)
-
-    !!! warning
+    !!! tip "Check our guide"
 
         Check [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
 
@@ -314,35 +320,71 @@
 
 === "Shopify V2"
 
-    What's an Automatic Popup? It's a quiz popup that appears after X seconds.
+    !!! info "What's an Automatic Popup?"
+        It's a quiz popup that appears after X seconds.
 
-    To add an automatic popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Automatic Popup Quiz`.
+    ### Automatic Popup on all pages
 
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
+    1. To add an automatic popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Automatic Popup Quiz`.
 
-    You can adjust the popup options:
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
 
-    ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+    3. You can adjust the popup options:
 
-    `Popup Delay (in seconds)` - Set up the number of seconds after which the quiz popup will be automatically displayed.
+        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 
-    `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
+        `Popup Delay (in seconds)` - Set up the number of seconds after which the quiz popup will be automatically displayed.
 
-    `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
+        `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
 
-    `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+        `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
 
-    `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
+        `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
-    Then, follow the step by step instructions provided in our [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) to add an automatic popup to your website.
+        `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
 
-    !!! warning
+    5. Then, follow the step by step instructions provided in our [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) to add an automatic popup to your website.
+
+    !!! tip "Check our guide"
 
         Check [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) for step by step instructions.
 
-    !!! note
+    !!! warning "Note"
 
         By default, the popup is only shown once per session unless Exit Intent is enabled.
+
+    ### Automatic Popup on a specific page
+
+    1. To add an automatic popup to a specific page, in Shopify, go to `Online Store > Pages`. Click on the page you want to add the automatic popup to.
+    2. Then, `+ Add section`, click the `Apps`. From the list, pick the `Automatic Popup Quiz`.
+
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic_inline](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic_inline.png)
+
+    3. In the `V2 - Automatic Popup Quiz` section, you can adjust the automatic popup settings.
+
+        ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
+
+        `Popup Delay (in seconds)` - Set up the number of seconds after which the quiz popup will be automatically displayed.
+
+        `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
+
+        `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
+
+        `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+
+        `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
+
+    4. Then, follow the step by step instructions provided in our [How to Set Up Automatic Popups on a Specific Page](/how-to-guides/publish-quiz-automatic-popup/#on-a-specific-page) to add an automatic popup to your website.
+    
+    !!! tip "Check our guide"
+
+        Check [How to Set Up Automatic Popups on a Specific Page](/how-to-guides/publish-quiz-automatic-popup/#on-a-specific-page) for step by step instructions.
+
+    !!! warning "Note"
+
+        By default, the popup is only shown once per session unless Exit Intent is enabled.
+    
+    
 
 === "WooCommerce" 
 
@@ -448,27 +490,28 @@
 
 === "Shopify V2"
 
-    What's an External Link? It's a direct link to the quiz for social media.
+    !!! info "What's an External Link?"
+        It's a direct link to the quiz for social media.
 
-    To create a link popup for socials, in Shopify, go to `Online Store > Theme` and click ` Customize`. Open `App Embeds` and toggle the button to acitvate the `Link Popup Quiz`.
+    1. To create a link popup for socials, in Shopify, go to `Online Store > Theme` and click ` Customize`. Open `App Embeds` and toggle the button to acitvate the `Link Popup Quiz`.
 
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
 
-    You can adjust the popup options:
+    3. You can adjust the popup options:
 
-    ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+        ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
 
-    `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
+        `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
 
-    `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
+        `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
 
-    `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+        `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
-    Then, follow the step by step instructions provided in the `Share the quiz as an external link` section or in our [How to Get an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/) to add a quiz link to your website.
+    5. Then, follow the step by step instructions provided in the `Share the quiz as an external link` section or in our [How to Get an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/) to add a quiz link to your website.
 
-    ![manual_shopifyV2_quizbuilder_share_publish_externallink](/images/manual_shopifyV2_quizbuilder_share_publish_externallink.png)
+        ![manual_shopifyV2_quizbuilder_share_publish_externallink](/images/manual_shopifyV2_quizbuilder_share_publish_externallink.png)
 
-    !!! warning
+    !!! tip "Check our guide"
 
         Check [How to Get an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/) for step by step instructions.
 
@@ -552,7 +595,46 @@
 
 === "Shopify V2"
 
-    Check [External link](#external) instructions.
+    !!! info "What's an Email Link?"
+        It's a direct link to the quiz for emails.
+
+    1. To create a link popup for emails, in Shopify, go to `Online Store > Theme` and click ` Customize`. Open `App Embeds` and toggle the button to acitvate the `Link Popup Quiz`.
+
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
+
+    3. You can adjust the popup options:
+
+        ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+
+        `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
+
+        `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
+
+        `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+
+    5. Then, follow the step by step instructions provided in the `Share the quiz as an external link` section or in our [How to Get an External Quiz Link for Email](/how-to-guides/publish-quiz-external-link/) to add a quiz link to your website.
+
+        ![manual_shopifyV2_quizbuilder_share_publish_externallink](/images/manual_shopifyV2_quizbuilder_share_publish_externallink.png)
+
+    !!! tip "Check our guide"
+
+        Check [How to Get an External Quiz Link for Email](/how-to-guides/publish-quiz-external-link/) for step by step instructions.
+
+    ### Share the quiz as an external link
+
+    Share a link to your quiz on email campaigns, social media posts, paid ads, or any other communication channel.
+
+    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+
+    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Link Popup Quiz option and toggle it on. This action will automatically add the RevenueHunt script to your site, enabling quiz links to load in a popup.
+
+    3. **Save changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
+
+    4. **Copy the link to the quiz popup**: The direct link to your quiz popup is https://skincarequizstore.myshopify.com/#quiz.
+
+    5. **Share the link**: Share the link to the quiz popup with your audience. You can add it to your email campaigns, social media posts, or any other communication channel.
+
+    When clicked, the default quiz for your store will open. If you've configured Shopify Markets, the default quiz for that specific market will be shown instead.
 
 === "WooCommerce" 
 
@@ -635,37 +717,38 @@
 === "Shopify V2"
 
 
-    What's a Chat Popup? It's a quiz popup that appears after a visitor clicks on a chat-like button.
+    !!! info "What's a Chat Popup?"
+        It's a quiz popup that appears after a visitor clicks on a chat-like button.
 
-    To add a chat popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Chat Button Quiz`.
+    1. To add a chat popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Chat Button Quiz`.
 
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
 
-    You can adjust the chat button options:
+    3. You can adjust the chat button options:
 
-    ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+        ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
 
-    `Chat Button Color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
+        `Chat Button Color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
 
-    `Chat Icon Color` - Adjust the color of the chat icon by selecting one from the tool or adding a #color.
+        `Chat Icon Color` - Adjust the color of the chat icon by selecting one from the tool or adding a #color.
 
-    `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
+        `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
 
-    `Show notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
+        `Show notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
 
-    `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Leave it empty to hide
+        `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Leave it empty to hide
 
-    `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
+        `Popup Width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
 
-    `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
+        `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
 
-    `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+        `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
-    `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
+        `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    Then, follow the step by step instructions provided in our [How to Set Up Chat Button Popups](https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/) to add a chat popup to your website.
+    5. Then, follow the step by step instructions provided in our [How to Set Up Chat Button Popups](https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/) to add a chat popup to your website.
 
-    !!! warning
+    !!! tip "Check our guide"
 
         Check [How to Set Up Chat Button Popups](https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/) for step by step instructions.
 
