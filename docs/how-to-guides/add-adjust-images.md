@@ -1312,6 +1312,12 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     7. Under `Picture size/ratio` you can choose between `Tiny icon 24px`, `Small icon 48px`, `Medium icon 1:1` or `Large icon 4:3`.
 
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_picturesizeratio](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_picturesizeratio.png)
+
+        If you select `Medium (1:1)` in the `Picture size/ratio` dropdown, an additional option for chosing a Mobile layout will appear. There you can choose how this block will be displayed on mobile devices - either as a `Carousel`, `One per row` or `Two per row`.
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_mobilelayout](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_mobilelayout.png)
+
     8. You can also check the:
 
         - `Hide checkbox/radio` to hide the checkbox/radio element from picture choices.
@@ -1475,6 +1481,8 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
     7. Under `Image` you can adjust the image size.
 
         `Picture size/ratio` - Choose the picture size for this block. Choose between `Medium (1:1)` or `Original` picture size (as uploaded to your Shopify Product).
+
+        `Optimize images size` - Select this option to optimize the image size for the quiz. If unchecked, the image will be displayed in the original size.
 
         !!! note
             Product images are taken directly from your Shopify catalog. Product slots diplsay the first image of the product, variant or a collection as uploaded to your Shopify Products/Collections section. 
