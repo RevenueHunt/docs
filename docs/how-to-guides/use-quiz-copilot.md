@@ -32,6 +32,10 @@ icon: material/chat-question-outline
         - Improving engagement
         - Improving quiz completion rate
         - Translating a quiz to another language
+        - Styling the quiz with Custom CSS code
+        - Styling the quiz with Custom JavaScript code
+        - Styling Result Emails send via the RevenueHunt app
+        - and more!
 
     !!! warning "Quiz Copilot is still being improved"
 
@@ -103,6 +107,65 @@ icon: material/chat-question-outline
     5. If satisfied with the quiz, save the changes with the `Save` button.
     6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
 
+    ### Example 5: Styling the quiz with Custom CSS code
+
+    **Styling Questions**
+
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    2. Ask Quiz Copilot to style the quiz with Custom CSS code.
+    3. Quiz Copilot will generate a new CSS code for the quiz.
+    4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
+    5. If satisfied with the quiz, save the changes with the `Save` button.
+    6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
+
+    OR
+
+    1. Go to [Question settings](/reference/quiz-builder/questions/#question-settings) and click `✨Get help with custom CSS` to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
+
+
+    **Styling Results Page**
+
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    2. Ask Quiz Copilot to style the results page with Custom CSS code.
+    3. Quiz Copilot will generate a new CSS code for the results page.
+    4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
+    5. If satisfied with the quiz, save the changes with the `Save` button.
+    6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
+
+    OR
+
+    1. Go to [Results page settings](/reference/quiz-builder/results-page/) and click `✨Get help with custom CSS` to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
+
+
+    ### Example 6: Styling the quiz with Custom JavaScript code
+
+    **Styling Questions**   
+
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    2. Ask Quiz Copilot to style the questions with Custom JavaScript code.
+    3. Quiz Copilot will generate a new JavaScript code for the questions.
+    4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
+    5. If satisfied with the quiz, save the changes with the `Save` button.
+    6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
+
+    OR
+
+    1. Go to [Question settings](/reference/quiz-builder/questions/#question-settings) and click `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly make design changes with JavaScript code!
+
+    **Styling Results Page**
+
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    2. Ask Quiz Copilot to style the results page with Custom JavaScript code.
+    3. Quiz Copilot will generate a new JavaScript code for the results page.
+    4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
+    5. If satisfied with the quiz, save the changes with the `Save` button.
+    6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
+
+    OR
+
+    1. Go to [Results page settings](/reference/quiz-builder/results-page/) and click `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly make design changes with JavaScript code!
+
+
 === "WooCommerce"
 
     Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the legacy version of the RevenueHunt app for WooCommerce.
@@ -118,6 +181,8 @@ icon: material/chat-question-outline
 === "Standalone"
 
     Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the Standalone version of the RevenueHunt app for Headless e-commerce.
+
+
 
 
 ---

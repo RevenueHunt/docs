@@ -204,16 +204,27 @@ icon: material/sale
     ![how to add discount text block](/images/how_to_shopifyv2_add_discount_as_text.png)
 
 
+    ### Discount Code with JavaScript
 
-    !!! tip
+    !!! tip "Check JavaScript guide"
 
-        You can also add a discount code to the [result emails](/reference/quiz-builder/notifications/#to-respondent) by adding the discount code to the text field.
+        Check this article to learn how to add custom JavaScript to the results page: [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
-    !!! warning
+    You can use JavaScript to add a discount code to the results page.
 
-        It is not currently possible to automatically sync discount coupons into your quiz built with the new version of the RevenueHunt app for Shopify. 
+    1. Open the [Results Page](/reference/quiz-builder/results-page/).
+    2. Open the Results Page settings.
+    3. Scroll down to the `Custom JavaScript` section.
+    4. Ask your developer to use the `await Quiz.applyDiscountCode()` function to apply the discount code to the Custom JavaScript block. 
 
-    !!! info
+        !!! tip "Get help with custom JavaScript"
+
+            Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
+
+    5. Save the changes with the top-right `Save` button.
+    
+
+    !!! info "Products Discounted in Shopify Products"
     
         If you have a discount applied to certain products in your store, these reduced prices will be reflected in the quiz results page automatically.
 
