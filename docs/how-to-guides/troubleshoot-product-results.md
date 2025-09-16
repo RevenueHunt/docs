@@ -71,6 +71,12 @@ This guide will walk you through the process of troubleshooting product recommen
     
         In the Responses section you will find a list of the latest quiz responses sorted by date. Click on a date to open a specific response.
 
+        ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
+
+        !!! warning "Test responses removal"
+
+            Admin responses and quiz previews are removed from the list after 24 hours to don't add to your plan's limits.
+
     2. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
 
         ![manual_shopifyV2_quizbuilder_responses_sample1](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)

@@ -76,6 +76,10 @@ Once your theme is updated to listen to the AJAX cart actions, test the followin
     For theme modifications, please consult your theme developer or Shopify Expert.
 
 
+---
+
+This article explains how to update your Shopify cart drawer products after the quiz.
+
 
 
 

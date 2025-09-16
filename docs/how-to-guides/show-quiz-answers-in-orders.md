@@ -116,3 +116,7 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
 === "Standalone"
 
     This feature is currently only available for Shopify and Shopify V2 platforms.
+
+---
+
+This article explains how to show quiz answers in the Shopify Orders.
