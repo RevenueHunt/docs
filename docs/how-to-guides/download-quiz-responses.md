@@ -54,6 +54,10 @@ This guide outlines the process for downloading quiz responses from your quiz, a
         ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
     2. On the left-hand side menu, you'll find the responses the quiz received organized by date/timestamp. Click on `View` to open a specific response.
 
+        !!! warning "Test responses removal"    
+
+            Admin responses and quiz previews are removed from the list after 24 hours to don't add to your plan's limits.
+
         ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
 
         ![manual_shopifyV2_quizbuilder_responses_sample1](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
@@ -105,11 +109,17 @@ This guide outlines the process for downloading quiz responses from your quiz, a
     If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
 
     1. Navigate to the [Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. To initiate the download, use the `☐ / Checkbox` to select the responses to export (click the checkbox next to Response date to select all). 
+    2. To initiate the download, click the `Export CSV` button.
 
         ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
-    3. Once the responses are selected simply trigger the `Export CSV` button.
-    4. The .CSV file will be downloaded right away. You can find the file in the download folder of your browser.
+    3. A pop-up will appear that allows you to select an email address to send the CSV file to. 
+
+        ![manual_shopifyV2_quizbuilder_responses_exportCSV](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
+    
+        !!! note "Security"
+        
+            For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
+    4. The .CSV file will be sent to the email address you provided.
     5. Open the .CSV file on your device for further analysis.
 
 === "WooCommerce"
