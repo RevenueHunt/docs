@@ -44,7 +44,28 @@ If you're using a subscription app that is not supported, you can still recommen
 
 === "Shopify V2"
 
-    Not supported yet.
+    1. To add subscription to your recommended products go to the [Results Page]().
+    2. Find the [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
+    3. Under `Product components layout`, find the `Subscription` option and add it to the layout.
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png)
+    4. Under `Subscription`, select the subscription app you want to use.
+
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription.png)
+
+
+        !!! info "Supported subscription apps"
+
+            We are in the process of implementing these subscription apps for Shopify:
+
+            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps.png)
+
+            - Shopify Subscriptions,
+            - ReCharge Subscriptions (Pro plan only).
+
+            If you wish to integrate a subscription app that is not supported yet, please reach out to our customer support team and we will be happy to help you.
+    4. Save the changes with the top-right `Save` button.
 
 === "WooCommerce"
 
