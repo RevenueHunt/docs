@@ -5,7 +5,11 @@ icon: material/pencil
 
 # How to Create and Publish Your First Product Recommendation Quiz
 
-Follow these steps to create your first quiz with the RevenueHunt app. You can also follow our [introduction video tutorial](/tutorials/getting-started/).
+Follow these steps to create your first quiz with the RevenueHunt app.
+
+!!! tip "Tutorial"
+
+ 	Follow our [introduction video tutorial](/tutorials/getting-started/) to get a quick overview of the app.
 
 
 === "Shopify"
@@ -15,6 +19,10 @@ Follow these steps to create your first quiz with the RevenueHunt app. You can a
     </div>
 
 === "Shopify V2"
+
+    !!! tip "Ask Quiz Copilot"
+
+        Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to create a quiz for you. It's amazing at creating quizzes and can help you with the entire process.
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/NKj9iQ7ZkR0?si=8s1zE3hbDXaDSuFC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

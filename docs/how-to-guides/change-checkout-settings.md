@@ -47,19 +47,21 @@ Follow the instructions below to change your checkout settings:
     1. Open the [Results Page](/reference/quiz-builder/results-page/).
     2. Open the [Results Page settings](/reference/quiz-builder/results-page/#results-page-settings).
     3. Find the `Checkout options` section and open it.
-    4. Select the `Checkout options` you want to use.
+    4. Select the `Bar options` you want to use.
 
-        *Show bar* - Uncheck to hide the checkout bar.
+        `Show bar` - Uncheck to hide the checkout bar.
 
-        *Show "retake quiz" button* - Uncheck if you want to hide the "retake quiz" button.
+        `Show "retake quiz" button` - Uncheck if you want to hide the "retake quiz" button.
 
-        Show "Add all to cart" button - Uncheck to hide the "Add all to cart" button from the footer.
+        Cart/checkout options:
+
+        `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
 
         Next destination for users - Choose where customers go after the results page.
 
-        Proceed to checkout - After adding the products to cart, the customer will be redirected directly to checkout.
+        `Proceed to checkout` - After adding the products to cart, the customer will be redirected directly to checkout.
 
-        Proceed to cart - After adding the products to cart, the customer will be redirected to the cart page.
+        `Proceed to cart` - After adding the products to cart, the customer will be redirected to the cart page.
 
     4. Click the top-right `Save` button to update the preview/live quiz.
 
