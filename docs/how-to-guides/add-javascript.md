@@ -236,20 +236,41 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     **Questions**
 
   	```javascript
-    // Data
-    Quiz.currentQuestion      // the current question (index or object)
-    Quiz.questions            // array of all questions
-    Quiz.answers              // answers so far
-    Quiz.variableScores       // scoring variables (e.g., { skinSensitivity: 82 })
-    Quiz.highestVariableRef   // key/name of the highest scoring variable
+    // Data (live getters always return the latest state)
+    Quiz.currentQuestion        // current question (index or object)
+    Quiz.questions              // array of all questions
+    Quiz.answers                // answers so far (by questionRef)
+    Quiz.variableScores         // e.g., { skinSensitivity: 82, hydration: 45, ... }
+    Quiz.highestVariableRef     // key/name of the highest-scoring variable
 
     // Navigation
-    Quiz.next()               // move to the next question
-    Quiz.previous()           // move to the previous question
+    Quiz.next()                 // go to next question
+    Quiz.previous()             // go to previous question
 
-    // DOM helpers (scoped inside the quiz)
-    Quiz.querySelector(sel)   // like document.querySelector, scoped to quiz
-    Quiz.getElementById(id)   // like document.getElementById, scoped to quiz
+    // One-shot routing helper (next click will go to this q-or-r ref, then clears)
+    Quiz.overrideNext('q-or-r-ref')
+
+    // Event: fires after any answer update (choices/inputs)
+    // event shape: { questionRef, blockRef, type, choicesRefs, value, isValid, selectedIndex, selectedLabel }
+    Quiz.onChange = (event) => { /* your logic */ }
+
+    // DOM helpers (scoped to the quiz)
+    Quiz.querySelector(selector)  // like document.querySelector, but inside the quiz
+    Quiz.getElementById(id)       // like document.getElementById, but inside the quiz
+
+    // Examples:
+
+    // 1) Route based on score (send next to a specific result)
+    if (Quiz.variableScores.skinSensitivity > 80) {
+      Quiz.overrideNext('r-premium');
+    }
+
+    // 2) React to answer changes and steer Next dynamically
+    Quiz.onChange = (e) => {
+      const answers = Quiz.answers; // live snapshot
+      // decide destination based on current answers/scores
+      Quiz.overrideNext('q-12345678');
+    };
     ```
 
     **Results Page**
