@@ -4,18 +4,18 @@ icon: material/language-javascript
 
 # How to Add JavaScript to the Quiz
 
-Unlock the full potential of your Shop Quiz: Product Recommendation Quiz by integrating custom JavaScript. We made it very easy for developers to tap into the quiz response and get all the information they need: individual answers to questions, triggered tags and recommended products.
+Unlock the full potential of your RevenueHunt Product Recommendation Quiz by integrating custom JavaScript. We made it very easy for developers to tap into the quiz response and get all the information they need: individual answers to questions, triggered tags and recommended products.
 
-With custom JavaScript, you can:
+!!! info "With custom JavaScript, you can:"
 
-- add custom behavior, images, texts or logic
-- display custom product recommendations
-- forward to any particular page on your store
-- add tracking codes to specific questions (Google Analytics, Meta Pixel)
+    - add custom behavior, images, texts or logic
+    - display custom product recommendations
+    - forward to any particular page on your store
+    - add tracking codes to specific questions (Google Analytics, Meta Pixel)
 
 This guide will walk you through adding JavaScript to quiz questions and the results page. 
 
-!!! warning
+!!! warning "For developers and Shopify Partners"
     This guide is meant for developers and Shopify Partners. If you're not familiar with the basics of JavaScript and the Vue.js framework, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).
 
 ## Access the Custom JavaScript Console
@@ -39,6 +39,11 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Scroll down to find the **Custom JavaScript** section and open it.
     3. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+
+        !!! tip "Get help with custom JavaScript"
+
+              Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
+
     4. Remember to click the `Save` button to update the preview/live quiz.
 
 
@@ -92,6 +97,11 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Scroll down to find the **Custom JavaScript** section and open it.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+
+        !!! tip "Get help with custom JavaScript"
+
+              Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
+
     5. Remember to click the `Save` button to update the preview/live quiz.
 
 === "WooCommerce"
@@ -218,23 +228,46 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     In Shopify V2, the `prq` object is not available. Instead, you have access to different objects:
 
-    **For Results Page JavaScript:**
+      
+    ### Available JavaScript data and functions
 
-    - `currentResult` - contains information about the current results page
+    **Questions**
 
-    - `answers` - contains the quiz answers
+  	```javascript
+    // Data
+    Quiz.currentQuestion      // the current question (index or object)
+    Quiz.questions            // array of all questions
+    Quiz.answers              // answers so far
+    Quiz.variableScores       // scoring variables (e.g., { skinSensitivity: 82 })
+    Quiz.highestVariableRef   // key/name of the highest scoring variable
 
-    - `slotItems` - contains the product recommendations
+    // Navigation
+    Quiz.next()               // move to the next question
+    Quiz.previous()           // move to the previous question
 
-    **For Questions JavaScript:**
+    // DOM helpers (scoped inside the quiz)
+    Quiz.querySelector(sel)   // like document.querySelector, scoped to quiz
+    Quiz.getElementById(id)   // like document.getElementById, scoped to quiz
+    ```
 
-    - `currentQuestion` - contains information about the current question
+    **Results Page**
 
-    - `questions` - contains all questions
+    ```javascript
+    // Data
+    Quiz.currentResult        // the result object (e.g., profile/outcome)
+    Quiz.answers              // final answers
+    Quiz.slotItems            // product recommendations shown in slots
+    Quiz.variableScores       // scoring variables
+    Quiz.highestVariableRef   // key/name of the highest scoring variable
 
-    - `answers` - contains the quiz answers
+    // Actions (async)
+    await Quiz.addAllToCart()     // add all recommended products to cart
+    await Quiz.applyDiscountCode()// apply the discount code configured
 
-    - `results` - contains result information
+    // DOM helpers (scoped inside the quiz)
+    Quiz.querySelector(sel)       // like document.querySelector, scoped to quiz
+    Quiz.getElementById(id)       // like document.getElementById, scoped to quiz
+    ```
 
     **Debugging and Accessing Data in V2**
 
@@ -257,16 +290,24 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     Alternatively, you can use console.log to output these objects to the console:
 
-    ```javascript
-    // For Results Page
-    console.log('Current Result:', currentResult);
-    console.log('Answers:', answers);
-    console.log('Product Recommendations:', slotItems);
+    Questions
 
-    // For Questions
-    console.log('Current Question:', currentQuestion);
-    console.log('All Questions:', questions);
-    console.log('Answers:', answers);
+    ```javascript
+    console.log('Current Question:', Quiz.currentQuestion);
+    console.log('All Questions:', Quiz.questions);
+    console.log('Answers so far:', Quiz.answers);
+    console.log('Scores:', Quiz.variableScores);
+    console.log('Top variable:', Quiz.highestVariableRef);
+    ```
+
+    Results Page
+
+    ```javascript
+    console.log('Current Result:', Quiz.currentResult);
+    console.log('Final Answers:', Quiz.answers);
+    console.log('Product Recommendations:', Quiz.slotItems);
+    console.log('Scores:', Quiz.variableScores);
+    console.log('Top variable:', Quiz.highestVariableRef);
     ```
 
     To access the console in your browser:
@@ -632,41 +673,45 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
 
-        ```html
-        <!-- In Result page in a HTML block -->
-        <!-- add a HTML element such as -->
-        <a id="special_retake_quiz">Click here to retake the quiz</a>
-        ```
+        !!! example "Add the `onclick` functionality via the Custom Javascript."
 
-        ```html
-        /* In the Custom Javascript section */
-        // get the element
-        var element = document.getElementById("special_retake_quiz");
+            ```html
+            <!-- In Result page in a HTML block -->
+            <!-- add a HTML element such as -->
+            <a id="special_retake_quiz">Click here to retake the quiz</a>
+            ```
 
-        // add the onclick function to the element
-        element.onclick = function() {
-            prq.retakeQuiz();
-        }
-        ```
+            ```javascript
+            /* In the Custom Javascript section */
+            // get the element
+            var element = document.getElementById("special_retake_quiz");
+
+            // add the onclick function to the element
+            element.onclick = function() {
+                prq.retakeQuiz();
+            }
+            ```
 
     2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
 
-        ```html
-        /* In the Custom Javascript section */
-        // create the element
-        var element = document.createElement("a");
-        element.innerHTML = "Click here to retake the quiz"
+        !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
-        // add the onclick function to the element
-        element.onclick = function() {
-            prq.retakeQuiz();
-        }
+            ```javascript
+            /* In the Custom Javascript section */
+            // create the element
+            var element = document.createElement("a");
+            element.innerHTML = "Click here to retake the quiz"
 
-        // get element that we are going to append in the result
-        // in this case at the end of the first block
-        var destination_element = document.querySelectorAll(".lq-block")[0];
-        destination_element.appendChild(element);
-        ```
+            // add the onclick function to the element
+            element.onclick = function() {
+                prq.retakeQuiz();
+            }
+
+            // get element that we are going to append in the result
+            // in this case at the end of the first block
+            var destination_element = document.querySelectorAll(".lq-block")[0];
+            destination_element.appendChild(element);
+            ```
 
 === "Shopify V2"
 
@@ -674,45 +719,48 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
 
-        ```html
-        <!-- In Result page in a HTML block -->
-        <!-- add a HTML element such as -->
-        <a id="special_retake_quiz">Click here to retake the quiz</a>
-        ```
+    
+        !!! example "Add the `onclick` functionality via the Custom Javascript."
 
-        ```javascript
-        /* In the Custom Javascript section */
-        // get the element
-        var element = document.getElementById("special_retake_quiz");
+            ```html
+            <!-- In Result page in a HTML block -->
+            <!-- add a HTML element such as -->
+            <a id="special_retake_quiz">Click here to retake the quiz</a>
+            ```
 
-        // add the onclick function to the element
-        element.onclick = function() {
-            // You'll need to implement retake functionality using V2 objects
-            // For example, you could redirect to the quiz URL
-            window.location.href = window.location.href.split('#')[0] + '#quiz';
-        }
-        ```
+            ```javascript
+            /* In the Custom Javascript section */
+            // get the element
+            var element = document.getElementById("special_retake_quiz");
+
+            // add the onclick function to the element
+            element.onclick = function() {
+                // You'll need to implement retake functionality using V2 objects
+                // For example, you could redirect to the quiz URL
+                window.location.href = window.location.href.split('#')[0] + '#quiz';
+            }
+            ```
 
     2. Or you can create the element in the Custom Javascript section and inject it into the results page.
 
-        ```javascript
-        /* In the Custom Javascript section */
-        // create the element
-        var element = document.createElement("a");
-        element.innerHTML = "Click here to retake the quiz";
+        !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
-        // add the onclick function to the element
-        element.onclick = function() {
-            // You'll need to implement retake functionality using V2 objects
-            window.location.href = window.location.href.split('#')[0] + '#quiz';
-        }
+            ```javascript
+            /* In the Custom Javascript section */
+            // create the element
+            const element = document.createElement("a");
+            element.innerHTML = "Click here to retake the quiz";
+            element.style.cursor = "pointer";
 
-        // Find a place to append the element
-        // Example: add to the first product recommendation block
-        if (document.querySelector('.result-section')) {
-            document.querySelector('.result-section').appendChild(element);
-        }
-        ```
+            // add the onclick function
+            element.onclick = function() {
+              window.location.href = window.location.href.split('#')[0] + '#quiz';
+            };
+
+            // find a place to append the element
+            const container = Quiz.querySelector('.result-section');
+            if (container) container.appendChild(element);
+            ```
 
 === "WooCommerce"
 
@@ -720,83 +768,90 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
 
-        ```html
-        <!-- In Result page in a HTML block -->
-        <!-- add a HTML element such as -->
-        <a id="special_retake_quiz">Click here to retake the quiz</a>
-        ```
+        !!! example "Add the `onclick` functionality via the Custom Javascript."
 
-        ```html
-        /* In the Custom Javascript section */
-        // get the element
-        var element = document.getElementById("special_retake_quiz");
+            ```html
+            <!-- In Result page in a HTML block -->
+            <!-- add a HTML element such as -->
+            <a id="special_retake_quiz">Click here to retake the quiz</a>
+            ```
 
-        // add the onclick function to the element
-        element.onclick = function() {
-            prq.retakeQuiz();
-        }
-        ```
+            ```html
+            /* In the Custom Javascript section */
+            // get the element
+            var element = document.getElementById("special_retake_quiz");
+
+            // add the onclick function to the element
+            element.onclick = function() {
+                prq.retakeQuiz();
+            }
+            ```
 
     2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
 
-        ```html
-        /* In the Custom Javascript section */
-        // create the element
-        var element = document.createElement("a");
-        element.innerHTML = "Click here to retake the quiz"
+        !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
-        // add the onclick function to the element
-        element.onclick = function() {
-            prq.retakeQuiz();
-        }
+            ```html
+            /* In the Custom Javascript section */
+            // create the element
+            var element = document.createElement("a");
+            element.innerHTML = "Click here to retake the quiz"
 
-        // get element that we are going to append in the result
-        // in this case at the end of the first block
-        var destination_element = document.querySelectorAll(".lq-block")[0];
-        destination_element.appendChild(element);
-        ```
+            // add the onclick function to the element
+            element.onclick = function() {
+                prq.retakeQuiz();
+            }
+
+            // get element that we are going to append in the result
+            // in this case at the end of the first block
+            var destination_element = document.querySelectorAll(".lq-block")[0];
+            destination_element.appendChild(element);
+            ```
 
 === "Magento"
-
     You can do it two ways: 
 
     1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
 
-        ```html
-        <!-- In Result page in a HTML block -->
-        <!-- add a HTML element such as -->
-        <a id="special_retake_quiz">Click here to retake the quiz</a>
-        ```
+        !!! example "Add the `onclick` functionality via the Custom Javascript."
 
-        ```html
-        /* In the Custom Javascript section */
-        // get the element
-        var element = document.getElementById("special_retake_quiz");
+            ```html
+            <!-- In Result page in a HTML block -->
+            <!-- add a HTML element such as -->
+            <a id="special_retake_quiz">Click here to retake the quiz</a>
+            ```
 
-        // add the onclick function to the element
-        element.onclick = function() {
-            prq.retakeQuiz();
-        }
-        ```
+            ```html
+            /* In the Custom Javascript section */
+            // get the element
+            var element = document.getElementById("special_retake_quiz");
+
+            // add the onclick function to the element
+            element.onclick = function() {
+                prq.retakeQuiz();
+            }
+            ```
 
     2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
 
-        ```html
-        /* In the Custom Javascript section */
-        // create the element
-        var element = document.createElement("a");
-        element.innerHTML = "Click here to retake the quiz"
+        !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
-        // add the onclick function to the element
-        element.onclick = function() {
-            prq.retakeQuiz();
-        }
+            ```html
+            /* In the Custom Javascript section */
+            // create the element
+            var element = document.createElement("a");
+            element.innerHTML = "Click here to retake the quiz"
 
-        // get element that we are going to append in the result
-        // in this case at the end of the first block
-        var destination_element = document.querySelectorAll(".lq-block")[0];
-        destination_element.appendChild(element);
-        ```
+            // add the onclick function to the element
+            element.onclick = function() {
+                prq.retakeQuiz();
+            }
+
+            // get element that we are going to append in the result
+            // in this case at the end of the first block
+            var destination_element = document.querySelectorAll(".lq-block")[0];
+            destination_element.appendChild(element);
+            ```
 
 === "BigCommerce"
 
@@ -804,83 +859,90 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
 
-        ```html
-        <!-- In Result page in a HTML block -->
-        <!-- add a HTML element such as -->
-        <a id="special_retake_quiz">Click here to retake the quiz</a>
-        ```
+        !!! example "Add the `onclick` functionality via the Custom Javascript."
 
-        ```html
-        /* In the Custom Javascript section */
-        // get the element
-        var element = document.getElementById("special_retake_quiz");
+            ```html
+            <!-- In Result page in a HTML block -->
+            <!-- add a HTML element such as -->
+            <a id="special_retake_quiz">Click here to retake the quiz</a>
+            ```
 
-        // add the onclick function to the element
-        element.onclick = function() {
-            prq.retakeQuiz();
-        }
-        ```
+            ```html
+            /* In the Custom Javascript section */
+            // get the element
+            var element = document.getElementById("special_retake_quiz");
+
+            // add the onclick function to the element
+            element.onclick = function() {
+                prq.retakeQuiz();
+            }
+            ```
 
     2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
 
-        ```html
-        /* In the Custom Javascript section */
-        // create the element
-        var element = document.createElement("a");
-        element.innerHTML = "Click here to retake the quiz"
+        !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
-        // add the onclick function to the element
-        element.onclick = function() {
-            prq.retakeQuiz();
-        }
+            ```html
+            /* In the Custom Javascript section */
+            // create the element
+            var element = document.createElement("a");
+            element.innerHTML = "Click here to retake the quiz"
 
-        // get element that we are going to append in the result
-        // in this case at the end of the first block
-        var destination_element = document.querySelectorAll(".lq-block")[0];
-        destination_element.appendChild(element);
-        ```
+            // add the onclick function to the element
+            element.onclick = function() {
+                prq.retakeQuiz();
+            }
+
+            // get element that we are going to append in the result
+            // in this case at the end of the first block
+            var destination_element = document.querySelectorAll(".lq-block")[0];
+            destination_element.appendChild(element);
+            ```
 
 === "Standalone"
-
     You can do it two ways: 
 
     1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
 
-        ```html
-        <!-- In Result page in a HTML block -->
-        <!-- add a HTML element such as -->
-        <a id="special_retake_quiz">Click here to retake the quiz</a>
-        ```
+        !!! example "Add the `onclick` functionality via the Custom Javascript."
 
-        ```html
-        /* In the Custom Javascript section */
-        // get the element
-        var element = document.getElementById("special_retake_quiz");
+            ```html
+            <!-- In Result page in a HTML block -->
+            <!-- add a HTML element such as -->
+            <a id="special_retake_quiz">Click here to retake the quiz</a>
+            ```
 
-        // add the onclick function to the element
-        element.onclick = function() {
-            prq.retakeQuiz();
-        }
-        ```
+            ```html
+            /* In the Custom Javascript section */
+            // get the element
+            var element = document.getElementById("special_retake_quiz");
+
+            // add the onclick function to the element
+            element.onclick = function() {
+                prq.retakeQuiz();
+            }
+            ```
 
     2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
 
-        ```html
-        /* In the Custom Javascript section */
-        // create the element
-        var element = document.createElement("a");
-        element.innerHTML = "Click here to retake the quiz"
+        !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
-        // add the onclick function to the element
-        element.onclick = function() {
-            prq.retakeQuiz();
-        }
+            ```html
+            /* In the Custom Javascript section */
+            // create the element
+            var element = document.createElement("a");
+            element.innerHTML = "Click here to retake the quiz"
 
-        // get element that we are going to append in the result
-        // in this case at the end of the first block
-        var destination_element = document.querySelectorAll(".lq-block")[0];
-        destination_element.appendChild(element);
-        ```
+            // add the onclick function to the element
+            element.onclick = function() {
+                prq.retakeQuiz();
+            }
+
+            // get element that we are going to append in the result
+            // in this case at the end of the first block
+            var destination_element = document.querySelectorAll(".lq-block")[0];
+            destination_element.appendChild(element);
+            ```
 
 ### Example 2: Insert calculations
 
@@ -888,36 +950,38 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     You can display the information you have gathered throughout the quiz and mash it up however you want. For example, you could create a BMI (body mass index) calculator the following way.
 
-    ```html
-    <!-- In Result page in a HTML block -->
-    <!-- add an HTML element such as -->
-    <div id="body_mass_index_calculation"></div>
-    ```
+    !!! example "Create a BMI calculator"
 
-    ```html
-    /* In the Custom Javascript section */
-    // get the element
-    var element = document.getElementById("body_mass_index_calculation");
+        ```html
+        <!-- In Result page in a HTML block -->
+        <!-- add an HTML element such as -->
+        <div id="body_mass_index_calculation"></div>
+        ```
 
-    // get the values of the slides
-    var weight = prq.getSlideValue("rgiq0oE");
-    var height = prq.getSlideValue("0Mi2qLN");
+        ```javascript
+        /* In the Custom Javascript section */
+        // get the element
+        var element = document.getElementById("body_mass_index_calculation");
 
-    // instead of using prq.getSlideValue you could do the same with this code:
-    /*
-    var slide_weight = prq.quiz.attributes.slides.data.find(s => s.id === "rgiq0oE");
-    var slide_height = prq.quiz.attributes.slides.data.find(s => s.id === "0Mi2qLN");
+        // get the values of the slides
+        var weight = prq.getSlideValue("rgiq0oE");
+        var height = prq.getSlideValue("0Mi2qLN");
 
-    var weight = slide_weight.attributes.values[0];
-    var height = slide_height.attributes.values[0];
-    */
+        // instead of using prq.getSlideValue you could do the same with this code:
+        /*
+        var slide_weight = prq.quiz.attributes.slides.data.find(s => s.id === "rgiq0oE");
+        var slide_height = prq.quiz.attributes.slides.data.find(s => s.id === "0Mi2qLN");
 
-    // calculate the Body Mass Index
-    var bmi = weight / (height * height);
+        var weight = slide_weight.attributes.values[0];
+        var height = slide_height.attributes.values[0];
+        */
 
-    // insert the calculation on the element in the result page
-    element.innerHTML = bmi.toFixed(2); 
-    ```
+        // calculate the Body Mass Index
+        var bmi = weight / (height * height);
+
+        // insert the calculation on the element in the result page
+        element.innerHTML = bmi.toFixed(2); 
+        ```
 
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
 
@@ -925,76 +989,86 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     In Shopify V2, you can access the answers from the `answers` object to perform calculations. Here's how to create a BMI calculator:
 
-    ```html
-    <!-- In Result page in a HTML block -->
-    <!-- add an HTML element such as -->
-    <div id="body_mass_index_calculation"></div>
-    ```
+    !!! example "Create a BMI calculator"
 
-    ```javascript
-    /* In the Custom Javascript section */
-    // const shadowHost = document.querySelector('#shadow-quiz');
-    const shadowRoot = shadowHost.shadowRoot;
+        Step 1: Add a placeholder element in the Results page (HTML block)
 
-    // Using answers object to find responses for weight and height
-    // Assuming you have questions with these keys - replace with your actual question IDs
-    var weightQuestion = answers.find(a => a.questionId === "weight-question-id");
-    var heightQuestion = answers.find(a => a.questionId === "height-question-id");
+        ```html
+        <div id="body_mass_index_calculation"></div>
+        ```
 
-    if (weightQuestion && heightQuestion) {
-        var weight = parseFloat(weightQuestion.value);
-        var height = parseFloat(heightQuestion.value);
+        Step 2: Add custom JavaScript
+
+        ```javascript
+        /* In the Custom Javascript section */
+
+        // Get the target element inside the quiz
+        const element = Quiz.getElementById("body_mass_index_calculation");
+
+        // Use Quiz.answers to find responses for weight and height
+        // Replace these IDs with your actual question IDs from your quiz
+        const weightAnswer = Quiz.answers["weight-question-id"];
+        const heightAnswer = Quiz.answers["height-question-id"];
+
+        if (element && weightAnswer && heightAnswer) {
+          const weight = parseFloat(weightAnswer);
+          const height = parseFloat(heightAnswer);
+
+          if (!isNaN(weight) && !isNaN(height) && height > 0) {
+            // Calculate BMI: weight (kg) / height^2 (m)
+            const bmi = weight / (height * height);
+            element.innerHTML = `Your BMI is: <b>${bmi.toFixed(2)}</b>`;
+          } else {
+            element.innerHTML = "Invalid data for BMI calculation.";
+          }
+        } else if (element) {
+          element.innerHTML = "Required data not found.";
+        }
+        ```
+
+        Step 3: Debugging (find your actual question IDs)
         
-        // calculate the Body Mass Index
-        var bmi = weight / (height * height);
-        
-        // insert the calculation on the element in the result page
-        element.innerHTML = bmi.toFixed(2);
-    } else {
-        element.innerHTML = "Required data not found";
-    }
-    ```
+        ```javascript
+        console.log("All Answers:", Quiz.answers);
+        ```
 
-    To debug and find your specific question IDs, use:
-    
-    ```javascript
-    console.log(answers);
-    ```
+        When you run the quiz, check the Console in DevTools to see the structure of `Quiz.answers` and copy the correct IDs to use in the code above.
 
 === "WooCommerce"
-
     You can display the information you have gathered throughout the quiz and mash it up however you want. For example, you could create a BMI (body mass index) calculator the following way.
 
-    ```html
-    <!-- In Result page in a HTML block -->
-    <!-- add an HTML element such as -->
-    <div id="body_mass_index_calculation"></div>
-    ```
+    !!! example "Create a BMI calculator"
 
-    ```html
-    /* In the Custom Javascript section */
-    // get the element
-    var element = document.getElementById("body_mass_index_calculation");
+        ```html
+        <!-- In Result page in a HTML block -->
+        <!-- add an HTML element such as -->
+        <div id="body_mass_index_calculation"></div>
+        ```
 
-    // get the values of the slides
-    var weight = prq.getSlideValue("rgiq0oE");
-    var height = prq.getSlideValue("0Mi2qLN");
+        ```javascript
+        /* In the Custom Javascript section */
+        // get the element
+        var element = document.getElementById("body_mass_index_calculation");
 
-    // instead of using prq.getSlideValue you could do the same with this code:
-    /*
-    var slide_weight = prq.quiz.attributes.slides.data.find(s => s.id === "rgiq0oE");
-    var slide_height = prq.quiz.attributes.slides.data.find(s => s.id === "0Mi2qLN");
+        // get the values of the slides
+        var weight = prq.getSlideValue("rgiq0oE");
+        var height = prq.getSlideValue("0Mi2qLN");
 
-    var weight = slide_weight.attributes.values[0];
-    var height = slide_height.attributes.values[0];
-    */
+        // instead of using prq.getSlideValue you could do the same with this code:
+        /*
+        var slide_weight = prq.quiz.attributes.slides.data.find(s => s.id === "rgiq0oE");
+        var slide_height = prq.quiz.attributes.slides.data.find(s => s.id === "0Mi2qLN");
 
-    // calculate the Body Mass Index
-    var bmi = weight / (height * height);
+        var weight = slide_weight.attributes.values[0];
+        var height = slide_height.attributes.values[0];
+        */
 
-    // insert the calculation on the element in the result page
-    element.innerHTML = bmi.toFixed(2); 
-    ```
+        // calculate the Body Mass Index
+        var bmi = weight / (height * height);
+
+        // insert the calculation on the element in the result page
+        element.innerHTML = bmi.toFixed(2); 
+        ```
 
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
 
@@ -1002,36 +1076,38 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     You can display the information you have gathered throughout the quiz and mash it up however you want. For example, you could create a BMI (body mass index) calculator the following way.
 
-    ```html
-    <!-- In Result page in a HTML block -->
-    <!-- add an HTML element such as -->
-    <div id="body_mass_index_calculation"></div>
-    ```
+    !!! example "Create a BMI calculator"
 
-    ```html
-    /* In the Custom Javascript section */
-    // get the element
-    var element = document.getElementById("body_mass_index_calculation");
+        ```html
+        <!-- In Result page in a HTML block -->
+        <!-- add an HTML element such as -->
+        <div id="body_mass_index_calculation"></div>
+        ```
 
-    // get the values of the slides
-    var weight = prq.getSlideValue("rgiq0oE");
-    var height = prq.getSlideValue("0Mi2qLN");
+        ```javascript
+        /* In the Custom Javascript section */
+        // get the element
+        var element = document.getElementById("body_mass_index_calculation");
 
-    // instead of using prq.getSlideValue you could do the same with this code:
-    /*
-    var slide_weight = prq.quiz.attributes.slides.data.find(s => s.id === "rgiq0oE");
-    var slide_height = prq.quiz.attributes.slides.data.find(s => s.id === "0Mi2qLN");
+        // get the values of the slides
+        var weight = prq.getSlideValue("rgiq0oE");
+        var height = prq.getSlideValue("0Mi2qLN");
 
-    var weight = slide_weight.attributes.values[0];
-    var height = slide_height.attributes.values[0];
-    */
+        // instead of using prq.getSlideValue you could do the same with this code:
+        /*
+        var slide_weight = prq.quiz.attributes.slides.data.find(s => s.id === "rgiq0oE");
+        var slide_height = prq.quiz.attributes.slides.data.find(s => s.id === "0Mi2qLN");
 
-    // calculate the Body Mass Index
-    var bmi = weight / (height * height);
+        var weight = slide_weight.attributes.values[0];
+        var height = slide_height.attributes.values[0];
+        */
 
-    // insert the calculation on the element in the result page
-    element.innerHTML = bmi.toFixed(2); 
-    ```
+        // calculate the Body Mass Index
+        var bmi = weight / (height * height);
+
+        // insert the calculation on the element in the result page
+        element.innerHTML = bmi.toFixed(2); 
+        ```
 
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
 
@@ -1039,75 +1115,81 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     You can display the information you have gathered throughout the quiz and mash it up however you want. For example, you could create a BMI (body mass index) calculator the following way.
 
-    ```html
-    <!-- In Result page in a HTML block -->
-    <!-- add an HTML element such as -->
-    <div id="body_mass_index_calculation"></div>
-    ```
+    !!! example "Create a BMI calculator"
 
-    ```html
-    /* In the Custom Javascript section */
-    // get the element
-    var element = document.getElementById("body_mass_index_calculation");
+        ```html
+        <!-- In Result page in a HTML block -->
+        <!-- add an HTML element such as -->
+        <div id="body_mass_index_calculation"></div>
+        ```
 
-    // get the values of the slides
-    var weight = prq.getSlideValue("rgiq0oE");
-    var height = prq.getSlideValue("0Mi2qLN");
+        ```javascript
+        /* In the Custom Javascript section */
+        // get the element
+        var element = document.getElementById("body_mass_index_calculation");
 
-    // instead of using prq.getSlideValue you could do the same with this code:
-    /*
-    var slide_weight = prq.quiz.attributes.slides.data.find(s => s.id === "rgiq0oE");
-    var slide_height = prq.quiz.attributes.slides.data.find(s => s.id === "0Mi2qLN");
+        // get the values of the slides
+        var weight = prq.getSlideValue("rgiq0oE");
+        var height = prq.getSlideValue("0Mi2qLN");
 
-    var weight = slide_weight.attributes.values[0];
-    var height = slide_height.attributes.values[0];
-    */
+        // instead of using prq.getSlideValue you could do the same with this code:
+        /*
+        var slide_weight = prq.quiz.attributes.slides.data.find(s => s.id === "rgiq0oE");
+        var slide_height = prq.quiz.attributes.slides.data.find(s => s.id === "0Mi2qLN");
 
-    // calculate the Body Mass Index
-    var bmi = weight / (height * height);
+        var weight = slide_weight.attributes.values[0];
+        var height = slide_height.attributes.values[0];
+        */
 
-    // insert the calculation on the element in the result page
-    element.innerHTML = bmi.toFixed(2); 
-    ```
+        // calculate the Body Mass Index
+        var bmi = weight / (height * height);
+
+        // insert the calculation on the element in the result page
+        element.innerHTML = bmi.toFixed(2); 
+        ```
 
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
 
 === "Standalone"
 
+
     You can display the information you have gathered throughout the quiz and mash it up however you want. For example, you could create a BMI (body mass index) calculator the following way.
 
-    ```html
-    <!-- In Result page in a HTML block -->
-    <!-- add an HTML element such as -->
-    <div id="body_mass_index_calculation"></div>
-    ```
+    !!! example "Create a BMI calculator"
 
-    ```html
-    /* In the Custom Javascript section */
-    // get the element
-    var element = document.getElementById("body_mass_index_calculation");
+        ```html
+        <!-- In Result page in a HTML block -->
+        <!-- add an HTML element such as -->
+        <div id="body_mass_index_calculation"></div>
+        ```
 
-    // get the values of the slides
-    var weight = prq.getSlideValue("rgiq0oE");
-    var height = prq.getSlideValue("0Mi2qLN");
+        ```javascript
+        /* In the Custom Javascript section */
+        // get the element
+        var element = document.getElementById("body_mass_index_calculation");
 
-    // instead of using prq.getSlideValue you could do the same with this code:
-    /*
-    var slide_weight = prq.quiz.attributes.slides.data.find(s => s.id === "rgiq0oE");
-    var slide_height = prq.quiz.attributes.slides.data.find(s => s.id === "0Mi2qLN");
+        // get the values of the slides
+        var weight = prq.getSlideValue("rgiq0oE");
+        var height = prq.getSlideValue("0Mi2qLN");
 
-    var weight = slide_weight.attributes.values[0];
-    var height = slide_height.attributes.values[0];
-    */
+        // instead of using prq.getSlideValue you could do the same with this code:
+        /*
+        var slide_weight = prq.quiz.attributes.slides.data.find(s => s.id === "rgiq0oE");
+        var slide_height = prq.quiz.attributes.slides.data.find(s => s.id === "0Mi2qLN");
 
-    // calculate the Body Mass Index
-    var bmi = weight / (height * height);
+        var weight = slide_weight.attributes.values[0];
+        var height = slide_height.attributes.values[0];
+        */
 
-    // insert the calculation on the element in the result page
-    element.innerHTML = bmi.toFixed(2); 
-    ```
+        // calculate the Body Mass Index
+        var bmi = weight / (height * height);
+
+        // insert the calculation on the element in the result page
+        element.innerHTML = bmi.toFixed(2); 
+        ```
 
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
+
 
 ### Example 3: Multiple-choice questions: select all, select none
 
@@ -1115,107 +1197,107 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     It is possible to make the quiz multiple choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
 
-    !!! note
+    ??? example "Select all, select none"
 
         This code may require adjustments by a developer.  Use it as an example only.
 
-    ```javascript
-    // Initializes an object to hold the current slide's state, ensuring it doesn't overwrite if already exists.
-    var prq = prq || {
-      currentSlide: {
-        values: [], // An array to store the values (identifiers) of selected choices.
-      },
-    };
+        ```javascript
+        // Initializes an object to hold the current slide's state, ensuring it doesn't overwrite if already exists.
+        var prq = prq || {
+          currentSlide: {
+            values: [], // An array to store the values (identifiers) of selected choices.
+          },
+        };
 
-    // Selects all elements with class `.lq-choice` as the choices available on the current slide/view.
-    const choices = document.querySelectorAll(".lq-choice");
+        // Selects all elements with class `.lq-choice` as the choices available on the current slide/view.
+        const choices = document.querySelectorAll(".lq-choice");
 
-    // Retrieves the currently selected choice values from the global state.
-    var values = prq.currentSlide.values;
+        // Retrieves the currently selected choice values from the global state.
+        var values = prq.currentSlide.values;
 
-    // Iterates over each choice and attaches a click event listener to handle selection/deselection.
-    choices.forEach((selector) => {
-      selector.addEventListener("click", function () {
-        refresh(this.id); // Calls the refresh function on click, passing the clicked choice's ID.
-      });
-    });
+        // Iterates over each choice and attaches a click event listener to handle selection/deselection.
+        choices.forEach((selector) => {
+          selector.addEventListener("click", function () {
+            refresh(this.id); // Calls the refresh function on click, passing the clicked choice's ID.
+          });
+        });
 
-    // Defines the logic to update choice selections based on user interaction.
-    function refresh(id) {
-      var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
-      
-      // Logic to deselect a choice if it's already selected.
-      if (valuesIncludes(values, choice)) {
-        values = removeChoice(values, choice);
-      } 
-      // Logic to select all choices except "none" when "all" is clicked.
-      else if (isAll(choice)) {
-        const cs = [...choices].filter((c) => !isNone(c));
-        values = cs.map((c) => choiceId(c));
-      } 
-      // Logic to handle "none" selection, deselecting all other choices or selecting none only.
-      else if (isNone(choice)) {
-        if (valuesIncludes(values, choice)) {
-          values = [];
-        } else {
-          const cs = [...choices].filter((c) => !isNone(c));
-          values = [choiceId(choice)];
+        // Defines the logic to update choice selections based on user interaction.
+        function refresh(id) {
+          var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
+          
+          // Logic to deselect a choice if it's already selected.
+          if (valuesIncludes(values, choice)) {
+            values = removeChoice(values, choice);
+          } 
+          // Logic to select all choices except "none" when "all" is clicked.
+          else if (isAll(choice)) {
+            const cs = [...choices].filter((c) => !isNone(c));
+            values = cs.map((c) => choiceId(c));
+          } 
+          // Logic to handle "none" selection, deselecting all other choices or selecting none only.
+          else if (isNone(choice)) {
+            if (valuesIncludes(values, choice)) {
+              values = [];
+            } else {
+              const cs = [...choices].filter((c) => !isNone(c));
+              values = [choiceId(choice)];
+            }
+          } 
+          // General logic for ticking a choice and unticking "none".
+          else {
+            addChoice(values, choice);
+            values = removeChoice(values, choiceNone(choices));
+          }
+
+          // Updates the UI to reflect the current selection state.
+          choices.forEach((c) =>
+            values.includes(choiceId(c))
+              ? c.classList.add("lq-selected")
+              : c.classList.remove("lq-selected")
+          );
         }
-      } 
-      // General logic for ticking a choice and unticking "none".
-      else {
-        addChoice(values, choice);
-        values = removeChoice(values, choiceNone(choices));
-      }
 
-      // Updates the UI to reflect the current selection state.
-      choices.forEach((c) =>
-        values.includes(choiceId(c))
-          ? c.classList.add("lq-selected")
-          : c.classList.remove("lq-selected")
-      );
-    }
+        // Helper function to add a choice's ID to the selection.
+        function addChoice(values, choice) {
+          values.push(choiceId(choice));
+        }
 
-    // Helper function to add a choice's ID to the selection.
-    function addChoice(values, choice) {
-      values.push(choiceId(choice));
-    }
+        // Helper function to remove a choice's ID from the selection.
+        function removeChoice(values, choice) {
+          return values.filter((v) => v !== choiceId(choice));
+        }
 
-    // Helper function to remove a choice's ID from the selection.
-    function removeChoice(values, choice) {
-      return values.filter((v) => v !== choiceId(choice));
-    }
+        // Returns the "none" choice element.
+        function choiceNone(choices) {
+          return [...choices].find((c) => isNone(c));
+        }
 
-    // Returns the "none" choice element.
-    function choiceNone(choices) {
-      return [...choices].find((c) => isNone(c));
-    }
+        // Unused in the given code but presumably intended to return the "all" choice element.
+        function choiceAll(choices) {
+          return [...choices].find((c) => isAll(c));
+        }
 
-    // Unused in the given code but presumably intended to return the "all" choice element.
-    function choiceAll(choices) {
-      return [...choices].find((c) => isAll(c));
-    }
+        // Extracts and returns the ID part of a choice's DOM ID.
+        function choiceId(choice) {
+          return choice.id.split("-")[1];
+        }
 
-    // Extracts and returns the ID part of a choice's DOM ID.
-    function choiceId(choice) {
-      return choice.id.split("-")[1];
-    }
+        // Determines if a choice is meant to select all options.
+        function isAll(c) {
+          return c.innerHTML.toLowerCase().includes("all");
+        }
 
-    // Determines if a choice is meant to select all options.
-    function isAll(c) {
-      return c.innerHTML.toLowerCase().includes("all");
-    }
+        // Determines if a choice represents a "none" selection.
+        function isNone(c) {
+          return c.innerHTML.toLowerCase().includes("none");
+        }
 
-    // Determines if a choice represents a "none" selection.
-    function isNone(c) {
-      return c.innerHTML.toLowerCase().includes("none");
-    }
-
-    // Checks if the current selection includes a specific choice's ID.
-    function valuesIncludes(values, c) {
-      return values.includes(choiceId(c));
-    }
-    ```
+        // Checks if the current selection includes a specific choice's ID.
+        function valuesIncludes(values, c) {
+          return values.includes(choiceId(c));
+        }
+        ```
 
 === "Shopify V2"
 
@@ -1225,425 +1307,425 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     It is possible to make the quiz multiple choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
 
-    !!! note
+    ??? example "Select all, select none"
 
         This code may require adjustments by a developer.  Use it as an example only.
 
-    ```javascript
-    // Initializes an object to hold the current slide's state, ensuring it doesn't overwrite if already exists.
-    var prq = prq || {
-      currentSlide: {
-        values: [], // An array to store the values (identifiers) of selected choices.
-      },
-    };
+        ```javascript
+        // Initializes an object to hold the current slide's state, ensuring it doesn't overwrite if already exists.
+        var prq = prq || {
+          currentSlide: {
+            values: [], // An array to store the values (identifiers) of selected choices.
+          },
+        };
 
-    // Selects all elements with class `.lq-choice` as the choices available on the current slide/view.
-    const choices = document.querySelectorAll(".lq-choice");
+        // Selects all elements with class `.lq-choice` as the choices available on the current slide/view.
+        const choices = document.querySelectorAll(".lq-choice");
 
-    // Retrieves the currently selected choice values from the global state.
-    var values = prq.currentSlide.values;
+        // Retrieves the currently selected choice values from the global state.
+        var values = prq.currentSlide.values;
 
-    // Iterates over each choice and attaches a click event listener to handle selection/deselection.
-    choices.forEach((selector) => {
-      selector.addEventListener("click", function () {
-        refresh(this.id); // Calls the refresh function on click, passing the clicked choice's ID.
-      });
-    });
+        // Iterates over each choice and attaches a click event listener to handle selection/deselection.
+        choices.forEach((selector) => {
+          selector.addEventListener("click", function () {
+            refresh(this.id); // Calls the refresh function on click, passing the clicked choice's ID.
+          });
+        });
 
-    // Defines the logic to update choice selections based on user interaction.
-    function refresh(id) {
-      var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
-      
-      // Logic to deselect a choice if it's already selected.
-      if (valuesIncludes(values, choice)) {
-        values = removeChoice(values, choice);
-      } 
-      // Logic to select all choices except "none" when "all" is clicked.
-      else if (isAll(choice)) {
-        const cs = [...choices].filter((c) => !isNone(c));
-        values = cs.map((c) => choiceId(c));
-      } 
-      // Logic to handle "none" selection, deselecting all other choices or selecting none only.
-      else if (isNone(choice)) {
-        if (valuesIncludes(values, choice)) {
-          values = [];
-        } else {
-          const cs = [...choices].filter((c) => !isNone(c));
-          values = [choiceId(choice)];
+        // Defines the logic to update choice selections based on user interaction.
+        function refresh(id) {
+          var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
+          
+          // Logic to deselect a choice if it's already selected.
+          if (valuesIncludes(values, choice)) {
+            values = removeChoice(values, choice);
+          } 
+          // Logic to select all choices except "none" when "all" is clicked.
+          else if (isAll(choice)) {
+            const cs = [...choices].filter((c) => !isNone(c));
+            values = cs.map((c) => choiceId(c));
+          } 
+          // Logic to handle "none" selection, deselecting all other choices or selecting none only.
+          else if (isNone(choice)) {
+            if (valuesIncludes(values, choice)) {
+              values = [];
+            } else {
+              const cs = [...choices].filter((c) => !isNone(c));
+              values = [choiceId(choice)];
+            }
+          } 
+          // General logic for ticking a choice and unticking "none".
+          else {
+            addChoice(values, choice);
+            values = removeChoice(values, choiceNone(choices));
+          }
+
+          // Updates the UI to reflect the current selection state.
+          choices.forEach((c) =>
+            values.includes(choiceId(c))
+              ? c.classList.add("lq-selected")
+              : c.classList.remove("lq-selected")
+          );
         }
-      } 
-      // General logic for ticking a choice and unticking "none".
-      else {
-        addChoice(values, choice);
-        values = removeChoice(values, choiceNone(choices));
-      }
 
-      // Updates the UI to reflect the current selection state.
-      choices.forEach((c) =>
-        values.includes(choiceId(c))
-          ? c.classList.add("lq-selected")
-          : c.classList.remove("lq-selected")
-      );
-    }
+        // Helper function to add a choice's ID to the selection.
+        function addChoice(values, choice) {
+          values.push(choiceId(choice));
+        }
 
-    // Helper function to add a choice's ID to the selection.
-    function addChoice(values, choice) {
-      values.push(choiceId(choice));
-    }
+        // Helper function to remove a choice's ID from the selection.
+        function removeChoice(values, choice) {
+          return values.filter((v) => v !== choiceId(choice));
+        }
 
-    // Helper function to remove a choice's ID from the selection.
-    function removeChoice(values, choice) {
-      return values.filter((v) => v !== choiceId(choice));
-    }
+        // Returns the "none" choice element.
+        function choiceNone(choices) {
+          return [...choices].find((c) => isNone(c));
+        }
 
-    // Returns the "none" choice element.
-    function choiceNone(choices) {
-      return [...choices].find((c) => isNone(c));
-    }
+        // Unused in the given code but presumably intended to return the "all" choice element.
+        function choiceAll(choices) {
+          return [...choices].find((c) => isAll(c));
+        }
 
-    // Unused in the given code but presumably intended to return the "all" choice element.
-    function choiceAll(choices) {
-      return [...choices].find((c) => isAll(c));
-    }
+        // Extracts and returns the ID part of a choice's DOM ID.
+        function choiceId(choice) {
+          return choice.id.split("-")[1];
+        }
 
-    // Extracts and returns the ID part of a choice's DOM ID.
-    function choiceId(choice) {
-      return choice.id.split("-")[1];
-    }
+        // Determines if a choice is meant to select all options.
+        function isAll(c) {
+          return c.innerHTML.toLowerCase().includes("all");
+        }
 
-    // Determines if a choice is meant to select all options.
-    function isAll(c) {
-      return c.innerHTML.toLowerCase().includes("all");
-    }
+        // Determines if a choice represents a "none" selection.
+        function isNone(c) {
+          return c.innerHTML.toLowerCase().includes("none");
+        }
 
-    // Determines if a choice represents a "none" selection.
-    function isNone(c) {
-      return c.innerHTML.toLowerCase().includes("none");
-    }
-
-    // Checks if the current selection includes a specific choice's ID.
-    function valuesIncludes(values, c) {
-      return values.includes(choiceId(c));
-    }
-    ```
+        // Checks if the current selection includes a specific choice's ID.
+        function valuesIncludes(values, c) {
+          return values.includes(choiceId(c));
+        }
+        ```
 
 === "Magento"
 
     It is possible to make the quiz multiple choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
 
-    !!! note
+    ??? example "Select all, select none"
 
         This code may require adjustments by a developer.  Use it as an example only.
 
-    ```javascript
-    // Initializes an object to hold the current slide's state, ensuring it doesn't overwrite if already exists.
-    var prq = prq || {
-      currentSlide: {
-        values: [], // An array to store the values (identifiers) of selected choices.
-      },
-    };
+        ```javascript
+        // Initializes an object to hold the current slide's state, ensuring it doesn't overwrite if already exists.
+        var prq = prq || {
+          currentSlide: {
+            values: [], // An array to store the values (identifiers) of selected choices.
+          },
+        };
 
-    // Selects all elements with class `.lq-choice` as the choices available on the current slide/view.
-    const choices = document.querySelectorAll(".lq-choice");
+        // Selects all elements with class `.lq-choice` as the choices available on the current slide/view.
+        const choices = document.querySelectorAll(".lq-choice");
 
-    // Retrieves the currently selected choice values from the global state.
-    var values = prq.currentSlide.values;
+        // Retrieves the currently selected choice values from the global state.
+        var values = prq.currentSlide.values;
 
-    // Iterates over each choice and attaches a click event listener to handle selection/deselection.
-    choices.forEach((selector) => {
-      selector.addEventListener("click", function () {
-        refresh(this.id); // Calls the refresh function on click, passing the clicked choice's ID.
-      });
-    });
+        // Iterates over each choice and attaches a click event listener to handle selection/deselection.
+        choices.forEach((selector) => {
+          selector.addEventListener("click", function () {
+            refresh(this.id); // Calls the refresh function on click, passing the clicked choice's ID.
+          });
+        });
 
-    // Defines the logic to update choice selections based on user interaction.
-    function refresh(id) {
-      var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
-      
-      // Logic to deselect a choice if it's already selected.
-      if (valuesIncludes(values, choice)) {
-        values = removeChoice(values, choice);
-      } 
-      // Logic to select all choices except "none" when "all" is clicked.
-      else if (isAll(choice)) {
-        const cs = [...choices].filter((c) => !isNone(c));
-        values = cs.map((c) => choiceId(c));
-      } 
-      // Logic to handle "none" selection, deselecting all other choices or selecting none only.
-      else if (isNone(choice)) {
-        if (valuesIncludes(values, choice)) {
-          values = [];
-        } else {
-          const cs = [...choices].filter((c) => !isNone(c));
-          values = [choiceId(choice)];
+        // Defines the logic to update choice selections based on user interaction.
+        function refresh(id) {
+          var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
+          
+          // Logic to deselect a choice if it's already selected.
+          if (valuesIncludes(values, choice)) {
+            values = removeChoice(values, choice);
+          } 
+          // Logic to select all choices except "none" when "all" is clicked.
+          else if (isAll(choice)) {
+            const cs = [...choices].filter((c) => !isNone(c));
+            values = cs.map((c) => choiceId(c));
+          } 
+          // Logic to handle "none" selection, deselecting all other choices or selecting none only.
+          else if (isNone(choice)) {
+            if (valuesIncludes(values, choice)) {
+              values = [];
+            } else {
+              const cs = [...choices].filter((c) => !isNone(c));
+              values = [choiceId(choice)];
+            }
+          } 
+          // General logic for ticking a choice and unticking "none".
+          else {
+            addChoice(values, choice);
+            values = removeChoice(values, choiceNone(choices));
+          }
+
+          // Updates the UI to reflect the current selection state.
+          choices.forEach((c) =>
+            values.includes(choiceId(c))
+              ? c.classList.add("lq-selected")
+              : c.classList.remove("lq-selected")
+          );
         }
-      } 
-      // General logic for ticking a choice and unticking "none".
-      else {
-        addChoice(values, choice);
-        values = removeChoice(values, choiceNone(choices));
-      }
 
-      // Updates the UI to reflect the current selection state.
-      choices.forEach((c) =>
-        values.includes(choiceId(c))
-          ? c.classList.add("lq-selected")
-          : c.classList.remove("lq-selected")
-      );
-    }
+        // Helper function to add a choice's ID to the selection.
+        function addChoice(values, choice) {
+          values.push(choiceId(choice));
+        }
 
-    // Helper function to add a choice's ID to the selection.
-    function addChoice(values, choice) {
-      values.push(choiceId(choice));
-    }
+        // Helper function to remove a choice's ID from the selection.
+        function removeChoice(values, choice) {
+          return values.filter((v) => v !== choiceId(choice));
+        }
 
-    // Helper function to remove a choice's ID from the selection.
-    function removeChoice(values, choice) {
-      return values.filter((v) => v !== choiceId(choice));
-    }
+        // Returns the "none" choice element.
+        function choiceNone(choices) {
+          return [...choices].find((c) => isNone(c));
+        }
 
-    // Returns the "none" choice element.
-    function choiceNone(choices) {
-      return [...choices].find((c) => isNone(c));
-    }
+        // Unused in the given code but presumably intended to return the "all" choice element.
+        function choiceAll(choices) {
+          return [...choices].find((c) => isAll(c));
+        }
 
-    // Unused in the given code but presumably intended to return the "all" choice element.
-    function choiceAll(choices) {
-      return [...choices].find((c) => isAll(c));
-    }
+        // Extracts and returns the ID part of a choice's DOM ID.
+        function choiceId(choice) {
+          return choice.id.split("-")[1];
+        }
 
-    // Extracts and returns the ID part of a choice's DOM ID.
-    function choiceId(choice) {
-      return choice.id.split("-")[1];
-    }
+        // Determines if a choice is meant to select all options.
+        function isAll(c) {
+          return c.innerHTML.toLowerCase().includes("all");
+        }
 
-    // Determines if a choice is meant to select all options.
-    function isAll(c) {
-      return c.innerHTML.toLowerCase().includes("all");
-    }
+        // Determines if a choice represents a "none" selection.
+        function isNone(c) {
+          return c.innerHTML.toLowerCase().includes("none");
+        }
 
-    // Determines if a choice represents a "none" selection.
-    function isNone(c) {
-      return c.innerHTML.toLowerCase().includes("none");
-    }
-
-    // Checks if the current selection includes a specific choice's ID.
-    function valuesIncludes(values, c) {
-      return values.includes(choiceId(c));
-    }
-    ```
+        // Checks if the current selection includes a specific choice's ID.
+        function valuesIncludes(values, c) {
+          return values.includes(choiceId(c));
+        }
+        ```
 
 === "BigCommerce"
 
     It is possible to make the quiz multiple choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
 
-    !!! note
+    ??? example "Select all, select none"
 
         This code may require adjustments by a developer.  Use it as an example only.
 
-    ```javascript
-    // Initializes an object to hold the current slide's state, ensuring it doesn't overwrite if already exists.
-    var prq = prq || {
-      currentSlide: {
-        values: [], // An array to store the values (identifiers) of selected choices.
-      },
-    };
+        ```javascript
+        // Initializes an object to hold the current slide's state, ensuring it doesn't overwrite if already exists.
+        var prq = prq || {
+          currentSlide: {
+            values: [], // An array to store the values (identifiers) of selected choices.
+          },
+        };
 
-    // Selects all elements with class `.lq-choice` as the choices available on the current slide/view.
-    const choices = document.querySelectorAll(".lq-choice");
+        // Selects all elements with class `.lq-choice` as the choices available on the current slide/view.
+        const choices = document.querySelectorAll(".lq-choice");
 
-    // Retrieves the currently selected choice values from the global state.
-    var values = prq.currentSlide.values;
+        // Retrieves the currently selected choice values from the global state.
+        var values = prq.currentSlide.values;
 
-    // Iterates over each choice and attaches a click event listener to handle selection/deselection.
-    choices.forEach((selector) => {
-      selector.addEventListener("click", function () {
-        refresh(this.id); // Calls the refresh function on click, passing the clicked choice's ID.
-      });
-    });
+        // Iterates over each choice and attaches a click event listener to handle selection/deselection.
+        choices.forEach((selector) => {
+          selector.addEventListener("click", function () {
+            refresh(this.id); // Calls the refresh function on click, passing the clicked choice's ID.
+          });
+        });
 
-    // Defines the logic to update choice selections based on user interaction.
-    function refresh(id) {
-      var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
-      
-      // Logic to deselect a choice if it's already selected.
-      if (valuesIncludes(values, choice)) {
-        values = removeChoice(values, choice);
-      } 
-      // Logic to select all choices except "none" when "all" is clicked.
-      else if (isAll(choice)) {
-        const cs = [...choices].filter((c) => !isNone(c));
-        values = cs.map((c) => choiceId(c));
-      } 
-      // Logic to handle "none" selection, deselecting all other choices or selecting none only.
-      else if (isNone(choice)) {
-        if (valuesIncludes(values, choice)) {
-          values = [];
-        } else {
-          const cs = [...choices].filter((c) => !isNone(c));
-          values = [choiceId(choice)];
+        // Defines the logic to update choice selections based on user interaction.
+        function refresh(id) {
+          var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
+          
+          // Logic to deselect a choice if it's already selected.
+          if (valuesIncludes(values, choice)) {
+            values = removeChoice(values, choice);
+          } 
+          // Logic to select all choices except "none" when "all" is clicked.
+          else if (isAll(choice)) {
+            const cs = [...choices].filter((c) => !isNone(c));
+            values = cs.map((c) => choiceId(c));
+          } 
+          // Logic to handle "none" selection, deselecting all other choices or selecting none only.
+          else if (isNone(choice)) {
+            if (valuesIncludes(values, choice)) {
+              values = [];
+            } else {
+              const cs = [...choices].filter((c) => !isNone(c));
+              values = [choiceId(choice)];
+            }
+          } 
+          // General logic for ticking a choice and unticking "none".
+          else {
+            addChoice(values, choice);
+            values = removeChoice(values, choiceNone(choices));
+          }
+
+          // Updates the UI to reflect the current selection state.
+          choices.forEach((c) =>
+            values.includes(choiceId(c))
+              ? c.classList.add("lq-selected")
+              : c.classList.remove("lq-selected")
+          );
         }
-      } 
-      // General logic for ticking a choice and unticking "none".
-      else {
-        addChoice(values, choice);
-        values = removeChoice(values, choiceNone(choices));
-      }
 
-      // Updates the UI to reflect the current selection state.
-      choices.forEach((c) =>
-        values.includes(choiceId(c))
-          ? c.classList.add("lq-selected")
-          : c.classList.remove("lq-selected")
-      );
-    }
+        // Helper function to add a choice's ID to the selection.
+        function addChoice(values, choice) {
+          values.push(choiceId(choice));
+        }
 
-    // Helper function to add a choice's ID to the selection.
-    function addChoice(values, choice) {
-      values.push(choiceId(choice));
-    }
+        // Helper function to remove a choice's ID from the selection.
+        function removeChoice(values, choice) {
+          return values.filter((v) => v !== choiceId(choice));
+        }
 
-    // Helper function to remove a choice's ID from the selection.
-    function removeChoice(values, choice) {
-      return values.filter((v) => v !== choiceId(choice));
-    }
+        // Returns the "none" choice element.
+        function choiceNone(choices) {
+          return [...choices].find((c) => isNone(c));
+        }
 
-    // Returns the "none" choice element.
-    function choiceNone(choices) {
-      return [...choices].find((c) => isNone(c));
-    }
+        // Unused in the given code but presumably intended to return the "all" choice element.
+        function choiceAll(choices) {
+          return [...choices].find((c) => isAll(c));
+        }
 
-    // Unused in the given code but presumably intended to return the "all" choice element.
-    function choiceAll(choices) {
-      return [...choices].find((c) => isAll(c));
-    }
+        // Extracts and returns the ID part of a choice's DOM ID.
+        function choiceId(choice) {
+          return choice.id.split("-")[1];
+        }
 
-    // Extracts and returns the ID part of a choice's DOM ID.
-    function choiceId(choice) {
-      return choice.id.split("-")[1];
-    }
+        // Determines if a choice is meant to select all options.
+        function isAll(c) {
+          return c.innerHTML.toLowerCase().includes("all");
+        }
 
-    // Determines if a choice is meant to select all options.
-    function isAll(c) {
-      return c.innerHTML.toLowerCase().includes("all");
-    }
+        // Determines if a choice represents a "none" selection.
+        function isNone(c) {
+          return c.innerHTML.toLowerCase().includes("none");
+        }
 
-    // Determines if a choice represents a "none" selection.
-    function isNone(c) {
-      return c.innerHTML.toLowerCase().includes("none");
-    }
-
-    // Checks if the current selection includes a specific choice's ID.
-    function valuesIncludes(values, c) {
-      return values.includes(choiceId(c));
-    }
-    ```
+        // Checks if the current selection includes a specific choice's ID.
+        function valuesIncludes(values, c) {
+          return values.includes(choiceId(c));
+        }
+        ```
 
 === "Standalone"
 
     It is possible to make the quiz multiple choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
 
-    !!! note
+    ??? example "Select all, select none"
 
         This code may require adjustments by a developer.  Use it as an example only.
 
-    ```javascript
-    // Initializes an object to hold the current slide's state, ensuring it doesn't overwrite if already exists.
-    var prq = prq || {
-      currentSlide: {
-        values: [], // An array to store the values (identifiers) of selected choices.
-      },
-    };
+        ```javascript
+        // Initializes an object to hold the current slide's state, ensuring it doesn't overwrite if already exists.
+        var prq = prq || {
+          currentSlide: {
+            values: [], // An array to store the values (identifiers) of selected choices.
+          },
+        };
 
-    // Selects all elements with class `.lq-choice` as the choices available on the current slide/view.
-    const choices = document.querySelectorAll(".lq-choice");
+        // Selects all elements with class `.lq-choice` as the choices available on the current slide/view.
+        const choices = document.querySelectorAll(".lq-choice");
 
-    // Retrieves the currently selected choice values from the global state.
-    var values = prq.currentSlide.values;
+        // Retrieves the currently selected choice values from the global state.
+        var values = prq.currentSlide.values;
 
-    // Iterates over each choice and attaches a click event listener to handle selection/deselection.
-    choices.forEach((selector) => {
-      selector.addEventListener("click", function () {
-        refresh(this.id); // Calls the refresh function on click, passing the clicked choice's ID.
-      });
-    });
+        // Iterates over each choice and attaches a click event listener to handle selection/deselection.
+        choices.forEach((selector) => {
+          selector.addEventListener("click", function () {
+            refresh(this.id); // Calls the refresh function on click, passing the clicked choice's ID.
+          });
+        });
 
-    // Defines the logic to update choice selections based on user interaction.
-    function refresh(id) {
-      var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
-      
-      // Logic to deselect a choice if it's already selected.
-      if (valuesIncludes(values, choice)) {
-        values = removeChoice(values, choice);
-      } 
-      // Logic to select all choices except "none" when "all" is clicked.
-      else if (isAll(choice)) {
-        const cs = [...choices].filter((c) => !isNone(c));
-        values = cs.map((c) => choiceId(c));
-      } 
-      // Logic to handle "none" selection, deselecting all other choices or selecting none only.
-      else if (isNone(choice)) {
-        if (valuesIncludes(values, choice)) {
-          values = [];
-        } else {
-          const cs = [...choices].filter((c) => !isNone(c));
-          values = [choiceId(choice)];
+        // Defines the logic to update choice selections based on user interaction.
+        function refresh(id) {
+          var choice = document.getElementById(id); // Retrieves the DOM element for the clicked choice.
+          
+          // Logic to deselect a choice if it's already selected.
+          if (valuesIncludes(values, choice)) {
+            values = removeChoice(values, choice);
+          } 
+          // Logic to select all choices except "none" when "all" is clicked.
+          else if (isAll(choice)) {
+            const cs = [...choices].filter((c) => !isNone(c));
+            values = cs.map((c) => choiceId(c));
+          } 
+          // Logic to handle "none" selection, deselecting all other choices or selecting none only.
+          else if (isNone(choice)) {
+            if (valuesIncludes(values, choice)) {
+              values = [];
+            } else {
+              const cs = [...choices].filter((c) => !isNone(c));
+              values = [choiceId(choice)];
+            }
+          } 
+          // General logic for ticking a choice and unticking "none".
+          else {
+            addChoice(values, choice);
+            values = removeChoice(values, choiceNone(choices));
+          }
+
+          // Updates the UI to reflect the current selection state.
+          choices.forEach((c) =>
+            values.includes(choiceId(c))
+              ? c.classList.add("lq-selected")
+              : c.classList.remove("lq-selected")
+          );
         }
-      } 
-      // General logic for ticking a choice and unticking "none".
-      else {
-        addChoice(values, choice);
-        values = removeChoice(values, choiceNone(choices));
-      }
 
-      // Updates the UI to reflect the current selection state.
-      choices.forEach((c) =>
-        values.includes(choiceId(c))
-          ? c.classList.add("lq-selected")
-          : c.classList.remove("lq-selected")
-      );
-    }
+        // Helper function to add a choice's ID to the selection.
+        function addChoice(values, choice) {
+          values.push(choiceId(choice));
+        }
 
-    // Helper function to add a choice's ID to the selection.
-    function addChoice(values, choice) {
-      values.push(choiceId(choice));
-    }
+        // Helper function to remove a choice's ID from the selection.
+        function removeChoice(values, choice) {
+          return values.filter((v) => v !== choiceId(choice));
+        }
 
-    // Helper function to remove a choice's ID from the selection.
-    function removeChoice(values, choice) {
-      return values.filter((v) => v !== choiceId(choice));
-    }
+        // Returns the "none" choice element.
+        function choiceNone(choices) {
+          return [...choices].find((c) => isNone(c));
+        }
 
-    // Returns the "none" choice element.
-    function choiceNone(choices) {
-      return [...choices].find((c) => isNone(c));
-    }
+        // Unused in the given code but presumably intended to return the "all" choice element.
+        function choiceAll(choices) {
+          return [...choices].find((c) => isAll(c));
+        }
 
-    // Unused in the given code but presumably intended to return the "all" choice element.
-    function choiceAll(choices) {
-      return [...choices].find((c) => isAll(c));
-    }
+        // Extracts and returns the ID part of a choice's DOM ID.
+        function choiceId(choice) {
+          return choice.id.split("-")[1];
+        }
 
-    // Extracts and returns the ID part of a choice's DOM ID.
-    function choiceId(choice) {
-      return choice.id.split("-")[1];
-    }
+        // Determines if a choice is meant to select all options.
+        function isAll(c) {
+          return c.innerHTML.toLowerCase().includes("all");
+        }
 
-    // Determines if a choice is meant to select all options.
-    function isAll(c) {
-      return c.innerHTML.toLowerCase().includes("all");
-    }
+        // Determines if a choice represents a "none" selection.
+        function isNone(c) {
+          return c.innerHTML.toLowerCase().includes("none");
+        }
 
-    // Determines if a choice represents a "none" selection.
-    function isNone(c) {
-      return c.innerHTML.toLowerCase().includes("none");
-    }
-
-    // Checks if the current selection includes a specific choice's ID.
-    function valuesIncludes(values, c) {
-      return values.includes(choiceId(c));
-    }
-    ```
+        // Checks if the current selection includes a specific choice's ID.
+        function valuesIncludes(values, c) {
+          return values.includes(choiceId(c));
+        }
+        ```
 
 ### Example 4: Redirect to Translated Product URL
 
@@ -1681,5 +1763,117 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
+### Other Examples
+
+=== "Shopify"
+
+=== "Shopify V2"
+
+    **Questions**
+
+    ??? example "Skip a question automatically if a score is high"
+
+        ```javascript
+        if (Quiz.variableScores.skinSensitivity > 80) {
+          Quiz.next();
+        }
+        ```
+
+    ??? example "Auto-go back if a user picks a certain answer"
+
+        ```javascript
+        if (Quiz.answers['q1'] === 'No') {
+          Quiz.previous();
+        }
+        ```
+
+    ??? example "Style the next button"
+
+        ```javascript
+        const btn = Quiz.querySelector('.quiz-next-button');
+        if (btn) btn.style.backgroundColor = '#ff6600';
+        ```
+
+    ??? example "Change question text dynamically"
+
+        ```javascript
+        const q = Quiz.getElementById('question-title');
+        if (q) q.textContent = 'Tell us more about your skin type';
+        ```
+
+    ??? example "Show a hidden element based on answers"
+
+          ```javascript
+          const banner = Quiz.getElementById('promo-banner');
+          if (Quiz.answers['q2'] === 'Dry') {
+          banner.style.display = 'block';
+          }
+          ```
+
+
+      
+    **Results Page**
+
+
+    ??? example "Automatically add all recommended products to cart"
+
+          ```javascript
+          (async () => {
+          await Quiz.addAllToCart();
+          })();
+          ```
+
+
+    ??? example "Apply discount code if sensitivity is high"
+
+          ```javascript
+          (async () => {
+          if (Quiz.variableScores.skinSensitivity > 70) {
+          await Quiz.applyDiscountCode();
+          }
+          })();
+          ```
+
+
+    ??? example "Change product title styling"
+
+        ```javascript
+        const slot = Quiz.querySelector('.slot-product__title');
+        if (slot) slot.style.fontWeight = 'bold'; 
+        ```
+
+    ??? example "Replace a product image"
+
+        ```javascript
+        const img = Quiz.getElementById('slot-product-1-img');
+        if (img) img.src = 'https://example.com/new-image.jpg';
+        ```
+
+
+    ??? example "Highlight recommended products"
+
+        ```javascript
+        Quiz.slotItems.forEach(item => {
+        console.log('Recommended product:', item.title, item.price);
+        });
+        ```
+
+    ??? example "Display a message based on result"
+
+        ```javascript
+        if (Quiz.currentResult.ref === 'sensitive-skin') {
+        const msg = Quiz.querySelector('.custom-message');
+        if (msg) msg.textContent = 'We picked extra-gentle products for you!';
+        }
+        ```
+
+=== "WooCommerce"
+
+=== "Magento"
+
+=== "BigCommerce"
+
+=== "Standalone"
+
 ---
-This guide outlines the foundational steps and examples for integrating custom JavaScript into your Product Recommendation Quiz. 
+This guide outlines the foundational steps and examples for integrating custom JavaScript into your RevneuHunt Product Recommendation Quiz. 
