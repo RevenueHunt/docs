@@ -18,11 +18,15 @@ Key Articles to Get You Started:
 
     From designing intuitive interfaces to crafting compelling content, we provide actionable tips to help you retain user attention and improve completion rates.
 
-4. [👥 How to Get More People to Take the Quiz](/customer-success/how-to-get-more-quiz-engagement.md/)
+4. [👥 How to Get More People to Take the Quiz](/customer-success/how-to-get-more-quiz-engagement/)
 
     This article provides 11 easy ways to effectively promote your quizzes and attract more participants. Discover practical techniques for using social media, email marketing, and other channels to boost visibility and engagement with your quizzes.
 
-5. [🛍️ How to Build an Effective Sales Funnel with a Product Quiz](https://revenuehunt.com/build-sales-funnel-shopify-store/)
+5. [📊 Product Quiz Metrics: What to Track to Convert Better](/customer-success/track-quiz-metrics-for-better-conversions/)
+
+    Learn how to optimize your e-commerce quizzes by tracking key metrics. Discover tips to enhance conversion rates, understand customer behavior, and increase revenue with our comprehensive guide.
+
+6. [🛍️ How to Build an Effective Sales Funnel with a Product Quiz](https://revenuehunt.com/build-sales-funnel-shopify-store/)
 
     This guide offers actionable steps to create a sales funnel that drives sales for your Shopify/eCommerce store, focusing on the use of product quizzes to capture leads, nurture them, and convert them into customers.
 
