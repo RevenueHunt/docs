@@ -1,3 +1,8 @@
+---
+icon: material/credit-card-refresh-outline
+---
+
+
 ## Plans & Pricing Details
 
 === "Shopify"

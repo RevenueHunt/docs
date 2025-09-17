@@ -1,3 +1,7 @@
+---
+icon: material/numeric-2
+---
+
 # How to Build a Successful Product Recommendation Quiz
 
 Building a product selector for your eCommerce store has never been easier with our completely new `💎Built for Shopify` version of the RevenueHunt app. 
@@ -106,9 +110,11 @@ One way to make the quiz more than just a product selector is to add personalize
 
 The visual logic builder makes it easy to create an experience that feels like talking to a real expert, guiding customers to the perfect products for their needs.
 
-![how to build a succesful quiz image4](/images/how_to_build_a_succesful_quiz_image4.jpg)
+![how to build a succesful quiz image4](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
 The same logic can also be applied to the contents of the Results Page. A different content block can be shown to customers with dry skin and oily skin. A different advice can be given to customers with colored or natural hair. 
+
+![how to build a succesful quiz image4](/images/how_to_shopifyv2_use_display_logic_based_on_answers_example1.png)
 
 The Results Page is also a great place to give additional “how to use” advice or even add a prediction on how their skin will improve in the months/weeks of using the product (all depending on the customer's skin type).
 
@@ -151,7 +157,6 @@ Best Practices:
 - For routines: Use slots to recommend one product per category
 - For collections: Show a curated collection that matches their needs
 - Use fixed recommendations for your best-sellers or when you want complete control
-- Let collections auto-update to keep recommendations fresh without manual updates
 
 The key is to make the choice clear and focused. What's the point of a quiz if you end up with 10 results from which you still need to choose? Keep it simple and watch your conversion rates grow.
 
@@ -201,11 +206,12 @@ Our `💎Built for Shopify` app now fully integrates with Shopify Markets, makin
 - **Market-Specific Content**: Customize product recommendations and advice for different regions
 - **Seamless Integration**: Works naturally with your Shopify Markets configuration
 
-Best Practices:
-- Create separate quizzes for your main market languages
-- Use market-specific product recommendations when needed
-- Keep quiz logic consistent across versions
-- Test your quiz in different markets to ensure a smooth experience
+!!! tip "Best Practices"
+
+    - Create separate quizzes for your main market languages
+    - Use market-specific product recommendations when needed
+    - Keep quiz logic consistent across versions
+    - Test your quiz in different markets to ensure a smooth experience
 
 This powerful integration helps you create a truly global shopping experience while maintaining the personal touch that makes quizzes so effective.
 

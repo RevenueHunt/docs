@@ -1,3 +1,10 @@
+---
+icon: material/diamond-stone
+---
+
+
+
+
 # RevenueHunt is now Built for Shopify
 
 We’re thrilled to introduce the Built for Shopify version of our RevenueHunt app! 
