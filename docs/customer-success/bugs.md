@@ -1,3 +1,8 @@
+---
+icon: material/bug-outline
+---
+
+
 # Known Bugs & Limitations
 
 We’re constantly improving the RevenueHunt app. Below you’ll find a list of known bugs (unresolved issues) and current limitations (expected behaviors by design).
