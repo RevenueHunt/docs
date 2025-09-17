@@ -26,17 +26,13 @@ Key Articles to Get You Started:
 
     Learn how to optimize your e-commerce quizzes by tracking key metrics. Discover tips to enhance conversion rates, understand customer behavior, and increase revenue with our comprehensive guide.
 
-6. [🛍️ How to Build an Effective Sales Funnel with a Product Quiz](https://revenuehunt.com/build-sales-funnel-shopify-store/)
-
-    This guide offers actionable steps to create a sales funnel that drives sales for your Shopify/eCommerce store, focusing on the use of product quizzes to capture leads, nurture them, and convert them into customers.
-
-6. [📊 Product Quiz Metrics: What to Track to Convert Better](https://revenuehunt.com/product-quiz-metrics-what-to-track-to-convert-better/)
-
-    Learn how to optimize your e-commerce quizzes by tracking key metrics. Discover tips to enhance conversion rates, understand customer behavior, and increase revenue with our comprehensive guide.
-
-7. [🏷️ How to Use Customer Tags in Product Quizzes to Maximize Sales](https://revenuehunt.com/how-to-use-customer-tags-in-product-quizzes-to-maximize-sales/)
+6. [🏷️ How to Use Customer Tags in Product Quizzes to Maximize Sales](/customer-success/use-customer-tags-in-quiz/)
 
     Learn how to use customer tags in product quizzes to segment customers and enhance email marketing campaigns, with a practical example from a haircare store.
+
+7. [🛍️ How to Build an Effective Sales Funnel with a Product Quiz](https://revenuehunt.com/build-sales-funnel-shopify-store/)
+
+    This guide offers actionable steps to create a sales funnel that drives sales for your Shopify/eCommerce store, focusing on the use of product quizzes to capture leads, nurture them, and convert them into customers.
 
 8. [☑️ Smart Ways to Ask for Marketing Consent](https://revenuehunt.com/smart-ways-to-ask-for-marketing-data-processing-consent-in-your-product-recommendation-quiz/)
 
