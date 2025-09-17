@@ -121,6 +121,7 @@ nav:
       - Sync Catalog: how-to-guides/sync-catalog.md
       - Copy Quiz from One Store to Another: how-to-guides/copy-the-quiz-from-one-store-to-another.md
       - Check Quiz Loading Speed: how-to-guides/check-quiz-loading-speed.md
+      - Products Not Added To Cart: how-to-guides/add-to-cart-issues.md
       - Troubleshoot App Issues for WordPress/WooCommerce: how-to-guides/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce.md
   - App Manual:
     - Overview: reference/index.md
@@ -149,7 +150,6 @@ nav:
     - How to Build a Succesful Shop Quiz: customer-success/how-to-build-succesful-quiz.md
     - How to Get More People to Take the Quiz: customer-success/how-to-get-more-quiz-engagement.md
     - Quiz Metrics What to Track to Convert Better: customer-success/track-quiz-metrics-for-better-conversions.md
-    - Why Products Are Not Added To Cart: customer-success/add-to-cart-issues.md
     - How to Build an Effective Sales Funnel with a Product Quiz: https://revenuehunt.com/build-sales-funnel-shopify-store/
     - How to Use Customer Tags in Product Quizzes to Maximize Sales: https://revenuehunt.com/how-to-use-customer-tags-in-product-quizzes-to-maximize-sales/
     - Smart Ways to Ask for Marketing Consent: https://revenuehunt.com/smart-ways-to-ask-for-marketing-data-processing-consent-in-your-product-recommendation-quiz/

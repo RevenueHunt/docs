@@ -1,3 +1,8 @@
+---
+icon: material/cart-off
+---
+
+
 # Why Products Aren't Added to the Cart?
 
 If your products are not added to the cart, here are the most probable causes:
@@ -14,7 +19,19 @@ The quiz needs to be published on live website (not hidden by a “coming soon�
 
 Our RevenueHunt app does not integrate with drawer carts at the moment. So after the quiz is over, the quiz is adding products to the “regular” cart instead of the drawer cart in your theme.
 
-Unfortunately, drawer carts are an added functionality by specific store themes, not a core Shopify feature. Because of that, we cannot integrate with all the different themes that have drawer carts at the moment. However, there are a few ways this can be solved.
+!!! warning "Cart Drawer"
+
+    Check this article: [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) 
+
+    This guide explains:
+
+    - How RevenueHunt quiz app adds products to the Shopify cart
+
+    - Why the cart drawer may not update
+
+    - What your theme editor or developer can do to fix it
+
+Unfortunately, drawer carts are an added functionality by specific store themes, not a core Shopify feature. Because of that, we cannot integrate with all the different themes that have drawer carts at the moment. However, there are a few ways this can be solved. Check the [How to Update Your Shopify Cart Drawer Products After the Quiz article](/how-to-guides/update-shopify-cart-drawer/) for more information.
 
 **Option 1: Configure your Shopify theme to handle cart updates**
 
