@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-5
+icon: material/numeric-7
 ---
 
 # How to Use Customer Tags in Product Quizzes to Maximize Sales

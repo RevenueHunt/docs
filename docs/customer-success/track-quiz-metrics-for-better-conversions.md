@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-4
+icon: material/numeric-6
 ---
 
 # Product Quiz Metrics: What to Track to Convert Better

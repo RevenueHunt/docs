@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-0
+icon: material/numeric-1
 ---
 
 # Quiz Success - 📋 Setup Checklist

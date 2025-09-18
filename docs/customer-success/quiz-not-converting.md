@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-8
+icon: material/numeric-5
 ---
 
 # Why Your Product Quiz is NOT Converting Well

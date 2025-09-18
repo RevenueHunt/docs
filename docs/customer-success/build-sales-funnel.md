@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-7
+icon: material/numeric-0
 ---
 
 # How to build a Sales Funnel
