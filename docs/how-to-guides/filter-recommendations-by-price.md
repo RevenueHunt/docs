@@ -1,5 +1,5 @@
 ---
-icon: material/filter-list
+icon: material/filter
 ---
 
 # How to Filter Recommendations by Price
