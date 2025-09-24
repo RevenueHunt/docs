@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-5
+icon: material/numeric-6
 ---
 
 # Sending Follow-up Emails with Klaviyo

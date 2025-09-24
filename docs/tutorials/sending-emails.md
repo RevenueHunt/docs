@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-4
+icon: material/numeric-5
 ---
 
 # Sedning Emails with RevenueHunt app
