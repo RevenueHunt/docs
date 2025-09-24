@@ -21,7 +21,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 === "Shopify V2"
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/6de6f2fb95dd4e65a3515e7434aa0b86?sid=9835ec17-4138-47f3-b634-934f19233908" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/u7y2G5KfEB8?si=CknzZhgEmXUn4MVF" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "WooCommerce"
 
