@@ -72,11 +72,6 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
         !!! note "Status"
             Likely theme/cart conflict. Under investigation.
 
-    - **Duplicate Response Tracking**: Some quizzes log duplicate responses with the same timestamp, inflating usage counts.
-
-        !!! note "Status"
-            Fix in progress. Merchants won’t be blocked if duplicates push them over plan limits.
-
     - **Error on Results Page**: In some cases, users encounter an error when responses are saved and they’re redirected to the results page.
 
         !!! note "Status"
