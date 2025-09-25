@@ -83,6 +83,8 @@
     !!! info "What's a Link Popup?"
         It's a link that will open the quiz as a popup over your page.
 
+    ### On Every Page
+
     1. To add a link popup to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
     2. Open `App Embeds` and toggle the button to acitvate the `Link Popup Quiz`.
 
@@ -100,13 +102,46 @@
 
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    4. Then, follow the step by step instructions provided in the `Add the quiz as a link-triggered popup` section or in our [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/) to add a quiz link to your website.
+    4. Click on `Save` to save the changes.
+    5. You can add a `#quiz` to any element of your website to trigger the link popup. For example, you can add it to a button, link or a menu item.
+
+    !!! tip "Check our guide"
+        
+        Follow the step by step instructions provided in the `Add the quiz as a link-triggered popup` section or in our [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/) for step by step instructions.
 
         ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
 
-    !!! tip "Check our guide"
 
-        Check [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/) for step by step instructions.
+    ### On a Specific Page
+
+    1. To add a link popup to a specific page, in Shopify, go to `Online Theme > Customize`. From the `Home page` menu on top, go to `Pages` and click on the page template you want to add the link popup to or create a new page template.
+    2. Once in the page template editor, click on `+ Add section`, click the `Apps`. From the list, pick the `Link Popup Quiz`.
+
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup_specificpage](/images/manual_shopifyv2_pagelevel_linkpopup_add.png)
+
+    3. In the `Link Popup Quiz` section, you can adjust the link popup settings.
+
+        ![manual_shopifyV2_pagelevel_linkpopup_added](/images/manual_shopifyv2_pagelevel_linkpopup_added.png)
+
+        ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
+
+        `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
+
+        `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
+
+        `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+
+        `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
+
+    4. Click on `Save` to save the changes.
+    5. You can add a `#quiz` to any element of your website to trigger the link popup. For example, you can add it to a button, link or a menu item.
+    
+    !!! tip "Check our guide"
+        
+        Follow the step by step instructions provided in the `Add the quiz as a link-triggered popup` section or in our [How to Set Up a Quiz Link Popup on Your Store](/how-to-guides/publish-quiz-link/) for step by step instructions.
+    
+        ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
+    
 
 === "WooCommerce"
 
@@ -189,12 +224,51 @@
     !!! info "What's an Inline Quiz?"
         It's a quiz embedded inline with a page.
 
+    ### On Every Page
+
+    !!! warning 
+
+        Most users perfer to place the inline quiz only on a specific page. To do that, check the [On a Specific Page](#on-a-specific-page_1) section below.
+
+    1. To add an inline quiz to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
+    2. From the `Home page` menu on top, select the `Default page` template. This is a template applied by default to most pages in your store.
+    3. When in the page template editor, click on `+ Add section`, click the `Apps`. From the list, pick the `Inline Quiz`.
+
+        ![manual_shopifyv2_pagelevel_inline_add](/images/manual_shopifyv2_pagelevel_inline_add.png)
+
+    4. In the `Inline Quiz` section, you can adjust the inline quiz settings.
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+
+        `Quiz height` - The initial height of the quiz. If the quiz is not tall enough, after the first question, it will expand to fit the content.
+
+        `Quiz height (unit)` - The unit of the quiz height. Default is `Pixels (px)`. You can change it to `Viewport height percentage (vh)`.
+
+        `Fixed height` - Keeps the quiz height fixed. Turn off to allow automatic height adjustment.
+
+        `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended). 
+
+        `Auto-scroll on retake quiz` - Enable this to make the quiz auto-scroll when the user retakes the quiz. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
+
+        `Auto-scroll on question change` - Enable this to make the quiz auto-scroll when the user navigates to another question. Select the scrolling behavior (`Disabled`, `Top of the page`, `Top of the quiz`).
+
+        `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
+
+        `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
+
+    5. Click on `Save` to save the changes. From now on, the inline quiz will be visible on all the pages that use the `Default page` template.
+    
+    !!! tip "Check our guide"
+        
+        Follow the step by step instructions provided in the `Add the quiz to your home page` section or in our [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
+    
+    ### On a Specific Page
+
     1. To add an inline quiz to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
     2. Then, `+ Add section`, click the `Apps`. From the list, pick the `Inline Quiz`.
 
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline.png)
 
-    3. In the `V2 - Inline Quiz` section, you can adjust the inline quiz settings.
+    3. In the `Inline Quiz` section, you can adjust the inline quiz settings.
 
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
 
@@ -214,13 +288,11 @@
 
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    5. Then, follow the step by step instructions provided in the `Add the quiz to your home page` section, `Add the quiz to a dedicated landing page` section or in our [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) to add a quiz link to your website.
-
-        ![manual_shopifyV2_quizbuilder_share_publish_inlinepublish](/images/manual_shopifyV2_quizbuilder_share_publish_inlinepublish.png)
+    5. Click on `Save` to save the changes. From now on, the inline quiz will be visible on that page.
 
     !!! tip "Check our guide"
-
-        Check [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
+        
+        Follow the step by step instructions provided in the `Add the quiz to a dedicated landing page` section or in our [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
 
 === "WooCommerce"
 
