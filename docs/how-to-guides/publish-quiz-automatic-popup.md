@@ -386,8 +386,6 @@ This guide walks you through setting up automatic popups on your eCommerce store
 
     To open a specific quiz as an automatic popup, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
 
-    
-
 === "BigCommerce"
 
     To open a specific quiz as an automatic popup, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.

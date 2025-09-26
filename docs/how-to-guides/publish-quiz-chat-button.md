@@ -1,18 +1,22 @@
 # How to Add a Quiz Popup via a Chat-Like Button on Your Store
 
-Enhance your Shopify / eCommerce store's interactivity by integrating a chat-like button that triggers a quiz popup. This guide provides step-by-step instructions on how to implement this feature, offering both theme-based and manual methods.
+This guide provides step-by-step instructions on how to implement a chat button that opens the quiz feature, offering both theme-based and manual methods.
 
-Make sure you have:
+!!! info "What's a Chat Button?"
+    It's a button that opens the quiz popup when clicked. You can improve your Shopify / eCommerce store's interactivity by integrating a chat-like button that triggers a quiz popup. 
 
-- Access to your eCommerce store's admin dashboard.
-- An existing quiz created with the RevenueHunt app.
-- Familiarity with your eCommerce website theme customization options.
+!!! note "Before you start"
+
+    Before you start ensure you have a quiz created with the RevenueHunt app and access to the theme editor.
 
 ## Chat Button on the Homepage
 
+!!! info "What's a Chat Button on the Homepage?"
+    It's a chat-like button that shows up on the homepage of your store and when clicked opens the quiz popup.
+
 === "Shopify"
 
-    ### Option 1: Through Shopify Theme
+    **Option 1: Through Shopify Theme**
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/oQyIiA2GwjY?si=X5Pd4YUR5O-sby3u" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -24,7 +28,7 @@ Make sure you have:
     4. **Customize the Chat Button**: Enter your Quiz ID into the appropriate field. Adjust the chat button settings as needed. Activate the chat button by toggling it on.
     5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
-    ### Option 2: Manual
+    **Option 2: Manual**
 
     1. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode, and `Show Instructions for Legacy Themes`.
     2. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code.
@@ -39,22 +43,29 @@ Make sure you have:
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
-    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Chat Popup Quiz` option and toggle it on.
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
+    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button. Make sure you are editing the `Default` theme or the theme that is applied to your main page.
+    2. **Add a Section**: Then, `+ Add section`, click the `Apps`. From the list, pick the `Chat Button Quiz`.
+
+        ![manual_shopifyv2_pagelevel_chat_add](/images/manual_shopifyv2_pagelevel_chat_add.png)
     3. **Configure Popup Settings**: 
 
-        ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png){width="50%"}
+        ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
 
         - Adjust the `color` or the chat, icon, chat positon
         - Add a `greetings message`
         - Adjust the `Popup Width` and `Height` (as percentage of screen)
         - Set the `Popup z-index` to control layering with other elements
         - Set the `Popup Delay` (in seconds) - how long to wait before showing the popup
+        - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
         - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
     4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
 
-    When visitors come to your store, the default quiz for your store will open automatically based on your settings. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+    !!! note
+        When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
+    
+        If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
 
 === "WooCommerce"
 
@@ -114,6 +125,9 @@ Make sure you have:
 
 ## Chat Button on All Pages
 
+!!! info "What's a Chat Button on All Pages?"
+    It's a chat-like button that shows up on all pages of your store and when clicked opens the quiz popup.
+
 === "Shopify"
 
     If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
@@ -126,19 +140,25 @@ Make sure you have:
         Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Chat Popup Quiz` option and toggle it on.
+    2. **Activate App Embeds**: Make sure you are editing the `Default` theme or the theme that is applied to most of your pages. Within the theme customization area, go to `App Embeds`. Look for the `Chat Popup Quiz` option and toggle it on.
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
     3. **Configure Popup Settings**: 
 
-        ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png){width="50%"}
+        ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
 
         - Adjust the `color` or the chat, icon, chat positon
         - Add a `greetings message`
         - Adjust the `Popup Width` and `Height` (as percentage of screen)
+        - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
         - Set the `Popup z-index` to control layering with other elements
     4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
 
-    When visitors come to your store, the default quiz for your store will open automatically based on your settings. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.   
+    !!! note
+        When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
+    
+        If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.  
 
 === "WooCommerce"
 
@@ -157,7 +177,10 @@ Make sure you have:
     If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
 
 
-## On a Specific Page
+## Chat Button on a Specific Page
+
+!!! info "What's a Chat Button on a Specific Page?"
+    It's a chat-like button that shows up on a specific page of your store and when clicked opens the quiz popup.
 
 === "Shopify"
 
@@ -168,7 +191,41 @@ Make sure you have:
 
 === "Shopify V2"
 
-    Unfortunately, it's not possible to apply App Embeds such as Chat Button Quiz on specific page only. App Embeds are only applied site-wide. Therefore, the Chat Button Quiz (if activated) will be visible on all pages.
+    !!! warning "Shopify 1.0 Theme Compatibility"
+        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
+
+    1. To add a chat popup to a specific page, in Shopify, go to `Online Theme > Customize`. From the `Home page` menu on top, go to `Pages` and click on the page template you want to add the chat popup to or create a new page template.
+    2. Then, `+ Add section`, click the `Apps`. From the list, pick the `Chat Button Quiz`.
+
+        ![manual_shopifyv2_pagelevel_chat_add](/images/manual_shopifyv2_pagelevel_chat_add.png)
+
+    3. You can adjust the chat button options:
+
+        ![manual_shopifyv2_pagelevel_chat_added](/images/manual_shopifyv2_pagelevel_chat_added.png)
+
+        ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+
+        `Chat Button Color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
+
+        `Chat Icon Color` - Adjust the color of the chat icon by selecting one from the tool or adding a #color.
+
+        `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
+
+        `Show notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
+
+        `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Leave it empty to hide
+        
+        `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
+
+    4. Click on `Save` to save the changes. From now on, the chat popup will show up on that page or any page that uses the same template.  
+    5. Remember to apply the new page template to the page you want to add the chat popup to.
+
+    !!! note
+        When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
+    
+        If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
+
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
 
 === "WooCommerce"
 
@@ -226,8 +283,51 @@ Make sure you have:
     6. Save the changes.
     7. From now on, the chat button will be visible on that page.
 
+## FAQs
 
-## The quiz you are looking for does not exist
+### Open a Specific Quiz
+
+=== "Shopify"
+
+    To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
+    
+=== "Shopify V2"
+
+    By default when add an chat button, the default quiz for your store will show. 
+    
+    !!! note
+
+        If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. 
+
+    If instead you want to **open a specific quiz**, you need to add a Quiz ID in the `Quiz ID (optional)` field in the `Chat Button Quiz` settings in the theme editor.
+
+    ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+
+    !!! info "Quiz ID"
+
+        To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
+
+        Keep in mind that the Quiz ID is case-sensitive.
+    
+
+=== "WooCommerce"
+
+    To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
+
+=== "Magento"
+
+    To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
+
+=== "BigCommerce"
+
+    To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
+   
+
+=== "Standalone"
+
+    To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
+
+### The quiz you are looking for does not exist
 
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
