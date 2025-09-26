@@ -635,6 +635,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
 
         Keep in mind that the Quiz ID is case-sensitive.
+        
 === "Standalone"
 
     To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
