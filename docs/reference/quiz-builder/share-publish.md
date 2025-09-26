@@ -393,15 +393,15 @@
 === "Shopify V2"
 
     !!! info "What's an Automatic Popup?"
-        It's a quiz popup that appears after X seconds.
+        It's a quiz popup that appears after X seconds. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
 
-    ### Automatic Popup on all pages
+    ### On Every Page
 
     1. To add an automatic popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Automatic Popup Quiz`.
 
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
 
-    3. You can adjust the popup options:
+    2. You can adjust the popup options:
 
         ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 
@@ -415,24 +415,27 @@
 
         `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
 
-    5. Then, follow the step by step instructions provided in our [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) to add an automatic popup to your website.
+    3. Click on `Save` to save the changes. From now on, the automatic popup will be triggered on all the pages.
 
     !!! tip "Check our guide"
 
-        Check [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) for step by step instructions.
+        Follow the step by step instructions provided in our [How to Set Up Automatic Popups](/how-to-guides/publish-quiz-automatic-popup/) to add an automatic popup to your website.
 
     !!! warning "Note"
 
-        By default, the popup is only shown once per session unless Exit Intent is enabled.
+        By default, the popup is only shown once per session unless `Exit Intent` is enabled.
 
-    ### Automatic Popup on a specific page
 
-    1. To add an automatic popup to a specific page, in Shopify, go to `Online Store > Pages`. Click on the page you want to add the automatic popup to.
+    ### On a Specific Page
+
+    1. To add a link popup to a specific page, in Shopify, go to `Online Theme > Customize`. From the `Home page` menu on top, go to `Pages` and click on the page template you want to add the automatic popup to or create a new page template.
     2. Then, `+ Add section`, click the `Apps`. From the list, pick the `Automatic Popup Quiz`.
 
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic_inline](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic_inline.png)
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic_inline](/images/manual_shopifyv2_pagelevel_autopopup_add.png)
 
-    3. In the `V2 - Automatic Popup Quiz` section, you can adjust the automatic popup settings.
+    3. In the `Automatic Popup Quiz` section, you can adjust the automatic popup settings.
+
+        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic_inline](/images/manual_shopifyv2_pagelevel_autopopup_added.png)
 
         ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 
@@ -446,15 +449,15 @@
 
         `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
 
-    4. Then, follow the step by step instructions provided in our [How to Set Up Automatic Popups on a Specific Page](/how-to-guides/publish-quiz-automatic-popup/#on-a-specific-page) to add an automatic popup to your website.
-    
+    4. Click on `Save` to save the changes. From now on, the automatic popup will be triggered on that page or any page that uses the same template.
+
     !!! tip "Check our guide"
 
-        Check [How to Set Up Automatic Popups on a Specific Page](/how-to-guides/publish-quiz-automatic-popup/#on-a-specific-page) for step by step instructions.
+        Follow the step by step instructions provided in our [How to Set Up Automatic Popups on a Specific Page](/how-to-guides/publish-quiz-automatic-popup/#on-a-specific-page) to add an automatic popup to your website.
 
     !!! warning "Note"
 
-        By default, the popup is only shown once per session unless Exit Intent is enabled.
+        By default, the popup is only shown once per session unless `Exit Intent` is enabled.
     
     
 
@@ -565,43 +568,27 @@
     !!! info "What's an External Link?"
         It's a direct link to the quiz for social media.
 
-    1. To create a link popup for socials, in Shopify, go to `Online Store > Theme` and click ` Customize`. Open `App Embeds` and toggle the button to acitvate the `Link Popup Quiz`.
+    There are two ways to create an external link for your quiz:
 
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
+    - [Dedicated Quiz Page](#dedicated-quiz-page)
+    - [Link Popup for Socials](#link-popup-for-socials)
 
-    3. You can adjust the popup options:
+    ### Dedicated Quiz Page
 
-        ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
-
-        `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
-
-        `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
-
-        `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
-
-    5. Then, follow the step by step instructions provided in the `Share the quiz as an external link` section or in our [How to Get an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/) to add a quiz link to your website.
-
-        ![manual_shopifyV2_quizbuilder_share_publish_externallink](/images/manual_shopifyV2_quizbuilder_share_publish_externallink.png)
+    This method involves creating a dedicated quiz page for your quiz (for example `https://yourstore.myshopify.com/pages/quiz-page`), embeding the quiz on that page and sharing the link to the page on social media.
 
     !!! tip "Check our guide"
 
-        Check [How to Get an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/) for step by step instructions.
+        For step by step instructions, check [Inline Quiz on a Specific Page](/reference/quiz-builder/share-publish/#on-a-specific-page_1).
 
-    ### Share the quiz as an external link
+    ### Link Popup for Socials
 
-    Share a link to your quiz on email campaigns, social media posts, paid ads, or any other communication channel.
+    This method involves actrivating the `Link Popup Quiz` app embed in your store theme and then adding a `#quiz` to any URL. For example, `https://yourstore.myshopify.com/#quiz` can open the quiz as long as the `Link Popup Quiz` app embed is activated. You can use this URL to share the quiz on social media.
 
-    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+    !!! tip "Check our guide"
 
-    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Link Popup Quiz option and toggle it on. This action will automatically add the RevenueHunt script to your site, enabling quiz links to load in a popup.
+        For step by step instructions, check [Link Popup on Every Page](/reference/quiz-builder/share-publish/#on-every-page).
 
-    3. **Save changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-
-    4. **Copy the link to the quiz popup**: The direct link to your quiz popup is https://skincarequizstore.myshopify.com/#quiz.
-
-    5. **Share the link**: Share the link to the quiz popup with your audience. You can add it to your email campaigns, social media posts, or any other communication channel.
-
-    When clicked, the default quiz for your store will open. If you've configured Shopify Markets, the default quiz for that specific market will be shown instead.
 
 === "WooCommerce"
 
@@ -670,43 +657,26 @@
     !!! info "What's an Email Link?"
         It's a direct link to the quiz for emails.
 
-    1. To create a link popup for emails, in Shopify, go to `Online Store > Theme` and click ` Customize`. Open `App Embeds` and toggle the button to acitvate the `Link Popup Quiz`.
+    There are two ways to create an external email link for your quiz:
 
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
+     - [Dedicated Quiz Page](#dedicated-quiz-page_1)
+     - [Link Popup for Socials](#link-popup-for-socials_1)
 
-    3. You can adjust the popup options:
+    ### Dedicated Quiz Page
 
-        ![manual_shopifyV2_quizbuilder_share_publish_linkpopup_options](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup_options.png)
-
-        `Popup width (% of screen)` - Controls the width of the quiz popup window as a percentage of the user's screen width.
-
-        `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
-
-        `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
-
-    5. Then, follow the step by step instructions provided in the `Share the quiz as an external link` section or in our [How to Get an External Quiz Link for Email](/how-to-guides/publish-quiz-external-link/) to add a quiz link to your website.
-
-        ![manual_shopifyV2_quizbuilder_share_publish_externallink](/images/manual_shopifyV2_quizbuilder_share_publish_externallink.png)
+    This method involves creating a dedicated quiz page for your quiz (for example `https://yourstore.myshopify.com/pages/quiz-page`), embeding the quiz on that page and sharing the link to the page in your emails.
 
     !!! tip "Check our guide"
 
-        Check [How to Get an External Quiz Link for Email](/how-to-guides/publish-quiz-external-link/) for step by step instructions.
+        For step by step instructions, check [Inline Quiz on a Specific Page](/reference/quiz-builder/share-publish/#on-a-specific-page_1).
 
-    ### Share the quiz as an external link
+    ### Link Popup for Socials
 
-    Share a link to your quiz on email campaigns, social media posts, paid ads, or any other communication channel.
+    This method involves actrivating the `Link Popup Quiz` app embed in your store theme and then adding a `#quiz` to any URL. For example, `https://yourstore.myshopify.com/#quiz` can open the quiz as long as the `Link Popup Quiz` app embed is activated. You can use this URL to share the quiz in your emails.
 
-    1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+    !!! tip "Check our guide"
 
-    2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the V2 - Link Popup Quiz option and toggle it on. This action will automatically add the RevenueHunt script to your site, enabling quiz links to load in a popup.
-
-    3. **Save changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-
-    4. **Copy the link to the quiz popup**: The direct link to your quiz popup is https://skincarequizstore.myshopify.com/#quiz.
-
-    5. **Share the link**: Share the link to the quiz popup with your audience. You can add it to your email campaigns, social media posts, or any other communication channel.
-
-    When clicked, the default quiz for your store will open. If you've configured Shopify Markets, the default quiz for that specific market will be shown instead.
+        For step by step instructions, check [Link Popup on Every Page](/reference/quiz-builder/share-publish/#on-every-page).
 
 === "WooCommerce" 
 
@@ -792,11 +762,13 @@
     !!! info "What's a Chat Popup?"
         It's a quiz popup that appears after a visitor clicks on a chat-like button.
 
+    ### On Every Page
+
     1. To add a chat popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Chat Button Quiz`.
 
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_chat.png)
 
-    3. You can adjust the chat button options:
+    2. You can adjust the chat button options:
 
         ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
 
@@ -818,11 +790,41 @@
 
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    5. Then, follow the step by step instructions provided in our [How to Set Up Chat Button Popups](https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/) to add a chat popup to your website.
+    3. Click on `Save` to save the changes. From now on, the chat popup will show up on every page.
 
     !!! tip "Check our guide"
 
-        Check [How to Set Up Chat Button Popups](https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/) for step by step instructions.
+        Follow the step by step instructions provided in our [How to Set Up Chat Button Popups](https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/) to add a chat popup to your website.
+
+
+    ### On a Specific Page
+
+    1. To add a chat popup to a specific page, in Shopify, go to `Online Theme > Customize`. From the `Home page` menu on top, go to `Pages` and click on the page template you want to add the chat popup to or create a new page template.
+    2. Then, `+ Add section`, click the `Apps`. From the list, pick the `Chat Button Quiz`.
+
+        ![manual_shopifyv2_pagelevel_chat_add](/images/manual_shopifyv2_pagelevel_chat_add.png)
+
+    3. You can adjust the chat button options:
+
+        ![manual_shopifyv2_pagelevel_chat_added](/images/manual_shopifyv2_pagelevel_chat_added.png)
+
+        ![manual_shopifyV2_quizbuilder_share_publish_chat_options](/images/manual_shopifyV2_quizbuilder_share_publish_chat_options.png)
+
+        `Chat Button Color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
+
+        `Chat Icon Color` - Adjust the color of the chat icon by selecting one from the tool or adding a #color.
+
+        `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
+
+        `Show notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
+
+        `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Leave it empty to hide
+
+    4. Click on `Save` to save the changes. From now on, the chat popup will show up on that page or any page that uses the same template.  
+
+    !!! tip "Check our guide"
+
+        Follow the step by step instructions provided in our [How to Set Up Chat Button Popups on a Specific Page](https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/#on-a-specific-page) to add a chat popup to your website.
 
 === "WooCommerce" 
 
