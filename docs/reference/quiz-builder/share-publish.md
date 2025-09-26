@@ -100,6 +100,8 @@
 
         `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
+        `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
+
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
     4. Click on `Save` to save the changes.
@@ -130,6 +132,8 @@
         `Popup height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
 
         `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+
+        `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
@@ -414,6 +418,8 @@
         `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
         `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
+        
+        `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
     3. Click on `Save` to save the changes. From now on, the automatic popup will be triggered on all the pages.
 
@@ -448,6 +454,8 @@
         `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
 
         `Trigger Popup on Exit Intent` - Show the automatic popup when the customer shows exit intent (moving cursor towards closing the tab/window).
+
+        `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
     4. Click on `Save` to save the changes. From now on, the automatic popup will be triggered on that page or any page that uses the same template.
 
@@ -787,6 +795,8 @@
         `Popup Height (% of screen)` - Controls the height of the quiz popup window as a percentage of the user's screen height.
 
         `Popup z-index` - Determines the stacking order of the quiz popup relative to other elements on the webpage.
+        
+        `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
@@ -819,6 +829,8 @@
         `Show notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
 
         `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Leave it empty to hide
+        
+        `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
     4. Click on `Save` to save the changes. From now on, the chat popup will show up on that page or any page that uses the same template.  
 
