@@ -253,6 +253,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
             When clicked, #quiz will open the default quiz for your store. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. If you'd like a specific quiz to open instead of the default, check [this section](#open-a-specific-quiz).
 
     9. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu. From now on the quiz link in the menu will only open the quiz as a popup over the page that carries the same template.
+    10. Remember to apply the new page template to the page you want to add the link popup to.
 
 === "WooCommerce"
 
@@ -492,6 +493,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
             When clicked, `#quiz` will open the default quiz for your store. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. If you'd like a specific quiz to open instead of the default, check [this section](#open-a-specific-quiz).
 
     9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button. From now on, whenever someone clicks on the button on this page or any other page that uses this template, a quiz popup will open.
+    10. Remember to apply the new page template to the page you want to add the link popup to.
 
 === "WooCommerce"
 

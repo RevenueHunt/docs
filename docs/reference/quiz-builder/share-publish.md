@@ -138,7 +138,8 @@
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
     4. Click on `Save` to save the changes.
-    5. You can add a `#quiz` to any element of your website to trigger the link popup. For example, you can add it to a button, link or a menu item.
+    5. Remember to apply the new page template to the page you want to add the link popup to.
+    6. You can add a `#quiz` to any element of your website to trigger the link popup. For example, you can add it to a button, link or a menu item.
     
     !!! tip "Check our guide"
         
@@ -267,7 +268,8 @@
     
     ### On a Specific Page
 
-    1. To add an inline quiz to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
+
+    1. To add a inline quiz to a specific page, in Shopify, go to `Online Theme > Customize`. From the `Home page` menu on top, go to `Pages` and click on the page template you want to add the inline quiz to or create a new page template.
     2. Then, `+ Add section`, click the `Apps`. From the list, pick the `Inline Quiz`.
 
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline.png)
@@ -292,7 +294,8 @@
 
         `Manage app` - Opens the RevenueHunt dashboard with full settings and options.
 
-    5. Click on `Save` to save the changes. From now on, the inline quiz will be visible on that page.
+    5. Remember to apply the new page template to the page you want to add the inline quiz to.  
+    6. Click on `Save` to save the changes. From now on, the inline quiz will be visible on that page.
 
     !!! tip "Check our guide"
         
@@ -458,6 +461,7 @@
         `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
     4. Click on `Save` to save the changes. From now on, the automatic popup will be triggered on that page or any page that uses the same template.
+    5. Remember to apply the new page template to the page you want to add the automatic popup to.
 
     !!! tip "Check our guide"
 
@@ -833,6 +837,7 @@
         `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
     4. Click on `Save` to save the changes. From now on, the chat popup will show up on that page or any page that uses the same template.  
+    5. Remember to apply the new page template to the page you want to add the chat popup to.
 
     !!! tip "Check our guide"
 
