@@ -8,9 +8,9 @@ icon: material/code-json
 
     !!! warning
 
-        The callback function is not supported in Shopify V2.
+        The callback function is not supported in the `💎Built for Shopify` version of the RevenueHunt app.
 
-    The callback function is not supported in Shopify V2. However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
+    The callback function is not supported in the `💎Built for Shopify` version of the RevenueHunt app. However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
 
 
 === "Shopify (Legacy)"

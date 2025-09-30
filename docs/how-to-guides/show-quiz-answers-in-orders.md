@@ -56,19 +56,19 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
 
 === "WooCommerce"
 
-    This feature is currently only available for Shopify and Shopify V2 platforms.
+    This feature is currently only available for the `💎Built for Shopify` version of the RevenueHunt app and the Legacy version of the app for Shopify.
 
 === "Magento"
 
-    This feature is currently only available for Shopify and Shopify V2 platforms.
+    This feature is currently only available for the `💎Built for Shopify` version of the RevenueHunt app and the Legacy version of the app for Shopify.
 
 === "BigCommerce"
 
-    This feature is currently only available for Shopify and Shopify V2 platforms.
+    This feature is currently only available for the `💎Built for Shopify` version of the RevenueHunt app and the Legacy version of the app for Shopify.
 
 === "Standalone"
 
-    This feature is currently only available for Shopify and Shopify V2 platforms.
+    This feature is currently only available for the `💎Built for Shopify` version of the RevenueHunt app and the Legacy version of the app for Shopify.
 
 ## Testing the Connection
 
@@ -105,19 +105,19 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
 
 === "WooCommerce"
 
-    This feature is currently only available for Shopify and Shopify V2 platforms.
+    This feature is currently only available for the `💎Built for Shopify` version of the RevenueHunt app and the Legacy version of the app for Shopify.
 
 === "Magento"
 
-    This feature is currently only available for Shopify and Shopify V2 platforms.
+    This feature is currently only available for the `💎Built for Shopify` version of the RevenueHunt app and the Legacy version of the app for Shopify.
 
 === "BigCommerce"
 
-    This feature is currently only available for Shopify and Shopify V2 platforms.
+    This feature is currently only available for the `💎Built for Shopify` version of the RevenueHunt app and the Legacy version of the app for Shopify.
 
 === "Standalone"
 
-    This feature is currently only available for Shopify and Shopify V2 platforms.
+    This feature is currently only available for the `💎Built for Shopify` version of the RevenueHunt app and the Legacy version of the app for Shopify.
 
 ---
 

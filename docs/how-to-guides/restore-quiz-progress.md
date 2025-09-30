@@ -49,7 +49,7 @@ This guide will walk you through the process of using the [Version History](/ref
     1. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder or the Dashboard.
     2. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
 
-    ![Shopify V2 Version History](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
+    ![Built for Shopify revenuehunt app Version History](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
 
 
 === "Shopify (Legacy)"

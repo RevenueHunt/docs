@@ -131,7 +131,7 @@
 
     !!! note
 
-        In Shopify V2, the font for the headings and body of the quiz is inherited from the store Shopify theme if the font is set to `Inherit`.
+        In the `💎Built for Shopify` version of the RevenueHunt app, the font for the headings and body of the quiz is inherited from the store Shopify theme if the font is set to `Inherit`.
 
     `Primary colors / Choices / Inputs` - Click the color to change it.
 
@@ -301,7 +301,7 @@
 
 === "Shopify"
 
-    In Shopify V2 you have a single theme per quiz.
+    In the `💎Built for Shopify` version of the RevenueHunt app you have a single theme per quiz.
 
 
 === "Shopify (Legacy)"

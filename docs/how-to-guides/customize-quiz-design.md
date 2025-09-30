@@ -72,7 +72,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     !!! info "Inherit font from store theme"
 
-        In Shopify V2, the font for the headings and body of the quiz is inherited from the store Shopify theme.
+        In the `💎Built for Shopify` version of the RevenueHunt app, the font for the headings and body of the quiz is inherited from the store Shopify theme.
 
 
     `Primary Colors / Choices / Inputs`- Click on any color block to bring up a color picker and adjust hues to your preference. Select a color from the picker to change it.

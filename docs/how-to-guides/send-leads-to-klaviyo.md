@@ -282,7 +282,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         **Add Email Action**
 
-        ![how to send leads to klaviyo shopify v2 create email flow](https://loom.com/i/01df24e93900407b9141998dfb070a2e?workflows_screenshot=true)
+        ![how to send leads to klaviyo built for shopify revenuehunt app create email flow](https://loom.com/i/01df24e93900407b9141998dfb070a2e?workflows_screenshot=true)
 
 
         1. Grab the `EMAIL` action and drop it below the flow trigger.
@@ -310,7 +310,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         8. Paste the code in the `HTML` block in Klaviyo email.
 
-            ![how to send leads to klaviyo shopify v2 example template in klaviyo](https://loom.com/i/04a9f5a3d3a040d2a97c2b393fc18c41?workflows_screenshot=true)
+            ![how to send leads to klaviyo built for shopify revenuehunt app example template in klaviyo](https://loom.com/i/04a9f5a3d3a040d2a97c2b393fc18c41?workflows_screenshot=true)
         9. Next, `Preview` the email as one of your segment subscribers to check what information is displayed.
         10. You can freely edit the email template to your liking. For example, you can remove all the sections of the code that you don't need. You can also style the provided email code. Keep in mind, that you may need help from a developer to edit the tempalte code. Alternatively, you can try asking [Quiz Copilot](/how-to-guides/use-quiz-copilot/) or another AI agent like ChatGPT or Claude for help in styling the email.
         
@@ -814,13 +814,13 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     5. Go back to the RevenueHunt app and open the [Quiz Settings](/reference/quiz-builder/quiz-settings/).
     6. In the `Integrations` section find `Klaviyo` and paste the `Private API Key` in the correct field.
 
-        ![how to klaviyo shopify v2 private api](/images/how_to_klaviyo_shopify_v2_private_api.png)
+        ![how to klaviyo built for shopify revenuehunt app private api](/images/how_to_klaviyo_shopify_v2_private_api.png)
     7. Click `Save` to confirm the changes.
     8. Go to the Quiz Builder Questions section and find the email block.
     9. In the email block settings, find the `Klaviyo list` section.
     10. From the dropdown menu select the list you want to add contacts to.
 
-        ![how to klaviyo shopify v2 email question settings](/images/how_to_klaviyo_shopify_v2_email_question_settings.png)
+        ![how to klaviyo built for shopify revenuehunt app email question settings](/images/how_to_klaviyo_shopify_v2_email_question_settings.png)
     11. Save the changes with the top-right `Save` button.
     12. Remember to `Preview` the quiz to test the connection with a sample email.
 

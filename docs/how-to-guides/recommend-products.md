@@ -108,7 +108,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
 === "Shopify" 
 
-    In Shopify V2, there are several ways to recommend products:
+    In the `💎Built for Shopify` version of the RevenueHunt app, there are several ways to recommend products:
 
     **✍🏻 Option 1: Recommend Most Voted Products**
 

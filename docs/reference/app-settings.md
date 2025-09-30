@@ -325,7 +325,7 @@
 
 === "Shopify"
 
-    At this moment in time, there is no way to activate the Shop App in the Shopify V2 version of the app. 
+    At this moment in time, there is no way to activate the Shop App in the `💎Built for Shopify` version of the RevenueHunt app. 
 
 
 
@@ -382,7 +382,7 @@
 
 === "Shopify (Legacy)"
 
-    Shopify Markets integration is only available in the Shopify V2 version of the app. This feature is not supported in the original Shopify app version.
+    Shopify Markets integration is only available in the `💎Built for Shopify` version of the RevenueHunt app. This feature is not supported in the original Shopify app version.
 
 ## Plans & Pricing
 

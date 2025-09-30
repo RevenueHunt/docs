@@ -20,7 +20,7 @@ To combine two or more questions into one slide, follow these steps:
     4. To show an extra question on the same slide, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a differnt block type from the list. 
     5. Both questions will now appear on the same slide.
 
-    ![joined slides example in Shopify V2](https://loom.com/i/75de3b0357fc46919b8cf40d51a94975?workflows_screenshot=true)
+    ![joined slides example in built for shopify revenuehunt app](https://loom.com/i/75de3b0357fc46919b8cf40d51a94975?workflows_screenshot=true)
 
 
 === "Shopify (Legacy)"

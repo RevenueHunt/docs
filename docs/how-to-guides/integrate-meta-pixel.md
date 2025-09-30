@@ -29,7 +29,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
     1. **Connect Meta Pixel to your Shopify Store**: Navigate to your Shopify `Store settings > Customer events`. Ensure that the Meta (Facebook) Pixel is integrated. If not, use the [Facebook and Instagram Meta app](https://apps.shopify.com/facebook-and-instagram-meta-app) for integration.
     2. **Set Up Data Sources**: Open the Facebook and Instagram app in Shopify. Go to `settings` and set `shared data` to `maximum` to track advanced and custom events. Choose or create a **data set** for tracking. 
 
-        ![how to integrate fb pixel shopify v2](/images/how_to_shopifyv2_integrate_meta_pixel_facebookappsettings.png)
+        ![how to integrate fb pixel built for shopify revenuehunt app](/images/how_to_shopifyv2_integrate_meta_pixel_facebookappsettings.png)
 
         !!! tip
 
@@ -45,7 +45,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
         - Go to the [Integrations](/reference/quiz-builder/connect-integrations/) tab within your quiz settings.
         - Find the Meta Pixel section and hit `Activate`.
-            ![how to integrate fb pixel shopify v2](/images/how_to_integrate_fb_pixel_shopify_v2.png)
+            ![how to integrate fb pixel built for shopify revenuehunt app](/images/how_to_integrate_fb_pixel_shopify_v2.png)
         - Click `Save` to confirm the changes.
         - Once activated the quiz will connect to the Meta Pixel already present on your website.
 
@@ -56,7 +56,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
         
         If events are visible, the pixel integration is functioning correctly.
 
-        ![how to integrate fb pixel shopify v2](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
+        ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
         For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
 
@@ -72,7 +72,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
     1. **Connect Meta Pixel to your Shopify Store**: Navigate to your Shopify `Store settings > Customer events`. Ensure that the Meta (Facebook) Pixel is integrated. If not, use the [Facebook and Instagram Meta app](https://apps.shopify.com/facebook) for integration.
     2. **Set Up Data Sources**: Open the Facebook and Instagram app in Shopify. Go to `settings` and set `shared data` to `maximum` to track advanced and custom events. Choose or create a **data set** for tracking. 
 
-        ![how to integrate fb pixel shopify v2](/images/how_to_shopifyv2_integrate_meta_pixel_facebookappsettings.png)
+        ![how to integrate fb pixel built for shopify revenuehunt app](/images/how_to_shopifyv2_integrate_meta_pixel_facebookappsettings.png)
 
         !!! tip
 
@@ -97,7 +97,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
         
         If events are visible, the pixel integration is functioning correctly.
         
-        ![how to integrate fb pixel shopify v2](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)  
+        ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)  
 
         For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
 
@@ -117,7 +117,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
         
         If events are visible, the pixel integration is functioning correctly.
 
-        ![how to integrate fb pixel shopify v2](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
+        ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
         For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
 
@@ -137,7 +137,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
         
         If events are visible, the pixel integration is functioning correctly.
 
-        ![how to integrate fb pixel shopify v2](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
+        ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
         For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
 
@@ -157,7 +157,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
         
         If events are visible, the pixel integration is functioning correctly.
 
-        ![how to integrate fb pixel shopify v2](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
+        ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
         For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
 
@@ -177,7 +177,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
         
         If events are visible, the pixel integration is functioning correctly.
 
-        ![how to integrate fb pixel shopify v2](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
+        ![how to integrate fb pixel built for shopify revenuehunt app](https://loom.com/i/da1d0cdd420341698d56384c34496a99?workflows_screenshot=true)
 
         For a complete list of tracked events within the Revenue Hunt app, check the [Tracked Events](/how-to-guides/integrate-meta-pixel/#tracked-events) section.
 

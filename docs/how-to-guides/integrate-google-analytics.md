@@ -63,7 +63,7 @@ icon: material/google-analytics
             Don't know how to connect your website to Google Analytics or find your GA tracking code? [Check this link](https://support.google.com/analytics/answer/1008080).
     1. Head to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `Activate` button in the Google Analytics section.
-        ![how to integrate ga4 shopify v2](/images/how_to_integrate_ga4_shopify_v2.png)
+        ![how to integrate ga4 built for shopify revenuehunt app](/images/how_to_integrate_ga4_shopify_v2.png)
     3. Click `Save` to confirm the changes.
     4. Once activated the quiz will connect to the GA4 tracking code already present on your website. It can take up to 72 hours for the data to start appearing in your Meta portal.
 

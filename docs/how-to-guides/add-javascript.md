@@ -144,7 +144,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
-    In Shopify V2, the `prq` object is not available. Instead, you have access to different objects:
+    In the `💎Built for Shopify` version of the RevenueHunt app, the `prq` object is not available. Instead, you have access to different objects:
 
       
     ### Available JavaScript data and functions
@@ -297,7 +297,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     **Debugging and Accessing Data in V2**
 
-    To explore available data in Shopify V2, you can add a `debugger` statement to your JavaScript code:
+    To explore available data in the `💎Built for Shopify` version of the RevenueHunt app, you can add a `debugger` statement to your JavaScript code:
 
     ```javascript
     debugger;
@@ -695,7 +695,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
-    In Shopify V2, you can add interactive elements to your quiz results page:
+    In the `💎Built for Shopify` version of the RevenueHunt app, you can add interactive elements to your quiz results page:
 
     1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
 
@@ -975,7 +975,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
-    In Shopify V2, you can access the answers from the `answers` object to perform calculations. Here's how to create a BMI calculator:
+    In the `💎Built for Shopify` version of the RevenueHunt app, you can access the answers from the `answers` object to perform calculations. Here's how to create a BMI calculator:
 
     !!! example "Create a BMI calculator"
 

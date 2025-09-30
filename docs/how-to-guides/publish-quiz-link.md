@@ -77,13 +77,13 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/NYwDShgRQEs?si=-7q-Mcf1NmiOQDVp" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     
     !!! warning "Shopify 1.0 Theme Compatibility"
-        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
+        Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     !!! info "Short Instructions"
     
         To add a popup link to a menu item in Shopify, activate the `Link Popup Quiz` in `App Embeds` of your theme and then simply type the `#quiz` as the link and save your changes. 
             
-        ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
+        ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
             
         When clicked, the default quiz for your store will open. 
         
@@ -112,10 +112,10 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 
     3. Click on `Save` to save the changes.
     4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
-        ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
+        ![how to publish link popup built for shopify revenuehunt app menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
     5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take Our Quiz".
     6. **Insert the #quiz Code**: Type `#quiz` into the link field and then click on `Save`.
-        ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
+        ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
 
         !!! warning
             Don't add the full URL into the `Link` filed. It should only contain the `#quiz` text and **not** a full URL like `http://yourwebsite.com/#quiz`.
@@ -139,10 +139,10 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz Legacy option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
         ![how to publish quiz link popup app embeds](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
     4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
-        ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
+        ![how to publish link popup built for shopify revenuehunt app menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
     5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take Our Quiz".
     6. **Insert the Popup Link Code**: Paste the previously copied code into the link field and then click on `Save`.
-        ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
+        ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
 
 === "WooCommerce"
@@ -202,7 +202,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 === "Shopify"
     
     !!! warning "Shopify 1.0 Theme Compatibility"
-        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
+        Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     Step by step instructions:
 
@@ -226,10 +226,10 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 
     5. Click on `Save` to save the changes.
     6. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
-        ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
+        ![how to publish link popup built for shopify revenuehunt app menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
     7. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take Our Quiz".
     8. **Insert the #quiz Code**: Type `#quiz` into the link field and then click on `Save`.
-        ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
+        ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
 
         !!! warning
             Don't add the full URL into the `Link` filed. It should only contain the `#quiz` text and **not** a full URL like `http://yourwebsite.com/#quiz`.
@@ -323,13 +323,13 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/P853mRgPwr8?si=ElHwiQdpN7ZPRNWT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     
     !!! warning "Shopify 1.0 Theme Compatibility"
-        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
+        Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     !!! info "Short Instructions"
     
         To add a popup link to a button in Shopify, activate the `Link Popup Quiz` in `App Embeds` of your theme and then simply type the `#quiz` as the link and save your changes. 
             
-        ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2_button.png)
+        ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2_button.png)
             
         When clicked, the default quiz for your store will open. 
         
@@ -347,7 +347,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     6. **Add a New Section**: Click on **"Add section"** and select **"Image banner"** (or a similar option) from the list.
     7. **Insert a Button Block**: Within the "Image banner" section, add a new block and choose the **"Button"** option.
     8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Type `#quiz` in the appropriate link field.
-        ![how to publish link popup shopify v2 button](/images/how_to_publish_link_popup_shopify_v2_button.png)
+        ![how to publish link popup built for shopify revenuehunt app button](/images/how_to_publish_link_popup_shopify_v2_button.png)
 
         !!! warning
             Don't add the full URL into the `Link` filed. It should only contain the `#quiz` text and **not** a full URL like `http://yourwebsite.com/#quiz`.
@@ -447,7 +447,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 === "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
+        Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     Step by step instructions:
 
@@ -473,7 +473,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     6. **Add a New Section**: Click on **"Add section"** and select **"Image banner"** (or a similar option) from the list.
     7. **Insert a Button Block**: Within the "Image banner" section, add a new block and choose the **"Button"** option.
     8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Type `#quiz` in the appropriate link field.
-        ![how to publish link popup shopify v2 button](/images/how_to_publish_link_popup_shopify_v2_button.png)
+        ![how to publish link popup built for shopify revenuehunt app button](/images/how_to_publish_link_popup_shopify_v2_button.png)
 
         !!! warning
             Don't add the full URL into the `Link` filed. It should only contain the `#quiz` text and **not** a full URL like `http://yourwebsite.com/#quiz`.
@@ -763,7 +763,7 @@ In some cases, you might want to have links to different quizzes on the same pag
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/b65c503f49ed4664875df3e6addd8380?sid=6d7edd43-ec04-4dfd-848e-2a7337980800" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    For Shopify V2, you can link to specific quizzes by using the format `#quiz-QUIZID` instead of just `#quiz`.
+    With the `💎Built for Shopify` version of the RevenueHunt app, you can link to specific quizzes by using the format `#quiz-QUIZID` instead of just `#quiz`.
 
     1. **Find Your Quiz ID**: Go to the [dashboard](/reference/dashboard/) and locate the quiz you want to link to.
     2. **Copy the Quiz ID**: Click the `...` three dots next to the quiz and select "Copy Quiz ID."
@@ -842,7 +842,7 @@ In some cases, you might want to have links to different quizzes on the same pag
 === "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
-        Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
+        Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
 

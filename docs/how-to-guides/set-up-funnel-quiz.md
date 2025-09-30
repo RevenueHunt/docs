@@ -261,11 +261,11 @@ At the end of the quiz, the results page displays the product variants with the 
 
         - In Product Block settings you can chose the `Recommendation system` to be `Based on customer's responses`. the **Product Block** then displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last.
 
-        ![how to recommend products shopify v2 recommend products based on responses](/images/how_to_recommend_products_shopify_v2_recommend_products_based_on_responses.png){width="35%"}
+        ![how to recommend products built for shopify revenuehunt app recommend products based on responses](/images/how_to_recommend_products_shopify_v2_recommend_products_based_on_responses.png){width="35%"}
 
         - Every Product Block comes with a default `Slot` that allows you to display the recommended products. In [Slot settings](/reference/quiz-builder/questions/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
 
-        ![how to recommend products shopify v2 recommend products based on responses max products](/images/how_to_recommend_products_shopify_v2_recommend_products_based_on_responses_max_products.png){width="300"}
+        ![how to recommend products built for shopify revenuehunt app recommend products based on responses max products](/images/how_to_recommend_products_shopify_v2_recommend_products_based_on_responses_max_products.png){width="300"}
 
         - Then the results page will show the products like this, sorted by the number of votes:
 
@@ -286,7 +286,7 @@ At the end of the quiz, the results page displays the product variants with the 
 
     5. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section to understand why specific products were recommended or missing from the recommendations. 
 
-        ![how to recommend products shopify v2 troubleshoot results](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct.png)
+        ![how to recommend products built for shopify revenuehunt app troubleshoot results](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct.png)
 
         !!! tip
             Check [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
@@ -480,7 +480,7 @@ The voting system counts product "votes" based on customer quiz choices and then
 
     <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/f249d672fe414dc390715b210a94a75a?sid=0a795570-01c5-4777-b6b1-62b0a0da3387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    Follow these steps to set up a funnel quiz with product slots in Shopify V2:
+    Follow these steps to set up a funnel quiz with product slots in the `💎Built for Shopify` version of the RevenueHunt app:
 
     **Step 1: Understand Recommendation Mechanism**
 
@@ -1149,7 +1149,7 @@ Branch your quiz to show different follow-up questions based on customer choices
 
 === "Shopify"
 
-    Follow these steps to set up a branching funnel quiz in Shopify V2:
+    Follow these steps to set up a branching funnel quiz in the `💎Built for Shopify` version of the RevenueHunt app:
 
     **Step 1: Understand Recommendation Mechanism**
 
@@ -1487,7 +1487,7 @@ Show or hide different text blocks on the results page based on customer choices
 
         Not recommended for personality-type quizzes due to complexity. For this application, try the [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/) or [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/) solutions.
 
-    Follow these steps to set up a funnel quiz with custom text blocks in Shopify V2:
+    Follow these steps to set up a funnel quiz with custom text blocks in the `💎Built for Shopify` version of the RevenueHunt app:
 
     **Step 1: Understand Recommendation Mechanism**
 
