@@ -91,50 +91,6 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 
 Follow these steps to set up a winning variable quiz:       
 
-=== "Shopify (Legacy)"
-
-    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
-
-    !!! tip 
-        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
-
-
-    Alternatively, your developer can also try this setup:
-
-    
-    ??? question "Do I need advanced technical skills to set this up?"
-
-        While the process isn’t entirely plug-and-play, with the assistance of a developer, it’s manageable. If you’re not familiar with JavaScript or CSS, seeking developer help is advisable.
-
-    **How do I recommend products based on the number of user choices?**
-
-    The recommendation process is based on how many choices the user selects out of the given set. Here’s a step-by-step guide:
-
-    1. **Create collections/categories**. Create distinct collections for each group of products you wish to recommend, e.g., “1/10 choices selected,” “2/10 choices selected,” etc.
-    2. **Add hidden choices**. In your final question, include a multiple-choice option that correlates with the aforementioned collections/categories. This ensures that each choice connects to its respective recommended collection/category. Make sure to hide these choices from the user with custom CSS code.
-    3. **Add custom JavaScript**. Using custom JavaScript, evaluate the choices selected throughout the quiz and write a piece of code that automatically selects one of the hidden choices in the last question. This will determine which product collection/category to recommend based on the number of choices the user made.
-
-    **How can I ensure that users don’t see the choices in the last question?**
-
-    You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](/how-to-guides/customize-quiz-design/).
-
-    **Where do I input the custom JavaScript code?**
-
-    [This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
-
-    ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png){width=500}
-
-    The custom JavaScript code should be integrated into the final question to assess the user’s choices and click the right choices in order to recommend a product collection accordingly.
-
-    **How can I identify the selected choices from each slide or question with JavaScript?**
-
-    To review the values or choice IDs selected for each slide/question, you can use the JavaScript console and search for the values:
-
-    ![recommend-products-based-on-number-of-user-choices image2](/images/recommend-products-based-on-number-of-user-choices_image2.png)
-
-
-
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/7b44356b9eba4fb3a24b6e595fd48088?sid=f5da200d-6189-457b-8a99-24395da4df8a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -194,6 +150,51 @@ Follow these steps to set up a winning variable quiz:
             - If the variable with the highest score is `sensitive skin`, then Section 5 is **visible**. Otherwise Default visibility is **hidden**.
 
     6. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+
+
+=== "Shopify (Legacy)"
+
+    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+
+    Alternatively, your developer can also try this setup:
+
+    
+    ??? question "Do I need advanced technical skills to set this up?"
+
+        While the process isn’t entirely plug-and-play, with the assistance of a developer, it’s manageable. If you’re not familiar with JavaScript or CSS, seeking developer help is advisable.
+
+    **How do I recommend products based on the number of user choices?**
+
+    The recommendation process is based on how many choices the user selects out of the given set. Here’s a step-by-step guide:
+
+    1. **Create collections/categories**. Create distinct collections for each group of products you wish to recommend, e.g., “1/10 choices selected,” “2/10 choices selected,” etc.
+    2. **Add hidden choices**. In your final question, include a multiple-choice option that correlates with the aforementioned collections/categories. This ensures that each choice connects to its respective recommended collection/category. Make sure to hide these choices from the user with custom CSS code.
+    3. **Add custom JavaScript**. Using custom JavaScript, evaluate the choices selected throughout the quiz and write a piece of code that automatically selects one of the hidden choices in the last question. This will determine which product collection/category to recommend based on the number of choices the user made.
+
+    **How can I ensure that users don’t see the choices in the last question?**
+
+    You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](/how-to-guides/customize-quiz-design/).
+
+    **Where do I input the custom JavaScript code?**
+
+    [This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
+
+    ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png){width=500}
+
+    The custom JavaScript code should be integrated into the final question to assess the user’s choices and click the right choices in order to recommend a product collection accordingly.
+
+    **How can I identify the selected choices from each slide or question with JavaScript?**
+
+    To review the values or choice IDs selected for each slide/question, you can use the JavaScript console and search for the values:
+
+    ![recommend-products-based-on-number-of-user-choices image2](/images/recommend-products-based-on-number-of-user-choices_image2.png)
+
+
+
 
 === "WooCommerce"
 
@@ -365,14 +366,6 @@ Assign numerical scores to each choice in your quiz. Then, use Display Logic to 
 Follow these steps to set up a scoring quiz with one results page:
 
 
-=== "Shopify (Legacy)"
-
-    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead.    
-    
-    !!! tip 
-        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
-
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/bdfab85a0d3b4ecf9beb264fb2a19299?sid=6742d6dc-e3e5-4a3b-a7de-bbd1381170c1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -438,6 +431,15 @@ Follow these steps to set up a scoring quiz with one results page:
 
     5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
 
+
+=== "Shopify (Legacy)"
+
+    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead.    
+    
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
+
 === "WooCommerce"
 
     Scoring system is not available in the RevenueHunt app for WooCommerce. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
@@ -477,14 +479,6 @@ Assign numerical scores to each choice in your quiz. Then, use Jump Logic to dir
 ![how_to_shopify_v2_recommendations_scoring_logic](/images/how_to_shopify_v2_recommendations_scoring_logic.png){width=500}
 
 Follow these steps to set up a scoring quiz with multiple results pages:
-
-
-=== "Shopify (Legacy)"
-
-    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
-
-    !!! tip 
-        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
 === "Shopify"
@@ -561,6 +555,15 @@ Follow these steps to set up a scoring quiz with multiple results pages:
             - If total score is between 23-25 points → Jump to Sensitive Skin Routine
 
     5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+
+
+=== "Shopify (Legacy)"
+
+    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
 
 === "WooCommerce"
 

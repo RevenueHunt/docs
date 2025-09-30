@@ -1,5 +1,22 @@
 # Quiz Design
 
+=== "Shopify"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
+
+    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look. This section allows you to configure the design for your quiz. You can customize the design, sections, and slots to display the desired design to the users.
+
+    `Questions/Results` - Toggle between the preview of the quiz questions and the results page.
+    
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
+
+    `Color scheme` - Choose of of the pre-determined color schemes for your quiz.
+
+    Click `Change` to pick another color scheme.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png)
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
@@ -19,22 +36,6 @@
     `Questions` - Shows the preview of how the questions look like.
 
     `Results` - Shows the preview of how the results page looks like.
-
-=== "Shopify"
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
-
-    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look. This section allows you to configure the design for your quiz. You can customize the design, sections, and slots to display the desired design to the users.
-
-    `Questions/Results` - Toggle between the preview of the quiz questions and the results page.
-    
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
-
-    `Color scheme` - Choose of of the pre-determined color schemes for your quiz.
-
-    Click `Change` to pick another color scheme.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png)
 
 === "WooCommerce"
 
@@ -118,30 +119,6 @@
 
 ### Edit Theme
 
-=== "Shopify (Legacy)"
-
-    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
-
-    ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
-
-    `Wine` - Displays the name of your current theme.
-
-    `Font` - Shows a dropdown of available fonts. Pick a font from the list to change it.
-
-    `Question` - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-
-    `Choices` - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-
-    `Button` - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-
-    `Background` - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
-
-    `Background image` - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-
-    `Background Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
-
-    `Custom CSS` - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
-
 === "Shopify"
 
     `Basic`  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
@@ -198,6 +175,31 @@
 
     `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.	
 
+
+
+=== "Shopify (Legacy)"
+
+    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
+
+    ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
+
+    `Wine` - Displays the name of your current theme.
+
+    `Font` - Shows a dropdown of available fonts. Pick a font from the list to change it.
+
+    `Question` - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    `Choices` - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    `Button` - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    `Background` - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+
+    `Background image` - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
+
+    `Background Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
+
+    `Custom CSS` - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 === "WooCommerce"
 
@@ -297,6 +299,11 @@
 
 ### My Themes
 
+=== "Shopify"
+
+    In Shopify V2 you have a single theme per quiz.
+
+
 === "Shopify (Legacy)"
 
     In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
@@ -314,10 +321,6 @@
     `Duplicate` - Creates a copy of the selected theme.
 
     `Delete` - Deletes the selected theme from MY THEMES gallery.
-
-=== "Shopify"
-
-    In Shopify V2 you have a single theme per quiz.
 
 === "WooCommerce"
 

@@ -28,16 +28,6 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 ## How to Add Customer Tags to Your Quiz
 
-=== "Shopify (Legacy)"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    1. **Open the Customer Tags tab**: Access the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
-    2. **Create new tags**:  To create a tag, start typing the name of the tag next to a choice and confirm with `enter`. Once a tag is created, it can be used to be linked to other choices.
-        ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
-    3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
-    4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/69f8f8ef88f740bf9cc644fba09ca17c?sid=1796846e-b516-42ed-b96c-e5e06250cedc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -62,6 +52,17 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
             Tags sent to responses will also be forwarded to any connected [integrations](/reference/quiz-builder/connect-integrations/).
 
             For example, if integrated with Shopify Customers List, customer tags will be sent to customer profiles in Shopify. If quiz is integrated with Klaviyo, customer tags will be sent to Klaviyo, etc.
+
+
+=== "Shopify (Legacy)"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    1. **Open the Customer Tags tab**: Access the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
+    2. **Create new tags**:  To create a tag, start typing the name of the tag next to a choice and confirm with `enter`. Once a tag is created, it can be used to be linked to other choices.
+        ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
+    3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
+    4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
 
 === "WooCommerce"
 
@@ -110,14 +111,6 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 ### How to Send Customer Tags to CRMs
 
-=== "Shopify (Legacy)"
-
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Hubspot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
-
-    2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
-
-    3. **Using Segmented Data:** In your selected CRM, you can now [create segments based on the customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm) and [send them targeted emails](#using-segmented-data) based on the quiz results.
-
 === "Shopify"
 
     1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Webhooks](/how-to-guides/send-leads-to-webhooks/).
@@ -126,6 +119,15 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
     3. **Using Segmented Data:** In your selected CRM, you can now [create segments based on the customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm) and [send them targeted emails](#using-segmented-data) based on the quiz results.
 
+
+
+=== "Shopify (Legacy)"
+
+    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Hubspot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
+
+    2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
+
+    3. **Using Segmented Data:** In your selected CRM, you can now [create segments based on the customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm) and [send them targeted emails](#using-segmented-data) based on the quiz results.
 
 === "WooCommerce"
 
@@ -164,24 +166,6 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 ### Creating Segments in Your CRM
 
-=== "Shopify (Legacy)"
-
-    Once integrated, your CRM or mailing list will contain detailed segmented data on your customers. This enables you to create dynamic segments and direct hyper-targeted campaigns to different groups based on their quiz responses. 
-
-    For example, users tagged with `dry_skin` can be targeted with a campaign promoting a specific moisurizing skincare product, while users tagged with `oily_skin` can be targeted with a campaign promoting a specific cleansing product.
-
-    Instructions on how to create segments will vary per CRM platform but in general the segment definition will be similar to the following:
-
-    !!! example "Example of a segment definition"
-
-        If the value of the custom property `tags` contains `dry_skin` then the customer should be included in the segment.
-
-    Any profile that has a tag will be included in the segment automatically.
-    !!! warning
-
-        In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
-
-
 === "Shopify"
 
     Once integrated, your CRM or mailing list will contain detailed segmented data on your customers. This enables you to create dynamic segments and direct hyper-targeted campaigns to different groups based on their quiz responses. 
@@ -199,6 +183,25 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
     !!! warning
 
         In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
+
+
+=== "Shopify (Legacy)"
+
+    Once integrated, your CRM or mailing list will contain detailed segmented data on your customers. This enables you to create dynamic segments and direct hyper-targeted campaigns to different groups based on their quiz responses. 
+
+    For example, users tagged with `dry_skin` can be targeted with a campaign promoting a specific moisurizing skincare product, while users tagged with `oily_skin` can be targeted with a campaign promoting a specific cleansing product.
+
+    Instructions on how to create segments will vary per CRM platform but in general the segment definition will be similar to the following:
+
+    !!! example "Example of a segment definition"
+
+        If the value of the custom property `tags` contains `dry_skin` then the customer should be included in the segment.
+
+    Any profile that has a tag will be included in the segment automatically.
+    !!! warning
+
+        In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
+
 
 === "WooCommerce"
 

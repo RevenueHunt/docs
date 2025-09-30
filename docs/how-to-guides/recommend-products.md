@@ -307,12 +307,6 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
 ## How to Build Your Quiz Setup
 
-=== "Shopify (Legacy)"
-
-    Check the quiz to learn how to build the quiz outcome you want or consult the *How-to* guides listed below.
-
-    <script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/X2Hy6G" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
-
 === "Shopify"
 
     ![how_to_recommend_products_decision_tree_V2](/images/how_to_recommend_products_decision_tree_V2.png)
@@ -329,6 +323,13 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
     !!! info
 
         Not sure how to set up your recommendations? [Take the quiz and find out!](https://skincarequiz.myshopify.com/#quiz-LKPc6j)
+
+
+=== "Shopify (Legacy)"
+
+    Check the quiz to learn how to build the quiz outcome you want or consult the *How-to* guides listed below.
+
+    <script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/X2Hy6G" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
 
 === "WooCommerce"
 
@@ -388,6 +389,15 @@ It is possible to limit the number of recommended products on the results page b
 
 ### Recommend Subscription Products
 
+=== "Shopify"
+
+    The new RevenueHunt app for Shopify doesn't yet support recommending subscription products.
+
+    Check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+
+    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#other-subscriptions)
+
+
 === "Shopify (Legacy)"
 
 
@@ -398,14 +408,6 @@ It is possible to limit the number of recommended products on the results page b
     For other subscription apps check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/)
-
-=== "Shopify"
-
-    The new RevenueHunt app for Shopify doesn't yet support recommending subscription products.
-
-    Check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
-
-    [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#other-subscriptions)
 
 === "WooCommerce"
 
@@ -452,6 +454,13 @@ It is possible to limit the number of recommended products on the results page b
 
 ### Show Results Explanation
 
+=== "Shopify"
+
+    While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product.
+
+    To show an text that explains why a certain product was recommended, follow the guide for [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) if you're building a personality-type quiz or [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) if you're building a quiz with a lot of logic conditions, precise rules, or exceptions. 
+
+
 === "Shopify (Legacy)" 
 
     While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
@@ -459,12 +468,6 @@ It is possible to limit the number of recommended products on the results page b
     If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless eCommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
-
-=== "Shopify"
-
-    While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product.
-
-    To show an text that explains why a certain product was recommended, follow the guide for [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) if you're building a personality-type quiz or [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) if you're building a quiz with a lot of logic conditions, precise rules, or exceptions. 
 
 === "WooCommerce" 
 

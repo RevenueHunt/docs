@@ -1,5 +1,23 @@
 # Plans & Pricing
 
+=== "Shopify"
+
+    
+    ![manual_shopifyv2_plans](/images/manual_shopifyv2_plans.png)
+
+    `Your current plan` - Displays the current plan you are on.
+
+    `Manage` - click to cancel your current plan.
+
+    `Billing period` - Choose between monthly or yearly billing.
+
+    `Plan details` - Click to view the details of all the pricing plans, what is the fee, response limit, and cost per response.
+
+    `Upgrade` - Click to upgrade to a paid plan.
+
+
+
+
 === "Shopify (Legacy)"
 
     ![plans & pricing page](/images/manual_plans_pricing.png)
@@ -17,23 +35,6 @@
     !!! note
 
         Payments are handled directly by Shopify. You should see app charges on your Shopify bill.
-
-=== "Shopify"
-
-    
-    ![manual_shopifyv2_plans](/images/manual_shopifyv2_plans.png)
-
-    `Your current plan` - Displays the current plan you are on.
-
-    `Manage` - click to cancel your current plan.
-
-    `Billing period` - Choose between monthly or yearly billing.
-
-    `Plan details` - Click to view the details of all the pricing plans, what is the fee, response limit, and cost per response.
-
-    `Upgrade` - Click to upgrade to a paid plan.
-
-
 
 === "WooCommerce"
 
@@ -136,11 +137,12 @@
 ## How to change my billing details?
 
 
-=== "Shopify (Legacy)"       
+=== "Shopify"
 
     Since Shopify handles the payments, you can change your billing details directly in your Shopify payments.
 
-=== "Shopify"
+
+=== "Shopify (Legacy)"       
 
     Since Shopify handles the payments, you can change your billing details directly in your Shopify payments.
 

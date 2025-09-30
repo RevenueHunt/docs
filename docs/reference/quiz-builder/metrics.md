@@ -1,10 +1,11 @@
 # Metrics
 
-=== "Shopify (Legacy)"
+=== "Shopify"
 
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
-=== "Shopify"
+
+=== "Shopify (Legacy)"
 
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
@@ -25,58 +26,6 @@
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
 ## Responses
-
-=== "Shopify (Legacy)"
-
-    ![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
-
-    On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
-
-    `Export all as CSV` - Click to generate a CSV file with all the quiz responses from the last 90 days. Once ready, a downloadable link will show up on your dashboard once the CSV file is finished generating.
-
-    ![quiz builder metrics responses details1](/images/manual_quizbuilder_metrics_responses_details1.png)
-
-    `Why was a product recommended or not in this response?` - This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
-
-    `SELECT PRODUCT TO CHECK` - Click to select a product from the catalog and analyze it against the response.
-
-    `Responses to Questions` - This section displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question.
-
-    ![quiz builder metrics responses details2 products](/images/manual_quizbuilder_metrics_responses_details2_products.png)
-
-    `Results Page 1` - Displays the name of the results page recommended.
-
-    `Products` - Products were recommended in a Product block.
-
-    `↑1 🎁6` - Minimum number of votes that allow the product to be shown in this product block: 1; Maximum number of products that are allowed to be shown in this product block: 6.
-
-    `Kopi Luwak Coffee` / `Product name` - Displays the name of the product recommended in this product block. Hover over the product to see how many upvotes it received in the quiz.
-
-    ![quiz builder metrics responses details2 slots](/images/manual_quizbuilder_metrics_responses_details2_slots.png)
-
-    `Results Page 1` - Displays the name of the results page recommended.
-
-    `Slots` - Products were recommended in a Slots block.
-
-    `Step 1: Cleanser` / `Slot Title` - Displays the title of the Slot block.
-
-    `↑1 🎁1` - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
-
-    `✅5` - Displays which products this slot will allow to be displayed.
-
-    `Cleansers (5)` / `Collection (x)` - Displays the collections which are linked to this slot.
-
-    `All Natural Face Cleanser` - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
-
-    ![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
-
-    `Customer Tags` - Displays the customer tags that were recorded in this response.
-
-    `Preview Results` - Displays a preview link which opens this response on the results page.
-
-    `recalculate recommendations` - Recalculate the responses according to the current quiz setup.
-
-    `resend notifications` - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
 
 === "Shopify"
 
@@ -184,6 +133,59 @@
 
     `Recommendations` - Final products shown to the user.
 
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
+
+    On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+
+    `Export all as CSV` - Click to generate a CSV file with all the quiz responses from the last 90 days. Once ready, a downloadable link will show up on your dashboard once the CSV file is finished generating.
+
+    ![quiz builder metrics responses details1](/images/manual_quizbuilder_metrics_responses_details1.png)
+
+    `Why was a product recommended or not in this response?` - This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
+
+    `SELECT PRODUCT TO CHECK` - Click to select a product from the catalog and analyze it against the response.
+
+    `Responses to Questions` - This section displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question.
+
+    ![quiz builder metrics responses details2 products](/images/manual_quizbuilder_metrics_responses_details2_products.png)
+
+    `Results Page 1` - Displays the name of the results page recommended.
+
+    `Products` - Products were recommended in a Product block.
+
+    `↑1 🎁6` - Minimum number of votes that allow the product to be shown in this product block: 1; Maximum number of products that are allowed to be shown in this product block: 6.
+
+    `Kopi Luwak Coffee` / `Product name` - Displays the name of the product recommended in this product block. Hover over the product to see how many upvotes it received in the quiz.
+
+    ![quiz builder metrics responses details2 slots](/images/manual_quizbuilder_metrics_responses_details2_slots.png)
+
+    `Results Page 1` - Displays the name of the results page recommended.
+
+    `Slots` - Products were recommended in a Slots block.
+
+    `Step 1: Cleanser` / `Slot Title` - Displays the title of the Slot block.
+
+    `↑1 🎁1` - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
+
+    `✅5` - Displays which products this slot will allow to be displayed.
+
+    `Cleansers (5)` / `Collection (x)` - Displays the collections which are linked to this slot.
+
+    `All Natural Face Cleanser` - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
+
+    ![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
+
+    `Customer Tags` - Displays the customer tags that were recorded in this response.
+
+    `Preview Results` - Displays a preview link which opens this response on the results page.
+
+    `recalculate recommendations` - Recalculate the responses according to the current quiz setup.
+
+    `resend notifications` - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
 
 === "WooCommerce"
 
@@ -395,6 +397,47 @@
 
 ## Analytics
 
+=== "Shopify"
+
+    Access the Analytics from the [Dashboard](/reference/dashboard/). You can open the Analytics tab from the Shopify side menu.
+
+    ![manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard_sidemenu](/images/manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard_sidemenu.png)
+    
+    or pick a quiz and click the  `...` to open the quiz menu. From the list pick and click on `Analytics`.
+
+    ![manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard1](/images/manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard1.png)
+
+    The Analytics tab will open with the data for the selected quiz.
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
+
+    The data in the graphs are totals in a selected period of time for a selected quiz. 
+
+    Click the `Quiz name` to change the quiz.
+
+    `Today` / `Last 90 days` - To change the dates click on the `Today`/ `Last 90 days` button. You can change the period to select it from the moment you started using the quiz or from a given date.
+
+    `No comparison` - Choose how you want to compare the data in the graphs. 
+
+    `Auto-refresh` - The data will refresh ever 60 seconds. Otherwise, the data is updated every 24 hours.
+
+    `Quiz Starts` - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). 
+
+    `Quiz Responses` - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.
+
+    `Numer of carts` - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button.
+
+    `Total carts value` - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout.
+
+    `Number of orders` - Number of people who have placed an order after completing this quiz. 
+
+    `Total orders value` - Total value of orders placed after taking this quiz.
+
+    !!! warning "Note"
+
+        To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [Integrations](https://docs.revenuehunt.com/how-to-guides/send-leads-to-shopify-customers/) tab.
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder metrics analytics](/images/manual_quizbuilder_metrics_analytics.png)
@@ -440,46 +483,6 @@
     `Total Orders Value` - Total value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
     `Avg. Order Value` - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
-
-=== "Shopify"
-
-    Access the Analytics from the [Dashboard](/reference/dashboard/). You can open the Analytics tab from the Shopify side menu.
-
-    ![manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard_sidemenu](/images/manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard_sidemenu.png)
-    
-    or pick a quiz and click the  `...` to open the quiz menu. From the list pick and click on `Analytics`.
-
-    ![manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard1](/images/manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard1.png)
-
-    The Analytics tab will open with the data for the selected quiz.
-
-    ![manual_shopifyV2_quizbuilder_metrics_analytics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
-
-    The data in the graphs are totals in a selected period of time for a selected quiz. 
-
-    Click the `Quiz name` to change the quiz.
-
-    `Today` / `Last 90 days` - To change the dates click on the `Today`/ `Last 90 days` button. You can change the period to select it from the moment you started using the quiz or from a given date.
-
-    `No comparison` - Choose how you want to compare the data in the graphs. 
-
-    `Auto-refresh` - The data will refresh ever 60 seconds. Otherwise, the data is updated every 24 hours.
-
-    `Quiz Starts` - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). 
-
-    `Quiz Responses` - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.
-
-    `Numer of carts` - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button.
-
-    `Total carts value` - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout.
-
-    `Number of orders` - Number of people who have placed an order after completing this quiz. 
-
-    `Total orders value` - Total value of orders placed after taking this quiz.
-
-    !!! warning "Note"
-
-        To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [Integrations](https://docs.revenuehunt.com/how-to-guides/send-leads-to-shopify-customers/) tab.
 
 === "WooCommerce"
 
@@ -667,6 +670,11 @@
 
 ## Drop-off
 
+=== "Shopify"
+
+    Coming Soon
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
@@ -684,10 +692,6 @@
     `chart` - Displays the dropoff rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
-
-=== "Shopify"
-
-    Coming Soon
 
 === "WooCommerce"
 

@@ -1,13 +1,5 @@
 # Connect / Integrations
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder connect](/images/manual_quizbuilder_connect.png)
-
-    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
-
-    To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
-
 === "Shopify"
 
      In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. 
@@ -36,6 +28,15 @@
     !!! info
 
         [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) connect directly to the property set up in your store. If you have not set up tracking for your store yet, you should do it before connecting the quiz to these services.
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder connect](/images/manual_quizbuilder_connect.png)
+
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+
+    To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
 === "WooCommerce"
 

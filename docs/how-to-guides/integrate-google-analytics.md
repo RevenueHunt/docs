@@ -4,12 +4,6 @@ icon: material/google-analytics
 
 # How to Track Quiz Performance with Google Analytics
 
-=== "Shopify (Legacy)"
-
-    To track quiz performance with Google Analytics in Shopify (legacy), you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
-
-    This article explains how to track quiz events and performance in Google Analytics.
-
 === "Shopify"
 
     Google Analytics offers a powerful way to gain insights into user engagement with your quizzes. Linking your quiz with Google Analytics can provide valuable data on user interaction, pinpoint engagement issues, and help minimize abandonment rates. 
@@ -19,6 +13,13 @@ icon: material/google-analytics
     This article will guide you through the process of connecting your quiz to Google Analytics and tracking quiz events.
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/4f4960d62ead431b8f8fa785287df760?sid=cb45da59-66f5-48c4-a665-41ff5056d009" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+
+=== "Shopify (Legacy)"
+
+    To track quiz performance with Google Analytics in Shopify (legacy), you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
+
+    This article explains how to track quiz events and performance in Google Analytics.
 
 === "WooCommerce"       
 
@@ -47,67 +48,6 @@ icon: material/google-analytics
 
 
 ## Connect Quiz to Google Analytics
-
-=== "Shopify (Legacy)"
-
-
-    !!! note
-
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
-
-    To track quiz events and performance in Google Analytics, you'll need to implement custom JavaScript tracking to your website, preferably the page where the quiz is embeded.
-
-    To implement custom event tracking for your quiz, follow these steps:
-
-    1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
-
-    2. **Embed the Custom Script**: Add the following script to your store's theme where the quiz is featured (preferably sitewide in your theme's main template file):
-        ```html
-        <script>
-        function prqQuizCallback(quizResponse){
-            gtag('event', 'your_event_name', {
-            'event_category': 'quiz',
-            'event_label': 'specific_label',
-            'value': quizResponse.someValue
-            });
-        }
-        </script>
-        ``` 
-
-    3. **Customize Event Tracking**: Modify the script with appropriate event names, labels, and values to track specific user actions. For example:
-        ```html
-        <script>
-        function prqQuizCallback(quizResponse){
-            // Track quiz start
-            if(quizResponse.type === 'quiz_started') {
-                gtag('event', 'quiz_start', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.quizName
-                });
-            }
-            
-            // Track question answers
-            if(quizResponse.type === 'question_answered') {
-                gtag('event', 'question_answer', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.questionTitle,
-                    'value': quizResponse.answer
-                });
-            }
-            
-            // Track quiz completion
-            if(quizResponse.type === 'quiz_completed') {
-                gtag('event', 'quiz_complete', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.quizName
-                });
-            }
-        }
-        </script>
-        ```
-
-    4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
-
 
 === "Shopify"
 
@@ -177,6 +117,68 @@ icon: material/google-analytics
             </script>
             ```
         4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
+
+
+
+=== "Shopify (Legacy)"
+
+
+    !!! note
+
+        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+
+    To track quiz events and performance in Google Analytics, you'll need to implement custom JavaScript tracking to your website, preferably the page where the quiz is embeded.
+
+    To implement custom event tracking for your quiz, follow these steps:
+
+    1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
+
+    2. **Embed the Custom Script**: Add the following script to your store's theme where the quiz is featured (preferably sitewide in your theme's main template file):
+        ```html
+        <script>
+        function prqQuizCallback(quizResponse){
+            gtag('event', 'your_event_name', {
+            'event_category': 'quiz',
+            'event_label': 'specific_label',
+            'value': quizResponse.someValue
+            });
+        }
+        </script>
+        ``` 
+
+    3. **Customize Event Tracking**: Modify the script with appropriate event names, labels, and values to track specific user actions. For example:
+        ```html
+        <script>
+        function prqQuizCallback(quizResponse){
+            // Track quiz start
+            if(quizResponse.type === 'quiz_started') {
+                gtag('event', 'quiz_start', {
+                    'event_category': 'quiz',
+                    'event_label': quizResponse.quizName
+                });
+            }
+            
+            // Track question answers
+            if(quizResponse.type === 'question_answered') {
+                gtag('event', 'question_answer', {
+                    'event_category': 'quiz',
+                    'event_label': quizResponse.questionTitle,
+                    'value': quizResponse.answer
+                });
+            }
+            
+            // Track quiz completion
+            if(quizResponse.type === 'quiz_completed') {
+                gtag('event', 'quiz_complete', {
+                    'event_category': 'quiz',
+                    'event_label': quizResponse.quizName
+                });
+            }
+        }
+        </script>
+        ```
+
+    4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
 
 
 === "WooCommerce"
@@ -422,15 +424,6 @@ icon: material/google-analytics
 
 ## Track Customer Behavior (Events)
 
-=== "Shopify (Legacy)"
-
-    Once set up, you'll be able to see customer events in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
-
-    ![how to ga events](/images/how_to_shopifyv2_events.png)
-
-    If you're not seeing the events, please double-check the code you've added to the page where the quiz is embeded. 
-
-
 === "Shopify"
 
     You'll be able to see quiz usage and customer behavior in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
@@ -456,6 +449,16 @@ icon: material/google-analytics
     | Customer adds a product to cart (via "add to cart" or "add all to cart" buttons) | product_added_to_cart_{product_name} | product_name |
     | Customer proceeds to cart/checkout                                  | proceed_to_checkout_{quiz_name} | quiz_name |
     | Customer retakes quiz                                               | retake_quiz_{quiz_name} | quiz_name |
+
+
+=== "Shopify (Legacy)"
+
+    Once set up, you'll be able to see customer events in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
+
+    ![how to ga events](/images/how_to_shopifyv2_events.png)
+
+    If you're not seeing the events, please double-check the code you've added to the page where the quiz is embeded. 
+
 
 === "WooCommerce"
 
@@ -490,12 +493,6 @@ icon: material/google-analytics
     If you're not seeing the events, please double-check the code you've added to the page where the quiz is embeded.  
 
 ## Track Quiz Revenue
-
-=== "Shopify (Legacy)"
-
-    Depending on the custom events that you've programed in the [first step](/how-to-guides/integrate-google-analytics/#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
-
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or expolre the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 
 === "Shopify"
 
@@ -559,6 +556,13 @@ icon: material/google-analytics
 
     ![how to ga events](/images/how_to_ga_events.png)
 
+
+=== "Shopify (Legacy)"
+
+    Depending on the custom events that you've programed in the [first step](/how-to-guides/integrate-google-analytics/#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
+
+    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or expolre the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
+
 === "WooCommerce"
 
 
@@ -591,24 +595,6 @@ icon: material/google-analytics
 
 ## Use GA4 Explorations
 
-
-=== "Shopify (Legacy)"
-
-    Google Analytics 4 (GA4) offers **Explorations**, a powerful tool for digging deeper into your quiz data. Standard reports show you high-level trends, but Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
-
-    With Explorations, you can:
-
-    - **Compare quiz users vs. all users**. See how much revenue is generated by customers who start a quiz compared to those who don’t.
-
-    - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
-
-    - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
-
-    - **Analyze user paths**. Discover what customers do after completing your quiz—do they view recommended products, add to cart, or head straight to checkout?
-
-    - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
-
-    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
 
 === "Shopify"
 
@@ -698,6 +684,25 @@ icon: material/google-analytics
             - If your quiz is on a dedicated page: Create a **Session/User segment**: include users where **Page location contains `/pages/skin-quiz`**.
                 This shows revenue for anyone visiting that quiz page.
 
+
+
+=== "Shopify (Legacy)"
+
+    Google Analytics 4 (GA4) offers **Explorations**, a powerful tool for digging deeper into your quiz data. Standard reports show you high-level trends, but Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
+
+    With Explorations, you can:
+
+    - **Compare quiz users vs. all users**. See how much revenue is generated by customers who start a quiz compared to those who don’t.
+
+    - **Break down results by quiz**. If you run multiple quizzes, use Explorations to see which quiz names bring in the most purchases and revenue.
+
+    - **Build funnels**. Visualize the full journey from *quiz\_started* → *results\_page\_viewed* → *product\_added\_to\_cart* → *purchase*, and spot where users drop off.
+
+    - **Analyze user paths**. Discover what customers do after completing your quiz—do they view recommended products, add to cart, or head straight to checkout?
+
+    - **Create segments and audiences**. Build an audience of “Quiz Users” for ongoing analysis or remarketing in Google Ads.
+
+    Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
 
 === "WooCommerce"
 

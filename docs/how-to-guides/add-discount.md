@@ -5,14 +5,6 @@ icon: material/sale
 # How to Add a Discount to Your Quiz
 
 
-=== "Shopify (Legacy)"
-
-    Adding discount coupons into your quiz allows customers to enjoy special offers on the results page or through a follow-up email. 
-
-    ![how to add a discount example](/images/how_to_add_a_discount_example.png){width="300"}
-
-    This guide explains how to implement Discount Coupons for Checkout with the RevenueHunt app.
-
 === "Shopify"
 
     With the Built for Shopify version of the RevenueHunt app, it is possible to:
@@ -23,6 +15,15 @@ icon: material/sale
 
     If you have a discount applied to certain products in your store via Shopify Products, these reduced prices will be reflected in the quiz results page automatically. Otherwise, the discount code will be applied automatically at checkout and *reduced prices will be visible at checkout stage only*.
 
+
+
+=== "Shopify (Legacy)"
+
+    Adding discount coupons into your quiz allows customers to enjoy special offers on the results page or through a follow-up email. 
+
+    ![how to add a discount example](/images/how_to_add_a_discount_example.png){width="300"}
+
+    This guide explains how to implement Discount Coupons for Checkout with the RevenueHunt app.
 
 === "WooCommerce"
 
@@ -57,6 +58,90 @@ icon: material/sale
     This guide explains how to implement Discount Coupons for Checkout with the RevenueHunt app.
 
 ## Set Up Discount on the Results Page
+
+=== "Shopify"
+
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/7757e70c795f469fb89e08d340128ef2?sid=097777bc-fd8d-4c5b-b077-3cc00ac0317d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    ### Automatic Discount Code
+
+    You can add a discount code to be applied automatically at checkout when users finish the quiz and proceed to cart.
+
+    !!! warning "Create a Discount Code in Shopify"
+
+        You need to create a discount code in Shopify first before adding it to the quiz results page.
+
+    1. **Create a Discount Code in Shopify**: You need to create a discount code in Shopify first before adding it to the quiz results page.
+
+        - Navigate to the Shopify admin panel and select the `Discounts` tab.
+        - Click on `Create Discount` to set up a new discount code.
+        - Choose the type of discount (e.g., percentage, fixed amount). Enter a discount code name (e.g., `quiz123`) or specify the discount amount (e.g., 20%).
+        - Select applicable products from your catalog.
+        - Save the discount settings and copy the discount code.
+
+        ![how to add discount in shopify](https://loom.com/i/f7b4f7a482ea4dab8c0b23370bce4c68?workflows_screenshot=true)
+
+    2. **Configuring the Discount Code in Quiz Results Page**: You need to configure the discount code in the quiz results page before it can be applied automatically at checkout.
+
+        - Open the RevenueHunt Quizzes app and open your quiz by clicking `Customize`.
+        - Navigate to the ['Results page > Results page settings'](/reference/quiz-builder/results-page/#results-page-settings) by clicking on the Results page name.
+        - Scroll to the `Discount code` settings section.
+        - Paste the copied discount code from Shopify into the designated field.
+
+        ![how to add discount automatic](https://loom.com/i/7ae5a8e6a81e4836a0c4c8e7fa9bd66f?workflows_screenshot=true)
+
+        - Save the changes with the top-right `Save` button to apply the discount code to the quiz results.
+
+    3. **Testing the Discount Code**: Test the live quiz to ensure the discount code is applied correctly at checkout.
+
+        - After setting up the discount code, visit your website and take a sample quiz.
+        - Proceed to the cart and then to checkout.
+        - Verify that the discount code `quiz123` is automatically applied to eligible products in the cart.
+
+        ![how to add discount automatic checkout](https://loom.com/i/79773fc2fa9241dab298e8de28aa1b35?workflows_screenshot=true)
+
+        !!! warning "Discount Code only works on live quiz"
+        
+            The discount code will be applied automatically at checkout only. The discount will not be visible on quiz preview.
+
+    ### Discount Code as Text
+
+    You can add a discount code as text within a [text block](/reference/quiz-builder/results-page/#text) on the quiz Results page. Users will be able to copy and paste the discount code at checkout.
+
+    1. Open the [Results Page](/reference/quiz-builder/results-page/).
+    2. Click on `Add block`.
+    3. Select `Text` block.
+    4. Add the discount code to the text field.
+    5. Save the changes with the top-right `Save` button.
+
+    ![how to add discount text block](/images/how_to_shopifyv2_add_discount_as_text.png)
+
+
+    ### Discount Code with JavaScript
+
+    !!! tip "Check JavaScript guide"
+
+        Check this article to learn how to add custom JavaScript to the results page: [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
+
+    You can use JavaScript to add a discount code to the results page.
+
+    1. Open the [Results Page](/reference/quiz-builder/results-page/).
+    2. Open the Results Page settings.
+    3. Scroll down to the `Custom JavaScript` section.
+    4. Ask your developer to use the `await Quiz.applyDiscountCode()` function to apply the discount code to the Custom JavaScript block. 
+
+        !!! tip "Get help with custom JavaScript"
+
+            Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
+
+    5. Save the changes with the top-right `Save` button.
+    
+
+    !!! info "Products Discounted in Shopify Products"
+    
+        If you have a discount applied to certain products in your store, these reduced prices will be reflected in the quiz results page automatically.
+
 
 === "Shopify (Legacy)"
 
@@ -144,89 +229,6 @@ icon: material/sale
         ```
         to add a custom coupon or a discount code to the results page and apply it to all the products. Note, that this coupon code needs to be first set up in your store.
 
-
-=== "Shopify"
-
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/7757e70c795f469fb89e08d340128ef2?sid=097777bc-fd8d-4c5b-b077-3cc00ac0317d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    ### Automatic Discount Code
-
-    You can add a discount code to be applied automatically at checkout when users finish the quiz and proceed to cart.
-
-    !!! warning "Create a Discount Code in Shopify"
-
-        You need to create a discount code in Shopify first before adding it to the quiz results page.
-
-    1. **Create a Discount Code in Shopify**: You need to create a discount code in Shopify first before adding it to the quiz results page.
-
-        - Navigate to the Shopify admin panel and select the `Discounts` tab.
-        - Click on `Create Discount` to set up a new discount code.
-        - Choose the type of discount (e.g., percentage, fixed amount). Enter a discount code name (e.g., `quiz123`) or specify the discount amount (e.g., 20%).
-        - Select applicable products from your catalog.
-        - Save the discount settings and copy the discount code.
-
-        ![how to add discount in shopify](https://loom.com/i/f7b4f7a482ea4dab8c0b23370bce4c68?workflows_screenshot=true)
-
-    2. **Configuring the Discount Code in Quiz Results Page**: You need to configure the discount code in the quiz results page before it can be applied automatically at checkout.
-
-        - Open the RevenueHunt Quizzes app and open your quiz by clicking `Customize`.
-        - Navigate to the ['Results page > Results page settings'](/reference/quiz-builder/results-page/#results-page-settings) by clicking on the Results page name.
-        - Scroll to the `Discount code` settings section.
-        - Paste the copied discount code from Shopify into the designated field.
-
-        ![how to add discount automatic](https://loom.com/i/7ae5a8e6a81e4836a0c4c8e7fa9bd66f?workflows_screenshot=true)
-
-        - Save the changes with the top-right `Save` button to apply the discount code to the quiz results.
-
-    3. **Testing the Discount Code**: Test the live quiz to ensure the discount code is applied correctly at checkout.
-
-        - After setting up the discount code, visit your website and take a sample quiz.
-        - Proceed to the cart and then to checkout.
-        - Verify that the discount code `quiz123` is automatically applied to eligible products in the cart.
-
-        ![how to add discount automatic checkout](https://loom.com/i/79773fc2fa9241dab298e8de28aa1b35?workflows_screenshot=true)
-
-        !!! warning "Discount Code only works on live quiz"
-        
-            The discount code will be applied automatically at checkout only. The discount will not be visible on quiz preview.
-
-    ### Discount Code as Text
-
-    You can add a discount code as text within a [text block](/reference/quiz-builder/results-page/#text) on the quiz Results page. Users will be able to copy and paste the discount code at checkout.
-
-    1. Open the [Results Page](/reference/quiz-builder/results-page/).
-    2. Click on `Add block`.
-    3. Select `Text` block.
-    4. Add the discount code to the text field.
-    5. Save the changes with the top-right `Save` button.
-
-    ![how to add discount text block](/images/how_to_shopifyv2_add_discount_as_text.png)
-
-
-    ### Discount Code with JavaScript
-
-    !!! tip "Check JavaScript guide"
-
-        Check this article to learn how to add custom JavaScript to the results page: [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
-
-    You can use JavaScript to add a discount code to the results page.
-
-    1. Open the [Results Page](/reference/quiz-builder/results-page/).
-    2. Open the Results Page settings.
-    3. Scroll down to the `Custom JavaScript` section.
-    4. Ask your developer to use the `await Quiz.applyDiscountCode()` function to apply the discount code to the Custom JavaScript block. 
-
-        !!! tip "Get help with custom JavaScript"
-
-            Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
-
-    5. Save the changes with the top-right `Save` button.
-    
-
-    !!! info "Products Discounted in Shopify Products"
-    
-        If you have a discount applied to certain products in your store, these reduced prices will be reflected in the quiz results page automatically.
 
 === "WooCommerce"
 
@@ -341,21 +343,22 @@ icon: material/sale
 
 ## Include Discount Codes in Follow-Up Emails
 
-=== "Shopify (Legacy)"
-
-    To further personalize the customer experience, you can incorporate the discount code within the follow-up email and results page. This allows customers to conveniently copy and paste the code at checkout.
-
-    Simply go to the [Quiz Builder](/reference/quiz-builder/), find the [Notifications > TO RESPONDENT](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
-
-    !!! info
-
-        Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
-
 === "Shopify"
 
     To further personalize the customer experience, you can incorporate the discount code within the follow-up email sent to the customer with quiz results. This allows customers to conveniently copy and paste the code at checkout.
 
     Simply go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [Emails to respondents](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
+
+    !!! info
+
+        Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
+
+
+=== "Shopify (Legacy)"
+
+    To further personalize the customer experience, you can incorporate the discount code within the follow-up email and results page. This allows customers to conveniently copy and paste the code at checkout.
+
+    Simply go to the [Quiz Builder](/reference/quiz-builder/), find the [Notifications > TO RESPONDENT](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
 
     !!! info
 
@@ -403,6 +406,13 @@ icon: material/sale
 
 ## Apply Discount Only if Customer Leaves Their Email
 
+=== "Shopify"
+
+    It is not currently possible to add discount coupons into your quiz built with the new version of the RevenueHunt app for Shopify. 
+    
+    If you have a discount applied to certain products in your store, these reduced prices will be reflected in the quiz results page automatically.
+
+
 === "Shopify (Legacy)"
 
     In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
@@ -440,12 +450,6 @@ icon: material/sale
     7. **SECOND JUMP LOGIC – EMAIL QUESTION**: Next, you’ll have to add Jump Logic to the email question. In this case, it is enough to always send the customer to the *Results Page 2 (discount)* with the `Always Jump to...` function.
         ![how to add discount jump logic 2](/images/how_to_add_discount_jump_logic_2.png)
     8. **Test the quiz**: Once the discounts are set up, update the preview/live quiz with the `Publish` button. Then, test the quiz by clicking the `Preview` button in the top right corner of the app.
-
-=== "Shopify"
-
-    It is not currently possible to add discount coupons into your quiz built with the new version of the RevenueHunt app for Shopify. 
-    
-    If you have a discount applied to certain products in your store, these reduced prices will be reflected in the quiz results page automatically.
 
 === "WooCommerce"
 

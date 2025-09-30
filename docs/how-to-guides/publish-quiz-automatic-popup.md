@@ -20,27 +20,6 @@ This guide walks you through setting up automatic popups on your eCommerce store
 !!! info "What's an Automatic Popup Quiz on the Main Page?"
     It's a quiz popup that appears after X seconds on the main page of your store. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
 
-=== "Shopify (Legacy)"
-
-    **Option 1: Through Shopify Theme**
-
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/ZAK781-T1Z8?si=NAy4XjfDeisEw0w-" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
-    2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
-    3. **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID, adjust settings, and activate the toggle.
-    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-
-    **Option 2: Manual**
-
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode, and `Show Instructions for Legacy Themes`.
-    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
-    4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
-    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/880f7b6a3db24435a1538b87ddc56bd4?sid=2de0509f-30fc-446c-8ccd-bd657fcc66eb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -69,6 +48,28 @@ This guide walks you through setting up automatic popups on your eCommerce store
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
         If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+
+
+=== "Shopify (Legacy)"
+
+    **Option 1: Through Shopify Theme**
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/ZAK781-T1Z8?si=NAy4XjfDeisEw0w-" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+    2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
+    3. **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID, adjust settings, and activate the toggle.
+    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+
+    **Option 2: Manual**
+
+    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode, and `Show Instructions for Legacy Themes`.
+    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
+    3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
+    4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
+    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
 === "WooCommerce"
 
@@ -132,13 +133,6 @@ This guide walks you through setting up automatic popups on your eCommerce store
     It's a quiz popup that appears after X seconds on a specifc page of your store. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
 
 
-=== "Shopify (Legacy)"
-
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
-    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    3. **Embed Code on Page**: In Shopify, go to `Online Store > Pages`, select the page, click `Show HTML`, and paste the popup code.
-    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/101aaaaa8adf4eda82066581dd7e3cd7?sid=4d52599b-cb29-475d-9ecd-a1eeb813ec5d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -175,6 +169,14 @@ This guide walks you through setting up automatic popups on your eCommerce store
 
         If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
 
+
+
+=== "Shopify (Legacy)"
+
+    1. **Obtain Automatic Embed Code**: From the quiz builder, click `Share`, select `Automatic` mode, and `Show Instructions for Legacy Themes`.
+    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
+    3. **Embed Code on Page**: In Shopify, go to `Online Store > Pages`, select the page, click `Show HTML`, and paste the popup code.
+    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
 === "WooCommerce"
 
@@ -237,14 +239,6 @@ This guide walks you through setting up automatic popups on your eCommerce store
 !!! info "What's an Automatic Popup Quiz on All Pages?"
     It's a quiz popup that appears after X seconds on all pages of your store that have the same template/theme applied. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
 
-=== "Shopify (Legacy)"
-
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select `Automatic` mode, and `Show Instructions for Legacy Themes`.
-    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
-    3. **Edit Theme's Source Code**: Navigate to `Online Store > Themes`, click `Actions > Edit Code` to access the theme editor.
-    4. **Locate and Edit File**: Find the `</body>` tag in `theme.liquid` or `footer.liquid`. Paste the popup code just before this tag.
-    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/880f7b6a3db24435a1538b87ddc56bd4?sid=2de0509f-30fc-446c-8ccd-bd657fcc66eb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -275,6 +269,15 @@ This guide walks you through setting up automatic popups on your eCommerce store
 
         If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
 
+
+
+=== "Shopify (Legacy)"
+
+    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select `Automatic` mode, and `Show Instructions for Legacy Themes`.
+    2. **Generate Popup Code**: Adjust settings like popup duration, width or height and click `Get code` to generate an HTML code.
+    3. **Edit Theme's Source Code**: Navigate to `Online Store > Themes`, click `Actions > Edit Code` to access the theme editor.
+    4. **Locate and Edit File**: Find the `</body>` tag in `theme.liquid` or `footer.liquid`. Paste the popup code just before this tag.
+    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
 === "WooCommerce"
 
@@ -355,10 +358,6 @@ This guide walks you through setting up automatic popups on your eCommerce store
 
 ### Open a Specific Quiz
 
-=== "Shopify (Legacy)"
-
-    To open a specific quiz as an automatic popup, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
-    
 === "Shopify"
 
     By default when add an automatic popup, the default quiz for your store will show. 
@@ -378,6 +377,11 @@ This guide walks you through setting up automatic popups on your eCommerce store
         Keep in mind that the Quiz ID is case-sensitive.
     
 
+
+=== "Shopify (Legacy)"
+
+    To open a specific quiz as an automatic popup, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
+    
 === "WooCommerce"
 
     To open a specific quiz as an automatic popup, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
@@ -397,23 +401,6 @@ This guide walks you through setting up automatic popups on your eCommerce store
 
 ### Show Popup on Exit Intent
 
-=== "Shopify (Legacy)"
-
-    **Option 1: Through Shopify Theme**
-
-    1. **Copy Quiz ID**: Go to your RevenueHunt [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
-    2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
-    3. **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID and activate the `Exit intent` option in your popup settings.
-    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-
-    **Option 2: Manual**
-
-    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode, and `Show Instructions for Legacy Themes`.
-    2. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
-    3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
-    4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
-    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-
 === "Shopify"
 
 
@@ -432,6 +419,24 @@ This guide walks you through setting up automatic popups on your eCommerce store
     4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
 
     The popup will now appear when visitors show exit intent (moving cursor towards closing the tab/window).
+
+
+=== "Shopify (Legacy)"
+
+    **Option 1: Through Shopify Theme**
+
+    1. **Copy Quiz ID**: Go to your RevenueHunt [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+    2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
+    3. **Embed Popup Quiz**: Select `Automatic Popup Quiz`, enter the Quiz ID and activate the `Exit intent` option in your popup settings.
+    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+
+    **Option 2: Manual**
+
+    1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode, and `Show Instructions for Legacy Themes`.
+    2. **Generate Popup Code**: Adjust settings and activate the `Exit intent` option in your popup settings. Click `Get code` to generate an HTML code.
+    3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
+    4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
+    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
 === "WooCommerce"
 
@@ -475,6 +480,11 @@ This guide walks you through setting up automatic popups on your eCommerce store
 
 ### Repeated Popup Displays per Session
 
+=== "Shopify"
+
+    It is not possible to show the popup more than once per session in Shopify V2 unless you activate the `Exit intent` option following the instructions [here](#show-popup-on-exit-intent).
+
+
 === "Shopify (Legacy)"
 
     1. **Obtain Automatic Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Automatic`](/reference/quiz-builder/share-publish/#automatic) mode, and `Show Instructions for Legacy Themes`.
@@ -488,10 +498,6 @@ This guide walks you through setting up automatic popups on your eCommerce store
     4. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
     5. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code.
     6. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-
-=== "Shopify"
-
-    It is not possible to show the popup more than once per session in Shopify V2 unless you activate the `Exit intent` option following the instructions [here](#show-popup-on-exit-intent).
 
 === "WooCommerce"
 
@@ -560,16 +566,6 @@ This guide walks you through setting up automatic popups on your eCommerce store
 
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
-=== "Shopify (Legacy)"
-
-    If you see the error message "The quiz you are looking for does not exist" when trying to activate an automatic popup quiz, follow these steps:
-
-    1. Go back to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    2. Go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**. Then in Shopify, go back to Online Store > Themes > Customize and under the `App Embeds` select the `Automatic Popup Quiz` option.
-    3. Paste the Quiz ID in the `Quiz ID` field. *Note: the Quiz ID is case-sensitive.*
-        ![how_to_publish_shipifyV2_V1publisherrorautomaticpopupv1](/images/how_to_publish_shipifyV2_V1publisherrorautomaticpopupv1.png)
-    4. Save your changes and refresh the page.
-    
 === "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
@@ -585,6 +581,17 @@ This guide walks you through setting up automatic popups on your eCommerce store
         To solve this simply deactivate the `Automatic Popup Quiz Legacy` and activate the `Automatic Popup Quiz` one. 
     2. Save the changes.
 
+
+=== "Shopify (Legacy)"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to activate an automatic popup quiz, follow these steps:
+
+    1. Go back to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    2. Go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**. Then in Shopify, go back to Online Store > Themes > Customize and under the `App Embeds` select the `Automatic Popup Quiz` option.
+    3. Paste the Quiz ID in the `Quiz ID` field. *Note: the Quiz ID is case-sensitive.*
+        ![how_to_publish_shipifyV2_V1publisherrorautomaticpopupv1](/images/how_to_publish_shipifyV2_V1publisherrorautomaticpopupv1.png)
+    4. Save your changes and refresh the page.
+    
 === "WooCommerce"
 
     If you see the error message "The quiz you are looking for does not exist" when trying to activate an automatic popup quiz, follow these steps:

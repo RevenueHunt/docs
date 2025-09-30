@@ -5,6 +5,27 @@ icon: material/lightbulb-question
 
 # How to Show Results Explanation
 
+=== "Shopify"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/2b244cde228e450c9908aed5459b99f2?sid=ab8b600e-5464-4c0a-b982-5a1e5627c994" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    While our [product recommendation algorithm](/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation text of **why** a certain product was recommended. It also won’t *automatically* display custom text depending on the recommended product. 
+    
+    However, there are a few easy ways to show such a custom result text/explanation with the new Built for Shopify version of the RevenueHunt app.
+
+    - The new Built for Shopify version of the RevenueHunt app allows you to set up different section on the results page with different text + product recommendations combinations. 
+    
+    - You can then use the [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) feature to tell each section when to be shown or hidden based on a customer answers, variable or a score.  
+    
+    - For this reason, it can be very easy to build a **"personality-type"** or **Dosha** quiz with our Built for Shopify solution.
+
+    !!! info
+    
+        To learn how to **use Display Logic** to show different sections on the results page, check [this guide](/how-to-guides/use-display-logic/).
+
+        You can also check [this guide](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) on settings up a quiz with the winning variable or [this guide](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) on how to set up a quiz with a custom scoring system. Both options are good for building a **personality-type** quiz.
+
+
 === "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c4cb6bce39a447cc860f8408adade0f4?sid=967d38f5-9c4b-47b0-b73d-41a2aae156d6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -151,26 +172,6 @@ icon: material/lightbulb-question
             Instructions on adding custom JavaScript to your Product Recommendation Quiz can be found [here](/how-to-guides/add-javascript/).
 
     4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
-
-=== "Shopify"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/2b244cde228e450c9908aed5459b99f2?sid=ab8b600e-5464-4c0a-b982-5a1e5627c994" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    While our [product recommendation algorithm](/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation text of **why** a certain product was recommended. It also won’t *automatically* display custom text depending on the recommended product. 
-    
-    However, there are a few easy ways to show such a custom result text/explanation with the new Built for Shopify version of the RevenueHunt app.
-
-    - The new Built for Shopify version of the RevenueHunt app allows you to set up different section on the results page with different text + product recommendations combinations. 
-    
-    - You can then use the [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) feature to tell each section when to be shown or hidden based on a customer answers, variable or a score.  
-    
-    - For this reason, it can be very easy to build a **"personality-type"** or **Dosha** quiz with our Built for Shopify solution.
-
-    !!! info
-    
-        To learn how to **use Display Logic** to show different sections on the results page, check [this guide](/how-to-guides/use-display-logic/).
-
-        You can also check [this guide](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) on settings up a quiz with the winning variable or [this guide](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) on how to set up a quiz with a custom scoring system. Both options are good for building a **personality-type** quiz.
 
 === "WooCommerce"
 

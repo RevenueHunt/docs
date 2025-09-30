@@ -27,16 +27,6 @@ There are two ways to create an external link to your quiz for emails and newsle
     An inline quiz on a dedicated landing page is a quiz widget embedded directly into a new page in your store. Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
 
 
-=== "Shopify (Legacy)"
-
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/Zy1ZFpdtLiQ?si=15XisaE-Y-9-6JTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode, and `Show Instructions for Legacy Themes` to copy the HTML embed code.
-    2. **Insert Quiz into Page**: Navigate to `Online Store > Pages` and select the page to embed the quiz. Click `Show HTML` and paste the embed code into the code editor.
-    3. **Single Quiz Per Page**: To avoid issues, embed only one quiz per page. If using a non-Shopify version of the quiz, ensure the `embed.js` code is added to your site's header.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d560a4cb8a9a42f89eec7cf8a9e94ca4?sid=8199a06a-4aab-41cf-ac6a-b5f8bdffedbe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -72,6 +62,17 @@ There are two ways to create an external link to your quiz for emails and newsle
     7. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
     
         Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
+
+
+=== "Shopify (Legacy)"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/Zy1ZFpdtLiQ?si=15XisaE-Y-9-6JTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    1. **Obtain Inline Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Inline`](/reference/quiz-builder/share-publish/#inline) mode, and `Show Instructions for Legacy Themes` to copy the HTML embed code.
+    2. **Insert Quiz into Page**: Navigate to `Online Store > Pages` and select the page to embed the quiz. Click `Show HTML` and paste the embed code into the code editor.
+    3. **Single Quiz Per Page**: To avoid issues, embed only one quiz per page. If using a non-Shopify version of the quiz, ensure the `embed.js` code is added to your site's header.
 
 === "WooCommerce"
 
@@ -142,18 +143,6 @@ There are two ways to create an external link to your quiz for emails and newsle
     It's a direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup on your website.
 
 
-=== "Shopify (Legacy)"
-
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/PkWI1OnP6gg?si=eTHrvNekv3WhUKOr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    1. **Activate App Embeds**: Go to `Online Store > Theme > Customize > App Embeds` in Shopify. Find the `Link Popup Quiz (Legacy)` option and toggle it on.
-    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the Quiz Builder, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile and `Show Instructions for legacy themes`. 
-    2. **Customize Popup Dimensions**: Input your desired dimensions for the width and height to optimize the viewer's experience.
-    3. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared via email.
-    4. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/2687bd6629c64e67b5d257d33683531d?sid=9aad21fe-47b0-4ec3-a231-4941e26768f7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -175,6 +164,19 @@ There are two ways to create an external link to your quiz for emails and newsle
 
         If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
 
+
+
+=== "Shopify (Legacy)"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/PkWI1OnP6gg?si=eTHrvNekv3WhUKOr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    1. **Activate App Embeds**: Go to `Online Store > Theme > Customize > App Embeds` in Shopify. Find the `Link Popup Quiz (Legacy)` option and toggle it on.
+    2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the Quiz Builder, then open the [`Email`](/reference/quiz-builder/share-publish/#email) tile and `Show Instructions for legacy themes`. 
+    2. **Customize Popup Dimensions**: Input your desired dimensions for the width and height to optimize the viewer's experience.
+    3. **Generate popup link**: Click on the `Get the code` button to create your unique quiz link. This link is now ready to be shared via email.
+    4. **Embed in Emails or Newsletters**: Copy the newly generated link. Paste it into the body of your emails or newsletters wherever you wish the quiz to appear.
 
 === "WooCommerce"
 
@@ -224,19 +226,6 @@ There are two ways to create an external link to your quiz for emails and newsle
 ### Open a Specific Quiz
 
 
-=== "Shopify (Legacy)"
-
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
-    
-    For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
-
-    !!! info "Quiz ID"
-
-        To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
-
-        Keep in mind that the Quiz ID is case-sensitive.
-
-
 === "Shopify"
 
     By default when you use `#quiz` as the link, the default quiz for your store will open. 
@@ -254,6 +243,20 @@ There are two ways to create an external link to your quiz for emails and newsle
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
 
         Keep in mind that the Quiz ID is case-sensitive.
+
+
+=== "Shopify (Legacy)"
+
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
+    
+    For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
+
+    !!! info "Quiz ID"
+
+        To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
+
+        Keep in mind that the Quiz ID is case-sensitive.
+
 
 === "WooCommerce"
 
@@ -308,15 +311,6 @@ There are two ways to create an external link to your quiz for emails and newsle
 
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
-=== "Shopify (Legacy)"
-
-    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
-
-    1. Go back to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    2. Go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**. Then in Shopify, go back to Online Store > Themes > Customize and under the `App Embeds` section active the `Link Popup Quiz`. 
-    3. Check the Quiz Link. Ensure that the link you've created is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*
-    4. Save your changes and refresh the page.
-    
 === "Shopify"
 
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
@@ -329,6 +323,16 @@ There are two ways to create an external link to your quiz for emails and newsle
         To solve this simply deactivate the `Link Popup Quiz Legacy` and activate the `Link Popup Quiz` one. Then, save the changes.
     2. Verify that the link is correctly formatted. Ensure that the link you've created is correctly formatted and it follows the format `#quiz`.
 
+
+=== "Shopify (Legacy)"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+
+    1. Go back to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    2. Go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**. Then in Shopify, go back to Online Store > Themes > Customize and under the `App Embeds` section active the `Link Popup Quiz`. 
+    3. Check the Quiz Link. Ensure that the link you've created is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*
+    4. Save your changes and refresh the page.
+    
 === "WooCommerce"
 
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:

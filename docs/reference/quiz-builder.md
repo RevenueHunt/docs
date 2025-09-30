@@ -1,5 +1,46 @@
 # Quiz Builder
 
+=== "Shopify"
+
+    ![manual_shopifyV2_quizbuilder](/images/manual_shopifyV2_quizbuilder.png)
+
+    Quiz Builder is composed of four sections: 
+
+    - 1️⃣ Quiz Builder Menu
+    - 2️⃣ Questions
+    - 3️⃣ Quiz Preview 
+    - 4️⃣ Question Settings
+    
+    **Quiz Builder Menu**
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_menu.png)
+
+    From this menu you can switch between the following sections: 
+
+    - [Questions](#quiz-builder-1), 
+    - [Conditional logic](#conditional-logic), 
+    - [Quiz design](#quiz-design), 
+    - [Email notifications](#notifications), 
+    - [Result pages](#results-page) and 
+    - [Success checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist).
+    
+    **Quiz Preview**
+    
+    ![manual_shopifyV2_quizbuilder_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png)
+
+    All the changes that you make to your quiz will be reflected in the interactive Quiz Preview.
+
+    You can toggle between the `Desktop` and the `Mobile` quiz preview with the top menu.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector.png)
+
+    Click the `Activate Inspector` icon to switch to the active inspector mode. In this mode you can click any element of the preview to open it's [Question/Editing Settings](#question-settings).
+
+    !!! note
+    
+        To test the whole quiz go back to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/) and click `Preview` from the Quiz `...` menu.
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder](/images/manual_quizbuilder.png)
@@ -65,46 +106,6 @@
     `Notifications` - Opens the [Notifications](#notifications) section of the Quiz Builder. This is where you'll set up your quiz result emails.
 
     `Quiz Settings` - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
-
-=== "Shopify"
-
-    ![manual_shopifyV2_quizbuilder](/images/manual_shopifyV2_quizbuilder.png)
-
-    Quiz Builder is composed of four sections: 
-
-    - 1️⃣ Quiz Builder Menu
-    - 2️⃣ Questions
-    - 3️⃣ Quiz Preview 
-    - 4️⃣ Question Settings
-    
-    **Quiz Builder Menu**
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_menu.png)
-
-    From this menu you can switch between the following sections: 
-
-    - [Questions](#quiz-builder-1), 
-    - [Conditional logic](#conditional-logic), 
-    - [Quiz design](#quiz-design), 
-    - [Email notifications](#notifications), 
-    - [Result pages](#results-page) and 
-    - [Success checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist).
-    
-    **Quiz Preview**
-    
-    ![manual_shopifyV2_quizbuilder_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png)
-
-    All the changes that you make to your quiz will be reflected in the interactive Quiz Preview.
-
-    You can toggle between the `Desktop` and the `Mobile` quiz preview with the top menu.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview_inspector.png)
-
-    Click the `Activate Inspector` icon to switch to the active inspector mode. In this mode you can click any element of the preview to open it's [Question/Editing Settings](#question-settings).
-
-    !!! note
-    
-        To test the whole quiz go back to the [Dashboard](https://docs.revenuehunt.com/reference/dashboard/) and click `Preview` from the Quiz `...` menu.
 
 === "WooCommerce"
 
@@ -324,12 +325,6 @@
 
 ## Quiz Builder - Questions
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder quiz builder section](/images/manual_quizbuilder_quizbuilder.png)
-
-    Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Preview** in the top menu.
-
 === "Shopify"
 
     **Questions**
@@ -347,6 +342,13 @@
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes.png)
 
     **+ Add question** - Opens a menu of quiz questions to add as a new slide.
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder quiz builder section](/images/manual_quizbuilder_quizbuilder.png)
+
+    Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Preview** in the top menu.
 
 === "WooCommerce"
 
@@ -373,44 +375,6 @@
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Test Quiz** in the top menu.
 
 ### Question Types
-
-=== "Shopify (Legacy)"
-
-    **+** / **Add new question** - Opens a menu of quiz questions to add.
-
-    ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
-
-    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
-
-    **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
-
-    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
-
-    **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
-
-    **Yes/No** - Two choices slide which displays choices as a clickable options.
-
-    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
-
-    **Statement** - A statement slide which displays text and a button to proceed to the next question.
-
-    **Short-text** - An open question slide that allows the user to provide a short text answer.
-
-    **Multi-line Text** - An open question slide that allows the user to provide a short text answer.
-
-    **Date** - A question slide that prompts the user to select or enter a specific date.
-
-    **File Upload** - An interactive slide where users can upload a file as their response.
-
-    **Name** - A slide designed for users to enter their name, featuring a short text field.
-
-    **Number** -  A question type where users are prompted to input a numerical answer.
-
-    **Email Address** - A slide dedicated to collecting the user's email address through a text field.
-
-    **Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
-
-    **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
 === "Shopify"
 
@@ -457,6 +421,45 @@
     **Email Address** - A slide dedicated to collecting the user's email address through a text field.
 
     **Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
+
+
+=== "Shopify (Legacy)"
+
+    **+** / **Add new question** - Opens a menu of quiz questions to add.
+
+    ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
+
+    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+
+    **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
+
+    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+
+    **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
+
+    **Yes/No** - Two choices slide which displays choices as a clickable options.
+
+    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+
+    **Statement** - A statement slide which displays text and a button to proceed to the next question.
+
+    **Short-text** - An open question slide that allows the user to provide a short text answer.
+
+    **Multi-line Text** - An open question slide that allows the user to provide a short text answer.
+
+    **Date** - A question slide that prompts the user to select or enter a specific date.
+
+    **File Upload** - An interactive slide where users can upload a file as their response.
+
+    **Name** - A slide designed for users to enter their name, featuring a short text field.
+
+    **Number** -  A question type where users are prompted to input a numerical answer.
+
+    **Email Address** - A slide dedicated to collecting the user's email address through a text field.
+
+    **Phone Number** - A slide where participants are asked to enter their phone number, usually in a specified format.
+
+    **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
 === "WooCommerce"
 
@@ -612,6 +615,48 @@
 
 ### Question Settings
 
+=== "Shopify"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
+
+    **...** - Opens the question management settings. Click `Duplicate` to duplicate the question or `Remove` to delete it.
+
+    **Background image** - Click `Select image` and then in the popup `Add image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
+    
+    Once uploaded click `Change`to change the image or `Remove` to remove it. 
+
+    **Background postion** - Place the image as a background or split the screen in half with the image. 
+    **Background opacity** - Use the slider to change opacity percentage of the uplaoded image.
+
+    **Custom CSS code** -  Expand to add your own custom CSS code to this section only. 
+
+    !!! note
+
+        To add custom CSS code to your entire quiz, go to [quiz design](#quiz-design).
+
+    **Custom JS code** - Expand to add your own custom JavaScript code to this section only. 
+
+    **Advanced settings** - Expand to see advanced settings.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings.png)
+
+    **Allow overwrite progress bar** - Check to be able to overwrite the default "% complete" progress bar text for this question.
+
+    **Auto-advance question** - Check if you want the question to automatically proceed to the next one after the selected time. Once checked you can choose the duration of the slide from the dropdown. 
+
+    !!! note
+
+        Auto-advance feature is only avialble in questions without user input.
+
+    **Question ID** - Displays the question ID of the selected question.
+
+    **Block Settings**
+
+    ![]()
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
@@ -669,47 +714,6 @@
     - **+ add question below** - Adds a new blank question of the same type below.
     - **Duplicate** - Duplicate this slide. Creates a copy slide below.
     - **Delete** - Delete this slide. 
-
-=== "Shopify"
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
-
-    **...** - Opens the question management settings. Click `Duplicate` to duplicate the question or `Remove` to delete it.
-
-    **Background image** - Click `Select image` and then in the popup `Add image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery. 
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
-    
-    Once uploaded click `Change`to change the image or `Remove` to remove it. 
-
-    **Background postion** - Place the image as a background or split the screen in half with the image. 
-    **Background opacity** - Use the slider to change opacity percentage of the uplaoded image.
-
-    **Custom CSS code** -  Expand to add your own custom CSS code to this section only. 
-
-    !!! note
-
-        To add custom CSS code to your entire quiz, go to [quiz design](#quiz-design).
-
-    **Custom JS code** - Expand to add your own custom JavaScript code to this section only. 
-
-    **Advanced settings** - Expand to see advanced settings.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings.png)
-
-    **Allow overwrite progress bar** - Check to be able to overwrite the default "% complete" progress bar text for this question.
-
-    **Auto-advance question** - Check if you want the question to automatically proceed to the next one after the selected time. Once checked you can choose the duration of the slide from the dropdown. 
-
-    !!! note
-
-        Auto-advance feature is only avialble in questions without user input.
-
-    **Question ID** - Displays the question ID of the selected question.
-
-    **Block Settings**
-
-    ![]()
 
 === "WooCommerce"
 
@@ -944,8 +948,6 @@
     - **Delete** - Delete this slide. 
 
 ### Block Settings
-
-=== "Shopify (Legacy)"
 
 === "Shopify"
 
@@ -1141,6 +1143,9 @@
 
 
 
+
+=== "Shopify (Legacy)"
+
 === "WooCommerce"
 
 === "Magento"
@@ -1150,8 +1155,6 @@
 === "Standalone"
 
 ### Choice Settings
-
-=== "Shopify (Legacy)"
 
 === "Shopify"
 
@@ -1183,6 +1186,9 @@
 
     *All of the above* - If the choice is this type and it is selected, it will autoamtically select all the choices in that question.
 
+
+=== "Shopify (Legacy)"
+
 === "WooCommerce"
 
 === "Magento"
@@ -1194,36 +1200,6 @@
     
 
 ## Link Collections / Link Categories
-
-=== "Shopify (Legacy)"
-
-    ![quiz builder link collections](/images/manual_quizbuilder_linkcollections.png)
-
-    In the Link Collections tab, you can link entire collections of products from your store to choices. This includes Shopify collections, tags, virtual vendors, and variants collections.
-
-    Once a collection is linked to a choice and the customer picks that choice, all the products in that collection will receive 1 vote.
-
-    To link a collection to a choice click on the white dropdown bar and start typing the name.
-
-    ![quiz builder link collecctions search](/images/manual_quizbuilder_linkcollections_search.png)
-
-    Select a collection and it will be automatically added to the choice. 
-
-    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that collection.
-
-    You can link multiple collections to the same choice but be careful. If a product is part of two collections linked to the same choice, it will receive 2 votes from that choice (one vote from each collection linked to that choice).
-
-    ![quiz builder link collections linked collections](/images/manual_quizbuilder_linkcollections_linked.png)
-
-    To remove a linked collection click "x" next to the collection name.
-
-    **excluded collections** - Opens the dropdown which allows to exclude collections of products from a choice. 
-
-    ![quiz builder link collections exclude](/images/manual_quizbuilder_linkcollections_exclude.png)
-
-    Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the results page, even if they were upvoted in another choice earlier/later.
-
-    **Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
 === "Shopify"
 
@@ -1258,6 +1234,37 @@
     In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_selected](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_selected.png)
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder link collections](/images/manual_quizbuilder_linkcollections.png)
+
+    In the Link Collections tab, you can link entire collections of products from your store to choices. This includes Shopify collections, tags, virtual vendors, and variants collections.
+
+    Once a collection is linked to a choice and the customer picks that choice, all the products in that collection will receive 1 vote.
+
+    To link a collection to a choice click on the white dropdown bar and start typing the name.
+
+    ![quiz builder link collecctions search](/images/manual_quizbuilder_linkcollections_search.png)
+
+    Select a collection and it will be automatically added to the choice. 
+
+    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that collection.
+
+    You can link multiple collections to the same choice but be careful. If a product is part of two collections linked to the same choice, it will receive 2 votes from that choice (one vote from each collection linked to that choice).
+
+    ![quiz builder link collections linked collections](/images/manual_quizbuilder_linkcollections_linked.png)
+
+    To remove a linked collection click "x" next to the collection name.
+
+    **excluded collections** - Opens the dropdown which allows to exclude collections of products from a choice. 
+
+    ![quiz builder link collections exclude](/images/manual_quizbuilder_linkcollections_exclude.png)
+
+    Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the results page, even if they were upvoted in another choice earlier/later.
+
+    **Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
 === "WooCommerce"
 
@@ -1385,6 +1392,25 @@
 
 ## Link Products
 
+=== "Shopify"
+
+    You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
+
+    Click `Search tags` to pick a tag to link to this choice or start typing the name to create a new tag. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag.png)
+    
+    Confirm with `Add tag`. 
+    
+    All the tags you create will be visible at the bottom in grey.
+
+    When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM. 
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder link products](/images/manual_quizbuilder_linkproducts.png)
@@ -1412,24 +1438,6 @@
     Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the results page, even if it was upvoted in another choice earlier/later.
 
     **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
-
-=== "Shopify"
-
-    You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
-
-    To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
-
-    Click `Search tags` to pick a tag to link to this choice or start typing the name to create a new tag. 
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag.png)
-    
-    Confirm with `Add tag`. 
-    
-    All the tags you create will be visible at the bottom in grey.
-
-    When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM. 
 
 === "WooCommerce"
 
@@ -1497,22 +1505,6 @@
 
 ## Customer Tags
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
-
-    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
-
-    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
-
-    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
-
-    Created tag will then show as an available option whenever you select another choice.
-
-    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
-
-    You can create as many tags as you like. You can link as many tags as you like to the same choice.
-
 === "Shopify"
 
     You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
@@ -1530,6 +1522,23 @@
     All the tags you create will be visible at the bottom in grey.
 
     When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM.
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
+
+    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
+
+    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
+
+    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
+
+    Created tag will then show as an available option whenever you select another choice.
+
+    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
+
+    You can create as many tags as you like. You can link as many tags as you like to the same choice.
 
 === "WooCommerce"
 
@@ -1597,6 +1606,29 @@
 
 ## Conditional Logic
 
+=== "Shopify"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
+
+    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The right-hand menu allows you to add conditional logic rules to questions in the quiz. The center preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+
+    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom.png)
+
+    **+** - Zoom in on the logic tree preview.
+
+    **-** - Zoom out on the logic tree preview.
+
+    **[]** - Center the logic tree preview and fit into view.
+
+    **🔒** - Toggle interactivity. Lock or unlock the interactivaity of hte preview.
+
+    Drag the logic tree with your mouse left button to navigate to specific branches. 
+
+    Click on any of the questions in the quiz to add conditional logic to it.
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
@@ -1622,28 +1654,6 @@
     **arrow up** - Takes you to the question higher.
 
     **arrow down** - Take you to the question lower.
-
-=== "Shopify"
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
-
-    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The right-hand menu allows you to add conditional logic rules to questions in the quiz. The center preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
-
-    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom.png)
-
-    **+** - Zoom in on the logic tree preview.
-
-    **-** - Zoom out on the logic tree preview.
-
-    **[]** - Center the logic tree preview and fit into view.
-
-    **🔒** - Toggle interactivity. Lock or unlock the interactivaity of hte preview.
-
-    Drag the logic tree with your mouse left button to navigate to specific branches. 
-
-    Click on any of the questions in the quiz to add conditional logic to it.
 
 === "WooCommerce"
 
@@ -1751,48 +1761,6 @@
 
 ### Jump Logic
 
-=== "Shopify (Legacy)"
-
-    Jump Logic allows you to route customers to different questions based on their responses.
-
-    **Add Jump Logic** - Click to add a new Jump Logic rule for the selected question.
-
-    !!! info
-
-        All the Jump Logic rules follow the same format
-
-        - **IF response to** pick the question from a dropdown list
-        - **is**/ **is not** pick a choice from the dropdown list
-        - **THEN go to:** pick a slide from the dropdown list or add a URL 
-
-    !!! example
-
-        ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
-
-        ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
-
-        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
-
-    **+** - Add another Jump Logic rule. Adds a new OR logical rule.
-
-    !!! example
-
-        ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
-
-        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
-
-    **bin** - Delete the current Jump Logic rule.
-
-    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
-
-    !!! example
-
-        ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
-
-        In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
-
-    **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
-
 === "Shopify"
 
     Jump Logic allows you to route customers to different questions based on their responses.
@@ -1839,6 +1807,49 @@
     **Default destination** - Select a slide or URL where the user will be always redirected after this slide.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
+
+
+=== "Shopify (Legacy)"
+
+    Jump Logic allows you to route customers to different questions based on their responses.
+
+    **Add Jump Logic** - Click to add a new Jump Logic rule for the selected question.
+
+    !!! info
+
+        All the Jump Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN go to:** pick a slide from the dropdown list or add a URL 
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
+
+        ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
+
+        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
+
+    **+** - Add another Jump Logic rule. Adds a new OR logical rule.
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
+
+        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
+
+    **bin** - Delete the current Jump Logic rule.
+
+    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    !!! example
+
+        ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
+
+        In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
+
+    **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
 
 === "WooCommerce"
 
@@ -2010,34 +2021,6 @@
 
 ### Skip Logic
 
-=== "Shopify (Legacy)"
-
-    Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
-
-    **Add Skip Logic** - Click to add a new Skip Logic rule for the selected question.
-
-    !!! info
-
-        All the Skip Logic rules follow the same format
-
-        - **IF response to** pick the question from a dropdown list
-        - **is**/ **is not** pick a choice from the dropdown list
-        - **THEN this question is skipped**
-
-    !!! example
-
-        ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
-
-        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
-
-    All slides that contain Skip Logic will be marked with `"skip logic"` text.
-
-    **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
-
-    **bin** - Delete the current Skip Logic rule.
-
-    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
-
 === "Shopify"
 
     Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
@@ -2067,6 +2050,35 @@
     **bin** - Delete the current Skip Logic rule.
 
     **+ Add concurrent logic (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+
+=== "Shopify (Legacy)"
+
+    Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
+
+    **Add Skip Logic** - Click to add a new Skip Logic rule for the selected question.
+
+    !!! info
+
+        All the Skip Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN this question is skipped**
+
+    !!! example
+
+        ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
+
+        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+
+    All slides that contain Skip Logic will be marked with `"skip logic"` text.
+
+    **+** - Adds another Skip Logic rule. Adds a new OR logical rule.
+
+    **bin** - Delete the current Skip Logic rule.
+
+    **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
 === "WooCommerce"
 
@@ -2182,6 +2194,23 @@
 
 ## Quiz Design
 
+=== "Shopify"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
+
+    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look. This section allows you to configure the design for your quiz. You can customize the design, sections, and slots to display the desired design to the users.
+
+    **Questions/Results** - Toggle between the preview of the quiz questions and the results page.
+    
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
+
+    **Color scheme** - Choose of of the pre-determined color schemes for your quiz.
+
+    Click `Change` to pick another color scheme.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png)
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
@@ -2201,22 +2230,6 @@
     **Questions** - Shows the preview of how the questions look like.
 
     **Results** - Shows the preview of how the results page looks like.
-
-=== "Shopify"
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
-
-    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look. This section allows you to configure the design for your quiz. You can customize the design, sections, and slots to display the desired design to the users.
-
-    **Questions/Results** - Toggle between the preview of the quiz questions and the results page.
-    
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
-
-    **Color scheme** - Choose of of the pre-determined color schemes for your quiz.
-
-    Click `Change` to pick another color scheme.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png)
 
 === "WooCommerce"
 
@@ -2300,30 +2313,6 @@
 
 ### Edit Theme
 
-=== "Shopify (Legacy)"
-
-    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
-
-    ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
-
-    ***Wine*** - Displays the name of your current theme.
-
-    **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
-
-    **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-
-    **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-
-    **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-
-    **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
-
-    **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-
-    - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-
-    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
-
 === "Shopify"
 
     **Basic**  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
@@ -2363,6 +2352,31 @@
     **Advanced** - Add your own CSS code in the box to override the default quiz's styles.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
+
+
+=== "Shopify (Legacy)"
+
+    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
+
+    ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
+
+    ***Wine*** - Displays the name of your current theme.
+
+    **Font** - Shows a dropdown of available fonts. Pick a font from the list to change it.
+
+    **Question** - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Choices** - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Button** - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
+
+    **Background** - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
+
+    **Background image** - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
+
+    - **Background Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
+
+    **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
 === "WooCommerce"
 
@@ -2462,6 +2476,9 @@
 
 ### My Themes
 
+=== "Shopify"
+
+
 === "Shopify (Legacy)"
 
     In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
@@ -2479,8 +2496,6 @@
     - **Duplicate** - Creates a copy of the selected theme.
 
     - **Delete** - Deletes the selected theme from MY THEMES gallery.
-
-=== "Shopify"
 
 === "WooCommerce"
 
@@ -2556,12 +2571,6 @@
 
 ## Results Page
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
-
-    In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
-
 === "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
@@ -2594,6 +2603,13 @@
 
     **+ Add block** - Adds a new block to this section.
 
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
+
+    In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+
 === "WooCommerce"
 
     ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
@@ -2620,26 +2636,6 @@
 
 ### Block Types
 
-=== "Shopify (Legacy)"
-
-    **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
-
-    ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
-
-    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
-
-    - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
-
-    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
-
-    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
-
-    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
-
-    - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
-
-    ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
-
 === "Shopify"
 
     **+ Add block** - Adds a new block to this section.
@@ -2661,6 +2657,27 @@
     - **Products variants** - Adds a block specifically designed for displaying a list of recommended product variants..
 
     - **Collection** - Adds a block specifically designed for displaying a list of recommended collections.
+
+
+=== "Shopify (Legacy)"
+
+    **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
+
+    ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
+
+    - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
+
+    - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+
+    - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+
+    - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+
+    - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+
+    - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+
+    ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
 === "WooCommerce"
 
@@ -2744,6 +2761,40 @@
 
 ### Display Logic / Section Logic
 
+=== "Shopify"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
+
+    With Display Logic you can make blocks visible or hidden based on customer's responses.
+
+    **Display logic**
+
+    **+ Add logic condition (OR)** - Adds a new OR display logic rule.
+
+    **Default** - Select whether this section should be `Shown` or `Hidden` by default.
+
+    !!! info
+
+        All the Display Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN section is** pick either **Shown** or **Hidden**
+        - IN ALL OTHER CASES this section will behave like in the **Default** setting.
+
+    !!! example
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_exampleOR](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_exampleOR.png)
+
+        In the example, if a user chooses a choice "Oily" in Question 1 "SKIN TYPE" then this section will be hidden. If they give a different answer in Question 1 this content block will be shown.
+
+    - **+ Add condtion (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    - **bin** - Delete the current Logic rule.
+    
+    - **+ Add condition (OR)** - Adds another Display Logic rule. Adds a new OR logical rule.
+
+
 === "Shopify (Legacy)"
 
     **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
@@ -2782,39 +2833,6 @@
     - **+ add block below** - Opens the **+** / **add block** menu.
 
     - **bin** / **delete block** - Deletes the current block from the results page.
-
-=== "Shopify"
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
-
-    With Display Logic you can make blocks visible or hidden based on customer's responses.
-
-    **Display logic**
-
-    **+ Add logic condition (OR)** - Adds a new OR display logic rule.
-
-    **Default** - Select whether this section should be `Shown` or `Hidden` by default.
-
-    !!! info
-
-        All the Display Logic rules follow the same format
-
-        - **IF response to** pick the question from a dropdown list
-        - **is**/ **is not** pick a choice from the dropdown list
-        - **THEN section is** pick either **Shown** or **Hidden**
-        - IN ALL OTHER CASES this section will behave like in the **Default** setting.
-
-    !!! example
-
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_exampleOR](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_exampleOR.png)
-
-        In the example, if a user chooses a choice "Oily" in Question 1 "SKIN TYPE" then this section will be hidden. If they give a different answer in Question 1 this content block will be shown.
-
-    - **+ Add condtion (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
-
-    - **bin** - Delete the current Logic rule.
-    
-    - **+ Add condition (OR)** - Adds another Display Logic rule. Adds a new OR logical rule.
 
 === "WooCommerce"
 
@@ -2974,42 +2992,6 @@
 
 ### Block Settings
 
-=== "Shopify (Legacy)"
-
-    🔧 / **wrench icon** - Opens the block settings menu.
-
-    **Product Block Settings**
-
-    ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
-
-    - **Title** - Type a title to be displayed above the recommended products.
-
-    - **Description** - Add a description to be displayed above the recommended products.
-
-    - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
-
-    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
-
-    **Slot Block Settings** 
-
-    ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
-
-    - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
-
-    ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
-
-    - **Title** - Type a title to be displayed above the slot.
-
-    - **Description** - Add a description to be displayed above the slot.
-
-    - **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
-
-    - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
-
-    - **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
-
-    **Slot ID** - Displays the current slot ID.
-
 === "Shopify"
 
     Each buliding block of your results page section has individual block settings.
@@ -3129,6 +3111,43 @@
         If you add a filter, the slot will be able to display the most voted products from the linked collections.
 
     **Exclude segments** - Click `v Exclude` to choose products from which Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
+
+
+=== "Shopify (Legacy)"
+
+    🔧 / **wrench icon** - Opens the block settings menu.
+
+    **Product Block Settings**
+
+    ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
+
+    - **Title** - Type a title to be displayed above the recommended products.
+
+    - **Description** - Add a description to be displayed above the recommended products.
+
+    - **Max. recommended products** - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+
+    - **Hide block when no products are recommended** - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+
+    **Slot Block Settings** 
+
+    ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+
+    - **Add a slot** - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+
+    ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
+
+    - **Title** - Type a title to be displayed above the slot.
+
+    - **Description** - Add a description to be displayed above the slot.
+
+    - **Max. recommended products** - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
+
+    - **Included collections** - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+
+    - **Excluded collections** - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+
+    **Slot ID** - Displays the current slot ID.
 
 === "WooCommerce"
 
@@ -3276,12 +3295,6 @@
 
 ### Results Page Settings
 
-=== "Shopify (Legacy)"
-
-    ⚙️ / **gear icon** - Opens the results page settings.
-
-    ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
-
 === "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
@@ -3299,6 +3312,13 @@
     **Custom CSS Code** - Add custom CSS code to this results page only.
 
     **Custom JS code** - Add custom JavaScript to this results page only.
+
+
+=== "Shopify (Legacy)"
+
+    ⚙️ / **gear icon** - Opens the results page settings.
+
+    ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
 === "WooCommerce"
 
@@ -3328,18 +3348,6 @@
 
 **Checkout Settings**
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder results page results page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
-
-    - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page.
-
-        - **Proceed to cart** - After the products are added to the cart, the customer will proceed to the cart page.
-
-        - **proceed to checkout** - After the products are added to the cart, the customer will proceed to the checkout page.
-
-    - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
-
 === "Shopify"
 
     **Checkout bar** - Seelct the settings of the checkout bar.
@@ -3351,6 +3359,19 @@
     **Proceed to checkout** - After adding the products to cart, the customer will be redirected directly to checkout.
 
     **Proceed to cart** - After adding the products to cart, the customer will be redirected to the cart page.
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder results page results page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
+
+    - **Add product to cart** - Allows the user to add the recommended products to the cart directly from the results page.
+
+        - **Proceed to cart** - After the products are added to the cart, the customer will proceed to the cart page.
+
+        - **proceed to checkout** - After the products are added to the cart, the customer will proceed to the checkout page.
+
+    - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
 === "WooCommerce"
 
@@ -3391,6 +3412,9 @@
         If you would like to add a product to the cart you can set up your own results page in your store and send all the quiz data there with the help of our [Callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/).
 
 **Individual Product Settings**
+
+=== "Shopify"
+
 
 === "Shopify (Legacy)"
 
@@ -3450,8 +3474,6 @@
     **Background image** - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
     - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
-
-=== "Shopify"
 
 === "WooCommerce"
 
@@ -3640,6 +3662,9 @@
 
 ### Advanced Settings
 
+=== "Shopify"
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder results page results page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
@@ -3667,8 +3692,6 @@
     **Multiple Results Pages**
 
     **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
-
-=== "Shopify"
 
 === "WooCommerce"
 
@@ -3784,6 +3807,17 @@
 
 ### Multiple Results Pages Settings
 
+=== "Shopify"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
+
+    **+ Add results page** - Click to add an extra results page to your quiz. Each results page can have different settings and content.
+
+    !!! note
+
+        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](#jump-logic) via the quiz Conditional Logic tab.
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
@@ -3801,16 +3835,6 @@
     - **Set as default** - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](#jump-logic) to another page.
 
     **Create new Results Page** - add a new results page to your quiz. 
-
-=== "Shopify"
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
-
-    **+ Add results page** - Click to add an extra results page to your quiz. Each results page can have different settings and content.
-
-    !!! note
-
-        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](#jump-logic) via the quiz Conditional Logic tab.
 
 === "WooCommerce"
 
@@ -3886,6 +3910,11 @@
 
 ### Discounts Settings
 
+=== "Shopify"
+
+    Coming Soon
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
@@ -3923,10 +3952,6 @@
     **add a discount** - Adds a new dynamic discount below (Discount [B]).
 
     **deactivate** - Deactivates dynamic discounts.
-
-=== "Shopify"
-
-    Coming Soon
 
 === "WooCommerce"
 
@@ -4120,11 +4145,12 @@
 
 ## Notifications
 
-=== "Shopify (Legacy)"
+=== "Shopify"
 
     In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
-=== "Shopify"
+
+=== "Shopify (Legacy)"
 
     In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
@@ -4145,6 +4171,19 @@
     In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
 ### To Respondent
+
+=== "Shopify"
+
+    ![manual_shopifyV2_quizbuilder_notification_torespondent](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
+
+    *Send an email when someone completes the quiz* - Activate this option to send notification/results email to the customer email address when they completes the quiz (reaches the results page).
+
+    *Email subject:* - Add the title of the notification email.
+
+    *Email TO:* - Add an email address to which the notification should be sent.
+
+    *HTML email template* - Add HTML email template. The template can be built based on the Metadata provided.
+
 
 === "Shopify (Legacy)"
 
@@ -4177,18 +4216,6 @@
     - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
-
-=== "Shopify"
-
-    ![manual_shopifyV2_quizbuilder_notification_torespondent](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
-
-    *Send an email when someone completes the quiz* - Activate this option to send notification/results email to the customer email address when they completes the quiz (reaches the results page).
-
-    *Email subject:* - Add the title of the notification email.
-
-    *Email TO:* - Add an email address to which the notification should be sent.
-
-    *HTML email template* - Add HTML email template. The template can be built based on the Metadata provided.
 
 === "WooCommerce"
 
@@ -4320,16 +4347,6 @@
 
 ### To Self
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
-
-    **Get email when someone completes the quiz** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
-
-    **Get email when someone proceedes to checkout** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
-
-    ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
-
 === "Shopify"
 
     ![manual_shopifyV2_quizbuilder_notification_toself](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
@@ -4341,6 +4358,17 @@
     *Email TO:* - Add an email address to which the notification should be sent.
 
     *HTML email template* - Add HTML email template. The template can be built based on the Metadata provided.
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
+
+    **Get email when someone completes the quiz** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
+
+    **Get email when someone proceedes to checkout** - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+
+    ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 
 === "WooCommerce"
 
@@ -4384,15 +4412,16 @@
 
 ## Quiz Settings
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
-
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
-
 === "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
+
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
     In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
 
@@ -4422,6 +4451,21 @@
 
 ### General
 
+=== "Shopify"
+
+    **Advanced quiz settings**
+
+    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+
+    **Quiz migration**
+
+    **Export quiz to another store** - Clicking `Copy quiz code` generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    **Quiz ID: XXXXXX** - Click `Copy quiz ID` to copy the quiz ID to clipboard.
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png){width="500"}
@@ -4449,20 +4493,6 @@
     **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     **Quiz ID** - Displays the current quiz ID.
-
-=== "Shopify"
-
-    **Advanced quiz settings**
-
-    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
-
-    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
-
-    **Quiz migration**
-
-    **Export quiz to another store** - Clicking `Copy quiz code` generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
-
-    **Quiz ID: XXXXXX** - Click `Copy quiz ID` to copy the quiz ID to clipboard.
 
 === "WooCommerce"
 
@@ -4558,6 +4588,56 @@
 
 ### Messages / Quiz Content
 
+=== "Shopify"
+
+    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
+
+    **Default quiz content**
+
+    *Filter items* - Search the messages for a specific one to edit.
+
+    **Select language** - Select a language from the list to change the default app translations. Each individual content can be edited below.
+
+    **Buttons**
+    *This section defines the default text for various buttons. Note that once a button is created (e.g., on a question block), its text can be individually edited directly in the Quiz Builder.*
+
+    - *Next* - Default text on the buttons that move the user to the next question. | Quiz
+    - *Add to cart* - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+    - *Add all to cart* -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+    - *Retake quiz* - Default text on the button that allows the user to retake the quiz. | Results Page
+    - *Proceed to Checkout* - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
+    - *Proceed to Cart* - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
+
+    **Placeholders**
+    *This section defines the default placeholder text for various input fields. Note that once an input field is created (e.g., on a question block), its placeholder text can be individually edited directly in the Quiz Builder.*
+
+    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders.png)
+
+    - *Placeholder for email inputs* - Default placeholder text on the email question block. | Quiz
+    - *Placeholder for phone inputs* - Default placeholder text on the phone question block. | Quiz
+    - *Placeholder for default inputs* - Default placeholder text on the short or long text question block. | Quiz
+    - *Placeholder for date inputs* - Default placeholder on date question block. | Quiz
+    - *Placeholder for select variant* - Default placeholder text on variants dropdown | Results Page
+    - *Placeholder for first name inputs* - Default placeholder text on the name question block. | Quiz
+    - *Placeholder for full name inputs* - Default placeholder text on the name question block. | Quiz
+    - *Placeholder for last name inputs* - Default placeholder text on the name question block. | Quiz
+    - *Placeholder for number inputs* - Default placeholder text on the number question block. | Quiz
+    - *Placeholder for upload inputs* - Default placeholder text on the file upload question block. | Quiz
+    - *Placeholder for upload file warning* - Default placeholder text on the uplaod question block warning. | Quiz
+
+    **Helpers**
+
+    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers.png)
+
+    - *Message for file drop* - Default text on the file upload question block. | Quiz
+    - *Message for file size under 10MB* - Default text on the file upload question block. | Quiz
+    - *"and" conector for dynamic source* - Default text displayed between each personalization (information recalls). | Quiz
+    - *(Percentage)% complete* - Default text on the quiz progress bar. | Quiz
+    - *Loading error retry* - Default text on the results page in case of loading issues. | Results Page
+    - *Loading error no response* - Default text on the results page in case of loading issues. | Results Page
+    - *Try again* - Default text on the results page in case of loading issues. | Results Page
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
@@ -4651,55 +4731,6 @@
     - **Encourage next discount** - Default text when dynamic discounts are active in the quiz. | Results Page
 
     **Restore default messages** - Click "restore" to set all fields back to default.
-
-=== "Shopify"
-
-    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
-
-    **Default quiz content**
-
-    *Filter items* - Search the messages for a specific one to edit.
-
-    **Select language** - Select a language from the list to change the default app translations. Each individual content can be edited below.
-
-    **Buttons**
-    *This section defines the default text for various buttons. Note that once a button is created (e.g., on a question block), its text can be individually edited directly in the Quiz Builder.*
-
-    - *Next* - Default text on the buttons that move the user to the next question. | Quiz
-    - *Add to cart* - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
-    - *Add all to cart* -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
-    - *Retake quiz* - Default text on the button that allows the user to retake the quiz. | Results Page
-    - *Proceed to Checkout* - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
-    - *Proceed to Cart* - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
-
-    **Placeholders**
-    *This section defines the default placeholder text for various input fields. Note that once an input field is created (e.g., on a question block), its placeholder text can be individually edited directly in the Quiz Builder.*
-
-    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders.png)
-
-    - *Placeholder for email inputs* - Default placeholder text on the email question block. | Quiz
-    - *Placeholder for phone inputs* - Default placeholder text on the phone question block. | Quiz
-    - *Placeholder for default inputs* - Default placeholder text on the short or long text question block. | Quiz
-    - *Placeholder for date inputs* - Default placeholder on date question block. | Quiz
-    - *Placeholder for select variant* - Default placeholder text on variants dropdown | Results Page
-    - *Placeholder for first name inputs* - Default placeholder text on the name question block. | Quiz
-    - *Placeholder for full name inputs* - Default placeholder text on the name question block. | Quiz
-    - *Placeholder for last name inputs* - Default placeholder text on the name question block. | Quiz
-    - *Placeholder for number inputs* - Default placeholder text on the number question block. | Quiz
-    - *Placeholder for upload inputs* - Default placeholder text on the file upload question block. | Quiz
-    - *Placeholder for upload file warning* - Default placeholder text on the uplaod question block warning. | Quiz
-
-    **Helpers**
-
-    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers.png)
-
-    - *Message for file drop* - Default text on the file upload question block. | Quiz
-    - *Message for file size under 10MB* - Default text on the file upload question block. | Quiz
-    - *"and" conector for dynamic source* - Default text displayed between each personalization (information recalls). | Quiz
-    - *(Percentage)% complete* - Default text on the quiz progress bar. | Quiz
-    - *Loading error retry* - Default text on the results page in case of loading issues. | Results Page
-    - *Loading error no response* - Default text on the results page in case of loading issues. | Results Page
-    - *Try again* - Default text on the results page in case of loading issues. | Results Page
 
 === "WooCommerce"
 
@@ -5079,20 +5110,6 @@
 
 ### Version History
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
-
-    In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
-
-    ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
-
-    **...** - Click to open the restore menu.
-
-    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
-
-    - **Rename this version** - Allows you to rename this saved version of the quiz.
-
 === "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizsettings_versionhistory](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
@@ -5106,6 +5123,21 @@
     - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
 
     - **Restore this version** - Allows you to replca the current version of the quiz with the selected one.
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
+
+    In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
+
+    ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
+
+    **...** - Click to open the restore menu.
+
+    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+
+    - **Rename this version** - Allows you to rename this saved version of the quiz.
 
 === "WooCommerce"
 
@@ -5165,14 +5197,6 @@
 
 ## Connect / Integrations
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder connect](/images/manual_quizbuilder_connect.png)
-
-    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
-
-    To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
-
 === "Shopify"
 
     ![manual_shopifyV2_quizbuilder_integrations](/images/manual_shopifyV2_quizbuilder_integrations.png)
@@ -5180,6 +5204,15 @@
     In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
 
     To connect the quiz to a particular service find it on the page. Then follow the instructions displayed in the browser or in the `read more` section.
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder connect](/images/manual_quizbuilder_connect.png)
+
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+
+    To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
 === "WooCommerce"
 
@@ -5335,6 +5368,23 @@
 
 ### Inline
 
+=== "Shopify"
+
+    Quiz embedded inline with a page.
+
+    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline.png)
+
+    To add an inline quiz to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. Then, `+ Add section`, click the `Apps`. From the list, pick the `V2 - Inline Quiz`.
+
+    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
+
+    In Inline Quiz settings, you can choose the `Quiz height (in pixels)`, just type the number in.
+
+    *Automatic scroll into View* - Uncheck this option if you don't want the quiz to scroll into view.
+
+    *Fixed height* - Will set a fixed height of the quiz iframe as specified in the **Height** field above. This also fixes the height of the results page.
+
+
 === "Shopify (Legacy)"
 
     Quiz embedded inline with a page.
@@ -5352,22 +5402,6 @@
     - **Height** - Adjust the width of the quiz by typing the percentage number or px value.
 
     - **Fixed height** - Will set a fixed height of the quiz iframe as specified in the **Height** field above. Toggle to activate. 
-
-=== "Shopify"
-
-    Quiz embedded inline with a page.
-
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline.png)
-
-    To add an inline quiz to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. Then, `+ Add section`, click the `Apps`. From the list, pick the `V2 - Inline Quiz`.
-
-    ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
-
-    In Inline Quiz settings, you can choose the `Quiz height (in pixels)`, just type the number in.
-
-    *Automatic scroll into View* - Uncheck this option if you don't want the quiz to scroll into view.
-
-    *Fixed height* - Will set a fixed height of the quiz iframe as specified in the **Height** field above. This also fixes the height of the results page.
 
 === "WooCommerce"
 
@@ -5443,6 +5477,9 @@
 
 ### Automatic
 
+=== "Shopify"
+
+
 === "Shopify (Legacy)" 
 
     A quiz popup appears after X seconds.
@@ -5464,8 +5501,6 @@
     - **Wait seconds** - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
 
     - **Exit intent** - Show the automatic popup when the customer is exit intent. Toggle to activate.
-
-=== "Shopify"
 
 === "WooCommerce" 
 
@@ -5557,6 +5592,9 @@
 
 ### External
 
+=== "Shopify"
+
+
 === "Shopify (Legacy)"
 
     Direct link to the quiz for social media.
@@ -5568,8 +5606,6 @@
     - **Popup width** - Adjust the width of the quiz by typing the percentage number.
 
     - **Popup height** - Adjust the width of the quiz by typing the percentage number.
-
-=== "Shopify"
 
 === "WooCommerce"
 
@@ -5621,6 +5657,9 @@
 
 ### Email
 
+=== "Shopify"
+
+
 === "Shopify (Legacy)" 
 
     Quiz popup when someone clicks on this email link. 
@@ -5632,8 +5671,6 @@
     - **Popup width** - Adjust the width of the quiz by typing the percentage number.
 
     - **Popup height** - Adjust the width of the quiz by typing the percentage number.
-
-=== "Shopify"
 
 === "WooCommerce" 
 
@@ -5685,6 +5722,9 @@
 
 ### Chat
 
+=== "Shopify"
+
+
 === "Shopify (Legacy)" 
 
     Quiz popup when visitors click on a chat-like button.
@@ -5712,8 +5752,6 @@
     - **Notification dot** - Show the small red notification dot on the chat icon. Toggle to activate.
 
     - **Greeting message** - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
-
-=== "Shopify"
 
 === "WooCommerce" 
 
@@ -5829,11 +5867,12 @@
 
 ## Metrics
 
-=== "Shopify (Legacy)"
+=== "Shopify"
 
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
-=== "Shopify"
+
+=== "Shopify (Legacy)"
 
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
@@ -5854,58 +5893,6 @@
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
 ### Responses
-
-=== "Shopify (Legacy)"
-
-    ![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
-
-    On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
-
-    **Export all as CSV** - Click to generate a CSV file with all the quiz responses from the last 90 days. Once ready, a downloadable link will show up on your dashboard once the CSV file is finished generating.
-
-    ![quiz builder metrics responses details1](/images/manual_quizbuilder_metrics_responses_details1.png)
-
-    **Why was a product recommended or not in this response?** - This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
-
-    **SELECT PRODUCT TO CHECK** - Click to select a product from the catalog and analyze it against the response.
-
-    **Responses to Questions:** - This section displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question.
-
-    ![quiz builder metrics responses details2 products](/images/manual_quizbuilder_metrics_responses_details2_products.png)
-
-    **Results Page 1** - Displays the name of the results page recommended.
-
-    **Products** - Products were recommended in a Product block.
-
-    **↑1 🎁6** - Minimum number of votes that allow the product to be shown in this product block: 1; Maximum number of products that are allowed to be shown in this product block: 6.
-
-    **Kopi Luwak Coffee** / **Product name** - Displays the name of the product recommended in this product block. Hover over the product to see how many upvotes it received in the quiz.
-
-    ![quiz builder metrics responses details2 slots](/images/manual_quizbuilder_metrics_responses_details2_slots.png)
-
-    **Results Page 1** - Displays the name of the results page recommended.
-
-    **Slots** - Products were recommended in a Slots block.
-
-    **Step 1: Cleanser** / **Slot Title** - Displays the title of the Slot block.
-
-    **↑1 🎁1** - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
-
-    **✅5** - Displays which products this slot will allow to be displayed.
-
-    **Cleansers (5)** / **Collection (x)** - Displays the collections which are linked to this slot.
-
-    **All Natural Face Cleanser** - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
-
-    ![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
-
-    **Customer Tags:** - Displays the customer tags that were recorded in this response.
-
-    **Preview Results:** - Displays a preview link which opens this response on the results page.
-
-    **recalculate recommendations** - Recalculate the responses according to the current quiz setup.
-
-    **resend notifications** - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
 
 === "Shopify"
 
@@ -5960,6 +5947,59 @@
     **↪ Recommendations** - Products were recommended in a Slots block. Click a product to check why it was recommended.
 
     ![manual_shopifyV2_quizbuilder_responses_sample2_productdetails](/images/manual_shopifyV2_quizbuilder_responses_sample2_productdetails.png)
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
+
+    On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+
+    **Export all as CSV** - Click to generate a CSV file with all the quiz responses from the last 90 days. Once ready, a downloadable link will show up on your dashboard once the CSV file is finished generating.
+
+    ![quiz builder metrics responses details1](/images/manual_quizbuilder_metrics_responses_details1.png)
+
+    **Why was a product recommended or not in this response?** - This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
+
+    **SELECT PRODUCT TO CHECK** - Click to select a product from the catalog and analyze it against the response.
+
+    **Responses to Questions:** - This section displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question.
+
+    ![quiz builder metrics responses details2 products](/images/manual_quizbuilder_metrics_responses_details2_products.png)
+
+    **Results Page 1** - Displays the name of the results page recommended.
+
+    **Products** - Products were recommended in a Product block.
+
+    **↑1 🎁6** - Minimum number of votes that allow the product to be shown in this product block: 1; Maximum number of products that are allowed to be shown in this product block: 6.
+
+    **Kopi Luwak Coffee** / **Product name** - Displays the name of the product recommended in this product block. Hover over the product to see how many upvotes it received in the quiz.
+
+    ![quiz builder metrics responses details2 slots](/images/manual_quizbuilder_metrics_responses_details2_slots.png)
+
+    **Results Page 1** - Displays the name of the results page recommended.
+
+    **Slots** - Products were recommended in a Slots block.
+
+    **Step 1: Cleanser** / **Slot Title** - Displays the title of the Slot block.
+
+    **↑1 🎁1** - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
+
+    **✅5** - Displays which products this slot will allow to be displayed.
+
+    **Cleansers (5)** / **Collection (x)** - Displays the collections which are linked to this slot.
+
+    **All Natural Face Cleanser** - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
+
+    ![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
+
+    **Customer Tags:** - Displays the customer tags that were recorded in this response.
+
+    **Preview Results:** - Displays a preview link which opens this response on the results page.
+
+    **recalculate recommendations** - Recalculate the responses according to the current quiz setup.
+
+    **resend notifications** - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
 
 === "WooCommerce"
 
@@ -6171,6 +6211,29 @@
 
 ### Analytics
 
+=== "Shopify"
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
+
+    The data in the graphs are totals in a selected period of time for a selected quiz. 
+
+    *Today* - To change the dates click on the `Today` button. You can change the period to select it from the moment you started using the quiz or from a given date.
+
+    *No comparison* - Choose how you want to compare the data in the graphs. 
+
+    *Auto-refresh* - The data will refresh ever 60 seconds. Otherwise, the data is updated every 24 hours.
+
+    **Quiz Starts** - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). 
+
+    **Quiz Responses** - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.
+
+    **Completion Rate** - Percentage of people who have engaged with the quiz and completed it.
+
+    **Numer of carts** - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button.
+
+    **Total carts value** - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout.
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder metrics analytics](/images/manual_quizbuilder_metrics_analytics.png)
@@ -6216,28 +6279,6 @@
     **Total Orders Value** - Total value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
     **Avg. Order Value** - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
-
-=== "Shopify"
-
-    ![manual_shopifyV2_quizbuilder_metrics_analytics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
-
-    The data in the graphs are totals in a selected period of time for a selected quiz. 
-
-    *Today* - To change the dates click on the `Today` button. You can change the period to select it from the moment you started using the quiz or from a given date.
-
-    *No comparison* - Choose how you want to compare the data in the graphs. 
-
-    *Auto-refresh* - The data will refresh ever 60 seconds. Otherwise, the data is updated every 24 hours.
-
-    **Quiz Starts** - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). 
-
-    **Quiz Responses** - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.
-
-    **Completion Rate** - Percentage of people who have engaged with the quiz and completed it.
-
-    **Numer of carts** - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button.
-
-    **Total carts value** - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout.
 
 === "WooCommerce"
 
@@ -6425,6 +6466,11 @@
 
 ### Drop-off
 
+=== "Shopify"
+
+    Coming Soon
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
@@ -6442,10 +6488,6 @@
     **chart** - Displays the dropoff rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
-
-=== "Shopify"
-
-    Coming Soon
 
 === "WooCommerce"
 

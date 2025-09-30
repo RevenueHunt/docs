@@ -9,33 +9,6 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
 ## 🐞 Known Bugs
 
-=== "Shopify (Legacy)"
-
-    These are the known bugs that we are aware of and are working to fix:
-
-    - **GA4 Tracking**: GA4 tracking is not working properly.
-    
-        !!! note "Status"
-            Under investigation.
-
-    - **Thank You and Order Status Pages Script**: The script settings for these pages have been updated. Contact support to implement the latest version of the script on your Thank You and Order Status pages.
-    
-        !!! note "Status"
-            Manual fix required. [Contact support](/how-to-guides/contact-customer-support/) to fix.
-
-    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
-    
-        !!! note "Status"
-            Under investigation.
-
-
-    - **Klaviyo Data Appended**: Recommended product data gets added to Klaviyo profile as custom properties every time a quiz is taken, the data is not replaced every time.
-
-        !!! note "Status"
-            Fixed in Built for Shopify version of the RevenueHunt app; not backported to v1.
-
-
-
 === "Shopify"
 
     These are the known bugs that we are aware of and are working to fix:
@@ -76,6 +49,34 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
         !!! note "Status"
             Intermittent, under investigation.
+
+
+
+=== "Shopify (Legacy)"
+
+    These are the known bugs that we are aware of and are working to fix:
+
+    - **GA4 Tracking**: GA4 tracking is not working properly.
+    
+        !!! note "Status"
+            Under investigation.
+
+    - **Thank You and Order Status Pages Script**: The script settings for these pages have been updated. Contact support to implement the latest version of the script on your Thank You and Order Status pages.
+    
+        !!! note "Status"
+            Manual fix required. [Contact support](/how-to-guides/contact-customer-support/) to fix.
+
+    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
+    
+        !!! note "Status"
+            Under investigation.
+
+
+    - **Klaviyo Data Appended**: Recommended product data gets added to Klaviyo profile as custom properties every time a quiz is taken, the data is not replaced every time.
+
+        !!! note "Status"
+            Fixed in Built for Shopify version of the RevenueHunt app; not backported to v1.
+
 
 
 === "WooCommerce"
@@ -147,6 +148,21 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
 ## ⚖️ Current Limitations (By Design)
 
+=== "Shopify"
+
+    These are not bugs but important to know:
+
+
+    - **One Klaviyo List per Quiz**: Each quiz can only sync to a single Klaviyo list at a time. For multiple lists, segmentation must be handled inside Klaviyo.
+
+    - **Shopify Markets Integration**: Quizzes can be assigned to different markets, but merchants must configure them manually. Automatic detection per market is not yet supported.
+
+    - **Email Delivery via AWS SES**: Emails are one-off transactional messages triggered by quiz submissions. The app does not support newsletters or recurring campaigns.
+
+    - **Results Precision**: Recommendation accuracy depends on how merchants configure upvotes, logic, and product slots. The app provides flexibility but doesn’t override merchant settings.
+
+
+
 === "Shopify (Legacy)"
 
     These are not bugs but important to know:
@@ -165,20 +181,6 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
     - **Quiz Builder Performance Constraints**: Quizzes with large product catalogs or complex logic could slow down load times.
 
     - **Shop Minis Deprecation**: Shopify is sunsetting Shop Minis integrations, impacting merchants who used the app within Shop.
-
-
-=== "Shopify"
-
-    These are not bugs but important to know:
-
-
-    - **One Klaviyo List per Quiz**: Each quiz can only sync to a single Klaviyo list at a time. For multiple lists, segmentation must be handled inside Klaviyo.
-
-    - **Shopify Markets Integration**: Quizzes can be assigned to different markets, but merchants must configure them manually. Automatic detection per market is not yet supported.
-
-    - **Email Delivery via AWS SES**: Emails are one-off transactional messages triggered by quiz submissions. The app does not support newsletters or recurring campaigns.
-
-    - **Results Precision**: Recommendation accuracy depends on how merchants configure upvotes, logic, and product slots. The app provides flexibility but doesn’t override merchant settings.
 
 
 === "WooCommerce"

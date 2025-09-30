@@ -4,6 +4,13 @@ icon: material/login
 
 # How to Show Quiz Only to Logged-in Customers
 
+=== "Shopify"
+
+    The new Built for Shopify version of the RevenueHunt app does not have a way to show the quiz to logged-in customers yet. It is **not possible yet** to directly show the quiz to logged-in customers using the new Built for Shopify version of the RevenueHunt app.
+
+    If you're interested in this feature, please let us know by [contacting support](/how-to-guides/contact-customer-support/).
+
+
 === "Shopify (Legacy)"
 
     It’s possible to use the customer metafields to render quiz results onto different elements of your Shopify Theme liquids. This article explains how to show the quiz only to logged-in customers in Shopify.
@@ -71,12 +78,6 @@ icon: material/login
 
     - If you’re not logged in, you’re prompted to log in or sign up. 
     - If you’re logged in, you’re either shown the results page (if you already took the quiz) or the quiz’s start page.
-
-=== "Shopify"
-
-    The new Built for Shopify version of the RevenueHunt app does not have a way to show the quiz to logged-in customers yet. It is **not possible yet** to directly show the quiz to logged-in customers using the new Built for Shopify version of the RevenueHunt app.
-
-    If you're interested in this feature, please let us know by [contacting support](/how-to-guides/contact-customer-support/).
 
 === "WooCommerce"
 

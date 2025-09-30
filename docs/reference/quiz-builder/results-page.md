@@ -1,11 +1,5 @@
 # Results Page
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
-
-    In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
-
 === "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
@@ -30,6 +24,13 @@
 
         The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional Logic tab.
 
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
+
+    In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
 === "WooCommerce"
 
@@ -57,26 +58,6 @@
 
 ## Block Types
 
-=== "Shopify (Legacy)"
-
-    `+` / `add block` - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
-
-    ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
-
-    `Heading Block` - Adds a new heading to your page, ideal for titles or section breaks.
-
-    `Content Block` - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
-
-    `HTML Block` - Adds a block where you can input custom HTML code for advanced content and styling.
-
-    `Image Block` - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
-
-    `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
-
-    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
-
-    ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
-
 === "Shopify"
 
     `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
@@ -102,6 +83,27 @@
     `Collection` - Adds a block specifically designed for displaying a list of recommended collections.
 
     `bin` - Click on the bin icon to remove the block.
+
+
+=== "Shopify (Legacy)"
+
+    `+` / `add block` - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
+
+    ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
+
+    `Heading Block` - Adds a new heading to your page, ideal for titles or section breaks.
+
+    `Content Block` - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+
+    `HTML Block` - Adds a block where you can input custom HTML code for advanced content and styling.
+
+    `Image Block` - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+
+    `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
+
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+
+    ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
 === "WooCommerce"
 
@@ -184,45 +186,6 @@
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
 ## Display Logic / Display Section Logic
-
-=== "Shopify (Legacy)"
-
-    `conditional logic` / `tree icon` - Opens the [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) menu.
-
-    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
-
-    With Display Logic you can make blocks visible or hidden based on customer's responses.
-
-    `Add Display Logic` - Adds a new display logic rule.
-
-    !!! info
-
-        All the Display Logic rules follow the same format
-
-        - **IF response to** pick the question from a dropdown list
-        - **is**/ **is not** pick a choice from the dropdown list
-        - **THEN block is** pick either **Visible** or **Hidden**
-        - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
-
-    !!! example
-
-        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
-
-        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
-
-    `+` - Adds another Display Logic rule. Adds a new OR logical rule.
-
-    `bin` - Delete the current Display Logic rule.
-
-    `+ add concurrent logic` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
-
-    `...` - Opens the more options menu.
-
-    ![quiz builder results page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
-
-    `+ add block below` - Opens the **+** / **add block** menu.
-
-    `bin` / `delete block` - Deletes the current block from the results page.
 
 === "Shopify"
 
@@ -310,6 +273,46 @@
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible.png)
 
         In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
+
+
+=== "Shopify (Legacy)"
+
+    `conditional logic` / `tree icon` - Opens the [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) menu.
+
+    ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
+
+    With Display Logic you can make blocks visible or hidden based on customer's responses.
+
+    `Add Display Logic` - Adds a new display logic rule.
+
+    !!! info
+
+        All the Display Logic rules follow the same format
+
+        - **IF response to** pick the question from a dropdown list
+        - **is**/ **is not** pick a choice from the dropdown list
+        - **THEN block is** pick either **Visible** or **Hidden**
+        - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+    !!! example
+
+        ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
+
+        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+
+    `+` - Adds another Display Logic rule. Adds a new OR logical rule.
+
+    `bin` - Delete the current Display Logic rule.
+
+    `+ add concurrent logic` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    `...` - Opens the more options menu.
+
+    ![quiz builder results page block menu more options](/images/manual_quizbuilder_resultspage_blockmenu_moreoptions.png)
+
+    `+ add block below` - Opens the **+** / **add block** menu.
+
+    `bin` / `delete block` - Deletes the current block from the results page.
 
 === "WooCommerce"
 
@@ -468,42 +471,6 @@
     `bin` / `delete block` - Deletes the current block from the results page.
 
 ## Block Settings
-
-=== "Shopify (Legacy)"
-
-    `🔧 / wrench icon` - Opens the block settings menu.
-
-    **Product Block Settings**
-
-    ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
-
-    `Title` - Type a title to be displayed above the recommended products.
-
-    `Description` - Add a description to be displayed above the recommended products.
-
-    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
-
-    `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
-
-    **Slot Block Settings** 
-
-    ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
-
-    `Add a slot` - Adds a new slot to the slot block. You can have multiple slots in a slot block.
-
-    ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
-
-    `Title` - Type a title to be displayed above the slot.
-
-    `Description` - Add a description to be displayed above the slot.
-
-    `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
-
-    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
-
-    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
-
-    `Slot ID` - Displays the current slot ID.
 
 === "Shopify"
 
@@ -878,6 +845,43 @@
     `Exclude segments` - Click `v Exclude` to choose products from which Products, Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
 
 
+
+=== "Shopify (Legacy)"
+
+    `🔧 / wrench icon` - Opens the block settings menu.
+
+    **Product Block Settings**
+
+    ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
+
+    `Title` - Type a title to be displayed above the recommended products.
+
+    `Description` - Add a description to be displayed above the recommended products.
+
+    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+
+    `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
+
+    **Slot Block Settings** 
+
+    ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
+
+    `Add a slot` - Adds a new slot to the slot block. You can have multiple slots in a slot block.
+
+    ![quiz builder results page slot block settings add slot](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings_addslot.png)
+
+    `Title` - Type a title to be displayed above the slot.
+
+    `Description` - Add a description to be displayed above the slot.
+
+    `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
+
+    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+
+    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+
+    `Slot ID` - Displays the current slot ID.
+
 === "WooCommerce"
 
     `🔧 / wrench icon` - Opens the block settings menu.
@@ -1024,12 +1028,6 @@
 
 ## Results Page Settings
 
-=== "Shopify (Legacy)"
-
-    `⚙️ / gear icon` - Opens the results page settings.
-
-    ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
-
 === "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
@@ -1118,6 +1116,13 @@
 
     `Remove results page` - Deletes the current results page.
 
+
+=== "Shopify (Legacy)"
+
+    `⚙️ / gear icon` - Opens the results page settings.
+
+    ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
+
 === "WooCommerce"
 
     `⚙️ / gear icon` - Opens the results page settings.
@@ -1146,6 +1151,11 @@
 
 **Checkout Settings**
 
+=== "Shopify"
+
+    Check [Results Page settings](#results-page-settings) > `Checkout options`.
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder results page results page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
@@ -1157,10 +1167,6 @@
     `Proceed to checkout` - After the products are added to the cart, the customer will proceed to the checkout page.
 
     `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
-
-=== "Shopify"
-
-    Check [Results Page settings](#results-page-settings) > `Checkout options`.
 
 === "WooCommerce"
 
@@ -1207,6 +1213,9 @@
         If you would like to add a product to the cart you can set up your own results page in your store and send all the quiz data there with the help of our [Callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/).
 
 **Individual Product Settings**
+
+=== "Shopify"
+
 
 === "Shopify (Legacy)"
 
@@ -1266,8 +1275,6 @@
     `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
     `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
-
-=== "Shopify"
 
 === "WooCommerce"
 
@@ -1456,6 +1463,9 @@
 
 ### Advanced Settings
 
+=== "Shopify"
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder results page results page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
@@ -1483,8 +1493,6 @@
     **Multiple Results Pages**
 
     `Activate multiple results pages` - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
-
-=== "Shopify"
 
 === "WooCommerce"
 
@@ -1600,6 +1608,19 @@
 
 ### Multiple Results Pages Settings
 
+=== "Shopify"
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
+
+    `+ Add results page` - Click to add an extra results page to your quiz. Each results page can have different settings and content.
+
+    !!! info "Jump Logic is required"
+
+        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional Logic tab.
+
+        Check out [this guide](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump Logic.
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
@@ -1617,18 +1638,6 @@
     `Set as default` - Click "set" to select this results page as default. Customer will be taken to the default results page unless you redirect them with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) to another page.
 
     `Create new Results Page` - add a new results page to your quiz. 
-
-=== "Shopify"
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
-
-    `+ Add results page` - Click to add an extra results page to your quiz. Each results page can have different settings and content.
-
-    !!! info "Jump Logic is required"
-
-        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional Logic tab.
-
-        Check out [this guide](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump Logic.
 
 === "WooCommerce"
 
@@ -1704,6 +1713,18 @@
 
 ### Discounts Settings
 
+=== "Shopify"
+
+    1. To add a discount code to the results page, open the [Results Page Settings](/reference/quiz-builder/results-page/#results-page-settings).
+    2. Locate the `Discount code` section and paste the discount code in the `Code` field. Note that the code must be a valid discount code in your Shopify store.
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
+
+    !!! tip "How to add a discount code"
+
+        Check out [this guide](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
@@ -1741,17 +1762,6 @@
     `add a discount` - Adds a new dynamic discount below (Discount [B]).
 
     `deactivate` - Deactivates dynamic discounts.
-
-=== "Shopify"
-
-    1. To add a discount code to the results page, open the [Results Page Settings](/reference/quiz-builder/results-page/#results-page-settings).
-    2. Locate the `Discount code` section and paste the discount code in the `Code` field. Note that the code must be a valid discount code in your Shopify store.
-
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
-
-    !!! tip "How to add a discount code"
-
-        Check out [this guide](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
 
 === "WooCommerce"
 

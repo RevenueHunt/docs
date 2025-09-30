@@ -14,28 +14,6 @@ This guide provides step-by-step instructions on how to implement a chat button 
 !!! info "What's a Chat Button on the Homepage?"
     It's a chat-like button that shows up on the homepage of your store and when clicked opens the quiz popup.
 
-=== "Shopify (Legacy)"
-
-    **Option 1: Through Shopify Theme**
-
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/oQyIiA2GwjY?si=X5Pd4YUR5O-sby3u" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
-    2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
-    3. **Embed the Chat Button Quiz**: Select `Chat Button Quiz` from the list.
-    4. **Customize the Chat Button**: Enter your Quiz ID into the appropriate field. Adjust the chat button settings as needed. Activate the chat button by toggling it on.
-    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-
-    **Option 2: Manual**
-
-    1. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode, and `Show Instructions for Legacy Themes`.
-    2. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code.
-    3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
-    4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code. paste this code into the HTML of your desired pages.
-    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d836e7cc0ef841f2bf1458a52161d94f?sid=ccbf7e73-3a18-4d48-9eca-e6be27d13671" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -66,6 +44,29 @@ This guide provides step-by-step instructions on how to implement a chat button 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
         If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+
+
+=== "Shopify (Legacy)"
+
+    **Option 1: Through Shopify Theme**
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/oQyIiA2GwjY?si=X5Pd4YUR5O-sby3u" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    1. **Copy Quiz ID**: Go to your RevenueHunt app [dashboard](/reference/dashboard/), select a quiz and click the `...` button. Copy your Quiz ID.
+    2. **Open Store Themes**: Go to `Online Store > Themes`, click `Customize`, then open `App Embeds`.
+    3. **Embed the Chat Button Quiz**: Select `Chat Button Quiz` from the list.
+    4. **Customize the Chat Button**: Enter your Quiz ID into the appropriate field. Adjust the chat button settings as needed. Activate the chat button by toggling it on.
+    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
+
+    **Option 2: Manual**
+
+    1. **Obtain Chat Embed Code**: From the quiz builder, click [`Share`](/reference/quiz-builder/share-publish/), select [`Chat button`](/reference/quiz-builder/share-publish/#chat) mode, and `Show Instructions for Legacy Themes`.
+    2. **Generate Popup Code**: Adjust settings like welcome message, width or height and click `Get code` to generate an HTML code.
+    3. **Open Store Themes**: In `Themes`, click `Customize`, add a `Custom content` section, then a `Custom HTML`/`Custom liquid` block.
+    4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code. paste this code into the HTML of your desired pages.
+    5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
 === "WooCommerce"
 
@@ -128,10 +129,6 @@ This guide provides step-by-step instructions on how to implement a chat button 
 !!! info "What's a Chat Button on All Pages?"
     It's a chat-like button that shows up on all pages of your store and when clicked opens the quiz popup.
 
-=== "Shopify (Legacy)"
-
-    If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d836e7cc0ef841f2bf1458a52161d94f?sid=ccbf7e73-3a18-4d48-9eca-e6be27d13671" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -160,6 +157,11 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
         If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.  
 
+
+=== "Shopify (Legacy)"
+
+    If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
+
 === "WooCommerce"
 
     If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
@@ -181,13 +183,6 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
 !!! info "What's a Chat Button on a Specific Page?"
     It's a chat-like button that shows up on a specific page of your store and when clicked opens the quiz popup.
-
-=== "Shopify (Legacy)"
-
-    1. **Obtain Chat Button Embed Code**: From the quiz builder, click `Share`, select `Chat button` mode, and `Show Instructions for Legacy Themes`.
-    2. **Generate Popup Code**: Adjust settings like color, width or height and click `Get code` to generate an HTML code.
-    3. **Embed Code on Page**: In Shopify, go to `Online Store > Pages`, select the page, click `Show HTML`, and paste the popup code.
-    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
 === "Shopify"
 
@@ -226,6 +221,14 @@ This guide provides step-by-step instructions on how to implement a chat button 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
         If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+
+
+=== "Shopify (Legacy)"
+
+    1. **Obtain Chat Button Embed Code**: From the quiz builder, click `Share`, select `Chat button` mode, and `Show Instructions for Legacy Themes`.
+    2. **Generate Popup Code**: Adjust settings like color, width or height and click `Get code` to generate an HTML code.
+    3. **Embed Code on Page**: In Shopify, go to `Online Store > Pages`, select the page, click `Show HTML`, and paste the popup code.
+    4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
 === "WooCommerce"
 
@@ -287,10 +290,6 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
 ### Open a Specific Quiz
 
-=== "Shopify (Legacy)"
-
-    To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
-    
 === "Shopify"
 
     By default when add an chat button, the default quiz for your store will show. 
@@ -310,6 +309,11 @@ This guide provides step-by-step instructions on how to implement a chat button 
         Keep in mind that the Quiz ID is case-sensitive.
     
 
+
+=== "Shopify (Legacy)"
+
+    To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
+    
 === "WooCommerce"
 
     To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
@@ -331,16 +335,6 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
-=== "Shopify (Legacy)"
-
-    If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:
-
-    1. Go back to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    2. Go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**. Then in Shopify, go back to Online Store > Themes > Customize and under the `App Embeds` select the `Chat Button Quiz` option.
-    3. Paste the Quiz ID in the `Quiz ID` field. *Note: the Quiz ID is case-sensitive.*
-        ![how_to_publish_shipifyV2_V1publisherrorchatbutton](/images/how_to_publish_shipifyV2_V1publisherrorchatv1.png)
-    4. Save your changes and refresh the page.
-    
 === "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
@@ -356,6 +350,17 @@ This guide provides step-by-step instructions on how to implement a chat button 
         To solve this simply deactivate the `Chat Button Quiz Legacy` and activate the `Chat Button Quiz` one. 
     2. Save the changes.
 
+
+=== "Shopify (Legacy)"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:
+
+    1. Go back to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    2. Go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**. Then in Shopify, go back to Online Store > Themes > Customize and under the `App Embeds` select the `Chat Button Quiz` option.
+    3. Paste the Quiz ID in the `Quiz ID` field. *Note: the Quiz ID is case-sensitive.*
+        ![how_to_publish_shipifyV2_V1publisherrorchatbutton](/images/how_to_publish_shipifyV2_V1publisherrorchatv1.png)
+    4. Save your changes and refresh the page.
+    
 === "WooCommerce"
 
     If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:

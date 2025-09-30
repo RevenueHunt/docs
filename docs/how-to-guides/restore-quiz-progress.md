@@ -10,13 +10,14 @@ This guide will walk you through the process of using the [Version History](/ref
 
 
 
-=== "Shopify (Legacy)"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c04e2d8b2548424696c2743d8f846ed8?sid=fe2edbcd-7f82-4735-9c5e-f0ed0f15157b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/ed05fcf812244f7f965e180fd446ea94?sid=d6e9b2f1-62bd-40b6-bdfe-14a314cbb295" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+
+=== "Shopify (Legacy)"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c04e2d8b2548424696c2743d8f846ed8?sid=fe2edbcd-7f82-4735-9c5e-f0ed0f15157b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "WooCommerce"
 
@@ -41,6 +42,16 @@ This guide will walk you through the process of using the [Version History](/ref
 
 ## Accessing Version History
 
+=== "Shopify"
+
+    The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
+
+    1. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder or the Dashboard.
+    2. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
+
+    ![Shopify V2 Version History](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
+
+
 === "Shopify (Legacy)"
 
     The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
@@ -50,15 +61,6 @@ This guide will walk you through the process of using the [Version History](/ref
     3. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
     
     ![Version History](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
-
-=== "Shopify"
-
-    The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
-
-    1. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder or the Dashboard.
-    2. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
-
-    ![Shopify V2 Version History](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
 
 === "WooCommerce"
 
@@ -102,14 +104,6 @@ This guide will walk you through the process of using the [Version History](/ref
 
 ## Understanding Saved Versions
 
-=== "Shopify (Legacy)"
-
-    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button. 
-
-    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history. 
-    - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
-    - For better organization and clarity, you have the option to `rename` any saved version. This can help you keep track of significant changes or versions you may want to revert to later.
-
 === "Shopify"
 
     Version History does not track every minor edit. Instead, it captures a new version each time you save changes to your quiz with the top-right `Save` button. 
@@ -117,6 +111,15 @@ This guide will walk you through the process of using the [Version History](/ref
     - A new version is saved only when you click `Save` on your quiz. This action updates the preview/live quiz and records a version in the history. 
     - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
     - For better organization and clarity, you can click on `Show more details` to expand the version change details and see where exactly the changes were made.
+
+
+=== "Shopify (Legacy)"
+
+    Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button. 
+
+    - A new version is saved only when you click `Publish` on your quiz. This action updates the preview/live quiz and records a version in the history. 
+    - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
+    - For better organization and clarity, you have the option to `rename` any saved version. This can help you keep track of significant changes or versions you may want to revert to later.
 
 === "WooCommerce"
 
@@ -152,19 +155,6 @@ This guide will walk you through the process of using the [Version History](/ref
 
 ## Recovering a Quiz Version
 
-=== "Shopify (Legacy)"
-
-    If you need to recover a previous version of the quiz:
-
-    1. **Select the Version**: Identify the version you want to recover from the list. Use the colored `tags` and `time stamps` as a guide to find the version with the desired changes.
-    2. **Use the Three Dots Menu**: Next to the version you want to recover, click on the three dots menu `...` for options.
-    3. **Recover Quiz Version**: Select to `create a new quiz from this version`. Once clicked, a new quiz copy will appear on your [Dashboard](/reference/dashboard/).
-    4. **Re-publish the Quiz**: After creating the new quiz, you need to re-publish the quiz to make it live on your store, replacing the old quiz.
-
-    !!! warning
-
-        It is not possible to replace the current quiz with a previous version while keeping the same quiz ID. You can only create a new quiz from a previous version.
-
 === "Shopify"
 
     For recent changes, use the `undo` button `(Ctrl + Z)` to revert the last action.
@@ -186,6 +176,20 @@ This guide will walk you through the process of using the [Version History](/ref
 
             If unsure about which version to restore, create a new quiz using the selected version to review its content.
     6. After creation, you will be taken to the quiz builder where you can verify the content of the new quiz.
+
+
+=== "Shopify (Legacy)"
+
+    If you need to recover a previous version of the quiz:
+
+    1. **Select the Version**: Identify the version you want to recover from the list. Use the colored `tags` and `time stamps` as a guide to find the version with the desired changes.
+    2. **Use the Three Dots Menu**: Next to the version you want to recover, click on the three dots menu `...` for options.
+    3. **Recover Quiz Version**: Select to `create a new quiz from this version`. Once clicked, a new quiz copy will appear on your [Dashboard](/reference/dashboard/).
+    4. **Re-publish the Quiz**: After creating the new quiz, you need to re-publish the quiz to make it live on your store, replacing the old quiz.
+
+    !!! warning
+
+        It is not possible to replace the current quiz with a previous version while keeping the same quiz ID. You can only create a new quiz from a previous version.
 
 === "WooCommerce"
 

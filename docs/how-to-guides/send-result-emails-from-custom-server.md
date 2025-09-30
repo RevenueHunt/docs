@@ -14,41 +14,6 @@ SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails acros
 
 ## Setting Up SMTP Server Connection
 
-=== "Shopify (Legacy)"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4887d06413b84d0098f2c08c49f8ead9?sid=6eac3370-9976-4ea2-81c3-85a0691669a5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
-    2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
-
-        ![how to set up smtp](/images/manual_appsettings_smtp.png)
-
-    3. **Enter SMTP Details**: Fill in your SMTP server details. 
-
-        Fill in the following fields:
-
-        ![how to set up smtp filled in](/images/how_to_smtp_filledin.png)
-
-        - **SMTP From Field**: Enter your email address in the format `name@revenuehunt.com`.
-        - **SMTP Server**: Copy the host value from your email provider's configuration (usually in the format `smtp.something`).
-        - **Username**: Use the username provided, usually your email address.
-        - **SMTP Password**: Enter the password provided by your email provider. Note that some providers may require a special password for SMTP settings.
-        - **SMTP Port**: Enter the port number (e.g., `587`) as specified by your email provider's configuration.
-
-        SMTP settings vary by email provider. To find your settings:
-        
-        - Search your email provider's documentation for 'SMTP'.
-        - Visit [Specific SMTP Configurations](#specific-smtp-configurations) for common email provider instructions.
-        - Contact your email provider's support team for assistance.
-
-        !!! note
-
-            If you're not sure how to fill it in, try contacting your email service provider or check their documentation (search for "SMTP" on the documentation page).
-
-    4. **Test and Activate**: Click on `test connection & activate`. If the test is succsefull, from now on all the emails will be sent from your server. 
-    
-        If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues).
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/i5eUNaSdET4?si=0WMwUXM-CTzcqHkU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -91,6 +56,42 @@ SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails acros
         ![how to set up smtp success](/images/how_to_shopifyv2_smtp_success.png)
 
 
+
+
+=== "Shopify (Legacy)"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4887d06413b84d0098f2c08c49f8ead9?sid=6eac3370-9976-4ea2-81c3-85a0691669a5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
+    2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
+
+        ![how to set up smtp](/images/manual_appsettings_smtp.png)
+
+    3. **Enter SMTP Details**: Fill in your SMTP server details. 
+
+        Fill in the following fields:
+
+        ![how to set up smtp filled in](/images/how_to_smtp_filledin.png)
+
+        - **SMTP From Field**: Enter your email address in the format `name@revenuehunt.com`.
+        - **SMTP Server**: Copy the host value from your email provider's configuration (usually in the format `smtp.something`).
+        - **Username**: Use the username provided, usually your email address.
+        - **SMTP Password**: Enter the password provided by your email provider. Note that some providers may require a special password for SMTP settings.
+        - **SMTP Port**: Enter the port number (e.g., `587`) as specified by your email provider's configuration.
+
+        SMTP settings vary by email provider. To find your settings:
+        
+        - Search your email provider's documentation for 'SMTP'.
+        - Visit [Specific SMTP Configurations](#specific-smtp-configurations) for common email provider instructions.
+        - Contact your email provider's support team for assistance.
+
+        !!! note
+
+            If you're not sure how to fill it in, try contacting your email service provider or check their documentation (search for "SMTP" on the documentation page).
+
+    4. **Test and Activate**: Click on `test connection & activate`. If the test is succsefull, from now on all the emails will be sent from your server. 
+    
+        If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues).
 
 === "WooCommerce"
 

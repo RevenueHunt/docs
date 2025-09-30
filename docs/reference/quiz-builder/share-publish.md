@@ -1,13 +1,5 @@
 # Share / Publish
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder share](/images/manual_quizbuilder_share.png)
-
-    In the Share tab of the Quiz Builder, you can choose how to publish the quiz on your website or how to share it with your customers. Click on the option tiles to see instructions and extra settings. 
-
-    For step-by-step instructions check [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide.
-
 === "Shopify"
 
     ![/images/manual_shopifyV2_quizbuilder_share_publish_publishinthemenu.png](/images/manual_shopifyV2_quizbuilder_share_publish_publishinthemenu.png)
@@ -29,6 +21,15 @@
     
         Check our [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide for detailed instructions.
 
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder share](/images/manual_quizbuilder_share.png)
+
+    In the Share tab of the Quiz Builder, you can choose how to publish the quiz on your website or how to share it with your customers. Click on the option tiles to see instructions and extra settings. 
+
+    For step-by-step instructions check [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide.
 
 === "WooCommerce"
 
@@ -206,24 +207,6 @@
 
 ## Inline
 
-=== "Shopify (Legacy)"
-
-    Quiz embedded inline with a page.
-
-    ![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
-
-    `Instructions for legacy themes` - Opens extra settings menu.
-
-    ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
-
-    **EMBEDDED QUIZ OPTIONS**
-
-    `Width` - Adjust the width of the quiz by typing the percentage number or px value.
-
-    `Height` - Adjust the width of the quiz by typing the percentage number or px value.
-
-    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
-
 === "Shopify"
 
     !!! info "What's an Inline Quiz?"
@@ -301,6 +284,25 @@
         
         Follow the step by step instructions provided in the `Add the quiz to a dedicated landing page` section or in our [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
 
+
+=== "Shopify (Legacy)"
+
+    Quiz embedded inline with a page.
+
+    ![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
+
+    `Instructions for legacy themes` - Opens extra settings menu.
+
+    ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
+
+    **EMBEDDED QUIZ OPTIONS**
+
+    `Width` - Adjust the width of the quiz by typing the percentage number or px value.
+
+    `Height` - Adjust the width of the quiz by typing the percentage number or px value.
+
+    `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
+
 === "WooCommerce"
 
     Quiz embedded inline with a page.
@@ -374,28 +376,6 @@
     `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
 
 ## Automatic
-
-=== "Shopify (Legacy)" 
-
-    A quiz popup appears after X seconds.
-
-    By default, the popup is only shown once per session.
-
-    ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
-
-    `Instructions for legacy themes` - Opens extra settings menu.
-
-    ![quiz builder share automatic legacy](/images/manual_quizbuilder_share_automatic_legacy.png)
-
-    **POPUP OPTIONS**
-
-    `Popup width` - Adjust the width of the quiz by typing the percentage number.
-
-    `Popup height` - Adjust the width of the quiz by typing the percentage number.
-
-    `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
-
-    `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
 === "Shopify"
 
@@ -472,6 +452,29 @@
         By default, the popup is only shown once per session unless `Exit Intent` is enabled.
     
     
+
+
+=== "Shopify (Legacy)" 
+
+    A quiz popup appears after X seconds.
+
+    By default, the popup is only shown once per session.
+
+    ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
+
+    `Instructions for legacy themes` - Opens extra settings menu.
+
+    ![quiz builder share automatic legacy](/images/manual_quizbuilder_share_automatic_legacy.png)
+
+    **POPUP OPTIONS**
+
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
+
+    `Popup height` - Adjust the width of the quiz by typing the percentage number.
+
+    `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
+
+    `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
 === "WooCommerce" 
 
@@ -563,18 +566,6 @@
 
 ## External
 
-=== "Shopify (Legacy)"
-
-    Direct link to the quiz for social media.
-
-    ![quiz builder share external](/images/manual_quizbuilder_share_external.png)
-
-    **POPUP OPTIONS**
-
-    `Popup width` - Adjust the width of the quiz by typing the percentage number.
-
-    `Popup height` - Adjust the height of the quiz by typing the percentage number.
-
 === "Shopify"
 
     !!! info "What's an External Link?"
@@ -601,6 +592,19 @@
 
         For step by step instructions, check [Link Popup on Every Page](/reference/quiz-builder/share-publish/#on-every-page).
 
+
+
+=== "Shopify (Legacy)"
+
+    Direct link to the quiz for social media.
+
+    ![quiz builder share external](/images/manual_quizbuilder_share_external.png)
+
+    **POPUP OPTIONS**
+
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
+
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "WooCommerce"
 
@@ -652,18 +656,6 @@
 
 ## Email
 
-=== "Shopify (Legacy)" 
-
-    Quiz popup when someone clicks on this email link. 
-
-    ![quiz builder share email](/images/manual_quizbuilder_share_email.png)
-
-    **POPUP OPTIONS**
-
-    `Popup width` - Adjust the width of the quiz by typing the percentage number.
-
-    `Popup height` - Adjust the height of the quiz by typing the percentage number.
-
 === "Shopify"
 
     !!! info "What's an Email Link?"
@@ -689,6 +681,19 @@
     !!! tip "Check our guide"
 
         For step by step instructions, check [Link Popup on Every Page](/reference/quiz-builder/share-publish/#on-every-page).
+
+
+=== "Shopify (Legacy)" 
+
+    Quiz popup when someone clicks on this email link. 
+
+    ![quiz builder share email](/images/manual_quizbuilder_share_email.png)
+
+    **POPUP OPTIONS**
+
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
+
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "WooCommerce" 
 
@@ -739,34 +744,6 @@
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 ## Chat
-
-=== "Shopify (Legacy)" 
-
-    Quiz popup when visitors click on a chat-like button.
-
-    ![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
-
-    `Instructions for legacy themes` - Opens extra settings menu.
-
-    ![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)
-
-    **POPUP OPTIONS**
-
-    `Popup width` - Adjust the width of the quiz by typing the percentage number.
-
-    `Popup height` - Adjust the height of the quiz by typing the percentage number.
-
-    ![quiz builder share chat legacy button](/images/manual_quizbuilder_share_chat_legacy_button.png)
-
-    **CHAT BUTTON OPTIONS**
-
-    `Chat button color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
-
-    `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
-
-    `Notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
-
-    `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
 === "Shopify"
 
@@ -842,6 +819,35 @@
     !!! tip "Check our guide"
 
         Follow the step by step instructions provided in our [How to Set Up Chat Button Popups on a Specific Page](https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/#on-a-specific-page) to add a chat popup to your website.
+
+
+=== "Shopify (Legacy)" 
+
+    Quiz popup when visitors click on a chat-like button.
+
+    ![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
+
+    `Instructions for legacy themes` - Opens extra settings menu.
+
+    ![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)
+
+    **POPUP OPTIONS**
+
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
+
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
+
+    ![quiz builder share chat legacy button](/images/manual_quizbuilder_share_chat_legacy_button.png)
+
+    **CHAT BUTTON OPTIONS**
+
+    `Chat button color` - Adjust the color of the chat button by selecting one from the tool or adding a #color.
+
+    `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
+
+    `Notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
+
+    `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
 === "WooCommerce" 
 

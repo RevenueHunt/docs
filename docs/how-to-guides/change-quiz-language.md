@@ -12,20 +12,6 @@ This guide will help you change the language of your quiz, translate it into dif
 
 ## Change Quiz Language in Settings
 
-=== "Shopify (Legacy)"
-
-    !!! note
-    
-        Version 1 of the RevenueHunt App for Shopify doesn't support the Shopify Markets feature. 
-
-    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
-
-        ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
-        
-    2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
-    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
-    4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/c636603e986a41a6a932c7721add7dcf?sid=5abfc134-cb3d-4ba6-934f-991533d5a11d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -76,6 +62,21 @@ This guide will help you change the language of your quiz, translate it into dif
 
     By following these steps, you’ll have a well-localized quiz experience ready for each market and language, which you can then manage seamlessly in the Shopify Markets tab of your app settings.
 
+
+=== "Shopify (Legacy)"
+
+    !!! note
+    
+        Version 1 of the RevenueHunt App for Shopify doesn't support the Shopify Markets feature. 
+
+    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
+
+        ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
+        
+    2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
+    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
+    4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
+
 === "WooCommerce"
 
     1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
@@ -117,6 +118,65 @@ This guide will help you change the language of your quiz, translate it into dif
     4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
 
 ## Set Up Multilingual Quizzes
+
+=== "Shopify"
+
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/c636603e986a41a6a932c7721add7dcf?sid=5abfc134-cb3d-4ba6-934f-991533d5a11d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    !!! tip "Tutorial"
+    
+        Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
+
+    Our RevenueHunt app allows you to tailor the shopping experience for customers worldwide by selecting specific quizzes for each Shopify Market and its associated languages. Here’s a step-by-step guide to help you change your quiz language based on the visitor’s location and language preference.
+
+    **Step 1: Navigate to the Shopify Markets Settings**
+
+    - Log in to your Shopify Admin Panel.
+
+    - In the left-hand menu, go to Apps and select `RevenueHunt`.
+
+    - Once in the app, look for [App Settings](/reference/app-settings/) and select the [Shopify Markets](/reference/app-settings/#markets) tab.
+
+    **Step 2: Assign a Quiz to a Specific Shopify Market**
+
+    - In the [Shopify Markets](/reference/app-settings/#markets) tab, you’ll see a `dropdown list` that shows all available quizzes.
+    
+    - From the Shopify Markets section, select the Shopify Market where you’d like to assign a quiz.
+
+      ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
+
+    - Choose the default quiz you want displayed to visitors in this Market from the dropdown.
+
+    **Step 3: Show All Locales for Language Customization**
+
+    If you want to customize quizzes based on both market and language:
+
+    - Toggle the `Show All Locales` option to display a detailed list of markets and associated languages.
+
+    - You’ll now be able to assign different quizzes for each language within the same market:
+
+      *Example: For the United States market, you can set one quiz for English-speaking customers and another for Spanish-speaking customers.*
+
+    **Step 4: Select the Quiz for Each Locale**
+
+    - With all locales shown, go to the specific language you want to adjust.
+
+    - From the dropdown menu for that locale, pick the quiz that best matches the needs of that language group.
+
+    - Save your changes to ensure the new language-specific quiz assignments are applied.
+
+    **Step 5: Hide All Locales for Simplified View**
+
+    If you’d like to revert to a single quiz for a Market regardless of language:
+
+    ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
+
+    - Click the `Hide All Locales` option. This will simplify the view by removing language-specific distinctions.
+
+    - The default quiz you’ve selected for that Market will now display to all visitors from that region, regardless of their language.
+
+    By following these steps, you’ll be able to customize your quizzes by Market and language, ensuring each visitor has a tailored experience that feels relevant and engaging.
+
 
 === "Shopify (Legacy)"
 
@@ -209,64 +269,6 @@ This guide will help you change the language of your quiz, translate it into dif
     5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
 
 
-
-=== "Shopify"
-
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/c636603e986a41a6a932c7721add7dcf?sid=5abfc134-cb3d-4ba6-934f-991533d5a11d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    !!! tip "Tutorial"
-    
-        Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
-
-    Our RevenueHunt app allows you to tailor the shopping experience for customers worldwide by selecting specific quizzes for each Shopify Market and its associated languages. Here’s a step-by-step guide to help you change your quiz language based on the visitor’s location and language preference.
-
-    **Step 1: Navigate to the Shopify Markets Settings**
-
-    - Log in to your Shopify Admin Panel.
-
-    - In the left-hand menu, go to Apps and select `RevenueHunt`.
-
-    - Once in the app, look for [App Settings](/reference/app-settings/) and select the [Shopify Markets](/reference/app-settings/#markets) tab.
-
-    **Step 2: Assign a Quiz to a Specific Shopify Market**
-
-    - In the [Shopify Markets](/reference/app-settings/#markets) tab, you’ll see a `dropdown list` that shows all available quizzes.
-    
-    - From the Shopify Markets section, select the Shopify Market where you’d like to assign a quiz.
-
-      ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
-
-    - Choose the default quiz you want displayed to visitors in this Market from the dropdown.
-
-    **Step 3: Show All Locales for Language Customization**
-
-    If you want to customize quizzes based on both market and language:
-
-    - Toggle the `Show All Locales` option to display a detailed list of markets and associated languages.
-
-    - You’ll now be able to assign different quizzes for each language within the same market:
-
-      *Example: For the United States market, you can set one quiz for English-speaking customers and another for Spanish-speaking customers.*
-
-    **Step 4: Select the Quiz for Each Locale**
-
-    - With all locales shown, go to the specific language you want to adjust.
-
-    - From the dropdown menu for that locale, pick the quiz that best matches the needs of that language group.
-
-    - Save your changes to ensure the new language-specific quiz assignments are applied.
-
-    **Step 5: Hide All Locales for Simplified View**
-
-    If you’d like to revert to a single quiz for a Market regardless of language:
-
-    ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
-
-    - Click the `Hide All Locales` option. This will simplify the view by removing language-specific distinctions.
-
-    - The default quiz you’ve selected for that Market will now display to all visitors from that region, regardless of their language.
-
-    By following these steps, you’ll be able to customize your quizzes by Market and language, ensuring each visitor has a tailored experience that feels relevant and engaging.
 
 === "WooCommerce"
 

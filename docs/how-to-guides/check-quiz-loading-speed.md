@@ -11,6 +11,58 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
 
 
+=== "Shopify"
+
+    **Step 1: Verify Direct Quiz Link Performance**
+
+    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
+
+    1. **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform. 
+        - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
+    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
+
+    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
+
+
+    !!! tip
+
+        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the direct quiz link performance.
+
+    ---
+
+    **Step 2: Analyze Your Website's Loading Order**
+
+    !!! info
+        The new Built for Shopify version of the RevenueHunt app integrates the quiz as a native Shopify block within the Theme.
+
+    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
+
+    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
+    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
+
+    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
+
+
+    !!! tip
+
+        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the quiz page performance.
+
+    
+
+    ---
+
+    **Step 3: Optimize Your Website's Resources**
+
+    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
+
+    - **Optimize Third-Party Widgets**: Review any third-party widgets or scripts (e.g., marketing, chat tools) on your site. Ensure that they are loaded asynchronously or deferred to load after the quiz.
+
+    - **Check Shopify Performance Reports**: Use [Shopify’s built-in tools](https://help.shopify.com/en/manual/online-store/web-performance/improving-web-performance) to check for any resources that might be blocking the quiz from loading quickly.
+
+
+
+
+
 === "Shopify (Legacy)"
 
     
@@ -72,57 +124,6 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
     **Step 4: Optimize Your Website's Resources**
 
     Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
-
-
-
-=== "Shopify"
-
-    **Step 1: Verify Direct Quiz Link Performance**
-
-    First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
-
-    1. **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform. 
-        - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
-
-    If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
-
-
-    !!! tip
-
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the direct quiz link performance.
-
-    ---
-
-    **Step 2: Analyze Your Website's Loading Order**
-
-    !!! info
-        The new Built for Shopify version of the RevenueHunt app integrates the quiz as a native Shopify block within the Theme.
-
-    Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
-
-    1. **Open Developer Tools**: Right-click on your website in the browser and select `Inspect` to open the developer tools.
-    2. **Review Network and Performance**: Navigate to the `Network` or `Performance` tabs to examine which resources are loading and how long each takes.
-
-    Look for resources that significantly delay loading times, as these are likely culprits affecting the quiz's performance on your site.
-
-
-    !!! tip
-
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the quiz page performance.
-
-    
-
-    ---
-
-    **Step 3: Optimize Your Website's Resources**
-
-    Consult your developer to review and optimize the loading of resources on your site. This may involve compressing images, minimizing CSS and JavaScript files, and removing unnecessary plugins or widgets. 
-
-    - **Optimize Third-Party Widgets**: Review any third-party widgets or scripts (e.g., marketing, chat tools) on your site. Ensure that they are loaded asynchronously or deferred to load after the quiz.
-
-    - **Check Shopify Performance Reports**: Use [Shopify’s built-in tools](https://help.shopify.com/en/manual/online-store/web-performance/improving-web-performance) to check for any resources that might be blocking the quiz from loading quickly.
-
 
 
 

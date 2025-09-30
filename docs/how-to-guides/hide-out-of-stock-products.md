@@ -10,18 +10,6 @@ In this guide, you'll learn how to hide out-of-stock or draft products from your
 
 This guide explains how to hide out-of-stock products from your quiz recommendations.
 
-=== "Shopify (Legacy)"
-
-    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
-
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
-    3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
-
-        ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    5. Update the preview/live quiz with the top-right `Publish` button.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/816e788d98e04d1d91fb4b1a9d5a502d?sid=5403bf8e-8435-4893-845d-5dd859f8f157" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -36,6 +24,19 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
     4. Save the changes.
 
     By following these steps, out-of-stock products will be hidden from your recommendations.
+
+
+=== "Shopify (Legacy)"
+
+    You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
+
+    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
+    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
+    3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
+    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
+
+        ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
+    5. Update the preview/live quiz with the top-right `Publish` button.
 
 === "WooCommerce"
 
@@ -90,18 +91,6 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
 
 This guide explains how to hide draft products from your quiz recommendations.
 
-=== "Shopify (Legacy)"
-
-    You can exclude all draft items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
-
-    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
-    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
-    3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
-
-        ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    5. Update the preview/live quiz with the top-right `Publish` button.
-
 === "Shopify"
 
     You can now exclude all draft items from your recommendations directly in the **Store settings** under the **Catalogue** tab.
@@ -114,6 +103,19 @@ This guide explains how to hide draft products from your quiz recommendations.
     4. Save the changes with the top-right `Save` button.
 
     By following these steps, draft products will be hidden from your recommendations.
+
+
+=== "Shopify (Legacy)"
+
+    You can exclude all draft items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
+
+    1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
+    2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
+    3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
+    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
+
+        ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
+    5. Update the preview/live quiz with the top-right `Publish` button.
 
 === "WooCommerce"
 

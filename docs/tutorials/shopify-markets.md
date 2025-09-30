@@ -5,11 +5,6 @@ icon: material/numeric-8
 
 # Assign Quizzes to Shopify Markets and Languages
 
-=== "Shopify (Legacy)"
-
-    !!! note "Platform Availability"
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
-
 === "Shopify"
 
     In this tutorial, you’ll learn how to display different quizzes for different Shopify markets, and how to show quizzes in different languages or currencies based on your market settings in the RevenueHunt app.
@@ -29,6 +24,12 @@ icon: material/numeric-8
     <iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=lpLnZ1WuwaJDvZzp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>  
 
+
+
+=== "Shopify (Legacy)"
+
+    !!! note "Platform Availability"
+        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
 === "WooCommerce"
 
@@ -52,15 +53,16 @@ icon: material/numeric-8
 
 ## Intro
 
+=== "Shopify"
+
+    This documentation outlines the steps to configure quizzes in the Revenue Hunt app for different Shopify markets, including language and currency settings. It provides a comprehensive guide on creating, duplicating, and assigning quizzes to ensure customers see the appropriate content based on their market and language preferences.
+
+
 === "Shopify (Legacy)"
 
 
     !!! note "Platform Availability"
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
-
-=== "Shopify"
-
-    This documentation outlines the steps to configure quizzes in the Revenue Hunt app for different Shopify markets, including language and currency settings. It provides a comprehensive guide on creating, duplicating, and assigning quizzes to ensure customers see the appropriate content based on their market and language preferences.
 
 === "WooCommerce"
 
@@ -84,12 +86,6 @@ icon: material/numeric-8
 
 ## Set up Shopify Markets
 
-=== "Shopify (Legacy)"
-
-
-    !!! note "Platform Availability"
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
-
 === "Shopify"
 
     Before assigning quizzes, make sure your Shopify Markets are set up:
@@ -99,6 +95,13 @@ icon: material/numeric-8
     3. To create a new market in Shopify, click on `Create Market` and enter the market name, regions and currency.
     4. Save your changes — these markets will sync automatically with the RevenueHunt Quizzes app.
 
+
+
+=== "Shopify (Legacy)"
+
+
+    !!! note "Platform Availability"
+        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
 === "WooCommerce"
 
@@ -122,12 +125,6 @@ icon: material/numeric-8
 
 
 ## Create Multiple Quizzes
-
-=== "Shopify (Legacy)"
-
-
-    !!! note "Platform Availability"
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
 === "Shopify"
 
@@ -164,6 +161,13 @@ icon: material/numeric-8
     7. Remember to save the changes with the `Save` button.
 
 
+
+=== "Shopify (Legacy)"
+
+
+    !!! note "Platform Availability"
+        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
+
 === "WooCommerce"
 
     !!! note "Platform Availability"
@@ -186,12 +190,6 @@ icon: material/numeric-8
 
 ## Assign Quizzes to Markets
 
-=== "Shopify (Legacy)"
-
-
-    !!! note "Platform Availability"
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
-
 === "Shopify"
 
     Once the quizzes for different markets and languages are created, you can assign them to be shown only to a specific market or language.
@@ -208,6 +206,13 @@ icon: material/numeric-8
             ![sample market assignment](https://loom.com/i/952e7d4c5972482496d85350ca8cb927?workflows_screenshot=true)
 
     4. Save the changes with the `Save` button.
+
+
+=== "Shopify (Legacy)"
+
+
+    !!! note "Platform Availability"
+        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
 === "WooCommerce"
 
@@ -230,12 +235,6 @@ icon: material/numeric-8
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 
 ## Assign Quizzes by Language
-
-=== "Shopify (Legacy)"
-
-
-    !!! note "Platform Availability"
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
 === "Shopify"
 
@@ -261,6 +260,13 @@ icon: material/numeric-8
 
     5. Save the changes with the `Save` button.
 
+
+=== "Shopify (Legacy)"
+
+
+    !!! note "Platform Availability"
+        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
+
 === "WooCommerce"
 
     !!! note "Platform Availability"
@@ -282,12 +288,6 @@ icon: material/numeric-8
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 
 ## Change Currency Format for Markets
-
-=== "Shopify (Legacy)"
-
-
-    !!! note "Platform Availability"
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
 === "Shopify"
 
@@ -312,6 +312,13 @@ icon: material/numeric-8
 
     4. Save the changes with the `Save` button.
 
+
+=== "Shopify (Legacy)"
+
+
+    !!! note "Platform Availability"
+        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
+
 === "WooCommerce"
 
     !!! note "Platform Availability"
@@ -334,12 +341,6 @@ icon: material/numeric-8
 
 ## Publish the Main Quiz
 
-=== "Shopify (Legacy)"
-
-
-    !!! note "Platform Availability"
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
-
 === "Shopify"
 
     Before testing, you need to ensure that your default quiz is published on the website. Otherwise, the RevenueHunt app will not be able to display any quizzes.
@@ -349,6 +350,13 @@ icon: material/numeric-8
     1. Go to the [`Publish`](/reference/quiz-builder/publish/) tab in the RevenueHunt app.
     2. Pick a publishing option and follow the instructions to add the quiz to your website.
     3. Once the default quiz is published, the Revenue Hunt app will automatically detect the customer's market and language to display the correct quiz.
+
+
+=== "Shopify (Legacy)"
+
+
+    !!! note "Platform Availability"
+        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
 === "WooCommerce"
 
@@ -371,12 +379,6 @@ icon: material/numeric-8
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 
 ## Test the Setup
-
-=== "Shopify (Legacy)"
-
-
-    !!! note "Platform Availability"
-        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
 === "Shopify"
 
@@ -401,6 +403,13 @@ icon: material/numeric-8
             ![sample test](https://loom.com/i/6893314457ef4219a293e28708f91ba1?workflows_screenshot=true)
 
     Congratulations! You've successfully set up quizzes for different markets and languages in the RevenueHunt app.
+
+
+=== "Shopify (Legacy)"
+
+
+    !!! note "Platform Availability"
+        This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
 === "WooCommerce"
 

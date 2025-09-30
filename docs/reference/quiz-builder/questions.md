@@ -1,11 +1,5 @@
 # Quiz Builder - Questions
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder quiz builder section](/images/manual_quizbuilder_quizbuilder.png)
-
-    Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click `Preview` in the top menu.
-
 === "Shopify"
 
     **Questions**
@@ -21,6 +15,13 @@
         All block elements added to a question will be visible on a single slide. To add a new slide click `+ Add question`. 
 
     `+ Add question` - Opens a menu of quiz questions to add as a new slide. To remove a question, click on the question and go to [Question settings](/reference/quiz-builder/questions/#question-settings).
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder quiz builder section](/images/manual_quizbuilder_quizbuilder.png)
+
+    Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click `Preview` in the top menu.
 
 === "WooCommerce"
 
@@ -47,44 +48,6 @@
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click `Test Quiz` in the top menu.
 
 ## Question Types
-
-=== "Shopify (Legacy)"
-
-    `+`/ `Add new question` - Opens a menu of quiz questions to add.
-
-    ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
-
-    `Welcome Message` - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
-
-    `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
-
-    `Dropdown` - Multiple choice slide which displays choices as a dropdwon menu.
-
-    `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
-
-    `Yes/No` - Two choices slide which displays choices as a clickable options.
-
-    `Pictures Choice` - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
-
-    `Statement` - A statement slide which displays text and a button to proceed to the next question.
-
-    `Short-text` - An open question slide that allows the user to provide a short text answer.
-
-    `Multi-line Text` - An open question slide that allows the user to provide a short text answer.
-
-    `Date` - A question slide that prompts the user to select or enter a specific date.
-
-    `File Upload` - An interactive slide where users can upload a file as their response.
-
-    `Name` - A slide designed for users to enter their name, featuring a short text field.
-
-    `Number` -  A question type where users are prompted to input a numerical answer.
-
-    `Email Address` - A slide dedicated to collecting the user's email address through a text field.
-
-    `Phone Number` - A slide where participants are asked to enter their phone number, usually in a specified format.
-
-    `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
 === "Shopify"
 
@@ -129,6 +92,45 @@
     `Email Address` - A slide dedicated to collecting the user's email address through a text field.
 
     `Phone Number` - A slide where participants are asked to enter their phone number, usually in a specified format.
+
+
+=== "Shopify (Legacy)"
+
+    `+`/ `Add new question` - Opens a menu of quiz questions to add.
+
+    ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
+
+    `Welcome Message` - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+
+    `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
+
+    `Dropdown` - Multiple choice slide which displays choices as a dropdwon menu.
+
+    `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
+
+    `Yes/No` - Two choices slide which displays choices as a clickable options.
+
+    `Pictures Choice` - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+
+    `Statement` - A statement slide which displays text and a button to proceed to the next question.
+
+    `Short-text` - An open question slide that allows the user to provide a short text answer.
+
+    `Multi-line Text` - An open question slide that allows the user to provide a short text answer.
+
+    `Date` - A question slide that prompts the user to select or enter a specific date.
+
+    `File Upload` - An interactive slide where users can upload a file as their response.
+
+    `Name` - A slide designed for users to enter their name, featuring a short text field.
+
+    `Number` -  A question type where users are prompted to input a numerical answer.
+
+    `Email Address` - A slide dedicated to collecting the user's email address through a text field.
+
+    `Phone Number` - A slide where participants are asked to enter their phone number, usually in a specified format.
+
+    `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
 === "WooCommerce"
 
@@ -284,57 +286,6 @@
 
 ## Question Settings
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
-
-    `question settings` / `wrench icon` - Opens the Question Settings menu.
-
-    ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
-
-    `Question Type` - Allows you to switch between similar question types.
-
-    `Button Text` - Change the text button on the slide.
-
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
-
-    `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
-
-    `Optional` - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
-
-    `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
-
-    `Range` - Select the range of answers a cusotmer can cliced.
-
-    `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
-
-    - *above* - Places the uplaoded image above the question, on top of the slide.
-    - *below* - Places the uplaoded image below the question, above the choices.
-    - *background* - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
-    - *split* - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
-    - *Image Opacity* - A slider which allows to adjust the opacity of the uplaoded image.
-
-    `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
-
-    - *responsive* - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
-    - *widget* - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
-    - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
-    - *Video Opacity* - A slider which allows to adjust the opacity of the uplaoded video.
-
-    `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
-
-    `Question ID` - Displays the question unique ID.
-
-    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
-
-    `more options` / `...` - Opens more options menu.
-
-    ![quiz builder question settings more options](/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png){width="300"}
-
-    - *+ add question below* - Adds a new blank question of the same type below.
-    - *Duplicate* - Duplicate this slide. Creates a copy slide below.
-    - *Delete* - Delete this slide.     
-
 === "Shopify"
 
     Click on the question to open the question settings menu. It opens on the right side of the screen.
@@ -435,6 +386,58 @@
 
     `Question ID` - Displays the question ID of the selected question.
 
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
+
+    `question settings` / `wrench icon` - Opens the Question Settings menu.
+
+    ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
+
+    `Question Type` - Allows you to switch between similar question types.
+
+    `Button Text` - Change the text button on the slide.
+
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
+
+    `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+
+    `Optional` - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
+
+    `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
+
+    `Range` - Select the range of answers a cusotmer can cliced.
+
+    `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
+
+    - *above* - Places the uplaoded image above the question, on top of the slide.
+    - *below* - Places the uplaoded image below the question, above the choices.
+    - *background* - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+    - *split* - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+    - *Image Opacity* - A slider which allows to adjust the opacity of the uplaoded image.
+
+    `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
+
+    - *responsive* - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
+    - *widget* - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
+    - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
+    - *Video Opacity* - A slider which allows to adjust the opacity of the uplaoded video.
+
+    `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+
+    `Question ID` - Displays the question unique ID.
+
+    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
+
+    `more options` / `...` - Opens more options menu.
+
+    ![quiz builder question settings more options](/images/manual_quizbuilder_quizbuilder_questionsettings_threedots.png){width="300"}
+
+    - *+ add question below* - Adds a new blank question of the same type below.
+    - *Duplicate* - Duplicate this slide. Creates a copy slide below.
+    - *Delete* - Delete this slide.     
 
 === "WooCommerce"
 
@@ -669,8 +672,6 @@
     - `Delete` - Delete this slide. 
 
 ## Block Settings
-
-=== "Shopify (Legacy)"
 
 === "Shopify"
 
@@ -1106,6 +1107,9 @@
 
 
 
+
+=== "Shopify (Legacy)"
+
 === "WooCommerce"
 
 === "Magento"
@@ -1115,8 +1119,6 @@
 === "Standalone"
 
 ## Choice Settings
-
-=== "Shopify (Legacy)"
 
 === "Shopify"
 
@@ -1163,6 +1165,9 @@
     `...` - Opens the choice management settings. Click `Duplicate` to duplicate the choice or `Remove` to delete it.
 
     `Choice ID` - A unique ID for this answer.
+
+
+=== "Shopify (Legacy)"
 
 === "WooCommerce"
 

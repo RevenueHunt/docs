@@ -10,13 +10,6 @@ This guide provides a clear, step-by-step process to making sure that specific p
 
 This approach ensures your chosen product always tops the Results Page by securing the most votes.
 
-=== "Shopify (Legacy)"
-
-    1. Access the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. 
-    2. Link your selected product with **every choice** available in the quiz. This method guarantees that the product collects votes with each customer selection, ensuring its appearance on the Results Page.
-
-    This strategy positions the product at the forefront of the Results Page every time.
-
 === "Shopify"
 
     1. Navigate to the [Quiz Builder](/reference/quiz-builder/) and locate the question you want to modify.
@@ -25,6 +18,14 @@ This approach ensures your chosen product always tops the Results Page by securi
     4. Repeat this process for all choices across all questions in your quiz.
     
     By linking your product to every possible answer, you ensure it receives votes regardless of which options customers select.
+
+
+=== "Shopify (Legacy)"
+
+    1. Access the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. 
+    2. Link your selected product with **every choice** available in the quiz. This method guarantees that the product collects votes with each customer selection, ensuring its appearance on the Results Page.
+
+    This strategy positions the product at the forefront of the Results Page every time.
 
 === "WooCommerce"
 
@@ -58,6 +59,17 @@ This approach ensures your chosen product always tops the Results Page by securi
 
 For those looking to highlight a new product or collection without dominating the entire recommendation list, creating a dedicated `Products Slot` on the Results Page offers a balanced solution.
 
+=== "Shopify"
+
+    1. **Create a Collection for Your Featured Products**: In your Shopify admin, create a dedicated collection for the products you want to always recommend.
+
+    2. **Create a Dedicated Product Slot**: Navigate to the [Results Page](/reference/quiz-builder/results-page/) tab. Add new block and find the `Products` section. In [Products settings](/reference/quiz-builder/results-page/#block-types), select the `Recommendation System` to be `Fixed recommendations`. Give it a meaningful name like "Featured Products"
+
+    3. **Configure the Product Slot**: In the slot settings, select `Include` and choose your featured products collection.
+
+    4. **Save and Preview**: Click the `Save` button and preview your quiz to ensure your featured products appear in their dedicated slot, regardless of the answers selected.
+
+
 === "Shopify (Legacy)"
 
     1. **Create a Collection/Category for Your Product(s)**: Group the products you wish to feature in a `New Products` collection/category. For instance, include your `Essentials Makeup Kit COMPLETE` in this collection.
@@ -71,16 +83,6 @@ For those looking to highlight a new product or collection without dominating th
     5. **Link collection/category to slot**: Make sure to `include` the created collection/category in the `Product Slot`.
 
     6. **Preview and Test Your Setup**: With your dedicated slot in place, click the `Publish` button to update the preview/live quiz. Then, preview the quiz and its results to ensure the new product or collection is displayed as intended. This final step confirms that your selected items are correctly highlighted on the Results Page.
-
-=== "Shopify"
-
-    1. **Create a Collection for Your Featured Products**: In your Shopify admin, create a dedicated collection for the products you want to always recommend.
-
-    2. **Create a Dedicated Product Slot**: Navigate to the [Results Page](/reference/quiz-builder/results-page/) tab. Add new block and find the `Products` section. In [Products settings](/reference/quiz-builder/results-page/#block-types), select the `Recommendation System` to be `Fixed recommendations`. Give it a meaningful name like "Featured Products"
-
-    3. **Configure the Product Slot**: In the slot settings, select `Include` and choose your featured products collection.
-
-    4. **Save and Preview**: Click the `Save` button and preview your quiz to ensure your featured products appear in their dedicated slot, regardless of the answers selected.
 
 === "WooCommerce"
 

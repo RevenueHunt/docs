@@ -8,6 +8,34 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
 Follow the instructions below to change your checkout settings:
 
+=== "Shopify"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/06af5680a59145e1838fe2bcfdcbd583?sid=4ad4cf1d-2aa4-4fec-9d5d-58d86da70932" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
+
+    1. Open the [Results Page](/reference/quiz-builder/results-page/).
+    2. Open the [Results Page settings](/reference/quiz-builder/results-page/#results-page-settings).
+    3. Find the `Checkout options` section and open it.
+    4. Select the `Bar options` you want to use.
+
+        `Show bar` - Uncheck to hide the checkout bar.
+
+        `Show "retake quiz" button` - Uncheck if you want to hide the "retake quiz" button.
+
+        Cart/checkout options:
+
+        `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
+
+        Next destination for users - Choose where customers go after the results page.
+
+        `Proceed to checkout` - After adding the products to cart, the customer will be redirected directly to checkout.
+
+        `Proceed to cart` - After adding the products to cart, the customer will be redirected to the cart page.
+
+    4. Click the top-right `Save` button to update the preview/live quiz.
+
+
 === "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f2ddc47043904e48bb08cbadc6f24233?sid=2f93b324-dc00-42ff-89cf-bd759e0f3a44" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -37,33 +65,6 @@ Follow the instructions below to change your checkout settings:
             - When customers click on the `view product` link, they are taken to the individual product page instead of adding the item directly to their cart. This can be beneficial for providing customers with additional product information, images, and reviews that might influence their purchasing decision.
 
         3. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
-
-=== "Shopify"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/06af5680a59145e1838fe2bcfdcbd583?sid=4ad4cf1d-2aa4-4fec-9d5d-58d86da70932" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
-
-    1. Open the [Results Page](/reference/quiz-builder/results-page/).
-    2. Open the [Results Page settings](/reference/quiz-builder/results-page/#results-page-settings).
-    3. Find the `Checkout options` section and open it.
-    4. Select the `Bar options` you want to use.
-
-        `Show bar` - Uncheck to hide the checkout bar.
-
-        `Show "retake quiz" button` - Uncheck if you want to hide the "retake quiz" button.
-
-        Cart/checkout options:
-
-        `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
-
-        Next destination for users - Choose where customers go after the results page.
-
-        `Proceed to checkout` - After adding the products to cart, the customer will be redirected directly to checkout.
-
-        `Proceed to cart` - After adding the products to cart, the customer will be redirected to the cart page.
-
-    4. Click the top-right `Save` button to update the preview/live quiz.
 
 === "WooCommerce"
 

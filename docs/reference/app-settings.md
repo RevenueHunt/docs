@@ -2,6 +2,21 @@
 
 ## General
 
+=== "Shopify"
+
+    ![manual_shopifyV2_appsettings](/images/manual_shopifyV2_appsettings.png)
+
+    From the Store settings menu you can:
+    
+    `Shopify Markets` - Assign quizzes to different markets and languges via the [Shopify Markets](#markets) tab.
+
+    `Catalogue` - Run a catalog sync from the [Catalogue](#catalogue) tab or check when the last sync was completed.
+
+    `SMTP settings` - Provide your email [SMTP scredentials](#smtp) to send result emails from your email provider.
+
+    `Plans and pricing` - Manage you current subscription and plan details from the [Plans & Pricing](#plans-pricing) tab.
+
+
 === "Shopify (Legacy)"
 
     ![app settings general](/images/manual_appsettings_general.png)
@@ -17,20 +32,6 @@
     **Data & GDPR**
 
     `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
-
-=== "Shopify"
-
-    ![manual_shopifyV2_appsettings](/images/manual_shopifyV2_appsettings.png)
-
-    From the Store settings menu you can:
-    
-    `Shopify Markets` - Assign quizzes to different markets and languges via the [Shopify Markets](#markets) tab.
-
-    `Catalogue` - Run a catalog sync from the [Catalogue](#catalogue) tab or check when the last sync was completed.
-
-    `SMTP settings` - Provide your email [SMTP scredentials](#smtp) to send result emails from your email provider.
-
-    `Plans and pricing` - Manage you current subscription and plan details from the [Plans & Pricing](#plans-pricing) tab.
 
 === "WooCommerce"
 
@@ -98,16 +99,6 @@
 
 ## Catalogue
 
-=== "Shopify (Legacy)"
-
-    ![app settings catalogue](/images/manual_appsettings_catalogue.png)
-
-    `Metafields Namespaces` - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields.
-    
-    !!! tip
-
-        Follow this article to show metafields in the quiz: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
-
 === "Shopify"
 
     ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
@@ -129,6 +120,17 @@
     `Include draft products in recommendations` - When enabled, recommendations will include products or variants that are in draft status. Draft products could be recommended and will be shown in the 'Quiz preview' and under [Responses > Analysis](/reference/quiz-builder/metrics/#response-analysis). This setting is useful if you want to build your quiz with draft products and test it before publishing them. Draft products won't be displayed in the live quiz until they're published.
 
 
+
+
+=== "Shopify (Legacy)"
+
+    ![app settings catalogue](/images/manual_appsettings_catalogue.png)
+
+    `Metafields Namespaces` - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields.
+    
+    !!! tip
+
+        Follow this article to show metafields in the quiz: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
 
 === "WooCommerce"
 
@@ -153,32 +155,6 @@
     To access the **Catalogue** settings in the standalone version of the Product Recommendation Quiz, open the [Success Checklist](/reference/dashboard/#success-checklist) or [this link](https://admin.revenuehunt.com/catalogue).
 
 ## SMTP
-
-=== "Shopify (Legacy)"
-
-    ![app settings smtp](/images/manual_appsettings_smtp.png)
-
-    **SMTP Settings** 
-
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
-
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
-
-    !!! tip
-
-        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
-
-    `Name to display(From):` - Set what name and email the customer will see when they receive the email.
-
-    `SMTP Server` - Set your server URL.
-
-    `SMTP Username` - Set your SMTP Username.
-
-    `SMTP Password`  - Provide the password associated with the username.
-
-    `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
-        
-    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
 
 === "Shopify"
 
@@ -213,6 +189,33 @@
     !!! tip "Troubleshooting"
 
         If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+
+
+=== "Shopify (Legacy)"
+
+    ![app settings smtp](/images/manual_appsettings_smtp.png)
+
+    **SMTP Settings** 
+
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
+
+    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
+
+    !!! tip
+
+        Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
+
+    `Name to display(From):` - Set what name and email the customer will see when they receive the email.
+
+    `SMTP Server` - Set your server URL.
+
+    `SMTP Username` - Set your SMTP Username.
+
+    `SMTP Password`  - Provide the password associated with the username.
+
+    `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
+        
+    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
 
 === "WooCommerce"
 
@@ -320,6 +323,12 @@
 
 ## Shop App
 
+=== "Shopify"
+
+    At this moment in time, there is no way to activate the Shop App in the Shopify V2 version of the app. 
+
+
+
 === "Shopify (Legacy)"
 
     !!! warning
@@ -346,16 +355,7 @@
 
     ![app settings shop app preview](/images/manual_appsettings_shopapp_preview.png)
 
-=== "Shopify"
-
-    At this moment in time, there is no way to activate the Shop App in the Shopify V2 version of the app. 
-
-
 ## Shopify Markets
-
-=== "Shopify (Legacy)"
-
-    Shopify Markets integration is only available in the Shopify V2 version of the app. This feature is not supported in the original Shopify app version.
 
 === "Shopify"
 
@@ -379,16 +379,22 @@
 
     `Currency` - Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
 
-## Plans & Pricing
 
 === "Shopify (Legacy)"
 
-    Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
+    Shopify Markets integration is only available in the Shopify V2 version of the app. This feature is not supported in the original Shopify app version.
+
+## Plans & Pricing
 
 === "Shopify"
 
     Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.   
 
+
+
+=== "Shopify (Legacy)"
+
+    Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
 
 === "WooCommerce"
 

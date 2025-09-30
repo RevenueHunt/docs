@@ -19,6 +19,27 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 
     Carefully consider your quiz goals before enabling this feature to ensure it aligns with your business objectives.
 
+=== "Shopify"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/7851abaea4964d51bc41d0738281da9d?sid=7ef0fec7-3d95-46b9-b64a-949a82d66322" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab.
+    3. Scroll down and click `+ Add results page`. A second results page will appear below the first.
+
+        ![multi result pages shopify v2 activate multi results page](/images/how_to_multi_result_pages_shopify_v2_activate_multi_results_page.png)
+    4. Once you've added your result pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditonal Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
+
+        ![how_to_shopifyV2_multiple_result_pages_jumplogic](/images/how_to_shopifyV2_multiple_result_pages_jumplogic.png)
+    5. Scroll down the list of questtion and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
+    
+        ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/how_to_multi_result_pages_shopify_v2_jump_logic_multi_results_page.png)
+
+        To learn more about using Jump Logic, check [this handy guide](/how-to-guides/use-jump-logic/).
+
+    6. Once Jump Logic is set up and leading the customers to different results pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
+
+
 === "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/af13990661614b4eb7e2964989d1d1e7?sid=5deeb33c-eb7e-412b-8903-f403d5a5cb81" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -44,26 +65,6 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
         To learn more about using Jump Logic, check [this handy guide](/how-to-guides/use-jump-logic/).
 
     11. Once Jump Logic is set up and leading the customers to different results pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
-
-=== "Shopify"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/7851abaea4964d51bc41d0738281da9d?sid=7ef0fec7-3d95-46b9-b64a-949a82d66322" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab.
-    3. Scroll down and click `+ Add results page`. A second results page will appear below the first.
-
-        ![multi result pages shopify v2 activate multi results page](/images/how_to_multi_result_pages_shopify_v2_activate_multi_results_page.png)
-    4. Once you've added your result pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditonal Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
-
-        ![how_to_shopifyV2_multiple_result_pages_jumplogic](/images/how_to_shopifyV2_multiple_result_pages_jumplogic.png)
-    5. Scroll down the list of questtion and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
-    
-        ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/how_to_multi_result_pages_shopify_v2_jump_logic_multi_results_page.png)
-
-        To learn more about using Jump Logic, check [this handy guide](/how-to-guides/use-jump-logic/).
-
-    6. Once Jump Logic is set up and leading the customers to different results pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
 
 === "WooCommerce"
 

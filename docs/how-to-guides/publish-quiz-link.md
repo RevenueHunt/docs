@@ -10,14 +10,6 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 !!! note 
     Before you start, ensure you have a quiz created and the necessary permissions to edit themes, pages and navigation settings
 
-=== "Shopify (Legacy)"
-
-    In short, to add a link popup to your store, you need to:
-
-    - Enable the `Link Popup Quiz` app embed in your store theme and then
-
-    - Use `#quiz-QUIZID` as the link in the navigation menu item, a button, a banner or any page or blog post to open the quiz as a popup.
-
 === "Shopify"
 
     In short, to add a link popup to your store, you need to:
@@ -27,6 +19,15 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     - Use `#quiz` as the link in the navigation menu item, a button, a banner or any page or blog post to open the quiz as a popup.
 
     Link popup can be opened on every page (activate `Link Popup Quiz` in `App Embeds`) or on a specific page (add a `Link Popup Quiz` section to a page template) in your store.
+
+
+=== "Shopify (Legacy)"
+
+    In short, to add a link popup to your store, you need to:
+
+    - Enable the `Link Popup Quiz` app embed in your store theme and then
+
+    - Use `#quiz-QUIZID` as the link in the navigation menu item, a button, a banner or any page or blog post to open the quiz as a popup.
 
 === "WooCommerce"
 
@@ -69,23 +70,6 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 !!! info "What's a Link Popup in menu that opens on every page?"
 
     It's a link that will open the quiz as a popup over any page in your store when a link in the navigation menu is clicked.
-
-=== "Shopify (Legacy)"
-
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/g2Gvtsp0LGo?si=bzoClxr1kagdcocL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to `Link > Show Instructions for legacy themes`. Click on `Get the code` to copy the link provided.
-    2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz Legacy option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
-        ![how to publish quiz link popup app embeds](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
-    4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
-        ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
-    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take Our Quiz".
-    6. **Insert the Popup Link Code**: Paste the previously copied code into the link field and then click on `Save`.
-        ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
-    7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
 
 === "Shopify"
 
@@ -143,6 +127,24 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
 
 
+
+=== "Shopify (Legacy)"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/g2Gvtsp0LGo?si=bzoClxr1kagdcocL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to `Link > Show Instructions for legacy themes`. Click on `Get the code` to copy the link provided.
+    2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+    3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz Legacy option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
+        ![how to publish quiz link popup app embeds](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
+    4. **Navigate to Your Site's Menus Settings**: From your Shopify dashboard, go to `Content > Menus`. Open the menu you wish to add the quiz link to.
+        ![how to publish link popup shopify v2 menu](/images/how_to_publish_link_popup_shopify_v2_menu.png)
+    5. **Add a New Menu Item**: Click on the `Add menu item` button. In the label field, type in a title for your quiz link, such as "Take Our Quiz".
+    6. **Insert the Popup Link Code**: Paste the previously copied code into the link field and then click on `Save`.
+        ![how to publish link popup shopify v2](/images/how_to_publish_link_popup_shopify_v2.png)
+    7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
+
 === "WooCommerce"
 
     1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
@@ -197,22 +199,6 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 
     It's a link that will open the quiz as a popup over a specific page **only** (or any page that carries the same template) when a link in the navigation menu is clicked.
 
-=== "Shopify (Legacy)"
-
-    With the legacy version of the RevenueHunt app for Shopify the `embed.js` script is automatically added to the whole website when you activate the `Link Popup Quiz` in `App Embeds` of your theme. Therefore, the link popup will open over any page in your store and there's no automatic way to open it over a specific page only. 
-    
-    
-    !!! info "Add the embed.js to a specific page"
-
-        Your developer can, however, add the following `embed.js` to a cusotm liquid or HTML element of a specific page template to open the quiz as a popup over that page only.
-        
-        ```html
-        <script src="https://admin.revenuehunt.com/embed.js" async></script>
-        ```
-        
-        Without it, the quiz won't be loaded on your website.
-
-
 === "Shopify"
     
     !!! warning "Shopify 1.0 Theme Compatibility"
@@ -254,6 +240,23 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 
     9. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu. From now on the quiz link in the menu will only open the quiz as a popup over the page that carries the same template.
     10. Remember to apply the new page template to the page you want to add the link popup to.
+
+
+=== "Shopify (Legacy)"
+
+    With the legacy version of the RevenueHunt app for Shopify the `embed.js` script is automatically added to the whole website when you activate the `Link Popup Quiz` in `App Embeds` of your theme. Therefore, the link popup will open over any page in your store and there's no automatic way to open it over a specific page only. 
+    
+    
+    !!! info "Add the embed.js to a specific page"
+
+        Your developer can, however, add the following `embed.js` to a cusotm liquid or HTML element of a specific page template to open the quiz as a popup over that page only.
+        
+        ```html
+        <script src="https://admin.revenuehunt.com/embed.js" async></script>
+        ```
+        
+        Without it, the quiz won't be loaded on your website.
+
 
 === "WooCommerce"
 
@@ -315,23 +318,6 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 !!! info "What's a Link Popup that opens via a button on every page?"
     It's a link that will open the quiz as a popup over every page in your store when a button is clicked.
 
-=== "Shopify (Legacy)"
-
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/mLms8xRzYCE?si=3I-QqmPeaeIavpHO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to `Link > Show Instructions for legacy themes`. Click on `Get the code` to copy the link provided.
-    2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz Legacy option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
-        	![how to publish quiz link popup app embeds](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
-    4.  **Navigate to Themes**: Go to `Online Store > Themes`.
-    5. **Enter Theme Customization**: Find the theme you wish to edit and click on the **"Customize"** button.
-    6. **Add a New Section**: Click on **"Add section"** and select **"Image banner"** (or a similar option) from the list.
-    7. **Insert a Button Block**: Within the "Image banner" section, add a new block and choose the **"Button"** option.
-    8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Paste the link to your quiz in the appropriate field.
-    9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/P853mRgPwr8?si=ElHwiQdpN7ZPRNWT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -368,6 +354,24 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 
         When clicked, the default quiz for your store will open. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
+    9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button.
+
+
+=== "Shopify (Legacy)"
+
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/mLms8xRzYCE?si=3I-QqmPeaeIavpHO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    1. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to `Link > Show Instructions for legacy themes`. Click on `Get the code` to copy the link provided.
+    2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
+    3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz Legacy option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
+        	![how to publish quiz link popup app embeds](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_linkpopup.png)
+    4.  **Navigate to Themes**: Go to `Online Store > Themes`.
+    5. **Enter Theme Customization**: Find the theme you wish to edit and click on the **"Customize"** button.
+    6. **Add a New Section**: Click on **"Add section"** and select **"Image banner"** (or a similar option) from the list.
+    7. **Insert a Button Block**: Within the "Image banner" section, add a new block and choose the **"Button"** option.
+    8. **Paste the Quiz Link**: Click on the newly added button block to edit its settings. Paste the link to your quiz in the appropriate field.
     9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button.
 
 === "WooCommerce"
@@ -440,21 +444,6 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 !!! info "What's a Link Popup that opens via a button on a specific page?"
     It's a link that will open the quiz as a popup over a specific page (only) when a button is clicked.
 
-=== "Shopify (Legacy)"
-
-    With the legacy version of the RevenueHunt app for Shopify the `embed.js` script is automatically added to the whole website when you activate the `Link Popup Quiz` in `App Embeds` of your theme. Therefore, the link popup will open over any page in your store and there's no automatic way to open it over a specific page only. 
-    
-    
-    !!! info "Add the embed.js to a specific page"
-
-        Your developer can, however, add the following `embed.js` to a cusotm liquid or HTML element of a specific page template to open the quiz as a popup over that page only.
-        
-        ```html
-        <script src="https://admin.revenuehunt.com/embed.js" async></script>
-        ```
-        
-        Without it, the quiz won't be loaded on your website.
-
 === "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
@@ -494,6 +483,22 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 
     9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button. From now on, whenever someone clicks on the button on this page or any other page that uses this template, a quiz popup will open.
     10. Remember to apply the new page template to the page you want to add the link popup to.
+
+
+=== "Shopify (Legacy)"
+
+    With the legacy version of the RevenueHunt app for Shopify the `embed.js` script is automatically added to the whole website when you activate the `Link Popup Quiz` in `App Embeds` of your theme. Therefore, the link popup will open over any page in your store and there's no automatic way to open it over a specific page only. 
+    
+    
+    !!! info "Add the embed.js to a specific page"
+
+        Your developer can, however, add the following `embed.js` to a cusotm liquid or HTML element of a specific page template to open the quiz as a popup over that page only.
+        
+        ```html
+        <script src="https://admin.revenuehunt.com/embed.js" async></script>
+        ```
+        
+        Without it, the quiz won't be loaded on your website.
 
 === "WooCommerce"
 
@@ -569,19 +574,6 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 
 ### Open a Specific Quiz
 
-=== "Shopify (Legacy)"
-
-    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
-    
-    For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
-
-    !!! info "Quiz ID"
-
-        To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
-
-        Keep in mind that the Quiz ID is case-sensitive.
-
-
 === "Shopify"
 
     By default when you use `#quiz` as the link, the default quiz for your store will open. 
@@ -599,6 +591,20 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
         To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
 
         Keep in mind that the Quiz ID is case-sensitive.
+
+
+=== "Shopify (Legacy)"
+
+    To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
+    
+    For example, `https://yourstore.myshopify.com/#quiz-123` can open one quiz, while  `https://yourstore.myshopify.com/#quiz-456` can open another.
+
+    !!! info "Quiz ID"
+
+        To find your Quiz ID, go to the [Dashboard](/reference/dashboard/), find the quiz you want to open. Then, click on the `...` three dots next to the quiz and select "Copy Quiz ID".
+
+        Keep in mind that the Quiz ID is case-sensitive.
+
 
 === "WooCommerce"
 
@@ -653,21 +659,6 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 
 If the Quiz Popup displays behind your website header or the `X` closing button is not visible it's likely that your website's header has an unusually high z-index. This can be fixed either from the app settings or from your website's theme.
 
-=== "Shopify (Legacy)"
-
-    If the Quiz Popup displays behind your website header or the `X` closing button is not visible, try these solutions:
-
-    - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
-    - **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme or an empty HTML/custom liquid block on the page where the quiz popup is shown. Here's a sample code:
-        ```html
-        <style>
-        .rh-widget span {
-        top: 150px !important;
-        }
-        </style>
-        ```
-    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
-
 === "Shopify"
 
     The z-index determines the order of elements on the page. If the quiz popup is behind your website header or the `X` closing button is not visible, you can try to change the z-index configuration option in the app settings.
@@ -685,6 +676,22 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
         Setting the z-index too high might hide other elements like chat buttons. The ideal setting will depend on your specific theme's configuration.
         
     If adjusting the z-index setting doesn't solve the issue, try to **publish the quiz inline with a page instead.** Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+
+
+=== "Shopify (Legacy)"
+
+    If the Quiz Popup displays behind your website header or the `X` closing button is not visible, try these solutions:
+
+    - **Decrease the Z-index of your website's header.** You may need to check your theme files or contact your theme developer to do this.
+    - **Move the `X` closing sign lower.** You can move the `X` quiz closing sign lower on the popup with a bit of custom HTML/CSS code that can be added to your website's theme or an empty HTML/custom liquid block on the page where the quiz popup is shown. Here's a sample code:
+        ```html
+        <style>
+        .rh-widget span {
+        top: 150px !important;
+        }
+        </style>
+        ```
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
 
 === "WooCommerce"
 
@@ -752,15 +759,6 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
 
 In some cases, you might want to have links to different quizzes on the same page. This section explains how to set up multiple quiz links for different platforms.
 
-=== "Shopify (Legacy)"
-
-    For Shopify (V1), you can link to specific quizzes by creating different popup links for each quiz.
-    
-    1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz.
-    2. Navigate to `Link > Show Instructions for legacy themes`.
-    3. Click on `Get the code` to copy the unique link for that specific quiz.
-    4. Add each unique link to different menu items, buttons, or page elements.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/b65c503f49ed4664875df3e6addd8380?sid=6d7edd43-ec04-4dfd-848e-2a7337980800" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -790,6 +788,16 @@ In some cases, you might want to have links to different quizzes on the same pag
 
     !!! warning
         Don't add the full URL into the `Link` filed. It should only contain the `#quiz-QUIZID` text and **not** a full URL like `http://yourwebsite.com/#quiz-QUIZID`.
+
+
+=== "Shopify (Legacy)"
+
+    For Shopify (V1), you can link to specific quizzes by creating different popup links for each quiz.
+    
+    1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz.
+    2. Navigate to `Link > Show Instructions for legacy themes`.
+    3. Click on `Get the code` to copy the unique link for that specific quiz.
+    4. Add each unique link to different menu items, buttons, or page elements.
 
 === "WooCommerce"
 
@@ -831,15 +839,6 @@ In some cases, you might want to have links to different quizzes on the same pag
 
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
-=== "Shopify (Legacy)"
-
-    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
-
-    1. Go back to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
-    2. Go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**. Then in Shopify, go back to Online Store > Themes > Customize and under the `App Embeds` section active the `Link Popup Quiz`. 
-    3. Check the Quiz Link. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*
-    4. Save your changes and refresh the page.
-    
 === "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
@@ -855,6 +854,16 @@ In some cases, you might want to have links to different quizzes on the same pag
         To solve this simply deactivate the `Link Popup Legacy` and activate the `Link Popup Quiz` one. Then, save the changes.
     2. Verify that the link is correctly formatted. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz`.
 
+
+=== "Shopify (Legacy)"
+
+    If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
+
+    1. Go back to the [Quiz Builder](/reference/quiz-builder/) and ensure that the quiz has been published with the top right `Publish` button.
+    2. Go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) and **copy the Quiz ID**. Then in Shopify, go back to Online Store > Themes > Customize and under the `App Embeds` section active the `Link Popup Quiz`. 
+    3. Check the Quiz Link. Ensure that the link you've added to your menu or a button is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*
+    4. Save your changes and refresh the page.
+    
 === "WooCommerce"
 
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:

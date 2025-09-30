@@ -25,19 +25,6 @@ Our product recommendation algorithm works like a voting system:
 ### Inclusion
 Products or collections added in the `include/upvotes` field of the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab are upvoted in the final recommendations.
 
-=== "Shopify (Legacy)"
-
-    ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
-
-    How the votes work for each included linked item:
-
-    - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
-    - **Collections**: Every product within a linked collection receives a vote when their linked choice is selected.
-    - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
-    - **Variant collections**: Created automatically by the app, every product within a linked variant collection receives a vote when their linked choice is selected.
-    - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives a vote when their linked choice is selected.
-    - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](/reference/quiz-builder/quiz-settings/) needs to be active for this option to appear in the Link Products section.
-
 === "Shopify"
 
     ![how to recommend products upvote](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
@@ -56,6 +43,20 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
         You can also recommend pure text results by setting up different sections on the results page and controlling visibility of each section with Display Logic. This option is not dependent on the voting system but rather on custom scoring system or conditional logic.
 
 
+
+
+=== "Shopify (Legacy)"
+
+    ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
+
+    How the votes work for each included linked item:
+
+    - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
+    - **Collections**: Every product within a linked collection receives a vote when their linked choice is selected.
+    - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
+    - **Variant collections**: Created automatically by the app, every product within a linked variant collection receives a vote when their linked choice is selected.
+    - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives a vote when their linked choice is selected.
+    - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](/reference/quiz-builder/quiz-settings/) needs to be active for this option to appear in the Link Products section.
 
 === "WooCommerce"
 
@@ -111,13 +112,14 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
 
 Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/quiz-builder/link-products/) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
 
-=== "Shopify (Legacy)"
-
-    ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
-
 === "Shopify"
 
     ![how to recommend products exclusion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+
+
+=== "Shopify (Legacy)"
+
+    ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
 
 === "WooCommerce"
 
@@ -474,6 +476,73 @@ The voting system counts product "votes" based on customer quiz choices and then
 ![how_to_shopify_v2_recommendations_funnel_with_slots](/images/how_to_shopify_v2_recommendations_funnel_with_slots.png){width=500}
 
 
+=== "Shopify"
+
+    <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/f249d672fe414dc390715b210a94a75a?sid=0a795570-01c5-4777-b6b1-62b0a0da3387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    Follow these steps to set up a funnel quiz with product slots in Shopify V2:
+
+    **Step 1: Understand Recommendation Mechanism**
+
+    Our product recommendation algorithm works like a voting system:
+
+    - Products are linked to each choice
+    - When a customer picks a choice, all linked products receive one vote
+    - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+    - If no products have been linked or all the products have been excluded, the results page will appear empty
+    - If there's a draw in the number of votes, the app will randomize the order of products
+
+    You can also:
+    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/)
+    - Use Exclusions to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier)
+
+    **Step 2: Organize Products into Collections**
+
+    To group products into slots, create new collections in your Shopify store:
+
+    1. Identify your product categories (e.g., Cleansers, Toners, Serums, Moisturizers)
+    2. [Create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) for each category
+    3. Add relevant products to each collection (e.g., all cleansers in the Cleansers collection)
+
+    **Step 3: Build the Quiz**
+
+    1. Go to the app's [dashboard](/reference/dashboard/) and click [`add new quiz`](/reference/dashboard/#new-quiz)
+    2. Choose a pre-defined template (like Basic or Advanced Skincare Quiz) or start from scratch
+    3. Name your quiz (can be edited later)
+    4. In the [Quiz Builder](/reference/quiz-builder/), add questions by clicking `+ Add question`
+    5. Select appropriate [question types](/reference/quiz-builder/questions/#question-types) for your quiz flow
+
+    **Step 4: Link Products to Choices**
+
+    1. Go to [Questions](/reference/quiz-builder/questions/)
+    2. Select a multiple-choice question
+    3. Select a choice and open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
+    4. Link relevant product variants or collections to each choice
+    5. Ensure every choice has at least one product or collection linked
+
+    ![how to recommend slots link products](/images/how_to_recommend_slots_shopify_v2_link_products.png)
+
+    **Step 5: Add Product Slots to the Results Page**
+
+    1. Go to the [Results Page](/reference/quiz-builder/results-page/) tab
+    2. Add design elements (headings, logos, content blocks)
+    3. Click the `+` button to add a `Product Block`
+    4. In the [`Product Block settings`](/reference/quiz-builder/questions/#block-settings):
+        - Add a slot for each step in the skincare routine
+        - Add title and description for each slot
+        - Add segments with corresponding product collections to each slot
+        - Choose how many products to recommend per slot (typically one product)
+
+    ![how to recommend slots slot block](/images/how_to_recommend_slots_shopify_v2_set_up_filters.png){width=50%}
+
+    **Step 6: Test and Troubleshoot**
+
+    1. Click [`Publish/Save`](/reference/quiz-builder/questions/) to update the preview/live quiz
+    2. Click [`Preview`](/reference/quiz-builder/questions/) to test in a new window
+    3. Use the quiz's [built-in search bar](/how-to-guides/troubleshoot-product-results/) in `Metrics > Responses` to troubleshoot recommendations
+    4. Test responses as admin are automatically removed after 1 hour
+
+
 === "Shopify (Legacy)"
 
     <div class="videoWrapper">
@@ -535,72 +604,6 @@ The voting system counts product "votes" based on customer quiz choices and then
         - Choose how many products to recommend per slot (typically one product)
 
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
-
-    **Step 6: Test and Troubleshoot**
-
-    1. Click [`Publish/Save`](/reference/quiz-builder/questions/) to update the preview/live quiz
-    2. Click [`Preview`](/reference/quiz-builder/questions/) to test in a new window
-    3. Use the quiz's [built-in search bar](/how-to-guides/troubleshoot-product-results/) in `Metrics > Responses` to troubleshoot recommendations
-    4. Test responses as admin are automatically removed after 1 hour
-
-=== "Shopify"
-
-    <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/f249d672fe414dc390715b210a94a75a?sid=0a795570-01c5-4777-b6b1-62b0a0da3387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    Follow these steps to set up a funnel quiz with product slots in Shopify V2:
-
-    **Step 1: Understand Recommendation Mechanism**
-
-    Our product recommendation algorithm works like a voting system:
-
-    - Products are linked to each choice
-    - When a customer picks a choice, all linked products receive one vote
-    - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
-    - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there's a draw in the number of votes, the app will randomize the order of products
-
-    You can also:
-    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/)
-    - Use Exclusions to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier)
-
-    **Step 2: Organize Products into Collections**
-
-    To group products into slots, create new collections in your Shopify store:
-
-    1. Identify your product categories (e.g., Cleansers, Toners, Serums, Moisturizers)
-    2. [Create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) for each category
-    3. Add relevant products to each collection (e.g., all cleansers in the Cleansers collection)
-
-    **Step 3: Build the Quiz**
-
-    1. Go to the app's [dashboard](/reference/dashboard/) and click [`add new quiz`](/reference/dashboard/#new-quiz)
-    2. Choose a pre-defined template (like Basic or Advanced Skincare Quiz) or start from scratch
-    3. Name your quiz (can be edited later)
-    4. In the [Quiz Builder](/reference/quiz-builder/), add questions by clicking `+ Add question`
-    5. Select appropriate [question types](/reference/quiz-builder/questions/#question-types) for your quiz flow
-
-    **Step 4: Link Products to Choices**
-
-    1. Go to [Questions](/reference/quiz-builder/questions/)
-    2. Select a multiple-choice question
-    3. Select a choice and open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
-    4. Link relevant product variants or collections to each choice
-    5. Ensure every choice has at least one product or collection linked
-
-    ![how to recommend slots link products](/images/how_to_recommend_slots_shopify_v2_link_products.png)
-
-    **Step 5: Add Product Slots to the Results Page**
-
-    1. Go to the [Results Page](/reference/quiz-builder/results-page/) tab
-    2. Add design elements (headings, logos, content blocks)
-    3. Click the `+` button to add a `Product Block`
-    4. In the [`Product Block settings`](/reference/quiz-builder/questions/#block-settings):
-        - Add a slot for each step in the skincare routine
-        - Add title and description for each slot
-        - Add segments with corresponding product collections to each slot
-        - Choose how many products to recommend per slot (typically one product)
-
-    ![how to recommend slots slot block](/images/how_to_recommend_slots_shopify_v2_set_up_filters.png){width=50%}
 
     **Step 6: Test and Troubleshoot**
 
@@ -885,46 +888,6 @@ Show different follow-up questions based on customer choices in a multiple-choic
 
 ![how_to_hide_content_with_logic_shopifyv2_skip_logic_flow](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
 
-=== "Shopify (Legacy)"
-
-    RevenueHunt Product Recommendation Quiz can use skip logic to show different follow-up questions based on customer choices. The quiz can skip irrelevant questions based on user selections, improving engagement and relevance.
-
-    Follow these steps to set up a funnel quiz with skip logic:
-
-    1. **Create Initial Question**: Create a multiple-choice question about the user's main concerns:
-        - Open the RevenueHunt Quiz Builder and create a new quiz
-        - Add a multiple-choice question asking about main concerns (e.g., skin concerns)
-        - Add options such as Acne, Pigmentation, Blackheads, Flaky Skin
-        - Enable 'Allow Multiple Selection' to let users select more than one option
-
-    2. **Add Follow-Up Questions**: For each main concern, add corresponding follow-up questions:
-        - Create a question for each option (e.g., Acne, Pigmentation, etc.)
-        - Ensure follow-up questions are set up in the same order as the options in the initial question
-        - Customize each follow-up question to be relevant to its specific concern
-
-    3. **Set Up Skip Logic**: Configure conditional logic for each follow-up question:
-        - Navigate to the Conditional Logic tab for each follow-up question
-        - Add rules to skip questions if the corresponding concern was not selected
-        - For example: If 'Skin Concerns' is not 'Acne', skip the Acne questions
-        - Repeat for each follow-up question and corresponding concern
-
-    4. **Link Products to Choices**: Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab within your quiz setup:
-        - For each choice, link relevant products/variants
-        - The quiz will count votes only from questions that were shown to the user
-
-    5. **Test the Quiz Logic**: After setting up questions and skip logic:
-        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz
-        - Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz in a new window
-        - Select multiple concerns to verify that only relevant follow-up questions are displayed
-        - Repeat with different selections to ensure the logic works correctly
-
-    6. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if needed:
-        - Check why specific questions were shown or skipped
-        - Verify that product recommendations match user selections
-
-    By using skip logic, your quiz will only show relevant questions based on customer choices, creating a more personalized experience and more accurate product recommendations.
-
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/706166edd208443f8982525d62455f46?sid=555e7d4e-fbb9-4650-bb79-1b9e3887f85b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -978,6 +941,47 @@ Show different follow-up questions based on customer choices in a multiple-choic
         - Verify that product recommendations match user selections
 
     By using skip logic, your quiz will only show relevant questions based on customer choices, creating a more personalized experience and more accurate product recommendations.
+
+
+=== "Shopify (Legacy)"
+
+    RevenueHunt Product Recommendation Quiz can use skip logic to show different follow-up questions based on customer choices. The quiz can skip irrelevant questions based on user selections, improving engagement and relevance.
+
+    Follow these steps to set up a funnel quiz with skip logic:
+
+    1. **Create Initial Question**: Create a multiple-choice question about the user's main concerns:
+        - Open the RevenueHunt Quiz Builder and create a new quiz
+        - Add a multiple-choice question asking about main concerns (e.g., skin concerns)
+        - Add options such as Acne, Pigmentation, Blackheads, Flaky Skin
+        - Enable 'Allow Multiple Selection' to let users select more than one option
+
+    2. **Add Follow-Up Questions**: For each main concern, add corresponding follow-up questions:
+        - Create a question for each option (e.g., Acne, Pigmentation, etc.)
+        - Ensure follow-up questions are set up in the same order as the options in the initial question
+        - Customize each follow-up question to be relevant to its specific concern
+
+    3. **Set Up Skip Logic**: Configure conditional logic for each follow-up question:
+        - Navigate to the Conditional Logic tab for each follow-up question
+        - Add rules to skip questions if the corresponding concern was not selected
+        - For example: If 'Skin Concerns' is not 'Acne', skip the Acne questions
+        - Repeat for each follow-up question and corresponding concern
+
+    4. **Link Products to Choices**: Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab within your quiz setup:
+        - For each choice, link relevant products/variants
+        - The quiz will count votes only from questions that were shown to the user
+
+    5. **Test the Quiz Logic**: After setting up questions and skip logic:
+        - Click [`Publish/Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz
+        - Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz in a new window
+        - Select multiple concerns to verify that only relevant follow-up questions are displayed
+        - Repeat with different selections to ensure the logic works correctly
+
+    6. **Troubleshoot the Results**: Use the quiz's [built-in search tool](/reference/quiz-builder/metrics/#responses) in the `Responses` section if needed:
+        - Check why specific questions were shown or skipped
+        - Verify that product recommendations match user selections
+
+    By using skip logic, your quiz will only show relevant questions based on customer choices, creating a more personalized experience and more accurate product recommendations.
+
 
 === "WooCommerce"
 
@@ -1143,60 +1147,6 @@ Branch your quiz to show different follow-up questions based on customer choices
 
 ![how_to_shopify_v2_recommendations_jumplogic](/images/how_to_shopify_v2_recommendations_jumplogic.png){width=500}
 
-=== "Shopify (Legacy)"
-
-    Follow these steps to set up a branching funnel quiz in Shopify:
-
-    **Step 1: Understand Recommendation Mechanism**
-
-    Our product recommendation algorithm works like a voting system:
-
-    - Products are linked to each choice
-    - When a customer picks a choice, all linked products receive one vote
-    - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
-    - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there's a draw in the number of votes, the app will randomize the order of products
-
-    **Step 2: Build Quiz Structure**
-
-    1. Go to the [Quiz Builder](/reference/quiz-builder/) and create all questions needed for each branch
-    2. Add all possible choices for each question
-    3. Don't worry about the order yet - you'll set that up with Jump Logic
-
-    **Step 3: Set Up Branching**
-
-    1. Navigate to the Conditional Logic tab for each question
-    2. Add Jump Logic rules to create branches:
-        - Format: "If answer to Question X is Y, jump to Question Z"
-        - Example: If "What's your skin type?" is "Oily", jump to "Oily Skin Concerns"
-    3. Ensure each branch's final question leads to:
-        - An email/phone collection question, or
-        - The results page
-
-    **Step 4: Link Products**
-
-    1. Go to [Link Products](/reference/quiz-builder/link-products/) tab
-    2. For each choice in every branch:
-        - Link relevant products/variants
-        - Link appropriate collections
-    3. The quiz will only count votes from questions shown to the user
-
-    **Step 5: Configure Results Page**
-
-    1. Add a Product Block to display recommendations
-    2. Set the number of products to show
-    3. Optionally, arrange products into slots for structured recommendations
-    4. Configure any additional display settings
-
-    **Step 6: Test and Launch**
-
-    1. Click "Publish/Save" to update the quiz
-    2. Test each branch thoroughly:
-        - Try all possible paths
-        - Verify correct questions appear
-        - Check product recommendations
-    3. Use the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/) to verify logic
-
 === "Shopify"
 
     Follow these steps to set up a branching funnel quiz in Shopify V2:
@@ -1252,6 +1202,61 @@ Branch your quiz to show different follow-up questions based on customer choices
     2. Preview and test each branch
     3. Use Response Analysis to verify logic
     4. Publish when ready
+
+
+=== "Shopify (Legacy)"
+
+    Follow these steps to set up a branching funnel quiz in Shopify:
+
+    **Step 1: Understand Recommendation Mechanism**
+
+    Our product recommendation algorithm works like a voting system:
+
+    - Products are linked to each choice
+    - When a customer picks a choice, all linked products receive one vote
+    - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+    - If no products have been linked or all the products have been excluded, the results page will appear empty
+    - If there's a draw in the number of votes, the app will randomize the order of products
+
+    **Step 2: Build Quiz Structure**
+
+    1. Go to the [Quiz Builder](/reference/quiz-builder/) and create all questions needed for each branch
+    2. Add all possible choices for each question
+    3. Don't worry about the order yet - you'll set that up with Jump Logic
+
+    **Step 3: Set Up Branching**
+
+    1. Navigate to the Conditional Logic tab for each question
+    2. Add Jump Logic rules to create branches:
+        - Format: "If answer to Question X is Y, jump to Question Z"
+        - Example: If "What's your skin type?" is "Oily", jump to "Oily Skin Concerns"
+    3. Ensure each branch's final question leads to:
+        - An email/phone collection question, or
+        - The results page
+
+    **Step 4: Link Products**
+
+    1. Go to [Link Products](/reference/quiz-builder/link-products/) tab
+    2. For each choice in every branch:
+        - Link relevant products/variants
+        - Link appropriate collections
+    3. The quiz will only count votes from questions shown to the user
+
+    **Step 5: Configure Results Page**
+
+    1. Add a Product Block to display recommendations
+    2. Set the number of products to show
+    3. Optionally, arrange products into slots for structured recommendations
+    4. Configure any additional display settings
+
+    **Step 6: Test and Launch**
+
+    1. Click "Publish/Save" to update the quiz
+    2. Test each branch thoroughly:
+        - Try all possible paths
+        - Verify correct questions appear
+        - Check product recommendations
+    3. Use the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/) to verify logic
 
 === "WooCommerce"
 
@@ -1476,49 +1481,6 @@ Show or hide different text blocks on the results page based on customer choices
 
 ![how_to_shopify_v2_recommendations_funnel_displaylogic](/images/how_to_shopify_v2_recommendations_funnel_displaylogic.png){width=500}
 
-=== "Shopify (Legacy)"
-
-    Follow these steps to set up a funnel quiz with custom text blocks in Shopify:
-
-    **Step 1: Understand Recommendation Mechanism**
-
-    Our product recommendation algorithm works like a voting system:
-
-    - Products are linked to each choice
-    - When a customer picks a choice, all linked products receive one vote
-    - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
-    - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there's a draw in the number of votes, the app will randomize the order of products
-
-    **Step 2: Build Quiz Structure**
-
-    1. Go to the [Quiz Builder](/reference/quiz-builder/) and create all questions needed.Add all possible choices for each question.
-
-    **Step 3: Link Products to Choices**
-
-    1. Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab
-    2. For each choice link relevant products, varaints or collections.
-    3. The quiz will count votes from all questions
-
-    **Step 4: Configure Results Page**
-
-    1. Add a Product Block to display recommendations. Set the number of products to show.
-    3. Add multiple content blocks, image or HTML blocks with text for different answer combinations.
-
-    **Step 5: Set Up Display Logic**
-
-    1. For each content block, add display logic rules:
-        - Format: If the answer to *Question 1* is *Choice A* **AND** If the answer to *Question 2* is *Choice B* **AND** If the answer to *Question 3* is *Choice C* **OR** If the answer to *Question 1* is *Choice A* **AND** If the answer to *Question 2* is *Choice B* **AND** If the answer to *Question 3* is *Choice D*, then this block is **shown/hidden**.
-        - You can combine multiple conditions with AND/OR operators
-        - Example: If "Skin Type" is "Oily" **AND** "Main Concern" is "Acne", show skincare routine for oily, acne-prone skin
-    2. Ensure all possible answer combinations are covered!
-
-    **Step 6: Test and Launch**
-
-    1. Click "Publish/Save" to update the quiz
-    2. Test thoroughly! Try different answer combinations. Verify correct content blocks appear.
-    3. Use the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/) to verify logic and check product recommendations.
-
 === "Shopify"
 
     !!! warning "Not recommended for personality-type quizzes"
@@ -1564,6 +1526,50 @@ Show or hide different text blocks on the results page based on customer choices
     1. Save changes
     2. Test thoroughly! Try different answer combinations. Verify correct content appears. Check product recommendations.
     3. Use [Response Analysis](/how-to-guides/troubleshoot-product-results/) to verify logic and check product recommendations.
+
+
+=== "Shopify (Legacy)"
+
+    Follow these steps to set up a funnel quiz with custom text blocks in Shopify:
+
+    **Step 1: Understand Recommendation Mechanism**
+
+    Our product recommendation algorithm works like a voting system:
+
+    - Products are linked to each choice
+    - When a customer picks a choice, all linked products receive one vote
+    - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
+    - If no products have been linked or all the products have been excluded, the results page will appear empty
+    - If there's a draw in the number of votes, the app will randomize the order of products
+
+    **Step 2: Build Quiz Structure**
+
+    1. Go to the [Quiz Builder](/reference/quiz-builder/) and create all questions needed.Add all possible choices for each question.
+
+    **Step 3: Link Products to Choices**
+
+    1. Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab
+    2. For each choice link relevant products, varaints or collections.
+    3. The quiz will count votes from all questions
+
+    **Step 4: Configure Results Page**
+
+    1. Add a Product Block to display recommendations. Set the number of products to show.
+    3. Add multiple content blocks, image or HTML blocks with text for different answer combinations.
+
+    **Step 5: Set Up Display Logic**
+
+    1. For each content block, add display logic rules:
+        - Format: If the answer to *Question 1* is *Choice A* **AND** If the answer to *Question 2* is *Choice B* **AND** If the answer to *Question 3* is *Choice C* **OR** If the answer to *Question 1* is *Choice A* **AND** If the answer to *Question 2* is *Choice B* **AND** If the answer to *Question 3* is *Choice D*, then this block is **shown/hidden**.
+        - You can combine multiple conditions with AND/OR operators
+        - Example: If "Skin Type" is "Oily" **AND** "Main Concern" is "Acne", show skincare routine for oily, acne-prone skin
+    2. Ensure all possible answer combinations are covered!
+
+    **Step 6: Test and Launch**
+
+    1. Click "Publish/Save" to update the quiz
+    2. Test thoroughly! Try different answer combinations. Verify correct content blocks appear.
+    3. Use the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/) to verify logic and check product recommendations.
 
 === "WooCommerce"
 

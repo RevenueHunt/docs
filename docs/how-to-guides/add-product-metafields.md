@@ -7,6 +7,42 @@ icon: material/focus-field-horizontal
 This article explains how to add product metafields/attributes to products on your quiz's results page.
 
 
+=== "Shopify"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35b00cdff0d845e1b53ede28a9404efa?sid=ce797520-987e-4ed5-b917-d43f346efdcd" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    !!! note
+
+        The app can only sync and show the string, single_line_text_field, multi_line_text_field, date, and number product metafields. Rich_text_fields metafields are not currently supported.
+
+    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
+
+    In Shopify V2, the process for adding and displaying metafields is streamlined. Follow the steps outlined below to import product metafields from your store into the Product Recommendation Quiz and display them on your quiz's results page:
+
+    **Step 1: Enable Metafields Display**
+
+    To enable the display of metafields for individual products:
+
+    1. Navigate to the [Results Page](/reference/quiz-builder/results-page/) tab in the Quiz Builder.
+    2. Add a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
+    3. In the [`Product components layout`](/reference/quiz-builder/results-page/#product-components-layout), click `+ block`and add the `Metafield`section.
+      ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png){width=50%}
+    4. From the `Select metafield` section, select the metafield you want to display.
+    5. Alternatively, you can add a `Text` block to your product layout and add the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/) to make it part of a block of text. 
+    6. Save the changes with the top-right `Save` button.
+    
+    From now on the selcted metafiled will be dynamically displayed in the product block as part of the recommended product.
+
+
+    !!! tip
+
+        If you're missing custom metafileds from the list of available metafields, you can force a catalog sync:
+
+        1. Go to [App Settings > Catalogue](/reference/app-settings/#catalogue).
+        2. Click the `Import catalogue` button to trigger a manual sync.
+
+
+
 === "Shopify (Legacy)"
 
     !!! note
@@ -73,41 +109,6 @@ This article explains how to add product metafields/attributes to products on yo
     ```
 
     ![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
-
-
-=== "Shopify"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35b00cdff0d845e1b53ede28a9404efa?sid=ce797520-987e-4ed5-b917-d43f346efdcd" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    !!! note
-
-        The app can only sync and show the string, single_line_text_field, multi_line_text_field, date, and number product metafields. Rich_text_fields metafields are not currently supported.
-
-    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
-
-    In Shopify V2, the process for adding and displaying metafields is streamlined. Follow the steps outlined below to import product metafields from your store into the Product Recommendation Quiz and display them on your quiz's results page:
-
-    **Step 1: Enable Metafields Display**
-
-    To enable the display of metafields for individual products:
-
-    1. Navigate to the [Results Page](/reference/quiz-builder/results-page/) tab in the Quiz Builder.
-    2. Add a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
-    3. In the [`Product components layout`](/reference/quiz-builder/results-page/#product-components-layout), click `+ block`and add the `Metafield`section.
-      ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png){width=50%}
-    4. From the `Select metafield` section, select the metafield you want to display.
-    5. Alternatively, you can add a `Text` block to your product layout and add the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/) to make it part of a block of text. 
-    6. Save the changes with the top-right `Save` button.
-    
-    From now on the selcted metafiled will be dynamically displayed in the product block as part of the recommended product.
-
-
-    !!! tip
-
-        If you're missing custom metafileds from the list of available metafields, you can force a catalog sync:
-
-        1. Go to [App Settings > Catalogue](/reference/app-settings/#catalogue).
-        2. Click the `Import catalogue` button to trigger a manual sync.
 
 
 === "WooCommerce"

@@ -28,6 +28,49 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 ### Quiz Background Image
 
+=== "Shopify"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/RNFq-2HCRro?si=4xZDwSz-GxDNlE7H" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    You can upload a background image for the whole quiz via the [Quiz Design tab](/reference/quiz-builder/quiz-design/).
+
+    ![how_to_shopifyv2_improve_image_quality_backgroudimagequiz](/images/how_to_shopifyv2_improve_image_quality_backgroudimagequiz.png)
+
+    1. Open the [Quiz Design tab](/reference/quiz-builder/quiz-design/)
+
+    2. Click on `Background`
+
+    3. Change the background color by clicking on the color. 
+
+        !!! tip "Background color"
+
+            The color of the background matters if you want to adjust the image opacity. A light colored background will make the image more visible, while a dark background will make the image more subtle. 
+
+    5. Upload a background image by clicking `Select image`.
+
+    4. Adjust the background opacity with the slider.
+
+    6. Once uploaded, click `Change` to change the image or `Remove` to remove it. 
+
+    !!! tip "Background image Tip"
+
+        Our app uses a **responsive design**, meaning your quiz will adjust to different screen sizes (desktop, tablet, and mobile). Because of this, **background images may crop or scale differently depending on the device**.
+
+        To ensure your background looks great across all devices, we recommend:
+
+        ✅ Use large, high-resolution images: at least 1920x1080px (Full HD)
+
+        ✅ Avoid images with text — it might be cut off or obscured
+
+        ✅ If needed, keep important elements (like logos or text) centered
+
+        ✅ Use soft, neutral backgrounds that won’t clash with quiz content
+
+        ✅ Test your quiz on different devices to see how the image behaves
+
+        Remember, simpler is often better for responsive backgrounds!
+
+
 === "Shopify (Legacy)"
 
     You can upload a background image for the whole quiz via the [Quiz Design tab](/reference/quiz-builder/quiz-design/).
@@ -91,48 +134,6 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
             }
         }
         ```
-
-=== "Shopify"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/RNFq-2HCRro?si=4xZDwSz-GxDNlE7H" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    You can upload a background image for the whole quiz via the [Quiz Design tab](/reference/quiz-builder/quiz-design/).
-
-    ![how_to_shopifyv2_improve_image_quality_backgroudimagequiz](/images/how_to_shopifyv2_improve_image_quality_backgroudimagequiz.png)
-
-    1. Open the [Quiz Design tab](/reference/quiz-builder/quiz-design/)
-
-    2. Click on `Background`
-
-    3. Change the background color by clicking on the color. 
-
-        !!! tip "Background color"
-
-            The color of the background matters if you want to adjust the image opacity. A light colored background will make the image more visible, while a dark background will make the image more subtle. 
-
-    5. Upload a background image by clicking `Select image`.
-
-    4. Adjust the background opacity with the slider.
-
-    6. Once uploaded, click `Change` to change the image or `Remove` to remove it. 
-
-    !!! tip "Background image Tip"
-
-        Our app uses a **responsive design**, meaning your quiz will adjust to different screen sizes (desktop, tablet, and mobile). Because of this, **background images may crop or scale differently depending on the device**.
-
-        To ensure your background looks great across all devices, we recommend:
-
-        ✅ Use large, high-resolution images: at least 1920x1080px (Full HD)
-
-        ✅ Avoid images with text — it might be cut off or obscured
-
-        ✅ If needed, keep important elements (like logos or text) centered
-
-        ✅ Use soft, neutral backgrounds that won’t clash with quiz content
-
-        ✅ Test your quiz on different devices to see how the image behaves
-
-        Remember, simpler is often better for responsive backgrounds!
 
 === "WooCommerce"
 
@@ -398,6 +399,68 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 ### Question Background/Split Image
 
+=== "Shopify"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/rQEVMLzez2U?si=HoNlj3KwQ67yKAUk" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    You can upload a different background image to each question in the quiz via the [question settings](/reference/quiz-builder/questions/#picture-choice).  
+
+    ![how_to_shopifyv2_improve_image_quality_backgroudimagequestion](/images/how_to_shopifyv2_improve_image_quality_backgroudimagequestion.png)
+
+    1. Open the [Question settings](/reference/quiz-builder/questions/#picture-choice)
+
+    2. Click on `Image upload`
+
+    3. Click `Select image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery.
+
+    4. In `Image position` you can choose between two options: `background` (for a full background image) or `split` (for a split image).  Each option has it's own settings explained below.
+
+    5. Once uploaded click `Change`to change the image or `Remove` to remove it. 
+
+    6. You can also adjust the `Image opacity` with the slider.
+
+    !!! tip "Background/Split image Tip"
+
+        Our app uses a **responsive design**, meaning your quiz will adjust to different screen sizes (desktop, tablet, and mobile). Because of this, **background images may crop or scale differently depending on the device**.
+
+        To ensure your background looks great across all devices, we recommend:
+
+        ✅ Use large, high-resolution images: at least 1920x1080px (Full HD)
+
+        ✅ Avoid images with text — it might be cut off or obscured
+
+        ✅ If needed, keep important elements (like logos or text) centered
+
+        ✅ Use soft, neutral backgrounds that won’t clash with quiz content
+
+        ✅ Test your quiz on different devices to see how the image behaves
+
+        Remember, simpler is often better for responsive backgrounds!
+
+    **Background image settings**
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png){width="300"}
+
+    `Image layout` - Place the image as a `background` or `split` the screen in half with the image. 
+
+    `Image opacity` - Use the slider to change opacity percentage of the uplaoded image.
+
+    **Split image settings**
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png)
+
+    `Image layout` - Place the image as a `background` or `split` the screen in half with the image. 
+
+    `Image opacity` - Use the slider to change opacity percentage of the uplaoded image.
+
+    `Image position (desktop)` - Choose whether the image should be placed `left` or `right` of the question on desktop.
+
+    `Image position (mobile)` - Choose whether the image should be placed `above`, `below` a question or `hidden` on mobile.
+
+    !!! tip
+        Switch between the desktop and mobile view by clicking the `desktop` or `mobile` icon in the top right corner of the middle screen.
+
+
 === "Shopify (Legacy)"
 
     You can upload a different background image to each question in the quiz via the [question settings](/reference/quiz-builder/questions/#picture-choice).  
@@ -468,67 +531,6 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
         ```
 
 
-
-=== "Shopify"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/rQEVMLzez2U?si=HoNlj3KwQ67yKAUk" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    You can upload a different background image to each question in the quiz via the [question settings](/reference/quiz-builder/questions/#picture-choice).  
-
-    ![how_to_shopifyv2_improve_image_quality_backgroudimagequestion](/images/how_to_shopifyv2_improve_image_quality_backgroudimagequestion.png)
-
-    1. Open the [Question settings](/reference/quiz-builder/questions/#picture-choice)
-
-    2. Click on `Image upload`
-
-    3. Click `Select image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery.
-
-    4. In `Image position` you can choose between two options: `background` (for a full background image) or `split` (for a split image).  Each option has it's own settings explained below.
-
-    5. Once uploaded click `Change`to change the image or `Remove` to remove it. 
-
-    6. You can also adjust the `Image opacity` with the slider.
-
-    !!! tip "Background/Split image Tip"
-
-        Our app uses a **responsive design**, meaning your quiz will adjust to different screen sizes (desktop, tablet, and mobile). Because of this, **background images may crop or scale differently depending on the device**.
-
-        To ensure your background looks great across all devices, we recommend:
-
-        ✅ Use large, high-resolution images: at least 1920x1080px (Full HD)
-
-        ✅ Avoid images with text — it might be cut off or obscured
-
-        ✅ If needed, keep important elements (like logos or text) centered
-
-        ✅ Use soft, neutral backgrounds that won’t clash with quiz content
-
-        ✅ Test your quiz on different devices to see how the image behaves
-
-        Remember, simpler is often better for responsive backgrounds!
-
-    **Background image settings**
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png){width="300"}
-
-    `Image layout` - Place the image as a `background` or `split` the screen in half with the image. 
-
-    `Image opacity` - Use the slider to change opacity percentage of the uplaoded image.
-
-    **Split image settings**
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png)
-
-    `Image layout` - Place the image as a `background` or `split` the screen in half with the image. 
-
-    `Image opacity` - Use the slider to change opacity percentage of the uplaoded image.
-
-    `Image position (desktop)` - Choose whether the image should be placed `left` or `right` of the question on desktop.
-
-    `Image position (mobile)` - Choose whether the image should be placed `above`, `below` a question or `hidden` on mobile.
-
-    !!! tip
-        Switch between the desktop and mobile view by clicking the `desktop` or `mobile` icon in the top right corner of the middle screen.
 
 === "WooCommerce"
 
@@ -812,6 +814,36 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 ### Image Blocks
 
+=== "Shopify"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Cg-85oQ1mPA?si=vqCVMwIC4jDM3ITy" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    You can upload an individual image via an Image Block directly into one of the quiz [questions](/reference/quiz-builder/questions/) or [results page](/reference/quiz-builder/results-page/).
+
+    ![how to](/images/how_to_shopifyv2_improve_image_quality_imageblock.png)
+
+    1. Navigate to [Questions](/reference/quiz-builder/questions/) or [Results page](/reference/quiz-builder/results-page/) tab in the quiz builder.
+    2. Click `+ Add block` to see a list of available blocks.
+
+    3. Click on `Image` block and a new block will be added to the question or a section on the results page.
+
+    4. Open the Image block settings.
+
+    5. Click `Select image` to upload an image from your computer or pick one from your in-app image gallery.
+
+    6. Once uploaded, click `Change` to replace the image or `Remove` to delete it. 
+
+    7. Add in `Alt text` to make the image more accessible. *Note: Alt text is used by screen readers to describe the image to visually impaired users.*
+
+    8. You can adjust the image size in the `Image height`dropdown. You can choose between `Tiny`, `Small`, `Medium`, `Large` or `Adapt to image`. 
+
+        !!! tip "Adapt to image"
+
+            `Adapt to image` will adjust the image size to the original size of the image. Pick this option if you want to keep the original image size and resolution.
+
+    9. You can change the alignement of the image left, right or center.
+
+
 === "Shopify (Legacy)"
 
     **QUESTIONS**
@@ -894,35 +926,6 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
         Replace `https://your-image-url.com/image.jpg` with the URL of the image you want to upload.
 
     6. Click `Publish` to save the changes.
-
-=== "Shopify"
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Cg-85oQ1mPA?si=vqCVMwIC4jDM3ITy" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    You can upload an individual image via an Image Block directly into one of the quiz [questions](/reference/quiz-builder/questions/) or [results page](/reference/quiz-builder/results-page/).
-
-    ![how to](/images/how_to_shopifyv2_improve_image_quality_imageblock.png)
-
-    1. Navigate to [Questions](/reference/quiz-builder/questions/) or [Results page](/reference/quiz-builder/results-page/) tab in the quiz builder.
-    2. Click `+ Add block` to see a list of available blocks.
-
-    3. Click on `Image` block and a new block will be added to the question or a section on the results page.
-
-    4. Open the Image block settings.
-
-    5. Click `Select image` to upload an image from your computer or pick one from your in-app image gallery.
-
-    6. Once uploaded, click `Change` to replace the image or `Remove` to delete it. 
-
-    7. Add in `Alt text` to make the image more accessible. *Note: Alt text is used by screen readers to describe the image to visually impaired users.*
-
-    8. You can adjust the image size in the `Image height`dropdown. You can choose between `Tiny`, `Small`, `Medium`, `Large` or `Adapt to image`. 
-
-        !!! tip "Adapt to image"
-
-            `Adapt to image` will adjust the image size to the original size of the image. Pick this option if you want to keep the original image size and resolution.
-
-    9. You can change the alignement of the image left, right or center.
 
 === "WooCommerce"
 
@@ -1260,34 +1263,6 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 ### Picture Choices
 
-=== "Shopify (Legacy)"
-
-    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
-
-    ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
-
-    1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Click `+ Add new question` to see a list of available questions.
-
-        ![manual_quizbuilder_quizbuilder_addquestions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
-
-    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
-
-        !!! warning "Image size"
-
-            It'sd recommended to uplaod square images, max. 400px x 400px.
-
-            If your images are not square, they will be cropped to a square. You can adjust them in a free online image editor before uploading.
-
-            RevenueHunt app optimizes the uploaded images to load faster.
-
-    4. Click on `+ Add choice` to add a new choice to the picture choice block.
-
-    5. Click on `+ image` to upload an image from your computer.
-
-    6. Add more choices by clicking `+ Add choice` and repeat the process.
-
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/pRIPY4pLoMw?si=EbnsHRRnzSf_NKHX" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -1328,6 +1303,35 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         !!! tip
             Make sure to switch to the mobile view by clicking the `mobile` icon in the top right corner of the middle screen.
+
+
+=== "Shopify (Legacy)"
+
+    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
+
+    ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
+
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Click `+ Add new question` to see a list of available questions.
+
+        ![manual_quizbuilder_quizbuilder_addquestions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
+
+    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
+
+        !!! warning "Image size"
+
+            It'sd recommended to uplaod square images, max. 400px x 400px.
+
+            If your images are not square, they will be cropped to a square. You can adjust them in a free online image editor before uploading.
+
+            RevenueHunt app optimizes the uploaded images to load faster.
+
+    4. Click on `+ Add choice` to add a new choice to the picture choice block.
+
+    5. Click on `+ image` to upload an image from your computer.
+
+    6. Add more choices by clicking `+ Add choice` and repeat the process.
+
 
 === "WooCommerce"
 
@@ -1442,22 +1446,6 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 ### Product Image 
 
-=== "Shopify (Legacy)"
-
-    Product Images displayed on the Results page are taken directly from your Shopify catalog. Product slots diplsay the first image of the product or variant uploaded to your Shopify Products section.
-
-    !!! tip
-
-        You can adjust the product image settings with custom CSS in [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#custom-css).
-
-        Sample code to adjust the product image size:
-
-        ```html
-        .lq-results .lq-slot li {
-            max-width: 500px !important;
-        }
-        ```
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CeN1xrE3XpE?si=9nNUSjPGJDreQctq" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -1491,6 +1479,23 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
         !!! tip
             If you don't see any images when recommending collections, make sure that you have uploaded images to your Shopify collection.
 
+
+
+=== "Shopify (Legacy)"
+
+    Product Images displayed on the Results page are taken directly from your Shopify catalog. Product slots diplsay the first image of the product or variant uploaded to your Shopify Products section.
+
+    !!! tip
+
+        You can adjust the product image settings with custom CSS in [Quiz Design > Custom CSS console](/reference/quiz-builder/quiz-design/#custom-css).
+
+        Sample code to adjust the product image size:
+
+        ```html
+        .lq-results .lq-slot li {
+            max-width: 500px !important;
+        }
+        ```
 
 === "WooCommerce"
 

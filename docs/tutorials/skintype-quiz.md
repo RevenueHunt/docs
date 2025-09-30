@@ -4,20 +4,6 @@ icon: material/numeric-3
 
 # Building a Skin Type Quiz with RevenueHunt App
 
-=== "Shopify (Legacy)"
-
-    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. For this reason building a personality-type quiz or a scoring quiz like this one is not possible with the off-the-shelf solution.
-    
-    Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
-
-    !!! tip 
-        Check [this article](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
-    
-    
-    !!! tip 
-        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
-
-
 === "Shopify"
 
     In this tutorial, you’ll learn how to build a quiz that determines the user's skin type and recommends the right products with RevenueHunt App.
@@ -210,6 +196,21 @@ icon: material/numeric-3
 
     !!! tip
         You can find a ready-made template for this quiz in the [Create New Quiz](/reference/dashboard/#new-quiz) section of the app, so feel free to use it as a starting point and customize it as needed.
+
+
+
+=== "Shopify (Legacy)"
+
+    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. For this reason building a personality-type quiz or a scoring quiz like this one is not possible with the off-the-shelf solution.
+    
+    Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
+
+    !!! tip 
+        Check [this article](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
+    
+    
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
 === "WooCommerce"

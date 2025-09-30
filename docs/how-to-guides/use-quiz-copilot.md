@@ -4,10 +4,6 @@ icon: material/chat-question-outline
 
 # How to Use Quiz Copilot
 
-=== "Shopify (Legacy)"
-
-    Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the legacy version of the RevenueHunt app for Shopify.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4639a53373134fc0be81deb9f2c04930?sid=59e1436d-8654-46a8-9fc4-166c251fcd06" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -165,6 +161,11 @@ icon: material/chat-question-outline
 
     1. Go to [Results page settings](/reference/quiz-builder/results-page/) and click `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly make design changes with JavaScript code!
 
+
+
+=== "Shopify (Legacy)"
+
+    Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the legacy version of the RevenueHunt app for Shopify.
 
 === "WooCommerce"
 

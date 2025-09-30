@@ -26,14 +26,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Results Page
 
-=== "Shopify (Legacy)"
-
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
-    2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
-    3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
-    5. Remember to click the `Publish` button to update the preview/live quiz.
-
 === "Shopify"
 
     ![how_to_javascript_resultspagesettings](/images/how_to_javascript_resultspagesettings.png)
@@ -48,6 +40,15 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     4. Remember to click the `Save` button to update the preview/live quiz.
 
+
+
+=== "Shopify (Legacy)"
+
+    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
+    2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
+    3. Scroll down to find the **Custom JavaScript** section and click `add`.
+    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "WooCommerce"
 
@@ -83,14 +84,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Quiz Questions
 
-=== "Shopify (Legacy)"
-
-    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
-    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
-    3. Scroll down to find the **Custom JavaScript** section and click `add`.
-    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
-    5. Remember to click the `Publish` button to update the preview/live quiz.
-
 === "Shopify"
 
     ![how_to_javascript_questionsettings](/images/how_to_javascript_questionsettings.png)
@@ -105,6 +98,15 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
               Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
 
     5. Remember to click the `Save` button to update the preview/live quiz.
+
+
+=== "Shopify (Legacy)"
+
+    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
+    2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. Scroll down to find the **Custom JavaScript** section and click `add`.
+    4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
+    5. Remember to click the `Publish` button to update the preview/live quiz.
 
 === "WooCommerce"
 
@@ -139,6 +141,16 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
 ## Console.log(x) Function
+
+=== "Shopify"
+
+    In Shopify V2, the `prq` object is not available. Instead, you have access to different objects:
+
+      
+    ### Available JavaScript data and functions
+
+    **Questions**
+
 
 === "Shopify (Legacy)"
 
@@ -225,15 +237,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     ```
 
     For other functions and properties refer to the [console.log(prq)](#consolelogprq-function).
-
-=== "Shopify"
-
-    In Shopify V2, the `prq` object is not available. Instead, you have access to different objects:
-
-      
-    ### Available JavaScript data and functions
-
-    **Questions**
 
   	```javascript
     // Data (live getters always return the latest state)
@@ -690,52 +693,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Example 1: Trigger functions from an element in the results page
 
-=== "Shopify (Legacy)"
-
-    You can do it two ways: 
-
-    1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
-
-        !!! example "Add the `onclick` functionality via the Custom Javascript."
-
-            ```html
-            <!-- In Result page in a HTML block -->
-            <!-- add a HTML element such as -->
-            <a id="special_retake_quiz">Click here to retake the quiz</a>
-            ```
-
-            ```javascript
-            /* In the Custom Javascript section */
-            // get the element
-            var element = document.getElementById("special_retake_quiz");
-
-            // add the onclick function to the element
-            element.onclick = function() {
-                prq.retakeQuiz();
-            }
-            ```
-
-    2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
-
-        !!! example "Create the element with an `onclick` event first and then inject it in the results page."
-
-            ```javascript
-            /* In the Custom Javascript section */
-            // create the element
-            var element = document.createElement("a");
-            element.innerHTML = "Click here to retake the quiz"
-
-            // add the onclick function to the element
-            element.onclick = function() {
-                prq.retakeQuiz();
-            }
-
-            // get element that we are going to append in the result
-            // in this case at the end of the first block
-            var destination_element = document.querySelectorAll(".lq-block")[0];
-            destination_element.appendChild(element);
-            ```
-
 === "Shopify"
 
     In Shopify V2, you can add interactive elements to your quiz results page:
@@ -783,6 +740,53 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             // find a place to append the element
             const container = Quiz.querySelector('.result-section');
             if (container) container.appendChild(element);
+            ```
+
+
+=== "Shopify (Legacy)"
+
+    You can do it two ways: 
+
+    1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
+
+        !!! example "Add the `onclick` functionality via the Custom Javascript."
+
+            ```html
+            <!-- In Result page in a HTML block -->
+            <!-- add a HTML element such as -->
+            <a id="special_retake_quiz">Click here to retake the quiz</a>
+            ```
+
+            ```javascript
+            /* In the Custom Javascript section */
+            // get the element
+            var element = document.getElementById("special_retake_quiz");
+
+            // add the onclick function to the element
+            element.onclick = function() {
+                prq.retakeQuiz();
+            }
+            ```
+
+    2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
+
+        !!! example "Create the element with an `onclick` event first and then inject it in the results page."
+
+            ```javascript
+            /* In the Custom Javascript section */
+            // create the element
+            var element = document.createElement("a");
+            element.innerHTML = "Click here to retake the quiz"
+
+            // add the onclick function to the element
+            element.onclick = function() {
+                prq.retakeQuiz();
+            }
+
+            // get element that we are going to append in the result
+            // in this case at the end of the first block
+            var destination_element = document.querySelectorAll(".lq-block")[0];
+            destination_element.appendChild(element);
             ```
 
 === "WooCommerce"
@@ -969,45 +973,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Example 2: Insert calculations
 
-=== "Shopify (Legacy)"
-
-    You can display the information you have gathered throughout the quiz and mash it up however you want. For example, you could create a BMI (body mass index) calculator the following way.
-
-    !!! example "Create a BMI calculator"
-
-        ```html
-        <!-- In Result page in a HTML block -->
-        <!-- add an HTML element such as -->
-        <div id="body_mass_index_calculation"></div>
-        ```
-
-        ```javascript
-        /* In the Custom Javascript section */
-        // get the element
-        var element = document.getElementById("body_mass_index_calculation");
-
-        // get the values of the slides
-        var weight = prq.getSlideValue("rgiq0oE");
-        var height = prq.getSlideValue("0Mi2qLN");
-
-        // instead of using prq.getSlideValue you could do the same with this code:
-        /*
-        var slide_weight = prq.quiz.attributes.slides.data.find(s => s.id === "rgiq0oE");
-        var slide_height = prq.quiz.attributes.slides.data.find(s => s.id === "0Mi2qLN");
-
-        var weight = slide_weight.attributes.values[0];
-        var height = slide_height.attributes.values[0];
-        */
-
-        // calculate the Body Mass Index
-        var bmi = weight / (height * height);
-
-        // insert the calculation on the element in the result page
-        element.innerHTML = bmi.toFixed(2); 
-        ```
-
-    You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
-
 === "Shopify"
 
     In Shopify V2, you can access the answers from the `answers` object to perform calculations. Here's how to create a BMI calculator:
@@ -1056,6 +1021,46 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         ```
 
         When you run the quiz, check the Console in DevTools to see the structure of `Quiz.answers` and copy the correct IDs to use in the code above.
+
+
+=== "Shopify (Legacy)"
+
+    You can display the information you have gathered throughout the quiz and mash it up however you want. For example, you could create a BMI (body mass index) calculator the following way.
+
+    !!! example "Create a BMI calculator"
+
+        ```html
+        <!-- In Result page in a HTML block -->
+        <!-- add an HTML element such as -->
+        <div id="body_mass_index_calculation"></div>
+        ```
+
+        ```javascript
+        /* In the Custom Javascript section */
+        // get the element
+        var element = document.getElementById("body_mass_index_calculation");
+
+        // get the values of the slides
+        var weight = prq.getSlideValue("rgiq0oE");
+        var height = prq.getSlideValue("0Mi2qLN");
+
+        // instead of using prq.getSlideValue you could do the same with this code:
+        /*
+        var slide_weight = prq.quiz.attributes.slides.data.find(s => s.id === "rgiq0oE");
+        var slide_height = prq.quiz.attributes.slides.data.find(s => s.id === "0Mi2qLN");
+
+        var weight = slide_weight.attributes.values[0];
+        var height = slide_height.attributes.values[0];
+        */
+
+        // calculate the Body Mass Index
+        var bmi = weight / (height * height);
+
+        // insert the calculation on the element in the result page
+        element.innerHTML = bmi.toFixed(2); 
+        ```
+
+    You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
 
 === "WooCommerce"
     You can display the information you have gathered throughout the quiz and mash it up however you want. For example, you could create a BMI (body mass index) calculator the following way.
@@ -1216,6 +1221,11 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Example 3: Multiple-choice questions: select all, select none
 
+=== "Shopify"
+
+    You can make question choice become select all / selectnone via the [Multiple-Choice settings](/reference/quiz-builder/questions/#multiple-choice). 
+
+
 === "Shopify (Legacy)"
 
     It is possible to make the quiz multiple choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
@@ -1321,10 +1331,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
           return values.includes(choiceId(c));
         }
         ```
-
-=== "Shopify"
-
-    You can make question choice become select all / selectnone via the [Multiple-Choice settings](/reference/quiz-builder/questions/#multiple-choice). 
 
 === "WooCommerce"
 
@@ -1752,15 +1758,16 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Example 4: Redirect to Translated Product URL
 
+=== "Shopify"
+
+    In this version of the Revenuehunt app you can direct users to different markets via the [App Settings > Shopify Markets tab](/reference/app-settings/#shopify-markets) and the product will be already shown in the right language and currency. 
+
+
 === "Shopify (Legacy)"
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
 
     A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
-
-=== "Shopify"
-
-    In this version of the Revenuehunt app you can direct users to different markets via the [App Settings > Shopify Markets tab](/reference/app-settings/#shopify-markets) and the product will be already shown in the right language and currency. 
 
 === "WooCommerce"
 
@@ -1787,8 +1794,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
 ### Other Examples
-
-=== "Shopify (Legacy)"
 
 === "Shopify"
 
@@ -1889,6 +1894,9 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         if (msg) msg.textContent = 'We picked extra-gentle products for you!';
         }
         ```
+
+
+=== "Shopify (Legacy)"
 
 === "WooCommerce"
 

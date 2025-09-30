@@ -8,22 +8,6 @@ This guide explains how to change the currency of your quiz and how to handle mu
 
 ## Change the quiz currency
 
-=== "Shopify (Legacy)"
-
-    To change the quiz currency:
-
-    1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
-
-        ![manual_shopify_quizbuilder_quizsettings_general](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
-    3. Scroll down to the `Currency` field and click on the dropdown.
-    4. Select your currency from the list.
-    5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
-
-    !!! info
-
-        If you're missing a currency from the list, please [contact support](/how-to-guides/contact-customer-support/).
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d460aea970c04b9ea6388b37329eccea?sid=d2137eb0-344a-4930-a905-2d9388743629" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -49,6 +33,23 @@ This guide explains how to change the currency of your quiz and how to handle mu
     5. If you want to change the currency format, use the `Currency` field to set up the format you want. Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
         ![how_to_shopifyv2_change_currency](/images/how_to_shopifyv2_change_currency.png)   
 
+
+
+=== "Shopify (Legacy)"
+
+    To change the quiz currency:
+
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Navigate to the [`Quiz Settings > General`](/reference/quiz-builder/quiz-settings/#general) tab.
+
+        ![manual_shopify_quizbuilder_quizsettings_general](/images/manual_quizbuilder_quizsettings_general.png){width="300"}
+    3. Scroll down to the `Currency` field and click on the dropdown.
+    4. Select your currency from the list.
+    5. Update the preview/live quiz by clicking the `Publish` button in the top-right corner.
+
+    !!! info
+
+        If you're missing a currency from the list, please [contact support](/how-to-guides/contact-customer-support/).
 
 === "WooCommerce"
 
@@ -116,23 +117,6 @@ This guide explains how to change the currency of your quiz and how to handle mu
 
 ## Multi-currency quizzes
 
-=== "Shopify (Legacy)"
-
-    At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
-
-    If you run a multi-currency shop there's a workaround. What most customers do is show the product on the results page without the price and instead choose the checkout option to view the product. This way the customer is redirected to the product page from the result where the right price is applied.
-
-    Follow these steps to apply this workaround:
-
-    1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
-    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/).
-    4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
-    5. Scroll down to `Individual Product Settings`. 
-    5. Search for `Show price` and click the toggle to deactivate it. 
-
-    Now, the product price will not be shown and the customer will be redirected to the product page from the results page.
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d460aea970c04b9ea6388b37329eccea?sid=d2137eb0-344a-4930-a905-2d9388743629" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -168,6 +152,24 @@ This guide explains how to change the currency of your quiz and how to handle mu
         ![how_to_shopifyv2_change_quiz_languge_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_languge_markets_compareatissue.png)
         
         You can test this by previewing the quiz on your live store while simulating a visitor from the affected country.
+
+
+=== "Shopify (Legacy)"
+
+    At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
+
+    If you run a multi-currency shop there's a workaround. What most customers do is show the product on the results page without the price and instead choose the checkout option to view the product. This way the customer is redirected to the product page from the result where the right price is applied.
+
+    Follow these steps to apply this workaround:
+
+    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    2. Navigate to the [Results Page](/reference/quiz-builder/results-page/).
+    3. Open the [Results Page Settings](/reference/quiz-builder/results-page/).
+    4. In [Basic Settings](/reference/quiz-builder/results-page/#basic-settings), check the `Checkout Settings` section. Select `Link to product`.
+    5. Scroll down to `Individual Product Settings`. 
+    5. Search for `Show price` and click the toggle to deactivate it. 
+
+    Now, the product price will not be shown and the customer will be redirected to the product page from the results page.
 
 === "WooCommerce"
 

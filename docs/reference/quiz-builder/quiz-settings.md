@@ -1,16 +1,17 @@
 # Quiz Settings
 
-=== "Shopify (Legacy)"
-
-    ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
-
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
-
 === "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
     In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts, set up integrtations, notificaiton emails to self and result emails to quiz takers, or restore a previously publsihed version of the quiz.
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
+
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
 
 === "WooCommerce"
 
@@ -37,6 +38,29 @@
     In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
 
 ### General
+
+=== "Shopify"
+
+    `Quiz name` - Click on the field to edit the quiz name.
+
+    **Quiz behavior settings**
+
+    `Save quiz progress` - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+
+    **Quiz accessibility settings**
+
+    `Disable zooming in on mobile devices` - Activating this setting will prevent the user from zooming in on mobile devices.
+
+    **Quiz payload settings**
+
+    `Include the product variants in the payload sent to Klaviyo, Zapier, other CRM apps, Webhooks, etc.` - Activating this setting will include the product variants in the payload sent to Klaviyo, Zapier, other CRM apps, Webhooks, etc. If deactivated, only the main product information will be sent.
+
+    **Quiz migration**
+
+    `Export quiz to another store` - Clicking `Copy quiz code` generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    `Quiz ID: XXXXXX` - Click `Copy quiz ID` to copy the quiz ID to clipboard.
+
 
 === "Shopify (Legacy)"
 
@@ -65,28 +89,6 @@
     `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID` - Displays the current quiz ID.
-
-=== "Shopify"
-
-    `Quiz name` - Click on the field to edit the quiz name.
-
-    **Quiz behavior settings**
-
-    `Save quiz progress` - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
-
-    **Quiz accessibility settings**
-
-    `Disable zooming in on mobile devices` - Activating this setting will prevent the user from zooming in on mobile devices.
-
-    **Quiz payload settings**
-
-    `Include the product variants in the payload sent to Klaviyo, Zapier, other CRM apps, Webhooks, etc.` - Activating this setting will include the product variants in the payload sent to Klaviyo, Zapier, other CRM apps, Webhooks, etc. If deactivated, only the main product information will be sent.
-
-    **Quiz migration**
-
-    `Export quiz to another store` - Clicking `Copy quiz code` generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
-
-    `Quiz ID: XXXXXX` - Click `Copy quiz ID` to copy the quiz ID to clipboard.
 
 === "WooCommerce"
 
@@ -182,6 +184,95 @@
 
 ### Messages / Quiz Content
 
+=== "Shopify"
+
+    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
+
+    **Default quiz content** 
+
+    `Filter items` - Search the messages for a specific one to edit.
+
+    `Reset messages(en)` - Select a language from the list to change the default app translations. Each individual content can be edited below.
+
+    **Buttons** 
+
+    `Next` - Default text on the buttons that move the user to the next slide. | Quiz
+
+    `Add to cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+
+    `View product` - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
+
+    `View collection` - Default text on the product CTA button when checkout settings are set to "Link to Collection". | Results Page
+
+    `Add all to cart ({{count}})` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+
+    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
+
+    `Proceed to Checkout ({{count}})` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
+
+    `Proceed to Cart ({{count}})` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
+
+    `{{count}} in cart` - Default text on the product CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
+
+    !!! info
+
+        The variable {{count}} will be replaced with the number of items in the cart.
+
+    **Helpers** 
+
+    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders.png)
+
+    `Select variant` - Default placeholder text on variants dropdown | Results Page
+
+    `No variants` - Default text on the product tile if the product has variants grouped but the product has no variants. | Results Page
+
+    `Dropdown "select" placeholder` - Default placeholder text on the dropdowns. | Quiz
+
+    `Dropdown "search" placeholder` - Default placeholder text on the dropdowns. | Quiz
+
+    `Phone "Select" placeholder` - Default placeholder text on the phone question slides. | Quiz
+
+    `Phone "Filter" placeholder` - Default placeholder text on the phone question slides. | Quiz
+
+    `Message for file drop` - Default text on the file upload question slides. | Quiz
+
+    `Message for file size under 10MB` - Default text on the file upload question slides. | Quiz
+
+    `'and' connector for dynamic source` - Default text displayed between each personalization (information recalls). | Quiz
+
+    `(Percentage)% complete` - Default text on the quiz progress bar. | Quiz
+
+    `{{percent}}% complete` - Default text on the quiz progress bar. | Quiz
+
+    `We're having trouble saving your answers, retrying... please wait.` - Default text on the results page in case of loading issues. | Results Page
+
+    `We're sorry, but there was an issue saving your answers. Please refresh the quiz or try again later.` - Default text on the results page in case of loading issues. | Results Page
+
+    `Try again` - Default text on the results page in case of loading issues. | Results Page
+
+    !!! info
+
+        The variable `{{percent}}` will be replaced with the percentage of the quiz that has been completed.
+
+    **Accessibility**
+
+    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers.png)
+
+    `Quiz complete` - Default text on the quiz complete slide. | Quiz
+
+    `No previous question` - Default text on the quiz navigation buttons. | Quiz
+
+    `Previous question` - Default text on the quiz navigation buttons. | Quiz
+
+    `Answer before proceeding` - Default text on the quiz navigation buttons. | Quiz
+
+    `Next question` - Default text on the quiz navigation buttons. | Quiz
+
+    `Quiz navigation buttons` - Default text on the quiz navigation buttons. | Quiz
+
+    `Results bottom bar` - Default text on the results bottom bar. | Results Page
+
+
 === "Shopify (Legacy)"
 
     ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
@@ -275,94 +366,6 @@
     `Encourage next discount` - Default text when dynamic discounts are active in the quiz. | Results Page
 
     `Restore default messages` - Click "restore" to set all fields back to default.
-
-=== "Shopify"
-
-    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
-
-    **Default quiz content** 
-
-    `Filter items` - Search the messages for a specific one to edit.
-
-    `Reset messages(en)` - Select a language from the list to change the default app translations. Each individual content can be edited below.
-
-    **Buttons** 
-
-    `Next` - Default text on the buttons that move the user to the next slide. | Quiz
-
-    `Add to cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
-
-    `View product` - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
-
-    `View collection` - Default text on the product CTA button when checkout settings are set to "Link to Collection". | Results Page
-
-    `Add all to cart ({{count}})` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
-
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
-
-    `Proceed to Checkout ({{count}})` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
-
-    `Proceed to Cart ({{count}})` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
-
-    `{{count}} in cart` - Default text on the product CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
-
-    !!! info
-
-        The variable {{count}} will be replaced with the number of items in the cart.
-
-    **Helpers** 
-
-    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders.png)
-
-    `Select variant` - Default placeholder text on variants dropdown | Results Page
-
-    `No variants` - Default text on the product tile if the product has variants grouped but the product has no variants. | Results Page
-
-    `Dropdown "select" placeholder` - Default placeholder text on the dropdowns. | Quiz
-
-    `Dropdown "search" placeholder` - Default placeholder text on the dropdowns. | Quiz
-
-    `Phone "Select" placeholder` - Default placeholder text on the phone question slides. | Quiz
-
-    `Phone "Filter" placeholder` - Default placeholder text on the phone question slides. | Quiz
-
-    `Message for file drop` - Default text on the file upload question slides. | Quiz
-
-    `Message for file size under 10MB` - Default text on the file upload question slides. | Quiz
-
-    `'and' connector for dynamic source` - Default text displayed between each personalization (information recalls). | Quiz
-
-    `(Percentage)% complete` - Default text on the quiz progress bar. | Quiz
-
-    `{{percent}}% complete` - Default text on the quiz progress bar. | Quiz
-
-    `We're having trouble saving your answers, retrying... please wait.` - Default text on the results page in case of loading issues. | Results Page
-
-    `We're sorry, but there was an issue saving your answers. Please refresh the quiz or try again later.` - Default text on the results page in case of loading issues. | Results Page
-
-    `Try again` - Default text on the results page in case of loading issues. | Results Page
-
-    !!! info
-
-        The variable `{{percent}}` will be replaced with the percentage of the quiz that has been completed.
-
-    **Accessibility**
-
-    ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_helpers.png)
-
-    `Quiz complete` - Default text on the quiz complete slide. | Quiz
-
-    `No previous question` - Default text on the quiz navigation buttons. | Quiz
-
-    `Previous question` - Default text on the quiz navigation buttons. | Quiz
-
-    `Answer before proceeding` - Default text on the quiz navigation buttons. | Quiz
-
-    `Next question` - Default text on the quiz navigation buttons. | Quiz
-
-    `Quiz navigation buttons` - Default text on the quiz navigation buttons. | Quiz
-
-    `Results bottom bar` - Default text on the results bottom bar. | Results Page
 
 === "WooCommerce"
 
@@ -742,11 +745,12 @@
 
 ### Integrations
 
-=== "Shopify (Legacy)"
+=== "Shopify"
 
     Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
 
-=== "Shopify"
+
+=== "Shopify (Legacy)"
 
     Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
 
@@ -769,11 +773,12 @@
 
 ### Emails to self
 
-=== "Shopify (Legacy)"
+=== "Shopify"
 
     Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
 
-=== "Shopify"
+
+=== "Shopify (Legacy)"
 
     Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
 
@@ -795,11 +800,12 @@
 
 ### Emails to respondents
 
-=== "Shopify (Legacy)"
+=== "Shopify"
 
     Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
 
-=== "Shopify"
+
+=== "Shopify (Legacy)"
 
     Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
 
@@ -820,20 +826,6 @@
     Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
 
 ### Version History
-
-=== "Shopify (Legacy)"
-
-    ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
-
-    In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
-
-    ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
-
-    `...` - Click to open the restore menu.
-
-    `Create a new quiz usign this version` - Create a new quiz on our dashboard based on this version of the current quiz.
-
-    `Rename this version` - Allows you to rename this saved version of the quiz.
 
 === "Shopify"
 
@@ -860,6 +852,21 @@
     `Restore this version` - Allows you to replace the current version of the quiz with the selected one.
 
     `Show more details` - Click to expand the version change details.
+
+
+=== "Shopify (Legacy)"
+
+    ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
+
+    In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
+
+    ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
+
+    `...` - Click to open the restore menu.
+
+    `Create a new quiz usign this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+
+    `Rename this version` - Allows you to rename this saved version of the quiz.
 
 === "WooCommerce"
 

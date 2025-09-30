@@ -4,13 +4,6 @@ icon: material/code-json
 
 # How to Use Callback Function for Custom Integrations
 
-=== "Shopify (Legacy)"
-
-      Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
-
-      This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
-
-
 === "Shopify"
 
     !!! warning
@@ -18,6 +11,14 @@ icon: material/code-json
         The callback function is not supported in Shopify V2.
 
     The callback function is not supported in Shopify V2. However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
+
+
+=== "Shopify (Legacy)"
+
+      Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
+
+      This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
+
 
 === "WooCommerce"
 
@@ -67,6 +68,16 @@ The JSON with the quiz response includes:
 
 
 ## Implementing the Callback Function
+
+=== "Shopify"
+
+    !!! warning
+
+        Not supported in this version of the RevenueHunt app. 
+
+    Not supported in this version of the RevenueHunt app.  However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
+
+
 
 === "Shopify (Legacy)"
 
@@ -118,15 +129,6 @@ The JSON with the quiz response includes:
           prqAppLoadedCallback();
           // triggered when the Product Recommendation Quiz app has been loaded 
           ```
-
-=== "Shopify"
-
-    !!! warning
-
-        Not supported in this version of the RevenueHunt app. 
-
-    Not supported in this version of the RevenueHunt app.  However, the new quiz version's results page includes powerful features such as conditionally displaying sections based on quiz answers or custom scores, adding custom JavaScript, and showcasing fixed products. It also offers advanced layout and alignment options, allowing you to create a unique and fully customized results page—without needing to redirect users to an external page.
-
 
 === "WooCommerce"
 

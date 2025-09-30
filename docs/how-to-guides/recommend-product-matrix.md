@@ -6,7 +6,10 @@ It describes a step-by-step process involving creating product collections, link
 
 ## Simple product matrix
 
-=== "Shopify (Legacy)"
+=== "Shopify"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/b19268d9b4b84bd0a04093d9e0047398?sid=f1e60add-8900-4d74-b415-9a4217e28722" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
     Let’s say that you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
 
@@ -18,10 +21,8 @@ It describes a step-by-step process involving creating product collections, link
     | 30’s and above  | All Natural Face Cleanser;<br>Fresh Rose Deep Hydration Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Organix Facial Moisturizer                     | FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin           |
 
 
-=== "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/b19268d9b4b84bd0a04093d9e0047398?sid=f1e60add-8900-4d74-b415-9a4217e28722" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
+=== "Shopify (Legacy)"
 
     Let’s say that you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
 
@@ -143,22 +144,6 @@ To recommend the right product, in your eCommerce platform you should create fou
 
 ### Step 3: Build the quiz
 
-=== "Shopify (Legacy)"
-
-    You can start building your quiz. 
-
-    1. **Add new quiz**: Go to the RevenueHunt app and click on `add new quiz`. 
-    2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](/reference/quiz-builder/).
-    3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
-
-        - The first question is about the client’s age.
-
-        ![how to recommend products matrix question1](/images/how_to_recommend_products_question1.png)
-
-        - The second question is about client’s skin type.
-
-        ![how to recommend products matrix question2](/images/how_to_recommend_products_question2.png)
-
 === "Shopify"
 
 
@@ -176,6 +161,23 @@ To recommend the right product, in your eCommerce platform you should create fou
 
         ![how to recommend products matrix question2](/images/how_to_shopifyv2_recommend_product_matrix_question2.png)
 
+
+
+=== "Shopify (Legacy)"
+
+    You can start building your quiz. 
+
+    1. **Add new quiz**: Go to the RevenueHunt app and click on `add new quiz`. 
+    2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](/reference/quiz-builder/).
+    3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
+
+        - The first question is about the client’s age.
+
+        ![how to recommend products matrix question1](/images/how_to_recommend_products_question1.png)
+
+        - The second question is about client’s skin type.
+
+        ![how to recommend products matrix question2](/images/how_to_recommend_products_question2.png)
 
 === "WooCommerce"
 
@@ -250,15 +252,6 @@ To recommend the right product, in your eCommerce platform you should create fou
 
 ### Step 4: Link collections/categories
 
-=== "Shopify (Legacy)"
-
-    You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
-
-    1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
-    2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
-
-        ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
-
 === "Shopify"
 
 
@@ -269,6 +262,16 @@ To recommend the right product, in your eCommerce platform you should create fou
     3. For each choice find a collection to be added from your catalog and add it to the choice.
 
         ![how to recommend products matrix link collections](/images/how_to_shopifyv2_recommend_product_matrix_upvotecollections.png)
+
+
+=== "Shopify (Legacy)"
+
+    You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
+
+    1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
+    2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
+
+        ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
 
 === "WooCommerce"
 
@@ -318,14 +321,6 @@ To recommend the right product, in your eCommerce platform you should create fou
 
 ### Step 5: Create a Products block on the Results Page
 
-=== "Shopify (Legacy)"
-
-    For the products to show on the Results Page, you need to add a `Products Block`. 
-
-    1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
-    2. **Add a Product Block**:  Clicking the `+` to add a block type. Slect a `Product Block` from the dropdown list.
-    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
-
 === "Shopify"
 
 
@@ -334,6 +329,15 @@ To recommend the right product, in your eCommerce platform you should create fou
     1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
     2. **Add a Product Block**:  Clicking the `+ Add block` to add a block type. Slect a `Product Block` from the dropdown list.
     3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the [`Product Block settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) and select how many products should be recommended in this Product Block from the dropdown.
+
+
+=== "Shopify (Legacy)"
+
+    For the products to show on the Results Page, you need to add a `Products Block`. 
+
+    1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
+    2. **Add a Product Block**:  Clicking the `+` to add a block type. Slect a `Product Block` from the dropdown list.
+    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
 
 === "WooCommerce"
 
@@ -416,6 +420,31 @@ If you’d like to organize the products in a specific order, you can create `Pr
 
 ## Complex product matrix
 
+=== "Shopify"
+
+
+
+    If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
+
+    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
+
+    The outcome of the quiz depends on 3 factors: skin type, age, and skin concern. In each case, the products recommended differing.
+
+    For this complex matrix, creating separate collections for each outcome is possible, but there’s also an **alternative**.
+    
+    What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
+
+    Here’s an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
+
+    ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
+
+    !!! tip
+
+        Check this guide [Set up fixed recommendations quiz](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up a quiz with fixed recommendations and display logic for very precise product recommendations.
+
+   
+
+
 === "Shopify (Legacy)"
 
     If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
@@ -454,30 +483,6 @@ If you’d like to organize the products in a specific order, you can create `Pr
         
         In the example above, you can create 4 different quizzes for skin types (Dry, Oily, Combination, or Normal skin), or you can create a quiz for different age groups.
 
-
-=== "Shopify"
-
-
-
-    If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
-
-    ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
-
-    The outcome of the quiz depends on 3 factors: skin type, age, and skin concern. In each case, the products recommended differing.
-
-    For this complex matrix, creating separate collections for each outcome is possible, but there’s also an **alternative**.
-    
-    What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
-
-    Here’s an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
-
-    ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
-
-    !!! tip
-
-        Check this guide [Set up fixed recommendations quiz](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up a quiz with fixed recommendations and display logic for very precise product recommendations.
-
-   
 
 === "WooCommerce"
 

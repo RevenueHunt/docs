@@ -10,13 +10,14 @@
 
 In this article, we provide a clear, step-by-step guide on how to use Display Logic, its workings, and examples to illustrate its functionality.
 
-=== "Shopify (Legacy)"
-
-    <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=-3_Sv297f8B4-KPi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=3YY9lVuHYozbUYVq" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+
+=== "Shopify (Legacy)"
+
+    <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=-3_Sv297f8B4-KPi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 === "WooCommerce"
 
@@ -42,19 +43,6 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
 
 In the [Results Page](/reference/quiz-builder/results-page/) section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
-=== "Shopify (Legacy)"
-
-    ??? question "What content be added to the Results Page?"
-
-        You can add different types of building blocks to your results page:
-
-        - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
-        - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
-        - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
-        - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
-        - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
-        - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
-
 === "Shopify"
 
     ??? question "What content be added to the Results Page?"
@@ -72,6 +60,20 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
         - **Video Block** - Adds a video block into your page. You can upload your own video from the Shopify ContentLibrary.
         - **Button Block** - Adds a button block into your page. You can add a link to the button.
         - **Products Block** - Adds a block specifically designed for displaying a list of recommended products, product variants or product collections.
+
+
+=== "Shopify (Legacy)"
+
+    ??? question "What content be added to the Results Page?"
+
+        You can add different types of building blocks to your results page:
+
+        - **Heading Block** - Adds a new heading to your page, ideal for titles or section breaks.
+        - **Content Block** - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+        - **HTML Block** - Adds a block where you can input custom HTML code for advanced content and styling.
+        - **Image Block** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
+        - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
+        - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
 === "WooCommerce"
 
@@ -126,44 +128,6 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
         - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
 ## Add Display Logic to Block / Section
-
-=== "Shopify (Legacy)"
-
-    With Display Logic you can make blocks visible or hidden based on customer's responses.
-
-    1. **Find a block**: Start by identifying or adding the block you wish to add Display Logic to. 
-    2. **Open Display Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
-        ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
-
-        **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
-
-    3. Next, select `add Display Logic`.
-        ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
-
-    3. **Add your rules**: Add you display logic rules for when the block should be visible or hidden. 
-
-        !!! info
-
-            All the Display Logic rules follow the same format
-
-            - **IF response to** pick the question from a dropdown list
-            - **is**/ **is not** pick a choice from the dropdown list
-            - **THEN block is** pick either **Visible** or **Hidden**
-            - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
-
-        !!! example
-
-            ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
-
-            In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
-
-    4. You can add multiple rules by clicking the `+` button.
-        
-        - **+** - Adds another Display Logic rule. Adds a new OR logical rule.
-        - **bin** - Delete the current Display Logic rule.
-        - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
-
-    4. **Preview and Adjust**: Publish the changes with the top-right Publish button to update the preview/live quiz and test the setup.
 
 === "Shopify"
 
@@ -260,6 +224,45 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
             In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
 
     4. **Preview and Adjust**: Publish the changes with the top-right `Save` button to update the preview/live quiz and test the setup.
+
+
+=== "Shopify (Legacy)"
+
+    With Display Logic you can make blocks visible or hidden based on customer's responses.
+
+    1. **Find a block**: Start by identifying or adding the block you wish to add Display Logic to. 
+    2. **Open Display Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
+        ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+
+        **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
+
+    3. Next, select `add Display Logic`.
+        ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
+
+    3. **Add your rules**: Add you display logic rules for when the block should be visible or hidden. 
+
+        !!! info
+
+            All the Display Logic rules follow the same format
+
+            - **IF response to** pick the question from a dropdown list
+            - **is**/ **is not** pick a choice from the dropdown list
+            - **THEN block is** pick either **Visible** or **Hidden**
+            - **IN ALL OTHER CASES this block is** pick pick either **Visible** or **Hidden**
+
+        !!! example
+
+            ![quiz builder results page display logic example](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic_example.png)
+
+            In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then this content block with text "This is content text." will be visible. If they give a different answer in Question 1 this content block will be hidden.
+
+    4. You can add multiple rules by clicking the `+` button.
+        
+        - **+** - Adds another Display Logic rule. Adds a new OR logical rule.
+        - **bin** - Delete the current Display Logic rule.
+        - **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    4. **Preview and Adjust**: Publish the changes with the top-right Publish button to update the preview/live quiz and test the setup.
 
 === "WooCommerce"
 
@@ -479,44 +482,6 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 ### Display Logic Based on Customer Answers
 
-=== "Shopify (Legacy)"
-
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    **Scenario**
-
-    You want to show a custom text block based on the customer's answer to a question. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different text and recommendation about their skincare is shown on the Results Page. This individualized response is made possible by Display Logic.
-
-    **Implementation**
-
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
-
-        !!! tip
-
-            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
-
-    2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
-
-        !!! example
-
-            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
-            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
-            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
-            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-            
-
-        !!! tip    
-        
-            Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
-
-    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
-
-        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
-
-    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
-
-
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=w8QWpvi3Ga5dbtxl&amp;start=11" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -561,6 +526,45 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     - Example: A section can be visible if the skin type is "dry and tight" or if the age group is "teens".
     - Another example: A section can be visible if both conditions are met: skin type is "dry and tight" and skin concerns include "acne".
+
+
+=== "Shopify (Legacy)"
+
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    **Scenario**
+
+    You want to show a custom text block based on the customer's answer to a question. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different text and recommendation about their skincare is shown on the Results Page. This individualized response is made possible by Display Logic.
+
+    **Implementation**
+
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+
+        !!! tip
+
+            Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
+
+    2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
+
+        !!! example
+
+            - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
+            - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
+            - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
+            - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
+            
+
+        !!! tip    
+        
+            Make the heading stand out with [markdown language](/how-to-guides/use-markdown/). Use the`#` sign before a sentence can make it bold.
+
+    3. **Add Display Logic**: If we don’t add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
+
+        ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
+
+    4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
+
 
 === "WooCommerce"
 
@@ -724,19 +728,6 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 ### Diplsay Logic Based on Winning Variable
 
-=== "Shopify (Legacy)"
-
-    **Scenario**
-
-    You're building a personality-type or Dosha quiz. You want to show a different text and product recommendations based on the winning variable. For examples, if the user chooses mostly A's, B's, C's, etc. a different section with different text and product recommendations is shown.
-
-    **Implementation**
-
-    Custom Scores or variables are not natively supported in the legacy version of the RevenueHunt app. In this version of the app displaying content based on a custom score or variable is only possible via custom JavaScript and may require help from a developer.
-
-    Check our [How to Add JavaScript](/how-to-guides/add-javascript/) guide for more information on implementing custom JavaScript into your product recommendation quiz.
-
-
 === "Shopify"
 
 
@@ -806,6 +797,20 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     Publish the changes with the top-right `Save` button to update the preview/live quiz and click `Preview` to test the setup. Select answers that correspond to a specific skin type (e.g., mostly dry skin). Verify that the correct results section is displayed based on the selected answers.
 
+
+=== "Shopify (Legacy)"
+
+    **Scenario**
+
+    You're building a personality-type or Dosha quiz. You want to show a different text and product recommendations based on the winning variable. For examples, if the user chooses mostly A's, B's, C's, etc. a different section with different text and product recommendations is shown.
+
+    **Implementation**
+
+    Custom Scores or variables are not natively supported in the legacy version of the RevenueHunt app. In this version of the app displaying content based on a custom score or variable is only possible via custom JavaScript and may require help from a developer.
+
+    Check our [How to Add JavaScript](/how-to-guides/add-javascript/) guide for more information on implementing custom JavaScript into your product recommendation quiz.
+
+
 === "WooCommerce"
 
     **Scenario**
@@ -857,18 +862,6 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 
 ### Display Logic Based on Custom Score
-
-=== "Shopify (Legacy)"
-
-    **Scenario**
-
-    You're building a custom scoring or presonality-type quiz. You want to show a different text and product recommendations based on the score of a variable. For examples, if the user's score is above 50, a different section with different text and product recommendations is shown.
-
-    **Implementation**
-
-    Custom Scores or variables are not natively supported in the legacy version of the RevenueHunt app. In this version of the app displaying content based on a custom score or variable is only possible via custom JavaScript and may require help from a developer.
-
-    Check our [How to Add JavaScript](/how-to-guides/add-javascript/) guide for more information on implementing custom JavaScript into your product recommendation quiz.
 
 === "Shopify"
 
@@ -945,6 +938,19 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 
 
+
+
+=== "Shopify (Legacy)"
+
+    **Scenario**
+
+    You're building a custom scoring or presonality-type quiz. You want to show a different text and product recommendations based on the score of a variable. For examples, if the user's score is above 50, a different section with different text and product recommendations is shown.
+
+    **Implementation**
+
+    Custom Scores or variables are not natively supported in the legacy version of the RevenueHunt app. In this version of the app displaying content based on a custom score or variable is only possible via custom JavaScript and may require help from a developer.
+
+    Check our [How to Add JavaScript](/how-to-guides/add-javascript/) guide for more information on implementing custom JavaScript into your product recommendation quiz.
 
 === "WooCommerce"
 

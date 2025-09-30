@@ -5,6 +5,11 @@ icon: material/format-header-pound
 
 # How to Use Markdown Language
 
+=== "Shopify"
+
+    The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.
+
+
 === "Shopify (Legacy)"
 
     Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax. 
@@ -17,10 +22,6 @@ icon: material/format-header-pound
 
 
 
-
-=== "Shopify"
-
-    The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.
 
 === "WooCommerce"
 
@@ -73,16 +74,17 @@ icon: material/format-header-pound
 
 ## Markdown in Product Recommendation Quiz
 
+=== "Shopify"
+
+    The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.
+
+
+
 === "Shopify (Legacy)"
 
     RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
 
     ![how to use markdown languge example](/images/how_to_use_markdown_languge_example.png)
-
-=== "Shopify"
-
-    The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.
-
 
 === "WooCommerce"
 
@@ -113,6 +115,11 @@ icon: material/format-header-pound
 
 ### Headings
 
+=== "Shopify"
+
+    Not applicable.
+
+
 === "Shopify (Legacy)"
 
     Headings are essential for structuring your content, making it easier to read and navigate. In Markdown, you create headings by prefixing your text with one or more hash (`#`) symbols. The number of hashes before your text determines the level of the heading:
@@ -122,10 +129,6 @@ icon: material/format-header-pound
     ## H2
     ### H3
     ```
-
-=== "Shopify"
-
-    Not applicable.
 
 === "WooCommerce"
 
@@ -177,6 +180,11 @@ icon: material/format-header-pound
 
 ### Text Styling
 
+=== "Shopify"
+
+    Not applicable.
+
+
 === "Shopify (Legacy)"
 
 
@@ -187,10 +195,6 @@ icon: material/format-header-pound
     **bold text**
     ***italic & bold text***
     ```
-
-=== "Shopify"
-
-    Not applicable.
 
 === "WooCommerce"
 
@@ -239,6 +243,11 @@ icon: material/format-header-pound
 
 ### Links
 
+=== "Shopify"
+
+    Not applicable.
+
+
 === "Shopify (Legacy)"
 
     Adding links to your content can provide readers with additional resources. To insert a link in Markdown, you use square brackets to enclose the anchor text and parentheses to enclose the URL:
@@ -246,10 +255,6 @@ icon: material/format-header-pound
     ```markdown
     [link title](https://www.example.com)
     ```
-
-=== "Shopify"
-
-    Not applicable.
 
 === "WooCommerce"
 
@@ -293,6 +298,11 @@ icon: material/format-header-pound
 
 ### Images
 
+=== "Shopify"
+
+    Not applicable.
+
+
 === "Shopify (Legacy)"
 
 
@@ -301,10 +311,6 @@ icon: material/format-header-pound
     ```markdown
     ![alt text](https://www.example.com/path/to/image.jpg)
     ```
-
-=== "Shopify"
-
-    Not applicable.
 
 === "WooCommerce"
 
@@ -357,6 +363,11 @@ icon: material/format-header-pound
 
 ### Videos
 
+=== "Shopify"
+
+    Not applicable.
+
+
 === "Shopify (Legacy)"
 
 
@@ -375,10 +386,6 @@ icon: material/format-header-pound
     ![](https://youtu.be/zNzZ1PfUDNk){ratio="16:9"}
     ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
     ```
-
-=== "Shopify"
-
-    Not applicable.
 
 === "WooCommerce"
 

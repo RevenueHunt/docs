@@ -11,18 +11,6 @@ Within Product Recommendation Quiz it is possible to hide the product variants d
 
 ## Option 1) Recommend a specific product variant instead
 
-=== "Shopify (Legacy)"
-
-    You can recommend a specific product variant instead of the main product by changing your Results Page settings. 
-
-    ![how to hide product variants image2](/images/how_to_hide_product_variants_image2.png)
-
-    1. Open [Results Page settings](/reference/quiz-builder/results-page/) > [Advanced](/reference/quiz-builder/results-page/#advanced-settings).
-
-        ![how to hide product variants image2](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
-    2. Deactivate the `Group product variants` option. 
-    3. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
-
 === "Shopify"
 
     You can recommend a specific product variant instead of the main product by changing your Product Block settings on the Results Page.
@@ -35,6 +23,19 @@ Within Product Recommendation Quiz it is possible to hide the product variants d
     4. Save the changes.
 
     From that point on, the quiz will recommend a specific product variant instead of the main product.
+
+
+=== "Shopify (Legacy)"
+
+    You can recommend a specific product variant instead of the main product by changing your Results Page settings. 
+
+    ![how to hide product variants image2](/images/how_to_hide_product_variants_image2.png)
+
+    1. Open [Results Page settings](/reference/quiz-builder/results-page/) > [Advanced](/reference/quiz-builder/results-page/#advanced-settings).
+
+        ![how to hide product variants image2](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
+    2. Deactivate the `Group product variants` option. 
+    3. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
 
 === "WooCommerce"
 
@@ -87,6 +88,25 @@ Within Product Recommendation Quiz it is possible to hide the product variants d
 
 ## Option 2) Hide the dropdown with custom CSS code
 
+=== "Shopify"
+
+    It is also possible to recommend only the main product and simply hide the dropdown with custom CSS code. To do that:
+
+    ![how to hide product variants image3](/images/how_to_hide_product_variants_image3.png)
+
+    1. Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
+    2. Go to the `Advanced` section and find the CSS console.
+    3. Paste the following code into the CSS console:
+
+        ```html
+        .select-variants-container {
+        display: none;
+        }
+        ```
+
+    4. Remember to save the changes with the top-right `Save` button to update the preview/live quiz.
+
+
 === "Shopify (Legacy)"
 
 
@@ -109,24 +129,6 @@ Within Product Recommendation Quiz it is possible to hide the product variants d
         ```
 
     4. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
-
-=== "Shopify"
-
-    It is also possible to recommend only the main product and simply hide the dropdown with custom CSS code. To do that:
-
-    ![how to hide product variants image3](/images/how_to_hide_product_variants_image3.png)
-
-    1. Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
-    2. Go to the `Advanced` section and find the CSS console.
-    3. Paste the following code into the CSS console:
-
-        ```html
-        .select-variants-container {
-        display: none;
-        }
-        ```
-
-    4. Remember to save the changes with the top-right `Save` button to update the preview/live quiz.
 
 === "WooCommerce"
 

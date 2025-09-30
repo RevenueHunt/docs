@@ -10,26 +10,6 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
 
 ## Installing the App
 
-=== "Shopify (Legacy)"
-
-    1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
-    2. Grant permissions to connect our app to your Shopify.
-    3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt: Recommender Quiz** to open it.
-    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
-    5. Drive traffic to your quiz and start getting sales and leads!
-
-    !!! info "For Shopify legacy app users"
-    
-        You can switch to the new Built for Shopify version of the app by following these steps:
-
-        1. Open the **RevenueHunt** app in your Shopify dashboard.
-        2. From the right-hand side Shopify App menu, select `Switch to Built for Shopify`.
-        3. Confirm app access and permissions.
-        4. Follow the onboarding process to create and publish your quiz.
-        5. Follow the instructions in the [App Manual](/reference/app-settings/#switch-to-v1) to switch back to the original version of the app. When switching, all your changes will be saved on both app versions.
-
-        Please note that it is currently **not possible** to copy quizzes from the legacy app to the new Built for Shopify version of the app.
-
 === "Shopify"
 
     1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
@@ -50,6 +30,27 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
 
         Please note that it is currently **not possible** to copy quizzes from the legacy app to the new Built for Shopify version of the app.
 
+
+
+=== "Shopify (Legacy)"
+
+    1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
+    2. Grant permissions to connect our app to your Shopify.
+    3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt: Recommender Quiz** to open it.
+    4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
+    5. Drive traffic to your quiz and start getting sales and leads!
+
+    !!! info "For Shopify legacy app users"
+    
+        You can switch to the new Built for Shopify version of the app by following these steps:
+
+        1. Open the **RevenueHunt** app in your Shopify dashboard.
+        2. From the right-hand side Shopify App menu, select `Switch to Built for Shopify`.
+        3. Confirm app access and permissions.
+        4. Follow the onboarding process to create and publish your quiz.
+        5. Follow the instructions in the [App Manual](/reference/app-settings/#switch-to-v1) to switch back to the original version of the app. When switching, all your changes will be saved on both app versions.
+
+        Please note that it is currently **not possible** to copy quizzes from the legacy app to the new Built for Shopify version of the app.
 
 === "WooCommerce"
 

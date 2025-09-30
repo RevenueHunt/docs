@@ -2,24 +2,6 @@
 
 On the dashboard, you'll find all the quizzes that you create.
 
-=== "Shopify (Legacy)"
-
-    ![dashboard](/images/manual_dashboard.png)
-
-    Shopify Side Menu
-
-    ![dashboard side menu](/images/manual_sidemenu.png){width="500"}
-
-    `Plans & Pricing` - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
-
-    `App Settings` - Opens the [App Settings](/reference/app-settings/) menu.
-
-    ![dashboard top menu](/images/manual_dashboard_topmenu.png){width="400"}
-
-    `Help` - Opens the [Success Checklist](#success-checklist).
-
-    `New quiz` - Opens the [New quiz](#new-quiz) setup menu.
-
 === "Shopify"
 
     The RevenueHunt Quizzes `Dashboard` is the central hub where you can view, manage, and optimize all the quizzes in your store. Here’s a breakdown of the key elements on this screen:
@@ -41,6 +23,25 @@ On the dashboard, you'll find all the quizzes that you create.
     `Get support` - Opens the [Support](#support) menu.
 
     `Switch to legacy app` - Click to [switch to the legacy version of the app](/reference/dashboard/#switch-to-v1). All your progress will be saved when you switch versions.
+
+
+=== "Shopify (Legacy)"
+
+    ![dashboard](/images/manual_dashboard.png)
+
+    Shopify Side Menu
+
+    ![dashboard side menu](/images/manual_sidemenu.png){width="500"}
+
+    `Plans & Pricing` - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
+
+    `App Settings` - Opens the [App Settings](/reference/app-settings/) menu.
+
+    ![dashboard top menu](/images/manual_dashboard_topmenu.png){width="400"}
+
+    `Help` - Opens the [Success Checklist](#success-checklist).
+
+    `New quiz` - Opens the [New quiz](#new-quiz) setup menu.
 
 === "WooCommerce"
 
@@ -122,14 +123,6 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Notifications
 
-=== "Shopify (Legacy)"
-
-    ![dashboard notifications bar](/images/manual_notifications.png)
-
-    `view all` - Opens a list of archived notifications.
-
-    `x` - Archives a notification.
-
 === "Shopify"
 
     ![manual_shopifyV2_notifications](/images/manual_shopifyV2_notifications.png)
@@ -145,6 +138,15 @@ On the dashboard, you'll find all the quizzes that you create.
     ![manual_shopifyv2_dashboard_notifications_themeextensionstatus.png](/images/manual_shopifyv2_dashboard_notifications_themeextensionstatus.png)
 
     `Edit` - Opens the Theme Extension Status page. 
+
+
+=== "Shopify (Legacy)"
+
+    ![dashboard notifications bar](/images/manual_notifications.png)
+
+    `view all` - Opens a list of archived notifications.
+
+    `x` - Archives a notification.
 
 === "WooCommerce"
 
@@ -179,39 +181,6 @@ On the dashboard, you'll find all the quizzes that you create.
     `x` - Archives a notification.
 
 ## Quizzes
-
-=== "Shopify (Legacy)"
-
-    ![dashboard tutorial quiz](/images/manual_tutorial_quiz.png){width="300"}
-
-    `Tutorial Quiz (copy)` - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](/reference/quiz-builder/questions/).
-
-    `0 leads` - Indicates the total number of quiz responses the quiz received.
-
-    `...` - Opens quiz management options.
-
-    ![dashboard quiz menu](/images/manual_dots_menu.png){width="400"}
-
-    - `Edit` - Opens the [Quiz Builder](/reference/quiz-builder/questions/).
-    - `Connect` - Opens the [Connect tab](/reference/quiz-builder/connect-integrations/) within the Quiz Builder.
-    - `Share` - Opens the [Share tab](/reference/quiz-builder/share-publish/) within the Quiz Builder.
-    - `Metrics` - Opens the [Metrics tab](/reference/quiz-builder/metrics/) within the Quiz Builder.
-    - `Preview` - Opens the Quiz Preview.
-    - `Publish` - Publish quiz changes to the Preview/Live Quiz. (If you have not yet added the quiz to your website as a link or an embed, clicking "Publish" will simply update the preview.)
-    - `Make a copy` - Create a copy of this quiz on the dashboard.
-    - `Export Responses as CSV` - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
-    - `Version History` - Open the [Version History tab](/reference/quiz-builder/quiz-settings/#version-history) in Quiz Builder > Quiz Settings.
-    - `Copy quiz ID: xxx` - Copy the quiz ID of the current quiz.
-    - `Set as Default Quiz` - Set as a default quiz to be displayed in the Shop App.
-    - `Delete` - Delete the quiz.
-
-    ![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
-
-    `Quiz Performance Overview` - Highlights your quizzes performance during the last 30 days
-
-    `show overview` - Shows an overview of the quizzes metrics in the last 30 days.
-
-    `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
 
 === "Shopify"
 
@@ -273,6 +242,40 @@ On the dashboard, you'll find all the quizzes that you create.
     `Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) menu.
 
     `Customize` - Opens the [Quiz Builder](/reference/quiz-builder/questions/).
+
+
+=== "Shopify (Legacy)"
+
+    ![dashboard tutorial quiz](/images/manual_tutorial_quiz.png){width="300"}
+
+    `Tutorial Quiz (copy)` - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](/reference/quiz-builder/questions/).
+
+    `0 leads` - Indicates the total number of quiz responses the quiz received.
+
+    `...` - Opens quiz management options.
+
+    ![dashboard quiz menu](/images/manual_dots_menu.png){width="400"}
+
+    - `Edit` - Opens the [Quiz Builder](/reference/quiz-builder/questions/).
+    - `Connect` - Opens the [Connect tab](/reference/quiz-builder/connect-integrations/) within the Quiz Builder.
+    - `Share` - Opens the [Share tab](/reference/quiz-builder/share-publish/) within the Quiz Builder.
+    - `Metrics` - Opens the [Metrics tab](/reference/quiz-builder/metrics/) within the Quiz Builder.
+    - `Preview` - Opens the Quiz Preview.
+    - `Publish` - Publish quiz changes to the Preview/Live Quiz. (If you have not yet added the quiz to your website as a link or an embed, clicking "Publish" will simply update the preview.)
+    - `Make a copy` - Create a copy of this quiz on the dashboard.
+    - `Export Responses as CSV` - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
+    - `Version History` - Open the [Version History tab](/reference/quiz-builder/quiz-settings/#version-history) in Quiz Builder > Quiz Settings.
+    - `Copy quiz ID: xxx` - Copy the quiz ID of the current quiz.
+    - `Set as Default Quiz` - Set as a default quiz to be displayed in the Shop App.
+    - `Delete` - Delete the quiz.
+
+    ![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
+
+    `Quiz Performance Overview` - Highlights your quizzes performance during the last 30 days
+
+    `show overview` - Shows an overview of the quizzes metrics in the last 30 days.
+
+    `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
 
 === "WooCommerce" 
 
@@ -390,14 +393,6 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Tips & Tricks
 
-=== "Shopify (Legacy)"
-
-    Displays useful tips and tricks for building a better quiz.
-
-    ![dashboard tips](/images/manual_dashboard_tips.png)
-
-    `view all` - Opens archived tips.
-
 === "Shopify"
 
     ![manual_shopifyV2_tipstricks](/images/manual_shopifyV2_tipstricks.png)
@@ -405,6 +400,15 @@ On the dashboard, you'll find all the quizzes that you create.
     `x` - Archives a notification.
 
     `Read more` - Opens the tip.
+
+
+=== "Shopify (Legacy)"
+
+    Displays useful tips and tricks for building a better quiz.
+
+    ![dashboard tips](/images/manual_dashboard_tips.png)
+
+    `view all` - Opens archived tips.
 
 === "WooCommerce"
 
@@ -440,24 +444,6 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Success Checklist
 
-=== "Shopify (Legacy)"
-
-    To open the Success Checklist click on any of the ❓❗✅ 🔄 icons.
-
-    ![dashboard success checklist](/images/manual_succes_checklist.png){width="500"}
-
-    ❓ - Opens the Getting Started section of the Success Checklist.
-
-    ❗ - Opens the To Do section of the Success Checklist. The number indicates the number of tasks to be completed.
-
-    ✅ - Opens the To Do section of the Success Checklist. The number indicates the number of tasks to be completed.
-
-    🔄 - Opens the Sync section of the Success Checklist. 
-
-    ![dashbaord success checklist sync app](/images/manual_success_checklist_sync.png){width="500"}
-
-    `run manual sync` - Starts a full sync of your product catalog. The sync takes about 30 - 60 minutes to complete. If your store has more than 3,000 product variants, the sync can take longer. Please note that a full sync of your catalog is done every 24 hours.
-
 === "Shopify"
 
     ![manual_shopifyV2_successchecklist](/images/manual_shopifyV2_successchecklist.png)
@@ -488,6 +474,25 @@ On the dashboard, you'll find all the quizzes that you create.
         `Google Analytics` – Track quiz behavior for deeper insights.  
         `Meta Pixel` – Add Facebook tracking for ad optimization.
 
+
+
+=== "Shopify (Legacy)"
+
+    To open the Success Checklist click on any of the ❓❗✅ 🔄 icons.
+
+    ![dashboard success checklist](/images/manual_succes_checklist.png){width="500"}
+
+    ❓ - Opens the Getting Started section of the Success Checklist.
+
+    ❗ - Opens the To Do section of the Success Checklist. The number indicates the number of tasks to be completed.
+
+    ✅ - Opens the To Do section of the Success Checklist. The number indicates the number of tasks to be completed.
+
+    🔄 - Opens the Sync section of the Success Checklist. 
+
+    ![dashbaord success checklist sync app](/images/manual_success_checklist_sync.png){width="500"}
+
+    `run manual sync` - Starts a full sync of your product catalog. The sync takes about 30 - 60 minutes to complete. If your store has more than 3,000 product variants, the sync can take longer. Please note that a full sync of your catalog is done every 24 hours.
 
 === "WooCommerce"
 
@@ -581,24 +586,6 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## New Quiz
 
-=== "Shopify (Legacy)"
-
-    ![new quiz page](/images/manual_standalone_newquiz.png)
-
-    `start with an empty quiz` - Choose this if you want to start with an empty quiz. Once clicked, a popup will show asking you to name the quiz (the name can be changed later in Quiz Settings).
-
-    ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
-
-    `import quiz from another store` - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
-
-    `Select from one of our Quiz Templates`  - Allows you to use one of our pre-designed templates.
-
-    ![new quiz add quiz from a template](/images/manual_newquiz_template.png){width="500"}
-
-    `live preview` - Opens a live preview of the quiz templates.
-
-    `use this template` - Adds the template to your dashboard. 
-
 === "Shopify"
 
     ![manual_shopifyV2_createquiz.png](/images/manual_shopifyV2_createquiz.png)
@@ -638,6 +625,25 @@ On the dashboard, you'll find all the quizzes that you create.
         For instructions no how to export/import a quiz from one store to another in a JSON format, please check [this guide](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
 
+
+
+=== "Shopify (Legacy)"
+
+    ![new quiz page](/images/manual_standalone_newquiz.png)
+
+    `start with an empty quiz` - Choose this if you want to start with an empty quiz. Once clicked, a popup will show asking you to name the quiz (the name can be changed later in Quiz Settings).
+
+    ![new quiz empty add name](/images/manual_newquiz_addname.png){width="500"}
+
+    `import quiz from another store` - Allows you to import a quiz from another store by inserting a copy quiz code. Check [How to Copy the Quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+
+    `Select from one of our Quiz Templates`  - Allows you to use one of our pre-designed templates.
+
+    ![new quiz add quiz from a template](/images/manual_newquiz_template.png){width="500"}
+
+    `live preview` - Opens a live preview of the quiz templates.
+
+    `use this template` - Adds the template to your dashboard. 
 
 === "WooCommerce"
 
@@ -713,10 +719,6 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Support
 
-=== "Shopify (Legacy)"
-
-
-
 === "Shopify"
 
     ![manual_shopifyV2_dashboard_support](/images/manual_shopifyV2_dashboard_support.png)
@@ -742,6 +744,11 @@ On the dashboard, you'll find all the quizzes that you create.
     `Contact Support` - Submit a support request or send an email to the team.
 
 
+
+=== "Shopify (Legacy)"
+
+
+
 === "WooCommerce"
 
 
@@ -759,10 +766,6 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Switch to V1
 
-=== "Shopify (Legacy)"
-
-
-
 === "Shopify"
 
     ![manual_shopifyV2_sidemenu](/images/manual_shopifyV2_sidemenu.png)
@@ -777,6 +780,11 @@ On the dashboard, you'll find all the quizzes that you create.
     !!! warning
 
         If you have any questions or need assistance during this transition, feel free to [reach out to our support team](/how-to-guides/contact-customer-support/).
+
+
+
+=== "Shopify (Legacy)"
+
 
 
 === "WooCommerce"

@@ -5,17 +5,6 @@ icon: material/credit-card-refresh-outline
 
 ## Plans & Pricing Details
 
-=== "Shopify (Legacy)"
-
-
-    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
-    - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
-    - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
-    - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
-    - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
-
-
 === "Shopify"
 
     - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
@@ -25,6 +14,18 @@ icon: material/credit-card-refresh-outline
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
     - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
 
+
+
+
+=== "Shopify (Legacy)"
+
+
+    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
+    - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
+    - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
+    - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
 
 
 === "WooCommerce"
@@ -214,19 +215,20 @@ icon: material/credit-card-refresh-outline
 
 ## Upgrading or Downgrading Your Plan
 
-=== "Shopify (Legacy)"
-
-    If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
-
-    Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Shopify will automatically discount the proportional part of the monthly plan that hasn’t been used.
-
-
 === "Shopify"
 
 
     If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [App Settings > Plans & Pricing](/reference/plans-pricing/) page in the app.
 
     Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Shopify will automatically discount the proportional part of the monthly plan that hasn’t been used.
+
+
+=== "Shopify (Legacy)"
+
+    If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
+
+    Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Shopify will automatically discount the proportional part of the monthly plan that hasn’t been used.
+
 
 === "WooCommerce"
 
@@ -260,14 +262,15 @@ icon: material/credit-card-refresh-outline
 
 ## Billing & Invoices
 
-=== "Shopify (Legacy)"
+=== "Shopify"
+
 
     Billing is handled directly by Shopify. Charges for the app will be visible on your monthly invoice from Shopify. You can change your billing details directly in your Shopify store settings.
 
     If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
 
-=== "Shopify"
 
+=== "Shopify (Legacy)"
 
     Billing is handled directly by Shopify. Charges for the app will be visible on your monthly invoice from Shopify. You can change your billing details directly in your Shopify store settings.
 
@@ -338,13 +341,10 @@ icon: material/credit-card-refresh-outline
 ## What happens when I reach my quiz responses limit?
 
 
-=== "Shopify (Legacy)"
+=== "Shopify"
 
-    We will notify you by email and in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
 
-    !!! tip
-
-        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/app-settings/#general) in order to receive email notifications about your quiz responses limit.
+    We will notify you in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
@@ -352,10 +352,14 @@ icon: material/credit-card-refresh-outline
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
-=== "Shopify"
 
+=== "Shopify (Legacy)"
 
-    We will notify you in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
+    We will notify you by email and in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
+
+    !!! tip
+
+        Make sure to activate the `Send notifications to email` option in the [App Settings > General tab](/reference/app-settings/#general) in order to receive email notifications about your quiz responses limit.
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
@@ -479,19 +483,20 @@ In other words: if the Basic plan accepts around ~16 responses each day, the Pro
 
 ## Monthy vs Yearly plan
 
-=== "Shopify (Legacy)"
-
-    If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
-
-    Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
-
-
 === "Shopify"
     
 
     If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
 
     Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select the `Billing Period` to `Annualy`.
+
+
+
+=== "Shopify (Legacy)"
+
+    If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
+
+    Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
 
 
 === "WooCommerce"
