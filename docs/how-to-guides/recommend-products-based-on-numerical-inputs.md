@@ -7,10 +7,10 @@ icon: material/numeric
 
 Recommending products based on numerical answers (like age or room size) can be tricky if you use open-ended input fields. This guide will show you how to structure these questions in your quiz to trigger tailored recommendations using finite answer choices.
 
-=== "Shopify" 
+=== "Shopify (Legacy)" 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/6bcdb3d771c74d49adb72a56910ba07f?sid=6b9950ee-7ef5-4483-8af4-6c14f32f87c7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -29,7 +29,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
 ## Why You Need a Structured Approach
 
-=== "Shopify" 
+=== "Shopify (Legacy)" 
 
     Open-ended numerical questions like [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date) allow users to enter any value — but that flexibility comes with a cost: **you can't directly link recommendations to those answers**. To deliver accurate product suggestions, you'll need a structured approach.
 
@@ -38,7 +38,7 @@ Recommending products based on numerical answers (like age or room size) can be 
     Questions like "What's your age?", "What's your birth date?" or "How big is your room?" might seem useful, but since users can input any number, you can't associate specific product recommendations with those responses.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     Open-ended numerical questions like [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date) allow users to enter any value — but that flexibility comes with a cost: **you can't directly link recommendations to those answers**. To deliver accurate product suggestions, you'll need a structured approach.
 
@@ -81,7 +81,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
 ## Use Finite Choices Instead
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To make recommendations work, **use multiple choice or dropdown questions**. Instead of asking for a number, offer predefined numbers or ranges.
 
@@ -105,7 +105,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     This is how to make sure that the product recommendation logic works in your quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     To make recommendations work, **use multiple choice or dropdown questions**. Instead of asking for a number, offer predefined numbers or ranges.
 
@@ -264,7 +264,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
 ## Finalize the Setup
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     After generating options, you can:
 
@@ -275,7 +275,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     This helps users select a range easily while ensuring you offer relevant products.
 
-=== "Shopify V2"
+=== "Shopify"
 
     After generating options, you can:
 
@@ -332,7 +332,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
 ## Custom Calculations
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
 
@@ -340,7 +340,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
 

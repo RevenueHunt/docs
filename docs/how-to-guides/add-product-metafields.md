@@ -7,7 +7,7 @@ icon: material/focus-field-horizontal
 This article explains how to add product metafields/attributes to products on your quiz's results page.
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     !!! note
 
@@ -75,7 +75,7 @@ This article explains how to add product metafields/attributes to products on yo
     ![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35b00cdff0d845e1b53ede28a9404efa?sid=ce797520-987e-4ed5-b917-d43f346efdcd" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

@@ -2,7 +2,7 @@
 
 It's possible to know exactly which orders in your Shopify Orders tab come from the quiz.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Make sure your quiz is connected to [Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) and that you've [enabled Order Notes](https://help.shopify.com/en/manual/online-store/themes/themes-by-shopify/vintage-themes/customizing-vintage-themes/get-more-information-with-order-notes) in your Shopify Theme.
     2. To activate Shopify Orders Tagging option navigate to the `Connect` tab in the quiz and scroll down to find `Shopify Orders Tagging` tab.
@@ -28,7 +28,7 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
              
         Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](/how-to-guides/change-checkout-settings/).
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. Make sure your quiz is connected to [Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) and that you've [enabled Order Notes](https://help.shopify.com/en/manual/online-store/themes/themes-by-shopify/vintage-themes/customizing-vintage-themes/get-more-information-with-order-notes) in your Shopify Theme.
     2. Shopify Orders Tagging option will be automatically connected when you connect the quiz to Shopify Customers.
@@ -71,7 +71,7 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
 
 ## Testing the Connection
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you believe the orders tagging is not working as it should, try to following steps:
 
@@ -86,7 +86,7 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
 
     If you're still having issues, please reach out to our [support team](/how-to-guides/contact-customer-support/).
 
-=== "Shopify V2"
+=== "Shopify"
 
     If you believe the orders tagging is not working as it should, try to following steps:
 

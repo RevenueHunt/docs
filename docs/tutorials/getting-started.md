@@ -5,7 +5,7 @@ icon: material/numeric-0
 # Getting Started with Product Recommendation Quiz in RevenueHunt app
 
    
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In this tutorial, you'll see an overview of the most important features of the RevenueHunt app.
 
@@ -23,7 +23,7 @@ icon: material/numeric-0
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     In this tutorial, you'll see an overview of the most important features of the RevenueHunt app.
@@ -126,13 +126,13 @@ Before you start collecting leads and generating sales, here is a quick guide to
 
 ## [Dashboard](/reference/dashboard/)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. When you log in to the RevenueHunt app, the first thing you'll see is your [Dashboard](/reference/dashboard/).  This is where you can find all the quizzes that you create.
     2. On the right, you can see the [Success Checklist](/reference/dashboard/#success-checklist). It shows the progress you've made in building your quiz.
     3. Click on `+ add new quiz` to create a new project. You can start from scratch, or use one of our pre-designed templates to get started.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. When you log in to the RevenueHunt app, the first thing you'll see is your [Dashboard](/reference/dashboard/).  This is where you can find all the quizzes that you create.
     2. Click on [`Create New Quiz`](/reference/dashboard/#new-quiz) to create a new project. You can start from scratch, or use one of our pre-designed templates to get started.
@@ -163,7 +163,7 @@ Before you start collecting leads and generating sales, here is a quick guide to
 
 ## [Quiz Builder](/reference/quiz-builder/)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     This is where you'll create your quiz.
 
@@ -171,7 +171,7 @@ Before you start collecting leads and generating sales, here is a quick guide to
     2. Once you've added your questions, you can drag and drop to move them around.
     3. To change [question settings](/reference/quiz-builder/questions/#question-settings), click on the :material-wrench: little wrench icon. Here you can change things like making the question optional, or allowing multiple answers.
 
-=== "Shopify V2"
+=== "Shopify"
 
     This is where you'll create your quiz.
 
@@ -213,7 +213,7 @@ Before you start collecting leads and generating sales, here is a quick guide to
 
 ## [Link Products](/reference/quiz-builder/link-products/)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Once you're happy with the design, you can add products and collections to each question. 
 
@@ -227,7 +227,7 @@ Before you start collecting leads and generating sales, here is a quick guide to
 
     Here you can write insightful information for the customer, select how many products will be recommended, or even group your products into slots to recommend a whole package.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Once you're happy with the quiz design, click on open the [choice settings](/reference/quiz-builder/questions/#choice-settings) > [Upvote](/reference/quiz-builder/link-products/) to add products and collections to each question.
 
@@ -299,7 +299,7 @@ Before you start collecting leads and generating sales, here is a quick guide to
 
 ## [Quiz Design](/reference/quiz-builder/quiz-design/)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     This is where you can customize your quiz design.
 
@@ -310,7 +310,7 @@ Before you start collecting leads and generating sales, here is a quick guide to
 
     All the changes you make will be saved automatically.
 
-=== "Shopify V2"
+=== "Shopify"
 
     This is where you can customize your quiz design.
 
@@ -368,12 +368,12 @@ Before you start collecting leads and generating sales, here is a quick guide to
 
 ## Save & Preview
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     - Hit the `Publish` button in the top right-hand corner to update the preview/live quiz.
     - Click `Preview` to test the quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     - Click the `Save` button to save your changes.
     - Click `Preview` to test the quiz.
@@ -400,7 +400,7 @@ Before you start collecting leads and generating sales, here is a quick guide to
 
 ## [Share / Publish](/reference/quiz-builder/share-publish/)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Now you can publish the quiz on your website.
 
@@ -410,7 +410,7 @@ Before you start collecting leads and generating sales, here is a quick guide to
 
     The choice is yours. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     Now you can publish the quiz on your website.
 
@@ -463,14 +463,14 @@ Before you start collecting leads and generating sales, here is a quick guide to
 
 ## [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you want to do more with your RevenueHunt Product Recommendation Quiz, try integrating it with other tools.
 
     - The [`Connect`](/reference/quiz-builder/connect-integrations/) section lets you see all our integrations. 
     - To set this up, select a platform and click `connect`. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     If you want to do more with your RevenueHunt Product Recommendation Quiz, try integrating it with other tools.
 
@@ -507,7 +507,7 @@ Before you start collecting leads and generating sales, here is a quick guide to
 
 ## [Metrics / Analytics](/reference/quiz-builder/metrics/)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     The [`Metrics`](/reference/quiz-builder/metrics/) panel is where you'll be able to analyze quiz responses.
 
@@ -515,7 +515,7 @@ Before you start collecting leads and generating sales, here is a quick guide to
     - The [`responses`](/reference/quiz-builder/metrics/#responses) tab lets you dive deeper into individual respondents to see how they answered each question.
     - You can download all responses to a CSV file by clicking [here](/how-to-guides/download-quiz-responses/).
 
-=== "Shopify V2"
+=== "Shopify"
 
     The [`Metrics`](/reference/quiz-builder/metrics/) panel is where you'll be able to analyze quiz responses.
 

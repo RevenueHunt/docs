@@ -1,6 +1,6 @@
 # Link Collections / Link Categories
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder link collections](/images/manual_quizbuilder_linkcollections.png)
 
@@ -30,7 +30,7 @@
 
     **Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 
-=== "Shopify V2"
+=== "Shopify"
 
     To link collections of products to choices, go to [Questions](/reference/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
 

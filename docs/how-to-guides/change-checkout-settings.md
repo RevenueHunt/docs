@@ -8,7 +8,7 @@ Adjusting the checkout settings in RevenueHunt Product Recommendation Quiz allow
 
 Follow the instructions below to change your checkout settings:
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f2ddc47043904e48bb08cbadc6f24233?sid=2f93b324-dc00-42ff-89cf-bd759e0f3a44" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -38,7 +38,7 @@ Follow the instructions below to change your checkout settings:
 
         3. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/06af5680a59145e1838fe2bcfdcbd583?sid=4ad4cf1d-2aa4-4fec-9d5d-58d86da70932" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

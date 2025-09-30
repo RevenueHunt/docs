@@ -4,7 +4,7 @@ icon: material/numeric-3
 
 # Building a Skin Type Quiz with RevenueHunt App
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. For this reason building a personality-type quiz or a scoring quiz like this one is not possible with the off-the-shelf solution.
     
@@ -18,7 +18,7 @@ icon: material/numeric-3
         Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     In this tutorial, you’ll learn how to build a quiz that determines the user's skin type and recommends the right products with RevenueHunt App.
 

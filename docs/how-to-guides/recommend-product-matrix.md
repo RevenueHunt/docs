@@ -6,7 +6,7 @@ It describes a step-by-step process involving creating product collections, link
 
 ## Simple product matrix
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Let’s say that you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
 
@@ -18,7 +18,7 @@ It describes a step-by-step process involving creating product collections, link
     | 30’s and above  | All Natural Face Cleanser;<br>Fresh Rose Deep Hydration Toner;<br>Khadi Global Natural Hyaluronic Acid Serum;<br>Organix Facial Moisturizer                     | FIRST AID BEAUTY FACE CLEANSER;<br>Balancing Force Oil Control Toner;<br>The Ordinary “Buffet” + Copper Peptides 1%;<br>Oil-Free Moisture-Combination Skin           |
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/b19268d9b4b84bd0a04093d9e0047398?sid=f1e60add-8900-4d74-b415-9a4217e28722" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -143,7 +143,7 @@ To recommend the right product, in your eCommerce platform you should create fou
 
 ### Step 3: Build the quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can start building your quiz. 
 
@@ -159,7 +159,7 @@ To recommend the right product, in your eCommerce platform you should create fou
 
         ![how to recommend products matrix question2](/images/how_to_recommend_products_question2.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     You can start building your quiz. 
@@ -250,7 +250,7 @@ To recommend the right product, in your eCommerce platform you should create fou
 
 ### Step 4: Link collections/categories
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
 
@@ -259,7 +259,7 @@ To recommend the right product, in your eCommerce platform you should create fou
 
         ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     You should upvote the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
@@ -318,7 +318,7 @@ To recommend the right product, in your eCommerce platform you should create fou
 
 ### Step 5: Create a Products block on the Results Page
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     For the products to show on the Results Page, you need to add a `Products Block`. 
 
@@ -326,7 +326,7 @@ To recommend the right product, in your eCommerce platform you should create fou
     2. **Add a Product Block**:  Clicking the `+` to add a block type. Slect a `Product Block` from the dropdown list.
     3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     For the products to show on the Results Page, you need to add a `Products Block`. 
@@ -416,7 +416,7 @@ If you’d like to organize the products in a specific order, you can create `Pr
 
 ## Complex product matrix
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
 
@@ -455,7 +455,7 @@ If you’d like to organize the products in a specific order, you can create `Pr
         In the example above, you can create 4 different quizzes for skin types (Dry, Oily, Combination, or Normal skin), or you can create a quiz for different age groups.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
 
 

@@ -1,6 +1,6 @@
 # Conditional Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
@@ -26,7 +26,7 @@
 
     `arrow down` - Take you to the question lower.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
@@ -156,7 +156,7 @@
 
 ### Jump Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Jump Logic allows you to route customers to different questions based on their responses.
 
@@ -198,7 +198,7 @@
 
     `Always jump to:` - Select a slide or URL where the user will be always redirected after this slide.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Jump Logic allows you to route customers to different questions based on their responses, send users to different results pages or even external URLs.
 
@@ -467,7 +467,7 @@
 
 ### Skip Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
 
@@ -495,7 +495,7 @@
 
     `+ add concurrent logic` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
 

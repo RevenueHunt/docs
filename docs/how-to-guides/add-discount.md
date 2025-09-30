@@ -5,7 +5,7 @@ icon: material/sale
 # How to Add a Discount to Your Quiz
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Adding discount coupons into your quiz allows customers to enjoy special offers on the results page or through a follow-up email. 
 
@@ -13,7 +13,7 @@ icon: material/sale
 
     This guide explains how to implement Discount Coupons for Checkout with the RevenueHunt app.
 
-=== "Shopify V2"
+=== "Shopify"
 
     With the Built for Shopify version of the RevenueHunt app, it is possible to:
     
@@ -58,7 +58,7 @@ icon: material/sale
 
 ## Set Up Discount on the Results Page
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/36ed1600df294287bf24d94bc438d4c3?sid=7c53ed8e-ab4c-4276-88bd-0509cdf954b9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -145,7 +145,7 @@ icon: material/sale
         to add a custom coupon or a discount code to the results page and apply it to all the products. Note, that this coupon code needs to be first set up in your store.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/7757e70c795f469fb89e08d340128ef2?sid=097777bc-fd8d-4c5b-b077-3cc00ac0317d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -341,7 +341,7 @@ icon: material/sale
 
 ## Include Discount Codes in Follow-Up Emails
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To further personalize the customer experience, you can incorporate the discount code within the follow-up email and results page. This allows customers to conveniently copy and paste the code at checkout.
 
@@ -351,7 +351,7 @@ icon: material/sale
 
         Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
 
-=== "Shopify V2"
+=== "Shopify"
 
     To further personalize the customer experience, you can incorporate the discount code within the follow-up email sent to the customer with quiz results. This allows customers to conveniently copy and paste the code at checkout.
 
@@ -403,7 +403,7 @@ icon: material/sale
 
 ## Apply Discount Only if Customer Leaves Their Email
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
 
@@ -441,7 +441,7 @@ icon: material/sale
         ![how to add discount jump logic 2](/images/how_to_add_discount_jump_logic_2.png)
     8. **Test the quiz**: Once the discounts are set up, update the preview/live quiz with the `Publish` button. Then, test the quiz by clicking the `Preview` button in the top right corner of the app.
 
-=== "Shopify V2"
+=== "Shopify"
 
     It is not currently possible to add discount coupons into your quiz built with the new version of the RevenueHunt app for Shopify. 
     

@@ -11,7 +11,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     
     **Step 1: Verify Direct Quiz Link Performance**
@@ -75,7 +75,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     **Step 1: Verify Direct Quiz Link Performance**
 

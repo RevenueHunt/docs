@@ -1,12 +1,12 @@
 # Quiz Builder - Questions
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder quiz builder section](/images/manual_quizbuilder_quizbuilder.png)
 
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click `Preview` in the top menu.
 
-=== "Shopify V2"
+=== "Shopify"
 
     **Questions**
     
@@ -48,7 +48,7 @@
 
 ## Question Types
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     `+`/ `Add new question` - Opens a menu of quiz questions to add.
 
@@ -86,7 +86,7 @@
 
     `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
-=== "Shopify V2"
+=== "Shopify"
 
     `+ Add question` - Opens a menu of quiz questions to add. To remove a question, click on the question and go to [Question settings](/reference/quiz-builder/questions/#question-settings).
 
@@ -284,7 +284,7 @@
 
 ## Question Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
 
@@ -335,7 +335,7 @@
     - *Duplicate* - Duplicate this slide. Creates a copy slide below.
     - *Delete* - Delete this slide.     
 
-=== "Shopify V2"
+=== "Shopify"
 
     Click on the question to open the question settings menu. It opens on the right side of the screen.
 
@@ -670,9 +670,9 @@
 
 ## Block Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
-=== "Shopify V2"
+=== "Shopify"
 
     `+ Add block` - Adds an extra [building block](/reference/quiz-builder/questions/#block-settings) to the quiz question. To remove a block, click on the 🗑 bin icon.
     
@@ -1116,9 +1116,9 @@
 
 ## Choice Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 

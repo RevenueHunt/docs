@@ -25,7 +25,7 @@ Our product recommendation algorithm works like a voting system:
 ### Inclusion
 Products or collections added in the `include/upvotes` field of the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab are upvoted in the final recommendations.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
 
@@ -38,7 +38,7 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives a vote when their linked choice is selected.
     - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](/reference/quiz-builder/quiz-settings/) needs to be active for this option to appear in the Link Products section.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![how to recommend products upvote](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
@@ -111,11 +111,11 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
 
 Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/quiz-builder/link-products/) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![how to recommend products exclusion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
@@ -153,7 +153,7 @@ At the end of the quiz, the results page displays the product variants with the 
 
 ![how_to_shopify_v2_recommendations_funnel](/images/how_to_shopify_v2_recommendations_funnel.png){width=500} 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **[Recharge subscription products](/how-to-guides/recommend-subscription-products/)**. 
 
@@ -196,7 +196,7 @@ At the end of the quiz, the results page displays the product variants with the 
 
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
 
-=== "Shopify V2" 
+=== "Shopify" 
 
     <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/f249d672fe414dc390715b210a94a75a?sid=0a795570-01c5-4777-b6b1-62b0a0da3387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -474,7 +474,7 @@ The voting system counts product "votes" based on customer quiz choices and then
 ![how_to_shopify_v2_recommendations_funnel_with_slots](/images/how_to_shopify_v2_recommendations_funnel_with_slots.png){width=500}
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -543,7 +543,7 @@ The voting system counts product "votes" based on customer quiz choices and then
     3. Use the quiz's [built-in search bar](/how-to-guides/troubleshoot-product-results/) in `Metrics > Responses` to troubleshoot recommendations
     4. Test responses as admin are automatically removed after 1 hour
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/f249d672fe414dc390715b210a94a75a?sid=0a795570-01c5-4777-b6b1-62b0a0da3387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -885,7 +885,7 @@ Show different follow-up questions based on customer choices in a multiple-choic
 
 ![how_to_hide_content_with_logic_shopifyv2_skip_logic_flow](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     RevenueHunt Product Recommendation Quiz can use skip logic to show different follow-up questions based on customer choices. The quiz can skip irrelevant questions based on user selections, improving engagement and relevance.
 
@@ -925,7 +925,7 @@ Show different follow-up questions based on customer choices in a multiple-choic
     By using skip logic, your quiz will only show relevant questions based on customer choices, creating a more personalized experience and more accurate product recommendations.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/706166edd208443f8982525d62455f46?sid=555e7d4e-fbb9-4650-bb79-1b9e3887f85b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -1143,7 +1143,7 @@ Branch your quiz to show different follow-up questions based on customer choices
 
 ![how_to_shopify_v2_recommendations_jumplogic](/images/how_to_shopify_v2_recommendations_jumplogic.png){width=500}
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Follow these steps to set up a branching funnel quiz in Shopify:
 
@@ -1197,7 +1197,7 @@ Branch your quiz to show different follow-up questions based on customer choices
         - Check product recommendations
     3. Use the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/) to verify logic
 
-=== "Shopify V2"
+=== "Shopify"
 
     Follow these steps to set up a branching funnel quiz in Shopify V2:
 
@@ -1476,7 +1476,7 @@ Show or hide different text blocks on the results page based on customer choices
 
 ![how_to_shopify_v2_recommendations_funnel_displaylogic](/images/how_to_shopify_v2_recommendations_funnel_displaylogic.png){width=500}
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Follow these steps to set up a funnel quiz with custom text blocks in Shopify:
 
@@ -1519,7 +1519,7 @@ Show or hide different text blocks on the results page based on customer choices
     2. Test thoroughly! Try different answer combinations. Verify correct content blocks appear.
     3. Use the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/) to verify logic and check product recommendations.
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! warning "Not recommended for personality-type quizzes"
 

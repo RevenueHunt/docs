@@ -26,7 +26,7 @@ There are two ways to create an external link to your quiz for social media:
     An inline quiz on a dedicated landing page is a quiz widget embedded directly into a new page in your store. Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/Zy1ZFpdtLiQ?si=15XisaE-Y-9-6JTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -36,7 +36,7 @@ There are two ways to create an external link to your quiz for social media:
     2. **Insert Quiz into Page**: Navigate to `Online Store > Pages` and select the page to embed the quiz. Click `Show HTML` and paste the embed code into the code editor.
     3. **Single Quiz Per Page**: To avoid issues, embed only one quiz per page. If using a non-Shopify version of the quiz, ensure the `embed.js` code is added to your site's header.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d560a4cb8a9a42f89eec7cf8a9e94ca4?sid=8199a06a-4aab-41cf-ac6a-b5f8bdffedbe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -139,7 +139,7 @@ There are two ways to create an external link to your quiz for social media:
 !!! info "What's a Link Popup?"
     It's a direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup on your website.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/PkWI1OnP6gg?si=eTHrvNekv3WhUKOr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -152,7 +152,7 @@ There are two ways to create an external link to your quiz for social media:
     4. **Share on Social Media**: Copy the generated link. Paste this link into your social media posts on Twitter, Instagram, Facebook, or any other platform you wish to use.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/2687bd6629c64e67b5d257d33683531d?sid=9aad21fe-47b0-4ec3-a231-4941e26768f7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -233,7 +233,7 @@ There are two ways to create an external link to your quiz for social media:
 
 ### Open a Specific Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To open a specific quiz, just **add the Quiz ID to the link** like this `#quiz-QUIZID`. 
     
@@ -246,7 +246,7 @@ There are two ways to create an external link to your quiz for social media:
         Keep in mind that the Quiz ID is case-sensitive.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     By default when you use `#quiz` as the link, the default quiz for your store will open. 
     
@@ -318,7 +318,7 @@ There are two ways to create an external link to your quiz for social media:
 
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
 
@@ -327,7 +327,7 @@ There are two ways to create an external link to your quiz for social media:
     3. Check the Quiz Link. Ensure that the link you've created is correctly formatted and it follows the format `#quiz-QUIZID`. Where the Quiz ID is the ID you've copied from the Quiz Settings. *Note: the Quiz ID is case-sensitive.*
     4. Save your changes and refresh the page.
     
-=== "Shopify V2"
+=== "Shopify"
 
     If you see the error message "The quiz you are looking for does not exist" when trying to link to a quiz, follow these steps:
 

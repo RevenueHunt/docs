@@ -1,6 +1,6 @@
 # Quiz Builder
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder](/images/manual_quizbuilder.png)
 
@@ -66,7 +66,7 @@
 
     `Quiz Settings` - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder](/images/manual_shopifyV2_quizbuilder.png)
 
@@ -324,13 +324,13 @@
 
 ## Quiz Builder - Questions
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder quiz builder section](/images/manual_quizbuilder_quizbuilder.png)
 
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Preview** in the top menu.
 
-=== "Shopify V2"
+=== "Shopify"
 
     **Questions**
     
@@ -374,7 +374,7 @@
 
 ### Question Types
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **+** / **Add new question** - Opens a menu of quiz questions to add.
 
@@ -412,7 +412,7 @@
 
     **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
-=== "Shopify V2"
+=== "Shopify"
 
     **+ Add question** - Opens a menu of quiz questions to add.
 
@@ -612,7 +612,7 @@
 
 ### Question Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
 
@@ -670,7 +670,7 @@
     - **Duplicate** - Duplicate this slide. Creates a copy slide below.
     - **Delete** - Delete this slide. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
 
@@ -945,9 +945,9 @@
 
 ### Block Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
-=== "Shopify V2"
+=== "Shopify"
 
     Each buliding block of your question has individual block settings. 
 
@@ -1151,9 +1151,9 @@
 
 ### Choice Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
@@ -1195,7 +1195,7 @@
 
 ## Link Collections / Link Categories
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder link collections](/images/manual_quizbuilder_linkcollections.png)
 
@@ -1225,7 +1225,7 @@
 
     **Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! note
 
@@ -1385,7 +1385,7 @@
 
 ## Link Products
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder link products](/images/manual_quizbuilder_linkproducts.png)
 
@@ -1413,7 +1413,7 @@
 
     **Missing products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
-=== "Shopify V2"
+=== "Shopify"
 
     You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
 
@@ -1497,7 +1497,7 @@
 
 ## Customer Tags
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
 
@@ -1513,7 +1513,7 @@
 
     You can create as many tags as you like. You can link as many tags as you like to the same choice.
 
-=== "Shopify V2"
+=== "Shopify"
 
     You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
 
@@ -1597,7 +1597,7 @@
 
 ## Conditional Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
@@ -1623,7 +1623,7 @@
 
     **arrow down** - Take you to the question lower.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
@@ -1751,7 +1751,7 @@
 
 ### Jump Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Jump Logic allows you to route customers to different questions based on their responses.
 
@@ -1793,7 +1793,7 @@
 
     **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Jump Logic allows you to route customers to different questions based on their responses.
 
@@ -2010,7 +2010,7 @@
 
 ### Skip Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
 
@@ -2038,7 +2038,7 @@
 
     **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
 
@@ -2182,7 +2182,7 @@
 
 ## Quiz Design
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
 
@@ -2202,7 +2202,7 @@
 
     **Results** - Shows the preview of how the results page looks like.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
@@ -2300,7 +2300,7 @@
 
 ### Edit Theme
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
 
@@ -2324,7 +2324,7 @@
 
     **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
-=== "Shopify V2"
+=== "Shopify"
 
     **Basic**  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
 
@@ -2462,7 +2462,7 @@
 
 ### My Themes
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
 
@@ -2480,7 +2480,7 @@
 
     - **Delete** - Deletes the selected theme from MY THEMES gallery.
 
-=== "Shopify V2"
+=== "Shopify"
 
 === "WooCommerce"
 
@@ -2556,13 +2556,13 @@
 
 ## Results Page
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
 
     In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
@@ -2620,7 +2620,7 @@
 
 ### Block Types
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **+** / **add block** - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
 
@@ -2640,7 +2640,7 @@
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     **+ Add block** - Adds a new block to this section.
 
@@ -2744,7 +2744,7 @@
 
 ### Display Logic / Section Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
 
@@ -2783,7 +2783,7 @@
 
     - **bin** / **delete block** - Deletes the current block from the results page.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
@@ -2974,7 +2974,7 @@
 
 ### Block Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     🔧 / **wrench icon** - Opens the block settings menu.
 
@@ -3010,7 +3010,7 @@
 
     **Slot ID** - Displays the current slot ID.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Each buliding block of your results page section has individual block settings.
 
@@ -3276,13 +3276,13 @@
 
 ### Results Page Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ⚙️ / **gear icon** - Opens the results page settings.
 
     ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
@@ -3328,7 +3328,7 @@
 
 **Checkout Settings**
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder results page results page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
 
@@ -3340,7 +3340,7 @@
 
     - **Link to product** - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
-=== "Shopify V2"
+=== "Shopify"
 
     **Checkout bar** - Seelct the settings of the checkout bar.
 
@@ -3392,7 +3392,7 @@
 
 **Individual Product Settings**
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder results page results page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
 
@@ -3451,7 +3451,7 @@
 
     - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-=== "Shopify V2"
+=== "Shopify"
 
 === "WooCommerce"
 
@@ -3640,7 +3640,7 @@
 
 ### Advanced Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder results page results page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
 
@@ -3668,7 +3668,7 @@
 
     **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
-=== "Shopify V2"
+=== "Shopify"
 
 === "WooCommerce"
 
@@ -3784,7 +3784,7 @@
 
 ### Multiple Results Pages Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
@@ -3802,7 +3802,7 @@
 
     **Create new Results Page** - add a new results page to your quiz. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
 
@@ -3886,7 +3886,7 @@
 
 ### Discounts Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
@@ -3924,7 +3924,7 @@
 
     **deactivate** - Deactivates dynamic discounts.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Coming Soon
 
@@ -4120,11 +4120,11 @@
 
 ## Notifications
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
@@ -4146,7 +4146,7 @@
 
 ### To Respondent
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
@@ -4178,7 +4178,7 @@
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_notification_torespondent](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
 
@@ -4320,7 +4320,7 @@
 
 ### To Self
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
 
@@ -4330,7 +4330,7 @@
 
     ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_notification_toself](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
 
@@ -4384,13 +4384,13 @@
 
 ## Quiz Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
     In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
@@ -4422,7 +4422,7 @@
 
 ### General
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png){width="500"}
 
@@ -4450,7 +4450,7 @@
 
     **Quiz ID** - Displays the current quiz ID.
 
-=== "Shopify V2"
+=== "Shopify"
 
     **Advanced quiz settings**
 
@@ -4558,7 +4558,7 @@
 
 ### Messages / Quiz Content
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
 
@@ -4652,7 +4652,7 @@
 
     **Restore default messages** - Click "restore" to set all fields back to default.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
 
@@ -5079,7 +5079,7 @@
 
 ### Version History
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
 
@@ -5093,7 +5093,7 @@
 
     - **Rename this version** - Allows you to rename this saved version of the quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizsettings_versionhistory](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
 
@@ -5165,7 +5165,7 @@
 
 ## Connect / Integrations
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder connect](/images/manual_quizbuilder_connect.png)
 
@@ -5173,7 +5173,7 @@
 
     To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_integrations](/images/manual_shopifyV2_quizbuilder_integrations.png)
 
@@ -5215,7 +5215,7 @@
 
 ## Share / Publish
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder share](/images/manual_quizbuilder_share.png)
 
@@ -5223,7 +5223,7 @@
 
     For step-by-step instructions check [How to Publish the Quiz](https://docs.revenuehunt.com/how-to-guides/publish-quiz/) guide.
 
-=== "Shopify V2" 
+=== "Shopify" 
 
     To add the quiz to your store, you have to create your quiz first. Then, in Shopify go to `Online Store > Theme` and click ` Customize`.
 
@@ -5265,7 +5265,7 @@
 
 ### Link
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     A link that will open the quiz as a popup over your page.
 
@@ -5277,7 +5277,7 @@
 
     - **Popup height** - Adjust the width of the quiz by typing the percentage number.
 
-=== "Shopify V2" 
+=== "Shopify" 
 
         A link that will open the quiz as a popup over your page.
 
@@ -5335,7 +5335,7 @@
 
 ### Inline
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Quiz embedded inline with a page.
 
@@ -5353,7 +5353,7 @@
 
     - **Fixed height** - Will set a fixed height of the quiz iframe as specified in the **Height** field above. Toggle to activate. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     Quiz embedded inline with a page.
 
@@ -5443,7 +5443,7 @@
 
 ### Automatic
 
-=== "Shopify" 
+=== "Shopify (Legacy)" 
 
     A quiz popup appears after X seconds.
 
@@ -5465,7 +5465,7 @@
 
     - **Exit intent** - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
-=== "Shopify V2"
+=== "Shopify"
 
 === "WooCommerce" 
 
@@ -5557,7 +5557,7 @@
 
 ### External
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Direct link to the quiz for social media.
 
@@ -5569,7 +5569,7 @@
 
     - **Popup height** - Adjust the width of the quiz by typing the percentage number.
 
-=== "Shopify V2"
+=== "Shopify"
 
 === "WooCommerce"
 
@@ -5621,7 +5621,7 @@
 
 ### Email
 
-=== "Shopify" 
+=== "Shopify (Legacy)" 
 
     Quiz popup when someone clicks on this email link. 
 
@@ -5633,7 +5633,7 @@
 
     - **Popup height** - Adjust the width of the quiz by typing the percentage number.
 
-=== "Shopify V2"
+=== "Shopify"
 
 === "WooCommerce" 
 
@@ -5685,7 +5685,7 @@
 
 ### Chat
 
-=== "Shopify" 
+=== "Shopify (Legacy)" 
 
     Quiz popup when visitors click on a chat-like button.
 
@@ -5713,7 +5713,7 @@
 
     - **Greeting message** - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
-=== "Shopify V2"
+=== "Shopify"
 
 === "WooCommerce" 
 
@@ -5829,11 +5829,11 @@
 
 ## Metrics
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
-=== "Shopify V2"
+=== "Shopify"
 
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
@@ -5855,7 +5855,7 @@
 
 ### Responses
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
 
@@ -5907,7 +5907,7 @@
 
     **resend notifications** - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
 
@@ -6171,7 +6171,7 @@
 
 ### Analytics
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder metrics analytics](/images/manual_quizbuilder_metrics_analytics.png)
 
@@ -6217,7 +6217,7 @@
 
     **Avg. Order Value** - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
 
@@ -6425,7 +6425,7 @@
 
 ### Drop-off
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
 
@@ -6443,7 +6443,7 @@
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     Coming Soon
 

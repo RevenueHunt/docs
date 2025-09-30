@@ -8,7 +8,7 @@ This guide explains how to change the currency of your quiz and how to handle mu
 
 ## Change the quiz currency
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To change the quiz currency:
 
@@ -24,7 +24,7 @@ This guide explains how to change the currency of your quiz and how to handle mu
 
         If you're missing a currency from the list, please [contact support](/how-to-guides/contact-customer-support/).
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d460aea970c04b9ea6388b37329eccea?sid=d2137eb0-344a-4930-a905-2d9388743629" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -116,7 +116,7 @@ This guide explains how to change the currency of your quiz and how to handle mu
 
 ## Multi-currency quizzes
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     At the moment the RevenueHunt app doesn’t support multi-currency stores. We’re pulling your store’s **base currency**. Our app takes into account the original prices set up in your store. If your base currency is in USD dollars, then the US dollar prices will be the only ones synced with the app.
 
@@ -133,7 +133,7 @@ This guide explains how to change the currency of your quiz and how to handle mu
 
     Now, the product price will not be shown and the customer will be redirected to the product page from the results page.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d460aea970c04b9ea6388b37329eccea?sid=d2137eb0-344a-4930-a905-2d9388743629" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

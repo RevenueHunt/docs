@@ -4,13 +4,13 @@ icon: material/sync
 
 # How to Run a Catalog Sync
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you're missing products or collections from the list in the [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab, you can run a product sync from the app's dashboard.
 
     This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     If you're missing products or collections in the loaded list within the new Built for Shopify version of the RevenueHunt app, you can run a catalog import from the app's dashboard.
@@ -47,7 +47,7 @@ icon: material/sync
 
 ## Sync Your Products with the App
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/i-CHRHuRcAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -56,7 +56,7 @@ icon: material/sync
     1. **Navigate to Dashboard:** Log in to your [Dashboard](/reference/dashboard/) and locate the [Success Checklist](/reference/dashboard/#success-checklist).
     2. **Initiate Manual Sync:** Under the `SYNC PRODUCTS FROM YOUR STORE` section, click the `run manual sync` button. The sync takes about 30-60 minutes to complete depending on the size of your catalog.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/804b7fa1515f4c55b9099322c519a1f9?sid=dadcfd7a-8a2a-4af6-a0bf-6057c27ad996" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -103,7 +103,7 @@ icon: material/sync
 
 ## Sync Details
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     !!! info "Important"
         Our app automatically syncs your store's catalog every 24 hours and whenever changes are made in your store's catalog. This includes updates to products, collections, tags, variants, and vendors.
@@ -113,7 +113,7 @@ icon: material/sync
     - You can manually sync your store **every 1 hour**. Additionally, our app automatically performs a sync every 24 hours to keep your catalog current.
     - For optimal results, make any necessary updates or changes to your store before triggering a manual sync. This ensures your latest product information is accurately reflected in the app.
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! info "Important"
         Our app automatically syncs your store's catalog every 24 hours and whenever changes are made in your store's catalog. This includes updates to products, collections, tags, variants, and vendors.
@@ -167,12 +167,12 @@ icon: material/sync
 
 ## Troubleshooting Sync Issues
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     - **Check Sync Status:** If your products or collections aren't showing up as expected, or if the product counts remain at zero, it's possible the initial sync is still in progress or has encountered an issue.
     - **Contact Support:** Should issues persist beyond the expected sync time, please [contact our support team](/how-to-guides/contact-customer-support/). We can manually initiate a complete sync of your shop to ensure everything is up-to-date.
 
-=== "Shopify V2"
+=== "Shopify"
 
     - **Verify Product Status:** If products aren't appearing, check that they are set to "Active" status in your Shopify store.
     - **Force a Manual Sync:** If real-time updates aren't reflecting, try using the `Import catalogue` button in [App Settings > Catalogue](/reference/app-settings/#catalogue) to force a complete sync.
@@ -200,13 +200,13 @@ icon: material/sync
 
 ## Selectively Sync Product Collections/Categories
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your quiz recommendations. Fortunately,RevenueHunt app offers a targeted solution: the `collections-first` feature. 
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/sync-selected-collections/)
 
-=== "Shopify V2"
+=== "Shopify"
 
     The feature is not needed. App syncs only the products you chose to use in the quiz.
 

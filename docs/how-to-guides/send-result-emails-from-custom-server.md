@@ -14,7 +14,7 @@ SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails acros
 
 ## Setting Up SMTP Server Connection
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4887d06413b84d0098f2c08c49f8ead9?sid=6eac3370-9976-4ea2-81c3-85a0691669a5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -49,7 +49,7 @@ SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails acros
     
         If there are errors, please check the [troubleshooting guidelines](#troubleshooting-common-smtp-connection-issues).
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/i5eUNaSdET4?si=0WMwUXM-CTzcqHkU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

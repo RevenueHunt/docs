@@ -28,7 +28,7 @@ Result emails can be sent directly from the RevenueHunt app to the email provide
 
 Follow the step by step instructions below to active and edit the result emails sent with the app:
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -58,7 +58,7 @@ Follow the step by step instructions below to active and edit the result emails 
     6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/3AWbHe1aTac?si=vBYdeOUlrVtb5m6H" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -246,7 +246,7 @@ You can receive an email notification every time someone completes the quiz or p
 
     Starting on <b>November 29th, 2024</b>, we kindly ask you to [configure your SMTP settings](/how-to-guides/send-result-emails-from-custom-server/) to continue receiving notification emails through the app. Notification emails will now be sent from your email address ensuring deliverabilty.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -268,7 +268,7 @@ You can receive an email notification every time someone completes the quiz or p
     3. Add your email address in the `Send email notification to` field.
     4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XdPgnR8W4fg?si=TivtkA2wCiHaFQYg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -392,7 +392,7 @@ You can receive an email notification every time someone completes the quiz or p
 
 ## Editing Email Templates
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **Using Metadata**
 
@@ -527,7 +527,7 @@ You can receive an email notification every time someone completes the quiz or p
         ```
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     **Using Metadata**
 

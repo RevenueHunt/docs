@@ -45,7 +45,7 @@ After making these changes, test the form on a mobile device to ensure it remain
 
 ## Platform-Specific Instructions
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Log in to your Shopify admin panel.
     2. Go to **Online Store** > **Themes**.

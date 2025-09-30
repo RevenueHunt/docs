@@ -8,13 +8,13 @@ In this article, you’ll discover how to use `IF-THEN` conditional logic to hid
 
 Using a skincare routine quiz as an example, we'll show how custom text and result can be displayed based on the customer’s skin type.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/mYejhkIPYTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/s71v8NfNRWk?si=c-8mefpQoHOvppvX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -48,7 +48,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
 ## Jump Logic: How to Show Custom Text in the Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -78,7 +78,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=hcgIntH-XecaQxua" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -241,7 +241,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
 ## Display Logic: How to Show Custom Text on the Results Page
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -271,7 +271,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=h7Ortp7mpm1wzTHu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -506,7 +506,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
 ## Skip Logic: How to Show Custom Text in the Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -533,7 +533,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=iMGaCLXqTpr8yS0B" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

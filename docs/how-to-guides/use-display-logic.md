@@ -10,11 +10,11 @@
 
 In this article, we provide a clear, step-by-step guide on how to use Display Logic, its workings, and examples to illustrate its functionality.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=-3_Sv297f8B4-KPi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=3YY9lVuHYozbUYVq" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -42,7 +42,7 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
 
 In the [Results Page](/reference/quiz-builder/results-page/) section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ??? question "What content be added to the Results Page?"
 
@@ -55,7 +55,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
         - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
         - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ??? question "What content be added to the Results Page?"
 
@@ -127,7 +127,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 ## Add Display Logic to Block / Section
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     With Display Logic you can make blocks visible or hidden based on customer's responses.
 
@@ -165,7 +165,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     4. **Preview and Adjust**: Publish the changes with the top-right Publish button to update the preview/live quiz and test the setup.
 
-=== "Shopify V2"
+=== "Shopify"
 
     With Display Logic you can make sections visible or hidden based on customer's responses.
 
@@ -417,11 +417,11 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 ## How to Add Scores or Variables to Choices
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
-=== "Shopify V2" 
+=== "Shopify" 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=EoRzoYJ04e48VsJu&amp;start=96" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -479,7 +479,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 ### Display Logic Based on Customer Answers
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -517,7 +517,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=w8QWpvi3Ga5dbtxl&amp;start=11" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -724,7 +724,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 ### Diplsay Logic Based on Winning Variable
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **Scenario**
 
@@ -737,7 +737,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     Check our [How to Add JavaScript](/how-to-guides/add-javascript/) guide for more information on implementing custom JavaScript into your product recommendation quiz.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=G0PM__FcEyQJDtBp&amp;start=189" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -858,7 +858,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 ### Display Logic Based on Custom Score
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **Scenario**
 
@@ -870,7 +870,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     Check our [How to Add JavaScript](/how-to-guides/add-javascript/) guide for more information on implementing custom JavaScript into your product recommendation quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=JG9rNnYpv1aqcdvO&amp;start=269" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

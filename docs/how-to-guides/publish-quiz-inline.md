@@ -10,7 +10,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
 
     Make sure you have an existing quiz created with the RevenueHunt app and access to your store's theme customization options.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In short, to embed an inline quiz on your store, you need to:
 
@@ -18,7 +18,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
 
     - Add a section to the homepage or a specific page template and select the `Inline Quiz` by RevenueHunt from the list.
 
-=== "Shopify V2"
+=== "Shopify"
 
     In short, to embed an inline quiz on your store, you need to:
 
@@ -70,7 +70,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
 
     An inline quiz on the homepage is a quiz embedded directly into the homepage. Place the quiz on your homepage to start collecting leads from first-time visitors.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **Option 1: Through Shopify Theme**
 
@@ -87,7 +87,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
     2. **Add Custom HTML Section**: In the Shopify theme customizer, click `Add section` then select `Custom content`. Remove default content and add a `Custom HTML` section.
     3. **Embed the Quiz**: Paste the copied HTML code into the `HTML` input of the Custom HTML section and save.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/OCX0EgfERpc?si=w4RwuW79QYodjRWz" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -191,7 +191,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
     An inline quiz on a dedicated landing page is a quiz widget embedded directly into a new page in your store. Create a dedicated landing page for the quiz to drive traffic from paid ads or marketing campaigns.
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/Zy1ZFpdtLiQ?si=15XisaE-Y-9-6JTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -201,7 +201,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
     2. **Insert Quiz into Page**: Navigate to `Online Store > Pages` and select the page to embed the quiz. Click `Show HTML` and paste the embed code into the code editor.
     3. **Single Quiz Per Page**: To avoid issues, embed only one quiz per page. If using a non-Shopify version of the quiz, ensure the `embed.js` code is added to your site's header.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/d6Q9K0AHyHo?si=f06WCz5pWXLR1eQ-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -303,7 +303,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
 
     An inline quiz on a specific collection/category is a quiz widget embedded directly into a specific collection/category page in your store.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **Option 1: In Collection Description**
 
@@ -315,7 +315,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
     1. **Obtain Inline Embed Code**: From the quiz builder, click `Share`, select `Inline` mode, and `Show Instructions for Legacy Themes` to copy the HTML embed code.
     2. **Create Custom Collection Theme**: Have a developer create a new theme template incorporating the quiz code, then apply this template to the desired collection page.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. To add a inline quiz to a specific collection page, in Shopify, go to `Online Theme > Customize`. From the `Home page` menu on top, go to `Collections > Create template` and create a new collection template.
     2. In the collection template editor, click on `+ Add section`, click the `Apps`. From the list, pick the `Inline Quiz`.
@@ -386,7 +386,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
 
 ### Embed a Specific Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To embed a specific quiz, just **add the **Quiz ID** to the `Inline Quiz (Legacy)` settings and save the changes.
 
@@ -400,7 +400,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
         Keep in mind that the Quiz ID is case-sensitive.
 
     
-=== "Shopify V2"
+=== "Shopify"
 
     By default when you embed the inline quiz, the default quiz for your store will show. 
     
@@ -445,7 +445,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
 
 To prevent the quiz from adjusting size based on content, manually set a fixed width and height in the quiz settings or embed code.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **Option 1: Through Shopify Theme**
 
@@ -461,7 +461,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
     3. **Get new code**: Click `Get code` and copy the new HTML embed code.
     4. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embedding-an-inline-quiz-on-the-homepage), [New Page](#embedding-an-inline-quiz-on-a-new-page) or [Collection/Category Page](#embedding-an-inline-quiz-on-a-specific-collectioncategory-page).
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
     2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz` from RevenueHunt. Select it to add to your homepage.
@@ -513,7 +513,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 
 ### Preventing Autoscroll in Inline Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **Option 1: Through Shopify Theme**
 
@@ -532,7 +532,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
         ```
     4. **Embed the Quiz**: Paste the adjusted HTML code wherever you like on your website.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
     2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz` from RevenueHunt. Select it to add to your homepage.
@@ -599,7 +599,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you see the error message "The quiz you are looking for does not exist" when trying to embed a quiz, follow these steps:
 
@@ -609,7 +609,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
         ![how_to_publish_shipifyV2_V1publisherrorinlinev1](/images/how_to_publish_shipifyV2_V1publisherrorinlinev1.png)
     4. Save your changes and refresh the page.
     
-=== "Shopify V2"
+=== "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.

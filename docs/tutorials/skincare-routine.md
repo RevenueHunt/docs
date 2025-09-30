@@ -5,7 +5,7 @@ icon: material/numeric-2
 # Recommending a Skincare Routine with RevenueHunt app
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) products to your customers organized into near categories.
 
@@ -25,7 +25,7 @@ icon: material/numeric-2
     <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     In this tutorial, you’ll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) products to your customers organized into near categories.
@@ -133,7 +133,7 @@ icon: material/numeric-2
 
 ## Intro 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
 
@@ -145,7 +145,7 @@ icon: material/numeric-2
     Let’s get started.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
 
@@ -221,7 +221,7 @@ icon: material/numeric-2
 
 ## Create Collections/Categories
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. In the [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) shop, there are four types of skincare products: cleansers, toners, serums, and moisturizers. 
     2. For the slots to work correctly, you’ll have to **create four collections** and include all the corresponding products in them. For example:
@@ -235,7 +235,7 @@ icon: material/numeric-2
     7. You can create the toners, serums and moisturizer collections the same way.
     8. You can have more than one collection that includes some of the same products. An *anti-aging* or *oily skin* collection can be composed of several cleansers, serums or moisturizers.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. For the quiz to work as a funnel and filter products based on the age and skin type, you need to create collections for each age group and skin type and product type.
 
@@ -384,7 +384,7 @@ icon: material/numeric-2
 
 ## Sync
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Once you’ve made changes to your products and collections, you should [sync them](/how-to-guides/sync-catalog/) with the app. 
 
@@ -396,7 +396,7 @@ icon: material/numeric-2
         Your store is also fully synced every 24 hours.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     Once you’ve made changes to your products and collections in Shopify, the RevenueHunt app will automatically detect the changes and sync them with the app.
@@ -456,7 +456,7 @@ icon: material/numeric-2
 
 ## Build the Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Now you can build your quiz. 
 
@@ -473,7 +473,7 @@ icon: material/numeric-2
         - Finish the quiz with an `email question`. Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     Now you can build your quiz. 
 
@@ -565,12 +565,12 @@ icon: material/numeric-2
 
 ## Quiz Design
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
     2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     1. In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
@@ -604,7 +604,7 @@ icon: material/numeric-2
 
 ## Upvote Collections/Categories
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Once your quiz is built and styled, you should add products and collections to individual choices.
 
@@ -624,7 +624,7 @@ icon: material/numeric-2
         - At the end, the results page will show slots with products sorted by the number of votes.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     Once your quiz is built and styled, you should add products or collections to individual choices.
@@ -743,7 +743,7 @@ icon: material/numeric-2
 
 ## Exclude Products
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Remember the sensitivity question asked at the end of the quiz? To remove harmful products from the recommendations use the [`exclude products`](/how-to-guides/recommend-products/#exclusion) feature. 
 
@@ -757,7 +757,7 @@ icon: material/numeric-2
 
         ❗Be careful when using exclusions. Once a product has been excluded it won't show on the results page, even if it was upvoted in another question.
 
-=== "Shopify V2"
+=== "Shopify"
 
     No need to exclude products. The product matrix will recommend the correct products based on the customer's answers.
 
@@ -829,7 +829,7 @@ icon: material/numeric-2
 
 ## Edit the Results Page
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     It’s time to edit the [Results Page](/reference/quiz-builder/results-page/). 
 
@@ -843,7 +843,7 @@ icon: material/numeric-2
 
     The page is almost done. 
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     It’s time to edit the [Results Page](/reference/quiz-builder/results-page/). 
@@ -919,7 +919,7 @@ icon: material/numeric-2
 
 ## Add Slots
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Now let’s add a space for products.
 
@@ -938,7 +938,7 @@ icon: material/numeric-2
 
     Et voila! You’ve just created a dynamic result page for your beauty quiz!
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     Now let’s sort the recommended products into clear steps/categories. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
@@ -1048,14 +1048,14 @@ icon: material/numeric-2
 
 ## Preview the quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Update the preview/live quiz with the top-right `Publish` button.
     2. You can test the quiz by clicking the `Preview`/`Test Quiz` button.
     3. Take the quiz a few times to check if the correct products are recommended.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     1. Update the preview with the top-right `Save` button.
@@ -1092,7 +1092,7 @@ icon: material/numeric-2
 ## Publish
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Now you’re ready to publish the quiz on your website. Let’s add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page). 
 
@@ -1104,7 +1104,7 @@ icon: material/numeric-2
     5. Click the `Show HTML` button and paste the code copied from the app.
     6. Make sure to `save` the changes.
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     Now you’re ready to publish the quiz on your website. Let’s add it [inline with a new page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page). 

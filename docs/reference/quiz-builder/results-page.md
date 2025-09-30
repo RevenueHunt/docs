@@ -1,12 +1,12 @@
 # Results Page
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
 
     In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
@@ -57,7 +57,7 @@
 
 ## Block Types
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     `+` / `add block` - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
 
@@ -77,7 +77,7 @@
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
 
@@ -185,7 +185,7 @@
 
 ## Display Logic / Display Section Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     `conditional logic` / `tree icon` - Opens the [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) menu.
 
@@ -224,7 +224,7 @@
 
     `bin` / `delete block` - Deletes the current block from the results page.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
@@ -469,7 +469,7 @@
 
 ## Block Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     `🔧 / wrench icon` - Opens the block settings menu.
 
@@ -505,7 +505,7 @@
 
     `Slot ID` - Displays the current slot ID.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Each buliding block of your results page section has individual block settings.
 
@@ -1024,13 +1024,13 @@
 
 ## Results Page Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     `⚙️ / gear icon` - Opens the results page settings.
 
     ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
@@ -1146,7 +1146,7 @@
 
 **Checkout Settings**
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder results page results page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
 
@@ -1158,7 +1158,7 @@
 
     `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Check [Results Page settings](#results-page-settings) > `Checkout options`.
 
@@ -1208,7 +1208,7 @@
 
 **Individual Product Settings**
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder results page results page settings basic individual product settings](/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
 
@@ -1267,7 +1267,7 @@
 
     `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
 
-=== "Shopify V2"
+=== "Shopify"
 
 === "WooCommerce"
 
@@ -1456,7 +1456,7 @@
 
 ### Advanced Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder results page results page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
 
@@ -1484,7 +1484,7 @@
 
     `Activate multiple results pages` - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
-=== "Shopify V2"
+=== "Shopify"
 
 === "WooCommerce"
 
@@ -1600,7 +1600,7 @@
 
 ### Multiple Results Pages Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder results page results page settings multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
 
@@ -1618,7 +1618,7 @@
 
     `Create new Results Page` - add a new results page to your quiz. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
 
@@ -1704,7 +1704,7 @@
 
 ### Discounts Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
@@ -1742,7 +1742,7 @@
 
     `deactivate` - Deactivates dynamic discounts.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. To add a discount code to the results page, open the [Results Page Settings](/reference/quiz-builder/results-page/#results-page-settings).
     2. Locate the `Discount code` section and paste the discount code in the `Code` field. Note that the code must be a valid discount code in your Shopify store.

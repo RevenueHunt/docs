@@ -18,7 +18,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
     Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you have not implemented a Pixel on your website yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, add it to your website.
 
@@ -57,7 +57,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
     6. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/3257be8755f044969f803d9e5d29ace6?sid=8a6b4ed5-3bfe-4935-b820-9573ed93ce98" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -273,7 +273,7 @@ This section outlines the process for managing custom events in Metapixel after 
 
 ## Adding a Custom Pixel
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 
@@ -293,7 +293,7 @@ This section outlines the process for managing custom events in Metapixel after 
     4. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
     5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
 
-=== "Shopify V2"
+=== "Shopify"
 
     For an alternative approach to tracking user interactions, consider implementing custom JavaScript to measure specific events on your site. By incorporating our [callback function](/how-to-guides/use-callback-function/), you have the capability to manually trigger or log events based on user actions.
 

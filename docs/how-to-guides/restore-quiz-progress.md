@@ -10,11 +10,11 @@ This guide will walk you through the process of using the [Version History](/ref
 
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c04e2d8b2548424696c2743d8f846ed8?sid=fe2edbcd-7f82-4735-9c5e-f0ed0f15157b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/ed05fcf812244f7f965e180fd446ea94?sid=d6e9b2f1-62bd-40b6-bdfe-14a314cbb295" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -41,7 +41,7 @@ This guide will walk you through the process of using the [Version History](/ref
 
 ## Accessing Version History
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
 
@@ -51,7 +51,7 @@ This guide will walk you through the process of using the [Version History](/ref
     
     ![Version History](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
 
-=== "Shopify V2"
+=== "Shopify"
 
     The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
 
@@ -102,7 +102,7 @@ This guide will walk you through the process of using the [Version History](/ref
 
 ## Understanding Saved Versions
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Version History does not track every minor edit. Instead, it captures a new version each time you publish changes to your quiz with the top-right `Publish` button. 
 
@@ -110,7 +110,7 @@ This guide will walk you through the process of using the [Version History](/ref
     - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
     - For better organization and clarity, you have the option to `rename` any saved version. This can help you keep track of significant changes or versions you may want to revert to later.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Version History does not track every minor edit. Instead, it captures a new version each time you save changes to your quiz with the top-right `Save` button. 
 
@@ -152,7 +152,7 @@ This guide will walk you through the process of using the [Version History](/ref
 
 ## Recovering a Quiz Version
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you need to recover a previous version of the quiz:
 
@@ -165,7 +165,7 @@ This guide will walk you through the process of using the [Version History](/ref
 
         It is not possible to replace the current quiz with a previous version while keeping the same quiz ID. You can only create a new quiz from a previous version.
 
-=== "Shopify V2"
+=== "Shopify"
 
     For recent changes, use the `undo` button `(Ctrl + Z)` to revert the last action.
 

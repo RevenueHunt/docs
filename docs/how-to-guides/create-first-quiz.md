@@ -12,13 +12,13 @@ Follow these steps to create your first quiz with the RevenueHunt app.
  	Follow our [introduction video tutorial](/tutorials/getting-started/) to get a quick overview of the app.
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! tip "Ask Quiz Copilot"
 
@@ -54,14 +54,14 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 ## Step 1: Create a New Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`+ new quiz`](/reference/dashboard/#new-quiz).
     2. **Choose a template**: Choose a pre-defined template or start from scratch.
     3. **Name your quiz**: The name can be edited later.
     4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`Create new quiz`](/reference/dashboard/#new-quiz).
 
@@ -102,14 +102,14 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 ## Step 2: Manage Questions
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In [Quiz Builder](/reference/quiz-builder/) you'll be able to add questions to your quiz.
 
     1. **Add slides**: To add a question, click the `+` button or hover over an existing question and click the `+ new question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
     2. **Delete slides**: To delete a question, click the `.../more options` button (three dots) and select **Delete/Remove**.
 
-=== "Shopify V2"        
+=== "Shopify"        
 
     In [Quiz Builder > Questions](/reference/quiz-builder/questions/) you'll be able to add questions to your quiz.
 
@@ -152,7 +152,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 ## Step 3: Set up Product Recommendations
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Once you have your questions, you'll have to link products to choices to show recommendations to the customer.
 
@@ -177,7 +177,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     Read more about how the recommendations work [here](/how-to-guides/recommend-products/).
 
-=== "Shopify V2"
+=== "Shopify"
 
     Once you have your questions, you'll have to decide [how to set up product recommendations](/how-to-guides/set-up-recommendations/) that should be shown at the end of the quiz. 
     
@@ -327,7 +327,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 ## Step 4: Publish & Preview the Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To test the quiz, you'll have to save the changes and preview it.
 
@@ -337,7 +337,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         !!! tip    
             You can test the quiz as much as you like as long as you always open a new preview window. These test responses done as admin are automatically removed after 1 hour to not add to your usage quota.
 
-=== "Shopify V2"
+=== "Shopify"
 
     To test the quiz, you'll have to save the changes and preview it.
 
@@ -396,13 +396,13 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 ## Step 5: Publish the Quiz on Your website
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Once you're satisfied with your quiz, you can put it on your website. 
 
     1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Once you're satisfied with your quiz, you can put it on your website. 
 
@@ -444,11 +444,11 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 ## After Publishing
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If changes are made post-publishing, click `Publish` again to update the live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     If changes are made post-publishing, click `Save` again to update the live quiz.
 

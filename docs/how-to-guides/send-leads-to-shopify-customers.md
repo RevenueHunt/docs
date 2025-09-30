@@ -6,7 +6,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 ## Link Quiz to Shopify Customers
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
     2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
@@ -27,7 +27,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
         Tags coming from the quiz will have a `prq_` prefix added. So if you created a tag called `teen` in Shopify profile, it will be available as `prq_teen`.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/f0ee0d468b6d4e1faf8fa9a29383232a?sid=d238f4a2-85ce-4270-a7d6-2d63730b7155" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -69,7 +69,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 ## Change subscribed/consent status for email and phone questions
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     By default, all the contacts added to the list via the quiz **will be marked as subscribed** and their consent to receiving marketing information was given. You can change that in the email and phone questions settings.
 
@@ -84,7 +84,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
     3. Click the `Publish` button to update the preview/live quiz with new settings.
 
-=== "Shopify V2"
+=== "Shopify"
 
     By default, all the contacts added to the Shopify Customers list via the quiz **will be marked as subscribed** and their consent to receiving marketing information was given. It is not possible to change the default consent state.
 
@@ -112,7 +112,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 ## Tag Quiz Choices to Segment Shopify Customers
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can use [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
 
@@ -139,7 +139,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
     You can then use these tags to [create a Shopify email Flow](#set-up-shopify-automation-flow).
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/6d08be3b95f245fd8663aab9331b134a?sid=f059e142-595f-4f90-8182-173079ef6001" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -183,7 +183,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 ## Set up Shopify Automation Flow
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <iframe class="alignnone size-full" title="YouTube video player" src="https://www.youtube.com/embed/GcxUgLyZUZc?si=TdE6-D4EAckWkgCj" width="100%" height="400px" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
 
@@ -214,7 +214,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
     To learn more about Shopify Automations, check their [FAQ page](https://help.shopify.com/it//manual/promoting-marketing/create-marketing/create-marketing-automations).
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/f0ee0d468b6d4e1faf8fa9a29383232a?sid=d238f4a2-85ce-4270-a7d6-2d63730b7155" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

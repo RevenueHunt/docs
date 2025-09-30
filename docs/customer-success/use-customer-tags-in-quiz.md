@@ -38,7 +38,7 @@ Targeted email campaigns are 18 times more effective than general broadcast emai
 
 The process of creating and using customer tags in the RevenueHunt Product Recommendation Quiz app is straightforward. Here’s how you can do it:
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -48,7 +48,7 @@ The process of creating and using customer tags in the RevenueHunt Product Recom
     3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
     4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/69f8f8ef88f740bf9cc644fba09ca17c?sid=1796846e-b516-42ed-b96c-e5e06250cedc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

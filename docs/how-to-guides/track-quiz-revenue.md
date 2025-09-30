@@ -8,7 +8,7 @@ Understanding the revenue generated from quizzes on your eCommerce store can pro
 
 This documentation outlines how to track quiz analytics and revenue generated from quizzes in the Revenue Hunt app.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     The [**Shopify Revenue Report**](#activate-shopify-revenue-report) feature within the RevenueHunt app allows you to track orders tagged by your quiz, offering a clear view of its impact on sales. 
 
@@ -52,7 +52,7 @@ This documentation outlines how to track quiz analytics and revenue generated fr
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-quiz-answers-in-orders/)
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/41f2e78427124364812b0d97c9031b41?sid=0f7ed13b-7bf1-42e6-b354-7b9ad4c5e549" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

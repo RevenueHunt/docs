@@ -5,7 +5,7 @@ icon: material/numeric-6
 # Sending Follow-up Emails with Klaviyo
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendation Quiz) leads to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and how to build a post-quiz email flow in Klaviyo.
 
@@ -24,7 +24,7 @@ icon: material/numeric-6
     <iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=A3Q1Ly_hZqWCIXrx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendation Quiz) leads to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and how to build a post-quiz email flow in Klaviyo.
@@ -135,7 +135,7 @@ icon: material/numeric-6
 
 ## Intro
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In this tutorial, you'll learn how to connect your quiz to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and set up a post-quiz email flow.
 
@@ -146,7 +146,7 @@ icon: material/numeric-6
     Sending a follow-up email with Klaviyo is very easy. Let's get started.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     In this tutorial, you'll learn how to connect your quiz to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and set up a post-quiz email flow.
 
@@ -210,7 +210,7 @@ icon: material/numeric-6
 
 ## Add Email Question
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To send contacts to Klaviyo your quiz needs to have an `email question`. 
 
@@ -223,7 +223,7 @@ icon: material/numeric-6
 
             - Or you can add a [marketing checkmark](/how-to-guides/ask-for-marketing-consent#option-2-marketing-checkmark) by joining two slides together. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     To send contacts to Klaviyo your quiz needs to have an [`email question`](/reference/quiz-builder/questions/#email). 
 
@@ -290,7 +290,7 @@ icon: material/numeric-6
 
 ## Connect Quiz to Klaviyo
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To connect the quiz to Klaviyo you'll have to provide your Klaviyo **Public API Key**. 
 
@@ -311,7 +311,7 @@ icon: material/numeric-6
 
     From now on all the contacts coming from the quiz will be added to your Klaviyo account.
 
-=== "Shopify V2"
+=== "Shopify"
 
     To connect the quiz to Klaviyo you'll have to provide your Klaviyo **Public API Key**. 
 
@@ -419,7 +419,7 @@ icon: material/numeric-6
 
 ## Create Segment for Quiz Takers
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     All quiz contacts can be grouped into a **segment** in Klaviyo. 
 
@@ -431,7 +431,7 @@ icon: material/numeric-6
 
     Now all the contacts coming from the quiz will also be added to this specific segment.
 
-=== "Shopify V2"
+=== "Shopify"
 
     All quiz contacts can be grouped into a **segment** in Klaviyo. 
 
@@ -506,7 +506,7 @@ icon: material/numeric-6
 
 ### Add a Triger
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. To create an email flow that includes only quiz takers open the `Flows` tab in Klaviyo. 
     2. Click `Create flow` and then `Build from scratch`.
@@ -514,7 +514,7 @@ icon: material/numeric-6
     4. Next, you'll be asked to set up a flow trigger.
     5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. To create an email flow that includes only quiz takers open the `Flows` tab in Klaviyo. 
     2. Click `Create flow` and then `Build from scratch`.
@@ -556,7 +556,7 @@ icon: material/numeric-6
 
 ### (optional) Update Marketing Consent
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
 
@@ -567,7 +567,7 @@ icon: material/numeric-6
     5. Turn this action `LIVE`.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
 
@@ -628,7 +628,7 @@ icon: material/numeric-6
 
 ### Edit the Email
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Grab the `EMAIL` action and drop it below the flow trigger.
     2. Click on the `...` three dots and `edit the email`.
@@ -645,7 +645,7 @@ icon: material/numeric-6
 
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. Grab the `Email` action and drop it below the last step.
     2. In `Email details` section edit the Subject.
@@ -746,7 +746,7 @@ icon: material/numeric-6
 
 ### Send Email with Each Quiz Retake
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
@@ -765,7 +765,7 @@ icon: material/numeric-6
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
@@ -849,7 +849,7 @@ icon: material/numeric-6
 
 ## Add Contacts to List
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     RevenueHunt app allows you to add contacts from the quiz directly to a **list** in Klaviyo. To do that you'll need to provide a **Private API Key**.
 
@@ -867,7 +867,7 @@ icon: material/numeric-6
     9. Save the changes and publish them with the top-right `Publish` button.
     10. Remember to test the connection with a sample email via the `Preview` button.
 
-=== "Shopify V2"
+=== "Shopify"
 
     RevenueHunt app allows you to add contacts from the quiz directly to a **list** in Klaviyo. To do that you'll need to provide a **Private API Key**.
 

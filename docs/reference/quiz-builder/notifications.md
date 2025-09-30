@@ -1,10 +1,10 @@
 # Notifications
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
@@ -26,7 +26,7 @@
 
 ### To Respondent
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
@@ -58,7 +58,7 @@
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_notification_torespondent](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
 
@@ -380,7 +380,7 @@
 
 ### To Self
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
 
@@ -390,7 +390,7 @@
 
     ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_notification_toself](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
 

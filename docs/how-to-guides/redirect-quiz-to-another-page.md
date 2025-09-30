@@ -10,7 +10,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 [Jump Logic](/how-to-guides/use-jump-logic/) offers a dynamic way to direct customers to specific URLs based on their quiz interactions. Here's how to implement it:
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. **Navigate to the Conditional Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab, select the last question in the quiz (or another question if you want to redirect the customer after a specific question). In the menu that opens, go the [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) tab. 
     2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
@@ -19,7 +19,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
     Even if you redirect the customer with Jump Logic to another page the quiz responses will be saved in the Quiz Builder's [`Metrics`](/reference/quiz-builder/metrics/#responses) section.
 
-=== "Shopify V2"
+=== "Shopify"
 
       <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/312b3b8099174391abe9f5f17b6918bb?sid=2f2dc229-23be-418c-9c7a-ab66922c30f8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -74,7 +74,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 You can use our [callback function](/how-to-guides/use-callback-function/) to redirect the customers to another (custom-built) Results Page. This allows for greater flexibility in handling quiz data and customizing the quiz results look.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     !!! warning
 
@@ -87,7 +87,7 @@ You can use our [callback function](/how-to-guides/use-callback-function/) to re
 
     For a more detailed guide on setting up the callback function, refer to [this resource](/how-to-guides/use-callback-function/).
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! warning
 
@@ -149,7 +149,7 @@ You can use our [callback function](/how-to-guides/use-callback-function/) to re
 
 ## Add a Redirection Button to the Results Page
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
       Offering a direct link to another page from your [Results Page](/reference/quiz-builder/results-page/) can be achieved simply with an **HTML button**.
 
@@ -163,7 +163,7 @@ You can use our [callback function](/how-to-guides/use-callback-function/) to re
 
       3. **Customize Appearance**: Style the button with CSS. You can add custom styles in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, targeting the button with `.lq-results a.button`.
 
-=== "Shopify V2"
+=== "Shopify"
 
       Offering a direct link to another page from your [Results Page](/reference/quiz-builder/results-page/) can be achieved simply with an **Button**.
 

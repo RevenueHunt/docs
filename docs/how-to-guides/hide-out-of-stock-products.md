@@ -10,7 +10,7 @@ In this guide, you'll learn how to hide out-of-stock or draft products from your
 
 This guide explains how to hide out-of-stock products from your quiz recommendations.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can exclude all out-of-stock items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
 
@@ -22,7 +22,7 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
         ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Update the preview/live quiz with the top-right `Publish` button.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/816e788d98e04d1d91fb4b1a9d5a502d?sid=5403bf8e-8435-4893-845d-5dd859f8f157" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -90,7 +90,7 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
 
 This guide explains how to hide draft products from your quiz recommendations.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can exclude all draft items from your recommendations in the [Results Page settings](/reference/quiz-builder/results-page/).
 
@@ -102,7 +102,7 @@ This guide explains how to hide draft products from your quiz recommendations.
         ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Update the preview/live quiz with the top-right `Publish` button.
 
-=== "Shopify V2"
+=== "Shopify"
 
     You can now exclude all draft items from your recommendations directly in the **Store settings** under the **Catalogue** tab.
 

@@ -5,7 +5,7 @@ icon: material/numeric-4
 # Editing Quiz Design
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to question/block-level tweaks for individual elements. This guide will walk you through every place where you can customize your quiz design.
 
@@ -18,7 +18,7 @@ icon: material/numeric-4
         - how to add videos to the quiz or results page via the question settings
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     With the RevenueHunt Quiz app, you have complete control over how your quiz looks and feels. Design settings are available at multiple levels, from global styles that affect the whole quiz to block-level tweaks for individual elements. This guide will walk you through every place where you can customize your quiz design.
 
@@ -93,7 +93,7 @@ icon: material/numeric-4
 
 ## Intro
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Design customization in RevenueHunt works at several levels:
 
@@ -108,7 +108,7 @@ icon: material/numeric-4
     - And when you need full control, **custom CSS** and **JavaScript** are available at every step.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     Design customization in RevenueHunt works at several levels:
 
@@ -181,7 +181,7 @@ icon: material/numeric-4
 
 ## Quiz Design Tab
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     The **Quiz Design** tab is your main hub for styling the quiz. Use it to set fonts, colors, backgrounds, and global CSS.
 
@@ -220,7 +220,7 @@ icon: material/numeric-4
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     The **Quiz Design** tab is your main hub for styling the quiz. Here you can change fonts, colors, backgrounds, navigation, and slide transitions.
 
@@ -421,7 +421,7 @@ icon: material/numeric-4
 ### Advanced (CSS)
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can style any element of your quiz or results page using the built-in CSS console in the Quiz Design tab.
 
@@ -443,7 +443,7 @@ icon: material/numeric-4
         You can find the `question ID` in [Quiz Builder > Question settings](/reference/quiz-builder/questions/#question-settings).
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     - Use the `Advanced` tab for adding custom CSS that applies to the entire quiz.
 
@@ -550,7 +550,7 @@ icon: material/numeric-4
 ## Questions Tab
 
 
-=== "Shopify" 
+=== "Shopify (Legacy)" 
 
     In the [Quiz Buider](/reference/quiz-builder/) tab, you can design each question/slide. 
 
@@ -691,7 +691,7 @@ icon: material/numeric-4
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     The **Questions** tab lets you design each slide. You can add blocks such as text, images, videos, or choice elements, then rearrange them for a unique layout.
 
@@ -1300,7 +1300,7 @@ icon: material/numeric-4
 ## Results Page Tab
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     The [Results Page](/reference/quiz-builder/results-page/) tab is where you design what users see after completing the quiz.
 
@@ -1376,7 +1376,7 @@ icon: material/numeric-4
         Check [How to use the Callback Function](/how-to-guides/use-callback-function/) for detailed instructions.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     The Results Page tab is where you design what users see after completing the quiz.
 

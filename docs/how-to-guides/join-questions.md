@@ -10,7 +10,7 @@ The ability to display multiple questions on a single slide can help reduce the 
 
 To combine two or more questions into one slide, follow these steps:
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/651d6cb1573c4a53981b971cf9eefaa6?sid=b1ca7d15-e169-4acb-87b4-c994a0146c8b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -28,7 +28,7 @@ To combine two or more questions into one slide, follow these steps:
 
     ![how to join slides slides joined](/images/how_to_join_slides_slides_joined.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/d07fc75cb3474e0ebf8e7f1736c8e024?sid=c26b47b1-709d-4833-a256-4d9c2e35a0f3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

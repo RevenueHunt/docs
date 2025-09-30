@@ -1,6 +1,6 @@
 # How to Send Leads to HubSpot
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Integrating your RevenueHunt Product Recommendation Quiz with HubSpot can improve your marketing efforts. 
 
@@ -13,7 +13,7 @@
     - Access to your RevenueHunt Product Recommendation Quiz.
     - An active HubSpot account.
 
-=== "Shopify V2"
+=== "Shopify"
 
     While the new Built for Shopiify version of the RevenueHunt app **does not** yet integrate directly with Hubspot, it is still possible to send quiz leads to Hubspot.
 
@@ -75,7 +75,7 @@
 
 ## Link Quiz to HubSpot
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Go to the [Quiz Builder](/reference/quiz-builder/) and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab on the top of the screen.
     2. Within the integration options, find the section dedicated to HubSpot and click on the `Connect` button.
@@ -88,7 +88,7 @@
 
     Once connected, the quiz results will automatically flow into your HubSpot account. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     It is **not yet possible** to link your Product Recommendation Quiz created in the new Built for Shopify version of the RevenueHunt app to Hubspot.
 
@@ -151,7 +151,7 @@
 
 ## Alternative Ways to Send Quiz Leads to Hubspot
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
 
@@ -159,7 +159,7 @@
     - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Hubspot. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Hubspot.
     - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
     
-=== "Shopify V2"
+=== "Shopify"
 
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
 
@@ -205,7 +205,7 @@
 
 ## Quiz Data in HubSpot
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Every time your customers take the quiz, their contact details along with all of their responses and product recommendations will be sent to your HubSpot account.
 
@@ -215,7 +215,7 @@
     3. You will find a section labeled `Product Recommendation Quiz` or similarly, depending on your quiz setup. This section houses all quiz-related data, including answers and product recommendations.
         ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     If you've set up [Alternative Ways to Send Quiz Leads to Hubspot](#alternative-ways-to-send-quiz-leads-to-hubspot), every time your customers take the quiz, their contact details along with all of their responses and product recommendations will be sent over to your HubSpot account.
 
@@ -267,7 +267,7 @@
 
 ## Sending Follow-up Emails with HubSpot
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     !!! info
 
@@ -283,7 +283,7 @@
     5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
     6. Turn your campaign on and Hubspot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! info
 
@@ -365,7 +365,7 @@
 
 ## Using Custom Quiz Properties in Email Templates
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To personalize your follow-up emails based on quiz data, you’ll need to pull custom properties into the email templates.
 
@@ -384,7 +384,7 @@
 
         Please be aware that while HubSpot efficiently handles text-based quiz data, its interface currently **does not support embedding images** directly into email templates as custom properties. Plan your quiz content accordingly to ensure seamless integration and utilization within HubSpot.
 
-=== "Shopify V2"
+=== "Shopify"
 
     To personalize your follow-up emails based on quiz data, you’ll need to pull custom properties into the email templates.
 

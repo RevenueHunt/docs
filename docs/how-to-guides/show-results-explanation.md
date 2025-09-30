@@ -5,7 +5,7 @@ icon: material/lightbulb-question
 
 # How to Show Results Explanation
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c4cb6bce39a447cc860f8408adade0f4?sid=967d38f5-9c4b-47b0-b73d-41a2aae156d6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -152,7 +152,7 @@ icon: material/lightbulb-question
 
     4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/2b244cde228e450c9908aed5459b99f2?sid=ab8b600e-5464-4c0a-b982-5a1e5627c994" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

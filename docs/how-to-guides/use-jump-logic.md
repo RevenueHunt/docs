@@ -11,11 +11,11 @@
 
 In this article, we provide a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-=== "Shopify V2" 
+=== "Shopify" 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=hcgIntH-XecaQxua" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -53,7 +53,7 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
 
 ## Conditional Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
@@ -81,7 +81,7 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
 
         **arrow down** - Take you to the question lower.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![quiz builder conditional logic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
@@ -227,7 +227,7 @@ Jump Logic allows you to route customers to different questions based on their r
     - **is**/ **is not** pick a choice from the dropdown list
     - **THEN go to:** pick a slide from the dropdown list or add a URL 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. **Open Jump Logic**: Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.
@@ -265,7 +265,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     5. **Preview and Adjust:** Publish the changes with the top-right `Publish` button to update the preview/live quiz and test the setup.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. **Open Jump Logic**: Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.
@@ -461,7 +461,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
 ### Branching the Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -493,7 +493,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=Ud8s2dtSN0uJECkC&amp;start=13" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -657,7 +657,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
 ### Sending Users to Different Results Pages
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     With Jump Logic, you can send users to different results pages based on their answers.
 
@@ -696,7 +696,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=0v4iXxZKuT0ljH-c&amp;start=82" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -896,7 +896,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
 ### Sending Users to an External URL
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     With Jump Logic, you can send users to an external URL based on their answers.
 
@@ -927,7 +927,7 @@ Jump Logic allows you to route customers to different questions based on their r
         Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=M8ps59EfgFulqM9z&amp;start=123" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

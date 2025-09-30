@@ -18,7 +18,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     Before you begin, open the [Responses section](/reference/quiz-builder/metrics/#responses) from the [App manual](/reference/) in the new browser window. It will come in handy.
 
-=== "Shopify" 
+=== "Shopify (Legacy)" 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35a595634ca5404d922c725590e96c89?sid=ca0b9ad7-eea5-43b1-9597-6dfa9aee4a2b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -61,7 +61,7 @@ This guide will walk you through the process of troubleshooting product recommen
     - **Recalculate Recommendations**: If adjustments to the quiz or product collections/categories have been made, use this option to see how these changes affect recommendations.
     - **Resend Notifications**: Useful for updating CRM services or sending revised recommendations via email.
 
-=== "Shopify V2" 
+=== "Shopify" 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/6d81b8a150b8407fb478f7fbd753714c?sid=53b6d242-f3eb-4c23-9339-f1990963cf23" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

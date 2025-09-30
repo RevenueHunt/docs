@@ -1,6 +1,6 @@
 # Quiz Design
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
 
@@ -20,7 +20,7 @@
 
     `Results` - Shows the preview of how the results page looks like.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
@@ -118,7 +118,7 @@
 
 ### Edit Theme
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
 
@@ -142,7 +142,7 @@
 
     `Custom CSS` - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
-=== "Shopify V2"
+=== "Shopify"
 
     `Basic`  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
 
@@ -297,7 +297,7 @@
 
 ### My Themes
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
 
@@ -315,7 +315,7 @@
 
     `Delete` - Deletes the selected theme from MY THEMES gallery.
 
-=== "Shopify V2"
+=== "Shopify"
 
     In Shopify V2 you have a single theme per quiz.
 

@@ -4,14 +4,14 @@ icon: material/code-json
 
 # How to Use Callback Function for Custom Integrations
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
       Custom integrations are essential for developers looking to enhance the functionality of their websites, especially when it comes to tailoring user experiences. One powerful tool for achieving such customization is through the use of JavaScript **callback functions**. 
 
       This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! warning
 
@@ -68,7 +68,7 @@ The JSON with the quiz response includes:
 
 ## Implementing the Callback Function
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. **Initial Setup**: To begin, insert the following code into your store's theme, ideally just before the closing `</head>` tag:
       ```html
@@ -119,7 +119,7 @@ The JSON with the quiz response includes:
           // triggered when the Product Recommendation Quiz app has been loaded 
           ```
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! warning
 

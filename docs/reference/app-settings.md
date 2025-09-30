@@ -2,7 +2,7 @@
 
 ## General
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![app settings general](/images/manual_appsettings_general.png)
 
@@ -18,7 +18,7 @@
 
     `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_appsettings](/images/manual_shopifyV2_appsettings.png)
 
@@ -98,7 +98,7 @@
 
 ## Catalogue
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![app settings catalogue](/images/manual_appsettings_catalogue.png)
 
@@ -108,7 +108,7 @@
 
         Follow this article to show metafields in the quiz: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
 
@@ -154,7 +154,7 @@
 
 ## SMTP
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![app settings smtp](/images/manual_appsettings_smtp.png)
 
@@ -180,7 +180,7 @@
         
     `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![app settings smtp](/images/manual_shopifyV2_appsettings_smtp.png)
 
@@ -320,7 +320,7 @@
 
 ## Shop App
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     !!! warning
 
@@ -346,18 +346,18 @@
 
     ![app settings shop app preview](/images/manual_appsettings_shopapp_preview.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     At this moment in time, there is no way to activate the Shop App in the Shopify V2 version of the app. 
 
 
 ## Shopify Markets
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Shopify Markets integration is only available in the Shopify V2 version of the app. This feature is not supported in the original Shopify app version.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
 
@@ -381,11 +381,11 @@
 
 ## Plans & Pricing
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.   
 

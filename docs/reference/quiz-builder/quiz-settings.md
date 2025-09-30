@@ -1,12 +1,12 @@
 # Quiz Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
     In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
@@ -38,7 +38,7 @@
 
 ### General
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png){width="500"}
 
@@ -66,7 +66,7 @@
 
     `Quiz ID` - Displays the current quiz ID.
 
-=== "Shopify V2"
+=== "Shopify"
 
     `Quiz name` - Click on the field to edit the quiz name.
 
@@ -182,7 +182,7 @@
 
 ### Messages / Quiz Content
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
 
@@ -276,7 +276,7 @@
 
     `Restore default messages` - Click "restore" to set all fields back to default.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
 
@@ -742,11 +742,11 @@
 
 ### Integrations
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
 
@@ -769,11 +769,11 @@
 
 ### Emails to self
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
 
@@ -795,11 +795,11 @@
 
 ### Emails to respondents
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
 
@@ -821,7 +821,7 @@
 
 ### Version History
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
 
@@ -835,7 +835,7 @@
 
     `Rename this version` - Allows you to rename this saved version of the quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizsettings_versionhistory](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
 

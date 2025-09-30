@@ -1,6 +1,6 @@
 # How to Send Leads to Zapier
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Automating the transfer of leads from your quizzes to your Customer Relationship Management (CRM) system or mailing list not only saves time but also allows for more targeted follow-up campaigns. 
 
@@ -18,7 +18,7 @@
     - Access to the quiz you wish to connect.
     - Access to your CRM or mailing list platform.
 
-=== "Shopify V2"
+=== "Shopify"
 
     While the new Built for Shopiify version of the RevenueHunt app **does not** yet integrate directly with Zapier, it is still possible to send quiz leads to Zapier.
 
@@ -101,7 +101,7 @@
 
 ## Link Quiz to Zapier
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     How to connect the quiz to your CRM via Zapier
     It’s quite simple to set up:
@@ -131,7 +131,7 @@
     Confirm with `Yes, Continue to RevenueHunt`.
     4. **New Connection Added** You should see a `New Connection Added` banner. Then you can use this connection to set up your email flow.
 
-=== "Shopify V2"
+=== "Shopify"
 
     It is **not yet possible** to link your Product Recommendation Quiz created in the new Built for Shopify version of the RevenueHunt app to Zapier.
 
@@ -260,14 +260,14 @@
 
 ## Alternative Ways to Send Quiz Leads to Zapier
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Sometimes, you would like a bit more control over the data that is sent to Zapier. In that case there are a few alternatives you can use to send quiz leads to Zapier.
 
     - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Zapier. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Zapier.
     - **Manually adding the quiz leads to Zapier**: You can manually add the quiz leads to Zapier by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
     
-=== "Shopify V2"
+=== "Shopify"
 
     Sometimes, you would like a bit more control over the data that is sent to Zapier. In that case there are a few alternatives you can use to send quiz leads to Zapier.
 
@@ -309,7 +309,7 @@
 
 ## What Data is Sent to Zapier?
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     During the setup, you can check the quiz data that Zapier will receive from the quiz. This includes:
 
@@ -323,7 +323,7 @@
 
     ![how to zapier data example1](/images/how_to_zapier_data_example1.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     Since the new Built for Shopify version of the RevenueHunt app does not yet integrate directly with Zapier, you can control exactly what data is sent to Zapier by using our [Webhooks](/how-to-guides/send-leads-to-webhooks/) integration.
 
@@ -394,7 +394,7 @@
 
 ## Sending Follow-up Emails Directly from Zapier
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can build an email flow directly in Zapier to send customized follow-up emails right after the customer completes the quiz.
 
@@ -404,7 +404,7 @@
 
         Check [this Zapier article](https://zapier.com/help/create/email-and-text-messages/send-emails-in-zaps) for more information.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Once you have connected your quiz to Zapier via Webhooks, you can build an email flow directly in Zapier to send customized follow-up emails right after the customer completes the quiz.
 

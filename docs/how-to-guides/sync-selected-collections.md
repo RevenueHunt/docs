@@ -1,6 +1,6 @@
 # How to Selectively Sync Product Collections with RevenueHunt app
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     For stores with extensive product catalogs, especially those exceeding 5,000 items, it might not be practical or desirable to include every single product in your quiz recommendations. Fortunately, RevenueHunt app offers a targeted solution: the `collections/categories first` feature. 
 
@@ -13,7 +13,7 @@
 
     This guide outlines the steps to select specific collections for synchronization with the RevenueHunt app.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Not applicable.
 
@@ -45,7 +45,7 @@
 
 ## Selecting Collections/Categories for Synchronization
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. **Access the Success Checklist**: To select the collections/categories to sync, go to the [Success Checklist](/reference/dashboard/#success-checklist) panel in the `Dashboard`. 
     2. **Initiate Collection/Categories Selection**: Under `Sync Products from your store` click `Choose Active Collections/Categories`.
@@ -55,7 +55,7 @@
     5. **Sync Your Selections**: Once you’re done selecting collections/categories, click `run manual sync` to sync them with your store.
     6. **Automatic Updates**: RevenueHunt app automatically updates the products from the synced collections/categories once a day, ensuring your quiz always features up-to-date information and product availability.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Not applicable.
 

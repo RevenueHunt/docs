@@ -68,3 +68,6 @@ ENV/
 
 # MkDocs documentation
 site*/
+
+# Backup directories created by scripts
+docs_backup_*/

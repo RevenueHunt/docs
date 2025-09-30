@@ -14,7 +14,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
 !!! info "What's a Chat Button on the Homepage?"
     It's a chat-like button that shows up on the homepage of your store and when clicked opens the quiz popup.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **Option 1: Through Shopify Theme**
 
@@ -36,7 +36,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
     4. **Paste Popup Code**: In the HTML/custom liquid block, paste your popup code. paste this code into the HTML of your desired pages.
     5. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d836e7cc0ef841f2bf1458a52161d94f?sid=ccbf7e73-3a18-4d48-9eca-e6be27d13671" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -128,11 +128,11 @@ This guide provides step-by-step instructions on how to implement a chat button 
 !!! info "What's a Chat Button on All Pages?"
     It's a chat-like button that shows up on all pages of your store and when clicked opens the quiz popup.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d836e7cc0ef841f2bf1458a52161d94f?sid=ccbf7e73-3a18-4d48-9eca-e6be27d13671" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -182,14 +182,14 @@ This guide provides step-by-step instructions on how to implement a chat button 
 !!! info "What's a Chat Button on a Specific Page?"
     It's a chat-like button that shows up on a specific page of your store and when clicked opens the quiz popup.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. **Obtain Chat Button Embed Code**: From the quiz builder, click `Share`, select `Chat button` mode, and `Show Instructions for Legacy Themes`.
     2. **Generate Popup Code**: Adjust settings like color, width or height and click `Get code` to generate an HTML code.
     3. **Embed Code on Page**: In Shopify, go to `Online Store > Pages`, select the page, click `Show HTML`, and paste the popup code.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
@@ -287,11 +287,11 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
 ### Open a Specific Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To open a specific quiz as a chat button, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
     
-=== "Shopify V2"
+=== "Shopify"
 
     By default when add an chat button, the default quiz for your store will show. 
     
@@ -331,7 +331,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
 ![docs/images/how_to_publish_shipifyV2_V1publisherror.png](/images/how_to_publish_shipifyV2_V1publisherror.png)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you see the error message "The quiz you are looking for does not exist" when trying to activate an chat button popup quiz, follow these steps:
 
@@ -341,7 +341,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
         ![how_to_publish_shipifyV2_V1publisherrorchatbutton](/images/how_to_publish_shipifyV2_V1publisherrorchatv1.png)
     4. Save your changes and refresh the page.
     
-=== "Shopify V2"
+=== "Shopify"
 
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with Shopify V2 cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.

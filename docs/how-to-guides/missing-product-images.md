@@ -6,11 +6,11 @@ icon: material/image-off
 
 This guide explains how to fix product images not showing in your quiz.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Product or Collection images are displayed directly from your Shopify catalog. If you don't see product images, please check your Shopify Products/Collections.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Product or Collection images are displayed directly from your Shopify catalog. If you don't see product images, please check your Shopify Products/Collections.
 

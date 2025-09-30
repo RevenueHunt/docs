@@ -12,7 +12,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
 ## Change Quiz Language in Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     !!! note
     
@@ -26,7 +26,7 @@ This guide will help you change the language of your quiz, translate it into dif
     3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
     4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/c636603e986a41a6a932c7721add7dcf?sid=5abfc134-cb3d-4ba6-934f-991533d5a11d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -118,7 +118,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
 ## Set Up Multilingual Quizzes
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
 
@@ -210,7 +210,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/c636603e986a41a6a932c7721add7dcf?sid=5abfc134-cb3d-4ba6-934f-991533d5a11d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

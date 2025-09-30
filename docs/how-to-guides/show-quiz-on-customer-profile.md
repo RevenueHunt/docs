@@ -4,7 +4,7 @@ icon: material/account-file-text-outline
 
 # How to Show Quiz on a Customer Profile
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Integrating quiz results into a customer's profile on your Shopify store can personalize the shopping experience. 
 
@@ -54,7 +54,7 @@ icon: material/account-file-text-outline
 
     ![how to show quiz on customer profile rendered](/images/how_to_show_quiz_on_customer_profile_rendered.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     The new Built for Shopify version of the RevenueHunt app does not have an app embed to show the quiz on a customer profile yet. It is **not possible yet** to directly show the quiz on a customer profile using the new Built for Shopify version of the RevenueHunt app.
     

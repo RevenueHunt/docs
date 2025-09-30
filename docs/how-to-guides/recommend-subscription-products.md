@@ -21,7 +21,7 @@ If you're using a subscription app that is not supported, you can still recommen
 
 ## ReCharge Subscriptions
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Here’s how to connect your ReCharge subscriptions to your RevenueHunt app:
 
@@ -42,7 +42,7 @@ If you're using a subscription app that is not supported, you can still recommen
     - The customer needs to proceed to the cart first and cannot proceed to checkout directly with subscription products. You can change this in the [checkout settings](/how-to-guides/change-checkout-settings/).
     - We only integrate with the **new Shopify Checkout**; the old Recharge Checkout is not supported. For instructions on how to migrate from the old ReCharge Checkout to the new Shopify Checkout, check [this article](https://support.rechargepayments.com/hc/en-us/articles/4403505928599).
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. To add subscription to your recommended products go to the [Results Page]().
     2. Find the [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
@@ -85,11 +85,11 @@ If you're using a subscription app that is not supported, you can still recommen
 
 ## WooCommerce Subscriptions
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Not applicable.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Not applicable.
 
@@ -116,7 +116,7 @@ If you're using a subscription app that is not supported, you can still recommen
 
 ## Other Subscriptions
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Reocommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
 
@@ -133,7 +133,7 @@ If you're using a subscription app that is not supported, you can still recommen
 
     As a result, the buyers will go directly to the product page and can subscribe there.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/d5f15461e3014d2fa8ad33637410d4ba?sid=ed6fdfff-9d0e-439b-aa83-a61708b36a44" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

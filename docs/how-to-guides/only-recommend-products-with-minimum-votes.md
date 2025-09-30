@@ -4,7 +4,7 @@ It is possible to limit the number of recommended products on the results page b
 
 To activate this setting in your quiz follow the instructions below.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
     2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
@@ -42,7 +42,7 @@ To activate this setting in your quiz follow the instructions below.
         The Minimum number of votes setting is only available if you choose not to recommend products when results are empty in the [Results Page Settings](/reference/quiz-builder/results-page/#advanced-settings) > Advanced > `Recommendation Settings`.
         ![how to only recommend product with min votes show random products](/images/how_to_only_recommend_product_with_min_votes_show_random_products.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
     2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.

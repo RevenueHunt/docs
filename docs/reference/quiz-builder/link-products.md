@@ -1,6 +1,6 @@
 # Link Products
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder link products](/images/manual_quizbuilder_linkproducts.png)
 
@@ -28,7 +28,7 @@
 
     **Missing products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 
-=== "Shopify V2"
+=== "Shopify"
 
     To add link products or product variants to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
 

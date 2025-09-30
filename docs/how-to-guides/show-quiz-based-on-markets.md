@@ -4,14 +4,14 @@ icon: material/earth
 
 # How to Show a Quiz Based on Shopify Markets
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     !!! note "Platform Availability"
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     This article explains how to show a quiz based on Shopify Markets.
 
@@ -46,7 +46,7 @@ icon: material/earth
 
 ## Step 1: Configure Shopify Markets
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     !!! note "Platform Availability"
@@ -54,7 +54,7 @@ icon: material/earth
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     To start, make sure you have [Shopify Markets](https://help.shopify.com/en/manual/international/managing) enabled and cofigured in your Shopify store. In order to show a quiz in a differnt currency or language, you first need to have a market configured in your Shopify store for these currencies or languages.
 
@@ -91,13 +91,13 @@ icon: material/earth
 
 ## Step 2: Create Different Quizzes for Different Markets
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     !!! note "Platform Availability"
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     Go to the [Quiz Builder](/reference/quiz-builder/) and create a new quiz. 
     
@@ -136,12 +136,12 @@ icon: material/earth
 
 ## Step 3: Configure In-App Shopify Markets
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     !!! note "Platform Availability"
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Once all your quizzes in different languages are created, head over to [App Settings > Shopify Markets](/reference/app-settings/#shopify-markets). This section contains all the markets and langueges you've set up in your Shopify store.
 
@@ -182,12 +182,12 @@ icon: material/earth
 
 ## Step 4: Save the Changes
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     !!! note "Platform Availability"
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Save the changes. From now on, the default quiz for your store will open. If you've configured [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that specific market will be shown instead.
 
@@ -215,12 +215,12 @@ icon: material/earth
 
 ## Step 5: Test the Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     !!! note "Platform Availability"
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is **not** available for the legacy version of the RevenueHunt app for Shopify.
 
-=== "Shopify V2"
+=== "Shopify"
 
     To test that the right quiz is shown for the right market, ensure that the quiz is published on your website by following the instructions in the [Publish](/reference/quiz-builder/share-publish/) tab of the app or [this how to article](https://docs.revenuehunt.com/how-to-guides/publish-quiz/).
 

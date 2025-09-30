@@ -4,7 +4,7 @@ icon: material/slash-forward-box
 
 # How to Pass Parameters to Pre-fill Quiz Responses
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     With RevenueHunt app you have the possibility to pre-fill the responses to certain questions in your quiz. 
 
@@ -16,7 +16,7 @@ icon: material/slash-forward-box
     - either declaring JavaScript variables in your store’s source code (note: developer needed)
     - passing URL parameters on a link to your store.
 
-=== "Shopify V2"
+=== "Shopify"
 
     It is **not possible yet** to pre-fill quiz responses in the new Built for Shopify version of the RevenueHunt app.
 
@@ -73,7 +73,7 @@ icon: material/slash-forward-box
 
 ## Option 1: Declare window.prq_vars
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can declare `window.prq_vars` inside a JavaScript `<script>` tag in your store’s source code:
 
@@ -110,7 +110,7 @@ icon: material/slash-forward-box
     
     This way you will pass the productID as a parameter to differentiate where the quiz was taken from.
 
-=== "Shopify V2"
+=== "Shopify"
 
     It is **not possible yet** to pre-fill quiz responses in the new Built for Shopify version of the RevenueHunt app.
 
@@ -265,7 +265,7 @@ icon: material/slash-forward-box
 
 ## Option 2: Pass URL parameters
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     URL parameters (also known as query strings) are a way to structure additional information for a given URL. Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
 
@@ -293,7 +293,7 @@ icon: material/slash-forward-box
 
     You’ll notice that if you take the quiz now, the “name” and “email” questions are pre-filled and skipped.
 
-=== "Shopify V2"
+=== "Shopify"
 
     It is **not possible yet** to pre-fill quiz responses in the new Built for Shopify version of the RevenueHunt app.
 

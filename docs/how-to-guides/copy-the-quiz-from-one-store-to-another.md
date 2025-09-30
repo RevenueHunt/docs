@@ -18,7 +18,7 @@ This article will guide you through the process of copying a quiz from one store
 
 ## Copying the Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/647ee0682820461a8719451d389b8990?sid=17c277e8-4356-458d-bd1a-9e45e370c23c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -56,7 +56,7 @@ This article will guide you through the process of copying a quiz from one store
     After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/0a2453ead2b44b3fb7df5cb17a72e3e2?sid=5912fafd-7f72-432c-8fd1-a870d5a4cdc0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -259,13 +259,13 @@ This article will guide you through the process of copying a quiz from one store
 
 Follow these steps if you plan to change the domain on which the RevenueHunt app is installed.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 
     If you’re changing the `.myshopify` account, then check [this guide](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
-=== "Shopify V2"
+=== "Shopify"
 
     If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 

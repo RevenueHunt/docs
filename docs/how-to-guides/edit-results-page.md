@@ -8,13 +8,13 @@ You can customize your quiz design as well as the look of your quiz's [Results P
 
 This guide will walk you through adding elements to your results page using a variety of content blocks and creating of dynamic results page with Display logic.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/CZtWnLzw-Ko?si=XEqVrLMGlNSF7rl2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d5d6b20a4a5245fc9ea409d3584810e4?sid=312e4ef3-b1ee-4a53-af40-dc0cc5be4a38" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -42,7 +42,7 @@ This guide will walk you through adding elements to your results page using a va
 
 ## Build Your Results Page
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![manual_quizbuilder_resultspage](/images/manual_quizbuilder_resultspage.png)
 
@@ -52,7 +52,7 @@ This guide will walk you through adding elements to your results page using a va
     4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
     5. **Review and Test**: Click the top-right `Publish` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
@@ -106,7 +106,7 @@ This guide will walk you through adding elements to your results page using a va
 
 ## Add Content
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
 
@@ -130,7 +130,7 @@ This guide will walk you through adding elements to your results page using a va
     - **Information Recalls**: [Information Recalls](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
     - **Display Logic**: With [Display Logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
 
-=== "Shopify V2"
+=== "Shopify"
 
     A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
 
@@ -270,7 +270,7 @@ This guide will walk you through adding elements to your results page using a va
 
 ## Adjust Results Page Settings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_quizbuilder_resultspage_settings.png)
 
@@ -313,7 +313,7 @@ This guide will walk you through adding elements to your results page using a va
 
     - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_quizbuilder_resultspage_settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 

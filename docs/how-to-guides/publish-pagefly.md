@@ -1,6 +1,6 @@
 # How to Publish Quiz on PageFly Page
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     PageFly currently integrates only with the **legacy** version of RevenueHunt app for Shopify. There are several ways to embed a quiz on a PageFly page. Check the instructions below for the method that suits you best.
 
@@ -36,7 +36,7 @@
     4. Click `Save` and the button will be added to your page.
     5. Click `Preview` to see the button on the page.
 
-=== "Shopify V2" 
+=== "Shopify" 
 
     PageFly currently integrates only with the legacy version of RevenueHunt app for Shopify. The new `💎Built for Shopify` version of RevenueHunt app **does not** support embedding quizzes directly into PageFly pages.
 

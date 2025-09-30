@@ -1,6 +1,6 @@
 # How to Send Leads to Mailchimp
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/PoLkSjl628o?si=iiIQVsgUgd46BJbu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -19,7 +19,7 @@
     - An active Mailchimp account.
     - A RevenueHunt Product Recommendation Quiz that you wish to connect with Mailchimp.
     
-=== "Shopify V2"
+=== "Shopify"
 
     While the new Built for Shopiify version of the RevenueHunt app **does not** yet integrate directly with Mailchimp, it is still possible to send quiz leads to Mailchimp.
 
@@ -105,7 +105,7 @@
 
 ## Link Quiz to Mailchimp
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Connecting your quiz to Mailchimp allows for the seamless transfer of leads:
 
@@ -123,7 +123,7 @@
     5. Return to the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz platform. You may need to refresh the page to update the connection status.
     6. Follow the prompts to select the Mailchimp list you wish to send your quiz results to from the dropdown.
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     It is **not yet possible** to link your Product Recommendation Quiz created in the new Built for Shopify version of the RevenueHunt app to Mailchimp.
@@ -209,7 +209,7 @@
 
 ## Alternative Ways to Send Quiz Leads to Mailchimp
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Sometimes, you would like a bit more control over the data that is sent to Mailchimp. In that case there are a few alternatives you can use to send quiz leads to Mailchimp.
 
@@ -218,7 +218,7 @@
     - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Mailchimp. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Mailchimp.
     - **Manually adding the quiz leads to Mailchimp**: You can manually add the quiz leads to Mailchimp by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
     
-=== "Shopify V2"
+=== "Shopify"
 
     Sometimes, you would like a bit more control over the data that is sent to Mailchimp. In that case there are a few alternatives you can use to send quiz leads to Mailchimp.
 
@@ -264,7 +264,7 @@
 
 ## Use Customer Tags for Segmentation in Mailchimp
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     With [customer tags](/reference/quiz-builder/link-collections/#customer-tags), you can segment your audience within Mailchimp based on their quiz responses:
 
@@ -276,7 +276,7 @@
     4. Navigate to the `Audience` section in your Mailchimp account.
     5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
 
-=== "Shopify V2"
+=== "Shopify"
 
     With [customer tags](/reference/quiz-builder/link-collections/#customer-tags), you can segment your audience within Mailchimp based on their quiz responses:
 
@@ -343,7 +343,7 @@
 
 ### Hack: Send Quiz Answers to MailChimp
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
 
@@ -352,7 +352,7 @@
 
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
 
-=== "Shopify V2"
+=== "Shopify"
 
     To override Mailchimp's limitation on pushing detailed custom quiz data, you can use `customer tags` to represent customer responses.
 
@@ -399,7 +399,7 @@
 
 ## Set up Post-Quiz Email Flow with Mailchimp
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/PoLkSjl628o?si=iiIQVsgUgd46BJbu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -439,7 +439,7 @@
             ![example mailchimp flow](https://revenuehunt.com/wp-content/uploads/2024/07/Screenshot-2024-07-29-093944-768x610.png)
     4. **Test and Optimize.** After setting up your email campaigns, test them with a test email and optimize them based on the results.
 
-=== "Shopify V2"
+=== "Shopify"
 
     If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
 

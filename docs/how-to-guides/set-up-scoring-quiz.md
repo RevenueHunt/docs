@@ -12,7 +12,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 
 ## How to Add Scores or Variables to Choices
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead.    
     
@@ -20,7 +20,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
         Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
-=== "Shopify V2" 
+=== "Shopify" 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f4daa9fcce0e4764865b49844600b7e0?sid=9529b937-8c1f-42f6-86b1-edcbbc717c8e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -91,7 +91,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 
 Follow these steps to set up a winning variable quiz:       
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
 
@@ -135,7 +135,7 @@ Follow these steps to set up a winning variable quiz:
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/7b44356b9eba4fb3a24b6e595fd48088?sid=f5da200d-6189-457b-8a99-24395da4df8a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -365,7 +365,7 @@ Assign numerical scores to each choice in your quiz. Then, use Display Logic to 
 Follow these steps to set up a scoring quiz with one results page:
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead.    
     
@@ -373,7 +373,7 @@ Follow these steps to set up a scoring quiz with one results page:
         Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/bdfab85a0d3b4ecf9beb264fb2a19299?sid=6742d6dc-e3e5-4a3b-a7de-bbd1381170c1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -479,7 +479,7 @@ Assign numerical scores to each choice in your quiz. Then, use Jump Logic to dir
 Follow these steps to set up a scoring quiz with multiple results pages:
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
 
@@ -487,7 +487,7 @@ Follow these steps to set up a scoring quiz with multiple results pages:
         Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/a6aa2b811b6f4adc87f986f0441d6328?sid=f4329a4f-b169-46b6-9a66-2c66644577b8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

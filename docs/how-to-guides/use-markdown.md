@@ -5,7 +5,7 @@ icon: material/format-header-pound
 
 # How to Use Markdown Language
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Markdown is an incredibly versatile language that allows you to format text on the web. It's used widely for creating readable and convertible text to HTML, enabling the styling of documents through simple syntax. 
 
@@ -18,7 +18,7 @@ icon: material/format-header-pound
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.
 
@@ -73,13 +73,13 @@ icon: material/format-header-pound
 
 ## Markdown in Product Recommendation Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
 
     ![how to use markdown languge example](/images/how_to_use_markdown_languge_example.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     The new Built for Shopify version of the RevenueHunt app doesn't use Markdowns to style text. Instead you can use the [built-in text editors](/how-to-guides/customize-quiz-design/#__tabbed_4_2) to add empasis or blodness to your text, add links or use the [native image/video blocks](/how-to-guides/customize-quiz-design/#__tabbed_5_2) to embed your content.
 
@@ -113,7 +113,7 @@ icon: material/format-header-pound
 
 ### Headings
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Headings are essential for structuring your content, making it easier to read and navigate. In Markdown, you create headings by prefixing your text with one or more hash (`#`) symbols. The number of hashes before your text determines the level of the heading:
 
@@ -123,7 +123,7 @@ icon: material/format-header-pound
     ### H3
     ```
 
-=== "Shopify V2"
+=== "Shopify"
 
     Not applicable.
 
@@ -177,7 +177,7 @@ icon: material/format-header-pound
 
 ### Text Styling
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     To emphasize text, you can make it italic or bold. Markdown uses asterisks (*) or underscores (_) to create italic or bold text. Here's how you can style your text:
@@ -188,7 +188,7 @@ icon: material/format-header-pound
     ***italic & bold text***
     ```
 
-=== "Shopify V2"
+=== "Shopify"
 
     Not applicable.
 
@@ -239,7 +239,7 @@ icon: material/format-header-pound
 
 ### Links
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Adding links to your content can provide readers with additional resources. To insert a link in Markdown, you use square brackets to enclose the anchor text and parentheses to enclose the URL:
 
@@ -247,7 +247,7 @@ icon: material/format-header-pound
     [link title](https://www.example.com)
     ```
 
-=== "Shopify V2"
+=== "Shopify"
 
     Not applicable.
 
@@ -293,7 +293,7 @@ icon: material/format-header-pound
 
 ### Images
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     Images can enhance your content visually, making it more engaging. To add an image, you use an exclamation mark followed by square brackets for the alt text and parentheses for the image URL:
@@ -302,7 +302,7 @@ icon: material/format-header-pound
     ![alt text](https://www.example.com/path/to/image.jpg)
     ```
 
-=== "Shopify V2"
+=== "Shopify"
 
     Not applicable.
 
@@ -357,7 +357,7 @@ icon: material/format-header-pound
 
 ### Videos
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     Including videos can make your content even more interactive and informative. Videos hosted on YouTube or Vimeo can be embedded using the standard Markdown image syntax, with the video URL in the parentheses:
@@ -376,7 +376,7 @@ icon: material/format-header-pound
     ![](https://youtu.be/0_tO8HgJiLQ){width="560" height="315"}
     ```
 
-=== "Shopify V2"
+=== "Shopify"
 
     Not applicable.
 

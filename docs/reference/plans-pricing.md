@@ -1,6 +1,6 @@
 # Plans & Pricing
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![plans & pricing page](/images/manual_plans_pricing.png)
 
@@ -18,7 +18,7 @@
 
         Payments are handled directly by Shopify. You should see app charges on your Shopify bill.
 
-=== "Shopify V2"
+=== "Shopify"
 
     
     ![manual_shopifyv2_plans](/images/manual_shopifyv2_plans.png)
@@ -136,11 +136,11 @@
 ## How to change my billing details?
 
 
-=== "Shopify"       
+=== "Shopify (Legacy)"       
 
     Since Shopify handles the payments, you can change your billing details directly in your Shopify payments.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Since Shopify handles the payments, you can change your billing details directly in your Shopify payments.
 

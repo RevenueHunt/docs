@@ -11,7 +11,7 @@ Before you start, ensure you have:
 
 ## Link Quiz to Webhooks
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To initiate the integration:
 
@@ -39,7 +39,7 @@ Before you start, ensure you have:
 
     If you want to add another webhook to the quiz, click `+add new webhook`, paste a new URL and follow the same steps to test and activate it.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/23bc313da7174fb38a1854ec76eb2da8?sid=772e6cc4-f4fe-4900-aecc-51b4e37ae071" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -185,7 +185,7 @@ Before you start, ensure you have:
 
 ## What Data is Sent to Webhook?
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Webhooks will receive all data from the quiz, incluiding:
 
@@ -404,7 +404,7 @@ Before you start, ensure you have:
     }
     ```
 
-=== "Shopify V2"
+=== "Shopify"
 
     Webhooks will receive all data from the quiz, incluiding:
 

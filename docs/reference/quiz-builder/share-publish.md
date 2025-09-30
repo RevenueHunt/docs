@@ -1,6 +1,6 @@
 # Share / Publish
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder share](/images/manual_quizbuilder_share.png)
 
@@ -8,7 +8,7 @@
 
     For step-by-step instructions check [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![/images/manual_shopifyV2_quizbuilder_share_publish_publishinthemenu.png](/images/manual_shopifyV2_quizbuilder_share_publish_publishinthemenu.png)
 
@@ -64,7 +64,7 @@
 
 ## Link
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     A link that will open the quiz as a popup over your page.
 
@@ -78,7 +78,7 @@
 
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
-=== "Shopify V2" 
+=== "Shopify" 
 
     !!! info "What's a Link Popup?"
         It's a link that will open the quiz as a popup over your page.
@@ -206,7 +206,7 @@
 
 ## Inline
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Quiz embedded inline with a page.
 
@@ -224,7 +224,7 @@
 
     `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! info "What's an Inline Quiz?"
         It's a quiz embedded inline with a page.
@@ -375,7 +375,7 @@
 
 ## Automatic
 
-=== "Shopify" 
+=== "Shopify (Legacy)" 
 
     A quiz popup appears after X seconds.
 
@@ -397,7 +397,7 @@
 
     `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! info "What's an Automatic Popup?"
         It's a quiz popup that appears after X seconds. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
@@ -563,7 +563,7 @@
 
 ## External
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Direct link to the quiz for social media.
 
@@ -575,7 +575,7 @@
 
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! info "What's an External Link?"
         It's a direct link to the quiz for social media.
@@ -652,7 +652,7 @@
 
 ## Email
 
-=== "Shopify" 
+=== "Shopify (Legacy)" 
 
     Quiz popup when someone clicks on this email link. 
 
@@ -664,7 +664,7 @@
 
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! info "What's an Email Link?"
         It's a direct link to the quiz for emails.
@@ -740,7 +740,7 @@
 
 ## Chat
 
-=== "Shopify" 
+=== "Shopify (Legacy)" 
 
     Quiz popup when visitors click on a chat-like button.
 
@@ -768,7 +768,7 @@
 
     `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     !!! info "What's a Chat Popup?"

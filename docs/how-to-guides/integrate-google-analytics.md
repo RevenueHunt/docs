@@ -4,13 +4,13 @@ icon: material/google-analytics
 
 # How to Track Quiz Performance with Google Analytics
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To track quiz performance with Google Analytics in Shopify (legacy), you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
 
     This article explains how to track quiz events and performance in Google Analytics.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Google Analytics offers a powerful way to gain insights into user engagement with your quizzes. Linking your quiz with Google Analytics can provide valuable data on user interaction, pinpoint engagement issues, and help minimize abandonment rates. 
     
@@ -48,7 +48,7 @@ icon: material/google-analytics
 
 ## Connect Quiz to Google Analytics
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     !!! note
@@ -109,7 +109,7 @@ icon: material/google-analytics
     4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     !!! note
@@ -422,7 +422,7 @@ icon: material/google-analytics
 
 ## Track Customer Behavior (Events)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Once set up, you'll be able to see customer events in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
 
@@ -431,7 +431,7 @@ icon: material/google-analytics
     If you're not seeing the events, please double-check the code you've added to the page where the quiz is embeded. 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     You'll be able to see quiz usage and customer behavior in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
 
@@ -491,13 +491,13 @@ icon: material/google-analytics
 
 ## Track Quiz Revenue
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Depending on the custom events that you've programed in the [first step](/how-to-guides/integrate-google-analytics/#connect-the-quiz-to-google-analytics), you may be able to see quiz revenue in your Google Analytics.
 
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/9216061?hl=en) for more information on how to track revenue from custom events or expolre the GA4 [Explorations](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article).
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     GA4 doesn’t “automatically” tie custom events to purchases. But you can segment/filter by those events and then look at purchase revenue. 
@@ -592,7 +592,7 @@ icon: material/google-analytics
 ## Use GA4 Explorations
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Google Analytics 4 (GA4) offers **Explorations**, a powerful tool for digging deeper into your quiz data. Standard reports show you high-level trends, but Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
 
@@ -610,7 +610,7 @@ icon: material/google-analytics
 
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Google Analytics 4 (GA4) offers **Explorations**, a powerful tool for digging deeper into your quiz data. Standard reports show you high-level trends, but Explorations let you ask more specific questions about how customers interact with your quiz and how it impacts revenue.
 

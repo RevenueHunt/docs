@@ -2,7 +2,7 @@
 
 On the dashboard, you'll find all the quizzes that you create.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![dashboard](/images/manual_dashboard.png)
 
@@ -20,7 +20,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `New quiz` - Opens the [New quiz](#new-quiz) setup menu.
 
-=== "Shopify V2"
+=== "Shopify"
 
     The RevenueHunt Quizzes `Dashboard` is the central hub where you can view, manage, and optimize all the quizzes in your store. Here’s a breakdown of the key elements on this screen:
 
@@ -122,7 +122,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Notifications
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![dashboard notifications bar](/images/manual_notifications.png)
 
@@ -130,7 +130,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `x` - Archives a notification.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_notifications](/images/manual_shopifyV2_notifications.png)
 
@@ -180,7 +180,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Quizzes
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![dashboard tutorial quiz](/images/manual_tutorial_quiz.png){width="300"}
 
@@ -213,7 +213,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_dafaultquiz](/images/manual_shopifyV2_dafaultquiz.png)
 
@@ -390,7 +390,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Tips & Tricks
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Displays useful tips and tricks for building a better quiz.
 
@@ -398,7 +398,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `view all` - Opens archived tips.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_tipstricks](/images/manual_shopifyV2_tipstricks.png)
 
@@ -440,7 +440,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Success Checklist
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To open the Success Checklist click on any of the ❓❗✅ 🔄 icons.
 
@@ -458,7 +458,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `run manual sync` - Starts a full sync of your product catalog. The sync takes about 30 - 60 minutes to complete. If your store has more than 3,000 product variants, the sync can take longer. Please note that a full sync of your catalog is done every 24 hours.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_successchecklist](/images/manual_shopifyV2_successchecklist.png)
 
@@ -581,7 +581,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## New Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![new quiz page](/images/manual_standalone_newquiz.png)
 
@@ -599,7 +599,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `use this template` - Adds the template to your dashboard. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_createquiz.png](/images/manual_shopifyV2_createquiz.png)
 
@@ -713,11 +713,11 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Support
 
+=== "Shopify (Legacy)"
+
+
+
 === "Shopify"
-
-
-
-=== "Shopify V2"
 
     ![manual_shopifyV2_dashboard_support](/images/manual_shopifyV2_dashboard_support.png)
 
@@ -759,11 +759,11 @@ On the dashboard, you'll find all the quizzes that you create.
 
 ## Switch to V1
 
+=== "Shopify (Legacy)"
+
+
+
 === "Shopify"
-
-
-
-=== "Shopify V2"
 
     ![manual_shopifyV2_sidemenu](/images/manual_shopifyV2_sidemenu.png)
 

@@ -9,7 +9,7 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
 ## 🐞 Known Bugs
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     These are the known bugs that we are aware of and are working to fix:
 
@@ -36,7 +36,7 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     These are the known bugs that we are aware of and are working to fix:
 
@@ -147,7 +147,7 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
 ## ⚖️ Current Limitations (By Design)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     These are not bugs but important to know:
 
@@ -167,7 +167,7 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
     - **Shop Minis Deprecation**: Shopify is sunsetting Shop Minis integrations, impacting merchants who used the app within Shop.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     These are not bugs but important to know:
 

@@ -19,7 +19,7 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 
     Carefully consider your quiz goals before enabling this feature to ensure it aligns with your business objectives.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/af13990661614b4eb7e2964989d1d1e7?sid=5deeb33c-eb7e-412b-8903-f403d5a5cb81" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -45,7 +45,7 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 
     11. Once Jump Logic is set up and leading the customers to different results pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/7851abaea4964d51bc41d0738281da9d?sid=7ef0fec7-3d95-46b9-b64a-949a82d66322" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

@@ -5,7 +5,7 @@ icon: material/numeric-5
 # Sedning Emails with RevenueHunt app
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In these tutorials, you’ll learn how to send emails to quiz respondents and yourself using the RevenueHunt app and how to connect your own email server using SMTP (Simple Mail Transfer Protocol) .
 
@@ -15,7 +15,7 @@ icon: material/numeric-5
         - how to receive a notification email when someone completes a quiz,
         - how to connect your own email server using SMTP.
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     In this tutorial, you’ll learn how to send emails to quiz respondents and yourself using the RevenueHunt app and how to connect your own email server using SMTP (Simple Mail Transfer Protocol).
@@ -79,7 +79,7 @@ icon: material/numeric-5
 ## Sending Emails to Respondents
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/59f5f73b491545fe85b6a3aaeb025bf1?sid=e7fd0e9f-c795-460b-969b-5b94226c0876" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -109,7 +109,7 @@ icon: material/numeric-5
     6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an [email question](/reference/quiz-builder/questions/#email). To add an email question go to the [Quiz Builder > Questions](/reference/quiz-builder/questions/) and click `+ Add question`or `+ Add block`.
@@ -278,7 +278,7 @@ icon: material/numeric-5
 ## Sending Emails to Yourself
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -300,7 +300,7 @@ icon: material/numeric-5
     3. Add your email address in the `Send email notification to` field.
     4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     2. **Activate Emails to Self**: Go to [`Quiz Settings > Emails to self`](/reference/quiz-builder/notifications/#to-self) and check the `Receive an email when someone completes the quiz` button to activate the emails.
@@ -422,7 +422,7 @@ icon: material/numeric-5
 ## Sending Emails from Your Servers (SMTP)
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4887d06413b84d0098f2c08c49f8ead9?sid=6eac3370-9976-4ea2-81c3-85a0691669a5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -457,7 +457,7 @@ icon: material/numeric-5
     
         If there are errors, please check the [troubleshooting guidelines](/how-to-guides/send-result-emails-from-custom-server/#troubleshooting-common-smtp-connection-issues).
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
     2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).

@@ -1,6 +1,6 @@
 # How to Send Leads to Omnisend
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     Apart from giving your customers a personalized product recommendation, you can connect Product Recommendation Quiz to your Omnisend account so that the quiz results are sent automatically to your mailing list. This way you can segment them based on their responses and follow up with targeted campaigns.
@@ -8,7 +8,7 @@
     This article explains how to connect your quiz to Omnisend, create a segment for quiz participants and how to send the quiz results via email in Omnisend.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     Apart from giving your customers a personalized product recommendation, you can connect Product Recommendation Quiz to your Omnisend account so that the quiz results are sent automatically to your mailing list. This way you can segment them based on their responses and follow up with targeted campaigns.
 
@@ -47,7 +47,7 @@
 
 ## Link Quiz to Omnisend
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
     2. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). 
@@ -82,7 +82,7 @@
 
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](#use-quiz-data-in-omnisend-email-templates).
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/89d2f35bb4f24d0cac4ea5dc0cdaa08c?sid=ee552793-e4bf-4d77-a870-ae809b9a7649" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -267,7 +267,7 @@
  
 ## Send Follow-up Emails with Omnisend
 
-=== "Shopify"   
+=== "Shopify (Legacy)"   
 
     It’s possible to set up a post-quiz email campaign in Omnisend to send the product recommendations or other offers to the quiz participants. 
     
@@ -311,7 +311,7 @@
     7. **Save all changes and start the workflow**: Save all changes and start the workflow to activate the automation for quiz takers.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/5b60359870e449bfa3a6c9b1a867abfc?sid=a941f0aa-abc6-48dd-a885-e1752df8e036" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -551,7 +551,7 @@
 
 ## Use Quiz Data In Omnisend Email Templates
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     You can use the quiz data in your Omnisend email templates by using the `custom properties` that are passed from the quiz to your Omnisend account.
@@ -561,7 +561,7 @@
 
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](https://support.omnisend.com/en/articles/1061885-custom-properties-for-contacts).
 
-=== "Shopify V2"
+=== "Shopify"
 
     You can use the quiz data in your Omnisend email templates by using the `custom properties` that are passed from the quiz to your Omnisend account.
 
@@ -607,7 +607,7 @@
 
 ### Pull Customer Answers into an Email Template
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/1911ea75ad7d4531b3886b0fd5af01a7?sid=741a1bb2-72bb-41ee-be1b-390654e18369" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -629,7 +629,7 @@
     9. Save the email template.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/1911ea75ad7d4531b3886b0fd5af01a7?sid=741a1bb2-72bb-41ee-be1b-390654e18369" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -741,7 +741,7 @@
 ### Display a Link to the Quiz Results in an email
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Use the `permalink_koHP8VA` in your email template. This property already contains a full url to the quiz results page.
 
@@ -750,7 +750,7 @@
         `<a href="{{ contact.custom.permalink_koHP8VA }}">View your quiz results</a>`
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     Use the `quiz_QUIZID_response_id` to create a link to the quiz results page. Just add `#response-{{ person|lookup:'quiz_QUIZID_response_id' }}` to the end of your results page href attribute in any link or URL. 
 
@@ -806,7 +806,7 @@ Note that while customer profiles are updated with new quiz takes—including an
 
 ### Email Templates
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Here are some email templates that you can use as a reference:
 
@@ -816,7 +816,7 @@ Note that while customer profiles are updated with new quiz takes—including an
 
     Bear in mind that the templates won’t work by just copy/pasting. These templates were created for our demo quiz. Your developer will have to modify the `custom properties` in these templates to match the ones that are passed from the quiz to your Omnisend account. The `quiz ID` is different, so are other property names. After the changes are made, your developer can insert the code as a `custom HTML block` on the Omnisend email template.
 
-=== "Shopify V2"
+=== "Shopify"
 
     In the [Integrations](/reference/quiz-builder/connect-integrations/) section, under `Omnisend`, you can find the `omnisend template`. 
     

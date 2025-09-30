@@ -8,13 +8,13 @@ With RevenueHunt Product Recommendation Quiz, it is possible to group products i
 
 This guide is designed to help merchants effectively use [Product Slot Blocks](/reference/quiz-builder/results-page/#block-types) on the results page to organize product recommendations. 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/f249d672fe414dc390715b210a94a75a?sid=0a795570-01c5-4777-b6b1-62b0a0da3387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -70,7 +70,7 @@ It's advised to familiarize yourself with this [voting system](/how-to-guides/re
 
 ## Step 2: Organize Products into Collections/Categories
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To group products into slots, you’ll need to create new collections in your Shopify store. These collections will be used to group your products on the results page.
 
@@ -84,7 +84,7 @@ It's advised to familiarize yourself with this [voting system](/how-to-guides/re
 
     3. **Catalog Sync**: Perform a [catlog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
-=== "Shopify V2"
+=== "Shopify"
 
     To group products into slots, you’ll need to create new collections in your Shopify store. These collections will be used to group your products on the results page.
 
@@ -158,14 +158,14 @@ It's advised to familiarize yourself with this [voting system](/how-to-guides/re
 
 Once your quiz is set up, you should add products and collections to the choices in the quiz. This step is necessary to show recommendations.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. **Go to Link Products/Collections tab**: In the Quiz Builder, go to [Link Products](/reference/quiz-builder/link-products/) or [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab.
     2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not recieve at least one vote, it will never show up on the results page.
 
         ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. **Go to Link Products/Collections tab**: To add link products or product variants to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice and open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
 
@@ -204,7 +204,7 @@ Once your quiz is set up, you should add products and collections to the choices
 
 ## Step 5: Add Product Slots to the Results Page
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. Add design elements like headings, logos, and content blocks.
     2. **Add a Product Slots Block**: Use the `+` button to add a `Product Slots Block` to the Results Page.
@@ -214,7 +214,7 @@ Once your quiz is set up, you should add products and collections to the choices
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
     6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. Add design elements like headings, logos, and content blocks.
     2. **Add a Product Block**: Use the `+` button to add a `Product Block` to the Results Page.

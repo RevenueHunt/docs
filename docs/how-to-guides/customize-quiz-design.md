@@ -15,11 +15,11 @@ You can change the quiz's appearance to fit your store's style. This guide expla
     - Add videos to the quiz or results page via the [question settings](/reference/quiz-builder/questions/#question-settings)
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/XU08ZCm3ZHM?si=uMjK1QDajv44pcYp" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/u7y2G5KfEB8?si=CknzZhgEmXUn4MVF" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -45,7 +45,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 ### Basic Customizations
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. **Open Quiz Design tab**: Open your quiz and navigate to the [Quiz Design](/reference/quiz-builder/quiz-design/) tab. In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
     2. **Customize the look**: You can choose from any of our pre-designed themes in the `My Themes` tab or create your own. 
@@ -67,7 +67,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
@@ -209,7 +209,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 ### Advanced Customizations (CSS)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Via the CSS console, you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS.
 
@@ -257,7 +257,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     For those with coding knowledge, the `Advanced` customization panel within the [Quiz Design](/reference/quiz-builder/quiz-design/) offers the flexibility to input custom CSS, allowing you to override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
 
@@ -518,7 +518,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 ## Advanced Customizations (JavaScript)
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
 
@@ -534,7 +534,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     You can add custom JavaScirpt to the quiz results page and the quiz questions to make it even more customizable.  We made it very easy for developers to tap into the quiz structure or response and get all the information they need: individual answers to questions, triggered tags and recommended products.
 
@@ -615,7 +615,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 ## Styling Quiz Text
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
 
@@ -652,7 +652,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#add-custom-css-code) code for that. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     To personalize the text within each question, open the [**`Block Settings`**](/reference/quiz-builder/questions/#block-settings) for each content block. 
     
@@ -837,7 +837,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 ## Adding Images and Videos
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can add images to your quiz in serveral ways. 
 
@@ -856,7 +856,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
     !!! tip
         Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
 
-=== "Shopify V2"
+=== "Shopify"
 
     Enhance your quiz with visual elements by using the **Image** and **Picture Choice** blocks. These options allow you to add standalone images or offer picture-based answer choices, making your quiz more engaging and visually appealing.
 
@@ -995,7 +995,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 ## Individual Question Design
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In addition to the overall Quiz Design options, you can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
 
@@ -1004,7 +1004,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
     The question settings also allow you to incorporate [custom JavaScript](/how-to-guides/add-javascript/) into your quiz design.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     In addition to the overall Quiz Design options, you can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
 
@@ -1067,7 +1067,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
 ## Useful CSS Codes
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Here are a few popular CSS selectors and codes to style elements in the quiz:
 
@@ -1249,7 +1249,7 @@ We offer complete flexibility to developers for personalizing both the quiz and 
         }
         ```
 
-=== "Shopify V2"
+=== "Shopify"
 
     !!! tip "Get help with custom CSS"
     

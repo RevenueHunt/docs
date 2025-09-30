@@ -10,14 +10,14 @@ This guide provides a clear, step-by-step process to making sure that specific p
 
 This approach ensures your chosen product always tops the Results Page by securing the most votes.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Access the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. 
     2. Link your selected product with **every choice** available in the quiz. This method guarantees that the product collects votes with each customer selection, ensuring its appearance on the Results Page.
 
     This strategy positions the product at the forefront of the Results Page every time.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. Navigate to the [Quiz Builder](/reference/quiz-builder/) and locate the question you want to modify.
     2. Click on each choice/answer in your question to open the [choice settings](/reference/quiz-builder/link-products/) upvote products.
@@ -58,7 +58,7 @@ This approach ensures your chosen product always tops the Results Page by securi
 
 For those looking to highlight a new product or collection without dominating the entire recommendation list, creating a dedicated `Products Slot` on the Results Page offers a balanced solution.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. **Create a Collection/Category for Your Product(s)**: Group the products you wish to feature in a `New Products` collection/category. For instance, include your `Essentials Makeup Kit COMPLETE` in this collection.
 
@@ -72,7 +72,7 @@ For those looking to highlight a new product or collection without dominating th
 
     6. **Preview and Test Your Setup**: With your dedicated slot in place, click the `Publish` button to update the preview/live quiz. Then, preview the quiz and its results to ensure the new product or collection is displayed as intended. This final step confirms that your selected items are correctly highlighted on the Results Page.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. **Create a Collection for Your Featured Products**: In your Shopify admin, create a dedicated collection for the products you want to always recommend.
 

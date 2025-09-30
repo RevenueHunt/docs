@@ -1,6 +1,6 @@
 # Quiz Builder
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder](/images/manual_quizbuilder.png)
 
@@ -60,7 +60,7 @@
 
     `❔ Help` - Opens the [Help menu](/reference/dashboard/).
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![manual_shopifyV2_quizbuilder](/images/manual_shopifyV2_quizbuilder.png)
 

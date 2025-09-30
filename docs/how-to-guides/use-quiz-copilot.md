@@ -4,11 +4,11 @@ icon: material/chat-question-outline
 
 # How to Use Quiz Copilot
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the legacy version of the RevenueHunt app for Shopify.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4639a53373134fc0be81deb9f2c04930?sid=59e1436d-8654-46a8-9fc4-166c251fcd06" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

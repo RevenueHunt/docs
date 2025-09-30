@@ -10,13 +10,13 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
 ## Recommendations
 
-=== "Shopify" 
+=== "Shopify (Legacy)" 
 
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **[Recharge subscription products](/how-to-guides/recommend-subscription-products/)**. 
 
     RevenueHunt Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](/how-to-guides/recommend-skincare-routine-slots/).
 
-=== "Shopify V2" 
+=== "Shopify" 
 
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **collections**.
 
@@ -68,7 +68,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
 ## Recommending the Right Products
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Follow these steps to set up product recommendations in your Product Recommendation Quiz:
 
@@ -106,7 +106,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
 
-=== "Shopify V2" 
+=== "Shopify" 
 
     In Shopify V2, there are several ways to recommend products:
 
@@ -307,13 +307,13 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
 ## How to Build Your Quiz Setup
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Check the quiz to learn how to build the quiz outcome you want or consult the *How-to* guides listed below.
 
     <script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/X2Hy6G" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![how_to_recommend_products_decision_tree_V2](/images/how_to_recommend_products_decision_tree_V2.png)
 
@@ -388,7 +388,7 @@ It is possible to limit the number of recommended products on the results page b
 
 ### Recommend Subscription Products
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     If you're using a legacy version of the RevenueHunt app for Shopify and Rechare Subscriptions check [this guide](/how-to-guides/recommend-subscription-products/) to learn how to recommend subscription products directly from the quiz.
@@ -399,7 +399,7 @@ It is possible to limit the number of recommended products on the results page b
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/)
 
-=== "Shopify V2"
+=== "Shopify"
 
     The new RevenueHunt app for Shopify doesn't yet support recommending subscription products.
 
@@ -452,7 +452,7 @@ It is possible to limit the number of recommended products on the results page b
 
 ### Show Results Explanation
 
-=== "Shopify" 
+=== "Shopify (Legacy)" 
 
     While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
 
@@ -460,7 +460,7 @@ It is possible to limit the number of recommended products on the results page b
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
 
-=== "Shopify V2"
+=== "Shopify"
 
     While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product.
 

@@ -1,6 +1,6 @@
 # Customer Tags
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
 
@@ -16,7 +16,7 @@
 
     You can create as many tags as you like. You can link as many tags as you like to the same choice.
 
-=== "Shopify V2"
+=== "Shopify"
 
     
     You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.

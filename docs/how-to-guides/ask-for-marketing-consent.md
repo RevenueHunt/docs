@@ -18,7 +18,7 @@ This article outlines several methods to integrate consent requests seamlessly i
 
 ## Add a Link to Your Privacy Policy
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz using [Markdown Language](/how-to-guides/use-markdown/). 
 
@@ -30,7 +30,7 @@ This article outlines several methods to integrate consent requests seamlessly i
 
     ![how to consent privacy policy](https://revenuehunt.com/wp-content/uploads/2024/06/Screenshot-2024-06-14-122634.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     A fundamental step in asking for consent is to make your Privacy Policy easily accessible. You can link to your Privacy Policy within any text element of the quiz.
 
@@ -90,7 +90,7 @@ This article outlines several methods to integrate consent requests seamlessly i
 
 ### Option 1: Question Description / Text Block
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can inform the customer in the question description that by providing the email address they agree to receive marketing information.
 
@@ -100,7 +100,7 @@ This article outlines several methods to integrate consent requests seamlessly i
     4. Include a link to your privacy policy using [Markdown Language](/how-to-guides/use-markdown/), e.g., `[privacy policy](https://www.linktoyourprivacypolicy.com)`
     5. Publish your changes using the `Publish` button located at the top-right corner.
 
-=== "Shopify V2"
+=== "Shopify"
 
     You can inform the customer in any text block that by providing the email address they agree to receive marketing information.
 
@@ -151,7 +151,7 @@ This article outlines several methods to integrate consent requests seamlessly i
 
 ### Option 2: Marketing Checkmark
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Create a marketing consent checkbox by combining quiz slides can ensure users actively consent before proceeding.
 
@@ -161,7 +161,7 @@ This article outlines several methods to integrate consent requests seamlessly i
     4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
         ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     Create a marketing consent checkbox by combining quiz blocks on one question to ensure users actively consent before proceeding.
 

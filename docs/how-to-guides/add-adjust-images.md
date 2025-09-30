@@ -28,7 +28,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 ### Quiz Background Image
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can upload a background image for the whole quiz via the [Quiz Design tab](/reference/quiz-builder/quiz-design/).
 
@@ -92,7 +92,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
         }
         ```
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/RNFq-2HCRro?si=4xZDwSz-GxDNlE7H" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -398,7 +398,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 ### Question Background/Split Image
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can upload a different background image to each question in the quiz via the [question settings](/reference/quiz-builder/questions/#picture-choice).  
 
@@ -469,7 +469,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/rQEVMLzez2U?si=HoNlj3KwQ67yKAUk" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -812,7 +812,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 ### Image Blocks
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **QUESTIONS**
 
@@ -895,7 +895,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     6. Click `Publish` to save the changes.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Cg-85oQ1mPA?si=vqCVMwIC4jDM3ITy" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -1260,7 +1260,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 ### Picture Choices
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
 
@@ -1288,7 +1288,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
     6. Add more choices by clicking `+ Add choice` and repeat the process.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/pRIPY4pLoMw?si=EbnsHRRnzSf_NKHX" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -1442,7 +1442,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 ### Product Image 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Product Images displayed on the Results page are taken directly from your Shopify catalog. Product slots diplsay the first image of the product or variant uploaded to your Shopify Products section.
 
@@ -1458,7 +1458,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
         }
         ```
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CeN1xrE3XpE?si=9nNUSjPGJDreQctq" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

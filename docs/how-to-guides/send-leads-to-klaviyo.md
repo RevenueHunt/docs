@@ -5,7 +5,7 @@ Apart from giving your customers personalized product recommendations, you can c
 This article walks you through the process of connecting your quiz to Klavviyo and setting up post-quiz email flow. You can also follow our step-by-step [tutorial](/tutorials/follow-up-emails-klaviyo/).
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=A3Q1Ly_hZqWCIXrx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -14,7 +14,7 @@ This article walks you through the process of connecting your quiz to Klavviyo a
     !!! tip "Tutorial"
         You can also follow our step-by-step tutorial to learn how to connect your quiz to Klaviyo and send leads to Klaviyo: [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/)
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/1ccqOIhfskw?si=8px5Gl4sDuavHuDe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -62,7 +62,7 @@ This article walks you through the process of connecting your quiz to Klavviyo a
 
 ## Link Your Quiz to Klaviyo
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=MoMUJ1OTl-cmoBQo&amp;start=104" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -87,7 +87,7 @@ This article walks you through the process of connecting your quiz to Klavviyo a
 
     ![how to send leads to klaviyo customer profile](/images/how_to_send_leads_to_klaviyo_customer_profile.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/1ccqOIhfskw?si=iI8pBe7MMFh8JwkS&amp;start=42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -225,7 +225,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     Once the quiz is connected to Klaviyo (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Klaviyo.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=_NKZoiG-xGhV8IeO&amp;start=200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -314,7 +314,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/1ccqOIhfskw?si=Jq3axq2iupfy2Xxu&amp;start=114" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -791,7 +791,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 ## Adding Quiz Contacts to Klaviyo List
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=ZjTq4oGBKH8ovagW&amp;start=429" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -814,7 +814,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     10. Save the changes and publish them with the top-right `Publish` button.
     11. Remember to test the connection with a sample email.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/1ccqOIhfskw?si=rCHFncBo62LnFpD4&amp;start=370" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -944,7 +944,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 ## Use Quiz Data In Klaviyo Email Templates
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
 
@@ -955,7 +955,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/6650ebf870714d9eaf450ea51439b0af?sid=91c5c125-318f-4b07-8233-350d1c7272c5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -1035,7 +1035,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 ### Example Email Templates
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In this example, we’re using our quiz ID `dbqHqN`, which you’ll need to replace for your quiz ID. Here is the code for reference:
 
@@ -1079,7 +1079,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         Bear in mind that these templates (unlike the one generated from the Connect > Klaviyo tab) won’t work as is. They were created for a sample quiz. Your developer will have to modify the `custom properties` to match the ones that are passed from the quiz to your Klaviyo account. The `quiz ID` is different, so are other property names.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ### Use Copilot to generate Klaviyo Email Template
 

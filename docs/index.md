@@ -10,7 +10,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
 
 ## Installing the App
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
     2. Grant permissions to connect our app to your Shopify.
@@ -30,7 +30,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
 
         Please note that it is currently **not possible** to copy quizzes from the legacy app to the new Built for Shopify version of the app.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
     2. Grant permissions to connect our app to your Shopify.

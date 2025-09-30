@@ -1,10 +1,10 @@
 # Metrics
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
-=== "Shopify V2"
+=== "Shopify"
 
     In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
 
@@ -26,7 +26,7 @@
 
 ## Responses
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
 
@@ -78,7 +78,7 @@
 
     `resend notifications` - Triggers the response again, which results in all the data being re-sent. This will cause the emails or data redirections to integrations to be triggered again.
 
-=== "Shopify V2"
+=== "Shopify"
 
     To open the responses sections, go back to the [dashboard](/reference/dashboard/). 
 
@@ -395,7 +395,7 @@
 
 ## Analytics
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder metrics analytics](/images/manual_quizbuilder_metrics_analytics.png)
 
@@ -441,7 +441,7 @@
 
     `Avg. Order Value` - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Access the Analytics from the [Dashboard](/reference/dashboard/). You can open the Analytics tab from the Shopify side menu.
 
@@ -667,7 +667,7 @@
 
 ## Drop-off
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
 
@@ -685,7 +685,7 @@
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
-=== "Shopify V2"
+=== "Shopify"
 
     Coming Soon
 

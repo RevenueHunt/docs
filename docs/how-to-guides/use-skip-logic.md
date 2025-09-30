@@ -10,11 +10,11 @@
 
 In this article, we will show you how to set up and use Skip Logic in your quiz, including specific use-cases and step-by-step instructions.
 
-=== "Shopify"   
+=== "Shopify (Legacy)"   
 
     <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=5vIwsEn0Z5X6_Eeb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=iMGaCLXqTpr8yS0B" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -46,7 +46,7 @@ In this article, we will show you how to set up and use Skip Logic in your quiz,
 
 ## Conditional Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
 
@@ -74,7 +74,7 @@ In this article, we will show you how to set up and use Skip Logic in your quiz,
 
         **arrow down** - Take you to the question lower.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![quiz builder conditional logic](/images/how_to_use_skip_logic_cond_logic_intro.png)
 
@@ -220,7 +220,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
     - **is**/ **is not** pick a choice from the dropdown list
     - **THEN this question is skipped**
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. You can introduce Skip Logic into your quiz by accessing the [Conditional Logic settings](/reference/quiz-builder/conditional-logic/) of a question.
     2. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab. 
@@ -241,7 +241,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
     5. **Preview and Adjust:** Publish the changes with the top-right `Publish` button to update the preview/live quiz and test the setup.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. You can introduce Skip Logic into your quiz by opening the [Quiz Builder > Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     2. Select a question that you want to be skipped and in the right-hand side menu open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) dropdown.
@@ -351,7 +351,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 ### Skip Questions Based on User's Answers
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -384,7 +384,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=WauBIBFSMPIlFNtm&amp;start=9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -577,7 +577,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 ### Show Different Follow-Up Questions After Multiple-Selection Question
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     **Scenario**
@@ -620,7 +620,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
         This approach works best with a linear quiz structure (no branching). The key is to use the "IS NOT" condition in your Skip Logic rules, which ensures that questions are only shown when the customer has selected the relevant option in the main question.
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=8mMuIlNk_TnNkKnD&amp;start=62" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -854,7 +854,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 ### Filtering Email Collection Based on Interest
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     **Scenario**
 
@@ -868,7 +868,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
     - Follow up with an `email` input question.
     - Apply Skip Logic to the email question: if the customer opts out in the previous step, they are directed straight to the results page, bypassing the email question.
 
-=== "Shopify V2"
+=== "Shopify"
 
 
     **Scenario**

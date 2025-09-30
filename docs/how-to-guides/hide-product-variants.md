@@ -11,7 +11,7 @@ Within Product Recommendation Quiz it is possible to hide the product variants d
 
 ## Option 1) Recommend a specific product variant instead
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can recommend a specific product variant instead of the main product by changing your Results Page settings. 
 
@@ -23,7 +23,7 @@ Within Product Recommendation Quiz it is possible to hide the product variants d
     2. Deactivate the `Group product variants` option. 
     3. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     You can recommend a specific product variant instead of the main product by changing your Product Block settings on the Results Page.
 
@@ -87,7 +87,7 @@ Within Product Recommendation Quiz it is possible to hide the product variants d
 
 ## Option 2) Hide the dropdown with custom CSS code
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
     It is also possible to recommend only the main product and simply hide the dropdown with custom CSS code. To do that:
@@ -110,7 +110,7 @@ Within Product Recommendation Quiz it is possible to hide the product variants d
 
     4. Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     It is also possible to recommend only the main product and simply hide the dropdown with custom CSS code. To do that:
 

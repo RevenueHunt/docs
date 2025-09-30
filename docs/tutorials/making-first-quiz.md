@@ -5,7 +5,7 @@ icon: material/numeric-1
 # Making Your First Product Recommendation Quiz || Recommending the Best Cleanser
 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In this tutorial, you'll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
 
@@ -25,7 +25,7 @@ icon: material/numeric-1
     <iframe src="https://www.youtube.com/embed/nVR8slJPSpY?si=6l2Vvz7i73IpJqzB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-=== "Shopify V2"
+=== "Shopify"
 
     In this tutorial, you'll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
 
@@ -139,7 +139,7 @@ The most successful quizzes have two things in common. They are **short** and th
 
 ## Add a New Quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Let's add a new quiz from your [dashboard](/reference/dashboard/).
     2. [Quiz Builder](/reference/quiz-builder/) is where you'll create your quiz. 
@@ -153,7 +153,7 @@ The most successful quizzes have two things in common. They are **short** and th
     10. Once you have all your questions you can move them around by drag and drop. 
     11. Make sure to keep the quiz short. Customers typically drop out after question 8 and almost nobody gets to question 12. There's power in simplicity!
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. Let's add a new quiz from your [dashboard](/reference/dashboard/) by clicking on the `Create New Quiz` button.
     2. [Quiz Builder](/reference/quiz-builder/) is where you'll create your quiz. 
@@ -227,7 +227,7 @@ The most successful quizzes have two things in common. They are **short** and th
 
 Now let's make the quiz pretty. 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. You can change the look of your quiz in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. In the [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes), you'll see some premade themes that you can choose from.
@@ -241,7 +241,7 @@ Now let's make the quiz pretty.
     6. All the changes you make will be saved automatically.
     7. Once you're done, you can change the name of your theme and it will be saved in [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes). You'll be able to apply it to other quizzes that you create.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. You can change the look of your quiz in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     2. In the [Color Scheme Section](/reference/quiz-builder/quiz-design/#my-themes), you'll see some premade themes that you can choose from.
@@ -314,7 +314,7 @@ Now let's make the quiz pretty.
 
 Once you're happy with the design, you can add products to each question. It is a very important step! 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Our [success checklist](/reference/dashboard/#success-checklist) will remind you if there are no products associated with the answers.
     2. To add a product, go to the [Link Products](/reference/quiz-builder/link-products/) tab and click on the blank space after the answer.
@@ -328,7 +328,7 @@ Once you're happy with the design, you can add products to each question. It is 
     6. Make sure to link products to each question and choice in the quiz. 
     7. You can test different answering routes and results by clicking on the `Publish` button to update the preview/live quiz and then `Preview`.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. Our dashboard will remind you if there are no products associated with the answers.
     2. To add a product, open the [choice settings](/reference/quiz-builder/questions/#choice-settings) and click on the [Upvote](/reference/quiz-builder/link-products/) section.
@@ -402,7 +402,7 @@ Once you're happy with the design, you can add products to each question. It is 
 
 Speaking of results. Make sure to also edit the Results Page.
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Just like in the Quiz Builder, you can add multiple sections to your [Results Page](/reference/quiz-builder/results-page/). 
     2. Click on a `+` plus sign to select a block type. 
@@ -412,7 +412,7 @@ Speaking of results. Make sure to also edit the Results Page.
     3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdowns allow you to add **boldness** or *emphasis* to your text but also insert links, images, and videos. For more information about the Markdown language, check our [How-To documentation](/how-to-guides/) section.
     4. The [Result Page settings](/reference/quiz-builder/results-page/) allow you to further customize the quiz with a background image.
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. Just like in the Quiz Builder, you can add multiple sections to your [Results Page](/reference/quiz-builder/results-page/) by clicking on the `Results Page` tab. 
     2. Click on the `+ Add Block` button to select a block type. 
@@ -463,7 +463,7 @@ Speaking of results. Make sure to also edit the Results Page.
 
 ## Publishing the quiz
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Once your quiz is set up, hit the [`Share`](/reference/quiz-builder/share-publish/) button in the top right-hand corner to see all of the publishing options.
     2. For example, you can [embed a link to the quiz in your website's menu](/how-to-guides/publish-quiz-link#link-popup-in-website-menu).
@@ -472,7 +472,7 @@ Speaking of results. Make sure to also edit the Results Page.
 
     Voila!  You've just created your first Product Recommendation Quiz. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     1. Once your quiz is set up, go to your [Dashboard](/reference/dashboard/) make the quiz your default by clicking on the `Make default` button.
     2. Navigate to the [`Publish`](/reference/quiz-builder/share-publish/) section to see all the publishing options.

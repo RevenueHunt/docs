@@ -26,7 +26,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Results Page
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
     2. Select [**Advanced Settings**](/reference/quiz-builder/results-page/#advanced-settings).
@@ -34,7 +34,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![how_to_javascript_resultspagesettings](/images/how_to_javascript_resultspagesettings.png)
 
@@ -83,7 +83,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Quiz Questions
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
     2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
@@ -91,7 +91,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     ![how_to_javascript_questionsettings](/images/how_to_javascript_questionsettings.png)
 
@@ -140,7 +140,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ## Console.log(x) Function
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     To begin, let's log the quiz response object to the console:
 
@@ -226,7 +226,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     For other functions and properties refer to the [console.log(prq)](#consolelogprq-function).
 
-=== "Shopify V2"
+=== "Shopify"
 
     In Shopify V2, the `prq` object is not available. Instead, you have access to different objects:
 
@@ -690,7 +690,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Example 1: Trigger functions from an element in the results page
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can do it two ways: 
 
@@ -736,7 +736,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             destination_element.appendChild(element);
             ```
 
-=== "Shopify V2"
+=== "Shopify"
 
     In Shopify V2, you can add interactive elements to your quiz results page:
 
@@ -969,7 +969,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Example 2: Insert calculations
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     You can display the information you have gathered throughout the quiz and mash it up however you want. For example, you could create a BMI (body mass index) calculator the following way.
 
@@ -1008,7 +1008,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
 
-=== "Shopify V2"
+=== "Shopify"
 
     In Shopify V2, you can access the answers from the `answers` object to perform calculations. Here's how to create a BMI calculator:
 
@@ -1216,7 +1216,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Example 3: Multiple-choice questions: select all, select none
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     It is possible to make the quiz multiple choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
 
@@ -1322,7 +1322,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         }
         ```
 
-=== "Shopify V2"
+=== "Shopify"
 
     You can make question choice become select all / selectnone via the [Multiple-Choice settings](/reference/quiz-builder/questions/#multiple-choice). 
 
@@ -1752,13 +1752,13 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Example 4: Redirect to Translated Product URL
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
 
     A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
-=== "Shopify V2"
+=== "Shopify"
 
     In this version of the Revenuehunt app you can direct users to different markets via the [App Settings > Shopify Markets tab](/reference/app-settings/#shopify-markets) and the product will be already shown in the right language and currency. 
 
@@ -1788,9 +1788,9 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Other Examples
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
-=== "Shopify V2"
+=== "Shopify"
 
     **Questions**
 

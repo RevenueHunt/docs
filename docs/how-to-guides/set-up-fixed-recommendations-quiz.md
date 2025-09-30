@@ -22,7 +22,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
 ![how_to_shopify_v2_recommendations_fixedrecommendations](/images/how_to_shopify_v2_recommendations_fixedrecommendations.png){width=500}
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     !!! note "Legacy Version Workaround"
         The legacy version of the app doesn't have direct support for fixed product recommendations. However, you can use one of these two workarounds to achieve the same result.
@@ -66,7 +66,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
             - Fixed products always appear in their dedicated Slot
 
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/a8b065fe66ec462091e84ca1848577bd?sid=88e11900-db7b-4d42-8cf6-4b68821d96fb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     
@@ -252,7 +252,7 @@ Set up multiple sections on the results page with fixed product and text combina
 
 ![docs/images/how_to_shopify_v2_recommendations_displaylogic.png](/images/how_to_shopify_v2_recommendations_displaylogic.png){width=500}
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
@@ -280,7 +280,7 @@ Set up multiple sections on the results page with fixed product and text combina
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/316e4dcc9db14812a76ace51e85b6fe5?sid=cdb69306-37dd-4331-8e76-aeb763351f12" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -448,7 +448,7 @@ Set up multiple results pages with unique fixed product recommendations and text
 
 ![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png){width=500}
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. 
 
@@ -491,7 +491,7 @@ Set up multiple results pages with unique fixed product recommendations and text
 
     6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
-=== "Shopify V2"
+=== "Shopify"
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/23f2c55346e64f3091ef6c70ad874dc1?sid=58d565f5-8bf8-4f85-b934-4b8d042818d8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

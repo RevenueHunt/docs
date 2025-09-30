@@ -1,6 +1,6 @@
 # Connect / Integrations
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     ![quiz builder connect](/images/manual_quizbuilder_connect.png)
 
@@ -8,7 +8,7 @@
 
     To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
-=== "Shopify V2"
+=== "Shopify"
 
      In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. 
      

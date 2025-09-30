@@ -4,7 +4,7 @@ icon: material/numeric-7
 
 # Using Conditional Logic in RevenueHunt App
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Logic](#skip-logic), and [Display Logic](#display-logic) to show (or hide) questions/content in the quiz as well as the Results Page.
 
@@ -30,7 +30,7 @@ icon: material/numeric-7
     </div>
     
 
-=== "Shopify V2"
+=== "Shopify"
 
     In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Logic](#skip-logic), and [Display Logic](#display-logic) to show (or hide) questions/content in the quiz as well as the Results Page.
 
@@ -162,7 +162,7 @@ icon: material/numeric-7
 
 ## Intro 
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     In this tutorial, you’ll learn how to use simple [conditional logic](/how-to-guides/use-conditional-logic/) to give personalized advice. 
 
@@ -174,7 +174,7 @@ icon: material/numeric-7
 
     **Objective**: In this video, we’ll teach you how to show these texts using [Jump Logic](#jump-logic), [Skip Logic](#skip-logic), or [Display Logic](#display-logic) on the results page.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Conditional Logic controls the quiz flow, determining exactly which questions, texts, or results are shown to customers based on their answers. 
 
@@ -237,7 +237,7 @@ icon: material/numeric-7
 
 ## Jump Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
 
 
@@ -277,7 +277,7 @@ icon: material/numeric-7
         - create branching to link different products to the same choices,
         - or send customers to different Result Pages.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Jump Logic is used to redirect users to different questions, results pages, or external URLs, based on their responses. 
 
@@ -617,7 +617,7 @@ icon: material/numeric-7
 
 ## Skip Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     For linear quizzes, using [Skip Logic](/how-to-guides/use-skip-logic/) instead is recommended.
 
@@ -640,7 +640,7 @@ icon: material/numeric-7
         - show or hide a number of follow-up questions,
         - show or hide follow-up content based on questions that allow multiple answers.
 
-=== "Shopify V2"
+=== "Shopify"
 
     Skip Logic hides specific slides when they are not relevant, based on user responses.
 
@@ -852,7 +852,7 @@ icon: material/numeric-7
 
 ## Display Logic
 
-=== "Shopify"
+=== "Shopify (Legacy)"
 
     Logic can also be applied to the contents of your [Results Page](/reference/quiz-builder/results-page/). 
 
@@ -877,7 +877,7 @@ icon: material/numeric-7
         - show different image results depending on customer answers
         - or show product blocks with different numbers of recommendations. 
 
-=== "Shopify V2"
+=== "Shopify"
 
     Display Logic controls which sections appear on the results page, based on answers, variables, or scores.
 
