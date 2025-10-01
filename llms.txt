@@ -126,8 +126,8 @@ Note: Some external links point to our [Blog](https://revenuehunt.com) (revenueh
 
 The following files contain complete, platform-specific documentation bundles. Each file combines generic content with platform-specific instructions and includes source URLs for every section. These files are ideal for training Custom GPTs to provide customer support, draft emails, and reference documentation links accurately.
 
-- [Shopify Documentation](https://docs.revenuehunt.com/shopify.txt): Complete platform-specific documentation for Shopify (includes generic content + Shopify-specific instructions). Use this file to train ChatGPT for Shopify customer support.
-- [Shopify Legacy Documentation](https://docs.revenuehunt.com/shopify-legacy.txt): Complete platform-specific documentation for Shopify Legacy (includes generic content + legacy-specific instructions). Use this file to train ChatGPT for Shopify Legacy customer support.
-- [WooCommerce Documentation](https://docs.revenuehunt.com/woocommerce.txt): Complete platform-specific documentation for WooCommerce (includes generic content + WooCommerce-specific instructions). Use this file to train ChatGPT for WooCommerce customer support.
+- [Shopify Documentation](https://revenuehunt.com/shopify.txt): Complete platform-specific documentation for Shopify (includes generic content + Shopify-specific instructions). Use this file to train ChatGPT for Shopify customer support.
+- [Shopify Legacy Documentation](https://revenuehunt.com/shopify-legacy.txt): Complete platform-specific documentation for Shopify Legacy (includes generic content + legacy-specific instructions). Use this file to train ChatGPT for Shopify Legacy customer support.
+- [WooCommerce Documentation](https://revenuehunt.com/woocommerce.txt): Complete platform-specific documentation for WooCommerce (includes generic content + WooCommerce-specific instructions). Use this file to train ChatGPT for WooCommerce customer support.
 
 Each file contains all documentation content with clear source URLs, making it easy to draft support emails and reference the correct documentation links. 
