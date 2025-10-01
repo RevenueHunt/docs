@@ -28,8 +28,9 @@ This guide walks you through setting up automatic popups on your eCommerce store
         Quizzes created with `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. **Activate App Embeds**: Make sure you are editing the `Default` theme or the theme that is applied to the main page. Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
-        ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
+    2. **Add a section for the app embed**: In the Home page Template, add a section for the app embed called `Auto Popup Quiz ` by Revenue Hunt Quizzes. This will enable the quiz pop-up on the home page.
+
+        ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
     3. **Configure Popup Settings**: 
 
         ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
@@ -40,6 +41,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
         - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
         - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
     4. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
+    5. **Test the Automatic Pop-up**: To view the Automatic Pop-up, ensure you are in an incognito or private browsing window, as pop-ups are shown only once per user session.
 
 
     !!! note
@@ -259,6 +261,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
         - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
         - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
     4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
+    5. **Test the Automatic Pop-up**: To view the Automatic Pop-up, ensure you are in an incognito or private browsing window, as pop-ups are shown only once per user session.
 
     The popup will now appear across all pages that have the same template/theme applied according to the configured settings.
 
