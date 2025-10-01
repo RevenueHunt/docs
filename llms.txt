@@ -4,6 +4,8 @@
 
 This site is built with [MkDocs](https://www.mkdocs.org/) using the Material theme. The documentation is organized into Tutorials, How-to Guides, an App Manual (Reference), and Customer Success resources. Each section below lists key guides and references to help users get started, customize, and optimize their RevenueHunt experience.
 
+Note: Some external links point to our [Blog](https://revenuehunt.com) (revenuehunt.com) rather than the documentation site (docs.revenuehunt.com).
+
 ## Getting Started & Tutorials
 - [Docs Home](https://docs.revenuehunt.com/index.md): Main landing page for the documentation.
 - [Tutorials Overview](https://docs.revenuehunt.com/tutorials/index.md): Introduction to tutorials.
@@ -96,15 +98,26 @@ This site is built with [MkDocs](https://www.mkdocs.org/) using the Material the
 ## Customer Success
 - [Customer Success Home](https://docs.revenuehunt.com/customer-success/index.md): Customer success stories and resources.
 - [Plans & Pricing FAQ](https://docs.revenuehunt.com/customer-success/plans-pricing-faq.md): Frequently asked questions.
+- [Quiz Setup Checklist](https://docs.revenuehunt.com/customer-success/quiz-setup-checklist.md): Step-by-step checklist before going live.
 - [How to Build a Successful Shop Quiz](https://revenuehunt.com/how-to-build-a-successful-ecommerce-quiz/): Best practices for quiz creation.
+- [How to Build a Successful Quiz](https://docs.revenuehunt.com/customer-success/how-to-build-succesful-quiz.md): Best practices for quiz creation.
+- [How to Get More Quiz Engagement](https://docs.revenuehunt.com/customer-success/how-to-get-more-quiz-engagement.md): Easy ways to promote your quiz.
 - [How to Reduce Drop Off](https://docs.revenuehunt.com/customer-success/reduce-dropoff.md): Reducing quiz abandonment.
+- [Quiz Not Converting](https://docs.revenuehunt.com/customer-success/quiz-not-converting.md): Conversion troubleshooting.
 - [Why Products Are Not Added To Cart](https://docs.revenuehunt.com/customer-success/add-to-cart-issues.md): Troubleshooting add-to-cart issues.
 - [11 Easy Ways to Promote Your Quiz](https://revenuehunt.com/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/): Promotion strategies.
 - [Build an Effective Sales Funnel](https://revenuehunt.com/build-sales-funnel-shopify-store/): Sales funnel optimization.
+- [Build Sales Funnel](https://docs.revenuehunt.com/customer-success/build-sales-funnel.md): Sales funnel optimization.
+- [Convert Leads to Customers](https://docs.revenuehunt.com/customer-success/convert-leads-to-customers.md): Lead conversion strategies.
 - [Product Quiz Metrics: What to Track](https://revenuehunt.com/product-quiz-metrics-what-to-track-to-convert-better/): Analytics for better conversion.
+- [Track Quiz Metrics for Better Conversions](https://docs.revenuehunt.com/customer-success/track-quiz-metrics-for-better-conversions.md): Analytics for better conversion.
 - [How to Use Customer Tags in Product Quizzes](https://revenuehunt.com/how-to-use-customer-tags-in-product-quizzes-to-maximize-sales/): Maximizing sales with tags.
+- [Use Customer Tags in Quiz](https://docs.revenuehunt.com/customer-success/use-customer-tags-in-quiz.md): Maximizing sales with tags.
 - [Smart Ways to Ask for Marketing Consent](https://revenuehunt.com/smart-ways-to-ask-for-marketing-data-processing-consent-in-your-product-recommendation-quiz/): Consent best practices.
+- [Ask for Marketing Consent](https://docs.revenuehunt.com/customer-success/ask-marketing-consent.md): Consent best practices.
 - [How to Create a Video Quiz](https://revenuehunt.com/practical-guide-create-a-video-quiz-for-your-e-commerce-website/): Video quiz guide.
 - [Why Your Product Quiz is NOT Converting Well](https://revenuehunt.com/why-your-product-quiz-is-not-converting-well/): Conversion troubleshooting.
 - [How to Adapt Product Quizzes for Different Markets and Languages](https://revenuehunt.com/how-to-adapt-product-quizzes-for-different-markets-and-languages/): Localization strategies.
+- [Adapt Quizzes to Markets](https://docs.revenuehunt.com/customer-success/adapt-quizzes-to-markets.md): Localization strategies.
+- [Known Bugs & Limitations](https://docs.revenuehunt.com/customer-success/bugs.md): Current issues and limitations.
 - [Built for Shopify](https://docs.revenuehunt.com/customer-success/built-for-shopify.md): version information. 
