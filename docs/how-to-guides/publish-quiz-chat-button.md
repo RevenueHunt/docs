@@ -16,7 +16,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d836e7cc0ef841f2bf1458a52161d94f?sid=ccbf7e73-3a18-4d48-9eca-e6be27d13671" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/WGfNlVPFA_Q?si=anpiVruoyxR8cKyy" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
@@ -131,7 +131,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d836e7cc0ef841f2bf1458a52161d94f?sid=ccbf7e73-3a18-4d48-9eca-e6be27d13671" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/RM0MySN9PUU?si=wtcWwFSvN25coodT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt appcannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
@@ -186,6 +186,8 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
 === "Shopify"
 
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/rbweJaslzvo?si=0EZZDjAhO8FfQt3R" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
@@ -213,7 +215,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
         `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
 
     4. Click on `Save` to save the changes. From now on, the chat popup will show up on that page or any page that uses the same template.  
-    5. Remember to apply the new page template to the page you want to add the chat popup to.
+    5. Remember to apply the new page template to the page you want to add the chat popup to. To add a new page to your store go to `Online Store > Pages` and click on `+ Add Page`. In the page template section select the template you created, set the visibility to `Visible` and click on `Save`.
 
     !!! note
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 

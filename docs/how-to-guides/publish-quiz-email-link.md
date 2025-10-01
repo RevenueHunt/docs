@@ -29,7 +29,7 @@ There are two ways to create an external link to your quiz for emails and newsle
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d560a4cb8a9a42f89eec7cf8a9e94ca4?sid=8199a06a-4aab-41cf-ac6a-b5f8bdffedbe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/d6Q9K0AHyHo?si=f06WCz5pWXLR1eQ-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt appcannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
@@ -145,7 +145,7 @@ There are two ways to create an external link to your quiz for emails and newsle
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/2687bd6629c64e67b5d257d33683531d?sid=9aad21fe-47b0-4ec3-a231-4941e26768f7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/X86Vb800gZs?si=0fBO41qui_kTK6TR" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt appcannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
