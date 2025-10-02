@@ -672,7 +672,12 @@
 
 === "Shopify"
 
-    Coming Soon
+    The Drop-off data (drop off rate per question) is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app. For now, you can measure the drop off per choice or question by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
+
+
+    !!! tip "Tip: Analytics Per Choice"
+
+        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
 
 
 === "Shopify (Legacy)"
@@ -693,6 +698,11 @@
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
+    !!! tip "Tip: Analytics Per Choice"
+
+        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
+
+
 === "WooCommerce"
 
     ![manual_woo_quizbuilder_metrics_dropoff](/images/manual_woo_quizbuilder_metrics_dropoff.png)
@@ -710,6 +720,11 @@
     `chart` - Displays the dropoff rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
+
+    !!! tip "Tip: Analytics Per Choice"
+
+        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
+
 
 === "Magento"
 
@@ -729,6 +744,11 @@
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
+    !!! tip "Tip: Analytics Per Choice"
+
+        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
+
+
 === "BigCommerce"
 
     ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
@@ -747,6 +767,11 @@
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
+    !!! tip "Tip: Analytics Per Choice"
+
+        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
+
+
 === "Standalone"
 
     ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
@@ -764,6 +789,10 @@
     `chart` - Displays the dropoff rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
+
+    !!! tip "Tip: Analytics Per Choice"
+
+        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
 
 
 ---
