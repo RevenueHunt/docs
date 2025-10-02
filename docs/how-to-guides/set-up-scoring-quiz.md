@@ -12,13 +12,6 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 
 ## How to Add Scores or Variables to Choices
 
-=== "Shopify (Legacy)"
-
-    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead.    
-    
-    !!! tip 
-        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
-
 
 === "Shopify" 
 
@@ -54,6 +47,15 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
         - [How to Use Display Logic](/how-to-guides/use-display-logic/)
         - [How to Set Up a Personality Type Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
         - [How to Set Up a Scoring Quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
+
+
+=== "Shopify (Legacy)"
+
+    Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. Your developer can implement a custom scoring system with JavaScript on the Results Page instead.    
+    
+    !!! tip 
+        Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
 
 === "WooCommerce"
 

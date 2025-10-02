@@ -10,11 +10,7 @@ This article outlines several methods to integrate consent requests seamlessly i
 
 !!! note
 
-    Check our latest article [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](https://revenuehunt.com/smart-ways-to-ask-for-marketing-data-processing-consent-in-your-product-recommendation-quiz/) to learn more.
-
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/3noe-2nWq24" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    Check our latest article [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/) to learn more.
 
 ## Add a Link to Your Privacy Policy
 

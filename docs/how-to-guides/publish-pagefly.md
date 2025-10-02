@@ -1,5 +1,21 @@
 # How to Publish Quiz on PageFly Page
 
+=== "Shopify" 
+
+    PageFly currently integrates only with the legacy version of RevenueHunt app for Shopify. The new `💎Built for Shopify` version of RevenueHunt app **does not** support embedding quizzes directly into PageFly pages.
+
+    !!! example "Possible Workaround"
+        A possible workaround is following these instructions on [How to Publish the Quiz on a New Page in Shopify](https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-dedicated-landing-page) and then adding a link to that page where the quiz is embeded to a **button or a link** on your PageFly page.
+
+        1. Publish the quiz on a new page in Shopify by following the instructions on [How to Publish the Quiz on a New Page in Shopify](https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-dedicated-landing-page).
+        2. Open the PageFly editor and create a new page or open an existing page.
+        3. In the page builder, go to `Elements` and add a `Button` element to your page by draggin it.
+        4. In Button settings, under Action select `Go to URL` and enter the URL of the page where the quiz is embeded.
+            ![Button Settings](/images/how_to_pagefly_addbutton.png)
+        5. Click `Save` and the button will be added to your page.
+        6. Click `Preview` to see the button on the page.
+
+
 === "Shopify (Legacy)"
 
     PageFly currently integrates only with the **legacy** version of RevenueHunt app for Shopify. There are several ways to embed a quiz on a PageFly page. Check the instructions below for the method that suits you best.
@@ -36,20 +52,6 @@
     4. Click `Save` and the button will be added to your page.
     5. Click `Preview` to see the button on the page.
 
-=== "Shopify" 
-
-    PageFly currently integrates only with the legacy version of RevenueHunt app for Shopify. The new `💎Built for Shopify` version of RevenueHunt app **does not** support embedding quizzes directly into PageFly pages.
-
-    !!! example "Possible Workaround"
-        A possible workaround is following these instructions on [How to Publish the Quiz on a New Page in Shopify](https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-dedicated-landing-page) and then adding a link to that page where the quiz is embeded to a **button or a link** on your PageFly page.
-
-        1. Publish the quiz on a new page in Shopify by following the instructions on [How to Publish the Quiz on a New Page in Shopify](https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-dedicated-landing-page).
-        2. Open the PageFly editor and create a new page or open an existing page.
-        3. In the page builder, go to `Elements` and add a `Button` element to your page by draggin it.
-        4. In Button settings, under Action select `Go to URL` and enter the URL of the page where the quiz is embeded.
-            ![Button Settings](/images/how_to_pagefly_addbutton.png)
-        5. Click `Save` and the button will be added to your page.
-        6. Click `Preview` to see the button on the page.
 
 === "WooCommerce"
 

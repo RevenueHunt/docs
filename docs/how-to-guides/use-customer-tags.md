@@ -284,9 +284,23 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 !!! tip 
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/rB9MPFHa5K4?si=wpyDP0lhgw-F2l6M" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    Check out [How to Use Customer Tags in Product Quizzes to Maximize Sales](/customer-success/use-customer-tags-in-quiz/) to learn more about how to use customer tags to segment your audience and send targeted emails to your customers.
 
-    Check out [How to Use Customer Tags in Product Quizzes to Maximize Sales](https://revenuehunt.com/how-to-use-customer-tags-in-product-quizzes-to-maximize-sales/) to learn more about how to use customer tags to segment your audience and send targeted emails to your customers.
+
+=== "Shopify"    
+
+    Once you've set up specific [segement in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
+
+    1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
+
+    2. Start by digging into the data from your customer tags to understand what makes each group tick. Create content that addresses their specific interests and personalize your subject lines and email bodies to make them feel valued. Plan your campaign schedule carefully to keep people engaged without overwhelming them, and use automation to send timely, relevant emails based on their behavior.
+
+        !!! example
+
+            - Curly Hair Segment: Send emails featuring products designed for curly hair, such as curl-enhancing shampoos and conditioners, and styling creams. Include tips for maintaining curly hair and exclusive offers on curl care bundles.
+            - Dry Hair Segment: Send emails promoting moisturizing shampoos, conditioners, and deep-conditioning treatments. Share tips on how to combat dry hair and offer discounts on hydrating product sets.
+
+    3. Use automation to send timely, relevant emails based on their behavior.
 
 === "Shopify (Legacy)"
 
@@ -303,20 +317,6 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
     3. Use automation to send timely, relevant emails based on their behavior.
 
-=== "Shopify"    
-
-    Once you've set up specific [segement in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
-
-    1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
-
-    2. Start by digging into the data from your customer tags to understand what makes each group tick. Create content that addresses their specific interests and personalize your subject lines and email bodies to make them feel valued. Plan your campaign schedule carefully to keep people engaged without overwhelming them, and use automation to send timely, relevant emails based on their behavior.
-
-        !!! example
-
-            - Curly Hair Segment: Send emails featuring products designed for curly hair, such as curl-enhancing shampoos and conditioners, and styling creams. Include tips for maintaining curly hair and exclusive offers on curl care bundles.
-            - Dry Hair Segment: Send emails promoting moisturizing shampoos, conditioners, and deep-conditioning treatments. Share tips on how to combat dry hair and offer discounts on hydrating product sets.
-
-    3. Use automation to send timely, relevant emails based on their behavior.
 
 === "WooCommerce"
 

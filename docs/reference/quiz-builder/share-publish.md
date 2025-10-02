@@ -65,19 +65,6 @@
 
 ## Link
 
-=== "Shopify (Legacy)"
-
-    A link that will open the quiz as a popup over your page.
-
-    `Instructions for legacy themes` - Opens extra settings menu.
-
-    ![quiz builder share link](/images/manual_quizbuilder_share_link.png)
-
-    **POPUP OPTIONS**
-
-    `Popup width` - Adjust the width of the quiz by typing the percentage number.
-
-    `Popup height` - Adjust the height of the quiz by typing the percentage number.
 
 === "Shopify" 
 
@@ -148,6 +135,21 @@
     
         ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
     
+
+=== "Shopify (Legacy)"
+
+    A link that will open the quiz as a popup over your page.
+
+    `Instructions for legacy themes` - Opens extra settings menu.
+
+    ![quiz builder share link](/images/manual_quizbuilder_share_link.png)
+
+    **POPUP OPTIONS**
+
+    `Popup width` - Adjust the width of the quiz by typing the percentage number.
+
+    `Popup height` - Adjust the height of the quiz by typing the percentage number.
+
 
 === "WooCommerce"
 

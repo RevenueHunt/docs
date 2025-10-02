@@ -151,93 +151,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     **Questions**
 
-
-=== "Shopify (Legacy)"
-
-    To begin, let's log the quiz response object to the console:
-
-    ```javascript
-    console.log(prq);
-    ```
-
-    This line of code will display the available Vue.js functions and properties within the prq scope in your browser's console, allowing you to inspect the quiz data in real-time.
-
-    ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
-
-    **Custom JavaScript Capabilities**
-
-    The `prq` object is your gateway to customizing the quiz experience. Here's how you can use it:
-
-    **Quiz Data Manipulation**
-
-    - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
-    - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
-
-    **Participant Information Retrieval**
-
-    - **Lead Details**: Easily fetch the quiz participant's email, phone number, and name using `prq.leadEmail()`, `prq.leadPhone()`, and `prq.leadName()`, respectively.
-
-    **Results Page Customization**
-
-    - **Manipulating Results Page Content**: Access and modify the contents of the results page, including blocks and products, using `prq.resultsPage()`.
-    - **Product Recommendations**: Leverage `prq.recommendedProducts()` and `prq.mostVotedProduct()` to customize product suggestions.
-    - **Automatic Actions**: Automatically add products to the cart or proceed to checkout using `prq.addAllToCart()` and `prq.checkout()`.
-    - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
-
-    **Navigation and Engagement**
-
-    - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
-
-    ```html
-    /* List of all the quiz slides/questions (including the responded values) */
-    prq.quizSlides();
-
-    /* get the slide/question value by passing the slide ID  */
-    prq.getSlideValue(slideId);
-
-    /* get the lead's email  */
-    prq.leadEmail();
-
-    /* get the lead's phone  */
-    prq.leadPhone();
-
-    /* get the lead's name  */
-    prq.leadName();
-
-    /* List contents of the results page, blocks, products, etc. */
-    prq.resultsPage();
-
-    /* List recommended products, sorted by number of votes */
-    prq.recommendedProducts();
-
-    /* Show most voted product */
-    prq.mostVotedProduct();
-
-    /* adds all the products to cart automatically */
-    prq.addAllToCart();
-
-    /* proceeds to cart/checkout automatically */
-    prq.checkout();
-
-    /* set specific discount code \*/
-    prq.setDiscountCode('10-OFF');
-
-    /* get the response permalink url */
-    prq.getResponsePermalink();
-
-    /* retake quiz */
-    prq.retakeQuiz();
-
-    /* close quiz */
-    prq.closeQuiz();
-
-    /* open quiz popup */
-    window.openQuizPopup('dbqHqN');
-    dbqHqN is the quiz ID
-    ```
-
-    For other functions and properties refer to the [console.log(prq)](#consolelogprq-function).
-
   	```javascript
     // Data (live getters always return the latest state)
     Quiz.currentQuestion        // current question (index or object)
@@ -343,6 +256,93 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     3. Look for your logged output
     
     This will help you understand the structure of these objects so you can access the specific properties you need in your custom JavaScript.
+
+
+=== "Shopify (Legacy)"
+
+    To begin, let's log the quiz response object to the console:
+
+    ```javascript
+    console.log(prq);
+    ```
+
+    This line of code will display the available Vue.js functions and properties within the prq scope in your browser's console, allowing you to inspect the quiz data in real-time.
+
+    ![how to add javascript consolelog](/images/how_to_add_javascript_consolelog.png)
+
+    **Custom JavaScript Capabilities**
+
+    The `prq` object is your gateway to customizing the quiz experience. Here's how you can use it:
+
+    **Quiz Data Manipulation**
+
+    - **Accessing Quiz Slides and Responses**: Use `prq.quizSlides()` to retrieve all quiz slides/questions, including user responses.
+    - **Fetching Specific Slide Values**: Obtain the value of a particular slide by using `prq.getSlideValue(slideId)`.
+
+    **Participant Information Retrieval**
+
+    - **Lead Details**: Easily fetch the quiz participant's email, phone number, and name using `prq.leadEmail()`, `prq.leadPhone()`, and `prq.leadName()`, respectively.
+
+    **Results Page Customization**
+
+    - **Manipulating Results Page Content**: Access and modify the contents of the results page, including blocks and products, using `prq.resultsPage()`.
+    - **Product Recommendations**: Leverage `prq.recommendedProducts()` and `prq.mostVotedProduct()` to customize product suggestions.
+    - **Automatic Actions**: Automatically add products to the cart or proceed to checkout using `prq.addAllToCart()` and `prq.checkout()`.
+    - **Discount Codes**: Apply specific discount codes with `prq.setDiscountCode('10-OFF')`.
+
+    **Navigation and Engagement**
+
+    - **Quiz Navigation**: Offer options to retake the quiz, close it, or open it in a popup through `prq.retakeQuiz()`, `prq.closeQuiz()`, and `window.openQuizPopup('quizID')`.
+
+    ```html
+    /* List of all the quiz slides/questions (including the responded values) */
+    prq.quizSlides();
+
+    /* get the slide/question value by passing the slide ID  */
+    prq.getSlideValue(slideId);
+
+    /* get the lead's email  */
+    prq.leadEmail();
+
+    /* get the lead's phone  */
+    prq.leadPhone();
+
+    /* get the lead's name  */
+    prq.leadName();
+
+    /* List contents of the results page, blocks, products, etc. */
+    prq.resultsPage();
+
+    /* List recommended products, sorted by number of votes */
+    prq.recommendedProducts();
+
+    /* Show most voted product */
+    prq.mostVotedProduct();
+
+    /* adds all the products to cart automatically */
+    prq.addAllToCart();
+
+    /* proceeds to cart/checkout automatically */
+    prq.checkout();
+
+    /* set specific discount code \*/
+    prq.setDiscountCode('10-OFF');
+
+    /* get the response permalink url */
+    prq.getResponsePermalink();
+
+    /* retake quiz */
+    prq.retakeQuiz();
+
+    /* close quiz */
+    prq.closeQuiz();
+
+    /* open quiz popup */
+    window.openQuizPopup('dbqHqN');
+    dbqHqN is the quiz ID
+    ```
+
+    For other functions and properties refer to the [console.log(prq)](#consolelogprq-function).
 
 === "WooCommerce"
 

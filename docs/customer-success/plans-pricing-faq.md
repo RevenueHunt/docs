@@ -79,6 +79,20 @@ icon: material/credit-card-refresh-outline
 
 ### Plan Options and Responses
 
+
+=== "Shopify"    
+
+
+    | Plan name  | Monthly fee      | Max. responses   | Cost per response |
+    |------------|------------------|------------------|-------------------|
+    | Free       | $0 USD/mo.       | 100 /30 days     | Free              |
+    | Basic      | $39 USD/mo.      | 500 /30 days     | $0.078 USD        |
+    | Pro        | $99 USD/mo.      | 1,000 /30 days   | $0.099 USD        |
+    | Premium    | $199 USD/mo.     | 2,500 /30 days   | $0.080 USD        |
+    | Unlimited  | $299 USD/mo.     | Unlimited        | -                 |
+
+
+
 === "Shopify (Legacy)"
 
     | Plan Name       | Monthly Fee | Max. Responses | Cost per Response  |
@@ -99,18 +113,6 @@ icon: material/credit-card-refresh-outline
     | Enterprise 200K | 1199 USD/mo.| 200000/mo.     | 0.006 USD/response |
     | Enterprise 300K | 1299 USD/mo.| 300000/mo.     | 0.004 USD/response |
     | Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
-
-
-=== "Shopify"    
-
-
-    | Plan name  | Monthly fee      | Max. responses   | Cost per response |
-    |------------|------------------|------------------|-------------------|
-    | Free       | $0 USD/mo.       | 100 /30 days     | Free              |
-    | Basic      | $39 USD/mo.      | 500 /30 days     | $0.078 USD        |
-    | Pro        | $99 USD/mo.      | 1,000 /30 days   | $0.099 USD        |
-    | Premium    | $199 USD/mo.     | 2,500 /30 days   | $0.080 USD        |
-    | Unlimited  | $299 USD/mo.     | Unlimited        | -                 |
 
 
 

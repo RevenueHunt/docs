@@ -420,9 +420,6 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 ## How to Add Scores or Variables to Choices
 
-=== "Shopify (Legacy)"
-
-    Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 === "Shopify" 
 
@@ -458,6 +455,11 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
         - [How to Use Display Logic](/how-to-guides/use-display-logic/)
         - [How to Set Up a Personality Type Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
         - [How to Set Up a Scoring Quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
+
+=== "Shopify (Legacy)"
+
+    Scoring system is not available in the legacy version of the Shopify app. Your developer can implement a custom scoring system with JavaScript on the Results Page instead. Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
+
 
 === "WooCommerce"
 
