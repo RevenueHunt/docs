@@ -2447,6 +2447,85 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     In the `💎Built for Shopify` version of the RevenueHunt app, the `prq` object is not available. Instead, you have access to different objects:
     ### Available JavaScript data and functions
     **Questions**
+  	```javascript
+    // Data (live getters always return the latest state)
+    Quiz.currentQuestion        // current question (index or object)
+    Quiz.questions              // array of all questions
+    Quiz.answers                // answers so far (by questionRef)
+    Quiz.variableScores         // e.g., { skinSensitivity: 82, hydration: 45, ... }
+    Quiz.highestVariableRef     // key/name of the highest-scoring variable
+    // Navigation
+    Quiz.next()                 // go to next question
+    Quiz.previous()             // go to previous question
+    // One-shot routing helper (next click will go to this q-or-r ref, then clears)
+    Quiz.overrideNext('q-or-r-ref')
+    // Event: fires after any answer update (choices/inputs)
+    // event shape: { questionRef, blockRef, type, choicesRefs, value, isValid, selectedIndex, selectedLabel }
+    Quiz.onChange = (event) => { /* your logic */ }
+    // DOM helpers (scoped to the quiz)
+    Quiz.querySelector(selector)  // like document.querySelector, but inside the quiz
+    Quiz.getElementById(id)       // like document.getElementById, but inside the quiz
+    // Examples:
+    // 1) Route based on score (send next to a specific result)
+    if (Quiz.variableScores.skinSensitivity > 80) {
+      Quiz.overrideNext('r-premium');
+    }
+    // 2) React to answer changes and steer Next dynamically
+    Quiz.onChange = (e) => {
+      const answers = Quiz.answers; // live snapshot
+      // decide destination based on current answers/scores
+      Quiz.overrideNext('q-12345678');
+    };
+    ```
+    **Results Page**
+    ```javascript
+    // Data
+    Quiz.currentResult        // the result object (e.g., profile/outcome)
+    Quiz.answers              // final answers
+    Quiz.slotItems            // product recommendations shown in slots
+    Quiz.variableScores       // scoring variables
+    Quiz.highestVariableRef   // key/name of the highest scoring variable
+    // Actions (async)
+    await Quiz.addAllToCart()     // add all recommended products to cart
+    await Quiz.applyDiscountCode()// apply the discount code configured
+    // DOM helpers (scoped inside the quiz)
+    Quiz.querySelector(sel)       // like document.querySelector, scoped to quiz
+    Quiz.getElementById(id)       // like document.getElementById, scoped to quiz
+    ```
+    **Debugging and Accessing Data in V2**
+    To explore available data in the `💎Built for Shopify` version of the RevenueHunt app, you can add a `debugger` statement to your JavaScript code:
+    ```javascript
+    debugger;
+    // Your code goes here
+    ```
+    When you view the quiz in your browser with Developer Tools open (F12), the code execution will pause at the debugger statement. In the Sources tab, you'll see the available parameters like `currentResult`, `answers`, and `slotItems`:
+    ![debugger statement in browser](/images/how_to_shopifyv2_debugger_browser.png)
+    You can then:
+    1. Hover over these variables to inspect their values
+    2. Use the console panel while paused to evaluate expressions
+    3. Type these object names in the console to examine their structure
+    Alternatively, you can use console.log to output these objects to the console:
+    Questions
+    ```javascript
+    console.log('Current Question:', Quiz.currentQuestion);
+    console.log('All Questions:', Quiz.questions);
+    console.log('Answers so far:', Quiz.answers);
+    console.log('Scores:', Quiz.variableScores);
+    console.log('Top variable:', Quiz.highestVariableRef);
+    ```
+    Results Page
+    ```javascript
+    console.log('Current Result:', Quiz.currentResult);
+    console.log('Final Answers:', Quiz.answers);
+    console.log('Product Recommendations:', Quiz.slotItems);
+    console.log('Scores:', Quiz.variableScores);
+    console.log('Top variable:', Quiz.highestVariableRef);
+    ```
+    To access the console in your browser:
+    1. Right-click anywhere on the page and select "Inspect" or press F12
+    2. Click on the "Console" tab
+    3. Look for your logged output
+    This will help you understand the structure of these objects so you can access the specific properties you need in your custom JavaScript.
     In the `💎Built for Shopify` version of the RevenueHunt app, you can add interactive elements to your quiz results page:
     1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
         !!! example "Add the `onclick` functionality via the Custom Javascript."
@@ -2880,11 +2959,7 @@ This article outlines several methods to integrate consent requests seamlessly i
 
 !!! note
 
-    Check our latest article [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](https://revenuehunt.com/smart-ways-to-ask-for-marketing-data-processing-consent-in-your-product-recommendation-quiz/) to learn more.
-
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/3noe-2nWq24" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    Check our latest article [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/) to learn more.
 
 ## Add a Link to Your Privacy Policy
 
@@ -2957,7 +3032,7 @@ This guide explains how to change the currency of your quiz and how to handle mu
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d460aea970c04b9ea6388b37329eccea?sid=d2137eb0-344a-4930-a905-2d9388743629" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=ZRyxw2Tqaul1tzlj&amp;start=239" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. 
     !!! tip "Tutorial"
         Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
@@ -2972,7 +3047,7 @@ This guide explains how to change the currency of your quiz and how to handle mu
     4. Once assigned, the quiz will show the product prices in the currency set up for that market.
     5. If you want to change the currency format, use the `Currency` field to set up the format you want. Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
         ![how_to_shopifyv2_change_currency](/images/how_to_shopifyv2_change_currency.png)   
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d460aea970c04b9ea6388b37329eccea?sid=d2137eb0-344a-4930-a905-2d9388743629" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=ZRyxw2Tqaul1tzlj&amp;start=239" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Version 2 of the RevenueHunt App for Shopify fully supports the Shopify Markets feature. Your quiz will display the default currency from the market the quiz was assigned to. +
     !!! tip "Tutorial"
         Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
@@ -3007,15 +3082,12 @@ icon: material/translate-variant
 
 This guide will help you change the language of your quiz, translate it into different languages or set up Shopify Markets to display the quiz in different languages based on the visitor's location and language preference.
 
-!!! tip "Tutorial"
-    
-    Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
-
-## Change Quiz Language in Settings
-
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/c636603e986a41a6a932c7721add7dcf?sid=5abfc134-cb3d-4ba6-934f-991533d5a11d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=tuNPV9eOsXRLRKi-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    !!! tip "Tutorial"
+        Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=X5ULbSjqG7wQ2Izd&amp;start=106" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Before assigning quizzes to specific markets and languages, you’ll need to create and customize the quiz versions for each language. Here’s how:
     **Step 1: Create Your Initial Quiz:**
     - Start by creating a [`new quiz`](/reference/dashboard/#new-quiz) with the basic content and questions you want to include.
@@ -3039,7 +3111,7 @@ This guide will help you change the language of your quiz, translate it into dif
     - Once each quiz version is ready, go to [App Settings > Shopify Markets](/reference/app-settings/#markets).
     - Select the appropriate market and language, and link each translated quiz to its respective locale. This will ensure that visitors see the correct quiz based on their market and language settings.
     By following these steps, you’ll have a well-localized quiz experience ready for each market and language, which you can then manage seamlessly in the Shopify Markets tab of your app settings.
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/c636603e986a41a6a932c7721add7dcf?sid=5abfc134-cb3d-4ba6-934f-991533d5a11d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=e_mX9xdaiB24xXaT&amp;start=175" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! tip "Tutorial"
         Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
     Our RevenueHunt app allows you to tailor the shopping experience for customers worldwide by selecting specific quizzes for each Shopify Market and its associated languages. Here’s a step-by-step guide to help you change your quiz language based on the visitor’s location and language preference.
@@ -4470,7 +4542,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d836e7cc0ef841f2bf1458a52161d94f?sid=ccbf7e73-3a18-4d48-9eca-e6be27d13671" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/WGfNlVPFA_Q?si=anpiVruoyxR8cKyy" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button. Make sure you are editing the `Default` theme or the theme that is applied to your main page.
@@ -4490,7 +4562,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
         If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d836e7cc0ef841f2bf1458a52161d94f?sid=ccbf7e73-3a18-4d48-9eca-e6be27d13671" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/RM0MySN9PUU?si=wtcWwFSvN25coodT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt appcannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
@@ -4508,6 +4580,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
         If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.  
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/rbweJaslzvo?si=0EZZDjAhO8FfQt3R" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
     1. To add a chat popup to a specific page, in Shopify, go to `Online Theme > Customize`. From the `Home page` menu on top, go to `Pages` and click on the page template you want to add the chat popup to or create a new page template.
@@ -4523,7 +4596,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
         `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Leave it empty to hide
         `Quiz ID (optional)` - Enter a quiz ID to show a specific quiz. Leave blank to load the default.
     4. Click on `Save` to save the changes. From now on, the chat popup will show up on that page or any page that uses the same template.  
-    5. Remember to apply the new page template to the page you want to add the chat popup to.
+    5. Remember to apply the new page template to the page you want to add the chat popup to. To add a new page to your store go to `Online Store > Pages` and click on `+ Add Page`. In the page template section select the template you created, set the visibility to `Visible` and click on `Save`.
     !!! note
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
@@ -4582,7 +4655,7 @@ There are two ways to create an external link to your quiz for emails and newsle
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d560a4cb8a9a42f89eec7cf8a9e94ca4?sid=8199a06a-4aab-41cf-ac6a-b5f8bdffedbe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/d6Q9K0AHyHo?si=f06WCz5pWXLR1eQ-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt appcannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
@@ -4603,7 +4676,7 @@ There are two ways to create an external link to your quiz for emails and newsle
         ![how to publish inline quiz built for shopify revenuehunt app main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
     7. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
         Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/2687bd6629c64e67b5d257d33683531d?sid=9aad21fe-47b0-4ec3-a231-4941e26768f7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/X86Vb800gZs?si=0fBO41qui_kTK6TR" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt appcannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
@@ -4667,7 +4740,7 @@ There are two ways to create an external link to your quiz for social media:
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d560a4cb8a9a42f89eec7cf8a9e94ca4?sid=8199a06a-4aab-41cf-ac6a-b5f8bdffedbe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/d6Q9K0AHyHo?si=f06WCz5pWXLR1eQ-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
@@ -4688,7 +4761,7 @@ There are two ways to create an external link to your quiz for social media:
         ![how to publish inline quiz built for shopify revenuehunt app main page 2](/images/how_to_publish_inline_quiz_shopify_v2_main_page_2.png)
     7. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
         Now, that page will use the custom template with the quiz you created, allowing for a different layout or style within the same theme.
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/2687bd6629c64e67b5d257d33683531d?sid=9aad21fe-47b0-4ec3-a231-4941e26768f7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/X86Vb800gZs?si=0fBO41qui_kTK6TR" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
@@ -10469,7 +10542,9 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     `Total orders value` - Total value of orders placed after taking this quiz.
     !!! warning "Note"
         To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [Integrations](https://docs.revenuehunt.com/how-to-guides/send-leads-to-shopify-customers/) tab.
-    Coming Soon
+    The Drop-off data (drop off rate per question) is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app. For now, you can measure the drop off per choice or question by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
+    !!! tip "Tip: Analytics Per Choice"
+        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
 
 
 

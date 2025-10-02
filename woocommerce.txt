@@ -4421,11 +4421,7 @@ This article outlines several methods to integrate consent requests seamlessly i
 
 !!! note
 
-    Check our latest article [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](https://revenuehunt.com/smart-ways-to-ask-for-marketing-data-processing-consent-in-your-product-recommendation-quiz/) to learn more.
-
-    <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/3noe-2nWq24" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    Check our latest article [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/) to learn more.
 
 ## Add a Link to Your Privacy Policy
 
@@ -4700,15 +4696,10 @@ icon: material/translate-variant
 
 This guide will help you change the language of your quiz, translate it into different languages or set up Shopify Markets to display the quiz in different languages based on the visitor's location and language preference.
 
-!!! tip "Tutorial"
-    
-    Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
-
-## Change Quiz Language in Settings
-
 --- WooCommerce Specific Content ---
 
-1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
+## Change Quiz Language in Settings
+    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
     2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
     3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
@@ -17148,8 +17139,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
         In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
 ### Using Segmented Data
 !!! tip 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/rB9MPFHa5K4?si=wpyDP0lhgw-F2l6M" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    Check out [How to Use Customer Tags in Product Quizzes to Maximize Sales](https://revenuehunt.com/how-to-use-customer-tags-in-product-quizzes-to-maximize-sales/) to learn more about how to use customer tags to segment your audience and send targeted emails to your customers.
+    Check out [How to Use Customer Tags in Product Quizzes to Maximize Sales](/customer-success/use-customer-tags-in-quiz/) to learn more about how to use customer tags to segment your audience and send targeted emails to your customers.
     Once you've set up specific [segement in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
     1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
     2. Start by digging into the data from your customer tags to understand what makes each group tick. Create content that addresses their specific interests and personalize your subject lines and email bodies to make them feel valued. Plan your campaign schedule carefully to keep people engaged without overwhelming them, and use automation to send timely, relevant emails based on their behavior.
@@ -20355,6 +20345,8 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
     `chart` - Displays the dropoff rate for each question and the results page in a chart format.
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
+    !!! tip "Tip: Analytics Per Choice"
+        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
     ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
     The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
@@ -20363,6 +20355,8 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
     `chart` - Displays the dropoff rate for each question and the results page in a chart format.
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
+    !!! tip "Tip: Analytics Per Choice"
+        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
     ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
     The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
@@ -20371,6 +20365,8 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
     `chart` - Displays the dropoff rate for each question and the results page in a chart format.
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
+    !!! tip "Tip: Analytics Per Choice"
+        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
     ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
     The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
@@ -20379,6 +20375,8 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
     `chart` - Displays the dropoff rate for each question and the results page in a chart format.
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
+    !!! tip "Tip: Analytics Per Choice"
+        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
 ---
 ← [Back to Quiz Builder Index](/reference/quiz-builder/)
 ← Previous: [Share / Publish](/reference/quiz-builder/share-publish/)
