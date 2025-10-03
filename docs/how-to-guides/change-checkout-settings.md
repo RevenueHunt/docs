@@ -10,7 +10,7 @@ Follow the instructions below to change your checkout settings:
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/06af5680a59145e1838fe2bcfdcbd583?sid=4ad4cf1d-2aa4-4fec-9d5d-58d86da70932" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/GffASG1dDQo?si=2N3Hmmq_PMgqSaUx" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
@@ -22,6 +22,8 @@ Follow the instructions below to change your checkout settings:
         `Show bar` - Uncheck to hide the checkout bar.
 
         `Show "retake quiz" button` - Uncheck if you want to hide the "retake quiz" button.
+
+        `Show cart/checkout options` - Select the settings of the cart/checkout options.
 
         Cart/checkout options:
 
