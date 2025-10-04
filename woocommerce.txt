@@ -4131,6 +4131,15 @@ This article explains how to add product metafields/attributes to products on yo
     }
     ```
     ![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
+## How to Use Metafields as Smart Collections
+    You can use attributes as categories in the RevenueHunt app for WooCommerce.
+    To do that: 
+    1. Open [App Settings > Catalogue](/reference/app-settings/#catalogue) to access the settings to manage your catalog.
+    2. Activate the `Use attributes as categories` setting by clicking the toggle.
+      ![how to add attributes woo step 1](/images/how_to_add_metafields_woo_step_1.png)
+    3. Update your catalog with the new attributes by triggering a [catalog sync](/how-to-guides/sync-catalog/) from your dashboard.
+    4. Go to the [Link Collections](/reference/quiz-builder/link-collections/) tab in the Quiz Builder and link the attributes to a choice.
+    5. Click `Publish` to save your changes.
 ---
 Following these steps will enable you to display specific metafields on your quiz's results page, ensuring compliance with local regulations and improving your product presentations.
 
@@ -15633,6 +15642,36 @@ Follow these steps to set up a scoring quiz with multiple results pages:
         Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 ---
 This article explains how to set up a scoring quiz with one results page and multiple results pages in the RevenueHunt app.
+
+
+
+
+================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/show-product-reviews/
+================================================================================
+
+---
+icon: material/star-box
+---
+
+# How to Show Product Reviews
+
+This article explains how to show product reviews on the results page on your quiz.
+
+--- WooCommerce Specific Content ---
+
+This section covers how to enable product reviews for WooCommerce stores.
+    1. Navigate to [`Results Page settings > Basic settings`](/reference/quiz-builder/results-page/#basic-settings) > `Individual product settings`.
+        ![Individual Product Settings](https://docs.revenuehunt.com/images/manual_quizbuilder_resultspage_settings_basic_individualproductsettings.png){width="500"}
+    2. **Toggle the `Show reviews` option** to display product ratings below the product name on the results page.
+    3. **Run a [Catalog Sync](/how-to-guides/sync-catalog/)** after activation to sync all product reviews with the app.
+    !!! info "Review Support"
+        We currently sync only the official WooCommerce Reviews.
+    Currently, there is no option to show reviews on the results page in the Revenue Hunt app for Magento.
+    Currently, there is no option to show reviews on the results page in the Revenue Hunt app for BigCommerce.
+    Currently, there is no option to show reviews on the results page in the standalone version of the Revenue Hunt app.
+---
+This article explains how to show product reviews on the results page on your quiz.
 
 
 

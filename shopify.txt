@@ -2336,7 +2336,7 @@ With the Built for Shopify version of the RevenueHunt app, it is possible to:
     - **add a discount code as text** to the quiz last question or results page,
     - **add the discount code to the [result emails](/reference/quiz-builder/notifications/#to-respondent)**.
     If you have a discount applied to certain products in your store via Shopify Products, these reduced prices will be reflected in the quiz results page automatically. Otherwise, the discount code will be applied automatically at checkout and *reduced prices will be visible at checkout stage only*.
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/7757e70c795f469fb89e08d340128ef2?sid=097777bc-fd8d-4c5b-b077-3cc00ac0317d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/F8rN6jOveOw?si=zZyYtDmydJoeqrg-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ### Automatic Discount Code
     You can add a discount code to be applied automatically at checkout when users finish the quiz and proceed to cart.
     !!! warning "Create a Discount Code in Shopify"
@@ -2683,7 +2683,7 @@ This article explains how to add product metafields/attributes to products on yo
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/35b00cdff0d845e1b53ede28a9404efa?sid=ce797520-987e-4ed5-b917-d43f346efdcd" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/BdyXTeel1WM?si=XC-LEQ5PUEvPwOUC" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! note
         The app can only sync and show the string, single_line_text_field, multi_line_text_field, date, and number product metafields. Rich_text_fields metafields are not currently supported.
     [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
@@ -2702,6 +2702,33 @@ This article explains how to add product metafields/attributes to products on yo
         If you're missing custom metafileds from the list of available metafields, you can force a catalog sync:
         1. Go to [App Settings > Catalogue](/reference/app-settings/#catalogue).
         2. Click the `Import catalogue` button to trigger a manual sync.
+    Shopify allows you to use **product metafields** as conditions when creating **smart collections**. 
+    !!! info "Smart collections from metafields"
+        Check official Shopify documentation for more information: [Smart collections from metafields](https://help.shopify.com/en/manual/custom-data/metafields/smart-collections).
+    This is useful if you want to organize products by custom attributes (like `Skin Concern = Acne` or `Subscription Eligible = True`) and then connect those collections to your RevenueHunt quiz.
+    !!! info "Supported Metafield Types"
+        You can use the following product metafield types in smart collections:
+        * Single line text
+        * Single line text (list)
+        * True or false (boolean)
+        * Integer
+        * Decimal
+        * Rating
+    Step by step guide:
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/53e88df6033b4c71b2834562df1f3e0f?sid=ced7456d-d8ed-4e83-8cb9-17bd31e34a86" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    1. **Create Product Metafields**: In Shopify Admin, go to `Settings → Custom data → Products`. 
+        - Click `Add definition`.
+        - Select a supported metafield type (see above) and add a clear name (e.g. `Skin Concern`, `Organic Certified`, `SPF Rating`).
+        - Save the metafield definition.
+    2. **Add Metafield Values to Products**: Open a product in Shopify Admin. Scroll down to the `Metafields` section. Enter the value for the metafield you created. Example: `Skin Concern = Acne`. Repeat for all relevant products.
+    3. **Create a Smart Collection Using Metafields**: Go to `Products → Collections`. 
+        - Click `Create collection`. 
+        - Choose `Automated collection`. 
+        - Under `Conditions`, open the field dropdown and select `Product metafields`. 
+        - Select your metafield (e.g. `Skin Concern`). 
+        - Define the condition (e.g. `equals → Acne`). 
+        - Save the collection. Now, Shopify automatically groups products based on metafield values.
+    4. **Use Smart Collections in RevenueHunt**: Open your quiz in the RevenueHunt app. Edit a question and add a Choice. Instead of linking individual products, select the Shopify collection you created. Example: Quiz answer “Acne-prone skin” → Collection `Skin Concern = Acne`. Save and publish your quiz.
 
 
 
@@ -2998,7 +3025,7 @@ Follow the instructions below to change your checkout settings:
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/06af5680a59145e1838fe2bcfdcbd583?sid=4ad4cf1d-2aa4-4fec-9d5d-58d86da70932" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/GffASG1dDQo?si=2N3Hmmq_PMgqSaUx" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
     1. Open the [Results Page](/reference/quiz-builder/results-page/).
     2. Open the [Results Page settings](/reference/quiz-builder/results-page/#results-page-settings).
@@ -3006,6 +3033,7 @@ Follow the instructions below to change your checkout settings:
     4. Select the `Bar options` you want to use.
         `Show bar` - Uncheck to hide the checkout bar.
         `Show "retake quiz" button` - Uncheck if you want to hide the "retake quiz" button.
+        `Show cart/checkout options` - Select the settings of the cart/checkout options.
         Cart/checkout options:
         `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
         Next destination for users - Choose where customers go after the results page.
@@ -7971,6 +7999,70 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
             - If total score is between 18-22 points → Jump to Combination Skin Routine
             - If total score is between 23-25 points → Jump to Sensitive Skin Routine
     5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
+
+
+
+
+================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/show-product-reviews/
+================================================================================
+
+---
+icon: material/star-box
+---
+
+# How to Show Product Reviews
+
+This article explains how to show product reviews on the results page on your quiz.
+
+--- Shopify Specific Content ---
+
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/MaBR6d8HmSw?si=0crgn9sjBBlJMAuL" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    This documentation outlines the steps to display product reviews on the results page of a quiz created with the Revenue Hunt app. It covers adding the reviews section, selecting a review app, and troubleshooting syncing issues.
+    1. Open [Results Page](/reference/quiz-builder/results-page/).
+    2. **Adding the Reviews Section**: Locate your [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) that recommends products. 
+    3. Under `Recommended Products`, find [`Product Component Layout`](/reference/quiz-builder/results-page/#product-components-layout). Click `+ Add Block` and select the `Reviews` section.
+        ![Add Reviews Block](https://docs.revenuehunt.com/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png){width="500"}
+    4. **Configuring the Reviews Section**: After adding the reviews section, a star rating box will appear at the bottom of your product card. Open the `Reviews` tab to select a review app from the dropdown menu.
+        ![Add Reviews Block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews.png)
+        ![Add Reviews Block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps.png)
+        !!! example 
+            In this example, `Judge.me` is selected, but other review apps are available. 
+            We currently support these review apps for Shopify:
+            - Judge.me,
+            - Yotpo,
+            - Stamped,
+            - Loox.
+    5. You can move the reviews section to a different position within the product component layout, such as right below the product title. 
+    6. Once satisfied with the layout, save your changes with the top-right `Save` button.
+    7. **Previewing the Quiz**: To check if the reviews are displayed correctly, click on `Preview` to preview the quiz.
+    8. **Troubleshooting Review Syncing**: If product reviews do not sync automatically, go to the app settings in the review app. Navigate to [`App Settings` > `Catalog`](/reference/app-settings/#catalogue) and perform a quick [catalog import](/how-to-guides/sync-catalog/). After the import, return to the Revenue Hunt app, check the results page, and preview the quiz again.
+    !!! info
+        If issues persist with reviews not being pulled, contact the support team for assistance.
+    ## Review Apps
+    ### Loox Reviews
+    Loox metafields for reviews are set to private by default, but it can be changed in order to display the reviews in the quiz result page.
+    You can make the Loox metafields (like `num_reviews` and `avg_rating` ) available in the Storefront
+    API directly through the Shopify Admin interface using your browser. This involves **editing the metafield definitions in Shopify Admin to enable storefront access**, which sets the permission to `PUBLIC_READ`.
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/1be62fe8d4a942db9393051bfc3bdd02?sid=24de0b08-81d8-4eb3-81fb-a159efb1bc93" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    Step-by-Step Guide:
+    1. Log in to your Shopify Admin dashboard.
+    2. Navigate to `Settings` (bottom left) > `Metafields and metaobjects`.
+    3. Select the resource type for the metafields, such as `Products` (Loox typically uses product-level
+    metafields).
+    4. Locate the specific Loox metafield (e.g., search for `loox.avg_rating` or `loox.num_reviews` in the
+    list). Loox reviews metafields can be located under `unstructured metafields`.
+    5. Click on the metafield name to edit it.
+    6. In the Access section, check the box for `Storefronts` (this enables public read access for custom
+    storefronts and the Storefront API).
+        ![Loox Storefront API](/images/how_to_show_reviews_loox_storefrontapi.png){width="500"}
+    7. Optionally, adjust other settings like name, description, or validation if needed.
+    8. Click `Save`.
+    Once saved, the metafields should appear in the app.
+    !!! warning
+        If the metafields don't appear editable (rare, but possible for locked app setups), contact Loox support for assistance. 
+        Changes take effect immediately, but you may need to clear any caches in your
+        storefront app.
 
 
 
