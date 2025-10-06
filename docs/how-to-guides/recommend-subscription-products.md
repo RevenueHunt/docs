@@ -23,7 +23,23 @@ If you're using a subscription app that is not supported, you can still recommen
 
 === "Shopify"
 
-    1. To add subscription to your recommended products go to the [Results Page]().
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/ea22c48d678f41999abd90462d348cd5?sid=6a559de9-555a-4f29-a879-dcaf11359a35" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    !!! warning "Before you start"
+
+        - Ensure you are using the [Recharge Pro version](https://getrecharge.com/pricing/) to access the Storefront API. If you are not using the Pro version, try reaching out to [Recharge support](https://support.getrecharge.com/hc/en-us#) to see what's possible.
+        - Confirm that Recharge is configured on your Shopify website according to the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/).
+
+
+    1. **Adding Recharge Script to Shopify Theme**: To enable the integration, add the Recharge script to your Shopify theme:
+
+        - Navigate to your online store themes and select `Edit Code`.
+        - Open the `layout/theme.liquid` file.
+        - Insert the correct version of the Recharge Storefront API script in the header section.
+        - Save the changes to load the Recharge script in your store, allowing the Revenue Hunt app to access Recharge products.
+
+    1. To add subscription to your recommended products go to the [Results Page](/reference/quiz-builder/results-page/).
     2. Find the [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
     3. Under `Product components layout`, find the `Subscription` option and add it to the layout.
 
@@ -45,9 +61,21 @@ If you're using a subscription app that is not supported, you can still recommen
 
             If you wish to integrate a subscription app that is not supported yet, please reach out to our customer support team and we will be happy to help you.
     4. Save the changes with the top-right `Save` button.
+    5. To test the integration, [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) the quiz on a new page in your website and go all the way to the results page. You should see the subscription options available. From there, you can add the subscription product directly to the cart or proceed to the cart page.
+    6. Verify that the subscription item is added correctly to the cart.
+
+    !!! warning "Quiz Preview"
+
+        The subscription options will not be avialble in the quiz preview. To test the integration, you need to [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page)  the quiz on a new page in your website.
 
 
 === "Shopify (Legacy)"
+
+    !!! warning "Before you start"
+
+        - Ensure you are using the [Recharge Pro version](https://getrecharge.com/pricing/) to access the Storefront API. If you are not using the Pro version, try reaching out to [Recharge support](https://support.getrecharge.com/hc/en-us#) to see what's possible.
+        - Confirm that Recharge is configured on your Shopify website according to the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/).
+
 
     Here’s how to connect your ReCharge subscriptions to your RevenueHunt app:
 
