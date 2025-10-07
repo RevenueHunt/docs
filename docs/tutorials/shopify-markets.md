@@ -405,6 +405,17 @@ icon: material/numeric-8
     Congratulations! You've successfully set up quizzes for different markets and languages in the RevenueHunt app.
 
 
+    !!! tip
+
+        You can also preview a specific quiz results page within the `Preview` option in the app. 
+        
+        1. Open the [Quiz Builder](/reference/quiz-builder/).
+        2. Click the `Preview` button in the top-right corner of the quiz builder and get all the way to the results page.
+        3. There, you'll have the option to preview the results page as different markets and languages.
+
+        ![how to test quiz results page](/images/tutorial_shopifyv2_preview_quiz_as_market.png)
+
+
 === "Shopify (Legacy)"
 
 

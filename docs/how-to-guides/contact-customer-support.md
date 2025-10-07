@@ -7,7 +7,7 @@ icon: material/face-agent
 Our sharpest and friendliest support team in the eCommerce sector can be reached via the quiz below:
 
 <script src="https://admin.revenuehunt.com/embed.js" async></script>
-<div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/wnHprB" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
+<div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/ZAHJoMM" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
 
 You can also send your inquiries via email to `team@revenuehunt.com`.
 

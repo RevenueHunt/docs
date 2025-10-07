@@ -223,13 +223,37 @@ icon: material/earth
 === "Shopify"
 
     To test that the right quiz is shown for the right market, ensure that the quiz is published on your website by following the instructions in the [Publish](/reference/quiz-builder/share-publish/) tab of the app or [this how to article](https://docs.revenuehunt.com/how-to-guides/publish-quiz/).
+    
+    Once the default quiz is published and markets set up, you can preview your store and test the setup on different markets and languages.
 
-    Then navigate to your website and change the languge or region to see if the right quiz is shown for that market.
+    1. In Shopify, go to `Online store` and click the `👁️` eye icon to preview the store. Your store will open in a new window. 
+    2. Click on a link that opens the quiz or navigate to the page where the quiz is published. 
+    3. Test by switching markets and languages to verify the correct quizzes load (e.g., US quiz for the United States, EU quiz for Belgium).
+    4. Confirm that the correct quiz loads for each market and language.
+    5. Check that prices are displayed in the correct format.
 
-    !!! warning
+        !!! example "Example Test Scenarios"
 
-        The `Preview` option in the quiz builder always displays the default quiz in the default main market. It is not yet possible to preview the quiz in a different market within the app. To test the quiz in a different market, you need to publish the quiz on your website and then change the languge or region to see if the right quiz is shown for that market.
+            Market change: Switch to the United States → US quiz appears.
 
+            Market change: Switch to Belgium → EU quiz appears.
+
+            Language change: Change to French → French quiz appears.
+
+            Language change: Change to Spanish → Spanish quiz appears.
+
+            ![sample test](https://loom.com/i/6893314457ef4219a293e28708f91ba1?workflows_screenshot=true)
+
+
+    !!! tip
+
+        You can also preview a specific quiz results page within the `Preview` option in the app. 
+        
+        1. Open the [Quiz Builder](/reference/quiz-builder/).
+        2. Click the `Preview` button in the top-right corner of the quiz builder and get all the way to the results page.
+        3. There, you'll have the option to preview the results page as different markets and languages.
+
+        ![how to test quiz results page](/images/tutorial_shopifyv2_preview_quiz_as_market.png)
 
 
 === "Shopify (Legacy)"

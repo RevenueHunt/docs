@@ -47,6 +47,14 @@
 
     ![manual_shopifyV2_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_preview.png)
 
+    !!! tip "Previewing the Quiz"
+ 
+        In the quiz Preview you can test different answering paths and see what gets recommended on the results page. 
+        
+        You can also preview the results page as different markets and languages or head over to [analytics](/reference/quiz-builder/metrics/#analytics) to understand why the quiz shown this specific results.
+
+        ![preview quiz example results page](/images/manual_shopifyv2_quiz_preview_example.png)
+
     From the `...` menu	 you can:
     
     `˙⟡ Quiz Copilot`- open the Quiz Copilot (AI assistant) by clicking the `Quiz Copilot` icon.
