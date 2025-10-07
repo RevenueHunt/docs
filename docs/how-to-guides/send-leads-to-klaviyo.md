@@ -303,10 +303,10 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
                 The code contains several ready-to-use code snippets that allow you to display: 
 
-                - Quiz question answers (section `{# REFERENCE: INFORMATION GATHERED FROM THE QUESTIONS #}`)
-                - Recommended products (section `{# REFERENCE: INDIVIDUAL ITEM RECOMMENDATIONS BY SLOT #}`)
-                - A Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake (section `{# REFERENCE: INDIVIDUAL ITEM RECOMMENDATIONS BY SLOT #}`)
-                - A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake (section `{# RECOMMENDED: DYNAMIC RESULT PAGE CONTENT (LOOPS THROUGH RESULT_SECTIONS-jGzry2) #}`) **👈 this section is the recommended one to use**
+                - **Dynamic Results Page**: Display dynamic result page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
+                - **Static Results Page**: Display the complete result page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
+                - **Individual recommendations**: Display individual product recommendations by slot. Use this to show specific recommended items with their details like title, description, price, and images.
+                - **Question answers**: Display quiz information and individual question answers. Use this to show personal data and specific responses from quiz questions.
 
         8. Paste the code in the `HTML` block in Klaviyo email.
 
