@@ -185,6 +185,7 @@ extra_javascript:
   - javascripts/feedback.js
   - javascripts/gtag.js
   - javascripts/survey.js
+  - javascripts/attribution.js
 
 extra_css:
   - docs.css
