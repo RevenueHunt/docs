@@ -20,7 +20,7 @@ This article will guide you through the process of copying a quiz from one store
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/0a2453ead2b44b3fb7df5cb17a72e3e2?sid=5912fafd-7f72-432c-8fd1-a870d5a4cdc0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/KQlWuEbHHXQ?si=uMw8HqQ156H8SMGb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     **Step 1: Generate Export Quiz Code**
 
