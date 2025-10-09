@@ -124,9 +124,6 @@
       }
 
       setCookie('revenuehunt_attribution', JSON.stringify(payload), 180);
-      setCookie('revenuehunt_source', current.source, 180);
-      setCookie('revenuehunt_medium', current.medium, 180);
-      setCookie('revenuehunt_campaign', current.campaign, 180);
   }
 
   window.getMarketingAttribution = function() {
