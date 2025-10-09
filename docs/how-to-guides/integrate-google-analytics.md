@@ -12,7 +12,7 @@ icon: material/google-analytics
 
     This article will guide you through the process of connecting your quiz to Google Analytics and tracking quiz events.
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/4f4960d62ead431b8f8fa785287df760?sid=cb45da59-66f5-48c4-a665-41ff5056d009" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/8P-kANzya2g?si=L-rMRoSRsdbwSgof" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
 === "Shopify (Legacy)"
