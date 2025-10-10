@@ -12,7 +12,7 @@ To combine two or more questions into one slide, follow these steps:
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/d07fc75cb3474e0ebf8e7f1736c8e024?sid=c26b47b1-709d-4833-a256-4d9c2e35a0f3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/C927w-0ZRl4?si=5j8Uwb7CLT-n-m7A" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Add a question to the quiz by clicking on the [`+ question`](/reference/quiz-builder/questions/#question-types) button.
