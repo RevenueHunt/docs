@@ -4,7 +4,7 @@
 
     While the new Built for Shopiify version of the RevenueHunt app **does not** yet integrate directly with Hubspot, it is still possible to send quiz leads to Hubspot.
 
-    One option includes using our [Webhooks](/how-to-guides/send-leads-to-webhooks/) integration to send quiz leads to Hubspot. Another, includes manually adding the quiz leads to Hubspot by uploading a CSV file generated from the quiz.
+    This includes manually adding the quiz leads to Hubspot by uploading a CSV file generated from the quiz.
 
     This guide explain how you can send quiz data to Hubspot with a workaround.
 
@@ -157,7 +157,6 @@
 
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
 
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Hubspot. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Hubspot.
     - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
 
 
@@ -167,7 +166,6 @@
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
 
     - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Hubspot. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Hubspot.
     - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
     
 === "WooCommerce"
@@ -175,7 +173,6 @@
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
 
     - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Hubspot. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Hubspot.
     - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 
@@ -185,7 +182,6 @@
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
 
     - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Hubspot. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Hubspot.
     - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 === "BigCommerce"
@@ -194,7 +190,6 @@
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
 
     - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Hubspot. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Hubspot.
     - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 === "Standalone"
@@ -203,7 +198,6 @@
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
 
     - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Hubspot. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Hubspot.
     - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 ## Quiz Data in HubSpot
