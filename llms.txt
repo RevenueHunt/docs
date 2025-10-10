@@ -147,7 +147,6 @@ Note: Some external links point to our [Blog](https://revenuehunt.com) (revenueh
 - [How to Get More Quiz Engagement](https://docs.revenuehunt.com/customer-success/how-to-get-more-quiz-engagement/): Easy ways to promote your quiz.
 - [How to Reduce Drop Off](https://docs.revenuehunt.com/customer-success/reduce-dropoff/): Reducing quiz abandonment.
 - [Quiz Not Converting](https://docs.revenuehunt.com/customer-success/quiz-not-converting/): Conversion troubleshooting.
-- [Why Products Are Not Added To Cart](https://docs.revenuehunt.com/customer-success/add-to-cart-issues/): Troubleshooting add-to-cart issues.
 - [11 Easy Ways to Promote Your Quiz](https://revenuehunt.com/11-easy-ways-to-promote-your-quiz-and-get-more-people-to-take-it/): Promotion strategies.
 - [Build an Effective Sales Funnel](https://revenuehunt.com/build-sales-funnel-shopify-store/): Sales funnel optimization.
 - [Build Sales Funnel](https://docs.revenuehunt.com/customer-success/build-sales-funnel/): Sales funnel optimization.
