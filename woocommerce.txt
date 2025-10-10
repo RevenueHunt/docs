@@ -5154,7 +5154,7 @@ icon: material/face-agent
 Our sharpest and friendliest support team in the eCommerce sector can be reached via the quiz below:
 
 <script src="https://admin.revenuehunt.com/embed.js" async></script>
-<div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/wnHprB" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
+<div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/ZAHJoMM" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
 
 You can also send your inquiries via email to `team@revenuehunt.com`.
 
@@ -7495,7 +7495,7 @@ Here’s a list of all the tracked events:
 | Customer proceeds to checkout | `track` | `InitiateCheckout` | `{ num_items: num_products_in_cart, currency: quiz_currency, value: value_of_products_in_cart }` |
 | Customer retakes the quiz | `trackCustom` | `RetakeQuiz` | `{ content_name: quiz_name, content_category: 'quiz' }` |
 ## Review Custom Events
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/88646c6099e340189f1d5a08ffee8ed7?sid=16508af3-bb5b-4154-85d1-367fdc099de0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/qxcWFdfTZ_s?si=s1XW819N9ub_Gv0j&amp;start=227" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 This section outlines the process for managing custom events in Metapixel after connecting it to your quiz application. It details the steps to review, acknowledge, and confirm the use of custom events for advertising features.
 1. After connecting Metapixel to your quiz, new custom events will start appearing in your app.
     Standard events include: 
@@ -10273,7 +10273,7 @@ This guide explains how to integrate and recommend subscription products with Re
 
 Recommending subscription products via the RevenueHunt Product Recommendation Quiz can simplify your e-commerce strategy by providing a steady revenue stream and fostering long-term customer relationships. 
 
-However, not all subscription apps are supported yet with the RevenueHunt app. Currently, we support [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify V1 (legacy version) and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce.
+However, not all subscription apps are supported yet with the RevenueHunt app. Currently, we support [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce.
 
 If you're using a subscription app that is not supported, you can still recommend subscription products to your users by sending them to a single-time payment product page from the quiz results using [this workaround](#other-subscriptions). This will allow your users to subscribe to the product from the product page.
 
@@ -10282,7 +10282,7 @@ If you're using a subscription app that is not supported, you can still recommen
 
 !!! warning
 
-    RevenueHunt app currently only integrates with [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify V1 (legacy version) and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce. Subscription products are not yet supported in the Product Recommendation Quiz for Shopify (new version),BigCommerce or Magento. They will not show up on the Results page. However, there’s a workaround explained in the [Other subscriptions](#other-subscriptions) section of the article.
+    RevenueHunt app currently integrates with [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce. Subscription products are not yet supported in the Product Recommendation Quiz for BigCommerce or Magento. They will not show up on the Results page. However, there’s a workaround explained in the [Other subscriptions](#other-subscriptions) section of the article.
 
 ## ReCharge Subscriptions
 
@@ -10968,19 +10968,15 @@ Integrating your RevenueHunt Product Recommendation Quiz with HubSpot can improv
 ## Alternative Ways to Send Quiz Leads to Hubspot
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
     - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Hubspot. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Hubspot.
     - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
     - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Hubspot. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Hubspot.
     - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
     - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Hubspot. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Hubspot.
     - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
     - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Hubspot. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Hubspot.
     - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 ## Quiz Data in HubSpot
     Every time your customers take the quiz, their contact details along with all of their responses and product recommendations will be sent to your HubSpot account.

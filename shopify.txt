@@ -3227,7 +3227,7 @@ icon: material/face-agent
 Our sharpest and friendliest support team in the eCommerce sector can be reached via the quiz below:
 
 <script src="https://admin.revenuehunt.com/embed.js" async></script>
-<div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/wnHprB" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
+<div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/ZAHJoMM" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
 
 You can also send your inquiries via email to `team@revenuehunt.com`.
 
@@ -3317,7 +3317,7 @@ This article will guide you through the process of copying a quiz from one store
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/0a2453ead2b44b3fb7df5cb17a72e3e2?sid=5912fafd-7f72-432c-8fd1-a870d5a4cdc0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/KQlWuEbHHXQ?si=uMw8HqQ156H8SMGb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     **Step 1: Generate Export Quiz Code**
     First, navigate to the quiz you wish to export:
     1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/).
@@ -3596,8 +3596,8 @@ This guide outlines the process for downloading quiz responses from your quiz, a
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/15a64e5e225a48e884389d0ec238afa1?sid=302c62b1-53dd-407a-aa71-4a84c1dbb0c5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/04caa9ae24f445c99ecd3e1fca2c1867?sid=52c41a7b-889e-49ef-ae5a-eed88053e570" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uI9BYR37xE0?si=3vpVqYvtnBunRReL" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uI9BYR37xE0?si=GSIjUwiBie6TwF1u&amp;start=15" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. To view the last 100 individual responses, navigate to the [Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
         ![manual_shopifyV2_quizbuilder_openresponses](/images/manual_shopifyV2_quizbuilder_openresponses.png)
     2. On the left-hand side menu, you'll find the responses the quiz received organized by date/timestamp. Click on `View` to open a specific response.
@@ -3605,7 +3605,7 @@ This guide outlines the process for downloading quiz responses from your quiz, a
             Admin responses and quiz previews are removed from the list after 24 hours to don't add to your plan's limits.
         ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
         ![manual_shopifyV2_quizbuilder_responses_sample1](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/15a64e5e225a48e884389d0ec238afa1?sid=302c62b1-53dd-407a-aa71-4a84c1dbb0c5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uI9BYR37xE0?si=3vpVqYvtnBunRReL" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
     1. Navigate to the [Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
     2. To initiate the download, click the `Export CSV` button.
@@ -3636,7 +3636,7 @@ This guide will walk you through adding elements to your results page using a va
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/d5d6b20a4a5245fc9ea409d3584810e4?sid=312e4ef3-b1ee-4a53-af40-dc0cc5be4a38" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/i1iOAXPudkg?si=m9L8cqG6vZQu9Wlp" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
     1. **Plan Your Page Layout**: Decide on a mix of static and dynamic blocks to provide both consistent and personalized content.
     2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
@@ -3693,7 +3693,7 @@ icon: material/filter
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/0375115097c94e8fb6cdf36824ce0042?sid=9bec559f-5103-4201-b05d-a0c6e3d3a37f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/zfrq6Dh65S0?si=L-XkEXprRKs33ALk" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     This guide explains how to filter recommendations by price in your quiz results page. 
     It explains how to implement a price filtering feature in a quiz using Shopify and the Revenue Hunt Quizzes app. It covers the steps to create collections based on price ranges and how to configure the quiz to filter product recommendations accordingly.
     1. **Adding a Price Filtering Question**: Open the quiz by clicking `Customize` and  open the [Questions](/reference/quiz-builder/questions/) section.  Click `+ Add question` to add a new multiple choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
@@ -3926,7 +3926,7 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/816e788d98e04d1d91fb4b1a9d5a502d?sid=5403bf8e-8435-4893-845d-5dd859f8f157" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XX_TkB2waI4?si=8wvx1m28KyRQRdR3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     You can now exclude all out-of-stock items from your recommendations directly in the **Store settings** under the **Catalogue** tab.
     1. Go to [`App settings`](/reference/app-settings/) and select [`Catalogue`](/reference/app-settings/#catalogue) from the left menu.
     2. In the `Inventory filter` section, check the box labeled `Filter products by inventory level` and set the `Minimum stock level` (can be negative).
@@ -3934,6 +3934,7 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
     3. This will ensure that products below the minimum stock threshold (including out-of-stock products) will not be recommended.
     4. Save the changes.
     By following these steps, out-of-stock products will be hidden from your recommendations.
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XX_TkB2waI4?si=NeS6OBRV63_RLPeu&amp;start=64" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     You can now exclude all draft items from your recommendations directly in the **Store settings** under the **Catalogue** tab.
     1. Go to [`App settings`](/reference/app-settings/) and select [`Catalogue`](/reference/app-settings/#catalogue) from the left menu.
     2. In the `Draft products` section, uncheck the box labeled `Include draft products in recommendations`.
@@ -4074,7 +4075,7 @@ icon: material/google-analytics
 Google Analytics offers a powerful way to gain insights into user engagement with your quizzes. Linking your quiz with Google Analytics can provide valuable data on user interaction, pinpoint engagement issues, and help minimize abandonment rates. 
     The `💎 Built for Shopify` version of RevenueHunt app includes native GA4 integration for comprehensive event tracking.
     This article will guide you through the process of connecting your quiz to Google Analytics and tracking quiz events.
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/4f4960d62ead431b8f8fa785287df760?sid=cb45da59-66f5-48c4-a665-41ff5056d009" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/8P-kANzya2g?si=L-rMRoSRsdbwSgof" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! note
         Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
     1. Make sure you have set up the GA4 tracking on your website. 
@@ -4260,7 +4261,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/3257be8755f044969f803d9e5d29ace6?sid=8a6b4ed5-3bfe-4935-b820-9573ed93ce98" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/qxcWFdfTZ_s?si=to_CqE57FATovIPS" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     If you have not implemented a Pixel on your website yet, set one up following [Meta guide](https://www.facebook.com/business/help/952192354843755?id=1205376682832142). Once created, add it to your website.
     1. **Connect Meta Pixel to your Shopify Store**: Navigate to your Shopify `Store settings > Customer events`. Ensure that the Meta (Facebook) Pixel is integrated. If not, use the [Facebook and Instagram Meta app](https://apps.shopify.com/facebook-and-instagram-meta-app) for integration.
     2. **Set Up Data Sources**: Open the Facebook and Instagram app in Shopify. Go to `settings` and set `shared data` to `maximum` to track advanced and custom events. Choose or create a **data set** for tracking. 
@@ -4319,7 +4320,7 @@ To combine two or more questions into one slide, follow these steps:
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/d07fc75cb3474e0ebf8e7f1736c8e024?sid=c26b47b1-709d-4833-a256-4d9c2e35a0f3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/C927w-0ZRl4?si=5j8Uwb7CLT-n-m7A" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Add a question to the quiz by clicking on the [`+ question`](/reference/quiz-builder/questions/#question-types) button.
     3. Within the question, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a block type from the list. 
@@ -5444,7 +5445,7 @@ This guide explains how to integrate and recommend subscription products with Re
 
 Recommending subscription products via the RevenueHunt Product Recommendation Quiz can simplify your e-commerce strategy by providing a steady revenue stream and fostering long-term customer relationships. 
 
-However, not all subscription apps are supported yet with the RevenueHunt app. Currently, we support [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify V1 (legacy version) and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce.
+However, not all subscription apps are supported yet with the RevenueHunt app. Currently, we support [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce.
 
 If you're using a subscription app that is not supported, you can still recommend subscription products to your users by sending them to a single-time payment product page from the quiz results using [this workaround](#other-subscriptions). This will allow your users to subscribe to the product from the product page.
 
@@ -5453,13 +5454,22 @@ If you're using a subscription app that is not supported, you can still recommen
 
 !!! warning
 
-    RevenueHunt app currently only integrates with [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify V1 (legacy version) and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce. Subscription products are not yet supported in the Product Recommendation Quiz for Shopify (new version),BigCommerce or Magento. They will not show up on the Results page. However, there’s a workaround explained in the [Other subscriptions](#other-subscriptions) section of the article.
+    RevenueHunt app currently integrates with [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce. Subscription products are not yet supported in the Product Recommendation Quiz for BigCommerce or Magento. They will not show up on the Results page. However, there’s a workaround explained in the [Other subscriptions](#other-subscriptions) section of the article.
 
 ## ReCharge Subscriptions
 
 --- Shopify Specific Content ---
 
-1. To add subscription to your recommended products go to the [Results Page]().
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/ea22c48d678f41999abd90462d348cd5?sid=6a559de9-555a-4f29-a879-dcaf11359a35" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    !!! warning "Before you start"
+        - Ensure you are using the [Recharge Pro version](https://getrecharge.com/pricing/) to access the Storefront API. If you are not using the Pro version, try reaching out to [Recharge support](https://support.getrecharge.com/hc/en-us#) to see what's possible.
+        - Confirm that Recharge is configured on your Shopify website according to the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/).
+    1. **Adding Recharge Script to Shopify Theme**: To enable the integration, add the Recharge script to your Shopify theme:
+        - Navigate to your online store themes and select `Edit Code`.
+        - Open the `layout/theme.liquid` file.
+        - Insert the correct version of the Recharge Storefront API script in the header section.
+        - Save the changes to load the Recharge script in your store, allowing the Revenue Hunt app to access Recharge products.
+    1. To add subscription to your recommended products go to the [Results Page](/reference/quiz-builder/results-page/).
     2. Find the [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
     3. Under `Product components layout`, find the `Subscription` option and add it to the layout.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png)
@@ -5472,6 +5482,10 @@ If you're using a subscription app that is not supported, you can still recommen
             - ReCharge Subscriptions (Pro plan only).
             If you wish to integrate a subscription app that is not supported yet, please reach out to our customer support team and we will be happy to help you.
     4. Save the changes with the top-right `Save` button.
+    5. To test the integration, [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) the quiz on a new page in your website and go all the way to the results page. You should see the subscription options available. From there, you can add the subscription product directly to the cart or proceed to the cart page.
+    6. Verify that the subscription item is added correctly to the cart.
+    !!! warning "Quiz Preview"
+        The subscription options will not be avialble in the quiz preview. To test the integration, you need to [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page)  the quiz on a new page in your website.
     Not applicable.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/d5f15461e3014d2fa8ad33637410d4ba?sid=ed6fdfff-9d0e-439b-aa83-a61708b36a44" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Reocommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
@@ -5688,12 +5702,11 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-hubspot/
 --- Shopify Specific Content ---
 
 While the new Built for Shopiify version of the RevenueHunt app **does not** yet integrate directly with Hubspot, it is still possible to send quiz leads to Hubspot.
-    One option includes using our [Webhooks](/how-to-guides/send-leads-to-webhooks/) integration to send quiz leads to Hubspot. Another, includes manually adding the quiz leads to Hubspot by uploading a CSV file generated from the quiz.
+    This includes manually adding the quiz leads to Hubspot by uploading a CSV file generated from the quiz.
     This guide explain how you can send quiz data to Hubspot with a workaround.
     It is **not yet possible** to link your Product Recommendation Quiz created in the new Built for Shopify version of the RevenueHunt app to Hubspot.
     Check [Alternative Ways to Send Quiz Leads to Hubspot](#alternative-ways-to-send-quiz-leads-to-hubspot) to learn how you can send quiz leads to Hubspot anyway.
     Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Hubspot. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Hubspot.
     - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
     If you've set up [Alternative Ways to Send Quiz Leads to Hubspot](#alternative-ways-to-send-quiz-leads-to-hubspot), every time your customers take the quiz, their contact details along with all of their responses and product recommendations will be sent over to your HubSpot account.
     1. To view the imported data, navigate to the `contacts` section within HubSpot.
@@ -5800,10 +5813,10 @@ This article walks you through the process of connecting your quiz to Klavviyo a
                 ![how to send leads to klaviyo email tempalte download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
                 ![how to send leads to klaviyo email tempalte download2](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
                 The code contains several ready-to-use code snippets that allow you to display: 
-                - Quiz question answers (section `{# REFERENCE: INFORMATION GATHERED FROM THE QUESTIONS #}`)
-                - Recommended products (section `{# REFERENCE: INDIVIDUAL ITEM RECOMMENDATIONS BY SLOT #}`)
-                - A Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake (section `{# REFERENCE: INDIVIDUAL ITEM RECOMMENDATIONS BY SLOT #}`)
-                - A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake (section `{# RECOMMENDED: DYNAMIC RESULT PAGE CONTENT (LOOPS THROUGH RESULT_SECTIONS-jGzry2) #}`) **👈 this section is the recommended one to use**
+                - **Dynamic Results Page**: Display dynamic result page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
+                - **Static Results Page**: Display the complete result page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
+                - **Individual recommendations**: Display individual product recommendations by slot. Use this to show specific recommended items with their details like title, description, price, and images.
+                - **Question answers**: Display quiz information and individual question answers. Use this to show personal data and specific responses from quiz questions.
         8. Paste the code in the `HTML` block in Klaviyo email.
             ![how to send leads to klaviyo built for shopify revenuehunt app example template in klaviyo](https://loom.com/i/04a9f5a3d3a040d2a97c2b393fc18c41?workflows_screenshot=true)
         9. Next, `Preview` the email as one of your segment subscribers to check what information is displayed.
@@ -8141,9 +8154,24 @@ This article explains how to show a quiz based on Shopify Markets.
     In there, you can also change format of how the price currency on recommended product is displayed. If you don't change the default, the price will be displayed as set up in your Shopify Market. If you want to change the format type the currency in the format you want, for example `${{amount}}` or `{{amount}}€` can be used to replace the default `{{amount}}USD` or `{{amount}}EUR`.
     Save the changes. From now on, the default quiz for your store will open. If you've configured [Shopify Markets](/reference/app-settings/#shopify-markets), the default quiz for that specific market will be shown instead.
     To test that the right quiz is shown for the right market, ensure that the quiz is published on your website by following the instructions in the [Publish](/reference/quiz-builder/share-publish/) tab of the app or [this how to article](https://docs.revenuehunt.com/how-to-guides/publish-quiz/).
-    Then navigate to your website and change the languge or region to see if the right quiz is shown for that market.
-    !!! warning
-        The `Preview` option in the quiz builder always displays the default quiz in the default main market. It is not yet possible to preview the quiz in a different market within the app. To test the quiz in a different market, you need to publish the quiz on your website and then change the languge or region to see if the right quiz is shown for that market.
+    Once the default quiz is published and markets set up, you can preview your store and test the setup on different markets and languages.
+    1. In Shopify, go to `Online store` and click the `👁️` eye icon to preview the store. Your store will open in a new window. 
+    2. Click on a link that opens the quiz or navigate to the page where the quiz is published. 
+    3. Test by switching markets and languages to verify the correct quizzes load (e.g., US quiz for the United States, EU quiz for Belgium).
+    4. Confirm that the correct quiz loads for each market and language.
+    5. Check that prices are displayed in the correct format.
+        !!! example "Example Test Scenarios"
+            Market change: Switch to the United States → US quiz appears.
+            Market change: Switch to Belgium → EU quiz appears.
+            Language change: Change to French → French quiz appears.
+            Language change: Change to Spanish → Spanish quiz appears.
+            ![sample test](https://loom.com/i/6893314457ef4219a293e28708f91ba1?workflows_screenshot=true)
+    !!! tip
+        You can also preview a specific quiz results page within the `Preview` option in the app. 
+        1. Open the [Quiz Builder](/reference/quiz-builder/).
+        2. Click the `Preview` button in the top-right corner of the quiz builder and get all the way to the results page.
+        3. There, you'll have the option to preview the results page as different markets and languages.
+        ![how to test quiz results page](/images/tutorial_shopifyv2_preview_quiz_as_market.png)
 
 
 
@@ -10487,6 +10515,10 @@ SOURCE: https://docs.revenuehunt.com/reference/quiz-builder/
     ![manual_shopifyV2_quizbuilder_unsavedchanges](/images/manual_shopifyV2_quizbuilder_unsavedchanges.png)
     To test the whole quiz click `Preview` in the top right corner of the Quiz Builder.
     ![manual_shopifyV2_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_preview.png)
+    !!! tip "Previewing the Quiz"
+        In the quiz Preview you can test different answering paths and see what gets recommended on the results page. 
+        You can also preview the results page as different markets and languages or head over to [analytics](/reference/quiz-builder/metrics/#analytics) to understand why the quiz shown this specific results.
+        ![preview quiz example results page](/images/manual_shopifyv2_quiz_preview_example.png)
     From the `...` menu	 you can:
     `˙⟡ Quiz Copilot`- open the Quiz Copilot (AI assistant) by clicking the `Quiz Copilot` icon.
     `Quiz settings`- open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
@@ -12806,11 +12838,12 @@ In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendatio
     6. To add the quiz content and quiz recommended products you'll need to add an `HTML` block. Drag and drop the `HTML` block to the email builder.
     7. In the `Quiz Settings > Integrations` section, you'll find a button to download a `Klaviyo Template`. Click the `Klaviyo Template` button and a new window will open. There, click `Copy code` to copy the existing template.
         !!! info "Klaviyo Template"
+            ![how to send leads to klaviyo email tempalte download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
             The code contains several ready-to-use code snippets that allow you to display: 
-            - Quiz question answers (section `{# REFERENCE: INFORMATION GATHERED FROM THE QUESTIONS #}`)
-            - Recommended products (section `{# REFERENCE: INDIVIDUAL ITEM RECOMMENDATIONS BY SLOT #}`)
-            - A Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake (section `{# REFERENCE: INDIVIDUAL ITEM RECOMMENDATIONS BY SLOT #}`)
-            - A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake (section `{# RECOMMENDED: DYNAMIC RESULT PAGE CONTENT (LOOPS THROUGH RESULT_SECTIONS-jGzry2) #}`) **👈 this section is the recommended one to use**
+            - **Dynamic Results Page**: Display dynamic result page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
+            - **Static Results Page**: Display the complete result page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
+            - **Individual recommendations**: Display individual product recommendations by slot. Use this to show specific recommended items with their details like title, description, price, and images.
+            - **Question answers**: Display quiz information and individual question answers. Use this to show personal data and specific responses from quiz questions.
     8. Paste the code in the `HTML` block in Klaviyo email.
     9. Next, `Preview` the email as one of your segment subscribers to check what information is displayed.
     10. You can freely edit the email template to your liking. For example, you can remove all the sections of the code that you don't need. You can also style the provided email code. Keep in mind, that you may need help from a developer to edit the tempalte code. Alternatively, you can try asking [Quiz Copilot](/how-to-guides/use-quiz-copilot/) or another AI agent like ChatGPT or Claude for help in styling the email.
@@ -13334,6 +13367,12 @@ In this tutorial, you’ll learn how to display different quizzes for different 
             Language change: Change to Spanish → Spanish quiz appears.
             ![sample test](https://loom.com/i/6893314457ef4219a293e28708f91ba1?workflows_screenshot=true)
     Congratulations! You've successfully set up quizzes for different markets and languages in the RevenueHunt app.
+    !!! tip
+        You can also preview a specific quiz results page within the `Preview` option in the app. 
+        1. Open the [Quiz Builder](/reference/quiz-builder/).
+        2. Click the `Preview` button in the top-right corner of the quiz builder and get all the way to the results page.
+        3. There, you'll have the option to preview the results page as different markets and languages.
+        ![how to test quiz results page](/images/tutorial_shopifyv2_preview_quiz_as_market.png)
 
 
 
