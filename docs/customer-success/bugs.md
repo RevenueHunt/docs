@@ -29,11 +29,6 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
             Under investigation.
 
 
-    - **Currency in Analytics always shows in USD**: The currency in analytics always shows in USD.
-    
-        !!! note "Status"
-            Under investigation.
-
     - **User Name Display Issue in Email**: Instead of showing the name of the person who completed the quiz, it’s displaying the question reference like: "Hey Q2: BEFORE WE BEGIN___".
     
         !!! note "Status"
