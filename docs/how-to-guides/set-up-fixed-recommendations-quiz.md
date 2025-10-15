@@ -24,11 +24,12 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/a8b065fe66ec462091e84ca1848577bd?sid=88e11900-db7b-4d42-8cf6-4b68821d96fb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/uiJwV1MxZKg?si=Ucpz_kB6PXt5VgJ4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     
     1. To show the same products to everyone regardless of the customer answers, add a [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) to the Results Page and set the `Recommendation System` to `Fixed Recommendations`.
-    2. Under `Slot 1` select the products you want to show.
-    3. Save the changes and preview the quiz.
+    2. Under `Slot 1` go to `Fixed recommended items` and select the products you want to show.
+    3. Adjust the `Max. recommended items` number to match the number of recommended products. 
+    4. Save the changes and preview the quiz.
 
 
 === "Shopify (Legacy)"
@@ -255,7 +256,7 @@ Set up multiple sections on the results page with fixed product and text combina
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/316e4dcc9db14812a76ace51e85b6fe5?sid=cdb69306-37dd-4331-8e76-aeb763351f12" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/NvDLDlknJv4?si=x9HaGPZxsjDwTrY-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
@@ -452,7 +453,7 @@ Set up multiple results pages with unique fixed product recommendations and text
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/23f2c55346e64f3091ef6c70ad874dc1?sid=58d565f5-8bf8-4f85-b934-4b8d042818d8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/uLqul_uj0UQ?si=E77WIlpSvtjC4w7R" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
