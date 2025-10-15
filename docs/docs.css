@@ -40,3 +40,13 @@
 .tabbed-block img {
     margin: 10px 0;
 }
+
+:root > * {
+    --md-primary-fg-color:        #1e2228;  /* Base */
+    --md-primary-fg-color--light: #3a4048;  /* Light version */
+    --md-primary-fg-color--dark:  #0e1115;  /* Dark version */
+  }
+
+.md-typeset a {
+    color: #4051b5;
+  }
