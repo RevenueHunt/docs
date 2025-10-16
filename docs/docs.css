@@ -47,6 +47,13 @@
     --md-primary-fg-color--dark:  #0e1115;  /* Dark version */
   }
 
-.md-typeset a {
-    color: #4051b5;
+  .md-typeset a {
+    color: #3858e9;
+    text-decoration: underline;
   }
+  
+  .md-typeset a:hover {
+    color: #3858e9;
+    text-decoration: none;
+  }
+  

@@ -851,6 +851,8 @@
 
     `Restore this version` - Allows you to replace the current version of the quiz with the selected one.
 
+    `Copy quiz code` - Copy the quiz code (JSON) of this version to clipboard. You can then transfer this quiz version to another store.
+
     `Show more details` - Click to expand the version change details.
 
 

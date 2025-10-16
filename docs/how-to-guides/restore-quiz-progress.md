@@ -170,6 +170,7 @@ This guide will walk you through the process of using the [Version History](/ref
 
         - `Create a New Quiz` generates a new quiz with a new ID, while 
         - `Restore This Version` replaces the current quiz with the selected version without changing the quiz ID.
+        - `Copy quiz code` copies the quiz code (JSON) of this version to clipboard. This allows you to transfer this quiz version to another store.
 
 
         !!! tip

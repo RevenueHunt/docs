@@ -14,6 +14,13 @@ icon: material/google-analytics
 
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/8P-kANzya2g?si=L-rMRoSRsdbwSgof" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+    !!! warning "GA4 Event Tracking Reliability"
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+
+        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+
+
 
 === "Shopify (Legacy)"
 
@@ -21,11 +28,25 @@ icon: material/google-analytics
 
     This article explains how to track quiz events and performance in Google Analytics.
 
+
+    !!! warning "GA4 Event Tracking Reliability"
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        
+        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+
 === "WooCommerce"       
 
     To track quiz performance with Google Analytics in WooCommerce, you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
 
     This article explains how to track quiz events and performance in Google Analytics. 
+
+
+    !!! warning "GA4 Event Tracking Reliability"
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        
+        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
 
 === "Magento"
 
@@ -33,17 +54,38 @@ icon: material/google-analytics
 
     This article explains how to track quiz events and performance in Google Analytics.
 
+
+    !!! warning "GA4 Event Tracking Reliability"
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        
+        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+
 === "BigCommerce"
 
     To track quiz performance with Google Analytics in BigCommerce, you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
 
     This article explains how to track quiz events and performance in Google Analytics.
 
+
+    !!! warning "GA4 Event Tracking Reliability"
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        
+        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+
 === "Standalone"
 
     To track quiz performance with Google Analytics in a Standalone version of RevenueHunt app, you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
 
     This article explains how to track quiz events and performance in Google Analytics.
+
+
+    !!! warning "GA4 Event Tracking Reliability"
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        
+        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
 
 
 

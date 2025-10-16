@@ -18,6 +18,13 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
         !!! note "Status"
             Under investigation.
 
+    - **GA4 Tracking**: GA4 tracking is not working properly.
+    
+        !!! note "Status"
+            Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
+            
+            If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
+
     - **iPad 10th gen not scrolling properly**: Scrolling is not acting correctly on iPad10th gen (safari) navigation.
 
         !!! note "Status"
@@ -54,7 +61,9 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
     - **GA4 Tracking**: GA4 tracking is not working properly.
     
         !!! note "Status"
-            Under investigation.
+            Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
+            
+            If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
 
     - **Thank You and Order Status Pages Script**: The script settings for these pages have been updated. Contact support to implement the latest version of the script on your Thank You and Order Status pages.
     
@@ -81,7 +90,9 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
     - **GA4 Tracking**: GA4 tracking is not working properly.
     
         !!! note "Status"
-            Under investigation.
+            Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
+            
+            If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
 
     - **Return Key Behavior**: When pressing the return key to make a new line on the css when on an input question, it will act as an enter on the input and move to the results page tab.
 
@@ -101,7 +112,9 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
     - **GA4 Tracking**: GA4 tracking is not working properly.
     
         !!! note "Status"
-            Under investigation.
+            Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
+            
+            If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
 
     - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
     
@@ -116,7 +129,9 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
     - **GA4 Tracking**: GA4 tracking is not working properly.
     
         !!! note "Status"
-            Under investigation.
+            Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
+            
+            If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
 
     - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
     
@@ -131,7 +146,9 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
     - **GA4 Tracking**: GA4 tracking is not working properly.
     
         !!! note "Status"
-            Under investigation.
+            Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
+            
+            If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
 
     - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
     
