@@ -57,3 +57,4 @@
     text-decoration: none;
   }
   
+  .md-typeset .tabbed-labels--linked>label>a {text-decoration: none;}
