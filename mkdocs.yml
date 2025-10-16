@@ -44,6 +44,7 @@ plugins:
   - git-revision-date-localized
   - copy_markdown_plugin
 nav:
+  - ← Home: https://revenuehunt.com
   - Docs:
     - Docs: index.md
     - Tutorials: tutorials/index.md
