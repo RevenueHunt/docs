@@ -21,47 +21,6 @@
         if (hostname.indexOf('yandex.') !== -1) { return 'yandex'; }
         return null;
     }
-
-    function getDeviceType() {
-        const ua = navigator.userAgent;
-      
-        if (/mobile/i.test(ua)) return "mobile";
-        if (/tablet|ipad|playbook|silk/i.test(ua)) return "tablet";
-        return "desktop";
-    }
-
-    function getBrowser() {
-        const ua = navigator.userAgent;
-      
-        if (ua.includes("Chrome") && !ua.includes("Edg") && !ua.includes("OPR")) return "Chrome";
-        if (ua.includes("Edg")) return "Edge";
-        if (ua.includes("Firefox")) return "Firefox";
-        if (ua.includes("Safari") && !ua.includes("Chrome")) return "Safari";
-        if (ua.includes("OPR") || ua.includes("Opera")) return "Opera";
-        if (ua.includes("Brave")) return "Brave";
-      
-        return "Unknown";
-    }
-
-    function getOS() {
-        const ua = navigator.userAgent || navigator.vendor || window.opera;
-      
-        if (/windows phone/i.test(ua)) return "Windows Phone";
-        if (/win/i.test(ua)) return "Windows";
-        if (/android/i.test(ua)) return "Android";
-        if (/linux/i.test(ua)) return "Linux";
-        if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) return "iOS";
-        if (/Macintosh|MacIntel|MacPPC|Mac68K/i.test(ua)) return "macOS";
-      
-        return "Unknown";
-    }
-
-    function getSystemTimezone() {
-        const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-        const offset = -new Date().getTimezoneOffset() / 60;
-        const sign = offset >= 0 ? '+' : '';
-        return `${tz} (UTC${sign}${offset})`;
-    }
             
     function buildAttribution() {
         var qs = parseQueryParams(window.location.search);
@@ -112,11 +71,6 @@
             content: content || '',
             referrer: referrer,
             landing: window.location.pathname + window.location.search,
-            device: getDeviceType(),
-            browser: getBrowser(),
-            os: getOS(),
-            timezone: getSystemTimezone(),
-            language: (navigator.language || navigator.userLanguage).split('-')[0],
             timestamp: new Date().toISOString()
         };
     }
