@@ -12,7 +12,7 @@ This guide will walk you through the process of using the [Version History](/ref
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/ed05fcf812244f7f965e180fd446ea94?sid=d6e9b2f1-62bd-40b6-bdfe-14a314cbb295" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/4cGjCArhhQo?si=UbwoPQNEgTyrMqeG" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
 === "Shopify (Legacy)"
