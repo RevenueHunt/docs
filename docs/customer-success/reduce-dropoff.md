@@ -14,11 +14,8 @@ This guide offers practical steps and strategies to reduce drop-off rates and ma
 
 Start by examining the [drop-off metrics](/reference/quiz-builder/metrics/#drop-off) provided by RevenueHunt Product Recommendation Quiz. These metrics will highlight where participants are leaving the quiz, allowing you to pinpoint problem areas effectively.
 
-![drop-off metrics](/images/manual_quizbuilder_metrics_dropoff.png)
+![drop-off metrics](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 
-!!! warning "Not available for `💎 Built for Shopify` version"
-
-    The Drop-off data is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app. But you can measure the drop off by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
 
 **Which data to check?**
 

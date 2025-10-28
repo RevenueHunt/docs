@@ -26,12 +26,10 @@ All the information gathered by your RevenueHunt Product Recommendation Quiz can
 
     ![quiz builder metrics analytics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
 
-- The [Drop Off](/reference/quiz-builder/metrics/#drop-off) section displays a breakdown percentage of users leaving certain questions in your quiz. The data is shown in a table and graph format.
+- The [Drop Off](/reference/quiz-builder/metrics/#drop-off) section displays a breakdown percentage of users leaving certain questions in your quiz. The data is shown in a table format.
 
-    ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
+    ![quiz builder metrics drop off](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 
-    !!! warning "Not available for `💎 Built for Shopify` version"
-        The Drop-off data is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app.
 
 ###➡️ Download Raw Data
 
@@ -78,12 +76,11 @@ Tracking the number of quiz starts and responses/completions is fundamental. Hig
 
 Identifying where users drop off in your quiz can provide insights into potential friction points. Are users abandoning the quiz at a specific question or step? Use this data to adjust those points, making them more intuitive or engaging.
 
+![quiz builder metrics drop off](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
+
+
 !!! note
     The `drop-off rate` is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
-
-!!! warning "Not available for `💎 Built for Shopify` version"
-    The Drop-off data is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app.
-
 
 | Issue                          | Solution                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

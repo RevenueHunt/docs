@@ -419,23 +419,128 @@
 
     `No comparison` - Choose how you want to compare the data in the graphs. 
 
-    `Auto-refresh` - The data will refresh ever 60 seconds. Otherwise, the data is updated every 24 hours.
+    `Customize`- Click to add new cards to your analytics dashboard or re-arrange the cards.
 
-    `Quiz Starts` - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). 
+    !!! info "Data Refresh Frequency"
+        Our analytics dashboard updates at different intervals depending on the type of data displayed:
 
-    `Quiz Responses` - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.
+        - Quiz Responses and Engagement Data (e.g. responses, section visibility, results page distribution) → Updated live for recent activity (today/yesterday) and refreshed automatically every ~5 minutes for cached data over longer ranges.
 
-    `Numer of carts` - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button.
+        - Orders and Revenue Data → Synced with Shopify once per day to ensure accuracy with your store’s order information.
 
-    `Total carts value` - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout.
+        If you’ve just received new responses, please allow a few minutes for them to appear in all analytics cards.
 
-    `Number of orders` - Number of people who have placed an order after completing this quiz. 
+    **DEFAULT ANALYTICS CARDS**
 
-    `Total orders value` - Total value of orders placed after taking this quiz.
+    By default you'll see five blocks with the following metrics:
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_quizresponses](/images/manual_shopifyV2_quizbuilder_metrics_analytics_quizresponses.png)
+
+    `Quiz Responses` - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour. `1.4K` - number of responses recieved in a specified period (in black). `↗34.20%` - growth compared to last period (in green).
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_nroforders](/images/manual_shopifyV2_quizbuilder_metrics_analytics_nroforders.png)
+
+    `Number of orders` - Number of people who have placed an order after completing this quiz. `149` - number of orders recieved in a specified period (in black). `↗8.76%` - growth compared to last period (in green).
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue.png)
+
+    `Total orders value` - Total value of orders placed after taking this quiz. `€10,612.00` - total value of orders in a specified period (in black). `↗2.01%` - growth compared to last period (in green).
 
     !!! warning "Note"
 
         To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [Integrations](https://docs.revenuehunt.com/how-to-guides/send-leads-to-shopify-customers/) tab.
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
+
+    `Quiz flow and drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how visitors move through your quiz — from the first question to the results and checkout - and where they drop off. `Origin` - The slide or question where respondents started a step in the flow. `Destination` - The next slide or page they reached. `Views`- The number of times this transition occurred during the selected time range. `Drop-off` - The percentage (and number) of respondents who exited the quiz instead of continuing to the next step.
+
+    !!! tip
+        A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep users progressing.
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_selectedchoices](/images/manual_shopifyV2_quizbuilder_metrics_analytics_selectedchoices.png)
+
+    `Selected choices` - See which choices are selected most for each question. Shows how respondents answered each question in your quiz, allowing you to quickly identify the most popular options. `Single-choice` questions display the percentage of respondents who selected each answer. `Multiple-choice` questions (marked with `Multiple selection`) show how often each option was chosen across all responses. `Optional` questions only include data from respondents who reached and answered that question. 
+
+    !!! example 
+        In **Q3: AGE GROUP**, from `273 responses`, 41.4% of 273 selected `30's` choice, 40.7%of 273 seelcted `Teens and 20's`, 12.1% of 273 selected `40's` and 5.9% of 273 selected `50's and above`.
+
+    ### Customize
+
+    If you want to edit the Analytics page or add more insights click `Customize`. 
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton.png)
+    
+    This will open a side bar with avialble analytics cards(blocks):
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_customize](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customize.png)
+
+    Click on a card you want to add and it will be automatically placed on the analytics dashbaord. You can then re-arrange and resize each card oin the dashboard. Click `Save` once done editing the analytics dashboard. 
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_customized](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customized.png)
+
+    !!! note
+        Note that the hover-over option for a speciifc graph is only available once the changes have been saved with the top `Save` button.
+
+    **AVAILABLE CARDS**
+
+    **Overview metrics**
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_quizstarts](/images/manual_shopifyV2_quizbuilder_metrics_analytics_quizstarts.png)
+    
+    `Quiz Starts` - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). `2.0K` - number of quiz starts recieved in a specified period (in black). `↗57.62%` - growth compared to last period (in green).
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_nrofcarts](/images/manual_shopifyV2_quizbuilder_metrics_analytics_nrofcarts.png)
+
+    `Numer of carts` - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button. `350` - number of carts recieved in a specified period (in black). `↗16.67%` - growth compared to last period (in green).
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_totcartsvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totcartsvalue.png)
+
+    `Total carts value` - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout. `€68,801.00` - total carts value recieved in a specified period (in black). `↗12.58%` - growth compared to last period (in green).
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_averagecartsvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_averagecartsvalue.png)
+
+    `Average cart value`- Average value of the products included in all quiz carts or checkouts. `€6,032.82` - average carts value recieved in a specified period (in black). `↙0.73%` - growth compared to last period (in green).
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_averageordervalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_averageordervalue.png)
+
+    `Average order value` - Average value of the orders placed after taking a quiz. `€2,240.43` - average order value recieved in a specified period (in black). `↙4.60%` - growth compared to last period (in green).
+
+    **Conversion metrics**
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_conversionrate](/images/manual_shopifyV2_quizbuilder_metrics_analytics_conversionrate.png)
+
+    `Conversion rate` - Orders divided by total quiz completions for the selected window. `10.7%`- conversion rate in a specified period (in black). `-2.5%` - compared to selected comparison quiz/period. `1.4K responses`- number of responses in a specified period. `149 orders` - number of orders received in a specified period.
+
+    **Engagement metrics**
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_recommendeditems](/images/manual_shopifyV2_quizbuilder_metrics_analytics_recommendeditems.png)
+
+    `Recommended items`- See which recommended items are displayed most often in the results page. Shows which products were displayed most often on the Results Page of your quiz. Each bar represents the share of total quiz completions in which a specific product appeared as a recommendation. `Step titles` (e.g. Step 1 – Cleanser, Step 3 – Moisturizer) correspond to the product slots or sections you configured in your quiz results. `Impressions` indicate how many times that step or product was shown to respondents during the selected time range. `Percentages` show the relative frequency of each product being displayed within its step.
+
+    !!! example
+        In **Step 3 – Moisturizer**, from 274 impressions, 62.0% of respondents were shown `Organix Facial Moisturizer`, 19.0% saw `Moisturizing Cream-Gel`, 10.9% saw `Oil-Free Moisture Lotion`, 4.7% saw `Ultra Facial Deep Moisture Balm`, and 3.3% saw `Oil-Free Moisture – Combination Skin`.
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_resultspagedistribution](/images/manual_shopifyV2_quizbuilder_metrics_analytics_resultspagedistribution.png)
+
+    `Results page distribution` - See which results pages are displayed most often to quiz takers. Shows how often each results page in your quiz is displayed to respondents. Each bar represents the share of total quiz completions that led to a particular results page. `Responses` indicate the total number of completed quizzes in the selected period. `Percentages` show how frequently each results page appeared relative to total completions.
+
+    !!! example
+        From 7 responses, 42.9% of respondents saw `Results page 2`, 42.9% saw `Results page 1`, and 14.3% saw `Results page 3`.
+
+
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility](/images/manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility.png)
+
+    `Section visibility`- See which sections within result pages are displayed most often. Shows how often each section within your results pages is displayed to quiz respondents. Each bar represents the percentage of total result views where that section appeared. `Views` indicate the number of quiz completions that triggered each section to be shown. `Percentages` reflect how frequently each section was visible relative to all result views.
+
+    !!! example
+        From 3 views, 100% of respondents saw `S1: Your results are in!`, while `S2: Dry Skin`, `S4: Oily Skin,` and `S6: Sensitive Skin` each appeared in 33.3% of results.
+
+
+
+
+
+
+
 
 
 === "Shopify (Legacy)"
@@ -672,12 +777,30 @@
 
 === "Shopify"
 
-    The Drop-off data (drop off rate per question) is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app. For now, you can measure the drop off per choice or question by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
+    The Drop-off data (drop off rate per question) is available by default in the [Analytics](#analytics) section of the Quiz Builder.
 
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 
-    !!! tip "Tip: Analytics Per Choice"
+    `Quiz flow and drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how visitors move through your quiz — from the first question to the results and checkout - and where they drop off. 
+    
+    `Origin` - The slide or question where respondents started a step in the flow. 
+    
+    `Destination` - The next slide or page they reached. 
+    
+    `Views`- The number of times this transition occurred during the selected time range. 
+    
+    `Drop-off` - The percentage (and number) of respondents who exited the quiz instead of continuing to the next step.
 
-        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
+    !!! warning "How drop-off is measured"
+        The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+
+    !!! tip "Reducing Drop-off"
+        A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep users progressing.
+
+        Check [this help article](/customer-success/reduce-dropoff/) to learn how to reduce your quiz drop-off rates.
+
+    !!! note "Alternative ways to measure drop-off"
+        You can also measure the drop off per choice or question by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
 
 
 === "Shopify (Legacy)"

@@ -32,18 +32,20 @@ This documentation outlines how to track quiz analytics and revenue generated fr
     2. **Open the Analytics tab**: Open the RevenueHunt app and navigate to the [Analytics](/reference/quiz-builder/metrics/#analytics) tab.
     3. **Select a quiz and time period**: Select a specific quiz and set the desired time period (e.g., last 30 days) by clicking on the today icon.
 
-        In the analytics section, you can view:
+        In the analytics section, you can view by default:
 
         ![how to track revenue report metrics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
 
-        - Number of quiz starts
         - Total quiz responses
-        - Number of cards generated from the quiz
-        - Total cards value
         - Number of orders resulting from the quiz
         - Total value of these orders
 
+        !!! tip
+            To see more data, like the `Average order value`, `Number of carts` or simialr, you can [customize the analytics dashboard](/reference/quiz-builder/metrics/#customize).
+
     4. **Re-check the analytics**: After connecting to Shopify, all orders and their values resulting from quiz responses will be visible in the analytics panel. You can see the number of orders and total order value attributed to the quiz.
+
+        ![manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue.png)
 
 
     !!! tip "Track Revenue with Google Analytics"
