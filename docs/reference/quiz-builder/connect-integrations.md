@@ -14,6 +14,7 @@
         - [Google Analytics](/how-to-guides/integrate-google-analytics/)
         - [Meta Pixel](/how-to-guides/integrate-meta-pixel/)
         - [Webhooks](/how-to-guides/send-leads-to-webhooks/)
+        - [Zapier](/how-to-guides/send-leads-to-zapier/)
 
     To open the Integrations tab, go to the [Dashboard](/reference/dashboard/) and open the [Quiz Settings](/reference/quiz-builder/quiz-settings/) page.
 
@@ -25,6 +26,14 @@
 
     To connect the quiz to a particular service find it on the page. Then follow the instructions displayed in the browser or in the `read more` section. To disconnect from a service click the `Disconnect` button.
 
+    Integrations are divided into the following subcategories:
+
+    `Automations` - Connect to services like [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) and redirect your quiz data anywhere.
+
+    `Analytics & tracking` - Integrate with platforms like [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) to track quiz events, measure conversions, and understand customer behavior.
+
+    `Mailing & CRM's` - Sync captured quiz leads directly to your email marketing or CRM platforms, such as [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), or [Shopify Customers (Shopify Flow)](/how-to-guides/send-leads-to-shopify-customers/). Use this data for personalized campaigns, segmentation, and automated follow-ups.
+ 
     !!! info
 
         [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) connect directly to the property set up in your store. If you have not set up tracking for your store yet, you should do it before connecting the quiz to these services.
