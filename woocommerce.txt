@@ -280,7 +280,8 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 These are the known bugs that we are aware of and are working to fix:
     - **GA4 Tracking**: GA4 tracking is not working properly.
         !!! note "Status"
-            Under investigation.
+            Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
+            If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     - **Return Key Behavior**: When pressing the return key to make a new line on the css when on an input question, it will act as an enter on the input and move to the results page tab.
         !!! note "Status"
             Under investigation.
@@ -290,21 +291,24 @@ These are the known bugs that we are aware of and are working to fix:
     These are the known bugs that we are aware of and are working to fix:
     - **GA4 Tracking**: GA4 tracking is not working properly.
         !!! note "Status"
-            Under investigation.
+            Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
+            If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
         !!! note "Status"
             Under investigation.
     These are the known bugs that we are aware of and are working to fix:
     - **GA4 Tracking**: GA4 tracking is not working properly.
         !!! note "Status"
-            Under investigation.
+            Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
+            If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
         !!! note "Status"
             Under investigation.
     These are the known bugs that we are aware of and are working to fix:
     - **GA4 Tracking**: GA4 tracking is not working properly.
         !!! note "Status"
-            Under investigation.
+            Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
+            If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
         !!! note "Status"
             Under investigation.
@@ -1894,11 +1898,8 @@ This guide offers practical steps and strategies to reduce drop-off rates and ma
 
 Start by examining the [drop-off metrics](/reference/quiz-builder/metrics/#drop-off) provided by RevenueHunt Product Recommendation Quiz. These metrics will highlight where participants are leaving the quiz, allowing you to pinpoint problem areas effectively.
 
-![drop-off metrics](/images/manual_quizbuilder_metrics_dropoff.png)
+![drop-off metrics](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 
-!!! warning "Not available for `💎 Built for Shopify` version"
-
-    The Drop-off data is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app. But you can measure the drop off by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
 
 **Which data to check?**
 
@@ -2042,12 +2043,10 @@ All the information gathered by your RevenueHunt Product Recommendation Quiz can
 
     ![quiz builder metrics analytics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
 
-- The [Drop Off](/reference/quiz-builder/metrics/#drop-off) section displays a breakdown percentage of users leaving certain questions in your quiz. The data is shown in a table and graph format.
+- The [Drop Off](/reference/quiz-builder/metrics/#drop-off) section displays a breakdown percentage of users leaving certain questions in your quiz. The data is shown in a table format.
 
-    ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
+    ![quiz builder metrics drop off](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 
-    !!! warning "Not available for `💎 Built for Shopify` version"
-        The Drop-off data is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app.
 
 ###➡️ Download Raw Data
 
@@ -2094,12 +2093,11 @@ Tracking the number of quiz starts and responses/completions is fundamental. Hig
 
 Identifying where users drop off in your quiz can provide insights into potential friction points. Are users abandoning the quiz at a specific question or step? Use this data to adjust those points, making them more intuitive or engaging.
 
+![quiz builder metrics drop off](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
+
+
 !!! note
     The `drop-off rate` is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
-
-!!! warning "Not available for `💎 Built for Shopify` version"
-    The Drop-off data is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app.
-
 
 | Issue                          | Solution                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -4348,68 +4346,6 @@ For other subscription apps, there's a [workaround](/how-to-guides/recommend-sub
 
 ---
 This article helps with troubleshooting add-to-cart issues in RevenueHunt app.
-
-
-
-
-================================================================================
-SOURCE: https://docs.revenuehunt.com/how-to-guides/always-recommend-the-same-product/
-================================================================================
-
-# How to Ensure a Specific Product Always Appears on Your Results Page
-
-This guide provides a clear, step-by-step process to making sure that specific products are always visible on the Results Page of your quiz, regardless of the customer's choices.
-
-!!! warning "Understand the voting system first"
-
-    The backbone of personalized product recommendations is an algorithm that functions like a [voting system](#how-to-recommend-products), where products gain 'votes' based on customer selections in a quiz. The more votes a product has by the end of the quiz, the more likely it is to be displayed on the Results Page. Familiarizing yourself with [this recommendation mechanism](#how-to-recommend-products) is essential for effectively implementing the strategies outlined below.
-
-## Strategy 1: Link Your Product to Every Choice
-
-This approach ensures your chosen product always tops the Results Page by securing the most votes.
-
---- WooCommerce Specific Content ---
-
-1. Access the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. 
-    2. Link your selected product with **every choice** available in the quiz. This method guarantees that the product collects votes with each customer selection, ensuring its appearance on the Results Page.
-    This strategy positions the product at the forefront of the Results Page every time.
-    1. Access the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. 
-    2. Link your selected product with **every choice** available in the quiz. This method guarantees that the product collects votes with each customer selection, ensuring its appearance on the Results Page.
-    This strategy positions the product at the forefront of the Results Page every time.
-    1. Access the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. 
-    2. Link your selected product with **every choice** available in the quiz. This method guarantees that the product collects votes with each customer selection, ensuring its appearance on the Results Page.
-    This strategy positions the product at the forefront of the Results Page every time.
-    1. Access the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. 
-    2. Link your selected product with **every choice** available in the quiz. This method guarantees that the product collects votes with each customer selection, ensuring its appearance on the Results Page.
-    This strategy positions the product at the forefront of the Results Page every time.
-## Strategy 2: Use a Dedicated Product Slot
-For those looking to highlight a new product or collection without dominating the entire recommendation list, creating a dedicated `Products Slot` on the Results Page offers a balanced solution.
-    1. **Create a Collection/Category for Your Product(s)**: Group the products you wish to feature in a `New Products` collection/category. For instance, include your `Essentials Makeup Kit COMPLETE` in this collection.
-    2. **Ensure Your Store Is Synced**: After creating your collection/category or adding new products, [sync the app](/how-to-guides/sync-catalog/).
-    3. **Link the Collection/Category to Quiz Responses**: Select a quiz question and link your new product or collection/category to **every response option**. This step is crucial as it ensures the product or collection/category receives at least one vote, guaranteeing its appearance on the Results Page regardless of quiz outcomes.
-    4. **Add a Dedicated Slot on the Results Page**: Edit the [Results Page](/reference/quiz-builder/results-page/) to include a new `Product Slot` specifically for showcasing your selected product or collection/category. This specialized section will exclusively feature items from your chosen collection/category, distinguishing them from the general recommendations.
-    5. **Link collection/category to slot**: Make sure to `include` the created collection/category in the `Product Slot`.
-    6. **Preview and Test Your Setup**: With your dedicated slot in place, click the `Publish` button to update the preview/live quiz. Then, preview the quiz and its results to ensure the new product or collection is displayed as intended. This final step confirms that your selected items are correctly highlighted on the Results Page.
-    1. **Create a Collection/Category for Your Product(s)**: Group the products you wish to feature in a `New Products` collection/category. For instance, include your `Essentials Makeup Kit COMPLETE` in this collection.
-    2. **Ensure Your Store Is Synced**: After creating your collection/category or adding new products, [sync the app](/how-to-guides/sync-catalog/).
-    3. **Link the Collection/Category to Quiz Responses**: Select a quiz question and link your new product or collection/category to **every response option**. This step is crucial as it ensures the product or collection/category receives at least one vote, guaranteeing its appearance on the Results Page regardless of quiz outcomes.
-    4. **Add a Dedicated Slot on the Results Page**: Edit the [Results Page](/reference/quiz-builder/results-page/) to include a new `Product Slot` specifically for showcasing your selected product or collection/category. This specialized section will exclusively feature items from your chosen collection/category, distinguishing them from the general recommendations.
-    5. **Link collection/category to slot**: Make sure to `include` the created collection/category in the `Product Slot`.
-    6. **Preview and Test Your Setup**: With your dedicated slot in place, click the `Publish` button to update the preview/live quiz. Then, preview the quiz and its results to ensure the new product or collection is displayed as intended. This final step confirms that your selected items are correctly highlighted on the Results Page.
-    1. **Create a Collection/Category for Your Product(s)**: Group the products you wish to feature in a `New Products` collection/category. For instance, include your `Essentials Makeup Kit COMPLETE` in this collection.
-    2. **Ensure Your Store Is Synced**: After creating your collection/category or adding new products, [sync the app](/how-to-guides/sync-catalog/).
-    3. **Link the Collection/Category to Quiz Responses**: Select a quiz question and link your new product or collection/category to **every response option**. This step is crucial as it ensures the product or collection/category receives at least one vote, guaranteeing its appearance on the Results Page regardless of quiz outcomes.
-    4. **Add a Dedicated Slot on the Results Page**: Edit the [Results Page](/reference/quiz-builder/results-page/) to include a new `Product Slot` specifically for showcasing your selected product or collection/category. This specialized section will exclusively feature items from your chosen collection/category, distinguishing them from the general recommendations.
-    5. **Link collection/category to slot**: Make sure to `include` the created collection/category in the `Product Slot`.
-    6. **Preview and Test Your Setup**: With your dedicated slot in place, click the `Publish` button to update the preview/live quiz. Then, preview the quiz and its results to ensure the new product or collection is displayed as intended. This final step confirms that your selected items are correctly highlighted on the Results Page.
-    1. **Create a Collection/Category for Your Product(s)**: Group the products you wish to feature in a `New Products` collection/category. For instance, include your `Essentials Makeup Kit COMPLETE` in this collection.
-    2. **Ensure Your Store Is Synced**: After creating your collection/category or adding new products, [sync the app](/how-to-guides/sync-catalog/).
-    3. **Link the Collection/Category to Quiz Responses**: Select a quiz question and link your new product or collection/category to **every response option**. This step is crucial as it ensures the product or collection/category receives at least one vote, guaranteeing its appearance on the Results Page regardless of quiz outcomes.
-    4. **Add a Dedicated Slot on the Results Page**: Edit the [Results Page](/reference/quiz-builder/results-page/) to include a new `Product Slot` specifically for showcasing your selected product or collection/category. This specialized section will exclusively feature items from your chosen collection/category, distinguishing them from the general recommendations.
-    5. **Link collection/category to slot**: Make sure to `include` the created collection/category in the `Product Slot`.
-    6. **Preview and Test Your Setup**: With your dedicated slot in place, click the `Publish` button to update the preview/live quiz. Then, preview the quiz and its results to ensure the new product or collection is displayed as intended. This final step confirms that your selected items are correctly highlighted on the Results Page.
----
-By following these detailed steps, you can always showcase specific products on the results page of your quiz, ensuring they are consistently presented to your customers.
 
 
 
@@ -7133,12 +7069,28 @@ icon: material/google-analytics
 
 To track quiz performance with Google Analytics in WooCommerce, you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
     This article explains how to track quiz events and performance in Google Analytics. 
+    !!! warning "GA4 Event Tracking Reliability"
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     To track quiz performance with Google Analytics in Magento, you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
     This article explains how to track quiz events and performance in Google Analytics.
+    !!! warning "GA4 Event Tracking Reliability"
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     To track quiz performance with Google Analytics in BigCommerce, you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
     This article explains how to track quiz events and performance in Google Analytics.
+    !!! warning "GA4 Event Tracking Reliability"
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     To track quiz performance with Google Analytics in a Standalone version of RevenueHunt app, you'll need to implement custom JavaScript tracking. This allows you to monitor specific quiz events and user interactions. 
     This article explains how to track quiz events and performance in Google Analytics.
+    !!! warning "GA4 Event Tracking Reliability"
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
 ## Connect Quiz to Google Analytics
     !!! note
         Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
@@ -7578,6 +7530,39 @@ This section outlines the process for managing custom events in Metapixel after 
     5. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
 ---
 This article explains how to integrate the Meta Pixel with your quiz application and how to use the Meta Events Manager to track user interactions with your quiz.
+
+
+
+
+================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/integrate-tiktok-pixel/
+================================================================================
+
+---
+icon: material/music-note-outline
+---
+
+# How to Integrate TikTok Pixel with Quiz
+
+The TikTok Pixel is an essential analytics tool for tracking user interaction with your quiz and gauging the success of your TikTok ads.
+
+This article explains how to integrate the TikTok Pixel with your quiz application and how to use the TikTok Events Manager to track user interactions with your quiz.
+
+
+??? question "What is TikTok Pixel?"
+
+    The TikTok Pixel is a piece of code that you place on your website to track user interactions with your quiz and measure the success of your TikTok ads.
+
+## Link Quiz to Your TikTok Pixel
+
+--- WooCommerce Specific Content ---
+
+TikTok Pixel is not supported in WooCommerce version of the RevenueHunt app.
+    TikTok Pixel is not supported in Magento version of the RevenueHunt app.
+    TikTok Pixel is not supported in BigCommerce version of the RevenueHunt app.
+    TikTok Pixel is not supported in Standalone version of the RevenueHunt app.
+---
+This article explains how to integrate the TikTok Pixel with your RevenueHunt Product Recommendation Quiz.
 
 
 
@@ -11872,6 +11857,51 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-mailchimp/
     4. **Test and Optimize.** After setting up your email campaigns, test them with a test email and optimize them based on the results.
 ---
 This article explains how to send leads to Mailchimp from your quiz created in the RevenueHunt app.
+
+
+
+
+================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-mailerlite/
+================================================================================
+
+---
+icon: material/message-outline
+---
+
+# How to Send Leads to MailerLite
+
+MailerLite is a powerful email marketing platform that allows you to send email campaigns to your leads.
+
+This article explains how to send leads to MailerLite from your product recommendation quiz.
+
+## Connecting Your MailerLite Account
+
+--- WooCommerce Specific Content ---
+
+MailerLite is not supported in WooCommerce version of the RevenueHunt app.
+    MailerLite is not supported in Magento version of the RevenueHunt app.
+    MailerLite is not supported in BigCommerce version of the RevenueHunt app.
+    MailerLite is not supported in Standalone version of the RevenueHunt app.
+## Alternative Ways to Send Leads to MailerLite
+    Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+---
+This article explains how to send leads to MailerLite from your RevenueHunt Product Recommendation Quiz.
 
 
 
@@ -16655,6 +16685,12 @@ icon: material/cart-arrow-down
 
 If your quiz is adding products to the cart but your cart drawer isn’t updating or opening automatically, the issue is likely with how your Shopify theme handles cart updates — not with the quiz itself.
 
+!!! warning "Cart Drawer Update"
+
+    You don’t need a dedicated Quiz JS API to update your cart drawer. The RevenueHunt app already triggers Shopify’s native cart events (like `cart/add.js`, `cart/update.js`, and `cart/change.js`) whenever a shopper adds or updates products through the quiz.
+
+    You can listen to these events in your theme or custom script to detect when items are added to the cart and then trigger your cart drawer update logic. This approach works across themes and doesn’t require any changes in the app itself.
+
 This guide explains:
 
 - How RevenueHunt quiz app adds products to the Shopify cart
@@ -16685,11 +16721,22 @@ Most modern themes (like Dawn) include a cart drawer or slide-out cart. However,
 
 - Your theme is likely not listening for changes triggered by AJAX cart actions.
 
-- This can happen even in Shopify’s default themes if the cart drawer script wasn’t customized or extended properly.
+- This can happen even in Shopify’s default themes if the cart drawer script wasn’t customized / extended properly or if the cart drawer script isn’t configured to react to external AJAX calls.
 
 ## Step 3: Talk to Your Theme Developer
 
 Since our app only triggers Shopify’s standard cart actions, you’ll need to make sure your theme is set up to respond to those actions.
+
+You don’t need a custom Quiz API or event hook to make this work.
+The app already triggers Shopify’s native cart events (`cart/add.js`, `cart/update.js`, and `cart/change.js`) whenever shoppers add or update products through the quiz.
+
+To make your cart drawer respond automatically:
+
+- Simply listen for these AJAX calls in your theme or a small custom script.
+
+- When detected, trigger your cart drawer’s “open” or “refresh” logic.
+
+This lightweight approach works across all themes and doesn’t require any modifications to the RevenueHunt app itself.
 
 Share the following resources with your developer or Shopify Expert:
 
@@ -16697,6 +16744,38 @@ Share the following resources with your developer or Shopify Expert:
 
 - Helpful guide on listening to AJAX cart events in Shopify themes: [https://www.perplexity.ai/search/how-to-get-shopify-theme-to-li-whWrlpOyT_6ygEG0ZRt68w#0](https://www.perplexity.ai/search/how-to-get-shopify-theme-to-li-whWrlpOyT_6ygEG0ZRt68w#0)
 
+
+!!! example "Example from a Merchant"
+
+    A Shopify merchant using the Megastore theme noticed that products were correctly added to the cart after the quiz, but the drawer remained closed and sometimes showed an “Empty Cart” message.
+
+    After reviewing the theme code, they found that it only opened the cart drawer when items were added via the theme’s own product forms:
+
+    ```js
+            onSubmitHandler(evt) {
+        fetch('/cart/add.js', { /* ... */ })
+            .then(response => response.json())
+            .then(response => {
+            this.cart.renderContents(response); // ← Opens the drawer
+            });
+        }
+
+    ```
+
+    When external apps (like the quiz) used the Cart API directly, this path was never triggered.
+
+    Solution implemented:
+
+    Their developer added a global Cart API interceptor that:
+
+    - Detects any `/cart/add.js` or `/cart/update.js` requests,
+    - Fetches the updated cart contents,
+    - Automatically opens or refreshes the drawer,
+    - Removes residual "empty cart" messages.
+
+    They also re-attached the overlay and close button handlers after updating the DOM so the drawer worked normally.
+
+    Once this script was added, the cart drawer updated perfectly — without any app-side changes.
 
 ## Step 4: Test Your Setup
 
@@ -16714,6 +16793,8 @@ Once your theme is updated to listen to the AJAX cart actions, test the followin
 
 
 !!! info "Note"
+
+    The RevenueHunt app already triggers Shopify’s native cart actions.  
 
     We do **not** modify your cart drawer or theme layout.
 

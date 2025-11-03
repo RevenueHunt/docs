@@ -93,6 +93,7 @@ Note: Some external links point to our [Blog](https://revenuehunt.com) (revenueh
   - [Send Leads to Mailchimp](https://docs.revenuehunt.com/how-to-guides/send-leads-to-mailchimp/): Mailchimp integration.
   - [Send Leads to Omnisend](https://docs.revenuehunt.com/how-to-guides/send-leads-to-omnisend/): Omnisend integration.
   - [Send Leads to ActiveCampaign](https://docs.revenuehunt.com/how-to-guides/send-leads-to-activecampaign/): ActiveCampaign integration.
+  - [Send Leads to MailerLite](https://docs.revenuehunt.com/how-to-guides/send-leads-to-mailerlite/): MailerLite integration.
   - [Send Leads to Zapier](https://docs.revenuehunt.com/how-to-guides/send-leads-to-zapier/): Zapier integration.
   - [Send Leads to Webhooks](https://docs.revenuehunt.com/how-to-guides/send-leads-to-webhooks/): Custom webhook integration.
   - [Send Leads to Shopify Customers](https://docs.revenuehunt.com/how-to-guides/send-leads-to-shopify-customers/): Add leads as Shopify customers.
@@ -100,6 +101,7 @@ Note: Some external links point to our [Blog](https://revenuehunt.com) (revenueh
   - [Use Customer Tags](https://docs.revenuehunt.com/how-to-guides/use-customer-tags/): Tagging customers.
   - [Use Custom Fields as Tags](https://docs.revenuehunt.com/how-to-guides/use-custom-fields-as-tags/): Convert custom fields to tags.
   - [Integrate Meta Pixel](https://docs.revenuehunt.com/how-to-guides/integrate-meta-pixel/): Meta Pixel integration.
+  - [Integrate TikTok Pixel](https://docs.revenuehunt.com/how-to-guides/integrate-tiktok-pixel/): TikTok Pixel integration.
   - [Integrate Google Analytics](https://docs.revenuehunt.com/how-to-guides/integrate-google-analytics/): Analytics integration.
   - [Send Result Emails](https://docs.revenuehunt.com/how-to-guides/send-result-emails/): Email results to users.
   - [Connect SMTP for Email](https://docs.revenuehunt.com/how-to-guides/send-result-emails-from-custom-server/): Set up custom SMTP server for emails.

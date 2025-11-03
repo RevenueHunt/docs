@@ -281,13 +281,14 @@ These are the known bugs that we are aware of and are working to fix:
     - **Words/characters index changing while writing (scrambled text)**: Sometimes, while writing on the text inputs of the quiz builder (header, title, text block…) the words or individual characters can “lose” the index continuity and get scrambled.
         !!! note "Status"
             Under investigation.
+    - **GA4 Tracking**: GA4 tracking is not working properly.
+        !!! note "Status"
+            Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
+            If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     - **iPad 10th gen not scrolling properly**: Scrolling is not acting correctly on iPad10th gen (safari) navigation.
         !!! note "Status"
             Under investigation.
     - **Product Quantity Display Issue**: When a product is removed from the cart drawer, the product quantity displayed on the quiz results page is not updated accordingly.
-        !!! note "Status"
-            Under investigation.
-    - **Currency in Analytics always shows in USD**: The currency in analytics always shows in USD.
         !!! note "Status"
             Under investigation.
     - **User Name Display Issue in Email**: Instead of showing the name of the person who completed the quiz, it’s displaying the question reference like: "Hey Q2: BEFORE WE BEGIN___".
@@ -1676,11 +1677,8 @@ This guide offers practical steps and strategies to reduce drop-off rates and ma
 
 Start by examining the [drop-off metrics](/reference/quiz-builder/metrics/#drop-off) provided by RevenueHunt Product Recommendation Quiz. These metrics will highlight where participants are leaving the quiz, allowing you to pinpoint problem areas effectively.
 
-![drop-off metrics](/images/manual_quizbuilder_metrics_dropoff.png)
+![drop-off metrics](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 
-!!! warning "Not available for `💎 Built for Shopify` version"
-
-    The Drop-off data is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app. But you can measure the drop off by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
 
 **Which data to check?**
 
@@ -1824,12 +1822,10 @@ All the information gathered by your RevenueHunt Product Recommendation Quiz can
 
     ![quiz builder metrics analytics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
 
-- The [Drop Off](/reference/quiz-builder/metrics/#drop-off) section displays a breakdown percentage of users leaving certain questions in your quiz. The data is shown in a table and graph format.
+- The [Drop Off](/reference/quiz-builder/metrics/#drop-off) section displays a breakdown percentage of users leaving certain questions in your quiz. The data is shown in a table format.
 
-    ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
+    ![quiz builder metrics drop off](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 
-    !!! warning "Not available for `💎 Built for Shopify` version"
-        The Drop-off data is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app.
 
 ###➡️ Download Raw Data
 
@@ -1876,12 +1872,11 @@ Tracking the number of quiz starts and responses/completions is fundamental. Hig
 
 Identifying where users drop off in your quiz can provide insights into potential friction points. Are users abandoning the quiz at a specific question or step? Use this data to adjust those points, making them more intuitive or engaging.
 
+![quiz builder metrics drop off](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
+
+
 !!! note
     The `drop-off rate` is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
-
-!!! warning "Not available for `💎 Built for Shopify` version"
-    The Drop-off data is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app.
-
 
 | Issue                          | Solution                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2935,37 +2930,6 @@ For other subscription apps, there's a [workaround](/how-to-guides/recommend-sub
 
 ---
 This article helps with troubleshooting add-to-cart issues in RevenueHunt app.
-
-
-
-
-================================================================================
-SOURCE: https://docs.revenuehunt.com/how-to-guides/always-recommend-the-same-product/
-================================================================================
-
-# How to Ensure a Specific Product Always Appears on Your Results Page
-
-This guide provides a clear, step-by-step process to making sure that specific products are always visible on the Results Page of your quiz, regardless of the customer's choices.
-
-!!! warning "Understand the voting system first"
-
-    The backbone of personalized product recommendations is an algorithm that functions like a [voting system](#how-to-recommend-products), where products gain 'votes' based on customer selections in a quiz. The more votes a product has by the end of the quiz, the more likely it is to be displayed on the Results Page. Familiarizing yourself with [this recommendation mechanism](#how-to-recommend-products) is essential for effectively implementing the strategies outlined below.
-
-## Strategy 1: Link Your Product to Every Choice
-
-This approach ensures your chosen product always tops the Results Page by securing the most votes.
-
---- Shopify Specific Content ---
-
-1. Navigate to the [Quiz Builder](/reference/quiz-builder/) and locate the question you want to modify.
-    2. Click on each choice/answer in your question to open the [choice settings](/reference/quiz-builder/link-products/) upvote products.
-    3. Find and select your product to link it to each individual choice.
-    4. Repeat this process for all choices across all questions in your quiz.
-    By linking your product to every possible answer, you ensure it receives votes regardless of which options customers select.
-    1. **Create a Collection for Your Featured Products**: In your Shopify admin, create a dedicated collection for the products you want to always recommend.
-    2. **Create a Dedicated Product Slot**: Navigate to the [Results Page](/reference/quiz-builder/results-page/) tab. Add new block and find the `Products` section. In [Products settings](/reference/quiz-builder/results-page/#block-types), select the `Recommendation System` to be `Fixed recommendations`. Give it a meaningful name like "Featured Products"
-    3. **Configure the Product Slot**: In the slot settings, select `Include` and choose your featured products collection.
-    4. **Save and Preview**: Click the `Save` button and preview your quiz to ensure your featured products appear in their dedicated slot, regardless of the answers selected.
 
 
 
@@ -4076,6 +4040,10 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
     The `💎 Built for Shopify` version of RevenueHunt app includes native GA4 integration for comprehensive event tracking.
     This article will guide you through the process of connecting your quiz to Google Analytics and tracking quiz events.
     <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/8P-kANzya2g?si=L-rMRoSRsdbwSgof" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    !!! warning "GA4 Event Tracking Reliability"
+        Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased.  
+        The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
+        If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     !!! note
         Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
     1. Make sure you have set up the GA4 tracking on your website. 
@@ -4298,6 +4266,39 @@ This article explains how to integrate the Meta Pixel with your quiz application
         ```
     3. **Customize Your Event Tracking**: In the script, replace the values with the appropriate event name, action, and params that you wish to track. This customization allows you to monitor specific user actions on your website.
     4. **Monitor and Adjust**: After the script is active and events are being tracked, regularly monitor the data to ensure everything is working as intended. Be prepared to make adjustments to the script or event definitions as needed.
+
+
+
+
+================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/integrate-tiktok-pixel/
+================================================================================
+
+---
+icon: material/music-note-outline
+---
+
+# How to Integrate TikTok Pixel with Quiz
+
+The TikTok Pixel is an essential analytics tool for tracking user interaction with your quiz and gauging the success of your TikTok ads.
+
+This article explains how to integrate the TikTok Pixel with your quiz application and how to use the TikTok Events Manager to track user interactions with your quiz.
+
+
+??? question "What is TikTok Pixel?"
+
+    The TikTok Pixel is a piece of code that you place on your website to track user interactions with your quiz and measure the success of your TikTok ads.
+
+## Link Quiz to Your TikTok Pixel
+
+--- Shopify Specific Content ---
+
+!!! warning
+        This feature is currently in beta and is not available for all stores. Please [reach out to the RevenueHunt support team](/how-to-guides/contact-customer-support/) if you'd like to use it.
+    To connect tiktok pixel to your quiz, follow the instructions below: 
+    1. **Connect TikTok to Shopify**: To connect your TikTok Pixel with your quiz, you need to first set it up in your Shopify store and make sure it is integrated with your website. Follow the instructions in [this article](https://ads.tiktok.com/help/article/shopify-set-up-guide) to set it up.
+    2. **Embed Quiz on a New Page**: TikTok Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+    3. **Reach out to Support**: Then, please [reach out to the RevenueHunt support team](/how-to-guides/contact-customer-support/) to connect your TikTok Pixel with your quiz.
 
 
 
@@ -5174,7 +5175,7 @@ It describes a step-by-step process involving creating product collections, link
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/b19268d9b4b84bd0a04093d9e0047398?sid=f1e60add-8900-4d74-b415-9a4217e28722" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/e9bNK96Vt8k?si=q_Dq-G2JVwskpaQx" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Let’s say that you run a skincare shop and want to recommend a product based on two criteria – the client’s age and skin type.
     This means that your product matrix looks something like this:
     | Age/Skin type   | Dry or Normal                                                                                                                                                 | Oily                                                                                                                                                                  |
@@ -5268,7 +5269,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/6bcdb3d771c74d49adb72a56910ba07f?sid=6b9950ee-7ef5-4483-8af4-6c14f32f87c7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/m92ELGhOq38?si=H7vJC9sn44PVQfd7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Open-ended numerical questions like [Number](/reference/quiz-builder/questions/#number) or [Date](/reference/quiz-builder/questions/#date) allow users to enter any value — but that flexibility comes with a cost: **you can't directly link recommendations to those answers**. To deliver accurate product suggestions, you'll need a structured approach.
     ![open-ended numerical question](https://loom.com/i/934b3a724c0346829baf78e6261f22e4?workflows_screenshot=true)
     Questions like "What's your age?", "What's your birth date?" or "How big is your room?" might seem useful, but since users can input any number, you can't associate specific product recommendations with those responses.
@@ -5408,7 +5409,7 @@ This guide is designed to help merchants effectively use [Product Slot Blocks](/
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/f249d672fe414dc390715b210a94a75a?sid=0a795570-01c5-4777-b6b1-62b0a0da3387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/YPuWvufx_8I?si=IAcwxOPePM1Nn2yw" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     To group products into slots, you’ll need to create new collections in your Shopify store. These collections will be used to group your products on the results page.
     1. **Identify Product Categories**: Determine your skincare product categories (e.g., Cleansers, Toners, Serums, Moisturizers).
     2. **Create Collections**: For each category, [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) with the right products. Each collection should only contain products relevant to its category. For example, 
@@ -5460,7 +5461,7 @@ If you're using a subscription app that is not supported, you can still recommen
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/ea22c48d678f41999abd90462d348cd5?sid=6a559de9-555a-4f29-a879-dcaf11359a35" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/X_beZcbcwG4?si=CSBT9I08vEh0Cs4U" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Before you start"
         - Ensure you are using the [Recharge Pro version](https://getrecharge.com/pricing/) to access the Storefront API. If you are not using the Pro version, try reaching out to [Recharge support](https://support.getrecharge.com/hc/en-us#) to see what's possible.
         - Confirm that Recharge is configured on your Shopify website according to the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/).
@@ -5487,7 +5488,7 @@ If you're using a subscription app that is not supported, you can still recommen
     !!! warning "Quiz Preview"
         The subscription options will not be avialble in the quiz preview. To test the integration, you need to [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page)  the quiz on a new page in your website.
     Not applicable.
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/d5f15461e3014d2fa8ad33637410d4ba?sid=ed6fdfff-9d0e-439b-aa83-a61708b36a44" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AWrsUZ-u2nk?si=INZh4rcHzVQ4268P" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Reocommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
     **Step 1: Link One-Time Payment Products to Quiz Choices**
     1. Identify your subscription products that you wish to promote through the quiz.
@@ -5520,7 +5521,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/312b3b8099174391abe9f5f17b6918bb?sid=2f2dc229-23be-418c-9c7a-ab66922c30f8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/qk1WJJstTjU?si=L7r3OHN9V9Zq6yWF" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. **Navigate to the Conditional Logic Section**: In the [Quiz Builder](/reference/quiz-builder/), locate the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab, select the last question in the quiz (or another question if you want to redirect the customer after a specific question). In the menu that opens, go the [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) tab. 
     2. **Configure URL Redirection**: Specify the URL to which customers should be redirected to. This can be set to occur after a specific question or based on selected answers.
     	![how to redirect quiz ot another page jump logic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
@@ -5553,7 +5554,7 @@ This guide will walk you through the process of using the [Version History](/ref
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/ed05fcf812244f7f965e180fd446ea94?sid=d6e9b2f1-62bd-40b6-bdfe-14a314cbb295" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/4cGjCArhhQo?si=UbwoPQNEgTyrMqeG" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
     1. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder or the Dashboard.
     2. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
@@ -5571,6 +5572,7 @@ This guide will walk you through the process of using the [Version History](/ref
     5. **Use the Three Dots Menu**: Click on the three dots next to the version to see options: `   Create a New Quiz` or `Restore This Version`.
         - `Create a New Quiz` generates a new quiz with a new ID, while 
         - `Restore This Version` replaces the current quiz with the selected version without changing the quiz ID.
+        - `Copy quiz code` copies the quiz code (JSON) of this version to clipboard. This allows you to transfer this quiz version to another store.
         !!! tip
             If unsure about which version to restore, create a new quiz using the selected version to review its content.
     6. After creation, you will be taken to the quiz builder where you can verify the content of the new quiz.
@@ -6216,6 +6218,36 @@ While the new Built for Shopiify version of the RevenueHunt app **does not** yet
 
 
 ================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-mailerlite/
+================================================================================
+
+---
+icon: material/message-outline
+---
+
+# How to Send Leads to MailerLite
+
+MailerLite is a powerful email marketing platform that allows you to send email campaigns to your leads.
+
+This article explains how to send leads to MailerLite from your product recommendation quiz.
+
+## Connecting Your MailerLite Account
+
+--- Shopify Specific Content ---
+
+!!! warning
+        This feature is currently in beta and is not available for all stores. Please [reach out to the RevenueHunt support team](/how-to-guides/contact-customer-support/) if you'd like to use it.
+    MailerLite is not yet integrated with the `💎 Built for Shopify` version of the RevenueHunt app.
+    If you are looking to send leads to MailerLite, please [reach out to the RevenueHunt support team](/how-to-guides/contact-customer-support/) to get help.
+    Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+
+
+
+
+================================================================================
 SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-omnisend/
 ================================================================================
 
@@ -6224,9 +6256,9 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-omnisend/
 --- Shopify Specific Content ---
 
 Apart from giving your customers a personalized product recommendation, you can connect Product Recommendation Quiz to your Omnisend account so that the quiz results are sent automatically to your mailing list. This way you can segment them based on their responses and follow up with targeted campaigns.
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/763403d8f6e74461875845e68fe39e12?sid=2103a65c-be3d-4efd-80d8-a01173a4a30b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=2rzG2V0Y8gio6CKx" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     This article explains how to connect your quiz to Omnisend, create a segment for quiz participants and how to send the quiz results to your mailing list.
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/89d2f35bb4f24d0cac4ea5dc0cdaa08c?sid=ee552793-e4bf-4d77-a870-ae809b9a7649" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=IIwZgRhppkbtGW_d&amp;start=37" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
     2. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). 
         - Log in to your Omnisend account.
@@ -6246,7 +6278,7 @@ Apart from giving your customers a personalized product recommendation, you can 
     We send all the responses to the quiz and the recommended products along with the contact information to the customer’s Omnisend profile. This information will appear in the customer’s profile as `custom properties`.
     ![how to omnisend custom properties](/images/how_to_shopifyv2_omnisend_custom_properties.gif)
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](#use-quiz-data-in-omnisend-email-templates).
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/5b60359870e449bfa3a6c9b1a867abfc?sid=a941f0aa-abc6-48dd-a885-e1752df8e036" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=zJTtTF4AcwpfJ18y&amp;start=135" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     It’s possible to set up a post-quiz email campaign in Omnisend to send the product recommendations or other offers to the quiz participants. 
     Below you’ll find some basic instructions that you can follow to set up an email flow in Omnisend. It covers creating a segment for quiz takers, setting up an automation workflow, and customizing email content with quiz results.
     !!! warning
@@ -6281,7 +6313,7 @@ Apart from giving your customers a personalized product recommendation, you can 
     You can use the quiz data in your Omnisend email templates by using the `custom properties` that are passed from the quiz to your Omnisend account.
     ![how to omnisend custom properties](/images/how_to_shopifyv2_omnisend_custom_properties.gif)
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](https://support.omnisend.com/en/articles/1061885-custom-properties-for-contacts).
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/1911ea75ad7d4531b3886b0fd5af01a7?sid=741a1bb2-72bb-41ee-be1b-390654e18369" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=PsgLwM2IkSiXHkUV&amp;start=300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     You can pull the customer answers into an email template by using the `custom properties` that are passed from the quiz to your Omnisend account. This is done by using the `insert personalization tag` feature in Omnisend.
     1. Navigate to your OmniSend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
     2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
@@ -6322,7 +6354,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/f0ee0d468b6d4e1faf8fa9a29383232a?sid=d238f4a2-85ce-4270-a7d6-2d63730b7155" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Lg6Ikql0kpE?si=slsLm93N-0Ce2uch" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. Go to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
     2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
     ![how to integrate shopify customers built for shopify revenuehunt app](/images/how_to_integrate_shopify_customers_shopify_v2.png)
@@ -6336,7 +6368,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
     However, there are many ways you can ask the customer for marketing consent directly in the quiz. 
     !!! tip
         Check [this article](/how-to-guides/ask-for-marketing-consent/) to learn how to ask for marketing consent directly in the quiz.
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/6d08be3b95f245fd8663aab9331b134a?sid=f059e142-595f-4f90-8182-173079ef6001" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Lg6Ikql0kpE?si=gylWum-a-LN689cv&amp;start=103" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     You can use [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
     Follow these steps to add tags to your quiz choices and test the setup:
     1. **Adding Tags to Quiz Choices**: To add tags to your quiz choices, follow these steps:
@@ -6351,7 +6383,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
     5. **View the customer tags**: Open the profile of a participant to view their name, email, and the associated customer tags from the quiz.
     ![how to send leads to shopify customers customer profile](/images/how_to_shopifyv2_send_leads_to_shopify_customers_customer_profile.png)
     You can then use these tags to [create a Shopify email Flow](#set-up-shopify-automation-flow).
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/f0ee0d468b6d4e1faf8fa9a29383232a?sid=d238f4a2-85ce-4270-a7d6-2d63730b7155" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Lg6Ikql0kpE?si=uRcEl8jXzgtMkgnN&amp;start=174" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to shopify customers automation full cycle](/images/how_to_shopifyv2_customers_automation_full_cycle.png)
     1. To set up a post-quiz automation head to your `Shopify dashboard > Marketing > Automations`, click `View templates`.
     2. Select a `Create custom automation` automation:
@@ -6391,7 +6423,7 @@ Before you start, ensure you have:
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/23bc313da7174fb38a1854ec76eb2da8?sid=772e6cc4-f4fe-4900-aecc-51b4e37ae071" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/VE314AzvTbY?si=jCWb9ok0xAJAbTis" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. **Prepare Your Quiz**. Ensure your quiz is fully set up with all the questions you want. Open the [Quiz Settings](/reference/quiz-builder/quiz-settings/).
     2. **Access the Webhooks Integration**. Scroll down to the [Integrations](/reference/quiz-builder/quiz-settings/#integrations) section. Click on **Webhooks** to open the integration panel.
     3. **Add a New Webhook**. Click `+ Add Webhook`. You can use a service like [Webhook.site](https://webhook.site) to generate a temporary endpoint if you want to test the feature.
@@ -6993,18 +7025,128 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-zapier/
 
 --- Shopify Specific Content ---
 
-While the new Built for Shopiify version of the RevenueHunt app **does not** yet integrate directly with Zapier, it is still possible to send quiz leads to Zapier.
-    One option includes using our [Webhooks](/how-to-guides/send-leads-to-webhooks/) integration to send quiz leads to Zapier. Another, includes manually adding the quiz leads to Zapier by uploading a CSV file generated from the quiz.
-    This guide explain how you can send quiz data to Zapier with a workaround.
-    It is **not yet possible** to link your Product Recommendation Quiz created in the new Built for Shopify version of the RevenueHunt app to Zapier.
-    Check [Alternative Ways to Send Quiz Leads to Zapier](#alternative-ways-to-send-quiz-leads-to-zapier) to learn how you can send quiz leads to Zapier anyway.
+The `💎 Built for Shopify` version of the RevenueHunt app integrates directly with Zapier. 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Us6QCQpfFf0?si=mvOj4x8rnRRdiT0-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    !!! info "Connecting the Quiz to Zapier allows you to:"
+        - Connect the quiz to other apps (that RevenueHunt does not yet integrate with) and send quiz data to there automatically.
+        - Send quiz leads to Zapier.
+        - Send quiz leads to Google Sheets.
+        - Send follow-up emails directly from Zapier.
+    This guide explain how you can send quiz data to Zapier, what data is sent and how to set up a sample Zap using RevenueHunt as a trigger.
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Us6QCQpfFf0?si=mvOj4x8rnRRdiT0-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    1. **Prepare your quiz**: Before connecting to Zapier, you may want to add a `Name`, `Phone Number`, or `Email` question to your quiz in order to identify your leads. 
+        - To do this, use the `+Add Question`or `+Add Block` options in the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder.
+        - Once you’ve added your lead fields, click `Save` to save the changes.
+    2. **Connecting to Zapier**: From the dashboard, navigate to [`quiz settings`](/reference/quiz-builder/quiz-settings/).
+        - Go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) section and find 'Zapier Integration'.
+        - Click `Connect`to be directed to the Zapier login page.
+        - Log in with your credentials.
+    3. **Find RevenueHunt API Key**: On the authentication page, provide your Revenue Hunt API key. 
+        ![how_to_shopifyv2_send_leads_to_zapier_provide_api_key](/images/how_to_shopifyv2_send_leads_to_zapier_provide_api_key.png)
+        - Go back to the app and click `Copy Zapier API Key`. Copy the key to your clipboard.
+        ![zapier api key](https://loom.com/i/4b7c034e3028417784d5cc5090caff21?workflows_screenshot=true)
+    4. **Paste API Key**: Paste the key into the authentication page and select `Yes, Continue to Revenue Hunt 2.0.0`. If successful, you will be redirected back to the integrations page with Zapier connected to your quiz.
+    5. **Test the connection**: `Preview` the quiz from the dashboard and complete it with sample information, including an email address. After reaching the results page, close the quiz.
+    6. **Create a New Zap**: Log in to Zapier and click `+ Create Zap` to create a new Zap.
+        - Select `RevnueHunt 2.0.0` as App.
+        - Select `New Response` as the trigger event.
+        - Select `RevnueHunt 2.0.0` as Account.
+        - Click `Continue`.
+        - Choose the quiz from which to receive responses (e.g., 'Skincare Quiz').
+        ![how_to_shopifyv2_send_leads_to_zapier_create_new_zap](/images/how_to_shopifyv2_send_leads_to_zapier_create_new_zap.png)
+    7. **Test the trigger**: Test the trigger to ensure data is sent correctly: 
+        - Zapier will retrieve the latest quiz responses.
+        - Verify that all relevant information (response ID, quiz ID, answers) is populated correctly.
+        ![how_to_shopifyv2_send_leads_to_zapier_test_response](/images/how_to_shopifyv2_send_leads_to_zapier_test_response.png)
+        !!! info "What data is sent to Zapier?"
+            Check [this section](#what-data-is-sent-to-zapier) to see what data is sent to Zapier from your RevenueHunt quiz.
+    8. **Set up what happends to Quiz Leads**: After confirming the integration is successful, you can decide how to use the data. Zapier offers plenty of integrations including:
+        - Sending responses to a Google Sheet.
+        - Filtering responses based on specific conditions.
+        - Sending emails through Zapier'snative  email integration.
+        !!! tip 
+            Explore various options available in Zapier to utilize the quiz data effectively.
+            ![zapier integrations](https://loom.com/i/116796e9e4aa4cba96bb555a3b890beb?workflows_screenshot=true)
+        After you're done, make sure to **Publish** the zap.
+    9. After successfully creating and publishing your Zap in Zapier, you can view the active Zaps connected to your quiz by following these steps:
+        - Navigate to the app's [`Integrations`](/reference/quiz-builder/connect-integrations/) page.
+        - Look for the section labeled 'Zapier'.
+        - Here, you will find a list of all active Zaps associated with the quiz.
+        ![how_to_shopifyv2_send_leads_to_zapier_active_zaps](/images/how_to_shopifyv2_send_leads_to_zapier_active_zaps.png)
     Sometimes, you would like a bit more control over the data that is sent to Zapier. In that case there are a few alternatives you can use to send quiz leads to Zapier.
     - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Zapier. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Zapier.
     - **Manually adding the quiz leads to Zapier**: You can manually add the quiz leads to Zapier by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
-    Since the new Built for Shopify version of the RevenueHunt app does not yet integrate directly with Zapier, you can control exactly what data is sent to Zapier by using our [Webhooks](/how-to-guides/send-leads-to-webhooks/) integration.
-    !!! tip
-        Check [this guide](/how-to-guides/send-leads-to-webhooks/) to learn how to send quiz leads to Zapier with Webhooks.
-    Once you have connected your quiz to Zapier via Webhooks, you can build an email flow directly in Zapier to send customized follow-up emails right after the customer completes the quiz.
+    Once you've [Linked your quiz to Zapier](#link-quiz-to-zapier), your Zap will recevie the all the response information after each quiz completion. 
+    ![how_to_shopifyv2_send_leads_to_zapier_test_response](/images/how_to_shopifyv2_send_leads_to_zapier_test_response.png)
+    Each Zap trigger includes structured quiz response data, such as:
+    | Category                | Example Fields                                                                      |
+    | ----------------------- | ----------------------------------------------------------------------------------- |
+    | **General Information** | `responseId`, `quizId`, `quizName`, `createdAt`                                     |
+    | **User Information**    | `firstName`, `fullName`, `email`, `phone`                                           |
+    | **Tags & Segments**     | Auto-generated tags like `30s`, `dry_skin`, `oily_skin`, etc.                       |
+    | **Answers by Block**    | Includes each question, answer value, and reference IDs                             |
+    | **Recommendations**     | Product recommendations per result slot                                             |
+    | **Variable Scores**     | Numeric values used in advanced recommendation logic                                |
+    | **Result Sections**     | Structured blocks from the quiz results page (text, heading, image, products, etc.) |
+    ??? example "Example User Data"
+        ```json
+        "responseId": "DFaJbO",
+        "quizId": "jGzry2",
+        "quizName": "Skincare Quiz",
+        "firstName": "Loretta",
+        "email": "loretta@revenuehunt.com",
+        "createdAt": "2025-10-14T06:38:21Z",
+        "tags": ["30s", "dry_skin"]
+        ```
+    ??? example "Example Answer Structure"
+        Each question block in the quiz is represented in the `answersByBlock` object, including the question type, value, and choices selected.
+        ```json
+        "answersByBlock": {
+        "qbi-6c4248f5": {
+            "type": "first_name",
+            "value": "Loretta"
+        },
+        "qbc-e8cf3180": {
+            "type": "multiple_choice",
+            "value": [
+            "Fine lines and wrinkles",
+            "Hyperpigmentation and discoloration",
+            "Enlarged pores"
+            ]
+        }
+        }
+        ```
+    ??? example "Example Tags"
+        Tags are automatically generated based on quiz logic or answers:
+        ```json
+        "tags": ["30s", "dry_skin"]
+        ```
+        You can use them to segment leads or filter automations in Zapier.
+    ??? example "Product Recommendations"
+        If your quiz includes product recommendation logic, these are sent in the recommendationsBySlot field, grouped by result sections or slots:
+        ```json
+        "recommendationsBySlot": {
+        "rsbs-520511f2": [
+            "gid://shopify/Product/9634315436325",
+            "gid://shopify/Product/9634314584357"
+        ]
+        }
+        ```
+    ??? example "Result Page Content"
+        The quiz’s result page content is included in two sections:
+        `resultSections` → Organized view of all result blocks (headings, text, products, etc.)
+        `resultContentByBlock`→ Flattened key-value pairs for each block reference
+        Example:
+        ```json
+        "recommendationsBySlot": {
+        "rsbs-520511f2": [
+            "gid://shopify/Product/9634315436325",
+            "gid://shopify/Product/9634314584357"
+        ]
+        }
+        ```
+    Once you have connected your quiz to Zapier you can build an email flow directly in Zapier to send customized follow-up emails right after the customer completes the quiz.
+    ![how_to_shopifyv2_send_leads_to_zapier_example_flow](/images/how_to_shopifyv2_send_leads_to_zapier_example_flow.png)
     !!! tip
         Check [this Zapier article](https://zapier.com/help/create/email-and-text-messages/send-emails-in-zaps) for more information.
 
@@ -7306,7 +7448,7 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/7851abaea4964d51bc41d0738281da9d?sid=7ef0fec7-3d95-46b9-b64a-949a82d66322" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CBQctZEPHfA?si=WEZfhN4Mkn0f0Nfg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab.
     3. Scroll down and click `+ Add results page`. A second results page will appear below the first.
@@ -7351,11 +7493,12 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/a8b065fe66ec462091e84ca1848577bd?sid=88e11900-db7b-4d42-8cf6-4b68821d96fb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/uiJwV1MxZKg?si=Ucpz_kB6PXt5VgJ4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. To show the same products to everyone regardless of the customer answers, add a [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) to the Results Page and set the `Recommendation System` to `Fixed Recommendations`.
-    2. Under `Slot 1` select the products you want to show.
-    3. Save the changes and preview the quiz.
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/316e4dcc9db14812a76ace51e85b6fe5?sid=cdb69306-37dd-4331-8e76-aeb763351f12" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    2. Under `Slot 1` go to `Fixed recommended items` and select the products you want to show.
+    3. Adjust the `Max. recommended items` number to match the number of recommended products. 
+    4. Save the changes and preview the quiz.
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/NvDLDlknJv4?si=x9HaGPZxsjDwTrY-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
@@ -7377,7 +7520,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
         Set up IF-THEN statements to control when each statement block should be visible or hidden based on the customer's choices. Like this:
         ![how to hide content with logic display logic statement](/images/how_to_shopifyv2_fixedrecommendationquiz_displaylogic.png)
     5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/23f2c55346e64f3091ef6c70ad874dc1?sid=58d565f5-8bf8-4f85-b934-4b8d042818d8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/uLqul_uj0UQ?si=E77WIlpSvtjC4w7R" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
@@ -7452,7 +7595,7 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     !!! tip
         You can also recommend pure text results by setting up different sections on the results page and controlling visibility of each section with Display Logic. This option is not dependent on the voting system but rather on custom scoring system or conditional logic.
     ![how to recommend products exclusion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
-    <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/f249d672fe414dc390715b210a94a75a?sid=0a795570-01c5-4777-b6b1-62b0a0da3387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/j-Ecp4NeTfQ?si=gTp7uWal22QfKFVC" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **collections**.
     Follow these steps to set up product recommendations in your Product Recommendation Quiz:
     1. **Link Products to Choices**: Navigate to the [Upvote](/reference/quiz-builder/link-products/) tab within your quiz setup. For each choice, upvote relevant products. 
@@ -7506,7 +7649,7 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
         - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use Exclusions**: You can use [Exclusions](#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
-    <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/f249d672fe414dc390715b210a94a75a?sid=0a795570-01c5-4777-b6b1-62b0a0da3387" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/YPuWvufx_8I?si=IAcwxOPePM1Nn2yw" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Follow these steps to set up a funnel quiz with product slots in the `💎Built for Shopify` version of the RevenueHunt app:
     **Step 1: Understand Recommendation Mechanism**
     Our product recommendation algorithm works like a voting system:
@@ -7551,7 +7694,7 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     2. Click [`Preview`](/reference/quiz-builder/questions/) to test in a new window
     3. Use the quiz's [built-in search bar](/how-to-guides/troubleshoot-product-results/) in `Metrics > Responses` to troubleshoot recommendations
     4. Test responses as admin are automatically removed after 1 hour
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/706166edd208443f8982525d62455f46?sid=555e7d4e-fbb9-4650-bb79-1b9e3887f85b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/5T-yW7c0OFs?si=_HxY8mZT9DHL25k2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     RevenueHunt Product Recommendation Quiz can use skip logic to show different follow-up questions based on customer choices. The quiz can skip irrelevant questions based on user selections, improving engagement and relevance.
     Follow these steps to set up a funnel quiz with skip logic:
     1. **Create Initial Question**: Create a multiple-choice question about the user's main concerns:
@@ -7872,7 +8015,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/f4daa9fcce0e4764865b49844600b7e0?sid=9529b937-8c1f-42f6-86b1-edcbbc717c8e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hoAcDUqp9u4?si=BW3HNCCZasjFUVal" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Custom scores or variables can be assigned to choices in the quiz in order to set up a scoring quiz, personality type quiz, dosha quiz, etc.
     To add scores or variables to choices, follow these steps:
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
@@ -7894,7 +8037,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
         - [How to Use Display Logic](/how-to-guides/use-display-logic/)
         - [How to Set Up a Personality Type Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
         - [How to Set Up a Scoring Quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
-    <div style="position: relative; padding-bottom: 74.27785419532324%; height: 0;"><iframe src="https://www.loom.com/embed/7b44356b9eba4fb3a24b6e595fd48088?sid=f5da200d-6189-457b-8a99-24395da4df8a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Frn5srnYSkY?si=vbLbqtfXjzSC7yna" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Let's imagine you are creating a quiz for a skin care brand. You want to know which skin type the customer has.
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their skin condition. For example: itchiness, tightness, dryness, etc. if you are creating a quiz for a skin care brand.
     2. **Assign Variables and Scores to Choices**: Go to each question in your quiz. For each choice, open the [choice settings](/reference/quiz-builder/questions/#choice-settings) and [assign varibales to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices). 
@@ -7929,7 +8072,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
             - If the variable with the highest score is `combination skin`, then Section 4 is **visible**. Otherwise Default visibility is **hidden**.
             - If the variable with the highest score is `sensitive skin`, then Section 5 is **visible**. Otherwise Default visibility is **hidden**.
     6. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/bdfab85a0d3b4ecf9beb264fb2a19299?sid=6742d6dc-e3e5-4a3b-a7de-bbd1381170c1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/byAgOMjzi9A?si=vGZrYCxmNUK_Ool7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! tip
         We have Scoring Quiz template avialble among the Quiz Templates. To use it go to the [Dashboard]/(reference/dashboard/) and click on `Create Quiz` button. Then, select `Scoring Quiz` template.
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, enviornemnet etc. if you are creating a quiz for a skin care brand.
@@ -7967,7 +8110,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
             - Combination skin content: Total score is between 18-22 points
             - Sensitive skin content: Total score is between 23-25 points
     5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.loom.com/embed/a6aa2b811b6f4adc87f986f0441d6328?sid=f4329a4f-b169-46b6-9a66-2c66644577b8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/aRp9cmo8XLI?si=dlqABFGJMtT4mmnc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, enviornemnet etc. if you are creating a quiz for a skin care brand.
     2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) section. 
         !!! tip
@@ -8281,7 +8424,7 @@ icon: material/lightbulb-question
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/2b244cde228e450c9908aed5459b99f2?sid=ab8b600e-5464-4c0a-b982-5a1e5627c994" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=fSucoCguqxHBr3j8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     While our [product recommendation algorithm](/how-to-guides/recommend-products/) works to recommend specific products, it will not automatically display an explanation text of **why** a certain product was recommended. It also won’t *automatically* display custom text depending on the recommended product. 
     However, there are a few easy ways to show such a custom result text/explanation with the new Built for Shopify version of the RevenueHunt app.
     - The new Built for Shopify version of the RevenueHunt app allows you to set up different section on the results page with different text + product recommendations combinations. 
@@ -8308,7 +8451,7 @@ icon: material/sync
 
 If you're missing products or collections in the loaded list within the new Built for Shopify version of the RevenueHunt app, you can run a catalog import from the app's dashboard.
     This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/804b7fa1515f4c55b9099322c519a1f9?sid=dadcfd7a-8a2a-4af6-a0bf-6057c27ad996" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/l-JPWb82zNA?si=AtL09re7OHc6fKXL" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     In the `💎Built for Shopify` version of the RevenueHunt app, your product catalog is synced in real time, so there's typically no need to run a manual sync.
     However, if you need to force a catalog sync:
     1. **Navigate to App Settings:** Go to [App Settings > Catalogue](/reference/app-settings/#catalogue).
@@ -8360,7 +8503,7 @@ This documentation outlines how to track quiz analytics and revenue generated fr
 
 --- Shopify Specific Content ---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/41f2e78427124364812b0d97c9031b41?sid=0f7ed13b-7bf1-42e6-b354-7b9ad4c5e549" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oLxkESMwKMA?si=ucipnrHr3AMDYxsb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Follow the steps below to track quiz revenue in the new Built for Shopfiy version of RevenueHunt app:
     1. **Connect your quiz to Shopify customers**: To track revenue from quizzes, connect your quiz to Shopify customers.
         - Go back to the Revenue Hunt dashboard.
@@ -8374,15 +8517,15 @@ This documentation outlines how to track quiz analytics and revenue generated fr
         - This allows tracking of orders that result from quiz completions, product additions, and subsequent purchases.
     2. **Open the Analytics tab**: Open the RevenueHunt app and navigate to the [Analytics](/reference/quiz-builder/metrics/#analytics) tab.
     3. **Select a quiz and time period**: Select a specific quiz and set the desired time period (e.g., last 30 days) by clicking on the today icon.
-        In the analytics section, you can view:
+        In the analytics section, you can view by default:
         ![how to track revenue report metrics](/images/manual_shopifyV2_quizbuilder_metrics_analytics.png)
-        - Number of quiz starts
         - Total quiz responses
-        - Number of cards generated from the quiz
-        - Total cards value
         - Number of orders resulting from the quiz
         - Total value of these orders
+        !!! tip
+            To see more data, like the `Average order value`, `Number of carts` or simialr, you can [customize the analytics dashboard](/reference/quiz-builder/metrics/#customize).
     4. **Re-check the analytics**: After connecting to Shopify, all orders and their values resulting from quiz responses will be visible in the analytics panel. You can see the number of orders and total order value attributed to the quiz.
+        ![manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue.png)
     !!! tip "Track Revenue with Google Analytics"
         You can also track quiz revenue alongside other metrics with [Google Analytics](/how-to-guides/integrate-google-analytics/).
         ![how to show revenue in google analytics](/images/how_to_ga_revenue2.png)
@@ -8573,6 +8716,12 @@ icon: material/cart-arrow-down
 
 If your quiz is adding products to the cart but your cart drawer isn’t updating or opening automatically, the issue is likely with how your Shopify theme handles cart updates — not with the quiz itself.
 
+!!! warning "Cart Drawer Update"
+
+    You don’t need a dedicated Quiz JS API to update your cart drawer. The RevenueHunt app already triggers Shopify’s native cart events (like `cart/add.js`, `cart/update.js`, and `cart/change.js`) whenever a shopper adds or updates products through the quiz.
+
+    You can listen to these events in your theme or custom script to detect when items are added to the cart and then trigger your cart drawer update logic. This approach works across themes and doesn’t require any changes in the app itself.
+
 This guide explains:
 
 - How RevenueHunt quiz app adds products to the Shopify cart
@@ -8603,11 +8752,22 @@ Most modern themes (like Dawn) include a cart drawer or slide-out cart. However,
 
 - Your theme is likely not listening for changes triggered by AJAX cart actions.
 
-- This can happen even in Shopify’s default themes if the cart drawer script wasn’t customized or extended properly.
+- This can happen even in Shopify’s default themes if the cart drawer script wasn’t customized / extended properly or if the cart drawer script isn’t configured to react to external AJAX calls.
 
 ## Step 3: Talk to Your Theme Developer
 
 Since our app only triggers Shopify’s standard cart actions, you’ll need to make sure your theme is set up to respond to those actions.
+
+You don’t need a custom Quiz API or event hook to make this work.
+The app already triggers Shopify’s native cart events (`cart/add.js`, `cart/update.js`, and `cart/change.js`) whenever shoppers add or update products through the quiz.
+
+To make your cart drawer respond automatically:
+
+- Simply listen for these AJAX calls in your theme or a small custom script.
+
+- When detected, trigger your cart drawer’s “open” or “refresh” logic.
+
+This lightweight approach works across all themes and doesn’t require any modifications to the RevenueHunt app itself.
 
 Share the following resources with your developer or Shopify Expert:
 
@@ -8615,6 +8775,38 @@ Share the following resources with your developer or Shopify Expert:
 
 - Helpful guide on listening to AJAX cart events in Shopify themes: [https://www.perplexity.ai/search/how-to-get-shopify-theme-to-li-whWrlpOyT_6ygEG0ZRt68w#0](https://www.perplexity.ai/search/how-to-get-shopify-theme-to-li-whWrlpOyT_6ygEG0ZRt68w#0)
 
+
+!!! example "Example from a Merchant"
+
+    A Shopify merchant using the Megastore theme noticed that products were correctly added to the cart after the quiz, but the drawer remained closed and sometimes showed an “Empty Cart” message.
+
+    After reviewing the theme code, they found that it only opened the cart drawer when items were added via the theme’s own product forms:
+
+    ```js
+            onSubmitHandler(evt) {
+        fetch('/cart/add.js', { /* ... */ })
+            .then(response => response.json())
+            .then(response => {
+            this.cart.renderContents(response); // ← Opens the drawer
+            });
+        }
+
+    ```
+
+    When external apps (like the quiz) used the Cart API directly, this path was never triggered.
+
+    Solution implemented:
+
+    Their developer added a global Cart API interceptor that:
+
+    - Detects any `/cart/add.js` or `/cart/update.js` requests,
+    - Fetches the updated cart contents,
+    - Automatically opens or refreshes the drawer,
+    - Removes residual "empty cart" messages.
+
+    They also re-attached the overlay and close button handlers after updating the DOM so the drawer worked normally.
+
+    Once this script was added, the cart drawer updated perfectly — without any app-side changes.
 
 ## Step 4: Test Your Setup
 
@@ -8632,6 +8824,8 @@ Once your theme is updated to listen to the AJAX cart actions, test the followin
 
 
 !!! info "Note"
+
+    The RevenueHunt app already triggers Shopify’s native cart actions.  
 
     We do **not** modify your cart drawer or theme layout.
 
@@ -10452,11 +10646,16 @@ In the Integrations tab of the Quiz Builder, you can connect your quiz to third-
         - [Google Analytics](/how-to-guides/integrate-google-analytics/)
         - [Meta Pixel](/how-to-guides/integrate-meta-pixel/)
         - [Webhooks](/how-to-guides/send-leads-to-webhooks/)
+        - [Zapier](/how-to-guides/send-leads-to-zapier/)
     To open the Integrations tab, go to the [Dashboard](/reference/dashboard/) and open the [Quiz Settings](/reference/quiz-builder/quiz-settings/) page.
     ![manual_shopifyv2_quizbuilder_integrations_opensettings](/images/manual_shopifyv2_quizbuilder_integrations_opensettings.png)
     Then navigate to the `Integrations` tab.
     ![manual_shopifyV2_quizbuilder_integrations](/images/manual_shopifyV2_quizbuilder_integrations.png)
     To connect the quiz to a particular service find it on the page. Then follow the instructions displayed in the browser or in the `read more` section. To disconnect from a service click the `Disconnect` button.
+    Integrations are divided into the following subcategories:
+    `Automations` - Connect to services like [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) and redirect your quiz data anywhere.
+    `Analytics & tracking` - Integrate with platforms like [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) to track quiz events, measure conversions, and understand customer behavior.
+    `Mailing & CRM's` - Sync captured quiz leads directly to your email marketing or CRM platforms, such as [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), or [Shopify Customers (Shopify Flow)](/how-to-guides/send-leads-to-shopify-customers/). Use this data for personalized campaigns, segmentation, and automated follow-ups.
     !!! info
         [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) connect directly to the property set up in your store. If you have not set up tracking for your store yet, you should do it before connecting the quiz to these services.
 
@@ -10657,18 +10856,81 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     Click the `Quiz name` to change the quiz.
     `Today` / `Last 90 days` - To change the dates click on the `Today`/ `Last 90 days` button. You can change the period to select it from the moment you started using the quiz or from a given date.
     `No comparison` - Choose how you want to compare the data in the graphs. 
-    `Auto-refresh` - The data will refresh ever 60 seconds. Otherwise, the data is updated every 24 hours.
-    `Quiz Starts` - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). 
-    `Quiz Responses` - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.
-    `Numer of carts` - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button.
-    `Total carts value` - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout.
-    `Number of orders` - Number of people who have placed an order after completing this quiz. 
-    `Total orders value` - Total value of orders placed after taking this quiz.
+    `Customize`- Click to add new cards to your analytics dashboard or re-arrange the cards.
+    !!! info "Data Refresh Frequency"
+        Our analytics dashboard updates at different intervals depending on the type of data displayed:
+        - Quiz Responses and Engagement Data (e.g. responses, section visibility, results page distribution) → Updated live for recent activity (today/yesterday) and refreshed automatically every ~5 minutes for cached data over longer ranges.
+        - Orders and Revenue Data → Synced with Shopify once per day to ensure accuracy with your store’s order information.
+        If you’ve just received new responses, please allow a few minutes for them to appear in all analytics cards.
+    **DEFAULT ANALYTICS CARDS**
+    By default you'll see five blocks with the following metrics:
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_quizresponses](/images/manual_shopifyV2_quizbuilder_metrics_analytics_quizresponses.png)
+    `Quiz Responses` - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour. `1.4K` - number of responses recieved in a specified period (in black). `↗34.20%` - growth compared to last period (in green).
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_nroforders](/images/manual_shopifyV2_quizbuilder_metrics_analytics_nroforders.png)
+    `Number of orders` - Number of people who have placed an order after completing this quiz. `149` - number of orders recieved in a specified period (in black). `↗8.76%` - growth compared to last period (in green).
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue.png)
+    `Total orders value` - Total value of orders placed after taking this quiz. `€10,612.00` - total value of orders in a specified period (in black). `↗2.01%` - growth compared to last period (in green).
     !!! warning "Note"
         To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [Integrations](https://docs.revenuehunt.com/how-to-guides/send-leads-to-shopify-customers/) tab.
-    The Drop-off data (drop off rate per question) is not yet available for the `💎 Built for Shopify` version of the RevenueHunt app. For now, you can measure the drop off per choice or question by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
-    !!! tip "Tip: Analytics Per Choice"
-        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
+    `Quiz flow and drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how visitors move through your quiz — from the first question to the results and checkout - and where they drop off. `Origin` - The slide or question where respondents started a step in the flow. `Destination` - The next slide or page they reached. `Views`- The number of times this transition occurred during the selected time range. `Drop-off` - The percentage (and number) of respondents who exited the quiz instead of continuing to the next step.
+    !!! tip
+        A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep users progressing.
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_selectedchoices](/images/manual_shopifyV2_quizbuilder_metrics_analytics_selectedchoices.png)
+    `Selected choices` - See which choices are selected most for each question. Shows how respondents answered each question in your quiz, allowing you to quickly identify the most popular options. `Single-choice` questions display the percentage of respondents who selected each answer. `Multiple-choice` questions (marked with `Multiple selection`) show how often each option was chosen across all responses. `Optional` questions only include data from respondents who reached and answered that question. 
+    !!! example 
+        In **Q3: AGE GROUP**, from `273 responses`, 41.4% of 273 selected `30's` choice, 40.7%of 273 seelcted `Teens and 20's`, 12.1% of 273 selected `40's` and 5.9% of 273 selected `50's and above`.
+    ### Customize
+    If you want to edit the Analytics page or add more insights click `Customize`. 
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton.png)
+    This will open a side bar with avialble analytics cards(blocks):
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_customize](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customize.png)
+    Click on a card you want to add and it will be automatically placed on the analytics dashbaord. You can then re-arrange and resize each card oin the dashboard. Click `Save` once done editing the analytics dashboard. 
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_customized](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customized.png)
+    !!! note
+        Note that the hover-over option for a speciifc graph is only available once the changes have been saved with the top `Save` button.
+    **AVAILABLE CARDS**
+    **Overview metrics**
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_quizstarts](/images/manual_shopifyV2_quizbuilder_metrics_analytics_quizstarts.png)
+    `Quiz Starts` - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). `2.0K` - number of quiz starts recieved in a specified period (in black). `↗57.62%` - growth compared to last period (in green).
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_nrofcarts](/images/manual_shopifyV2_quizbuilder_metrics_analytics_nrofcarts.png)
+    `Numer of carts` - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button. `350` - number of carts recieved in a specified period (in black). `↗16.67%` - growth compared to last period (in green).
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_totcartsvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totcartsvalue.png)
+    `Total carts value` - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout. `€68,801.00` - total carts value recieved in a specified period (in black). `↗12.58%` - growth compared to last period (in green).
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_averagecartsvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_averagecartsvalue.png)
+    `Average cart value`- Average value of the products included in all quiz carts or checkouts. `€6,032.82` - average carts value recieved in a specified period (in black). `↙0.73%` - growth compared to last period (in green).
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_averageordervalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_averageordervalue.png)
+    `Average order value` - Average value of the orders placed after taking a quiz. `€2,240.43` - average order value recieved in a specified period (in black). `↙4.60%` - growth compared to last period (in green).
+    **Conversion metrics**
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_conversionrate](/images/manual_shopifyV2_quizbuilder_metrics_analytics_conversionrate.png)
+    `Conversion rate` - Orders divided by total quiz completions for the selected window. `10.7%`- conversion rate in a specified period (in black). `-2.5%` - compared to selected comparison quiz/period. `1.4K responses`- number of responses in a specified period. `149 orders` - number of orders received in a specified period.
+    **Engagement metrics**
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_recommendeditems](/images/manual_shopifyV2_quizbuilder_metrics_analytics_recommendeditems.png)
+    `Recommended items`- See which recommended items are displayed most often in the results page. Shows which products were displayed most often on the Results Page of your quiz. Each bar represents the share of total quiz completions in which a specific product appeared as a recommendation. `Step titles` (e.g. Step 1 – Cleanser, Step 3 – Moisturizer) correspond to the product slots or sections you configured in your quiz results. `Impressions` indicate how many times that step or product was shown to respondents during the selected time range. `Percentages` show the relative frequency of each product being displayed within its step.
+    !!! example
+        In **Step 3 – Moisturizer**, from 274 impressions, 62.0% of respondents were shown `Organix Facial Moisturizer`, 19.0% saw `Moisturizing Cream-Gel`, 10.9% saw `Oil-Free Moisture Lotion`, 4.7% saw `Ultra Facial Deep Moisture Balm`, and 3.3% saw `Oil-Free Moisture – Combination Skin`.
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_resultspagedistribution](/images/manual_shopifyV2_quizbuilder_metrics_analytics_resultspagedistribution.png)
+    `Results page distribution` - See which results pages are displayed most often to quiz takers. Shows how often each results page in your quiz is displayed to respondents. Each bar represents the share of total quiz completions that led to a particular results page. `Responses` indicate the total number of completed quizzes in the selected period. `Percentages` show how frequently each results page appeared relative to total completions.
+    !!! example
+        From 7 responses, 42.9% of respondents saw `Results page 2`, 42.9% saw `Results page 1`, and 14.3% saw `Results page 3`.
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility](/images/manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility.png)
+    `Section visibility`- See which sections within result pages are displayed most often. Shows how often each section within your results pages is displayed to quiz respondents. Each bar represents the percentage of total result views where that section appeared. `Views` indicate the number of quiz completions that triggered each section to be shown. `Percentages` reflect how frequently each section was visible relative to all result views.
+    !!! example
+        From 3 views, 100% of respondents saw `S1: Your results are in!`, while `S2: Dry Skin`, `S4: Oily Skin,` and `S6: Sensitive Skin` each appeared in 33.3% of results.
+    The Drop-off data (drop off rate per question) is available by default in the [Analytics](#analytics) section of the Quiz Builder.
+    ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
+    `Quiz flow and drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how visitors move through your quiz — from the first question to the results and checkout - and where they drop off. 
+    `Origin` - The slide or question where respondents started a step in the flow. 
+    `Destination` - The next slide or page they reached. 
+    `Views`- The number of times this transition occurred during the selected time range. 
+    `Drop-off` - The percentage (and number) of respondents who exited the quiz instead of continuing to the next step.
+    !!! warning "How drop-off is measured"
+        The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    !!! tip "Reducing Drop-off"
+        A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep users progressing.
+        Check [this help article](/customer-success/reduce-dropoff/) to learn how to reduce your quiz drop-off rates.
+    !!! note "Alternative ways to measure drop-off"
+        You can also measure the drop off per choice or question by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
 
 
 
@@ -11360,6 +11622,7 @@ SOURCE: https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings/
     `...` - Click to open the restore menu.
     `Create a new quiz usign this version` - Create a new quiz on our dashboard based on this version of the current quiz.
     `Restore this version` - Allows you to replace the current version of the quiz with the selected one.
+    `Copy quiz code` - Copy the quiz code (JSON) of this version to clipboard. You can then transfer this quiz version to another store.
     `Show more details` - Click to expand the version change details.
 
 
