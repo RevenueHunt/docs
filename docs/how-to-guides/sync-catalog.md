@@ -50,7 +50,7 @@ icon: material/sync
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/804b7fa1515f4c55b9099322c519a1f9?sid=dadcfd7a-8a2a-4af6-a0bf-6057c27ad996" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/l-JPWb82zNA?si=AtL09re7OHc6fKXL" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     In the `💎Built for Shopify` version of the RevenueHunt app, your product catalog is synced in real time, so there's typically no need to run a manual sync.
 
