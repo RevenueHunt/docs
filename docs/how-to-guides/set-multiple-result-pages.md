@@ -21,7 +21,7 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/7851abaea4964d51bc41d0738281da9d?sid=7ef0fec7-3d95-46b9-b64a-949a82d66322" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/CBQctZEPHfA?si=WEZfhN4Mkn0f0Nfg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab.
