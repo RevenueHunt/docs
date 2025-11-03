@@ -13,7 +13,7 @@ Before you start, ensure you have:
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/23bc313da7174fb38a1854ec76eb2da8?sid=772e6cc4-f4fe-4900-aecc-51b4e37ae071" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/VE314AzvTbY?si=jCWb9ok0xAJAbTis" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Prepare Your Quiz**. Ensure your quiz is fully set up with all the questions you want. Open the [Quiz Settings](/reference/quiz-builder/quiz-settings/).
     
