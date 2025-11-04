@@ -30,7 +30,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/69f8f8ef88f740bf9cc644fba09ca17c?sid=1796846e-b516-42ed-b96c-e5e06250cedc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oo889rtufp0?si=ttwX_qBEEX3ARQ2S" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Navigate to the Quiz Builder**: Open your quiz in the [Quiz Builder](/reference/quiz-builder/quiz-builder/) by clicking `Customize`.
     2. **Access choice settings**: Click on any choice in your quiz to open its settings panel.
