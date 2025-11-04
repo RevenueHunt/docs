@@ -21,7 +21,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
 === "Shopify" 
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/6d81b8a150b8407fb478f7fbd753714c?sid=53b6d242-f3eb-4c23-9339-f1990963cf23" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/5RFclBk7-LA?si=YwBMN6n0c87QrZRZ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Explore Responses**: To open the responses sections, go back to the [dashboard](/reference/quiz-builder/). Pick a quiz and click the `...` to open the quiz menu. From the list pick and click on [`Responses`](/reference/quiz-builder/metrics/#responses).
     
@@ -35,11 +35,13 @@ This guide will walk you through the process of troubleshooting product recommen
 
             Admin responses and quiz previews are removed from the list after 24 hours to don't add to your plan's limits.
 
-    2. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
+    2. Click `Analyze response` to open the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window. You can ask it anything about the response, it will provide a detailed analysis of the response, help you identify the root cause of the issue and suggest improvements.
+
+    3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
 
         ![manual_shopifyV2_quizbuilder_responses_sample1](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
-    3. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
-    4. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
+    4. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
+    5. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
 
         **Understanding Product Status Colors**
 
@@ -47,7 +49,7 @@ This guide will walk you through the process of troubleshooting product recommen
         - **Red**: Denotes products that were explicitly excluded from recommendations.
         - **White**: Represents products that did not receive any votes, hence their absence from the recommendations.
 
-    5. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
+    6. **Analyze Product Details**: Upon selecting a product, a detailed panel will reveal critical information.
 
         ![how to troubleshoot quiz results search products](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct.png)
 
@@ -58,7 +60,7 @@ This guide will walk you through the process of troubleshooting product recommen
         - The questions/choices that influenced its votes, including the collections/categories where it was either upvoted or excluded.
         - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
 
-    6. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
+    7. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
 
     !!! tip
 
