@@ -132,8 +132,6 @@ icon: material/filter
 === "WooCommerce"
 
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/66ade08895f5478d80b2f686576642ad?sid=da3831fd-a490-4ba8-aab6-cb05bd873001" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
     This guide explains how to filter recommendations by price in your quiz results page. 
     
     It explains how to implement a price filtering feature in a quiz using WooCommerce and the Revenue Hunt Quizzes app. It covers the steps to create categories based on price ranges and how to configure the quiz to filter product recommendations accordingly.
@@ -150,23 +148,23 @@ icon: material/filter
 
             ![filter by price example](/images/how_to_filter_by_price_filter_legacy_question_example.png)
 
-    2. **Creating Price-Based Collections in WooCommerce** : Go to WooCommerce and create categories for each price range.
+    2. **Creating Price-Based Categories in WooCommerce** : Go to **Products → Categories** in your WooCommerce admin and create a product category for each price range.
 
-        - Name the category (for example, Under 20 euros) and choose to create a **smart** category with the condition. 
-        
-            !!! example "Sample Smart Collection Conditions"
-            
-                For example, `Price` `is less than` `20 euros`.
-
-                or `Price` `is greater than` `50 euros`.
-
-                or `Price` `is between` `20 euros` and `50 euros`.
-
+        - Name the category (for example, **Under 20 euros**).
         - Save the category.
-        - Repeat the process to create: 
-            - A collection for products between 20 and 50 euros (Price `> 20` and Price `< 50`).
-            - A collection for products over 50 euros (Price `> 50`).
-        - Save each category after setting the conditions.
+        - Edit your products and assign them to the corresponding price category:
+            - Products priced under 20 euros → assign to **Under 20 euros**.
+            - Products priced between 20 and 50 euros → assign to **20–50 euros**.
+            - Products priced over 50 euros → assign to **Over 50 euros**.
+
+        !!! example "Sample Price-Based Categories"
+            
+            - Category: **Under 20 euros** → all products with a price `< 20`.
+            - Category: **20–50 euros** → all products with a price between `20` and `50`.
+            - Category: **Over 50 euros** → all products with a price `> 50`.
+
+        - Repeat the process until every product you want to recommend is assigned to the correct price category.
+
 
     3. **Catalog Sync**: Run the [catalog sync](/how-to-guides/sync-catalog/) from the success checklist to import new categories. After syncing, refresh the quiz page.
 
@@ -192,8 +190,6 @@ icon: material/filter
 === "Magento"
 
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/66ade08895f5478d80b2f686576642ad?sid=da3831fd-a490-4ba8-aab6-cb05bd873001" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
     This guide explains how to filter recommendations by price in your quiz results page. 
     
     It explains how to implement a price filtering feature in a quiz using Magento and the Revenue Hunt Quizzes app. It covers the steps to create categories based on price ranges and how to configure the quiz to filter product recommendations accordingly.
@@ -210,23 +206,23 @@ icon: material/filter
 
             ![filter by price example](/images/how_to_filter_by_price_filter_legacy_question_example.png)
 
-    2. **Creating Price-Based Collections in Magento** : Go to Magento and create categories for each price range.
+    2. **Creating Price-Based Categories in Magento** : In your Magento admin, go to **Catalog → Categories** and create a product category for each price range you want to use in the quiz.
 
-        - Name the category (for example, Under 20 euros) and choose to create a **smart** category with the condition. 
-        
-            !!! example "Sample Smart Collection Conditions"
-            
-                For example, `Price` `is less than` `20 euros`.
-
-                or `Price` `is greater than` `50 euros`.
-
-                or `Price` `is between` `20 euros` and `50 euros`.
-
+        - Click **Add Subcategory** under the relevant parent category (for example, under your main “Skincare” category).
+        - Name the category (for example, **Under 20 euros**) and save it.
+        - In the **Products in Category** section, assign products to the corresponding price category:
+            - Products priced under 20 euros → assign to **Under 20 euros**.
+            - Products priced between 20 and 50 euros → assign to **20–50 euros**.
+            - Products priced over 50 euros → assign to **Over 50 euros**.
         - Save the category.
-        - Repeat the process to create: 
-            - A collection for products between 20 and 50 euros (Price `> 20` and Price `< 50`).
-            - A collection for products over 50 euros (Price `> 50`).
-        - Save each category after setting the conditions.
+
+        !!! example "Sample Price-Based Categories"
+            
+            - Category: **Under 20 euros** → all products with a price `< 20`.
+            - Category: **20–50 euros** → all products with a price between `20` and `50`.
+            - Category: **Over 50 euros** → all products with a price `> 50`.
+
+        - Repeat this process until all products you want to recommend through the quiz are assigned to the correct price category.
 
     3. **Catalog Sync**: Run the [catalog sync](/how-to-guides/sync-catalog/) from the success checklist to import new categories. After syncing, refresh the quiz page.
 
@@ -252,9 +248,6 @@ icon: material/filter
 
 === "BigCommerce"
 
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/66ade08895f5478d80b2f686576642ad?sid=da3831fd-a490-4ba8-aab6-cb05bd873001" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
     This guide explains how to filter recommendations by price in your quiz results page. 
     
     It explains how to implement a price filtering feature in a quiz using BigCommerce and the Revenue Hunt Quizzes app. It covers the steps to create categories based on price ranges and how to configure the quiz to filter product recommendations accordingly.
@@ -271,23 +264,24 @@ icon: material/filter
 
             ![filter by price example](/images/how_to_filter_by_price_filter_legacy_question_example.png)
 
-    2. **Creating Price-Based Collections in BigCommerce** : Go to BigCommerce and create categories for each price range.
+    2. **Creating Price-Based Categories in BigCommerce** : In your BigCommerce control panel, go to **Products → Product Categories** and create a product category for each price range you want to use in the quiz.
 
-        - Name the category (for example, Under 20 euros) and choose to create a **smart** category with the condition. 
-        
-            !!! example "Sample Smart Collection Conditions"
+        - Click **Add a Category**.
+        - Name the category (for example, **Under 20 euros**) and save it.
+        - Edit your products and assign them to the corresponding price category:
+            - Products priced under 20 euros → assign to **Under 20 euros**.
+            - Products priced between 20 and 50 euros → assign to **20–50 euros**.
+            - Products priced over 50 euros → assign to **Over 50 euros**.
+        - Save the changes.
+
+        !!! example "Sample Price-Based Categories"
             
-                For example, `Price` `is less than` `20 euros`.
+            - Category: **Under 20 euros** → all products with a price `< 20`.
+            - Category: **20–50 euros** → all products with a price between `20` and `50`.
+            - Category: **Over 50 euros** → all products with a price `> 50`.
 
-                or `Price` `is greater than` `50 euros`.
+        - Repeat this process until all products you want to recommend through the quiz are assigned to the correct price category.
 
-                or `Price` `is between` `20 euros` and `50 euros`.
-
-        - Save the category.
-        - Repeat the process to create: 
-            - A collection for products between 20 and 50 euros (Price `> 20` and Price `< 50`).
-            - A collection for products over 50 euros (Price `> 50`).
-        - Save each category after setting the conditions.
 
     3. **Catalog Sync**: Run the [catalog sync](/how-to-guides/sync-catalog/) from the success checklist to import new categories. After syncing, refresh the quiz page.
 
@@ -313,8 +307,6 @@ icon: material/filter
 
 === "Standalone"
 
-
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/66ade08895f5478d80b2f686576642ad?sid=da3831fd-a490-4ba8-aab6-cb05bd873001" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     This guide explains how to filter recommendations by price in your quiz results page. 
     
