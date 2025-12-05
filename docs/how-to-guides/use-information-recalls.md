@@ -103,7 +103,25 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 
     - **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
     - **Results Page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
+    - **Choice Labels:** Personalize answer options based on previous responses (e.g., "Hi {{ name }}, which option suits you best?").
+    - **Slot Titles & Descriptions:** Customize product recommendation headers with quiz data.
+    - **No Recommendations Message:** Create personalized fallback messages when no products match.
 
+    !!! tip "Advanced: Liquid Templates"
+
+        For more advanced personalization, you can use **Liquid templates** directly in your content. Liquid gives you access to all quiz answers, variable scores, and more through the `quiz` object.
+
+        **Example:**
+        ```liquid
+        {% if quiz.variables.highest == 'dry' %}
+          Perfect for your dry skin type!
+        {% endif %}
+        ```
+
+        For a complete reference of all available variables and examples, see:
+
+        - [Questions - Dynamic Content & JavaScript Reference](/reference/quiz-builder/questions/#dynamic-content-javascript-reference)
+        - [Results Page - Dynamic Content & JavaScript Reference](/reference/quiz-builder/results-page/#dynamic-content-javascript-reference)
 
 === "Shopify (Legacy)"
 

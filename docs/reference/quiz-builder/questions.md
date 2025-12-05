@@ -349,27 +349,43 @@
 
     ??? info "Available JavaScript data and functions"
 
-        Available data and functions:
+        Custom JavaScript code receives two parameters: `quiz` (data context) and `actions` (methods). See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for full documentation.
+
+        **Quick Reference:**
         ```javascript
-        Quiz.currentQuestion
-        Quiz.questions
-        Quiz.answers
-        Quiz.variableScores
-        Quiz.highestVariableRef
-        Quiz.next()
-        Quiz.previous()
-        Quiz.querySelector()
-        Quiz.getElementById()
+        // Quiz context (read-only)
+        quiz.currentQuestion       // Current question object
+        quiz.questions             // All questions array
+        quiz.answers.byBlock       // Answers keyed by block reference
+        quiz.answers.latest        // Most recent answer
+        quiz.variables.scores      // Variable scores { varName: number }
+        quiz.variables.highest     // Highest scoring variable reference
+        quiz.progress              // { index, displayStep, totalQuestions, percentComplete }
 
-        // Examples:
-        if (Quiz.variableScores.skinSensitivity > 80) {
-        Quiz.next();
+        // Actions (methods)
+        actions.next()             // Go to next question
+        actions.previous()         // Go to previous question
+        actions.overrideNext('q-skintype')  // One-shot redirect
+        actions.setAnswer('qbi-name', 'John')  // Set answer value
+        actions.clearAnswer('qbi-name')        // Clear answer
+
+        // DOM helpers (shadow DOM aware)
+        window.quiz.querySelector('#my-element')
+        window.quiz.getElementById('my-element')
+        ```
+
+        **Example - Conditional navigation:**
+        ```javascript
+        if ((quiz.variables.scores.sensitive ?? 0) > 80) {
+          actions.overrideNext('q-sensitive-skin');
         }
+        ```
 
-        const element = Quiz.getElementById('my-element');
-        if (element) {
-        element.textContent = 'Updated!';
-        } 
+        **Example - Update element based on answer:**
+        ```javascript
+        const name = quiz.answers.byBlock['qbi-name']?.value || 'Guest';
+        const el = window.quiz.getElementById('greeting');
+        if (el) el.textContent = `Hello, ${name}!`;
         ```
 
     `Advanced settings` - Expand to see advanced settings.
@@ -690,12 +706,16 @@
     `🗑 / bin` - Click on the bin icon to remove the block.
 
     ### Heading
-    
+
     Adds a heading block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png){width="300"}
 
     Text box allows you to `bold`, `cursive`, `underline` or `strikethrough` your text as well as `add links` and `Content dynamic source` (recall information from other parts of the quiz).
+
+    !!! tip "Liquid Templates Supported"
+
+        Heading blocks support [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display previous answers. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
 
     `Heading size` and  `Heading alignment` can also be changed in block settings.
 
@@ -718,12 +738,16 @@
     `Block ID` - Unique identifier for the block, useful for debugging or API use.
 
     ###Text
-    
+
     Adds a text block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png){width="300"}
 
     Text box allows you to `bold`, `cursive`, `underline` or `strikethrough` your text as well as `add links` and `Content dynamic source` (recall information from other parts of the quiz).
+
+    !!! tip "Liquid Templates Supported"
+
+        Text blocks support [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display previous answers. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
 
     `Text size` and  `Alignment` can also be changed in block settings.
 
@@ -1010,6 +1034,31 @@
 
     `HTML editor` - Code box where you can input your custom code.
 
+    !!! tip "Liquid Templates & JavaScript Supported"
+
+        Custom HTML blocks support both [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) and JavaScript. Use Liquid for dynamic content (e.g., `{{ quiz.answers.byBlock['qbi-name'].value }}`). JavaScript in `<script>` tags will execute and has access to the `quiz` and `actions` objects. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables and methods.
+
+        **Example with Liquid:**
+        ```html
+        <div class="greeting">
+          {% if quiz.answers.byBlock['qbi-name'] %}
+            Hello, {{ quiz.answers.byBlock['qbi-name'].value }}!
+          {% else %}
+            Welcome to our quiz!
+          {% endif %}
+        </div>
+        ```
+
+        **Example with JavaScript:**
+        ```html
+        <div id="score-display"></div>
+        <script>
+          const score = quiz.variables.scores.skinSensitivity ?? 0;
+          const el = window.quiz.getElementById('score-display');
+          if (el) el.textContent = `Your sensitivity score: ${score}`;
+        </script>
+        ```
+
     `🗑 Remove block` - Click to delete this block.
 
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
@@ -1124,7 +1173,7 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
-    `Choice label` - Text that's visible on the choice.
+    `Choice label` - Text that's visible on the choice. Supports HTML formatting (`<strong>`, `<em>`) and [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for personalization (e.g., `{{ quiz.answers.byBlock['qbi-name'].value }}`). Note: Dropdown choices automatically strip HTML to plain text for accessibility.
 
     `Choice image` - Shows the image displayed in this picture choice. CLick `Select image` to upload an image for this choice or choose from the in-app image gallery.
 
@@ -1177,6 +1226,183 @@
 
 === "Standalone"
 
+## Dynamic Content & JavaScript Reference
+
+=== "Shopify"
+
+    This section provides a complete reference for dynamic content using Liquid templates and JavaScript in quiz questions.
+
+    ### Liquid Templates
+
+    Liquid is a templating language that allows you to display dynamic content based on quiz answers and variables. It's supported in:
+
+    - **Heading blocks** - Personalize titles
+    - **Text blocks** - Dynamic paragraphs
+    - **Custom HTML blocks** - Full template control
+    - **Choice labels** - Personalized answer options (HTML auto-stripped for dropdowns)
+
+    #### The `quiz` Object
+
+    All Liquid templates have access to the `quiz` object with the following properties:
+
+    | Property | Type | Description |
+    |----------|------|-------------|
+    | `quiz.id` | string | Quiz identifier |
+    | `quiz.mode` | string | Always `'question'` on question pages |
+    | `quiz.currentQuestion` | object | Current question data |
+    | `quiz.questions` | array | All quiz questions |
+    | `quiz.results` | array | All result pages |
+
+    #### Accessing Answers
+
+    | Property | Description |
+    |----------|-------------|
+    | `quiz.answers.list` | Array of all answers in chronological order |
+    | `quiz.answers.byBlock['ref']` | Answer object keyed by block reference |
+    | `quiz.answers.byQuestion['ref']` | Answers grouped by question reference |
+    | `quiz.answers.latest` | Most recent answer |
+
+    Each answer object contains:
+
+    | Property | Description |
+    |----------|-------------|
+    | `.value` | The answer value (string) |
+    | `.blockRef` | Block reference ID |
+    | `.questionRef` | Question reference ID |
+    | `.choicesRefs` | Array of selected choice IDs |
+    | `.isValid` | Whether answer passed validation |
+
+    #### Variables & Scoring
+
+    | Property | Description |
+    |----------|-------------|
+    | `quiz.variables.scores` | Object with variable scores `{ varName: number }` |
+    | `quiz.variables.highest` | Reference of highest-scoring variable |
+
+    #### Progress (Question Mode)
+
+    | Property | Description |
+    |----------|-------------|
+    | `quiz.progress.index` | 0-based question index |
+    | `quiz.progress.displayStep` | 1-based step number (for display) |
+    | `quiz.progress.totalQuestions` | Total number of questions |
+    | `quiz.progress.percentComplete` | Completion percentage (0-100) |
+    | `quiz.progress.hasPrevious` | Can navigate back |
+    | `quiz.progress.hasNext` | Can navigate forward |
+
+    #### Liquid Examples
+
+    **Display previous answer:**
+    ```liquid
+    {% if quiz.answers.byBlock['qbi-name'] %}
+      Hello, {{ quiz.answers.byBlock['qbi-name'].value }}!
+    {% endif %}
+    ```
+
+    **Show progress:**
+    ```liquid
+    Question {{ quiz.progress.displayStep }} of {{ quiz.progress.totalQuestions }}
+    ```
+
+    **Conditional content based on score:**
+    ```liquid
+    {% assign sensitivity = quiz.variables.scores.sensitive | default: 0 %}
+    {% if sensitivity > 50 %}
+      Based on your answers, you have sensitive skin.
+    {% endif %}
+    ```
+
+    ---
+
+    ### JavaScript API
+
+    Custom JavaScript code receives two parameters: `quiz` (read-only context) and `actions` (methods).
+
+    #### Quiz Context Properties
+
+    The `quiz` parameter contains all the data from the Liquid context above, plus:
+
+    | Property | Description |
+    |----------|-------------|
+    | `quiz.metadata.responseId` | Unique response identifier |
+    | `quiz.metadata.language` | Quiz language code |
+    | `quiz.metadata.inBuilder` | `true` if in builder preview |
+
+    #### Actions (Methods)
+
+    | Method | Description |
+    |--------|-------------|
+    | `actions.next()` | Navigate to next question |
+    | `actions.previous()` | Navigate to previous question |
+    | `actions.overrideNext(ref)` | Redirect to specific question/result (e.g., `'q-skintype'`, `'r-results'`) |
+    | `actions.setAnswer(blockRef, value)` | Set answer value |
+    | `actions.setAnswers(obj)` | Batch update multiple answers |
+    | `actions.clearAnswer(blockRef)` | Clear an answer |
+    | `actions.removeAnswer(blockRef)` | Remove answer completely |
+
+    #### DOM Helpers
+
+    Since the quiz may render in a shadow DOM, use these helpers instead of `document.querySelector`:
+
+    | Method | Description |
+    |--------|-------------|
+    | `window.quiz.querySelector(selector)` | Find element in quiz |
+    | `window.quiz.querySelectorAll(selector)` | Find all matching elements |
+    | `window.quiz.getElementById(id)` | Find element by ID |
+
+    #### Global Event Handler
+
+    ```javascript
+    window.quiz.onChange = (event) => {
+      // event.blockRef - Block that changed
+      // event.value - New value
+      // event.selectedLabel - Label of selected choice
+    };
+    ```
+
+    #### JavaScript Examples
+
+    **Conditional navigation based on score:**
+    ```javascript
+    if ((quiz.variables.scores.sensitive ?? 0) > 80) {
+      actions.overrideNext('q-sensitive-routine');
+    }
+    ```
+
+    **Update element based on answer:**
+    ```javascript
+    const name = quiz.answers.byBlock['qbi-name']?.value || 'Guest';
+    const el = window.quiz.getElementById('greeting');
+    if (el) el.textContent = `Welcome, ${name}!`;
+    ```
+
+    **Auto-advance based on selection:**
+    ```javascript
+    window.quiz.onChange = (event) => {
+      if (event.blockRef === 'qbc-skintype' && event.selectedLabel === 'Oily') {
+        actions.overrideNext('q-oily-concerns');
+      }
+    };
+    ```
+
+    **Batch update answers:**
+    ```javascript
+    const age = parseInt(quiz.answers.byBlock['qbi-age']?.value || '0');
+    actions.setAnswers({
+      'qbc-age-group': age < 25 ? 'young' : 'mature',
+      'qbc-eligible': age >= 18 ? 'yes' : 'no'
+    });
+    ```
+
+=== "Shopify (Legacy)"
+
+=== "WooCommerce"
+
+=== "Magento"
+
+=== "BigCommerce"
+
+=== "Standalone"
 
 ---
 

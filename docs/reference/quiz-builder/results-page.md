@@ -477,14 +477,18 @@
     Each buliding block of your results page section has individual block settings.
 
     ### Heading
-    
+
     Adds a new heading to your page, ideal for titles or section breaks.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading.png)
 
-    Edit the heading text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the heading. 
+    Edit the heading text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the heading.
 
     Choose the heading size and alignment.
+
+    !!! tip "Liquid Templates Supported"
+
+        Heading blocks support [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display quiz answers, or `{{ quiz.variables.highest }}` to show the winning variable. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
 
     ---
 
@@ -515,14 +519,18 @@
 
 
     ### Text
-    
+
     Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text.png)
-    
-    Edit the text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the text block. 
+
+    Edit the text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the text block.
 
     Choose the text size and alignment.
+
+    !!! tip "Liquid Templates Supported"
+
+        Text blocks support [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display quiz answers, or use conditional logic with `{% if %}` statements. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
 
     ---
 
@@ -638,17 +646,43 @@
     `Remove` - Deletes the current block from the results page.
 
     ### Custom HTML
-    
+
     Adds a block where you can input custom HTML code for advanced content and styling.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html.png)
 
-    
+    !!! tip "Liquid Templates & JavaScript Supported"
+
+        Custom HTML blocks support both [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) and JavaScript. Use Liquid for dynamic content and JavaScript in `<script>` tags for advanced logic. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables and methods.
+
+        **Example with Liquid:**
+        ```html
+        <div class="personalized-message">
+          {% if quiz.variables.highest == 'dry' %}
+            <h3>Your skin type: Dry</h3>
+            <p>Based on your answers, we recommend hydrating products.</p>
+          {% elsif quiz.variables.highest == 'oily' %}
+            <h3>Your skin type: Oily</h3>
+            <p>Based on your answers, we recommend oil-control products.</p>
+          {% endif %}
+        </div>
+        ```
+
+        **Example with JavaScript:**
+        ```html
+        <div id="recommendation-count"></div>
+        <script>
+          const count = Object.keys(quiz.resultContext.slotItems || {}).length;
+          const el = window.quiz.getElementById('recommendation-count');
+          if (el) el.textContent = `We found ${count} products for you!`;
+        </script>
+        ```
+
     `Block ID` - Displays the current block ID.
 
     `Remove block` - Deletes the current block from the results page.
 
-    Click `...` to open the more options menu. 
+    Click `...` to open the more options menu.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
 
@@ -679,7 +713,7 @@
 
     `Description size` - Select the text size of the slot description.
 
-    `No recommendations message` - Add a message to be displayed if there are no recommendations. If the "No recommendations message" is empty, no message will be shown when there are no recommendations.
+    `No recommendations message` - Add a message to be displayed if there are no recommendations. Supports HTML and [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for personalized empty states (e.g., `Sorry {{ quiz.answers.byBlock['qbi-name'].value }}, we couldn't find matching products.`). If left empty, no message will be shown when there are no recommendations.
 
     `Block ID` - Displays the current block ID.
 
@@ -814,9 +848,9 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot.png)
 
-    `Heading` - Adds a custom heading to the slot block.
+    `Heading` - Adds a custom heading to the slot block. Supports HTML and [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for dynamic content.
 
-    `Description` - Adds a custom description to the slot block. Allows to add text, links or personalization.
+    `Description` - Adds a custom description to the slot block. Supports HTML and [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates). Use Liquid to personalize descriptions based on quiz answers (e.g., `Perfect for your {{ quiz.variables.highest }} skin type`).
 
     `Slot width` - Select the default slot width.
 
@@ -1088,28 +1122,45 @@
 
     ??? info "Available JavaScript data and functions"
 
-        Available data and functions:
+        Custom JavaScript code receives two parameters: `quiz` (data context) and `actions` (methods). See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for full documentation.
 
+        **Quick Reference:**
         ```javascript
-        Quiz.currentQuestion
-        Quiz.questions
-        Quiz.answers
-        Quiz.variableScores
-        Quiz.highestVariableRef
-        Quiz.next()
-        Quiz.previous()
-        Quiz.querySelector()
-        Quiz.getElementById()
+        // Quiz context (read-only)
+        quiz.currentResult         // Current result page object
+        quiz.results               // All result pages array
+        quiz.answers.byBlock       // Answers keyed by block reference
+        quiz.variables.scores      // Variable scores { varName: number }
+        quiz.variables.highest     // Highest scoring variable reference
 
-        // Examples:
-        if (Quiz.variableScores.skinSensitivity > 80) {
-        Quiz.next();
+        // Result-specific context
+        quiz.resultContext.slotItems   // Recommended products/collections
+        quiz.resultContext.cartItems   // Items in cart
+        quiz.resultContext.discounts   // Applied discounts
+
+        // Actions (methods)
+        actions.addAllToCart()              // Add all recommendations to cart
+        actions.addToCart(variantId, qty)   // Add specific item
+        actions.applyDiscountCode('CODE')   // Apply discount
+
+        // DOM helpers (shadow DOM aware)
+        window.quiz.querySelector('#my-element')
+        window.quiz.getElementById('my-element')
+        ```
+
+        **Example - Auto-add to cart based on score:**
+        ```javascript
+        if ((quiz.variables.scores.premium ?? 0) > 80) {
+          await actions.addAllToCart();
         }
+        ```
 
-        const element = Quiz.getElementById('my-element');
-        if (element) {
-        element.textContent = 'Updated!';
-        } 
+        **Example - Apply discount based on cart size:**
+        ```javascript
+        const itemCount = Object.keys(quiz.resultContext.slotItems || {}).length;
+        if (itemCount >= 3) {
+          await actions.applyDiscountCode('BUNDLE20');
+        }
         ```
 
     `Results page ID` - Displays the current results page ID.
@@ -1953,7 +2004,213 @@
 
     `deactivate` - Deactivates dynamic discounts.
 
+## Dynamic Content & JavaScript Reference
 
+=== "Shopify"
+
+    This section provides a complete reference for dynamic content using Liquid templates and JavaScript on results pages.
+
+    ### Liquid Templates
+
+    Liquid is a templating language that allows you to display dynamic content based on quiz answers and variables. On results pages, it's supported in:
+
+    - **Heading blocks** - Personalized titles
+    - **Text blocks** - Dynamic paragraphs
+    - **Custom HTML blocks** - Full template control
+    - **Slot title & description** - Personalized slot headers
+    - **No recommendations message** - Personalized empty states
+
+    #### The `quiz` Object
+
+    All Liquid templates have access to the `quiz` object with the following properties:
+
+    | Property | Type | Description |
+    |----------|------|-------------|
+    | `quiz.id` | string | Quiz identifier |
+    | `quiz.mode` | string | Always `'result'` on results pages |
+    | `quiz.currentResult` | object | Current result page data |
+    | `quiz.questions` | array | All quiz questions |
+    | `quiz.results` | array | All result pages |
+
+    #### Accessing Answers
+
+    | Property | Description |
+    |----------|-------------|
+    | `quiz.answers.list` | Array of all answers in chronological order |
+    | `quiz.answers.byBlock['ref']` | Answer object keyed by block reference |
+    | `quiz.answers.byQuestion['ref']` | Answers grouped by question reference |
+    | `quiz.answers.latest` | Most recent answer |
+
+    Each answer object contains:
+
+    | Property | Description |
+    |----------|-------------|
+    | `.value` | The answer value (string) |
+    | `.blockRef` | Block reference ID |
+    | `.questionRef` | Question reference ID |
+    | `.choicesRefs` | Array of selected choice IDs |
+    | `.isValid` | Whether answer passed validation |
+
+    #### Variables & Scoring
+
+    | Property | Description |
+    |----------|-------------|
+    | `quiz.variables.scores` | Object with variable scores `{ varName: number }` |
+    | `quiz.variables.highest` | Reference of highest-scoring variable |
+
+    #### Result Context (Results Page Only)
+
+    | Property | Description |
+    |----------|-------------|
+    | `quiz.resultContext.slotItems` | Object of recommended products/collections keyed by Shopify GID |
+    | `quiz.resultContext.cartItems` | Array of items currently in cart |
+    | `quiz.resultContext.discounts` | Object with `applied` array and `eligible` boolean |
+
+    #### Liquid Examples
+
+    **Personalized greeting:**
+    ```liquid
+    {% if quiz.answers.byBlock['qbi-name'] %}
+      {{ quiz.answers.byBlock['qbi-name'].value }}, here are your results!
+    {% else %}
+      Here are your personalized results!
+    {% endif %}
+    ```
+
+    **Display skin type result:**
+    ```liquid
+    {% if quiz.variables.highest == 'dry' %}
+      <h2>Your Skin Type: Dry</h2>
+      <p>Your skin needs extra hydration. We recommend products with hyaluronic acid.</p>
+    {% elsif quiz.variables.highest == 'oily' %}
+      <h2>Your Skin Type: Oily</h2>
+      <p>Your skin produces excess oil. We recommend lightweight, mattifying products.</p>
+    {% elsif quiz.variables.highest == 'combination' %}
+      <h2>Your Skin Type: Combination</h2>
+      <p>Your skin has both dry and oily areas. We recommend balanced formulas.</p>
+    {% endif %}
+    ```
+
+    **Show score-based content:**
+    ```liquid
+    {% assign sensitivity = quiz.variables.scores.sensitive | default: 0 %}
+    {% if sensitivity > 70 %}
+      ⚠️ You have highly sensitive skin. All our recommendations are fragrance-free.
+    {% endif %}
+    ```
+
+    #### Slot Block Context
+
+    In **Custom HTML blocks within product slots**, you have additional variables:
+
+    | Variable | Description |
+    |----------|-------------|
+    | `item` | The Shopify product/variant/collection object |
+    | `itemType` | `'product'`, `'variant'`, or `'collection'` |
+
+    **Example - Custom product display:**
+    ```liquid
+    {% if itemType == 'product' %}
+      <div class="product-card">
+        <h4>{{ item.title }}</h4>
+        <p>{{ item.description | truncate: 100 }}</p>
+        <span class="price">{{ item.priceRange.minVariantPrice.amount }}</span>
+      </div>
+    {% endif %}
+    ```
+
+    ---
+
+    ### JavaScript API
+
+    Custom JavaScript code receives two parameters: `quiz` (read-only context) and `actions` (methods).
+
+    #### Quiz Context Properties
+
+    The `quiz` parameter contains all the data from the Liquid context above, plus:
+
+    | Property | Description |
+    |----------|-------------|
+    | `quiz.metadata.responseId` | Unique response identifier |
+    | `quiz.metadata.language` | Quiz language code |
+    | `quiz.metadata.inBuilder` | `true` if in builder preview |
+
+    #### Actions (Methods)
+
+    Results pages have additional cart-related actions:
+
+    | Method | Description |
+    |--------|-------------|
+    | `actions.addAllToCart()` | Add all recommended items to cart (async) |
+    | `actions.addToCart(variantId, qty, sellingPlanId?)` | Add specific item to cart (async) |
+    | `actions.applyDiscountCode(code)` | Apply discount code (async) |
+    | `actions.setAnswer(blockRef, value)` | Set answer value |
+    | `actions.clearAnswer(blockRef)` | Clear an answer |
+
+    #### DOM Helpers
+
+    Since the quiz may render in a shadow DOM, use these helpers instead of `document.querySelector`:
+
+    | Method | Description |
+    |--------|-------------|
+    | `window.quiz.querySelector(selector)` | Find element in quiz |
+    | `window.quiz.querySelectorAll(selector)` | Find all matching elements |
+    | `window.quiz.getElementById(id)` | Find element by ID |
+
+    #### JavaScript Examples
+
+    **Auto-add to cart for premium customers:**
+    ```javascript
+    if ((quiz.variables.scores.premium ?? 0) > 80) {
+      await actions.addAllToCart();
+    }
+    ```
+
+    **Apply discount based on cart value:**
+    ```javascript
+    const itemCount = Object.keys(quiz.resultContext.slotItems || {}).length;
+    if (itemCount >= 3) {
+      await actions.applyDiscountCode('BUNDLE20');
+    }
+    ```
+
+    **Display personalized message:**
+    ```javascript
+    const name = quiz.answers.byBlock['qbi-name']?.value || 'there';
+    const skinType = quiz.variables.highest || 'your';
+    const el = window.quiz.getElementById('personalized-intro');
+    if (el) {
+      el.innerHTML = `<p>Hi ${name}! Based on your ${skinType} skin type, we've selected these products for you.</p>`;
+    }
+    ```
+
+    **Track quiz completion with analytics:**
+    ```javascript
+    // Send quiz completion data to your analytics
+    const data = {
+      responseId: quiz.metadata.responseId,
+      skinType: quiz.variables.highest,
+      scores: quiz.variables.scores,
+      recommendedProducts: Object.keys(quiz.resultContext.slotItems || {}).length
+    };
+
+    // Example: Send to your analytics endpoint
+    fetch('/api/quiz-completed', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+    ```
+
+=== "Shopify (Legacy)"
+
+=== "WooCommerce"
+
+=== "Magento"
+
+=== "BigCommerce"
+
+=== "Standalone"
 
 ---
 
