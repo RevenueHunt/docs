@@ -10,10 +10,11 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Lg6Ikql0kpE?si=slsLm93N-0Ce2uch" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. Go to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/) tab on the top of the screen. This will open a tab where you can connect your quiz with multiple third-party services.
-    2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
+    1. Navigate to [App Settings](/reference/app-settings/) from the side menu.
+    2. Click on the `Shopify Customers` tab.
+    3. Toggle the `Enable pushing quiz leads to Shopify Customers` switch to enable the integration.
     ![how to integrate shopify customers built for shopify revenuehunt app](/images/how_to_integrate_shopify_customers_shopify_v2.png)
-    3. Click the `Save` button to save the changes and update the preview/live quiz with new settings.
+    4. Click the `Save` button to save the changes.
 
     Newly captured leads will appear in your Shopify Customers List with their [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) added to their profile.
 
@@ -21,8 +22,12 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
     !!! note
 
+        This is a global setting that applies to all quizzes in your shop.
+
+    !!! note
+
         If a profile with the same email already exists, it will simply be updated with the customer tags from the quiz.
-        
+
         Customer tags are updated every time a customer takes the quiz.
 
 

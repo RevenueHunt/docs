@@ -7,8 +7,10 @@
     ![manual_shopifyV2_appsettings](/images/manual_shopifyV2_appsettings.png)
 
     From the Store settings menu you can:
-    
-    `Shopify Markets` - Assign quizzes to different markets and languges via the [Shopify Markets](#markets) tab.
+
+    `Shopify Markets` - Assign quizzes to different markets and languges via the [Shopify Markets](#shopify-markets) tab.
+
+    `Shopify Customers` - Enable automatic syncing of quiz leads to your Shopify Customers list via the [Shopify Customers](#shopify-customers) tab.
 
     `Catalogue` - Run a catalog sync from the [Catalogue](#catalogue) tab or check when the last sync was completed.
 
@@ -354,6 +356,49 @@
     `Entry Point Preview` - Shows a preview of how the quiz entry point will look on your store's page in the Shop App.
 
     ![app settings shop app preview](/images/manual_appsettings_shopapp_preview.png)
+
+## Shopify Customers
+
+=== "Shopify"
+
+    Enable automatic syncing of quiz leads to your Shopify Customers list. When enabled, every quiz completion that captures an email will create or update a customer profile in Shopify.
+
+    `Enable pushing quiz leads to Shopify Customers` - Toggle to enable/disable syncing quiz leads to Shopify Customers. This is a global setting that applies to all quizzes.
+
+    **What data is sent:**
+
+    - Email address (required)
+    - First name and last name (if collected in quiz)
+    - Phone number (if collected in quiz)
+    - Customer tags (from tagged quiz choices)
+
+    !!! note
+
+        If a customer with the same email already exists in Shopify, their profile will be updated with the new customer tags from the quiz.
+
+    !!! tip
+
+        Check [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) for detailed instructions on setting up Shopify Flows with customer tags.
+
+=== "Shopify (Legacy)"
+
+    Shopify Customers integration is available via the [Connect tab](/reference/quiz-builder/connect-integrations/) in the Quiz Builder for each quiz individually.
+
+=== "WooCommerce"
+
+    Not applicable.
+
+=== "Magento"
+
+    Not applicable.
+
+=== "BigCommerce"
+
+    Not applicable.
+
+=== "Standalone"
+
+    Not applicable.
 
 ## Shopify Markets
 
