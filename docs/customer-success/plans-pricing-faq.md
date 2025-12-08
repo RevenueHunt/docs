@@ -7,7 +7,7 @@ icon: material/credit-card-refresh-outline
 
 ### Feature availability for paid-only options
 
-We encourage you to try and test all features you might need before committing to a paid plan. That's why we offer a free trial—so you can explore our advanced features and see how they work for your business.
+We encourage you to try and test all features you might need before committing to a paid plan. That's why we offer a free trial period, so you can explore our advanced features and see how they work for your business.
 
 The following features require a paid plan:
 
@@ -17,7 +17,7 @@ The following features require a paid plan:
 - Integrate with Webhooks and Zapier
 - Integrate with Klaviyo, Omnisend, and other third-party integrations
 
-These features require a paid plan. During your trial, you can test them while on the Free plan. After the trial ends, you can still test them in the quiz preview and inside the quiz builder, but they won’t work on live quizzes until you upgrade.
+During your trial period, you can test them while on the Free plan. After the trial ends, you can still test them in the quiz preview and inside the quiz builder, but they won’t work on live quizzes until you upgrade to a paid plan.
 
 ### How quiz usage is calculated
 
