@@ -7,7 +7,6 @@ icon: material/credit-card-refresh-outline
 
 === "Shopify"
 
-    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
     - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
@@ -19,8 +18,6 @@ icon: material/credit-card-refresh-outline
 
 === "Shopify (Legacy)"
 
-
-    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
     - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
@@ -30,8 +27,6 @@ icon: material/credit-card-refresh-outline
 
 === "WooCommerce"
 
-
-    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
     - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
@@ -42,8 +37,6 @@ icon: material/credit-card-refresh-outline
 
 === "Magento"
 
-
-    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
     - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
@@ -54,8 +47,6 @@ icon: material/credit-card-refresh-outline
 
 === "BigCommerce"
 
-
-    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
     - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
@@ -66,8 +57,6 @@ icon: material/credit-card-refresh-outline
 
 === "Standalone"
 
-
-    - We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
     - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
