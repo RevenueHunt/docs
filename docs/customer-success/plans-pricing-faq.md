@@ -3,9 +3,13 @@ icon: material/credit-card-refresh-outline
 ---
 
 
-## Plans & Pricing Details
+## Plans & pricing details
 
 ### Feature availability for paid-only options
+
+We encourage you to try and test all features you might need before committing to a paid plan. That's why we offer a free trial—so you can explore our advanced features and see how they work for your business.
+
+The following features require a paid plan:
 
 - Add custom HTML, custom CSS, and custom JavaScript to quizzes
 - Add custom Chart.js charts
@@ -14,6 +18,8 @@ icon: material/credit-card-refresh-outline
 - Integrate with Klaviyo, Omnisend, and other third-party integrations
 
 These features require a paid plan. During your trial, you can test them while on the Free plan. After the trial ends, you can still test them in the quiz preview and inside the quiz builder, but they won’t work on live quizzes until you upgrade.
+
+### How quiz usage is calculated
 
 === "Shopify"
 
@@ -76,7 +82,7 @@ These features require a paid plan. During your trial, you can test them while o
 
 
 
-### Plan Options and Responses
+### Plans and maximum quiz responses
 
 
 === "Shopify"    
@@ -214,7 +220,7 @@ These features require a paid plan. During your trial, you can test them while o
 
 
 
-## Upgrading or Downgrading Your Plan
+## Upgrading and downgrading plans
 
 === "Shopify"
 
@@ -261,7 +267,7 @@ These features require a paid plan. During your trial, you can test them while o
 
 
 
-## Billing & Invoices
+## Billing & invoices
 
 === "Shopify"
 
@@ -463,7 +469,7 @@ Let’s say, that the following day – you get 0 responses. The 30 days would �
 
 You’ll notice that ALL of the days were “bumped” 1 day back. For example, “Day 3” on the first table, is now on “Day 2”, “Day 4” is now “Day 3” and so on. Meaning, the usage of day 1 has rolled out, and as you haven’t got any new answers, now you have the 32 responses that you had previously on day #1 available – because the sum of your “new” table is only 468 (As the previous day 1 with 32 responses “rolled out”).
 
-## Changing Plans Example
+## Changing plans example
 
 For further clarification: billing cycle =/= our measuring period. We don’t set a date on which we begin or end measuring, rather, we always measure the last 30 days, rolling.
  
@@ -482,7 +488,7 @@ This means that, if you upgrade immediately to a Pro plan (allows 1000 responses
 
 In other words: if the Basic plan accepts around ~16 responses each day, the Pro plan will accept ~33 responses every day, without ever crossing the 1000 responses limit / rolling 30 days (16 * 30 = 500, 33 * 30 = 1000)
 
-## Monthy vs Yearly plan
+## Monthy vs yearly plan
 
 === "Shopify"
     
@@ -545,7 +551,7 @@ We offer a 50% discount on all plans if you subscribe for 2 years and you pay up
 
     Need a 50% discount signing up for two years? – [Get in touch with our Sales Team](/how-to-guides/contact-customer-support/)
 
-## What’s the difference between the WooCommerce extension and a WordPress Plugin?
+## What’s the difference between the WooCommerce extension and a WordPress plugin?
 
 The [WordPress Plugin](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/) is free to install and puts you directly on our **Free plan**. The Free plan allows up to 100 quiz responses per month without any charges but has a “Powered by RevenueHunt” branding. If your usage exceeds the Free plan, you’ll be asked to upgrade to a Basic plan which is billed monthly.
 
