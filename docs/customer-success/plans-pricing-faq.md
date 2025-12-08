@@ -5,6 +5,16 @@ icon: material/credit-card-refresh-outline
 
 ## Plans & Pricing Details
 
+### Feature availability for paid-only options
+
+- Add custom HTML, custom CSS, and custom JavaScript to quizzes
+- Add custom Chart.js charts
+- Integrate with GA4 and Meta Pixel
+- Integrate with Webhooks and Zapier
+- Integrate with Klaviyo, Omnisend, and other third-party integrations
+
+These features require a paid plan. During your trial, you can test them while on the Free plan. After the trial ends, you can still test them in the quiz preview and inside the quiz builder, but they won’t work on live quizzes until you upgrade.
+
 === "Shopify"
 
     - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
