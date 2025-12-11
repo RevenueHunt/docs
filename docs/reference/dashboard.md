@@ -7,22 +7,6 @@ On the dashboard, you'll find all the quizzes that you create.
     The RevenueHunt Quizzes `Dashboard` is the central hub where you can view, manage, and optimize all the quizzes in your store. Here’s a breakdown of the key elements on this screen:
 
     ![dashboard_catalogue](/images/manual_shopifyV2_dashboard.png)
-    
-    ↪ Shopify Side Menu
-
-    ![dashboard side menu](/images/manual_shopifyV2_sidemenu.png)
-
-    `RevenueHunt Quizzes` - The dashboard of the app where you can find all the quizzes created.
-
-    `Publish` - Opens the [Publish](/reference/quiz-builder/share-publish/) instructions for how to add the quiz to the webstie.
-
-    `Analytics` - Opens the [Analytics tab](/reference/quiz-builder/metrics/#analytics) where you can check the quiz performance.
-
-    `App settings` - Opens the [App Settings](/reference/app-settings/) menu.
-
-    `Get support` - Opens the [Support](#support) menu.
-
-    `Switch to legacy app` - Click to [switch to the legacy version of the app](/reference/dashboard/#switch-to-v1). All your progress will be saved when you switch versions.
 
 
 === "Shopify (Legacy)"
@@ -118,86 +102,174 @@ On the dashboard, you'll find all the quizzes that you create.
     - `Plans & Pricing` - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
     - `Contact Support` - Opens the page to [contact support](/how-to-guides/contact-customer-support/).
 
-
-
-
-## Notifications
+## Shopify Side Menu
 
 === "Shopify"
 
-    ![manual_shopifyV2_notifications](/images/manual_shopifyV2_notifications.png)
+    ![dashboard side menu](/images/manual_shopifyV2_sidemenu.png)
 
-    `x` - Archives a notification.
+    `RevenueHunt: Recommender Quiz` - The dashboard of the app where you can find all the quizzes created.
+
+    `Publish` - Opens the [Publish](/reference/quiz-builder/share-publish/) instructions for how to add the quiz to the webstie.
+
+    `Analytics` - Opens the [Analytics tab](/reference/quiz-builder/metrics/#analytics) where you can check the quiz performance.
+
+    `App settings` - Opens the [App Settings](/reference/app-settings/) menu.
 
     `Get support` - Opens the [Support](#support) menu.
 
-    `Read more` - Opens the notification.
-
-    *Theme extensions status* - Informs you if the RevenueHunt Quiz App theme extension is active and where it's installed in your Shopify store theme
-
-    ![manual_shopifyv2_dashboard_notifications_themeextensionstatus.png](/images/manual_shopifyv2_dashboard_notifications_themeextensionstatus.png)
-
-    `Edit` - Opens the Theme Extension Status page. 
-
+    `Switch to legacy app` - Click to [switch to the legacy version of the app](/reference/dashboard/#switch-to-v1). All your progress will be saved when you switch versions.
 
 === "Shopify (Legacy)"
 
-    ![dashboard notifications bar](/images/manual_notifications.png)
-
-    `view all` - Opens a list of archived notifications.
-
-    `x` - Archives a notification.
-
 === "WooCommerce"
-
-    ![dashboard notifications bar](/images/manual_notifications.png)
-
-    `view all` - Opens a list of archived notifications.
-
-    `x` - Archives a notification.
 
 === "Magento"
 
-    ![dashboard notifications bar](/images/manual_notifications.png)
-
-    `view all` - Opens a list of archived notifications.
-
-    `x` - Archives a notification.
-
 === "BigCommerce"
-
-    ![dashboard notifications bar](/images/manual_notifications.png)
-
-    `view all` - Opens a list of archived notifications.
-
-    `x` - Archives a notification.
 
 === "Standalone"
 
-    ![dashboard notifications bar](/images/manual_notifications.png)
 
-    `view all` - Opens a list of archived notifications.
+## Analytics Overview
 
-    `x` - Archives a notification.
+=== "Shopify"
+
+    The Analytics Overview is a summary of the most important metrics for your quizzes.
+
+    ![manual_shopifyV2_topanalytics_folded](/images/manual_shopifyV2_topanalytics_folded.png)
+
+    `Skincare Quiz (Morning & Night)` - The default quiz for which the data is displayed. Click on the quiz name to switch to another quiz.
+
+    `Last 30 days` - The period for which the data is displayed. Click on the period to switch to another period.
+
+    ![manual_shopifyV2_topanalytics_folded_datepicker](/images/manual_shopifyV2_topanalytics_folded_datepicker.png)
+
+    `Quiz responses` - The number of responses the current default quiz received.
+
+    `Drop-off rate` - The percentage of responses that dropped off at each question.
+
+    `Number of orders` - The number of orders the current default quiz generated.
+
+    `Total orders value` - The total value of orders the current default quiz generated.
+
+    `▼` - click to expand the analytics overview.
+
+    ![manual_shopifyV2_topanalytics_unfolded](/images/manual_shopifyV2_topanalytics_unfolded.png)
+
+    `▲` - click to collapse the analytics overview.	
+
+=== "Shopify (Legacy)"
+
+    ![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
+
+    `Quiz Performance Overview` - Highlights your quizzes performance during the last 30 days
+
+    `show overview` - Shows an overview of the quizzes metrics in the last 30 days.
+
+    `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
+
+
+=== "WooCommerce"
+
+    ![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
+
+    `Quiz Performance Overview` - Highlights your quizzes performance during the last 30 days
+
+    `show overview` - Shows an overview of the quizzes metrics in the last 30 days.
+
+    `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
+
+=== "Magento"
+
+    ![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
+
+    `Quiz Performance Overview` - Highlights your quizzes performance during the last 30 days
+
+    `show overview` - Shows an overview of the quizzes metrics in the last 30 days.
+
+    `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
+
+=== "BigCommerce"
+
+    ![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
+
+    `Quiz Performance Overview` - Highlights your quizzes performance during the last 30 days
+
+    `show overview` - Shows an overview of the quizzes metrics in the last 30 days.
+
+    `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
+
+=== "Standalone"
+
+    ![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
+
+    `Quiz Performance Overview` - Highlights your quizzes performance during the last 30 days
+
+    `show overview` - Shows an overview of the quizzes metrics in the last 30 days.
+
+    `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
+
+## Setup Guide
+
+=== "Shopify"
+
+    Quick start checklist to get your first quiz up and running.
+
+    ![manual_shopifyV2_setupguide](/images/manual_shopifyV2_setupguide.png)
+
+    `X` - Closes the setup guide.
+
+    For the full setup guide, check the [Success Checklist](#success-checklist) section of the [Quiz Builder](/reference/quiz-builder/).
+
+=== "Shopify (Legacy)"
+
+    Check the [Success Checklist](#success-checklist) for the setup guide.
+
+    ![manual_dashboard_successchecklist](/images/manual_succes_checklist.png){width="300"}
+
+
+=== "WooCommerce"
+
+    Check the [Success Checklist](#success-checklist) for the setup guide.
+    
+    ![manual_woo_setupguide](/images/manual_succes_checklist.png){width="300"}
+
+=== "Magento"
+
+    Check the [Success Checklist](#success-checklist) for the setup guide.
+    
+    ![manual_magento_setupguide](/images/manual_succes_checklist.png){width="300"}
+
+=== "BigCommerce"
+
+    Check the [Success Checklist](#success-checklist) for the setup guide.
+    
+    ![manual_bigcommerce_successchecklist](/images/manual_succes_checklist.png){width="300"}
+
+=== "Standalone"
+
+    Check the [Success Checklist](#success-checklist) for the setup guide.
+    
+    ![manual_standalone_successchecklist](/images/manual_succes_checklist.png){width="300"}   
 
 ## Quizzes
 
 === "Shopify"
 
-    ![manual_shopifyV2_dafaultquiz](/images/manual_shopifyV2_dafaultquiz.png)
-
-
     `Default Quiz` - The main quiz set up for the main Shopify market in your store.
 
-    `9 Responses` - Shows the number of responses the current default quiz received.
+    ![manual_shopifyV2_dafaultquiz](/images/manual_shopifyV2_dafaultquiz.png)
 
-    `2/9 Quiz optimizations` - Shows the quiz building progress based on the [Success Checklist](#success-checklist).
+    `4.5K Responses` - Shows the number of responses the current default quiz received.
 
-    `Skincare Quiz (Morning && Night)` - Current quiz title. 
+    `6/9 Quiz optimizations` - Shows the quiz building progress based on the [Success Checklist](#success-checklist).
 
-    `Last saved: 14 October 2024, 12:09 PM` - Specifies when the last changes to the quiz were saved. 
+    `Skincare Quiz (Morning & Night)` - Current quiz title. 
 
-    `🌎 United States` - Specifies what market is the default for this quiz.
+    `Last saved: 11 December 2025, 11:41 AM` - Specifies when the last changes to the quiz were saved. 
+
+    `🌎 United States, International, Spanish` - Specifies what markets are the default for this quiz.
 
     ![manual_shopifyV2_allquizzes](/images/manual_shopifyV2_allquizzes.png)
 
@@ -209,7 +281,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `Create new quiz` - Opens the [New Quiz](#new-quiz) creation menu.
 
-    `...` - Opens quiz management options.
+    `...` - Opens quiz actions menu.
 
     ![manual_shopifyV2_quizmanagementoptions.png](/images/manual_shopifyV2_quizmanagementoptions.png)
 
@@ -217,9 +289,9 @@ On the dashboard, you'll find all the quizzes that you create.
     - `How to publish` - Opens the [Publish](/reference/quiz-builder/share-publish/) instructions that explain how to put the quiz on the website.
     - `Make default quiz` - Sets the quiz as default quiz and makes it the default quiz for the main show market and Shop app channel. 
     
-        !!! info
+        !!! info "Make default quiz"	
         
-            After clickign the following message will appear:
+            After clicking the `Make default quiz` button, the following message will appear:
 
             ![manual_shopifyV2_allquizzes_publish](/images/manual_shopifyV2_allquizzes_publish.png)
 
@@ -228,12 +300,12 @@ On the dashboard, you'll find all the quizzes that you create.
     - `Analyze Quiz` - Opens the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window. It asks the Copilot to *"Analyze my quiz and give me insights on how to improve it"*. Quiz Copilot will process the request and provide insights on how to improve the quiz.
     - `Responses` - Opens the [Responses](/reference/quiz-builder/metrics/#responses) page where it's possible to view, downalod and troubleshoot response for that quiz.
     - `Analytics` - Opens the [Analytics](/reference/quiz-builder/metrics/#analytics) page where all the quiz analytics are stored, including quiz starts, completions and revenue.
-    - `Copy quiz ID:` - Copies the current quiz ID to clipboard.
+    - `Copy quiz ID: JZN98V` - Copies the current quiz ID to clipboard.
     - `Rename` - Allows you to rename the current quiz.
     - `Duplicate` - Create a copy of this quiz on the dashboard.
     - `Remove` - Deletes the current quiz.
 
-    !!! warning
+    !!! warning "Remove default quiz"
 
         On the default quiz, the `Remove` option is disabled. This is to prevent the user from removing the default quiz. 
         
@@ -269,13 +341,7 @@ On the dashboard, you'll find all the quizzes that you create.
     - `Set as Default Quiz` - Set as a default quiz to be displayed in the Shop App.
     - `Delete` - Delete the quiz.
 
-    ![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
 
-    `Quiz Performance Overview` - Highlights your quizzes performance during the last 30 days
-
-    `show overview` - Shows an overview of the quizzes metrics in the last 30 days.
-
-    `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
 
 === "WooCommerce" 
 
@@ -303,13 +369,6 @@ On the dashboard, you'll find all the quizzes that you create.
     - `Copy quiz ID: xxx` - Copy the quiz ID of the current quiz.
     - `Delete` - Delete the quiz.
 
-    ![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
-
-    `Quiz Performance Overview` - Highlights your quizzes performance during the last 30 days
-
-    `show overview` - Shows an overview of the quizzes metrics in the last 30 days.
-
-    `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
 
 === "Magento"
 
@@ -391,6 +450,67 @@ On the dashboard, you'll find all the quizzes that you create.
 
 
 
+## Notifications
+
+=== "Shopify"
+
+    ![manual_shopifyV2_notifications](/images/manual_shopifyV2_notifications.png)
+
+    `x` - Archives a notification.
+
+    `Get support` - Opens the [Support](#support) menu.
+
+    `Read more` - Opens the notification.
+
+    *Theme extensions status* - Informs you if the RevenueHunt Quiz App theme extension is active and where it's installed in your Shopify store theme
+
+    ![manual_shopifyv2_dashboard_notifications_themeextensionstatus.png](/images/manual_shopifyv2_dashboard_notifications_themeextensionstatus.png)
+
+    `Edit` - Opens the Theme Extension Status page. 
+
+
+=== "Shopify (Legacy)"
+
+    ![dashboard notifications bar](/images/manual_notifications.png)
+
+    `view all` - Opens a list of archived notifications.
+
+    `x` - Archives a notification.
+
+=== "WooCommerce"
+
+    ![dashboard notifications bar](/images/manual_notifications.png)
+
+    `view all` - Opens a list of archived notifications.
+
+    `x` - Archives a notification.
+
+=== "Magento"
+
+    ![dashboard notifications bar](/images/manual_notifications.png)
+
+    `view all` - Opens a list of archived notifications.
+
+    `x` - Archives a notification.
+
+=== "BigCommerce"
+
+    ![dashboard notifications bar](/images/manual_notifications.png)
+
+    `view all` - Opens a list of archived notifications.
+
+    `x` - Archives a notification.
+
+=== "Standalone"
+
+    ![dashboard notifications bar](/images/manual_notifications.png)
+
+    `view all` - Opens a list of archived notifications.
+
+    `x` - Archives a notification.
+
+
+
 ## Tips & Tricks
 
 === "Shopify"
@@ -468,11 +588,12 @@ On the dashboard, you'll find all the quizzes that you create.
 
         Lead Generation and Data Collection (Optional)
 
-        `Add contact question` – Capture leads by asking for email or phone.  
-        `Customer tags` – Tag respondents for better segmentation.  
-        `Mailing list/CRM` – Sync collected data to your marketing platform.  
-        `Google Analytics` – Track quiz behavior for deeper insights.  
-        `Meta Pixel` – Add Facebook tracking for ad optimization.
+        `Add a contact question to capture leads` – Capture leads by asking for email or phone.  
+        `Segment your leads with Customer tags` – Tag respondents for better segmentation.  
+        `Connect quiz to mailing list or CRM` – Sync collected data to your marketing platform.  
+        `Tracking with Google Analytics` – Track quiz behavior for deeper insights.  
+        `Tracking with Meta Pixel` – Add Facebook / Meta tracking for ad optimization.
+        `Follow up email not being sent via SMTP` – Check if the email is being sent via SMTP (your own email server) or via the app. `SMTP settings` are located in the [App Settings](/reference/app-settings/#smtp) section.
 
 
 
@@ -590,37 +711,37 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![manual_shopifyV2_createquiz.png](/images/manual_shopifyV2_createquiz.png)
 
-    `Generate with AI` - Generate a quiz with RevnueHunt Copilot AI. Opens a Copilot AI chat window.
+    `Generate with AI` - Generate a quiz with [RevnueHunt Copilot AI](/how-to-guides/use-quiz-copilot/). Opens a Copilot AI chat window.
 
-    ![manual_shopifyV2_dashboard_createquiz_copilotAI](/images/manual_shopifyV2_dashboard_createquiz_copilotAI.png)
+    ![manual_shopifyV2_dashboard_createquiz_copilotAI](/images/manual_shopifyV2_dashboard_createquiz_copilotAI.png){width="300"}
 
     `From scratch` - Start with a blank quiz. A popup will show asking for the Quiz name.
 
-    ![manual_shopifyV2_createquiz_fromscratch](/images/manual_shopifyV2_createquiz_fromscratch.png)
+    ![manual_shopifyV2_createquiz_fromscratch](/images/manual_shopifyV2_createquiz_fromscratch.png){width="500"}
 
     Click `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new blank quiz.
 
-    ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="500"}
+    ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="300"}
 
     Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder](/reference/quiz-builder/questions/) of the new blank quiz.
 
     `From template`  - Start a new quiz by selecting a pre-made template and color scheme.
 
-    ![manual_shopifyV2_createquiz_templates](/images/manual_shopifyV2_createquiz_templates.png)
+    ![manual_shopifyV2_createquiz_templates](/images/manual_shopifyV2_createquiz_templates.png){width="300"}
 
     Click `Select` to confirm the tempalte choice, `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new quiz.
 
-    ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="500"}
+    ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="300"}
 
     Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder](/reference/quiz-builder/questions/) of the new quiz.
 
     `Import quiz` - Import a quiz by pasting the quiz JSON in the popup.
 
-    ![manual_shopifyV2_createquiz_importquiz](/images/manual_shopifyV2_createquiz_importquiz.png)
+    ![manual_shopifyV2_createquiz_importquiz](/images/manual_shopifyV2_createquiz_importquiz.png){width="500"}
 
     Click `Cancel` to return to the Quizzes or `Import` to open the new quiz.
 
-    !!! note
+    !!! note "Import quiz instructions"
 
         For instructions no how to export/import a quiz from one store to another in a JSON format, please check [this guide](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
@@ -771,15 +892,15 @@ On the dashboard, you'll find all the quizzes that you create.
     ![manual_shopifyV2_sidemenu](/images/manual_shopifyV2_sidemenu.png)
 
     
-    You can switch back to the original legacy version (V1) of the RevenueHunt app at any time. We will continue to maintain that version for the coming months to ensure you have a reliable option while exploring the new features in Version 2.
+    You can switch back to the original legacy version of the RevenueHunt app at any time. We will continue to maintain that version for the coming months to ensure you have a reliable option while exploring the new features in the Built for Shopify version of the app.
 
-    From Version 1, you will also have the ability to switch to Version 2 whenever you feel ready to try out the latest enhancements. This flexibility allows you to evaluate the new interface and features without losing access to the familiar functionalities of Version 1.
+    From the Built for Shopify version, you will also have the ability to switch to the legacy version of the app whenever you feel ready to try out the latest enhancements. This flexibility allows you to evaluate the new interface and features without losing access to the familiar functionalities of the legacy version of the app.
 
-    `Switch to legacy app` - Click this option to switch to a legacy verison of our Shopify app (V1).
+    `Switch to legacy app` - Click this option to switch to the legacy version of our Shopify app.
 
-    !!! warning
+    !!! warning "Switch to legacy app"
 
-        If you have any questions or need assistance during this transition, feel free to [reach out to our support team](/how-to-guides/contact-customer-support/).
+        If you have any questions or need assistance during the switch to the legacy version of the app, feel free to [reach out to our support team](/how-to-guides/contact-customer-support/).
 
 
 
