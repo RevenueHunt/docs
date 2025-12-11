@@ -99,6 +99,98 @@
 
     `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
 
+## Shopify Markets
+
+=== "Shopify"
+
+    ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
+
+    Tailor your customer experience by assigning specific quizzes to each of your store's Shopify Markets. Customize product recommendations, content, and language to meet the unique preferences of your global audience.
+
+    Click the `dropdown list` to select a quiz that will be shown by default to the visitors of that Markets version of your store.
+
+    ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
+
+    `Show All Locales` -  Click to display a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by dafault for the customer from that Market **and** lanuguage.
+
+    ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
+
+    `Hide All Locales` - Click to return to a simplified view of all Markets, without language disctinction. The app will show the default quiz for all the visitors from that Market regardless of the language they chose.
+
+    `Default` - Select the default quiz for a speciifc region.
+
+    `Language` - Selct a default quiz for a specific language in this region.
+
+    `Currency` - Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
+
+
+=== "Shopify (Legacy)"
+
+    Shopify Markets integration is only available in the `💎Built for Shopify` version of the RevenueHunt app. This feature is not supported in the original Shopify app version.
+
+=== "WooCommerce"
+
+    Not applicable.
+
+=== "Magento"
+
+    Not applicable.
+
+=== "BigCommerce"
+
+    Not applicable.
+
+=== "Standalone"
+
+    Not applicable.
+
+## Shopify Customers
+
+=== "Shopify"
+
+    ![manual_shopifyV2_appsettings_shopifycustomers](/images/manual_shopifyV2_appsettings_shopifycustomers.png)
+
+    Enable automatic syncing of quiz leads to your Shopify Customers list. When enabled, every quiz completion that captures an email will create or update a customer profile in Shopify.
+
+    `Enable pushing quiz leads to Shopify Customers` - Toggle to enable/disable syncing quiz leads to Shopify Customers. This is a global setting that applies to all quizzes.
+
+    **What data is sent:**
+
+    - Email address (required)
+    - First name and last name (if collected in quiz)
+    - Phone number (if collected in quiz)
+    - Customer tags (from tagged quiz choices)
+
+    !!! note
+
+        If a customer with the same email already exists in Shopify, their profile will be updated with the new customer tags from the quiz.
+
+    !!! tip
+
+        Check [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) for detailed instructions on setting up Shopify Flows with customer tags.
+
+=== "Shopify (Legacy)"
+
+    Shopify Customers integration is available via the [Connect tab](/reference/quiz-builder/connect-integrations/) in the Quiz Builder for each quiz individually.
+
+=== "WooCommerce"
+
+    Not applicable.
+
+=== "Magento"
+
+    Not applicable.
+
+=== "BigCommerce"
+
+    Not applicable.
+
+=== "Standalone"
+
+    Not applicable.
+
+
+
 ## Catalogue
 
 === "Shopify"
@@ -156,7 +248,7 @@
 
     To access the **Catalogue** settings in the standalone version of the Product Recommendation Quiz, open the [Success Checklist](/reference/dashboard/#success-checklist) or [this link](https://admin.revenuehunt.com/catalogue).
 
-## SMTP
+## SMTP settings
 
 === "Shopify"
 
@@ -357,85 +449,12 @@
 
     ![app settings shop app preview](/images/manual_appsettings_shopapp_preview.png)
 
-## Shopify Customers
-
-=== "Shopify"
-
-    Enable automatic syncing of quiz leads to your Shopify Customers list. When enabled, every quiz completion that captures an email will create or update a customer profile in Shopify.
-
-    `Enable pushing quiz leads to Shopify Customers` - Toggle to enable/disable syncing quiz leads to Shopify Customers. This is a global setting that applies to all quizzes.
-
-    **What data is sent:**
-
-    - Email address (required)
-    - First name and last name (if collected in quiz)
-    - Phone number (if collected in quiz)
-    - Customer tags (from tagged quiz choices)
-
-    !!! note
-
-        If a customer with the same email already exists in Shopify, their profile will be updated with the new customer tags from the quiz.
-
-    !!! tip
-
-        Check [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) for detailed instructions on setting up Shopify Flows with customer tags.
-
-=== "Shopify (Legacy)"
-
-    Shopify Customers integration is available via the [Connect tab](/reference/quiz-builder/connect-integrations/) in the Quiz Builder for each quiz individually.
-
-=== "WooCommerce"
-
-    Not applicable.
-
-=== "Magento"
-
-    Not applicable.
-
-=== "BigCommerce"
-
-    Not applicable.
-
-=== "Standalone"
-
-    Not applicable.
-
-## Shopify Markets
-
-=== "Shopify"
-
-    ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
-
-    Tailor your customer experience by assigning specific quizzes to each of your store's Shopify Markets. Customize product recommendations, content, and language to meet the unique preferences of your global audience.
-
-    Click the `dropdown list` to select a quiz that will be shown by default to the visitors of that Markets version of your store.
-
-    ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
-
-    `Show All Locales` -  Click to display a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by dafault for the customer from that Market **and** lanuguage.
-
-    ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
-
-    `Hide All Locales` - Click to return to a simplified view of all Markets, without language disctinction. The app will show the default quiz for all the visitors from that Market regardless of the language they chose.
-
-    `Default` - Select the default quiz for a speciifc region.
-
-    `Language` - Selct a default quiz for a specific language in this region.
-
-    `Currency` - Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
-
-
-=== "Shopify (Legacy)"
-
-    Shopify Markets integration is only available in the `💎Built for Shopify` version of the RevenueHunt app. This feature is not supported in the original Shopify app version.
 
 ## Plans & Pricing
 
 === "Shopify"
 
     Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.   
-
-
 
 === "Shopify (Legacy)"
 
