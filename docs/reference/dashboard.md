@@ -885,7 +885,7 @@ On the dashboard, you'll find all the quizzes that you create.
 === "Standalone" 
 
 
-## Switch to V1
+## Switch to legacy
 
 === "Shopify"
 
