@@ -1,15 +1,19 @@
 # Plans & Pricing
 
+## Plans and pricing
+
 === "Shopify"
 
     
     ![manual_shopifyv2_plans](/images/manual_shopifyv2_plans.png)
 
+    `Ready to take your quizzes to the next level?`- Click `Upgrade now` to any paid plan to increase your quiz response limits and unlock third-party integrations and advanced customization options.
+
     `Your current plan` - Displays the current plan you are on.
 
-    `Manage` - click to cancel your current plan.
+    `Manage ▼` - Click to open the menu to cancel your current plan.
 
-    `Billing period` - Choose between monthly or yearly billing.
+    `Billing period` - Choose between `Monthly` or `Annual` billing.
 
     `Plan details` - Click to view the details of all the pricing plans, what is the fee, response limit, and cost per response.
 
@@ -134,12 +138,17 @@
         App payments are handled by Stripe, the payment processor.
 
 
+!!! info "Plans and pricing FAQ"
+
+    Have more questions about our plans and pricing? Check the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page for more information.
+
+
 ## How to change my billing details?
 
 
 === "Shopify"
 
-    Since Shopify handles the payments, you can change your billing details directly in your Shopify payments.
+    Since Shopify handles the payments, you can change your billing details directly in your [Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments) page.
 
 
 === "Shopify (Legacy)"       
