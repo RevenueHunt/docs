@@ -117,9 +117,11 @@
 
     `Results` - Shows the preview of how the results page looks like.
 
-### Edit Theme
+## Edit Theme
 
 === "Shopify"
+
+    ### Basic
 
     `Basic`  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
 
@@ -133,17 +135,35 @@
 
         In the `💎Built for Shopify` version of the RevenueHunt app, the font for the headings and body of the quiz is inherited from the store Shopify theme if the font is set to `Inherit`.
 
-    `Primary colors / Choices / Inputs` - Click the color to change it.
+    `Primary Colors` - Click on the color to change it.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_primarycolors](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_primarycolors.png)
 
     Select a color from the picker to change it.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors_picker](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_colors_picker.png)
 
+    `Choices` - Click the color to change it.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_choices](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_choices.png)
+
+    `Inputs` - Click the color to change it.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_inputs](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_inputs.png)
+
     `Background` - Change the background color by clicking on the color. Adjust thje background opacity with the slider or upload a background image by clicking `Select image`.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background.png)
+
+    Once the background image is uploaded, you can adjust the opacity with the slider.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background_imageuploaded](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background_imageuploaded.png)
+
+    `Change` - Click to change the background image.
+
+    `Remove` - Click to remove the background image.
+
+    `Opacity` - Adjust the opacity of the background image.
 
     `Navigation` - Change the colors of the Navigation bar background, text and border by cliking on the color. 
 
@@ -164,6 +184,8 @@
     `Slide up/down` - Select this option to make the quiz slide up and down.
 
     `Slide left/right` - Select this option to make the quiz slide left and right.
+
+    ### Advanced
 
     `Advanced` - Add your own CSS code in the box to override the default quiz's styles.
 
@@ -297,7 +319,7 @@
 
     `Custom CSS` - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
-### My Themes
+## My Themes
 
 === "Shopify"
 
