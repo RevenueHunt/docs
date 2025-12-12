@@ -7,21 +7,21 @@
 
     To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
 
-    ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyv2_openchoicesettings.png)
+    ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
-    Click on a choice to open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
+    Under [Choice Settings](#choice-settings), find the `Customer tags` section and click on it to open the settings.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)
 
     Click `Search or create tags` to pick a tag to link to this choice or start typing the name to create a new tag.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew.png)
 
-    Confirm by saving the changes with the top `Save` button.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag_savechanges](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags_addtag_savechanges.png)
+    Confirm by clicking on `Create new tag`.
 
     All the tags you create will be visible at the bottom in grey.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png)
 
     When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM.
 
