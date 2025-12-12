@@ -327,7 +327,7 @@ Once you're happy with the design, you can add products to each question. It is 
         - Products are linked to each choice. 
         - When a customer picks that choice, all linked products receive one vote.
         - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
-        - If there is a draw in the number of votes, the app will randomize the products.
+        - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
     6. Make sure to link products to each question and choice in the quiz. 
     7. You can test different answering routes and results by clicking on the `Save` button to update your changes and then `Preview`.
 

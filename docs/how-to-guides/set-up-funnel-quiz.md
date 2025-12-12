@@ -18,7 +18,7 @@ Our product recommendation algorithm works like a voting system:
 - When a customer picks a choice, all linked products receive one vote.
 - After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes.
 - If no products have been linked or all the products have been excluded, the results page will appear empty.
-- If there's a draw in the number of votes, the app will randomize the order of products.
+- If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
 
 **Understand Inclusion and Exclusion**
 
@@ -151,7 +151,7 @@ Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/qu
 
 The voting system recommends products by counting how many times each one is "voted for" through customer quiz choices. Each quiz choice can be linked to specific product variants, and every time a customer selects a choice, the associated products receive one vote. 
 
-At the end of the quiz, the results page displays the product variants with the most votes, sorted from highest to lowest. If no products have been linked or all products are excluded by logic, the results page will be empty. In the case of a tie, the app will randomize the product order. You can also configure the system to show only a limited number of top-voted products or set a minimum number of votes for a product to appear.
+At the end of the quiz, the results page displays the product variants with the most votes, sorted from highest to lowest. If no products have been linked or all products are excluded by logic, the results page will be empty. If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections. You can also configure the system to show only a limited number of top-voted products or set a minimum number of votes for a product to appear.
 
 ![how_to_shopify_v2_recommendations_funnel](/images/how_to_shopify_v2_recommendations_funnel.png){width=500} 
 
@@ -492,7 +492,7 @@ The voting system counts product "votes" based on customer quiz choices and then
     - When a customer picks a choice, all linked products receive one vote
     - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
     - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there's a draw in the number of votes, the app will randomize the order of products
+    - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
 
     You can also:
     - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/)
@@ -1161,7 +1161,7 @@ Branch your quiz to show different follow-up questions based on customer choices
     - When a customer picks a choice, all linked products receive one vote
     - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
     - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there's a draw in the number of votes, the app will randomize the order of products
+    - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
 
     **Step 2: Build Quiz Structure**
 
@@ -1499,7 +1499,7 @@ Show or hide different text blocks on the results page based on customer choices
     - When a customer picks a choice, all linked products receive one vote
     - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
     - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there's a draw in the number of votes, the app will randomize the order of products
+    - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
 
     **Step 2: Build Quiz Structure**
 

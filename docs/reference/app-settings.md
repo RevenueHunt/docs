@@ -213,7 +213,34 @@
 
     `Include draft products in recommendations` - When enabled, recommendations will include products or variants that are in draft status. Draft products could be recommended and will be shown in the 'Quiz preview' and under [Responses > Analysis](/reference/quiz-builder/metrics/#response-analysis). This setting is useful if you want to build your quiz with draft products and test it before publishing them. Draft products won't be displayed in the live quiz until they're published.
 
+    `Collection product order` - Control how products are ordered within collections for recommendations.
 
+    `Catalogue mode` - Choose between `Default (faster imports)` and `Preserve collection order`. 
+    
+    `Default (faster imports)` - When products have equal votes, they appear in random order. This mode imports your catalogue faster. 
+    
+    `Preserve collection order` - When products have equal votes, they appear in the same order as arranged in your Shopify collections. Products placed earlier in your collection appear first in recommendations.
+
+    !!! warning "After changing this setting"
+
+        You must click `Import Catalogue` to apply the change. The new ordering takes effect only after a fresh import.
+
+    ??? info "When to use Preserve collection order?"
+
+        Enable this if you've manually arranged products in your Shopify collections (for example, best-sellers first or new arrivals at the top) and want that order reflected in quiz recommendations.
+
+        When `Preserve collection order` is enabled products are imported in the order they appear in your Shopify collections and when two products have equal votes, the one placed earlier in the collection appears first. This works with both manual sorting and Shopify's automatic collection sorting (best-selling, alphabetical, price, etc.).
+
+        For example: Imagine you have a "Best Sellers" collection with products arranged by sales:
+
+        1. Product A (best seller)
+        2. Product B (second best)
+        3. Product C (third best)
+
+        If Products A and C both receive 3 votes in a quiz:
+
+        - **With Default mode**: Either could appear first (random)
+        - **With Preserve collection order**: Product A appears first (position 1 beats position 3)
 
 
 === "Shopify (Legacy)"

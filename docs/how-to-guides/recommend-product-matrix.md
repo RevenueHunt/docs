@@ -100,7 +100,7 @@ First of all, you should understand that the recommendations algorithm works lik
     - When a customer picks a choice, all linked products receive one vote
     - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
     - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there's a draw in the number of votes, the app will randomize the order of products.
+    - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
 
     If you want to make the results ultra-precise, you can also:
 
@@ -414,7 +414,7 @@ If you’re not getting the expected results, please check [this article](/how-t
 
     ![how to recommend products matrix results1](/images/how_to_recommend_products_results1.png)
 
-    When products receive the same amount of votes, the algorithm randomizes the order in which they are shown on the Results page.
+    When products receive the same amount of votes, the algorithm randomizes the order in which they are shown on the Results page. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
 
 If you’d like to organize the products in a specific order, you can create `Product Slots` on the Results Page. Check [this article](/how-to-guides/recommend-skincare-routine-slots/) to learn how to do that.
 
