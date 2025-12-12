@@ -2,7 +2,7 @@
 
 === "Shopify"
 
-    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
+    To set up email notifications, go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) section. You can set up [Emails to self](#to-self) (email notifications to the store owner) and [Emails to respondents](#to-respondent) (email notifications to the quiz takers).
 
 
 === "Shopify (Legacy)"
