@@ -155,7 +155,7 @@
 
     `arrow down` - Take you to the question lower.
 
-### Jump Logic
+## Jump Logic
 
 === "Shopify"
 
@@ -183,7 +183,7 @@
 
     ---
 
-    **Type 1: IF The response to the question...**
+    ### Type 1: IF The response to the question...
 
     Then the Jump Logic rules follow the following format:
 
@@ -211,7 +211,7 @@
 
     ---
 
-    **Type 2: IF The score of the variable...**
+    ### Type 2: IF The score of the variable...
 
     Then the Jump Logic rules follow the following format:
 
@@ -234,7 +234,7 @@
 
     ---
 
-    **Type 3: IF the variable with the highest score...**
+    ### Type 3: IF the variable with the highest score...
 
     Then the Jump Logic rules follow the following format:
 
@@ -467,7 +467,7 @@
 
     `Always jump to:` - Select a slide or URL where the user will be always redirected after this slide.
 
-### Skip Logic
+## Skip Logic
 
 === "Shopify"
 
@@ -491,7 +491,7 @@
 
     ---
 
-    **Type 1: IF The response to the question...**
+    ### Type 1: IF The response to the question...
 
     Then the Skip Logic rules follow the following format:
 
@@ -507,7 +507,7 @@
 
     ---
 
-    **Type 2: IF The score of the variable...**
+    ### Type 2: IF The score of the variable...
 
     Then the Skip Logic rules follow the following format:
 
@@ -530,7 +530,7 @@
 
     ---
 
-    **Type 3: IF the variable with the highest score...**
+    ### Type 3: IF the variable with the highest score...
 
     Then the Skip Logic rules follow the following format:
 
