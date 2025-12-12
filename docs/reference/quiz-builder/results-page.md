@@ -62,25 +62,75 @@
 
     `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png){width="500"}
+
+    Content
 
     `Heading` - Adds a new heading to your page, ideal for titles or section breaks.
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_heading.png){width="500"}
+
     `Text` - Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_text.png){width="500"}
 
     `Image` - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_image.png){width="500"}
+
     `Video` - Adds a video block to the results page. You can upload your own video.
 
-    `Button` - Adds a button to the results page. You can add any URL to the button.
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_video](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_video.png){width="500"}
 
     `Custom HTML` - Adds a block where you can input custom HTML code for advanced content and styling.
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customhtml](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customhtml.png){width="500"} 
+
+    Slots
+
     `Products` - Adds a block specifically designed for displaying a list of recommended products.
-    
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products.png){width="500"}
+
     `Products variants` - Adds a block specifically designed for displaying a list of recommended product variants.
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productsvariants](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productvariants.png){width="500"}
+
     `Collection` - Adds a block specifically designed for displaying a list of recommended collections.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_collection](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_collections.png){width="500"}   
+
+    Charts
+
+    `Gauge chart` - Adds a gauge chart to the results page.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_gaugechart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_gaugechart.png){width="500"}
+
+    `Radar chart` - Adds a radar chart to the results page.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_radarchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_radarchart.png){width="500"}
+
+    `Bar chart` - Adds a bar chart to the results page.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_barchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_barchart.png){width="500"}
+
+    `Rating display` - Adds a rating display to the results page.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_rating](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_rating.png){width="500"}
+
+    `Custom chart` - Adds a custom chart to the results page.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_customchart.png){width="500"}
+
+    Button
+
+    `Button` - Adds a button to the results page. You can add any URL to the button.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_button.png){width="500"}
+
+    `Cart/Checkout` - Adds a Proceed to cart or Proceed to checkout button to the results page.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_cartcheckout](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_cartcheckout.png){width="500"} 
 
     `bin` - Click on the bin icon to remove the block.
 
@@ -104,6 +154,7 @@
     `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
+
 
 === "WooCommerce"
 
@@ -211,7 +262,7 @@
 
     ---
 
-    **Type 1: IF The response to the question...**
+    ### Type 1: IF The response to the question...
 
     Then the Display Logic rules follow the following format:
 
@@ -228,7 +279,7 @@
 
     ---
 
-    **Type 2: IF The score of the variable...**
+    ### Type 2: IF The score of the variable...
 
     Then the Display Logic rules follow the following format:
 
@@ -254,7 +305,7 @@
 
     ---
 
-    **Type 3: IF the variable with the highest score...**
+    ### Type 3: IF the variable with the highest score...
 
     Then the Display Logic rules follow the following format:
 
@@ -474,9 +525,11 @@
 
 === "Shopify"
 
-    Each buliding block of your results page section has individual block settings.
+    Each building block of your results page has individual block settings.
 
-    ### Heading
+    ### Content
+
+    #### Heading
 
     Adds a new heading to your page, ideal for titles or section breaks.
 
@@ -515,10 +568,7 @@
 
     `Remove` - Deletes the current block from the results page.
 
-
-
-
-    ### Text
+    #### Text
 
     Adds a new content block to your page, ideal for adding and formatting text, lists, and links.
 
@@ -558,13 +608,13 @@
     `Remove` - Deletes the current block from the results page.
 
 
-    ### Image
+    #### Image
     
     Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_image.png)
 
-    To add an image click `Select image`. You can uplaod an image from your device or select from the in-app uploaded image gallery.
+    To add an image click `Select image`. You can upload an image from your device or select from the in-app uploaded image gallery.
 
     `Alt text` - Add an alternative text for this image.
 
@@ -586,15 +636,13 @@
 
     `Remove` - Deletes the current block from the results page.
 
-
-
-    ### Video
+    #### Video
 
     Adds a video to the results page. You can upload your own video or select from the in-app uploaded video gallery.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_video](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_video.png)
 
-    To add a video click `Select video`. You can uplaod a video from your device or select from the in-app uploaded video gallery.
+    To add a video click `Select video`. You can upload a video from your device or select from the in-app uploaded video gallery.
 
     `Alt text` - Add an alternative text for this video.
 
@@ -617,35 +665,7 @@
     `Remove` - Deletes the current block from the results page.
 
 
-    ### Button
-    
-    Adds a button to the results page. You can add any URL to the button.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button.png)
-
-    `Button text` - Type the text displayed ont eh button.
-
-    `Button URL` - Add a URL to the button. 
-
-    `Open in new tab` - Select this option to open the link in a new tab.
-
-    `Button alignment` - Select the button alignment left, right or center.
-
-    
-    `Block ID` - Displays the current block ID.
-
-    `Remove block` - Deletes the current block from the results page.
-
-    Click `...` to open the more options menu. 
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
-
-
-    `Duplicate` - Duplicates the current block.
-
-    `Remove` - Deletes the current block from the results page.
-
-    ### Custom HTML
+    #### Custom HTML
 
     Adds a block where you can input custom HTML code for advanced content and styling.
 
@@ -691,33 +711,13 @@
 
     `Remove` - Deletes the current block from the results page.
 
-    ### Products / Products Variants / Collections
+    ### Slots
+
+    #### Product | Product variants | Collections
     
     Adds a block specifically designed for displaying a list of recommended products, product variants or collections.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
-
-    `Recommendation type` - Select whether you prefer to recommend the main product, product variants or collections.
-
-    `Recommendations system` - Select whether you prefer to show dynamic recommendations based on customer responses or a fixed set of recommended products, variants or collections.
-
-    `Min. number of votes` - Select what minimum number of votes a product or a variants should receive in order to be displayed in this product block. If a product receives less votes than specified here at the end of the quiz, it will not be shown.
-
-    `Slot layout` - Select the layout of the slot block. 
-
-    `Slot title/description alignment` - Select how the slot title or description should be aligned within the slot block- left, center or right.
-
-    `Products/Collections Alignment` - Select how the product slot should be aligned on the results page - left, center or right.
-
-    `Heading size` - Select the text size of the slot heading.
-
-    `Description size` - Select the text size of the slot description.
-
-    `No recommendations message` - Add a message to be displayed if there are no recommendations. Supports HTML and [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for personalized empty states (e.g., `Sorry {{ quiz.answers.byBlock['qbi-name'].value }}, we couldn't find matching products.`). If left empty, no message will be shown when there are no recommendations.
-
-    `Block ID` - Displays the current block ID.
-
-    `Remove block` - Deletes the current block from the results page.
 
     Click `...` to open the more options menu. 
 
@@ -727,13 +727,37 @@
 
     `Remove` - Deletes the current block from the results page.
 
-    ### Product Components Layout
+    `Recommendations system` - Select whether you prefer to show dynamic recommendations based on customer responses or a fixed set of recommended products, variants or collections.
 
-    `Product components layout` - Select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
+    `Min. number of votes` - Select what minimum number of votes a product or a variants should receive in order to be displayed in this product block. If a product receives less votes than specified here at the end of the quiz, it will not be shown.
 
-    `+ Add block` - add an extra block to the priduct slot. Below you can find a list of avialble product comonents. All the data are synced directly from your Shopify catalog.
+    `No recommendations message` - Add a message to be displayed if there are no recommendations. Supports HTML and [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for personalized empty states (e.g., `Sorry {{ quiz.answers.byBlock['qbi-name'].value }}, we couldn't find matching products.`). If left empty, no message will be shown when there are no recommendations.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png){width="500"}
+    ##### Slot design
+
+    `Slot layout` - Select the layout of the slot block from Stached or Side-by-side.
+
+    `Heading alignment` - Select how the slot title should be aligned within the slot block- left, center or right.
+
+    `Items alignment` - Select how the product items should be aligned on the results page - left, center or right.
+
+    `Heading size` - Select the text size of the slot heading from small, medium or large.
+
+    `Description size` - Select the text size of the slot description from small, medium or large.
+
+    `rsbs-96f14392` -  Click to copy the slot ID. Displays the current slot ID.
+
+    `🗑 Remove block` - Deletes the current block from the results page.
+
+    ##### Slot item composition
+
+    Select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
+
+    `+ Add block` - add an extra block to the product slot. Below you can find a list of available product components. All the data are synced directly from your Shopify catalog.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
 
     `Image` - Adds the product image.
 
@@ -764,6 +788,8 @@
 
     `Add to cart button` - Adds an "Add to cart" button.
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_addtocartbutton](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon_addtocart.png)
+
     `Text` - Adds an extra text block. Opens a text block menu that allows you to add your own custom text, link or a personalization (you can for example add a [content dynamic source](/how-to-guides/use-information-recalls/) to recall information from the quiz).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text.png)
@@ -780,7 +806,7 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_varaintsdropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_varaintsdropdown.png)
 
-    `Metafield` - Adds a metafield to the product block. Select a metafiled to diplsay from the `Select a metafield` dropdown. Note: You can also display a metafield by adding a `Text` block to your product layout and adding the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/).
+    `Metafield` - Adds a metafield to the product block. Select a metafield to display from the `Select a metafield` dropdown. Note: You can also display a metafield by adding a `Text` block to your product layout and adding the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafield](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafieldpng.png)
 
@@ -821,12 +847,8 @@
         - ReCharge Subscriptions (Pro plan only).
 
         If you wish to integrate a subscription app that is not supported yet, please reach out to our [customer support team](/how-to-guides/contact-customer-support/) and we will be happy to help you.
-    
 
-
-
-
-    ### Product Slot
+    ##### Results slot
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1.png)
 
@@ -836,13 +858,13 @@
 
         Slots display products based on the `Recommendations system` set up in [Product Block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
         
-        If the recommendations system is set to `Based on customer's reponses` then the slot will display the most voted products based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
+        If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
 
         If the recommendations system is set to `Fixed` then the slot will display the products that are linked to the slot.
 
         <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/3dcb55fbc6e749019fe609d311915de6?sid=44a004e0-acde-4fe8-9f50-6ca1e6f21289" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    `+ Add Slot` - Adds a new slot to the product/collection block.
+    `+ Add slot` - Adds a new slot to the product/collection block.
 
     ---
 
@@ -852,17 +874,23 @@
 
     `Description` - Adds a custom description to the slot block. Supports HTML and [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates). Use Liquid to personalize descriptions based on quiz answers (e.g., `Perfect for your {{ quiz.variables.highest }} skin type`).
 
-    `Slot width` - Select the default slot width.
+    `Slot width` - Select the default slot width from small, medium or large.
 
-    `Max. recommended products` - The maximum number of products allowed to be displayed in the slot block.
+    `Max. recommended items` - The maximum number of items allowed to be displayed in the slot block.
 
-    `Add segments` - Click `v Add` to select products from which Products, Varaints,Collections, Tags, Variants or Vendors will be shown in this slot block.
+    `Add segments` - Click `+ Add include type` to select products, collections, tags, variants or vendors from which items will be shown in this slot block.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment1.png)
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment2.png)
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment3](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment3.png)    
 
     ??? info "How Slots Work"
 
         Slots display products based on the `Recommendations system` set up in [Product Block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
         
-        If the recommendations system is set to `Based on customer's reponses` then the slot will display the most voted products based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
+        If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
 
         If the recommendations system is set to `Fixed` then the slot will display the products that are linked to the slot.
 
@@ -870,14 +898,272 @@
 
     !!! warning "Filtering"
 
-        If the recommendations system is set to `Based on customer's reponses` then the slot will display the most voted products based on customer choices. 
+        If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. 
 
-        If you add a segement, the slot will be able to display the most voted products from the linked products/collections.
+        If you add a segement, the slot will be able to display the most upvoted items from the linked products/collections.
         
-        Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
+        Unless you add a filter, the slot will display a list of upvoted items. 
 
-    `Exclude segments` - Click `v Exclude` to choose products from which Products, Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
+    `Exclude segments` - Click `+ Add exclude type` to choose products from which Products, Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1.png)
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment2.png)
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment3](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment3.png)
+
+    ### Charts
+
+    #### Gauge chart
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_gaugechart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_gaugechart.png)
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    Data
+
+    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+
+    `Value` - Set the value to be displayed in the chart.
+
+    Chart Configuration
+
+    `Needle style` - Select the needle style to be displayed in the chart between Classic, Modern or None.
+
+    `Maxiumum value` - Set the maximum value to be displayed in the chart.
+
+    Appearance
+
+    `Empty color` - Set the color to be displayed in the chart when the value is 0.
+
+    `Fill color` - Set the color to be displayed in the chart when the value is not 0.
+
+    `Needle color` - Set the color to be displayed in the needle.
+
+    Layout
+
+    `Height` - Set the height of the chart.
+
+    `Alignment` - Set the alignment of the chart between Left, Center or Right.
+
+    `Convert to custom Chart.js code` - Convert the chart to a custom Chart.js code and edit the code to customize the chart.
+
+    `🗑 Remove block` - Click to delete this block.
+
+    `rsbgc-070101fa` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
+
+    #### Radar chart
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_radarchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_radarchart.png)
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    Data
+
+    `Category 1` - Set the category name for the first axis.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
+
+    `Label` - Set the label for the first axis.
+
+    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+
+    `Value` - If you select `Fixed`, set the value to be displayed in the chart.
+
+    `Category 2` - Set the category name for the second axis.
+
+    `Category 3` - Set the category name for the third axis.
+
+    `Category 4` - Set the category name for the fourth axis.
+
+    `Category 5` - Set the category name for the fifth axis.
+
+    `+ Add axis` - Click to add a new axis.
+
+    Chart Configuration
+
+    `Maximum scale value` - Set the maximum value to be displayed in the chart.
+
+    Appearance
+
+    `Radar color` - Set the color to be displayed in the radar.
+
+    `Grid color` - Set the color to be displayed in the grid.
+
+    `Labels color` - Set the color to be displayed in the labels.
+
+    Layout
+
+    `Height` - Set the height of the chart.
+
+    `Alignment` - Set the alignment of the chart between Left, Center or Right.
+
+    `Convert to custom Chart.js code` - Convert the chart to a custom Chart.js code and edit the code to customize the chart.
+
+    `🗑 Remove block` - Click to delete this block.
+
+    `rsbgc-5e05d10c` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
+
+    #### Bar chart
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_barchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_barchart.png)
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    Data
+
+    `Category 1` - Set the category name for the first axis.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
+
+    `Label` - Set the label for the first axis.
+
+    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+
+    `Value` - If you select `Fixed`, set the value to be displayed in the chart.
+
+    `Category 2` - Set the category name for the second axis.
+
+    `Category 3` - Set the category name for the third axis.
+
+    `Category 4` - Set the category name for the fourth axis.
+
+    `Category 5` - Set the category name for the fifth axis.
+
+    `+ Add axis` - Click to add a new axis.
+
+    Chart Configuration
+
+    `Bar orientation` - Set the orientation of the bar between `Vertical` or `Horizontal`.
+
+    `Maximum scale value` - Set the maximum value to be displayed in the chart.
+
+    Appearance
+
+    `Grid color` - Set the color to be displayed in the grid.
+
+    `Labels color` - Set the color to be displayed in the labels.
+
+    Layout
+
+    `Height` - Set the height of the chart.
+
+    `Alignment` - Set the alignment of the chart between Left, Center or Right.
+
+    `Convert to custom Chart.js code` - Convert the chart to a custom Chart.js code and edit the code to customize the chart.
+
+    `🗑 Remove block` - Click to delete this block.
+
+    `rsbgc-5e05d10c` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
+
+    #### Rating display
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_rating](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_rating.png)
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    Data
+
+    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+
+    `Value` - Set the value to be displayed in the chart.
+
+    Rating settings
+
+    `Maximum rating` - Set the maximum rating to be displayed in the chart.
+
+    `Rating style` - Select the rating style to be displayed in the chart between `Stars`, `Hearts` or `Circles`.
+
+    Layout
+
+    `Alignment` - Set the alignment of the chart between Left, Center or Right.
+
+    `🗑 Remove block` - Click to delete this block.
+
+    `rsbgc-5e05d10c` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
+
+    #### Custom chart
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_customchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_customchart.png)
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    `Load template` - Select a chart template code from the dropdown list.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtempalte](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtempalte.png)
+
+    Layout
+
+    `Height` - Set the height of the chart.
+
+    `Alignment` - Set the alignment of the chart between Left, Center or Right.
+
+    `🗑 Remove block` - Click to delete this block.
+
+    `rsbgc-5e05d10c` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
+
+    ### Buttons
+
+    #### Button
+    
+    Adds a button to the results page. You can add any URL to the button.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_button.png)
+
+    `Button text` - Type the text displayed ont eh button.
+
+    `Button URL` - Add a URL to the button. 
+
+    `Open in new tab` - Select this option to open the link in a new tab.
+
+    `Button alignment` - Select the button alignment left, right or center.
+
+    
+    `Block ID` - Displays the current block ID.
+
+    `Remove block` - Deletes the current block from the results page.
+
+    Click `...` to open the more options menu. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+
+
+    `Duplicate` - Duplicates the current block.
+
+    `Remove` - Deletes the current block from the results page.
+
+    #### Cart/Checkout
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout.png)
+
+    `Alignment` - Select the button alignment left, right or center.
+
+    `Next destination for users` - Select either Checkout or Cart as the next destination for users.
+
+    Cart/checkout options
+
+    `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
+
+    `Add all to cart button text` - Set the text to be displayed on the "Add all to cart" button.
+
+    Click `...` to open the more options menu. 
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_threedotmenu.png)
+
+
+    `Duplicate` - Duplicates the current block.
+
+    `Remove` - Deletes the current block from the results page.
 
 
 === "Shopify (Legacy)"
@@ -1074,11 +1360,17 @@
 
     `Background image` - Click `Select image` to upload a background image or select one from the in-app image gallery.
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_backgroundimage.png)
+
     `Background opacity` - Use the slider to change the background image opacity percentage.
 
     `Allow duplicated recommendations` - Check this option to allow products to be shown in more than one product/slot blocks.
 
-    `Bar options` - Seelct the settings of the checkout bar.
+    `Bar options` - Select the settings of the checkout bar.
+
+    !!! info
+        The texts of the results page bar can be changed in [quiz settings > content > messages](https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings/#messages).
+
 
     `Show bar` - Uncheck to hide the checkout bar.
 
@@ -1086,19 +1378,13 @@
 
     `Show cart/checkout options` - Select the settings of the cart/checkout options.
 
-    *Cart/checkout options*
+    Cart/checkout options
     
     `Enable "Add all to cart" button` - Uncheck to hide the "Add all to cart" button from the footer. If checked, the "add all to cart" button will only be shown when none of the recommended products are in the cart.
 
-    `Next destination for users` - Choose where customers go after the results page.
+    `Next destination for users` - Choose where customers go after the results page either Checkout or Cart.
 
-    `Proceed to checkout` - After adding the products to cart, the customer will be redirected directly to checkout.
-
-    `Proceed to cart` - After adding the products to cart, the customer will be redirected to the cart page. 
-
-    !!! info
-
-        The texts of the results page bar can be changed in [quiz settings > content > messages](https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings/#messages).
+    ### Discount code
 
     `Discount code` - Add a discount code to the results page. The discount code will be applied at checkout. The code must be a valid discount code in your Shopify store.
 
@@ -1108,11 +1394,19 @@
 
         The code must be a valid discount code in your store. Check this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
+    ### Custom CSS code
+
     `Custom CSS code` - Add custom CSS code to this results page only. To add custom CSS code to your entire quiz, go to [quiz design](/reference/quiz-builder/quiz-design/).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customcss](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customcss.png)
 
     `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
+
+    !!! info "App CSS Structure"
+
+        For a detailed overview of the CSS structure of the app and CSS examples, see the [App CSS Structure reference](/reference/css-structure/).
+
+    ### Custom JS code
 
     `Custom JS code` - Add custom JavaScript to this results page only. Custom JS will not work in the quiz builder, it will only work in the preview or live quiz.
 
@@ -1163,9 +1457,9 @@
         }
         ```
 
-    `Results page ID` - Displays the current results page ID.
-
-    `Remove results page` - Deletes the current results page.
+    `🗑 Remove results page` - Deletes the current results page.
+    
+    `r-dcc49e7e` -  Click to copy the results page ID. Displays the current results page ID.
 
 
 === "Shopify (Legacy)"
