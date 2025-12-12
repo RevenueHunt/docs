@@ -59,15 +59,15 @@
 
     `Name` - A slide designed for users to enter their name, featuring a short text field.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_name.png){width="300"}
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_name.png){width="500"}
 
     `Email Address` - A slide dedicated to collecting the user's email address through a text field.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_email.png){width="300"}
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_email.png){width="500"}
 
     `Phone Number` - A slide where participants are asked to enter their phone number, usually in a specified format.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_phone](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_phone.png){width="300"}
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_phone](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_phone.png){width="500"}
 
     **Choices**
 
@@ -753,7 +753,7 @@
     `🗑 / bin` - Click on the bin icon to remove the block.
 
 
-    ### Button
+    #### Button
 
     The "Next" button is hidden for questions which are both single choice and mandatory, as the quiz will automatically advance to the next question after the user selects a choice.
 
@@ -766,7 +766,7 @@
 
     ### CONTENT BLOCKS
 
-    ### Heading
+    #### Heading
 
     Adds a heading block to your question.
 
@@ -791,7 +791,7 @@
 
     `qbh-7327edc5` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
-    ### Text
+    #### Text
 
     Adds a text block to your question.
 
@@ -815,7 +815,7 @@
 
     `qbt-7327edc5` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
-    ### Image
+    #### Image
 
     Adds an image block to the question. 
 
@@ -837,11 +837,15 @@
 
     `qbi-9907ff50` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
-    ### Video
+    #### Video
 
     Adds a video block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_video](/images/manual_shopifyv2_questions_blocksettings_video.png){width="300"}  
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
     
     `Select video` - Upload a video from your computer.
 
@@ -853,18 +857,18 @@
     
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
-
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-
     `qbv-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
 
-    ### Custom HTML
+    #### Custom HTML
 
     Adds a custom HTML block question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customhtml](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customhtml.png){width="300"}
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `HTML editor` - Code box where you can input your custom code.
 
@@ -895,56 +899,49 @@
 
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
-
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-
     `qbhtml-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
     ### CHOICES BLOCKS
 
 
-    ### Multiple Choice 
+    #### Multiple Choice 
     
     Adds a multiple choice block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice.png){width="300"}
 
-    `Choice type` - Switch between multiple choice, dropdown, pictures, slider, yes/no & legal/GDPR choices for this block.
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `⿻ Duplicate` to duplicate the block or `🗑 Remove` to delete it.
 
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 
-    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be selected in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question. `Error message`field allows you to add a message to the user if they select too many options.
+    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be selected in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question. `Error message`field allows you to add a message to the user if they select too many options.
 
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    `qbc-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
-    `Block ID` - Unique identifier for the block, useful for debugging or API use.    
-
-    ### Picture choice
+    #### Picture choice
 
     Adds a picture choice block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
 
-    `Choice type` - Switch between multiple choice, dropdown, pictures, slider, yes/no & legal/GDPR choices for this block.
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 
-    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option opens the `Error message`, `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.`Error message` - add a message to the user if they select too many options.
+    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Error message`, `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.`Error message` - add a message to the user if they select too many options.
 
     `Advanced settings` - Opens the advanced choice settings menu.
 
     `Picture size/ratio` - Choose the picture size for this block. Choose between `Tiny icon (24px)`, `Small icon (48px)`, `Medium (1:1)` or `Large (4:3)` picture size. 
-
-    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_picturesizeratio.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_picturesizeratio.png)
     
     If you select `Medium (1:1)` in the `Picture size/ratio` dropdown, an additional option for chosing a `Mobile layout` will appear. There you can choose how this block will be displayed on mobile devices - either as a `Carousel`, `One per row` or `Two per row`.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_mobilelayout](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_mobilelayout.png)
 
     `Hide checkbox/radio` - When checked hides the checkbox element from picture choices.
 
@@ -957,25 +954,23 @@
 
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    `qbc-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.    
 
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-
-    `Block ID` - Unique identifier for the block, useful for debugging or API use.    
-
-    ### Dropdown
+    #### Dropdown
 
     Adds a dropdown block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_dropdown](/images/manual_shopifyv2_questions_blocksettings_dropdown.png){width="300"}
 
-    `Choice type` - Switch between multiple choice, dropdown, pictures, slider, yes/no & legal/GDPR choices for this block.
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Content` - Label shown above the dropdown.
 
     `Optional` - Check if the question can be skipped.
 
-    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option opend the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.
+    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.
 
     `Enable options search` - Adds a search bar inside the dropdown.
 
@@ -987,22 +982,18 @@
 
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
-
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-
-    `Block ID` - Unique identifier for the block, useful for debugging or API use.
+    `qbc-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
 
-    ### Slider bar
+    #### Slider bar
 
     Adds a slider block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_slider.png){width="300"}
 
-    `Choice type` - Switch between multiple choice, dropdown, pictures, slider, yes/no & legal/GDPR choices for this block.
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
-    `Slider type` - Select the visual slider type between `Bar`, `Buttons` or `Stars`.
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Display bar value tooltip` - Check if you want to see the labels with each value.
 
@@ -1012,67 +1003,63 @@
 
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
-
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-
     `qbc-4d197782` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
 
-    ### Buttons scale
+    #### Buttons scale
 
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_buttonsscale.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_buttonsscale.png)
 
-    `🗑 Remove block` - Click to delete this block.
-
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
+    `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    `🗑 Remove block` - Click to delete this block.
 
     `qbc-4134de48` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
-    ### Rating scale
+    #### Rating scale
 
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_ratingscale.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_ratingscale.png)
-
-    `🗑 Remove block` - Click to delete this block.
 
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
+    `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
+
+    `🗑 Remove block` - Click to delete this block.
+
     `qbc-7eb5bf2c` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
-    ### Yes/No
+    #### Yes/No
 
     Adds a yes/no block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_yesno](/images/manual_shopifyv2_questions_blocksettings_yesno.png){width="300"}
-    
-    `Choice type` - Switch between multiple choice, dropdown, pictures, slider, yes/no & legal/GDPR choices for this block.
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Optional` - Check if the question can be skipped.
     
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
-
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-
     `qbc-4134de48` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
-    
-    ### Legal/GDPR
+
+    #### Legal/GDPR
 
     Adds a legal/GDPR block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_legal](/images/manual_shopifyv2_questions_blocksettings_legal.png){width="300"}
-    
-    `Choice type` - Switch between multiple choice, dropdown, pictures, slider, yes/no & legal/GDPR choices for this block.
-    
-    `🗑 Remove block` - Click to delete this block.
 
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+    
+    `🗑 Remove block` - Click to delete this block.
 
     `qbc-54257a2e` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
     
@@ -1080,12 +1067,16 @@
     ### INPUT BLOCKS
 
 
-    ### Short text input
+    #### Short text input
     
     Adds an open-text question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext.png)
 
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+
     `Input type` - Switch between `Short text` or `Long text` input type.
 
     `Placeholder` - The default text diplayed in the textbox visible to the customer.
@@ -1100,19 +1091,17 @@
 
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
 
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+    #### Multi-line text input
 
-    `Block ID` - Unique identifier for the block, useful for debugging or API use.  
-
-    ### Multi-line text input
-    
     Adds an open-text question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_longtext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_longtext.png)
 
-    `Input type` - Switch between `Short text` or `Long text` input type.
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Placeholder` - The default text diplayed in the textbox visible to the customer.
 
@@ -1126,15 +1115,15 @@
 
     `🗑 Remove block` - Click to delete this block.
 
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
+
+    #### Number
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number.png){width="300"}
+
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-
-    `Block ID` - Unique identifier for the block, useful for debugging or API use.  
-
-    ### Number
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number.png){width="300"}
 
     `Placeholder` - The default text diplayed in the textbox visible to the customer.
 
@@ -1148,17 +1137,21 @@
 
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
 
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+    !!! info "Product recommendation"
+        Number fields accept any value, so the quiz can't match them to products. Instead, define numeric ranges (e.g., 0-10, 11-50) with a multiple-choice, dropdown, or slider question and link products to each range. - Read more: [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 
-    `Block ID` - Unique identifier for the block, useful for debugging or API use.  
 
-    ### Date
+    #### Date
 
     Adds a date question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date.png)
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Date format` - The default date format customer should enter.
 
@@ -1168,17 +1161,20 @@
 
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use. 
 
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
+    !!! info "Product recommendation"
+        Date fields accept any value, so the quiz can't match them to products. Instead, define date ranges (e.g., 01/01/2020-01/01/2021, 01/01/2021-01/01/2022) with a multiple-choice, dropdown, or slider question and link products to each range. - Read more: [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 
-    `Block ID` - Unique identifier for the block, useful for debugging or API use. 
-
-    ### Name
+    #### Name
 
     Adds an name input question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name.png){width="300"}
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Name` - Select whether you want to ask for the Full Name, First Name or Last Name.
 
@@ -1194,17 +1190,17 @@
 
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use. 
 
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-
-    `Block ID` - Unique identifier for the block, useful for debugging or API use. 
-
-    ### Email address
+    #### Email address
 
     Adds an email input question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png){width="300"}
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Placeholder` - The default text diplayed in the textbox visible to the customer.
 
@@ -1214,18 +1210,18 @@
 
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
-
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-
-    `Block ID` - Unique identifier for the block, useful for debugging or API use.  
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
  
 
-    ### Phone number
+    #### Phone number
 
     Adds a phone number question to this block.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber.png){width="300"}
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Default Country Code` - Select a default contry code from the dropdown list.
 
@@ -1237,17 +1233,17 @@
 
     `🗑 Remove block` - Click to delete this block.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
-
-    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-
-    `Block ID` - Unique identifier for the block, useful for debugging or API use.
+    `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
     ### CHART BLOCKS
 
-    ### Gauge chart
+    #### Gauge chart
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_gaugechart](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_gaugechart.png)
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     Data
 
@@ -1282,15 +1278,25 @@
     `qbgc-070101fa` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
 
-    ### Radar chart
+    #### Radar chart
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart.png)
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     Data
 
     `Category 1` - Set the category name for the first axis.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
+
+    `Label` - Set the label for the first axis.
+
+    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+
+    `Value` - If you select `Fixed`, set the value to be displayed in the chart.
 
     `Category 2` - Set the category name for the second axis.
 
@@ -1327,15 +1333,25 @@
     `qbrc-070101fa` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
 
-    ### Bar chart
+    #### Bar chart
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_barchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_barchart.png)
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     Data
 
     `Category 1` - Set the category name for the first axis.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
+
+    `Label` - Set the label for the first axis.
+
+    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+
+    `Value` - If you select `Fixed`, set the value to be displayed in the chart.
 
     `Category 2` - Set the category name for the second axis.
 
@@ -1371,9 +1387,13 @@
 
     `qbrc-070101fa` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
-    ### Rating display
+    #### Rating display
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_rating](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_rating.png)
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     Data
 
@@ -1396,9 +1416,13 @@
     `qbrt-070101fa` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
 
-    ### Custom chart
+    #### Custom chart
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart.png)
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
     `Load template` - Select a chart template code from the dropdown list.
 
@@ -1430,6 +1454,10 @@
 === "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+
+    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
+
+    `...` - Opens the choice management settings. Click `Duplicate` to duplicate the choice or `Remove` to delete it.
 
     `Choice label` - Text that's visible on the choice. Supports HTML formatting (`<strong>`, `<em>`) and [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for personalization (e.g., `{{ quiz.answers.byBlock['qbi-name'].value }}`). Note: Dropdown choices automatically strip HTML to plain text for accessibility.
 
@@ -1489,7 +1517,9 @@
 
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
 
-    `Search or create variables` - Connect or create variables to this choice for custom logic (for advanced scoring or conditions).
+    `Search or create variables` - Connect or create variables to this choice for custom logic (for advanced scoring or conditions). To create a new variable, start typing the name of the variable you want to create (e.g. `dry_skin`, `normal_skin`, `oily_skin`, etc.). Once you've typed the full name, a dropdown will appear that will allow you to `Create a new variable "xxx"`. Click on it to add a new variable.
+
+    ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
 
     ### Advanced settings
 
@@ -1509,11 +1539,7 @@
 
     `🗑 Remove choice` - Click to delete this choice.
 
-    ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
-
-    `...` - Opens the choice management settings. Click `Duplicate` to duplicate the choice or `Remove` to delete it.
-
-    `Choice ID` - A unique ID for this answer.
+    `qbcc-1ad6b5ea` - Click to copy the choice ID/ref to the clipboard. Unique identifier for the choice, useful for debugging or API use.
 
 
 === "Shopify (Legacy)"

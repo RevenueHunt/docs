@@ -4,39 +4,59 @@
 
     To link collections of products to choices, go to [Questions](/reference/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
 
-    ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyv2_openchoicesettings.png)
+    ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
-    Click on a choice to open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
-
-    Next, chose the weight of this choice:
+    Choose the weight of this choice:
 
     `Upvotes weighting` - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products from a collections will receive x2 (double) votes from this choice.
 
-    And use the Upvotes section to choose which collections to link to this choice:
+    ## Upvote
+
+    Use the Upvotes section to choose which collections to link to this choice:
 
     `Upvotes` - lists all the collections, tags, variants collections or vendors that are linked to this choice.
 
-    `▼Upvote` - Click `▼Upvote` to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. Once selected a popup will show allowing you to select items (collections, tags, variants, vendors) from your Shopify catalog to be linked to this choice.
+    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
+
+    `+ Add upvote type` - Click to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. Once collection is selected, a new section will show allowing you to select items (collections, tags, variants, vendors) from your Shopify catalog to be linked to this choice.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
+
+    ![manual_shopifyV2_quizbuilder_linkcollections_upvotecollections](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
+
+    Toggle the collections to be upvoted to add them to the upvoted list.
+
+    Upvoted collections will be listed in the upvoted section.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
 
     !!! note
 
-        In V2 of the RevenueHunt app for Shopify you can not only upvote by also recommend entire collections to the customer.
+        In the Built for Shopify version of the RevenueHunt app you can not only upvote by also recommend entire collections to the customer.
+    
+    ## Exclude
+
+    Use the Exclude section to choose which collections to exclude from this choice:
 
     `Exclude` - lists all the products, product variants, collections, tags, variants collections or vendors that are excluded in this choice.
 
-    `▼Exclude` - Click to choose an item to exclude. You can exclude entire collections, tags, variants collections or vendors from a choice. Once selected a popup will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
+
+    `+ Add exclude type` - Click to choose an item to exclude. You can exclude entire collections, tags, variants collections or vendors from a choice. Once selected a new section will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
+
+    Toggle the collections to be excluded to add them to the excluded list.
+
+    ![manual_shopifyV2_quizbuilder_linkcollections_upvotecollections](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
+
+    Excluded collections will be listed in the excluded section.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
 
     !!! warning
 
         Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the results page, even if it was upvoted in another choice earlier/later
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_select](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_select.png){width="500"}
-
-    In the popup you can search your catalog and check the right items to be upvoted / excluded. Confirm your selection by clicking `Select`. The items will be added to the Upvote / Exclude list.
-
-    ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_selected](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections_selected.png)
 
 
 === "Shopify (Legacy)"

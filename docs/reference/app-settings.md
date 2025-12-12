@@ -111,11 +111,11 @@
 
     ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
 
-    `Show All Locales` -  Click to display a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by dafault for the customer from that Market **and** lanuguage.
+    `▶` -  Click to display a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by dafault for the customer from that Market **and** lanuguage.
 
     ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
 
-    `Hide All Locales` - Click to return to a simplified view of all Markets, without language disctinction. The app will show the default quiz for all the visitors from that Market regardless of the language they chose.
+    `▼` - Click to return to a simplified view of all Markets, without language disctinction.
 
     `Default` - Select the default quiz for a speciifc region.
 
