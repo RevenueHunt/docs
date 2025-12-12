@@ -8,12 +8,9 @@
     
     ![manual_shopifyV2_quizbuilder_share_publish_publishpage](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
 
-    `Theme extensions status` - Informs you if the RevenueHunt Quiz App theme extension is active and where it's installed in your Shopify store theme
+    `Theme extensions usage` - Informs you if the RevenueHunt Quiz App theme extension is active and where it's installed in your Shopify store theme
 
-    ![manual_shopifyv2_dashboard_notifications_themeextensionstatus](/images/manual_shopifyv2_dashboard_notifications_themeextensionstatus.png)
-
-    `Edit` - Opens the Theme Extension Status page.
-
+    `Refresh`- Refresh the theme extension usage status.
 
     Below, you will find step-by-step instructions on how to publish the default quiz onto your website. Click on the option tiles to see instructions and extra settings.
 
