@@ -2,12 +2,10 @@
 
 === "Shopify"
 
-     In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. 
+    In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. 
      
-    !!! info
+    !!! info "Currently integrated with"
      
-        The quiz currently integrates with:
-
         - [Shopify Customers (Shopify Flow)](/how-to-guides/send-leads-to-shopify-customers/)
         - [Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
         - [Omnisend](/how-to-guides/send-leads-to-omnisend/)
@@ -30,13 +28,19 @@
 
     `Automations` - Connect to services like [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) and redirect your quiz data anywhere.
 
+    ![manual_shopifyV2_quizbuilder_integrations_automations](/images/manual_shopifyV2_quizbuilder_integrations_automations.png)       
+
     `Analytics & tracking` - Integrate with platforms like [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) to track quiz events, measure conversions, and understand customer behavior.
 
-    `Mailing & CRM's` - Sync captured quiz leads directly to your email marketing or CRM platforms, such as [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), or [Shopify Customers (Shopify Flow)](/how-to-guides/send-leads-to-shopify-customers/). Use this data for personalized campaigns, segmentation, and automated follow-ups.
- 
-    !!! info
+    ![/manual_shopifyV2_quizbuilder_integrations_analytics](/images/manual_shopifyV2_quizbuilder_integrations_analytics.png)
 
+    !!! info
         [Google Analytics](/how-to-guides/integrate-google-analytics/) and [Meta Pixel](/how-to-guides/integrate-meta-pixel/) connect directly to the property set up in your store. If you have not set up tracking for your store yet, you should do it before connecting the quiz to these services.
+
+    `Mailing & CRM's` - Sync captured quiz leads directly to your email marketing or CRM platforms, such as [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) or [Omnisend](/how-to-guides/send-leads-to-omnisend/). Use this data for personalized campaigns, segmentation, and automated follow-ups.
+
+    ![manual_shopifyV2_quizbuilder_integrations_mailing](/images/manual_shopifyV2_quizbuilder_integrations_mailing.png)
+
 
 
 === "Shopify (Legacy)"
