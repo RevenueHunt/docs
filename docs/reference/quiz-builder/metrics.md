@@ -2,8 +2,11 @@
 
 === "Shopify"
 
-    In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
+    Quiz metrics are can be found in several sections:
 
+    - [Analytics Overview](/reference/dashboard/#analytics-overview) can be found in the [Dashboard](/reference/dashboard/).
+    - Individual quiz responses can be found in the [Responses](/reference/quiz-builder/metrics/#responses) section.
+    - Full customizable analytics can be found in the [Analytics](/reference/quiz-builder/metrics/#analytics) section.
 
 === "Shopify (Legacy)"
 
@@ -87,7 +90,9 @@
 
     `v Select item to check` - Click to select a product from the catalog and analyze it against the response. Choose an item below to know why it was recommended or not.
 
-    ![manual_shopifyV2_quizbuilder_responses_sample1_checkproduct](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct.png)
+    ![manual_shopifyV2_quizbuilder_responses_sample1_checkproduct1](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct1.png)
+
+    ![manual_shopifyV2_quizbuilder_responses_sample1_checkproduct2](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct2.png)
 
     `Contact information` - Displays the contact information provided by the customer in the quiz such as name, email, phone number, etc.
 
@@ -112,7 +117,7 @@
 
     `Conditional Logic` - This section explains if the section was shown based on the quiz logic.
 
-    `Conditions` - Explains why the section was shown or hidden based on the quiz logic.
+    `Conclusion` - Explains why the section was shown or hidden based on the quiz logic.
 
 
     **Section blocks with slots** - Displays the blocks with slots in detail. Each section can include one or more blocks.
@@ -125,11 +130,11 @@
 
     `Recommendation System` - `Fixed recommendations` or `Based on customer responses` - This explains if the recommendations are fixed or dynamic.
 
-    **Slots in Detail** - Displays the slots in detail. Each block contains one or more slots, which define which products are shown and how they are selected:
+    **Segments in Detail** - Displays the segments in detail. Each block contains one or more segments, which define which products are shown and how they are selected:
 
     `Slot Ref` - Internal reference used to identify the slot.
 
-    `Fixed Items` -  Exlpains that the recommendations are fixed in this slot and shows which products were selected.
+    `Upvoted items` / `Fixed Items` -  Exlpains that the recommendations are fixed in this slot and shows which products were selected.
 
     `Recommendations` - Final products shown to the user.
 
@@ -448,11 +453,11 @@
 
     !!! warning "Note"
 
-        To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [Integrations](https://docs.revenuehunt.com/how-to-guides/send-leads-to-shopify-customers/) tab.
+        To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [App Settings](/reference/quiz-builder/quiz-settings/#app-settings) section.
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 
-    `Quiz flow and drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how visitors move through your quiz — from the first question to the results and checkout - and where they drop off. `Origin` - The slide or question where respondents started a step in the flow. `Destination` - The next slide or page they reached. `Views`- The number of times this transition occurred during the selected time range. `Drop-off` - The percentage (and number) of respondents who exited the quiz instead of continuing to the next step.
+    `Drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how visitors move through your quiz — from the first question to the results and checkout - and where they drop off. `Origin` - The slide or question where respondents started a step in the flow. `Destination` - The next slide or page they reached. `Views`- The number of times this transition occurred during the selected time range. `Share of Step` - The percentage of respondents who exited the quiz instead of continuing to the next step. `Outcome` - Continued or Exited the quiz.
 
     !!! tip
         A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep users progressing.
@@ -781,7 +786,7 @@
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 
-    `Quiz flow and drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how visitors move through your quiz — from the first question to the results and checkout - and where they drop off. 
+    `Drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how visitors move through your quiz — from the first question to the results and checkout - and where they drop off. 
     
     `Origin` - The slide or question where respondents started a step in the flow. 
     
@@ -789,7 +794,9 @@
     
     `Views`- The number of times this transition occurred during the selected time range. 
     
-    `Drop-off` - The percentage (and number) of respondents who exited the quiz instead of continuing to the next step.
+    `Share of Step` - The percentage (and number) of respondents who exited the quiz instead of continuing to the next step.
+
+    `Outcome` - Continued or Exited the quiz.
 
     !!! warning "How drop-off is measured"
         The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
