@@ -242,13 +242,21 @@
 
     `(Percentage)% complete` - Default text on the quiz progress bar. | Quiz
 
-    `{{percent}}% complete` - Default text on the quiz progress bar. | Quiz
+    `Error loading, retrying...` - Default text on the results page in case of loading issues. | Results Page
 
-    `We're having trouble saving your answers, retrying... please wait.` - Default text on the results page in case of loading issues. | Results Page
-
-    `We're sorry, but there was an issue saving your answers. Please refresh the quiz or try again later.` - Default text on the results page in case of loading issues. | Results Page
+    `Error loading response` - Default text on the results page in case of loading issues. | Results Page
 
     `Try again` - Default text on the results page in case of loading issues. | Results Page
+
+    `Review (singular)` - Default text on the review block. | Results Page
+
+    `Review (plural)` - Default text on the review block. | Results Page
+
+    `One-time purchase` - Default text on the one-time purchase block. | Results Page
+
+    `Subscribe & save` - Default text on the subscribe & save block. | Results Page
+
+    `{{percent}}% complete` - Default text on the quiz progress bar. | Quiz
 
     !!! info
 
@@ -743,88 +751,6 @@
 
     `Restore default messages` - Click "restore" to set all fields back to default.
 
-### Integrations
-
-=== "Shopify"
-
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
-
-
-=== "Shopify (Legacy)"
-
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
-
-=== "WooCommerce"
-
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
-
-=== "Magento"
-
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.  
-
-=== "BigCommerce"
-
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
-
-=== "Standalone"
-
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
-
-
-### Emails to self
-
-=== "Shopify"
-
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
-
-
-=== "Shopify (Legacy)"
-
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
-
-=== "WooCommerce"
-
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
-
-=== "Magento"
-
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
-
-=== "BigCommerce"
-
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
-
-=== "Standalone"
-
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
-
-### Emails to respondents
-
-=== "Shopify"
-
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
-
-
-=== "Shopify (Legacy)"
-
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
-
-=== "WooCommerce"
-
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
-
-=== "Magento"
-
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
-
-=== "BigCommerce"
-
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
-
-=== "Standalone"
-
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
-
 ### Version History
 
 === "Shopify"
@@ -925,6 +851,90 @@
     `Create a new quiz usign this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
     `Rename this version` - Allows you to rename this saved version of the quiz.
+
+
+
+### Integrations
+
+=== "Shopify"
+
+    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
+
+
+=== "Shopify (Legacy)"
+
+    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
+
+=== "WooCommerce"
+
+    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
+
+=== "Magento"
+
+    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.  
+
+=== "BigCommerce"
+
+    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
+
+=== "Standalone"
+
+    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
+
+
+### Emails to self
+
+=== "Shopify"
+
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+
+
+=== "Shopify (Legacy)"
+
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+
+=== "WooCommerce"
+
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+
+=== "Magento"
+
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+
+=== "BigCommerce"
+
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+
+=== "Standalone"
+
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+
+### Emails to respondents
+
+=== "Shopify"
+
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+
+
+=== "Shopify (Legacy)"
+
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+
+=== "WooCommerce"
+
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+
+=== "Magento"
+
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+
+=== "BigCommerce"
+
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+
+=== "Standalone"
+
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
 
 
 ---
