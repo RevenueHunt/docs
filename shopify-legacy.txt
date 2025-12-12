@@ -1222,12 +1222,27 @@ icon: material/credit-card-refresh-outline
 ---
 
 
-## Plans & Pricing Details
+## Plans & pricing details
+
+### Feature availability for paid-only options
+
+We encourage you to try and test all features you might need before committing to a paid plan. That's why we offer a free trial period, so you can explore our advanced features and see how they work for your business.
+
+The following features require a paid plan:
+
+- Add custom HTML, custom CSS, and custom JavaScript to quizzes
+- Add custom Chart.js charts
+- Integrate with GA4 and Meta Pixel
+- Integrate with Webhooks and Zapier
+- Integrate with Klaviyo, Omnisend, and other third-party integrations
+
+During your trial period, you can test them while on the Free plan. After the trial ends, you can still test them in the quiz preview and inside the quiz builder, but they won’t work on live quizzes until you upgrade to a paid plan.
+
+### How quiz usage is calculated
 
 --- Shopify (Legacy) Specific Content ---
 
-- We recently transitioned to a **usage-based pricing model**. All of our plans include all the features, including the Free Plan.
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+- Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -6683,7 +6698,7 @@ Our product recommendation algorithm works like a voting system:
 - When a customer picks a choice, all linked products receive one vote.
 - After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes.
 - If no products have been linked or all the products have been excluded, the results page will appear empty.
-- If there's a draw in the number of votes, the app will randomize the order of products.
+- If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
 
 **Understand Inclusion and Exclusion**
 
@@ -6887,7 +6902,7 @@ Product recommendations are the heart of any successful quiz experience. They he
 | Recommendation System | Best For | Key Features | Complexity |
 |------------------------|----------|--------------|------------|
 | [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) | Showing the same product(s) to everyone regardless of answers | - Simple setup<br>- Products always shown<br>- No logic or conditions | Very Low |
-| [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz) | Most quizzes, especially product finders or large catalogs | - Automatically adapts to answers<br>- Simple linking of products to choices<br>- Randomized tie-breaking | Low to Medium |
+| [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz) | Most quizzes, especially product finders or large catalogs | - Automatically adapts to answers<br>- Simple linking of products to choices<br>- Randomized or collection-based tie-breaking | Low to Medium |
 | [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots) | Product recommendation routines, different product categories (e.g. cleanser + moisturizer) | - Slot-based grouping<br>- Step-by-step product recommendations<br>- Still uses dynamic voting | Medium |
 | [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) | Personality quizzes, Dosha tests, where outcome depends on which variable (A, B, C...) got the most choices | - Tracks most frequent variable<br>- Outputs results by majority<br>- Often used for typology quizzes | Medium |
 | [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) | Quizzes that need to calculate values or mix scoring with conditions | - Weighted scoring<br>- Adds hidden variables<br>- Logic can combine score + other rules | Medium to High |
@@ -6919,7 +6934,7 @@ Product recommendation algorithm works like a voting system:
 
 - Product variants are linked to each choice.
 - When a customer picks a choice, all linked products receive one vote.
-- After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of votes, the app will randomize the order of products.*
+- After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.*
 - You can limit recommendations to a specific number of products or a minimum vote threshold.
 
 !!! tip "How to set this up?"
@@ -8575,6 +8590,8 @@ SOURCE: https://docs.revenuehunt.com/reference/app-settings/
     `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
     **Data & GDPR**
     `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
+    Shopify Markets integration is only available in the `💎Built for Shopify` version of the RevenueHunt app. This feature is not supported in the original Shopify app version.
+    Shopify Customers integration is available via the [Connect tab](/reference/quiz-builder/connect-integrations/) in the Quiz Builder for each quiz individually.
     ![app settings catalogue](/images/manual_appsettings_catalogue.png)
     `Metafields Namespaces` - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields.
     !!! tip
@@ -8603,8 +8620,6 @@ SOURCE: https://docs.revenuehunt.com/reference/app-settings/
     `Quiz Image URL` - Provide a URL of an image you'd like to see featured on the Shop App quiz page.
     `Entry Point Preview` - Shows a preview of how the quiz entry point will look on your store's page in the Shop App.
     ![app settings shop app preview](/images/manual_appsettings_shopapp_preview.png)
-## Shopify Markets
-    Shopify Markets integration is only available in the `💎Built for Shopify` version of the RevenueHunt app. This feature is not supported in the original Shopify app version.
 ## Plans & Pricing
     Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
 
@@ -9162,9 +9177,12 @@ On the dashboard, you'll find all the quizzes that you create.
     ![dashboard top menu](/images/manual_dashboard_topmenu.png){width="400"}
     `Help` - Opens the [Success Checklist](#success-checklist).
     `New quiz` - Opens the [New quiz](#new-quiz) setup menu.
-    ![dashboard notifications bar](/images/manual_notifications.png)
-    `view all` - Opens a list of archived notifications.
-    `x` - Archives a notification.
+    ![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
+    `Quiz Performance Overview` - Highlights your quizzes performance during the last 30 days
+    `show overview` - Shows an overview of the quizzes metrics in the last 30 days.
+    `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
+    Check the [Success Checklist](#success-checklist) for the setup guide.
+    ![manual_dashboard_successchecklist](/images/manual_succes_checklist.png){width="300"}
     ![dashboard tutorial quiz](/images/manual_tutorial_quiz.png){width="300"}
     `Tutorial Quiz (copy)` - A default quiz that explains how to use various app functions. Click on the quiz tile to open the [Quiz Builder](/reference/quiz-builder/questions/).
     `0 leads` - Indicates the total number of quiz responses the quiz received.
@@ -9182,10 +9200,9 @@ On the dashboard, you'll find all the quizzes that you create.
     - `Copy quiz ID: xxx` - Copy the quiz ID of the current quiz.
     - `Set as Default Quiz` - Set as a default quiz to be displayed in the Shop App.
     - `Delete` - Delete the quiz.
-    ![dashboard quiz performance](/images/manual_dashboard_performance_overview.png)
-    `Quiz Performance Overview` - Highlights your quizzes performance during the last 30 days
-    `show overview` - Shows an overview of the quizzes metrics in the last 30 days.
-    `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
+    ![dashboard notifications bar](/images/manual_notifications.png)
+    `view all` - Opens a list of archived notifications.
+    `x` - Archives a notification.
     Displays useful tips and tricks for building a better quiz.
     ![dashboard tips](/images/manual_dashboard_tips.png)
     `view all` - Opens archived tips.
@@ -9297,6 +9314,8 @@ SOURCE: https://docs.revenuehunt.com/reference/plans-pricing/
 ================================================================================
 
 # Plans & Pricing
+
+## Plans and pricing
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -9412,6 +9431,8 @@ SOURCE: https://docs.revenuehunt.com/reference/quiz-builder/
 
 # Quiz Builder
 
+## Quiz Builder Overview
+
 --- Shopify (Legacy) Specific Content ---
 
 ![quiz builder](/images/manual_quizbuilder.png)
@@ -9443,6 +9464,12 @@ SOURCE: https://docs.revenuehunt.com/reference/quiz-builder/
     - [Success checklist](/reference/dashboard/#success-checklist).
     To test the whole quiz go back to the [Dashboard](/reference/dashboard/) and click `Preview` from the Quiz `...` menu.
     `❔ Help` - Opens the [Help menu](/reference/dashboard/).
+    ![quiz builder top menu](/images/manual_quizbuilder_topmenu.png)
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    ![quiz builder top menu](/images/manual_quizbuilder_topmenu.png)
+    `Preview` - Opens the quiz preview in a new tab.
+    !!! tip
+        Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
 
 
 
@@ -9770,15 +9797,15 @@ SOURCE: https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings/
     `Doesn't qualify` - Default text when dynamic discounts are active in the quiz. | Results Page
     `Encourage next discount` - Default text when dynamic discounts are active in the quiz. | Results Page
     `Restore default messages` - Click "restore" to set all fields back to default.
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
     ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
     In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
     ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
     `...` - Click to open the restore menu.
     `Create a new quiz usign this version` - Create a new quiz on our dashboard based on this version of the current quiz.
     `Rename this version` - Allows you to rename this saved version of the quiz.
+    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
+    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
 
 
 
