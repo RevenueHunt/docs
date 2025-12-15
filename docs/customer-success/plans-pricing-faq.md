@@ -21,6 +21,42 @@ icon: material/credit-card-refresh-outline
 
     During your trial period, you can test them while on the Free plan. After the trial ends, you can still test them in the quiz preview and inside the quiz builder, but they won’t work on live quizzes until you upgrade to a paid plan.
 
+    | Feature | Free | Basic | Pro | Premium | Unlimited |
+    |---------|------|-------|-----|---------|-----------|
+    | **Core Quiz Features** | | | | | |
+    | Quiz Copilot (AI assistance) | ✅ | ✅ | ✅ | ✅ | ✅ |
+    | Adding questions & answer types | ✅ | ✅ | ✅ | ✅ | ✅ |
+    | Basic quiz customization | ✅ | ✅ | ✅ | ✅ | ✅ |
+    | Question logic & conditional branching | ✅ | ✅ | ✅ | ✅ | ✅ |
+    | Publishing quizzes | ✅ | ✅ | ✅ | ✅ | ✅ |
+    | Collecting responses | ✅ | ✅ | ✅ | ✅ | ✅ |
+    | Multiple quizzes creation | ✅ | ✅ | ✅ | ✅ | ✅ |
+    | Response analytics & reporting | ✅ | ✅ | ✅ | ✅ | ✅ |
+    | Sending result emails | ❌ | ✅ | ✅ | ✅ | ✅ |
+    | **Advanced Customization** | | | | | |
+    | Custom HTML, CSS, JavaScript | ❌ | ✅ | ✅ | ✅ | ✅ |
+    | Chart.js custom charts | ❌ | ✅ | ✅ | ✅ | ✅ |
+    | **Integrations** | | | | | |
+    | Shopify Customers integration | ✅ | ✅ | ✅ | ✅ | ✅ |
+    | Google Analytics 4 (GA4) | ❌ | ✅ | ✅ | ✅ | ✅ |
+    | Meta Pixel | ❌ | ✅ | ✅ | ✅ | ✅ |
+    | Webhooks | ❌ | ✅ | ✅ | ✅ | ✅ |
+    | Zapier | ❌ | ✅ | ✅ | ✅ | ✅ |
+    | Klaviyo | ❌ | ✅ | ✅ | ✅ | ✅ |
+    | Omnisend | ❌ | ✅ | ✅ | ✅ | ✅ |
+    | Other third-party integrations | ❌ | ✅ | ✅ | ✅ | ✅ |
+    | **Support** | | | | | |
+    | Email support | ✅ | ✅ | ✅ | ✅ | ✅ |
+    | Live chat support | ❌ | ✅ | ✅ | ✅ | ✅ |
+    | **Response Limits** | | | | | |
+    | Monthly responses | 100 | 500 | 1,000 | 2,500 | Unlimited |
+    | **Pricing** | | | | | |
+    | Monthly fee | $0 | $39 | $99 | $199 | $299 |
+
+    This table shows that Shopify's plan structure is primarily about response volume limits rather than feature restrictions, with advanced features unlocked once you move to any paid plan.
+
+
+
 === "Shopify (Legacy)"
 
     All the features are available on all plans.
@@ -49,8 +85,7 @@ icon: material/credit-card-refresh-outline
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
-    - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
-
+    - There's no limit to the number of quizzes you can create, even on the Free plan.
 
 
 
