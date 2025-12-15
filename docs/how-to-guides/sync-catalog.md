@@ -59,6 +59,8 @@ icon: material/sync
     1. **Navigate to App Settings:** Go to [App Settings > Catalogue](/reference/app-settings/#catalogue).
     2. **Initiate Manual Sync:** Click the `Import catalogue` button to trigger a manual sync.
 
+        ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
+
     The real-time sync feature ensures your products and collections are always up to date, making manual syncs generally unnecessary.
 
 

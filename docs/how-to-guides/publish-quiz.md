@@ -37,7 +37,7 @@ The quiz automatically appears as a popup after a visitor spends a certain amoun
 
 Share a direct link to the quiz on social media platforms.
 
-- **Purpose**: For leveraging social media posts to engage users.
+- **Purpose**: For social media posts to engage users.
 - **Implementation Guide**: [Creating an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/).
 
 ### Email Quiz Link
