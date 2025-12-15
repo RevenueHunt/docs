@@ -24,9 +24,7 @@ To activate this setting in your quiz follow the instructions below.
     3. Scroll down to find the `Minimum number of votes` setting.
         ![how to only recommend product with min votes results page settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
-    4. Click on a dropdown and select a number. You can change the number of minumun votes to the number that fits your quiz setup. 
-    
-        ![how_to_only_recommend_product_with_min_votes_block_settings.png](/images/how_to_recommend_products_with_4_votes_minimum.png)
+    4. Click on a dropdown or use the slider to select a number. You can change the number of minumun votes to the number that fits your quiz setup. 
 
         !!! example
         
