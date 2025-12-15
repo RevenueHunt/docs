@@ -8,7 +8,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=tuNPV9eOsXRLRKi-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=tuNPV9eOsXRLRKi-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! tip "Tutorial"
         Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
@@ -27,7 +27,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=X5ULbSjqG7wQ2Izd&amp;start=106" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=X5ULbSjqG7wQ2Izd&amp;start=106" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     Before assigning quizzes to specific markets and languages, you’ll need to create and customize the quiz versions for each language. Here’s how:
 
@@ -134,7 +134,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 53.125%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=e_mX9xdaiB24xXaT&amp;start=175" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=e_mX9xdaiB24xXaT&amp;start=175" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! tip "Tutorial"
     

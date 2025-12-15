@@ -65,6 +65,9 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     3. **Name your quiz**: The name can be edited later.
     4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
 
+    !!! tip "Ask Quiz Copilot"
+
+        Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to create a quiz for you. It's amazing at creating quizzes and can help you with the entire process.
 
 === "Shopify (Legacy)"
 
