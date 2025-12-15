@@ -322,6 +322,159 @@ icon: material/credit-card-refresh-outline
 
     Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Stripe will automatically discount the proportional part of the monthly plan that hasn’t been used.
 
+## How to cancel your billing
+
+=== "Shopify"
+
+    If you want to stop being charged for the RevenueHunt app, you have a few options:
+
+    **Option 1: Downgrade to the Free plan**
+
+    You can downgrade to our Free plan (which allows up to 100 responses per month) directly from the [Plans & Pricing tab](/reference/plans-pricing/) in the app. This will stop all billing charges.
+
+    **If your current usage is below 100 responses in the past 30 days**: You can downgrade immediately and your billing will stop.
+
+    **If your current usage exceeds 100 responses in the past 30 days**: You have two choices:
+
+    - Wait until your usage drops below 100 responses in the past 30 days, then downgrade to the Free plan yourself.
+
+    - Contact our [support team](/how-to-guides/contact-customer-support/) to downgrade for you. **Note**: This will immediately block your quizzes until your usage drops below the Free plan limit (100 responses in the past 30 days).
+
+    **Option 2: Uninstall the app completely**
+
+    If you no longer want to use the app at all, you can uninstall it from your platform:
+
+    - **Shopify**: Go to your Shopify admin > Apps > RevenueHunt > Uninstall
+
+    **Important**: Uninstalling the app will permanently delete all your quizzes, responses, and data within 48 hours. This action cannot be undone.
+
+    If you have any questions about canceling or need help with the process, please [contact our support team](/how-to-guides/contact-customer-support/).
+
+=== "Shopify (Legacy)"
+
+    If you want to stop being charged for the RevenueHunt app, you have a few options:
+
+    **Option 1: Downgrade to the Free plan**
+
+    You can downgrade to our Free plan (which allows up to 100 responses per month) directly from the [Plans & Pricing tab](/reference/plans-pricing/) in the app. This will stop all billing charges.
+
+    **If your current usage is below 100 responses in the past 30 days**: You can downgrade immediately and your billing will stop.
+
+    **If your current usage exceeds 100 responses in the past 30 days**: You have two choices:
+
+    - Wait until your usage drops below 100 responses in the past 30 days, then downgrade to the Free plan yourself.
+
+    - Contact our [support team](/how-to-guides/contact-customer-support/) to downgrade for you. **Note**: This will immediately block your quizzes until your usage drops below the Free plan limit (100 responses in the past 30 days).
+
+    **Option 2: Uninstall the app completely**
+
+    If you no longer want to use the app at all, you can uninstall it from your platform:
+
+    - **Shopify**: Go to your Shopify admin > Apps > RevenueHunt > Uninstall
+
+    **Important**: Uninstalling the app will permanently delete all your quizzes, responses, and data within 48 hours. This action cannot be undone.
+
+    If you have any questions about canceling or need help with the process, please [contact our support team](/how-to-guides/contact-customer-support/).
+
+=== "WooCommerce"
+
+    If you want to stop being charged for the RevenueHunt app, you have a few options:
+
+    **Option 1: Downgrade to the Free plan**
+
+    You can downgrade to our Free plan (which allows up to 100 responses per month) directly from the [Plans & Pricing tab](/reference/plans-pricing/) in the app. This will stop all billing charges.
+
+
+    **If your current usage is below 100 responses in the past 30 days**: You can downgrade immediately and your billing will stop.
+
+    **If your current usage exceeds 100 responses in the past 30 days**: You have two choices:
+
+    - Wait until your usage drops below 100 responses in the past 30 days, then downgrade to the Free plan yourself.
+
+    - Contact our [support team](/how-to-guides/contact-customer-support/) to downgrade for you. **Note**: This will immediately block your quizzes until your usage drops below the Free plan limit (100 responses in the past 30 days).
+
+
+    **Option 2: Uninstall the app completely**
+
+    If you no longer want to use the app at all, you can uninstall it from your platform:
+
+    - **WooCommerce/WordPress**: Deactivate and delete the plugin from your WordPress admin
+
+    **Important**: Uninstalling the app will permanently delete all your quizzes, responses, and data within 48 hours. This action cannot be undone.
+
+    If you have any questions about canceling or need help with the process, please [contact our support team](/how-to-guides/contact-customer-support/).
+
+
+=== "Magento"
+
+    If you want to stop being charged for the RevenueHunt app, you have a few options:
+
+    **Option 1: Downgrade to the Free plan**
+
+    You can downgrade to our Free plan (which allows up to 100 responses per month) directly from the [Plans & Pricing tab](/reference/plans-pricing/) in the app. This will stop all billing charges.
+
+
+    **If your current usage is below 100 responses in the past 30 days**: You can downgrade immediately and your billing will stop.
+
+    **If your current usage exceeds 100 responses in the past 30 days**: You have two choices:
+
+    - Wait until your usage drops below 100 responses in the past 30 days, then downgrade to the Free plan yourself.
+
+    - Contact our [support team](/how-to-guides/contact-customer-support/) to downgrade for you. **Note**: This will immediately block your quizzes until your usage drops below the Free plan limit (100 responses in the past 30 days).
+
+
+    **Option 2: Uninstall the app completely**
+
+    If you no longer want to use the app at all, you can uninstall it from your platform:
+
+    Follow the standard uninstallation process for your platform                     
+
+    **Important**: Uninstalling the app will permanently delete all your quizzes, responses, and data within 48 hours. This action cannot be undone.
+
+    If you have any questions about canceling or need help with the process, please [contact our support team](/how-to-guides/contact-customer-support/).   
+
+=== "BigCommerce"
+
+    If you want to stop being charged for the RevenueHunt app, you have a few options:
+
+    **Option 1: Downgrade to the Free plan**
+
+    You can downgrade to our Free plan (which allows up to 100 responses per month) directly from the [Plans & Pricing tab](/reference/plans-pricing/) in the app. This will stop all billing charges.
+
+    **If your current usage is below 100 responses in the past 30 days**: You can downgrade immediately and your billing will stop.
+
+    **If your current usage exceeds 100 responses in the past 30 days**: You have two choices:
+
+    - Wait until your usage drops below 100 responses in the past 30 days, then downgrade to the Free plan yourself.
+
+    - Contact our [support team](/how-to-guides/contact-customer-support/) to downgrade for you. **Note**: This will immediately block your quizzes until your usage drops below the Free plan limit (100 responses in the past 30 days).
+
+    **Option 2: Uninstall the app completely**
+
+    If you no longer want to use the app at all, you can uninstall it from your platform:
+
+    Follow the standard uninstallation process for your platform
+
+    **Important**: Uninstalling the app will permanently delete all your quizzes, responses, and data within 48 hours. This action cannot be undone.
+
+    If you have any questions about canceling or need help with the process, please [contact our support team](/how-to-guides/contact-customer-support/).   
+
+=== "Standalone"
+
+    If you want to stop being charged for the RevenueHunt app, you have a few options:
+
+    **Option 1: Downgrade to the Free plan**
+
+    You can downgrade to our Free plan (which allows up to 100 responses per month) directly from the [Plans & Pricing tab](/reference/plans-pricing/) in the app. This will stop all billing charges.
+
+    **If your current usage is below 100 responses in the past 30 days**: You can downgrade immediately and your billing will stop.
+
+    **If your current usage exceeds 100 responses in the past 30 days**: You have two choices:
+
+    - Wait until your usage drops below 100 responses in the past 30 days, then downgrade to the Free plan yourself.
+
+    - Contact our [support team](/how-to-guides/contact-customer-support/) to downgrade for you. **Note**: This will immediately block your quizzes until your usage drops below the Free plan limit (100 responses in the past 30 days).
+
 
 
 ## Billing & invoices
@@ -594,11 +747,6 @@ In other words: if the Basic plan accepts around ~16 responses each day, the Pro
     Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
 
 
-
-
-
-
-
 ## Discounts
 
 We offer a 50% discount on all plans if you subscribe for 2 years and you pay upfront. However, we do recommend starting with the monthly plan, for 2-3 months until you start getting results & sales, before committing to a 2-year plan.
@@ -608,7 +756,8 @@ We offer a 50% discount on all plans if you subscribe for 2 years and you pay up
 
     Need a 50% discount signing up for two years? – [Get in touch with our Sales Team](/how-to-guides/contact-customer-support/)
 
-## What’s the difference between the WooCommerce extension and a WordPress plugin?
+
+## What's the difference between the WooCommerce extension and a WordPress plugin?
 
 The [WordPress Plugin](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/) is free to install and puts you directly on our **Free plan**. The Free plan allows up to 100 quiz responses per month without any charges but has a “Powered by RevenueHunt” branding. If your usage exceeds the Free plan, you’ll be asked to upgrade to a Basic plan which is billed monthly.
 
