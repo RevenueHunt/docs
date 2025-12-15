@@ -118,7 +118,11 @@ This guide will walk you through adding elements to your results page using a va
 
     ![how to edit the results page block types](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
 
+    ### Add Blocks
+
     Available [Block Types](/reference/quiz-builder/results-page/#block-types):
+
+    **Content Blocks**
 
     - **Heading** - Adds a new heading to your page, ideal for titles or section breaks.
 
@@ -126,15 +130,37 @@ This guide will walk you through adding elements to your results page using a va
 
     - **Image** - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
 
-    - **Button** - Adds a button to the results page. You can add any URL to the button.
+    - **Video** - Adds a video block to the results page. You can upload your own video.
 
     - **Custom HTML** - Adds a block where you can input custom HTML code for advanced content and styling.
 
+    **Slots**
+
     - **Products** - Adds a block specifically designed for displaying a list of recommended products.
 
-    - **Products variants** - Adds a block specifically designed for displaying a list of recommended product variants..
+    - **Products variants** - Adds a block specifically designed for displaying a list of recommended product variants.
 
     - **Collection** - Adds a block specifically designed for displaying a list of recommended collections.
+
+    **Charts**
+
+    - **Gauge chart** - Adds a gauge chart to the results page.
+
+    - **Radar chart** - Adds a radar chart to the results page.
+
+    - **Bar chart** - Adds a bar chart to the results page.
+
+    - **Rating display** - Adds a rating display to the results page.
+
+    - **Custom chart** - Adds a custom chart to the results page.
+
+    **Buttons**
+
+    - **Button** - Adds a button to the results page. You can add any URL to the button.
+
+    - **Cart/Checkout** - Adds a Proceed to cart or Proceed to checkout button to the results page.
+
+    ### Add Dynamic Content
 
     Dynamic elements of the results page:
 
