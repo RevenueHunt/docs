@@ -70,6 +70,15 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
+    ??? info "Use JavaScript on Results Page when you want to:"
+        - Access all quiz data - See all answers, scores, and variables after quiz completion
+        - Work with recommendations - Access and manipulate recommended products/collections
+        - Cart operations - Add products to cart, apply discount codes
+        - Display calculations - Show results based on all collected answers (BMI, skin type, etc.)
+        - Conversion tracking - Fire analytics events with complete quiz data
+        - Customize recommendations - Modify or filter displayed products
+
+
     1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
@@ -89,14 +98,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
 
     4. Remember to click the `Save` button to update the preview/live quiz.
-
-    ??? info "Use JavaScript on Results Page when you want to:"
-        - Access all quiz data - See all answers, scores, and variables after quiz completion
-        - Work with recommendations - Access and manipulate recommended products/collections
-        - Cart operations - Add products to cart, apply discount codes
-        - Display calculations - Show results based on all collected answers (BMI, skin type, etc.)
-        - Conversion tracking - Fire analytics events with complete quiz data
-        - Customize recommendations - Modify or filter displayed products
 
 === "Shopify (Legacy)"
 
@@ -142,6 +143,15 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
+    ??? info "Use JavaScript on Questions when you want to:"
+        - Control quiz flow - Auto-advance, skip questions, or go back based on answers
+        - Validate inputs - Check if answers meet certain criteria before allowing progression
+        - Dynamic question content - Change question text, show/hide elements based on previous answers
+        - Real-time interactions - Update the page as users select answers
+        - Set calculated values - Compute values to use in later questions
+        - Track individual questions - Fire analytics events for specific questions
+
+
     1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
     2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
 
@@ -162,15 +172,6 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             Click on `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly write JavaScript code for you.
 
     5. Remember to click the `Save` button to update the preview/live quiz.
-
-    ??? info "Use JavaScript on Questions when you want to:"
-        - Control quiz flow - Auto-advance, skip questions, or go back based on answers
-        - Validate inputs - Check if answers meet certain criteria before allowing progression
-        - Dynamic question content - Change question text, show/hide elements based on previous answers
-        - Real-time interactions - Update the page as users select answers
-        - Set calculated values - Compute values to use in later questions
-        - Track individual questions - Fire analytics events for specific questions
-
 
 === "Shopify (Legacy)"
 
@@ -214,6 +215,14 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 ### Via Custom HTML Block
 
+??? info "Use Custom HTML Blocks when"
+
+    - You want JavaScript to run in a **specific location** in your layout
+    - You need to **combine HTML, Liquid, and JavaScript** together
+    - You want **different scripts for different content blocks**
+    - You're adding **small, context-specific scripts** (like tracking a specific element)
+    - You need JavaScript to run **multiple times** (e.g., once per product in recommendations)
+    
 === "Shopify"
 
     You can also add custom JavaScript directly in HTML blocks throughout your quiz. These blocks support both JavaScript and Liquid templating for dynamic content.
@@ -375,9 +384,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             ```
 
             Then open your browser's Console (F12 → Console tab) and take the quiz. You'll see all the block IDs and their corresponding values.
-
-    In the `💎Built for Shopify` version of the RevenueHunt app, custom JavaScript receives two parameters: `quiz` (read-only context) and `actions` (methods).
-
+            
 === "Shopify (Legacy)"
 
     In Shopify Legacy, you'll need to find the **Slide ID** for each question to access its value with `prq.getSlideValue(slideId)`.
@@ -2366,6 +2373,67 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         if (quiz.currentResult.ref === 'sensitive-skin') {
         const msg = window.quiz.querySelector('.custom-message');
         if (msg) msg.textContent = 'We picked extra-gentle products for you!';
+        }
+        ```
+
+    **Analytics & Tracking**
+
+    ??? example "Track quiz completion with Google Analytics 4"
+
+        ```javascript
+        // Results Page Custom JavaScript
+        // Send quiz completion event to GA4
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'quiz_completed', {
+            'event_category': 'Quiz',
+            'event_label': quiz.currentResult.ref,
+            'quiz_id': quiz.id,
+            'response_id': quiz.metadata.responseId,
+            'highest_score': quiz.variables.highest,
+            'total_questions': quiz.progress?.totalQuestions || 0
+          });
+        }
+        ```
+
+    ??? example "Track quiz start with Google Analytics 4"
+
+        ```javascript
+        // First Question Custom JavaScript
+        // Send quiz start event to GA4
+        if (typeof gtag !== 'undefined' && quiz.progress?.index === 0) {
+          gtag('event', 'quiz_started', {
+            'event_category': 'Quiz',
+            'quiz_id': quiz.id
+          });
+        }
+        ```
+
+    ??? example "Track specific question with Meta Pixel"
+
+        ```javascript
+        // Question Custom JavaScript
+        // Track when user reaches a specific question
+        if (typeof fbq !== 'undefined') {
+          fbq('trackCustom', 'QuizQuestion', {
+            question_ref: quiz.currentQuestion?.ref,
+            question_index: quiz.progress?.index,
+            quiz_id: quiz.id
+          });
+        }
+        ```
+
+    ??? example "Track quiz completion with Meta Pixel"
+
+        ```javascript
+        // Results Page Custom JavaScript
+        // Send quiz completion event to Meta Pixel
+        if (typeof fbq !== 'undefined') {
+          fbq('trackCustom', 'QuizCompleted', {
+            content_name: quiz.currentResult.ref,
+            quiz_id: quiz.id,
+            highest_variable: quiz.variables.highest,
+            num_recommendations: Object.keys(quiz.resultContext.slotItems || {}).length
+          });
         }
         ```
 
