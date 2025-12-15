@@ -91,9 +91,9 @@ In this guide, we’ll walk you through everything you need to know about transi
 
 | Integration                   | Legacy App | Built for Shopify |
 |-------------------------------|------------|---------------------------|
-| Shopify Discounts             | ✅         | ❌ (Coming Soon)          |
+| Shopify Discounts             | ✅         | ✅               |
 | Product Metafields Sync       | ✅         | ✅                        |
-| Recharge Subscriptions        | ✅         | ❌                        |
+| Recharge Subscriptions        | ✅         | ✅                            |
 | Google Analytics 4 (GA4)      | ✅         | ✅                        |
 | Meta (Facebook) Pixel         | ✅         | ✅                        |
 | Klaviyo Integration           | ✅         | ✅                        |

@@ -7,23 +7,45 @@ icon: material/credit-card-refresh-outline
 
 ### Feature availability for paid-only options
 
-We encourage you to try and test all features you might need before committing to a paid plan. That's why we offer a free trial period, so you can explore our advanced features and see how they work for your business.
+=== "Shopify"
 
-The following features require a paid plan:
+    We encourage you to try and test all features you might need before committing to a paid plan. That's why we offer a free trial period, so you can explore our advanced features and see how they work for your business.
 
-- Add custom HTML, custom CSS, and custom JavaScript to quizzes
-- Add custom Chart.js charts
-- Integrate with GA4 and Meta Pixel
-- Integrate with Webhooks and Zapier
-- Integrate with Klaviyo, Omnisend, and other third-party integrations
+    The following features require a paid plan:
 
-During your trial period, you can test them while on the Free plan. After the trial ends, you can still test them in the quiz preview and inside the quiz builder, but they won’t work on live quizzes until you upgrade to a paid plan.
+    - Add custom HTML, custom CSS, and custom JavaScript to quizzes
+    - Add custom Chart.js charts
+    - Integrate with GA4 and Meta Pixel
+    - Integrate with Webhooks and Zapier
+    - Integrate with Klaviyo, Omnisend, and other third-party integrations
+
+    During your trial period, you can test them while on the Free plan. After the trial ends, you can still test them in the quiz preview and inside the quiz builder, but they won’t work on live quizzes until you upgrade to a paid plan.
+
+=== "Shopify (Legacy)"
+
+    All the features are available on all plans.
+
+=== "WooCommerce"
+
+    All the features are available on all plans.
+
+=== "Magento"
+
+    All the features are available on all plans.
+
+=== "BigCommerce"       
+
+    All the features are available on all plans.
+
+=== "Standalone"
+
+    All the features are available on all plans.
 
 ### How quiz usage is calculated
 
 === "Shopify"
 
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -34,7 +56,7 @@ During your trial period, you can test them while on the Free plan. After the tr
 
 === "Shopify (Legacy)"
 
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -43,7 +65,7 @@ During your trial period, you can test them while on the Free plan. After the tr
 
 === "WooCommerce"
 
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -53,7 +75,7 @@ During your trial period, you can test them while on the Free plan. After the tr
 
 === "Magento"
 
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -63,7 +85,7 @@ During your trial period, you can test them while on the Free plan. After the tr
 
 === "BigCommerce"
 
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -73,7 +95,7 @@ During your trial period, you can test them while on the Free plan. After the tr
 
 === "Standalone"
 
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect.
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
