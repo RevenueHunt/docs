@@ -26,9 +26,12 @@ This article explains how to add product metafields/attributes to products on yo
     1. Navigate to the [Results Page](/reference/quiz-builder/results-page/) tab in the Quiz Builder.
     2. Add a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
     3. In the [`Product components layout`](/reference/quiz-builder/results-page/#product-components-layout), click `+ block`and add the `Metafield`section.
-      ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png){width=50%}
+      ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
+      ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
     4. From the `Select metafield` section, select the metafield you want to display.
+        ![Add Metafield block](/images/howto_shopifyv2_add_metafileds_selectmetafield.png)
     5. Alternatively, you can add a `Text` block to your product layout and add the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/) to make it part of a block of text. 
+      ![Add Metafield block](/images/howto_shopifyv2_add_metafileds_text_adddynamicsourcemetafiled.png)
     6. Save the changes with the top-right `Save` button.
     
     From now on the selcted metafiled will be dynamically displayed in the product block as part of the recommended product.
