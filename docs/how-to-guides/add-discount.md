@@ -10,7 +10,7 @@ icon: material/sale
     With the Built for Shopify version of the RevenueHunt app, it is possible to:
     
     - **add your Shopify discount code** to be applied automatically at checkout,
-    - **add a discount code as text** to the quiz last question or results page,
+    - **add a discount code as text** to quiz questions or results page,
     - **add the discount code to the [result emails](/reference/quiz-builder/notifications/#to-respondent)**.
 
     If you have a discount applied to certain products in your store via Shopify Products, these reduced prices will be reflected in the quiz results page automatically. Otherwise, the discount code will be applied automatically at checkout and *reduced prices will be visible at checkout stage only*.
@@ -24,6 +24,10 @@ icon: material/sale
     ![how to add a discount example](/images/how_to_add_a_discount_example.png){width="300"}
 
     This guide explains how to implement Discount Coupons for Checkout with the RevenueHunt app.
+    
+    !!! tip "Include Discount Code as text"
+
+        You can also add the discount code as text to the quiz questions or results page by typing the discount code in the text field. Then customers will be able to copy and paste the discount code at checkout.
 
 === "WooCommerce"
 
@@ -33,6 +37,11 @@ icon: material/sale
 
     This guide explains how to implement Discount Coupons for Checkout with the RevenueHunt app.
 
+    
+    !!! tip "Include Discount Code as text"
+
+        You can also add the discount code as text to the quiz questions or results page by typing the discount code in the text field. Then customers will be able to copy and paste the discount code at checkout.
+
 === "Magento"
 
     Adding discount coupons into your quiz allows customers to enjoy special offers on the results page or through a follow-up email. 
@@ -40,6 +49,10 @@ icon: material/sale
     ![how to add a discount example](/images/how_to_add_a_discount_example.png){width="300"}
 
     This guide explains how to implement Discount Coupons for Checkout with the RevenueHunt app.
+
+    !!! tip "Include Discount Code as text"
+
+        You can also add the discount code as text to the quiz questions or results page by typing the discount code in the text field. Then customers will be able to copy and paste the discount code at checkout.
 
 === "BigCommerce"
 
@@ -49,6 +62,10 @@ icon: material/sale
 
     This guide explains how to implement Discount Coupons for Checkout with the RevenueHunt app.
 
+    !!! tip "Include Discount Code as text"
+
+        You can also add the discount code as text to the quiz questions or results page by typing the discount code in the text field. Then customers will be able to copy and paste the discount code at checkout.
+
 === "Standalone"
 
     Adding discount coupons into your quiz allows customers to enjoy special offers on the results page or through a follow-up email. 
@@ -56,6 +73,10 @@ icon: material/sale
     ![how to add a discount example](/images/how_to_add_a_discount_example.png){width="300"}
 
     This guide explains how to implement Discount Coupons for Checkout with the RevenueHunt app.
+
+    !!! tip "Include Discount Code as text"
+
+        You can also add the discount code as text to the quiz questions or results page by typing the discount code in the text field. Then customers will be able to copy and paste the discount code at checkout.
 
 ## Set Up Discount on the Results Page
 
@@ -86,7 +107,12 @@ icon: material/sale
 
         - Open the RevenueHunt Quizzes app and open your quiz by clicking `Customize`.
         - Navigate to the ['Results page > Results page settings'](/reference/quiz-builder/results-page/#results-page-settings) by clicking on the Results page name.
+
+            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
+
         - Scroll to the `Discount code` settings section.
+
+            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
         - Paste the copied discount code from Shopify into the designated field.
 
         ![how to add discount automatic](https://loom.com/i/7ae5a8e6a81e4836a0c4c8e7fa9bd66f?workflows_screenshot=true)
