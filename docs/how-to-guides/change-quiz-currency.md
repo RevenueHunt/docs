@@ -31,7 +31,7 @@ This guide explains how to change the currency of your quiz and how to handle mu
         ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
     4. Once assigned, the quiz will show the product prices in the currency set up for that market.
     5. If you want to change the currency format, use the `Currency` field to set up the format you want. Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
-        ![how_to_shopifyv2_change_currency](/images/how_to_shopifyv2_change_currency.png)   
+        ![how_to_shopifyv2_change_currency](/images/manual_shopifyV2_appsettings_markets_showall.png)   
 
 
 
@@ -138,7 +138,7 @@ This guide explains how to change the currency of your quiz and how to handle mu
     1. Go to the [App Settings](/reference/app-settings/)
     2. Open the [Shopify Markets](/reference/app-settings/#markets) tab.
     3. Find the market you want to change the currency format for and click on the `Currency` field to set up the format you want.  Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
-        ![how_to_shopifyv2_change_currency](/images/how_to_shopifyv2_change_currency.png)
+        ![how_to_shopifyv2_change_currency](/images/manual_shopifyV2_appsettings_markets_showall.png)  
     4. Once assigned, the quiz will show the product prices in the currency set up for that market. 
 
     !!! warning "Why the Compare-at Price May Not Show on the Results Page"
