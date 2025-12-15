@@ -34,11 +34,13 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     You can upload a background image for the whole quiz via the [Quiz Design tab](/reference/quiz-builder/quiz-design/).
 
-    ![how_to_shopifyv2_improve_image_quality_backgroudimagequiz](/images/how_to_shopifyv2_improve_image_quality_backgroudimagequiz.png)
+    ![how_to_shopifyv2_improve_image_quality_backgroudimagequiz](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
     1. Open the [Quiz Design tab](/reference/quiz-builder/quiz-design/)
 
     2. Click on `Background`
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_background](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_basic_background_imageuploaded.png)
 
     3. Change the background color by clicking on the color. 
 
@@ -405,7 +407,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     You can upload a different background image to each question in the quiz via the [question settings](/reference/quiz-builder/questions/#picture-choice).  
 
-    ![how_to_shopifyv2_improve_image_quality_backgroudimagequestion](/images/how_to_shopifyv2_improve_image_quality_backgroudimagequestion.png)
+    ![how_to_shopifyv2_improve_image_quality_backgroudimagequestion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
 
     1. Open the [Question settings](/reference/quiz-builder/questions/#picture-choice)
 
@@ -414,6 +416,8 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
     3. Click `Select image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery.
 
     4. In `Image position` you can choose between two options: `background` (for a full background image) or `split` (for a split image).  Each option has it's own settings explained below.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
 
     5. Once uploaded click `Change`to change the image or `Remove` to remove it. 
 
@@ -439,23 +443,23 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     **Background image settings**
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png){width="300"}
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
 
-    `Image layout` - Place the image as a `background` or `split` the screen in half with the image. 
+    `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
 
-    `Image opacity` - Use the slider to change opacity percentage of the uplaoded image.
+    `Opacity` - Use the slider to change opacity percentage of the uplaoded image.
 
     **Split image settings**
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png)
 
-    `Image layout` - Place the image as a `background` or `split` the screen in half with the image. 
+    `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
 
-    `Image opacity` - Use the slider to change opacity percentage of the uplaoded image.
+    `Opacity` - Use the slider to change opacity percentage of the uplaoded image.
 
-    `Image position (desktop)` - Choose whether the image should be placed `left` or `right` of the question on desktop.
+    `Position (desktop)` - Choose whether the image should be placed `left` or `right` of the question on desktop.
 
-    `Image position (mobile)` - Choose whether the image should be placed `above`, `below` a question or `hidden` on mobile.
+    `Position (mobile)` - Choose whether the image should be placed `above`, `below` a question or `hidden` on mobile.
 
     !!! tip
         Switch between the desktop and mobile view by clicking the `desktop` or `mobile` icon in the top right corner of the middle screen.
@@ -820,7 +824,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     You can upload an individual image via an Image Block directly into one of the quiz [questions](/reference/quiz-builder/questions/) or [results page](/reference/quiz-builder/results-page/).
 
-    ![how to](/images/how_to_shopifyv2_improve_image_quality_imageblock.png)
+    ![how to](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png)
 
     1. Navigate to [Questions](/reference/quiz-builder/questions/) or [Results page](/reference/quiz-builder/results-page/) tab in the quiz builder.
     2. Click `+ Add block` to see a list of available blocks.
@@ -1269,7 +1273,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
 
-    ![how_to_shopifyv2_improve_image_quality_picturechoicequestions](/images/how_to_shopifyv2_improve_image_quality_picturechoicequestions.png)
+    ![how_to_shopifyv2_improve_image_quality_picturechoicequestions](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
 
     1. Open the [Question settings](/reference/quiz-builder/questions/#picture-choice)
 
@@ -1287,11 +1291,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     7. Under `Picture size/ratio` you can choose between `Tiny icon 24px`, `Small icon 48px`, `Medium icon 1:1` or `Large icon 4:3`.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_picturesizeratio](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_picturesizeratio.png)
-
         If you select `Medium (1:1)` in the `Picture size/ratio` dropdown, an additional option for chosing a Mobile layout will appear. There you can choose how this block will be displayed on mobile devices - either as a `Carousel`, `One per row` or `Two per row`.
-
-        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_mobilelayout](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice_mobilelayout.png)
 
     8. You can also check the:
 
@@ -1452,7 +1452,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     You can add a Product/Variants/Collection Block to your quiz results page, which will allow you to display a product image in the results page.
 
-    ![how_to_shopifyv2_improve_image_quality_productimages](/images/how_to_shopifyv2_improve_image_quality_productimages.png    )
+    ![how_to_shopifyv2_improve_image_quality_productimages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
 
     1. Navigate to [Results page](/reference/quiz-builder/results-page/) tab in the quiz builder.
 
@@ -1463,6 +1463,8 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
     4. Open the [Product/Variant/Collection block settings](/reference/quiz-builder/results-page/#products-products-variants-collections).
 
     5. Under [`Product components layout`](/reference/quiz-builder/results-page/#product-components-layout) you can select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image.png)
 
     6. Under `+ Add block` you can add an extra block to the product slot. All the data are synced directly from your Shopify catalog.
 
