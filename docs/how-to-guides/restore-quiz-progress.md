@@ -168,11 +168,11 @@ This guide will walk you through the process of using the [Version History](/ref
     4. **Select the Version**: Select the version corresponding to the date of the changes you want to recover.
     5. **Use the Three Dots Menu**: Click on the three dots next to the version to see options: `   Create a New Quiz` or `Restore This Version`.
 
-        - `Create a New Quiz` generates a new quiz with a new ID, while 
+        - `Create new quiz using this version` generates a new quiz with a new ID, while 
         - `Restore This Version` replaces the current quiz with the selected version without changing the quiz ID.
         - `Copy quiz code` copies the quiz code (JSON) of this version to clipboard. This allows you to transfer this quiz version to another store.
 
-
+    
         !!! tip
 
             If unsure about which version to restore, create a new quiz using the selected version to review its content.
