@@ -22,14 +22,22 @@ Our product recommendation algorithm works like a voting system:
 
 **Understand Inclusion and Exclusion**
 
-### Inclusion
-Products or collections added in the `include/upvotes` field of the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab are upvoted in the final recommendations.
+### Upvote Inclusion
+
 
 === "Shopify"
 
+    To link products or collections to choices, open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) and go to the `Upvotes` section.
+
     ![how to recommend products upvote](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
+    Click `+ Add upvote type` to add a new upvote type.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
+
     How the votes work for each upvoted item:
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
 
     - **Main Products / All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected.
     - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
@@ -37,6 +45,8 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
     - **Variant collections**: Created automatically by the app, every product within a linked variant collection receives a vote when their linked choice is selected.
     - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives a vote when their linked choice is selected.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
 
     !!! tip
     
@@ -46,6 +56,8 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
 
 
 === "Shopify (Legacy)"
+
+    Products or collections added in the `include/upvotes` field of the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab are upvoted in the final recommendations.
 
     ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
 
@@ -59,6 +71,9 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](/reference/quiz-builder/quiz-settings/) needs to be active for this option to appear in the Link Products section.
 
 === "WooCommerce"
+
+    Products or collections added in the `include/upvotes` field of the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab are upvoted in the final recommendations.
+
 
     ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
 
@@ -74,6 +89,9 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
 
 === "Magento"
 
+    Products or collections added in the `include/upvotes` field of the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab are upvoted in the final recommendations.
+
+
     ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
 
     How the votes work for each included linked item:
@@ -82,6 +100,9 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     - **Categories**: Every product within a linked category receives a vote when their linked choice is selected.
 
 === "BigCommerce"
+
+    Products or collections added in the `include/upvotes` field of the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab are upvoted in the final recommendations.
+
 
     ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
 
@@ -97,6 +118,9 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
 
 === "Standalone"
 
+    Products or collections added in the `include/upvotes` field of the [Link Products/Collections/Upvote](/reference/quiz-builder/link-products/) tab are upvoted in the final recommendations.
+
+
     ![how to recommend products inclusion](/images/how_to_recommend_products_inclusion.png)
 
     How the votes work for each included linked item:
@@ -110,32 +134,53 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
 
 ### Exclusion
 
-Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/quiz-builder/link-products/) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
-
 === "Shopify"
 
+    To exclude products or collections from choices, open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) and go to the `Exclude` section.
+
     ![how to recommend products exclusion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
+
+    Click `+ Add exclude type` to add a new exclude type.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
+
+    Once a product, collection or another item type is selected, it will be added to the excluded list and will never show as a recommendation, even if it was upvoted in another choice earlier/later in the quiz.
+
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
 
 
 === "Shopify (Legacy)"
 
     ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
 
+    Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/quiz-builder/link-products/) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
+
 === "WooCommerce"
 
     ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
+
+    Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/quiz-builder/link-products/) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
 
 === "Magento"
 
     ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
 
+    Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/quiz-builder/link-products/) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
+
 === "BigCommerce"
 
     ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
 
+    Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/quiz-builder/link-products/) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
+
 === "Standalone"
 
     ![how to recommend products exclusion](/images/how_to_recommend_products_exclusion.png)
+
+
+    Use the `exclude` field of the [Link Products/Collections/Exclude](/reference/quiz-builder/link-products/) tab to remove certain products or collections from the recommendations, useful for items with allergens or sensitive ingredients. 
 
 !!! warning
 
@@ -205,7 +250,7 @@ At the end of the quiz, the results page displays the product variants with the 
     
         - You can add a heading, content block, image block, HTML block or a Product Block. 
 
-        ![how_to_shopifyv2_setuprecommendations_editresults](/images/how_to_shopifyv2_setuprecommendations_editresults.png)
+            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
         !!! tip
 
@@ -217,13 +262,15 @@ At the end of the quiz, the results page displays the product variants with the 
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
 
-        - In Product Block settings you can chose the `Recommendation system` to be `Based on customer's responses`. the **Product Block** then displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last.
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products.png)
 
-        ![how to recommend products built for shopify revenuehunt app recommend products based on responses](/images/how_to_recommend_products_shopify_v2_recommend_products_based_on_responses.png){width="35%"}
+        - In Product Block settings you can chose the `Recommendation system` to be `Upvotes`. the **Product Block** then displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last.
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
         - Every Product Block comes with a default `Slot` that allows you to display the recommended products. In [Slot settings](/reference/quiz-builder/questions/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
 
-        ![how to recommend products built for shopify revenuehunt app recommend products based on responses max products](/images/how_to_recommend_products_shopify_v2_recommend_products_based_on_responses_max_products.png){width="300"}
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot.png)
 
         - Then the results page will show the products like this, sorted by the number of votes:
 
@@ -522,7 +569,7 @@ The voting system counts product "votes" based on customer quiz choices and then
     4. Link relevant product variants or collections to each choice
     5. Ensure every choice has at least one product or collection linked
 
-    ![how to recommend slots link products](/images/how_to_recommend_slots_shopify_v2_link_products.png)
+    ![how_to_shopifyv2_setuprecommendations_linkcollections](/images/how_to_shopifyv2_setuprecommendations_linkcollections.png)
 
     **Step 5: Add Product Slots to the Results Page**
 
@@ -535,7 +582,7 @@ The voting system counts product "votes" based on customer quiz choices and then
         - Add segments with corresponding product collections to each slot
         - Choose how many products to recommend per slot (typically one product)
 
-    ![how to recommend slots slot block](/images/how_to_recommend_slots_shopify_v2_set_up_filters.png){width=50%}
+    ![how to recommend slots slot block](/images/how_to_recommend_slots_shopify_v2_set_up_filters.png)
 
     **Step 6: Test and Troubleshoot**
 
@@ -1194,7 +1241,7 @@ Branch your quiz to show different follow-up questions based on customer choices
     **Step 5: Configure Results Page**
 
     1. Add a Products Block
-    2. Set "Recommendation system" to "Based on customer's responses"
+    2. Set "Recommendation system" to "Upvotes"
     3. Configure number of products to show
     4. Optionally add segments for structured recommendations
 
@@ -1512,7 +1559,7 @@ Show or hide different text blocks on the results page based on customer choices
 
     **Step 4: Configure Results Page**
 
-    1. Add a Products Block with "Based on customer's responses" setting for Recommendations System.
+    1. Add a Products Block with "Upvotes" setting for Recommendations System.
     2. Add multiple Sections to your results page for different answer combinations. To each section add text, images or HTML content blocks for different answer combinations.
 
     **Step 5: Set Up Display Logic**

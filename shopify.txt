@@ -7777,7 +7777,7 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     2. The quiz only counts votes from shown questions
     **Step 5: Configure Results Page**
     1. Add a Products Block
-    2. Set "Recommendation system" to "Based on customer's responses"
+    2. Set "Recommendation system" to "Upvotes"
     3. Configure number of products to show
     4. Optionally add segments for structured recommendations
     **Step 6: Test and Launch**
@@ -7801,7 +7801,7 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     1. For each choice open Choice Settings and add products to "Upvote" section.
     2. The quiz will count votes from all questions
     **Step 4: Configure Results Page**
-    1. Add a Products Block with "Based on customer's responses" setting for Recommendations System.
+    1. Add a Products Block with "Upvotes" setting for Recommendations System.
     2. Add multiple Sections to your results page for different answer combinations. To each section add text, images or HTML content blocks for different answer combinations.
     **Step 5: Set Up Display Logic**
     1. For each content block:
