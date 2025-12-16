@@ -1066,7 +1066,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     1. To show the recommended products in the email, you can use the following code copied from the Klaviyo template in the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab:
 
-        ![how_to_klaviyo_shopify_v2_get_template](/images/how_to_klaviyo_shopify_v2_get_template.png){width="300"}  
+        ![how_to_shopifyv2_klaviyo_shopify_v2_get_template](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
 
         ??? example "Example: Code from QuizIntegrations tab"
 
@@ -1280,7 +1280,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     1. To do this, you can use the following code copied from the Klaviyo template in the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab:
 
     
-        ![how_to_klaviyo_shopify_v2_get_template](/images/how_to_klaviyo_shopify_v2_get_template.png)
+        ![how_to_shopifyv2_klaviyo_shopify_v2_get_template](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
 
 
         ??? example "Example: Code from Quiz Integrations tab"
