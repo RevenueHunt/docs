@@ -33,14 +33,21 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oo889rtufp0?si=ttwX_qBEEX3ARQ2S" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Navigate to the Quiz Builder**: Open your quiz in the [Quiz Builder](/reference/quiz-builder/quiz-builder/) by clicking `Customize`.
-    2. **Access choice settings**: Click on any choice in your quiz to open its settings panel.
-    3. **Add customer tags**: In the choice settings, find the `Customer Tags` section. 
+    2. **Access choice settings**: Open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) by clicking on any choice in your quiz.
+    3. **Add customer tags**: In the choice settings, find the `Customer Tags` section.
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)
     
         - Use the search bar to search for existing tags or create new ones. 
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_createnew.png)
+
         - Type the tag name and press `Create new tag` to create it. 
         - You can add multiple tags to a single choice.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png)
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample.png)
 
         !!! tip
             If you want all the quiz takers to have a specific tag, you can add it to the all the choices in one of the questions in the quiz. This way no matter which choice they select, they will have the tag.
