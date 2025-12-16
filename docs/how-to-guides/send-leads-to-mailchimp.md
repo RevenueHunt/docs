@@ -274,7 +274,7 @@
     1. Make sure the quiz is connected to Mailchimp. 
     2. Create [customer tags](/reference/quiz-builder/link-collections/#customer-tags) in the RevenueHunt app and link them to choices.
 
-        ![how to send leads to mailchimp tags](/images/how_to_shiopifyv2_send_leads_to_mailchimp_tags.png)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
     4. Navigate to the `Audience` section in your Mailchimp account.
     5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
@@ -353,7 +353,7 @@
 
     1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/link-collections/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
 
-        ![how to send leads to mailchimp tags](/images/how_to_shiopifyv2_send_leads_to_mailchimp_tags.png)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample.png)
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
 
 

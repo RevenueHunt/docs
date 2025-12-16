@@ -1509,6 +1509,8 @@
 
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tags.png)
 
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample.png)
+
     When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM.
 
     ### Scores and calculations
