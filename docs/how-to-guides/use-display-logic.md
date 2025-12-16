@@ -434,8 +434,12 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
 
-        ![how to add scores or variables to choices](https://loom.com/i/8180f5a1dd8c48a894ac3a6300bd7fe4?workflows_screenshot=true)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
+
+
         !!! example
+
+            ![how to add scores or variables to choices](https://loom.com/i/8180f5a1dd8c48a894ac3a6300bd7fe4?workflows_screenshot=true)
 
             - For choice one, set the score to 1.
             - For choice two, set the score to 2.
@@ -444,7 +448,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     5. To create a new variable, click on the `Search or create variable` search bar and start typing the name of the variable you want to create (e.g. `dry skin` or `variable1`). 
     6. Once you've typed the full name, a dropdown will appear that will allow you to `Create a new variable "xxx"`. Click on it to add a new variable.
 
-        ![how to add scores or variables to choices](https://loom.com/i/7b28b691b0e8451dadaaab68807ae51f?workflows_screenshot=true)
+         ![how to add scores or variables to choices](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
     7. Once a new variable is created, you can assign a score to it.
     8. Repeat the process for each choice in that question and move on to the next question in your quiz.
 
