@@ -43,7 +43,10 @@ If you're using a subscription app that is not supported, you can still recommen
     2. Find the [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
     3. Under `Product components layout`, find the `Subscription` option and add it to the layout.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
+        
     4. Under `Subscription`, select the subscription app you want to use.
 
 
@@ -163,8 +166,13 @@ If you're using a subscription app that is not supported, you can still recommen
 
     1. **Open Results Page settings**: Navigate to the [Results Page](/reference/quiz-builder/results-page/) and add or select a [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections)
     2. **Change Product Components Layout**: In [Product Block settings](/reference/quiz-builder/results-page/#products-products-variants-collections), find the [`Product Components Layout`](/reference/quiz-builder/results-page/#product-components-layout) section and remove the `Add to cart button option. Once removed, insert a `Link to Product` component instead.
+    
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
 
-        ![how_to_shopifyV2_recommend_subscriptions_workaround](/images/how_to_shopifyV2_recommend_subscriptions_workaround.png)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
+        
 
     As a result, the buyers will not be able to add the product to the cart directly from the quiz results page. Instead, they will be redirected to the product page where they can subscribe.
 
