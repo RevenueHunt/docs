@@ -17,7 +17,9 @@ This article explains how to show product reviews on the results page on your qu
     2. **Adding the Reviews Section**: Locate your [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) that recommends products. 
     3. Under `Recommended Products`, find [`Product Component Layout`](/reference/quiz-builder/results-page/#product-components-layout). Click `+ Add Block` and select the `Reviews` section.
 
-        ![Add Reviews Block](https://docs.revenuehunt.com/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png){width="500"}
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
 
     4. **Configuring the Reviews Section**: After adding the reviews section, a star rating box will appear at the bottom of your product card. Open the `Reviews` tab to select a review app from the dropdown menu.
 
