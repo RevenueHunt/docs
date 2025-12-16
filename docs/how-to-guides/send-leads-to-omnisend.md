@@ -64,7 +64,7 @@
 
     3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and navigate to **Settings** > **Integrations** and select the **Omnisend** tab. In the field that appears, you'll need to enter your `Omnisend API Key` into the input field, then click `Save`.
 
-        ![how to send leads to omnisend paste api key](https://loom.com/i/28f3ffb0c36a46e5886b04a9d05a144c?workflows_screenshot=true)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_settings_integrations_omnisend_addapi](/images/manual_shopifyV2_quizbuilder_quizbuilder_settings_integrations_omnisend_addapi.png)
 
     4. **Preview your quiz**: After connecting to Omnisend, preview your quiz all the way to the results page to send the first contact. Use a sample email (e.g., 'alexa@example.com') and provide sample answers to populate properties in Omnisend.
     5. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (e.g., 'Alexa RevenueHunt / alexa@example.com') has been added. Click on the profile to view all custom properties from the quiz, including: 
@@ -319,6 +319,9 @@
 
             ![how to omnisend email template](/images/how_to_shopifyv2_omnisend_template_copy.png)
         - This code will create a pre-formatted email with quiz results and recommended products, which can be further edited as needed.
+
+        !!! warning "Omnisend email template"
+            Some users have reported that the generated email template is not working as expected. If you are experiencing this issue, please [contact support](/how-to-guides/contact-support/).
 
     6. **Preview and test the email**: Preview and test the email as one of the segment subscribers. Complete any additional follow-up steps in the workflow.
     7. **Save all changes and start the workflow**: Save all changes and start the workflow to activate the automation for quiz takers.
@@ -823,6 +826,9 @@ Note that while customer profiles are updated with new quiz takes—including an
     ![how to shopifyv2 omnisend template copy](/images/how_to_shopifyv2_omnisend_template_copy.png)
 
     You can use this template as a reference to create your own.
+
+    !!! warning "Omnisend email template"
+        Some users have reported that the generated email template is not working as expected. If you are experiencing this issue, please [contact support](/how-to-guides/contact-support/).
 
 
 === "Shopify (Legacy)"

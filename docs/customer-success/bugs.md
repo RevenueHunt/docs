@@ -13,6 +13,11 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
     These are the known bugs that we are aware of and are working to fix:
 
+    - **Omnisend email template**: The generated email template is not working as expected.
+    
+        !!! note "Status"
+            Under investigation.
+
     - **Words/characters index changing while writing (scrambled text)**: Sometimes, while writing on the text inputs of the quiz builder (header, title, text block…) the words or individual characters can “lose” the index continuity and get scrambled.
 
         !!! note "Status"
