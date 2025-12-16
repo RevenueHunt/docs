@@ -26,17 +26,20 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
 
-        ![how to add scores or variables to choices](https://loom.com/i/8180f5a1dd8c48a894ac3a6300bd7fe4?workflows_screenshot=true)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
+
         !!! example
+
+            ![how to add scores or variables to choices](https://loom.com/i/8180f5a1dd8c48a894ac3a6300bd7fe4?workflows_screenshot=true)
 
             - For choice one, set the score to 1.
             - For choice two, set the score to 2.
             - For choice three, set the score to 3.
 
     5. To create a new variable, click on the `Search or create variable` search bar and start typing the name of the variable you want to create (e.g. `dry skin` or `variable1`). 
-    6. Once you've typed the full name, a dropdown will appear that will allow you to `Create a new variable "xxx"`. Click on it to add a new variable.
+    6. Once you've typed the full name, a dropdown will appear that will allow you to `Create a new variable`. Click on it to add a new variable.
 
-        ![how to add scores or variables to choices](https://loom.com/i/7b28b691b0e8451dadaaab68807ae51f?workflows_screenshot=true)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
     7. Once a new variable is created, you can assign a score to it.
     8. Repeat the process for each choice in that question and move on to the next question in your quiz.
 
@@ -411,7 +414,7 @@ Follow these steps to set up a scoring quiz with one results page:
 
         To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product Block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  
 
-        ![how_to_shopifyv2_scoringquiz_fixedrecommendations](/images/how_to_shopifyv2_scoringquiz_fixedrecommendations.png)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
             
     3. **Add Score-Based Display Logic**: On the Results Page, select a content block and in the right-hand menu locate `Display logic`.
         
@@ -536,7 +539,8 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
         Make sure to add product blocks to each results page and set the `Recommendation System` to `Fixed Recommendations` in the [Product Block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).
 
-        ![how_to_shopifyv2_scoringquiz_fixedrecommendations](/images/how_to_shopifyv2_scoringquiz_fixedrecommendations.png) 
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
     4. **Set Up Jump Logic Based on Scores**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) section of Quiz Builder. Find the last question in your quiz and open the [Jump Logic settings](/reference/quiz-builder/conditional-logic/#jump-logic):
         
