@@ -791,6 +791,20 @@
 
     `qbh-7327edc5` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
+    `☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. This allows you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page.
+
+    ??? info "Adding a Content dynamic source"
+
+        To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
+
+        ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+
+        A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+
+        ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+
+        ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
+
     #### Text
 
     Adds a text block to your question.
@@ -814,6 +828,21 @@
     `🗑 Remove block` - Click to delete this block.
 
     `qbt-7327edc5` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
+
+    `☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. This allows you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page.
+
+    ??? info "Adding a Content dynamic source"
+
+        To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
+
+        ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
+
+        A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+
+        ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
+
+        ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
+
 
     #### Image
 
