@@ -10,27 +10,14 @@ This documentation outlines how to track quiz analytics and revenue generated fr
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oLxkESMwKMA?si=ucipnrHr3AMDYxsb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/feGUgS0rzUQ?si=liZIQ0at-9EJ3tkr" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    The RevenueHunt app automatically connects to Shopify orders when installed on your store, so no manual connection is required.
 
     Follow the steps below to track quiz revenue in the new Built for Shopfiy version of RevenueHunt app:
 
-    1. **Connect your quiz to Shopify customers**: To track revenue from quizzes, connect your quiz to Shopify customers.
-
-        - Go back to the Revenue Hunt dashboard.
-        - Open [Quiz Settings](/reference/quiz-builder/quiz-settings/).
-        - Under [Integrations](/reference/quiz-builder/quiz-settings/#integrations), find [Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) and click `Connect`.
-        - Save changes using the top `Save` button.
-        
-        ![how to connect quiz to shopify customers](https://loom.com/i/36c7253b2b234ee8b304c03e694d8bef?workflows_screenshot=true)
-    
-        Once connected to Shopify customers:
-
-        - Leads from the quiz will be sent to Shopify.
-        - Each order from the quiz will be tagged with a quiz ID and quiz response ID.
-        - This allows tracking of orders that result from quiz completions, product additions, and subsequent purchases.
-
-    2. **Open the Analytics tab**: Open the RevenueHunt app and navigate to the [Analytics](/reference/quiz-builder/metrics/#analytics) tab.
-    3. **Select a quiz and time period**: Select a specific quiz and set the desired time period (e.g., last 30 days) by clicking on the today icon.
+    1. **Open the Analytics tab**: Open the RevenueHunt app and navigate to the [Analytics](/reference/quiz-builder/metrics/#analytics) tab.
+    2. **Select a quiz and time period**: Select a specific quiz and set the desired time period (e.g., last 30 days) by clicking on the today icon.
 
         In the analytics section, you can view by default:
 
@@ -43,7 +30,12 @@ This documentation outlines how to track quiz analytics and revenue generated fr
         !!! tip
             To see more data, like the `Average order value`, `Number of carts` or simialr, you can [customize the analytics dashboard](/reference/quiz-builder/metrics/#customize).
 
-    4. **Re-check the analytics**: After connecting to Shopify, all orders and their values resulting from quiz responses will be visible in the analytics panel. You can see the number of orders and total order value attributed to the quiz.
+    3. **View quiz-attributed orders**: All orders and their values resulting from quiz responses will be automatically tracked and marked in the Shopify Orders tab.
+        
+        ![how to show quiz answers on orders example1](/images/how_to_show_quiz_answers_on_orders_example1.png)
+    
+    
+    4. In [Quiz Analytics](/reference/quiz-builder/metrics/#analytics), you can see the number of orders and total order value attributed to the quiz.
 
         ![manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue.png)
 
@@ -132,6 +124,11 @@ This documentation outlines how to track quiz analytics and revenue generated fr
     ![how to show revenue in google analytics](/images/how_to_ga_revenue2.png)
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/integrate-google-analytics/)
+
+
+!!! tip "Learn which meterics to track"
+
+    Check out [this customer success article](/customer-success/track-quiz-metrics-for-better-conversions/) to learn which metrics to track to convert better.
 
 ---
 
