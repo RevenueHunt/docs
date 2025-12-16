@@ -8,12 +8,13 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Lg6Ikql0kpE?si=slsLm93N-0Ce2uch" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/I882dDaFD7U?si=aeCor5bo1dWuBp1x" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. Navigate to [App Settings](/reference/app-settings/) from the side menu.
     2. Click on the `Shopify Customers` tab.
     3. Toggle the `Enable pushing quiz leads to Shopify Customers` switch to enable the integration.
-    ![how to integrate shopify customers built for shopify revenuehunt app](/images/how_to_integrate_shopify_customers_shopify_v2.png)
+
+        ![manual_shopifyV2_appsettings_shopifycustomers](/images/manual_shopifyV2_appsettings_shopifycustomers.png)   
     4. Click the `Save` button to save the changes.
 
     Newly captured leads will appear in your Shopify Customers List with their [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) added to their profile.
@@ -121,7 +122,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Lg6Ikql0kpE?si=gylWum-a-LN689cv&amp;start=103" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/I882dDaFD7U?si=kTTsxNa_-PUHglmc&amp;start=101" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
     You can use [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
@@ -193,7 +194,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Lg6Ikql0kpE?si=uRcEl8jXzgtMkgnN&amp;start=174" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/I882dDaFD7U?si=Z_Ortou6hQdJ3E4A&amp;start=171" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to shopify customers automation full cycle](/images/how_to_shopifyv2_customers_automation_full_cycle.png)
 
