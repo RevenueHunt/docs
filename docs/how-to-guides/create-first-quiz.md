@@ -19,7 +19,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to create a quiz for you. It's amazing at creating quizzes and can help you with the entire process.
 
     <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/NKj9iQ7ZkR0?si=8s1zE3hbDXaDSuFC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/oL1DnBd6N1U?si=TjqNJqj2cve_Uz7s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
 

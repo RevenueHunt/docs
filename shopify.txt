@@ -3344,7 +3344,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 !!! tip "Ask Quiz Copilot"
         Open a chat with [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to create a quiz for you. It's amazing at creating quizzes and can help you with the entire process.
     <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/NKj9iQ7ZkR0?si=8s1zE3hbDXaDSuFC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/oL1DnBd6N1U?si=TjqNJqj2cve_Uz7s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`Create new quiz`](/reference/dashboard/#new-quiz).
         ![Create Quiz](/images/manual_shopifyV2_createquiz.png)
@@ -13992,7 +13992,7 @@ In this tutorial, you'll see an overview of the most important features of the R
         - how to find quiz analytics and responses
         - how to find quiz share and publish options
     <div class="videoWrapper">
-    <iframe src="https://www.youtube.com/embed/NKj9iQ7ZkR0?si=8s1zE3hbDXaDSuFC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/oL1DnBd6N1U?si=TjqNJqj2cve_Uz7s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     1. When you log in to the RevenueHunt app, the first thing you'll see is your [Dashboard](/reference/dashboard/).  This is where you can find all the quizzes that you create.
     2. Click on [`Create New Quiz`](/reference/dashboard/#new-quiz) to create a new project. You can start from scratch, or use one of our pre-designed templates to get started.

@@ -474,7 +474,7 @@ Speaking of results. Make sure to also edit the Results Page.
     2. Navigate to the [`Publish`](/reference/quiz-builder/share-publish/) section to see all the publishing options.
     3. For example, you can [embed a link to the quiz in your website's menu](/how-to-guides/publish-quiz-link#link-popup-in-website-menu).
     4. In Shopify, go to the `Online Store > Themes` section and click on `Customize`. 
-    5. Under `App Embeds` find `V2 - Link Popup Quiz` and activate it. 
+    5. Under `App Embeds` find `Link Popup Quiz` and activate it. 
     6. In the settings you can adjust the quizzes width and height. Then, click on `Save`.
     7. Next, in Shopify navigate to `Content > Menus`, select the main menu and click `+ Add menu item`. In the `Title` field, enter something like `Take our Quiz`. Under `link` section, type `#quiz`, click on the link to accept it.
     8. Save the menu and you're done!
