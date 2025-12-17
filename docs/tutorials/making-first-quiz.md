@@ -9,6 +9,8 @@ icon: material/numeric-1
 
     In this tutorial, you'll learn how to make and publish a short quiz that recommends the best cosmetic (skincare) product to your customers.
 
+    
+
     !!! info "You'll learn:"
 
         - how to build a quiz from scratch
