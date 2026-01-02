@@ -4,7 +4,7 @@
 
 The RevenueHunt app is a product recommendation and video quiz application designed to enhance the online shopping experience by guiding shoppers through tailored questions, analyzing their responses, and recommending the perfect products based on their preferences. 
 
-This interactive tool is compatible with Shopify's official [Shop app](https://shop.app/), aiming to improve customer engagement and increase sales by collecting zero-party data and segmenting leads to grow the audience. It offers personalized product recommendations through interactive quizzes, providing tailored suggestions that match the shopper's needs and preferences. 
+This interactive tool aims to improve customer engagement and increase sales by collecting zero-party data and segmenting leads to grow the audience. It offers personalized product recommendations through interactive quizzes, providing tailored suggestions that match the shopper's needs and preferences. 
 
 The app includes a Free plan and a 14-day free trial, with paid plans starting at $39 per month​.
 

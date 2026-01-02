@@ -442,41 +442,6 @@
         
     `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
 
-## Shop App
-
-=== "Shopify"
-
-    At this moment in time, there is no way to activate the Shop App in the `💎Built for Shopify` version of the RevenueHunt app. 
-
-
-
-=== "Shopify (Legacy)"
-
-    !!! warning
-
-        Shopify has announced that they’ll be sunsetting all Shop Minis app integrations, including our Shop Minis app.
-
-    ![app settings shop app](/images/manual_appsettings_shopapp.png)
-
-    **Entry Point Settings**
-
-    `Activate Entry Point` - Toggle to activate a quiz in the Shop App.
-
-    `Quiz Dropdown` - Select from a list of quizzes which one should be featured in the Shop App.
-
-    `Title` - Type a title for your Shop App quiz.
-
-    `Description` - Provide a short description of the quiz.
-
-    `CTA Text` - Type what will be written on the button that opens the quiz.
-
-    `Quiz Image URL` - Provide a URL of an image you'd like to see featured on the Shop App quiz page.
-
-    `Entry Point Preview` - Shows a preview of how the quiz entry point will look on your store's page in the Shop App.
-
-    ![app settings shop app preview](/images/manual_appsettings_shopapp_preview.png)
-
-
 ## Plans & Pricing
 
 === "Shopify"

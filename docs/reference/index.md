@@ -70,7 +70,7 @@ In the Plans & Pricing section, you can find details of our pricing plans and up
 
 ## [App Settings](app-settings/)
 
-In the App Settings section, you adjust your contact details, change GDPR settings, sync metafields, connect your SMTP server, or set up the Shop App.
+In the App Settings section, you adjust your contact details, set up Shopify Markets, change GDPR settings or connect your SMTP server.
 
 [:fontawesome-solid-arrow-right: continue reading](app-settings/)
 

@@ -287,7 +287,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     - `Preview` - Opens the Quiz Preview for testing.
     - `How to publish` - Opens the [Publish](/reference/quiz-builder/share-publish/) instructions that explain how to put the quiz on the website.
-    - `Make default quiz` - Sets the quiz as default quiz and makes it the default quiz for the main show market and Shop app channel. 
+    - `Make default quiz` - Sets the quiz as default quiz and makes it the default quiz for the main shop market. 
     
         !!! info "Make default quiz"	
         
@@ -338,7 +338,7 @@ On the dashboard, you'll find all the quizzes that you create.
     - `Export Responses as CSV` - Generate a CSV file with quiz responses from the last three months. Once clicked a link will appear on your dashboard to download the CSV report. The link is valid for two hours.
     - `Version History` - Open the [Version History tab](/reference/quiz-builder/quiz-settings/#version-history) in Quiz Builder > Quiz Settings.
     - `Copy quiz ID: xxx` - Copy the quiz ID of the current quiz.
-    - `Set as Default Quiz` - Set as a default quiz to be displayed in the Shop App.
+    - `Set as Default Quiz` - Set as a default quiz.
     - `Delete` - Delete the quiz.
 
 
