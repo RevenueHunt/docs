@@ -763,11 +763,11 @@
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image.png)
 
-    `Picture size/ratio` - Choose the picture size for this block. Choose between `Square` or `Original` picture size (as uploaded to your Shopify Product).
+    `Shape` - Choose the shape of the image from `Square` or `Original`.
+
+    `Source` - Choose the source of the image from `Variant` or `Product`. Choose whether to display the variant-specific image or the main product image. Select `Variant` to show the image associated with the selected variant (falls back to main product image if the variant has no image). Select `Product` to always display the main product image regardless of the variant selection.
 
     `Optimize images size` - Select this option to optimize the image size for the quiz. If unchecked, the image will be displayed in the original size.
-
-    `Image source` - Choose whether to display the variant-specific image or the main product image. Select `Variant` to show the image associated with the selected variant (falls back to main product image if the variant has no image). Select `Product` to always display the main product image regardless of the variant selection.
 
     !!! tip
         Check this guide to learn how to add and adjust images for the quiz: [How to Add and Adjust Images](/how-to-guides/add-adjust-images/).

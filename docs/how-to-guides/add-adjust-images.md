@@ -1472,8 +1472,12 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         `Picture size/ratio` - Choose the picture size for this block. Choose between `Medium (1:1)` or `Original` picture size (as uploaded to your Shopify Product).
 
-        `Optimize images size` - Select this option to optimize the image size for the quiz. If unchecked, the image will be displayed in the original size.
+        `Shape` - Choose the shape of the image from `Square` or `Original`.
 
+        `Source` - Choose the source of the image from `Variant` or `Product`. Choose whether to display the variant-specific image or the main product image. Select `Variant` to show the image associated with the selected variant (falls back to main product image if the variant has no image). Select `Product` to always display the main product image regardless of the variant selection.
+
+        `Optimize images size` - Select this option to optimize the image size for the quiz. If unchecked, the image will be displayed in the original size.
+        
         !!! note
             Product images are taken directly from your Shopify catalog. Product slots diplsay the first image of the product, variant or a collection as uploaded to your Shopify Products/Collections section. 
 
