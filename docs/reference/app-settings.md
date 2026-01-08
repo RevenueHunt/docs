@@ -205,9 +205,13 @@
 
     `Catalogue processed at:` - The last time the product catalog was fully processed and updated.
 
-    `Low inventory Filter` - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.   
+    `Low inventory Filter` - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.
 
-    If you check the `Filter products by inventory level` box, the app will hide any products that are low or out of stock from quiz recommendations. This prevents customers from seeing or clicking on products that are unavailable to purchase. If left unchecked, the app may still recommend products even if they are sold out. Once checked, the **`Minimum stock level`** option will become avilable. You can set the minimum stock level for products to be eligible for recommendations.
+    If you check the `Filter products by inventory level` box, the app will hide any products that are low or out of stock from quiz recommendations. This prevents customers from seeing or clicking on products that are unavailable to purchase. If left unchecked, the app may still recommend products even if they are sold out. Once checked, the **`Minimum stock level`** option will become available. You can set the minimum stock level for products to be eligible for recommendations.
+
+    !!! info "How products with multiple variants are handled"
+
+        A product is only hidden from recommendations when **all** of its variants are below the minimum stock threshold. If a product has at least one variant above the threshold, the product remains eligible for recommendations.
 
     `Draft products` - this setting lets you control which products are eligible to be recommended in the quiz results based on draft status.
 

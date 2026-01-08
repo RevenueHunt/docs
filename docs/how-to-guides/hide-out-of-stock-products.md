@@ -25,6 +25,10 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
 
     By following these steps, out-of-stock products will be hidden from your recommendations.
 
+    !!! note "Products with multiple variants"
+
+        A product is only hidden when **all** of its variants are below the minimum stock level. If at least one variant is above the threshold, the product will still appear in recommendations.
+
 
 === "Shopify (Legacy)"
 
