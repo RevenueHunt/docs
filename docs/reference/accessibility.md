@@ -177,11 +177,12 @@ Our quiz renderer is built following these standards:
 
 ## Need Help?
 
-If you encounter any accessibility issues or have questions:
+We continuously work to improve accessibility, and if you ever notice an issue, please let us know—our team will address it promptly.
 
 [:fontawesome-solid-arrow-right: Contact Customer Support](/how-to-guides/contact-customer-support/)
 
-We're committed to continuously improving accessibility for all users.
+!!! info "VPAT Documentation"
+    We don't currently provide a formal VPAT (Voluntary Product Accessibility Template) document. However, we're happy to help review any specific accessibility concerns you have with your live quiz setup. [Contact our support team](/how-to-guides/contact-customer-support/) and we'll work with you to address your needs.
 
 ---
 
