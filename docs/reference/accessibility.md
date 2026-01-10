@@ -1,6 +1,6 @@
 # Accessibility
 
-RevenueHunt quizzes are built with accessibility best practices in mind, following **WCAG 2.1 Level AA** guidelines.
+RevenueHunt quizzes are built with accessibility best practices in mind, following **WCAG 2.1 Level AAA** guidelines.
 
 !!! note "Shared Responsibility"
     Final accessibility compliance also depends on your theme, quiz customization, and embedding method. Colors, fonts, image-only choices, custom CSS/JS, and other overlays on your site can impact accessibility. This guide covers what we provide and best practices for maintaining accessibility.
@@ -126,7 +126,7 @@ We recommend testing your quiz:
 
 Our quiz renderer follows:
 
-- **WCAG 2.1 Level AA** - Web Content Accessibility Guidelines
+- **WCAG 2.1 Level AAA** - Web Content Accessibility Guidelines
 - **Section 508** - US federal accessibility requirements
 - **ADA** - Americans with Disabilities Act guidelines
 
