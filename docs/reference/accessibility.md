@@ -75,14 +75,14 @@ Quiz text scales with browser zoom and user font preferences:
 
 ### Touch Targets
 
-Interactive elements meet WCAG touch target requirements:
+Interactive elements meet WCAG 2.1 Level AAA touch target requirements:
 
 | Element | Minimum Size |
 |---------|-------------|
-| Choice options | 42px (exceeds Level AA) |
+| Choice options | 44px (meets Level AAA) |
 | Buttons & inputs | 48px (exceeds Level AAA) |
 
-Adequate spacing between targets prevents accidental taps.
+All interactive elements meet or exceed the WCAG 2.5.5 Level AAA requirement of 44px minimum. Adequate spacing between targets prevents accidental taps.
 
 ## Motion & Animation
 
