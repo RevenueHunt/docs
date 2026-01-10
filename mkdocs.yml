@@ -132,6 +132,7 @@ nav:
     - Dashboard: reference/dashboard.md
     - Plans & Pricing: reference/plans-pricing.md
     - App Settings: reference/app-settings.md
+    - Accessibility: reference/accessibility.md
     - Quiz Builder:
       - Overview: reference/quiz-builder/index.md
       - Questions: reference/quiz-builder/questions.md

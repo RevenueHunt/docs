@@ -74,3 +74,9 @@ In the App Settings section, you adjust your contact details, set up Shopify Mar
 
 [:fontawesome-solid-arrow-right: continue reading](app-settings/)
 
+## [Accessibility](accessibility/)
+
+Our quizzes are built with accessibility in mind, following WCAG 2.1 Level AA guidelines. Learn about keyboard navigation, screen reader support, color contrast, RTL language support, and other accessibility features.
+
+[:fontawesome-solid-arrow-right: continue reading](accessibility/)
+
