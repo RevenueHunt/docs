@@ -200,6 +200,8 @@
 
     `Add to cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
 
+    `Sold out` - Default text on the product CTA button when a product or selected variant is out of stock (following Shopify's terminology). | Results Page
+
     `View product` - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
 
     `View collection` - Default text on the product CTA button when checkout settings are set to "Link to Collection". | Results Page
