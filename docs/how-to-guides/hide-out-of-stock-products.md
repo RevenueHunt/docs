@@ -31,7 +31,14 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
 
     !!! tip "Displaying sold out products instead of hiding them"
 
-        If you prefer to show out-of-stock products with a "Sold out" label instead of hiding them, simply leave the inventory filter unchecked. When a product or variant is out of stock, the "Add to cart" button will automatically display "Sold out" and become disabled. You can customize this label text in [Quiz Settings > Quiz Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under **Buttons**.
+        If you prefer to show out-of-stock products with a "Sold out" label instead of hiding them, simply leave the inventory filter unchecked. 
+        
+        **Default behavior for out-of-stock products:**
+        
+        - When a product variant is out of stock, the "Add to cart" button will automatically display "Sold out" and become disabled
+        - Customers will not be able to add out-of-stock variants to their cart
+        - The sold out text can be customized in [Quiz Settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under **Buttons**
+        - To completely hide sold out products from recommendations instead, enable the inventory filter in [App settings > Catalogue > Low inventory filter](/reference/app-settings/#catalogue)
 
 === "Shopify (Legacy)"
 

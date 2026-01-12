@@ -207,7 +207,9 @@
 
     `Low inventory Filter` - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.
 
-    If you check the `Filter products by inventory level` box, the app will hide any products that are low or out of stock from quiz recommendations. This prevents customers from seeing or clicking on products that are unavailable to purchase. If left unchecked, the app may still recommend products even if they are sold out. Once checked, the **`Minimum stock level`** option will become available. You can set the minimum stock level for products to be eligible for recommendations.
+    **When unchecked (default behavior):** Out-of-stock products will still appear in recommendations, but the "Add to cart" button will automatically display "Sold out" and become disabled. Customers cannot add out-of-stock variants to their cart. The "Sold out" text can be customized in [Quiz Settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under **Buttons**.
+
+    **When checked:** If you check the `Filter products by inventory level` box, the app will hide any products that are low or out of stock from quiz recommendations entirely. This prevents customers from seeing products that are unavailable to purchase. Once checked, the **`Minimum stock level`** option will become available. You can set the minimum stock level for products to be eligible for recommendations.
 
     !!! info "How products with multiple variants are handled"
 
