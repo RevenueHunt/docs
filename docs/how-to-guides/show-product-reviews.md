@@ -46,42 +46,67 @@ This article explains how to show product reviews on the results page on your qu
 
         If issues persist with reviews not being pulled, contact the support team for assistance.
 
-    ## Review Apps
+    ## Enabling Storefront API Access for Review Apps
 
-    ### Loox Reviews
+    All review apps store product ratings in Shopify metafields. For our app to display these reviews, the metafields must be **exposed to the Storefront API**. By default, most review apps set their metafields to private.
 
-    Loox metafields for reviews are set to private by default, but it can be changed in order to display the reviews in the quiz result page.
+    !!! info "Which metafields are used?"
 
-    You can make the Loox metafields (like `num_reviews` and `avg_rating` ) available in the Storefront
-    API directly through the Shopify Admin interface using your browser. This involves **editing the metafield definitions in Shopify Admin to enable storefront access**, which sets the permission to `PUBLIC_READ`.
+        All supported review apps use Shopify's reserved `reviews` namespace:
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/1be62fe8d4a942db9393051bfc3bdd02?sid=24de0b08-81d8-4eb3-81fb-a159efb1bc93" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+        - `reviews.rating` - The average star rating (stored as JSON with `value`, `scale_min`, `scale_max`)
+        - `reviews.rating_count` - The total number of reviews (stored as an integer)
 
+    ### How to Enable Storefront API Access
 
-    Step-by-Step Guide:
+    Follow these steps to make review metafields accessible:
 
-    1. Log in to your Shopify Admin dashboard.
-    2. Navigate to `Settings` (bottom left) > `Metafields and metaobjects`.
-    3. Select the resource type for the metafields, such as `Products` (Loox typically uses product-level
-    metafields).
-    4. Locate the specific Loox metafield (e.g., search for `loox.avg_rating` or `loox.num_reviews` in the
-    list). Loox reviews metafields can be located under `unstructured metafields`.
-    5. Click on the metafield name to edit it.
-    6. In the Access section, check the box for `Storefronts` (this enables public read access for custom
-    storefronts and the Storefront API).
+    1. Log in to your **Shopify Admin** dashboard.
+    2. Navigate to **Settings** (bottom left) > **Custom data**.
+    3. Select **Products** from the list.
+    4. Look for the `reviews.rating` and `reviews.rating_count` metafield definitions.
+        - If they don't appear in the main list, check under **View unstructured metafields** (click "More actions" menu).
+    5. Click on each metafield to edit it.
+    6. In the **Storefront access** section, enable the checkbox for **"Read"** or **"Storefronts"** (this sets the permission to `PUBLIC_READ`).
 
-        ![Loox Storefront API](/images/how_to_show_reviews_loox_storefrontapi.png){width="500"}
-    7. Optionally, adjust other settings like name, description, or validation if needed.
-    8. Click `Save`.
+        ![Storefront API Access](/images/how_to_show_reviews_loox_storefrontapi.png){width="500"}
 
-    Once saved, the metafields should appear in the app.
+    7. Click **Save**.
+    8. Repeat for both `reviews.rating` and `reviews.rating_count`.
 
-    !!! warning
+    Once saved, the reviews should appear in your quiz results page.
 
-        If the metafields don't appear editable (rare, but possible for locked app setups), contact Loox support for assistance. 
-        
-        Changes take effect immediately, but you may need to clear any caches in your
-        storefront app.
+    !!! tip "Changes take effect immediately"
+
+        After saving, you may need to clear your browser cache or wait a few seconds for Shopify's edge cache to update.
+
+    ### Review App-Specific Notes
+
+    #### Judge.me
+
+    Judge.me automatically creates the `reviews.rating` and `reviews.rating_count` metafields when reviews are collected. Follow the steps above to enable Storefront API access.
+
+    #### Loox
+
+    Loox writes review data to Shopify's reserved `reviews` namespace. Follow the steps above to enable Storefront API access.
+
+    #### Yotpo
+
+    Yotpo uses the standard `reviews` namespace for ratings. Follow the steps above to enable Storefront API access.
+
+    #### Stamped
+
+    Stamped uses the standard `reviews` namespace. Follow the steps above to enable Storefront API access.
+
+    ### Troubleshooting
+
+    If reviews still don't appear after enabling Storefront API access:
+
+    1. **Verify the product has reviews**: Check the product in your review app to confirm it has collected reviews.
+    2. **Check metafield values**: In Shopify Admin, go to **Products** > select a product > scroll to **Metafields** section to verify the review data exists.
+    3. **Run a catalog sync**: Go to [App Settings > Catalog](/reference/app-settings/#catalogue) and perform a quick [catalog import](/how-to-guides/sync-catalog/).
+    4. **Wait for cache**: Shopify's edge cache can take 5-30 seconds to update after changes.
+    5. **Contact support**: If issues persist, contact our support team or your review app's support for assistance.
 
 
 === "Shopify (Legacy)"
