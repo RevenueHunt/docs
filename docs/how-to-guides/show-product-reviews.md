@@ -8,7 +8,7 @@ This article explains how to show product reviews on the results page on your qu
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/MaBR6d8HmSw?si=0crgn9sjBBlJMAuL" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/0nRTov-gCxY?si=33FdTH4HYZ7UDM04" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
     This documentation outlines the steps to display product reviews on the results page of a quiz created with the Revenue Hunt app. It covers adding the reviews section, selecting a review app, and troubleshooting syncing issues.
@@ -37,10 +37,11 @@ This article explains how to show product reviews on the results page on your qu
             - Stamped,
             - Loox.
 
-    5. You can move the reviews section to a different position within the product component layout, such as right below the product title. 
-    6. Once satisfied with the layout, save your changes with the top-right `Save` button.
-    7. **Previewing the Quiz**: To check if the reviews are displayed correctly, click on `Preview` to preview the quiz.
-    8. **Troubleshooting Review Syncing**: If product reviews do not sync automatically, go to the app settings in the review app. Navigate to [`App Settings` > `Catalog`](/reference/app-settings/#catalogue) and perform a quick [catalog import](/how-to-guides/sync-catalog/). After the import, return to the Revenue Hunt app, check the results page, and preview the quiz again.
+    5. **Enable Storefront API Access**: For reviews to display properly, you need to enable Storefront API access for the review metafields in your Shopify settings. Follow the detailed instructions in the [Enabling Storefront API Access](#enabling-storefront-api-access-for-review-apps) section below.
+    6. You can move the reviews section to a different position within the product component layout, such as right below the product title. 
+    7. Once satisfied with the layout, save your changes with the top-right `Save` button.
+    8. **Previewing the Quiz**: To check if the reviews are displayed correctly, click on `Preview` to preview the quiz.
+    9. **Troubleshooting Review Syncing**: If product reviews do not sync automatically, go to the app settings in the review app. Navigate to [`App Settings` > `Catalog`](/reference/app-settings/#catalogue) and perform a quick [catalog import](/how-to-guides/sync-catalog/). After the import, return to the Revenue Hunt app, check the results page, and preview the quiz again.
 
     !!! info
 
