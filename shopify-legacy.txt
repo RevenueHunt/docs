@@ -5566,9 +5566,9 @@ Integrating your RevenueHunt Product Recommendation Quiz with HubSpot can improv
     5. You'll be directed to a confirmation page indicating that the connection has been successfully established.
         ![how to send leads to hubspot connect succesfull](/images/how_to_send_leads_to_hubspot_connect_succesfull.png)
     Once connected, the quiz results will automatically flow into your HubSpot account. 
-    Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    Sometimes, you would like a bit more control over the data that is sent to HubSpot. In that case there are a few alternatives you can use to send quiz leads to HubSpot.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to HubSpot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to HubSpot.
+    - **Manually adding the quiz leads to HubSpot**: You can manually add the quiz leads to HubSpot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
     Every time your customers take the quiz, their contact details along with all of their responses and product recommendations will be sent to your HubSpot account.
     1. To view the imported data, navigate to the `contacts` section within HubSpot.
     2. Select any contact that has taken the quiz, and click on `view all properties` to examine the details.
@@ -5576,15 +5576,15 @@ Integrating your RevenueHunt Product Recommendation Quiz with HubSpot can improv
     3. You will find a section labeled `Product Recommendation Quiz` or similarly, depending on your quiz setup. This section houses all quiz-related data, including answers and product recommendations.
         ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
     !!! info
-        Once the quiz is connected to Hubspot (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Hubspot.
-    1. Once your quiz is succesfully connected to Hubspot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in Hubspot.
-    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to Hubspot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
+        Once the quiz is connected to HubSpot (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to HubSpot.
+    1. Once your quiz is succesfully connected to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
+    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to HubSpot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
     3. You can use the segment as a trigger for your campaign, ensuring that only quiz takers receive the email.
     4. Set up your campaign and email flow.
     5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn your campaign on and Hubspot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
+    6. Turn your campaign on and HubSpot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
     To personalize your follow-up emails based on quiz data, you’ll need to pull custom properties into the email templates.
     1. In HubSpot, navigate to `Marketing > Email > Create email`.
         ![how to hubspot image4](/images/how_to_hubspot_image4.png)
@@ -8092,7 +8092,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
         ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
     3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
     4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Hubspot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
     2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
     3. **Using Segmented Data:** In your selected CRM, you can now [create segments based on the customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm) and [send them targeted emails](#using-segmented-data) based on the quiz results.
     Once integrated, your CRM or mailing list will contain detailed segmented data on your customers. This enables you to create dynamic segments and direct hyper-targeted campaigns to different groups based on their quiz responses. 

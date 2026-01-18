@@ -2,11 +2,11 @@
 
 === "Shopify"
 
-    While the new Built for Shopiify version of the RevenueHunt app **does not** yet integrate directly with Hubspot, it is still possible to send quiz leads to Hubspot.
+    While the new Built for Shopiify version of the RevenueHunt app **does not** yet integrate directly with HubSpot, it is still possible to send quiz leads to HubSpot.
 
-    This includes manually adding the quiz leads to Hubspot by uploading a CSV file generated from the quiz.
+    This includes manually adding the quiz leads to HubSpot by uploading a CSV file generated from the quiz.
 
-    This guide explain how you can send quiz data to Hubspot with a workaround.
+    This guide explain how you can send quiz data to HubSpot with a workaround.
 
 
 === "Shopify (Legacy)"
@@ -78,9 +78,9 @@
 
 === "Shopify"
 
-    It is **not yet possible** to link your Product Recommendation Quiz created in the new Built for Shopify version of the RevenueHunt app to Hubspot.
+    It is **not yet possible** to link your Product Recommendation Quiz created in the new Built for Shopify version of the RevenueHunt app to HubSpot.
 
-    Check [Alternative Ways to Send Quiz Leads to Hubspot](#alternative-ways-to-send-quiz-leads-to-hubspot) to learn how you can send quiz leads to Hubspot anyway.
+    Check [Alternative Ways to Send Quiz Leads to HubSpot](#alternative-ways-to-send-quiz-leads-to-hubspot) to learn how you can send quiz leads to HubSpot anyway.
 
 
 === "Shopify (Legacy)"
@@ -151,60 +151,60 @@
 
     Once connected, the quiz results will automatically flow into your HubSpot account. 
 
-## Alternative Ways to Send Quiz Leads to Hubspot
+## Alternative Ways to Send Quiz Leads to HubSpot
 
 === "Shopify"
 
-    Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
+    Sometimes, you would like a bit more control over the data that is sent to HubSpot. In that case there are a few alternatives you can use to send quiz leads to HubSpot.
 
-    - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Manually adding the quiz leads to HubSpot**: You can manually add the quiz leads to HubSpot by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
 
 
 
 === "Shopify (Legacy)"
 
-    Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
+    Sometimes, you would like a bit more control over the data that is sent to HubSpot. In that case there are a few alternatives you can use to send quiz leads to HubSpot.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to HubSpot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to HubSpot.
+    - **Manually adding the quiz leads to HubSpot**: You can manually add the quiz leads to HubSpot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
     
 === "WooCommerce"
 
-    Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
+    Sometimes, you would like a bit more control over the data that is sent to HubSpot. In that case there are a few alternatives you can use to send quiz leads to HubSpot.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to HubSpot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to HubSpot.
+    - **Manually adding the quiz leads to HubSpot**: You can manually add the quiz leads to HubSpot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 
 === "Magento"
 
 
-    Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
+    Sometimes, you would like a bit more control over the data that is sent to HubSpot. In that case there are a few alternatives you can use to send quiz leads to HubSpot.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to HubSpot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to HubSpot.
+    - **Manually adding the quiz leads to HubSpot**: You can manually add the quiz leads to HubSpot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 === "BigCommerce"
 
 
-    Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
+    Sometimes, you would like a bit more control over the data that is sent to HubSpot. In that case there are a few alternatives you can use to send quiz leads to HubSpot.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to HubSpot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to HubSpot.
+    - **Manually adding the quiz leads to HubSpot**: You can manually add the quiz leads to HubSpot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 === "Standalone"
 
 
-    Sometimes, you would like a bit more control over the data that is sent to Hubspot. In that case there are a few alternatives you can use to send quiz leads to Hubspot.
+    Sometimes, you would like a bit more control over the data that is sent to HubSpot. In that case there are a few alternatives you can use to send quiz leads to HubSpot.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Hubspot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Hubspot.
-    - **Manually adding the quiz leads to Hubspot**: You can manually add the quiz leads to Hubspot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to HubSpot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to HubSpot.
+    - **Manually adding the quiz leads to HubSpot**: You can manually add the quiz leads to HubSpot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 ## Quiz Data in HubSpot
 
 === "Shopify"
 
-    If you've set up [Alternative Ways to Send Quiz Leads to Hubspot](#alternative-ways-to-send-quiz-leads-to-hubspot), every time your customers take the quiz, their contact details along with all of their responses and product recommendations will be sent over to your HubSpot account.
+    If you've set up [Alternative Ways to Send Quiz Leads to HubSpot](#alternative-ways-to-send-quiz-leads-to-hubspot), every time your customers take the quiz, their contact details along with all of their responses and product recommendations will be sent over to your HubSpot account.
 
     1. To view the imported data, navigate to the `contacts` section within HubSpot.
     2. Select any contact that has taken the quiz, and click on `view all properties` to examine the details.
@@ -269,98 +269,98 @@
 
     !!! info
 
-        Once the quiz data is sent to Hubspot, the rest is out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Hubspot.
+        Once the quiz data is sent to HubSpot, the rest is out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to HubSpot.
 
-    1. Once your quiz is sending data to Hubspot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in Hubspot.
-    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to Hubspot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
+    1. Once your quiz is sending data to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
+    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to HubSpot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
 
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
     3. You can use the segment as a trigger for your campaign, ensuring that only quiz takers receive the email.
     4. Set up your campaign and email flow.
     5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn your campaign on and Hubspot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
+    6. Turn your campaign on and HubSpot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
 
 
 === "Shopify (Legacy)"
 
     !!! info
 
-        Once the quiz is connected to Hubspot (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Hubspot.
+        Once the quiz is connected to HubSpot (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to HubSpot.
 
-    1. Once your quiz is succesfully connected to Hubspot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in Hubspot.
-    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to Hubspot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
+    1. Once your quiz is succesfully connected to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
+    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to HubSpot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
 
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
     3. You can use the segment as a trigger for your campaign, ensuring that only quiz takers receive the email.
     4. Set up your campaign and email flow.
     5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn your campaign on and Hubspot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
+    6. Turn your campaign on and HubSpot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
 
 === "WooCommerce"
 
     !!! info
 
-        Once the quiz is connected to Hubspot (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Hubspot.
+        Once the quiz is connected to HubSpot (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to HubSpot.
 
-    1. Once your quiz is succesfully connected to Hubspot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in Hubspot.
-    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to Hubspot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
+    1. Once your quiz is succesfully connected to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
+    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to HubSpot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
 
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
     3. You can use the segment as a trigger for your campaign, ensuring that only quiz takers receive the email.
     4. Set up your campaign and email flow.
     5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn your campaign on and Hubspot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
+    6. Turn your campaign on and HubSpot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
 
 === "Magento"
 
     !!! info
 
-        Once the quiz is connected to Hubspot (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Hubspot.
+        Once the quiz is connected to HubSpot (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to HubSpot.
 
-    1. Once your quiz is succesfully connected to Hubspot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in Hubspot.
-    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to Hubspot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
+    1. Once your quiz is succesfully connected to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
+    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to HubSpot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
 
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
     3. You can use the segment as a trigger for your campaign, ensuring that only quiz takers receive the email.
     4. Set up your campaign and email flow.
     5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn your campaign on and Hubspot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
+    6. Turn your campaign on and HubSpot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
 
 === "BigCommerce"
 
     !!! info
 
-        Once the quiz is connected to Hubspot (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Hubspot.
+        Once the quiz is connected to HubSpot (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to HubSpot.
 
-    1. Once your quiz is succesfully connected to Hubspot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in Hubspot.
-    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to Hubspot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
+    1. Once your quiz is succesfully connected to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
+    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to HubSpot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
 
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
     3. You can use the segment as a trigger for your campaign, ensuring that only quiz takers receive the email.
     4. Set up your campaign and email flow.
     5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn your campaign on and Hubspot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
+    6. Turn your campaign on and HubSpot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
 
 === "Standalone"
 
     !!! info
 
-        Once the quiz is connected to Hubspot (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Hubspot.
+        Once the quiz is connected to HubSpot (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to HubSpot.
 
-    1. Once your quiz is succesfully connected to Hubspot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in Hubspot.
-    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to Hubspot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
+    1. Once your quiz is succesfully connected to HubSpot, you can set up an [email campaign](https://knowledge.hubspot.com/campaigns/create-campaigns) in HubSpot.
+    2. The first step is creating a segment that contains only quiz takers. You can use custom properties sent to HubSpot profiles to create **segmented lists** based your customers responses to the quiz so you can follow up with hyper-segmented campaigns.
 
         !!! tip
             Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
     3. You can use the segment as a trigger for your campaign, ensuring that only quiz takers receive the email.
     4. Set up your campaign and email flow.
     5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
-    6. Turn your campaign on and Hubspot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
+    6. Turn your campaign on and HubSpot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
 
 ## Using Custom Quiz Properties in Email Templates
 

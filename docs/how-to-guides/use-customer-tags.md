@@ -130,7 +130,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 === "Shopify (Legacy)"
 
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Hubspot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
     2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
 
@@ -139,7 +139,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 === "WooCommerce"
 
 
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Hubspot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
     2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
 
@@ -147,7 +147,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 === "Magento"
 
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Hubspot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
     2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
 
@@ -155,7 +155,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 === "BigCommerce"
 
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Hubspot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
     2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
 
@@ -164,7 +164,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 === "Standalone"
 
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Hubspot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
     2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
 
