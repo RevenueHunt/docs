@@ -124,7 +124,6 @@ Note: Some external links point to our [Blog](https://revenuehunt.com) (revenueh
 - [Plans & Pricing](https://docs.revenuehunt.com/reference/plans-pricing/): Subscription details.
 - [App Settings](https://docs.revenuehunt.com/reference/app-settings/): Configuration options.
 - [CSS Structure](https://docs.revenuehunt.com/reference/css-structure/): CSS customization reference.
-- [API Reference](https://docs.revenuehunt.com/reference/api-reference/): API documentation.
 - **Quiz Builder:**
   - [Quiz Builder Overview](https://docs.revenuehunt.com/reference/quiz-builder/): Main quiz builder documentation.
   - [Questions](https://docs.revenuehunt.com/reference/quiz-builder/questions/): Managing quiz questions.
