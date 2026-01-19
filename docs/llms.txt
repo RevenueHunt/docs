@@ -1,0 +1,85 @@
+# RevenueHunt Documentation
+
+> Product recommendation quiz builder for Shopify, WooCommerce, BigCommerce, Magento, and Standalone stores.
+
+RevenueHunt is an e-commerce quiz app that guides shoppers through tailored questions and recommends products based on their responses. Used by 4,000+ stores. Free plan available, paid plans start at $39/month.
+
+## Content Negotiation
+
+This documentation site supports content negotiation. To receive raw markdown instead of HTML:
+- Request with header: `Accept: text/markdown`
+- Or append `?format=md` to any URL
+
+Example: `curl -H "Accept: text/markdown" https://docs.revenuehunt.com/how-to-guides/send-leads-to-hubspot`
+
+## Getting Started
+
+- [Documentation Home](https://docs.revenuehunt.com/): Overview and installation guides
+- [Install App](https://docs.revenuehunt.com/how-to-guides/install-app): Platform-specific installation
+- [Create First Quiz](https://docs.revenuehunt.com/how-to-guides/create-first-quiz): Build your first product quiz
+- [App Tour](https://docs.revenuehunt.com/tutorials/getting-started): Complete walkthrough
+
+## Tutorials
+
+- [Making Your First Quiz](https://docs.revenuehunt.com/tutorials/making-first-quiz)
+- [Skincare Routine Quiz](https://docs.revenuehunt.com/tutorials/skincare-routine)
+- [Quiz Design Best Practices](https://docs.revenuehunt.com/tutorials/quiz-design)
+- [Using Conditional Logic](https://docs.revenuehunt.com/tutorials/conditional-logic)
+- [Shopify Markets Setup](https://docs.revenuehunt.com/tutorials/shopify-markets)
+
+## How-to Guides
+
+### Product Recommendations
+- [Recommend Products](https://docs.revenuehunt.com/how-to-guides/recommend-products)
+- [Set Up Recommendations](https://docs.revenuehunt.com/how-to-guides/set-up-recommendations)
+- [Recommend Subscription Products](https://docs.revenuehunt.com/how-to-guides/recommend-subscription-products)
+- [Filter by Price](https://docs.revenuehunt.com/how-to-guides/filter-recommendations-by-price)
+- [Hide Out-of-Stock Products](https://docs.revenuehunt.com/how-to-guides/hide-out-of-stock-products)
+
+### Quiz Design
+- [Customize Quiz Design](https://docs.revenuehunt.com/how-to-guides/customize-quiz-design)
+- [Edit Results Page](https://docs.revenuehunt.com/how-to-guides/edit-results-page)
+- [Change Quiz Language](https://docs.revenuehunt.com/how-to-guides/change-quiz-language)
+- [Use Information Recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls)
+
+### Integrations
+- [Send Leads to CRM](https://docs.revenuehunt.com/how-to-guides/send-leads-to-crm): Overview of all CRM integrations
+- [Send Leads to HubSpot](https://docs.revenuehunt.com/how-to-guides/send-leads-to-hubspot)
+- [Send Leads to Klaviyo](https://docs.revenuehunt.com/how-to-guides/send-leads-to-klaviyo)
+- [Integrate Google Analytics](https://docs.revenuehunt.com/how-to-guides/integrate-google-analytics)
+- [Integrate Meta Pixel](https://docs.revenuehunt.com/how-to-guides/integrate-meta-pixel)
+
+### Publishing
+- [Publish Quiz on Website](https://docs.revenuehunt.com/how-to-guides/publish-quiz)
+- [Change Checkout Settings](https://docs.revenuehunt.com/how-to-guides/change-checkout-settings)
+
+## Reference
+
+- [App Manual](https://docs.revenuehunt.com/reference/): Complete feature reference
+- [Quiz Builder](https://docs.revenuehunt.com/reference/quiz-builder/): Quiz creation interface
+- [Plans & Pricing](https://docs.revenuehunt.com/reference/plans-pricing): Pricing details and limits
+- [Dashboard](https://docs.revenuehunt.com/reference/dashboard): Analytics and management
+- [App Settings](https://docs.revenuehunt.com/reference/app-settings): Configuration options
+
+## Customer Success
+
+- [Build a Sales Funnel](https://docs.revenuehunt.com/customer-success/build-sales-funnel)
+- [Quiz Setup Checklist](https://docs.revenuehunt.com/customer-success/quiz-setup-checklist)
+- [Reduce Drop Off](https://docs.revenuehunt.com/customer-success/reduce-dropoff)
+- [Track Metrics for Conversions](https://docs.revenuehunt.com/customer-success/track-quiz-metrics-for-better-conversions)
+
+## Support
+
+- [Contact Support](https://docs.revenuehunt.com/how-to-guides/contact-customer-support)
+- [Troubleshoot Quiz Results](https://docs.revenuehunt.com/how-to-guides/troubleshoot-product-results)
+- [Known Bugs & Limitations](https://docs.revenuehunt.com/customer-success/bugs)
+
+## Supported Platforms
+
+| Platform | Native Integration | Documentation |
+|----------|-------------------|---------------|
+| Shopify | Yes (Built for Shopify) | [Install Guide](https://docs.revenuehunt.com/how-to-guides/install-app) |
+| WooCommerce | Yes (WordPress Plugin) | [Install Guide](https://docs.revenuehunt.com/how-to-guides/install-app) |
+| BigCommerce | Yes (Marketplace App) | [Install Guide](https://docs.revenuehunt.com/how-to-guides/install-app) |
+| Magento | Yes (Module) | [Install Guide](https://docs.revenuehunt.com/how-to-guides/install-app) |
+| Standalone | Yes (Embed Code) | [Install Guide](https://docs.revenuehunt.com/how-to-guides/install-app) |
