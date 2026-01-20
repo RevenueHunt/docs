@@ -2,6 +2,10 @@
 
 === "Shopify"
 
+    !!! info
+    
+        Good news! Our HubSpot integration with list selection is ready to go. We're just waiting for HubSpot to approve our app on their end, and then it'll be available for everyone to use.
+
     While the new Built for Shopiify version of the RevenueHunt app **does not** yet integrate directly with HubSpot, it is still possible to send quiz leads to HubSpot.
 
     This includes manually adding the quiz leads to HubSpot by uploading a CSV file generated from the quiz.
