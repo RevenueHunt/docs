@@ -473,3 +473,33 @@
 === "Standalone"
 
     Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.   
+
+## Promos
+
+=== "Shopify"
+
+    ![app settings promos](/images/manual_shopifyV2_appsettings_promos.png)
+
+    `Promos` - Manage your promos and discounts here.
+
+    `Promo code` - Enter the promo code and confirm by clicking the `Redeem` button.
+
+=== "Shopify (Legacy)"
+
+    Not applicable.
+
+=== "WooCommerce"
+
+    Not applicable.
+
+=== "Magento"
+
+    Not applicable.
+
+=== "BigCommerce"
+
+    Not applicable.
+
+=== "Standalone"
+
+    Not applicable.
