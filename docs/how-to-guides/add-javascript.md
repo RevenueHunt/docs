@@ -658,6 +658,18 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     });
     ```
 
+    **Capture URL parameters for webhooks:**
+    ```javascript
+    const urlParams = new URLSearchParams(window.location.search);
+    actions.setAnswers({
+      'hidden-utm-source': urlParams.get('utm_source') || '',
+      'hidden-utm-medium': urlParams.get('utm_medium') || '',
+      'hidden-utm-campaign': urlParams.get('utm_campaign') || '',
+      'hidden-full-url': window.location.href
+    });
+    ```
+    These synthetic answers will appear in your webhook's `answersByBlock` payload, allowing you to track attribution data alongside quiz responses.
+
     **Auto-add to cart for premium customers (Results Page):**
     ```javascript
     if ((quiz.variables.scores.premium ?? 0) > 80) {

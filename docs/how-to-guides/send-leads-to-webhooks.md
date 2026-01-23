@@ -203,6 +203,17 @@ Before you start, ensure you have:
 
     ![how to webhook settings](/images/how_to_shopifyv2_webhooks_test_connection_result_post.png)
 
+    !!! tip "Capture URL parameters in webhooks"
+        Want to include UTM parameters or other URL data in your webhook? Use [custom JavaScript](/how-to-guides/add-javascript/) to set synthetic answers:
+        ```javascript
+        const urlParams = new URLSearchParams(window.location.search);
+        actions.setAnswers({
+          'hidden-utm-source': urlParams.get('utm_source') || '',
+          'hidden-full-url': window.location.href
+        });
+        ```
+        These values will appear in `answersByBlock` in your webhook payload.
+
     Below is a sample JSON payload sent on the POST request for a skincare quiz:
 
     ```html
