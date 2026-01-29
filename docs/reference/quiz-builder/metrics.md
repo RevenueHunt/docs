@@ -86,6 +86,10 @@
 
     ![manual_shopifyV2_quizbuilder_responses_sample2](/images/manual_shopifyV2_quizbuilder_responses_sample2.png)
 
+    !!! tip "Additional Captured Data"
+
+        JavaScript-injected answers (data captured via custom JavaScript integrations) are displayed in a separate **"Additional Captured Data"** section within the response analysis. This makes it easy to identify and review any custom data that was programmatically added to the quiz response.
+
     **Why was a product recommended or not in this response?** - This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
 
     `v Select item to check` - Click to select a product from the catalog and analyze it against the response. Choose an item below to know why it was recommended or not.

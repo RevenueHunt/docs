@@ -175,6 +175,10 @@
 
     `Default destination` - Select a slide or URL where the user will be always redirected after this slide.
 
+    !!! tip "Drag-and-Drop Reordering"
+
+        You can reorder Jump Logic rules by dragging and dropping them. Simply click and hold on a rule, then drag it to your desired position in the list.
+
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
 
     ---
@@ -484,6 +488,10 @@
     `bin` - Delete the current Skip Logic rule.
 
     `+ Add concurrent logic (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
+
+    !!! tip "Drag-and-Drop Reordering"
+
+        You can reorder Skip Logic rules by dragging and dropping them. Simply click and hold on a rule, then drag it to your desired position in the list.
 
     ---
 
