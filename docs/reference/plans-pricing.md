@@ -19,7 +19,7 @@
 
     `Upgrade` - Click to upgrade to a paid plan.
 
-
+    `Newsletter code` - Enter the newsletter code to redeem a discount or unlock advanced features. Click `Redeem` to apply the code.
 
 
 === "Shopify (Legacy)"

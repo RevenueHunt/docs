@@ -474,15 +474,13 @@
 
     Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.   
 
-## Promos
+## Newsletter
 
 === "Shopify"
 
-    ![app settings promos](/images/manual_shopifyV2_appsettings_promos.png)
+    ![app settings newsletter](/images/manual_shopifyv2_newsletter.png)
 
-    `Promos` - Manage your promos and discounts here.
-
-    `Promo code` - Enter the promo code and confirm by clicking the `Redeem` button.
+    `Email address` - Enter an email address to subscribe to the newsletter.
 
 === "Shopify (Legacy)"
 
