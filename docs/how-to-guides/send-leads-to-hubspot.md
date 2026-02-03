@@ -8,6 +8,8 @@
 
     This guide will walk you through the steps to connect your store to HubSpot, enable the integration for specific quizzes, and optionally add contacts to HubSpot lists.
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/A8j8y6ybS8M?si=gI6NtK2WpynyRD5e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>    
+
     Before starting, make sure you have:
 
     - Access to your RevenueHunt Product Recommendation Quiz.
@@ -82,25 +84,30 @@
 
 === "Shopify"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/A8j8y6ybS8M?si=zZlWvugbBbR2ZAJD&amp;start=36" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>    
+
     The HubSpot integration uses OAuth to securely connect your store to HubSpot. This connection is made at the **store level**, meaning once connected, you can enable HubSpot for any of your quizzes.
 
     1. Open the RevenueHunt app and navigate to any quiz.
     2. Go to `Quiz Settings > Integrations` tab.
     3. Scroll to the `Mailing & CRMs` section and find the HubSpot card.
     4. Click the `Connect` button.
-        ![how to hubspot shopify connect placeholder](/images/how_to_hubspot_shopify_connect.png){: .placeholder}
+        ![how to hubspot shopify connect](/images/how_to_shopifyv2_hubspot_connectbutton.png)
     5. You will be redirected to HubSpot's authorization page. Log in to your HubSpot account if prompted.
     6. Select the HubSpot account you want to connect and click `Choose Account`.
-        ![how to send leads to hubspot connect](/images/how_to_send_leads_to_hubspot_connect.png)
     7. Review the permissions requested and click `Connect app` to authorize the connection.
-        ![how to send leads to hubspot connect succesfull](/images/how_to_send_leads_to_hubspot_connect_succesfull.png)
+        ![how to hubspot shopify connect app](/images/how_to_shopifyv2_hubspot_confirmcrm.png)
     8. You will be redirected back to the RevenueHunt app. The HubSpot card will now show as `Connected` with your Portal ID displayed.
-        ![how to hubspot shopify connected placeholder](/images/how_to_hubspot_shopify_connected.png){: .placeholder}
-
-    Once connected, HubSpot will be automatically enabled for the current quiz. You can enable or disable it for other quizzes individually.
+        ![how to hubspot shopify disconnected](/images/how_to_shopifyv2_hubspot_disabledata.png)
+    9. Once connected, HubSpot will be automatically **disabled** for the current quiz. You can enable it for other quizzes individually by going to the `Quiz Settings > Integrations` tab and clicking the `Enable` button.
+        ![how to hubspot shopify connected](/images/how_to_shopifyv2_hubspot_enabledata.png)
 
     !!! tip "Reconnecting"
         If you previously connected HubSpot but don't see the option to select HubSpot lists, you may need to reconnect. Click `Reconnect` to grant the additional permissions required for list management.
+
+    !!! info "Alternative Way to Connect"
+        You can also connect your RevenueHunt Product Recommendation Quiz to HubSpot directly from the [HubSpot app marketplace](https://app.hubspot.com/portal-recommend/l?slug=marketplace/listing/product-recommendation-quiz). Simply click `Sign in to install` and follow the instructions.
+
 
 === "Shopify (Legacy)"
 
@@ -180,7 +187,7 @@
     2. Go to `Quiz Settings > Integrations` tab.
     3. Scroll to the HubSpot card.
     4. Check the `Enable HubSpot for this quiz` checkbox to enable the integration.
-        ![how to hubspot shopify enable quiz placeholder](/images/how_to_hubspot_shopify_enable_quiz.png){: .placeholder}
+        ![how to hubspot shopify connected](/images/how_to_shopifyv2_hubspot_enabledata.png)
     5. Click `Save` to apply the changes.
 
     When enabled, every time a customer completes this quiz and provides an email address, their contact information and quiz responses will be sent to your HubSpot account.
@@ -217,7 +224,7 @@
     1. Open your quiz in the Quiz Builder.
     2. Select the email question block in your quiz.
     3. In the block settings panel, scroll to the `HubSpot` section.
-        ![how to hubspot shopify list selection placeholder](/images/how_to_hubspot_shopify_list_selection.png){: .placeholder}
+        ![how to hubspot shopify list selection](/images/how_to_shopifyv2_hubspot_addcontactstolist.png)
     4. From the `Select a list` dropdown, choose the HubSpot list where you want to add quiz respondents.
     5. Click `Save` to apply the changes.
 
@@ -305,9 +312,9 @@
 
     1. In HubSpot, navigate to the `Contacts` section.
     2. Select any contact that has taken the quiz and click on `View all properties` to examine the details.
-        ![how to hubspot properties1](/images/how_to_hubspot_image1.png)
+        ![how to hubspot properties1](/images/how_to_shopifyv2_hubspot_viewallproperties.png)
     3. You will find a section labeled `Product Recommendation Quiz`. This section houses all quiz-related data, including answers and product recommendations.
-        ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
+        ![how to hubspot properties2](/images/how_to_shopifyv2_hubspot_prqproperties.png)
 
     **Custom Properties**
 
@@ -492,6 +499,8 @@
 
 === "Shopify"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/A8j8y6ybS8M?si=yojv6oUR8hd1NnO4&amp;start=222" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>    
+
     To personalize your follow-up emails based on quiz data, you'll need to pull custom properties into the email templates.
 
     1. In HubSpot, navigate to `Marketing > Email > Create email`.
@@ -613,7 +622,7 @@
     2. Go to `Quiz Settings > Integrations` tab.
     3. Scroll to the HubSpot card.
     4. Click the `Disconnect` button.
-        ![how to hubspot shopify disconnect placeholder](/images/how_to_hubspot_shopify_disconnect.png){: .placeholder}
+        ![how to hubspot shopify disconnect placeholder](/images/how_to_shopifyv2_hubspot_enabledata.png)
     5. Confirm the disconnection when prompted.
 
     !!! warning
