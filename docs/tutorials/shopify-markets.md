@@ -160,6 +160,10 @@ icon: material/numeric-8
     6. In [`Quiz settings`](/reference/quiz-builder/quiz-settings/) go to [`Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-contentt) click `Reset messages` and change the language of system buttons and helpers as needed. You can also change the translations manually for each field. 
     7. Remember to save the changes with the `Save` button.
 
+    !!! success "Product Titles & Descriptions Are Translated Automatically"
+
+        You only need to translate the quiz **questions, choices, and UI text** manually. The **product titles, descriptions, and prices** shown on the results page are fetched automatically from Shopify in the customer's language and currency. This works through Shopify's Storefront API — as long as you have product translations set up via the [Translate & Adapt](https://apps.shopify.com/translate-and-adapt) app (or a compatible translation app), those translations will appear automatically in quiz results.
+
 
 
 === "Shopify (Legacy)"

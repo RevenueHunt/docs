@@ -156,6 +156,12 @@ icon: material/earth
     In there, you can also change format of how the price currency on recommended product is displayed. If you don't change the default, the price will be displayed as set up in your Shopify Market. If you want to change the format type the currency in the format you want, for example `${{amount}}` or `{{amount}}€` can be used to replace the default `{{amount}}USD` or `{{amount}}EUR`.
 
 
+    !!! success "Automatic Product Translation"
+
+        When Shopify Markets are configured, the quiz results page will **automatically display translated product titles, descriptions, and localized prices** based on the customer's market and language. This works through Shopify's Storefront API — if you have product translations set up via the [Translate & Adapt](https://apps.shopify.com/translate-and-adapt) app, they will appear automatically in quiz results. No extra configuration is needed in the RevenueHunt app.
+
+
+
 
 === "Shopify (Legacy)"
 
