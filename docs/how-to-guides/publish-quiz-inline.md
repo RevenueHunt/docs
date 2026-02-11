@@ -92,11 +92,11 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
     4. In the `Inline Quiz` section, you can adjust the inline quiz settings.
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
 
-        `Quiz height` - The initial height of the quiz. If the quiz is not tall enough, after the first question, it will expand to fit the content.
+        `Quiz height` - The initial height of the quiz. The first question always uses this fixed height (this is a Shopify requirement to prevent layout shifts on page load). After the first question, the quiz will expand to fit the content.
 
         `Quiz height (unit)` - The unit of the quiz height. Default is `Pixels (px)`. You can change it to `Viewport height percentage (vh)`.
 
-        `Fixed height` - Keeps the quiz height fixed. Turn off to allow automatic height adjustment.
+        `Fixed height` - Keeps the quiz height fixed. Turn off to allow automatic height adjustment after the first question.
 
         `Full width quiz` - Makes the quiz span the full width of the page. Off by default (Shopify recommended). 
 

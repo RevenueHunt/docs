@@ -5378,11 +5378,11 @@
 
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
 
-    In Inline Quiz settings, you can choose the `Quiz height (in pixels)`, just type the number in.
+    In Inline Quiz settings, you can choose the `Quiz height (in pixels)`, just type the number in. The first question always uses this fixed height (this is a Shopify requirement to prevent layout shifts on page load). After the first question, the quiz will expand to fit the content.
 
     *Automatic scroll into View* - Uncheck this option if you don't want the quiz to scroll into view.
 
-    *Fixed height* - Will set a fixed height of the quiz iframe as specified in the **Height** field above. This also fixes the height of the results page.
+    *Fixed height* - Will set a fixed height of the quiz iframe as specified in the **Height** field above. This also fixes the height of the results page. When turned off, automatic height adjustment begins after the first question.
 
 
 === "Shopify (Legacy)"
