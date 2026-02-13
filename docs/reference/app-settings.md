@@ -12,7 +12,7 @@
 
     `Shopify Customers` - Enable automatic syncing of quiz leads to your Shopify Customers list via the [Shopify Customers](#shopify-customers) tab.
 
-    `Catalogue` - Run a catalog sync from the [Catalogue](#catalogue) tab or check when the last sync was completed.
+    `Catalogue` - Import tags, collections, vendors, and metafields from the [Catalogue](#catalogue) tab or check the import status.
 
     `SMTP settings` - Provide your email [SMTP scredentials](#smtp) to send result emails from your email provider.
 
@@ -197,13 +197,13 @@
 
     ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
 
-    Our app automatically updates your store's catalog daily and after changes. This includes products, collections, tags, variants, and vendors. You can also manually pull the catalog anytime to ensure that all information is up-to-date and accurate.
+    Product names, descriptions, prices, and images shown in your quiz results are always pulled live from Shopify — they're always up to date.
 
-    `Import Catalogue` - Start a new catlogue sync. This takes a few minutes.
+    The catalogue import updates the lists of **tags, collections, vendors, variants, and metafields** available in the quiz builder. This happens automatically every 24 hours. If you've just added new tags or collections in Shopify and don't see them in the builder, use the import button below.
 
-    `Last catalogue import:` - The last time an item from a catalog was updated (in real time) in the app.
+    **Import tags, collections, vendors & metafields** - This section shows the current import status, the number of items imported (products, collections, tags, vendors, variants, metafields), and the `Import now` button to trigger a manual import. The import history can be expanded to see past imports.
 
-    `Catalogue processed at:` - The last time the product catalog was fully processed and updated.
+    `Import now` - Start a new catalogue import. This typically takes a few minutes depending on your catalog size.
 
     `Low inventory Filter` - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.
 
@@ -229,7 +229,7 @@
 
     !!! warning "After changing this setting"
 
-        You must click `Import Catalogue` to apply the change. The new ordering takes effect only after a fresh import.
+        You must click `Import now` to apply the change. The new ordering takes effect only after a fresh import.
 
     ??? info "When to use Preserve collection order?"
 

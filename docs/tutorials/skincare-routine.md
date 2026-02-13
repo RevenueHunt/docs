@@ -390,11 +390,11 @@ icon: material/numeric-2
 === "Shopify"
 
 
-    Once you’ve made changes to your products and collections in Shopify, the RevenueHunt app will automatically detect the changes and sync them with the app.
+    Once you’ve made changes to your products and collections in Shopify, product data (names, prices, images) is automatically up to date — it’s pulled live from Shopify.
 
     !!! tip
 
-        If you don't see the new items in the app catalog, you can run quick catalog import from the [App Settings > Catalogue](/reference/app-settings/#catalogue) page.
+        If you don't see new tags, collections, or vendors in the quiz builder, run a quick catalogue import from the [App Settings > Catalogue](/reference/app-settings/#catalogue) page.
 
 
 === "Shopify (Legacy)"

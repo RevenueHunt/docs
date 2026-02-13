@@ -2,14 +2,14 @@
 icon: material/sync
 ---
 
-# How to Run a Catalog Sync
+# How to Import Your Catalogue
 
 === "Shopify"
 
 
-    If you're missing products or collections in the loaded list within the new Built for Shopify version of the RevenueHunt app, you can run a catalog import from the app's dashboard.
+    If you're missing tags, collections, vendors, or metafields in the quiz builder within the Built for Shopify version of the RevenueHunt app, you can run a catalogue import from the app settings.
 
-    This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
+    This article explains what the catalogue import does and how to trigger it.
 
 
 === "Shopify (Legacy)"
@@ -46,23 +46,23 @@ icon: material/sync
     This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
 
 
-## Sync Your Products with the App
+## Import Your Catalogue
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/l-JPWb82zNA?si=AtL09re7OHc6fKXL" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    In the `💎Built for Shopify` version of the RevenueHunt app, your product catalog is synced in real time, so there's typically no need to run a manual sync.
+    In the `💎Built for Shopify` version of the RevenueHunt app, product names, descriptions, prices, and images shown in quiz results are **always pulled live from Shopify** via the Storefront API. This data is always up to date — no import needed.
 
-    However, if you need to force a catalog sync:
+    The catalogue import pulls **tags, collections, vendors, variants, and metafields** from your Shopify store so they appear in the quiz builder's dropdown lists. This happens automatically every 24 hours. You only need a manual import if you've just added new tags or collections in Shopify and don't see them in the builder yet.
+
+    To run a manual import:
 
     1. **Navigate to App Settings:** Go to [App Settings > Catalogue](/reference/app-settings/#catalogue).
-    2. **Initiate Manual Sync:** Click the `Import catalogue` button to trigger a manual sync.
+    2. **Click "Import now"** in the *Import tags, collections, vendors & metafields* section.
 
         ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
 
-    The real-time sync feature ensures your products and collections are always up to date, making manual syncs generally unnecessary.
-
 
 === "Shopify (Legacy)"
 
@@ -105,19 +105,18 @@ icon: material/sync
     1. **Navigate to Dashboard:** Log in to your [Dashboard](/reference/dashboard/) and locate the [Success Checklist](/reference/dashboard/#success-checklist).
     2. **Initiate Manual Sync:** Under the `SYNC PRODUCTS FROM YOUR STORE` section, click the `run manual sync` button. The sync takes about 30-60 minutes to complete depending on the size of your catalog.
 
-## Sync Details
+## Import Details
 
 === "Shopify"
 
-    !!! info "Important"
-        Our app automatically syncs your store's catalog every 24 hours and whenever changes are made in your store's catalog. This includes updates to products, collections, tags, variants, and vendors.
+    !!! info "What does the catalogue import do?"
+        The import pulls tags, collections, vendors, variants, and metafields from your Shopify store so they appear in the quiz builder's dropdown lists. Product names, descriptions, prices, and images are **not** part of this import — they are always fetched live from Shopify when quiz results are displayed.
 
-    - Your product catalog syncs **in real time**, so changes you make to your products or collections in Shopify are immediately reflected in the RevenueHunt app.
-    - Only products marked as **active** will be synced with the app and appear in dropdown choices. 
-    - **Archived products are excluded** from the sync and will not be visible.
-    - **Draft products are included** in the sync and will be visible in the app unless you change your [Catalogue Settings](/reference/app-settings/#catalogue) to exclude draft products.
-    - The automatic real-time sync ensures your catalog is always up to date without manual intervention.
-    - In rare cases where you need to force a sync, you can use the `Import catalogue` button in [App Settings > Catalogue](/reference/app-settings/#catalogue).
+    - The catalogue import runs **automatically every 24 hours**.
+    - Only products marked as **active** are included in the import. **Archived products are excluded**.
+    - **Draft products are included** in the import unless you change your [Catalogue Settings](/reference/app-settings/#catalogue) to exclude them.
+    - You typically don't need to run a manual import. It's only necessary when you've added new tags, collections, or vendors in Shopify and they haven't appeared in the quiz builder yet.
+    - To run a manual import, use the `Import now` button in [App Settings > Catalogue](/reference/app-settings/#catalogue).
 
 
 === "Shopify (Legacy)"
@@ -170,13 +169,13 @@ icon: material/sync
     - You can manually sync your store **every 1 hour**. Additionally, our app automatically performs a sync every 24 hours to keep your catalog current.
     - For optimal results, make any necessary updates or changes to your store before triggering a manual sync. This ensures your latest product information is accurately reflected in the app.
 
-## Troubleshooting Sync Issues
+## Troubleshooting Import Issues
 
 === "Shopify"
 
-    - **Verify Product Status:** If products aren't appearing, check that they are set to "Active" status in your Shopify store.
-    - **Force a Manual Sync:** If real-time updates aren't reflecting, try using the `Import catalogue` button in [App Settings > Catalogue](/reference/app-settings/#catalogue) to force a complete sync.
-    - **Contact Support:** If problems persist after trying a manual sync, please [contact our support team](/how-to-guides/contact-customer-support/) for assistance.
+    - **Missing tags, collections, or vendors in the builder?** Run a manual import from [App Settings > Catalogue](/reference/app-settings/#catalogue) by clicking `Import now`. New items should appear within a few minutes.
+    - **Products not showing up?** Check that they are set to "Active" status in your Shopify store. Archived products are excluded from the import.
+    - **Import stuck or failed?** Check the import status in [App Settings > Catalogue](/reference/app-settings/#catalogue). If it shows "Import failed", click `Import now` to retry. If problems persist, please [contact our support team](/how-to-guides/contact-customer-support/) for assistance.
 
 
 === "Shopify (Legacy)"
@@ -204,11 +203,11 @@ icon: material/sync
     - **Check Sync Status:** If your products or collections aren't showing up as expected, or if the product counts remain at zero, it's possible the initial sync is still in progress or has encountered an issue.
     - **Contact Support:** Should issues persist beyond the expected sync time, please [contact our support team](/how-to-guides/contact-customer-support/). We can manually initiate a complete sync of your shop to ensure everything is up-to-date.
 
-## Selectively Sync Product Collections/Categories
+## Selectively Import Product Collections/Categories
 
 === "Shopify"
 
-    The feature is not needed. App syncs only the products you chose to use in the quiz.
+    This feature is not needed. The app only imports data for the products and collections you use in your quizzes.
 
 
 === "Shopify (Legacy)"
@@ -236,6 +235,6 @@ icon: material/sync
     This feature is not available.
 
 ---
-This article explains how to sync your product catalog with the RevenueHunt app.
+This article explains how to import your catalogue data into the RevenueHunt app.
 
-By following these steps, you can update your catalog with the RevenueHunt app, ensuring your products and collections are accurately linked and displayed.
+By following these steps, you can ensure your tags, collections, vendors, and metafields are up to date in the quiz builder.

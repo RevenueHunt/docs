@@ -62,7 +62,7 @@ icon: material/filter
 
             Check the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool in case of wrong recommendations.
 
-            It may also be necessary to run a quick [catalog sync](/how-to-guides/sync-catalog/) in case of wrong recommendations.
+            It may also be necessary to run a quick [catalogue import](/how-to-guides/sync-catalog/) in case of wrong recommendations.
 
 
 === "Shopify (Legacy)"
