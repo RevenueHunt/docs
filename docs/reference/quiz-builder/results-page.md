@@ -906,7 +906,7 @@
         
         Unless you add a filter, the slot will display a list of upvoted items. 
 
-    `Exclude segments` - Click `+ Add exclude type` to choose products from which Products, Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block.
+    `Exclude segments` - Click `+ Add exclude type` to choose products from which Products, Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block. You can exclude items based on tags, vendors, or variants — not just collections (Shopify only).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1.png)
 

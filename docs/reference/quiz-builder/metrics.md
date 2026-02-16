@@ -102,6 +102,8 @@
 
     `Customer Tags` - Displays the customer tags associated with this response. Customer tags help you understand your customer's needs, as well as helping with segmentation and retargeting.
 
+    `Integrations` - Displays the integrations that were triggered for this response and whether they were successful or not.
+
     **Result: Results page 1** - - Displays the name of the results page recommended. This screen displays the configuration of a Result Section and explains what was shown to the customer and why.
 
     ![manual_shopifyV2_quizbuilder_responses_sample2_productdetails](/images/manual_shopifyV2_quizbuilder_responses_sample2_productdetails.png)

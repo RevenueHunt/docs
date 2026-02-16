@@ -8,6 +8,12 @@
 
     From the Store settings menu you can:
 
+    `General` - Add a contact email for support to get notified about quiz issues, improvements or important updates (support only, no marketing emails).
+
+    !!! tip
+
+        You can add multiple contact emails by separating them with a comma.
+
     `Shopify Markets` - Assign quizzes to different markets and languges via the [Shopify Markets](#shopify-markets) tab.
 
     `Shopify Customers` - Enable automatic syncing of quiz leads to your Shopify Customers list via the [Shopify Customers](#shopify-customers) tab.
@@ -17,6 +23,8 @@
     `SMTP settings` - Provide your email [SMTP scredentials](#smtp) to send result emails from your email provider.
 
     `Plans and pricing` - Manage you current subscription and plan details from the [Plans & Pricing](#plans-pricing) tab.
+
+    `Newsletter` - Subscribe to the newsletter to get notified about new features, updates and important announcements.
 
 
 === "Shopify (Legacy)"
