@@ -213,6 +213,8 @@
 
     `Import now` - Start a new catalogue import. This typically takes a few minutes depending on your catalog size.
 
+    `Refresh` - Refresh the import status and tag/vendors/variants/metafields quantities.
+
     `Low inventory Filter` - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.
 
     **When unchecked (default behavior):** Out-of-stock products will still appear in recommendations, but the "Add to cart" button will automatically display "Sold out" and become disabled. Customers cannot add out-of-stock variants to their cart. The "Sold out" text can be customized in [Quiz Settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under **Buttons**.
