@@ -50,7 +50,7 @@ icon: material/sync
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/l-JPWb82zNA?si=AtL09re7OHc6fKXL" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/4-MTXwFFwtU?si=M-wK6Gi4b0XXWEkU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     In the `💎Built for Shopify` version of the RevenueHunt app, product names, descriptions, prices, and images shown in quiz results are **always pulled live from Shopify** via the Storefront API. This data is always up to date — no import needed.
 
@@ -62,6 +62,7 @@ icon: material/sync
     2. **Click "Import now"** in the *Import tags, collections, vendors & metafields* section.
 
         ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
+    3. The catalog will be processed and the *Imported* timestamp will be updated. If you see the timestamp is not updated after the catalog import finishes, click the `Refresh` button to update the import status.
 
 
 === "Shopify (Legacy)"
