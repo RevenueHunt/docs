@@ -104,8 +104,8 @@ The monolith serves `embed.js` from `public/embed.js` (accessed at `https://admi
 
 | Project | Local Path | Purpose |
 |---------|-----------|---------|
-| **WP Plugin** (eCommerce) | `/Users/libertas/Local Sites/productrecommendationquiz/app/public/wp-content/plugins/product-recommendation-quiz-for-ecommerce` | WordPress.org free plugin (supports WooCommerce, Magento, BigCommerce, Standalone) |
-| **WooCommerce Extension** | `/Users/libertas/Local Sites/productrecommendationquiz/app/public/wp-content/plugins/product-recommendation-quiz-for-woocommerce` | Paid WooCommerce Marketplace extension (WooCommerce-only) |
+| **WP Plugin** (eCommerce) | `~/Local Sites/productrecommendationquiz/app/public/wp-content/plugins/product-recommendation-quiz-for-ecommerce` | WordPress.org free plugin (supports WooCommerce, Magento, BigCommerce, Standalone) |
+| **WooCommerce Extension** | `~/Local Sites/productrecommendationquiz/app/public/wp-content/plugins/product-recommendation-quiz-for-woocommerce` | Paid WooCommerce Marketplace extension (WooCommerce-only) |
 
 ### How They Connect to the Monolith
 
@@ -138,7 +138,7 @@ Deployed to the public WordPress.org plugin repository via SVN.
 
 - **SVN repo**: `https://plugins.svn.wordpress.org/product-recommendation-quiz-for-ecommerce/`
 - **Plugin page**: https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/
-- **Credentials**: SVN username `revenuehunt`, password in KeePassXC (search "svn")
+- **Credentials**: SVN username and password stored in KeePassXC
 - **Process**: Update versions → Git push → Copy files to SVN trunk (excluding `.claude/`, `.project/`, `CLAUDE.md`, `.git/`) → `svn ci` → `svn copy trunk tags/X.X.X` → `svn ci`
 - **Propagation**: 5–15 minutes after SVN tag commit
 - **Full SOP**: `.project/sops/SOP_Update-WordPress-Plugin.md` in the plugin directory
@@ -151,7 +151,7 @@ Deployed as a paid extension via the WooCommerce Marketplace vendor dashboard.
 
 - **Dashboard**: https://woocommerce.com/wp-admin/
 - **Product page**: https://woocommerce.com/wp-admin/edit.php?post_type=product&page=view-product&post=6046806
-- **Credentials**: WordPress.com username `revenuehunt`, password in KeePassXC (search "wordpress.com")
+- **Credentials**: WordPress.com credentials stored in KeePassXC
 - **Process**: Update versions → Git push to Keybase → Copy folder to Desktop → Remove dev files (`.git/`, `.claude/`, `.project/`, `CLAUDE.md`) → ZIP → Upload via Dashboard Version > Add Version
 - **Full SOP**: `.project/sops/SOP_Update-WooCommerce-Extension.md` in the plugin directory
 - **Deployment skill**: `.claude/skills/deploy-woocommerce-extension.md`
