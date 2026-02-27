@@ -12,13 +12,9 @@ Building a product selector for your eCommerce store has never been easier with 
 
     With our modern drag-and-drop builder, extensive design options, and powerful recommendation engine, you can create stunning quizzes that perfectly match your brand. We offer a variety of design and content [templates](https://revenuehunt.com/templates/) tailored specially for the beauty industry (skin care quiz, hair care quiz, lipstick match finder) and other verticals.
 
-While creating a quiz is straightforward, ensuring it serves both your audience and your business requires some strategic thinking. At RevenueHunt, **we've analyzed countless successful product recommendation quizzes** and built our new Shopify app based on what works best. We've identified elements that make quizzes popular with online shoppers and drive results for brands.
+While creating a quiz is straightforward, ensuring it serves both your audience and your business requires some strategic thinking. At RevenueHunt, **we've analyzed the data behind hundreds of successful product recommendation quizzes** - over 900 quizzes, 1.29 million responses, and $63.8M in tracked revenue - to understand exactly what drives results. The best-performing quizzes consistently reach **10–25%+** conversion rates.
 
 In this article, we've gathered all this knowledge to help you build a high-converting product selector that uses the latest features of our platform.
-
-<div class="videoWrapper">
-<iframe src="https://www.youtube.com/embed/eJaiwjhyNgI?si=3XG85TzxvvXtsTw0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 Here’s a list of things every Product Recommendation Quiz should have (and how to add them):
 
@@ -77,66 +73,71 @@ The native integration with Shopify means your quiz will inherit some of your th
 
 Let’s talk names now. When you hear the word ‘quiz’, what is the first thing that comes to mind? To most people a quiz is either a dreadful school memory or a lighthearted ‘Which animal are you?’ entertainment. The truth is, the word quiz doesn’t have the best reputation, but fortunately you don’t have to stick with it. 
 
-Finding the right name for your quiz can sometimes be key to getting more conversions. A **‘Shade finder’**, a **‘Skincare Routine builder’**, **‘Skin Diagnostic’**, **‘Hair Analysis’** sound more like a professional questionnaire than entertainment, don’t they? The secret is in the name, so try to find something that fits your brand well and provides value for the customer. If you’re not sure what to choose, think about your customer’s most asked questions and start there.
+Finding the right name for your quiz can sometimes be key to getting more conversions. A **‘Shade finder’**, a **‘Skincare Routine builder’**, **‘Skin Diagnostic’**, **‘Hair Analysis’** sound more like a professional questionnaire than entertainment, don’t they? The secret is in the name, so try to find something that fits your brand well and provides value for the customer.
+
+The data backs this up: the highest-converting quizzes frame themselves as **product finders**, not personality quizzes. Names like *“Find Your Perfect...”*, *“Discover the right...”*, or *“Which supplement do I need?”* set clear expectations - the customer knows they’ll walk away with a personalized recommendation. If you’re not sure what to choose, think about your customer’s most asked questions and start there.
 
 ![how to build a succesful quiz image3](/images/how_to_build_a_succesful_quiz_image3.jpg)
 
-## 4. Add personalized advice
+## 4. Keep your quiz simple and linear
 
-*(Jump logic, Skip logic, Display logic)*
+*(Most top converters use straight-line flows — no branching required)*
 
-One way to make the quiz more than just a product selector is to add personalized advice based on customer answers. Our new `💎Built for Shopify` app makes this easier than ever with an intuitive drag-and-drop interface for conditional logic.
+This is one of the most counterintuitive findings from our platform data: **most top-converting quizzes are completely linear**. Every customer sees the same questions in the same order, and the recommendation engine uses their answers to determine which products to show. No branching, no skip logic, no complex paths.
 
-!!! info "Conditional Logic"
+This might feel less “personalized” — but the numbers say otherwise. A well-structured linear quiz with relevant questions and thorough product mapping consistently outperforms over-engineered branching flows. Linear quizzes are also faster to build, easier to test, and simpler to improve over time.
 
-    The new visual [Conditional Logic](/how-to-guides/hide-content-with-logic/) builder lets you create complex personalization flows without any coding:
+**Start linear. Get your questions and product mapping right first.**
 
-    - Design complex branching paths with an intuitive interface similar to Shopify's theme editor with our visual logic builder
-    - Chose from multiple logic types:
+!!! info "When conditional logic genuinely helps"
 
-        - **Jump Logic**: Send customers to different questions based on their answers
-        - **Skip Logic**: Hide irrelevant questions automatically
-        - **Display Logic**: Show/hide content blocks based on previous answers
-        - **Score Logic**: Track points and create personality-based recommendations
+    Conditional logic is a real feature and it has its place — just not as the default starting point:
+
+    - **Very large catalogs with distinct product lines**: e.g., a pet food quiz splitting into separate cat and dog paths where the questions are completely different
+    - **Filtering truly irrelevant questions**: Skip Logic to hide a question that doesn't apply given an earlier answer
+    - **Results page personalization**: Display Logic on the *results page* (not the questions) can show different advice or content blocks to different customer segments without complicating the question flow at all
+
+    Our [Conditional Logic](/how-to-guides/hide-content-with-logic/) builder makes these easy to add once you have a working baseline quiz.
 
 
-!!! example "When can I use logic?"
+## 5. Ask questions customers can actually answer
 
-    - Does your customer have dry skin? Use Jump Logic to direct them to specific questions about dry skin concerns, completely skipping the oily skin path
+*(Relevance drives conversion — images are optional)*
 
-    - Your customer suffers from hair loss? Create a branching path with Jump Logic that explores different causes (medication, genetic conditions, lifestyle) and provides tailored product recommendations and advice
+The single most important thing about your questions is that customers can answer them quickly and confidently. A question that confuses or frustrates loses the sale — no amount of design polish fixes a bad question.
 
-    - Want to show special content to premium customers? Use Display Logic to reveal exclusive offers based on their responses
+**Images are not required for high conversion.** Many of our top-converting quizzes — including those in the highest-converting categories like health supplements and gift finders — use entirely text-based answer choices. Question relevance drives conversion; visual presentation does not.
 
-The visual logic builder makes it easy to create an experience that feels like talking to a real expert, guiding customers to the perfect products for their needs.
+That said, images genuinely help when the answer *is* visual. If you're asking a customer to identify their skin tone, hair texture, or lip shade, a **[Picture question](/reference/quiz-builder/questions/#question-types)** removes ambiguity and reduces wrong answers — which means better recommendations and higher conversion. Use images where they genuinely help customers choose (e.g., shade matching, skin type identification) and skip them where text is clearer.
 
-![how to build a succesful quiz image4](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
+!!! tip "3–6 answer choices per question"
 
-The same logic can also be applied to the contents of the Results Page. A different content block can be shown to customers with dry skin and oily skin. A different advice can be given to customers with colored or natural hair. 
-
-![how to build a succesful quiz image4](/images/how_to_shopifyv2_use_display_logic_based_on_answers_example1.png)
-
-The Results Page is also a great place to give additional “how to use” advice or even add a prediction on how their skin will improve in the months/weeks of using the product (all depending on the customer's skin type).
-
-## 5. Use descriptive pictures to help customers decide
-
-*(Design your own icons & add picture questions)*
-
-It is not always easy to know whether you have dry or oily skin, whether your complexion is light or dark, what exactly your hair-color is called… There’s no better way to help the customer choose than by showing them an example. 
-
-Adding a **[Picture question](/reference/quiz-builder/questions/#question-types)** to your Product Recommendation Quiz can be a great way to help the customer pick the right answer and help them make an educated purchasing decision. You can add real-life examples for your customers to relate to or design your own beautiful icons that will match your store’s style. A visual quiz gets more completions than a fully-text-based one, so make sure to include some images!
+    Top-converting quizzes consistently use **3–6 choices per question**. Fewer than 3 may not capture enough variation to personalize the recommendation; more than 6 creates decision fatigue. Keep it in this range across your quiz.
 
 ![how to build a succesful quiz image5](/images/how_to_build_a_succesful_quiz_image5.jpg)
 
 ![how to build a succesful quiz image6](/images/how_to_build_a_succesful_quiz_image6.jpg)
 
-## 6. Keep it short
+## 6. Find the right length
 
-*(Max. 5-6 questions)*
+*(Sweet spot: 6–12 questions)*
 
-This is probably the most important piece of advice on this list. No matter what you do, if your Product Recommendation Quiz is too long, you’ll not see the desired effects. 
+Question count matters, but not in the way you might expect. Our platform data across 637 converting quizzes reveals a clear picture:
 
-Our research shows that most successful quizzes have **max. 5-6 questions**. In other cases, customers typically drop out after question 8 and almost nobody gets to question 12. There’s power in simplicity! Even if your quiz has some branching, make sure that the total time they spent on the quiz is less than 1-2 minutes.
+| Question Count | Avg. Conversion Rate |
+|---------------|---------------------|
+| **9–12 questions** | **11.0%** |
+| **6–8 questions** | **10.4%** |
+| 13–20 questions | 9.9% |
+| 1–5 questions | 9.8% |
+
+The **sweet spot is 6–12 questions** — long enough to feel truly personalized, short enough to complete in 1–2 minutes. **Start with 7–8 questions**; it’s the most popular range for a reason.
+
+!!! info "What about longer quizzes?"
+
+    Very short quizzes (1–5 questions) actually underperform slightly — they may not build enough engagement or confidence for the customer to buy. And very long quizzes (21+ questions) still convert well (~10%) because users who complete a detailed assessment are highly qualified leads. The data also shows that **converters and non-converters answer the same number of questions** — finishing the quiz is what matters, not quiz length.
+
+The key rule: make every question count. If a question doesn’t change the recommendation, cut it.
 
 ## 7. Limit the recommended products
 
@@ -158,7 +159,31 @@ Best Practices:
 - For collections: Show a curated collection that matches their needs
 - Use fixed recommendations for your best-sellers or when you want complete control
 
-The key is to make the choice clear and focused. What's the point of a quiz if you end up with 10 results from which you still need to choose? Keep it simple and watch your conversion rates grow.
+The key is to make the choice clear and focused. What’s the point of a quiz if you end up with 10 results from which you still need to choose? Keep it simple and watch your conversion rates grow.
+
+### Map every answer choice to a product or collection
+
+This is one of the highest-impact things you can do, and one of the most commonly skipped. Our data shows that **top-converting quizzes have mappings on most or all of their answer choices** — every answer the customer gives influences which products get recommended.
+
+A quiz where only some answers are mapped produces weak, generic recommendations. A quiz where every answer is mapped produces tight, accurate ones. The difference shows up directly in conversion rates.
+
+!!! success "The mapping checklist"
+
+    Before launching, go through every question and every answer choice and ask: *does this answer push the recommendation toward the right products?*
+
+    - Map to **collections** when a broad category applies (e.g., “dry skin” → Hydrating Moisturizers collection)
+    - Map to **individual products** when a specific answer points to one product clearly
+    - Use **exclusions** to filter out products that are wrong for this answer
+    - An answer choice with no mapping is a missed signal — fix it before you launch
+
+!!! success "Use a single results page"
+
+    Platform data shows that **79% of converting quizzes use exactly one results page** — and they convert best (10.6% avg). Quizzes with 11+ results pages convert at only 7.1%. A single, focused results page with product slots creates a clear, personalized recommendation moment. Typical high-converting results page structure:
+
+    1. **Heading** — e.g., “Your personalized recommendations”
+    2. **Short text** — context or explanation
+    3. **Product slots** — the recommended products with add-to-cart
+    4. **Optional CTA button** — direct to checkout or collection
 
 ![how to build a succesful quiz image7](/images/how_to_build_a_succesful_quiz_image7.png)
 
@@ -172,17 +197,24 @@ Take a look at this example of a haircare quiz:
 
 ![how to build a succesful quiz image8](/images/how_to_build_a_succesful_quiz_image8.gif)
 
-## 9. Send results to the customer if they want
+## 9. Collect email and connect to Klaviyo
 
-*(Email, Klaviyo, Omnisend, Mailchimp...)*
+*(The full funnel: quiz → email capture → nurture → purchase)*
 
-A well-structured sales funnel, with a Product Recommendation Quiz and a targeted email campaign, can lead to 50% higher conversions. A quiz can serve as an excellent lead collector. Not only are you able to get email addresses or phone numbers via the quiz, but you can also segment your audience based on their quiz answers and follow up with an email tailored to their needs. 
+A well-structured sales funnel — quiz → email capture → targeted follow-up → purchase — is the single most powerful pattern in our platform data. **71% of top-converting quizzes collect email addresses**, and the numbers are striking:
 
-Think about a marketing campaign focused on people living in large urban areas, where a proper morning or evening skin routine is especially important for a clear complexion. Big brands know that a swift follow-up is crucial to maintaining the customer’s attention. 
+| Has Klaviyo | Avg. Conversion | Avg. Orders per Quiz |
+|-------------|-----------------|---------------------|
+| **Yes** | **12.0%** | **242** |
+| No | 9.7% | 146 |
+
+Quizzes integrated with Klaviyo convert **24% better** and generate **66% more orders** on average. This likely reflects more mature merchants who invest in the full funnel.
 
 With RevenueHunt app, you’re able to [send quiz results](/how-to-guides/send-result-emails/) directly to the customer seconds after completing the quiz. You can even connect your quiz to [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and send the customer a full list of results including product pictures, descriptions, discount codes or instructions for use.
 
-While collecting emails is a very important part of a sales, some customers prefer to take time before trusting your brand with this information. Some customers will leave immediately and some just want to see the results. To ensure the quality of the leads generated by the quiz the RevenueHunt app allows you to **make the email question optional** or even give a customer a choice if they want to see it or not.
+!!! tip "Should you make email required?"
+
+    Yes — the data shows it. Among the top-converting quizzes that collect email, **75% make it required**, and this does **not** hurt conversion rates. Customers who are engaged enough to complete your quiz are happy to share their email in exchange for a personalized recommendation. You can still offer the option to skip if it fits your brand, but don’t be afraid to require it.
 
 ## 10. Offer a discount after completing
 
