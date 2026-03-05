@@ -75,7 +75,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     By following these steps, you'll have a well-localized quiz experience ready for each market and language, which you can then manage seamlessly in the Shopify Markets tab of your app settings.
 
-    ## Automatic Product Translation (Shopify V2)
+    ## Automatic Product Translation
 
     !!! success "Translated Product Titles & Descriptions"
 
