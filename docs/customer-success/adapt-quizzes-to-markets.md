@@ -51,7 +51,7 @@ Localization isn’t just swapping languages. It touches multiple layers of the 
 
 **Visuals.** Even colors carry meaning. Red signals good fortune in China but can imply danger in Western markets.  
 
-**Currency and pricing.** Showing euros to a German customer instead of USD removes an instant layer of friction.  
+**Currency and pricing.** Showing euros to a German customer instead of USD removes an instant layer of friction. With the `💎 Built for Shopify` version, product prices are automatically converted to the customer's local currency and product titles and descriptions are shown in the customer's language — as long as you have translations set up via Shopify's [Translate & Adapt](https://apps.shopify.com/translate-and-adapt) app.  
 
 **Legal requirements.** Some regions enforce very specific rules — like GDPR consent in Europe or advertising standards in Canada.  
 
