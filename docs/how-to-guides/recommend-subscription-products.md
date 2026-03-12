@@ -28,7 +28,7 @@ If you're using a subscription app that is not supported, you can still recommen
 
     !!! warning "Before you start"
 
-        - Ensure you are using the [Recharge Pro version](https://getrecharge.com/pricing/) to access the Storefront API. If you are not using the Pro version, try reaching out to [Recharge support](https://support.getrecharge.com/hc/en-us#) to see what's possible.
+        - Ensure you are using the [Recharge Plus version](https://getrecharge.com/pricing/) to access the Storefront API. If you are not using the Plus version, try reaching out to [Recharge support](https://support.getrecharge.com/hc/en-us#) to see what's possible.
         - Confirm that Recharge is configured on your Shopify website according to the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/).
 
 
@@ -76,7 +76,7 @@ If you're using a subscription app that is not supported, you can still recommen
 
     !!! warning "Before you start"
 
-        - Ensure you are using the [Recharge Pro version](https://getrecharge.com/pricing/) to access the Storefront API. If you are not using the Pro version, try reaching out to [Recharge support](https://support.getrecharge.com/hc/en-us#) to see what's possible.
+        - Ensure you are using the [Recharge Plus version](https://getrecharge.com/pricing/) to access the Storefront API. If you are not using the Plus version, try reaching out to [Recharge support](https://support.getrecharge.com/hc/en-us#) to see what's possible.
         - Confirm that Recharge is configured on your Shopify website according to the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/).
 
 
