@@ -12,6 +12,10 @@
 
     `Results page 1` - the first results page, currently editing.
 
+    `Λ` / `V` - Click to expand or collapse all the blocks in the results page at once (only visble when the results page has more than one section)..
+
+    `⚙️` - Click to open the results page settings.
+
     `+ Add slot` - Adds a new slot to this [Products block](/reference/quiz-builder/results-page/#products-products-variants-collections). To remove a section or a block, click the `bin` icon.
 
     `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
