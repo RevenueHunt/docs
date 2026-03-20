@@ -5,6 +5,10 @@
     **Questions**
     
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions.png)
+
+    `Λ` / `V` - Click to expand or collapse all the questions in the quiz at once.
+
+    `↔` - Click to expand the questions and choices in a horizontal view.
     
     `+ Add choice` - Adds an extra choice in muliple-choice questions. To remove a choice, click on the 🗑 bin icon.
 
@@ -337,6 +341,8 @@
     `...` - Opens the question management settings. Click `Duplicate` to duplicate the question or `Remove` to delete it.
 
     ![manual_shoopifyV2_remove](/images/manual_shoopifyV2_remove.png)
+
+    `Question name` - Optional admin label. Gives questions an admin label (e.g. "Skin type question") that shows in the sidebar. Only visible in the builder, not shown to users.
 
     `Image upload` - Click `Select image` and then in the popup `Add image` to upload a background image to this quiz question from your computer. You can also chose from existing images from your quiz gallery. 
 
