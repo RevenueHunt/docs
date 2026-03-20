@@ -6,9 +6,15 @@ icon: material/slash-forward-box
 
 === "Shopify"
 
-    It is **not possible yet** to pre-fill quiz responses in the new Built for Shopify version of the RevenueHunt app.
+    In the new Built for Shopify version of the RevenueHunt app, pre-filling quiz responses via JavaScript variables or URL parameters is not available. However, there is a built-in [**pre-fill on retake** setting](/reference/quiz-builder/quiz-settings/#general).
 
+    When enabled, a customer who retakes the quiz will have all their previous answers (choices, text fields, dates, etc.) automatically pre-filled, so they only need to change what's different.
 
+    To enable it, go to **Quiz Settings → Behavior → Pre-fill answers on retake** and toggle it on.
+
+    !!! note
+
+        This setting is off by default for existing quizzes and on by default for newly created quizzes.
 
 === "Shopify (Legacy)"
 
@@ -76,8 +82,7 @@ icon: material/slash-forward-box
 
 === "Shopify"
 
-    It is **not possible yet** to pre-fill quiz responses in the new Built for Shopify version of the RevenueHunt app.
-
+    Pre-filling quiz responses via `window.prq_vars` is not available in the new Built for Shopify version of the RevenueHunt app. Use the built-in **Pre-fill answers on retake** setting in [**Quiz Settings → Behavior**](/reference/quiz-builder/quiz-settings/#general) instead.
 
 === "Shopify (Legacy)"
 
@@ -269,8 +274,7 @@ icon: material/slash-forward-box
 
 === "Shopify"
 
-    It is **not possible yet** to pre-fill quiz responses in the new Built for Shopify version of the RevenueHunt app.
-
+    Pre-filling quiz responses via URL parameters is not available in the new Built for Shopify version of the RevenueHunt app. Use the built-in **Pre-fill answers on retake** setting in [**Quiz Settings → Behavior**](/reference/quiz-builder/quiz-settings/#general) instead.
 
 === "Shopify (Legacy)"
 
