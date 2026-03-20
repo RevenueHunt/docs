@@ -47,13 +47,15 @@
 
     `Save quiz progress` - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
 
+    `Pre-fill answers on retake` - Activating this setting will pre-fill the answers on the retake quiz page. Toggle to activate. When customers retake the quiz, their previous answers will be pre-filled so they only need to change what's different.
+
     **Quiz accessibility settings**
 
-    `Disable zooming in on mobile devices` - Activating this setting will prevent the user from zooming in on mobile devices.
+    `Disable zooming in on mobile devices` - Enabling this setting prevents the screen from zooming in when customers tap on text fields on mobile. This also disables pinch-to-zoom on the quiz.
 
     **Quiz payload settings**
 
-    `Include the product variants in the payload sent to Klaviyo, Zapier, other CRM apps, Webhooks, etc.` - Activating this setting will include the product variants in the payload sent to Klaviyo, Zapier, other CRM apps, Webhooks, etc. If deactivated, only the main product information will be sent.
+    `Include product variants in payload` - Activating this setting includes product variant details in the payload sent to Klaviyo, Zapier, Webhooks, and other integrations. Most integrations don't need this, and large payloads may not be accepted.
 
     **Quiz migration**
 
