@@ -802,6 +802,8 @@
 
     `Description` - Adds the product description as set up in Shopify Products.
 
+    `Unit price` - Adds a unit price text block to the product cards. This shows Shopify's per-unit pricing (e.g., "$5.00/L" or "€2.50/100g"). Useful for food, beverage, cosmetics, and other shops that sell by weight or volume. 
+
     `Link to product` - Adds a button link to the product URL. Links open only on live storefronts. They won't open in quiz preview or on password-protected stores.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
