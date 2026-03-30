@@ -1,3 +1,7 @@
+---
+description: "Get started with RevenueHunt product recommendation quiz. Installation guides, tutorials, and documentation for Shopify, WooCommerce, BigCommerce, and Magento."
+---
+
 # Getting Started with RevenueHunt
 
 ## What is RevenueHunt app?

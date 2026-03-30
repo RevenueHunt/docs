@@ -1,3 +1,7 @@
+---
+description: "Step-by-step guides for RevenueHunt quiz setup, customization, product recommendations, integrations, publishing, and troubleshooting."
+---
+
 # Welcome to Our How-to Guides!
 
 Whether you're here to craft your very first quiz or looking to fine-tune the experience with advanced customization, you've arrived at the right place. Our collection of how-to guides is designed to assist you at every step of your journey, from initial setup to detailed customization and optimization.

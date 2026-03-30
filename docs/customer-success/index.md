@@ -1,3 +1,7 @@
+---
+description: "Best practices for RevenueHunt quizzes: sales funnels, setup checklists, reducing drop-off, tracking conversions, and maximizing quiz engagement."
+---
+
 # Welcome to the Customer Success Hub!
 
 Our mission is to provide you with the resources and support you need to maximize the potential of your e-commerce store using our quiz solution. Whether you're looking to boost sales, engage customers, or gather valuable data, we have the tools and expertise to help you succeed.

@@ -1,3 +1,7 @@
+---
+description: "Complete RevenueHunt app manual covering the dashboard, quiz builder, plans and pricing, app settings, and accessibility features."
+---
+
 # App Manual
 
 Discover all the app's functions

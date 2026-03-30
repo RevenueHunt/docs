@@ -1,3 +1,7 @@
+---
+description: "RevenueHunt tutorials for creating product recommendation quizzes, skincare routines, conditional logic, quiz design, and Shopify Markets setup."
+---
+
 # Tutorial Videos
 
 You’re about to create your first Product Reocmmendation Quiz but not sure where to start? Below you’ll find a list of helpful tutorials that show you step-by-step how to use the app’s features.
