@@ -13,7 +13,7 @@ Transferring a quiz from one store to another with the RevenueHunt app is straig
 
 !!! warning
 
-    It is not possible to copy a quiz created with the legacy version of the RevenueHunt app into the new Built for Shopify version of the app.
+    To migrate a quiz from the legacy app into the `💎Built for Shopify` version of RevenueHunt app, use the [Migrate from Legacy App](/how-to-guides/migrate-shopify-legacy-quiz/) option instead.
 
 This article will guide you through the process of copying a quiz from one store to another.
 

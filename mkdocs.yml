@@ -69,6 +69,7 @@ nav:
     - Getting Started:
       - Install App: how-to-guides/install-app.md
       - Create Your First Quiz: how-to-guides/create-first-quiz.md
+      - Migrate a Legacy Quiz to Built for Shopify: how-to-guides/migrate-shopify-legacy-quiz.md
       - Contact Customer Support: how-to-guides/contact-customer-support.md
       - Use Quiz Copilot: how-to-guides/use-quiz-copilot.md
     - Quiz Design & Customization:
@@ -162,6 +163,7 @@ nav:
     - Use Customer Tags in Quizzes to Max Sales: customer-success/use-customer-tags-in-quiz.md
     - Smartly Ask for Marketing Consent: customer-success/ask-marketing-consent.md
     - Adapt Quizzes for Different Markets and Languages: customer-success/adapt-quizzes-to-markets.md
+    - Why the Best-Selling Quizzes Have Zero CSS: customer-success/best-quizzes-no-css.md
     - Plans & Pricing FAQ: customer-success/plans-pricing-faq.md
     - Built for Shopify: customer-success/built-for-shopify.md
     - Bugs & Limitations: customer-success/bugs.md

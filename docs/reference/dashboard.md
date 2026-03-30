@@ -713,7 +713,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
 === "Shopify"
 
-    ![manual_shopifyV2_createquiz.png](/images/manual_shopifyV2_createquiz.png)
+    ![manual_shopifyV2_createquiz.png](/images/manual_shopifyV2_createquiz.png){width="300"}
 
     `Generate with AI` - Generate a quiz with [RevnueHunt Copilot AI](/how-to-guides/use-quiz-copilot/). Opens a Copilot AI chat window.
 
@@ -749,7 +749,13 @@ On the dashboard, you'll find all the quizzes that you create.
 
         For instructions no how to export/import a quiz from one store to another in a JSON format, please check [this guide](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
+    `Migrate from Legacy App` - Opens a dialog listing all quizzes from your legacy RevenueHunt account. Select a quiz and click `Import Now` to copy it into the `💎Built for Shopify` app. Questions, results pages, logic, and design are migrated automatically. The imported quiz will appear in your dashboard with the suffix **(Imported from V1)**.
 
+    ![manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png){width="500"}
+
+    !!! note "Migration guide"
+
+        For full details on what migrates and what may need manual follow-up, check [How to Migrate a Legacy Quiz to the 💎Built for Shopify App](/how-to-guides/migrate-shopify-legacy-quiz/).
 
 
 === "Shopify (Legacy)"
@@ -769,6 +775,7 @@ On the dashboard, you'll find all the quizzes that you create.
     `live preview` - Opens a live preview of the quiz templates.
 
     `use this template` - Adds the template to your dashboard. 
+
 
 === "WooCommerce"
 
