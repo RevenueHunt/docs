@@ -1,5 +1,6 @@
 ---
 icon: material/diversify
+description: "Master conditional logic in RevenueHunt to branch quizzes and customize content based on customer answers."
 ---
 
 # How to Use Conditional Logic in Product Recommendation Quiz

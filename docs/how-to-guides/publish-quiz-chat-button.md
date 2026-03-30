@@ -1,3 +1,7 @@
+---
+description: "Step-by-step guide to add a chat button that opens a RevenueHunt quiz popup on your eCommerce store."
+---
+
 # How to Add a Quiz Popup via a Chat-Like Button on Your Store
 
 This guide provides step-by-step instructions on how to implement a chat button that opens the quiz feature, offering both theme-based and manual methods.

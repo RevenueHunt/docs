@@ -1,7 +1,7 @@
 ---
 icon: material/lightbulb-question
+description: "Learn how to display custom explanations for why products were recommended in RevenueHunt."
 ---
-
 
 # How to Show Results Explanation
 

@@ -1,5 +1,6 @@
 ---
 icon: material/login
+description: "Information about showing RevenueHunt quiz only to logged-in customers in Shopify."
 ---
 
 # How to Show Quiz Only to Logged-in Customers

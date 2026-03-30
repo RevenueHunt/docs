@@ -1,3 +1,7 @@
+---
+description: "Learn how to create a RevenueHunt scoring quiz with personality types and calculated results."
+---
+
 # How to Set Up Scoring Quiz
 
 Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted varaibl or a score.

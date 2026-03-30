@@ -1,5 +1,6 @@
 ---
 icon: material/printer-pos-wrench
+description: "Step-by-step guide to troubleshoot RevenueHunt product recommendation issues in your quiz."
 ---
 
 # How to Troubleshoot Product Recommendations in Your Quiz

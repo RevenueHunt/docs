@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-2
+description: "Build a skincare routine quiz with RevenueHunt that recommends organized product recommendations in multiple categories."
 ---
 
 # Recommending a Skincare Routine with RevenueHunt app

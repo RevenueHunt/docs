@@ -1,5 +1,6 @@
 ---
 icon: material/cards
+description: "Comprehensive guide to different RevenueHunt recommendation systems for product quizzes."
 ---
 
 # How to Set Up Recommendations

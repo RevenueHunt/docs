@@ -1,3 +1,7 @@
+---
+description: "Configure RevenueHunt app settings including contact emails, notifications, and store-specific configurations."
+---
+
 # App Settings
 
 ## General

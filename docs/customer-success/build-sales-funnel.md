@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-0
+description: "Build an effective sales funnel with RevenueHunt quizzes to increase conversions and average order value."
 ---
 
 # How to build a Sales Funnel

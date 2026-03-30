@@ -1,5 +1,6 @@
 ---
 icon: material/earth
+description: "Learn how to show different RevenueHunt quizzes based on Shopify markets and languages."
 ---
 
 # How to Show a Quiz Based on Shopify Markets

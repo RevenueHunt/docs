@@ -1,5 +1,6 @@
 ﻿---
 icon: material/hanger
+description: "Complete guide to recommending accurate clothing sizes in RevenueHunt quiz based on measurements."
 ---
 
 # How to Recommend Sizes Based on Measurements

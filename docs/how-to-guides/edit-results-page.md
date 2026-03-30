@@ -1,4 +1,5 @@
 ---
+description: "Step-by-step guide to customize your RevenueHunt quiz results page with content blocks and dynamic display logic."
 icon: material/playlist-edit
 ---
 

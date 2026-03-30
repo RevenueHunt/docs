@@ -1,5 +1,6 @@
 ---
 icon: material/email-heart-outline
+description: "Complete guide to setting up RevenueHunt quiz result emails and admin notifications."
 ---
 
 # Setting Up Result Emails with Product Recommendation Quiz

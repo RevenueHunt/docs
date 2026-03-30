@@ -1,5 +1,6 @@
 ---
 icon: material/restore-alert
+description: "Learn how to restore a previous version of your RevenueHunt quiz using version history."
 ---
 
 # How to Restore Quiz Progress

@@ -1,3 +1,7 @@
+---
+description: "Learn how to connect RevenueHunt quiz to Omnisend for targeted email and SMS campaigns."
+---
+
 # How to Send Leads to Omnisend
 
 === "Shopify"

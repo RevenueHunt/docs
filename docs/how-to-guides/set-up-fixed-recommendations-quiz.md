@@ -1,3 +1,7 @@
+---
+description: "Step-by-step guide to create a RevenueHunt quiz with fixed product recommendations."
+---
+
 # How to Set Up Fixed Recommendations Quiz
 
 Recommended for quizzes with complex branching. Set up fixed sections with pre-determined products to be shown on the results page. Then add logic to control visibility of each section or results page.

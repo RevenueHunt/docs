@@ -1,3 +1,7 @@
+---
+description: "RevenueHunt dashboard guide for managing, viewing, and optimizing all quizzes in your store."
+---
+
 # Dashboard - Quizzes
 
 On the dashboard, you'll find all the quizzes that you create.

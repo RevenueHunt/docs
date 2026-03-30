@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-7
+description: "Use customer tags in RevenueHunt quizzes for precise segmentation and targeted email marketing campaigns."
 ---
 
 # How to Use Customer Tags in Product Quizzes to Maximize Sales

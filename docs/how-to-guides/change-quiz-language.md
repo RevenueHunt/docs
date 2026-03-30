@@ -1,4 +1,5 @@
 ---
+description: "Learn how to change your RevenueHunt quiz language and translate it for different languages using Shopify Markets."
 icon: material/translate-variant
 ---
 

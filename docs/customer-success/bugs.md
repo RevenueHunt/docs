@@ -1,5 +1,6 @@
 ---
 icon: material/bug-outline
+description: "Known bugs and limitations in RevenueHunt app with status and workarounds for reported issues."
 ---
 
 

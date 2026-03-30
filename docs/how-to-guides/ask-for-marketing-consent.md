@@ -1,4 +1,5 @@
 ---
+description: "Learn how to ask for marketing consent and data processing acceptance in your RevenueHunt quiz to ensure GDPR compliance."
 icon: material/account-check-outline
 ---
 

@@ -1,4 +1,5 @@
 ---
+description: "Step-by-step guide to add product metafields and attributes to your RevenueHunt quiz results page for enhanced product information display."
 icon: material/focus-field-horizontal
 ---
 

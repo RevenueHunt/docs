@@ -1,3 +1,7 @@
+---
+description: "Set up email notifications in RevenueHunt for store owners and quiz respondents with customizable messages."
+---
+
 # Notifications
 
 === "Shopify"

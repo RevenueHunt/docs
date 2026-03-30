@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-8
+description: "Collect marketing consent in RevenueHunt quizzes compliantly with GDPR and CCPA while minimizing drop-off."
 ---
 
 

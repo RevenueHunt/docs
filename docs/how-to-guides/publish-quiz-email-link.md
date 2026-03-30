@@ -1,3 +1,7 @@
+---
+description: "Learn how to create an external RevenueHunt quiz link for embedding in email and newsletter campaigns."
+---
+
 # How to Get an External Quiz Link for Emails and Newsletters
 
 This guide walks you through the process of creating an external quiz link that can be embedded in emails and newsletters. This is an effective way to engage your subscribers by incorporating interactive content directly into your email marketing campaigns.

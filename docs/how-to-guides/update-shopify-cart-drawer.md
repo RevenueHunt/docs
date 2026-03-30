@@ -1,7 +1,7 @@
 ---
 icon: material/cart-arrow-down
+description: "Learn how to update your Shopify cart drawer when products are added via RevenueHunt quiz."
 ---
-
 
 # How to Update Your Shopify Cart Drawer Products After the Quiz
 

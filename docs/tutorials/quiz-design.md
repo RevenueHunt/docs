@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-4
+description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds, navigation, and transitions at global and block levels."
 ---
 
 # Editing Quiz Design

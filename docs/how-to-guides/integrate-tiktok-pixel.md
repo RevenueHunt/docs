@@ -1,4 +1,5 @@
 ---
+description: "Learn how to integrate TikTok Pixel with your RevenueHunt quiz to track user interactions and improve TikTok ads performance."
 icon: material/music-note-outline
 ---
 

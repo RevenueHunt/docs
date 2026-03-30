@@ -1,7 +1,7 @@
 ---
 icon: material/format-header-pound
+description: "Learn how to use Markdown formatting in RevenueHunt quiz text and content areas."
 ---
-
 
 # How to Use Markdown Language
 

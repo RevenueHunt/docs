@@ -1,3 +1,7 @@
+---
+description: "Step-by-step guide to using display logic in RevenueHunt to show/hide results page content."
+---
+
 # How to use Display Logic
 
 [Display logic](/reference/quiz-builder/conditional-logic/#display-logic) is a feature of the [Results Page](/reference/quiz-builder/results-page/) that allows you to make elements visible or hidden on the results page based on conditional logic rules.

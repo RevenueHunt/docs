@@ -1,3 +1,7 @@
+---
+description: "Complete guide to RevenueHunt Quiz Builder sections including questions, conditional logic, design, and result pages."
+---
+
 # Quiz Builder
 
 ## Quiz Builder Overview

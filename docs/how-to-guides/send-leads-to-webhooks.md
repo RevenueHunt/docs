@@ -1,3 +1,7 @@
+---
+description: "Learn how to send RevenueHunt quiz data to custom webhooks for automated data processing."
+---
+
 # How to Send Leads to Webhooks
 
 Integrating thw quiz with webhooks allows you to automatically send all quiz data, including responses, recommended products, and participant information, to your specified endpoints. 

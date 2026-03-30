@@ -1,3 +1,7 @@
+---
+description: "Learn how to add products manually or import them from Google Merchant Center to your RevenueHunt Standalone app catalog."
+---
+
 # How to Add Products in Standalone RevenueHunt App
 
 This guide explains different methods to add products in the Standalone version of the RevenueHunt quiz app. You can either add products manually or import them from Google Merchant Center as a valid data source/XML file.

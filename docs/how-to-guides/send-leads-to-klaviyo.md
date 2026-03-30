@@ -1,3 +1,7 @@
+---
+description: "Complete guide to integrate RevenueHunt quiz with Klaviyo for targeted email follow-up campaigns."
+---
+
 # How to Send Quiz Leads to Klaviyo
 
 Apart from giving your customers personalized product recommendations, you can connect your quiz to Klaviyo. This way all the contacts coming from the quiz will be added to your Klaviyo account and you can create targeted email campaigns to upsell them.

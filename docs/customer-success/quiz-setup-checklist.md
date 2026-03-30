@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-1
+description: "RevenueHunt quiz setup checklist - essential steps before launch based on high-converting best practices."
 ---
 
 # Quiz Success - 📋 Setup Checklist

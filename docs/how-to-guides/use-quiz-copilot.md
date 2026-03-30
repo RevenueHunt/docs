@@ -1,5 +1,6 @@
 ---
 icon: material/chat-question-outline
+description: "Learn how to use Quiz Copilot AI assistant to build and customize RevenueHunt quizzes."
 ---
 
 # How to Use Quiz Copilot

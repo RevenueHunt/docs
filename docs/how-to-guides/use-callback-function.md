@@ -1,5 +1,6 @@
 ---
 icon: material/code-json
+description: "Learn about using callback functions for custom integrations with RevenueHunt quiz."
 ---
 
 # How to Use Callback Function for Custom Integrations

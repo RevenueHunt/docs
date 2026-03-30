@@ -1,4 +1,5 @@
 ---
+description: "Learn how to hide out-of-stock and draft products from your RevenueHunt quiz recommendations automatically."
 icon: material/basket-off-outline
 ---
 

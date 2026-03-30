@@ -1,5 +1,6 @@
 ---
 icon: material/cash-multiple
+description: "Track RevenueHunt quiz analytics and revenue metrics to measure eCommerce store performance and ROI."
 ---
 
 # How to Track Quiz Revenue

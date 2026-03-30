@@ -1,3 +1,7 @@
+---
+description: "Complete CSS class reference guide for customizing RevenueHunt quizzes including selectors for questions, results, and designs."
+---
+
 # CSS Structure Reference Guide
 
 This guide provides a comprehensive overview of all CSS classes and selectors available in the `💎 Built for Shopify` RevenueHunt quiz app. Use this reference to customize the appearance of your quizzes.

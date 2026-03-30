@@ -1,5 +1,6 @@
 ---
 icon: material/slash-forward-box
+description: "Learn how to enable pre-fill on retake for RevenueHunt quiz responses to streamline customer experience."
 ---
 
 # How to Pass Parameters to Pre-fill Quiz Responses

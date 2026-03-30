@@ -1,4 +1,5 @@
 ---
+description: "Learn how to diagnose and optimize RevenueHunt quiz loading speed to ensure smooth user experience on your website."
 icon: material/loading
 ---
 

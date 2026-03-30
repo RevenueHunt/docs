@@ -1,3 +1,7 @@
+---
+description: "Learn how to set up a RevenueHunt quiz link popup that opens when visitors click menu items or buttons."
+---
+
 # How to Set Up a Quiz Link Popup on Your Store
 
 This guide will walk you through the process of setting up a **Quiz Link Popup** on your eCommerce store. 

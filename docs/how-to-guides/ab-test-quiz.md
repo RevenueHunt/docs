@@ -1,4 +1,5 @@
 ---
+description: "Learn how to A/B test your RevenueHunt quiz to optimize conversions and find the best-performing quiz version."
 icon: material/ab-testing
 ---
 

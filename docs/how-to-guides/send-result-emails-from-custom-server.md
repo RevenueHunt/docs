@@ -1,5 +1,6 @@
 ---
 icon: material/server
+description: "Learn how to send RevenueHunt result emails from your own SMTP server instead of defaults."
 ---
 
 # How to Send Result Emails from Your Server Using SMTP

@@ -1,3 +1,7 @@
+---
+description: "RevenueHunt quizzes follow WCAG 2.1 Level AAA accessibility guidelines for keyboard navigation and inclusive design."
+---
+
 # Accessibility
 
 RevenueHunt quizzes are built with accessibility best practices in mind, following **WCAG 2.1 Level AAA** guidelines.

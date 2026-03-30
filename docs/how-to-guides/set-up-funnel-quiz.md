@@ -1,3 +1,7 @@
+---
+description: "Complete guide to setting up a RevenueHunt funnel quiz with dynamic product voting system."
+---
+
 # How to Set Up Funnel Quiz
 
 A Funnel Quiz helps your customers find the best product by assigning "votes" to products as they answer questions. The quiz counts these votes and recommends the most relevant products at the end.

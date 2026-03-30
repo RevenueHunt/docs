@@ -1,4 +1,5 @@
 ---
+description: "Learn how to customize your RevenueHunt quiz design with built-in settings, custom CSS, JavaScript, and personalized content blocks."
 icon: material/palette-outline
 ---
 

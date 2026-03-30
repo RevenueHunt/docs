@@ -1,3 +1,7 @@
+---
+description: "Create and manage custom customer tags in RevenueHunt for segmenting customers and enabling targeted email marketing."
+---
+
 # Customer Tags
 
 === "Shopify"

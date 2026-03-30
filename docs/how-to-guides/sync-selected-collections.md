@@ -1,3 +1,7 @@
+---
+description: "Learn how to selectively sync product collections with RevenueHunt for optimized quiz performance."
+---
+
 # How to Selectively Sync Product Collections with RevenueHunt app
 
 === "Shopify"

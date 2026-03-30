@@ -1,4 +1,5 @@
 ---
+description: "Step-by-step guide to add discount codes to your RevenueHunt quiz questions and results page for automatic or manual checkout application."
 icon: material/sale
 ---
 

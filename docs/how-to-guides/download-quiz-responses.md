@@ -1,4 +1,5 @@
 ---
+description: "Learn how to download and analyze quiz responses from your RevenueHunt product recommendation quiz for detailed insights."
 icon: material/table-arrow-down
 ---
 

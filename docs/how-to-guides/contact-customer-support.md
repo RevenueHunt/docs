@@ -1,4 +1,5 @@
 ---
+description: "Get in touch with RevenueHunt's customer support team via our integrated quiz or email for quick assistance with your questions."
 icon: material/face-agent
 ---
 

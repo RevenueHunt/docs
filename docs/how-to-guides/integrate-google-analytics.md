@@ -1,4 +1,5 @@
 ---
+description: "Learn how to integrate Google Analytics with your RevenueHunt quiz to track user engagement and minimize abandonment rates."
 icon: material/google-analytics
 ---
 

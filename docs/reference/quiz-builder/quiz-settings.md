@@ -1,3 +1,7 @@
+---
+description: "Configure RevenueHunt quiz settings for language, currency, translations, integrations, and email notifications."
+---
+
 # Quiz Settings
 
 === "Shopify"

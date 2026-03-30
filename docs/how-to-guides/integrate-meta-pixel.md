@@ -1,4 +1,5 @@
 ---
+description: "Learn how to integrate Meta Pixel with your RevenueHunt quiz to track conversions and optimize your Facebook advertising performance."
 icon: material/facebook
 ---
 

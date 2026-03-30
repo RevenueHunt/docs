@@ -1,3 +1,7 @@
+---
+description: "Convert RevenueHunt quiz leads into customers with personalized follow-ups and customer acquisition strategies."
+---
+
 # How to Convert Leads to Customers
 
 A product recommendation quiz is more than just an engagement tool. Done right, it becomes the foundation of your **customer acquisition and retention strategy**. By capturing contact details and delivering personalized results, you can build trust, drive conversions, and turn first-time quiz takers into long-term buyers.

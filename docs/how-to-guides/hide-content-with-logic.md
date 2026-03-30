@@ -1,4 +1,5 @@
 ---
+description: "Learn how to use conditional logic to show or hide content in your RevenueHunt quiz based on customer answers and responses."
 icon: material/eye-off
 ---
 

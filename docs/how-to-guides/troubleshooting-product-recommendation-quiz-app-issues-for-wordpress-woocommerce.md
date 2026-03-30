@@ -1,5 +1,6 @@
 ---
 icon: material/wordpress
+description: "Comprehensive troubleshooting guide for RevenueHunt quiz app issues on WordPress/WooCommerce."
 ---
 
 # Troubleshooting Product Recommendation Quiz App Issues for WordPress / WooCommerce

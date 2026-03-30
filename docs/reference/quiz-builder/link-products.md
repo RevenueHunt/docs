@@ -1,3 +1,7 @@
+---
+description: "Add specific products and variants to quiz choices in RevenueHunt with upvote weighting settings."
+---
+
 # Link Products
 
 === "Shopify"

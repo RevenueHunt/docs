@@ -1,5 +1,6 @@
 ---
 icon: material/sync
+description: "Learn how to import and sync your product catalog with RevenueHunt quiz builder."
 ---
 
 # How to Import Your Catalogue

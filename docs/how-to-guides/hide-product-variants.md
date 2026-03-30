@@ -1,4 +1,5 @@
 ---
+description: "Learn how to hide product variants dropdown in your RevenueHunt quiz or recommend specific variants on results page."
 icon: material/sort-variant-off
 ---
 

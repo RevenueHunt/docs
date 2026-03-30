@@ -1,3 +1,7 @@
+---
+description: "Learn how to send RevenueHunt quiz leads to Mailchimp via webhooks or CSV export."
+---
+
 # How to Send Leads to Mailchimp
 
 === "Shopify"

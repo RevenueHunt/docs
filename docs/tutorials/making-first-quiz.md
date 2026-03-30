@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-1
+description: "Create your first product recommendation quiz with RevenueHunt - recommend the best cosmetic product to customers."
 ---
 
 # Making Your First Product Recommendation Quiz || Recommending the Best Cleanser

@@ -1,3 +1,7 @@
+---
+description: "Set up conditional logic in RevenueHunt to branch quizzes, skip questions, and redirect to different result pages."
+---
+
 # Conditional Logic
 
 === "Shopify"

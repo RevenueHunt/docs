@@ -1,3 +1,7 @@
+---
+description: "Publish and share RevenueHunt quizzes to your Shopify store with theme extension integration and publishing options."
+---
+
 # Share / Publish
 
 === "Shopify"

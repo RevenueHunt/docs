@@ -1,4 +1,5 @@
 ---
+description: "Learn how to add and adjust images in your RevenueHunt quiz to improve visual appeal and optimize image quality for better performance."
 icon: material/image-area
 ---
 

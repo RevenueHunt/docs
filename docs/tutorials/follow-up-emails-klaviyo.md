@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-6
+description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post-quiz email flows for better customer engagement."
 ---
 
 # Sending Follow-up Emails with Klaviyo

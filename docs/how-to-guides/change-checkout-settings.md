@@ -1,4 +1,5 @@
 ---
+description: "Learn how to customize checkout settings in your RevenueHunt quiz results page to direct customers to cart, checkout, or product pages."
 icon: material/cart-arrow-right
 ---
 

@@ -1,4 +1,5 @@
 ---
+description: "Step-by-step guide to install the RevenueHunt app on your Shopify store and get started with product recommendation quizzes."
 icon: material/download
 ---
 

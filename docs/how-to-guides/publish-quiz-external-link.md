@@ -1,3 +1,7 @@
+---
+description: "Step-by-step guide to generate a shareable RevenueHunt quiz link for social media platforms."
+---
+
 # How to Get an External Quiz Link for Social Media
 
 This guide will show you how to generate an external quiz link suitable for sharing your quizon social media platforms like TikTok, X, Instagram, and Facebook.

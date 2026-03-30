@@ -1,4 +1,5 @@
 ---
+description: "Step-by-step guide to change your RevenueHunt quiz currency and set up multi-currency support with Shopify Markets."
 icon: material/currency-usd
 ---
 

@@ -1,4 +1,5 @@
 ---
+description: "Fix RevenueHunt quiz viewport issues on mobile devices to ensure the quiz remains fixed and provides a smooth user experience."
 icon: material/cellphone-link
 ---
 

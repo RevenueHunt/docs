@@ -1,4 +1,5 @@
 ---
+description: "Learn how to display multiple questions per slide in your RevenueHunt quiz to reduce length and improve participant engagement."
 icon: material/playlist-plus
 ---
 

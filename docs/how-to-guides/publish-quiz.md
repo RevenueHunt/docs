@@ -1,5 +1,6 @@
 ---
 icon: material/monitor-share
+description: "Comprehensive guide to publishing your RevenueHunt quiz via popups, inline embeds, or external links."
 ---
 
 # How to Publish a Quiz on Your Website

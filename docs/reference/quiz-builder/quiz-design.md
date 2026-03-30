@@ -1,3 +1,7 @@
+---
+description: "Customize RevenueHunt quiz design including colors, fonts, sections, and slots for questions and results pages."
+---
+
 # Quiz Design
 
 === "Shopify"

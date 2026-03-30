@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-5
+description: "Fix low RevenueHunt quiz conversion rates with strategies for clear goals, design, and targeting."
 ---
 
 # Why Your Product Quiz is NOT Converting Well

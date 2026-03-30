@@ -1,3 +1,7 @@
+---
+description: "Track RevenueHunt quiz metrics including responses, analytics, drop-off rates, and performance analysis."
+---
+
 # Metrics
 
 === "Shopify"

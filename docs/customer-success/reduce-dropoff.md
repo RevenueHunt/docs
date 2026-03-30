@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-4
+description: "Reduce RevenueHunt quiz drop-off and maximize completion rates with practical optimization strategies."
 ---
 
 

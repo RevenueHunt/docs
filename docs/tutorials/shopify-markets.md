@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-8
+description: "Assign RevenueHunt quizzes to Shopify Markets, customize by language and currency for global storefronts."
 ---
 
 

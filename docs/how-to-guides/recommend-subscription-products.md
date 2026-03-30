@@ -1,5 +1,6 @@
 ---
 icon: material/calendar-sync
+description: "Step-by-step guide to integrate and recommend subscription products with RevenueHunt app."
 ---
 
 # How to Recommend Subscription Products

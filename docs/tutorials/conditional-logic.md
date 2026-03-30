@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-7
+description: "Learn Jump Logic, Skip Logic, and Display Logic to create branching quizzes and show personalized content in RevenueHunt."
 ---
 
 # Using Conditional Logic in RevenueHunt App

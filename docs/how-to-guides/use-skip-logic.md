@@ -1,3 +1,7 @@
+---
+description: "Step-by-step guide to using skip logic in RevenueHunt to skip questions dynamically."
+---
+
 # How to Use Skip Logic
 
 [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. 

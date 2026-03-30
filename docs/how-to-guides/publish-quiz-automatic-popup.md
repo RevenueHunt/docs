@@ -1,3 +1,7 @@
+---
+description: "Learn how to set up automatic RevenueHunt quiz popups that appear after a delay or on exit intent."
+---
+
 # How to Set Up Automatic Popups
 
 This guide walks you through setting up automatic popups on your eCommerce store, including popups that appear based on time spent on a page, across all pages, on the homepage, with exit intent, and options for showing popups multiple times per session.

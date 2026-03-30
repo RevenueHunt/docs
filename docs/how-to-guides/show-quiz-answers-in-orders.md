@@ -1,3 +1,7 @@
+---
+description: "Learn how to display RevenueHunt quiz answers in Shopify orders and customer notes."
+---
+
 # How to Show Quiz Answers in the Shopify Orders
 
 It's possible to know exactly which orders in your Shopify Orders tab come from the quiz.

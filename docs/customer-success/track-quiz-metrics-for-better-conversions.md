@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-6
+description: "Track RevenueHunt quiz metrics and analytics to improve conversions and sales performance."
 ---
 
 # Product Quiz Metrics: What to Track to Convert Better

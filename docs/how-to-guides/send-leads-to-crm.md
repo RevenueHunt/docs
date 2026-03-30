@@ -1,5 +1,6 @@
 ---
 icon: material/account-filter
+description: "Learn how to send RevenueHunt quiz leads to your CRM platform for targeted email campaigns."
 ---
 
 # How to Send Quiz Leads to Your CRM

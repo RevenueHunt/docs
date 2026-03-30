@@ -1,4 +1,5 @@
 ---
+description: "Learn how to fix product images not showing in your RevenueHunt quiz and troubleshoot missing images from your catalog."
 icon: material/image-off
 ---
 

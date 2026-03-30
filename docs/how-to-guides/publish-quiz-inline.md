@@ -1,3 +1,7 @@
+---
+description: "Complete guide to embedding a RevenueHunt inline quiz on your store homepage or dedicated page."
+---
+
 # How to Embed an Inline Quiz on Your Store
 
 This guide provides step-by-step instructions for embedding an inline quiz on various sections of your store, including the homepage, a new page, a specific collection page, and how to manage the quiz's size and autoscroll behavior.

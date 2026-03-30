@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-3
+description: "Increase quiz engagement and completion rates with RevenueHunt through strategic promotion and placement."
 ---
 
 # How to Get More Quiz Engagement

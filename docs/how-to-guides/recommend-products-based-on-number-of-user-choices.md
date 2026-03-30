@@ -1,3 +1,6 @@
+---
+description: "Step-by-step guide to recommend RevenueHunt products based on the number of user choices selected."
+---
 
 # How to Recommend Products Based on Number of User Choices
 

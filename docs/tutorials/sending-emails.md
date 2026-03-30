@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-5
+description: "Send automated quiz result emails and connect your SMTP email server with the RevenueHunt app for customer notifications."
 ---
 
 # Sedning Emails with RevenueHunt app

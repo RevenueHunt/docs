@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-9
+description: "Adapt RevenueHunt quizzes for different markets and languages to personalize customer experience globally."
 ---
 
 # Adapt Product Quizzes for Different Markets and Languages

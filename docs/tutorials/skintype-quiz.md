@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-3
+description: "Create a skin type determination quiz with RevenueHunt that assigns scores and recommends personalized products."
 ---
 
 # Building a Skin Type Quiz with RevenueHunt App

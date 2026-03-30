@@ -1,5 +1,6 @@
 ---
 icon: material/slot-machine-outline
+description: "Learn how to recommend personalized skincare routines using RevenueHunt product slot blocks."
 ---
 
 # How to Recommend a Skincare Routine with Slots

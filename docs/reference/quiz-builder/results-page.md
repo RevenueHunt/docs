@@ -1,3 +1,7 @@
+---
+description: "Customize RevenueHunt results page content, sections, and slots to display personalized outcomes to quiz takers."
+---
+
 # Results Page
 
 === "Shopify"

@@ -1,4 +1,5 @@
 ---
+description: "Learn how to add custom JavaScript to your RevenueHunt quiz to unlock advanced features like custom tracking, behavior, and product recommendations."
 icon: material/language-javascript
 ---
 

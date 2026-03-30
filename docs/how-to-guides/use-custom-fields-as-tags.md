@@ -1,3 +1,7 @@
+---
+description: "Learn how to use BigCommerce custom fields to organize and bulk-link products in RevenueHunt."
+---
+
 # BigCommerce: Use Custom Fields as tags
 
 You can create a Custom Field called “tags” within your BigCommerce store and use it to automaticaly group products within the Product Recommendation Quiz. These Custom Fields/tags can be then used to link products in bulk to choices or slots in the quiz.

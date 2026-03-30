@@ -1,5 +1,6 @@
 ---
 icon: material/file-document-multiple
+description: "Learn how to set up multiple result pages in RevenueHunt to show personalized content."
 ---
 
 # How to Set Up Multiple Result Pages

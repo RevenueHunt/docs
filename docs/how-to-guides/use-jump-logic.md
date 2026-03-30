@@ -1,3 +1,7 @@
+---
+description: "Complete guide to using jump logic in RevenueHunt to branch quiz paths based on answers."
+---
+
 # How to Use Jump Logic
 
 [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) is a tool designed to personalize the experience of quiz participants by guiding them down different paths based on their answers. 

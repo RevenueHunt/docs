@@ -1,5 +1,6 @@
 ---
 icon: material/star-box
+description: "Learn how to display product reviews on your RevenueHunt quiz results page."
 ---
 
 # How to Show Product Reviews

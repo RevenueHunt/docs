@@ -1,4 +1,5 @@
 ---
+description: "Learn how to duplicate and transfer your RevenueHunt quiz design, questions, and settings from one store to another."
 icon: material/content-copy
 ---
 

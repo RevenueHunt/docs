@@ -1,3 +1,7 @@
+---
+description: "RevenueHunt plans and pricing details including free tier and paid features for Shopify merchants."
+---
+
 # Plans & Pricing
 
 ## Plans and pricing

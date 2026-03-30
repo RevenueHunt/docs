@@ -1,3 +1,7 @@
+---
+description: "Create and manage quiz questions in RevenueHunt with multiple choice blocks, settings, and customization options."
+---
+
 # Quiz Builder - Questions
 
 === "Shopify"

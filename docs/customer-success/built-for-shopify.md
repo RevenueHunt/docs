@@ -1,5 +1,6 @@
 ---
 icon: material/diamond-stone
+description: "RevenueHunt is now Built for Shopify with modern drag-and-drop quiz builder and powerful recommendations."
 ---
 
 

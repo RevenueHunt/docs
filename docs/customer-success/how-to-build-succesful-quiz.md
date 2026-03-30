@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-2
+description: "Build successful product recommendation quizzes with RevenueHunt achieving 10-25%+ conversion rates."
 ---
 
 # How to Build a Successful Product Recommendation Quiz

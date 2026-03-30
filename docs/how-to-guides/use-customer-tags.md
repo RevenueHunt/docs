@@ -1,7 +1,7 @@
 ---
 icon: material/tag
+description: "Learn how to use customer tags in RevenueHunt for audience segmentation and marketing."
 ---
-
 
 # How to Add and Use Customer Tags
 

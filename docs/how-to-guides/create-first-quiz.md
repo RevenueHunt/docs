@@ -1,4 +1,5 @@
 ---
+description: "Step-by-step guide to create and publish your first product recommendation quiz with RevenueHunt in minutes."
 icon: material/pencil
 ---
 

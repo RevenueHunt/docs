@@ -1,7 +1,7 @@
 ---
 icon: material/numeric
+description: "Learn how to structure RevenueHunt quiz questions to recommend products based on numerical answers."
 ---
-
 
 # How to Recommend Products Based on Numerical Inputs
 

@@ -1,3 +1,7 @@
+---
+description: "Learn how to create a RevenueHunt product matrix to recommend products based on multiple criteria."
+---
+
 # How to recommend products that match multiple criteria (matrix)
 
 This article outlines a method for recommending skincare products based on multiple criteria using a product matrix to categorize recommendations. 

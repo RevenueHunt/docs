@@ -1,4 +1,5 @@
 ---
+description: "Troubleshooting guide to diagnose and fix common issues preventing products from being added to cart in your RevenueHunt quiz."
 icon: material/cart-off
 ---
 

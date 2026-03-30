@@ -1,4 +1,5 @@
 ---
+description: "Learn how to filter product recommendations by price in your RevenueHunt quiz results page using price-based collections."
 icon: material/filter
 ---
 

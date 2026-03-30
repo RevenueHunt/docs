@@ -1,5 +1,6 @@
 ---
 icon: material/at
+description: "Learn how to use information recalls to personalize RevenueHunt quiz with dynamic content."
 ---
 
 # How to Use Information Recalls / Content Dynamic Source

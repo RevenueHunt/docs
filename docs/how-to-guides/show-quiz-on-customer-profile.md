@@ -1,5 +1,6 @@
 ---
 icon: material/account-file-text-outline
+description: "Information about showing RevenueHunt quiz on Shopify customer profile pages."
 ---
 
 # How to Show Quiz on a Customer Profile

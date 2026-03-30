@@ -1,5 +1,6 @@
 ---
 icon: material/credit-card-refresh-outline
+description: "RevenueHunt plans and pricing FAQ with details on features and paid plan requirements."
 ---
 
 

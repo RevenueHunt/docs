@@ -1,5 +1,6 @@
 ---
 icon: material/cards
+description: "Learn how RevenueHunt product recommendation algorithm works and how to configure personalized recommendations."
 ---
 
 # How to Recommend Products

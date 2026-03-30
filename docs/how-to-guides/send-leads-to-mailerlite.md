@@ -1,5 +1,6 @@
 ---
 icon: material/message-outline
+description: "Step-by-step guide to connect RevenueHunt quiz with MailerLite email marketing platform."
 ---
 
 # How to Send Leads to MailerLite

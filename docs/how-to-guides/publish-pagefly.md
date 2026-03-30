@@ -1,3 +1,7 @@
+---
+description: "Learn how to integrate RevenueHunt quiz with PageFly page builder using the legacy app version."
+---
+
 # How to Publish Quiz on PageFly Page
 
 === "Shopify" 

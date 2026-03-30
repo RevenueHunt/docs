@@ -1,3 +1,7 @@
+---
+description: "Link product collections to quiz choices in RevenueHunt with upvote weighting for product recommendations."
+---
+
 # Link Collections / Link Categories
 
 === "Shopify"

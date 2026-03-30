@@ -1,5 +1,6 @@
 ---
 icon: material/numeric-0
+description: "Getting started tutorial overview of key features in the RevenueHunt product recommendation quiz app."
 ---
 
 # Getting Started with Product Recommendation Quiz in RevenueHunt app

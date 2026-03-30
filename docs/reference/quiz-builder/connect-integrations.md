@@ -1,3 +1,7 @@
+---
+description: "Connect RevenueHunt quizzes to third-party services like Klaviyo, Shopify Customers, Google Analytics, and Meta Pixel."
+---
+
 # Connect / Integrations
 
 === "Shopify"

@@ -1,3 +1,7 @@
+---
+description: "Guide to the RevenueHunt Quiz Builder interface with menu, questions section, preview, and question settings."
+---
+
 # Quiz Builder
 
 === "Shopify"
