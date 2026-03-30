@@ -43,7 +43,6 @@ theme:
 plugins:
   - search
   - meta
-  - social
   - git-revision-date-localized
   - copy_markdown_plugin
 nav:
