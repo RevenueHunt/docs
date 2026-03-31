@@ -3,216 +3,325 @@ icon: material/numeric-7
 description: "Use customer tags in RevenueHunt quizzes for precise segmentation and targeted email marketing campaigns."
 ---
 
-# How to Use Customer Tags in Product Quizzes to Maximize Sales
+# Zero-Party Data: How to Turn Quiz Answers into a Segmented Revenue Engine
 
-Product recommendation quizzes have become a norm in e-commerce, but not many store owners know how to use them effectively in their sales funnel. 
+*Why the quiz is the most powerful data collection tool you're not using to its full potential.*
 
-In this article, we will explain how to use customer tags in product quizzes to segment customers and build a well-converting email marketing flow. This technique not only refines customer segmentation but also enhances the precision of targeted marketing efforts.
+---
 
-<div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/rB9MPFHa5K4?si=HLpjJEm6_dDV0wse" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+Most merchants think of a product recommendation quiz as a conversion tool: someone takes it, gets a recommendation, maybe buys. That's the surface level.
 
-We will explore how to use customer tags effectively, focusing on a practical example of a haircare store that uses a [RevenueHunt](/how-to-guides/install-app/) app to gather leads and [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) for segmented marketing campaigns.
+The merchants generating serious, compounding revenue from their quizzes understand something different: **the quiz is a data collection engine**. Every answer a customer gives is a declared preference - their hair type, their skin concern, their budget, their goals. That data, properly tagged and passed to your CRM, powers a segmented email funnel that sells on autopilot, long after the quiz session is over.
 
-![how to use customer tags in product quizzes to maximize sales](https://revenuehunt.com/wp-content/uploads/2024/06/Customer-Tags-V2.png)
+This article explains how to build that system.
 
-## Customer Tags 101
- 
+![Customer Tags Overview](https://revenuehunt.com/wp-content/uploads/2024/06/Customer-Tags-V2.png)
 
-### What are Customer Tags?
+!!! info "What this covers"
+    This is a strategic guide to using customer tags, CRM segmentation, and automated email flows together. It uses Klaviyo as the primary example, but the principles apply to any CRM that integrates with RevenueHunt: Omnisend, Mailchimp, ActiveCampaign, HubSpot, or custom Webhooks.
 
-Customer tags are identifiers linked to quiz choices that help categorize and segment customers based on their responses.
+---
 
-![what are customer tags](/images/cs_customer_tags_example.png)
+## Why Quiz Data is Different: Zero-Party Data
 
-### What are Customer Tags used for?
+There are three kinds of customer data:
 
-These tags can be used to tailor marketing campaigns, personalize communications, and create a more engaging shopping experience. By tagging customers according to their preferences, behaviors, or needs, businesses can craft more relevant and impactful messages.
+| Type | What it is | How it's collected | Reliability |
+|------|------------|-------------------|-------------|
+| **Third-party data** | Behavioral data bought from data brokers | Purchased; tracks users across the web | Low - inferred, cookie-dependent, increasingly blocked |
+| **First-party data** | Behavioral data from your own store | Purchase history, browsing, click patterns | Medium - inferred from behavior |
+| **Zero-party data** | Declared preferences from the customer themselves | Explicitly given, like quiz answers | High - intentional, direct, consented |
 
-### Why use Customer Tags for Segmented Marketing?
+**Zero-party data is the most valuable kind.** A customer who answers *"I have dry, curly hair and my main concern is frizz"* has told you exactly what they need. You didn't infer it from their browsing history. You didn't buy it from a data broker. They gave it to you directly, in exchange for a personalized recommendation they wanted.
 
-Customer tags are essential for segmented marketing, as 90% of marketers report segmentation as one of their most effective strategies.
+That's what a quiz captures - at scale, for every customer who takes it.
 
-Those using segmentation have seen a 24% increase in sales within the first month.
-Targeted email campaigns are 18 times more effective than general broadcast emails, with companies experiencing a 39% increase in open rates and a 28% lower unsubscribe rate by segmenting their email lists.
+!!! success "The compounding advantage"
+    Unlike third-party cookies, which are being deprecated across every major browser, zero-party data belongs to you permanently. The quiz data you collect today powers your email flows next month, next quarter, and next year. Every quiz submission makes your segmentation smarter.
 
-### Creating and Adding Customer Tags
+---
 
-The process of creating and using customer tags in the RevenueHunt Product Recommendation Quiz app is straightforward. Here’s how you can do it:
+## The Funnel Architecture
+
+A quiz without a downstream funnel is a missed opportunity. The full system looks like this:
+
+```
+Customer takes quiz
+        ↓
+Quiz captures email + assigns tags based on answers
+        ↓
+Tags flow into your CRM (Klaviyo, Omnisend, etc.)
+        ↓
+CRM creates dynamic segments from tags
+        ↓
+Segment-specific email flows trigger automatically
+        ↓
+Customer receives relevant content + recommendations
+        ↓
+Purchase → Repeat purchase → Brand loyalty
+```
+
+Each step only works if the previous one is set up correctly. Most merchants stop at step one (the quiz) or step two (email capture) and wonder why the quiz "isn't converting well." The quiz is fine. The funnel is missing.
+
+---
+
+## Step 1: Design Your Tag Taxonomy Before Building the Quiz
+
+The biggest mistake merchants make is adding tags reactively - tagging a few choices here and there after the quiz is built. A well-designed tag system starts with a plan.
+
+Think in three categories:
+
+### Profile tags (who they are)
+These describe the customer's characteristics. They change rarely and form the foundation of long-term segmentation.
+
+*Examples: `hair-type:curly`, `skin-type:dry`, `age-group:30s`, `gender:female`, `hair-concern:frizz`*
+
+### Intent tags (what they want right now)
+These describe the customer's goals at the time of taking the quiz. They inform the immediate recommendation and the first email flow.
+
+*Examples: `goal:repair`, `goal:volume`, `goal:anti-aging`, `goal:hydration`, `concern:acne`*
+
+### Behavioral tags (how they engage)
+These describe purchase intent signals captured in the quiz. Use these to prioritize your most qualified leads.
+
+*Examples: `budget:premium`, `buys-for:self`, `buys-for:gift`, `routine:full`, `routine:minimal`*
+
+!!! tip "Tag naming conventions matter"
+    Use consistent, lowercase, descriptive names. `hair-type:curly` is better than `Curly` because it's clear what dimension it describes and won't conflict with other tags. Your CRM filters will be much cleaner. Agree on a naming convention before you start and stick to it.
+
+![Customer tag example - what tags look like on a quiz choice](/images/cs_customer_tags_example.png){ width="600" }
+
+![Hair concern tags linked to answer choices](/images/cs_customer_tags_example_hair_tags.png){ width="600" }
+
+---
+
+## Step 2: Add Customer Tags to Quiz Choices
+
+Once you have your tag taxonomy, add tags to choices in the Quiz Builder. Every answer choice can carry one or more tags, and a customer's full tag profile is built from the combination of all their answers.
+
+![Quiz Builder with haircare questions mapped to tags](/images/cs_customer_tags_example_quizbuilder.png){ width="600" }
 
 === "Shopify"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/69f8f8ef88f740bf9cc644fba09ca17c?sid=1796846e-b516-42ed-b96c-e5e06250cedc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Navigate to the Quiz Builder**: Open your quiz in the [Quiz Builder](/reference/quiz-builder/quiz-builder/) by clicking `Customize`.
-    2. **Access choice settings**: Click on any choice in your quiz to open its settings panel.
-    3. **Add customer tags**: In the choice settings, find the `Customer Tags` section. 
-    
-        - Use the search bar to search for existing tags or create new ones. 
-        - Type the tag name and press `Create new tag` to create it. 
-        - You can add multiple tags to a single choice.
+    1. Open your quiz in the [Quiz Builder](/reference/quiz-builder/quiz-builder/) and click `Customize`.
+    2. Click on any answer choice to open its settings panel.
+    3. Find the `Customer Tags` section. Use the search bar to find existing tags or type a new name and press `Create new tag`.
+    4. Add all relevant tags to the choice (a choice can carry multiple tags).
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
+        ![Customer Tags in Quiz Builder](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
 
-        !!! tip
-            If you want all the quiz takers to have a specific tag, you can add it to the all the choices in one of the questions in the quiz. This way no matter which choice they select, they will have the tag.
+    5. Click `Save`. Tags are automatically assigned to customers when they select that choice.
 
-    4. **Save changes**: Click the "Save" button to apply your changes. Tags will be automatically applied to customers when they select the corresponding choice.
-    5. **Preview the quiz**: Preview the quiz to verify that the tags have been added correctly to the quiz responses.
+    !!! tip
+        To tag every quiz taker with a shared identifier (e.g., `source:quiz` to identify all quiz leads in your CRM), add that tag to every choice in one of your questions. No matter what they answer, the tag gets assigned.
 
-        !!! note
-            Tags sent to responses will also be forwarded to any connected [integrations](/reference/quiz-builder/connect-integrations/).
-
-            For example, if integrated with Shopify Customers List, customer tags will be sent to customer profiles in Shopify. If quiz is integrated with Klaviyo, customer tags will be sent to Klaviyo, etc.
-
+    !!! note
+        Tags are forwarded to all connected integrations. A tag assigned in the quiz will appear in Shopify Customer profiles, Klaviyo contact properties, or any other connected platform automatically.
 
 === "Shopify (Legacy)"
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Open the Customer Tags tab**: Access the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
-    2. **Create new tags**:  To create a tag, start typing the name of the tag next to a choice and confirm with `enter`. Once a tag is created, it can be used to be linked to other choices.
-        ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
-    3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
-    4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
+    1. Open the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
+    2. Type a tag name next to a choice and confirm with `Enter` to create it.
+    3. Link the same tag to additional choices as needed.
+    4. Click `Publish` to apply the changes to your live quiz.
+
+        ![Customer Tags Legacy](/images/manual_quizbuilder_customertags_addtag.png)
 
 === "WooCommerce"
 
-
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Open the Customer Tags tab**: Access the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
-    2. **Create new tags**:  To create a tag, start typing the name of the tag next to a choice and confirm with `enter`. Once a tag is created, it can be used to be linked to other choices.
-        ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
-    3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
-    4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
+    1. Open the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
+    2. Type a tag name next to a choice and confirm with `Enter` to create it.
+    3. Link the same tag to additional choices as needed.
+    4. Click `Publish` to apply the changes to your live quiz.
+
+        ![Customer Tags WooCommerce](/images/manual_quizbuilder_customertags_addtag.png)
 
 === "Magento"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647ca1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    1. Open the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
+    2. Type a tag name next to a choice and confirm with `Enter` to create it.
+    3. Link the same tag to additional choices as needed.
+    4. Click `Publish` to apply the changes to your live quiz.
 
-    1. **Open the Customer Tags tab**: Access the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
-    2. **Create new tags**:  To create a tag, start typing the name of the tag next to a choice and confirm with `enter`. Once a tag is created, it can be used to be linked to other choices.
-        ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
-    3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
-    4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
+        ![Customer Tags Magento](/images/manual_quizbuilder_customertags_addtag.png)
 
 === "BigCommerce"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647ca1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    1. Open the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
+    2. Type a tag name next to a choice and confirm with `Enter` to create it.
+    3. Link the same tag to additional choices as needed.
+    4. Click `Publish` to apply the changes to your live quiz.
 
-    1. **Open the Customer Tags tab**: Access the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
-    2. **Create new tags**:  To create a tag, start typing the name of the tag next to a choice and confirm with `enter`. Once a tag is created, it can be used to be linked to other choices.
-        ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
-    3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
-    4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
+        ![Customer Tags BigCommerce](/images/manual_quizbuilder_customertags_addtag.png)
 
 === "Standalone"
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647ca1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/e35ea81f285f46c9b9e85bfd1576c710?sid=3e647cc1-752b-4ca3-a3d6-fd0b11a323d4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    1. Open the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
+    2. Type a tag name next to a choice and confirm with `Enter` to create it.
+    3. Link the same tag to additional choices as needed.
+    4. Click `Publish` to apply the changes to your live quiz.
 
-    1. **Open the Customer Tags tab**: Access the Quiz Builder and navigate to the [`Customer Tags`](/reference/quiz-builder/customer-tags/) section.
-    2. **Create new tags**:  To create a tag, start typing the name of the tag next to a choice and confirm with `enter`. Once a tag is created, it can be used to be linked to other choices.
-        ![manual_quizbuilder_customertags_addtag](/images/manual_quizbuilder_customertags_addtag.png)
-    3. **Link tags to choices**: Create new tags or use the existing ones to link them to choices in the quiz. When a customer selects a choice, all associated tags will be added to their profile.
-    4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
-
-## How to use Customer Tags?
- 
-
-Imagine a haircare store that offers a wide range of products including shampoos, conditioners, hair treatments, styling products, and more. 
-
-The store uses the RevenueHunt Product Recommendation Quiz to help customers find the best products based on their hair type, concerns, and goals. 
-
-Here’s how they can use customer tags for a segmented marketing campaign in Klaviyo:
-
-### 1️⃣ Create the Quiz
-
-Create a quiz with questions about hair type (e.g., curly, straight, wavy), hair concerns (e.g., dandruff, dryness, frizz), and hair goals (e.g., volume, shine, repair). Make sure to add an email question as the last slide.
-
-![how to use customer tags in product quizzes to maximize sales](/images/cs_customer_tags_example_quizbuilder.png)   
-
-!!! example "Sample Quiz"
-
-    <script src="https://admin.revenuehunt.com/embed.js" async></script>
-    <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/7jHqBA" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
-
-
-
-### 2️⃣ Create and Link Customer Tags to Choices
-
-As customers answer these questions, assign relevant tags such as *“Curly Hair,”* *“Dry Hair,”* *“Volume,”* *“Anti-Frizz,”* and *“Repair”* to the choices in the quiz. 
-
-![how to use customer tags in product quizzes to maximize sales](/images/cs_customer_tags_example_hair_tags.png)
-
-Check the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) section to add customer tags to choices.
-
-### 3️⃣ Connect Quiz to Klaviyo
-
-Connect the quiz to Klaviyo following [these instructions](/how-to-guides/send-leads-to-klaviyo/).
-
-Once the quiz is connected, customer tags from the RevenueHunt app are automatically sent to Klaviyo along with customer choices and recommendations. This allows Klaviyo to receive and store tags linked to each customer profile.
-
-### 4️⃣ Create Segments in Klaviyo
-
-In Klaviyo, create segments based on the tags.
-
-![how to use customer tags in product quizzes to maximize sales](https://revenuehunt.com/wp-content/uploads/2024/06/kalviyo-segement-768x450.png)
-
-For example:
-
-- **Curly Hair Segment**: Customers coming from the quiz and tagged with “Curly Hair.”
-- **Dry Hair Segment**: Customers coming from the quiz and tagged with “Dry Hair.”
-- **Volume Goal Segment**: Customers coming from the quiz and tagged with “Volume.”
-- **Anti-Frizz Segment**: Customers coming from the quiz and tagged with “Anti-Frizz.”
-- **Repair Segment**: Customers coming from the quiz and tagged with “Repair.”
-
-!!! tip
-
-    Check [this video](/tutorials/follow-up-emails-klaviyo/) to learn how to create Segments based on the quiz submissions in Klaviyo.
-
-### 5️⃣ Design Tailored Email Campaigns
-
-Create [email flows/campaigns](https://help.klaviyo.com/hc/en-us/articles/115002774932) specifically tailored to each segment in Kalviyo. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
-
-Start by digging into the data from your customer tags to understand what makes each group tick. Create content that addresses their specific interests and personalize your subject lines and email bodies to make them feel valued. Plan your campaign schedule carefully to keep people engaged without overwhelming them, and use automation to send timely, relevant emails based on their behavior.
-
-For example:
-
-- **Curly Hair Segment**: Send emails featuring products designed for curly hair, such as curl-enhancing shampoos and conditioners, and styling creams. Include tips for maintaining curly hair and exclusive offers on curl care bundles.
-- **Dry Hair Segment**: Send emails promoting moisturizing shampoos, conditioners, and deep-conditioning treatments. Share tips on how to combat dry hair and offer discounts on hydrating product sets.
-- **Volume Goal Segment**: Highlight volumizing shampoos, conditioners, and styling products. Include styling tips for achieving more volume and special promotions on volume-boosting kits.
-- **Anti-Frizz Segment**: Focus on anti-frizz serums, creams, and treatments. Provide advice on managing frizz and offer deals on anti-frizz collections.
-- **Repair Segment**: Promote reparative treatments, masks, and serums. Share insights on hair repair routines and exclusive offers on repair-focused products.
-
-![how to use customer tags in product quizzes to maximize sales](https://revenuehunt.com/wp-content/uploads/2024/06/curly-campaign.png)
-![how to use customer tags in product quizzes to maximize sales](https://revenuehunt.com/wp-content/uploads/2024/06/dry-campaign.png)
-
-
-
-### 5️⃣ Monitor and Analyze Campaign Performance
-
-Track the performance of each segmented campaign in Klaviyo. Analyze open rates, click-through rates, and conversion rates to assess the effectiveness of the campaigns. Use this data to refine future campaigns, ensuring they remain relevant and engaging for each segment.
-
-Quarterly Review Strategy for Customer Tags and Segmentation
-
-| Step | Description                                                                                                                                                                                                                                                                                                                                                      |
-|------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **1. Prepare** | Set objectives: improve tag accuracy, update segments, or find new personalization opportunities. Gather data on tag usage, segment performance, and customer feedback. Ensure access to analytics and CRM reports. Assemble a review team from marketing, sales, customer support, and IT. |
-| **2. Review and Analyze** | Audit tags for accuracy and relevance. Eliminate redundant tags. Analyze segment performance using key metrics. Review customer feedback to identify trends and required updates.                                                                                                                                    |
-| **3. Implement** | Update tags based on insights, adding new ones and removing obsolete ones. Refine and create new segments as needed. Test changes through A/B testing before full implementation.                                                                                                                           |
-| **4. Optimize** | Deploy updated tags and segments. Monitor performance closely, ensuring changes have the desired impact. Collect immediate feedback for quick adjustments.                                                                                                                                                    |
-| **5. Report and Document** | Compile a report on changes made, reasons, and observed results. Share insights with stakeholders, highlighting successes and areas for improvement. Plan the next review and long-term adjustments.                                                                                                   |
-
+        ![Customer Tags Standalone](/images/manual_quizbuilder_customertags_addtag.png)
 
 ---
 
-By using customer tags in the RevenueHunt app and integrating them with a CRM like [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), a haircare store can create highly personalized and segmented marketing campaigns. This approach not only improves the relevance of the emails but also increases customer engagement and satisfaction, ultimately driving higher conversion rates and loyalty. 
+## Step 3: Connect Your Quiz to Your CRM
 
-Customer tags are a versatile tool that, when used effectively, can significantly improve your marketing precision.
+Tags are only useful if they reach your email platform. Connect RevenueHunt to your CRM so that every quiz submission - including all assigned tags, quiz answers, and recommended products - flows into your contact database automatically.
 
-Moreover, the same strategy can be applied to other CRMs than Klaviyo that integrate directly with RevenueHunt app, broadening the scope of your marketing efforts. For more information on our integrations, please visit our [integrations page](/how-to-guides/send-leads-to-crm/).
+- **Klaviyo**: [How to connect your quiz to Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
+- **Omnisend, Mailchimp, and others**: [How to connect your quiz to a CRM](/how-to-guides/send-leads-to-crm/)
+- **Custom integrations**: Use [Webhooks](/how-to-guides/send-leads-to-crm/) to pass quiz data to any platform
 
+Once connected, every new quiz submission creates or updates a contact in your CRM with their full tag profile. Existing contacts are enriched with new tags without overwriting previous data.
 
+---
+
+## Step 4: Build Segments in Your CRM
+
+With tags flowing into your CRM, you can create **dynamic segments** - groups of contacts that automatically update as new quiz submissions arrive.
+
+!!! tip "Lists vs. Segments"
+    Lists are static. Segments are dynamic. Add a customer to a list and they stay until you remove them. A segment updates automatically whenever a contact meets (or no longer meets) its conditions. Always build quiz-based segments as dynamic segments - not static lists.
+
+### A worked example: haircare store
+
+A haircare brand runs a quiz asking customers about hair type, concerns, and goals. Here's how their segments look:
+
+| Segment name | Condition |
+|---|---|
+| Curly Hair | Tagged with `hair-type:curly` |
+| Dry/Damaged Hair | Tagged with `hair-concern:dryness` OR `goal:repair` |
+| Frizz Concern | Tagged with `hair-concern:frizz` |
+| Volume Seekers | Tagged with `goal:volume` |
+| Full Routine Buyers | Tagged with `routine:full` |
+| Premium Budget | Tagged with `budget:premium` |
+| Quiz Leads (all) | Tagged with `source:quiz` |
+
+Each segment is independent, and a single contact can belong to multiple segments. Someone tagged with `hair-type:curly` AND `goal:volume` will be in both the Curly Hair and Volume Seekers segments - and can receive flows from both.
+
+??? info "How to create segments in Klaviyo"
+    Check this video to learn how to create segments based on quiz submissions in Klaviyo: [How to Create Segments in Klaviyo](/tutorials/follow-up-emails-klaviyo/)
+
+    ![Klaviyo Segment Example](https://revenuehunt.com/wp-content/uploads/2024/06/kalviyo-segement-768x450.png)
+
+---
+
+## Step 5: Build Your Email Flows
+
+Segments are the input. Email flows are the output. Every segment should have at least one automated flow triggered by joining that segment.
+
+### The core flow structure
+
+**Email 1: Immediate - Send within 5-10 minutes of quiz completion**
+
+This is the highest-performing email in any post-quiz sequence. The customer just expressed their preferences and received a recommendation. They're engaged. Send them:
+
+- Their personalized product recommendation (with images and a direct add-to-cart link)
+- A brief explanation of why these products match their profile
+- A discount code to close the sale
+- A clear single CTA
+
+!!! success "First email drives ~45% of the revenue in a post-quiz sequence"
+    The first email in a drip sequence consistently generates the majority of sales. The customer is still warm. Don't delay it.
+
+**Email 2: Educational - Send 2-3 days later**
+
+Content specific to their segment. Not a sales email - an educational one.
+
+*Examples: "5 tips for managing curly hair in humid weather" / "How to build a repair routine from scratch" / "The difference between moisturizing and protein treatments for dry hair"*
+
+This email builds credibility and keeps you top of mind before the next sales nudge.
+
+**Email 3: Social Proof + Offer - Send 5-7 days later**
+
+Customer reviews, before/after results, or user-generated content relevant to their segment's concern. Include a secondary product recommendation or a bundle offer. Reinforce the discount if it hasn't been used.
+
+**Email 4: Re-engagement - Send 10-14 days later**
+
+For contacts who haven't purchased: a gentle re-engagement with a fresh angle (different product, new benefit, or urgency trigger like low stock or sale ending).
+
+!!! tip "Tailor every email to the segment, not just the subject line"
+    Personalization isn't just using `{{ first_name }}`. It means the product images, the copy, the concerns addressed, and the CTA are all specific to what that customer told you in the quiz. A `dry hair` email and a `curly hair` email should look and feel completely different - even if they're in the same flow template.
+
+### Segment-specific examples
+
+| Segment | Email 1 content | Email 2 content | Email 3 content |
+|---------|----------------|----------------|----------------|
+| Curly Hair | Curl-enhancing shampoo + styling cream recommendation | "How to define curls without frizz" | Reviews from curly-haired customers + curl bundle offer |
+| Dry/Damaged | Moisturizing shampoo + deep conditioner | "Signs your hair needs a protein treatment" | Before/after repair results + treatment set |
+| Volume Seekers | Volumizing shampoo + root spray | "Why your hair falls flat (and how to fix it)" | Bestselling volume kit with bundle discount |
+| Full Routine | Complete routine (cleanser, treatment, styler) | "How to layer haircare products for best results" | Routine bundle with loyalty offer |
+
+<div style="display: flex; gap: 12px; margin: 16px 0;">
+  <img src="https://revenuehunt.com/wp-content/uploads/2024/06/curly-campaign.png" style="width: 49%;" alt="Segment-specific email campaign for curly hair customers">
+  <img src="https://revenuehunt.com/wp-content/uploads/2024/06/dry-campaign.png" style="width: 49%;" alt="Segment-specific email campaign for dry hair customers">
+</div>
+
+---
+
+## Step 6: Keep the Data Fresh
+
+Zero-party data has a shelf life. A customer who told you they had dry hair two years ago may have changed their routine, their concerns, or their goals. Build a process to refresh it.
+
+**Practical approaches:**
+
+☐ **Re-engagement quiz**: When a customer has been inactive for 6+ months, trigger an email inviting them to retake the quiz. Frame it as "Your routine, updated" - not as a re-marketing pitch.
+
+☐ **Seasonal quiz variants**: Run a new version of the quiz for seasonal campaigns (e.g., summer haircare, winter skincare). New quiz, new tags, updated segments.
+
+☐ **Post-purchase tags**: After a purchase, tag the customer with the product category they bought. Cross-reference with quiz tags to identify gaps (e.g., bought shampoo but not conditioner) and target accordingly.
+
+☐ **Review segment performance quarterly**: Check open rates, click rates, and conversion rates by segment. Weak-performing segments may indicate a tagging problem (too broad), a content problem (wrong message), or a product problem (nothing compelling to recommend to this group).
+
+---
+
+## The Platform Data
+
+This isn't theoretical. Here's what the numbers show for quizzes that use this full-funnel approach:
+
+| Setup | Avg. conversion rate | Avg. orders per quiz |
+|-------|---------------------|---------------------|
+| Quiz only (no CRM) | 9.7% | 146 |
+| Quiz + Klaviyo connected | **12.0%** | **242** |
+
+Quizzes with a connected CRM generate **24% higher conversion rates** and **66% more orders** on average. The quiz content is the same. The funnel makes the difference.
+
+---
+
+## Works With Any CRM
+
+The strategy above is built around Klaviyo because it's the most common integration, but every component works with any CRM that connects to RevenueHunt:
+
+| Platform | Integration |
+|----------|------------|
+| Klaviyo | [Send leads to Klaviyo](/how-to-guides/send-leads-to-klaviyo/) |
+| Omnisend | [Send leads to Omnisend](/how-to-guides/send-leads-to-omnisend/) |
+| Mailchimp | [Send leads to Mailchimp](/how-to-guides/send-leads-to-mailchimp/) |
+| ActiveCampaign, HubSpot, others | [Connect via Webhooks](/how-to-guides/send-leads-to-crm/) |
+
+The tags, answers, and recommended products pass through in all cases. The segmentation logic lives in your CRM, not in the quiz.
+
+---
+
+!!! success "The key insight"
+    The quiz is not a conversion widget. It's the front door of a segmented revenue system. The recommendation on the results page is the first sale. The email flows - built on zero-party data the customer willingly gave you - are every sale after that.
+
+**Related articles:**
+
+- [How to Connect Your Quiz to Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
+- [How to Send Result Emails](/how-to-guides/send-result-emails/)
+- [How to Build a Sales Funnel](/customer-success/build-sales-funnel/)
+- [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-succesful-quiz/)
