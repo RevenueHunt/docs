@@ -153,6 +153,7 @@ nav:
       - Metrics: reference/quiz-builder/metrics.md
   - Customer Success:
     - Customer Success: customer-success/index.md
+    - Why Best-Selling Quizzes Have No Customization: customer-success/best-quizzes-no-customization.md
     - How to Build a Sales Funnel: customer-success/build-sales-funnel.md
     - Quiz Setup Checklist: customer-success/quiz-setup-checklist.md
     - How to Build a Succesful Shop Quiz: customer-success/how-to-build-succesful-quiz.md
@@ -163,7 +164,6 @@ nav:
     - Use Customer Tags in Quizzes to Max Sales: customer-success/use-customer-tags-in-quiz.md
     - Smartly Ask for Marketing Consent: customer-success/ask-marketing-consent.md
     - Adapt Quizzes for Different Markets and Languages: customer-success/adapt-quizzes-to-markets.md
-    - Why Best-Selling Quizzes Have No Customization: customer-success/best-quizzes-no-customization.md
     - Plans & Pricing FAQ: customer-success/plans-pricing-faq.md
     - Built for Shopify: customer-success/built-for-shopify.md
     - Bugs & Limitations: customer-success/bugs.md
