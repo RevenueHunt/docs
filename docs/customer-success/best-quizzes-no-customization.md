@@ -2,13 +2,13 @@
 icon: material/trophy-outline
 ---
 
-# Why the Best-Selling Quizzes Have Zero CSS Customization
+# Why the Best-Selling Quizzes Have Zero Customization
 
 *(What actually drives quiz revenue — and it's not the design)*
 
 We see it all the time: a merchant spends hours tweaking fonts, adjusting button colors, and writing custom JavaScript — while their quiz converts at 3%. Meanwhile, another merchant launches a quiz with the default styling in an afternoon and hits 18% conversion.
 
-This article is about what separates those two quizzes. Spoiler: it's not the CSS.
+This article is about what separates those two quizzes.
 
 !!! info "This is based on real platform data"
 
@@ -37,7 +37,7 @@ The most common reason quizzes underperform isn't poor design. It's one of these
 - No email capture, no follow-up
 - The quiz is hard to find on the site
 
-None of those are CSS problems.
+None of those are CSS, JavaScript problems.
 
 ---
 
@@ -145,11 +145,15 @@ We're not saying design doesn't matter. A quiz that clashes with your brand or i
 
 Custom CSS and JavaScript are valuable tools **once the content is right**. After you've:
 
-- ✅ Validated your questions (customers complete the quiz easily)
-- ✅ Mapped all answer choices to products
-- ✅ Confirmed your results page recommends 1–3 products
-- ✅ Set up email capture and Klaviyo
-- ✅ Seen your quiz converting at a baseline rate
+✅ Validated your questions (customers complete the quiz easily)
+
+✅ Mapped all answer choices to products
+
+✅ Confirmed your results page recommends 1–3 products
+
+✅ Set up email capture and Klaviyo
+
+✅ Seen your quiz converting at a baseline rate
 
 ...then visual polish is worth investing in. At that point, you're optimizing something that already works.
 
@@ -160,7 +164,7 @@ Custom CSS and JavaScript are valuable tools **once the content is right**. Afte
 
 ---
 
-## A checklist before you touch the CSS
+## A checklist before you customize
 
 Run through this before spending any time on customization:
 
@@ -173,7 +177,7 @@ Run through this before spending any time on customization:
 - Quiz has been tested end-to-end on mobile
 - Klaviyo (or another CRM) is connected and a follow-up flow is active
 
-If every box is checked and your conversion rate is still below 8%, *then* start looking at design and user experience. But in our experience, checking all these boxes gets most quizzes to 10–15% conversion without a single line of CSS.
+If every box is checked and your conversion rate is still below 8%, *then* start looking at design and user experience. But in our experience, checking all these boxes gets most quizzes to 10–15% conversion without a single line of CSS/JavaScript.
 
 ---
 
