@@ -3,228 +3,227 @@ icon: material/numeric-1
 description: "RevenueHunt quiz setup checklist - essential steps before launch based on high-converting best practices."
 ---
 
-# Quiz Success - 📋 Setup Checklist
+# Quiz Setup Checklist
 
-A step-by-step “don’t miss anything” guide before going live.
+*A step-by-step guide to launching a quiz that actually converts.*
 
-!!! info
-    This checklist isn’t just theory — it’s a **blueprint for success**. We built it by analyzing our **most successful, best-converting quizzes** from merchants in the beauty and supplements industries. These stores consistently achieve higher engagement, more completed quizzes, and stronger sales results by following these steps.
-
-Think of it as your shortcut: if you follow this setup, you’ll be building your quiz on the same foundation that has already worked for dozens of high-performing brands.
+!!! info "Built from what actually works"
+    This checklist is based on analysis of our **most successful quizzes** - over 900 quizzes, 1.29 million responses, and $63.8M in tracked revenue. Follow these steps and you'll be building on the same foundation that consistently achieves **10-25%+ conversion rates**.
 
 ---
 
-### **Step 1 – Plan & Name Your Quiz**
+### Step 1 - Plan Your Quiz
 
-Your quiz name sets the tone and expectation. A professional, problem-solving title makes customers take it seriously and increases engagement.
+Before building anything, get clear on what the quiz is for and what it should recommend.
 
+☐ Define the customer problem your quiz solves (e.g., *find the right moisturizer*, *build a full skincare routine*, *pick the right supplement*)
 
-☐ Define the customer problem your quiz should solve (e.g., find the right moisturizer, build a full routine) and make a quiz map with questions and outcomes.
+☐ Make a simple quiz map: list your questions and what products each answer should point to
 
-☐ Choose a professional name that matches your brand (*Shade Finder*, *Routine Builder*, *Skin Diagnostic*)
+☐ Choose a professional name that sets clear expectations
 
-??? example "Example: Professional Quiz Name"
+!!! tip "What makes a good quiz name?"
+    Avoid the word "quiz" if possible. Names like **Shade Finder**, **Routine Builder**, **Skin Diagnostic**, or **Supplement Match** feel like a professional consultation - not a BuzzFeed quiz. The highest-converting quizzes frame themselves as product finders.
 
-    ![quiz name example](https://revenuehunt.com/wp-content/uploads/2021/09/PIC3-ALPHAH-768x340.jpg)
+    ??? example "Example: Professional Quiz Name"
+        ![quiz name example](https://revenuehunt.com/wp-content/uploads/2021/09/PIC3-ALPHAH-768x340.jpg)
 
 ---
 
+### Step 2 - Build Your Questions
 
-### **Step 2 – Build Questions**
+Questions are the heart of your quiz. Keep them short, clear, and answerable in under 5 seconds.
 
-Your [questions](/reference/quiz-builder/questions/#question-types) should be **short, clear, and visual** when possible. Customers drop off if the quiz feels too long or confusing.
+☐ Add a **Welcome slide** that sets expectations - tell customers what they'll get and how long it takes (e.g., *"Answer 8 questions and get your personalized skincare routine"*)
 
-☐ Add a **Welcome** slide that clearly sets expectations — explain what the customer will gain from the quiz and how long it will take. Keep it visually engaging and highlight any reward for completion (e.g., a discount code or free gift).
+☐ Aim for **7-8 questions** as your starting point (the sweet spot is 6-12; start here and adjust based on data)
 
-☐ Keep total length **5–6 questions** (under 2 minutes)
+!!! warning "Keep it to 12 questions or fewer"
+    Platform data shows completion rates drop significantly past 12 questions. Start with 7-8. Every question should change what gets recommended - if it doesn't, cut it.
 
-!!! warning
-    We've noticed a significant drop-off in quiz completion rates when the quiz is over 6 questions-long and almost nobody makes it to question 12. Keep the quiz short and concise or it won't achieve the desired results.
+☐ Use **3-6 answer choices per question** - fewer than 3 limits personalization, more than 6 causes decision fatigue
 
-☐ Add **picture questions** for clarity and engagement (skin tones, hair colors, product types)
+☐ Write answer choices that customers can select without overthinking - avoid jargon
 
-??? info "How to Add a Picture Question"
+☐ Use **picture questions** where visuals genuinely help (skin tones, hair textures, product types) - but don't add images just to look engaging
 
-    Add a question by clicking `+ Add question` or `+ Add block`. Choose [Picture Choice](/reference/quiz-builder/questions/#picture-choice) if you want to show images/icons instead of text-only answers.
+??? info "How to add a Picture Question"
+    Add a question by clicking `+ Add question` or `+ Add block`. Choose [Picture Choice](/reference/quiz-builder/questions/#picture-choice) to show images alongside answer text.
 
     ![picture choice example1](https://revenuehunt.com/wp-content/uploads/2021/09/PIC6-LUCE-768x242.jpg)
 
     ![picture choice example2](https://revenuehunt.com/wp-content/uploads/2021/09/PIC5-TBJ-768x244.jpg)
 
+---
+
+### Step 3 - Map Every Answer to a Product
+
+This is the **most important step** and the one most often skipped. Every answer choice should influence which products get recommended. Unmapped answers produce weak, generic results - and weak results don't convert.
+
+☐ Go through every question and every answer choice and map it to at least one product or collection
+
+☐ Map to **collections** when a broad category applies (e.g., "dry skin" maps to your Hydrating Moisturizers collection)
+
+☐ Map to **specific products** when an answer clearly points to one item
+
+☐ Use **exclusions** to filter out products that are wrong for a given answer
+
+!!! success "Before you launch: the mapping check"
+    Open your quiz and go through it as a customer would. After each answer, ask: *does this push the recommendation toward the right products?* If any answer has no mapping, fix it. An unmapped answer is a missed sale.
+
+??? example "Mapping example"
+    A question like *"What's your main skin concern?"* with the answer *"Dryness"* should map to your hydrating moisturizers collection. *"Breakouts"* maps to your acne-fighting range. *"Anti-aging"* maps to your retinol products. Every answer, every time.
 
 ---
 
+### Step 4 - Configure Recommendations
 
-### **Step 3 – Add Personalization & Logic**
+Focused recommendations drive purchases. Too many choices cause decision fatigue - customers leave without buying anything.
 
-Personalization makes your quiz feel like a real consultation. [Smart logic](/how-to-guides/use-conditional-logic/) skips irrelevant questions and tailors advice to each customer.
+☐ Recommend **1-3 products maximum** on your results page, or use slots for routines
 
-☐ Use [**Jump Logic**](/how-to-guides/use-jump-logic/) to branch into relevant paths OR [**Skip Logic**](/how-to-guides/use-skip-logic/) to hide irrelevant questions
+☐ Use a **single results page** (79% of top-converting quizzes use exactly one)
 
-??? example "Example: Showing different advice based on previous answers"
+!!! tip "Slots vs. single product"
+    - **Selling a single product category?** Recommend 1 best match.
+    - **Selling routines?** Use [recommendation slots](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots) - one product per slot (e.g., cleanser, serum, moisturizer). The customer knows exactly what to add to cart.
 
-    ![jump logic example](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
-
-    Check this article to learn how to branch the quiz based on previous answers: [How to Use Jump Logic](/how-to-guides/use-jump-logic/)
-
-
-☐ Add **personalized advice** on the results page (e.g., dry vs oily skin tips) and use [**Display Logic**](/how-to-guides/use-display-logic/) for showing targeted advice (e.g., show different advice based on skin type)
-
-??? example "Example: Advice based on calculated skin type"
-
-    ![display logic example](/images/how_to_shopifyv2_use_display_logic_based_on_variable_example1.png)
-
-    Check this article to learn how to set up a quiz that determines the user's skin type and shows personalized advice and products: [How to Set Up a Winning Variable Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
-
-☐ Enable [Information Recalls](/how-to-guides/use-information-recalls/) (e.g., greet by name, reuse answers)
-
-??? example "Example: Recalling information from previous questions"
-
-    ![information recalls example](https://revenuehunt.com/wp-content/uploads/2021/09/PIC8-Recalls.gif)
-
-    Check this article to learn how to recall information from previous questions: [How to Use Information Recalls](/how-to-guides/use-information-recalls/)
-
-
----
-
-### **Step 4 – Configure Recommendations**
-
-The power of a quiz lies in guiding customers to clear choices. Too many results cause decision fatigue, while focused suggestions drive purchases.
-
-☐ Show only **1 top product**
-
-??? example "Example: Showing one matching product"
-
+??? example "Example: Single product recommendation"
     ![recommendations example](https://revenuehunt.com/wp-content/uploads/2021/09/PIC7-UNDID_Blurred.png){width="500"}
 
-☐ Use **recommendation slots** for routines, 1 product per slot (cleanser, serum, toner, etc.)
-
-??? example "Example: Skincare routine recommendations"
-
+??? example "Example: Skincare routine with slots"
     ![recommendations example](https://docs.revenuehunt.com/images/how_to_recommend_slots_example.png)
-    
-    Check this article to learn how to set up a quiz that recommends a skincare routine: [How to Set Up a Funnel Quiz with Slots](https://docs.revenuehunt.com/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots)
 
-☐ Apply a slot with **fixed recommendations** for best-sellers
+    See: [How to Set Up a Funnel Quiz with Slots](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots)
 
-??? info "How to Set Up Fixed Recommendations"
-
-    Check this article to learn how to set up a quiz that recommends a best-seller: [How to Set Up a Funnel Quiz with Fixed Recommendations](https://docs.revenuehunt.com/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations)
+☐ Optionally, pin a slot with [**fixed recommendations**](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) to always surface your best-sellers alongside dynamic results
 
 ---
 
-### **Step 5 – Design & Branding**
+### Step 5 - Capture Leads and Set Up Follow-Up
 
-A quiz that visually matches your store feels like part of your brand and builds trust. Good design keeps the quiz engaging and boosts completion rates.
+The quiz is the top of your funnel. Capturing the email and following up is where the revenue multiplies.
 
-??? info "How to Customize Quiz Design"
+☐ Add an [**email question**](/reference/quiz-builder/questions/#email-address) before the results page
 
-    Check this article to learn how to customize the quiz design: [Customize Quiz Design](/how-to-guides/customize-quiz-design/)
+!!! info "Should you make the email required?"
+    **Yes - the data says so.** Among top-converting quizzes that collect email, 75% make it required. This does **not** hurt completion rates - customers who reach the email step are engaged and willing to share their email for a personalized recommendation. Make it required.
 
-    Note that the `💎Built for Shopify` version of the RevenueHunt app automatically pulls your Shopify theme’s base font.
-
-    ![quiz design example](https://revenuehunt.com/wp-content/uploads/2021/09/PIC1-OLAPLEX_Blurred-1024x452.png)
-
-☐ Apply your **store fonts and color scheme**
-
-☐ Add a **background image** or icons that fit your style
-
-☐ Use the **visual block editor** to arrange quiz elements
-
-☐ Add **custom CSS/JS** for advanced tweaks
-
-
----
-
-### **Step 6 – Capture Leads & Send Results**
-
-Collecting emails turns quiz takers into long-term customers. Sending results builds trust and creates opportunities for follow-up campaigns.
-
-☐ Add an [**email question**](/reference/quiz-builder/questions/#email-address) to gather leads from the quiz
-
-??? tip "Make the email question *optional*"
-
-    To don't hurt your quiz conversions, you can make the email question optional in [email question settings](/reference/quiz-builder/questions/#email). This way users will be able to opt-out but still can see their results.
+??? info "How to set the email question as required"
+    Open the email question settings and toggle **Required** on. See: [Email question settings](/reference/quiz-builder/questions/#email)
 
     ![email question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png)
 
+☐ Enable [**result emails**](/how-to-guides/send-result-emails/) to automatically send recommendations to quiz takers
 
-☐ Enable [result emails](/how-to-guides/send-result-emails/) to send results to the quiz takers who left their email
+☐ Connect your quiz to [**Klaviyo**](/how-to-guides/send-leads-to-klaviyo/) (or your CRM of choice) and set up a post-quiz email flow
 
-??? info "Tutorial: Sending Emails"
+!!! success "Why Klaviyo matters"
+    Quizzes connected to Klaviyo convert **24% better** and generate **66% more orders** on average. Set up a flow that sends the first email within minutes of quiz completion, with recommended products and a discount code.
 
-    Check this video tutorial to learn how to send emails with the RevenueHunt app: [Sending Emails](/tutorials/sending-emails/)
+??? info "Other CRM integrations"
+    RevenueHunt also integrates with [Omnisend, Mailchimp, and custom Webhooks](/how-to-guides/send-leads-to-crm/).
 
-☐ For advanced features, [connect the quiz to your CRM](/how-to-guides/send-leads-to-crm/) (eg. Klaviyo, Omnisend, Mailchimp, Webhooks, etc.) and set up a follow-up email campaign
-
-☐ Personalize emails with quiz answers + product recommendations
+☐ Personalize follow-up emails with the customer's quiz answers and recommended products
 
 ---
 
-### **Step 7 – Add Incentives**
+### Step 6 - Add a Discount Incentive
 
-Rewards encourage customers to act immediately. A discount code is a simple but effective way to boost conversions after the quiz.
+A discount gives customers a reason to act immediately after the quiz. It's simple, effective, and easy to set up.
 
-☐ If you haven't yet, add a Welcome slide that clearly sets expectations — explain what the customer will gain from the quiz and highlight any **reward for completion**.
+☐ Mention the reward on your Welcome slide (e.g., *"Complete the quiz and get 10% off your personalized routine"*)
 
-☐ If available for your platform, create and add an [automatic discount code](/how-to-guides/add-discount/) for quiz finishers
+☐ Add an [**automatic discount code**](/how-to-guides/add-discount/) that applies at checkout for quiz finishers (available on Shopify)
 
-☐ Create a discount code for quiz takers and **add the dicount code as text** to the quiz last question or results page
+☐ If automatic codes aren't available on your platform, add the discount code as visible text on the results page
 
-??? example "Example: Discount Code"
-
+??? example "Example: Discount Code on Results Page"
     ![discount code example](https://revenuehunt.com/wp-content/uploads/2021/09/PIC9-discount.gif)
 
 ---
 
-### **Step 8 – Publish Your Quiz**
+### Step 7 - Publish Your Quiz
 
-Even the best quiz won’t help if no one sees it. Make your quiz highly visible across your store to maximize engagement. Most successful quizzes are **published in multiple locations** on the website to help customers at different stages of their shopping journey.
+A great quiz that's hard to find won't convert. Put it where customers already are. The most successful quizzes are published in **at least two locations**.
 
-??? tip "Is there anything I can help you with?"
-
-    Just like a real-life shop attendant, the quiz should reach out to the customers to ask *"Is there anything I can help you with?"*. 
-
-    ![publishing your quiz](https://revenuehunt.com/wp-content/uploads/2021/09/PIC1-UN_DID_Blurred-768x402.png)
-
-??? info "How to Publish Your Quiz"
-
-    Check this article to learn how to publish your quiz in different ways: [How to Publish Your Quiz](/how-to-guides/publish-quiz/)
-
-
-☐ Add links to the quiz in the [**navigation menu**](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu)
-
-☐ Add a [**banner with a button**](/how-to-guides/publish-quiz-link/#link-popup-as-take-the-quiz-button) to open the quiz
-
-☐ Add quiz as a [**inline block**](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-dedicated-landing-page) on dedicated landing page or homepage
+☐ Add the quiz as an [**inline block**](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-dedicated-landing-page) on your homepage or a dedicated landing page
 
 ☐ Set up an [**automatic popup**](/how-to-guides/publish-quiz-automatic-popup/) for first-time visitors
 
----
+☐ Add a [**floating button**](/how-to-guides/publish-quiz-link/#link-popup-as-take-the-quiz-button) so the quiz is always accessible while customers browse
 
-### **Step 9 – Optimize for Global Stores**
+☐ Add a link to the quiz in your [**navigation menu**](/how-to-guides/publish-quiz-link/#link-popup-in-website-menu)
 
-If you sell internationally, your quiz should adapt just like your store. Localization in language, currency, and products builds trust and increases sales abroad.
+??? tip "Think of it like a store assistant"
+    Just like a real shop assistant asks *"Can I help you find something?"*, your quiz should proactively reach out to visitors. The more visible it is, the more it sells.
 
-??? tip "How to Set Up a Quiz for Multiple Markets"
+    ![publishing your quiz](https://revenuehunt.com/wp-content/uploads/2021/09/PIC1-UN_DID_Blurred-768x402.png)
 
-    In Markets tab of the app, assign a quiz to a specific Shopify Market. You can duplicate a quiz and translate it with Copilot for quick multi-language setup.
-
-    Check this video tutorial to learn how to set up a quiz for multiple markets: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/)
-
-☐ Create separate quizzes for **different languages**
-
-☐ Test **currency display** in Shopify Markets
-
-☐ Adjust recommendations for **region-specific needs**
-
-☐ Test quizzes in multiple markets to confirm smooth experience
-
-
-
-
+??? info "Full publishing guide"
+    See all the ways to publish your quiz: [How to Publish Your Quiz](/how-to-guides/publish-quiz/)
 
 ---
 
-✅ Done! Your quiz is now ready to guide customers like a real store assistant — driving higher engagement, more conversions, and global reach.
+### Step 8 - Match Your Store's Look
 
+The `💎Built for Shopify` app automatically inherits your Shopify theme's base font and pulls in your brand colors - so the quiz already looks on-brand by default. This step is a quick polish, not a major investment.
+
+☐ Review the quiz on desktop and mobile to confirm it looks clean and readable
+
+☐ Adjust fonts, colors, or button styles if needed using the [**visual block editor**](/how-to-guides/customize-quiz-design/)
+
+☐ Add a **background image** or icons that match your store's visual style
+
+??? info "How to customize quiz design"
+    See: [Customize Quiz Design](/how-to-guides/customize-quiz-design/)
+
+    ![quiz design example](https://revenuehunt.com/wp-content/uploads/2021/09/PIC1-OLAPLEX_Blurred-1024x452.png)
+
+!!! warning "Don't skip steps 1-7 to get here faster"
+    Design polish is worth doing - but only once the quiz content, product mapping, and email capture are working. A beautiful quiz with unmapped answers and no follow-up email will not convert. Get the foundation right first.
+
+---
+
+### Step 9 (Optional) - Add Personalization and Logic
+
+Most top-converting quizzes are fully linear - every customer sees the same questions. This is intentional: a well-mapped linear quiz consistently outperforms complex branching flows. **Only add logic once your linear quiz is working.**
+
+☐ Use [**Skip Logic**](/how-to-guides/use-skip-logic/) to hide questions that don't apply based on earlier answers (e.g., skip a "hair color" question if the customer selected "no hair color treatment")
+
+☐ Use [**Jump Logic**](/how-to-guides/use-jump-logic/) to branch into entirely different paths only when product lines are completely distinct (e.g., cat products vs. dog products)
+
+☐ Use [**Display Logic**](/how-to-guides/use-display-logic/) on the **results page** to show different advice blocks to different customer segments - without complicating the question flow
+
+☐ Enable [**Information Recalls**](/how-to-guides/use-information-recalls/) to greet customers by name or reference their earlier answers on the results page
+
+??? example "Example: Recalling a customer's name"
+    ![information recalls example](https://revenuehunt.com/wp-content/uploads/2021/09/PIC8-Recalls.gif)
+
+    See: [How to Use Information Recalls](/how-to-guides/use-information-recalls/)
+
+---
+
+### Step 10 (Optional) - Set Up for Multiple Markets
+
+Only relevant if you sell internationally. Skip this step if you're operating a single-market store.
+
+☐ Duplicate your quiz and translate it for each language using Quiz Copilot
+
+☐ Assign each quiz to its Shopify Market in the **Markets** tab of the app
+
+☐ Adjust product recommendations for region-specific inventory
+
+☐ Test currency display and quiz flow in each market before going live
+
+??? info "How to set up quizzes for multiple markets"
+    See the video tutorial: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/)
+
+---
+
+!!! success "You're ready to launch"
+    Work through steps 1-7 before going live. Steps 8-10 are improvements you can layer on once the quiz is running and converting. **A simple, well-mapped quiz beats a complex, over-designed one every time.**
+
+    See: [Why the Best-Selling Quizzes Have Zero Customization](/customer-success/best-quizzes-no-customization/)
+
+Need help? Take the [Support Quiz](/how-to-guides/contact-customer-support/) to reach our team directly.
