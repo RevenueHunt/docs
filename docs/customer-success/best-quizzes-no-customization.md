@@ -1,6 +1,7 @@
 ---
-## icon: material/trophy-outline
+icon: material/trophy-outline
 description: "Why the best-selling quizzes have zero customization and what actually drives quiz revenue."
+---
 
 # Why the Best-Selling Quizzes Have Zero Customization
 
@@ -74,7 +75,7 @@ That's it. That's the playbook.
 
     The `💎Built for Shopify` version of the RevenueHunt app pulls in your Shopify theme's typography by default. For most stores, the quiz already *looks on-brand* without a single line of CSS. What it needs next is great *content* — not more styling.
 
-    ![Default theme example](/images/cs_no_customization_style.pngg)
+    ![Default theme example](/images/cs_no_customization_style.png)
 
 
     
