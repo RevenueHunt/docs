@@ -1,6 +1,6 @@
 ---
-icon: material/trophy-outline
----
+## icon: material/trophy-outline
+description: "Why the best-selling quizzes have zero customization and what actually drives quiz revenue."
 
 # Why the Best-Selling Quizzes Have Zero Customization
 
@@ -14,6 +14,7 @@ This article is about what separates those two quizzes.
 
     At RevenueHunt, we've analyzed hundreds of successful product recommendation quizzes — over 900 quizzes, 1.29 million responses, and $63.8M in tracked revenue. The findings consistently point to the same conclusion: **the quizzes that sell the most are the ones that get the content right, not the design.**
 
+
 ---
 
 ## The customization trap
@@ -26,7 +27,10 @@ When merchants discover they can customize *everything*, it's tempting to focus 
 
 !!! warning "A quiz that looks beautiful but asks the wrong questions will not convert."
 
+
     A quiz that looks plain but asks *exactly* the right questions — and maps every answer to the right product — will outsell it every time.
+
+    ![No customization comparison](/images/cs_no_customization_comparison.png)
 
 
 The most common reason quizzes underperform isn't poor design. It's one of these:
@@ -67,8 +71,13 @@ That's it. That's the playbook.
 
 !!! success "The default theme inherits your store's fonts and colors automatically."
 
+
     The `💎Built for Shopify` version of the RevenueHunt app pulls in your Shopify theme's typography by default. For most stores, the quiz already *looks on-brand* without a single line of CSS. What it needs next is great *content* — not more styling.
 
+    ![Default theme example](/images/cs_no_customization_style.pngg)
+
+
+    
 
 ---
 
@@ -104,6 +113,7 @@ Aim for **3–6 answer choices per question**. Fewer than 3 limits personalizati
 
     The highest-converting quiz categories on our platform — health supplements, gift finders, skincare — often use entirely **text-based answer choices**. No images required.
 
+    ![No image quiz example](/images/cs_no_customization_text_quiz_example.png)
 
 ### 2. Map every single answer to a product
 
@@ -114,6 +124,8 @@ If an answer isn't mapped to at least one product or collection, fix it before y
 !!! example "Mapping example"
 
     A question like *"What's your main skin concern?"* with the answer *"Dryness"* should map to your hydrating moisturizers collection. *"Breakouts"* maps to your acne-fighting range. *"Anti-aging"* maps to your retinol products. Every answer, every time.
+
+    ![Mapping example](https://revenuehunt.com/wp-content/uploads/2026/04/email2_map_products.png)
 
 
 ### 3. Limit what you recommend
@@ -159,8 +171,11 @@ Custom CSS and JavaScript are valuable tools **once the content is right**. Afte
 
 !!! tip "Use Quiz Copilot for content, not just styling"
 
+
     Quiz Copilot is most valuable for generating question copy, writing compelling results page text, and suggesting product mapping logic — not just CSS. Ask it: *"What questions should I ask to find the best supplement for a customer?"* or *"Write a personalized results page heading that recalls the customer's name and top concern."* That's where Copilot earns its keep.
 
+    ![Quiz Copilot example](https://revenuehunt.com/wp-content/uploads/2026/04/email2_quiz_draft.png)
+    
 
 ---
 
