@@ -597,13 +597,14 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     | `actions.clearAnswer(blockRef)` | Clear an answer |
     | `actions.removeAnswer(blockRef)` | Remove answer completely |
 
-    **Cart Actions (Results Page Only)**
+    **Cart Actions**
 
     | Method | Description |
     |--------|-------------|
-    | `actions.addAllToCart()` | Add all recommended items to cart (async) |
-    | `actions.addToCart(variantId, qty, sellingPlanId?)` | Add specific item to cart (async) |
-    | `actions.applyDiscountCode(code)` | Apply discount code (async) |
+    | `actions.addAllToCart()` | Add all recommended items to cart (async, results page) |
+    | `actions.addToCart(variantId, qty, sellingPlanId?)` | Add specific item to cart (async, results page) |
+    | `actions.applyDiscountCode(code)` | Apply discount code (async, results page) |
+    | `actions.updateCartAttributes(attributes)` | Save Shopify cart attributes (async, question or results page on the live storefront) |
 
     ### DOM Helpers
 
@@ -685,6 +686,19 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
       await actions.applyDiscountCode('BUNDLE20');
     }
     ```
+
+    **Save selected quiz data to Shopify cart attributes:**
+    ```javascript
+    if (quiz.metadata.isStoreRenderer && !quiz.metadata.inBuilder) {
+      await actions.updateCartAttributes({
+        __quiz_response_id: quiz.metadata.responseId,
+        __result_ref: quiz.currentResult?.ref || '',
+        skincare_segment: quiz.variables.highest || ''
+      });
+    }
+    ```
+
+    Use the `__` prefix for internal/hidden cart attributes. Leave the prefix off for attributes you want to keep visible in Shopify cart or order surfaces.
 
     **Track quiz completion with analytics (Results Page):**
     ```javascript

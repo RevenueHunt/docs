@@ -1448,6 +1448,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         actions.addAllToCart()              // Add all recommendations to cart
         actions.addToCart(variantId, qty)   // Add specific item
         actions.applyDiscountCode('CODE')   // Apply discount
+        actions.updateCartAttributes({ __quiz_response_id: quiz.metadata.responseId }) // Save cart attributes
 
         // DOM helpers (shadow DOM aware)
         window.quiz.querySelector('#my-element')
@@ -1466,6 +1467,17 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         const itemCount = Object.keys(quiz.resultContext.slotItems || {}).length;
         if (itemCount >= 3) {
           await actions.applyDiscountCode('BUNDLE20');
+        }
+        ```
+
+        **Example - Save selected quiz data to Shopify cart attributes:**
+        ```javascript
+        if (quiz.metadata.isStoreRenderer && !quiz.metadata.inBuilder) {
+          await actions.updateCartAttributes({
+            __quiz_response_id: quiz.metadata.responseId,
+            __result_ref: quiz.currentResult?.ref || '',
+            skincare_segment: quiz.variables.highest || ''
+          });
         }
         ```
 

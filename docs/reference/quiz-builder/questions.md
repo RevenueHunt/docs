@@ -432,6 +432,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
         actions.next()             // Go to next question
         actions.previous()         // Go to previous question
         actions.overrideNext('q-skintype')  // One-shot redirect
+        actions.updateCartAttributes({ __quiz_response_id: quiz.metadata.responseId }) // Save cart attributes
         actions.setAnswer('qbi-name', 'John')  // Set answer value
         actions.clearAnswer('qbi-name')        // Clear answer
 
