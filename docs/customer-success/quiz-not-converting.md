@@ -9,7 +9,7 @@ Product quizzes are a great way to personalize shopping experiences and boost sa
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/7jmjHlwEErI?si=a5bEg-I7CrPHPj7T" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-Here are some common reasons why your quiz is not working well and how you can fix it.
+Here are some *common reasons* why your quiz is not working well and how you can fix it.
 
 ## 🎯  You Don’t Have Clear Goals
 
