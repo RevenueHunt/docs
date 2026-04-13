@@ -90,11 +90,17 @@ icon: material/sale
 
     You can add a discount code to be applied automatically at checkout when users finish the quiz and proceed to cart.
 
-    !!! warning "Create a Discount Code in Shopify"
 
-        You need to create a discount code in Shopify first before adding it to the quiz results page.
+    !!! warning "Discount code is only applied at Shopify checkout"
+        
+        The discount code will not be visible on the quiz preview or the results page. It is applied automatically when the customer proceeds to Shopify checkout.
+
 
     1. **Create a Discount Code in Shopify**: You need to create a discount code in Shopify first before adding it to the quiz results page.
+
+        !!! warning "Create a Discount Code in Shopify"
+
+            You need to create a discount code in Shopify first before adding it to the quiz results page.
 
         - Navigate to the Shopify admin panel and select the `Discounts` tab.
         - Click on `Create Discount` to set up a new discount code.
@@ -130,7 +136,7 @@ icon: material/sale
 
         !!! warning "Discount Code only works on live quiz"
         
-            The discount code will be applied automatically at checkout only. The discount will not be visible on quiz preview.
+            The discount code will not be visible on the quiz preview or the results page. It is applied automatically when the customer proceeds to Shopify checkout.
 
     ### Discount Code as Text
 
