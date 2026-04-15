@@ -5,152 +5,206 @@ description: "Fix low RevenueHunt quiz conversion rates with strategies for clea
 
 # Why Your Product Quiz is NOT Converting Well
 
-Product quizzes are a great way to personalize shopping experiences and boost sales, but sometimes they just don’t hit the mark. If your quiz isn’t converting as well as you’d like, you’re not alone.
+Product quizzes can be powerful - but when the numbers don't move, it's easy to feel stuck. Before you start tweaking fonts or adding more questions, you need to know *where* in the funnel the problem actually is.
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/7jmjHlwEErI?si=a5bEg-I7CrPHPj7T" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-Here are some *common reasons* why your quiz is not working well and how you can fix it.
+---
 
-## 🎯  You Don’t Have Clear Goals
+## Diagnose First: Where Is the Funnel Breaking?
 
-If you don’t know what you want your quiz to achieve, it’s hard to make it effective. Are you trying to *increase sales*, *gather customer data*, or just *engage your audience*?
+A product quiz has three distinct stages where conversion can fail. The fix for each is completely different.
 
-Without a clear purpose, your quiz might miss the mark.
+| Stage | Symptom | Likely problem |
+|-------|---------|----------------|
+| **1. Visibility** | Low quiz views, few starts | Quiz is hard to find; weak CTA |
+| **2. Completion** | High start rate, low finish rate | Too many questions; confusing choices; no incentive to finish |
+| **3. Purchase** | High completion rate, low sales | Weak recommendations; no email follow-up; no discount |
 
-**Solution**
+Check your [quiz metrics](/reference/quiz-builder/metrics/) to see where people are dropping off. That tells you which section below to focus on first.
 
-Decide what you want your quiz to do. For instance, if you want to boost sales, make sure your questions help guide users to only the products you know they’ll love. Keep track of metrics that show you’re reaching your goals, like conversion rates and average order value.
+!!! tip "Check your metrics first"
+    Go to [Quiz Metrics & Analytics](/reference/quiz-builder/metrics/) to see your quiz's start rate, completion rate, and conversion rate. Each metric points to a different stage of the problem.
 
-
-| Goal | Solution |
-|------|-----------|
-| **Increasing Sales** | • `Define Sales Objectives`: Set specific targets, like increasing average order value or boosting conversion rates by X%.<br><br>• `Tailored Product Recommendations`: Ensure your quiz directs users to products they are more likely to buy based on their answers and that you don't show too many products on your results page (recommending 1 product that matches all customer criteria is best). |
-| **Gathering Customer Data** | • `Focus on Insights`: Design questions that help you understand your customers' preferences and behaviors.<br><br>• `Data Collection`: Use the quiz to gather valuable information like email addresses, preferences, and pain points. You can easily [download all the quiz responses](/how-to-guides/download-quiz-responses/) or [connect your quiz to GA4](/how-to-guides/integrate-google-analytics/) for advanced behavioral analytics. |
-| **Engaging Your Audience** | • `Interactive Elements`: Include engaging and fun elements like images, videos, and gamified components. Visual quizzes maintain the customer's attention.<br><br>• `Entertainment and Informative Value`: Make sure the quiz is enjoyable and informative, keeping the audience interested but also feeling like they are learning something. |
-
-!!! tip "Tip: Check Metrics"
-
-    Check the [Quiz Metrics & Analytics](/reference/quiz-builder/metrics/) section for insights on your quiz engagement and sales.
-
-    Our latest article explains which quiz metrics are important and how to improve them: [Product Quiz Metrics: What to Track to Convert Better](/customer-success/track-quiz-metrics-for-better-conversions/)
-
-
-## 🥱 Your Questions Are Boring
-
-If your quiz is boring, users won’t stick around to finish it. A dull design, lack of interactivity, and uninspiring content can all lead to low engagement.
-
-Long, complex, or irrelevant questions can also drive users away. If your questions are too generic, they won’t provide a personalized experience.
-
-**Solution**
-
-Make your quiz visually appealing and interactive. Use images, videos, and animations to keep it interesting. Add elements like progress bars and instant feedback to make the experience more fun.
-
-![visually appealing and interactive quiz](https://revenuehunt.com/wp-content/uploads/2024/07/Screenshot-2024-07-10-090342-e1720595102774.png)
-
-Keep your questions short, sweet, and to the point. Make sure they’re relevant to what your customers care about. Use simple language and avoid jargon. Every question should help you understand your customers better or steer them toward the right product.
-
-| Goal | Solution |
-|------|-----------|
-| **Increasing Sales** | • `Interactive Elements`: Use interactive questions and features to keep users interested.<br><br>• `Relevant Questions, Direct Path to Purchase`: Ask only questions that help narrow down the best products for the user. Ensure questions are geared towards identifying products that fit the user's needs.<br><br>• `Product Highlights`: Showcase product benefits and unique selling points throughout the product description in the quiz. |
-| **Gathering Customer Data** | • `Fun Questions`: Make data-gathering questions fun and engaging.<br><br>• `Rewards for Participation`: Offer incentives for completing the quiz, like [discounts](/how-to-guides/add-discount/) or entries into a giveaway.<br><br>• `Insightful Queries`: Include questions that provide deeper insights into customer preferences and demographics.<br><br>• `Progressive Profiling`: Gradually gather more detailed information with each quiz interaction. |
-| **Engaging Your Audience** | • `Entertaining Questions`: Use questions that are fun and engaging, such as personality-based or lifestyle questions.<br><br>• `Gamification`: Incorporate elements of gamification, such as progress bars and badges.<br><br>• `Visual Appeal`: Incorporate images and videos to make questions more interesting.<br><br>• `Storytelling`: Use a narrative approach to make the quiz more engaging. |
-
-!!! tip "Tip: Use Picture Questions"
-
-    Use [Picture Questions](/reference/quiz-builder/questions/) to add images or animated gifs to your quiz choices in the RevenueHunt quiz app.
-
-!!! tip "Tip: Upload Images and Videos"
-
-    You can upload [images and videos](/how-to-guides/customize-quiz-design/#adding-images-and-videos) to any quiz question in the RevenueHunt quiz app.
-
-
-## 🤔 Your Results Are Too Generic
-
-If you recommend too many products to the customer, they still will not know what to put in their cart. Recommending too many products ads an extra decision step in the customer’s shopping journey.
-
-If your quiz results aren’t personalized, users will feel like they wasted their time. Generic results won’t make users excited about your products.
-
-**Solution**
-
-Recommend a single product that matches all the customer criteria or a full routine with one product per step. This way the customer will know what to add to cart right away and it will significantly increase your conversion rate.
-
-![single product recommendation](https://revenuehunt.com/wp-content/uploads/2024/07/Screenshot-2024-07-10-090001.png)
-
-Use the data from the quiz to give personalized recommendations. Make sure the results are specific to each user’s answers. Highlight why these products are perfect for them.
-
-| Goal | Solution |
-|------|-----------|
-| **Increasing Sales** | • `Personalized Recommendations`: Provide highly tailored product suggestions based on quiz answers.<br><br>• `Highlight Benefits`: Clearly explain why each recommended product is a great fit for the user. |
-| **Gathering Customer Data** | • `Detailed Insights`: Offer results that give users a deep understanding of their preferences and needs.<br><br>• `Encourage Profile Completion`: Use results to prompt users to complete their profiles for even more personalized recommendations. |
-| **Engaging Your Audience** | • `Interactive Results`: Make the results page interactive, with clickable elements that lead to more content or products.<br><br>• `Shareable Outcomes`: Create results that are fun to share on social media, increasing engagement. |
-
-
-!!! tip 
-
-    Check here how to customize your Results Page for better conversions: [How to Customize Your Results Page](/how-to-guides/edit-results-page/)
-
-
-## 📢 Weak Calls to Action (CTAs)
-
-If your CTAs aren’t clear or strong, users might not know what to do next. This can lead to missed conversions.
-
-**Solution**
-
-Make your CTAs clear and direct. Whether it’s “Shop Now,” “Learn More,” or “Get Your Results,” make sure users know what to do next. Experiment with different texts and placements to see what works best.
-
-
-
-| Goal | Solution |
-|------|-----------|
-| **Increasing Sales** | • `Strong CTAs`: Use clear and compelling CTAs like "Shop Now" or "Buy Now."<br><br>• `Prominent Placement`: Ensure CTAs are prominently placed and easy to find. |
-| **Gathering Customer Data** | • `Data-Driven CTAs`: Encourage users to provide more information with CTAs like "Tell Us More" or "Complete Your Profile."<br><br>• `Lead Magnets`: Offer incentives for sharing data, such as [discounts](/how-to-guides/add-discount/) or free samples. |
-| **Engaging Your Audience** | • `Engagement CTAs`: Use CTAs that encourage further interaction, like "Take Another Quiz" or "Read More Tips."<br><br>• `Social Sharing`: Include CTAs that prompt users to share their results on social media. |
-
-
-!!! tip "Tip: Change CTAs"
-
-    You can change the text of any button or CTA in your quiz in the [Quiz Settings > Messages](/reference/quiz-builder/quiz-settings/#messages) section or directly in each question settings.
-
-
-## 💌 No Follow-Up
-
-The interaction shouldn’t end with the quiz results. If you don’t follow up, you miss out on potential sales and customer relationships.
-
-**Solution**
-
-Have a follow-up plan. Send personalized emails with the quiz results, product recommendations, and special offers.
-
-Use retargeting ads to remind users about their quiz results and encourage them to come back.
-
-
-| Goal | Solution |
-|------|-----------|
-| **Increasing Sales** | • `Email Follow-Ups`: [Send personalized emails](/how-to-guides/send-result-emails/) with product recommendations based on quiz results.<br><br>• `Special Offers`: Include exclusive [discounts](/how-to-guides/add-discount/) or offers in the follow-up to encourage purchases. |
-| **Gathering Customer Data** | • `Survey Follow-Ups`: Send follow-up surveys to gather more detailed customer insights.<br><br>• `Profile Completion`: Encourage users to complete their profiles with follow-up emails. |
-| **Engaging Your Audience** | • `Content Follow-Ups`: Provide additional content related to the quiz results, like blog posts or videos.<br><br>• `Engagement Reminders`: Use follow-up emails to remind users of their quiz results and encourage further interaction. |
-
-!!! tip "Tip: Send Follow-Up Emails"
-
-    With RevenueHunt Product Recommendation Quiz you can [send follow-up emails](/how-to-guides/send-result-emails/) to quiz takers directly from the app or [connect the quiz to your CRM](/how-to-guides/send-leads-to-crm/) and set up a post-quiz email flow there.
+    For a deep-dive into which metrics to track: [Product Quiz Metrics: What to Track to Convert Better](/customer-success/track-quiz-metrics-for-better-conversions/)
 
 ---
 
-A well-made product quiz can be a game-changer for your online store. By avoiding these common mistakes and continually improving your quiz, you can create a better experience for your users and drive more sales. 
+## Stage 1: Nobody Is Taking the Quiz
 
-!!! tip "Key Takeaways"
+If your quiz views are low, the quiz itself isn't the problem - *visibility* is.
 
-    ✔️ Know who you are targeting and tailor your quiz to meet their needs.
+### 🔍 The quiz is only published in one place
 
-    ✔️ Define what you want to achieve with your quiz, whether it’s increasing sales, gathering customer data, or engaging your audience.
+Most successful quizzes are published in at least two locations. A quiz buried on a single product page or accessible only through a navigation link will get almost no traffic.
 
-    ✔️ Ensure the quiz provides personalized recommendations and results that resonate with each user.
+**Fix:** Publish your quiz in multiple locations:
 
-    ✔️ Use interactive and fun elements to keep users interested and encourage them to complete the quiz.
+- An inline block or banner on your homepage (the most visible placement)
+- A floating chat-style button that follows customers as they browse
+- An automatic popup triggered for first-time visitors
+- A link in your navigation menu
 
-    ✔️ Use clear and compelling calls to action to guide users towards the desired outcome.
+??? info "How to publish your quiz in multiple locations"
+    See: [How to Publish Your Quiz](/how-to-guides/publish-quiz/)
 
-    ✔️ Have a plan for post-quiz engagement, including follow-up emails and special offers.
+### 🏷️ The quiz name or CTA doesn't communicate value
 
+If your quiz is labelled "Quiz" or your button just says "Click here," customers have no reason to engage. They don't know what they'll get.
 
-At RevenueHunt, we help e-commerce businesses create quizzes that really convert. [Get in touch](/how-to-guides/contact-customer-support/) with us today to learn how we can help you turn your quiz into a powerful sales tool.
+**Fix:** Name your quiz around the outcome, not the format. *"Find Your Perfect Routine"*, *"Shade Finder"*, *"Take the Skin Diagnostic"* tell customers exactly what they're walking into. Pair this with a CTA that promises something concrete: *"Get my personalized recommendations"* or *"Find the right products in 2 minutes"*.
 
+---
+
+## Stage 2: People Start but Don't Finish
+
+High start rates with low completion rates mean customers are abandoning mid-quiz. This is almost always a question design problem.
+
+### 🧱 Too many questions
+
+Our platform data across hundreds of quizzes shows completion rates drop significantly past 12 questions. The sweet spot is 6-12, with 7-8 being the most common length for top-converting quizzes.
+
+**Fix:** Audit every question with one rule: *does this question change what gets recommended?* If removing it wouldn't change any recommendation, cut it.
+
+!!! warning "More questions ≠ more personalization"
+    Adding questions feels like you're being more helpful. But for most product catalogs, 7-8 well-mapped questions produce tighter recommendations than 20 loosely mapped ones. Start shorter than you think you need to, then expand based on data.
+
+### ❓ Questions customers can't answer confidently
+
+If a customer has to stop and think - or worse, guess - they'll abandon. Questions that use brand-specific jargon, ask about technical specifications customers don't know, or present abstract concepts without visual context all cause hesitation.
+
+![Visually clear quiz questions with images](https://revenuehunt.com/wp-content/uploads/2024/07/Screenshot-2024-07-10-090342-e1720595102774.png)
+
+**Fix:** Test your quiz on someone who doesn't know your products. Watch where they hesitate. Every hesitation is a question to rewrite or cut.
+
+Use **picture questions** where the answer *is* visual - shade matching, skin type identification, hair texture. Skip images where plain text is actually clearer (most questions).
+
+!!! tip "Use Picture Questions where visuals reduce ambiguity"
+    Add [Picture Choice questions](/reference/quiz-builder/questions/#picture-choice) for answers that are genuinely easier to show than describe. Don't add them everywhere - images on every question create visual noise without adding clarity.
+
+### 📊 Too many answer choices per question
+
+More than 6 choices per question creates decision fatigue. Fewer than 3 doesn't capture enough variation to personalize the recommendation.
+
+**Fix:** Keep every question to 3-6 answer choices. If you find yourself with 8+ options, split it into two questions or consolidate similar choices.
+
+### 🎁 No incentive to complete
+
+If customers don't know what they're getting at the end, they're less likely to push through.
+
+**Fix:** Tell customers upfront what completing the quiz gets them. A progress bar showing how far they've come helps too. If you offer a discount on completion, mention it on the welcome slide: *"Complete the quiz and get 10% off your personalized recommendation."*
+
+---
+
+## Stage 3: People Finish but Don't Buy
+
+This is the most common problem - and the most fixable. A high completion rate with low purchases means the quiz experience was fine but the results didn't close the sale.
+
+### 🗺️ Answer choices aren't mapped to products
+
+This is the single most common cause of low conversion, and the most frequently overlooked. If your answer choices aren't mapped to products or collections, the quiz recommendation engine has nothing to work with. The result is generic recommendations - and generic recommendations don't sell.
+
+**Fix:** Go through your quiz answer by answer. For every choice, ask: *does this answer push the recommendation toward the right products?* If any answer has no product mapping, fix it before you do anything else.
+
+??? example "How product mapping works"
+    Each answer choice can be linked to one or more products or collections. When a customer selects an answer, those products receive "votes." The products with the most votes at the end win the recommendation slot.
+
+    An answer with no mapping is a wasted signal. If 60% of your answers are unmapped, 60% of what your customers tell you is being ignored.
+
+    See: [How to Recommend Products](/how-to-guides/recommend-products/)
+
+### 📦 Too many products on the results page
+
+Showing 8 or 10 product options recreates exactly the problem the quiz was supposed to solve. The customer is back to choosing - without the guidance they came for.
+
+**Fix:** Recommend 1-3 products maximum. If you sell routines (e.g., skincare steps), use **product slots** - one recommendation per step. The customer should be able to add everything to cart in one click.
+
+![Single focused product recommendation](https://revenuehunt.com/wp-content/uploads/2024/07/Screenshot-2024-07-10-090001.png)
+
+Our platform data shows **79% of top-converting quizzes use a single results page** and focus on 1-3 products. Quizzes with 11+ result pages convert at 7.1% on average; single-page quizzes average 10.6%.
+
+??? tip "How to set up product slots for routines"
+    See: [How to Set Up a Funnel Quiz with Slots](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots)
+
+### 📢 Weak or missing call to action
+
+After the recommendation, the next step needs to be obvious. If there's no clear "Add to cart" or "Shop now" button, or if the button is buried below multiple paragraphs of text, customers will close the tab.
+
+**Fix:** The results page structure should be: heading → short explanation → products with add-to-cart → one clear CTA button. Keep it simple. Everything on the results page should point toward a single action.
+
+!!! tip "Customize your CTAs"
+    Change the text of any button or CTA in your quiz under [Quiz Settings > Messages](/reference/quiz-builder/quiz-settings/#messages) or directly in each block's settings.
+
+### 💌 No email capture and no follow-up
+
+Most customers don't buy on the first visit. If you're not capturing emails and following up, you're losing the majority of your potential revenue.
+
+Only 2% of shoppers convert on their first visit to an e-commerce store. The email follow-up is what closes the rest.
+
+**Fix:** Add an email question before the results page and make it required. Connect to Klaviyo or your CRM. Send the first follow-up email within 10 minutes of quiz completion, with the recommended products and a discount.
+
+Quizzes with Klaviyo connected generate **24% higher conversion rates** and **66% more orders** on average than those without.
+
+??? tip "How to set up email follow-up"
+    - [How to Send Result Emails](/how-to-guides/send-result-emails/)
+    - [How to Connect Your Quiz to Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
+    - [How to Connect Your Quiz to a CRM](/how-to-guides/send-leads-to-crm/)
+
+### 🏷️ No discount to close the sale
+
+Customers who complete a quiz are engaged and warm - but they may still need a push. A discount code on the results page gives them a concrete reason to buy now rather than later.
+
+**Fix:** Add an [automatic discount code](/how-to-guides/add-discount/) that applies at checkout for quiz completers. If you mention the discount on the welcome slide, customers who abandon mid-quiz have an extra reason to come back and finish.
+
+---
+
+## The Quick Diagnostic Checklist
+
+Work through this in order. Fix the first thing that's broken before moving to the next.
+
+☐ Quiz is published in at least two locations on your store
+
+☐ Quiz name and CTA communicate a clear, concrete benefit
+
+☐ Quiz has 6-12 questions (start with 7-8)
+
+☐ Every question has 3-6 answer choices
+
+☐ Every answer choice is mapped to at least one product or collection
+
+☐ Results page recommends 1-3 products (or one product per slot for routines)
+
+☐ Results page has a single, prominent add-to-cart or shop now CTA
+
+☐ Email is captured before the results page (required)
+
+☐ A discount code is shown on the results page
+
+☐ A follow-up email is sent within 10 minutes of quiz completion
+
+☐ Quiz is connected to Klaviyo or your CRM with a segmented post-quiz flow
+
+If you go through this list and fix every item that's missing, most quizzes reach 10-15% conversion without any design changes.
+
+---
+
+!!! success "Key Takeaways"
+
+    ✔️ Diagnose before you fix - check your metrics to see where in the funnel customers are dropping off.
+
+    ✔️ Low visibility? Publish your quiz in more places and sharpen the CTA.
+
+    ✔️ Low completion? Shorten the quiz and rewrite questions customers hesitate on.
+
+    ✔️ Low purchase rate? Map every answer to a product, reduce recommendations to 1-3, and set up email follow-up.
+
+    ✔️ The most common fix is not redesigning the quiz - it's mapping unmapped answer choices and adding a post-quiz email flow.
+
+Need help diagnosing your specific quiz? [Get in touch with our support team](/how-to-guides/contact-customer-support/) and we'll take a look.
+
+**Related articles:**
+
+- [Product Quiz Metrics: What to Track to Convert Better](/customer-success/track-quiz-metrics-for-better-conversions/)
+- [How to Reduce Drop-Off](/customer-success/reduce-dropoff/)
+- [Why the Best-Selling Quizzes Have Zero Customization](/customer-success/best-quizzes-no-customization/)
+- [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)
