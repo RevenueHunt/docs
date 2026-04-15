@@ -1444,21 +1444,30 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         quiz.resultContext.cartItems   // Items in cart
         quiz.resultContext.discounts   // Applied discounts
 
-        // Actions (methods)
-        actions.addAllToCart()              // Add all recommendations to cart
-        actions.addToCart(variantId, qty)   // Add specific item
-        actions.applyDiscountCode('CODE')   // Apply discount
-        actions.updateCartAttributes({ __quiz_response_id: quiz.metadata.responseId }) // Save cart attributes
+        // Shopify native cart API is the main source of truth
+        // Docs: https://shopify.dev/docs/api/ajax/reference/cart
+        // Use window.Shopify.routes.root + cart.js / add.js / change.js / update.js / clear.js
+
+        // RevenueHunt bridge
+        actions.syncCart()                  // Replace quiz cart state from Shopify cart.js
 
         // DOM helpers (shadow DOM aware)
         window.quiz.querySelector('#my-element')
         window.quiz.getElementById('my-element')
         ```
 
-        **Example - Auto-add to cart based on score:**
+        **Example - Use Shopify AJAX cart APIs, then sync the quiz UI:**
         ```javascript
         if ((quiz.variables.scores.premium ?? 0) > 80) {
-          await actions.addAllToCart();
+          await fetch(`${window.Shopify.routes.root}cart/add.js`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              items: [{ id: 12345678901234, quantity: 1 }]
+            })
+          });
+
+          await actions.syncCart();
         }
         ```
 
@@ -1466,20 +1475,34 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         ```javascript
         const itemCount = Object.keys(quiz.resultContext.slotItems || {}).length;
         if (itemCount >= 3) {
-          await actions.applyDiscountCode('BUNDLE20');
-        }
-        ```
-
-        **Example - Save selected quiz data to Shopify cart attributes:**
-        ```javascript
-        if (quiz.metadata.isStoreRenderer && !quiz.metadata.inBuilder) {
-          await actions.updateCartAttributes({
-            __quiz_response_id: quiz.metadata.responseId,
-            __result_ref: quiz.currentResult?.ref || '',
-            skincare_segment: quiz.variables.highest || ''
+          await fetch(`${window.Shopify.routes.root}cart/update.js`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              discount: 'BUNDLE20'
+            })
           });
         }
         ```
+
+        **Example - Save selected quiz data to Shopify note + cart attributes:**
+        ```javascript
+        if (quiz.metadata.isStoreRenderer && !quiz.metadata.inBuilder) {
+          await fetch(`${window.Shopify.routes.root}cart/update.js`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              note: 'Quiz completed',
+              attributes: {
+                __result_ref: quiz.currentResult?.ref || '',
+                skincare_segment: quiz.variables.highest || ''
+              }
+            })
+          });
+        }
+        ```
+
+        RevenueHunt already tags the cart with internal quiz identifiers automatically. Use custom cart attributes for additional merchant-defined data.
 
     `🗑 Remove results page` - Deletes the current results page.
     
@@ -2459,9 +2482,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     | Method | Description |
     |--------|-------------|
-    | `actions.addAllToCart()` | Add all recommended items to cart (async) |
-    | `actions.addToCart(variantId, qty, sellingPlanId?)` | Add specific item to cart (async) |
-    | `actions.applyDiscountCode(code)` | Apply discount code (async) |
+    | `actions.syncCart()` | Fetch Shopify cart state and **replace** the quiz result cart state (async) |
     | `actions.setAnswer(blockRef, value)` | Set answer value |
     | `actions.clearAnswer(blockRef)` | Clear an answer |
 
@@ -2477,10 +2498,31 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     #### JavaScript Examples
 
-    **Auto-add to cart for premium customers:**
+    **Add all recommended items with Shopify cart APIs:**
     ```javascript
-    if ((quiz.variables.scores.premium ?? 0) > 80) {
-      await actions.addAllToCart();
+    const toNumericVariantId = (gid) => {
+      const raw = String(gid || '').split('/').pop();
+      return raw ? Number(raw) : null;
+    };
+
+    const itemsToAdd = Object.values(quiz.resultContext.slotItems || {})
+      .map((item) => {
+        const variantGid = item?.__typename === 'ProductVariant'
+          ? item.id
+          : item?.variants?.edges?.[0]?.node?.id;
+        const variantId = toNumericVariantId(variantGid);
+        return variantId ? { id: variantId, quantity: 1 } : null;
+      })
+      .filter(Boolean);
+
+    if (itemsToAdd.length > 0) {
+      await fetch(`${window.Shopify.routes.root}cart/add.js`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ items: itemsToAdd })
+      });
+
+      await actions.syncCart();
     }
     ```
 
@@ -2488,7 +2530,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ```javascript
     const itemCount = Object.keys(quiz.resultContext.slotItems || {}).length;
     if (itemCount >= 3) {
-      await actions.applyDiscountCode('BUNDLE20');
+      await fetch(`${window.Shopify.routes.root}cart/update.js`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          discount: 'BUNDLE20'
+        })
+      });
     }
     ```
 

@@ -599,12 +599,17 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     **Cart Actions**
 
+    For Shopify cart operations, the main API should be Shopify's native Ajax Cart API:
+
+    - Official overview: [Shopify Ajax API](https://shopify.dev/docs/api/ajax)
+    - Official cart reference: [Shopify Cart API reference](https://shopify.dev/docs/api/ajax/reference/cart)
+    - Official section rendering reference: [Shopify Section Rendering API](https://shopify.dev/docs/api/ajax/section-rendering)
+
+    RevenueHunt's quiz-specific cart bridge is:
+
     | Method | Description |
     |--------|-------------|
-    | `actions.addAllToCart()` | Add all recommended items to cart (async, results page) |
-    | `actions.addToCart(variantId, qty, sellingPlanId?)` | Add specific item to cart (async, results page) |
-    | `actions.applyDiscountCode(code)` | Apply discount code (async, results page) |
-    | `actions.updateCartAttributes(attributes)` | Save Shopify cart attributes (async, question or results page on the live storefront) |
+    | `actions.syncCart()` | Fetch Shopify cart state and **replace** the quiz result cart state (async, results page) |
 
     ### DOM Helpers
 
@@ -672,10 +677,18 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     ```
     These synthetic answers will appear in your webhook's `answersByBlock` payload, allowing you to track attribution data alongside quiz responses.
 
-    **Auto-add to cart for premium customers (Results Page):**
+    **Use Shopify AJAX cart APIs, then sync the quiz UI (Results Page):**
     ```javascript
     if ((quiz.variables.scores.premium ?? 0) > 80) {
-      await actions.addAllToCart();
+      await fetch(`${window.Shopify.routes.root}cart/add.js`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          items: [{ id: 12345678901234, quantity: 1 }]
+        })
+      });
+
+      await actions.syncCart();
     }
     ```
 
@@ -683,22 +696,106 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     ```javascript
     const itemCount = Object.keys(quiz.resultContext.slotItems || {}).length;
     if (itemCount >= 3) {
-      await actions.applyDiscountCode('BUNDLE20');
-    }
-    ```
-
-    **Save selected quiz data to Shopify cart attributes:**
-    ```javascript
-    if (quiz.metadata.isStoreRenderer && !quiz.metadata.inBuilder) {
-      await actions.updateCartAttributes({
-        __quiz_response_id: quiz.metadata.responseId,
-        __result_ref: quiz.currentResult?.ref || '',
-        skincare_segment: quiz.variables.highest || ''
+      await fetch(`${window.Shopify.routes.root}cart/update.js`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          discount: 'BUNDLE20'
+        })
       });
     }
     ```
 
-    Use the `__` prefix for internal/hidden cart attributes. Leave the prefix off for attributes you want to keep visible in Shopify cart or order surfaces.
+    **Save selected quiz data to Shopify note + cart attributes:**
+    ```javascript
+    if (quiz.metadata.isStoreRenderer && !quiz.metadata.inBuilder) {
+      await fetch(`${window.Shopify.routes.root}cart/update.js`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          note: 'Quiz completed',
+          attributes: {
+            __result_ref: quiz.currentResult?.ref || '',
+            skincare_segment: quiz.variables.highest || ''
+          }
+        })
+      });
+    }
+    ```
+
+    RevenueHunt already tags the cart with internal quiz identifiers automatically. Use custom cart attributes for additional merchant-defined data.
+
+    In RevenueHunt storefront experiments, the hidden/private cart-attribute pattern that works in practice is the `__prefix` convention. Leave off the prefix for attributes you want visible in Shopify cart or order surfaces.
+
+    **Keep RevenueHunt cart UI in sync after native line-item mutations:**
+    ```javascript
+    await fetch(`${window.Shopify.routes.root}cart/change.js`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: 12345678901234, quantity: 0 })
+    });
+
+    await window.quiz.syncCart();
+    ```
+
+    Call `syncCart()` after native `cart/add.js`, `cart/change.js`, or `cart/clear.js` so the quiz result UI replaces its local cart state with Shopify's current cart. For `cart/update.js` note/attribute/discount updates, sync is usually not required unless your custom quiz UI depends on refreshed cart state immediately.
+
+    **Add all recommended items with Shopify `cart/add.js`:**
+    ```javascript
+    const toNumericVariantId = (gid) => {
+      const raw = String(gid || '').split('/').pop();
+      return raw ? Number(raw) : null;
+    };
+
+    const itemsToAdd = Object.values(quiz.resultContext.slotItems || {})
+      .map((item) => {
+        const variantGid = item?.__typename === 'ProductVariant'
+          ? item.id
+          : item?.variants?.edges?.[0]?.node?.id;
+
+        const variantId = toNumericVariantId(variantGid);
+        return variantId ? { id: variantId, quantity: 1 } : null;
+      })
+      .filter(Boolean);
+
+    if (itemsToAdd.length > 0) {
+      await fetch(`${window.Shopify.routes.root}cart/add.js`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ items: itemsToAdd })
+      });
+
+      await actions.syncCart();
+    }
+    ```
+
+    If you need to add products from one specific slot only, prefer placing that logic in the slot's Custom HTML / Slot Item Composition so the code is already scoped to the intended item(s).
+
+    **Compact Shopify cart recipes:**
+
+    ```javascript
+    // Read cart
+    const cart = await fetch(`${window.Shopify.routes.root}cart.js`).then((r) => r.json());
+
+    // Remove one existing line item by key
+    const line = cart.items.find((item) => item.variant_id === 12345678901234);
+    if (line?.key) {
+      await fetch(`${window.Shopify.routes.root}cart/change.js`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: line.key, quantity: 0 })
+      });
+      await actions.syncCart();
+    }
+
+    // Clear cart
+    await fetch(`${window.Shopify.routes.root}cart/clear.js`, { method: 'POST' });
+    await actions.syncCart();
+    ```
+
+    **Legacy RevenueHunt cart helpers:**
+
+    Older quiz code may still use `actions.addToCart(...)`, `actions.addAllToCart()`, `actions.applyDiscountCode(...)`, or `actions.updateCartAttributes(...)`. These remain useful for backwards compatibility, but for new Shopify cart work, prefer native Shopify Ajax endpoints plus `syncCart()`.
 
     **Track quiz completion with analytics (Results Page):**
     ```javascript
@@ -2351,11 +2448,34 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     **Results Page**
 
 
-    ??? example "Automatically add all recommended products to cart"
+    ??? example "Add all recommended products with Shopify cart API, then sync the quiz UI"
 
           ```javascript
           (async () => {
-          await actions.addAllToCart();
+          const toNumericVariantId = (gid) => {
+            const raw = String(gid || '').split('/').pop();
+            return raw ? Number(raw) : null;
+          };
+
+          const itemsToAdd = Object.values(quiz.resultContext.slotItems || {})
+            .map((item) => {
+              const variantGid = item?.__typename === 'ProductVariant'
+                ? item.id
+                : item?.variants?.edges?.[0]?.node?.id;
+              const variantId = toNumericVariantId(variantGid);
+              return variantId ? { id: variantId, quantity: 1 } : null;
+            })
+            .filter(Boolean);
+
+          if (itemsToAdd.length > 0) {
+            await fetch(`${window.Shopify.routes.root}cart/add.js`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ items: itemsToAdd })
+            });
+
+            await actions.syncCart();
+          }
           })();
           ```
 
@@ -2365,7 +2485,13 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
           ```javascript
           (async () => {
           if ((quiz.variables.scores.skinSensitivity ?? 0) > 70) {
-          await actions.applyDiscountCode();
+            await fetch(`${window.Shopify.routes.root}cart/update.js`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                discount: 'SENSITIVE10'
+              })
+            });
           }
           })();
           ```
