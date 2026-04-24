@@ -71,19 +71,29 @@ This article walks you through the process of connecting your quiz to Klavviyo a
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/1ccqOIhfskw?si=iI8pBe7MMFh8JwkS&amp;start=42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    To connect the quiz to Klaviyo you’ll have to provide your Klaviyo **Public API Key**. Public API Key is essential because it allows us to send information to Klaviyo Profiles.
+    The Klaviyo integration uses OAuth to securely connect your store to Klaviyo. This connection is made at the **store level**, meaning once connected, you can enable Klaviyo for any of your quizzes.
 
-    2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
-        ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
-    3. Navigate back to the RevenueHunt app. 
-    4. In the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
-        ![how to send leads to klaviyo public api key provided1](/images/how_to_klaviyo_shopify_v2_public_key.png)
+    1. Open the RevenueHunt app and navigate to any quiz.
+    2. Go to `Quiz Settings > Integrations` tab.
+    3. Scroll to the `Mailing & CRMs` section and find the Klaviyo card.
+    4. Click the `Connect` button.
+        ![how to send leads to klaviyo shopify v2 connect](/images/how_to_klaviyo_shopify_v2_public_key.png)
+    5. You will be redirected to Klaviyo's authorization page. Log in to your Klaviyo account if prompted.
+    6. Select the Klaviyo account you want to connect and review the permissions requested, then click `Allow` to authorize the connection.
+    7. You will be redirected back to the RevenueHunt app. The Klaviyo card will now show as `Connected`, with your account name and Site ID displayed.
+    8. Klaviyo is automatically **enabled** for the quiz you initiated the connection from. You can enable it for other quizzes individually by opening `Quiz Settings > Integrations` and toggling `Send quiz leads to Klaviyo`.
 
-    5. Publish the changes with the top `Save` button.
-    6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
-    7. To verify the test, open `Kalviyo > Audeince > Profiles` section. If a new profile was added the integration was successful.
+    9. Publish the changes with the top `Save` button.
+    10. Test the quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Klaviyo account.
+    11. To verify the test, open `Klaviyo > Audience > Profiles`. If a new profile was added the integration was successful.
 
     From now on all the contacts coming from the quiz will be added to your Klaviyo account.
+
+    !!! tip "Reconnecting"
+        If you previously connected Klaviyo and need to refresh permissions or switch accounts, click `Reconnect` on the Klaviyo card. Use `Disconnect` to revoke the connection entirely.
+
+    !!! info "Legacy API key setup"
+        Stores that configured Klaviyo before the OAuth integration still work using their saved Public and Private API keys. We recommend reconnecting via OAuth for the cleaner setup and automatic token management.
 
     **Custom Properties**
 
