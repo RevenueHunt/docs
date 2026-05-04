@@ -6,7 +6,7 @@ description: "Complete guide to integrate RevenueHunt quiz with Klaviyo for targ
 
 Apart from giving your customers personalized product recommendations, you can connect your quiz to Klaviyo. This way all the contacts coming from the quiz will be added to your Klaviyo account and you can create targeted email campaigns to upsell them.
 
-This article walks you through the process of connecting your quiz to Klavviyo and setting up post-quiz email flow. You can also follow our step-by-step [tutorial](/tutorials/follow-up-emails-klaviyo/).
+This article walks you through the process of connecting your quiz to Klaviyo and setting up post-quiz email flow. You can also follow our step-by-step [tutorial](/tutorials/follow-up-emails-klaviyo/).
 
 
 === "Shopify"
