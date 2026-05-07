@@ -45,7 +45,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **Data & GDPR**
 
-    `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
 
 === "WooCommerce"
 
@@ -61,7 +61,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **Data & GDPR**
 
-    `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
 
 === "Magento"
 
@@ -77,7 +77,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **Data & GDPR**
 
-    `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
 
 === "BigCommerce"
 
@@ -93,7 +93,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **Data & GDPR**
 
-    `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
 
 === "Standalone"
 
@@ -109,7 +109,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **Data & GDPR**
 
-    `Anonymize quiz respones after 30 days` - Some jurisdictions require merchants to delete any Personal Identifiable Information (PII) they hold from customers upon request. To comply with GDPR legislation, you can choose to anonymize all of your quiz responses by automatically deleting any Personal Identifiable Information from the responses 30 days after being collected. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
 
 ## Shopify Markets
 

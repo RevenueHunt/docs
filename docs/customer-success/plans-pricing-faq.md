@@ -347,7 +347,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     - **Shopify**: Go to your Shopify admin > Apps > RevenueHunt > Uninstall
 
-    **Important**: Uninstalling the app will permanently delete all your quizzes, responses, and data within 48 hours. This action cannot be undone.
+    **Important**: Uninstalling the app does not delete data instantly. After uninstall, the platform sends us a data-deletion notification; once received, RevenueHunt permanently purges your quizzes, responses, and app data within about 48 hours. This cannot be undone.
 
     If you have any questions about canceling or need help with the process, please [contact our support team](/how-to-guides/contact-customer-support/).
 
@@ -373,7 +373,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     - **Shopify**: Go to your Shopify admin > Apps > RevenueHunt > Uninstall
 
-    **Important**: Uninstalling the app will permanently delete all your quizzes, responses, and data within 48 hours. This action cannot be undone.
+    **Important**: Uninstalling the app does not delete data instantly. After uninstall, the platform sends us a data-deletion notification; once received, RevenueHunt permanently purges your quizzes, responses, and app data within about 48 hours. This cannot be undone.
 
     If you have any questions about canceling or need help with the process, please [contact our support team](/how-to-guides/contact-customer-support/).
 
@@ -401,7 +401,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     - **WooCommerce/WordPress**: Deactivate and delete the plugin from your WordPress admin
 
-    **Important**: Uninstalling the app will permanently delete all your quizzes, responses, and data within 48 hours. This action cannot be undone.
+    **Important**: Uninstalling the app does not delete data instantly. After uninstall, the platform sends us a data-deletion notification; once received, RevenueHunt permanently purges your quizzes, responses, and app data within about 48 hours. This cannot be undone.
 
     If you have any questions about canceling or need help with the process, please [contact our support team](/how-to-guides/contact-customer-support/).
 
@@ -430,7 +430,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     Follow the standard uninstallation process for your platform                     
 
-    **Important**: Uninstalling the app will permanently delete all your quizzes, responses, and data within 48 hours. This action cannot be undone.
+    **Important**: Uninstalling the app does not delete data instantly. After uninstall, the platform sends us a data-deletion notification; once received, RevenueHunt permanently purges your quizzes, responses, and app data within about 48 hours. This cannot be undone.
 
     If you have any questions about canceling or need help with the process, please [contact our support team](/how-to-guides/contact-customer-support/).   
 
@@ -456,7 +456,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     Follow the standard uninstallation process for your platform
 
-    **Important**: Uninstalling the app will permanently delete all your quizzes, responses, and data within 48 hours. This action cannot be undone.
+    **Important**: Uninstalling the app does not delete data instantly. After uninstall, the platform sends us a data-deletion notification; once received, RevenueHunt permanently purges your quizzes, responses, and app data within about 48 hours. This cannot be undone.
 
     If you have any questions about canceling or need help with the process, please [contact our support team](/how-to-guides/contact-customer-support/).   
 
@@ -566,7 +566,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
-    You can delete your responses, but this won’t affect your monthly quiz usage.
+    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
@@ -581,7 +581,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
-    You can delete your responses, but this won’t affect your monthly quiz usage.
+    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
@@ -595,7 +595,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
-    You can delete your responses, but this won’t affect your monthly quiz usage.
+    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
@@ -610,7 +610,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
-    You can delete your responses, but this won’t affect your monthly quiz usage.
+    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
@@ -624,7 +624,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
-    You can delete your responses, but this won’t affect your monthly quiz usage.
+    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
@@ -639,7 +639,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach 125% of your plan’s response limit, your quizzes will be locked. Your quizzes will automatically be unlocked again when the number of quiz responses collected during the past 30 days is lower than your plan’s limit.
 
-    You can delete your responses, but this won’t affect your monthly quiz usage.
+    Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
@@ -648,7 +648,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
 ## What counts as a paid response?
 
-Quiz Responses are counted as the number of people who have completed the quiz (reached the Results Page). If someone starts the quiz and abandons it partway through, this does not count as a response.
+Quiz Responses are counted as the number of customers who complete the quiz (reach the Results Page). If someone starts the quiz and abandons it partway through, this does not count as a response. Admin/test responses generated from preview are excluded from usage and cleaned up automatically.
 
 You can check your responses in the [Metrics > Analytics](/reference/quiz-builder/metrics/#analytics) tab inside the Quiz Builder.
 
