@@ -92,6 +92,10 @@ This article explains how to show product reviews on the results page on your qu
 
     Loox writes review data to Shopify's reserved `reviews` namespace. Follow the steps above to enable Storefront API access.
 
+    !!! warning "Loox manual sync may be required"
+
+        If Loox reviews or review counts still do not appear after enabling Storefront API access, email Loox support at [support@loox.io](mailto:support@loox.io) and ask them to manually sync your store's review data to Shopify's default `reviews.rating` and `reviews.rating_count` metafields.
+
     #### Yotpo
 
     Yotpo uses the standard `reviews` namespace for ratings. Follow the steps above to enable Storefront API access.
