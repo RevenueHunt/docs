@@ -52,13 +52,7 @@ icon: material/download
 === "WooCommerce"
 
     1. Install and activate [WooCommerce](https://woocommerce.com/) if you haven’t already done so.
-    2. Install and activate our **Product Recommendation Quiz** plugin for WordPress. Get the latest version [here](https://revenuehunt.com/product-recommendation-quiz-woocommerce/).
-
-        ??? question "What’s the difference between the WooCommerce extension and a WordPress Plugin?"
-
-            The [WordPress Plugin](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/) is free to install and puts you directly on our **Free plan**. The Free plan allows up to 100 quiz responses per month without any charges but has a “Powered by RevenueHunt” branding. If your usage exceeds the Free plan, you’ll be asked to upgrade to a Basic plan which is billed monthly.
-
-            The [WooCommerce extension](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/) requires a yearly subscription (29$/year) to install the app and puts you on a **Starter Plan**. The Starter Plan allows up to 250 quiz responses per month and has the “Powered by RevenueHunt” branding removed. If your usage exceeds the Starter plan, you’ll be asked to upgrade to a Basic plan which is billed monthly.
+    2. Install and activate our **Product Recommendation Quiz** plugin from the [WordPress Plugin Directory](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/). It’s also available on the [WooCommerce Marketplace](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/). Both are free and install you on our **Free plan**, which allows up to 100 quiz responses per month. If your usage exceeds the Free plan, you’ll be asked to upgrade to a Basic plan which is billed monthly.
 
     3. In your WordPress dashboard, navigate to the `Product Quiz` tab.
     4. Grant permission to connect our app to your WooCommerce.
