@@ -59,9 +59,9 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     **Quiz payload settings**
 
-    `Include product variants in payload` - Activating this setting includes product variant details in the payload sent to Klaviyo, Zapier, Webhooks, and other integrations. Most integrations don't need this, and large payloads may not be accepted. This setting is turned off by default for new quizzes.
+    `Include product variants in payload` - This setting is turned off by default. Activate it only if an integration specifically needs product variant details. Most integrations don't need this, and large payloads may not be accepted.
 
-    `Include custom HTML in payload` - Activating this setting includes custom HTML result content in the payload sent to Klaviyo, Zapier, Webhooks, and other integrations. Most integrations don't need this, and large payloads may not be accepted. This setting is turned off by default for new quizzes. If it is disabled, custom HTML content is replaced with a short redacted message in the payload.
+    `Include custom HTML in payload` - This setting is turned off by default. Activate it only if an integration specifically needs custom HTML result content. Most integrations don't need this, and large payloads may not be accepted. When disabled, custom HTML content is replaced with a short redacted message in the payload.
 
     **Quiz migration**
 
