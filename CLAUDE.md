@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Planning
+
+PRDs and planning docs for this repo live in `../devbot/planning/docs/` (centralized 2026-05-19).
+
 ## Project Overview
 
 This is a documentation site for the RevenueHunt app - a product recommendation and video quiz application for e-commerce platforms (Shopify, WooCommerce, Magento, BigCommerce, and Standalone). The documentation is built using MkDocs with the Material theme.
