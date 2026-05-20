@@ -11,7 +11,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/1ccqOIhfskw?si=8px5Gl4sDuavHuDe" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/paS5z2nzTvU?si=xQ5-t5vueGKlDL4q" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     !!! tip "Tutorial"
         You can also follow our step-by-step tutorial to learn how to connect your quiz to Klaviyo and send leads to Klaviyo: [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/)
@@ -69,7 +69,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/1ccqOIhfskw?si=iI8pBe7MMFh8JwkS&amp;start=42" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/paS5z2nzTvU?si=CtsHul93EE3HbY8K&amp;start=38" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     The Klaviyo integration uses OAuth to securely connect your store to Klaviyo. This connection is made at the **store level**, meaning once connected, you can enable Klaviyo for any of your quizzes.
 
@@ -77,7 +77,6 @@ This article walks you through the process of connecting your quiz to Klaviyo an
     2. Go to `Quiz Settings > Integrations` tab.
     3. Scroll to the `Mailing & CRMs` section and find the Klaviyo card.
     4. Click the `Connect` button.
-        ![how to send leads to klaviyo shopify v2 connect](/images/how_to_klaviyo_shopify_v2_public_key.png)
     5. You will be redirected to Klaviyo's authorization page. Log in to your Klaviyo account if prompted.
     6. Select the Klaviyo account you want to connect and review the permissions requested, then click `Allow` to authorize the connection.
     7. You will be redirected back to the RevenueHunt app. The Klaviyo card will now show as `Connected`, with your account name and Site ID displayed.
@@ -243,7 +242,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/1ccqOIhfskw?si=Jq3axq2iupfy2Xxu&amp;start=114" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/paS5z2nzTvU?si=KsRYtyVaGyDNuoSs&amp;start=187" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
 
@@ -280,7 +279,10 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         2. Click `Create flow` and then `Build from scratch`.
         3. Name the flow and click `Create flow`.
         4. Next, you'll be asked to set up a flow trigger.
-        5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+        5. Choose the trigger to be `Added to a segment` and select the segment created in the previous step. Set the `Reentry criteria` to `Allow reentry` so quiz takers receive an email every time they complete the quiz. Click `Confirm` and `Confirm and save`.
+
+            !!! tip "Alternative: trigger from a Klaviyo list"
+                Instead of triggering from a segment, you can trigger the flow when a contact is added to a specific Klaviyo list. This is useful if you're using the `Klaviyo list` selector in your quiz's email question block to send contacts directly to a list (see [Adding Quiz Contacts to Klaviyo List](#adding-quiz-contacts-to-klaviyo-list)).
 
         **Optional: Update Marketing Consent**
 
@@ -326,8 +328,18 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
             ![how to send leads to klaviyo built for shopify revenuehunt app example template in klaviyo](https://loom.com/i/04a9f5a3d3a040d2a97c2b393fc18c41?workflows_screenshot=true)
         9. Next, `Preview` the email as one of your segment subscribers to check what information is displayed.
-        10. You can freely edit the email template to your liking. For example, you can remove all the sections of the code that you don't need. You can also style the provided email code. Keep in mind, that you may need help from a developer to edit the tempalte code. Alternatively, you can try asking [Quiz Copilot](/how-to-guides/use-quiz-copilot/) or another AI agent like ChatGPT or Claude for help in styling the email.
-        
+        10. You can freely edit the email template to your liking. For example, you can remove sections of the code that you don't need and restyle the rest to match your branding.
+
+            !!! tip "Let Quiz Copilot edit and style your Klaviyo template"
+                You don't need a developer to customize the Klaviyo HTML template. Just paste the template code into [Quiz Copilot](/how-to-guides/use-quiz-copilot/) and ask it to:
+
+                - remove sections you don't need (e.g. keep only recommended products or only question answers),
+                - restyle the template to match your brand colors, fonts, and spacing,
+                - rearrange blocks or change the layout,
+                - explain what each part of the template does.
+
+                Once Quiz Copilot returns the updated code, paste it back into the `HTML` block in your Klaviyo template.
+
             ??? info "Create your own email template"
 
                 Check the [Use quiz data in Klaviyo email templates](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) article to learn how to customize your Klaviyo email template with quiz properties.
@@ -337,31 +349,18 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
 
-    8. **Re-trigger the flow**: If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
+    8. **Re-trigger the flow**: The easiest way to send an email with each quiz retake is to set the **reentry criteria** when you configure the flow trigger:
 
-        1. Add a `Profile property update` action at the end of the flow.
-        2. Click `+ Step`.
-        3. Select `Delete existing property`.
-        4. From the `Select property` dropdown menu select the property that was used to create a segment in earlier steps. 
+        1. Open the flow trigger (`Added to a segment`).
+        2. Set the `Reentry criteria` to `Allow reentry`.
+        3. Save the trigger.
 
-            !!! example "Example"
+        This way, quiz takers will receive an email every time they complete the quiz.
 
-                Select `Delete existing property` > `ANSWERS_BY_BLOCK-QuizID`. 
+        !!! tip "Alternative method"
+            You can also achieve this by adding a `Profile property update` action at the end of the flow that **deletes** the segment property (for example, `ANSWERS_BY_BLOCK-QuizID`). Each time a quiz taker completes the quiz, the property is re-added and they re-enter the segment, triggering the flow again.
 
-                ![how to send leads to klaviyo resend email with each quiz retake](/images/how_to_shopifyv2_klaviyo_resend_email_with_each_quiz_retake.png)
-
-            ??? info "How to send an email every time someone completes the quiz?"
-
-                First, you need to set up a segment based on (for example) the `ANSWERS_BY_BLOCK-{{quiz_id}}` property to filter quiz takers. Once the segment is created, you can build a flow that triggers when users are added to this segment, sends them their quiz results via email, and then **removes the `ANSWERS_BY_BLOCK-{{quiz_id}}` property from their profile** to allow for re-entry if they retake the quiz.
-
-                For example:
-
-                ![how to send leads to klaviyo resend email with each quiz retake](/images/how_to_shopifyv2_klaviyo_resend_email_with_each_quiz_retake.png)
-            
-
-        5. Save the changes and turn the action `LIVE`.
-
-        This way, each time a quiz taker takes the quiz again, they will be re-added to the segment and will trigger the email flow again.
+            ![how to send leads to klaviyo resend email with each quiz retake](/images/how_to_shopifyv2_klaviyo_resend_email_with_each_quiz_retake.png)
 
 
 
@@ -810,33 +809,28 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/1ccqOIhfskw?si=rCHFncBo62LnFpD4&amp;start=370" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/paS5z2nzTvU?si=G8fIYtPfLkZjmy8I&amp;start=114" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    RevenueHunt app allows you to add contacts from the quiz directly to a **list** in Klaviyo. To do that you'll need to provide a **Private API Key**.
+    With the OAuth connection in place, you can add contacts from the quiz directly to a **list** in Klaviyo. No additional API keys are needed — the list selector lives inside the email question block.
 
-    1. First, make sure that you have a Klaviyo list ready to add contacts to. If you don't have one, you can create a new one in `Klaviyo > Lists & segmenets` section. In the list settings, make sure to set it to `Single Opt-in`.
+    1. First, make sure that you have a Klaviyo list ready to add contacts to. If you don't have one, you can create a new one in `Klaviyo > Audience > Lists & Segments`. In the list settings, make sure to set it to `Single Opt-in`.
 
         !!! warning
-            Keep in mind that contacts from the quiz can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) List in Klaviyo.
+            Quiz contacts can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) list in Klaviyo.
 
-    2. To create a new Private Key for the RevenueHunt app in your Klaviyo account.
-    3. In account `Settings` open the `API Keys` tab and click `Create Private API Key`.
-
-        ![how to send leads to klaviyo private api key](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
-    4. Give it a name and allow `Full access`. Click `Create`. The agent will generate a new private key.
-    5. Copy the generated private key.
-    5. Go back to the RevenueHunt app and open the [Quiz Settings](/reference/quiz-builder/quiz-settings/).
-    6. In the `Integrations` section find `Klaviyo` and paste the `Private API Key` in the correct field.
-
-        ![how to klaviyo built for shopify revenuehunt app private api](/images/how_to_klaviyo_shopify_v2_private_api.png)
-    7. Click `Save` to confirm the changes.
-    8. Go to the Quiz Builder Questions section and find the email block.
-    9. In the email block settings, find the `Klaviyo list` section.
-    10. From the dropdown menu select the list you want to add contacts to.
+    2. Make sure your RevenueHunt account is [connected to Klaviyo via OAuth](#link-your-quiz-to-klaviyo) and that the `Send Quiz Leads to Klaviyo Profiles` checkbox is enabled in the quiz's `Quiz Settings > Integrations` section.
+    3. In the RevenueHunt app, open the [Quiz Builder](/reference/quiz-builder/) and click on the email question block to open its settings.
+    4. Under the `Klaviyo list` dropdown, select the list you want quiz takers added to.
+    5. Set the `subscription status` (for example, `Subscribed`).
 
         ![how to klaviyo built for shopify revenuehunt app email question settings](/images/how_to_klaviyo_shopify_v2_email_question_settings.png)
-    11. Save the changes with the top-right `Save` button.
-    12. Remember to `Preview` the quiz to test the connection with a sample email.
+    6. Save your quiz changes with the top-right `Save` button.
+
+        !!! tip "Per-quiz lists"
+            If you have multiple quizzes and want each to feed a different Klaviyo list, configure the email question block of each quiz individually and select the appropriate list there.
+
+    7. `Preview` the quiz and complete it with a sample email to verify the connection.
+    8. In Klaviyo, go to `Audience > Lists & Segments` and open the list to confirm the test contact was added as `Subscribed`.
 
 
 === "Shopify (Legacy)"
@@ -1641,6 +1635,42 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 ### Pull Product Information Directly from Shopify
 
 There’s a feature in Klaviyo that allows you to pull the product information directly from Shopify by providing the id. This way you don’t need to use the `description` or `image_url` that is provided by revenuehunt, but can pull it directly from Shopify by providing the origin_id of the product. More information about this function can be found [here](https://help.klaviyo.com/hc/en-us/articles/360004785571-Overview-of-the-Catalog-Lookup-Tag).
+
+## Disconnect Klaviyo
+
+=== "Shopify"
+
+    There are two ways to stop sending quiz data to Klaviyo, depending on whether you want to stop a single quiz or disconnect Klaviyo from your entire RevenueHunt account.
+
+    **Option 1: Disconnect a single quiz**
+
+    If you only want one specific quiz to stop sending data to Klaviyo (while other quizzes in your account keep working):
+
+    1. Open the [Quiz Settings](/reference/quiz-builder/quiz-settings/) of the quiz you want to disconnect.
+    2. Go to the `Integrations` tab, find the Klaviyo section, and uncheck the `Send Quiz Leads to Klaviyo Profiles` checkbox.
+    3. Save your changes.
+
+    No more quiz data will flow from that specific quiz to Klaviyo. Other quizzes in your account will continue to send data normally.
+
+    **Option 2: Disconnect Klaviyo from your entire RevenueHunt account**
+
+    If you want to completely revoke the Klaviyo connection across your whole RevenueHunt account:
+
+    1. Open [Quiz Settings](/reference/quiz-builder/quiz-settings/) and go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab.
+    2. Scroll to Klaviyo and click `Disconnect`.
+    3. Confirm the action.
+
+    The changes will save automatically. No more quiz data will flow to Klaviyo from any quiz in your account. To reconnect later, simply click `Connect` again and complete the OAuth flow.
+
+=== "Shopify (Legacy)"
+
+=== "WooCommerce"
+
+=== "Magento"
+
+=== "BigCommerce"
+
+=== "Standalone"
 
 ---
 By following this article, you can set up your post-quiz email flow with Klaviyo.
