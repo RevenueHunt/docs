@@ -109,7 +109,7 @@ The monolith serves `embed.js` from `public/embed.js` (accessed at `https://admi
 | Project | Local Path | Purpose |
 |---------|-----------|---------|
 | **WP Plugin** (eCommerce) | `~/Local Sites/productrecommendationquiz/app/public/wp-content/plugins/product-recommendation-quiz-for-ecommerce` | WordPress.org free plugin (supports WooCommerce, Magento, BigCommerce, Standalone) |
-| **WooCommerce Extension** | `~/Local Sites/productrecommendationquiz/app/public/wp-content/plugins/product-recommendation-quiz-for-woocommerce` | Paid WooCommerce Marketplace extension (WooCommerce-only) |
+| **WooCommerce Extension** | `~/Local Sites/productrecommendationquiz/app/public/wp-content/plugins/product-recommendation-quiz-for-woocommerce` | Free WooCommerce Marketplace extension (WooCommerce-only) |
 
 ### How They Connect to the Monolith
 
@@ -151,7 +151,7 @@ Deployed to the public WordPress.org plugin repository via SVN.
 
 #### WooCommerce Extension → WooCommerce Partners Dashboard (ZIP upload)
 
-Deployed as a paid extension via the WooCommerce Marketplace vendor dashboard.
+Deployed as a free extension via the WooCommerce Marketplace vendor dashboard.
 
 - **Dashboard**: https://woocommerce.com/wp-admin/
 - **Product page**: https://woocommerce.com/wp-admin/edit.php?post_type=product&page=view-product&post=6046806
@@ -176,7 +176,7 @@ When releasing either plugin, these files need version bumps:
 | Aspect | WP Plugin (eCommerce) | WooCommerce Extension |
 |--------|----------------------|----------------------|
 | Slug | `product-recommendation-quiz-for-ecommerce` | `product-recommendation-quiz-for-woocommerce` |
-| Distribution | WordPress.org (free) | WooCommerce Marketplace (paid) |
+| Distribution | WordPress.org (free) | WooCommerce Marketplace (free) |
 | `channel` value in JS | `wordpress` | `woocommerce` |
 | Platforms supported | WooCommerce + others | WooCommerce only |
 | Git hosting | GitHub | Keybase |
