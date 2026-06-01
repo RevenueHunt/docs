@@ -2,7 +2,7 @@
 
 **RevenueHunt Data Processing Agreement**
 
-*Last Updated: June 2025*
+*Last Updated: January 2025*
 
 ---
 
