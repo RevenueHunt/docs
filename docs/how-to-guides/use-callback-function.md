@@ -508,7 +508,17 @@ The JSON with the quiz response includes:
 
     !!! question "How to Know Which Choice the ID(s) Represent?"
 
-        You can simply make a test response, see what option you selected, and jot down the IDs of each response that way. An alternative would be to inspect the element of the choice to see the ID:
+        You don't need a separate lookup - the labels are already in the callback object. Each slide carries both its possible choices (`slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`) and the selected answer IDs (`slide.attributes.values`). Match a selected ID against the choices to read its label:
+
+        ```javascript
+        var choices = (slide.attributes.choices && slide.attributes.choices.data) || [];
+        var labels = (slide.attributes.values || []).map(function (id) {
+          var c = choices.filter(function (x) { return x.id === id; })[0];
+          return c ? c.attributes.label : id; // raw value for text/number questions
+        });
+        ```
+
+        If you'd rather read an ID straight off the page, inspect the choice element and take the value after `#choice-`:
         ![how to callback image8](/images/how_to_callback_image8.png)
 
         *The ID of this one is `36HzG42` - just take the number after `#choice-[your ID here]`.*
@@ -569,7 +579,17 @@ The JSON with the quiz response includes:
 
     !!! question "How to Know Which Choice the ID(s) Represent?"
 
-        You can simply make a test response, see what option you selected, and jot down the IDs of each response that way. An alternative would be to inspect the element of the choice to see the ID:
+        You don't need a separate lookup - the labels are already in the callback object. Each slide carries both its possible choices (`slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`) and the selected answer IDs (`slide.attributes.values`). Match a selected ID against the choices to read its label:
+
+        ```javascript
+        var choices = (slide.attributes.choices && slide.attributes.choices.data) || [];
+        var labels = (slide.attributes.values || []).map(function (id) {
+          var c = choices.filter(function (x) { return x.id === id; })[0];
+          return c ? c.attributes.label : id; // raw value for text/number questions
+        });
+        ```
+
+        If you'd rather read an ID straight off the page, inspect the choice element and take the value after `#choice-`:
         ![how to callback image8](/images/how_to_callback_image8.png)
 
         *The ID of this one is `36HzG42` - just take the number after `#choice-[your ID here]`.*
@@ -631,7 +651,17 @@ The JSON with the quiz response includes:
 
     !!! question "How to Know Which Choice the ID(s) Represent?"
 
-        You can simply make a test response, see what option you selected, and jot down the IDs of each response that way. An alternative would be to inspect the element of the choice to see the ID:
+        You don't need a separate lookup - the labels are already in the callback object. Each slide carries both its possible choices (`slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`) and the selected answer IDs (`slide.attributes.values`). Match a selected ID against the choices to read its label:
+
+        ```javascript
+        var choices = (slide.attributes.choices && slide.attributes.choices.data) || [];
+        var labels = (slide.attributes.values || []).map(function (id) {
+          var c = choices.filter(function (x) { return x.id === id; })[0];
+          return c ? c.attributes.label : id; // raw value for text/number questions
+        });
+        ```
+
+        If you'd rather read an ID straight off the page, inspect the choice element and take the value after `#choice-`:
         ![how to callback image8](/images/how_to_callback_image8.png)
 
         *The ID of this one is `36HzG42` - just take the number after `#choice-[your ID here]`.*
@@ -693,7 +723,17 @@ The JSON with the quiz response includes:
 
     !!! question "How to Know Which Choice the ID(s) Represent?"
 
-        You can simply make a test response, see what option you selected, and jot down the IDs of each response that way. An alternative would be to inspect the element of the choice to see the ID:
+        You don't need a separate lookup - the labels are already in the callback object. Each slide carries both its possible choices (`slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`) and the selected answer IDs (`slide.attributes.values`). Match a selected ID against the choices to read its label:
+
+        ```javascript
+        var choices = (slide.attributes.choices && slide.attributes.choices.data) || [];
+        var labels = (slide.attributes.values || []).map(function (id) {
+          var c = choices.filter(function (x) { return x.id === id; })[0];
+          return c ? c.attributes.label : id; // raw value for text/number questions
+        });
+        ```
+
+        If you'd rather read an ID straight off the page, inspect the choice element and take the value after `#choice-`:
         ![how to callback image8](/images/how_to_callback_image8.png)
 
         *The ID of this one is `36HzG42` - just take the number after `#choice-[your ID here]`.*
@@ -755,7 +795,17 @@ The JSON with the quiz response includes:
 
     !!! question "How to Know Which Choice the ID(s) Represent?"
 
-        You can simply make a test response, see what option you selected, and jot down the IDs of each response that way. An alternative would be to inspect the element of the choice to see the ID:
+        You don't need a separate lookup - the labels are already in the callback object. Each slide carries both its possible choices (`slide.attributes.choices.data[]`, each with an `id` and an `attributes.label`) and the selected answer IDs (`slide.attributes.values`). Match a selected ID against the choices to read its label:
+
+        ```javascript
+        var choices = (slide.attributes.choices && slide.attributes.choices.data) || [];
+        var labels = (slide.attributes.values || []).map(function (id) {
+          var c = choices.filter(function (x) { return x.id === id; })[0];
+          return c ? c.attributes.label : id; // raw value for text/number questions
+        });
+        ```
+
+        If you'd rather read an ID straight off the page, inspect the choice element and take the value after `#choice-`:
         ![how to callback image8](/images/how_to_callback_image8.png)
 
         *The ID of this one is `36HzG42` - just take the number after `#choice-[your ID here]`.*

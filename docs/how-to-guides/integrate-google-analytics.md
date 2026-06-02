@@ -110,57 +110,6 @@ icon: material/google-analytics
     3. Click `Save` to confirm the changes.
     4. Once activated the quiz will connect to the GA4 tracking code already present on your website. It can take up to 72 hours for the data to start appearing in your Meta portal.
 
-    ??? tip "Optional: Add Custom Trackers"
-
-        If you want you can add custom trackers to your quiz to track specific events and user interactions. This is useful if you want to track events that are not covered by the default tracking.
-
-        To implement custom event tracking for your quiz, follow these steps:
-        1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
-        2. **Embed the Custom Script**: Add the following script to your store's theme where the quiz is featured (preferably sitewide in your theme's main template file):
-            ```html
-            <script>
-            function prqQuizCallback(quizResponse){
-                gtag('event', 'your_event_name', {
-                'event_category': 'quiz',
-                'event_label': 'specific_label',
-                'value': quizResponse.someValue
-                });
-            }
-            </script>
-            ``` 
-        3. **Customize Event Tracking**: Modify the script with appropriate event names, labels, and values to track specific user actions. For example:
-            ```html
-            <script>
-            function prqQuizCallback(quizResponse){
-                // Track quiz start
-                if(quizResponse.type === 'quiz_started') {
-                    gtag('event', 'quiz_start', {
-                        'event_category': 'quiz',
-                        'event_label': quizResponse.quizName
-                    });
-                }
-                
-                // Track question answers
-                if(quizResponse.type === 'question_answered') {
-                    gtag('event', 'question_answer', {
-                        'event_category': 'quiz',
-                        'event_label': quizResponse.questionTitle,
-                        'value': quizResponse.answer
-                    });
-                }
-                
-                // Track quiz completion
-                if(quizResponse.type === 'quiz_completed') {
-                    gtag('event', 'quiz_complete', {
-                        'event_category': 'quiz',
-                        'event_label': quizResponse.quizName
-                    });
-                }
-            }
-            </script>
-            ```
-        4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
-
 
 
 === "Shopify (Legacy)"
@@ -176,47 +125,44 @@ icon: material/google-analytics
 
     1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
 
-    2. **Embed the Custom Script**: Add the following script to your store's theme where the quiz is featured (preferably sitewide in your theme's main template file):
+    2. **Embed the Custom Script**: Add the following script to the page where the quiz is embedded (or sitewide in your theme's main template file). Make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`:
         ```html
         <script>
+        // Fires once, when the customer reaches the results page
         function prqQuizCallback(quizResponse){
-            gtag('event', 'your_event_name', {
-            'event_category': 'quiz',
-            'event_label': 'specific_label',
-            'value': quizResponse.someValue
+            gtag('event', 'quiz_completed', {
+                event_category: 'quiz',
+                quiz_name: quizResponse.quiz.attributes.name,
+                quiz_id: quizResponse.quizid
             });
         }
         </script>
-        ``` 
+        ```
 
-    3. **Customize Event Tracking**: Modify the script with appropriate event names, labels, and values to track specific user actions. For example:
+    3. **Customize Event Tracking**: The example above fires once on completion. To track each answer as the customer makes it, add `prqSlideCallback`, which fires every time a question is answered. The snippet below also maps the selected choice IDs to their human-readable labels (both the choices and the selected values live in the slide object):
         ```html
         <script>
-        function prqQuizCallback(quizResponse){
-            // Track quiz start
-            if(quizResponse.type === 'quiz_started') {
-                gtag('event', 'quiz_start', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.quizName
-                });
-            }
-            
-            // Track question answers
-            if(quizResponse.type === 'question_answered') {
-                gtag('event', 'question_answer', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.questionTitle,
-                    'value': quizResponse.answer
-                });
-            }
-            
-            // Track quiz completion
-            if(quizResponse.type === 'quiz_completed') {
-                gtag('event', 'quiz_complete', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.quizName
-                });
-            }
+        // Fires each time a customer answers a question
+        function prqSlideCallback(event) {
+            var slide = event && event.slide;
+            if (!slide || !slide.attributes) return;
+
+            var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
+            var selected = slide.attributes.values || [];
+
+            // Turn selected choice IDs into readable labels
+            // (text/number questions have no choices, so the raw value passes through)
+            var labels = selected.map(function (val) {
+                var match = choices.filter(function (c) { return c.id === val; })[0];
+                return match ? match.attributes.label : val;
+            });
+
+            gtag('event', 'quiz_question_answered', {
+                event_category: 'quiz',
+                quiz_name: event.quiz.attributes.name,
+                question_title: slide.attributes.title,
+                answer: labels.join(', ')
+            });
         }
         </script>
         ```
@@ -237,47 +183,44 @@ icon: material/google-analytics
 
     1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
 
-    2. **Embed the Custom Script**: Add the following script to your store's theme where the quiz is featured (preferably sitewide in your theme's main template file):
+    2. **Embed the Custom Script**: Add the following script to the page where the quiz is embedded (or sitewide in your theme's main template file). Make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`:
         ```html
         <script>
+        // Fires once, when the customer reaches the results page
         function prqQuizCallback(quizResponse){
-            gtag('event', 'your_event_name', {
-            'event_category': 'quiz',
-            'event_label': 'specific_label',
-            'value': quizResponse.someValue
+            gtag('event', 'quiz_completed', {
+                event_category: 'quiz',
+                quiz_name: quizResponse.quiz.attributes.name,
+                quiz_id: quizResponse.quizid
             });
         }
         </script>
-        ``` 
+        ```
 
-    3. **Customize Event Tracking**: Modify the script with appropriate event names, labels, and values to track specific user actions. For example:
+    3. **Customize Event Tracking**: The example above fires once on completion. To track each answer as the customer makes it, add `prqSlideCallback`, which fires every time a question is answered. The snippet below also maps the selected choice IDs to their human-readable labels (both the choices and the selected values live in the slide object):
         ```html
         <script>
-        function prqQuizCallback(quizResponse){
-            // Track quiz start
-            if(quizResponse.type === 'quiz_started') {
-                gtag('event', 'quiz_start', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.quizName
-                });
-            }
-            
-            // Track question answers
-            if(quizResponse.type === 'question_answered') {
-                gtag('event', 'question_answer', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.questionTitle,
-                    'value': quizResponse.answer
-                });
-            }
-            
-            // Track quiz completion
-            if(quizResponse.type === 'quiz_completed') {
-                gtag('event', 'quiz_complete', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.quizName
-                });
-            }
+        // Fires each time a customer answers a question
+        function prqSlideCallback(event) {
+            var slide = event && event.slide;
+            if (!slide || !slide.attributes) return;
+
+            var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
+            var selected = slide.attributes.values || [];
+
+            // Turn selected choice IDs into readable labels
+            // (text/number questions have no choices, so the raw value passes through)
+            var labels = selected.map(function (val) {
+                var match = choices.filter(function (c) { return c.id === val; })[0];
+                return match ? match.attributes.label : val;
+            });
+
+            gtag('event', 'quiz_question_answered', {
+                event_category: 'quiz',
+                quiz_name: event.quiz.attributes.name,
+                question_title: slide.attributes.title,
+                answer: labels.join(', ')
+            });
         }
         </script>
         ```
@@ -297,47 +240,44 @@ icon: material/google-analytics
 
     1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
 
-    2. **Embed the Custom Script**: Add the following script to your store's theme where the quiz is featured (preferably sitewide in your theme's main template file):
+    2. **Embed the Custom Script**: Add the following script to the page where the quiz is embedded (or sitewide in your theme's main template file). Make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`:
         ```html
         <script>
+        // Fires once, when the customer reaches the results page
         function prqQuizCallback(quizResponse){
-            gtag('event', 'your_event_name', {
-            'event_category': 'quiz',
-            'event_label': 'specific_label',
-            'value': quizResponse.someValue
+            gtag('event', 'quiz_completed', {
+                event_category: 'quiz',
+                quiz_name: quizResponse.quiz.attributes.name,
+                quiz_id: quizResponse.quizid
             });
         }
         </script>
-        ``` 
+        ```
 
-    3. **Customize Event Tracking**: Modify the script with appropriate event names, labels, and values to track specific user actions. For example:
+    3. **Customize Event Tracking**: The example above fires once on completion. To track each answer as the customer makes it, add `prqSlideCallback`, which fires every time a question is answered. The snippet below also maps the selected choice IDs to their human-readable labels (both the choices and the selected values live in the slide object):
         ```html
         <script>
-        function prqQuizCallback(quizResponse){
-            // Track quiz start
-            if(quizResponse.type === 'quiz_started') {
-                gtag('event', 'quiz_start', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.quizName
-                });
-            }
-            
-            // Track question answers
-            if(quizResponse.type === 'question_answered') {
-                gtag('event', 'question_answer', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.questionTitle,
-                    'value': quizResponse.answer
-                });
-            }
-            
-            // Track quiz completion
-            if(quizResponse.type === 'quiz_completed') {
-                gtag('event', 'quiz_complete', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.quizName
-                });
-            }
+        // Fires each time a customer answers a question
+        function prqSlideCallback(event) {
+            var slide = event && event.slide;
+            if (!slide || !slide.attributes) return;
+
+            var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
+            var selected = slide.attributes.values || [];
+
+            // Turn selected choice IDs into readable labels
+            // (text/number questions have no choices, so the raw value passes through)
+            var labels = selected.map(function (val) {
+                var match = choices.filter(function (c) { return c.id === val; })[0];
+                return match ? match.attributes.label : val;
+            });
+
+            gtag('event', 'quiz_question_answered', {
+                event_category: 'quiz',
+                quiz_name: event.quiz.attributes.name,
+                question_title: slide.attributes.title,
+                answer: labels.join(', ')
+            });
         }
         </script>
         ```
@@ -357,47 +297,44 @@ icon: material/google-analytics
 
     1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
 
-    2. **Embed the Custom Script**: Add the following script to your store's theme where the quiz is featured (preferably sitewide in your theme's main template file):
+    2. **Embed the Custom Script**: Add the following script to the page where the quiz is embedded (or sitewide in your theme's main template file). Make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`:
         ```html
         <script>
+        // Fires once, when the customer reaches the results page
         function prqQuizCallback(quizResponse){
-            gtag('event', 'your_event_name', {
-            'event_category': 'quiz',
-            'event_label': 'specific_label',
-            'value': quizResponse.someValue
+            gtag('event', 'quiz_completed', {
+                event_category: 'quiz',
+                quiz_name: quizResponse.quiz.attributes.name,
+                quiz_id: quizResponse.quizid
             });
         }
         </script>
-        ``` 
+        ```
 
-    3. **Customize Event Tracking**: Modify the script with appropriate event names, labels, and values to track specific user actions. For example:
+    3. **Customize Event Tracking**: The example above fires once on completion. To track each answer as the customer makes it, add `prqSlideCallback`, which fires every time a question is answered. The snippet below also maps the selected choice IDs to their human-readable labels (both the choices and the selected values live in the slide object):
         ```html
         <script>
-        function prqQuizCallback(quizResponse){
-            // Track quiz start
-            if(quizResponse.type === 'quiz_started') {
-                gtag('event', 'quiz_start', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.quizName
-                });
-            }
-            
-            // Track question answers
-            if(quizResponse.type === 'question_answered') {
-                gtag('event', 'question_answer', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.questionTitle,
-                    'value': quizResponse.answer
-                });
-            }
-            
-            // Track quiz completion
-            if(quizResponse.type === 'quiz_completed') {
-                gtag('event', 'quiz_complete', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.quizName
-                });
-            }
+        // Fires each time a customer answers a question
+        function prqSlideCallback(event) {
+            var slide = event && event.slide;
+            if (!slide || !slide.attributes) return;
+
+            var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
+            var selected = slide.attributes.values || [];
+
+            // Turn selected choice IDs into readable labels
+            // (text/number questions have no choices, so the raw value passes through)
+            var labels = selected.map(function (val) {
+                var match = choices.filter(function (c) { return c.id === val; })[0];
+                return match ? match.attributes.label : val;
+            });
+
+            gtag('event', 'quiz_question_answered', {
+                event_category: 'quiz',
+                quiz_name: event.quiz.attributes.name,
+                question_title: slide.attributes.title,
+                answer: labels.join(', ')
+            });
         }
         </script>
         ```
@@ -417,47 +354,44 @@ icon: material/google-analytics
 
     1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
 
-    2. **Embed the Custom Script**: Add the following script to your store's theme where the quiz is featured (preferably sitewide in your theme's main template file):
+    2. **Embed the Custom Script**: Add the following script to the page where the quiz is embedded (or sitewide in your theme's main template file). Make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`:
         ```html
         <script>
+        // Fires once, when the customer reaches the results page
         function prqQuizCallback(quizResponse){
-            gtag('event', 'your_event_name', {
-            'event_category': 'quiz',
-            'event_label': 'specific_label',
-            'value': quizResponse.someValue
+            gtag('event', 'quiz_completed', {
+                event_category: 'quiz',
+                quiz_name: quizResponse.quiz.attributes.name,
+                quiz_id: quizResponse.quizid
             });
         }
         </script>
-        ``` 
+        ```
 
-    3. **Customize Event Tracking**: Modify the script with appropriate event names, labels, and values to track specific user actions. For example:
+    3. **Customize Event Tracking**: The example above fires once on completion. To track each answer as the customer makes it, add `prqSlideCallback`, which fires every time a question is answered. The snippet below also maps the selected choice IDs to their human-readable labels (both the choices and the selected values live in the slide object):
         ```html
         <script>
-        function prqQuizCallback(quizResponse){
-            // Track quiz start
-            if(quizResponse.type === 'quiz_started') {
-                gtag('event', 'quiz_start', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.quizName
-                });
-            }
-            
-            // Track question answers
-            if(quizResponse.type === 'question_answered') {
-                gtag('event', 'question_answer', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.questionTitle,
-                    'value': quizResponse.answer
-                });
-            }
-            
-            // Track quiz completion
-            if(quizResponse.type === 'quiz_completed') {
-                gtag('event', 'quiz_complete', {
-                    'event_category': 'quiz',
-                    'event_label': quizResponse.quizName
-                });
-            }
+        // Fires each time a customer answers a question
+        function prqSlideCallback(event) {
+            var slide = event && event.slide;
+            if (!slide || !slide.attributes) return;
+
+            var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
+            var selected = slide.attributes.values || [];
+
+            // Turn selected choice IDs into readable labels
+            // (text/number questions have no choices, so the raw value passes through)
+            var labels = selected.map(function (val) {
+                var match = choices.filter(function (c) { return c.id === val; })[0];
+                return match ? match.attributes.label : val;
+            });
+
+            gtag('event', 'quiz_question_answered', {
+                event_category: 'quiz',
+                quiz_name: event.quiz.attributes.name,
+                question_title: slide.attributes.title,
+                answer: labels.join(', ')
+            });
         }
         </script>
         ```
