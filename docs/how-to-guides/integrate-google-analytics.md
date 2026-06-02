@@ -110,6 +110,40 @@ icon: material/google-analytics
     3. Click `Save` to confirm the changes.
     4. Once activated the quiz will connect to the GA4 tracking code already present on your website. It can take up to 72 hours for the data to start appearing in your Meta portal.
 
+    ??? tip "Optional: Add Custom Trackers"
+
+        The native integration above already sends the standard events (quiz started, question viewed, choice answered, results viewed, product clicked, add to cart, and so on). To track **custom** events on top of those, use the quiz's built-in **Custom JS** section. It runs plain JavaScript (no `<script>` tags) and gives you a global `window.quiz` object.
+
+        !!! warning
+
+            The legacy `prqQuizCallback` / `prqSlideCallback` callbacks do **not** exist in the `💎 Built for Shopify` version. Use `window.quiz` instead, as shown below. Custom JS only runs in the preview or live quiz, not inside the builder.
+
+        **Prerequisite:** GA4 (`gtag.js`) must already be installed on your store, the same requirement as the native integration above.
+
+        **Track every answer.** Open the **first question** in the quiz builder, expand its **Custom JS** section, and assign a handler to `window.quiz.onChange`. It fires after every answer and stays registered for the rest of the quiz:
+
+        ```javascript
+        // Fires after every answer the customer gives
+        window.quiz.onChange = function (event) {
+          gtag('event', 'quiz_question_answered', {
+            event_category: 'quiz',
+            question_ref: event.questionRef,
+            // selectedLabel is the readable choice text - no choice-ID mapping needed
+            answer: event.selectedLabel || event.value
+          });
+        };
+        ```
+
+        The `event` object contains: `questionRef`, `blockRef`, `type`, `choicesRefs`, `value`, `isValid`, `selectedIndex` and `selectedLabel`.
+
+        **Track quiz completion.** Open the **results page** **Custom JS** section and call `gtag()` directly. It runs when the results page renders:
+
+        ```javascript
+        gtag('event', 'quiz_completed', { event_category: 'quiz' });
+        ```
+
+        **Monitor and adjust.** Check `Reports → Engagement → Events` (or `Realtime`) in GA4 to confirm your custom events are coming through.
+
 
 
 === "Shopify (Legacy)"
