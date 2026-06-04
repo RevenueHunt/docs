@@ -339,6 +339,42 @@ The JSON with the quiz response includes:
           ```
 
 
+## Callback Function Reference
+
+!!! info "Not available in the Built for Shopify version"
+
+    These callbacks apply to the **Shopify (Legacy)**, **WooCommerce**, **Magento**, **BigCommerce** and **Standalone** versions. The `💎 Built for Shopify` quiz has no callbacks; it uses the results page **Custom JS** / `window.quiz` object instead.
+
+Each callback is a global function you define on the page where the quiz is embedded (or sitewide in your theme). The quiz calls it when the matching event happens and passes it an `event` object. Define only the callbacks you need.
+
+| Callback | Fires when | Argument |
+|----------|------------|----------|
+| `prqQuizCallback(response)` | The customer reaches the **results page** (also when they open their results via a [follow-up email](/how-to-guides/send-result-emails/) link) | The full response object (see below) |
+| `prqSlideCallback(event)` | The customer **answers a question** and advances to the next slide | `event.quiz` and `event.slide` (the answered question, with its `attributes.values` and `attributes.choices`) |
+| `prqAddOneToCartCallback(event)` | The customer adds one product to the cart | the product / event |
+| `prqAddedOneToCartCallback(event)` | A product has finished being added to the cart | the product / event |
+| `prqRemoveOneFromCartCallback(event)` | The customer removes one product from the cart | the product / event |
+| `prqRemovedOneFromCartCallback(event)` | A product has finished being removed from the cart (Shopify only) | the product / event |
+| `prqAddAllToCartCallback(event)` | The customer adds all recommended products to the cart | the products / event |
+| `prqAddedAllToCartCallback(event)` | All products have finished being added to the cart | the products / event |
+| `prqAppLoadedCallback()` | The quiz app has finished **loading** on the page | none |
+
+!!! note "There is no quiz-start callback"
+
+    `prqAppLoadedCallback` fires when the embed finishes loading, **not** when the customer starts the quiz. The earliest callback tied to customer activity is `prqSlideCallback`, which fires when they answer the first question.
+
+### The Response Object (`prqQuizCallback`)
+
+The argument passed to `prqQuizCallback` has this top-level shape:
+
+- `quiz` — the quiz definition. Includes `quiz.attributes.name` and `quiz.attributes.slides.data[]` (every question and its `attributes.choices` / selected `attributes.values`).
+- `quizid` — the ID of the quiz.
+- `response` — the customer's submission:
+    - `response.attributes.recommended_products` — the products recommended on the results page.
+    - `response.attributes.selected_result.data` — the result (the "profile" / outcome) the customer landed on.
+
+The full object carries much more (theme, logic, layout blocks). The quickest way to see everything is to `console.log(response)` inside `prqQuizCallback` and complete the quiz once.
+
 ## Seeing Callback Function in Action
 
 === "Shopify"
