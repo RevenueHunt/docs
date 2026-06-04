@@ -433,6 +433,106 @@ icon: material/google-analytics
     4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
 
 
+## Complete Custom Tracking Script (GA4)
+
+!!! info "For the Shopify (Legacy), WooCommerce, Magento, BigCommerce and Standalone versions"
+
+    This script uses the [callback functions](/how-to-guides/use-callback-function/). The `💎 Built for Shopify` quiz doesn't use callbacks; use its results page **Custom JS** / `window.quiz` object instead.
+
+If you'd rather send your own cleanly-named GA4 events than rely on the built-in `view` / `click` events, the script below is a complete, working reference. It tracks **quiz start**, **every answer** (question + chosen labels), the **results page**, each **recommended product**, and **add to cart**, each as its own GA4 event with descriptive parameters.
+
+**Before you start:**
+
+- Your GA4 `gtag.js` snippet must load **before** RevenueHunt's `embed.js`.
+- Place the script on the page where the quiz is embedded (or sitewide in your theme).
+- The built-in tracking and this script both fire if your GA Measurement ID is saved in the quiz backend. To avoid double-counting, either leave the Measurement ID **out** of the quiz backend and rely solely on this script, or remove the events you don't want below.
+
+```html
+<script>
+(function () {
+  var quizStarted   = false;
+  var productsBySku = {}; // captured on the results page, used to enrich add-to-cart
+
+  // Fires every time a customer answers a question.
+  // The first time it runs, it doubles as the "quiz started" signal.
+  window.prqSlideCallback = function (event) {
+    var slide = event && event.slide;
+    if (!slide || !slide.attributes) return;
+
+    if (!quizStarted) {
+      quizStarted = true;
+      gtag('event', 'quiz_start', { quiz_name: event.quiz.attributes.name });
+    }
+
+    var choices  = (slide.attributes.choices && slide.attributes.choices.data) || [];
+    var selected = slide.attributes.values || [];
+
+    // Map selected choice IDs to readable labels (raw value passes through for text/number questions)
+    var labels = selected.map(function (val) {
+      var match = choices.filter(function (c) { return c.id === val; })[0];
+      return match ? match.attributes.label : val;
+    });
+
+    gtag('event', 'quiz_question_answered', {
+      quiz_name:      event.quiz.attributes.name,
+      // strip any unresolved recall token like {{slide:x1i0d83}} from the title
+      question_title: (slide.attributes.title || '').replace(/\{\{slide:\w+\}\}/g, '').trim(),
+      answer:         labels.join(', ')
+    });
+  };
+
+  // Fires once, when the customer reaches the results page.
+  window.prqQuizCallback = function (response) {
+    var quizName   = response.quiz.attributes.name;
+    var result     = response.response.attributes.selected_result;
+    var resultName = (result && result.data) ? result.data.attributes.name : '';
+    var products   = response.response.attributes.recommended_products || [];
+
+    // One event for reaching the results page
+    gtag('event', 'quiz_results', {
+      quiz_name:     quizName,
+      result_name:   resultName,
+      product_count: products.length
+    });
+
+    // One event per recommended product (see the note below on why these are separate)
+    products.forEach(function (p) {
+      productsBySku[p.sku] = p; // stash for add-to-cart enrichment
+      gtag('event', 'quiz_product_recommended', {
+        quiz_name:     quizName,
+        result_name:   resultName,
+        product_name:  p.name,
+        product_sku:   p.sku,
+        product_price: p.price,
+        product_id:    p.origin_id,
+        variant_id:    p.variant_id
+      });
+    });
+  };
+
+  // Fires when a customer adds a recommended product to the cart from the results page.
+  // The add-to-cart event carries sku / origin_id / variant_id; name & price are
+  // enriched from the products captured above.
+  window.prqAddOneToCartCallback = function (event) {
+    var p = productsBySku[event.sku] || {};
+    gtag('event', 'quiz_add_to_cart', {
+      product_name:  p.name  || '',
+      product_sku:   event.sku,
+      product_price: p.price || '',
+      product_id:    event.originId,
+      variant_id:    event.variantId
+    });
+  };
+})();
+</script>
+```
+
+!!! note "Why `quiz_results` and `quiz_product_recommended` are separate"
+
+    A results page can recommend more than one product. Firing the results event once (with `result_name`) and a separate per-product event keeps your "reached results" count accurate. If you instead fire a single combined event per product, your results count multiplies by the number of products shown.
+
+The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, and so on) are standard GA4 event parameters. To use them in GA4 reports and Explorations, register the ones you need as **custom dimensions** under `Admin → Custom definitions`.
+
 ## Track Customer Behavior (Events)
 
 === "Shopify"
