@@ -78,7 +78,10 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
 === "Shopify (Legacy)"
 
-    
+    !!! note "Raw size vs. transferred size"
+
+        The byte sizes you see in your page source are uncompressed. Shopify serves your pages gzip/brotli compressed, and the quiz script is served compressed too, so the browser downloads far less than the raw numbers suggest (a ~150 KB payload typically ships at 10-15 KB). Check the real transferred size in your browser's `Network` tab (the `Size` column, not the `Content` size) before deciding something is heavy.
+
     **Step 1: Verify Direct Quiz Link Performance**
 
     First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
