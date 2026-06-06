@@ -18,16 +18,16 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     First, isolate the quiz from your site's environment to determine if the issue lies within the quiz or your website.
 
-    1. **Locate Your Quiz Link**: Find the direct URL of your quiz. This can be obtained from the `Share -> External` tab of your quiz platform. 
-        - The link should look something like [https://admin.revenuehunt.com/public/quiz/rkHm6Y](https://admin.revenuehunt.com/public/quiz/rkHm6Y) or [https://skincarequiz.myshopify.com/#quiz-rkHm6Y](https://skincarequiz.myshopify.com/#quiz-rkHm6Y), where `rkHm6Y` represents your unique `quiz ID`.
-    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of your site. Ideally, the quiz should load in less than one second.
+    1. **Locate Your Quiz Link**: In the app, go to your quiz and open the `Share -> External` tab to copy its direct link. With the Built for Shopify version the quiz runs natively inside your theme, so the link is your own storefront URL plus the quiz hash.
+        - The link should look something like [https://your-store.com/#quiz-rkHm6Y](https://your-store.com/#quiz-rkHm6Y), where `your-store.com` is your storefront domain and `rkHm6Y` is your unique `quiz ID`.
+    2. **Test Loading Speed**: Open the direct link in a browser to see how quickly the quiz loads independently of the rest of your store. Ideally, the quiz should load in less than one second.
 
     If the quiz loads quickly via the direct link, the slow loading times are likely caused by other elements on your website.
 
 
     !!! tip
 
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the direct quiz link performance.
+        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
 
     ---
 
@@ -35,6 +35,18 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! info
         The new Built for Shopify version of the RevenueHunt app integrates the quiz as a native Shopify block within the Theme.
+
+    !!! note "About the large inline quiz configuration"
+
+        When inspecting your page source, you may notice a large inline `window.quizzes` JSON object (often 100-200 KB). This is your quiz's configuration: its questions, branching logic, result pages, recommendation rules, design and translations. We embed it directly in the page so the quiz can open instantly, with no extra network request when a shopper interacts.
+
+        That uncompressed size looks alarming, but it isn't the bottleneck:
+
+        - **It's compressed on the wire.** Shopify serves your pages gzip/brotli compressed, so a ~150 KB config typically ships at **10-15 KB** to the browser, often less than a single product thumbnail.
+        - **It's not rendered DOM.** It lives inside a `<script>` tag, so it adds no layout or paint cost.
+        - **It loads asynchronously.** It never blocks your page from rendering.
+
+        You can confirm the real transferred size in your browser's `Network` tab (look at the `Size` column, not `Content` size).
 
     Investigating the loading sequence of your website's resources can help identify what's slowing down the quiz when embedded in your site.
 
@@ -46,7 +58,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! tip
 
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the quiz page performance.
+        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
 
     
 
@@ -80,7 +92,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! tip
 
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the direct quiz link performance.
+        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
 
     ---
 
@@ -96,7 +108,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! tip
 
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the quiz page performance.
+        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
 
     ---
 
@@ -144,7 +156,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! tip
 
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the direct quiz link performance.
+        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
 
     ---
 
@@ -160,7 +172,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! tip
 
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the quiz page performance.
+        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
 
     ---
 
@@ -207,7 +219,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! tip
 
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the direct quiz link performance.
+        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
 
     ---
 
@@ -223,7 +235,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! tip
 
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the quiz page performance.
+        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
 
     ---
 
@@ -269,7 +281,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! tip
 
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the direct quiz link performance.
+        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
 
     ---
 
@@ -285,7 +297,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! tip
 
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the quiz page performance.
+        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
 
     ---
 
@@ -332,7 +344,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! tip
 
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the direct quiz link performance.
+        Run the direct quiz link through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check its performance in isolation.
 
     ---
 
@@ -348,7 +360,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! tip
 
-        Try [https://pagespeed.web.dev/](https://pagespeed.web.dev/) to check the quiz page performance.
+        Run your full page through [Google PageSpeed Insights](https://pagespeed.web.dev/) and/or the [Lighthouse Chrome extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to see what's actually slowing it down. The report lists the heaviest offenders (usually images, fonts and third-party scripts) with the estimated time each one costs you.
 
     ---
 
