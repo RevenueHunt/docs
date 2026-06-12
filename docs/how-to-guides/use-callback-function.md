@@ -106,6 +106,9 @@ The JSON with the quiz response includes:
     4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
         - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
           ```html
+          prqStartCallback(event);
+          // triggered when the customer starts the quiz (first / welcome question); event.quiz holds the quiz
+
           prqSlideCallback(event);
           // triggered when customer responds to a question (slide)
 
@@ -158,6 +161,9 @@ The JSON with the quiz response includes:
     4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
         - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
           ```html
+          prqStartCallback(event);
+          // triggered when the customer starts the quiz (first / welcome question); event.quiz holds the quiz
+
           prqSlideCallback(event);
           // triggered when customer responds to a question (slide)
 
@@ -210,6 +216,9 @@ The JSON with the quiz response includes:
     4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
         - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
           ```html
+          prqStartCallback(event);
+          // triggered when the customer starts the quiz (first / welcome question); event.quiz holds the quiz
+
           prqSlideCallback(event);
           // triggered when customer responds to a question (slide)
 
@@ -262,6 +271,9 @@ The JSON with the quiz response includes:
     4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
         - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
           ```html
+          prqStartCallback(event);
+          // triggered when the customer starts the quiz (first / welcome question); event.quiz holds the quiz
+
           prqSlideCallback(event);
           // triggered when customer responds to a question (slide)
 
@@ -313,6 +325,9 @@ The JSON with the quiz response includes:
     4. **Customize the Function**: Beyond merely logging the data, you might want to trigger specific actions based on the quiz outcomes. *For instance, introducing a `prqAddOneToCartCallback(event);` function could be used when a customer adds a product to their cart directly from the quiz results.*
         - There are several other callback functions you can utilize for more granular control and interaction with the quiz results. 
           ```html
+          prqStartCallback(event);
+          // triggered when the customer starts the quiz (first / welcome question); event.quiz holds the quiz
+
           prqSlideCallback(event);
           // triggered when customer responds to a question (slide)
 

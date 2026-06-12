@@ -551,15 +551,15 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
     |---------------------------------------------------------------------|------------|-----------------|
     | User starts a quiz (clicks on the button of the first question or the welcome question) | quiz_started_{quiz_name} | quiz_name |
     | User views a question                                               | question_viewed_{question_title} | question_title |
-    | User clicks on a choice or selects an option from a dropdown        | block_answered_{choice_text} | choice_text |
+    | User clicks on a choice or selects an option from a dropdown        | block_answered_{choice_text} | choice_text, question_title, question_ref |
     | User responds to the email question                                 | email_lead_{quiz_name} | quiz_name |
     | User responds to the phone question                                 | phone_lead_{quiz_name} | quiz_name |
-    | User gets to results page                                           | results_page_viewed_{results_title} | results_title |
-    | A certain product is recommended in the results page                | product_recommended_{product_name} | product_name |
+    | User gets to results page                                           | results_page_viewed_{results_page_title} | results_page_title |
+    | User completes the quiz (conversion event)                          | generate_lead | quiz_name |
     | Customer clicks on product (view product button or image)           | product_clicked_{product_name} | product_name |
     | Customer adds a product to cart (via "add to cart" or "add all to cart" buttons) | product_added_to_cart_{product_name} | product_name |
     | Customer proceeds to cart/checkout                                  | proceed_to_checkout_{quiz_name} | quiz_name |
-    | Customer retakes quiz                                               | retake_quiz_{quiz_name} | quiz_name |
+    | Customer retakes quiz                                               | quiz_retake_quiz_{quiz_name} | quiz_name |
 
 
 === "Shopify (Legacy)"
@@ -568,34 +568,33 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 
     ![how to ga events](/images/how_to_shopifyv2_events.png)
 
-    **Built-in events (no script required).** As soon as your GA4 tracking code is saved in the quiz's `Connect → Google Analytics` section (and your `gtag.js` snippet loads before `embed.js`), the quiz sends its own events automatically. They are named by **action**, with the detail carried in the `event_category` and `event_label` parameters:
+    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
 
-    | Trigger | Event name | event_category | event_label |
-    |---------|------------|----------------|-------------|
-    | Quiz started (first / welcome question) | `view` | `start` | quiz name |
-    | Question viewed | `view` | `question` | question title |
-    | Choice selected | `click` | `choice` | choice label |
-    | Email captured | `submit` | `email` | quiz name |
-    | Phone captured | `submit` | `phone` | quiz name |
-    | Results page viewed | `view` | `results` | quiz name |
-    | Product recommended | `recommendation` | `product` | product name |
-    | Product clicked | `view` | `product` | product name |
-    | Product added to cart | `click` | `addCart` | product name |
-    | Product removed from cart | `click` | `removeCart` | product name |
-    | Proceed to cart / checkout | `click` | `checkoutButton` | quiz name |
-    | Retake quiz | `click` | `retakeQuiz` | quiz name |
+    | Trigger | Event Name | Event Parameters |
+    |---------|------------|------------------|
+    | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
+    | User views a question | question_viewed_{question_title} | question_title |
+    | User clicks a choice or selects a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
+    | User answers the email question | email_lead_{quiz_name} | quiz_name |
+    | User answers the phone question | phone_lead_{quiz_name} | quiz_name |
+    | User reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
+    | User completes the quiz (conversion event) | generate_lead | quiz_name |
+    | Customer clicks a product (view-product button or image) | product_clicked_{product_name} | product_name |
+    | Customer adds a product to cart ("add to cart" / "add all to cart") | product_added_to_cart_{product_name} | product_name |
+    | Customer proceeds to cart / checkout | proceed_to_checkout_{quiz_name} | quiz_name |
+    | Customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
 
-    !!! note "These names look generic on purpose"
+    !!! note "Same events as the Built for Shopify version"
 
-        In GA4 the quiz produces only four event names: `view`, `click`, `submit` and `recommendation`. `submit` and `recommendation` aren't native GA4 events, so seeing them confirms the quiz is tracking. To tell the `view` and `click` events apart in standard reports, register `event_category` and `event_label` as **custom dimensions** under `Admin → Custom definitions` (otherwise GA4 lumps every question under the same `view` row).
+        This is the exact GA4 event catalog the `💎 Built for Shopify` quiz sends (see the Shopify tab above). The older `view` / `click` / `submit` / `recommendation` events (with `event_category` / `event_label`) are no longer sent.
 
-    !!! warning "Different from the Built for Shopify version"
+    !!! info "`generate_lead` is a standard GA4 conversion event"
 
-        The richer event names listed in the Shopify tab (`quiz_started_{quiz_name}`, `question_viewed_{question_title}`, and so on) only apply to the `💎 Built for Shopify` quiz. On this version the events are named by action as shown above.
+        Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
 
     !!! warning "Question titles may contain a recall token"
 
-        The `event_label` on a `view` / `question` event is the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+        The `question_title` parameter (and the `question_viewed_{question_title}` event name) use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
 
     If you're not seeing the events, make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
 
@@ -606,34 +605,33 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 
     ![how to ga events](/images/how_to_woocommerce_events.png)
 
-    **Built-in events (no script required).** As soon as your GA4 tracking code is saved in the quiz's `Connect → Google Analytics` section (and your `gtag.js` snippet loads before `embed.js`), the quiz sends its own events automatically. They are named by **action**, with the detail carried in the `event_category` and `event_label` parameters:
+    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
 
-    | Trigger | Event name | event_category | event_label |
-    |---------|------------|----------------|-------------|
-    | Quiz started (first / welcome question) | `view` | `start` | quiz name |
-    | Question viewed | `view` | `question` | question title |
-    | Choice selected | `click` | `choice` | choice label |
-    | Email captured | `submit` | `email` | quiz name |
-    | Phone captured | `submit` | `phone` | quiz name |
-    | Results page viewed | `view` | `results` | quiz name |
-    | Product recommended | `recommendation` | `product` | product name |
-    | Product clicked | `view` | `product` | product name |
-    | Product added to cart | `click` | `addCart` | product name |
-    | Product removed from cart | `click` | `removeCart` | product name |
-    | Proceed to cart / checkout | `click` | `checkoutButton` | quiz name |
-    | Retake quiz | `click` | `retakeQuiz` | quiz name |
+    | Trigger | Event Name | Event Parameters |
+    |---------|------------|------------------|
+    | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
+    | User views a question | question_viewed_{question_title} | question_title |
+    | User clicks a choice or selects a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
+    | User answers the email question | email_lead_{quiz_name} | quiz_name |
+    | User answers the phone question | phone_lead_{quiz_name} | quiz_name |
+    | User reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
+    | User completes the quiz (conversion event) | generate_lead | quiz_name |
+    | Customer clicks a product (view-product button or image) | product_clicked_{product_name} | product_name |
+    | Customer adds a product to cart ("add to cart" / "add all to cart") | product_added_to_cart_{product_name} | product_name |
+    | Customer proceeds to cart / checkout | proceed_to_checkout_{quiz_name} | quiz_name |
+    | Customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
 
-    !!! note "These names look generic on purpose"
+    !!! note "Same events as the Built for Shopify version"
 
-        In GA4 the quiz produces only four event names: `view`, `click`, `submit` and `recommendation`. `submit` and `recommendation` aren't native GA4 events, so seeing them confirms the quiz is tracking. To tell the `view` and `click` events apart in standard reports, register `event_category` and `event_label` as **custom dimensions** under `Admin → Custom definitions` (otherwise GA4 lumps every question under the same `view` row).
+        This is the exact GA4 event catalog the `💎 Built for Shopify` quiz sends (see the Shopify tab above). The older `view` / `click` / `submit` / `recommendation` events (with `event_category` / `event_label`) are no longer sent.
 
-    !!! warning "Different from the Built for Shopify version"
+    !!! info "`generate_lead` is a standard GA4 conversion event"
 
-        The richer event names listed in the Shopify tab (`quiz_started_{quiz_name}`, `question_viewed_{question_title}`, and so on) only apply to the `💎 Built for Shopify` quiz. On WooCommerce the events are named by action as shown above.
+        Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
 
     !!! warning "Question titles may contain a recall token"
 
-        The `event_label` on a `view` / `question` event is the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+        The `question_title` parameter (and the `question_viewed_{question_title}` event name) use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
 
     If you're not seeing the events, make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
 
@@ -643,34 +641,33 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 
     ![how to ga events](/images/how_to_magento_events.png)
 
-    **Built-in events (no script required).** As soon as your GA4 tracking code is saved in the quiz's `Connect → Google Analytics` section (and your `gtag.js` snippet loads before `embed.js`), the quiz sends its own events automatically. They are named by **action**, with the detail carried in the `event_category` and `event_label` parameters:
+    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
 
-    | Trigger | Event name | event_category | event_label |
-    |---------|------------|----------------|-------------|
-    | Quiz started (first / welcome question) | `view` | `start` | quiz name |
-    | Question viewed | `view` | `question` | question title |
-    | Choice selected | `click` | `choice` | choice label |
-    | Email captured | `submit` | `email` | quiz name |
-    | Phone captured | `submit` | `phone` | quiz name |
-    | Results page viewed | `view` | `results` | quiz name |
-    | Product recommended | `recommendation` | `product` | product name |
-    | Product clicked | `view` | `product` | product name |
-    | Product added to cart | `click` | `addCart` | product name |
-    | Product removed from cart | `click` | `removeCart` | product name |
-    | Proceed to cart / checkout | `click` | `checkoutButton` | quiz name |
-    | Retake quiz | `click` | `retakeQuiz` | quiz name |
+    | Trigger | Event Name | Event Parameters |
+    |---------|------------|------------------|
+    | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
+    | User views a question | question_viewed_{question_title} | question_title |
+    | User clicks a choice or selects a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
+    | User answers the email question | email_lead_{quiz_name} | quiz_name |
+    | User answers the phone question | phone_lead_{quiz_name} | quiz_name |
+    | User reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
+    | User completes the quiz (conversion event) | generate_lead | quiz_name |
+    | Customer clicks a product (view-product button or image) | product_clicked_{product_name} | product_name |
+    | Customer adds a product to cart ("add to cart" / "add all to cart") | product_added_to_cart_{product_name} | product_name |
+    | Customer proceeds to cart / checkout | proceed_to_checkout_{quiz_name} | quiz_name |
+    | Customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
 
-    !!! note "These names look generic on purpose"
+    !!! note "Same events as the Built for Shopify version"
 
-        In GA4 the quiz produces only four event names: `view`, `click`, `submit` and `recommendation`. `submit` and `recommendation` aren't native GA4 events, so seeing them confirms the quiz is tracking. To tell the `view` and `click` events apart in standard reports, register `event_category` and `event_label` as **custom dimensions** under `Admin → Custom definitions` (otherwise GA4 lumps every question under the same `view` row).
+        This is the exact GA4 event catalog the `💎 Built for Shopify` quiz sends (see the Shopify tab above). The older `view` / `click` / `submit` / `recommendation` events (with `event_category` / `event_label`) are no longer sent.
 
-    !!! warning "Different from the Built for Shopify version"
+    !!! info "`generate_lead` is a standard GA4 conversion event"
 
-        The richer event names listed in the Shopify tab (`quiz_started_{quiz_name}`, `question_viewed_{question_title}`, and so on) only apply to the `💎 Built for Shopify` quiz. On this version the events are named by action as shown above.
+        Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
 
     !!! warning "Question titles may contain a recall token"
 
-        The `event_label` on a `view` / `question` event is the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+        The `question_title` parameter (and the `question_viewed_{question_title}` event name) use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
 
     If you're not seeing the events, make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
 
@@ -680,34 +677,33 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 
     ![how to ga events](/images/how_to_bigcommerce_events.png)
 
-    **Built-in events (no script required).** As soon as your GA4 tracking code is saved in the quiz's `Connect → Google Analytics` section (and your `gtag.js` snippet loads before `embed.js`), the quiz sends its own events automatically. They are named by **action**, with the detail carried in the `event_category` and `event_label` parameters:
+    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
 
-    | Trigger | Event name | event_category | event_label |
-    |---------|------------|----------------|-------------|
-    | Quiz started (first / welcome question) | `view` | `start` | quiz name |
-    | Question viewed | `view` | `question` | question title |
-    | Choice selected | `click` | `choice` | choice label |
-    | Email captured | `submit` | `email` | quiz name |
-    | Phone captured | `submit` | `phone` | quiz name |
-    | Results page viewed | `view` | `results` | quiz name |
-    | Product recommended | `recommendation` | `product` | product name |
-    | Product clicked | `view` | `product` | product name |
-    | Product added to cart | `click` | `addCart` | product name |
-    | Product removed from cart | `click` | `removeCart` | product name |
-    | Proceed to cart / checkout | `click` | `checkoutButton` | quiz name |
-    | Retake quiz | `click` | `retakeQuiz` | quiz name |
+    | Trigger | Event Name | Event Parameters |
+    |---------|------------|------------------|
+    | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
+    | User views a question | question_viewed_{question_title} | question_title |
+    | User clicks a choice or selects a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
+    | User answers the email question | email_lead_{quiz_name} | quiz_name |
+    | User answers the phone question | phone_lead_{quiz_name} | quiz_name |
+    | User reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
+    | User completes the quiz (conversion event) | generate_lead | quiz_name |
+    | Customer clicks a product (view-product button or image) | product_clicked_{product_name} | product_name |
+    | Customer adds a product to cart ("add to cart" / "add all to cart") | product_added_to_cart_{product_name} | product_name |
+    | Customer proceeds to cart / checkout | proceed_to_checkout_{quiz_name} | quiz_name |
+    | Customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
 
-    !!! note "These names look generic on purpose"
+    !!! note "Same events as the Built for Shopify version"
 
-        In GA4 the quiz produces only four event names: `view`, `click`, `submit` and `recommendation`. `submit` and `recommendation` aren't native GA4 events, so seeing them confirms the quiz is tracking. To tell the `view` and `click` events apart in standard reports, register `event_category` and `event_label` as **custom dimensions** under `Admin → Custom definitions` (otherwise GA4 lumps every question under the same `view` row).
+        This is the exact GA4 event catalog the `💎 Built for Shopify` quiz sends (see the Shopify tab above). The older `view` / `click` / `submit` / `recommendation` events (with `event_category` / `event_label`) are no longer sent.
 
-    !!! warning "Different from the Built for Shopify version"
+    !!! info "`generate_lead` is a standard GA4 conversion event"
 
-        The richer event names listed in the Shopify tab (`quiz_started_{quiz_name}`, `question_viewed_{question_title}`, and so on) only apply to the `💎 Built for Shopify` quiz. On this version the events are named by action as shown above.
+        Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
 
     !!! warning "Question titles may contain a recall token"
 
-        The `event_label` on a `view` / `question` event is the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+        The `question_title` parameter (and the `question_viewed_{question_title}` event name) use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
 
     If you're not seeing the events, make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
 
@@ -717,34 +713,33 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 
     ![how to ga events](/images/how_to_standalone_events.png)
 
-    **Built-in events (no script required).** As soon as your GA4 tracking code is saved in the quiz's `Connect → Google Analytics` section (and your `gtag.js` snippet loads before `embed.js`), the quiz sends its own events automatically. They are named by **action**, with the detail carried in the `event_category` and `event_label` parameters:
+    **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
 
-    | Trigger | Event name | event_category | event_label |
-    |---------|------------|----------------|-------------|
-    | Quiz started (first / welcome question) | `view` | `start` | quiz name |
-    | Question viewed | `view` | `question` | question title |
-    | Choice selected | `click` | `choice` | choice label |
-    | Email captured | `submit` | `email` | quiz name |
-    | Phone captured | `submit` | `phone` | quiz name |
-    | Results page viewed | `view` | `results` | quiz name |
-    | Product recommended | `recommendation` | `product` | product name |
-    | Product clicked | `view` | `product` | product name |
-    | Product added to cart | `click` | `addCart` | product name |
-    | Product removed from cart | `click` | `removeCart` | product name |
-    | Proceed to cart / checkout | `click` | `checkoutButton` | quiz name |
-    | Retake quiz | `click` | `retakeQuiz` | quiz name |
+    | Trigger | Event Name | Event Parameters |
+    |---------|------------|------------------|
+    | User starts a quiz (clicks the button on the first / welcome question) | quiz_started_{quiz_name} | quiz_name |
+    | User views a question | question_viewed_{question_title} | question_title |
+    | User clicks a choice or selects a dropdown option | block_answered_{choice_text} | choice_text, question_title, question_ref |
+    | User answers the email question | email_lead_{quiz_name} | quiz_name |
+    | User answers the phone question | phone_lead_{quiz_name} | quiz_name |
+    | User reaches the results page | results_page_viewed_{results_page_title} | results_page_title |
+    | User completes the quiz (conversion event) | generate_lead | quiz_name |
+    | Customer clicks a product (view-product button or image) | product_clicked_{product_name} | product_name |
+    | Customer adds a product to cart ("add to cart" / "add all to cart") | product_added_to_cart_{product_name} | product_name |
+    | Customer proceeds to cart / checkout | proceed_to_checkout_{quiz_name} | quiz_name |
+    | Customer retakes the quiz | quiz_retake_quiz_{quiz_name} | quiz_name |
 
-    !!! note "These names look generic on purpose"
+    !!! note "Same events as the Built for Shopify version"
 
-        In GA4 the quiz produces only four event names: `view`, `click`, `submit` and `recommendation`. `submit` and `recommendation` aren't native GA4 events, so seeing them confirms the quiz is tracking. To tell the `view` and `click` events apart in standard reports, register `event_category` and `event_label` as **custom dimensions** under `Admin → Custom definitions` (otherwise GA4 lumps every question under the same `view` row).
+        This is the exact GA4 event catalog the `💎 Built for Shopify` quiz sends (see the Shopify tab above). The older `view` / `click` / `submit` / `recommendation` events (with `event_category` / `event_label`) are no longer sent.
 
-    !!! warning "Different from the Built for Shopify version"
+    !!! info "`generate_lead` is a standard GA4 conversion event"
 
-        The richer event names listed in the Shopify tab (`quiz_started_{quiz_name}`, `question_viewed_{question_title}`, and so on) only apply to the `💎 Built for Shopify` quiz. On this version the events are named by action as shown above.
+        Unlike the others, `generate_lead` keeps its plain name (no `_{…}` suffix) so GA4 can treat it as a conversion. Mark it as a **key event** under `Admin → Events` if you want it counted as a conversion.
 
     !!! warning "Question titles may contain a recall token"
 
-        The `event_label` on a `view` / `question` event is the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
+        The `question_title` parameter (and the `question_viewed_{question_title}` event name) use the **raw** question title. If a question pipes in a previous answer, the title holds an unresolved recall token like `{{slide:x1i0d83}}`, and the token (not the answer) is what reaches GA4. The token is stable, it never changes per visitor or when you edit the quiz, so it's safe as a grouping key, but it isn't human-readable. The same applies if you read `slide.attributes.title` in a [custom callback](/how-to-guides/use-callback-function/); strip it with `slide.attributes.title.replace(/\{\{slide:\w+\}\}/g, '').trim()`.
 
     If you're not seeing the events, make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
 
