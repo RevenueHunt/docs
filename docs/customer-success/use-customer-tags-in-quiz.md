@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-7
+icon: material/numeric-3
 description: "Use customer tags in RevenueHunt quizzes for precise segmentation and targeted email marketing campaigns."
 ---
 

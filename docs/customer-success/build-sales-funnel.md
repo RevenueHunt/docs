@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-0
+icon: material/numeric-7
 description: "Build an effective sales funnel with RevenueHunt quizzes to increase conversions and average order value."
 ---
 

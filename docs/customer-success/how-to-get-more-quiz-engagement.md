@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-3
+icon: material/numeric-1
 description: "Increase quiz engagement and completion rates with RevenueHunt through strategic promotion and placement."
 ---
 

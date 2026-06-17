@@ -1,4 +1,5 @@
 ---
+icon: material/numeric-6
 description: "Convert RevenueHunt quiz leads into customers with personalized follow-ups and customer acquisition strategies."
 ---
 

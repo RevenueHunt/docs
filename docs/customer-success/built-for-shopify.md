@@ -75,11 +75,11 @@ In this guide, we’ll walk you through everything you need to know about transi
 
 
 
-**Fully Native Store Integration** - No more iframes—your quiz is now fully embedded as a Shopify block or popup. Compatible with third-party apps, analytics, and checkout flows. Faster and more SEO/analytics friendly.
+**Fully Native Store Integration** - No more iframes: your quiz is now fully embedded as a Shopify block or popup. Compatible with third-party apps, analytics, and checkout flows. Faster and more SEO/analytics friendly.
 
 ![native store integration](https://revenuehunt.com/wp-content/uploads/2025/03/embedquiz-768x582.png)
 
-**Powerful Design System 🎨** - With the new Shopify-like Block Editor, you can add/reorder blocks for questions, results, product slots, HTML, etc. Customize typography, colors, buttons, layout—no code needed. This lets you create stunning quizzes that truly match your brand.
+**Powerful Design System 🎨** - With the new Shopify-like Block Editor, you can add/reorder blocks for questions, results, product slots, HTML, etc. Customize typography, colors, buttons, layout, no code needed. This lets you create stunning quizzes that truly match your brand.
 
 ![power design system](https://revenuehunt.com/wp-content/uploads/2025/03/quizdesignv2-768x559.png)
 
@@ -109,13 +109,13 @@ In this guide, we’ll walk you through everything you need to know about transi
 
 !!! info "Why Switch to the Built for Shopify Version?"
 
-    - ⚙️ Modern & Fast Interface — Built to feel like a natural extension of Shopify
+    - ⚙️ Modern & Fast Interface: Built to feel like a natural extension of Shopify
 
-    - 🧩 More Customization — Visual builder, native blocks, smart logic
+    - 🧩 More Customization: Visual builder, native blocks, smart logic
 
-    - 🌐 Shopify Markets Support — Perfect for global brands
+    - 🌐 Shopify Markets Support: Perfect for global brands
 
-    - 🛒 Flexible Recommendations — Products, variants, or entire collections
+    - 🛒 Flexible Recommendations: Products, variants, or entire collections
 
 !!! warning
 

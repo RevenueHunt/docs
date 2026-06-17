@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-6
+icon: material/numeric-3
 description: "Track RevenueHunt quiz metrics and analytics to improve conversions and sales performance."
 ---
 
@@ -127,7 +127,7 @@ For a more direct measure of conversion, track the number of orders placed and t
     **Average Order Value** = Total Orders Value ÷ Number of Orders
 
 
-Monitoring the average order value post-quiz completion provides insights into the spending behavior of your users. It helps in understanding whether the quiz is effectively driving higher-value purchases. By using RevnueHunt Product Recommendation Quiz in your store you should expect the AOV to increase by 20%.
+Monitoring the average order value post-quiz completion provides insights into the spending behavior of your users. It helps in understanding whether the quiz is effectively driving higher-value purchases. Measured within the same store, quiz orders typically run 11-15% larger than non-quiz orders, and more in categories like beauty and skincare.
 
 **Conversion Rate**
 

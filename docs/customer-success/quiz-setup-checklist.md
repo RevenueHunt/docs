@@ -1,6 +1,7 @@
 ---
 icon: material/numeric-1
-description: "RevenueHunt quiz setup checklist - essential steps before launch based on high-converting best practices."
+title: "Product Recommendation Quiz Setup Checklist"
+description: "A step-by-step checklist to launch a product recommendation quiz that converts: plan questions, map products, capture emails, add a discount, and publish."
 ---
 
 # Quiz Setup Checklist
@@ -8,11 +9,11 @@ description: "RevenueHunt quiz setup checklist - essential steps before launch b
 *A step-by-step guide to launching a quiz that actually converts.*
 
 !!! info "Built from what actually works"
-    This checklist is based on analysis of our **most successful quizzes** - over 900 quizzes, 1.29 million responses, and $63.8M in tracked revenue. Follow these steps and you'll be building on the same foundation that consistently achieves **10-25%+ conversion rates**.
+    This checklist is based on analysis of our **most successful quizzes**, drawn from **45M+ quiz responses** and **$370M+ in tracked revenue** across **20,000+ brands**. Follow these steps and you'll be building on the same foundation that consistently achieves **10-25%+ conversion rates**.
 
 ---
 
-### Step 1 - Plan Your Quiz
+## Step 1: Plan Your Quiz
 
 Before building anything, get clear on what the quiz is for and what it should recommend.
 
@@ -30,7 +31,7 @@ Before building anything, get clear on what the quiz is for and what it should r
 
 ---
 
-### Step 2 - Build Your Questions
+## Step 2: Build Your Questions
 
 Questions are the heart of your quiz. Keep them short, clear, and answerable in under 5 seconds.
 
@@ -56,7 +57,7 @@ Questions are the heart of your quiz. Keep them short, clear, and answerable in 
 
 ---
 
-### Step 3 - Map Every Answer to a Product
+## Step 3: Map Every Answer to a Product
 
 This is the **most important step** and the one most often skipped. Every answer choice should influence which products get recommended. Unmapped answers produce weak, generic results - and weak results don't convert.
 
@@ -76,7 +77,7 @@ This is the **most important step** and the one most often skipped. Every answer
 
 ---
 
-### Step 4 - Configure Recommendations
+## Step 4: Configure Recommendations
 
 Focused recommendations drive purchases. Too many choices cause decision fatigue - customers leave without buying anything.
 
@@ -100,7 +101,7 @@ Focused recommendations drive purchases. Too many choices cause decision fatigue
 
 ---
 
-### Step 5 - Capture Leads and Set Up Follow-Up
+## Step 5: Capture Leads and Set Up Follow-Up
 
 The quiz is the top of your funnel. Capturing the email and following up is where the revenue multiplies.
 
@@ -128,7 +129,7 @@ The quiz is the top of your funnel. Capturing the email and following up is wher
 
 ---
 
-### Step 6 - Add a Discount Incentive
+## Step 6: Add a Discount Incentive
 
 A discount gives customers a reason to act immediately after the quiz. It's simple, effective, and easy to set up.
 
@@ -143,7 +144,7 @@ A discount gives customers a reason to act immediately after the quiz. It's simp
 
 ---
 
-### Step 7 - Publish Your Quiz
+## Step 7: Publish Your Quiz
 
 A great quiz that's hard to find won't convert. Put it where customers already are. The most successful quizzes are published in **at least two locations**.
 
@@ -165,7 +166,7 @@ A great quiz that's hard to find won't convert. Put it where customers already a
 
 ---
 
-### Step 8 - Match Your Store's Look
+## Step 8: Match Your Store's Look
 
 The `💎Built for Shopify` app automatically inherits your Shopify theme's base font and pulls in your brand colors - so the quiz already looks on-brand by default. This step is a quick polish, not a major investment.
 
@@ -185,7 +186,7 @@ The `💎Built for Shopify` app automatically inherits your Shopify theme's base
 
 ---
 
-### Step 9 (Optional) - Add Personalization and Logic
+## Step 9 (Optional): Add Personalization and Logic
 
 Most top-converting quizzes are fully linear - every customer sees the same questions. This is intentional: a well-mapped linear quiz consistently outperforms complex branching flows. **Only add logic once your linear quiz is working.**
 
@@ -204,7 +205,7 @@ Most top-converting quizzes are fully linear - every customer sees the same ques
 
 ---
 
-### Step 10 (Optional) - Set Up for Multiple Markets
+## Step 10 (Optional): Set Up for Multiple Markets
 
 Only relevant if you sell internationally. Skip this step if you're operating a single-market store.
 
@@ -218,6 +219,22 @@ Only relevant if you sell internationally. Skip this step if you're operating a 
 
 ??? info "How to set up quizzes for multiple markets"
     See the video tutorial: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/)
+
+---
+
+## Frequently asked questions
+
+### What is the most important step when setting up a quiz?
+
+Mapping every answer choice to a product or collection. Unmapped answers produce generic recommendations that don't convert, so this single step has the biggest impact on results.
+
+### Should the email question be required?
+
+Yes. Among top-converting quizzes that collect email, 75% make it required, and it does not hurt completion. Shoppers who reach the email step are engaged enough to trade their address for a personalized recommendation.
+
+### Where should I publish the quiz?
+
+In at least two places, for example a block on your homepage plus an automatic popup or a floating button. A quiz that is hard to find won't convert, no matter how good it is.
 
 ---
 

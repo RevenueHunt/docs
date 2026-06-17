@@ -658,7 +658,7 @@ The way our billing system works is that every day it’s calculating the respon
 
 You can check the Metrics -> Analytics panel to check how many responses your quiz received in the past 30 days.
 
-—
+---
 
 It’s best to explain it based on an example. Let’s say that you are on a Basic plan which allows up to 500 responses per month. These are the number of responses you’ve gotten in the last 30 days:
 

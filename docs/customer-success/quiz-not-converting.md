@@ -1,5 +1,5 @@
 ---
-icon: material/numeric-5
+icon: material/numeric-1
 description: "Fix low RevenueHunt quiz conversion rates with strategies for clear goals, design, and targeting."
 ---
 
