@@ -71,3 +71,6 @@ site*/
 
 # Backup directories created by scripts
 docs_backup_*/
+# macOS Finder metadata
+.DS_Store
+**/.DS_Store
