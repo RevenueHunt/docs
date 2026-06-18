@@ -8,8 +8,8 @@ description: "A product quiz can fail at three points: visibility, completion, o
 
 When the numbers won't move, the worst thing you can do is change things at random. A quiz can fail at three separate points, and the fix for each is completely different. Find the stage that's leaking first, then work on that one.
 
-<div style="margin:24px 0; overflow-x:auto;">
-<svg viewBox="0 0 1180 300" xmlns="http://www.w3.org/2000/svg" style="width:100%; min-width:600px; height:auto; display:block;" role="img" aria-labelledby="dgt dgd" preserveAspectRatio="xMidYMid meet">
+<div style="margin:24px auto; max-width:420px;">
+<svg viewBox="0 0 420 500" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; display:block;" role="img" aria-labelledby="dgt dgd" preserveAspectRatio="xMidYMid meet">
   <title id="dgt">Where a product quiz funnel breaks</title>
   <desc id="dgd">Three stages where a quiz fails: Visibility (few starts), Completion (low finish rate), and Purchase (low sales), each with its symptom and fix.</desc>
   <defs>
@@ -18,34 +18,28 @@ When the numbers won't move, the worst thing you can do is change things at rand
     </marker>
   </defs>
   <g font-family="system-ui, sans-serif">
-    <g transform="translate(10 40)">
-      <rect width="360" height="240" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
-      <text x="24" y="46" font-size="13" font-weight="700" fill="#904E95" letter-spacing="1">STAGE 1</text>
-      <text x="24" y="86" font-size="24" font-weight="700" fill="#16161D">Visibility</text>
-      <text x="24" y="134" font-size="13" font-weight="700" fill="#64748b" letter-spacing="1">SYMPTOM</text>
-      <text x="24" y="160" font-size="15" fill="#334155">Few views and few starts.</text>
-      <text x="24" y="200" font-size="13" font-weight="700" fill="#64748b" letter-spacing="1">FIX</text>
-      <text x="24" y="226" font-size="15" fill="#334155">Publish it in more places.</text>
+    <g transform="translate(10 8)">
+      <rect width="400" height="140" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+      <text x="24" y="34" font-size="13" font-weight="700" fill="#904E95" letter-spacing="1">STAGE 1</text>
+      <text x="24" y="68" font-size="24" font-weight="700" fill="#16161D">Visibility</text>
+      <text x="24" y="102" font-size="16" fill="#334155"><tspan font-weight="700" fill="#64748b">Symptom: </tspan>few views and few starts.</text>
+      <text x="24" y="128" font-size="16" fill="#334155"><tspan font-weight="700" fill="#64748b">Fix: </tspan>publish it in more places.</text>
     </g>
-    <line x1="375" y1="160" x2="407" y2="160" stroke="#cbd5e1" stroke-width="2" marker-end="url(#dg-arrow)"/>
-    <g transform="translate(410 40)">
-      <rect width="360" height="240" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
-      <text x="24" y="46" font-size="13" font-weight="700" fill="#904E95" letter-spacing="1">STAGE 2</text>
-      <text x="24" y="86" font-size="24" font-weight="700" fill="#16161D">Completion</text>
-      <text x="24" y="134" font-size="13" font-weight="700" fill="#64748b" letter-spacing="1">SYMPTOM</text>
-      <text x="24" y="160" font-size="15" fill="#334155">High starts, low finishes.</text>
-      <text x="24" y="200" font-size="13" font-weight="700" fill="#64748b" letter-spacing="1">FIX</text>
-      <text x="24" y="226" font-size="15" fill="#334155">Shorten and clarify questions.</text>
+    <line x1="210" y1="150" x2="210" y2="180" stroke="#cbd5e1" stroke-width="2" marker-end="url(#dg-arrow)"/>
+    <g transform="translate(10 184)">
+      <rect width="400" height="140" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+      <text x="24" y="34" font-size="13" font-weight="700" fill="#904E95" letter-spacing="1">STAGE 2</text>
+      <text x="24" y="68" font-size="24" font-weight="700" fill="#16161D">Completion</text>
+      <text x="24" y="102" font-size="16" fill="#334155"><tspan font-weight="700" fill="#64748b">Symptom: </tspan>high starts, low finishes.</text>
+      <text x="24" y="128" font-size="16" fill="#334155"><tspan font-weight="700" fill="#64748b">Fix: </tspan>shorten and clarify questions.</text>
     </g>
-    <line x1="775" y1="160" x2="807" y2="160" stroke="#cbd5e1" stroke-width="2" marker-end="url(#dg-arrow)"/>
-    <g transform="translate(810 40)">
-      <rect width="360" height="240" rx="12" fill="#F6F0F7" stroke="#904E95" stroke-width="1.5"/>
-      <text x="24" y="46" font-size="13" font-weight="700" fill="#904E95" letter-spacing="1">STAGE 3</text>
-      <text x="24" y="86" font-size="24" font-weight="700" fill="#16161D">Purchase</text>
-      <text x="24" y="134" font-size="13" font-weight="700" fill="#64748b" letter-spacing="1">SYMPTOM</text>
-      <text x="24" y="160" font-size="15" fill="#334155">High completion, low sales.</text>
-      <text x="24" y="200" font-size="13" font-weight="700" fill="#64748b" letter-spacing="1">FIX</text>
-      <text x="24" y="226" font-size="15" fill="#334155">Map answers; capture email.</text>
+    <line x1="210" y1="326" x2="210" y2="356" stroke="#cbd5e1" stroke-width="2" marker-end="url(#dg-arrow)"/>
+    <g transform="translate(10 360)">
+      <rect width="400" height="140" rx="12" fill="#F6F0F7" stroke="#904E95" stroke-width="1.5"/>
+      <text x="24" y="34" font-size="13" font-weight="700" fill="#904E95" letter-spacing="1">STAGE 3</text>
+      <text x="24" y="68" font-size="24" font-weight="700" fill="#16161D">Purchase</text>
+      <text x="24" y="102" font-size="16" fill="#334155"><tspan font-weight="700" fill="#64748b">Symptom: </tspan>high completion, low sales.</text>
+      <text x="24" y="128" font-size="16" fill="#334155"><tspan font-weight="700" fill="#64748b">Fix: </tspan>map answers and capture email.</text>
     </g>
   </g>
 </svg>
