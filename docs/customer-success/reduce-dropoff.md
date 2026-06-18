@@ -40,9 +40,7 @@ Once you know which question is the problem, use the strategies below to fix it.
 
 ## Step 2: Fix the Drop-Off
 
-### Make the value obvious before question one
-
-The most impactful moment in the quiz isn't a question - it's the welcome slide. Customers decide whether the quiz is worth their time within the first 5 seconds. If your welcome slide doesn't clearly communicate what they'll get and how long it takes, they leave before starting.
+**Make the value obvious before question one.** The most impactful moment in the quiz isn't a question - it's the welcome slide. Customers decide whether the quiz is worth their time within the first 5 seconds. If your welcome slide doesn't clearly communicate what they'll get and how long it takes, they leave before starting.
 
 A strong welcome slide does three things:
 
@@ -56,9 +54,7 @@ Also rethink your quiz name if it's generic. *"Skin Diagnostic"*, *"Routine Buil
 
 ---
 
-### Fix the length first
-
-If your completion rate is low across the entire quiz (not just at one specific question), the quiz is probably too long.
+**Fix the length first.** If your completion rate is low across the entire quiz (not just at one specific question), the quiz is probably too long.
 
 **The sweet spot is 6-12 questions**, with 7-8 being the most common length for top-converting quizzes. Every question you add is a chance for a customer to leave. Apply one rule ruthlessly: **if removing a question wouldn't change any recommendation, remove it.**
 
@@ -67,9 +63,7 @@ If your completion rate is low across the entire quiz (not just at one specific 
 
 ---
 
-### Rewrite questions customers hesitate on
-
-The per-question exit rate will show you the specific question causing problems. Once you know which one it is, diagnose why:
+**Rewrite questions customers hesitate on.** The per-question exit rate will show you the specific question causing problems. Once you know which one it is, diagnose why:
 
 - **Is it confusing?** Customers shouldn't need to think. If they can't answer in under 5 seconds, rewrite it in simpler terms or add a visual.
 - **Does it use jargon?** Avoid brand-specific or technical terms your customers may not know.
@@ -88,9 +82,7 @@ Use **picture questions** where the answer is genuinely visual - skin tone, hair
 
 ---
 
-### Order questions to build momentum
-
-The sequence of questions affects how many people push through to the end. Structure your quiz so it:
+**Order questions to build momentum.** The sequence of questions affects how many people push through to the end. Structure your quiz so it:
 
 - **Starts with the easiest, most engaging questions** - visual choices, simple preferences, non-personal
 - **Progresses toward more specific or personal questions** - by the time you ask about budget or health goals, the customer is already invested
@@ -98,9 +90,7 @@ The sequence of questions affects how many people push through to the end. Struc
 
 ---
 
-### Get the email step right
-
-The email question is typically the highest drop-off point in any quiz. How you handle it matters.
+**Get the email step right.** The email question is typically the highest drop-off point in any quiz. How you handle it matters.
 
 **Make it required.** Platform data shows that 75% of top-converting quizzes that collect email make it required - and this does **not** hurt overall conversion rates. Customers who reach the email step are engaged; they're willing to share their email in exchange for a good recommendation. The concern that requiring email "kills completions" is not supported by the data.
 
@@ -117,9 +107,7 @@ What *does* cause drop-off at the email step is making it feel like a data grab 
 
 ---
 
-### Fix generic results - they're a hidden drop-off driver
-
-This one is less obvious but important: a customer who completes your quiz and receives a generic or irrelevant recommendation won't take the quiz again - and may leave without buying. The most common cause is **unmapped answer choices**.
+**Fix generic results - they're a hidden drop-off driver.** This one is less obvious but important: a customer who completes your quiz and receives a generic or irrelevant recommendation won't take the quiz again - and may leave without buying. The most common cause is **unmapped answer choices**.
 
 If your answer choices aren't connected to products or collections, the recommendation engine has no signal to work with. The result is weak, generic results that don't feel personalized - and customers feel the quiz was a waste of their time.
 
@@ -129,9 +117,7 @@ A quiz with fully mapped answers produces tight, accurate recommendations. Those
 
 ---
 
-### Keep the results page focused
-
-A strong results page closes the sale. A weak one undoes everything the quiz just built.
+**Keep the results page focused.** A strong results page closes the sale. A weak one undoes everything the quiz just built.
 
 - Recommend **1-3 products maximum** (or one per slot for routines)
 - Place the products and add-to-cart buttons above the fold
@@ -142,9 +128,7 @@ A strong results page closes the sale. A weak one undoes everything the quiz jus
 
 ---
 
-### Reduce visual friction while the quiz is running
-
-Competing UI elements during the quiz increase abandonment. When a customer is mid-quiz:
+**Reduce visual friction while the quiz is running.** Competing UI elements during the quiz increase abandonment. When a customer is mid-quiz:
 
 - **Pause other popups**: hide newsletter popups, live chat, and cookie banners
 - **Show progress clearly**: *"3 of 8"* is clearer than *"37%"* - keep the total consistent (don't add hidden steps mid-flow)
@@ -192,6 +176,30 @@ Connect your quiz to [Google Analytics 4](/how-to-guides/integrate-google-analyt
     3. **Map all unmapped answer choices to products**
     4. **Improve the welcome slide** - clear outcome, time estimate, reward
     5. **Add a discount incentive** paired with the email step
+
+## Do / Don't
+
+- **Do** find the exact drop-off point in the metrics before changing anything, then fix that specific question.
+- **Do** make the value obvious on the welcome slide (outcome, time estimate, reward) and keep the quiz to 6-12 questions.
+- **Do** require the email, but pair it with a clear incentive and trust signals.
+- **Don't** add branching logic to "fix" a long quiz. Cut questions from a linear quiz until every one changes the recommendation.
+- **Don't** run competing popups, chat, or banners while the quiz is active. They steal focus and increase abandonment.
+
+## Frequently asked questions
+
+### What is a healthy quiz completion rate?
+
+Aim for 60-70%+ on a 7-8 question quiz. A well-built quiz finishes around 70% of the people who start it.
+
+### Where do most people drop off?
+
+Usually the email step, or an overly long or confusing question. The per-question exit rate in the metrics shows you exactly where.
+
+### How do I cut drop-off fastest?
+
+Shorten the quiz, rewrite the question with the highest exit rate, and make the welcome slide's value obvious before question one.
+
+---
 
 **Related articles:**
 

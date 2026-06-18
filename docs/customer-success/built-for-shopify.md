@@ -3,9 +3,6 @@ icon: material/diamond-stone
 description: "RevenueHunt is now Built for Shopify with modern drag-and-drop quiz builder and powerful recommendations."
 ---
 
-
-
-
 # RevenueHunt is now Built for Shopify
 
 We’re thrilled to introduce the Built for Shopify version of our RevenueHunt app! 
@@ -47,20 +44,13 @@ In this guide, we’ll walk you through everything you need to know about transi
 | Add Product to Cart             | ✅                       | ✅                        |
 | Send Result Emails              | ✅                       | ✅                        |
 
-
 **Shopify Markets Support 🌍** - The BFS version now integrates with Shopify Markets, allowing multilingual and multi-currency quizzes. Merchants can create separate quizzes for different languages and automatically assign quizzes to the right market based on visitor location.
 
 ![shopify markets support](https://docs.revenuehunt.com/images/manual_shopifyV2_appsettings_markets_showall.png){width="500"}
 
-
 **Flexible Recommendation System** - You now have full control with Fixed and Dynamic Recommendations. Dynamic: Tailored based on responses. Fixed: Manually chosen, static for all users. By Slot: Combine both approaches for even greater control.
 
-![recommendations system](https://revenuehunt.com/wp-content/uploads/2025/03/recommendationssystemsv2.png)
-
 **Recommend Entire Collections** - Now you can suggest whole collections instead of just individual products. Perfect for bundles, seasonal lines, or product types. Keeps content fresh with automatic collection updates.
-
-![recommend collections](https://revenuehunt.com/wp-content/uploads/2025/03/collectionsrecommend.png)
-
 
 ### Improved Design and Publishing Options
 
@@ -73,20 +63,13 @@ In this guide, we’ll walk you through everything you need to know about transi
 | Custom CSS/JS              | ✅                 | ✅                            |
 | Mobile-Friendly            | ✅                 | ✅                            |
 
-
-
 **Fully Native Store Integration** - No more iframes: your quiz is now fully embedded as a Shopify block or popup. Compatible with third-party apps, analytics, and checkout flows. Faster and more SEO/analytics friendly.
 
-![native store integration](https://revenuehunt.com/wp-content/uploads/2025/03/embedquiz-768x582.png)
-
 **Powerful Design System 🎨** - With the new Shopify-like Block Editor, you can add/reorder blocks for questions, results, product slots, HTML, etc. Customize typography, colors, buttons, layout, no code needed. This lets you create stunning quizzes that truly match your brand.
-
-![power design system](https://revenuehunt.com/wp-content/uploads/2025/03/quizdesignv2-768x559.png)
 
 **New Drag-and-Drop Conditional Logic 👆🏼** - Design complex branching paths with ease using our visual interface for jump/skip logic. Intuitive system similar to Shopify's theme editor. Perfect for personalized journeys and advanced quiz flows.
 
 ![new drag and drop conditional logic](https://docs.revenuehunt.com/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
-
 
 ### Integrations
 
@@ -103,7 +86,6 @@ In this guide, we’ll walk you through everything you need to know about transi
 | HubSpot Integration           | ✅         | ❌ (Coming Soon)          |
 | Omnisend Integration          | ✅         | ✅                        |
 | Webhooks Support              | ✅         | ✅          |
-
 
 ## Switch between Legacy and Built for Shopify versions
 
@@ -131,7 +113,6 @@ In this guide, we’ll walk you through everything you need to know about transi
 5. Confirm app access and permissions. 
 6. From the `Built for Shopify` version, you can easily switch back to the legacy version of the app following the same steps.
 7. If you find that you prefer the Legacy app, you can easily [switch back through the same settings](/reference/dashboard/#switch-to-v1). We will continue to maintain it for years to come.
-
 
 !!! info "Support"
 

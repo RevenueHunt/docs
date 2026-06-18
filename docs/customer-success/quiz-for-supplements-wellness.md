@@ -63,6 +63,20 @@ The biggest lever here is recommending a **stack**: a few products that work tog
 - [Recommend subscription products](/how-to-guides/recommend-subscription-products/) for recurring orders
 - [Plan a personality quiz](/customer-success/personality-quizzes/) if your hook is "find your type" rather than a goal match
 
+## Frequently asked questions
+
+### What should a supplement quiz ask?
+
+The primary goal or concern (energy, sleep, immunity), the relevant profile, what they already take, format preference, and budget. Keep questions and results goal-based, never medical.
+
+### Should it recommend one supplement or a regimen?
+
+A regimen. Recommend a stack that works toward the goal, and offer it as a subscription so reorders happen automatically. That is where the lifetime value is.
+
+### Are supplement quizzes compliant?
+
+They can be. Avoid medical or disease claims in your questions and results, recommend on goals and preferences, and include whatever disclaimers your market requires.
+
 ---
 
 **Where to go next:** maximize each order with the [bundles, kits & routines playbook →](/customer-success/recommend-bundles-kits/)

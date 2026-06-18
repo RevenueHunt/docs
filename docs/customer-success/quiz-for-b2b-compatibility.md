@@ -60,6 +60,20 @@ In B2B the follow-up is often where the deal is won.
 - [Recommend products](/how-to-guides/recommend-products/) and [set up recommendations](/how-to-guides/set-up-recommendations/) to enforce fit
 - [Send leads to your CRM](/how-to-guides/send-leads-to-crm/) for sales follow-up
 
+## Frequently asked questions
+
+### What should a B2B compatibility quiz ask?
+
+The buyer's existing setup, the required specs (size, capacity, voltage, format), use case and volume, industry or role, and timeline or budget.
+
+### How do I make sure it only recommends compatible products?
+
+Use exclusions and recommendation logic so incompatible products never appear. A single wrong-fit recommendation destroys trust in a compatibility tool.
+
+### Do B2B quizzes convert on the first visit?
+
+Often not. High-consideration purchases convert later and off-session, so capture the qualified lead with its requirements and route it to sales for the longer cycle.
+
 ---
 
 **Where to go next:** make sure every requirement you ask about earns its place with [what data is worth collecting →](/customer-success/what-data-to-collect/)

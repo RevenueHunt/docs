@@ -1,146 +1,118 @@
 ---
 icon: material/numeric-4
-description: "Collect marketing consent in RevenueHunt quizzes compliantly with GDPR and CCPA while minimizing drop-off."
+title: "How to Ask for Marketing Consent in a Product Quiz"
+description: "When to ask for marketing and data consent in your quiz, whether to require it, and how to word it so you collect more opt-ins without hurting completion."
 ---
 
+# How to Ask for Marketing Consent in Your Quiz
 
-# Smart Ways to Ask for Marketing/Data Processing Consent in the Quiz
+A quiz is one of the best places to collect marketing consent, because the shopper is engaged and getting something in return. Ask the wrong way and you spike drop-off; ask the right way and you build a compliant, high-quality list. It comes down to three decisions: when you ask, whether you require it, and how you word it.
 
-Marketing and data processing is crucial for building trust and ensuring compliance with regulations like GDPR and CCPA. For ecommerce platforms, especially those in the beauty sector, product recommendation quizzes offer a unique and engaging way to collect valuable customer data. However, asking for consent must be done thoughtfully to avoid deterring users.
-
-Here are smart, user-friendly strategies to ask for marketing and data processing consent in your RevenueHunt Product Recommendation Quiz.
-
-## First Consider **When** to Ask
-The best way to ask for email/phone marketing consent is to make it a natural part of the quiz flow. Instead of presenting it as a standalone request, weave it into the narrative of the quiz. There are two approaches on when to ask for marketing consent and both will affect your quizzes drop-off rate/ completion rate:
-
-### 👋 Before the Quiz Begins
-
-Start with a friendly welcome message that explains the benefits of taking the quiz. Mention that by providing consent, users will receive personalized recommendations and exclusive offers.
-
-![smart ways to ask for marketing consent before the quiz begins](https://revenuehunt.com/wp-content/uploads/2024/06/consent-start-quiz-1024x732.png)
-
-
-Asking for consent before the quiz starts will lead to **lower quiz completions** and higher drop off at the beginning but will provide **more quality leads** and filter clients genuenly interested in your products. This approach is better for merchants selling unique and luxury items.
-
-### 🖐️ At the End
-
-At a strategic point, such as before showing the results, include a consent request. Make it part of a question about communication preferences. This creates a sunk-time-cost fallaciy in the mind of the customer and they are more likely to leave their data just to see the results.
-
-![smart ways to ask for marketing consent at the end](https://revenuehunt.com/wp-content/uploads/2024/06/consent-end-quiz-e1718952561212-1024x702.png)
-
-Asking for consent at the end of the quiz will lead to a **lower drop-off** at this point since the customer is already invested in the experience. This will lead to higher completion rates and eventually **higher conversions** and upselling success. This approach is better for merchants selling inexpensive items or routines.
-
-It is not recommended to ask for email or marketing data mid-way through the quiz as this only increases your quiz drop-off rate.
-
-## Next, if it should be **Optional** or **Mandatory**
-
-Whether you make your email/phone number question mandatory or optional will also have a huge impact on your quiz drop-off and conversion rate.
-
-### ⛔ Mandatory
-
-Making the email/phone consent question mandatory ensures that you collect contact information from every user who completes the quiz. This can be beneficial for building a robust email list quickly. However, it may also deter some users from completing the quiz if they are not comfortable sharing their information.
-
-| Pros | Cons |
-|------|------|
-| Ensures a high volume of data collection | May increase quiz drop-off rates. May include many fake emails. |
-| Filters out less engaged users, potentially leading to higher-quality leads | Some users may find it intrusive and opt-out early |
-
-
-### ✅ Optional
-
-Making the email/phone consent question optional can create a more user-friendly experience, encouraging more users to complete the quiz. This approach respects user privacy and autonomy, potentially leading to higher overall quiz engagement.
-
-| Pros | Cons |
-|------|------|
-| Higher quiz completion rates | Lower volume of data collection |
-| Users feel less pressured, leading to a more positive brand experience | May require additional incentives to encourage users to opt-in |
-
-!!! tip "Tip: Make Question Optional"
-
-    In RevenueHunt app you can choose if a quiz question should be mandatory or optional in [question settings](/reference/quiz-builder/questions/#question-settings).
-
-
-## Then **How** to Ask for Marketing Consent
-
-Clear and honest communication is key to gaining trust when asking for marketing consent. Here’s how to do it effectively:
-
-###1️⃣ Use Transparent Wording
-
-**Simplify your message** to avoid legal jargon and make it easy to understand. **Highlight the benefits** users gain by consenting, such as exclusive content, discounts, or early access to new products. Usually, Yes/No questions are straightforward and reduce friction in the consent process. Ask direct yes/no questions regarding consent to make it easy for users to make a choice..
-
-![smart ways to ask for marketing consent friendly and transparent wording](https://revenuehunt.com/wp-content/uploads/2024/06/consent-simple-language1.png)
-
-!!! tip "Tip: Use a GDPR/Question"
-    Use a GDPR/Yes-No Question type to easily ask for consent in RevenueHunt app.
-
-**Example**: “We’d love to stay in touch to share the best skincare tips and product updates. Do we have your permission to send you emails?” or “Get the most out of our recommendations! Sign up for our newsletter to receive special offers and expert skincare advice.” or “Do you agree to receive our personalized product recommendations and updates? [ ] Yes [ ] No”.
-
-
-### 2️⃣ Add Link to Privacy Policy
-
-Make your Privacy Policy easily accessible to add transparency and reassure users about how their data will be handled.
- 
-![smart ways to ask for marketing consent add a link to your privacy policy](https://revenuehunt.com/wp-content/uploads/2024/06/Screenshot-2024-06-14-122634-1536x621.png)
-
-**Example**: “By providing your email address you agree to our [privacy policy](https://www.linktoyourprivacypolicy.com).”
-    
-!!! tip "Tip: Link from any text element"
-    You can link to your Privacy Policy within any text element of the RevenueHunt Product Recommendation Quiz.
-
-
-!!! tip "Tip: Marketing Checkmark"
-    Follow [these instructions](/how-to-guides/ask-for-marketing-consent/#option-2-marketing-checkmark) to add a marketing checkmark to any quiz slide.
-
-### 3️⃣ Design Choices Matter
-
-The design and placement of consent requests can significantly impact user engagement.
-
-**Use visual cues** like checkboxes or toggle switches for consent options. You can also use **clickable icons** instead of checkboxes or use buttons that change color or animate when clicked.
-
-![smart ways to ask for marketing consent design choices matter](https://revenuehunt.com/wp-content/uploads/2024/06/consent1.gif)
-
-Ensure these options are accessible on all devices with large clickable areas for mobile users. Position consent requests at engaging points in the quiz to avoid disrupting the flow.
-
-!!! tip "Tip: Use Picture Questions"
-    Use [Picture Questions](/reference/quiz-builder/questions/#question-types) to add animated gifs to your quiz choices in RevenueHunt app.
-
-**Example**: “Want to receive our updates? Click the heart to say yes! ❤️” or “Would you like to receive our updates? [ ] Yes, absolutely! (Enthusiastic yes gif) [ ] No, thanks. (Button shakes slightly)”.
-
-### 4️⃣ Offer a Clear Opt-Out Option
-
-Respecting user choice is essential. Always provide a clear and **easy way for users to opt-out of marketing communications. Reassure users they can still complete the quiz and receive recommendations even if they choose not to opt-in.
-
-![smart ways to ask for marketing consent offer a clear opt-out option](https://revenuehunt.com/wp-content/uploads/2024/06/consent-opt-out-hearts.png)
-
-!!! tip "Tip: Question Description"
-    You can add additional information to each quiz slide by activating a [question description](/reference/quiz-builder/questions/#question-settings) or adding an extra text block in RevenueHunt app.
-
-**Example**: “You can unsubscribe at any time by clicking the link in our emails. You can still get your personalized recommendations without signing up for our newsletter.”
-
-### 5️⃣ Reward System
-
-Offer immediate rewards or incentives for giving consent, such as a **discount code** or a free sample.
-
-![smart ways to ask for marketing consent reward system](https://revenuehunt.com/wp-content/uploads/2024/06/consent-discount3.png)
-
-
-!!! tip "Tip: Add Discount"
-    Check [this guide](/how-to-guides/add-discount/) to learn how to offer discounts in your RevenueHunt Product Recommendation Quiz.
-
-**Example**: “Get 10% off your next purchase! Do you agree to receive our exclusive offers? [ ] Yes, I love discounts! [ ] No, I’m good for now.”
-
-### 6️⃣ Build Trust with Transparency
-
-Being transparent about how you will use the data builds trust and increases the likelihood of obtaining consent. Briefly explain why you need the data and how it will benefit the user. Reassure users that **their data will be handled securely** and respectfully.
-
-![smart ways to ask for marketing consent build trust with transparency](https://revenuehunt.com/wp-content/uploads/2024/06/consent-discount.png)
-
-**Example**: “We use your data to provide personalized skincare recommendations and to keep you updated with the latest offers. We respect your privacy and will never share your data with third parties.”
+In 2026 this matters more than it used to. Privacy enforcement under GDPR and CCPA keeps tightening, and as third-party cookies disappear, the consented data a quiz collects becomes your most durable marketing asset. Treat the consent step as part of the value exchange, not a legal formality.
 
 ---
 
-Obtaining consent for marketing and data processing in product recommendation quizzes doesn’t have to be a daunting task. By integrating consent requests into the quiz, using friendly and transparent wording, making smart design choices, offering clear opt-out options, and building trust through transparency, you can improve the user experience while ensuring compliance and building a strong relationship with your customers.
+## When to Ask
 
-This article explains how to ask for marketing consent in your RevenueHunt Product Recommendation Quiz.
+The consent ask should feel like a natural step in the quiz, not a popup bolted onto it. Two moments work, and the right one depends on what you sell.
 
-Give these strategies a try in your quizzes today and watch your user engagement and data collection improve!
+| Ask the email | Effect | Best for |
+|---------------|--------|----------|
+| **Before the quiz starts** | Lower completion, but higher-intent leads | Luxury and high-consideration products |
+| **At the end, before results** | Higher completion and conversions, since the shopper is already invested | Lower-priced items and routines |
+
+![Asking for consent on the welcome slide, before the quiz begins](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-start-quiz-1024x732.webp){ width="450" }
+
+![Asking for consent at the end, just before the results page](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-end-quiz-e1718952561212-1024x702.webp){ width="450" }
+
+Asking in the middle of the quiz is the one option to avoid. It interrupts the flow and spikes drop-off without either benefit.
+
+---
+
+## Required or Optional
+
+Whether the email or phone question is mandatory has a big effect on both drop-off and lead quality.
+
+**Require it by default.** Among top-converting quizzes that collect email, 75% make it required, and it does not hurt completion. A shopper who reached the email step is engaged enough to trade an address for a personalized result. Requiring it also filters out the least-interested and gives you a contactable lead from every finisher.
+
+**Make it optional only when completion is the priority.** An optional question feels friendlier and lifts completion, at the cost of collecting fewer (and sometimes lower-quality) contacts. It suits inexpensive, impulse purchases, and works best paired with a strong incentive to opt in anyway.
+
+??? info "How to make a question required or optional"
+    Set any question mandatory or optional in [Question settings](/reference/quiz-builder/questions/#question-settings).
+
+---
+
+## How to Ask
+
+Once you've settled when and whether, a few wording and design choices decide how many people actually say yes.
+
+**Keep the wording plain and benefit-led.** Drop the legal jargon and ask a simple yes/no question framed around what the shopper gets. A [GDPR or Yes/No question type](/reference/quiz-builder/questions/) makes this easy.
+
+!!! example "Wording that converts"
+    "We'd love to send you the best skincare tips and a 10% welcome offer. Okay to email you?" reads far better than a blunt "Do you consent to receive marketing communications?"
+
+![Friendly, plain-language consent question with a clear yes/no choice](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-simple-language1.webp){ width="450" }
+
+**Link your privacy policy.** A visible privacy link reassures shoppers that their data is handled responsibly, and you can link it from any text element in the quiz. Something as simple as "By sharing your email you agree to our privacy policy" is enough.
+
+![A consent question with a privacy policy link below the choice](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/Screenshot-2024-06-14-122634.webp){ width="450" }
+
+**Design for mobile.** Most shoppers answer on a phone, so use large, tappable checkboxes or toggles, and place the ask at a natural point in the flow rather than crammed between questions.
+
+![Consent question using clickable heart icons instead of a plain checkbox](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent1.gif){ width="450" }
+
+**Always offer a clear opt-out, and mean it.** Tell shoppers they still get their results whether or not they subscribe. Trust earns more long-term consent than pressure does.
+
+!!! example "Reassure on the opt-out"
+    "You can unsubscribe anytime, and you'll still get your full recommendations even if you'd rather not subscribe."
+
+![A consent question with a friendly opt-out, neither option pre-selected](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-opt-out-hearts.webp){ width="450" }
+
+**Reward the opt-in.** A discount or free sample in exchange for consent lifts both your opt-in rate and your completion rate, because the reward gives shoppers a reason to finish.
+
+![A consent question offering a discount code in exchange for opting in](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-discount3.webp){ width="450" }
+
+??? info "How to add a discount"
+    See: [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/).
+
+**Be transparent about what you'll use the data for.** A single line explaining the why measurably reduces hesitation, especially in privacy-conscious markets. Something like "we use your answers to personalize your recommendations and send the occasional update, and we never share your data" does the job.
+
+![A consent question that explains what the data will be used for](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-discount.webp){ width="450" }
+
+Whichever choices you make, the email you capture doesn't arrive alone. It lands in your CRM attached to the shopper's quiz answers and [customer tags](/customer-success/use-customer-tags-in-quiz/), which is what powers segmented follow-up. Segmented campaigns earn far more per recipient than generic sends, and about 1 in 5 quiz orders land more than 30 days after the quiz, so the consent moment is really where that long revenue tail begins.
+
+!!! tip "Treat SMS consent separately"
+    Phone and SMS consent carry stricter rules than email under regulations like the TCPA, so ask for it explicitly rather than bundling it into a single checkbox. For the full setup, including the marketing checkmark, see [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
+
+---
+
+## Do / Don't
+
+- **Do** weave the consent ask into the quiz flow at a natural step, never as a standalone popup.
+- **Do** ask at the end in most cases, where the shopper is invested and completion stays high.
+- **Do** require the email as your default. Across top-converting quizzes 75% require it and it does not hurt completion.
+- **Do** pair the ask with a clear benefit and a reassurance ("get your results and a discount, no spam, unsubscribe anytime").
+- **Don't** ask for contact data mid-quiz. It only spikes drop-off.
+- **Don't** ask up front unless you sell high-consideration or luxury items and deliberately want to filter for intent.
+
+## Frequently asked questions
+
+### When should I ask for marketing consent?
+
+At the end of the quiz in most cases, where the shopper is invested and completion stays high. Ask before the quiz only for luxury or high-consideration items, where filtering for intent is worth the lower completion. Never mid-quiz.
+
+### Should the email be required or optional?
+
+Required is the data-backed default: 75% of top-converting quizzes that collect email require it, and it does not hurt completion. Offer a skip only if it genuinely fits your brand.
+
+### How do I stay GDPR and CCPA compliant?
+
+GDPR asks that consent be freely given, specific, informed, and unambiguous. A clearly worded yes/no question, a privacy-policy link, and an easy opt-out satisfy that, and the GDPR/Yes-No question type is built for it. For EU markets, pair it with Shopify Markets so the consent question renders in the shopper's language. Treat SMS consent as a separate, explicit opt-in.
+
+### What if a shopper opts out but still finishes the quiz?
+
+They still see their recommendation. The opt-out applies to your marketing emails, not the quiz result: the response is captured and the recommendation is shown, but no marketing follow-up is triggered.
+
+---
+
+This article covers the strategy. For the click-by-click setup, see [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).

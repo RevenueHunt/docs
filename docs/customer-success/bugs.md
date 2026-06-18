@@ -3,7 +3,6 @@ icon: material/bug-outline
 description: "Known bugs and limitations in RevenueHunt app with status and workarounds for reported issues."
 ---
 
-
 # Known Bugs & Limitations
 
 We’re constantly improving the RevenueHunt app. Below you’ll find a list of known bugs (unresolved issues) and current limitations (expected behaviors by design).
@@ -41,12 +40,10 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
         !!! note "Status"
             Under investigation.
 
-
     - **User Name Display Issue in Email**: Instead of showing the name of the person who completed the quiz, it’s displaying the question reference like: "Hey Q2: BEFORE WE BEGIN___".
     
         !!! note "Status"
             Under investigation.
-
 
     - **Quiz Completion Behavior**: Closing a pop-up quiz before finishing can cause the website background to turn white, requiring a manual refresh.
 
@@ -57,8 +54,6 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
         !!! note "Status"
             Intermittent, under investigation.
-
-
 
 === "Shopify (Legacy)"
 
@@ -81,13 +76,10 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
         !!! note "Status"
             Under investigation.
 
-
     - **Klaviyo Data Appended**: Recommended product data gets added to Klaviyo profile as custom properties every time a quiz is taken, the data is not replaced every time.
 
         !!! note "Status"
             Fixed in Built for Shopify version of the RevenueHunt app; not backported to v1.
-
-
 
 === "WooCommerce"
 
@@ -110,7 +102,6 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
         !!! note "Status"
             Under investigation.
 
-
 === "Magento"
 
     These are the known bugs that we are aware of and are working to fix:
@@ -126,7 +117,6 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
     
         !!! note "Status"
             Under investigation.
-
 
 === "BigCommerce"
 
@@ -144,7 +134,6 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
         !!! note "Status"
             Under investigation.
 
-
 === "Standalone"
 
     These are the known bugs that we are aware of and are working to fix:
@@ -161,15 +150,11 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
         !!! note "Status"
             Under investigation.
 
-
-
-
 ## ⚖️ Current Limitations (By Design)
 
 === "Shopify"
 
     These are not bugs but important to know:
-
 
     - **One Klaviyo List per Quiz**: Each quiz can only sync to a single Klaviyo list at a time. For multiple lists, segmentation must be handled inside Klaviyo.
 
@@ -179,12 +164,9 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
     - **Results Precision**: Recommendation accuracy depends on how merchants configure upvotes, logic, and product slots. The app provides flexibility but doesn’t override merchant settings.
 
-
-
 === "Shopify (Legacy)"
 
     These are not bugs but important to know:
-
 
     - **One Klaviyo List per Quiz**: Each quiz can only sync to a single Klaviyo list at a time. For multiple lists, segmentation must be handled inside Klaviyo.
 
@@ -199,7 +181,6 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
     - **Quiz Builder Performance Constraints**: Quizzes with large product catalogs or complex logic could slow down load times.
 
     - **Shop Minis Deprecation**: Shopify is sunsetting Shop Minis integrations, impacting merchants who used the app within Shop.
-
 
 === "WooCommerce"
 
@@ -219,8 +200,6 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
     - **Quiz Builder Performance Constraints**: Quizzes with large product catalogs or complex logic could slow down load times.
 
-
-
 === "Magento"
 
     These are not bugs but important to know:
@@ -237,11 +216,9 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
     - **Quiz Builder Performance Constraints**: Quizzes with large product catalogs or complex logic could slow down load times.
 
-
 === "BigCommerce"
 
     These are not bugs but important to know:
-
 
     - **One Klaviyo List per Quiz**: Each quiz can only sync to a single Klaviyo list at a time. For multiple lists, segmentation must be handled inside Klaviyo.
 
@@ -254,7 +231,6 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
     - **No Market Assignment**: Can’t automatically assign quizzes to different markets or currencies. Merchants had to duplicate quizzes for different locales.
 
     - **Quiz Builder Performance Constraints**: Quizzes with large product catalogs or complex logic could slow down load times.
-
 
 === "Standalone"
 
@@ -274,10 +250,6 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
     - **Quiz Builder Performance Constraints**: Quizzes with large product catalogs or complex logic could slow down load times.
 
-
-
-
-
 !!! info "Support"
 
     We’ll continue to update this page as fixes roll out or limitations are lifted.
@@ -286,10 +258,4 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
 
 ---
 This article explains the known bugs and limitations of the RevenueHunt app.
-
-
-
-
-
-
 

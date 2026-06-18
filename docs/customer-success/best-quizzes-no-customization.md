@@ -15,7 +15,6 @@ This article is about what separates those two quizzes.
 
     At RevenueHunt, we've analyzed product recommendation quizzes across **45M+ responses** and **$370M+ in tracked revenue** from **20,000+ brands**. The findings consistently point to the same conclusion: **the quizzes that sell the most are the ones that get the content right, not the design.**
 
-
 ---
 
 ## The customization trap
@@ -28,11 +27,9 @@ When merchants discover they can customize *everything*, it's tempting to focus 
 
 !!! warning "A quiz that looks beautiful but asks the wrong questions will not convert."
 
-
     A quiz that looks plain but asks *exactly* the right questions, and maps every answer to the right product, will outsell it every time.
 
     ![No customization comparison](/images/cs_no_customization_comparison.png)
-
 
 The most common reason quizzes underperform isn't poor design. It's one of these:
 
@@ -72,11 +69,9 @@ That's it. That's the playbook.
 
 !!! success "The default theme inherits your store's fonts and colors automatically."
 
-
     The `💎Built for Shopify` version of the RevenueHunt app pulls in your Shopify theme's typography by default. For most stores, the quiz already *looks on-brand* without a single line of CSS. What it needs next is great *content*, not more styling.
 
     ![Default theme example](/images/cs_no_customization_style.png)
-
 
     
 
@@ -86,7 +81,6 @@ That's it. That's the playbook.
 
 Here are the numbers from our platform analysis:
 
-
 | Factor                                         | Impact on conversion                                |
 | ---------------------------------------------- | --------------------------------------------------- |
 | Quizzes with every answer mapped to products   | Significantly higher conversion vs. partial mapping |
@@ -94,7 +88,6 @@ Here are the numbers from our platform analysis:
 | Quizzes connected to Klaviyo                   | **12.0% avg** vs. **9.7% avg** (no Klaviyo)         |
 | 6-12 questions (sweet spot)                    | **10.4-11.0% avg** conversion                       |
 | Email capture (required)                       | 75% of top converters use required email            |
-
 
 Notice what's not in that table: custom fonts, brand colors, CSS animations, or JavaScript. Those variables don't appear in the data because they don't predict conversion.
 
@@ -104,9 +97,7 @@ Notice what's not in that table: custom fonts, brand colors, CSS animations, or 
 
 If you're trying to improve your quiz, work through this list **before** touching the design:
 
-### 1. Get the questions right
-
-Ask questions your customers can answer in under 5 seconds. If a customer has to stop and think hard, the question is probably too technical or too abstract. Test your quiz on someone unfamiliar with your products, and if they hesitate, rewrite the question.
+**Get the questions right.** Ask questions your customers can answer in under 5 seconds. If a customer has to stop and think hard, the question is probably too technical or too abstract. Test your quiz on someone unfamiliar with your products, and if they hesitate, rewrite the question.
 
 Aim for **3-6 answer choices per question**. Fewer than 3 limits personalization; more than 6 creates decision fatigue.
 
@@ -116,9 +107,7 @@ Aim for **3-6 answer choices per question**. Fewer than 3 limits personalization
 
     ![No image quiz example](/images/cs_no_customization_text_quiz_example.png)
 
-### 2. Map every single answer to a product
-
-This is the single highest-impact change most merchants can make. Go through your quiz answer by answer and ask: *does this answer influence the recommendation?*
+**Map every single answer to a product.** This is the single highest-impact change most merchants can make. Go through your quiz answer by answer and ask: *does this answer influence the recommendation?*
 
 If an answer isn't mapped to at least one product or collection, fix it before you launch. Every unmapped answer is a missed signal, and worse recommendations.
 
@@ -126,24 +115,15 @@ If an answer isn't mapped to at least one product or collection, fix it before y
 
     A question like *"What's your main skin concern?"* with the answer *"Dryness"* should map to your hydrating moisturizers collection. *"Breakouts"* maps to your acne-fighting range. *"Anti-aging"* maps to your retinol products. Every answer, every time.
 
-    ![Mapping example](https://revenuehunt.com/wp-content/uploads/2026/04/email2_map_products.png)
-
-
-### 3. Limit what you recommend
-
-One product per slot, or 1-3 products total. The more products you show, the harder it is for the customer to decide, and indecision means no purchase.
+**Limit what you recommend.** One product per slot, or 1-3 products total. The more products you show, the harder it is for the customer to decide, and indecision means no purchase.
 
 If you sell routines (e.g., skincare: cleanser + toner + moisturizer), use **product slots**: one recommendation per step. That's personalization the customer can act on immediately.
 
-### 4. Capture the email
-
-Add an email step before the results page. Make it required. Connect it to Klaviyo. Send the first follow-up email within minutes of quiz completion, with the recommended products and a discount.
+**Capture the email.** Add an email step before the results page. Make it required. Connect it to Klaviyo. Send the first follow-up email within minutes of quiz completion, with the recommended products and a discount.
 
 Quizzes connected to Klaviyo generate **66% more orders on average** than those without. That's not a design improvement, that's a funnel.
 
-### 5. Make the quiz easy to find
-
-A perfect quiz that nobody sees doesn't convert. Publish it in at least two places:
+**Make the quiz easy to find.** A perfect quiz that nobody sees doesn't convert. Publish it in at least two places:
 
 - As a block or section on your homepage
 - As a floating button or automatic popup for new visitors
@@ -172,10 +152,8 @@ Custom CSS and JavaScript are valuable tools **once the content is right**. Afte
 
 !!! tip "Use Quiz Copilot for content, not just styling"
 
-
     Quiz Copilot is most valuable for generating question copy, writing compelling results page text, and suggesting product mapping logic, not just CSS. Ask it: *"What questions should I ask to find the best supplement for a customer?"* or *"Write a personalized results page heading that recalls the customer's name and top concern."* That's where Copilot earns its keep.
 
-    ![Quiz Copilot example](https://revenuehunt.com/wp-content/uploads/2026/04/email2_quiz_draft.png)
     
 
 ---
@@ -194,6 +172,30 @@ Run through this before spending any time on customization:
 - Klaviyo (or another CRM) is connected and a follow-up flow is active
 
 If every box is checked and your conversion rate is still below 8%, *then* start looking at design and user experience. But in our experience, checking all these boxes gets most quizzes to 10-15% conversion without a single line of CSS/JavaScript.
+
+---
+
+## Do / Don't
+
+- **Do** get the questions and product mapping right before any design work. Content predicts conversion; design doesn't.
+- **Do** map every answer, recommend 1-3 products, use a single results page, and connect email. That is the whole playbook.
+- **Do** let the default theme inherit your store's fonts and colors. It is on-brand without a line of custom CSS.
+- **Don't** spend hours on custom CSS, fonts, and animations while the quiz converts at 3%. Those don't appear in the data because they don't predict conversion.
+- **Don't** add a question or an extra results page that doesn't earn its place. A single results page averages 10.6% conversion versus 7.1% for 11+ pages.
+
+## Frequently asked questions
+
+### Does quiz design affect conversion?
+
+Barely. In our platform data, custom fonts, colors, and CSS don't predict conversion. Questions, product mapping, and follow-up do.
+
+### What actually drives quiz revenue?
+
+The right questions, every answer mapped, 1-3 products on a single results page, a required email connected to Klaviyo, and a discount.
+
+### When is customization worth it?
+
+After the content, mapping, and email capture are working and the quiz is converting at a baseline. At that point, design polish optimizes something that already works.
 
 ---
 

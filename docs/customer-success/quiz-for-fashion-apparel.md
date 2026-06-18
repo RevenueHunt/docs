@@ -58,6 +58,20 @@ Ask only what changes a recommendation, a segment, or a message (the [data-worth
 - [Set up a funnel quiz](/how-to-guides/set-up-funnel-quiz/) to route a broad catalog
 - [Plan a personality quiz](/customer-success/personality-quizzes/) if your hook is "find your style"
 
+## Frequently asked questions
+
+### What questions does a fashion quiz need?
+
+Style preference, fit and size (including the measurements that matter for your category), occasion, color and material preferences, and budget.
+
+### How does a quiz reduce returns?
+
+Capturing fit and size up front means you recommend pieces that actually fit, so fewer shoppers buy the wrong size. Fewer returns is profit you keep.
+
+### Should it recommend single items or full looks?
+
+Full looks. Use slots to recommend a complete outfit or capsule, which turns a one-item visit into a basket.
+
 ---
 
 **Where to go next:** turn each look into a bigger basket with the [bundles, kits & routines playbook →](/customer-success/recommend-bundles-kits/)

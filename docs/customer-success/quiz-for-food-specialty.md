@@ -60,6 +60,20 @@ Ask only what changes a recommendation, a segment, or a message (the [data-worth
 - [Recommend subscription products](/how-to-guides/recommend-subscription-products/) for consumables
 - [Set up a funnel quiz](/how-to-guides/set-up-funnel-quiz/) for deep catalogs
 
+## Frequently asked questions
+
+### What should a food or specialty quiz ask?
+
+Taste preferences (roast, flavor, spice, sweetness), dietary restrictions and allergies, use case, quantity or frequency, and budget.
+
+### How do I lower the risk of a first purchase?
+
+Recommend a curated sampler matched to their palate rather than a single big commitment, and offer a subscription for anything they will go through regularly.
+
+### How do I handle allergies and diets?
+
+Use exclusions so products that conflict with a stated allergy or diet never appear in the results. A safety miss is unforgivable.
+
 ---
 
 **Where to go next:** build the sampler or bundle with the [bundles, kits & routines playbook →](/customer-success/recommend-bundles-kits/)

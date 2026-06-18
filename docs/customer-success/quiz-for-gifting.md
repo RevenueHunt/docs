@@ -59,6 +59,20 @@ This is the move most stores miss. A gift buyer is a brand-new customer who shop
 - [Quiz templates by industry](https://revenuehunt.com/templates/){target=_blank}
 - [Set up recommendations](/how-to-guides/set-up-recommendations/) and [funnel quizzes](/how-to-guides/set-up-funnel-quiz/) to route by recipient or occasion
 
+## Frequently asked questions
+
+### What should a gift finder quiz ask?
+
+Questions about the recipient: the relationship, the occasion, their interests, the budget, and any constraints like allergies or things they already own.
+
+### How many gift options should it recommend?
+
+A small, curated shortlist across price tiers, filtered by the budget answer. Not one (too risky for a gift) and not fifty (back to choice paralysis).
+
+### How do gift quizzes drive repeat sales?
+
+Capture the gifter's email and the occasion, then re-engage them before the next holiday or that recipient's birthday. Gift buyers shop by the calendar.
+
 ---
 
 **Where to go next:** make the gift bigger with the [bundles, kits & routines playbook →](/customer-success/recommend-bundles-kits/)

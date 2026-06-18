@@ -15,8 +15,6 @@ The merchants generating serious, compounding revenue from their quizzes underst
 
 This article explains how to build that system.
 
-![Customer Tags Overview](https://revenuehunt.com/wp-content/uploads/2024/06/Customer-Tags-V2.png)
-
 !!! info "What this covers"
     This is a strategic guide to using customer tags, CRM segmentation, and automated email flows together. It uses Klaviyo as the primary example, but the principles apply to any CRM that integrates with RevenueHunt: Omnisend, Mailchimp, ActiveCampaign, HubSpot, or custom Webhooks.
 
@@ -43,23 +41,30 @@ That's what a quiz captures - at scale, for every customer who takes it.
 
 ## The Funnel Architecture
 
-A quiz without a downstream funnel is a missed opportunity. The full system looks like this:
+A quiz without a downstream funnel is a missed opportunity. The full system is a pipeline:
 
-```
-Customer takes quiz
-        ↓
-Quiz captures email + assigns tags based on answers
-        ↓
-Tags flow into your CRM (Klaviyo, Omnisend, etc.)
-        ↓
-CRM creates dynamic segments from tags
-        ↓
-Segment-specific email flows trigger automatically
-        ↓
-Customer receives relevant content + recommendations
-        ↓
-Purchase → Repeat purchase → Brand loyalty
-```
+<div style="margin:24px auto; max-width:440px;">
+<svg viewBox="0 0 440 660" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; display:block;" role="img" aria-labelledby="fat fad" preserveAspectRatio="xMidYMid meet">
+  <title id="fat">From quiz answer to repeat customer</title>
+  <desc id="fad">The pipeline: a customer takes the quiz, answers assign tags and capture the email, tags sync to the CRM, the CRM builds dynamic segments, segment flows trigger, and the customer becomes a repeat buyer.</desc>
+  <defs>
+    <marker id="fa-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker>
+  </defs>
+  <g font-family="system-ui, sans-serif">
+    <g transform="translate(10 10)"><rect width="420" height="80" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/><text x="210" y="46" font-size="16" font-weight="700" fill="#16161D" text-anchor="middle">Customer takes the quiz</text></g>
+    <line x1="220" y1="92" x2="220" y2="116" stroke="#cbd5e1" stroke-width="2" marker-end="url(#fa-arrow)"/>
+    <g transform="translate(10 118)"><rect width="420" height="80" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/><text x="210" y="46" font-size="16" font-weight="700" fill="#16161D" text-anchor="middle">Answers assign tags; email captured</text></g>
+    <line x1="220" y1="200" x2="220" y2="224" stroke="#cbd5e1" stroke-width="2" marker-end="url(#fa-arrow)"/>
+    <g transform="translate(10 226)"><rect width="420" height="80" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/><text x="210" y="46" font-size="16" font-weight="700" fill="#16161D" text-anchor="middle">Tags sync to your CRM</text></g>
+    <line x1="220" y1="308" x2="220" y2="332" stroke="#cbd5e1" stroke-width="2" marker-end="url(#fa-arrow)"/>
+    <g transform="translate(10 334)"><rect width="420" height="80" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/><text x="210" y="46" font-size="16" font-weight="700" fill="#16161D" text-anchor="middle">CRM builds dynamic segments</text></g>
+    <line x1="220" y1="416" x2="220" y2="440" stroke="#cbd5e1" stroke-width="2" marker-end="url(#fa-arrow)"/>
+    <g transform="translate(10 442)"><rect width="420" height="80" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/><text x="210" y="46" font-size="16" font-weight="700" fill="#16161D" text-anchor="middle">Segment flows trigger automatically</text></g>
+    <line x1="220" y1="524" x2="220" y2="548" stroke="#cbd5e1" stroke-width="2" marker-end="url(#fa-arrow)"/>
+    <g transform="translate(10 550)"><rect width="420" height="80" rx="10" fill="#F6F0F7" stroke="#904E95" stroke-width="1.5"/><text x="210" y="46" font-size="16" font-weight="700" fill="#16161D" text-anchor="middle">Purchase, repeat, loyalty</text></g>
+  </g>
+</svg>
+</div>
 
 Each step only works if the previous one is set up correctly. Most merchants stop at step one (the quiz) or step two (email capture) and wonder why the quiz "isn't converting well." The quiz is fine. The funnel is missing.
 
@@ -69,22 +74,13 @@ Each step only works if the previous one is set up correctly. Most merchants sto
 
 The biggest mistake merchants make is adding tags reactively - tagging a few choices here and there after the quiz is built. A well-designed tag system starts with a plan.
 
-Think in three categories:
+Think in three categories.
 
-### Profile tags (who they are)
-These describe the customer's characteristics. They change rarely and form the foundation of long-term segmentation.
+**Profile tags (who they are).** These describe the customer's characteristics. They change rarely and form the foundation of long-term segmentation. *Examples: `hair-type:curly`, `skin-type:dry`, `age-group:30s`, `hair-concern:frizz`.*
 
-*Examples: `hair-type:curly`, `skin-type:dry`, `age-group:30s`, `gender:female`, `hair-concern:frizz`*
+**Intent tags (what they want right now).** These describe the customer's goals at the time of the quiz, and they drive the immediate recommendation and the first email. *Examples: `goal:repair`, `goal:volume`, `goal:anti-aging`, `concern:acne`.*
 
-### Intent tags (what they want right now)
-These describe the customer's goals at the time of taking the quiz. They inform the immediate recommendation and the first email flow.
-
-*Examples: `goal:repair`, `goal:volume`, `goal:anti-aging`, `goal:hydration`, `concern:acne`*
-
-### Behavioral tags (how they engage)
-These describe purchase intent signals captured in the quiz. Use these to prioritize your most qualified leads.
-
-*Examples: `budget:premium`, `buys-for:self`, `buys-for:gift`, `routine:full`, `routine:minimal`*
+**Behavioral tags (how they engage).** These capture purchase-intent signals, so you can prioritize your most qualified leads. *Examples: `budget:premium`, `buys-for:gift`, `routine:full`, `routine:minimal`.*
 
 !!! tip "Tag naming conventions matter"
     Use consistent, lowercase, descriptive names. `hair-type:curly` is better than `Curly` because it's clear what dimension it describes and won't conflict with other tags. Your CRM filters will be much cleaner. Agree on a naming convention before you start and stick to it.
@@ -196,9 +192,7 @@ With tags flowing into your CRM, you can create **dynamic segments** - groups of
 !!! tip "Lists vs. Segments"
     Lists are static. Segments are dynamic. Add a customer to a list and they stay until you remove them. A segment updates automatically whenever a contact meets (or no longer meets) its conditions. Always build quiz-based segments as dynamic segments - not static lists.
 
-### A worked example: haircare store
-
-A haircare brand runs a quiz asking customers about hair type, concerns, and goals. Here's how their segments look:
+**A worked example, a haircare store.** A haircare brand runs a quiz asking about hair type, concerns, and goals. Here's how their segments look:
 
 | Segment name | Condition |
 |---|---|
@@ -215,15 +209,11 @@ Each segment is independent, and a single contact can belong to multiple segment
 ??? info "How to create segments in Klaviyo"
     Check this video to learn how to create segments based on quiz submissions in Klaviyo: [How to Create Segments in Klaviyo](/tutorials/follow-up-emails-klaviyo/)
 
-    ![Klaviyo Segment Example](https://revenuehunt.com/wp-content/uploads/2024/06/kalviyo-segement-768x450.png)
-
 ---
 
 ## Step 5: Build Your Email Flows
 
-Segments are the input. Email flows are the output. Every segment should have at least one automated flow triggered by joining that segment.
-
-### The core flow structure
+Segments are the input. Email flows are the output. Every segment should have at least one automated flow triggered by joining it. A reliable structure is four emails.
 
 **Email 1: Immediate - Send within 5-10 minutes of quiz completion**
 
@@ -256,7 +246,7 @@ For contacts who haven't purchased: a gentle re-engagement with a fresh angle (d
 !!! tip "Tailor every email to the segment, not just the subject line"
     Personalization isn't just using `{{ first_name }}`. It means the product images, the copy, the concerns addressed, and the CTA are all specific to what that customer told you in the quiz. A `dry hair` email and a `curly hair` email should look and feel completely different - even if they're in the same flow template.
 
-### Segment-specific examples
+**Segment-specific examples.** The same four-email shape, tailored to what each segment told you:
 
 | Segment | Email 1 content | Email 2 content | Email 3 content |
 |---------|----------------|----------------|----------------|
@@ -264,11 +254,6 @@ For contacts who haven't purchased: a gentle re-engagement with a fresh angle (d
 | Dry/Damaged | Moisturizing shampoo + deep conditioner | "Signs your hair needs a protein treatment" | Before/after repair results + treatment set |
 | Volume Seekers | Volumizing shampoo + root spray | "Why your hair falls flat (and how to fix it)" | Bestselling volume kit with bundle discount |
 | Full Routine | Complete routine (cleanser, treatment, styler) | "How to layer haircare products for best results" | Routine bundle with loyalty offer |
-
-<div style="display: flex; gap: 12px; margin: 16px 0;">
-  <img src="https://revenuehunt.com/wp-content/uploads/2024/06/curly-campaign.png" style="width: 49%;" alt="Segment-specific email campaign for curly hair customers">
-  <img src="https://revenuehunt.com/wp-content/uploads/2024/06/dry-campaign.png" style="width: 49%;" alt="Segment-specific email campaign for dry hair customers">
-</div>
 
 ---
 
@@ -318,6 +303,30 @@ The tags, answers, and recommended products pass through in all cases. The segme
 
 !!! success "The key insight"
     The quiz is not a conversion widget. It's the front door of a segmented revenue system. The recommendation on the results page is the first sale. The email flows - built on zero-party data the customer willingly gave you - are every sale after that.
+
+## Do / Don't
+
+- **Do** tag every answer that maps to a real segment (hair type, skin concern, budget, goal), so segmentation builds itself as people take the quiz.
+- **Do** sync tags to your CRM as profile properties, not just list membership, so they can drive conditional flow splits.
+- **Do** use the segments to personalize email and to seed cheaper, sharper ad audiences.
+- **Don't** collect tags you have no plan to use. A tag that powers no segment, flow, or ad is just clutter.
+- **Don't** lean on third-party data when the quiz hands you declared, consented zero-party data you own permanently.
+
+## Frequently asked questions
+
+### What is zero-party data?
+
+Preferences a customer declares directly through their quiz answers, as opposed to first-party (behavioral) or third-party (bought) data. It is the most reliable kind, and it belongs to you permanently.
+
+### How do customer tags turn into revenue?
+
+Tag the answers, sync them to your CRM as profile properties, build a segment per tag, then run targeted email flows and ad audiences. The quiz becomes a segmented engine that keeps selling after the session.
+
+### Which CRMs work with this?
+
+Klaviyo is the primary example, but the same approach applies to Omnisend, Mailchimp, ActiveCampaign, HubSpot, or custom Webhooks.
+
+---
 
 **Related articles:**
 

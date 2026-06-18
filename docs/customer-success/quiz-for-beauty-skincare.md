@@ -70,6 +70,20 @@ The answers a beauty shopper gives are unusually valuable, because skincare is c
 - [Quiz templates by industry](https://revenuehunt.com/templates/){target=_blank}, including skincare, haircare, and shade-finder starting points
 - [Plan a personality quiz](/customer-success/personality-quizzes/) if your hook is "find your skin type" rather than a product match
 
+## Frequently asked questions
+
+### What questions should a skincare quiz ask?
+
+Skin (or hair) type, primary concern, goal, sensitivities or no-go ingredients, and experience level. Ask only what changes a recommendation or a segment, and keep it to a handful so people finish.
+
+### Should a beauty quiz recommend one product or a routine?
+
+A routine. Recommend the steps (cleanser, serum, moisturizer, SPF) in their own slots. It reframes the purchase from a single item to a complete solution, and beauty quiz orders run about 20% larger.
+
+### How do I use the skin data after the quiz?
+
+Tag skin type and concern so every shopper lands in a segment, then time reorder reminders to when products run out and show each segment products made for them in your ads.
+
 ---
 
 **Where to go next:** lock in the fundamentals with the [quiz setup checklist →](/customer-success/quiz-setup-checklist/)

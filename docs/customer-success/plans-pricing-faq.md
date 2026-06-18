@@ -3,7 +3,6 @@ icon: material/credit-card-refresh-outline
 description: "RevenueHunt plans and pricing FAQ with details on features and paid plan requirements."
 ---
 
-
 ## Plans & pricing details
 
 ### Feature availability for paid-only options
@@ -56,8 +55,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     This table shows that Shopify's plan structure is primarily about response volume limits rather than feature restrictions, with advanced features unlocked once you move to any paid plan.
 
-
-
 === "Shopify (Legacy)"
 
     All the features are available on all plans.
@@ -88,8 +85,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
     - There's no limit to the number of quizzes you can create, even on the Free plan.
 
-
-
 === "Shopify (Legacy)"
 
     - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
@@ -97,7 +92,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
     - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
-
 
 === "WooCommerce"
 
@@ -107,8 +101,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
     - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
 
-
-
 === "Magento"
 
     - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
@@ -116,8 +108,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
     - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
-
-
 
 === "BigCommerce"
 
@@ -127,8 +117,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
     - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
 
-
-
 === "Standalone"
 
     - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
@@ -137,14 +125,9 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
     - There's no limit to the number of quizzes you can create, even on the Free plan. Our pricing is purely based on quiz usage.
 
-
-
-
 ### Plans and maximum quiz responses
 
-
 === "Shopify"    
-
 
     | Plan name  | Monthly fee      | Max. responses   | Cost per response |
     |------------|------------------|------------------|-------------------|
@@ -154,8 +137,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     | Premium    | $199 USD/mo.     | 2,500 /30 days   | $0.080 USD        |
     | Unlimited  | $299 USD/mo.     | Unlimited        | -                 |
 
-
-
 === "Shopify (Legacy)"
 
     | Plan Name       | Monthly Fee | Max. Responses | Cost per Response  |
@@ -177,10 +158,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     | Enterprise 300K | 1299 USD/mo.| 300000/mo.     | 0.004 USD/response |
     | Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
 
-
-
 === "WooCommerce"
-
 
     | Plan Name       | Monthly Fee | Max. Responses | Cost per Response  |
     |-----------------|-------------|----------------|--------------------|
@@ -200,13 +178,9 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     | Enterprise 200K | 1199 USD/mo.| 200000/mo.     | 0.006 USD/response |
     | Enterprise 300K | 1299 USD/mo.| 300000/mo.     | 0.004 USD/response |
     | Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
-
-
 
 === "Magento"
 
-
-
     | Plan Name       | Monthly Fee | Max. Responses | Cost per Response  |
     |-----------------|-------------|----------------|--------------------|
     | Free            | 0 USD/mo.   | 100/mo.        | -                  |
@@ -225,12 +199,9 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     | Enterprise 200K | 1199 USD/mo.| 200000/mo.     | 0.006 USD/response |
     | Enterprise 300K | 1299 USD/mo.| 300000/mo.     | 0.004 USD/response |
     | Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
-
-
 
 === "BigCommerce"
 
-
     | Plan Name       | Monthly Fee | Max. Responses | Cost per Response  |
     |-----------------|-------------|----------------|--------------------|
     | Free            | 0 USD/mo.   | 100/mo.        | -                  |
@@ -249,13 +220,9 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     | Enterprise 200K | 1199 USD/mo.| 200000/mo.     | 0.006 USD/response |
     | Enterprise 300K | 1299 USD/mo.| 300000/mo.     | 0.004 USD/response |
     | Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
-
-
-
 
 === "Standalone"
 
-
     | Plan Name       | Monthly Fee | Max. Responses | Cost per Response  |
     |-----------------|-------------|----------------|--------------------|
     | Free            | 0 USD/mo.   | 100/mo.        | -                  |
@@ -274,19 +241,14 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     | Enterprise 200K | 1199 USD/mo.| 200000/mo.     | 0.006 USD/response |
     | Enterprise 300K | 1299 USD/mo.| 300000/mo.     | 0.004 USD/response |
     | Enterprise 500K | 1399 USD/mo.| 500000/mo.     | 0.003 USD/response |
-
-
-
 
 ## Upgrading and downgrading plans
 
 === "Shopify"
 
-
     If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [App Settings > Plans & Pricing](/reference/plans-pricing/) page in the app.
 
     Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Shopify will automatically discount the proportional part of the monthly plan that hasn’t been used.
-
 
 === "Shopify (Legacy)"
 
@@ -294,9 +256,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Shopify will automatically discount the proportional part of the monthly plan that hasn’t been used.
 
-
 === "WooCommerce"
-
 
     If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
 
@@ -304,20 +264,17 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
 === "Magento"
 
-
     If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
 
     Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Stripe will automatically discount the proportional part of the monthly plan that hasn’t been used.
 
 === "BigCommerce"
 
-
     If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
 
     Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Stripe will automatically discount the proportional part of the monthly plan that hasn’t been used.
 
 === "Standalone"
-
 
     If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [Plans & Pricing](/reference/plans-pricing/) page in the app.
 
@@ -385,7 +342,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     You can downgrade to our Free plan (which allows up to 100 responses per month) directly from the [Plans & Pricing tab](/reference/plans-pricing/) in the app. This will stop all billing charges.
 
-
     **If your current usage is below 100 responses in the past 30 days**: You can downgrade immediately and your billing will stop.
 
     **If your current usage exceeds 100 responses in the past 30 days**: You have two choices:
@@ -393,7 +349,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     - Wait until your usage drops below 100 responses in the past 30 days, then downgrade to the Free plan yourself.
 
     - Contact our [support team](/how-to-guides/contact-customer-support/) to downgrade for you. **Note**: This will immediately block your quizzes until your usage drops below the Free plan limit (100 responses in the past 30 days).
-
 
     **Option 2: Uninstall the app completely**
 
@@ -405,7 +360,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     If you have any questions about canceling or need help with the process, please [contact our support team](/how-to-guides/contact-customer-support/).
 
-
 === "Magento"
 
     If you want to stop being charged for the RevenueHunt app, you have a few options:
@@ -414,7 +368,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     You can downgrade to our Free plan (which allows up to 100 responses per month) directly from the [Plans & Pricing tab](/reference/plans-pricing/) in the app. This will stop all billing charges.
 
-
     **If your current usage is below 100 responses in the past 30 days**: You can downgrade immediately and your billing will stop.
 
     **If your current usage exceeds 100 responses in the past 30 days**: You have two choices:
@@ -422,7 +375,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     - Wait until your usage drops below 100 responses in the past 30 days, then downgrade to the Free plan yourself.
 
     - Contact our [support team](/how-to-guides/contact-customer-support/) to downgrade for you. **Note**: This will immediately block your quizzes until your usage drops below the Free plan limit (100 responses in the past 30 days).
-
 
     **Option 2: Uninstall the app completely**
 
@@ -476,17 +428,13 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     - Contact our [support team](/how-to-guides/contact-customer-support/) to downgrade for you. **Note**: This will immediately block your quizzes until your usage drops below the Free plan limit (100 responses in the past 30 days).
 
-
-
 ## Billing & invoices
 
 === "Shopify"
 
-
     Billing is handled directly by Shopify. Charges for the app will be visible on your monthly invoice from Shopify. You can change your billing details directly in your Shopify store settings.
 
     If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
-
 
 === "Shopify (Legacy)"
 
@@ -507,10 +455,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
 
-
 === "Magento"
-
-
 
     Billing is handled by Stripe, the payment processor. Charges for the app will be visible on your [Stripe account](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE). 
 
@@ -522,11 +467,9 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
         You can change your billing details directly in your Stripe account following [this guide](/reference/plans-pricing/#how-to-change-my-billing-details).
 
     If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
-
 
 === "BigCommerce"
 
-
     Billing is handled by Stripe, the payment processor. Charges for the app will be visible on your [Stripe account](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE). 
 
     Check the [Invoices tab](/reference/plans-pricing/) in the Plans & Pricing page to see your invoices.
@@ -537,12 +480,9 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
         You can change your billing details directly in your Stripe account following [this guide](/reference/plans-pricing/#how-to-change-my-billing-details).
 
     If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
-
-
 
 === "Standalone"
 
-
     Billing is handled by Stripe, the payment processor. Charges for the app will be visible on your [Stripe account](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE). 
 
     Check the [Invoices tab](/reference/plans-pricing/) in the Plans & Pricing page to see your invoices.
@@ -554,13 +494,9 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
 
-
-
 ## What happens when I reach my quiz responses limit?
 
-
 === "Shopify"
-
 
     We will notify you in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
 
@@ -570,7 +506,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
-
 === "Shopify (Legacy)"
 
     We will notify you by email and in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
@@ -598,7 +533,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
-
 
 === "Magento"
 
@@ -628,7 +562,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
 
-
 === "Standalone"
 
     We will notify you by email and in your Dashboard, when you reach 90%, 100% and 125% of your plan's limit.
@@ -642,9 +575,6 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     Live customer responses cannot be manually purged from an active quiz to reset usage. Responses are used to calculate usage in the rolling 30-day window. If you need a clean slate, duplicate the quiz and use the new copy going forward. If you need to remove personal data, use the GDPR anonymization setting; anonymization removes PII but does not purge responses or reset usage.
 
     When you reach your quiz responses limit, your users will see a message like the one below when they try to take your quiz: `This quiz isn’t accepting new responses`.
-
-
-
 
 ## What counts as a paid response?
 
@@ -708,17 +638,13 @@ In other words: if the Basic plan accepts around ~16 responses each day, the Pro
 
     Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select the `Billing Period` to `Annualy`.
 
-
-
 === "Shopify (Legacy)"
 
     If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
 
     Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
 
-
 === "WooCommerce"
-
 
     If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
 
@@ -726,42 +652,33 @@ In other words: if the Basic plan accepts around ~16 responses each day, the Pro
 
 === "Magento"
 
-
     If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
 
     Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
-
 
 === "BigCommerce"
 
-
     If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
 
     Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
-
 
 === "Standalone"
 
-
     If you’ve just installed the RevenueHunt app, it is advised to stay on a monthly plan for some time to check your quiz usage. 
 
     Once you’re sure of what your stable usage is in a month, you can choose to pay for a yearly plan upfront with a reduced monthly rate. To buy a yearly plan, navigate to the [Plans & Pricing tab](/reference/plans-pricing/) in the app and select “show yearly”.
-
 
 ## Discounts
 
 We offer a 50% discount on all plans if you subscribe for 2 years and you pay upfront. However, we do recommend starting with the monthly plan, for 2-3 months until you start getting results & sales, before committing to a 2-year plan.
 
-
 !!! tip
 
     Need a 50% discount signing up for two years? – [Get in touch with our Sales Team](/how-to-guides/contact-customer-support/)
 
-
 ## What's the difference between the WooCommerce extension and a WordPress plugin?
 
 There is no functional difference. Both the [WordPress Plugin](https://wordpress.org/plugins/product-recommendation-quiz-for-ecommerce/) and the [WooCommerce extension](https://woocommerce.com/products/product-recommendation-quiz-for-woocommerce/) are free to install and put you on our **Free plan**, which allows up to 100 quiz responses per month. If your usage exceeds the Free plan, you’ll be asked to upgrade to a Basic plan which is billed monthly.
-
 
 ---
 This article provides answers to the most common questions about our plans and pricing in the RevenueHunt app. If you have any other questions, please [contact support](/how-to-guides/contact-customer-support/).

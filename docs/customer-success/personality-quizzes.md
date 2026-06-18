@@ -32,6 +32,30 @@ A personality quiz is a **scoring quiz**, and it works differently from a standa
 
 Those are two separate mechanisms. A personality quiz is built on scoring, not on product votes.
 
+<div style="margin:24px auto; max-width:420px;">
+<svg viewBox="0 0 420 360" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; display:block;" role="img" aria-labelledby="sct scd" preserveAspectRatio="xMidYMid meet">
+  <title id="sct">How a scoring quiz picks an outcome</title>
+  <desc id="scd">Each answer adds points to outcome variables. The outcome with the highest score, here Oily, becomes the result the shopper sees.</desc>
+  <defs>
+    <marker id="sc-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker>
+  </defs>
+  <g font-family="system-ui, sans-serif">
+    <text x="20" y="34" font-size="17" font-weight="700" fill="#16161D">Answers add up; highest score wins</text>
+    <text x="20" y="92" font-size="15" fill="#334155">Dry</text>
+    <rect x="150" y="76" width="70" height="26" rx="4" fill="#cbd5e1"/>
+    <text x="20" y="142" font-size="15" font-weight="700" fill="#16161D">Oily</text>
+    <rect x="150" y="126" width="200" height="26" rx="4" fill="#904E95"/>
+    <text x="356" y="146" font-size="13" font-weight="700" fill="#904E95">winner</text>
+    <text x="20" y="192" font-size="15" fill="#334155">Combination</text>
+    <rect x="150" y="176" width="45" height="26" rx="4" fill="#cbd5e1"/>
+    <line x1="210" y1="214" x2="210" y2="252" stroke="#cbd5e1" stroke-width="2" marker-end="url(#sc-arrow)"/>
+    <rect x="70" y="256" width="280" height="80" rx="10" fill="#F6F0F7" stroke="#904E95" stroke-width="1.5"/>
+    <text x="210" y="291" font-size="15" fill="#334155" text-anchor="middle">Result shown:</text>
+    <text x="210" y="315" font-size="16" font-weight="700" fill="#16161D" text-anchor="middle">Oily skin routine</text>
+  </g>
+</svg>
+</div>
+
 There are a few common ways to turn the score into a result. You don't choose this now, but knowing they exist helps you plan:
 
 - **Winning variable** (classic personality type): the variable with the highest tally wins, and the matching result is shown.
@@ -83,5 +107,21 @@ Assigning scores and surfacing the right result is configured in the app, and th
 ---
 
 **Learn more:** [A complete guide to personality-type quizzes](https://revenuehunt.com/guide-to-building-a-personality-type-quiz-with-revenuehunt/){target=_blank}
+
+## Frequently asked questions
+
+### What's the difference between a personality quiz and a product-recommendation quiz?
+
+A personality (scoring) quiz routes the shopper by the pattern of their answers, using variables and scores. A product-recommendation quiz ranks products by the votes each answer gives them. They are two separate mechanisms.
+
+### How many outcomes should a personality quiz have?
+
+Three to six. Each outcome should map to a real recommendation, segment, or message. If a result leads nowhere, it is just entertainment.
+
+### How do I set up the scoring?
+
+You assign variables and scores to each answer, then surface the winning outcome. The exact steps differ between the Built for Shopify and Legacy versions, so follow the version-specific setup guides.
+
+---
 
 **Where to go next:** use the types you've collected to [grow your list and cut ad costs →](/customer-success/use-quiz-data-for-ads/)

@@ -13,8 +13,6 @@ When a shopper lands on your store, they make a split-second judgment: *does thi
 
 A French customer greeted in English, shown prices in USD, and asked questions written for a US audience will answer that question with a bounce. A customer who sees their language, their currency, and questions that reflect how *they* think about a problem - that customer stays, engages, and buys.
 
-![Quizzes for global markets](https://revenuehunt.com/wp-content/uploads/2024/08/Quizzes-for-markets.png)
-
 Adapting your quiz for different markets isn't just a translation task. It's about making every customer feel like the quiz was built for them specifically - because in a real sense, it should be.
 
 ---
@@ -26,9 +24,7 @@ Before you start duplicating and translating quizzes, understand what you actual
 !!! info "💎 Built for Shopify - Shopify Markets integration"
     The automatic features below apply to the `💎 Built for Shopify` version of the RevenueHunt app, which has native Shopify Markets integration.
 
-### Automatic: Product titles, descriptions, and prices
-
-The results page pulls product data directly from Shopify's Storefront API. This means:
+**Automatic: product titles, descriptions, and prices.** The results page pulls product data directly from Shopify's Storefront API. This means:
 
 - **Product titles and descriptions** are shown in the customer's active language automatically - as long as you have translations set up in Shopify via the [Translate & Adapt](https://apps.shopify.com/translate-and-adapt) app
 - **Prices** are shown in the customer's local currency, converted automatically by Shopify Markets
@@ -37,9 +33,7 @@ The results page pulls product data directly from Shopify's Storefront API. This
 !!! tip "Product metafields are also translated automatically"
     If you show regional pricing like German `Grundpreis` or per-100ml cosmetics pricing, the RevenueHunt app syncs product [metafields](/how-to-guides/add-product-metafields/) automatically from Shopify. No extra work needed on the quiz side.
 
-### Manual: Quiz questions, choices, and UI text
-
-Everything that lives *inside the quiz builder* - your questions, answer choices, results page text, and UI button labels - needs to be translated by you. The app does not auto-translate quiz content.
+**Manual: quiz questions, choices, and UI text.** Everything that lives *inside the quiz builder* - your questions, answer choices, results page text, and UI button labels - needs to be translated by you. The app does not auto-translate quiz content.
 
 | Content | Automatic? | How to handle |
 |---------|-----------|---------------|
@@ -56,6 +50,25 @@ Everything that lives *inside the quiz builder* - your questions, answer choices
 ## The Workflow: From One Quiz to a Global Setup
 
 The process has four stages. You only need to do the first stage once - every additional market is a duplicate-and-adapt operation.
+
+<div style="margin:24px auto; max-width:440px;">
+<svg viewBox="0 0 440 480" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; display:block;" role="img" aria-labelledby="mkt mkd" preserveAspectRatio="xMidYMid meet">
+  <title id="mkt">From one quiz to a global setup</title>
+  <desc id="mkd">Four stages: build your default quiz, duplicate and translate it for each market, assign quizzes to markets and languages, then test before going live.</desc>
+  <defs>
+    <marker id="mk-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker>
+  </defs>
+  <g font-family="system-ui, sans-serif">
+    <g transform="translate(10 10)"><rect width="420" height="90" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/><text x="24" y="36" font-size="12" font-weight="700" fill="#904E95" letter-spacing="1">STAGE 1</text><text x="24" y="66" font-size="17" font-weight="700" fill="#16161D">Build your default quiz</text></g>
+    <line x1="220" y1="100" x2="220" y2="126" stroke="#cbd5e1" stroke-width="2" marker-end="url(#mk-arrow)"/>
+    <g transform="translate(10 128)"><rect width="420" height="90" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/><text x="24" y="36" font-size="12" font-weight="700" fill="#904E95" letter-spacing="1">STAGE 2</text><text x="24" y="66" font-size="17" font-weight="700" fill="#16161D">Duplicate and translate it</text></g>
+    <line x1="220" y1="218" x2="220" y2="244" stroke="#cbd5e1" stroke-width="2" marker-end="url(#mk-arrow)"/>
+    <g transform="translate(10 246)"><rect width="420" height="90" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/><text x="24" y="36" font-size="12" font-weight="700" fill="#904E95" letter-spacing="1">STAGE 3</text><text x="24" y="66" font-size="17" font-weight="700" fill="#16161D">Assign quizzes to markets</text></g>
+    <line x1="220" y1="336" x2="220" y2="362" stroke="#cbd5e1" stroke-width="2" marker-end="url(#mk-arrow)"/>
+    <g transform="translate(10 364)"><rect width="420" height="90" rx="10" fill="#F6F0F7" stroke="#904E95" stroke-width="1.5"/><text x="24" y="36" font-size="12" font-weight="700" fill="#904E95" letter-spacing="1">STAGE 4</text><text x="24" y="66" font-size="17" font-weight="700" fill="#16161D">Test, then go live</text></g>
+  </g>
+</svg>
+</div>
 
 ### Stage 1: Build and perfect your default quiz
 
@@ -134,23 +147,17 @@ It's more maintenance than the Shopify Markets integration, but it gives the sam
 
 Translation gets customers past the language barrier. True localization goes further.
 
-### Different questions for different markets
-
-Not every question lands the same way everywhere. A question about SPF preferences makes perfect sense for Australian customers; it may be less relevant in Scandinavia. A question about hair texture has different answer options depending on the demographic makeup of your market.
+**Different questions for different markets.** Not every question lands the same way everywhere. A question about SPF preferences makes perfect sense for Australian customers; it may be less relevant in Scandinavia. A question about hair texture has different answer options depending on the demographic makeup of your market.
 
 Consider creating genuinely different question flows for markets where customer needs, climates, or product preferences differ significantly - not just translated versions of the same quiz.
 
-### Different product recommendations
-
-Your best-sellers in the US may not even be available in the EU, or may have different regulations. Review your product mappings for each market quiz and make sure:
+**Different product recommendations.** Your best-sellers in the US may not even be available in the EU, or may have different regulations. Review your product mappings for each market quiz and make sure:
 
 - Recommended products are actually available in that market
 - Products comply with local regulations (ingredients, labeling, claims)
 - Pricing makes sense relative to local market expectations
 
-### Compliance: what changes by region
-
-Some markets have specific requirements that affect how you run the quiz:
+**Compliance: what changes by region.** Some markets have specific requirements that affect how you run the quiz:
 
 **EU/GDPR:**
 
@@ -199,6 +206,30 @@ Don't try to cover every market at once. Prioritize by impact:
 
 !!! tip "Check the full step-by-step tutorial"
     For the complete click-by-click setup guide including video walkthrough, see: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/)
+
+---
+
+## Do / Don't
+
+- **Do** let the app handle product titles, descriptions, prices, and currency automatically through Shopify Markets, and spend your effort translating the questions, choices, and UI text.
+- **Do** create a separate quiz version per main market language, so questions reflect how that audience thinks, not just a literal translation.
+- **Do** keep the quiz logic and product mapping consistent across versions, so every market gets the same quality of recommendation.
+- **Don't** serve an English quiz to non-English markets and assume currency conversion is enough. A shopper who sees their language and currency trusts and buys; one who doesn't bounces.
+- **Don't** machine-translate and walk away. Localize the questions to each market's real concerns.
+
+## Frequently asked questions
+
+### What does the app translate automatically?
+
+On the Built for Shopify version, product titles, descriptions, prices, currency, and metafields come from Shopify Markets automatically (once you have Shopify translations set up). You translate the quiz questions, choices, and UI text.
+
+### Do I need a separate quiz for each language?
+
+Yes. Duplicate and translate a quiz per main market language, and keep the logic and product mapping consistent across versions.
+
+### Will prices show in the local currency?
+
+Yes. Shopify Markets converts and formats prices in the shopper's local currency automatically, and you can customize the format per market.
 
 ---
 

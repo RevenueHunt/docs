@@ -9,6 +9,24 @@ Most stores send ad traffic to a category page and let shoppers fend for themsel
 
 This guide covers three plays that turn quiz data into cheaper, better-targeted ads.
 
+<div style="margin:24px auto; max-width:420px;">
+<svg viewBox="0 0 420 360" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; display:block;" role="img" aria-labelledby="adt add" preserveAspectRatio="xMidYMid meet">
+  <title id="adt">Quiz finishers convert about 2.75x a typical store</title>
+  <desc id="add">Bar chart comparing a typical store at about 2 percent conversion with quiz finishers at about 5.5 percent, roughly 2.75 times higher.</desc>
+  <g font-family="system-ui, sans-serif">
+    <text x="30" y="34" font-size="17" font-weight="700" fill="#16161D">Conversion rate vs a typical store</text>
+    <line x1="40" y1="300" x2="390" y2="300" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="100" y="233" width="110" height="67" rx="4" fill="#cbd5e1"/>
+    <text x="155" y="220" font-size="22" font-weight="700" fill="#16161D" text-anchor="middle">2%</text>
+    <text x="155" y="326" font-size="14" fill="#334155" text-anchor="middle">Typical store</text>
+    <rect x="250" y="117" width="110" height="183" rx="4" fill="#904E95"/>
+    <text x="305" y="104" font-size="22" font-weight="700" fill="#16161D" text-anchor="middle">5.5%</text>
+    <text x="305" y="326" font-size="14" fill="#334155" text-anchor="middle">Quiz finishers</text>
+    <text x="305" y="160" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">2.75x</text>
+  </g>
+</svg>
+</div>
+
 ---
 
 ## Play 1: Build lookalike audiences from your best quiz takers
@@ -68,5 +86,21 @@ Connect [quiz revenue tracking](/how-to-guides/track-quiz-revenue/) so you can a
 - [What zero-party data is, and why it beats third-party data](https://revenuehunt.com/zero-party-data/){target=_blank}
 - [First-party data for ecommerce: the 2026 playbook](https://revenuehunt.com/first-party-data/){target=_blank}
 - [12 zero-party data examples to steal](https://revenuehunt.com/zero-party-data-examples/){target=_blank}
+
+## Frequently asked questions
+
+### Do I need a CRM to use quiz data for ads?
+
+No. The quiz reports directly to the Meta Pixel and GA4, so you can build Custom Audiences and lookalikes without one. An email tool like Klaviyo is an optional second path for pushing segments.
+
+### Can I build a Meta audience for a specific quiz answer?
+
+Yes. Every choice a shopper clicks fires its own Pixel event tagged with that choice, so you can build a Custom Audience per answer and show each one a tailored ad.
+
+### Why judge quiz ad ROI on a long window?
+
+Because most quiz orders are not same-day: about 1 in 5 land more than 30 days after the quiz. A 7-day window makes profitable campaigns look like losers.
+
+---
 
 **Where to go next:** make sure you're collecting the [data that's actually worth using →](/customer-success/what-data-to-collect/)

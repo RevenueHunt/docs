@@ -9,6 +9,23 @@ If your quiz recommends one product, your average order value is capped at one p
 
 The quiz is the perfect place to do this, because you've just learned exactly what the shopper needs.
 
+<div style="margin:24px auto; max-width:420px;">
+<svg viewBox="0 0 420 360" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; display:block;" role="img" aria-labelledby="aovt aovd" preserveAspectRatio="xMidYMid meet">
+  <title id="aovt">A recommended set raises average order value</title>
+  <desc id="aovd">Bar chart: a single-product order is the baseline; a recommended set runs 11 to 15 percent larger, shown as an added portion on top of the baseline bar.</desc>
+  <g font-family="system-ui, sans-serif">
+    <text x="30" y="34" font-size="17" font-weight="700" fill="#16161D">Average order value: item vs set</text>
+    <line x1="40" y1="300" x2="390" y2="300" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="100" y="140" width="110" height="160" rx="4" fill="#cbd5e1"/>
+    <text x="155" y="326" font-size="14" fill="#334155" text-anchor="middle">Single product</text>
+    <rect x="250" y="116" width="110" height="184" rx="4" fill="#cbd5e1"/>
+    <rect x="250" y="116" width="110" height="24" rx="4" fill="#904E95"/>
+    <text x="305" y="104" font-size="17" font-weight="700" fill="#904E95" text-anchor="middle">+11-15%</text>
+    <text x="305" y="326" font-size="14" fill="#334155" text-anchor="middle">Recommended set</text>
+  </g>
+</svg>
+</div>
+
 ---
 
 ## Recommend a routine with multiple slots
@@ -49,6 +66,20 @@ If subscriptions are your whole model, this is your home base: lead the quiz tow
 - **Do** recommend a complete solution and rank each slot by fit.
 - **Do** offer a subscription for anything consumable.
 - **Don't** pad the results with loosely related products to inflate the basket. Relevance is what converts.
+
+## Frequently asked questions
+
+### How much can recommending a set lift AOV?
+
+Within the same store, quiz orders run about 11-15% larger than non-quiz orders, more in categories like beauty, and the lift is strongest exactly where the quiz can build a set or routine.
+
+### How do I recommend a routine instead of one product?
+
+Use one slot per step of the routine. Each slot is ranked by the shopper's answers, so the whole set is personalized rather than a generic pick.
+
+### Should I discount the bundle?
+
+A small discount on the full set can tip a single-item shopper into buying the whole routine. Bundle complements that work together, not alternatives the shopper must choose between.
 
 ---
 
