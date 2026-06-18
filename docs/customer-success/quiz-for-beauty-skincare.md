@@ -10,6 +10,12 @@ This playbook covers what to ask, what to recommend, and how to keep selling aft
 
 ---
 
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">2.75x</span><span class="rh-stat-label">conversion vs a typical store</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">+20%</span><span class="rh-stat-label">larger orders in beauty</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
+</div>
+
 ## Why a quiz works so well here
 
 - **The right product is personal.** Skin type, concerns, and goals differ for every shopper, so a single best-seller can't serve everyone.

@@ -49,6 +49,7 @@ When the numbers won't move, the worst thing you can do is change things at rand
     </g>
   </g>
 </svg>
+<div class="rh-caption">Work the funnel in order: fix visibility, then completion, then the purchase step.</div>
 </div>
 
 !!! question "Which stage is yours?"
@@ -56,7 +57,13 @@ When the numbers won't move, the worst thing you can do is change things at rand
 
 ---
 
-## Stage 1: Visibility
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">2.75x</span><span class="rh-stat-label">conversion vs a typical store</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">60-70%</span><span class="rh-stat-label">healthy completion rate</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">10-25%+</span><span class="rh-stat-label">conversion on top quizzes</span></div>
+</div>
+
+## Visibility
 
 If your quiz views are low, the content isn't the problem. Shoppers simply can't find it. The most successful quizzes appear in two or three places at once, so a customer runs into the quiz wherever they are in their visit.
 
@@ -76,7 +83,7 @@ If your quiz views are low, the content isn't the problem. Shoppers simply can't
 
 ---
 
-## Stage 2: Completion
+## Completion
 
 High starts with low completion almost always means the questions are the problem. A few changes recover the shoppers who are abandoning mid-quiz.
 
@@ -95,7 +102,7 @@ High starts with low completion almost always means the questions are the proble
 
 ---
 
-## Stage 3: Purchase
+## Purchase
 
 This is the most common problem, and the most fixable. The quiz did its job; the results just didn't close the sale.
 
@@ -123,7 +130,7 @@ This is the most common problem, and the most fixable. The quiz did its job; the
 
 ---
 
-## A Quick Diagnostic Checklist
+## A quick diagnostic checklist
 
 Work top to bottom, and fix the first thing that's missing before moving on.
 

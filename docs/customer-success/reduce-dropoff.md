@@ -9,7 +9,50 @@ Drop-off is normal - no quiz converts 100% of starters. But the difference betwe
 
 ---
 
-## Step 1: Find Where People Are Dropping Off
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">60-70%</span><span class="rh-stat-label">healthy completion rate</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">6-12</span><span class="rh-stat-label">questions is the ideal length</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
+</div>
+
+## The three places quizzes leak
+
+Almost all drop-off happens in one of three spots: at the **start**, before the first question; in the **middle**, on a question that's confusing or one too many; and at the **email step**, the single biggest leak in most quizzes. Find which one is yours in the metrics below, then fix that spot.
+
+<div style="margin:24px auto; max-width:380px;">
+<svg viewBox="0 0 380 420" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; display:block;" role="img" aria-labelledby="dot dod" preserveAspectRatio="xMidYMid meet">
+  <title id="dot">Where quizzes leak</title>
+  <desc id="dod">A funnel narrowing from quiz start to completion, with the three common leak points: a weak welcome slide loses starts, confusing or overlong questions cause mid-quiz exits, and the email step is the biggest single leak.</desc>
+  <defs>
+    <marker id="dl-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker>
+  </defs>
+  <g font-family="system-ui, sans-serif">
+    <text x="20" y="34" font-size="17" font-weight="700" fill="#16161D">Where quizzes leak</text>
+    <polygon points="20,72 210,72 192,150 38,150" fill="#e2e8f0"/>
+    <text x="115" y="116" font-size="15" font-weight="700" fill="#16161D" text-anchor="middle">Quiz start</text>
+    <polygon points="38,154 192,154 174,232 56,232" fill="#cbd5e1"/>
+    <text x="115" y="198" font-size="15" font-weight="700" fill="#16161D" text-anchor="middle">Questions</text>
+    <polygon points="56,236 174,236 156,314 74,314" fill="#cbd5e1"/>
+    <text x="115" y="280" font-size="15" font-weight="700" fill="#16161D" text-anchor="middle">Email step</text>
+    <polygon points="74,318 156,318 146,388 84,388" fill="#904E95"/>
+    <text x="115" y="357" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">Done</text>
+    <line x1="196" y1="140" x2="244" y2="140" stroke="#cbd5e1" stroke-width="2" marker-end="url(#dl-arrow)"/>
+    <text x="250" y="137" font-size="13" font-weight="700" fill="#16161D">Weak welcome</text>
+    <text x="250" y="154" font-size="12" fill="#64748b">fewer starts</text>
+    <line x1="178" y1="222" x2="244" y2="222" stroke="#cbd5e1" stroke-width="2" marker-end="url(#dl-arrow)"/>
+    <text x="250" y="219" font-size="13" font-weight="700" fill="#16161D">Too long / jargon</text>
+    <text x="250" y="236" font-size="12" fill="#64748b">mid-quiz exits</text>
+    <line x1="160" y1="304" x2="244" y2="304" stroke="#cbd5e1" stroke-width="2" marker-end="url(#dl-arrow)"/>
+    <text x="250" y="301" font-size="13" font-weight="700" fill="#16161D">Email friction</text>
+    <text x="250" y="318" font-size="12" fill="#64748b">the biggest leak</text>
+  </g>
+</svg>
+<div class="rh-caption">Quizzes leak at three predictable points: the start, a mid-quiz question, and the email step.</div>
+</div>
+
+---
+
+## Find where people are dropping off
 
 Before changing anything, look at the data. The [drop-off metrics](/reference/quiz-builder/metrics/#drop-off) in the app show you exactly which question is losing people - so you can fix the right thing, not just guess.
 
@@ -38,7 +81,7 @@ Once you know which question is the problem, use the strategies below to fix it.
 
 ---
 
-## Step 2: Fix the Drop-Off
+## Fix the drop-off
 
 **Make the value obvious before question one.** The most impactful moment in the quiz isn't a question - it's the welcome slide. Customers decide whether the quiz is worth their time within the first 5 seconds. If your welcome slide doesn't clearly communicate what they'll get and how long it takes, they leave before starting.
 
@@ -136,7 +179,16 @@ A quiz with fully mapped answers produces tight, accurate recommendations. Those
 
 ---
 
-## Step 3: A/B Test Your Changes
+**Don't lose them on mobile.** Most quiz traffic is on phones, and that's where friction hurts most. Before you launch, take the quiz on your own phone and fix what feels awkward:
+
+- **One screen per question.** If a question needs scrolling on mobile, it has too many choices or too much text.
+- **Big, tappable choices, and picture questions over typing.** Thumbs miss small targets, and nobody wants to type on a phone mid-quiz.
+- **Load fast.** Heavy images, or an aggressive popup that fires before the page settles, cost you starts before question one.
+- **Mind the email step.** On a phone the keyboard covers half the screen, so keep that screen clean with the incentive visible right next to the field.
+
+---
+
+## A/B test your changes
 
 Once you've identified the problem question and implemented a fix, test it. Create a copy of the quiz with the change applied and run both versions simultaneously. Compare completion rates after a statistically meaningful sample (at least a few hundred starts per version).
 
@@ -155,7 +207,7 @@ Focus on one change per test. If you change three things at once, you won't know
 
 ---
 
-## Step 4: Continuously Improve
+## Continuously improve
 
 Drop-off optimization is not a one-time task. Run a review whenever you:
 
@@ -182,6 +234,7 @@ Connect your quiz to [Google Analytics 4](/how-to-guides/integrate-google-analyt
 - **Do** find the exact drop-off point in the metrics before changing anything, then fix that specific question.
 - **Do** make the value obvious on the welcome slide (outcome, time estimate, reward) and keep the quiz to 6-12 questions.
 - **Do** require the email, but pair it with a clear incentive and trust signals.
+- **Do** test the quiz on your own phone and fix mobile friction. Most takers are on a phone, and that's where the easy completions are lost.
 - **Don't** add branching logic to "fix" a long quiz. Cut questions from a linear quiz until every one changes the recommendation.
 - **Don't** run competing popups, chat, or banners while the quiz is active. They steal focus and increase abandonment.
 
@@ -198,6 +251,10 @@ Usually the email step, or an overly long or confusing question. The per-questio
 ### How do I cut drop-off fastest?
 
 Shorten the quiz, rewrite the question with the highest exit rate, and make the welcome slide's value obvious before question one.
+
+### Why do people drop off on mobile?
+
+Usually long questions that force scrolling, small tap targets, slow loading, or a cramped email step where the keyboard hides the incentive. Most quiz traffic is mobile, so take the quiz on your own phone and fix what feels awkward.
 
 ---
 

@@ -8,6 +8,12 @@ Supplement shoppers buy an *outcome*, not an ingredient. They want more energy, 
 
 ---
 
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">2.75x</span><span class="rh-stat-label">conversion vs a typical store</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">+11-15%</span><span class="rh-stat-label">larger orders</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
+</div>
+
 ## Why a quiz works so well here
 
 - **Goal-driven, not product-driven.** People shop by outcome, so a quiz that starts from the goal beats a category page every time.

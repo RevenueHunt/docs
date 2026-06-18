@@ -7,7 +7,7 @@ description: "Known bugs and limitations in RevenueHunt app with status and work
 
 We’re constantly improving the RevenueHunt app. Below you’ll find a list of known bugs (unresolved issues) and current limitations (expected behaviors by design).
 
-## 🐞 Known Bugs
+## 🐞 Known bugs
 
 === "Shopify"
 
@@ -150,7 +150,7 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
         !!! note "Status"
             Under investigation.
 
-## ⚖️ Current Limitations (By Design)
+## ⚖️ Current limitations (by design)
 
 === "Shopify"
 

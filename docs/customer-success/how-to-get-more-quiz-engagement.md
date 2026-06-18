@@ -21,7 +21,13 @@ This article is structured in three layers: make the quiz easy to find on-site, 
 
 ---
 
-## Part 1: Make the Quiz Impossible to Miss On Your Store
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">2.75x</span><span class="rh-stat-label">conversion vs a typical store</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">10-25%+</span><span class="rh-stat-label">conversion on top quizzes</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
+</div>
+
+## Make the quiz impossible to miss on your store
 
 This is the highest-ROI section. The average merchant publishes their quiz in one place and wonders why nobody takes it. The most successful quizzes are published in **at least two or three locations simultaneously** - so customers can find it wherever they are in their shopping journey.
 
@@ -64,7 +70,7 @@ This is the highest-ROI section. The average merchant publishes their quiz in on
 
 ---
 
-## Part 2: Hook Customers Once They Start
+## Hook customers once they start
 
 Getting people to the quiz is step one. Keeping them through to the results page is step two. These tactics improve completion rates once someone has already clicked.
 
@@ -111,7 +117,7 @@ A strong welcome slide does three things:
 
 ---
 
-## Part 3: Drive Outside Traffic to the Quiz
+## Drive outside traffic to the quiz
 
 This is where most of the growth is. On-site placement captures the visitors you already have; this section is about deliberately sending new, qualified traffic to the quiz - and the quiz earns it, because it converts that traffic at roughly 2.75x a standard landing page.
 
@@ -165,7 +171,7 @@ This works especially well for quizzes that deliver a genuinely interesting resu
 ---
 
 !!! success "Where to start"
-    If you're not sure where to begin, focus on Part 1 first. Adding a popup, a floating button, and an inline homepage block takes less than an hour and will typically double or triple quiz starts without any off-site promotion. Once your on-site engagement is strong, layer on the off-site channels.
+    If you're not sure where to begin, fix on-site visibility first. Adding a popup, a floating button, and an inline homepage block takes less than an hour and will typically double or triple quiz starts without any off-site promotion. Once your on-site engagement is strong, layer on the off-site channels.
 
 ## Do / Don't
 

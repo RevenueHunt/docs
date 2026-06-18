@@ -1,6 +1,6 @@
 ---
 icon: material/numeric-5
-description: "When to use a personality or 'type' quiz, how a scoring quiz actually works, and how to plan one that collects useful data and routes shoppers to the right outcome."
+description: "When to use a personality or 'type' quiz, why they get shared, how a scoring quiz actually works, what the result page should do, and how to plan one that collects useful data and routes shoppers to the right outcome."
 ---
 
 # Personality Quizzes: What They're For and How to Plan One
@@ -8,6 +8,22 @@ description: "When to use a personality or 'type' quiz, how a scoring quiz actua
 Personality and "type" quizzes ("What's your skin type?", "Find your scent profile", "Which plan fits you?") are some of the most engaging quizzes you can run. They get shared, they feel like fun rather than a sales pitch, and every answer is a declared preference you can use later.
 
 This is a **planning** guide: how to decide whether one fits your goal and how to design it. The app setup differs between the Built for Shopify and Legacy versions, so the step-by-step build lives in the version-specific guides under [Setting it up](#setting-it-up).
+
+---
+
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">2.75x</span><span class="rh-stat-label">conversion vs a typical store</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">75%</span><span class="rh-stat-label">of top quizzes require email</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
+</div>
+
+## Why personality quizzes work
+
+They earn their place for three reasons a standard product quiz can't match:
+
+- **They feel like fun, not a funnel.** With no obvious sales pressure, cold audiences who would skip a "find a product" quiz will happily take a "what's your type" one, so completion runs high.
+- **People share their type.** A result that says something about *them* gets screenshotted and sent to friends. That's free, high-trust traffic back to your quiz, which is why these formats go viral when a product recommendation rarely does.
+- **Every answer is still declared data.** Behind the fun, you're collecting the same zero-party data as any quiz. The type itself is a ready-made [segment](/customer-success/use-customer-tags-in-quiz/) you can act on for months.
 
 ---
 
@@ -20,6 +36,21 @@ A personality quiz can serve very different goals, and the goal changes how you 
 - **Improve your product or plan new features.** Read the aggregate patterns in your results to learn what customers want, then stock, bundle, or build accordingly.
 
 If you can't name which of these you're after, decide that before you build anything.
+
+---
+
+## Personality quiz ideas by category
+
+The "type" changes by catalog, but the format travels everywhere:
+
+| Category | A "type" quiz that works |
+|----------|--------------------------|
+| [Beauty & skincare](/customer-success/quiz-for-beauty-skincare/) | Your skin type, or "what's your skin personality" |
+| Fragrance | Find your scent profile |
+| [Fashion](/customer-success/quiz-for-fashion-apparel/) | Your style persona |
+| [Supplements & wellness](/customer-success/quiz-for-supplements-wellness/) | Your wellness type, or what your routine is missing |
+| Coffee | Your coffee personality and roast match |
+| [B2B / plans](/customer-success/quiz-for-b2b-compatibility/) | Which plan or tier fits you |
 
 ---
 
@@ -54,6 +85,7 @@ Those are two separate mechanisms. A personality quiz is built on scoring, not o
     <text x="210" y="315" font-size="16" font-weight="700" fill="#16161D" text-anchor="middle">Oily skin routine</text>
   </g>
 </svg>
+<div class="rh-caption">Each answer adds points to an outcome; the highest-scoring outcome becomes the result the shopper sees.</div>
 </div>
 
 There are a few common ways to turn the score into a result. You don't choose this now, but knowing they exist helps you plan:
@@ -73,6 +105,23 @@ Which one you use, and exactly how it's configured, depends on your app version 
 3. **Decide what each outcome maps to.** A recommendation, a segment, a message, or all three. Same test as any [data worth collecting](/customer-success/what-data-to-collect/): if a result leads nowhere, it's just entertainment.
 4. **Decide how different the results need to look.** If each type just needs its own write-up and a few products, a single results page is enough. If a type deserves a full, distinct page, plan for that. This is what determines which setup pattern you'll use.
 
+!!! example "A scent-profile quiz, planned"
+    **Outcomes:** Fresh / Floral / Woody / Oriental.
+    **Questions that separate them:** the season you prefer, day vs. night, a scent memory you love, how bold you like things. Each choice scores toward one profile.
+    **Each outcome maps to:** a recommended set of fragrances in that family (the recommendation), a `scent: woody` tag (the segment), and a follow-up email styled to that profile (the message).
+    That's a quiz that's fun to take *and* makes money. Drop any outcome that wouldn't have all three.
+
+---
+
+## Design the result to be shared and to sell
+
+The result page is where a personality quiz either pays off or stays a toy. Make it do both jobs:
+
+- **Name and flatter the type first.** People share a result that says something good about them. Give the type a memorable name and a short, positive description *before* you recommend anything.
+- **Then recommend the matching set.** The type is the hook; the [recommended products or routine](/customer-success/recommend-bundles-kits/) are the payoff. Tie each pick back to the type so it reads as "made for you."
+- **Invite the share.** A "share your type" prompt with a link to the quiz turns one taker into free traffic. Personality results get shared far more than product recommendations, so don't waste the moment.
+- **Gate it on email only if lead-gen is the goal.** Asking for the email to "see your type" captures the lead, but weigh it against completion. If virality is the point, a softer ask keeps more people sharing.
+
 ---
 
 ## Turn the type into a segment
@@ -85,10 +134,20 @@ This is where a personality quiz pays off beyond engagement:
 
 ---
 
+## Measure it
+
+A personality quiz earns its keep on two fronts, so track both:
+
+- **Completion and sharing** justify the format. If a "type" quiz isn't finishing well or getting shared, the questions probably feel like a survey, not fun.
+- **Whether each type's segment converts** proves it's revenue, not just entertainment. Watch the per-type segments in the [quiz metrics panel](/customer-success/track-quiz-metrics-for-better-conversions/) and in your CRM. A type that never converts is an outcome that maps nowhere.
+
+---
+
 ## Do / Don't
 
 - **Do** define your outcomes before writing a single question. It's the only way every result leads somewhere that makes you money (a recommendation, a segment, a flow) instead of a dead end. If two "types" end up with the same products, you've added friction for no payoff.
 - **Do** keep it to 5-8 questions. Completion is where the value is: a longer quiz collects more data points from far fewer people, so you end up with *less* usable data, not more.
+- **Do** name the type and invite the share. The shareable result is the free traffic engine that sets this format apart.
 - **Do** tag and sync every outcome. The shareable quiz is nice, but the segment is what keeps selling for months afterward. Skip this and you've built entertainment, not a revenue engine.
 - **Don't** confuse it with a product-recommendation quiz. If your real goal is "show the right product," a vote-based [recommendation quiz](/customer-success/what-data-to-collect/) gets there faster. Reach for scoring only when the *type itself* is the point.
 - **Don't** ask questions that don't change the result. Every extra question costs you completions, so an answer that doesn't move someone toward a type is leaking leads for nothing.
@@ -117,6 +176,10 @@ A personality (scoring) quiz routes the shopper by the pattern of their answers,
 ### How many outcomes should a personality quiz have?
 
 Three to six. Each outcome should map to a real recommendation, segment, or message. If a result leads nowhere, it is just entertainment.
+
+### How do I get people to share their result?
+
+Name the type something people want to be associated with, describe it positively, and add a "share your type" prompt with a link to the quiz on the results page. Personality results get shared far more than product recommendations.
 
 ### How do I set up the scoring?
 

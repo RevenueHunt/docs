@@ -12,6 +12,12 @@ This guide covers what an ecommerce funnel is, the five stages every working fun
 
 ---
 
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">2.75x</span><span class="rh-stat-label">conversion vs a typical store</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">+11-15%</span><span class="rh-stat-label">larger orders</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
+</div>
+
 ## What makes it an ecommerce funnel
 
 A sales funnel in ecommerce is not a TOFU/MOFU/BOFU flowchart. It is the sequence a shopper experiences, and three things set it apart from a generic marketing funnel:
@@ -45,6 +51,7 @@ The classic AIDA model (Attention, Interest, Desire, Action) covers acquisition 
     <g transform="translate(10 578)"><rect width="420" height="108" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/><text x="22" y="34" font-size="12" font-weight="700" fill="#904E95" letter-spacing="1">STAGE 5</text><text x="22" y="66" font-size="21" font-weight="700" fill="#16161D">Retention</text><text x="22" y="94" font-size="14" fill="#334155">They reorder and refer a friend.</text></g>
   </g>
 </svg>
+<div class="rh-caption">The five stages of an ecommerce funnel. Desire, the results page, is the leverage point most stores miss.</div>
 </div>
 
 | Stage | The shopper | You optimize | Where RevenueHunt fits |
@@ -74,7 +81,7 @@ Before any tool choice, four decisions determine whether your funnel compounds o
 
 The same five-step sequence works for skincare, supplements, apparel, coffee, and most DTC categories, on any platform. The tools change; the sequence doesn't.
 
-### Step 1: Capture intent with a quiz
+### Capture intent with a quiz
 
 The quiz is the highest-leverage component because it turns a passing visitor into an engaged participant through a clear value exchange: "answer a few questions, get a recommendation made for you." A well-built quiz finishes around **70% of starts**, captures email and consent inside the natural flow, and produces structured preference data every later stage uses.
 
@@ -83,7 +90,7 @@ The quiz is the highest-leverage component because it turns a passing visitor in
 - **Ask for consent inside the flow,** the [right way](/customer-success/ask-marketing-consent/), not as a separate popup.
 - **Publish it where shoppers are** ([multiple locations](/how-to-guides/publish-quiz/)), and send paid traffic to it rather than a category page. Quiz finishers convert at about **2.75x a typical store**.
 
-### Step 2: Convert on the results page
+### Convert on the results page
 
 The results page is the most under-built stage in most funnels. Make it a tailored recommendation, not a generic card:
 
@@ -92,14 +99,14 @@ The results page is the most under-built stage in most funnels. Make it a tailor
 - **Make sure every answer is [mapped to products](/how-to-guides/recommend-products/),** or recommendations come out generic.
 - **Offer a [discount](/how-to-guides/add-discount/)** to close the warmest shoppers on the spot.
 
-### Step 3: Sync the data into your CRM and ad platforms
+### Sync the data into your CRM and ad platforms
 
 This is where on-site performance becomes lifetime value. Every quiz answer should flow into a structured profile property in your email tool and into ad-platform audiences.
 
 - **[Tag answers](/customer-success/use-customer-tags-in-quiz/)** and **[sync them to Klaviyo](/how-to-guides/send-leads-to-klaviyo/)** or [another CRM](/how-to-guides/send-leads-to-crm/) as properties (not just tags), so they can drive conditional flow splits.
 - **Feed the same segments to your ads.** The quiz reports directly to the [Meta Pixel](/how-to-guides/integrate-meta-pixel/) and [GA4](/how-to-guides/integrate-google-analytics/), so you can build audiences and lookalikes. The full playbook: [use quiz data to lower your ad costs](/customer-success/use-quiz-data-for-ads/).
 
-### Step 4: Optimize the post-purchase window
+### Optimize the post-purchase window
 
 The 60 seconds after "order confirmed" is the highest-goodwill, most ROI-efficient cross-sell you'll ever get, because the card is already out.
 
@@ -107,7 +114,7 @@ The 60 seconds after "order confirmed" is the highest-goodwill, most ROI-efficie
 - **Thank-you-page cross-sell** based on the quiz answers.
 - **Post-purchase survey:** two questions ("how did you hear about us?" and "what are you solving?") that complete at high rates in this window and feed attribution and intent back into the funnel.
 
-### Step 5: Build the retention loop
+### Build the retention loop
 
 Retention is where the economics work, and it runs on the data from stages 2 and 3. With quiz answers in your CRM as properties:
 

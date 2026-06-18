@@ -29,9 +29,9 @@ In this guide, we’ll walk you through everything you need to know about transi
 
     By switching to our BFS version of our RevenueHunt app, you’re upgrading to an app that performs better, works more intuitively, and is future-ready.
 
-## Key Feature Improvements
+## Key feature improvements
 
-### Core Functionality
+### Core functionality
 
 | Feature                         | Legacy App              | Built for Shopify |
 |---------------------------------|--------------------------|---------------------------|
@@ -52,7 +52,7 @@ In this guide, we’ll walk you through everything you need to know about transi
 
 **Recommend Entire Collections** - Now you can suggest whole collections instead of just individual products. Perfect for bundles, seasonal lines, or product types. Keeps content fresh with automatic collection updates.
 
-### Improved Design and Publishing Options
+### Improved design and publishing options
 
 | Feature                    | Legacy App         | Built for Shopify    |
 |----------------------------|--------------------|------------------------------|

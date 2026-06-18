@@ -1,6 +1,6 @@
 ---
 icon: material/numeric-2
-description: "Decide which quiz questions are worth asking. Collect the zero-party data that drives recommendations, segments, and revenue, and cut the vanity questions that kill completion."
+description: "Decide which quiz questions are worth asking. Collect the zero-party data that drives recommendations, segments, and revenue, map each question to a job, and cut the vanity questions that kill completion."
 ---
 
 # What Quiz Data Is Actually Worth Collecting
@@ -35,7 +35,40 @@ This is the test for every question:
     <text x="320" y="343" font-size="16" font-weight="700" fill="#64748b" text-anchor="middle">No, cut it</text>
   </g>
 </svg>
+<div class="rh-caption">Keep a question only if its answer changes a recommendation, a segment, or a message. If not, cut it.</div>
 </div>
+
+---
+
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">5-8</span><span class="rh-stat-label">questions is the ideal length</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">71%</span><span class="rh-stat-label">of top quizzes collect email</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
+</div>
+
+## Why quiz data is worth more than the data you buy
+
+The answers a shopper gives your quiz are **zero-party data**: information they volunteer, on purpose, in exchange for a recommendation. That makes it different in kind from the data most stores rely on:
+
+- **It's accurate.** They told you their skin is dry; you didn't infer it from a browsing pattern. Stated intent beats guessed intent.
+- **It's consented.** They handed it over knowingly, which is exactly the footing you want as third-party cookies and cross-site tracking keep getting less reliable.
+- **It's yours.** It lives in your CRM and ad audiences, not a platform you rent. You can act on it for years.
+
+That's why a quiz is one of the highest-value data collection tools you have, and why it's worth being deliberate about what you ask. For the wider picture, see [12 zero-party data examples to steal](https://revenuehunt.com/zero-party-data-examples/){target=_blank}.
+
+---
+
+## The three jobs your data can do
+
+The "one rule" names three jobs. Knowing which job a question serves tells you what to ask and where the answer ends up:
+
+| The job | What it does | Ask about | Where the answer is used |
+|---------|--------------|-----------|--------------------------|
+| **Recommend** | Picks the right product | The attribute that maps to a product: skin type, hair type, size, dietary need, room size, skill level | Your [recommendation logic](/how-to-guides/recommend-products/) |
+| **Segment** | Sorts the lead for later | The problem or goal, buying stage, budget tier, gift vs. personal | [Customer tags](/customer-success/use-customer-tags-in-quiz/) and CRM properties |
+| **Personalize** | Makes the follow-up feel 1:1 | Their name and their concern in their own words | The [results email and post-quiz flow](/customer-success/convert-leads-to-customers/) |
+
+A single question can do more than one job. "What are you trying to solve?" both frames the recommendation and creates your most powerful segment. Those are the questions to prize.
 
 ---
 
@@ -64,13 +97,55 @@ Cut these unless you have a concrete, named use for the answer:
 
 ---
 
+## A worked example: a 6-question skincare quiz
+
+Here's what "every question earns its place" looks like in practice. Six questions, each tied to a job:
+
+| # | Question | Job it serves |
+|---|----------|---------------|
+| 1 | What's your main skin concern? | Segment + recommend |
+| 2 | How does your skin feel by midday? | Recommend (maps to skin type) |
+| 3 | Anything we should avoid? (fragrance, retinol, etc.) | Recommend (exclusions) |
+| 4 | What's your routine today? (none / basic / advanced) | Segment + message |
+| 5 | What's your budget for a routine? | Recommend within range |
+| 6 | Where should we send your routine? | Lead capture + message |
+
+Notice what's missing: age, gender, "how did you hear about us." None of them would change the routine, so none of them are here. Swap in your own attributes and the same six slots work for supplements, coffee, or pet food.
+
+---
+
+## Ask it so the answer is usable
+
+A question only does its job if the answer is clean enough to act on:
+
+- **Ask the symptom, not the solution.** "How does your skin feel?" beats "which moisturizer do you want?" The shopper knows their problem; your quiz is what translates it into a product.
+- **Make every answer choice map to something.** If a choice doesn't push the recommendation, change a segment, or alter a message, it's dead weight, see [link products to answers](/how-to-guides/recommend-products/).
+- **Put the easy, visual questions first** and the email near the end, after they're invested. Keep choices tight (3-6 per question); the [length and format detail is here](/customer-success/how-to-build-succesful-quiz/).
+
+---
+
+## You don't have to ask it all at once
+
+A short quiz someone finishes beats a thorough one they abandon. Capture the must-haves now (the attribute that maps to a product, the goal, and the email), then enrich the rest over time:
+
+- A **follow-up email** can ask one more question and append the answer to their profile.
+- A **returning shopper** can take a more specific quiz (a shade finder after the routine builder).
+- Every **order and click** adds behavioral data on top of what they stated.
+
+This is progressive profiling: build the picture across visits instead of front-loading a 15-question interrogation that tanks completion.
+
+!!! warning "Be careful with sensitive data"
+    If your category touches health (supplements, skincare), ask about **goals and preferences, not diagnoses or medical conditions**. Keep contact details consented, and don't store data you don't have a clear, named use for. Less liability, and a shorter quiz converts better anyway.
+
+---
+
 ## Turn the answers into an asset
 
 Collecting data is only half the job. To make it worth money:
 
 1. **[Tag each answer](/customer-success/use-customer-tags-in-quiz/)** so preferences become segments automatically.
-2. **[Sync leads and their answers to your CRM](/how-to-guides/send-leads-to-crm/)** so flows can personalize without manual work.
-3. Use the segments to [lower your ad costs](/customer-success/use-quiz-data-for-ads/) and power follow-up email.
+2. **[Sync leads and their answers to your CRM](/how-to-guides/send-leads-to-crm/)** as profile properties so flows can personalize without manual work.
+3. Use the segments to [lower your ad costs](/customer-success/use-quiz-data-for-ads/) and power [follow-up email](/customer-success/convert-leads-to-customers/).
 
 ## A quick worksheet
 
@@ -86,7 +161,8 @@ If you can't complete the sentence, delete the question. Your completion rate (a
 
 - **Do** keep a question only if its answer changes a recommendation, a segment, or a message.
 - **Do** ask the attribute that maps to a product (skin type, size, goal) and the contact details, with consent.
-- **Do** tag answers and sync them to your CRM so the data turns into segments automatically.
+- **Do** treat the answers as zero-party data: tag them, sync them to your CRM as properties, and act on them.
+- **Do** capture the must-haves now and enrich the rest later. A finished short quiz beats an abandoned long one.
 - **Don't** ask demographics or "nice to know" questions you won't act on. Each one costs completions.
 - **Don't** duplicate signals or open with free text. Ask once, and save free text for the end if at all.
 
@@ -100,9 +176,13 @@ Keep a question only if its answer changes a recommendation, a segment, or a mes
 
 The shopper's problem or goal, the attribute that maps to a product, their buying stage, budget, and consented contact details.
 
+### What is zero-party data, and why does the quiz collect it?
+
+Zero-party data is information a customer volunteers on purpose, like their skin type or goal. Because they state it directly and consent to share it, it's more accurate and more durable than data inferred from tracking, which matters more as third-party cookies fade.
+
 ### How many questions should a quiz have?
 
-Five to eight. Completion collapses after that, so every question has to earn its place.
+Five to eight. Completion collapses after that, so every question has to earn its place. If you need more, collect the rest later through follow-up rather than one long quiz.
 
 ---
 

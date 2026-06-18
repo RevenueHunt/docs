@@ -8,13 +8,20 @@ description: "The things every high-converting product recommendation quiz has, 
 
 A quiz only earns its keep if it sells. This guide is what high-converting quizzes actually do, in priority order, so you can build one that recommends the right products and grows revenue from day one.
 
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">45M+</span><span class="rh-stat-label">quiz responses analyzed</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">$370M+</span><span class="rh-stat-label">tracked revenue</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">20,000+</span><span class="rh-stat-label">brands</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">10-25%+</span><span class="rh-stat-label">conversion on top quizzes</span></div>
+</div>
+
 !!! info "💎Built for Shopify RevenueHunt app"
 
     The `💎Built for Shopify` version is a complete re-design with a drag-and-drop builder, deep design options, and a powerful recommendation engine. There are content and design [templates](https://revenuehunt.com/templates/) for beauty (skin care, hair care, lipstick match finder) and other verticals to start from.
 
-The mechanics are easy. Making the quiz serve both your shoppers and your bottom line takes a few deliberate choices. RevenueHunt has measured what works across **45M+ quiz responses** and **$370M+ in tracked revenue** from **20,000+ brands**, plus a deep-dive on the patterns behind top-converting quizzes. The best-performing quizzes consistently reach **10-25%+** conversion. Here is what they have in common.
+The mechanics are easy. Making the quiz serve both your shoppers and your bottom line takes a few deliberate choices. RevenueHunt has measured what actually works across those responses, with a deep-dive on the patterns behind top-converting quizzes. Here is what they have in common.
 
-## Make It Easy to Find and On-Brand
+## Make it easy to find and on-brand
 
 **Make the quiz visible.** You can build the best quiz in the world and it won't sell if shoppers can't find it. Like a good shop attendant, the quiz should reach out and ask *"Is there anything I can help you with?"*. The `💎Built for Shopify` app integrates natively with your store, so [publishing your quiz](/how-to-guides/publish-quiz/) is straightforward, embedding directly into your theme rather than the legacy iframe.
 
@@ -40,7 +47,7 @@ Most shoppers take the quiz a few times before they buy, so making it easy to fi
 
 ![how to build a succesful quiz image3](/images/how_to_build_a_succesful_quiz_image3.jpg)
 
-## Get the Questions Right
+## Get the questions right
 
 **Keep the quiz simple and linear.** One of the most counterintuitive findings in our data: **most top-converting quizzes are completely linear**. Every shopper sees the same questions in the same order, and the recommendation engine uses their answers to pick products. It feels less "personalized," but a well-mapped linear quiz consistently outperforms over-engineered branching, and it's faster to build and easier to improve. Start linear; get your questions and mapping right first.
 
@@ -77,7 +84,7 @@ The **sweet spot is 6-12 questions**, long enough to feel personalized, short en
 
     Very short quizzes (1-5 questions) actually underperform slightly, because they may not build enough engagement or confidence to buy. Very long quizzes (21+ questions) still convert well (~10%), because shoppers who finish a detailed assessment are highly qualified. The data also shows **converters and non-converters answer the same number of questions**, so finishing the quiz is what matters, not its length.
 
-## Nail the Recommendation
+## Nail the recommendation
 
 **Limit the recommended products.** The less choice a shopper faces, the faster they decide and the more likely they buy. A quiz that ends in 10 results just moves the decision problem onto the shopper. Recommend 1-2 best-matching items, or one product per slot for routines, and use collections for bundles or seasonal lines.
 
@@ -105,7 +112,7 @@ The **sweet spot is 6-12 questions**, long enough to feel personalized, short en
 
 ![how to build a succesful quiz image7](/images/how_to_build_a_succesful_quiz_image7.png)
 
-## Capture the Lead and Follow Up
+## Capture the lead and follow up
 
 **Make it personalized.** The app lets you reuse what the shopper told you across the quiz. Ask for a name and recall it in the next question, on the results page, or in the follow-up email. [Information Recalls](/how-to-guides/use-information-recalls/) make the quiz feel bespoke while staying simple to set up.
 
@@ -128,7 +135,7 @@ Quizzes integrated with Klaviyo convert **24% better** and generate **66% more o
 
 ![how to build a succesful quiz image9](/images/how_to_build_a_succesful_quiz_image9.gif)
 
-## Go Global
+## Go global
 
 **Serve every market in its own language.** The `💎Built for Shopify` app integrates with Shopify Markets so you can create separate quiz versions per language, detect each visitor's market automatically, and show prices in local currency. Keep the quiz logic consistent across versions and test each market before going live. The full playbook is in [Adapt Quizzes for Different Markets & Languages](/customer-success/adapt-quizzes-to-markets/).
 

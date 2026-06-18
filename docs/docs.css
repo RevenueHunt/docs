@@ -58,3 +58,82 @@
   }
   
   .md-typeset .tabbed-labels--linked>label>a {text-decoration: none;}
+
+/* ============================================================
+   Customer Success house style
+   ============================================================ */
+
+/* Embedded screenshots: consistent size, left-aligned, subtle frame */
+.md-typeset p > img,
+.md-typeset .tabbed-block img {
+  display: block;
+  margin: 1.5rem 0;
+  max-width: 100%;
+  border: 1px solid #e6e9ef;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(16, 16, 29, 0.09);
+}
+
+[data-md-color-scheme="slate"] .md-typeset p > img,
+[data-md-color-scheme="slate"] .md-typeset .tabbed-block img {
+  border-color: #2b2f38;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Caption under graphs and diagrams */
+.rh-caption {
+  margin: -0.4rem auto 1.6rem;
+  font-size: 0.76rem;
+  font-style: italic;
+  line-height: 1.4;
+  color: #5b6472;
+  text-align: center;
+}
+
+[data-md-color-scheme="slate"] .rh-caption {
+  color: #aab2c0;
+}
+
+/* Big-number stat callout row */
+.rh-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  margin: 1.6rem 0 2rem;
+}
+
+.rh-stat {
+  flex: 1 1 140px;
+  max-width: 190px;
+  text-align: center;
+  padding: 0.9rem 0.75rem;
+  border: 1px solid #ecdfee;
+  border-radius: 14px;
+  background: #faf6fb;
+}
+
+.rh-stat-num {
+  display: block;
+  font-size: 1.55rem;
+  font-weight: 800;
+  line-height: 1.05;
+  color: #904e95;
+}
+
+.rh-stat-label {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.72rem;
+  line-height: 1.3;
+  color: #5b6472;
+}
+
+[data-md-color-scheme="slate"] .rh-stat {
+  background: rgba(144, 78, 149, 0.1);
+  border-color: rgba(144, 78, 149, 0.35);
+}
+
+[data-md-color-scheme="slate"] .rh-stat-label {
+  color: #aab2c0;
+}

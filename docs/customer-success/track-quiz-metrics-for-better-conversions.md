@@ -10,7 +10,13 @@ Your quiz produces a lot of data, but only a handful of numbers tell you what to
 
 ---
 
-## Where to Find Your Data
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">60-70%</span><span class="rh-stat-label">healthy completion rate</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">2.75x</span><span class="rh-stat-label">conversion vs a typical store</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
+</div>
+
+## Where to find your data
 
 Everything the quiz collects lives in the [Metrics and Analytics panel](/reference/quiz-builder/metrics/). Three views do most of the work.
 
@@ -29,7 +35,7 @@ For deeper analysis, [export responses to CSV](/how-to-guides/download-quiz-resp
 
 ---
 
-## Engagement Metrics
+## Engagement metrics
 
 Engagement tells you whether people find the quiz and finish it.
 
@@ -55,7 +61,7 @@ Aim as high as you can: a well-built quiz finishes around 70% of starts, and a s
 
 ---
 
-## Revenue Metrics
+## Revenue metrics
 
 Revenue metrics connect the quiz to money. Connect your quiz to [Shopify Customers and revenue reports](/how-to-guides/track-quiz-revenue/) so orders and their value flow into the panel.
 
@@ -86,7 +92,7 @@ A good quiz lifts conversion on quiz traffic well above the site average, often 
 
 ---
 
-## Recommendation Insights
+## Recommendation insights
 
 This view tells you whether your recommendations are working and which products earn their place.
 
@@ -101,7 +107,7 @@ This view tells you whether your recommendations are working and which products 
 
 ---
 
-## Customer Insights
+## Customer insights
 
 The quiz is also a research tool. Used well, it tells you who your customers are and what they want.
 

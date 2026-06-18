@@ -17,6 +17,12 @@ This article is about what separates those two quizzes.
 
 ---
 
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">0</span><span class="rh-stat-label">lines of CSS in top quizzes</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">18%</span><span class="rh-stat-label">conversion with zero customization</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">10.6%</span><span class="rh-stat-label">conversion on a single results page</span></div>
+</div>
+
 ## The customization trap
 
 Our Quiz Copilot is genuinely powerful. It can generate quiz content, suggest questions, write results page copy, and yes, it can help with CSS and JavaScript customizations too.
@@ -47,7 +53,7 @@ None of those are CSS, JavaScript problems.
 
 Here's what our top-converting quizzes have in common, and what they don't.
 
-### What they DON'T have
+### What they don't have
 
 - Custom CSS stylesheets
 - JavaScript overrides
@@ -55,7 +61,7 @@ Here's what our top-converting quizzes have in common, and what they don't.
 - Elaborate animated transitions
 - Heavily customized results page layouts
 
-### What they DO have
+### What they do have
 
 - **7-10 focused questions** that customers can answer quickly and confidently
 - **Every answer choice mapped** to a product or collection, with no unmapped answers

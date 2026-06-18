@@ -20,7 +20,13 @@ This article explains how to build that system.
 
 ---
 
-## Why Quiz Data is Different: Zero-Party Data
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">+24%</span><span class="rh-stat-label">conversion with a CRM</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">+66%</span><span class="rh-stat-label">more orders with a CRM</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">71%</span><span class="rh-stat-label">of top quizzes collect email</span></div>
+</div>
+
+## Why quiz data is different: zero-party data
 
 There are three kinds of customer data:
 
@@ -39,7 +45,7 @@ That's what a quiz captures - at scale, for every customer who takes it.
 
 ---
 
-## The Funnel Architecture
+## The funnel architecture
 
 A quiz without a downstream funnel is a missed opportunity. The full system is a pipeline:
 
@@ -64,13 +70,14 @@ A quiz without a downstream funnel is a missed opportunity. The full system is a
     <g transform="translate(10 550)"><rect width="420" height="80" rx="10" fill="#F6F0F7" stroke="#904E95" stroke-width="1.5"/><text x="210" y="46" font-size="16" font-weight="700" fill="#16161D" text-anchor="middle">Purchase, repeat, loyalty</text></g>
   </g>
 </svg>
+<div class="rh-caption">Quiz answers become tags, tags become CRM segments, and segments power targeted email and ads.</div>
 </div>
 
 Each step only works if the previous one is set up correctly. Most merchants stop at step one (the quiz) or step two (email capture) and wonder why the quiz "isn't converting well." The quiz is fine. The funnel is missing.
 
 ---
 
-## Step 1: Design Your Tag Taxonomy Before Building the Quiz
+## Design your tag taxonomy before building the quiz
 
 The biggest mistake merchants make is adding tags reactively - tagging a few choices here and there after the quiz is built. A well-designed tag system starts with a plan.
 
@@ -91,7 +98,7 @@ Think in three categories.
 
 ---
 
-## Step 2: Add Customer Tags to Quiz Choices
+## Add customer tags to quiz choices
 
 Once you have your tag taxonomy, add tags to choices in the Quiz Builder. Every answer choice can carry one or more tags, and a customer's full tag profile is built from the combination of all their answers.
 
@@ -173,7 +180,7 @@ Once you have your tag taxonomy, add tags to choices in the Quiz Builder. Every 
 
 ---
 
-## Step 3: Connect Your Quiz to Your CRM
+## Connect your quiz to your CRM
 
 Tags are only useful if they reach your email platform. Connect RevenueHunt to your CRM so that every quiz submission - including all assigned tags, quiz answers, and recommended products - flows into your contact database automatically.
 
@@ -185,7 +192,7 @@ Once connected, every new quiz submission creates or updates a contact in your C
 
 ---
 
-## Step 4: Build Segments in Your CRM
+## Build segments in your CRM
 
 With tags flowing into your CRM, you can create **dynamic segments** - groups of contacts that automatically update as new quiz submissions arrive.
 
@@ -211,7 +218,7 @@ Each segment is independent, and a single contact can belong to multiple segment
 
 ---
 
-## Step 5: Build Your Email Flows
+## Build your email flows
 
 Segments are the input. Email flows are the output. Every segment should have at least one automated flow triggered by joining it. A reliable structure is four emails.
 
@@ -257,7 +264,7 @@ For contacts who haven't purchased: a gentle re-engagement with a fresh angle (d
 
 ---
 
-## Step 6: Keep the Data Fresh
+## Keep the data fresh
 
 Zero-party data has a shelf life. A customer who told you they had dry hair two years ago may have changed their routine, their concerns, or their goals. Build a process to refresh it.
 
@@ -273,7 +280,7 @@ Zero-party data has a shelf life. A customer who told you they had dry hair two 
 
 ---
 
-## The Platform Data
+## The platform data
 
 This isn't theoretical. Here's what the numbers show for quizzes that use this full-funnel approach:
 
@@ -286,7 +293,7 @@ Quizzes with a connected CRM generate **24% higher conversion rates** and **66% 
 
 ---
 
-## Works With Any CRM
+## Works with any CRM
 
 The strategy above is built around Klaviyo because it's the most common integration, but every component works with any CRM that connects to RevenueHunt:
 

@@ -17,7 +17,13 @@ Adapting your quiz for different markets isn't just a translation task. It's abo
 
 ---
 
-## What the App Handles Automatically
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">2.75x</span><span class="rh-stat-label">conversion vs a typical store</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">+11-15%</span><span class="rh-stat-label">larger orders</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
+</div>
+
+## What the app handles automatically
 
 Before you start duplicating and translating quizzes, understand what you actually need to do manually - and what the app already handles for you.
 
@@ -47,7 +53,7 @@ Before you start duplicating and translating quizzes, understand what you actual
 
 ---
 
-## The Workflow: From One Quiz to a Global Setup
+## The workflow: from one quiz to a global setup
 
 The process has four stages. You only need to do the first stage once - every additional market is a duplicate-and-adapt operation.
 
@@ -68,15 +74,16 @@ The process has four stages. You only need to do the first stage once - every ad
     <g transform="translate(10 364)"><rect width="420" height="90" rx="10" fill="#F6F0F7" stroke="#904E95" stroke-width="1.5"/><text x="24" y="36" font-size="12" font-weight="700" fill="#904E95" letter-spacing="1">STAGE 4</text><text x="24" y="66" font-size="17" font-weight="700" fill="#16161D">Test, then go live</text></g>
   </g>
 </svg>
+<div class="rh-caption">From one master quiz to a localized setup: build, duplicate and translate, assign to each market, then test.</div>
 </div>
 
-### Stage 1: Build and perfect your default quiz
+### Build and perfect your default quiz
 
 Create your main quiz for your primary market. Get the questions right, map all answers to products, set up email capture, connect Klaviyo. This is your master template.
 
-**Don't move to Stage 2 until this quiz is converting well.** Localizing a quiz that doesn't work in your primary market just means you have a broken quiz in multiple languages.
+**Don't move on to translation until this quiz is converting well.** Localizing a quiz that doesn't work in your primary market just means you have a broken quiz in multiple languages.
 
-### Stage 2: Duplicate and translate for each market
+### Duplicate and translate for each market
 
 For each additional market or language:
 
@@ -93,7 +100,7 @@ For each additional market or language:
 
     Copilot will work through the quiz content and apply translations. Review and adjust the output before publishing - machine translation still needs a human eye, especially for brand voice and product terminology.
 
-### Stage 3: Assign quizzes to markets and languages
+### Assign quizzes to markets and languages
 
 Once your translated quizzes are ready:
 
@@ -108,7 +115,7 @@ Once your translated quizzes are ready:
 !!! success "One quiz, published once"
     You only need to publish one quiz on your storefront - your default. The app automatically detects each visitor's market and language and serves the correct quiz. You don't need separate embeds for each language.
 
-### Stage 4: Test before going live
+### Test before going live
 
 The app preview doesn't simulate market switching. To test properly:
 
@@ -128,7 +135,7 @@ The app preview doesn't simulate market switching. To test properly:
 
 ---
 
-## If You're Not on Shopify
+## If you're not on Shopify
 
 The Shopify Markets integration is exclusive to the `💎 Built for Shopify` version of the app. For WooCommerce, Magento, BigCommerce, and Standalone installations, the automatic market detection isn't available - but you can still run localized quizzes with a manual approach.
 
@@ -143,7 +150,7 @@ It's more maintenance than the Shopify Markets integration, but it gives the sam
 
 ---
 
-## Beyond Translation: Adapting for Market-Specific Needs
+## Beyond translation: adapting for market-specific needs
 
 Translation gets customers past the language barrier. True localization goes further.
 
@@ -180,7 +187,7 @@ Consider creating genuinely different question flows for markets where customer 
 
 ---
 
-## Market Segmentation in Your CRM
+## Market segmentation in your CRM
 
 Localization creates a natural segmentation opportunity. Tag every quiz taker with their market so you can send them market-specific follow-up flows.
 
@@ -195,7 +202,7 @@ This lets you:
 
 ---
 
-## Rollout Strategy: Where to Start
+## Rollout strategy: where to start
 
 Don't try to cover every market at once. Prioritize by impact:
 

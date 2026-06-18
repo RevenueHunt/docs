@@ -7,7 +7,14 @@ description: "Get more leads, higher AOV, and better product discovery from your
 
 A product quiz is never the goal. It's the means to one: a bigger email list, cheaper ads, a higher average order value, fewer shoppers lost in your catalog. This hub is organized around **what you're trying to achieve for your business**, not around app features.
 
-Everything here is built on what actually works. RevenueHunt has measured **45M+ quiz responses** and **$370M+ in tracked revenue** across **20,000+ brands**. Shoppers who finish a quiz order at roughly **2.75x the rate of a typical store** (more in some categories), spend **11-15% more per order**, and **1 in 5** of their orders land 30+ days later, so a single quiz keeps paying for months. The full breakdown is in the [State of Product Recommendation Quizzes report](https://revenuehunt.com/state-of-product-recommendation-quizzes/){target=_blank}.
+Everything here is built on what actually works, measured across tens of millions of quiz responses and hundreds of millions in tracked revenue. Shoppers who finish a quiz consistently outperform the rest of your traffic, and because **1 in 5** of their orders land 30+ days later, a single quiz keeps paying for months. The full breakdown is in the [State of Product Recommendation Quizzes report](https://revenuehunt.com/state-of-product-recommendation-quizzes/){target=_blank}.
+
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">45M+</span><span class="rh-stat-label">quiz responses analyzed</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">$370M+</span><span class="rh-stat-label">tracked revenue</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">2.75x</span><span class="rh-stat-label">conversion vs a typical store</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">+11-15%</span><span class="rh-stat-label">larger orders</span></div>
+</div>
 
 !!! tip "How to use this page"
     **Pick where you are**, then **pick what you want the quiz to do for your business.** Most great quizzes do several of these at once, so start with your #1 goal and come back for the rest. Every path stays open: read any section, in any order.

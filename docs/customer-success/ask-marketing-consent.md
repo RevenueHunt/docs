@@ -12,7 +12,13 @@ In 2026 this matters more than it used to. Privacy enforcement under GDPR and CC
 
 ---
 
-## When to Ask
+<div class="rh-stats">
+  <div class="rh-stat"><span class="rh-stat-num">75%</span><span class="rh-stat-label">of top quizzes require email</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">71%</span><span class="rh-stat-label">of top quizzes collect email</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
+</div>
+
+## When to ask
 
 The consent ask should feel like a natural step in the quiz, not a popup bolted onto it. Two moments work, and the right one depends on what you sell.
 
@@ -29,7 +35,7 @@ Asking in the middle of the quiz is the one option to avoid. It interrupts the f
 
 ---
 
-## Required or Optional
+## Required or optional
 
 Whether the email or phone question is mandatory has a big effect on both drop-off and lead quality.
 
@@ -42,7 +48,7 @@ Whether the email or phone question is mandatory has a big effect on both drop-o
 
 ---
 
-## How to Ask
+## How to ask
 
 Once you've settled when and whether, a few wording and design choices decide how many people actually say yes.
 
