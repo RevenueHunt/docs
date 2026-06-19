@@ -113,9 +113,11 @@ Personality and "type" quizzes ("What's your skin type?", "Find your scent profi
 
 ## By industry
 
-The principles are universal, but the best questions and recommendations differ by vertical. Browse quiz **[templates by industry](https://revenuehunt.com/templates/){target=_blank}** to start from a proven structure:
+The principles are universal, but the best questions and recommendations differ by vertical. Each playbook below is **built from real RevenueHunt quiz data** for that category, so you can see at a glance what the best-selling quizzes in your space do and copy it. Browse quiz **[templates by industry](https://revenuehunt.com/templates/){target=_blank}** to start from a proven structure.
 
-[:material-flower-tulip-outline: Beauty & Skincare](/customer-success/quiz-for-beauty-skincare/) &nbsp;·&nbsp; [:material-pill: Supplements & Wellness](/customer-success/quiz-for-supplements-wellness/) &nbsp;·&nbsp; [:material-tshirt-crew-outline: Fashion & Apparel](/customer-success/quiz-for-fashion-apparel/) &nbsp;·&nbsp; [:material-food-apple-outline: Food & Specialty](/customer-success/quiz-for-food-specialty/) &nbsp;·&nbsp; [:material-gift-outline: Gifting](/customer-success/quiz-for-gifting/) &nbsp;·&nbsp; [:material-cog-outline: B2B & Compatibility](/customer-success/quiz-for-b2b-compatibility/)
+**Beauty & personal care:** [:material-flower-tulip-outline: Skincare](/customer-success/quiz-for-skincare/) &nbsp;·&nbsp; [:material-content-cut: Haircare](/customer-success/quiz-for-haircare/) &nbsp;·&nbsp; [:material-lipstick: Cosmetics & Makeup](/customer-success/quiz-for-cosmetics-makeup/)
+
+**Everything else:** [:material-pill: Supplements & Wellness](/customer-success/quiz-for-supplements-wellness/) &nbsp;·&nbsp; [:material-tshirt-crew-outline: Fashion & Apparel](/customer-success/quiz-for-fashion-apparel/) &nbsp;·&nbsp; [:material-food-apple-outline: Food & Drink](/customer-success/quiz-for-food-specialty/) &nbsp;·&nbsp; [:material-paw: Pets](/customer-success/quiz-for-pets/) &nbsp;·&nbsp; [:material-puzzle-outline: Hobby & Entertainment](/customer-success/quiz-for-entertainment/) &nbsp;·&nbsp; [:material-gift-outline: Gifting](/customer-success/quiz-for-gifting/) &nbsp;·&nbsp; [:material-cog-outline: B2B & Compatibility](/customer-success/quiz-for-b2b-compatibility/)
 
 Running a subscription business? Recurring revenue is covered in [Recommend bundles, kits & routines](/customer-success/recommend-bundles-kits/).
 

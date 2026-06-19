@@ -45,7 +45,7 @@ The "type" changes by catalog, but the format travels everywhere:
 
 | Category | A "type" quiz that works |
 |----------|--------------------------|
-| [Beauty & skincare](/customer-success/quiz-for-beauty-skincare/) | Your skin type, or "what's your skin personality" |
+| [Skincare](/customer-success/quiz-for-skincare/) | Your skin type, or "what's your skin personality" |
 | Fragrance | Find your scent profile |
 | [Fashion](/customer-success/quiz-for-fashion-apparel/) | Your style persona |
 | [Supplements & wellness](/customer-success/quiz-for-supplements-wellness/) | Your wellness type, or what your routine is missing |

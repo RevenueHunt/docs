@@ -173,10 +173,15 @@ nav:
       - Markets & Languages: customer-success/adapt-quizzes-to-markets.md
       - Personality Quizzes: customer-success/personality-quizzes.md
     - By Industry:
-      - Beauty & Skincare: customer-success/quiz-for-beauty-skincare.md
+      - Beauty Overview: customer-success/quiz-for-beauty-skincare.md
+      - Skincare: customer-success/quiz-for-skincare.md
+      - Haircare: customer-success/quiz-for-haircare.md
+      - Cosmetics & Makeup: customer-success/quiz-for-cosmetics-makeup.md
       - Supplements & Wellness: customer-success/quiz-for-supplements-wellness.md
       - Fashion & Apparel: customer-success/quiz-for-fashion-apparel.md
-      - Food & Specialty: customer-success/quiz-for-food-specialty.md
+      - Food & Drink: customer-success/quiz-for-food-specialty.md
+      - Pets: customer-success/quiz-for-pets.md
+      - Hobby & Entertainment: customer-success/quiz-for-entertainment.md
       - Gifting: customer-success/quiz-for-gifting.md
       - B2B & Compatibility: customer-success/quiz-for-b2b-compatibility.md
     - Reference:
@@ -228,8 +233,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition
-  - pymdownx.arithmatex:
-      generic: true
   - footnotes
   - pymdownx.details
   - pymdownx.superfences

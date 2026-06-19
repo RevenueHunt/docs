@@ -14,6 +14,9 @@ Gift shoppers are buying for someone else, under time pressure, terrified of get
   <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
 </div>
 
+!!! info "A note on benchmarks"
+    Gifting isn't a standalone vertical in our quiz benchmark data: gift-finder quizzes show up *across* categories (a gift coffee sampler, a hobby gift set, a beauty bundle). For hard numbers, read the data-backed playbook for what you actually sell, especially [Food & Drink](/customer-success/quiz-for-food-specialty/) (where a gift-finder is the best-in-class example) and [Hobby & Entertainment](/customer-success/quiz-for-entertainment/) (where "who are you shopping for?" is the top question). The gifting-specific strategy below applies on top of those.
+
 ## Why a quiz works so well here
 
 - **The shopper is buying blind.** They don't know the recipient's taste *or* your products. A quiz bridges both.

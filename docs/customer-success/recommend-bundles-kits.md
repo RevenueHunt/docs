@@ -70,12 +70,12 @@ The mechanics are the same across catalogs; only the set changes:
 
 | Category | The set you recommend |
 |----------|----------------------|
-| [Beauty & skincare](/customer-success/quiz-for-beauty-skincare/) | Cleanser + serum + moisturizer (the routine) |
+| [Skincare](/customer-success/quiz-for-skincare/) | Cleanser + serum + moisturizer (the routine) |
 | [Supplements](/customer-success/quiz-for-supplements-wellness/) | A daily stack matched to their goal |
-| [Food & specialty](/customer-success/quiz-for-food-specialty/) | A sampler or curated box built from their tastes |
+| [Food & drink](/customer-success/quiz-for-food-specialty/) | A sampler or curated box built from their tastes |
 | [Fashion](/customer-success/quiz-for-fashion-apparel/) | Complete-the-look: the piece plus what pairs with it |
 | Coffee | Grinder + beans + filters, or a roast variety pack |
-| Pet | Food + treats + the supplement for their pet's needs |
+| [Pet](/customer-success/quiz-for-pets/) | Food + treats + the supplement for their pet's needs |
 
 ---
 

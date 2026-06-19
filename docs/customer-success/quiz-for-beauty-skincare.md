@@ -1,95 +1,69 @@
 ---
-description: "A product quiz playbook for beauty and skincare brands: the questions that matter, recommending a routine instead of a single product, and turning skin data into repeat revenue."
+title: "Beauty Quiz Playbooks: Skincare, Haircare & Makeup"
+description: "Data-backed quiz playbooks for beauty brands. Built from 540+ real RevenueHunt beauty quizzes. Pick your category, skincare, haircare, or cosmetics & makeup, for the benchmark build and numbers to beat."
 ---
 
-# A Quiz Playbook for Beauty & Skincare Brands
+# Quiz Playbooks for Beauty Brands
 
-Skincare is the category product quizzes were practically made for. Shoppers don't know which cleanser suits oily-but-dehydrated skin, or whether they need a retinol or a peptide, so they stall. A quiz replaces that guesswork with a guided diagnosis, the same way a counter consultant would, and routes each shopper to products that fit *their* skin.
+Beauty is the home turf of the product recommendation quiz. Shoppers can't self-diagnose their skin type, hair concern, or undertone from a product grid, so they stall, and a quiz turns that hesitation into a guided consultation that routes each shopper to the products that fit *them*.
 
-This playbook covers what to ask, what to recommend, and how to keep selling after the quiz. The strategy applies to skincare, haircare, cosmetics, and fragrance alike.
-
----
+Because the best questions and recommendations differ across beauty, we've split this into **three data-backed playbooks**, each built from real RevenueHunt quizzes in that category. Pick yours below.
 
 <div class="rh-stats">
-  <div class="rh-stat"><span class="rh-stat-num">2.75x</span><span class="rh-stat-label">conversion vs a typical store</span></div>
-  <div class="rh-stat"><span class="rh-stat-num">+20%</span><span class="rh-stat-label">larger orders in beauty</span></div>
-  <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">540+</span><span class="rh-stat-label">beauty quizzes analyzed</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">~80%</span><span class="rh-stat-label">recommend a routine or set</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">80-88%</span><span class="rh-stat-label">of traffic is mobile</span></div>
+  <div class="rh-stat"><span class="rh-stat-num">28%</span><span class="rh-stat-label">top-10% conversion (skincare)</span></div>
 </div>
 
-## Why a quiz works so well here
+---
 
-- **The right product is personal.** Skin type, concerns, and goals differ for every shopper, so a single best-seller can't serve everyone.
-- **Shoppers self-diagnose badly.** They'll buy the wrong thing, get no result, and blame the brand. A quiz gets them to the product that actually works.
-- **Routines, not single items.** Skincare is naturally a set (cleanse, treat, moisturize, protect), which makes it ideal for raising order value.
-- **The numbers are among the best anywhere.** In RevenueHunt's [benchmark data](https://revenuehunt.com/state-of-product-recommendation-quizzes/){target=_blank}, beauty and skincare quiz takers convert at about **3x a typical store**, with orders about **20% larger**. Haircare runs higher still, around 3.5x.
+## Choose your category
+
+!!! tip "🧴 [Skincare quiz playbook](/customer-success/quiz-for-skincare/)"
+    280 quizzes. The benchmark build is **6 questions** and a **routine** of ~5 products. Median conversion **8%**, top 10% reach **28%**, median order **$84**.
+
+    [:octicons-arrow-right-24: Read the skincare playbook](/customer-success/quiz-for-skincare/)
+
+!!! tip "💇 [Haircare quiz playbook](/customer-success/quiz-for-haircare/)"
+    143 quizzes. The benchmark build is **7 questions** and a **routine** of ~5 products. Median completion is **97%**, the highest in beauty, so the lever is conversion and follow-up.
+
+    [:octicons-arrow-right-24: Read the haircare playbook](/customer-success/quiz-for-haircare/)
+
+!!! tip "💄 [Cosmetics & makeup quiz playbook](/customer-success/quiz-for-cosmetics-makeup/)"
+    121 quizzes. The benchmark build is just **5 questions** built on **picture choices** (undertone, shade, eye colour) and a coordinated set of ~4 products. Completion is the soft spot, picture questions fix it.
+
+    [:octicons-arrow-right-24: Read the cosmetics & makeup playbook](/customer-success/quiz-for-cosmetics-makeup/)
 
 ---
 
-## The questions that matter
+## What every beauty quiz gets right
 
-Ask only what changes a recommendation, a segment, or a message (the [data-worth-collecting](/customer-success/what-data-to-collect/) rule). For beauty that usually means:
+Wherever you sell, the same fundamentals show up across all 540+ beauty quizzes:
 
-- **Skin (or hair) type.** Dry, oily, combination, sensitive, normal. The backbone of both the recommendation and your segments.
-- **Primary concern.** Acne, aging, dullness, redness, hyperpigmentation. Drives which actives you recommend.
-- **Goal.** "Clear breakouts," "even out tone," "build a simple routine." Frames the result and the follow-up.
-- **Sensitivities or no-go ingredients.** Lets you exclude products that would irritate, which protects trust.
-- **Current routine / experience level.** Beginner vs. advanced changes how much you recommend at once.
+- **Recommend a set, not a single product.** Around **80%** of beauty quizzes recommend a routine or coordinated look, it's the biggest lever on order value.
+- **Keep it short.** 5–7 questions, each one mapped to a product, a segment, or a message (the [data-worth-collecting](/customer-success/what-data-to-collect/) rule).
+- **Design for mobile.** Between **80% and 88%** of beauty quiz traffic is on a phone, so lean on picture questions and big tap targets.
+- **Capture the email and follow up.** Beauty is consumable and routine-driven, so much of the revenue lands in reorder reminders and routine education, connect [Klaviyo](/how-to-guides/send-leads-to-klaviyo/).
 
-Keep it to a handful of questions so people finish.
-
----
-
-## Recommend a routine, not a product
-
-This is where beauty quizzes earn their keep. Instead of one cleanser, recommend the **steps of a routine**, each in its own slot: cleanser, serum, moisturizer, SPF.
-
-- Set up one slot per step with **[Recommend a skincare routine with slots](/how-to-guides/recommend-skincare-routine-slots/)**.
-- Each slot shows the best match for *this* shopper's answers, so the routine is personalized end to end.
-- See the broader [bundles, kits & routines](/customer-success/recommend-bundles-kits/) playbook for the AOV logic.
-
-A shopper who came for "a moisturizer" leaves with a routine that makes sense together.
+For the universal build steps, see [how to build a successful quiz](/customer-success/how-to-build-succesful-quiz/) and the [setup checklist](/customer-success/quiz-setup-checklist/). To raise order value, see [bundles, kits & routines](/customer-success/recommend-bundles-kits/).
 
 ---
-
-## Turn skin data into repeat revenue
-
-The answers a beauty shopper gives are unusually valuable, because skincare is consumable and routine-driven. Put the data to work:
-
-- **[Tag skin type and concern](/customer-success/use-customer-tags-in-quiz/)** so every shopper lands in a segment (`oily`, `anti-aging`, `sensitive`).
-- **[Convert the lead](/customer-success/convert-leads-to-customers/)** with a follow-up that speaks to their skin, and time reorder reminders to when products run out.
-- **[Sharpen your ads](/customer-success/use-quiz-data-for-ads/)** by showing each skin-type segment products made for them.
-
----
-
-## Do / Don't
-
-- **Do** recommend a full routine and let the quiz rank each step by fit. It is the single biggest lever on order value here.
-- **Do** ask about sensitivities and exclude irritating products. One bad reaction loses a customer for good.
-- **Don't** overwhelm beginners with a ten-step routine. Match the depth of the recommendation to their experience.
-- **Don't** ask for skin data you won't use. If an answer doesn't change a product or a message, it is just costing you completions.
-
----
-
-## Templates & setup
-
-- [Building a Skin Type Quiz](/tutorials/skintype-quiz/), a full worked example
-- [Quiz templates by industry](https://revenuehunt.com/templates/){target=_blank}, including skincare, haircare, and shade-finder starting points
-- [Plan a personality quiz](/customer-success/personality-quizzes/) if your hook is "find your skin type" rather than a product match
 
 ## Frequently asked questions
 
-### What questions should a skincare quiz ask?
+### Which beauty playbook should I read?
 
-Skin (or hair) type, primary concern, goal, sensitivities or no-go ingredients, and experience level. Ask only what changes a recommendation or a segment, and keep it to a handful so people finish.
+The one that matches your catalog: [skincare](/customer-success/quiz-for-skincare/) for cleansers, serums, and moisturizers; [haircare](/customer-success/quiz-for-haircare/) for shampoo, conditioner, and treatments; [cosmetics & makeup](/customer-success/quiz-for-cosmetics-makeup/) for matching a foundation, lipstick, or shade. Each has its own benchmark build and numbers.
 
-### Should a beauty quiz recommend one product or a routine?
+### What do all beauty quizzes have in common?
 
-A routine. Recommend the steps (cleanser, serum, moisturizer, SPF) in their own slots. It reframes the purchase from a single item to a complete solution, and beauty quiz orders run about 20% larger.
+They recommend a routine or set (~80% do), keep to 5–7 mapped questions, design for a mostly-mobile audience, and capture the email for reorder follow-up.
 
-### How do I use the skin data after the quiz?
+### Where do the numbers come from?
 
-Tag skin type and concern so every shopper lands in a segment, then time reorder reminders to when products run out and show each segment products made for them in your ads.
+From RevenueHunt platform data: 540+ beauty quizzes (Built for Shopify) over the last 180 days, deduplicated to one per store. Each category page carries its own percentiles.
 
 ---
 
-**Where to go next:** lock in the fundamentals with the [quiz setup checklist →](/customer-success/quiz-setup-checklist/)
+**Where to go next:** open the playbook for your category, [skincare](/customer-success/quiz-for-skincare/), [haircare](/customer-success/quiz-for-haircare/), or [cosmetics & makeup](/customer-success/quiz-for-cosmetics-makeup/), or learn the universal [bundles & routines](/customer-success/recommend-bundles-kits/) logic.

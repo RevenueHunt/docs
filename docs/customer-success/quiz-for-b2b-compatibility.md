@@ -14,6 +14,9 @@ When a product has to fit a spec or an existing setup, POS hardware, replacement
   <div class="rh-stat"><span class="rh-stat-num">1 in 5</span><span class="rh-stat-label">orders land 30+ days later</span></div>
 </div>
 
+!!! info "A note on benchmarks"
+    B2B and compatibility quizzes aren't broken out as a vertical in our benchmark data, which is grouped by consumer product category. The mechanics that matter most here (**exclusions** to enforce fit, **branching** to route by requirement) are the same ones the [Pets fit-and-gear playbook](/customer-success/quiz-for-pets/) documents with data (pets has the highest single-product and branching share of any vertical, for exactly these reasons). The B2B strategy below applies those mechanics to a longer, lead-driven sales cycle.
+
 ## Why a quiz works so well here
 
 - **Compatibility is binary.** The wrong fit means a return, downtime, or a failed install. A quiz prevents the mismatch.
