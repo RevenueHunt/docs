@@ -55,7 +55,7 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 
     In the `💎Built for Shopify` version of the RevenueHunt app, product names, descriptions, prices, and images shown in quiz results are **always pulled live from Shopify** via the Storefront API. This data is always up to date — no import needed.
 
-    The catalogue import pulls **tags, collections, vendors, variants, and metafields** from your Shopify store so they appear in the quiz builder's dropdown lists. This happens automatically every 24 hours. You only need a manual import if you've just added new tags or collections in Shopify and don't see them in the builder yet.
+    The catalogue import pulls **tags, collections, vendors, variants, and metafields** from your Shopify store so they appear in the quiz builder's dropdown lists. If a metafield appears in the imported metafield dropdown, RevenueHunt found it during the Admin/catalogue sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. This happens automatically every 24 hours. You only need a manual import if you've just added new tags, collections, or metafields in Shopify and don't see them in the builder yet.
 
     To run a manual import:
 
@@ -112,7 +112,7 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 === "Shopify"
 
     !!! info "What does the catalogue import do?"
-        The import pulls tags, collections, vendors, variants, and metafields from your Shopify store so they appear in the quiz builder's dropdown lists. Product names, descriptions, prices, and images are **not** part of this import — they are always fetched live from Shopify when quiz results are displayed.
+        The import pulls tags, collections, vendors, variants, and metafields from your Shopify store so they appear in the quiz builder's dropdown lists. A metafield appearing in the imported metafield dropdown only means it was found during Admin/catalogue sync; live quiz rendering still requires Storefront API access for the metafield definition in Shopify. Product names, descriptions, prices, and images are **not** part of this import — they are always fetched live from Shopify when quiz results are displayed.
 
     - The catalogue import runs **automatically every 24 hours**.
     - Only products marked as **active** are included in the import. **Archived products are excluded**.
