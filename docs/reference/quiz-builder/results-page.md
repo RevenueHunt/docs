@@ -826,6 +826,8 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         The app can only sync and show the *string*, *single_line_text_field*, *multi_line_text_field*, *date*, and *number* product metafields. *Rich_text_fields* metafields are not currently supported.
 
+        In product variant slots, metafield blocks currently display metafields from the parent product, not variant-level metafields.
+
     `Reviews` - Adds a product reviews block as star rating and review count.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews.png)

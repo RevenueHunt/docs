@@ -16,6 +16,8 @@ This article explains how to add product metafields/attributes to products on yo
 
         The app can only sync and show the string, single_line_text_field, multi_line_text_field, date, and number product metafields. Rich_text_fields metafields are not currently supported.
 
+        In product variant slots, metafield blocks currently display metafields from the parent product, not variant-level metafields.
+
     [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible (though the `💎Built for Shopify` version of the RevenueHunt app now offers a direct `Unit price` settings under [Slot item composition](/reference/quiz-builder/results-page/#slot-item-composition) settings).
 
 
