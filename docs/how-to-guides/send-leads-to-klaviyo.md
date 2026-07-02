@@ -236,6 +236,10 @@ It’s possible to send the product recommendation follow-up emails via Klaviyo,
 
 Below you’ll find some basic instructions that can be forwarded to a developer.
 
+!!! tip "Go beyond the results email"
+
+    This section covers the single results-delivery flow. To turn quiz data into a full revenue system (cart abandonment, browse abandonment, replenishment, cross-sell and win-back flows, each segmented by quiz answers and tags), see [How to Build Post-Quiz Email Flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/).
+
 ??? warning "RevenueHunt Support Scope"
 
     Once the quiz is connected to Klaviyo (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Klaviyo.

@@ -19,7 +19,7 @@ You can add new customers automatically to your Shopify Customers list every tim
 
 All the contacts coming from the quiz will be added to your Klaviyo Profiles. From there you can segment your customers and build a targeter email flow to upsell them. With our Klaviyo integration you can also add quiz contacts automatically to a List. 
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-klaviyo/)
+[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-klaviyo/) &nbsp;·&nbsp; [:fontawesome-solid-arrow-right: build post-quiz lifecycle flows](/how-to-guides/send-klaviyo-post-quiz-email-flows/)
 
 ### [:material-hubspot: HubSpot](/how-to-guides/send-leads-to-hubspot/)
 
