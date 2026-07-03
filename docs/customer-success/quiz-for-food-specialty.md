@@ -129,7 +129,7 @@ Food and drink are consumable, so subscriptions and reorders are where the lifet
 
 - Offer a **[subscription](/how-to-guides/recommend-subscription-products/)** for anything they'll go through regularly (coffee, tea, supplements-adjacent pantry).
 - **[Tag taste and diet](/customer-success/use-customer-tags-in-quiz/)** so each shopper becomes a segment.
-- **[Convert and retain](/customer-success/convert-leads-to-customers/)** with reorder reminders and new-product launches aimed at matching palates.
+- **[Convert and retain](/customer-success/convert-leads-to-customers/)** with reorder reminders and new-product launches aimed at matching palates. Build it as a [replenishment flow in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/#4-replenishment-cycle-timed).
 
 ---
 

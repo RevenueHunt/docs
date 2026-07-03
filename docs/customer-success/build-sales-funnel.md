@@ -123,7 +123,7 @@ Retention is where the economics work, and it runs on the data from stages 2 and
 - **Win-back flow** that references their original answers ("still working on oily skin?").
 - **Subscriptions** for consumables, recommended right on the results page. See [recommend subscription products](/how-to-guides/recommend-subscription-products/).
 
-Full sequence and email cadence: [convert leads to customers](/customer-success/convert-leads-to-customers/).
+Full sequence and email cadence: [convert leads to customers](/customer-success/convert-leads-to-customers/). To wire these exact flows (results delivery, replenishment, cross-sell, and win-back) into Klaviyo step by step, see [how to build post-quiz email flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/).
 
 ### Platform specifics
 

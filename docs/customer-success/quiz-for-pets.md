@@ -142,7 +142,7 @@ Build both with [Set up recommendations](/how-to-guides/set-up-recommendations/)
 ## Turn pet data into repeat revenue
 
 - **[Tag species, size, age, and needs](/customer-success/use-customer-tags-in-quiz/)** so every owner becomes a segment.
-- **[Convert and retain](/customer-success/convert-leads-to-customers/)** with reorder reminders for food, and lifecycle prompts as the pet ages (puppy → adult → senior).
+- **[Convert and retain](/customer-success/convert-leads-to-customers/)** with reorder reminders for food, and lifecycle prompts as the pet ages (puppy → adult → senior). Build it as a [replenishment flow in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/#4-replenishment-cycle-timed).
 - **[Sharpen your ads](/customer-success/use-quiz-data-for-ads/)** by targeting each pet-profile segment with products made for them.
 
 ---

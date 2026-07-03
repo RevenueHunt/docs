@@ -167,7 +167,7 @@ Haircare quizzes gate the email harder than any other beauty category:
 Hair answers map cleanly to segments you can sell to for months:
 
 - **[Tag hair type, texture, and goal](/customer-success/use-customer-tags-in-quiz/)** so every shopper becomes a segment (`curly`, `repair`, `volume`).
-- **[Convert and retain](/customer-success/convert-leads-to-customers/)** with reorder reminders timed to when products run out, plus education that keeps them on the routine.
+- **[Convert and retain](/customer-success/convert-leads-to-customers/)** with reorder reminders timed to when products run out, plus education that keeps them on the routine. Build it as a [replenishment flow in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/#4-replenishment-cycle-timed).
 - **[Sharpen your ads](/customer-success/use-quiz-data-for-ads/)** by showing each hair-type segment the products made for it.
 
 **83% of haircare quiz traffic is mobile**, so keep questions short and tappable, and use picture choices for texture and curl-pattern questions where a photo beats a label.

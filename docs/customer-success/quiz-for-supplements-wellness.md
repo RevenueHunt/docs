@@ -166,7 +166,7 @@ Supplements quizzes are nearly evenly split, leaning toward gating:
 ## Turn goals into recurring revenue
 
 - **[Tag the goal](/customer-success/use-customer-tags-in-quiz/)** so every shopper lands in a segment (`sleep`, `energy`, `immunity`).
-- **[Convert and retain](/customer-success/convert-leads-to-customers/)** with reorder reminders timed to when a bottle runs out, and education that keeps them on the regimen.
+- **[Convert and retain](/customer-success/convert-leads-to-customers/)** with reorder reminders timed to when a bottle runs out, and education that keeps them on the regimen. Build it as a [replenishment flow in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/#4-replenishment-cycle-timed).
 - **[Sharpen your ads](/customer-success/use-quiz-data-for-ads/)** by showing each goal segment the products made for it.
 
 ---

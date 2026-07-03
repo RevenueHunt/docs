@@ -103,6 +103,9 @@ The table is the skeleton. Each email converts only if it does one job and uses 
 
 **Retention (2-3 weeks later).** Split this on whether they bought. Buyers get a replenishment or subscription prompt anchored to their routine (*"time to restock your serum"*). Non-buyers get a softer re-engagement that references their answers (*"still working on oily skin?"*) and points back to their results.
 
+!!! tip "Build these flows in Klaviyo"
+    This section is the strategy. For the click-by-click Klaviyo build of each flow, including results delivery, cart and browse abandonment, replenishment, cross-sell, and win-back, see [how to build post-quiz email flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/).
+
 ---
 
 ## Segment the flow on what the quiz told you

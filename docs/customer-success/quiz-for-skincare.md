@@ -172,7 +172,7 @@ Two anonymized examples from the data make the difference concrete:
 Skincare answers are unusually valuable because the category is consumable and routine-driven. Put the data to work:
 
 - **[Tag skin type and concern](/customer-success/use-customer-tags-in-quiz/)** so every shopper lands in a segment (`oily`, `anti-aging`, `sensitive`).
-- **[Convert the lead](/customer-success/convert-leads-to-customers/)** with a follow-up that speaks to their skin, and time reorder reminders to when products run out.
+- **[Convert the lead](/customer-success/convert-leads-to-customers/)** with a follow-up that speaks to their skin, and time reorder reminders to when products run out. Build the [replenishment and cross-sell flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/#4-replenishment-cycle-timed).
 - **[Sharpen your ads](/customer-success/use-quiz-data-for-ads/)** by showing each skin-type segment products made for them.
 
 Note the device split too: **80% of skincare quiz traffic is mobile**. Keep questions short, tappable, and lean on picture choices where the answer is visual.

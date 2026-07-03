@@ -222,6 +222,9 @@ Each segment is independent, and a single contact can belong to multiple segment
 
 Segments are the input. Email flows are the output. Every segment should have at least one automated flow triggered by joining it. A reliable structure is four emails.
 
+!!! tip "The full lifecycle build in Klaviyo"
+    The four-email shape below is the starting point. To turn each segment into the full set of behavior-triggered flows (results delivery, cart and browse abandonment, replenishment, cross-sell, and win-back), see [how to build post-quiz email flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/).
+
 **Email 1: Immediate - Send within 5-10 minutes of quiz completion**
 
 This is the highest-performing email in any post-quiz sequence. The customer just expressed their preferences and received a recommendation. They're engaged. Send them:
@@ -338,6 +341,7 @@ Klaviyo is the primary example, but the same approach applies to Omnisend, Mailc
 **Related articles:**
 
 - [How to Connect Your Quiz to Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
+- [How to Build Post-Quiz Email Flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/)
 - [How to Send Result Emails](/how-to-guides/send-result-emails/)
 - [How to Build a Sales Funnel](/customer-success/build-sales-funnel/)
 - [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-succesful-quiz/)

@@ -44,7 +44,7 @@ Wherever you sell, the same fundamentals show up across all 540+ beauty quizzes:
 - **Recommend a set, not a single product.** Around **80%** of beauty quizzes recommend a routine or coordinated look, it's the biggest lever on order value.
 - **Keep it short.** 5–7 questions, each one mapped to a product, a segment, or a message (the [data-worth-collecting](/customer-success/what-data-to-collect/) rule).
 - **Design for mobile.** Between **80% and 88%** of beauty quiz traffic is on a phone, so lean on picture questions and big tap targets.
-- **Capture the email and follow up.** Beauty is consumable and routine-driven, so much of the revenue lands in reorder reminders and routine education, connect [Klaviyo](/how-to-guides/send-leads-to-klaviyo/).
+- **Capture the email and follow up.** Beauty is consumable and routine-driven, so much of the revenue lands in reorder reminders and routine education, connect [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and build the [post-quiz email flows](/how-to-guides/send-klaviyo-post-quiz-email-flows/) that drive those reorders.
 
 For the universal build steps, see [how to build a successful quiz](/customer-success/how-to-build-succesful-quiz/) and the [setup checklist](/customer-success/quiz-setup-checklist/). To raise order value, see [bundles, kits & routines](/customer-success/recommend-bundles-kits/).
 
