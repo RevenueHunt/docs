@@ -1401,17 +1401,25 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     ### Example 3 - Display Link to Quiz Results
 
-    Use the `RESPONSE_ID-QuizID` to create a link to the quiz results page. 
-    
-    1. Just add `#response-{{ person|lookup:'RESPONSE_ID-QuizID' }}` to the end of your results page href attribute in any link or URL. 
+    Use the `RESPONSE_ID-QuizID` property to create a link to the quiz results page.
 
-        !!! example "Example: Link to Quiz Results"
+    The default link format adds `#response-{{ person|lookup:'RESPONSE_ID-QuizID' }}` to the end of the URL:
 
-            `<a href="https://yourwebsite.com/#response-{{ person|lookup:'RESPONSE_ID-Gli0KD' }}">View your quiz results</a>`
+    !!! example "Example: Link to Quiz Results"
 
-            where `Gli0KD` is the quiz ID and
+        `<a href="https://yourwebsite.com/#response-{{ person|lookup:'RESPONSE_ID-Gli0KD' }}">View your quiz results</a>`
 
-            - `{{ person|lookup:'RESPONSE_ID-Gli0KD' }}` fetches the dynamic response ID (e.g., eVgV0Y).
+        Here, `Gli0KD` is the quiz ID and `{{ person|lookup:'RESPONSE_ID-Gli0KD' }}` fetches the dynamic response ID (for example, `eVgV0Y`).
+
+    If Klaviyo tracking rewrites or loses the `#response-ID` fragment, Shopify V2 also supports `response_id` as an alternative query parameter:
+
+    !!! example "Alternative: Tracked Link Using response_id"
+
+        `<a href="https://yourwebsite.com/pages/quiz?response_id={{ person|lookup:'RESPONSE_ID-Gli0KD' }}">View your quiz results</a>`
+
+    Replace the example URL with a storefront page where the **Link Popup Quiz** app embed is enabled. Normal Klaviyo click tracking can remain enabled for the query-parameter link. If the base URL already contains query parameters, append `&amp;response_id=...` instead of adding another `?`.
+
+    For `#response-ID` links, adding `clicktracking="off"` to the `<a>` element can prevent Klaviyo from rewriting the link, but Klaviyo will not record click analytics for that link.
 
 
 
