@@ -33,7 +33,11 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
         If a profile with the same email already exists, it will simply be updated with the customer tags from the quiz.
 
-        Customer tags are updated every time a customer takes the quiz.
+        Customer tags are added every time a customer takes the quiz. Tags from previous attempts are kept, so a customer who retakes the quiz and picks different answers will hold the tags from both attempts.
+
+    !!! note
+
+        Customer tags are sent to Shopify exactly as you named them in the quiz builder, with no prefix added. A choice tagged `teen` appears on the Shopify profile as `teen`. Use that same name when you reference the tag in a Shopify Flow condition.
 
 
 
@@ -215,7 +219,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
         ![how to send leads to shopify customers automation4](/images/how_to_shopifyv2_send_leads_to_shopify_customers_automation4.png)
 
-    5. **Set up an email**: To send a follow-up email to all the quiz contacts that contain the `prq_ tag`(right after the tag is added to their profile), click `Then > Action` and from the list select `Send marketing email`. Next, select the email template you want to use.
+    5. **Set up an email**: To send a follow-up email to all the quiz contacts that contain the tag (right after the tag is added to their profile), click `Then > Action` and from the list select `Send marketing email`. Next, select the email template you want to use.
         ![how to send leads to shopify customers automation6](/images/how_to_shopify_customers_flow_add_email.gif)
     6. **Save**: Remember to `Turn on workflow` once you're done with making the changes.
         ![how to shopify customers automation full cycle](/images/how_to_shopify_customers_automation_full_cycle.png)
