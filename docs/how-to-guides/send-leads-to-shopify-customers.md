@@ -8,6 +8,10 @@ You can add new customers automatically to your Shopify Customers list every tim
 
 This article explains how to connect your quiz to Shopify Customers and build a Shopify Flow targeted at quiz takers.
 
+!!! tip
+
+    For a workflow that starts directly when a customer completes a quiz, use the **Quiz Completed** trigger from Product Recommendation Quiz. See [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/).
+
 ## Link Quiz to Shopify Customers
 
 === "Shopify"
