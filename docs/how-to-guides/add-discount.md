@@ -441,9 +441,40 @@ icon: material/sale
 
 === "Shopify"
 
-    It is not currently possible to add discount coupons into your quiz built with the new version of the RevenueHunt app for Shopify. 
-    
-    If you have a discount applied to certain products in your store, these reduced prices will be reflected in the quiz results page automatically.
+    Yes, you can apply a discount at checkout only for customers who leave their email in the quiz. The idea is to send customers to one of two results pages depending on whether they complete the email question: a default page with no discount, and a second page that carries the discount code.
+
+    1. **Create multiple results pages**: Go to [`Results Page Settings -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click `Activate`. A second results page is added.
+
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
+
+    2. **Add the discount code to Results Page 2 only**: Leave *Results Page 1* as the default with no discount. Open *Results Page 2* settings, scroll to the `Discount code` section, and paste your Shopify discount code (create it in Shopify first, as described in the [first part of this article](#set-up-discount-on-the-results-page)).
+
+    3. **Add a discount question**: In the [Quiz Builder](/reference/quiz-builder/), add a question asking whether the customer wants a discount (e.g. a Yes/No choice question).
+
+    4. **Add an email question**: Add an email question so customers can leave their email.
+
+        ![how to add discount email question](/images/how_to_add_discount_email_question.png)
+
+    5. **Add Jump Logic to the discount question**: Open the question's `Conditional logic` and add a rule:
+
+        - If the customer answers `Yes`, they continue to the email question.
+        - If the customer answers `No`, they jump straight to *Results Page 1 (no discount)*.
+
+        ![how to add discount jump logic 1](/images/how_to_add_discount_jump_logic_1.png)
+
+    6. **Add Jump Logic to the email question**: Set the email question to `Always jump to` *Results Page 2 (discount)*, so everyone who leaves their email lands on the page that carries the code.
+
+        ![how to add discount jump logic 2](/images/how_to_add_discount_jump_logic_2.png)
+
+    7. **Save and test**: Save your changes and test the flow with the `Preview` button.
+
+    !!! tip "Simpler alternative"
+
+        If you don't need to fully block the discount, add the code as a Text block on the results page and use [Display Logic](/how-to-guides/use-display-logic/) to reveal that block only to customers who answered a certain way.
+
+    !!! info "Products discounted in Shopify"
+
+        If you have a discount applied to certain products in your store, these reduced prices are reflected on the quiz results page automatically.
 
 
 === "Shopify (Legacy)"
