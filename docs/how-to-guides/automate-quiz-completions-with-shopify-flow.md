@@ -78,8 +78,8 @@ Return to **RevenueHunt > App Settings > Shopify Customers** and find the **Shop
 
 ![Shopify Flow section in RevenueHunt App Settings, showing the Flow not detected status and setup steps](/images/how_to_automate_quiz_completions_with_shopify_flow_settings.png)
 
-- **Active** means Shopify has reported that a workflow using the **Quiz Completed** trigger from Product Recommendation Quiz is turned on.
-- **Inactive** means a workflow was detected but is not currently turned on.
+- **Flow active** means Shopify has reported that a workflow using the **Quiz Completed** trigger from Product Recommendation Quiz is turned on.
+- **Flow inactive** means a workflow was detected but is not currently turned on.
 - **Flow not detected** means Shopify has not reported a workflow using this trigger yet.
 
 Shopify may take a short time to report a workflow status change. The lifecycle timestamp shows when RevenueHunt last received an update from Shopify.
