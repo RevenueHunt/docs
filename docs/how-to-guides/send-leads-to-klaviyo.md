@@ -230,6 +230,8 @@ This article walks you through the process of connecting your quiz to Klaviyo an
 
     **Character Limitations**: Special characters (e.g., è, é, ê) may impede data transmission.
 
+    **Missing or incomplete data?**: If a lead doesn't arrive in Klaviyo, or a customer profile is missing some of the quiz data, open the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool for that response. It (along with the alerts on your dashboard) tells you when optional data was left out to fit within limits, or when a response was too large to send at all. These messages appear in your app's language.
+
 ## Sending Follow-up Emails via Klaviyo
 
 It’s possible to send the product recommendation follow-up emails via Klaviyo, although this is not something that’s a one-click install. It should be built by someone with technical knowledge and experience in Klaviyo. 
@@ -1411,7 +1413,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         Here, `Gli0KD` is the quiz ID and `{{ person|lookup:'RESPONSE_ID-Gli0KD' }}` fetches the dynamic response ID (for example, `eVgV0Y`).
 
-    If Klaviyo tracking rewrites or loses the `#response-ID` fragment, Shopify V2 also supports `response_id` as an alternative query parameter:
+    If Klaviyo tracking rewrites or loses the `#response-ID` fragment, the Built for Shopify version of the RevenueHunt quiz app also supports `response_id` as an alternative query parameter:
 
     !!! example "Alternative: Tracked Link Using response_id"
 
