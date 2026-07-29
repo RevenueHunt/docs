@@ -181,6 +181,26 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
         Check [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) for detailed instructions on setting up Shopify Flows with customer tags.
 
+    **Shopify Flow**
+
+    The `Shopify Flow` card sits directly below the checkbox. It lets you automate actions after an identified customer completes a quiz, using the **Quiz Completed** trigger from Product Recommendation Quiz.
+
+    The label next to the heading shows the current status:
+
+    - `Flow active` - a workflow using the trigger is turned on.
+    - `Flow inactive` - a workflow was detected but is not turned on.
+    - `Flow not detected` - Shopify has not reported a workflow using this trigger yet.
+
+    `Open Shopify Flow` - Opens Shopify Flow so you can create or edit the workflow.
+
+    !!! note
+
+        The trigger only fires for identified customers. Your quiz needs an email question, and `Enable pushing quiz leads to Shopify Customers` must be enabled above.
+
+    !!! tip
+
+        Check [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/) for the full setup and the list of data the trigger provides.
+
 === "Shopify (Legacy)"
 
     Shopify Customers integration is available via the [Connect tab](/reference/quiz-builder/connect-integrations/) in the Quiz Builder for each quiz individually.
