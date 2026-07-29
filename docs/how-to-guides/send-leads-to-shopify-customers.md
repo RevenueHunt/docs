@@ -6,11 +6,7 @@ description: "Learn how to automatically send RevenueHunt quiz leads to your Sho
 
 You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/link-collections/#customer-tags).
 
-This article explains how to connect your quiz to Shopify Customers and build a Shopify Flow targeted at quiz takers.
-
-!!! tip
-
-    For a workflow that starts directly when a customer completes a quiz, use the **Quiz Completed** trigger from Product Recommendation Quiz. See [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/).
+This article explains how to connect your quiz to Shopify Customers, tag respondents based on their answers, and build a Shopify Flow targeted at quiz takers.
 
 ## Link Quiz to Shopify Customers
 
@@ -155,7 +151,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
     ![how to send leads to shopify customers customer profile](/images/how_to_shopifyv2_send_leads_to_shopify_customers_customer_profile.png)
 
-    You can then use these tags to [create a Shopify email Flow](#set-up-shopify-automation-flow).
+    You can then use these tags to [create a Shopify email Flow](#set-up-shopify-flow).
 
 
 
@@ -184,7 +180,7 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
     ![how to send leads to shopify customers customer profile](/images/how_to_send_leads_to_shopify_customers_customer_profile.png)
 
-    You can then use these tags to [create a Shopify email Flow](#set-up-shopify-automation-flow).
+    You can then use these tags to [create a Shopify email Flow](#set-up-shopify-flow).
 
 === "WooCommerce"
 
@@ -202,24 +198,52 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
     Not applicable.
 
-## Set up Shopify Automation Flow
+## Set up Shopify Flow
 
 === "Shopify"
+
+    Shopify Flow runs an automation after someone takes your quiz. There are two ways to start that workflow.
+
+    ### Start from the quiz completion (recommended)
+
+    The `Quiz Completed` trigger from Product Recommendation Quiz starts a workflow every time a respondent finishes the quiz and leaves their email address. It carries the quiz data with it, so your conditions and actions can use the answers, the recommended products, the customer tags and the quiz variable scores.
+
+    1. Make sure your quiz has an email question and that `Enable pushing quiz leads to Shopify Customers` is turned on, as described [above](#link-quiz-to-shopify-customers). Without both of these, nothing reaches Flow.
+    2. Install [Shopify Flow](https://admin.shopify.com/apps/flow) if your store does not have it yet. It is free.
+    3. Open Shopify Flow and click `Create workflow`.
+    4. Click `Select a trigger`, choose `Product Recommendation Quiz`, then `Quiz Completed`.
+    5. Add the conditions and actions you want to run after a completion. Wherever a field accepts a variable, click `Add variable` to pull in the quiz data.
+    6. Click `Turn on workflow`.
+    7. Complete your published quiz with an email address, then reopen the workflow and check its recent runs.
+
+    RevenueHunt reports whether Shopify has seen an active workflow in `App Settings > Shopify Customers > Shopify Flow`.
+
+    !!! tip
+
+        For worked examples, including how to email your team with the quiz results inside the message and how to branch on a customer tag, see [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/).
+
+    ### Start from a customer tag (alternative)
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/I882dDaFD7U?si=Z_Ortou6hQdJ3E4A&amp;start=171" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to shopify customers automation full cycle](/images/how_to_shopifyv2_customers_automation_full_cycle.png)
 
-    1. To set up a post-quiz automation head to your `Shopify dashboard > Marketing > Automations`, click `View templates`.
+    This is the older approach. It uses Shopify's `Customer created` trigger with a condition on [customer tags](/reference/quiz-builder/link-collections/#customer-tags), so it only runs for brand new customers and it cannot read quiz answers or recommendations. Use it when you deliberately want to act on first time customers only, or if you already have an automation built this way and it still does what you need.
+
+    1. **Open the automations list**: go to `Apps > Messaging > Automations` in your Shopify admin and click `Create automation`. Older stores may still reach the same screen from `Marketing > Automations > View templates`.
     2. Select a `Create custom automation` automation:
         ![/how to send leads to shopify customers automation1](/images/how_to_send_leads_to_shopify_customers_automation1.png)
     3. **Add a trigger**: Click anywhere and select the first trigger to be `Customer created`.
         ![how to send leads to shopify customers automation2](/images/how_to_send_leads_to_shopify_customers_automation2.png)
+
+        Remember that this fires only for brand new customers. A respondent who already exists in your Shopify Customers list is updated rather than created, so the automation does not run for them.
     4. **Select a condition**: Add a `Condition` action after the trigger. Click `Add variable` and from the list look for `customer` and then `tags`. Then, set up the condition as follows: 
     
         **At least one customer / tags** `includes` tags_item  `quiz`.
 
         ![how to send leads to shopify customers automation3](/images/how_to_shopify_customers_flow_add_conditon.gif)
+
+        Type the tag exactly as you named it in the quiz builder.
 
         ![how to send leads to shopify customers automation4](/images/how_to_shopifyv2_send_leads_to_shopify_customers_automation4.png)
 
@@ -227,8 +251,15 @@ This article explains how to connect your quiz to Shopify Customers and build a 
         ![how to send leads to shopify customers automation6](/images/how_to_shopify_customers_flow_add_email.gif)
     6. **Save**: Remember to `Turn on workflow` once you're done with making the changes.
         ![how to shopify customers automation full cycle](/images/how_to_shopify_customers_automation_full_cycle.png)
+    7. **Test it**: complete your published quiz with an email address that does not exist in your Shopify Customers list yet, then open the automation and check its recent runs.
 
     Now, all the quiz takers with a specific `tag` like `quiz` will be sent the marketing email.
+
+    !!! note
+
+        Since 24 March 2026, marketing automations that use Shopify Messaging emails are managed in the **Shopify Messaging** app, under `Apps > Messaging > Automations`. Automations whose marketing action comes from another email app, such as Klaviyo or Seguno, remain in the **Shopify Flow** app. Existing automations kept working through the move, so you do not need to rebuild anything.
+
+        `Send marketing email` is not a built-in Shopify Flow action. It is provided by the email app you have installed, and it only delivers to customers who are subscribed to marketing. Quiz leads are marked as subscribed by default, as described [above](#change-subscribedconsent-status-for-email-and-phone-questions).
 
     To learn more about Shopify Automations, check their [FAQ page](https://help.shopify.com/it//manual/promoting-marketing/create-marketing/create-marketing-automations).
 
@@ -282,3 +313,5 @@ This article explains how to connect your quiz to Shopify Customers and build a 
 
 ---
 By following this article, you can learn how to connect your quiz to Shopify Customers and set up your post-quiz email flow with Shopify Flows.
+
+See also: [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/).
