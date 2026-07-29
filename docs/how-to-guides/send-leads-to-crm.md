@@ -13,7 +13,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
 You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/link-collections/#customer-tags).
 
-[:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-shopify-customers/)
+[:fontawesome-solid-arrow-right: send leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) &nbsp;·&nbsp; [:fontawesome-solid-arrow-right: automate with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/)
 
 ### [:material-wifi: Klaviyo](/how-to-guides/send-leads-to-klaviyo/)
 

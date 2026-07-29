@@ -1,5 +1,6 @@
 ---
 description: "Use the Quiz Completed trigger from Product Recommendation Quiz to automate actions in Shopify Flow."
+icon: material/sitemap
 ---
 
 # Automate Quiz Completions with Shopify Flow
