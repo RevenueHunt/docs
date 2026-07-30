@@ -12,7 +12,13 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/I882dDaFD7U?si=aeCor5bo1dWuBp1x" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=jWm6xNtUCt3778hw&amp;start=280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    !!! warning "Before you begin"
+
+        **Ensure your quiz has an email question.** Without an email question the app won't be able to send any data to Shopify Customers or Shopify Flow.
+
+        **(optional) Tag choices with customer tags.** Customer tags get trasfered into the Shopify Customer profile and can be used for further retargeting.
 
     1. Navigate to [App Settings](/reference/app-settings/) from the side menu.
     2. Click on the `Shopify Customers` tab.
@@ -130,7 +136,7 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
 
 === "Shopify"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/I882dDaFD7U?si=kTTsxNa_-PUHglmc&amp;start=101" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=Bpvc82ZhqPbLf5kL&amp;start=38" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
     You can use [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
@@ -206,6 +212,8 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
 
     ### Start from the quiz completion (recommended)
 
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=pPXKYHlVQqxMywSt&amp;start=132" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>    
+
     The `Quiz Completed` trigger from Product Recommendation Quiz starts a workflow every time a respondent finishes the quiz and leaves their email address. It carries the quiz data with it, so your conditions and actions can use the answers, the recommended products, the customer tags and the quiz variable scores.
 
     1. Make sure your quiz has an email question and that `Enable pushing quiz leads to Shopify Customers` is turned on, as described [above](#link-quiz-to-shopify-customers). Without both of these, nothing reaches Flow.
@@ -213,6 +221,11 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
     3. Open Shopify Flow and click `Create workflow`.
     4. Click `Select a trigger`, choose `Product Recommendation Quiz`, then `Quiz Completed`.
     5. Add the conditions and actions you want to run after a completion. Wherever a field accepts a variable, click `Add variable` to pull in the quiz data.
+
+        !!! info
+
+            For every field the trigger makes available, including the answers, recommendations and variable scores, see [What data is sent](/how-to-guides/automate-quiz-completions-with-shopify-flow/#what-data-is-sent).
+
     6. Click `Turn on workflow`.
     7. Complete your published quiz with an email address, then reopen the workflow and check its recent runs.
 
@@ -224,7 +237,7 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
 
     ### Start from a customer tag (alternative)
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/I882dDaFD7U?si=Z_Ortou6hQdJ3E4A&amp;start=171" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=XKMU11jhdcuCgDYc&amp;start=280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
     ![how to shopify customers automation full cycle](/images/how_to_shopifyv2_customers_automation_full_cycle.png)
 
@@ -270,7 +283,7 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
 
     ![how to shopify customers automation full cycle](/images/how_to_shopify_customers_automation_full_cycle.png)
 
-    1. To set up a post-quiz automation head to your `Shopify dashboard > Marketing > Automations`, click `View templates`.
+    1. To set up a post-quiz automation head to `Apps > Messaging > Automations` in your Shopify admin and click `Create automation`. Older stores may still reach the same screen from `Marketing > Automations > View templates`.
     2. Select a `Create custom automation` automation:
         ![/how to send leads to shopify customers automation1](/images/how_to_send_leads_to_shopify_customers_automation1.png)
     3. **Add a trigger**: Click anywhere and select the first trigger to be `Customer created`.
