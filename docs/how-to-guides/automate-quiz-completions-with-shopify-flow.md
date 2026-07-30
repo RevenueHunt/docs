@@ -242,7 +242,7 @@ How the workflow starts depends on which version of the app you use. The Built f
 
     You can still automate what happens after a quiz, using Shopify's own `Customer created` trigger with a condition on customer tags. The workflow starts when the quiz creates a new customer, rather than on the quiz completion itself, so quiz answers, recommendations and variable scores are not available inside the actions.
 
-    <iframe class="alignnone size-full" title="YouTube video player" src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=QDYh3Z321wQDqHd0&amp;start=233" width="100%" height="400px" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
+    <iframe class="alignnone size-full" title="YouTube video player" src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=YGAUsV3-zNMjQZWK&amp;start=279" width="100%" height="400px" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe>
 
     ![how to shopify customers automation full cycle](/images/how_to_shopify_customers_automation_full_cycle.png)
 
