@@ -464,15 +464,13 @@ Apart from giving your customers personalized product recommendations, you can c
 
     !!! example
 
-        Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as `skin-oily`, `skin-dry`, etc.
+        Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
-        In Mailchimp, you create an email series targeting these tags. For instance:
+        In MailChimp, you create an email series targeting these tags. For instance:
 
-        - Day 1: Introduction to products suitable for oily skin. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter1.png).
-        - Day 3: Customer testimonials and reviews for oily skin products. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter-2.png).
-        - Day 7: Special discount on recommended products for oily skin. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter-3.png).
-
-        ![example mailchimp flow](https://revenuehunt.com/wp-content/uploads/2024/07/Screenshot-2024-07-29-093944-768x610.png)
+        - Day 1: Introduction to products suitable for oily skin. 
+        - Day 3: Customer testimonials and reviews for oily skin products. 
+        - Day 7: Special discount on recommended products for oily skin.
 
     !!! tip
 
@@ -511,11 +509,10 @@ Apart from giving your customers personalized product recommendations, you can c
 
             In MailChimp, you create an email series targeting these tags. For instance:
 
-            - Day 1: Introduction to products suitable for oily skin. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter1.png).
-            - Day 3: Customer testimonials and reviews for oily skin products. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter-2.png).
-            - Day 7: Special discount on recommended products for oily skin. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter-3.png).
+            - Day 1: Introduction to products suitable for oily skin. 
+            - Day 3: Customer testimonials and reviews for oily skin products. 
+            - Day 7: Special discount on recommended products for oily skin.
 
-            ![example mailchimp flow](https://revenuehunt.com/wp-content/uploads/2024/07/Screenshot-2024-07-29-093944-768x610.png)
     4. **Test and Optimize.** After setting up your email campaigns, test them with a test email and optimize them based on the results.
 
 === "WooCommerce"
@@ -551,11 +548,10 @@ Apart from giving your customers personalized product recommendations, you can c
 
             In MailChimp, you create an email series targeting these tags. For instance:
 
-            - Day 1: Introduction to products suitable for oily skin. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter1.png).
-            - Day 3: Customer testimonials and reviews for oily skin products. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter-2.png).
-            - Day 7: Special discount on recommended products for oily skin. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter-3.png).
+            - Day 1: Introduction to products suitable for oily skin. 
+            - Day 3: Customer testimonials and reviews for oily skin products. 
+            - Day 7: Special discount on recommended products for oily skin.
 
-            ![example mailchimp flow](https://revenuehunt.com/wp-content/uploads/2024/07/Screenshot-2024-07-29-093944-768x610.png)
     4. **Test and Optimize.** After setting up your email campaigns, test them with a test email and optimize them based on the results.
 
 
@@ -592,11 +588,10 @@ Apart from giving your customers personalized product recommendations, you can c
 
             In MailChimp, you create an email series targeting these tags. For instance:
 
-            - Day 1: Introduction to products suitable for oily skin. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter1.png).
-            - Day 3: Customer testimonials and reviews for oily skin products. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter-2.png).
-            - Day 7: Special discount on recommended products for oily skin. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter-3.png).
+            - Day 1: Introduction to products suitable for oily skin. 
+            - Day 3: Customer testimonials and reviews for oily skin products. 
+            - Day 7: Special discount on recommended products for oily skin.
 
-            ![example mailchimp flow](https://revenuehunt.com/wp-content/uploads/2024/07/Screenshot-2024-07-29-093944-768x610.png)
     4. **Test and Optimize.** After setting up your email campaigns, test them with a test email and optimize them based on the results.
 
 
@@ -673,11 +668,10 @@ Apart from giving your customers personalized product recommendations, you can c
 
             In MailChimp, you create an email series targeting these tags. For instance:
 
-            - Day 1: Introduction to products suitable for oily skin. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter1.png).
-            - Day 3: Customer testimonials and reviews for oily skin products. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter-2.png).
-            - Day 7: Special discount on recommended products for oily skin. Check example [here](https://revenuehunt.com/wp-content/uploads/2024/07/mailchimp-newsletter-3.png).
+            - Day 1: Introduction to products suitable for oily skin. 
+            - Day 3: Customer testimonials and reviews for oily skin products. 
+            - Day 7: Special discount on recommended products for oily skin.
 
-            ![example mailchimp flow](https://revenuehunt.com/wp-content/uploads/2024/07/Screenshot-2024-07-29-093944-768x610.png)
     4. **Test and Optimize.** After setting up your email campaigns, test them with a test email and optimize them based on the results.
 
 
