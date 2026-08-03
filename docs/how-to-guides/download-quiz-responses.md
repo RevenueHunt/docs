@@ -70,28 +70,28 @@ This guide outlines the process for downloading quiz responses from your quiz, a
     1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
     2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
 
-        ![how to download responses](/images/manual_quizbuilder_metrics_responses.png)
+        ![how to download responses](/images/manual_woo_quizbuilder_metrics_responses.png)
 
 === "Magento"
 
     1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
     2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
 
-        ![how to download responses](/images/manual_quizbuilder_metrics_responses.png)
+        ![how to download responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
 
 === "BigCommerce"
 
     1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
     2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
 
-        ![how to download responses](/images/manual_quizbuilder_metrics_responses.png)
+        ![how to download responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
 
 === "Stadalone"
 
     1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
     2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
 
-        ![how to download responses](/images/manual_quizbuilder_metrics_responses.png)
+        ![how to download responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
 
 ## Download All Responses
 
@@ -119,12 +119,22 @@ This guide outlines the process for downloading quiz responses from your quiz, a
 
 === "Shopify (Legacy)"
 
-    If you need to review all quiz responses from the past 90 days, you have the option to download them as a `.CSV file`.
+    If you need to review your quiz responses in bulk, you can download them as a `.CSV file` and pick how far back the export goes: the last 1, 3 or 6 months.
 
     1. Navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
-    2. To initiate the download, simply trigger the `Export all as CSV` button
+    2. To initiate the download, click the button for the period you need: `Export CSV - 1 month`, `Export CSV - 3 months` or `Export CSV - 6 months`.
+
+        ![how to download responses](/images/manual_quizbuilder_metrics_responses.png)
     3. Once the system has generated the file, a download link will be displayed on your [dashboard](/reference/dashboard/).
     4. Click on the download link to save the CSV file to your device for further analysis.
+
+    !!! warning "Export size limit"
+
+        Exports are capped at 100,000 responses. If the range you picked contains more than that, the export is stopped and you're asked to choose a shorter range. [Contact support](/how-to-guides/contact-customer-support/) if you need a larger export.
+
+    !!! note "Requesting another export"
+
+        Once an export has finished, you can request a new one straight away, even if the download link from the previous export is still available.
 
 === "WooCommerce"
 

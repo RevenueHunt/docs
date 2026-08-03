@@ -156,7 +156,15 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
 
-    `Export all as CSV` - Click to generate a CSV file with all the quiz responses from the last 90 days. Once ready, a downloadable link will show up on your dashboard once the CSV file is finished generating.
+    `Export CSV - 1 month` / `Export CSV - 3 months` / `Export CSV - 6 months` - Click to generate a CSV file with the quiz responses from the last 1, 3 or 6 months. Once ready, a downloadable link will show up on your [dashboard](/reference/dashboard/).
+
+    !!! warning "Export size limit"
+
+        Exports are capped at 100,000 responses. If the range you picked contains more than that, the export is stopped and you're asked to choose a shorter range. [Contact support](/how-to-guides/contact-customer-support/) if you need a larger export.
+
+    !!! note "Requesting another export"
+
+        Once an export has finished, you can request a new one straight away, even if the download link from the previous export is still available.
 
     ![quiz builder metrics responses details1](/images/manual_quizbuilder_metrics_responses_details1.png)
 
