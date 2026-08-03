@@ -14,7 +14,7 @@ This guide outlines the process for downloading quiz responses from your quiz, a
 
 === "Shopify (Legacy)"
 
-    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/344009da83db4522b31bf593684ed913?sid=d153421b-4d58-4052-a6ce-784646f0333a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 54.7112462006079%; height: 0;"><iframe src="https://www.loom.com/embed/6b50f7d707b644d2a0a600892d6b91af" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 === "WooCommerce"
 
