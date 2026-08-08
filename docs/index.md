@@ -32,7 +32,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
         4. Follow the onboarding process to create and publish your quiz.
         5. Follow the instructions in the [App Manual](/reference/app-settings/#switch-to-v1) to switch back to the original version of the app. When switching, all your changes will be saved on both app versions.
 
-        Please note that it is currently **not possible** to copy quizzes from the legacy app to the new Built for Shopify version of the app.
+        You can migrate existing quizzes from the legacy app using the **Migrate from Legacy App** option in the [New Quiz](/how-to-guides/migrate-shopify-legacy-quiz/) menu.
 
 
 
@@ -54,7 +54,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
         4. Follow the onboarding process to create and publish your quiz.
         5. Follow the instructions in the [App Manual](/reference/app-settings/#switch-to-v1) to switch back to the original version of the app. When switching, all your changes will be saved on both app versions.
 
-        Please note that it is currently **not possible** to copy quizzes from the legacy app to the new Built for Shopify version of the app.
+        You can migrate existing quizzes from the legacy app using the **Migrate from Legacy App** option in the [New Quiz](/how-to-guides/migrate-shopify-legacy-quiz/) menu.
 
 === "WooCommerce"
 

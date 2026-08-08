@@ -99,9 +99,9 @@ In this guide, we’ll walk you through everything you need to know about transi
 
     - 🛒 Flexible Recommendations: Products, variants, or entire collections
 
-!!! warning
+!!! info
 
-    Please note that the Built for Shopify app is a fresh start: **you’ll need to recreate your quizzes, including all questions, choices, and product or collection recommendations**. But rest assured, you can switch between the Legacy and Built for Shopify versions at any time if you need to.
+    You don’t need to rebuild anything from scratch: **you can import an existing Legacy quiz into the Built for Shopify app with the `Migrate from Legacy App` option**, which copies over your questions, choices, results pages, logic, and design. See [How to Migrate a Legacy Quiz](/how-to-guides/migrate-shopify-legacy-quiz/) for the steps and the few settings that need a manual follow-up. You can also switch between the Legacy and Built for Shopify versions at any time.
 
 1. Navigate to our [Shopify App Store listing](https://apps.shopify.com/product-recommendation-quiz-revenuehunt) and click on “Add app”.
 2. Grant permissions to connect our app to your Shopify.
