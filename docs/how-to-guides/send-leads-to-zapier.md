@@ -388,17 +388,32 @@ description: "Step-by-step guide to connect RevenueHunt quiz to Zapier for integ
 
     ![how_to_shopifyv2_send_leads_to_zapier_test_response](/images/how_to_shopifyv2_send_leads_to_zapier_test_response.png)
     
-    Each Zap trigger includes structured quiz response data, such as:
+    Zapier receives a structured JSON object, the same payload our [Webhooks integration](/how-to-guides/send-leads-to-webhooks/) sends. Each trigger contains:
 
-    | Category                | Example Fields                                                                      |
-    | ----------------------- | ----------------------------------------------------------------------------------- |
-    | **General Information** | `responseId`, `quizId`, `quizName`, `createdAt`                                     |
-    | **User Information**    | `firstName`, `fullName`, `email`, `phone`                                           |
-    | **Tags & Segments**     | Auto-generated tags like `30s`, `dry_skin`, `oily_skin`, etc.                       |
-    | **Answers by Block**    | Includes each question, answer value, and reference IDs                             |
-    | **Recommendations**     | Product recommendations per result slot                                             |
-    | **Variable Scores**     | Numeric values used in advanced recommendation logic                                |
-    | **Result Sections**     | Structured blocks from the quiz results page (text, heading, image, products, etc.) |
+    | Field | Value |
+    | --- | --- |
+    | `responseId` | Unique ID of the response. |
+    | `quizId` | Short ID of the quiz. |
+    | `quizName` | The name of the quiz. |
+    | `createdAt` | ISO8601 timestamp of the response. |
+    | `marketId` | The market or locale ID. |
+    | `firstName`, `lastName`, `fullName` | The customer's name. |
+    | `email` | The customer's email address. |
+    | `phone` | The customer's phone number. |
+    | `answersByBlock` | Nested object keyed by block reference, each with the answer `value` and question `type`. |
+    | `tags` | Array of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `variableScores` | All [variables](/how-to-guides/set-up-scoring-quiz/) and their final scores. |
+    | `highestVariableRef` | Reference of the top-scoring variable. |
+    | `resultRef` | Reference of the result page shown. |
+    | `recommendationsBySlot` | The recommended items, organized by [slot](/reference/quiz-builder/results-page/) reference. |
+    | `resultSections` | The result page sections that were visible to the customer. |
+    | `resultContentByBlock` | The full content (text, images and slots) of each result block. |
+
+    !!! info "Inside `recommendationsBySlot`"
+        Each recommended item carries: `id`, `handle`, `title`, `description`, `price`, `image`, `onlineStoreUrl` and `vendor`.
+
+    !!! tip "Map your Zap to block references"
+        Answers are keyed by the block reference (for example `qbc-123`), not by the question title, so you can rename questions in the Quiz Builder without breaking your Zap. You'll find each reference under the `Advanced` tab of the block in the Quiz Builder.
 
 
     ??? example "Example User Data"
@@ -492,6 +507,36 @@ description: "Step-by-step guide to connect RevenueHunt quiz to Zapier for integ
 
     ![how to zapier data example1](/images/how_to_zapier_data_example1.png)
 
+    **What the Payload Contains**
+
+    The legacy payload is flat, and property names are not prefixed with the quiz ID. That makes it easy to reuse a Zap across quizzes that share the same structure.
+
+    | Field | Value |
+    | --- | --- |
+    | `email` | The customer's email address, or several joined by commas if the quiz collects more than one. |
+    | `name` | The customer's full name. |
+    | `phone` | The customer's phone number. |
+    | `legal` | Any legal or consent text the customer accepted. |
+    | `quiz_id` | The quiz Hash ID, for example `LVPS1n`. |
+    | `quiz_name` | The name of the quiz. |
+    | `response_id` | Unique hash ID of this response. |
+    | `permalink` | URL of the customer's results page. |
+    | `permalink_hash` | The unique hash part of that URL. |
+    | `created_at` | ISO8601 timestamp of the response. |
+    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
+    | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
+    | `tags` | Comma-separated list of all tags assigned. |
+    | `products` | Comma-separated list of all recommended product titles. |
+    | `product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+    | `slot_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The same products grouped by [slot](/reference/quiz-builder/results-page/), when your results page uses them. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price`, `image_url` and `sku`. The slot-based properties carry `name`, `url`, `price` and `image_url`.
+
+    !!! warning "Renaming a question breaks your Zap"
+        Answer keys are built from the slide titles, so editing a question title in the Quiz Builder changes the key sent to Zapier and you'll need to re-map that field in your Zap.
+
 === "WooCommerce"
 
 
@@ -506,6 +551,36 @@ description: "Step-by-step guide to connect RevenueHunt quiz to Zapier for integ
     After configuring the triggers, you can test the connection in Zapier's `Test trigger` section to ensure the correct data is being captured.
 
     ![how to zapier data example1](/images/how_to_zapier_data_example1.png)
+
+    **What the Payload Contains**
+
+    The legacy payload is flat, and property names are not prefixed with the quiz ID. That makes it easy to reuse a Zap across quizzes that share the same structure.
+
+    | Field | Value |
+    | --- | --- |
+    | `email` | The customer's email address, or several joined by commas if the quiz collects more than one. |
+    | `name` | The customer's full name. |
+    | `phone` | The customer's phone number. |
+    | `legal` | Any legal or consent text the customer accepted. |
+    | `quiz_id` | The quiz Hash ID, for example `LVPS1n`. |
+    | `quiz_name` | The name of the quiz. |
+    | `response_id` | Unique hash ID of this response. |
+    | `permalink` | URL of the customer's results page. |
+    | `permalink_hash` | The unique hash part of that URL. |
+    | `created_at` | ISO8601 timestamp of the response. |
+    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
+    | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
+    | `tags` | Comma-separated list of all tags assigned. |
+    | `products` | Comma-separated list of all recommended product titles. |
+    | `product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+    | `slot_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The same products grouped by [slot](/reference/quiz-builder/results-page/), when your results page uses them. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price`, `image_url` and `sku`. The slot-based properties carry `name`, `url`, `price` and `image_url`.
+
+    !!! warning "Renaming a question breaks your Zap"
+        Answer keys are built from the slide titles, so editing a question title in the Quiz Builder changes the key sent to Zapier and you'll need to re-map that field in your Zap.
 
 === "Magento"
 
@@ -522,6 +597,36 @@ description: "Step-by-step guide to connect RevenueHunt quiz to Zapier for integ
 
     ![how to zapier data example1](/images/how_to_zapier_data_example1.png)
 
+    **What the Payload Contains**
+
+    The legacy payload is flat, and property names are not prefixed with the quiz ID. That makes it easy to reuse a Zap across quizzes that share the same structure.
+
+    | Field | Value |
+    | --- | --- |
+    | `email` | The customer's email address, or several joined by commas if the quiz collects more than one. |
+    | `name` | The customer's full name. |
+    | `phone` | The customer's phone number. |
+    | `legal` | Any legal or consent text the customer accepted. |
+    | `quiz_id` | The quiz Hash ID, for example `LVPS1n`. |
+    | `quiz_name` | The name of the quiz. |
+    | `response_id` | Unique hash ID of this response. |
+    | `permalink` | URL of the customer's results page. |
+    | `permalink_hash` | The unique hash part of that URL. |
+    | `created_at` | ISO8601 timestamp of the response. |
+    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
+    | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
+    | `tags` | Comma-separated list of all tags assigned. |
+    | `products` | Comma-separated list of all recommended product titles. |
+    | `product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+    | `slot_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The same products grouped by [slot](/reference/quiz-builder/results-page/), when your results page uses them. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price`, `image_url` and `sku`. The slot-based properties carry `name`, `url`, `price` and `image_url`.
+
+    !!! warning "Renaming a question breaks your Zap"
+        Answer keys are built from the slide titles, so editing a question title in the Quiz Builder changes the key sent to Zapier and you'll need to re-map that field in your Zap.
+
 === "BigCommerce"
 
 
@@ -536,6 +641,36 @@ description: "Step-by-step guide to connect RevenueHunt quiz to Zapier for integ
     After configuring the triggers, you can test the connection in Zapier's `Test trigger` section to ensure the correct data is being captured.
 
     ![how to zapier data example1](/images/how_to_zapier_data_example1.png)
+
+    **What the Payload Contains**
+
+    The legacy payload is flat, and property names are not prefixed with the quiz ID. That makes it easy to reuse a Zap across quizzes that share the same structure.
+
+    | Field | Value |
+    | --- | --- |
+    | `email` | The customer's email address, or several joined by commas if the quiz collects more than one. |
+    | `name` | The customer's full name. |
+    | `phone` | The customer's phone number. |
+    | `legal` | Any legal or consent text the customer accepted. |
+    | `quiz_id` | The quiz Hash ID, for example `LVPS1n`. |
+    | `quiz_name` | The name of the quiz. |
+    | `response_id` | Unique hash ID of this response. |
+    | `permalink` | URL of the customer's results page. |
+    | `permalink_hash` | The unique hash part of that URL. |
+    | `created_at` | ISO8601 timestamp of the response. |
+    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
+    | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
+    | `tags` | Comma-separated list of all tags assigned. |
+    | `products` | Comma-separated list of all recommended product titles. |
+    | `product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+    | `slot_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The same products grouped by [slot](/reference/quiz-builder/results-page/), when your results page uses them. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price`, `image_url` and `sku`. The slot-based properties carry `name`, `url`, `price` and `image_url`.
+
+    !!! warning "Renaming a question breaks your Zap"
+        Answer keys are built from the slide titles, so editing a question title in the Quiz Builder changes the key sent to Zapier and you'll need to re-map that field in your Zap.
 
 === "Standalone"
 
@@ -552,6 +687,45 @@ description: "Step-by-step guide to connect RevenueHunt quiz to Zapier for integ
 
     ![how to zapier data example1](/images/how_to_zapier_data_example1.png)
 
+    **What the Payload Contains**
+
+    The legacy payload is flat, and property names are not prefixed with the quiz ID. That makes it easy to reuse a Zap across quizzes that share the same structure.
+
+    | Field | Value |
+    | --- | --- |
+    | `email` | The customer's email address, or several joined by commas if the quiz collects more than one. |
+    | `name` | The customer's full name. |
+    | `phone` | The customer's phone number. |
+    | `legal` | Any legal or consent text the customer accepted. |
+    | `quiz_id` | The quiz Hash ID, for example `LVPS1n`. |
+    | `quiz_name` | The name of the quiz. |
+    | `response_id` | Unique hash ID of this response. |
+    | `permalink` | URL of the customer's results page. |
+    | `permalink_hash` | The unique hash part of that URL. |
+    | `created_at` | ISO8601 timestamp of the response. |
+    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
+    | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
+    | `tags` | Comma-separated list of all tags assigned. |
+    | `products` | Comma-separated list of all recommended product titles. |
+    | `product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+    | `slot_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The same products grouped by [slot](/reference/quiz-builder/results-page/), when your results page uses them. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price`, `image_url` and `sku`. The slot-based properties carry `name`, `url`, `price` and `image_url`.
+
+    !!! warning "Renaming a question breaks your Zap"
+        Answer keys are built from the slide titles, so editing a question title in the Quiz Builder changes the key sent to Zapier and you'll need to re-map that field in your Zap.
+
+
+??? info "Legacy vs Built for Shopify: payload format"
+
+    | Feature | Legacy | Built for Shopify |
+    | :--- | :--- | :--- |
+    | Data format | Flattened key-value pairs | Nested, structured JSON |
+    | Keys | Slide titles, for example `What is your skin type?` | Internal references, for example `qbc-123` |
+    | Stability | Renaming a question breaks the Zap mapping | Renaming a question is safe |
+    | Product data | Flattened numbered fields like `product_[INDEX]_name` | Full item objects inside `recommendationsBySlot` |
 
 ## Sending Follow-up Emails Directly from Zapier
 

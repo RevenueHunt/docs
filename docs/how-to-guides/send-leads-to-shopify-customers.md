@@ -88,6 +88,74 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
 
 
 
+## What Data is Sent to Shopify Customers?
+
+When someone completes the quiz and leaves their email address, the app creates or updates a customer in your Shopify admin with the data below.
+
+=== "Shopify"
+
+    | Field | Value |
+    | --- | --- |
+    | `email` | The customer's email address, used to match or create the profile. |
+    | `firstName` | The customer's first name. |
+    | `lastName` | The customer's last name. |
+    | `phone` | The customer's phone number. |
+    | Tags | All [tags](/reference/quiz-builder/link-collections/#customer-tags) assigned in the quiz, added to the customer's Shopify tags. |
+    | `emailMarketingConsent` | Set to `SUBSCRIBED` when the customer gives email marketing consent in the quiz. |
+    | `smsMarketingConsent` | Set to `SUBSCRIBED` when a phone number is provided and the customer gives SMS consent. |
+
+    !!! info "Opt-in level"
+        Whether the subscription is recorded as single or confirmed opt-in depends on your settings in the quiz editor. See [Change subscribed/consent status](#change-subscribedconsent-status-for-email-and-phone-questions) and [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
+
+    !!! tip "Shopify Flow receives much more"
+        The customer profile holds identity, tags and consent only. The `Quiz Completed` trigger for [Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/) carries the full response: every answer with its question title, block reference and choice references, the variable scores, the result page, and each recommended product with its product and variant GIDs, price, URL, rank and slot. See [What data is sent](/how-to-guides/automate-quiz-completions-with-shopify-flow/#what-data-is-sent) for the complete field list.
+
+=== "Shopify (Legacy)"
+
+    | Field | Value |
+    | --- | --- |
+    | `email` | The customer's email address, used to match or create the profile. |
+    | `first_name` | The customer's first name. |
+    | `last_name` | The customer's last name. |
+    | `phone` | The customer's phone number. |
+    | Tags | All [tags](/reference/quiz-builder/link-collections/#customer-tags) assigned in the quiz, appended with the `prq_` prefix, for example `prq_Oily-Skin`. |
+    | `accepts_marketing` | Set to `true`. |
+    | Metafield `prq.response_permalink` | URL of the customer's most recent results page. |
+
+    !!! info "Quiz tags are refreshed on every completion"
+        The app looks for existing tags carrying the `prq_` prefix and replaces them with the tags from the newest response, so the profile always reflects the customer's most recent answers rather than accumulating tags from every retake.
+
+    !!! warning "No native Shopify Flow trigger"
+        The legacy version has no `Quiz Completed` trigger. To automate on quiz completions you have two options:
+
+        - **Trigger on customer tags.** Use Shopify's `Customer tags added` trigger and match one of the `prq_` tags. See [Set up Shopify Flow](#set-up-shopify-flow) below.
+        - **Use Zapier.** Connect the quiz to [Zapier](/how-to-guides/send-leads-to-zapier/), which receives the full response and can act on it or push data back to Shopify.
+
+=== "WooCommerce"
+
+    Not applicable.
+
+=== "Magento"
+
+    Not applicable.
+
+=== "BigCommerce"
+
+    Not applicable.
+
+=== "Standalone"
+
+    Not applicable.
+
+??? info "Legacy vs Built for Shopify: what reaches Shopify"
+
+    | Feature | Legacy | Built for Shopify |
+    | :--- | :--- | :--- |
+    | Customer tags | Appended with the `prq_` prefix, and old prefixed tags are reset on each completion | Appended directly, with no prefix |
+    | Metafields | Saves the results permalink to the `prq.response_permalink` metafield | Doesn't write to metafields |
+    | Shopify Flow | Not supported natively, so trigger on customer tags or use Zapier | Native `Quiz Completed` trigger carrying the full response |
+    | Consent | Simple `accepts_marketing: true` | `SUBSCRIBED` status for email and SMS, with opt-in levels |
+
 ## Change subscribed/consent status for email and phone questions
 
 === "Shopify"

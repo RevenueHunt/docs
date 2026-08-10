@@ -105,7 +105,7 @@ How the workflow starts depends on which version of the app you use. The Built f
     !!! warning "Limits and eligibility"
 
         - **The trigger fires only when the response has an email address and the Shopify customer was created or updated successfully.** Completions without an email produce no workflow run.
-        - **The payload is capped at 45 KB**, to stay inside Shopify's 50 KB limit. If a completion would exceed that, optional fields such as `questionTitle` and extra recommendations are truncated automatically. A long quiz with many recommendations is the usual cause, so do not rely on every optional field being present in every run.
+        - **The payload is capped at 45 KB**, to stay inside Shopify's 50 KB limit. If a completion would exceed that, data is pruned automatically in this order: first the recommendation metadata (URLs and prices), then the oldest answers, and finally `recommendationsIncomplete` is set to `true`. A long quiz with many recommendations is the usual cause, so do not rely on every optional field being present in every run.
 
     ## Example 1: Email your team after every quiz completion
 

@@ -356,6 +356,52 @@ description: "Learn how to integrate RevenueHunt quiz with HubSpot to segment an
     3. You will find a section labeled `Product Recommendation Quiz` or similarly, depending on your quiz setup. This section houses all quiz-related data, including answers and product recommendations.
         ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
 
+    **Custom Properties**
+
+    Property names use the quiz **Hash ID** (`[ID]`) in lowercase, so a quiz with the ID `LVPS1n` produces properties like `permalink_lvps1n`.
+
+    !!! warning "Create the properties in HubSpot first"
+
+        Unlike the Built for Shopify version, the legacy app does **not** create properties automatically. You need to create each one manually in HubSpot, using the exact internal name listed below, before the data can sync.
+
+    | Property (internal name) | Value |
+    | --- | --- |
+    | `email` | The customer's email address, used as the primary identifier to find or create the contact. |
+    | `firstname` | The customer's first name. |
+    | `lastname` | The customer's last name. |
+    | `phone` | The customer's phone number. |
+    | `permalink_[ID]` | URL of the customer's results page. |
+    | `permalink_hash_[ID]` | Unique hash of those results. |
+    | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `products_[ID]` | Comma-separated list of all recommended product titles. |
+    | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
+    | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
+    | `slot_[ID]_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price` and `image_url`. `[INDEX]` starts at `0`.
+
+    !!! info "Property names are sanitized"
+        HubSpot has strict property naming rules, so question titles, tag names and slot names are lowercased and underscored when they are turned into internal names.
+
+        - A question titled "What is your skin type?" becomes `q_lvps1n_what_is_your_skin_type`
+        - A tag named "Skin type: oily" becomes `t_lvps1n_skin_type_oily`
+
+        Answers to date questions are sent as Unix timestamps in milliseconds, which is the format HubSpot requires for date properties.
+
+    ??? warning "Quiz data isn't showing up in HubSpot?"
+
+        HubSpot rejects the **entire** sync if even one property in the payload doesn't exist in your portal yet. If some or all quiz data is missing, check that every property above has been created, and that you used the internal name (for example `q_lvps1n_what_is_your_skin_type`) rather than just the label.
+
+        Create each property with the matching type:
+
+        | Data | HubSpot property type |
+        | --- | --- |
+        | Answers (`q_...`) | Text, or Date for date questions |
+        | Tags and choices (`t_...`) | Single checkbox, or Text |
+        | Permalinks and product lists | Text |
+
 === "WooCommerce"
 
     Every time your customers take the quiz, their contact details along with all of their responses and product recommendations will be sent to your HubSpot account.
@@ -365,6 +411,52 @@ description: "Learn how to integrate RevenueHunt quiz with HubSpot to segment an
         ![how to hubspot properties1](/images/how_to_hubspot_image1.png)
     3. You will find a section labeled `Product Recommendation Quiz` or similarly, depending on your quiz setup. This section houses all quiz-related data, including answers and product recommendations.
         ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
+
+    **Custom Properties**
+
+    Property names use the quiz **Hash ID** (`[ID]`) in lowercase, so a quiz with the ID `LVPS1n` produces properties like `permalink_lvps1n`.
+
+    !!! warning "Create the properties in HubSpot first"
+
+        Unlike the Built for Shopify version, the legacy app does **not** create properties automatically. You need to create each one manually in HubSpot, using the exact internal name listed below, before the data can sync.
+
+    | Property (internal name) | Value |
+    | --- | --- |
+    | `email` | The customer's email address, used as the primary identifier to find or create the contact. |
+    | `firstname` | The customer's first name. |
+    | `lastname` | The customer's last name. |
+    | `phone` | The customer's phone number. |
+    | `permalink_[ID]` | URL of the customer's results page. |
+    | `permalink_hash_[ID]` | Unique hash of those results. |
+    | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `products_[ID]` | Comma-separated list of all recommended product titles. |
+    | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
+    | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
+    | `slot_[ID]_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price` and `image_url`. `[INDEX]` starts at `0`.
+
+    !!! info "Property names are sanitized"
+        HubSpot has strict property naming rules, so question titles, tag names and slot names are lowercased and underscored when they are turned into internal names.
+
+        - A question titled "What is your skin type?" becomes `q_lvps1n_what_is_your_skin_type`
+        - A tag named "Skin type: oily" becomes `t_lvps1n_skin_type_oily`
+
+        Answers to date questions are sent as Unix timestamps in milliseconds, which is the format HubSpot requires for date properties.
+
+    ??? warning "Quiz data isn't showing up in HubSpot?"
+
+        HubSpot rejects the **entire** sync if even one property in the payload doesn't exist in your portal yet. If some or all quiz data is missing, check that every property above has been created, and that you used the internal name (for example `q_lvps1n_what_is_your_skin_type`) rather than just the label.
+
+        Create each property with the matching type:
+
+        | Data | HubSpot property type |
+        | --- | --- |
+        | Answers (`q_...`) | Text, or Date for date questions |
+        | Tags and choices (`t_...`) | Single checkbox, or Text |
+        | Permalinks and product lists | Text |
 
 === "Magento"
 
@@ -376,6 +468,52 @@ description: "Learn how to integrate RevenueHunt quiz with HubSpot to segment an
     3. You will find a section labeled `Product Recommendation Quiz` or similarly, depending on your quiz setup. This section houses all quiz-related data, including answers and product recommendations.
         ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
 
+    **Custom Properties**
+
+    Property names use the quiz **Hash ID** (`[ID]`) in lowercase, so a quiz with the ID `LVPS1n` produces properties like `permalink_lvps1n`.
+
+    !!! warning "Create the properties in HubSpot first"
+
+        Unlike the Built for Shopify version, the legacy app does **not** create properties automatically. You need to create each one manually in HubSpot, using the exact internal name listed below, before the data can sync.
+
+    | Property (internal name) | Value |
+    | --- | --- |
+    | `email` | The customer's email address, used as the primary identifier to find or create the contact. |
+    | `firstname` | The customer's first name. |
+    | `lastname` | The customer's last name. |
+    | `phone` | The customer's phone number. |
+    | `permalink_[ID]` | URL of the customer's results page. |
+    | `permalink_hash_[ID]` | Unique hash of those results. |
+    | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `products_[ID]` | Comma-separated list of all recommended product titles. |
+    | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
+    | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
+    | `slot_[ID]_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price` and `image_url`. `[INDEX]` starts at `0`.
+
+    !!! info "Property names are sanitized"
+        HubSpot has strict property naming rules, so question titles, tag names and slot names are lowercased and underscored when they are turned into internal names.
+
+        - A question titled "What is your skin type?" becomes `q_lvps1n_what_is_your_skin_type`
+        - A tag named "Skin type: oily" becomes `t_lvps1n_skin_type_oily`
+
+        Answers to date questions are sent as Unix timestamps in milliseconds, which is the format HubSpot requires for date properties.
+
+    ??? warning "Quiz data isn't showing up in HubSpot?"
+
+        HubSpot rejects the **entire** sync if even one property in the payload doesn't exist in your portal yet. If some or all quiz data is missing, check that every property above has been created, and that you used the internal name (for example `q_lvps1n_what_is_your_skin_type`) rather than just the label.
+
+        Create each property with the matching type:
+
+        | Data | HubSpot property type |
+        | --- | --- |
+        | Answers (`q_...`) | Text, or Date for date questions |
+        | Tags and choices (`t_...`) | Single checkbox, or Text |
+        | Permalinks and product lists | Text |
+
 === "BigCommerce"
 
     Every time your customers take the quiz, their contact details along with all of their responses and product recommendations will be sent to your HubSpot account.
@@ -386,6 +524,52 @@ description: "Learn how to integrate RevenueHunt quiz with HubSpot to segment an
     3. You will find a section labeled `Product Recommendation Quiz` or similarly, depending on your quiz setup. This section houses all quiz-related data, including answers and product recommendations.
         ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
 
+    **Custom Properties**
+
+    Property names use the quiz **Hash ID** (`[ID]`) in lowercase, so a quiz with the ID `LVPS1n` produces properties like `permalink_lvps1n`.
+
+    !!! warning "Create the properties in HubSpot first"
+
+        Unlike the Built for Shopify version, the legacy app does **not** create properties automatically. You need to create each one manually in HubSpot, using the exact internal name listed below, before the data can sync.
+
+    | Property (internal name) | Value |
+    | --- | --- |
+    | `email` | The customer's email address, used as the primary identifier to find or create the contact. |
+    | `firstname` | The customer's first name. |
+    | `lastname` | The customer's last name. |
+    | `phone` | The customer's phone number. |
+    | `permalink_[ID]` | URL of the customer's results page. |
+    | `permalink_hash_[ID]` | Unique hash of those results. |
+    | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `products_[ID]` | Comma-separated list of all recommended product titles. |
+    | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
+    | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
+    | `slot_[ID]_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price` and `image_url`. `[INDEX]` starts at `0`.
+
+    !!! info "Property names are sanitized"
+        HubSpot has strict property naming rules, so question titles, tag names and slot names are lowercased and underscored when they are turned into internal names.
+
+        - A question titled "What is your skin type?" becomes `q_lvps1n_what_is_your_skin_type`
+        - A tag named "Skin type: oily" becomes `t_lvps1n_skin_type_oily`
+
+        Answers to date questions are sent as Unix timestamps in milliseconds, which is the format HubSpot requires for date properties.
+
+    ??? warning "Quiz data isn't showing up in HubSpot?"
+
+        HubSpot rejects the **entire** sync if even one property in the payload doesn't exist in your portal yet. If some or all quiz data is missing, check that every property above has been created, and that you used the internal name (for example `q_lvps1n_what_is_your_skin_type`) rather than just the label.
+
+        Create each property with the matching type:
+
+        | Data | HubSpot property type |
+        | --- | --- |
+        | Answers (`q_...`) | Text, or Date for date questions |
+        | Tags and choices (`t_...`) | Single checkbox, or Text |
+        | Permalinks and product lists | Text |
+
 === "Standalone"
 
     Every time your customers take the quiz, their contact details along with all of their responses and product recommendations will be sent to your HubSpot account.
@@ -395,6 +579,52 @@ description: "Learn how to integrate RevenueHunt quiz with HubSpot to segment an
         ![how to hubspot properties1](/images/how_to_hubspot_image1.png)
     3. You will find a section labeled `Product Recommendation Quiz` or similarly, depending on your quiz setup. This section houses all quiz-related data, including answers and product recommendations.
         ![how to hubspot properties2](/images/how_to_hubspot_image2.png)
+
+    **Custom Properties**
+
+    Property names use the quiz **Hash ID** (`[ID]`) in lowercase, so a quiz with the ID `LVPS1n` produces properties like `permalink_lvps1n`.
+
+    !!! warning "Create the properties in HubSpot first"
+
+        Unlike the Built for Shopify version, the legacy app does **not** create properties automatically. You need to create each one manually in HubSpot, using the exact internal name listed below, before the data can sync.
+
+    | Property (internal name) | Value |
+    | --- | --- |
+    | `email` | The customer's email address, used as the primary identifier to find or create the contact. |
+    | `firstname` | The customer's first name. |
+    | `lastname` | The customer's last name. |
+    | `phone` | The customer's phone number. |
+    | `permalink_[ID]` | URL of the customer's results page. |
+    | `permalink_hash_[ID]` | Unique hash of those results. |
+    | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `products_[ID]` | Comma-separated list of all recommended product titles. |
+    | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
+    | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
+    | `slot_[ID]_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price` and `image_url`. `[INDEX]` starts at `0`.
+
+    !!! info "Property names are sanitized"
+        HubSpot has strict property naming rules, so question titles, tag names and slot names are lowercased and underscored when they are turned into internal names.
+
+        - A question titled "What is your skin type?" becomes `q_lvps1n_what_is_your_skin_type`
+        - A tag named "Skin type: oily" becomes `t_lvps1n_skin_type_oily`
+
+        Answers to date questions are sent as Unix timestamps in milliseconds, which is the format HubSpot requires for date properties.
+
+    ??? warning "Quiz data isn't showing up in HubSpot?"
+
+        HubSpot rejects the **entire** sync if even one property in the payload doesn't exist in your portal yet. If some or all quiz data is missing, check that every property above has been created, and that you used the internal name (for example `q_lvps1n_what_is_your_skin_type`) rather than just the label.
+
+        Create each property with the matching type:
+
+        | Data | HubSpot property type |
+        | --- | --- |
+        | Answers (`q_...`) | Text, or Date for date questions |
+        | Tags and choices (`t_...`) | Single checkbox, or Text |
+        | Permalinks and product lists | Text |
 
 ## Sending Follow-up Emails with HubSpot
 

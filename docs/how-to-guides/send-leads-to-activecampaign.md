@@ -393,6 +393,8 @@ description: "Learn how to send RevenueHunt quiz leads to ActiveCampaign via web
 
         Since you are using one of our alternative methods to connect to ActiveCampaign, you will have full control over the data that is sent to ActiveCampaign. The data provided above are only a list of the most common fields that are sent to ActiveCampaign.
 
+        The exact payload is the one carried by the method you pick, so see [What Data is Sent to Zapier?](/how-to-guides/send-leads-to-zapier/#what-data-is-sent-to-zapier) or [What Data is Sent to Webhook?](/how-to-guides/send-leads-to-webhooks/#what-data-is-sent-to-webhook) for the full field list.
+
         For more information about using data in customer profile for ActiveCampaign, please refer to [ActiveCampaign documentation](https://help.activecampaign.com/hc/en-us/articles/115001374664-How-to-manage-custom-contact-fields).
 
     To set up a redirection of selected data to ActiveCampaign, you can use our Webhooks integration. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, check [ActiveCampaign's webhooks documentation](https://developers.activecampaign.com/page/webhooks) for more information on how to set up a redirection of selected data to ActiveCampaign.
@@ -403,18 +405,35 @@ description: "Learn how to send RevenueHunt quiz leads to ActiveCampaign via web
 
     With the quiz integrated, you might want to enhance contact profiles with additional custom information derived from quiz results.
 
-    Here’s a list of additional custom information that can be added to your contact profile:
+    Quiz data is added to the contact as **custom fields**, and quiz tags are added as native ActiveCampaign tags.
 
-    - Email
-    - First Name
-    - Full Name
-    - Quiz ID
-    - Quiz Name
-    - Response ID
-    - Tags
-    - Permalink
-    - Permalink Hash
-    - Recommended Product IDs
+    !!! warning "Create the custom fields in ActiveCampaign first"
+
+        ActiveCampaign doesn't create fields automatically. Add each field in your ActiveCampaign dashboard before the sync can populate it, and make sure the field's **Personalization Tag** (its unique field key) matches the internal name below, for example the slide hash ID for an answer field.
+
+    | Field | Value |
+    | --- | --- |
+    | `email` | The contact's primary identifier. |
+    | `first_name`, `last_name`, `full_name` | The contact's name, as captured in the quiz. |
+    | `phone_number` | All captured phone numbers, joined by `/`. |
+    | `quiz_id` | The quiz Hash ID, for example `wnHR8G`. |
+    | `quiz_name` | The name of the quiz. |
+    | `response_id` | Unique hash ID of this response. |
+    | `permalink` | URL of the customer's results page. |
+    | `permalink_hash` | The unique hash part of that URL. |
+    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `products_ids` | Comma-separated list of the recommended product IDs. |
+    | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
+    | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
+
+    !!! info "Tags are also sent natively"
+        Besides the `tags` custom field, quiz tags are pushed to ActiveCampaign's own tag system, so they appear as real tags on the contact profile. That makes them the easiest way to start an automation, using the `Tag Added` trigger.
+
+    !!! info "Answer keys and date questions"
+        Answer fields are keyed by the slide's internal hash ID rather than by the question title, so renaming a question doesn't break your field mapping. Answers to date questions are sent in ISO8601 format.
+
+    !!! warning "Products are sent as IDs only"
+        The legacy integration sends recommended products as a list of IDs in `products_ids`, without titles, prices or images. If you need full product details, use [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead.
 
     To add these fields to a new profile:
 
@@ -437,18 +456,35 @@ description: "Learn how to send RevenueHunt quiz leads to ActiveCampaign via web
 
     With the quiz integrated, you might want to enhance contact profiles with additional custom information derived from quiz results.
 
-    Here’s a list of additional custom information that can be added to your contact profile:
+    Quiz data is added to the contact as **custom fields**, and quiz tags are added as native ActiveCampaign tags.
 
-    - Email
-    - First Name
-    - Full Name
-    - Quiz ID
-    - Quiz Name
-    - Response ID
-    - Tags
-    - Permalink
-    - Permalink Hash
-    - Recommended Product IDs
+    !!! warning "Create the custom fields in ActiveCampaign first"
+
+        ActiveCampaign doesn't create fields automatically. Add each field in your ActiveCampaign dashboard before the sync can populate it, and make sure the field's **Personalization Tag** (its unique field key) matches the internal name below, for example the slide hash ID for an answer field.
+
+    | Field | Value |
+    | --- | --- |
+    | `email` | The contact's primary identifier. |
+    | `first_name`, `last_name`, `full_name` | The contact's name, as captured in the quiz. |
+    | `phone_number` | All captured phone numbers, joined by `/`. |
+    | `quiz_id` | The quiz Hash ID, for example `wnHR8G`. |
+    | `quiz_name` | The name of the quiz. |
+    | `response_id` | Unique hash ID of this response. |
+    | `permalink` | URL of the customer's results page. |
+    | `permalink_hash` | The unique hash part of that URL. |
+    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `products_ids` | Comma-separated list of the recommended product IDs. |
+    | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
+    | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
+
+    !!! info "Tags are also sent natively"
+        Besides the `tags` custom field, quiz tags are pushed to ActiveCampaign's own tag system, so they appear as real tags on the contact profile. That makes them the easiest way to start an automation, using the `Tag Added` trigger.
+
+    !!! info "Answer keys and date questions"
+        Answer fields are keyed by the slide's internal hash ID rather than by the question title, so renaming a question doesn't break your field mapping. Answers to date questions are sent in ISO8601 format.
+
+    !!! warning "Products are sent as IDs only"
+        The legacy integration sends recommended products as a list of IDs in `products_ids`, without titles, prices or images. If you need full product details, use [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead.
 
     To add these fields to a new profile:
 
@@ -474,18 +510,35 @@ description: "Learn how to send RevenueHunt quiz leads to ActiveCampaign via web
 
     With the quiz integrated, you might want to enhance contact profiles with additional custom information derived from quiz results.
 
-    Here’s a list of additional custom information that can be added to your contact profile:
+    Quiz data is added to the contact as **custom fields**, and quiz tags are added as native ActiveCampaign tags.
 
-    - Email
-    - First Name
-    - Full Name
-    - Quiz ID
-    - Quiz Name
-    - Response ID
-    - Tags
-    - Permalink
-    - Permalink Hash
-    - Recommended Product IDs
+    !!! warning "Create the custom fields in ActiveCampaign first"
+
+        ActiveCampaign doesn't create fields automatically. Add each field in your ActiveCampaign dashboard before the sync can populate it, and make sure the field's **Personalization Tag** (its unique field key) matches the internal name below, for example the slide hash ID for an answer field.
+
+    | Field | Value |
+    | --- | --- |
+    | `email` | The contact's primary identifier. |
+    | `first_name`, `last_name`, `full_name` | The contact's name, as captured in the quiz. |
+    | `phone_number` | All captured phone numbers, joined by `/`. |
+    | `quiz_id` | The quiz Hash ID, for example `wnHR8G`. |
+    | `quiz_name` | The name of the quiz. |
+    | `response_id` | Unique hash ID of this response. |
+    | `permalink` | URL of the customer's results page. |
+    | `permalink_hash` | The unique hash part of that URL. |
+    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `products_ids` | Comma-separated list of the recommended product IDs. |
+    | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
+    | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
+
+    !!! info "Tags are also sent natively"
+        Besides the `tags` custom field, quiz tags are pushed to ActiveCampaign's own tag system, so they appear as real tags on the contact profile. That makes them the easiest way to start an automation, using the `Tag Added` trigger.
+
+    !!! info "Answer keys and date questions"
+        Answer fields are keyed by the slide's internal hash ID rather than by the question title, so renaming a question doesn't break your field mapping. Answers to date questions are sent in ISO8601 format.
+
+    !!! warning "Products are sent as IDs only"
+        The legacy integration sends recommended products as a list of IDs in `products_ids`, without titles, prices or images. If you need full product details, use [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead.
 
     To add these fields to a new profile:
 
@@ -511,18 +564,35 @@ description: "Learn how to send RevenueHunt quiz leads to ActiveCampaign via web
 
     With the quiz integrated, you might want to enhance contact profiles with additional custom information derived from quiz results.
 
-    Here’s a list of additional custom information that can be added to your contact profile:
+    Quiz data is added to the contact as **custom fields**, and quiz tags are added as native ActiveCampaign tags.
 
-    - Email
-    - First Name
-    - Full Name
-    - Quiz ID
-    - Quiz Name
-    - Response ID
-    - Tags
-    - Permalink
-    - Permalink Hash
-    - Recommended Product IDs
+    !!! warning "Create the custom fields in ActiveCampaign first"
+
+        ActiveCampaign doesn't create fields automatically. Add each field in your ActiveCampaign dashboard before the sync can populate it, and make sure the field's **Personalization Tag** (its unique field key) matches the internal name below, for example the slide hash ID for an answer field.
+
+    | Field | Value |
+    | --- | --- |
+    | `email` | The contact's primary identifier. |
+    | `first_name`, `last_name`, `full_name` | The contact's name, as captured in the quiz. |
+    | `phone_number` | All captured phone numbers, joined by `/`. |
+    | `quiz_id` | The quiz Hash ID, for example `wnHR8G`. |
+    | `quiz_name` | The name of the quiz. |
+    | `response_id` | Unique hash ID of this response. |
+    | `permalink` | URL of the customer's results page. |
+    | `permalink_hash` | The unique hash part of that URL. |
+    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `products_ids` | Comma-separated list of the recommended product IDs. |
+    | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
+    | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
+
+    !!! info "Tags are also sent natively"
+        Besides the `tags` custom field, quiz tags are pushed to ActiveCampaign's own tag system, so they appear as real tags on the contact profile. That makes them the easiest way to start an automation, using the `Tag Added` trigger.
+
+    !!! info "Answer keys and date questions"
+        Answer fields are keyed by the slide's internal hash ID rather than by the question title, so renaming a question doesn't break your field mapping. Answers to date questions are sent in ISO8601 format.
+
+    !!! warning "Products are sent as IDs only"
+        The legacy integration sends recommended products as a list of IDs in `products_ids`, without titles, prices or images. If you need full product details, use [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead.
 
     To add these fields to a new profile:
 
@@ -548,18 +618,35 @@ description: "Learn how to send RevenueHunt quiz leads to ActiveCampaign via web
 
     With the quiz integrated, you might want to enhance contact profiles with additional custom information derived from quiz results.
 
-    Here’s a list of additional custom information that can be added to your contact profile:
+    Quiz data is added to the contact as **custom fields**, and quiz tags are added as native ActiveCampaign tags.
 
-    - Email
-    - First Name
-    - Full Name
-    - Quiz ID
-    - Quiz Name
-    - Response ID
-    - Tags
-    - Permalink
-    - Permalink Hash
-    - Recommended Product IDs
+    !!! warning "Create the custom fields in ActiveCampaign first"
+
+        ActiveCampaign doesn't create fields automatically. Add each field in your ActiveCampaign dashboard before the sync can populate it, and make sure the field's **Personalization Tag** (its unique field key) matches the internal name below, for example the slide hash ID for an answer field.
+
+    | Field | Value |
+    | --- | --- |
+    | `email` | The contact's primary identifier. |
+    | `first_name`, `last_name`, `full_name` | The contact's name, as captured in the quiz. |
+    | `phone_number` | All captured phone numbers, joined by `/`. |
+    | `quiz_id` | The quiz Hash ID, for example `wnHR8G`. |
+    | `quiz_name` | The name of the quiz. |
+    | `response_id` | Unique hash ID of this response. |
+    | `permalink` | URL of the customer's results page. |
+    | `permalink_hash` | The unique hash part of that URL. |
+    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `products_ids` | Comma-separated list of the recommended product IDs. |
+    | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
+    | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
+
+    !!! info "Tags are also sent natively"
+        Besides the `tags` custom field, quiz tags are pushed to ActiveCampaign's own tag system, so they appear as real tags on the contact profile. That makes them the easiest way to start an automation, using the `Tag Added` trigger.
+
+    !!! info "Answer keys and date questions"
+        Answer fields are keyed by the slide's internal hash ID rather than by the question title, so renaming a question doesn't break your field mapping. Answers to date questions are sent in ISO8601 format.
+
+    !!! warning "Products are sent as IDs only"
+        The legacy integration sends recommended products as a list of IDs in `products_ids`, without titles, prices or images. If you need full product details, use [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/) instead.
 
     To add these fields to a new profile:
 

@@ -271,6 +271,211 @@ description: "Learn how to connect RevenueHunt quiz to Omnisend for targeted ema
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](#use-quiz-data-in-omnisend-email-templates).
 
  
+## Custom Properties Sent to Omnisend
+
+Every completed response is sent to Omnisend as `custom properties` on the contact profile. Property names include your quiz ID, so two quizzes never overwrite each other's data on the same contact.
+
+=== "Shopify"
+
+    Property names use the quiz **Short ID** (`[SQID]`) and the internal **references** (`[REF]`) of your questions, choices, tags and slots.
+
+    !!! info "Hyphens become underscores"
+        Omnisend doesn't accept hyphens in property names, so every ID is converted. A block reference of `qbc-485600ce` appears in Omnisend as `qbc_485600ce`.
+
+    | Property | Value |
+    | --- | --- |
+    | `quiz_[SQID]_response_id` | Unique ID of that quiz session. |
+    | `quiz_[SQID]_quiz_name` | The name of the quiz. |
+    | `quiz_[SQID]_result_ref` | Reference or URL of the results page shown. |
+    | `quiz_[SQID]_market_id` | The market or locale ID, if you use multiple markets. |
+    | `quiz_[SQID]_answer_[BLOCK_REF]` | The text of the answer given to that question. |
+    | `quiz_[SQID]_choice_[CHOICE_REF]` | `true` for every choice selected. Best option for segmenting. |
+    | `quiz_[SQID]_tag_[TAG_NAME]` | `true` for every [tag](/how-to-guides/use-customer-tags/) assigned. |
+    | `quiz_[SQID]_variable_[VARIABLE_NAME]` | The numerical score of that [variable](/how-to-guides/set-up-scoring-quiz/). |
+    | `quiz_[SQID]_highest_variable_ref` | Reference of the top-scoring variable. |
+    | `quiz_[SQID]_products` | Comma-separated list of all recommended product titles. |
+    | `quiz_[SQID]_products_count` | Total number of recommended products. |
+    | `quiz_[SQID]_currency` | The store currency code, for example `USD`. |
+    | `quiz_[SQID]_slot_[SLOT_REF]_heading` | Title of that [slot](/reference/quiz-builder/results-page/). |
+    | `quiz_[SQID]_slot_[SLOT_REF]_description` | Description text of that slot. |
+    | `quiz_[SQID]_slot_[SLOT_REF]_products` | Comma-separated product titles in that slot. |
+    | `quiz_[SQID]_slot_[SLOT_REF]_count` | Number of products in that slot. |
+    | `quiz_[SQID]_slot_[SLOT_REF]_[TYPE]_[INDEX]_[FIELD]` | The details of each recommended item, one property per field. |
+
+    !!! info "Item `[FIELD]` values"
+        `title`, `handle`, `id`, `price`, `url`, `image`, `vendor` and `currency`. `[TYPE]` is `product`, `variant` or `collection`, and `[INDEX]` starts at `0`.
+
+    !!! info "Identifiers and consent"
+        The email address is sent as an Omnisend identifier with `source: quiz-[SQID]` and a status of `subscribed` or `nonSubscribed`. A phone number, when provided, is sent as an identifier for SMS marketing. If the quiz block has Omnisend consent enabled, the status is set to `subscribed` along with a `statusDate`. See [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
+
+=== "Shopify (Legacy)"
+
+    Property names use the quiz **Hash ID** (`[ID]`), for example `LVPS1n`.
+
+    | Property | Value |
+    | --- | --- |
+    | `firstName` | First name captured in the quiz. |
+    | `lastName` | Last name captured in the quiz, when available. |
+    | `tags` | Omnisend's standard tags field, populated with the quiz tags. |
+    | `permalink_[ID]` | Link to the customer's results page. |
+    | `permalink_hash_[ID]` | Unique hash of those results. |
+    | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
+    | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
+    | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
+    | `slot_[ID]_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price` and `image_url`. `[INDEX]` starts at `0`.
+
+    !!! info "Property names are sanitized"
+        Omnisend has strict naming rules, so question titles, tag names and slot names are lowercased, underscored and sometimes truncated when they are turned into property names.
+
+        - A question titled "What is your skin type?" becomes `q_lvps1n_what_is_your_skin_type: Oily`
+        - A tag named "Skin type: oily" becomes `t_lvps1n_skin_type_oily: true`
+
+    !!! info "Identifiers and consent"
+        The email address, and the phone number when provided, are sent as Omnisend identifiers with a status of `subscribed` on submission.
+
+=== "WooCommerce"
+
+    Property names use the quiz **Hash ID** (`[ID]`), for example `LVPS1n`.
+
+    | Property | Value |
+    | --- | --- |
+    | `firstName` | First name captured in the quiz. |
+    | `lastName` | Last name captured in the quiz, when available. |
+    | `tags` | Omnisend's standard tags field, populated with the quiz tags. |
+    | `permalink_[ID]` | Link to the customer's results page. |
+    | `permalink_hash_[ID]` | Unique hash of those results. |
+    | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
+    | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
+    | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
+    | `slot_[ID]_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price` and `image_url`. `[INDEX]` starts at `0`.
+
+    !!! info "Property names are sanitized"
+        Omnisend has strict naming rules, so question titles, tag names and slot names are lowercased, underscored and sometimes truncated when they are turned into property names.
+
+        - A question titled "What is your skin type?" becomes `q_lvps1n_what_is_your_skin_type: Oily`
+        - A tag named "Skin type: oily" becomes `t_lvps1n_skin_type_oily: true`
+
+    !!! info "Identifiers and consent"
+        The email address, and the phone number when provided, are sent as Omnisend identifiers with a status of `subscribed` on submission.
+
+=== "Magento"
+
+    Property names use the quiz **Hash ID** (`[ID]`), for example `LVPS1n`.
+
+    | Property | Value |
+    | --- | --- |
+    | `firstName` | First name captured in the quiz. |
+    | `lastName` | Last name captured in the quiz, when available. |
+    | `tags` | Omnisend's standard tags field, populated with the quiz tags. |
+    | `permalink_[ID]` | Link to the customer's results page. |
+    | `permalink_hash_[ID]` | Unique hash of those results. |
+    | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
+    | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
+    | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
+    | `slot_[ID]_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price` and `image_url`. `[INDEX]` starts at `0`.
+
+    !!! info "Property names are sanitized"
+        Omnisend has strict naming rules, so question titles, tag names and slot names are lowercased, underscored and sometimes truncated when they are turned into property names.
+
+        - A question titled "What is your skin type?" becomes `q_lvps1n_what_is_your_skin_type: Oily`
+        - A tag named "Skin type: oily" becomes `t_lvps1n_skin_type_oily: true`
+
+    !!! info "Identifiers and consent"
+        The email address, and the phone number when provided, are sent as Omnisend identifiers with a status of `subscribed` on submission.
+
+=== "BigCommerce"
+
+    Property names use the quiz **Hash ID** (`[ID]`), for example `LVPS1n`.
+
+    | Property | Value |
+    | --- | --- |
+    | `firstName` | First name captured in the quiz. |
+    | `lastName` | Last name captured in the quiz, when available. |
+    | `tags` | Omnisend's standard tags field, populated with the quiz tags. |
+    | `permalink_[ID]` | Link to the customer's results page. |
+    | `permalink_hash_[ID]` | Unique hash of those results. |
+    | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
+    | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
+    | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
+    | `slot_[ID]_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price` and `image_url`. `[INDEX]` starts at `0`.
+
+    !!! info "Property names are sanitized"
+        Omnisend has strict naming rules, so question titles, tag names and slot names are lowercased, underscored and sometimes truncated when they are turned into property names.
+
+        - A question titled "What is your skin type?" becomes `q_lvps1n_what_is_your_skin_type: Oily`
+        - A tag named "Skin type: oily" becomes `t_lvps1n_skin_type_oily: true`
+
+    !!! info "Identifiers and consent"
+        The email address, and the phone number when provided, are sent as Omnisend identifiers with a status of `subscribed` on submission.
+
+=== "Standalone"
+
+    Property names use the quiz **Hash ID** (`[ID]`), for example `LVPS1n`.
+
+    | Property | Value |
+    | --- | --- |
+    | `firstName` | First name captured in the quiz. |
+    | `lastName` | Last name captured in the quiz, when available. |
+    | `tags` | Omnisend's standard tags field, populated with the quiz tags. |
+    | `permalink_[ID]` | Link to the customer's results page. |
+    | `permalink_hash_[ID]` | Unique hash of those results. |
+    | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
+    | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
+    | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
+    | `slot_[ID]_[SLOT_NAME]_product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `price` and `image_url`. `[INDEX]` starts at `0`.
+
+    !!! info "Property names are sanitized"
+        Omnisend has strict naming rules, so question titles, tag names and slot names are lowercased, underscored and sometimes truncated when they are turned into property names.
+
+        - A question titled "What is your skin type?" becomes `q_lvps1n_what_is_your_skin_type: Oily`
+        - A tag named "Skin type: oily" becomes `t_lvps1n_skin_type_oily: true`
+
+    !!! info "Identifiers and consent"
+        The email address, and the phone number when provided, are sent as Omnisend identifiers with a status of `subscribed` on submission.
+
+!!! tip "Can't find a property in Omnisend?"
+
+    Omnisend only lists properties it has already received, so take a test quiz first and try again.
+
+    In the Built for Shopify version, property names contain the reference of the block, choice or tag rather than its title, which you'll find in the Quiz Builder under the `Advanced` tab of that block or choice. Renaming a question therefore doesn't break your Omnisend setup. In the legacy versions the opposite is true: property names are built from the question title, so renaming a question creates a new property.
+
+??? info "Legacy vs Built for Shopify: property naming"
+
+    If you migrated from the legacy app, your Omnisend segments and email templates need updating because the property names changed.
+
+    | Data | Legacy | Built for Shopify |
+    | :--- | :--- | :--- |
+    | Key format | `[PROPERTY]_[ID]` | `quiz_[SQID]_[PROPERTY]` |
+    | Answers | `q_[ID]_[QUESTION_TITLE]`, built from the sanitized question title | `quiz_[SQID]_answer_[BLOCK_REF]`, built from the block reference |
+    | Variables | Not sent | `quiz_[SQID]_variable_[NAME]` and `quiz_[SQID]_highest_variable_ref` |
+    | Products | Title, URL, price and image only | Adds slot headings and descriptions, currency, vendor, handle and item IDs |
+    | Consent | Defaults to `subscribed` on submission | Follows the Omnisend consent setting on the quiz block |
+
 ## Send Follow-up Emails with Omnisend
 
 === "Shopify"
@@ -560,6 +765,8 @@ description: "Learn how to connect RevenueHunt quiz to Omnisend for targeted ema
 
 
 ## Use Quiz Data In Omnisend Email Templates
+
+See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) for the full list of properties you can pull into a template.
 
 === "Shopify"
 
