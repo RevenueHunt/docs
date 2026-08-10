@@ -232,6 +232,169 @@ This article walks you through the process of connecting your quiz to Klaviyo an
 
     **Missing or incomplete data?**: If a lead doesn't arrive in Klaviyo, or a customer profile is missing some of the quiz data, open the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool for that response. It (along with the alerts on your dashboard) tells you when optional data was left out to fit within limits, or when a response was too large to send at all. These messages appear in your app's language.
 
+## Custom Properties Sent to Klaviyo
+
+Every completed response is sent to Klaviyo as `custom properties` on the customer's profile, and as event properties on the quiz completion event. Property names include your quiz ID, so two quizzes never overwrite each other's data on the same profile.
+
+=== "Shopify"
+
+    Property names use the quiz **Short ID** (`[SQID]`) and internal **references** (`[REF]`) of your questions, choices and tags.
+
+    | Property | Value |
+    | --- | --- |
+    | `$email` | The customer's email address. |
+    | `$first_name` | First name, from a Contact Info block. |
+    | `$last_name` | Last name, from a Contact Info block. |
+    | `$phone_number` | Phone number, from a Contact Info block. |
+    | `QUIZ_NAME-[SQID]` | The name of the quiz. |
+    | `RESPONSE_ID-[SQID]` | Unique ID of that quiz session. |
+    | `MARKET_ID-[SQID]` | The market or locale, if you use multiple markets. |
+    | `ANSWER_BY_BLOCK-[BLOCK_REF]-[SQID]` | The text of the answer given to that question. |
+    | `CHOICE-[CHOICE_REF]-[SQID]` | `true` for every choice selected. Best option for segmenting. |
+    | `TAG-[TAG_NAME]-[SQID]` | `true` for every [tag](/how-to-guides/use-customer-tags/) assigned. |
+    | `VARIABLE_SCORES-[SQID]` | JSON with all [variable](/how-to-guides/set-up-scoring-quiz/) scores. |
+    | `HIGHEST_VARIABLE_REF-[SQID]` | Reference of the top-scoring variable. |
+    | `RESULT_REF-[SQID]` | Reference or URL of the result page shown. |
+    | `RESULT_SECTIONS-[SQID]` | JSON with the result sections shown. |
+    | `RESULT_CONTENT_BY_BLOCK-[SQID]` | JSON with the content shown in each result block. |
+    | `RECOMMENDATIONS_BY_SLOT-[SQID]` | JSON with the recommended products per [slot](/reference/quiz-builder/results-page/). |
+
+    !!! info "Inside `RECOMMENDATIONS_BY_SLOT`"
+        Each recommended item carries: `id`, `handle`, `title`, `description`, `price`, `image`, `onlineStoreUrl` and `vendor`.
+
+=== "Shopify (Legacy)"
+
+    Property names use the quiz **Hash ID** (`[ID]`) and slide IDs.
+
+    | Property | Value |
+    | --- | --- |
+    | `$email` | The customer's email address. |
+    | `$first_name` | First name, from a Contact Info slide. |
+    | `$last_name` | Last name, from a Contact Info slide. |
+    | `$phone_number` | Phone number, from a Contact Info slide. |
+    | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
+    | `PERMALINK-[ID]` | Direct link to the customer's results page. |
+    | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
+    | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
+    | `PRODUCTS-[ID]: product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+    | `SLOT-[ID]: [SLOT_TITLE] - product_[INDEX]_[FIELD]` | The same product fields, grouped by [slot](/reference/quiz-builder/results-page/). |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `image_url`, `price`, `sku`, `id` and `variant_id`. `[INDEX]` starts at `0`.
+
+=== "WooCommerce"
+
+    Property names use the quiz **Hash ID** (`[ID]`) and slide IDs.
+
+    | Property | Value |
+    | --- | --- |
+    | `$email` | The customer's email address. |
+    | `$first_name` | First name, from a Contact Info slide. |
+    | `$last_name` | Last name, from a Contact Info slide. |
+    | `$phone_number` | Phone number, from a Contact Info slide. |
+    | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
+    | `PERMALINK-[ID]` | Direct link to the customer's results page. |
+    | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
+    | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
+    | `PRODUCTS-[ID]: product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+    | `SLOT-[ID]: [SLOT_TITLE] - product_[INDEX]_[FIELD]` | The same product fields, grouped by [slot](/reference/quiz-builder/results-page/). |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `image_url`, `price`, `sku`, `id` and `variant_id`. `[INDEX]` starts at `0`.
+
+=== "Magento"
+
+    Property names use the quiz **Hash ID** (`[ID]`) and slide IDs.
+
+    | Property | Value |
+    | --- | --- |
+    | `$email` | The customer's email address. |
+    | `$first_name` | First name, from a Contact Info slide. |
+    | `$last_name` | Last name, from a Contact Info slide. |
+    | `$phone_number` | Phone number, from a Contact Info slide. |
+    | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
+    | `PERMALINK-[ID]` | Direct link to the customer's results page. |
+    | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
+    | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
+    | `PRODUCTS-[ID]: product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+    | `SLOT-[ID]: [SLOT_TITLE] - product_[INDEX]_[FIELD]` | The same product fields, grouped by [slot](/reference/quiz-builder/results-page/). |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `image_url`, `price`, `sku`, `id` and `variant_id`. `[INDEX]` starts at `0`.
+
+=== "BigCommerce"
+
+    Property names use the quiz **Hash ID** (`[ID]`) and slide IDs.
+
+    | Property | Value |
+    | --- | --- |
+    | `$email` | The customer's email address. |
+    | `$first_name` | First name, from a Contact Info slide. |
+    | `$last_name` | Last name, from a Contact Info slide. |
+    | `$phone_number` | Phone number, from a Contact Info slide. |
+    | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
+    | `PERMALINK-[ID]` | Direct link to the customer's results page. |
+    | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
+    | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
+    | `PRODUCTS-[ID]: product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+    | `SLOT-[ID]: [SLOT_TITLE] - product_[INDEX]_[FIELD]` | The same product fields, grouped by [slot](/reference/quiz-builder/results-page/). |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `image_url`, `price`, `sku`, `id` and `variant_id`. `[INDEX]` starts at `0`.
+
+=== "Standalone"
+
+    Property names use the quiz **Hash ID** (`[ID]`) and slide IDs.
+
+    | Property | Value |
+    | --- | --- |
+    | `$email` | The customer's email address. |
+    | `$first_name` | First name, from a Contact Info slide. |
+    | `$last_name` | Last name, from a Contact Info slide. |
+    | `$phone_number` | Phone number, from a Contact Info slide. |
+    | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
+    | `PERMALINK-[ID]` | Direct link to the customer's results page. |
+    | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
+    | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
+    | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
+    | `PRODUCTS-[ID]: product_[INDEX]_[FIELD]` | The recommended products, one property per field. |
+    | `SLOT-[ID]: [SLOT_TITLE] - product_[INDEX]_[FIELD]` | The same product fields, grouped by [slot](/reference/quiz-builder/results-page/). |
+
+    !!! info "Product `[FIELD]` values"
+        `name`, `url`, `image_url`, `price`, `sku`, `id` and `variant_id`. `[INDEX]` starts at `0`.
+
+!!! tip "Can't find a property in Klaviyo?"
+
+    Klaviyo only lists properties it has already received, so take a test quiz first and try again.
+
+    In the Built for Shopify version, property names contain the reference of the block, choice or tag, not its title. You'll find that reference in the Quiz Builder, under the `Advanced` tab of the block or choice. Renaming a question in the quiz therefore doesn't break your Klaviyo segments.
+
+??? info "Legacy vs Built for Shopify: property naming"
+
+    If you migrated from the legacy app, your Klaviyo segments and email templates need updating because the property names changed.
+
+    | Data | Legacy | Built for Shopify |
+    | :--- | :--- | :--- |
+    | Quiz ID | Hash ID, for example `LVPS1n` | Short ID, for example `YN5L9G` |
+    | Answers | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | `ANSWER_BY_BLOCK-[BLOCK_REF]-[SQID]` |
+    | Tags | `TAGS-[ID]` (comma-separated) | `TAG-[TAG_NAME]-[SQID]` (boolean) |
+    | Results page | `PERMALINK-[ID]` | `RESULT_REF-[SQID]` and `RESPONSE_ID-[SQID]` |
+    | Products | `PRODUCTS-[ID]: product_0_name` | `RECOMMENDATIONS_BY_SLOT-[SQID]` |
+
 ## Sending Follow-up Emails via Klaviyo
 
 It’s possible to send the product recommendation follow-up emails via Klaviyo, although this is not something that’s a one-click install. It should be built by someone with technical knowledge and experience in Klaviyo. 
