@@ -335,7 +335,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions.png)
     
-    **+ Add choice** - Adds an extra choice in muliple-choice questions.
+    **+ Add choice** - Adds an extra choice in multiple-choice questions.
 
     **+Add block** - Adds an extra building block to the quiz question.
     
@@ -4355,7 +4355,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_notification_toself](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
 
-    *Receive an email when someone completes the quiz* - Activate this option to recieve notifications to your specified email address when someone completes the quiz (reaches the results page).
+    *Receive an email when someone completes the quiz* - Activate this option to receive notifications to your specified email address when someone completes the quiz (reaches the results page).
 
     *Email subject:* - Add the title of the notification email.
 

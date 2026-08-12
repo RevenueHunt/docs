@@ -392,7 +392,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     **Email template**
 
-    `Receive an email when someone completes the quiz` - Activate this option to recieve notifications to your specified email address when someone completes the quiz (reaches the results page).
+    `Receive an email when someone completes the quiz` - Activate this option to receive notifications to your specified email address when someone completes the quiz (reaches the results page).
 
     `Email to:` - Add an email address to which the notification should be sent.
 

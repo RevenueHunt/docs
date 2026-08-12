@@ -26,7 +26,7 @@ Everything here is built on what actually works, measured across tens of million
 !!! example "🆕 I'm building my first quiz"
     Get it right *before* you launch. Plan it, build it, make it recommend the right products, and publish it where shoppers will actually see it.
 
-    [:octicons-arrow-right-24: Quiz setup checklist](/customer-success/quiz-setup-checklist/) &nbsp;·&nbsp; [How to build a successful quiz](/customer-success/how-to-build-succesful-quiz/)
+    [:octicons-arrow-right-24: Quiz setup checklist](/customer-success/quiz-setup-checklist/) &nbsp;·&nbsp; [How to build a successful quiz](/customer-success/how-to-build-successful-quiz/)
 
 !!! info "📈 My quiz is live but underperforming"
     Diagnose before you tweak. Find out *where* in the funnel you're losing people (visibility, completion, or conversion), then fix the right thing.
@@ -88,7 +88,7 @@ Same traffic, more revenue. A quiz lets you recommend *more than one thing*, and
 
 When shoppers can't choose, they leave. A quiz turns a confusing catalog into a guided consultation that routes every visitor to the product that fits.
 
-- **[Ask the right questions, and the right number of them](/customer-success/how-to-build-succesful-quiz/):** the best quizzes ask **5-8 questions**; more than that and completion collapses.
+- **[Ask the right questions, and the right number of them](/customer-success/how-to-build-successful-quiz/):** the best quizzes ask **5-8 questions**; more than that and completion collapses.
 - **[Recommend the right products](/how-to-guides/recommend-products/):** set up the logic that maps answers to products so shoppers never get a bad match.
 - **[Route a big catalog with a funnel quiz](/how-to-guides/set-up-funnel-quiz/):** split shoppers into sub-catalogs (e.g. skincare / makeup / supplements) from a single quiz.
 - **[Get more people to take the quiz](/customer-success/how-to-get-more-quiz-engagement/):** visibility and placement, the highest-ROI fix most stores skip.

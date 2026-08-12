@@ -31,7 +31,7 @@ This article is structured in three layers: make the quiz easy to find on-site, 
 
 This is the highest-ROI section. The average merchant publishes their quiz in one place and wonders why nobody takes it. The most successful quizzes are published in **at least two or three locations simultaneously** - so customers can find it wherever they are in their shopping journey.
 
-![Multiple quiz publishing locations](/images/how_to_build_a_succesful_quiz_image1.png)
+![Multiple quiz publishing locations](/images/how_to_build_a_successful_quiz_image1.png)
 
 **Set up an automatic popup for new visitors.** An automatic popup is the most effective single placement for quiz starts. It meets first-time visitors the moment they arrive - before they've had a chance to browse past the quiz. Set it to trigger after 3-5 seconds or on scroll, and give visitors an easy way to dismiss it so it doesn't feel intrusive.
 
@@ -85,7 +85,7 @@ Getting people to the quiz is step one. Keeping them through to the results page
 
 The name appears in your CTA buttons, navigation links, and popups - so it's often the first thing a customer reads. Make it count.
 
-![Professional quiz names in practice](/images/how_to_build_a_succesful_quiz_image3.jpg)
+![Professional quiz names in practice](/images/how_to_build_a_successful_quiz_image3.jpg)
 
 **Write a welcome slide that hooks them in the first 5 seconds.** The welcome slide is your pitch. A weak welcome slide - or no welcome slide at all - loses customers before they've answered a single question.
 
@@ -113,7 +113,7 @@ A strong welcome slide does three things:
 
 **Use personalization to make it feel real.** Customers are more likely to finish a quiz that feels like a genuine consultation. Using [Information Recalls](/how-to-guides/use-information-recalls/) - recalling the customer's name on the results page, referencing their earlier answers - makes the experience feel tailored rather than automated.
 
-![Personalized quiz using information recalls](/images/how_to_build_a_succesful_quiz_image8.gif)
+![Personalized quiz using information recalls](/images/how_to_build_a_successful_quiz_image8.gif)
 
 ---
 
@@ -201,5 +201,5 @@ Send paid ads to a dedicated quiz page rather than to a product page or homepage
 
 - [Why Your Product Quiz is NOT Converting Well](/customer-success/quiz-not-converting/)
 - [How to Reduce Drop-Off](/customer-success/reduce-dropoff/)
-- [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-succesful-quiz/)
+- [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
 - [Quiz Setup Checklist](/customer-success/quiz-setup-checklist/)

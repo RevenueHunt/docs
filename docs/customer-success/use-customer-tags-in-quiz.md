@@ -344,4 +344,4 @@ Klaviyo is the primary example, but the same approach applies to Omnisend, Mailc
 - [How to Build Post-Quiz Email Flows in Klaviyo](/how-to-guides/send-klaviyo-post-quiz-email-flows/)
 - [How to Send Result Emails](/how-to-guides/send-result-emails/)
 - [How to Build a Sales Funnel](/customer-success/build-sales-funnel/)
-- [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-succesful-quiz/)
+- [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)

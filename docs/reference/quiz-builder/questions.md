@@ -14,7 +14,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `↔` - Click to expand the questions and choices in a horizontal view.
     
-    `+ Add choice` - Adds an extra choice in muliple-choice questions. To remove a choice, click on the 🗑 bin icon.
+    `+ Add choice` - Adds an extra choice in multiple-choice questions. To remove a choice, click on the 🗑 bin icon.
 
     `+ Add block` - Adds an extra [building block](/reference/quiz-builder/questions/#block-settings) to the quiz question. To remove a block, click on the 🗑 bin icon.
     

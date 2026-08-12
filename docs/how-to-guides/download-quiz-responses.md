@@ -86,7 +86,7 @@ This guide outlines the process for downloading quiz responses from your quiz, a
 
         ![how to download responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
 
-=== "Stadalone"
+=== "Standalone"
 
     1. To view the last 100 individual responses, navigate to the [Metrics -> Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
     2. On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.

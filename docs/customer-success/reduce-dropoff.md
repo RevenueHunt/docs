@@ -91,7 +91,7 @@ A strong welcome slide does three things:
 - **Sets time expectations**: *"8 questions, 2 minutes"*
 - **Mentions the reward**: *"Complete the quiz and get 10% off"*
 
-![Professional quiz names and welcome framing](/images/how_to_build_a_succesful_quiz_image3.jpg)
+![Professional quiz names and welcome framing](/images/how_to_build_a_successful_quiz_image3.jpg)
 
 Also rethink your quiz name if it's generic. *"Skin Diagnostic"*, *"Routine Builder"*, *"Shade Finder"* communicate a professional, useful tool. *"Quiz"* communicates nothing.
 
@@ -114,9 +114,9 @@ Also rethink your quiz name if it's generic. *"Skin Diagnostic"*, *"Routine Buil
 - **Does it have too many choices?** Stick to **3-6 options per question**. More than 6 causes decision fatigue.
 - **Is there no "I'm not sure" option?** If customers might genuinely not know the answer, add a neutral fallback option that maps to a sensible default.
 
-![Picture questions reduce ambiguity for visual answers](/images/how_to_build_a_succesful_quiz_image5.jpg)
+![Picture questions reduce ambiguity for visual answers](/images/how_to_build_a_successful_quiz_image5.jpg)
 
-![Picture choice layout examples](/images/how_to_build_a_succesful_quiz_image6.jpg)
+![Picture choice layout examples](/images/how_to_build_a_successful_quiz_image6.jpg)
 
 Use **picture questions** where the answer is genuinely visual - skin tone, hair texture, shade matching. They reduce guessing and wrong answers, which means better recommendations and higher completion.
 
@@ -167,7 +167,7 @@ A quiz with fully mapped answers produces tight, accurate recommendations. Those
 - Include a discount code if the customer earned one
 - Remove distractions: hide pop-ups, chat overlays, and promo banners while the quiz is active
 
-![Focused single-product results page](/images/how_to_build_a_succesful_quiz_image7.png)
+![Focused single-product results page](/images/how_to_build_a_successful_quiz_image7.png)
 
 ---
 

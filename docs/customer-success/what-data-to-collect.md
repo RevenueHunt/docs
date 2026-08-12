@@ -120,7 +120,7 @@ A question only does its job if the answer is clean enough to act on:
 
 - **Ask the symptom, not the solution.** "How does your skin feel?" beats "which moisturizer do you want?" The shopper knows their problem; your quiz is what translates it into a product.
 - **Make every answer choice map to something.** If a choice doesn't push the recommendation, change a segment, or alter a message, it's dead weight, see [link products to answers](/how-to-guides/recommend-products/).
-- **Put the easy, visual questions first** and the email near the end, after they're invested. Keep choices tight (3-6 per question); the [length and format detail is here](/customer-success/how-to-build-succesful-quiz/).
+- **Put the easy, visual questions first** and the email near the end, after they're invested. Keep choices tight (3-6 per question); the [length and format detail is here](/customer-success/how-to-build-successful-quiz/).
 
 ---
 

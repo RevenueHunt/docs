@@ -46,7 +46,7 @@ Wherever you sell, the same fundamentals show up across all 540+ beauty quizzes:
 - **Design for mobile.** Between **80% and 88%** of beauty quiz traffic is on a phone, so lean on picture questions and big tap targets.
 - **Capture the email and follow up.** Beauty is consumable and routine-driven, so much of the revenue lands in reorder reminders and routine education, connect [Klaviyo](/how-to-guides/send-leads-to-klaviyo/) and build the [post-quiz email flows](/how-to-guides/send-klaviyo-post-quiz-email-flows/) that drive those reorders.
 
-For the universal build steps, see [how to build a successful quiz](/customer-success/how-to-build-succesful-quiz/) and the [setup checklist](/customer-success/quiz-setup-checklist/). To raise order value, see [bundles, kits & routines](/customer-success/recommend-bundles-kits/).
+For the universal build steps, see [how to build a successful quiz](/customer-success/how-to-build-successful-quiz/) and the [setup checklist](/customer-success/quiz-setup-checklist/). To raise order value, see [bundles, kits & routines](/customer-success/recommend-bundles-kits/).
 
 ---
 

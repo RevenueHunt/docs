@@ -45,6 +45,11 @@ plugins:
   - meta
   - git-revision-date-localized
   - copy_markdown_plugin
+  - redirects:
+      redirect_maps:
+        # Misspelled slugs kept alive so indexed URLs and existing links don't 404.
+        customer-success/how-to-build-succesful-quiz.md: customer-success/how-to-build-successful-quiz.md
+        how-to-guides/pass-parameteres-to-fill-quiz-responses.md: how-to-guides/pass-parameters-to-fill-quiz-responses.md
 nav:
   - ← Home: https://revenuehunt.com
   - Docs:
@@ -112,7 +117,7 @@ nav:
       - Add JavaScript: how-to-guides/add-javascript.md
       - Add Discount: how-to-guides/add-discount.md
       - Use Callback Function: how-to-guides/use-callback-function.md
-      - Pass Parameters to Pre-Fill Quiz Responses: how-to-guides/pass-parameteres-to-fill-quiz-responses.md
+      - Pass Parameters to Pre-Fill Quiz Responses: how-to-guides/pass-parameters-to-fill-quiz-responses.md
       - Show Results Explanation: how-to-guides/show-results-explanation.md
     - Publishing & Display:
       - Publish the Quiz on Your Website:
@@ -192,7 +197,7 @@ nav:
     - Customer Success: customer-success/index.md
     - Get Started:
       - Setup Checklist: customer-success/quiz-setup-checklist.md
-      - Build a Great Quiz: customer-success/how-to-build-succesful-quiz.md
+      - Build a Great Quiz: customer-success/how-to-build-successful-quiz.md
       - Skip the Customization: customer-success/best-quizzes-no-customization.md
     - Grow Leads & Revenue:
       - Get More Quiz Takers: customer-success/how-to-get-more-quiz-engagement.md
@@ -282,4 +287,4 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
-  &copy; 2026 <a href="https://revenuehunt.com"  target="_blank" rel="noopener">RevenueHunt</a>
+  &copy; 2026 <a href="https://revenuehunt.com" target="_blank" rel="noopener">RevenueHunt</a>

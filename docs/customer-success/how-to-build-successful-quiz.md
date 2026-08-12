@@ -35,17 +35,17 @@ The mechanics are easy. Making the quiz serve both your shoppers and your bottom
     - Inline quizzes on relevant collection pages (e.g., a shade finder in your lipstick collection)
     - A link in your navigation menu
 
-![how to build a succesful quiz image1](/images/how_to_build_a_succesful_quiz_image1.png)
+![how to build a successful quiz image1](/images/how_to_build_a_successful_quiz_image1.png)
 
 Most shoppers take the quiz a few times before they buy, so making it easy to find moves sales directly.
 
 **Match your store's design.** A quiz that looks like part of your store builds more trust than a generic one. The [Quiz Design](/how-to-guides/customize-quiz-design/) interface uses a Shopify-like Block Editor to add and reorder blocks, match your fonts and colors, and adjust layout without code (custom CSS/JS is there for advanced users). The native integration means the quiz inherits some of your theme's styles automatically, so it looks on-brand before you touch a thing. Browse [customization examples](https://revenuehunt.com/templates/#customization) for inspiration.
 
-![how to build a succesful quiz image2](/images/how_to_build_a_succesful_quiz_image2.png)
+![how to build a successful quiz image2](/images/how_to_build_a_successful_quiz_image2.png)
 
 **Give the quiz a professional name.** When people hear "quiz" they think of a school test or a "Which animal are you?" time-killer, so don't use the word. A "Shade Finder," "Skincare Routine Builder," or "Skin Diagnostic" reads as a useful tool. The data backs this up: the highest-converting quizzes frame themselves as **product finders**, with names like *"Find Your Perfect..."* or *"Which supplement do I need?"* that promise a personalized result. Not sure what to call it? Start from your customers' most-asked question.
 
-![how to build a succesful quiz image3](/images/how_to_build_a_succesful_quiz_image3.jpg)
+![how to build a successful quiz image3](/images/how_to_build_a_successful_quiz_image3.jpg)
 
 ## Get the questions right
 
@@ -67,7 +67,7 @@ Most shoppers take the quiz a few times before they buy, so making it easy to fi
 
     Top-converting quizzes consistently use **3-6 choices per question**. Fewer than 3 may not capture enough variation to personalize; more than 6 creates decision fatigue.
 
-![how to build a succesful quiz image5](/images/how_to_build_a_succesful_quiz_image5.jpg)
+![how to build a successful quiz image5](/images/how_to_build_a_successful_quiz_image5.jpg)
 
 **Find the right length.** Question count matters, but not how you'd expect. Across 637 converting quizzes we analyzed, the pattern is clear:
 
@@ -110,13 +110,13 @@ The **sweet spot is 6-12 questions**, long enough to feel personalized, short en
 
     Platform data shows **79% of converting quizzes use exactly one results page**, and they convert best (10.6% avg). Quizzes with 11+ results pages convert at only 7.1%. A typical high-converting results page: a heading, a short line of context, the product slots with add-to-cart, and one optional CTA button.
 
-![how to build a succesful quiz image7](/images/how_to_build_a_succesful_quiz_image7.png)
+![how to build a successful quiz image7](/images/how_to_build_a_successful_quiz_image7.png)
 
 ## Capture the lead and follow up
 
 **Make it personalized.** The app lets you reuse what the shopper told you across the quiz. Ask for a name and recall it in the next question, on the results page, or in the follow-up email. [Information Recalls](/how-to-guides/use-information-recalls/) make the quiz feel bespoke while staying simple to set up.
 
-![how to build a succesful quiz image8](/images/how_to_build_a_succesful_quiz_image8.gif)
+![how to build a successful quiz image8](/images/how_to_build_a_successful_quiz_image8.gif)
 
 **Collect email and connect to Klaviyo.** A full funnel (quiz, email capture, targeted follow-up, purchase) is the single most powerful pattern in our data. **71% of top-converting quizzes collect email addresses**, and the gap is striking:
 
@@ -133,7 +133,7 @@ Quizzes integrated with Klaviyo convert **24% better** and generate **66% more o
 
 **Offer a discount after completing.** Simple but effective: reward shoppers for the time (and valuable data) they just gave you. A [discount code](/how-to-guides/add-discount/) at the end nudges them to finish the purchase, and the app can apply it automatically to the cart. You can even give a special code to shoppers who answer a specific question a certain way.
 
-![how to build a succesful quiz image9](/images/how_to_build_a_succesful_quiz_image9.gif)
+![how to build a successful quiz image9](/images/how_to_build_a_successful_quiz_image9.gif)
 
 ## Go global
 

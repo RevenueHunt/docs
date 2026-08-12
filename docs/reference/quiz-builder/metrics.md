@@ -52,7 +52,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
         Admin responses and quiz previews are removed from the list **after 24 hours** to don't add to your plan's limits.
 
-    `All` / `With recommendations` / `No recommendations` - Switch to filter responses that recieved product recommendations and those that did not.
+    `All` / `With recommendations` / `No recommendations` - Switch to filter responses that received product recommendations and those that did not.
     
     `Export CSV` - Download the selected responses in a CSV file format. A pop-up will appear that allows you to select an email address to send the CSV file to. For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
 
@@ -459,11 +459,11 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_quizresponses](/images/manual_shopifyV2_quizbuilder_metrics_analytics_quizresponses.png)
 
-    `Quiz Responses` - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour. `1.4K` - number of responses recieved in a specified period (in black). `↗34.20%` - growth compared to last period (in green).
+    `Quiz Responses` - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour. `1.4K` - number of responses received in a specified period (in black). `↗34.20%` - growth compared to last period (in green).
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_nroforders](/images/manual_shopifyV2_quizbuilder_metrics_analytics_nroforders.png)
 
-    `Number of orders` - Number of people who have placed an order after completing this quiz. `149` - number of orders recieved in a specified period (in black). `↗8.76%` - growth compared to last period (in green).
+    `Number of orders` - Number of people who have placed an order after completing this quiz. `149` - number of orders received in a specified period (in black). `↗8.76%` - growth compared to last period (in green).
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue.png)
 
@@ -510,23 +510,23 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_quizstarts](/images/manual_shopifyV2_quizbuilder_metrics_analytics_quizstarts.png)
     
-    `Quiz Starts` - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). `2.0K` - number of quiz starts recieved in a specified period (in black). `↗57.62%` - growth compared to last period (in green).
+    `Quiz Starts` - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). `2.0K` - number of quiz starts received in a specified period (in black). `↗57.62%` - growth compared to last period (in green).
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_nrofcarts](/images/manual_shopifyV2_quizbuilder_metrics_analytics_nrofcarts.png)
 
-    `Numer of carts` - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button. `350` - number of carts recieved in a specified period (in black). `↗16.67%` - growth compared to last period (in green).
+    `Numer of carts` - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button. `350` - number of carts received in a specified period (in black). `↗16.67%` - growth compared to last period (in green).
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_totcartsvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totcartsvalue.png)
 
-    `Total carts value` - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout. `€68,801.00` - total carts value recieved in a specified period (in black). `↗12.58%` - growth compared to last period (in green).
+    `Total carts value` - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout. `€68,801.00` - total carts value received in a specified period (in black). `↗12.58%` - growth compared to last period (in green).
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_averagecartsvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_averagecartsvalue.png)
 
-    `Average cart value`- Average value of the products included in all quiz carts or checkouts. `€6,032.82` - average carts value recieved in a specified period (in black). `↙0.73%` - growth compared to last period (in green).
+    `Average cart value`- Average value of the products included in all quiz carts or checkouts. `€6,032.82` - average carts value received in a specified period (in black). `↙0.73%` - growth compared to last period (in green).
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_averageordervalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_averageordervalue.png)
 
-    `Average order value` - Average value of the orders placed after taking a quiz. `€2,240.43` - average order value recieved in a specified period (in black). `↙4.60%` - growth compared to last period (in green).
+    `Average order value` - Average value of the orders placed after taking a quiz. `€2,240.43` - average order value received in a specified period (in black). `↙4.60%` - growth compared to last period (in green).
 
     **Conversion metrics**
 

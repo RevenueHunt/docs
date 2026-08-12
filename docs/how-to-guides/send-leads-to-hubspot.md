@@ -122,7 +122,7 @@ description: "Learn how to integrate RevenueHunt quiz with HubSpot to segment an
         ![how to send leads to hubspot connect](/images/how_to_send_leads_to_hubspot_connect.png)
 
     5. You'll be directed to a confirmation page indicating that the connection has been successfully established.
-        ![how to send leads to hubspot connect succesfull](/images/how_to_send_leads_to_hubspot_connect_succesfull.png)
+        ![how to send leads to hubspot connect successful](/images/how_to_send_leads_to_hubspot_connect_successful.png)
 
     Once connected, the quiz results will automatically flow into your HubSpot account.
 
@@ -135,7 +135,7 @@ description: "Learn how to integrate RevenueHunt quiz with HubSpot to segment an
         ![how to send leads to hubspot connect](/images/how_to_send_leads_to_hubspot_connect.png)
 
     5. You'll be directed to a confirmation page indicating that the connection has been successfully established.
-        ![how to send leads to hubspot connect succesfull](/images/how_to_send_leads_to_hubspot_connect_succesfull.png)
+        ![how to send leads to hubspot connect successful](/images/how_to_send_leads_to_hubspot_connect_successful.png)
 
     Once connected, the quiz results will automatically flow into your HubSpot account.
 
@@ -149,7 +149,7 @@ description: "Learn how to integrate RevenueHunt quiz with HubSpot to segment an
         ![how to send leads to hubspot connect](/images/how_to_send_leads_to_hubspot_connect.png)
 
     5. You'll be directed to a confirmation page indicating that the connection has been successfully established.
-        ![how to send leads to hubspot connect succesfull](/images/how_to_send_leads_to_hubspot_connect_succesfull.png)
+        ![how to send leads to hubspot connect successful](/images/how_to_send_leads_to_hubspot_connect_successful.png)
 
     Once connected, the quiz results will automatically flow into your HubSpot account.
 
@@ -163,7 +163,7 @@ description: "Learn how to integrate RevenueHunt quiz with HubSpot to segment an
         ![how to send leads to hubspot connect](/images/how_to_send_leads_to_hubspot_connect.png)
 
     5. You'll be directed to a confirmation page indicating that the connection has been successfully established.
-        ![how to send leads to hubspot connect succesfull](/images/how_to_send_leads_to_hubspot_connect_succesfull.png)
+        ![how to send leads to hubspot connect successful](/images/how_to_send_leads_to_hubspot_connect_successful.png)
 
     Once connected, the quiz results will automatically flow into your HubSpot account.
 
@@ -177,7 +177,7 @@ description: "Learn how to integrate RevenueHunt quiz with HubSpot to segment an
         ![how to send leads to hubspot connect](/images/how_to_send_leads_to_hubspot_connect.png)
 
     5. You'll be directed to a confirmation page indicating that the connection has been successfully established.
-        ![how to send leads to hubspot connect succesfull](/images/how_to_send_leads_to_hubspot_connect_succesfull.png)
+        ![how to send leads to hubspot connect successful](/images/how_to_send_leads_to_hubspot_connect_successful.png)
 
     Once connected, the quiz results will automatically flow into your HubSpot account.
 

@@ -550,7 +550,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `view all` - Opens archived tips.
 
-=== "Bigcommerce"
+=== "BigCommerce"
 
     Displays useful tips and tricks for building a better quiz.
 
@@ -655,7 +655,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `run manual sync` - Starts a full sync of your product catalog. The sync takes about 30 - 60 minutes to complete. If your store has more than 3,000 product variants, the sync can take longer. Please note that a full sync of your catalog is done every 24 hours.
 
-=== "Bigcommerce"
+=== "BigCommerce"
 
     To open the Success Checklist click on any of the ❓❗✅ 🔄 icons.
 

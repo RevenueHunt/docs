@@ -37,7 +37,7 @@ Before you start, ensure you have:
     
     7. **Send a Test Webhook**. Click `Send Test` to trigger a sample payload. This helps verify that your webhook is receiving data correctly.
 
-        ![how to webhook settings](/images/how_to_shopifyv2_webhooks_connection_succesful.png)
+        ![how to webhook settings](/images/how_to_shopifyv2_webhooks_connection_successful.png)
     
     8. **Verify Delivery**. Open your endpoint (e.g., Webhook.site) and confirm that a POST request has been received. Review the JSON payload to ensure it contains the correct quiz and customer data.
 
@@ -272,7 +272,7 @@ Before you start, ensure you have:
         },
         "qbc-cb601cf6": {
           "type": "multiple_choice",
-          "value": "I want to recieve exclusive promos, custom skin and skincare tips and and more.",
+          "value": "I want to receive exclusive promos, custom skin and skincare tips and and more.",
           "choicesRefs": [
             "qbcc-102a66fc"
           ]

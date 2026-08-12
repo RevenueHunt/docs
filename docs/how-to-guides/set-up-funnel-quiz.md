@@ -85,7 +85,7 @@ Our product recommendation algorithm works like a voting system:
 
     - **Simple Products** - Individual products receive a vote when their linked choice is selected.
     - **Product variants**: Individual variants receive a vote when their linked choice is selected. Note that only product variants are directly linked to choices. However, on the results page, variants can be grouped under their parent products for a streamlined shopping experience.
-    - **Product Bundles**: A bundle is treated as an individual product. Every bundle recieves one vote when their linked choice is selected.
+    - **Product Bundles**: A bundle is treated as an individual product. Every bundle receives one vote when their linked choice is selected.
     - **Affiliate Products** - Individual products receive a vote when their linked choice is selected. On the results page the customer is redirected to the affiliate link (not the store link).
     - **Categories**: Every product within a linked category receives a vote when their linked choice is selected.
     - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.

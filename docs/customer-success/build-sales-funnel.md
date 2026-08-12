@@ -57,7 +57,7 @@ The classic AIDA model (Attention, Interest, Desire, Action) covers acquisition 
 | Stage | The shopper | You optimize | Where RevenueHunt fits |
 |-------|-------------|--------------|------------------------|
 | **1. Attention** | Clicks an ad, lands on the site | Cost per session, cost per quiz start | Send paid/organic traffic to the quiz, not the catalog |
-| **2. Interest** | Takes the quiz, shares preferences | Completion rate | The [product recommendation quiz](/customer-success/how-to-build-succesful-quiz/) captures intent + email |
+| **2. Interest** | Takes the quiz, shares preferences | Completion rate | The [product recommendation quiz](/customer-success/how-to-build-successful-quiz/) captures intent + email |
 | **3. Desire** | Reads results, adds to cart | Add-to-cart rate on quiz traffic | A [results page that recommends a set](/customer-success/recommend-bundles-kits/) |
 | **4. Action** | Checks out | Checkout completion, AOV | Discount + post-purchase upsell |
 | **5. Retention** | Reorders, refers | Repeat-purchase rate, LTV | [Segmented follow-up](/customer-success/convert-leads-to-customers/) on quiz data |
@@ -85,7 +85,7 @@ The same five-step sequence works for skincare, supplements, apparel, coffee, an
 
 The quiz is the highest-leverage component because it turns a passing visitor into an engaged participant through a clear value exchange: "answer a few questions, get a recommendation made for you." A well-built quiz finishes around **70% of starts**, captures email and consent inside the natural flow, and produces structured preference data every later stage uses.
 
-- **Keep it to 5-8 questions.** See [how to build a successful quiz](/customer-success/how-to-build-succesful-quiz/) and the [setup checklist](/customer-success/quiz-setup-checklist/).
+- **Keep it to 5-8 questions.** See [how to build a successful quiz](/customer-success/how-to-build-successful-quiz/) and the [setup checklist](/customer-success/quiz-setup-checklist/).
 - **Ask stated preferences, not personality trivia,** and only [data worth collecting](/customer-success/what-data-to-collect/) (each answer maps to a recommendation, segment, or message).
 - **Ask for consent inside the flow,** the [right way](/customer-success/ask-marketing-consent/), not as a separate popup.
 - **Publish it where shoppers are** ([multiple locations](/how-to-guides/publish-quiz/)), and send paid traffic to it rather than a category page. Quiz finishers convert at about **2.75x a typical store**.

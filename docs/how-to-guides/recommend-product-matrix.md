@@ -414,7 +414,7 @@ If you’re not getting the expected results, please check [this article](/how-t
 
         ![how to recommend products matrix table2](/images/how_to_recommend_products_table3.png)
 
-    These products recieved the most amount of votes (2) so they were recommended.
+    These products received the most amount of votes (2) so they were recommended.
 
     ![how to recommend products matrix results1](/images/how_to_recommend_products_results1.png)
 

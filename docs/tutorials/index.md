@@ -4,7 +4,7 @@ description: "RevenueHunt tutorials for creating product recommendation quizzes,
 
 # Tutorial Videos
 
-You’re about to create your first Product Reocmmendation Quiz but not sure where to start? Below you’ll find a list of helpful tutorials that show you step-by-step how to use the app’s features.
+You’re about to create your first Product Recommendation Quiz but not sure where to start? Below you’ll find a list of helpful tutorials that show you step-by-step how to use the app’s features.
 
 [Full Tutorial Playlist](https://www.youtube.com/@productrecommendationquiz1054){ .md-button }
 
@@ -20,11 +20,11 @@ Make and publish a short quiz that recommends a single product to your customers
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/making-first-quiz/)
 
-### [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-succesful-quiz/)
+### [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
 
 We've identified key elements that make quizzes popular with shoppers and drive results.
 
-[:fontawesome-solid-arrow-right: check tutorial](/customer-success/how-to-build-succesful-quiz/)
+[:fontawesome-solid-arrow-right: check tutorial](/customer-success/how-to-build-successful-quiz/)
 
 ### [Recommending a Skincare Routine](/tutorials/skincare-routine/)
 

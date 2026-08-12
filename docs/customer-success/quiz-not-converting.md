@@ -61,7 +61,7 @@ When the numbers won't move, the worst thing you can do is change things at rand
 
 If your quiz views are low, the content isn't the problem. Shoppers simply can't find it. The most successful quizzes appear in two or three places at once, so a customer runs into the quiz wherever they are in their visit.
 
-![Multiple quiz publishing locations](/images/how_to_build_a_succesful_quiz_image1.png)
+![Multiple quiz publishing locations](/images/how_to_build_a_successful_quiz_image1.png)
 
 **Publish it in more than one place.** A quiz buried on a single page gets almost no traffic. Add it as an inline block on your homepage, a floating button that follows shoppers as they browse, and an automatic popup for first-time visitors. Each placement catches a different moment in the journey.
 
@@ -85,7 +85,7 @@ High starts with low completion almost always means the questions are the proble
 
 **Cut questions shoppers can't answer confidently.** If a shopper has to stop and think, or guess, they leave. Test the quiz on someone who doesn't know your products and watch where they hesitate, then rewrite or remove whatever trips them up. Where the answer is genuinely visual, like a shade or a skin type, a picture question removes the guesswork. Most quiz traffic is on phones, so keep questions short and tappable and lean on pictures over long lines of text.
 
-![A picture question, used where the answer is visual](/images/how_to_build_a_succesful_quiz_image5.jpg)
+![A picture question, used where the answer is visual](/images/how_to_build_a_successful_quiz_image5.jpg)
 
 **Limit each question to three to six choices.** More than six options is decision fatigue; fewer than three can't personalize the result. Keep every question inside that range, and split or combine options when you drift outside it.
 
@@ -102,7 +102,7 @@ This is the most common problem, and the most fixable. The quiz did its job; the
 
 **Map every answer to a product.** This is the single most common cause of low conversion. If your answer choices aren't tied to products or collections, the recommendation engine has nothing to work with, so it returns generic results that don't sell. Go through the quiz one answer at a time and confirm each choice pushes the recommendation somewhere.
 
-![A single, focused recommendation on the results page](/images/how_to_build_a_succesful_quiz_image7.png)
+![A single, focused recommendation on the results page](/images/how_to_build_a_successful_quiz_image7.png)
 
 ??? info "How product mapping works"
     See: [How to Recommend Products](/how-to-guides/recommend-products/).
