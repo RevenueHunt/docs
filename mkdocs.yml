@@ -86,6 +86,12 @@ nav:
     - Product Recommendations:
       - Recommend Products: how-to-guides/recommend-products.md
       - Set Up Recommendations: how-to-guides/set-up-recommendations.md
+      - Set Up a Scoring Quiz: how-to-guides/set-up-scoring-quiz.md
+      - Set Up a Funnel Quiz: how-to-guides/set-up-funnel-quiz.md
+      - Set Up a Fixed Recommendations Quiz: how-to-guides/set-up-fixed-recommendations-quiz.md
+      - Recommend Products Matching Multiple Criteria: how-to-guides/recommend-product-matrix.md
+      - Recommend Products Based on Number of Choices: how-to-guides/recommend-products-based-on-number-of-user-choices.md
+      - Only Recommend Products with a Minimum Vote Count: how-to-guides/only-recommend-products-with-minimum-votes.md
       - Recommend Subscription Products: how-to-guides/recommend-subscription-products.md
       - Recommend Slots (Skincare Routine): how-to-guides/recommend-skincare-routine-slots.md
       - Recommend Products Based on Numerical Inputs: how-to-guides/recommend-products-based-on-numerical-inputs.md
@@ -97,15 +103,28 @@ nav:
       - Show Product Reviews: how-to-guides/show-product-reviews.md
       - Troubleshoot Quiz Results: how-to-guides/troubleshoot-product-results.md
     - Quiz Logic & Advanced Features:
-      - Use Conditional Logic: how-to-guides/use-conditional-logic.md
-      - Hide Content with Logic: how-to-guides/hide-content-with-logic.md 
+      - Use Conditional Logic:
+        - how-to-guides/use-conditional-logic.md
+        - Use Display Logic: how-to-guides/use-display-logic.md
+        - Use Jump Logic: how-to-guides/use-jump-logic.md
+        - Use Skip Logic: how-to-guides/use-skip-logic.md
+      - Hide Content with Logic: how-to-guides/hide-content-with-logic.md
       - Add JavaScript: how-to-guides/add-javascript.md
       - Add Discount: how-to-guides/add-discount.md
       - Use Callback Function: how-to-guides/use-callback-function.md
       - Pass Parameters to Pre-Fill Quiz Responses: how-to-guides/pass-parameteres-to-fill-quiz-responses.md
       - Show Results Explanation: how-to-guides/show-results-explanation.md
     - Publishing & Display:
-      - Publish the Quiz on Your Website: how-to-guides/publish-quiz.md
+      - Publish the Quiz on Your Website:
+        - how-to-guides/publish-quiz.md
+        - Embed an Inline Quiz: how-to-guides/publish-quiz-inline.md
+        - Set Up a Quiz Link Popup: how-to-guides/publish-quiz-link.md
+        - Set Up Automatic Popups: how-to-guides/publish-quiz-automatic-popup.md
+        - Add a Chat-Like Button: how-to-guides/publish-quiz-chat-button.md
+        - Get an External Link for Social Media: how-to-guides/publish-quiz-external-link.md
+        - Get an External Link for Emails: how-to-guides/publish-quiz-email-link.md
+        - Publish on a GemPages Page: how-to-guides/publish-gempages.md
+        - Publish on a PageFly Page: how-to-guides/publish-pagefly.md
       - Show a Quiz Based on Shopify Markets: how-to-guides/show-quiz-based-on-markets.md
       - Show Quiz on Customer Profile: how-to-guides/show-quiz-on-customer-profile.md
       - Show Quiz Only to Logged-In Customers: how-to-guides/show-quiz-to-logged-in-customers.md
@@ -113,11 +132,25 @@ nav:
       - Change Checkout Settings: how-to-guides/change-checkout-settings.md
       - Restore Quiz Progress: how-to-guides/restore-quiz-progress.md
     - Integrations & Data Collection:
-      - Send Leads to Your CRM: how-to-guides/send-leads-to-crm.md
+      - Send Leads to Your CRM:
+        - how-to-guides/send-leads-to-crm.md
+        - Klaviyo: how-to-guides/send-leads-to-klaviyo.md
+        - Build Post-Quiz Email Flows in Klaviyo: how-to-guides/send-klaviyo-post-quiz-email-flows.md
+        - Mailchimp: how-to-guides/send-leads-to-mailchimp.md
+        - ActiveCampaign: how-to-guides/send-leads-to-activecampaign.md
+        - HubSpot: how-to-guides/send-leads-to-hubspot.md
+        - MailerLite: how-to-guides/send-leads-to-mailerlite.md
+        - Omnisend: how-to-guides/send-leads-to-omnisend.md
+        - Shopify Customers: how-to-guides/send-leads-to-shopify-customers.md
+        - Zapier: how-to-guides/send-leads-to-zapier.md
+        - Webhooks: how-to-guides/send-leads-to-webhooks.md
       - Automate Quiz Completions with Shopify Flow: how-to-guides/automate-quiz-completions-with-shopify-flow.md
       - Ask for Marketing Consent: how-to-guides/ask-for-marketing-consent.md
       - Use Customer Tags: how-to-guides/use-customer-tags.md
+      - Use Custom Fields as Tags (BigCommerce): how-to-guides/use-custom-fields-as-tags.md
+      - Show Quiz Answers in Shopify Orders: how-to-guides/show-quiz-answers-in-orders.md
       - Integrate Meta Pixel: how-to-guides/integrate-meta-pixel.md
+      - Integrate TikTok Pixel: how-to-guides/integrate-tiktok-pixel.md
       - Integrate Google Analytics: how-to-guides/integrate-google-analytics.md
       - Send Result Emails: how-to-guides/send-result-emails.md
       - Connect SMTP for Email: how-to-guides/send-result-emails-from-custom-server.md
@@ -128,6 +161,8 @@ nav:
       - Update Shopify Cart Drawer: how-to-guides/update-shopify-cart-drawer.md
       - Missing Product Images: how-to-guides/missing-product-images.md
       - Sync Catalog: how-to-guides/sync-catalog.md
+      - Selectively Sync Collections: how-to-guides/sync-selected-collections.md
+      - Add Products (Standalone): how-to-guides/add-products-gpf.md
       - Copy Quiz from One Store to Another: how-to-guides/copy-the-quiz-from-one-store-to-another.md
       - Check Quiz Loading Speed: how-to-guides/check-quiz-loading-speed.md
       - Products Not Added To Cart: how-to-guides/add-to-cart-issues.md
@@ -138,6 +173,7 @@ nav:
     - Plans & Pricing: reference/plans-pricing.md
     - App Settings: reference/app-settings.md
     - Accessibility: reference/accessibility.md
+    - CSS Structure: reference/css-structure.md
     - Quiz Builder:
       - Overview: reference/quiz-builder/index.md
       - Questions: reference/quiz-builder/questions.md
