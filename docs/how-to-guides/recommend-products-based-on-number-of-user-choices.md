@@ -19,7 +19,7 @@ The recommendation process is based on how many choices the user selects out of 
 
 ## How can I ensure that users don’t see the choices in the last question?
 
-You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](/how-to-guides/customize-quiz-design/).
+You can hide these technical choices in the last question using custom CSS code. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
 
 ## Where do I input the custom JavaScript code?
 

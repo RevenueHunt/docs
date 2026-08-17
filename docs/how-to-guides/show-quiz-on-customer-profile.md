@@ -20,7 +20,7 @@ description: "Information about showing RevenueHunt quiz on Shopify customer pro
 
     !!! warning
 
-        This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).
+        This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
 
     !!! note
 

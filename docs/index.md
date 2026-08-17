@@ -70,7 +70,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
 
 === "Magento"
 
-    1. Download and install the **Product Recommendation Quiz** module. Get the latest version [here](https://revenuehunt.com/product-recommendation-quiz-for-magento/).
+    1. Download and install the **Product Recommendation Quiz** module. Get the latest version from the [Product Recommendation Quiz for Magento page](https://revenuehunt.com/product-recommendation-quiz-for-magento/).
     2. In your Magento dashboard, navigate to the Marketing tab and open `Product Recommendation Quiz`.
     3. Grant permission to connect our app to your Magento store.
     4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
@@ -88,7 +88,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
 
 === "Standalone"
 
-    1. Sign up for the standalone version of the **Product Recommendation Quiz** [here](https://admin.revenuehunt.com/register).
+    1. Sign up for the standalone version of the **Product Recommendation Quiz** on the [RevenueHunt registration page](https://admin.revenuehunt.com/register).
     2. Add products and collections.
     3. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
     4. Drive traffic to your quiz and start getting sales and leads!

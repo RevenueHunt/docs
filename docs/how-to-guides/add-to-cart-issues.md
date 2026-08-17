@@ -53,7 +53,7 @@ You could, instead of adding the product to the cart, send the customer to the p
 
 ## Your product is a subscription product
 
-RevenueHunt app is able to sync and recommend subscription products created with ReCharge Subscriptions for Shopify. Check [here](/how-to-guides/recommend-subscription-products/) for instructions on how to enable it.
+RevenueHunt app is able to sync and recommend subscription products created with ReCharge Subscriptions for Shopify. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) for instructions on how to enable it.
 
 For other subscription apps, there's a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) that allows you to still guide your customers towards subscription options via the RevenueHunt app. 
 

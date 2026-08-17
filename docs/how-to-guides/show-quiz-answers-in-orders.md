@@ -121,7 +121,7 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
     3. Use a different browser or incognito browsing mode to open the live quiz on your site (don't test on preview/admin.revenuehunt).
     4. Take the quiz all the way to the results, provide the same email in the quiz that will be used for checkout/placing an order. Good idea is using *yourrealemail+test1@youremail.com* for example. 
     5. Add all the products to cart and proceed to cart, then checkout.
-    6. Place a valid test order (as explained [here](https://help.shopify.com/en/manual/checkout-settings/test-orders)).
+    6. Place a valid test order (as explained in the Shopify [test orders guide](https://help.shopify.com/en/manual/checkout-settings/test-orders)).
     7. Check if the lead was added to **Shopify Customers** section and if it was marked with `RevenueHunt` in the details.
     8. Go to **Shopify Orders** and check if the order notes appear along the test order placed. 
 

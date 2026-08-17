@@ -38,7 +38,7 @@ description: "Learn how to display custom explanations for why products were rec
 
     1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance on setting up Display Logic, see [here](/how-to-guides/use-display-logic/). 
+    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
 
         !!! tip
         
@@ -169,7 +169,7 @@ description: "Learn how to display custom explanations for why products were rec
 
         !!! tip
 
-            Instructions on adding custom JavaScript to your Product Recommendation Quiz can be found [here](/how-to-guides/add-javascript/).
+            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
     4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
 
@@ -186,7 +186,7 @@ description: "Learn how to display custom explanations for why products were rec
 
     1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance on setting up Display Logic, see [here](/how-to-guides/use-display-logic/). 
+    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
 
         !!! tip
         
@@ -317,7 +317,7 @@ description: "Learn how to display custom explanations for why products were rec
 
         !!! tip
 
-            Instructions on adding custom JavaScript to your Product Recommendation Quiz can be found [here](/how-to-guides/add-javascript/).
+            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
     4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
 
@@ -334,7 +334,7 @@ description: "Learn how to display custom explanations for why products were rec
 
     1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance on setting up Display Logic, see [here](/how-to-guides/use-display-logic/). 
+    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
 
         !!! tip
         
@@ -465,7 +465,7 @@ description: "Learn how to display custom explanations for why products were rec
 
         !!! tip
 
-            Instructions on adding custom JavaScript to your Product Recommendation Quiz can be found [here](/how-to-guides/add-javascript/).
+            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
     4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
 
@@ -481,7 +481,7 @@ description: "Learn how to display custom explanations for why products were rec
 
     1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance on setting up Display Logic, see [here](/how-to-guides/use-display-logic/). 
+    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
 
         !!! tip
         
@@ -612,7 +612,7 @@ description: "Learn how to display custom explanations for why products were rec
 
         !!! tip
 
-            Instructions on adding custom JavaScript to your Product Recommendation Quiz can be found [here](/how-to-guides/add-javascript/).
+            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
     4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
 
@@ -629,7 +629,7 @@ description: "Learn how to display custom explanations for why products were rec
 
     1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance on setting up Display Logic, see [here](/how-to-guides/use-display-logic/). 
+    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
 
         !!! tip
         
@@ -760,7 +760,7 @@ description: "Learn how to display custom explanations for why products were rec
 
         !!! tip
 
-            Instructions on adding custom JavaScript to your Product Recommendation Quiz can be found [here](/how-to-guides/add-javascript/).
+            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
 
     4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
 

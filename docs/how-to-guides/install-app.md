@@ -63,7 +63,7 @@ icon: material/download
 
 === "Magento"
 
-    1. Download and install the **Product Recommendation Quiz** module. Get the latest version [here](https://revenuehunt.com/product-recommendation-quiz-for-magento/).
+    1. Download and install the **Product Recommendation Quiz** module. Get the latest version from the [Product Recommendation Quiz for Magento page](https://revenuehunt.com/product-recommendation-quiz-for-magento/).
 
         ??? question "How to install the module?"
 
@@ -113,7 +113,7 @@ icon: material/download
     4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
     5. Drive traffic to your quiz and start getting sales and leads!
     
-    If you have any issues, follow the instructions provided in GitHub [here](https://github.com/RevenueHunt/product-recommendation-quiz-for-magento).
+    If you have any issues, follow the instructions in the [Magento module repository on GitHub](https://github.com/RevenueHunt/product-recommendation-quiz-for-magento).
 
     !!! warning "Technical Specifications"
 
@@ -146,9 +146,9 @@ icon: material/download
 
     To install the app:
 
-    1. Sign up for the standalone version of the **RevenueHunt Product Recommendation Quiz** [here](https://admin.revenuehunt.com/register). All you need is an email and a password.
-    2. Once registered, you can log in to your account [here](https://admin.revenuehunt.com/login).
-    2. Add products and collections. Check how to do that [here](/reference/dashboard/#success-checklist). You can access your in-app Product [Catalogue](https://admin.revenuehunt.com/catalogue) at all times.
+    1. Sign up for the standalone version of the **RevenueHunt Product Recommendation Quiz** on the [RevenueHunt registration page](https://admin.revenuehunt.com/register). All you need is an email and a password.
+    2. Once registered, you can [log in to your account](https://admin.revenuehunt.com/login).
+    2. Add products and collections. See the [Success Checklist](/reference/dashboard/#success-checklist). You can access your in-app Product [Catalogue](https://admin.revenuehunt.com/catalogue) at all times.
     3. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
     4. Drive traffic to your quiz and start getting sales and leads!
 

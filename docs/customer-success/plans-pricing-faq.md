@@ -79,7 +79,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
 === "Shopify"
 
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (See [When do my plan responses reset?](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -87,7 +87,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
 === "Shopify (Legacy)"
 
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (See [When do my plan responses reset?](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -95,7 +95,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
 === "WooCommerce"
 
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (See [When do my plan responses reset?](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -103,7 +103,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
 === "Magento"
 
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (See [When do my plan responses reset?](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -111,7 +111,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
 === "BigCommerce"
 
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (See [When do my plan responses reset?](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -119,7 +119,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
 === "Standalone"
 
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (See [When do my plan responses reset?](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.

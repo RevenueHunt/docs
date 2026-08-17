@@ -490,7 +490,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
 
 === "Shopify"
 
-    It is not possible to show the popup more than once per session in `💎Built for Shopify` version of the RevenueHunt app unless you activate the `Exit intent` option following the instructions [here](#show-popup-on-exit-intent).
+    It is not possible to show the popup more than once per session in `💎Built for Shopify` version of the RevenueHunt app unless you activate the `Exit intent` option following [Show Popup on Exit Intent](#show-popup-on-exit-intent).
 
 
 === "Shopify (Legacy)"

@@ -673,7 +673,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Button Text** - Change the text button on the slide.
 
-    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/information-recalls/).
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
     - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -731,7 +731,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Button Text** - Change the text button on the slide.
 
-    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/information-recalls/).
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
     - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -789,7 +789,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Button Text** - Change the text button on the slide.
 
-    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/information-recalls/).
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
     - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -847,7 +847,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Button Text** - Change the text button on the slide.
 
-    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/information-recalls/).
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
     - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -905,7 +905,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Button Text** - Change the text button on the slide.
 
-    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/information-recalls/).
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
     - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -3442,7 +3442,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         ??? question "Show custom shorter product description"
 
-            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
             This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
@@ -3505,7 +3505,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         ??? question "Show custom shorter product description"
 
-            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
             This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
@@ -3558,7 +3558,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         ??? question "Show custom shorter product description"
 
-            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
             This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
@@ -3600,7 +3600,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         ??? question "Show custom shorter product description"
 
-            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
             This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
@@ -3640,7 +3640,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         ??? question "Show custom shorter product description"
 
-            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
             This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
@@ -5205,7 +5205,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_integrations](/images/manual_shopifyV2_quizbuilder_integrations.png)
 
-    In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+    In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
 
     To connect the quiz to a particular service find it on the page. Then follow the instructions displayed in the browser or in the `read more` section.
 
@@ -5214,7 +5214,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder connect](/images/manual_quizbuilder_connect.png)
 
-    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
 
     To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
@@ -5222,7 +5222,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_woo_quizbuilder_connect](/images/manual_woo_quizbuilder_connect.png)
 
-    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
 
     To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
@@ -5230,7 +5230,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_standalone_quizbuilder_connect](/images/manual_standalone_quizbuilder_connect.png)
 
-    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
 
     To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
@@ -5238,7 +5238,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_standalone_quizbuilder_connect](/images/manual_standalone_quizbuilder_connect.png)
 
-    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
 
     To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
@@ -5246,7 +5246,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_standalone_quizbuilder_connect](/images/manual_standalone_quizbuilder_connect.png)
 
-    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
 
     To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 

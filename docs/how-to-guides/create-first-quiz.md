@@ -222,7 +222,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
-    Read more about how the recommendations work [here](/how-to-guides/recommend-products/).
+    Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
 
 === "WooCommerce"
 
@@ -247,7 +247,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
-    Read more about how the recommendations work [here](/how-to-guides/recommend-products/).
+    Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
 
 === "Magento"
 
@@ -272,7 +272,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
-    Read more about how the recommendations work [here](/how-to-guides/recommend-products/).
+    Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
 
 === "BigCommerce"
 
@@ -297,7 +297,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
-    Read more about how the recommendations work [here](/how-to-guides/recommend-products/).
+    Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
 
 === "Standalone"
 
@@ -326,7 +326,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
-    Read more about how the recommendations work [here](/how-to-guides/recommend-products/).
+    Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
 
 
 

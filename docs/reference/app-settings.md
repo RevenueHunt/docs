@@ -313,7 +313,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
 === "Standalone"
 
-    To access the **Catalogue** settings in the standalone version of the Product Recommendation Quiz, open the [Success Checklist](/reference/dashboard/#success-checklist) or [this link](https://admin.revenuehunt.com/catalogue).
+    To access the **Catalogue** settings in the standalone version of the Product Recommendation Quiz, open the [Success Checklist](/reference/dashboard/#success-checklist) or go to your [in-app Catalogue](https://admin.revenuehunt.com/catalogue).
 
 ## SMTP settings
 

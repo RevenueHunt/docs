@@ -1939,7 +1939,7 @@ We encourage you to try and test all features you might need before committing t
     | **Pricing** | | | | | |
     | Monthly fee | $0 | $39 | $99 | $199 | $299 |
     This table shows that Shopify's plan structure is primarily about response volume limits rather than feature restrictions, with advanced features unlocked once you move to any paid plan.
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (See [When do my plan responses reset?](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -5831,7 +5831,7 @@ Unlock the full potential of your RevenueHunt Product Recommendation Quiz by int
 This guide will walk you through adding JavaScript to quiz questions and the results page. 
 
 !!! warning "For developers and Shopify Partners"
-    This guide is meant for developers and Shopify Partners. If you're not familiar with the basics of JavaScript and the Vue.js framework, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).
+    This guide is meant for developers and Shopify Partners. If you're not familiar with the basics of JavaScript and the Vue.js framework, it is advised to ask for help from a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
 
 ## Understanding JavaScript, HTML, and Liquid
 
@@ -6748,7 +6748,7 @@ You could, instead of adding the product to the cart, send the customer to the p
 
 ## Your product is a subscription product
 
-RevenueHunt app is able to sync and recommend subscription products created with ReCharge Subscriptions for Shopify. Check [here](/how-to-guides/recommend-subscription-products/) for instructions on how to enable it.
+RevenueHunt app is able to sync and recommend subscription products created with ReCharge Subscriptions for Shopify. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) for instructions on how to enable it.
 
 For other subscription apps, there's a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) that allows you to still guide your customers towards subscription options via the RevenueHunt app. 
 
@@ -8789,7 +8789,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
         - Adjust other settings like `Popup Width` and `Height` as needed
     4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
     The popup will now appear when visitors show exit intent (moving cursor towards closing the tab/window).
-    It is not possible to show the popup more than once per session in `💎Built for Shopify` version of the RevenueHunt app unless you activate the `Exit intent` option following the instructions [here](#show-popup-on-exit-intent).
+    It is not possible to show the popup more than once per session in `💎Built for Shopify` version of the RevenueHunt app unless you activate the `Exit intent` option following [Show Popup on Exit Intent](#show-popup-on-exit-intent).
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
     If you see the error message "The quiz you are looking for does not exist" when trying to activate an automatic popup quiz, follow these steps:
@@ -9346,7 +9346,7 @@ In short, to add a link popup to your store, you need to:
     ![z-index setting in V2 Link Popup](/images/how_to_publish_quiz_link_popup_zindex_setting.png)
     !!! note
         Setting the z-index too high might hide other elements like chat buttons. The ideal setting will depend on your specific theme's configuration.
-    If adjusting the z-index setting doesn't solve the issue, try to **publish the quiz inline with a page instead.** Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+    If adjusting the z-index setting doesn't solve the issue, try to **publish the quiz inline with a page instead.** Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/b65c503f49ed4664875df3e6addd8380?sid=6d7edd43-ec04-4dfd-848e-2a7337980800" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     With the `💎Built for Shopify` version of the RevenueHunt app, you can link to specific quizzes by using the format `#quiz-QUIZID` instead of just `#quiz`.
     1. **Find Your Quiz ID**: Go to the [dashboard](/reference/dashboard/) and locate the quiz you want to link to.
@@ -9520,7 +9520,7 @@ The recommendation process is based on how many choices the user selects out of 
 
 ## How can I ensure that users don’t see the choices in the last question?
 
-You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](/how-to-guides/customize-quiz-design/).
+You can hide these technical choices in the last question using custom CSS code. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
 
 ## Where do I input the custom JavaScript code?
 
@@ -10934,7 +10934,7 @@ Apart from giving your customers a personalized product recommendation, you can 
     !!! warning
         Email templates and flows are not something that’s a one-click install. It should be built by someone with technical knowledge and experience in Omnisend.
         Once the quiz is connected to Omnisend (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Omnisend.
-    1. **Connect Your Quiz to Omnisend**: Refer to the instructions provided [here](#link-quiz-to-omnisend) to ensure your quiz is correctly connected to Omnisend.
+    1. **Connect Your Quiz to Omnisend**: Refer to [Link Quiz to Omnisend](#link-quiz-to-omnisend) to ensure your quiz is correctly connected to Omnisend.
     2. **Create a Segment for Quiz Participants**: In Omnisend, [create a segment](https://support.omnisend.com/en/articles/1400415-creating-segments) specifically for users who have completed the quiz. This can be done by filtering for a `custom property` that only quiz participants will have, such as `quiz_QUIZID_quiz_name`.
         ![how to omnisend segment](/images/how_to_omnisend_create_segment.png)
         - Use the custom properties to create a segment for users who took the quiz. Select a property (e.g., `quiz_QUIZID_quiz_name`) and copy it.
@@ -11998,7 +11998,7 @@ Follow the step by step instructions below to active and edit the result emails 
             !!! tip
                 You can copy the useful code snippets and paste them into a large language model like ChatGPT or Gemini to style the liquid email template.
         !!! note
-            Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about styling and editing theEmail templates [here](#advanced-html-email-templates).
+            Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email Templates](#editing-email-templates).
     7. **👉 Recommended - Add Your SMTP Credentials**: By default, the result emails are sent from Revenuehunt email servers. For full deliverabilty and brand experience, it's recommended to connect your email servers to the app instead. To do that, go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
         ![manual_appsettings_smtp](/images/manual_shopifyV2_appsettings_smtp.png)
         !!! note
@@ -18538,7 +18538,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - **Create a new quiz using this version** - Create a new quiz on our dashboard based on this version of the current quiz.
     - **Restore this version** - Allows you to replca the current version of the quiz with the selected one.
     ![manual_shopifyV2_quizbuilder_integrations](/images/manual_shopifyV2_quizbuilder_integrations.png)
-    In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+    In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
     To connect the quiz to a particular service find it on the page. Then follow the instructions displayed in the browser or in the `read more` section.
     To add the quiz to your store, you have to create your quiz first. Then, in Shopify go to `Online Store > Theme` and click ` Customize`.
     ![manual_shopifyV2_quizbuilder_share_publish_onlinestore](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore.png)
@@ -19430,9 +19430,9 @@ In this tutorial, you’ll learn how to send emails to quiz respondents and your
             !!! tip
                 You can copy the useful code snippets and paste them into a large language model like ChatGPT or Gemini to style the liquid email template.
         !!! note
-            Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about styling and editing the Email templates [here](/how-to-guides/send-result-emails/#editing-email-templates).
+            Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email Templates](/how-to-guides/send-result-emails/#editing-email-templates).
     7. **Email Preview**: Use the Email preview section to check how the email will look like for different respondents.
-    8. **`Recommended` Add Your SMTP Credentials**: Check the step by step instructions [here](#sending-emails-from-your-servers-smtp) to learn how to connect your own email server using SMTP.
+    8. **`Recommended` Add Your SMTP Credentials**: Check [Sending Emails from Your Servers (SMTP)](#sending-emails-from-your-servers-smtp) to learn how to connect your own email server using SMTP.
     9. **Save the changes**: Remember to save the changes with the top-right `Save` button to update the preview/live quiz.
     10. **Preview the quiz**: Return to the dashboard and preview the quiz. Complete the quiz all the way to the results page to trigger the email notification.
     2. **Activate Emails to Self**: Go to [`Quiz Settings > Emails to self`](/reference/quiz-builder/notifications/#to-self) and check the `Receive an email when someone completes the quiz` button to activate the emails.
@@ -19446,7 +19446,7 @@ In this tutorial, you’ll learn how to send emails to quiz respondents and your
                 You can copy the useful code snippets and paste them into a large language model like ChatGPT or Gemini to style the liquid email template.
         - You can always reset the email template to default settings.
     6. **Email Preview**: Use the Email preview section to check how the email will look like for different respondents.
-    7. **`Recommended` Add Your SMTP Credentials**: Check the step by step instructions [here](#sending-emails-from-your-servers-smtp) to learn how to connect your own email server using SMTP.
+    7. **`Recommended` Add Your SMTP Credentials**: Check [Sending Emails from Your Servers (SMTP)](#sending-emails-from-your-servers-smtp) to learn how to connect your own email server using SMTP.
     8. **Save the changes**: Remember to save the changes with the top `Save` button.
     9. **Preview the quiz**: Return to the dashboard and preview the quiz. Complete the quiz all the way to the results page to trigger the email notification.
     1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).

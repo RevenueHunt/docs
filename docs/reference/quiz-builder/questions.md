@@ -474,7 +474,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -525,7 +525,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -583,7 +583,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -641,7 +641,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 
@@ -699,7 +699,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Button Text` - Change the text button on the slide.
 
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
     `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
 

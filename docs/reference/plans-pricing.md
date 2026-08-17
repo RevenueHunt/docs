@@ -66,7 +66,7 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
     !!! note
 
-        App payments are handled by Stripe, the payment processor. WooCommerce customers can also download their invoices directly from Stripe by following [this link](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+        App payments are handled by Stripe, the payment processor. WooCommerce customers can also download their invoices directly from Stripe in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
 
 
 === "Magento"
@@ -91,7 +91,7 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
     !!! note
 
-        App payments are handled by Stripe, the payment processor. Magento customers can also download their invoices directly from Stripe by following [this link](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+        App payments are handled by Stripe, the payment processor. Magento customers can also download their invoices directly from Stripe in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
 
 === "BigCommerce"
 
@@ -163,7 +163,7 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
     Payments are handled by Stripe, the payment processor. Since we don’t store credit card details and we don’t have access to them, the process to change it in Stripe would be the following:
 
-    1. You can access all your Stripe billing details via [this link](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+    1. You can access all your Stripe billing details in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
     2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
 
         ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change_billing_details.png)
@@ -193,7 +193,7 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
     Payments are handled by Stripe, the payment processor. Since we don’t store credit card details and we don’t have access to them, the process to change it in Stripe would be the following:
 
-    1. You can access all your Stripe billing details via [this link](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+    1. You can access all your Stripe billing details in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
     2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
 
         ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change_billing_details.png)
@@ -224,7 +224,7 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
     Payments are handled by Stripe, the payment processor. Since we don’t store credit card details and we don’t have access to them, the process to change it in Stripe would be the following:
 
-    1. You can access all your Stripe billing details via [this link](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+    1. You can access all your Stripe billing details in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
     2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
 
         ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change_billing_details.png)
@@ -255,7 +255,7 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
     Payments are handled by Stripe, the payment processor. Since we don’t store credit card details and we don’t have access to them, the process to change it in Stripe would be the following:
 
-    1. You can access all your Stripe billing details via [this link](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+    1. You can access all your Stripe billing details in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
     2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
 
         ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change_billing_details.png)

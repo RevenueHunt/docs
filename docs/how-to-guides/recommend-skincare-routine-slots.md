@@ -45,7 +45,7 @@ This guide is designed to help merchants effectively use [Product Slot Blocks](/
     <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-A personalized skincare routine recommendation quiz was chosen as an example to best demonstrate how to work with this feature. See an example of such a Skincare Quiz [here](https://skincarequiz.myshopify.com/#quiz-rkHm6Y).
+A personalized skincare routine recommendation quiz was chosen as an example to best demonstrate how to work with this feature. See an [example Skincare Quiz](https://skincarequiz.myshopify.com/#quiz-rkHm6Y).
 
 ![how to recommend slots example](/images/how_to_recommend_slots_example.png)
 

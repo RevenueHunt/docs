@@ -19,7 +19,7 @@ Unlock the full potential of your RevenueHunt Product Recommendation Quiz by int
 This guide will walk you through adding JavaScript to quiz questions and the results page. 
 
 !!! warning "For developers and Shopify Partners"
-    This guide is meant for developers and Shopify Partners. If you're not familiar with the basics of JavaScript and the Vue.js framework, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).
+    This guide is meant for developers and Shopify Partners. If you're not familiar with the basics of JavaScript and the Vue.js framework, it is advised to ask for help from a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
 
 ## Understanding JavaScript, HTML, and Liquid
 

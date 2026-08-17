@@ -1891,7 +1891,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 --- Shopify (Legacy) Specific Content ---
 
 All the features are available on all plans.
-    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (Check how this works [here](#when-do-my-plan-responses-reset).)
+    - Every day, our billing system calculates the responses captured during the **past 30 days (rolling)**. Your plan is based on usage in retrospect. (See [When do my plan responses reset?](#when-do-my-plan-responses-reset).)
     - If your quizzes receive more responses than your plan allows in the past 30 days, the app will prompt you to **upgrade to a higher plan**. Conversely, if your usage decreases, you can **downgrade to a lower plan**.
     - We offer **flexible upgrades** and charge only for the proportional days you've been on each plan each month.
     - If you need to **temporarily upgrade for a marketing campaign**, you can downgrade later if your usage decreases.
@@ -5824,7 +5824,7 @@ Unlock the full potential of your RevenueHunt Product Recommendation Quiz by int
 This guide will walk you through adding JavaScript to quiz questions and the results page. 
 
 !!! warning "For developers and Shopify Partners"
-    This guide is meant for developers and Shopify Partners. If you're not familiar with the basics of JavaScript and the Vue.js framework, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).
+    This guide is meant for developers and Shopify Partners. If you're not familiar with the basics of JavaScript and the Vue.js framework, it is advised to ask for help from a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
 
 ## Understanding JavaScript, HTML, and Liquid
 
@@ -6365,7 +6365,7 @@ You could, instead of adding the product to the cart, send the customer to the p
 
 ## Your product is a subscription product
 
-RevenueHunt app is able to sync and recommend subscription products created with ReCharge Subscriptions for Shopify. Check [here](/how-to-guides/recommend-subscription-products/) for instructions on how to enable it.
+RevenueHunt app is able to sync and recommend subscription products created with ReCharge Subscriptions for Shopify. See [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) for instructions on how to enable it.
 
 For other subscription apps, there's a [workaround](/how-to-guides/recommend-subscription-products/#other-subscriptions) that allows you to still guide your customers towards subscription options via the RevenueHunt app. 
 
@@ -6882,7 +6882,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
         If you want to make the results ultra-precise, you can also:
         - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
-    Read more about how the recommendations work [here](/how-to-guides/recommend-products/).
+    Read more in [How to Recommend Products](/how-to-guides/recommend-products/).
     To test the quiz, you'll have to save the changes and preview it.
     1. **Publish the changes**: Click [`Publish`](/reference/quiz-builder/questions/) on the top-right menu. Don't worry, clicking `Publish` will not automatically add the quiz to your website. It will simply save the changes and allow you to preview the quiz.
     2. **Preview the quiz**: Click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created. 
@@ -8086,7 +8086,7 @@ With RevenueHunt app you have the possibility to pre-fill the responses to certa
     ### Example
     **Use case**: You’ve embedded the quiz on all product pages and want to know from which product page the quiz was taken.
     **Solution**: You can pass parameters to the quiz (eg. product ID) and “store” them in a question as a pre-filled answer.
-    1. You will first need to create a `Short Text` question to store the product ID. Check how to add this question [here](/reference/quiz-builder/questions/#question-types).
+    1. You will first need to create a `Short Text` question to store the product ID. See [Question Types](/reference/quiz-builder/questions/#question-types).
     2. Copy that question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
     3. Then in your main product page include the following script, so you can add some script like this to your product page:
     ```html
@@ -8641,7 +8641,7 @@ In short, to add a link popup to your store, you need to:
         }
         </style>
         ```
-    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check the instructions [here](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
+    - **Publish the quiz inline with a page instead.** If you don't want to make changes you can publish the quiz inline on a new page in your store. This way the quiz will be a part of it and you can link to that quiz page from other parts of your website. Check [Embedding an Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page).
     For Shopify (V1), you can link to specific quizzes by creating different popup links for each quiz.
     1. Go to the [`Share`](/reference/quiz-builder/share-publish/) section for each quiz.
     2. Navigate to `Link > Show Instructions for legacy themes`.
@@ -8808,7 +8808,7 @@ The recommendation process is based on how many choices the user selects out of 
 
 ## How can I ensure that users don’t see the choices in the last question?
 
-You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](/how-to-guides/customize-quiz-design/).
+You can hide these technical choices in the last question using custom CSS code. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
 
 ## Where do I input the custom JavaScript code?
 
@@ -9514,7 +9514,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
         You can also follow our step-by-step tutorial to learn how to connect your quiz to Klaviyo and send leads to Klaviyo: [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/)
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=MoMUJ1OTl-cmoBQo&amp;start=104" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     To connect the quiz to Klaviyo you’ll have to provide your Klaviyo **Public API Key**. Public API Key is essential because it allows us to send information to Klaviyo Profiles.
-    2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key [here](https://www.klaviyo.com/account#api-keys-tab).
+    2. To find your Public Key login to your Klaviyo account. In account `Settings` open the `API Keys` tab and copy the public API Key. You can get your Klaviyo Public API Key from the [Klaviyo API Keys tab](https://www.klaviyo.com/account#api-keys-tab).
         ![how to send leads to klaviyo public api key](/images/how_to_send_leads_to_klaviyo_public_api_key.png)
     3. Navigate back to the RevenueHunt app. 
     4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and edit the connection. Paste your Public API Key and save.
@@ -9547,7 +9547,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
         `name`, `url`, `image_url`, `price`, `sku`, `id` and `variant_id`. `[INDEX]` starts at `0`.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/iIl2njV-UkI?si=_NKZoiG-xGhV8IeO&amp;start=200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list. You can also [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
-    2. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
+    2. **Connect Quiz to Klaviyo**: Follow the instructions in [Link Your Quiz to Klaviyo](#link-your-quiz-to-klaviyo) to learn how to connect your quiz to Klaviyo correctly.
     3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
         1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
         2. Name the segment and set up the definition.
@@ -9604,7 +9604,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
     RevenueHunt app allows you to add contacts from the quiz directly to a list in Klaviyo. 
     1. To do that you’ll need to provide a **Private API Key**.
     2. To create a new Private Key for the RevenueHunt app login to your Klaviyo account.
-    3. In account `Settings` open the `API Keys` tab and create a new Private API Key. For list-specific contact additions, you can get your Klaviyo Private API Key [here](https://www.klaviyo.com/account#api-keys-tab).
+    3. In account `Settings` open the `API Keys` tab and create a new Private API Key. For list-specific contact additions, you can get your Klaviyo Private API Key from the [Klaviyo API Keys tab](https://www.klaviyo.com/account#api-keys-tab).
         ![how to send leads to klaviyo private api key](/images/how_to_send_leads_to_klaviyo_private_api_key.png)
     4. Allow `Full access`.
     5. Copy the private key.
@@ -9823,7 +9823,7 @@ Apart from giving your customers a personalized product recommendation, you can 
     !!! warning
         Email templates and flows are not something that’s a one-click install. It should be built by someone with technical knowledge and experience in Omnisend.
         Once the quiz is connected to Omnisend (and the data is sent there), it’s out of our app’s scope, and any particular questions on how to set up the flows and how to build the email templates should be directed to Omnisend.
-    1. **Connect Your Quiz to Omnisend**: Refer to the instructions provided [here](#link-quiz-to-omnisend) to ensure your quiz is correctly connected to Omnisend.
+    1. **Connect Your Quiz to Omnisend**: Refer to [Link Quiz to Omnisend](#link-quiz-to-omnisend) to ensure your quiz is correctly connected to Omnisend.
     2. **Create a Segment for Quiz Participants**: In Omnisend, [create a segment](https://support.omnisend.com/en/articles/1400415-creating-segments) specifically for users who have completed the quiz. This can be done by filtering for a `custom property` that only quiz participants will have, such as `permalink_quiz_id`.
         ![how to omnisend segment](/images/how_to_omnisend_create_segment.png)
         - Use the custom properties to create a segment for users who took the quiz. Select a property (e.g., `permalink_quiz_id`) and copy it.
@@ -10406,7 +10406,7 @@ Follow the step by step instructions below to active and edit the result emails 
     5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
         - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
         ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
-        - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about styling Advanced HTML Email temapltes [here](#advanced-html-email-templates).
+        - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email Templates](#editing-email-templates).
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -11140,7 +11140,7 @@ Scoring system is not available in the legacy version of the RevenueHunt app for
     2. **Add hidden choices**. In your final question, include a multiple-choice option that correlates with the aforementioned collections/categories. This ensures that each choice connects to its respective recommended collection/category. Make sure to hide these choices from the user with custom CSS code.
     3. **Add custom JavaScript**. Using custom JavaScript, evaluate the choices selected throughout the quiz and write a piece of code that automatically selects one of the hidden choices in the last question. This will determine which product collection/category to recommend based on the number of choices the user made.
     **How can I ensure that users don’t see the choices in the last question?**
-    You can hide these technical choices in the last question using custom CSS code. A guide on how to customize the quiz design can be found [here](/how-to-guides/customize-quiz-design/).
+    You can hide these technical choices in the last question using custom CSS code. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
     **Where do I input the custom JavaScript code?**
     [This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
     ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png){width=500}
@@ -11222,7 +11222,7 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
     3. Use a different browser or incognito browsing mode to open the live quiz on your site (don't test on preview/admin.revenuehunt).
     4. Take the quiz all the way to the results, provide the same email in the quiz that will be used for checkout/placing an order. Good idea is using *yourrealemail+test1@youremail.com* for example. 
     5. Add all the products to cart and proceed to cart, then checkout.
-    6. Place a valid test order (as explained [here](https://help.shopify.com/en/manual/checkout-settings/test-orders)).
+    6. Place a valid test order (as explained in the Shopify [test orders guide](https://help.shopify.com/en/manual/checkout-settings/test-orders)).
     7. Check if the lead was added to **Shopify Customers** section and if it was marked with `RevenueHunt` in the details.
     8. Go to **Shopify Orders** and check if the order notes appear along the test order placed. 
     If you're still having issues, please reach out to our [support team](/how-to-guides/contact-customer-support/).
@@ -11275,7 +11275,7 @@ description: "Information about showing RevenueHunt quiz on Shopify customer pro
 Integrating quiz results into a customer's profile on your Shopify store can personalize the shopping experience. 
     This guide will walk you through the steps to show the quiz on a customer profile in Shopify.
     !!! warning
-        This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).
+        This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
     !!! note
         This method works only for Shopify accounts using our [RevenueHunt](https://revenuehunt.com/product-recommendation-quiz-shopify/) app. Unfortunately, we don't have a solution yet on how to show the quiz on a customer profile in WooCommerce, Magento or BigCommerce.
     **Step 1: Connect Your Quiz to Shopify's Customer List**
@@ -11318,7 +11318,7 @@ description: "Information about showing RevenueHunt quiz only to logged-in custo
 
 It’s possible to use the customer metafields to render quiz results onto different elements of your Shopify Theme liquids. This article explains how to show the quiz only to logged-in customers in Shopify.
     !!! warning
-        This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find/hire a developer [here](https://experts.shopify.com/).
+        This guide is meant for developers and Shopify Partners. If you're not familiar with Shopify liquid, it is advised to ask for help from a professional to implement this. You can find or hire a developer through [Shopify Experts](https://experts.shopify.com/).
     !!! note
         This method works only for Shopify accounts using our [RevenueHunt](https://revenuehunt.com/product-recommendation-quiz-shopify/) app. Unfortunately, we don't have a solution yet on how to do this in WooCommerce, Magento or BigCommerce.
     **Step 1: Create a New Page Template**
@@ -11387,7 +11387,7 @@ description: "Learn how to display custom explanations for why products were rec
     The legacy version of the RevenueHunt app **doesn't** have a linear score feature (as in every time a customer picks a choice, the "score" will receive one point and at the end, based on that score, different results pages will be displayed). For this reason, it can be very hard to build a **"personality-type"** quiz with our solution.
     If you want to show different text results depending on the recommended products, this functionality has to be built on the [Results Page](/reference/quiz-builder/results-page/). There are a few ways to achieve it:
     1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance on setting up Display Logic, see [here](/how-to-guides/use-display-logic/). 
+    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
         !!! tip
             For longer, more complex quizzes, we advise using the custom JavaScript approach for optimal flexibility.
         ??? question "How to Build a Personality-Type Quiz?"
@@ -11464,7 +11464,7 @@ description: "Learn how to display custom explanations for why products were rec
             This step-by-step guide will help you build a personality-type quiz tailored to your customers, making it easier to recommend the perfect products and deliver valuable insights.          
     3. **Custom JavaScript**: For a more refined approach, consider hiring a developer to create a custom JavaScript function. This function can show specific text tailored to the ID of the recommended product. Your developer could also add custom values to quiz choices and create a scoring system for the quiz to then display the right text on the results page. 
         !!! tip
-            Instructions on adding custom JavaScript to your Product Recommendation Quiz can be found [here](/how-to-guides/add-javascript/).
+            See [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/).
     4. **Product Descriptions**: Another option is to enrich your product descriptions with information explaining why each product is recommended. These descriptions are pulled directly from your store's product list. You can manage the visibility of these descriptions in the [Results Page settings](/reference/quiz-builder/results-page/) under `Individual Product Settings -> Show description`. Additionally, you have the option to truncate these descriptions for better readability.
 
 
@@ -13618,7 +13618,7 @@ description: "Connect RevenueHunt quizzes to third-party services like Klaviyo, 
 --- Shopify (Legacy) Specific Content ---
 
 ![quiz builder connect](/images/manual_quizbuilder_connect.png)
-    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
     To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
 
@@ -13910,7 +13910,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
     `Question Type` - Allows you to switch between similar question types.
     `Button Text` - Change the text button on the slide.
-    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](/how-to-guides/use-information-recalls/).
+    `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
     `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
     `Optional` - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
     `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
@@ -14145,7 +14145,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Show description` - Toggle to display the product description below the product name on the results page. An additional option is displayed.
     `Truncate description` - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
     ??? question "Show custom shorter product description"
-        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
         This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         And paste the `<!--more-->` code after the introductory blurb:
@@ -14343,7 +14343,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
     - **Question Type** - Allows you to switch between similar question types.
     - **Button Text** - Change the text button on the slide.
-    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more about Information Recalls [here](https://docs.revenuehunt.com/how-to-guides/information-recalls/).
+    - **Recall Information** - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
     - **Show Description** - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
     - **Optional** - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
     - **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
@@ -14541,7 +14541,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - **Show description** - Toggle to display the product description below the product name on the results page. An additional option is displayed.
         **Truncate description** - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
         ??? question "Show custom shorter product description"
-            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+            It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
             This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
             ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
             And paste the `<!--more-->` code after the introductory blurb:
@@ -14688,7 +14688,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - **Create a new quiz using this version** - Create a new quiz on our dashboard based on this version of the current quiz.
     - **Rename this version** - Allows you to rename this saved version of the quiz.
     ![quiz builder connect](/images/manual_quizbuilder_connect.png)
-    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+    In the Connect tab of the Quiz Builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
     To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
     ![quiz builder share](/images/manual_quizbuilder_share.png)
     In the Share tab of the Quiz Builder, you can choose how to publish the quiz on your website or how to share it with your customers. Click on the option tiles to see instructions and extra settings. 
@@ -15063,7 +15063,7 @@ In this tutorial, you'll see an overview of the most important features of the R
     The [`Metrics`](/reference/quiz-builder/metrics/) panel is where you'll be able to analyze quiz responses.
     - Scroll down in [`analytics`](/reference/quiz-builder/metrics/#analytics) to see a general overview of your results, like how many people viewed your quiz, how many people started it, and the number of responses. 
     - The [`responses`](/reference/quiz-builder/metrics/#responses) tab lets you dive deeper into individual respondents to see how they answered each question.
-    - You can download all responses to a CSV file by clicking [here](/how-to-guides/download-quiz-responses/).
+    - You can download all responses to a CSV file from [How to Download Quiz Responses](/how-to-guides/download-quiz-responses/).
 
 
 
@@ -15435,7 +15435,7 @@ In these tutorials, you’ll learn how to send emails to quiz respondents and yo
     5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
         - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
         ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
-        - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about styling Advanced HTML Email temapltes [here](/how-to-guides/send-result-emails/#editing-email-templates).
+        - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email Templates](/how-to-guides/send-result-emails/#editing-email-templates).
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/4f81409e7c704226baa5e7d57d3a5d00?sid=943b1e1b-9aee-4680-af9f-17707623df33" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
