@@ -49,48 +49,48 @@ This article explains how to send leads to MailerLite from your product recommen
 
     Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
     - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 === "Shopify (Legacy)"
 
     Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
     - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 === "WooCommerce"
 
     Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
     - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 === "Magento"
 
     Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
     - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 === "BigCommerce"
 
     Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
     - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 === "Standalone"
 
     Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
 
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
     - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 ---

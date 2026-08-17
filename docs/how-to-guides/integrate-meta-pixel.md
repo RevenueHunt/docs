@@ -17,7 +17,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
 !!! note
 
-    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
 
 === "Shopify"
 

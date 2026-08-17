@@ -247,9 +247,9 @@ icon: material/sale
 
     Your developer can also add a discount code to the results page using custom JavaScript code added to the Results page.
     
-    !!! info
+    !!! tip
 
-        Check out [this article](/how-to-guides/add-javascript/) for more information on how to add custom JavaScript code to your results page.
+        Check out [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for more information on how to add custom JavaScript code to your results page.
 
     !!! example 
         You can use this function 
@@ -289,12 +289,12 @@ icon: material/sale
 
     **Alternatively**
 
-    Your developer can also add a discount code to the results page using custom JavaScript code added to the Results page. Check out [this article](/how-to-guides/add-javascript/) for more information.
+    Your developer can also add a discount code to the results page using custom JavaScript code added to the Results page. Check out [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for more information.
 
     
-    !!! info
+    !!! tip
 
-        Check out [this article](/how-to-guides/add-javascript/) for more information on how to add custom JavaScript code to your results page.
+        Check out [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for more information on how to add custom JavaScript code to your results page.
 
     !!! example 
         You can use this function 
@@ -314,9 +314,9 @@ icon: material/sale
 
     Your developer can, however, add a discount code to the results page using custom JavaScript code added to the Results page. 
     
-    !!! info
+    !!! tip
 
-        Check out [this article](/how-to-guides/add-javascript/) for more information on how to add custom JavaScript code to your results page.
+        Check out [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for more information on how to add custom JavaScript code to your results page.
 
     !!! example 
         You can use this function 
@@ -335,9 +335,9 @@ icon: material/sale
 
     Your developer can, however, add a discount code to the results page using custom JavaScript code added to the Results page. 
     
-    !!! info
+    !!! tip
 
-        Check out [this article](/how-to-guides/add-javascript/) for more information on how to add custom JavaScript code to your results page.
+        Check out [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for more information on how to add custom JavaScript code to your results page.
 
     !!! example 
         You can use this function 
@@ -355,12 +355,12 @@ icon: material/sale
 
     It is not currently possible to add discount coupons into your quiz built with Standalone version of the RevenueHunt app.
 
-    Your developer can, however, add a discount code to the results page using custom JavaScript code added to the Results page. Check out [this article](/how-to-guides/add-javascript/) for more information.
+    Your developer can, however, add a discount code to the results page using custom JavaScript code added to the Results page. Check out [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for more information.
 
     
-    !!! info
+    !!! tip
 
-        Check out [this article](/how-to-guides/add-javascript/) for more information on how to add custom JavaScript code to your results page.
+        Check out [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for more information on how to add custom JavaScript code to your results page.
 
     !!! example 
         You can use this function 
@@ -382,9 +382,9 @@ icon: material/sale
 
     Simply go to the [Quiz settings](/reference/quiz-builder/quiz-settings/), find the [Emails to respondents](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
 
-    !!! info
+    !!! tip
 
-        Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
+        Check out [Setting Up Result Emails with Product Recommendation Quiz](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
 
 
 === "Shopify (Legacy)"
@@ -393,9 +393,9 @@ icon: material/sale
 
     Simply go to the [Quiz Builder](/reference/quiz-builder/), find the [Notifications > TO RESPONDENT](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
 
-    !!! info
+    !!! tip
 
-        Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
+        Check out [Setting Up Result Emails with Product Recommendation Quiz](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
 
 === "WooCommerce"
 
@@ -403,9 +403,9 @@ icon: material/sale
 
     Simply go to the [Quiz Builder](/reference/quiz-builder/), find the [Notifications > TO RESPONDENT](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
 
-    !!! info
+    !!! tip
 
-        Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
+        Check out [Setting Up Result Emails with Product Recommendation Quiz](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
 
 === "Magento"
 
@@ -413,9 +413,9 @@ icon: material/sale
 
     Simply go to the [Quiz Builder](/reference/quiz-builder/), find the [Notifications > TO RESPONDENT](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
 
-    !!! info
+    !!! tip
 
-        Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
+        Check out [Setting Up Result Emails with Product Recommendation Quiz](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
 
 === "BigCommerce"
 
@@ -423,9 +423,9 @@ icon: material/sale
 
     Simply go to the [Quiz Builder](/reference/quiz-builder/), find the [Notifications > TO RESPONDENT](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
 
-    !!! info
+    !!! tip
 
-        Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
+        Check out [Setting Up Result Emails with Product Recommendation Quiz](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
 
 === "Standalone"
 
@@ -433,9 +433,9 @@ icon: material/sale
 
     Simply go to the [Quiz Builder](/reference/quiz-builder/), find the [Notifications > TO RESPONDENT](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
 
-    !!! info
+    !!! tip
 
-        Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
+        Check out [Setting Up Result Emails with Product Recommendation Quiz](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
 
 ## Apply discount only if customer leaves their email
 
@@ -503,7 +503,7 @@ icon: material/sale
 
         !!! tip
 
-            To learn more about Jump Logic, check [this article](/how-to-guides/use-jump-logic/).
+            To learn more about Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
     6. **FIRST JUMP LOGIC – DISCOUNT QUESTION**: To add Jump Logic to the discount question, click the `conditional logic` button. In the `Jump Logic` menu, select `Add Jump Logic`. Add the following logic condition:
         ![how to add discount jump logic 1](/images/how_to_add_discount_jump_logic_1.png)
@@ -534,7 +534,7 @@ icon: material/sale
 
         !!! tip
 
-            To learn more about Jump Logic, check [this article](/how-to-guides/use-jump-logic/).
+            To learn more about Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
     6. **FIRST JUMP LOGIC – DISCOUNT QUESTION**: To add Jump Logic to the discount question, click the `conditional logic` button. In the `Jump Logic` menu, select `Add Jump Logic`. Add the following logic condition:
         ![how to add discount jump logic 1](/images/how_to_add_discount_jump_logic_1.png)
@@ -565,7 +565,7 @@ icon: material/sale
 
         !!! tip
 
-            To learn more about Jump Logic, check [this article](/how-to-guides/use-jump-logic/).
+            To learn more about Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
     6. **FIRST JUMP LOGIC – DISCOUNT QUESTION**: To add Jump Logic to the discount question, click the `conditional logic` button. In the `Jump Logic` menu, select `Add Jump Logic`. Add the following logic condition:
         ![how to add discount jump logic 1](/images/how_to_add_discount_jump_logic_1.png)
@@ -596,7 +596,7 @@ icon: material/sale
 
         !!! tip
 
-            To learn more about Jump Logic, check [this article](/how-to-guides/use-jump-logic/).
+            To learn more about Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
     6. **FIRST JUMP LOGIC – DISCOUNT QUESTION**: To add Jump Logic to the discount question, click the `conditional logic` button. In the `Jump Logic` menu, select `Add Jump Logic`. Add the following logic condition:
         ![how to add discount jump logic 1](/images/how_to_add_discount_jump_logic_1.png)
@@ -627,7 +627,7 @@ icon: material/sale
 
         !!! tip
 
-            To learn more about Jump Logic, check [this article](/how-to-guides/use-jump-logic/).
+            To learn more about Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
 
     6. **FIRST JUMP LOGIC – DISCOUNT QUESTION**: To add Jump Logic to the discount question, click the `conditional logic` button. In the `Jump Logic` menu, select `Add Jump Logic`. Add the following logic condition:
         ![how to add discount jump logic 1](/images/how_to_add_discount_jump_logic_1.png)

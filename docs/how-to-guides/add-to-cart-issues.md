@@ -14,7 +14,7 @@ The quiz needs to be published on live website (not hidden by a “coming soon�
 
 !!! tip
 
-    Check [this article](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
+    Check [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
 
 ## You’re using a cart drawer
 
@@ -40,7 +40,7 @@ If you configure your Shopify theme to handle cart updates, it may be possible t
     
 !!! tip
 
-    Check [this article](/how-to-guides/update-shopify-cart-drawer/) to learn how quiz adds products to the cart and how to configure your Shopify theme to handle cart updates.
+    Check [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) to learn how quiz adds products to the cart and how to configure your Shopify theme to handle cart updates.
 
 **Option 2: Send the customer to the product page**
 
@@ -48,7 +48,7 @@ You could, instead of adding the product to the cart, send the customer to the p
 
 !!! tip
 
-    Check [this article](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
+    Check [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
 
 
 ## Your product is a subscription product

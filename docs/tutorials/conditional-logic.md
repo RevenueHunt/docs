@@ -337,7 +337,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
     1. Set up Multiple Results pages in your quiz. 
     
         !!! tip
-            Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
+            Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -964,7 +964,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
         !!! tip
 
-            To learn how to add scores or variables to choices, check out [this section](#add-scores-or-variables-to-choices).
+            To learn how to add scores or variables to choices, check out [Add scores or variables to choices](#add-scores-or-variables-to-choices).
 
         !!! example "Example: Assigning variables to choices"
         
@@ -1051,7 +1051,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
         !!! tip
 
-            To learn how to add scores or variables to choices, check out [this section](#add-scores-or-variables-to-choices).
+            To learn how to add scores or variables to choices, check out [Add scores or variables to choices](#add-scores-or-variables-to-choices).
 
         !!! example "Example: Assigning scoresto choices"
         

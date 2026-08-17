@@ -413,7 +413,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
         ![Publish Page](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
 
-        !!! note
+        !!! tip
             Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added to your website.
 
 

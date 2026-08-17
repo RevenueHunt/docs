@@ -98,7 +98,7 @@ If you're using a subscription app that is not supported, you can still recommen
     - It is not possible to add all products to the cart with a single button; each subscription has to be chosen and added separately.
     - The subscription duration can only be chosen on the results page. It is not possible to recommend a specific subscription duration.
     - The customer needs to proceed to the cart first and cannot proceed to checkout directly with subscription products. You can change this in the [checkout settings](/how-to-guides/change-checkout-settings/).
-    - We only integrate with the **new Shopify Checkout**; the old Recharge Checkout is not supported. For instructions on how to migrate from the old ReCharge Checkout to the new Shopify Checkout, check [this article](https://support.rechargepayments.com/hc/en-us/articles/4403505928599).
+    - We only integrate with the **new Shopify Checkout**; the old Recharge Checkout is not supported. For instructions on how to migrate from the old ReCharge Checkout to the new Shopify Checkout, check [ReCharge migration guide](https://support.rechargepayments.com/hc/en-us/articles/4403505928599).
 
 === "WooCommerce"
 

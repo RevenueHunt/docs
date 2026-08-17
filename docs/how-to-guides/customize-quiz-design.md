@@ -1092,7 +1092,7 @@ The Results Page also has its own customization options.
 
 !!! tip
 
-    Check [this article](/how-to-guides/edit-results-page/) to learn more about styling your results page.
+    Check [How to Edit Your Product Recommendation Quiz Results Page](/how-to-guides/edit-results-page/) to learn more about styling your results page.
 
 In addition to the basic elements, you can set a unique background image for each results page through the [results page settings](/reference/quiz-builder/results-page/). You can also use these settings to apply [custom JavaScript](/how-to-guides/add-javascript/) to your quiz design.
 

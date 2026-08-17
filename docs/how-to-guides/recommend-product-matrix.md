@@ -397,7 +397,7 @@ If the quiz is set up correctly, the following products should be recommended in
 
 ![how to recommend products matrix results1](/images/how_to_recommend_products_results1.png)
 
-If you’re not getting the expected results, please check [this article](/how-to-guides/troubleshoot-product-results/) to learn how to troubleshoot the quiz results.
+If you’re not getting the expected results, please check [How to Troubleshoot Product Recommendations in Your Quiz](/how-to-guides/troubleshoot-product-results/) to learn how to troubleshoot the quiz results.
 
 ??? question "Why were these products recommended?"
 
@@ -421,7 +421,7 @@ If you’re not getting the expected results, please check [this article](/how-t
 
     When products receive the same amount of votes, the algorithm randomizes the order in which they are shown on the Results page. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
 
-If you’d like to organize the products in a specific order, you can create `Product Slots` on the Results Page. Check [this article](/how-to-guides/recommend-skincare-routine-slots/) to learn how to do that.
+If you’d like to organize the products in a specific order, you can create `Product Slots` on the Results Page. Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) to learn how to do that.
 
 ## Complex product matrix
 
@@ -649,4 +649,4 @@ If you’d like to organize the products in a specific order, you can create `Pr
 
 
 ---
-This article explains how to set up a quiz with a product matrix. If you're looking for a more detailed guide on how to set up a quiz with product recommendations, check out [this article](/how-to-guides/set-up-recommendations/).
+This article explains how to set up a quiz with a product matrix. If you're looking for a more detailed guide on how to set up a quiz with product recommendations, check out [How to Set Up Recommendations](/how-to-guides/set-up-recommendations/).

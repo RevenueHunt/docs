@@ -529,7 +529,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     2. Click `Create flow` and then `Build from scratch`.
     3. Name the flow and click `Create flow`.
     4. Next, you'll be asked to set up a flow trigger.
-    5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Set the `Reentry criteria` to `Allow reentry` so quiz takers receive an email every time they complete the quiz. Click `Confirm` and `Confirm and save`.
+    5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Set the `Reentry criteria` to `Allow reentry` so quiz takers receive an email every time they complete the quiz. Click `Confirm` and `Confirm and save`.
 
         !!! tip "Alternative: trigger from a Klaviyo list"
             Instead of triggering from a segment, you can trigger the flow when a contact is added to a specific Klaviyo list. This is useful if you're using the `Klaviyo list` selector in your quiz's email question block to send contacts directly to a list (see [Add Contacts to List](/tutorials/follow-up-emails-klaviyo/#add-contacts-to-list)).
@@ -541,7 +541,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     2. Click `Create flow` and then `Build from scratch`.
     3. Name the flow and click `Create flow`.
     4. Next, you'll be asked to set up a flow trigger.
-    5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+    5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
 
 === "WooCommerce"
 
@@ -549,7 +549,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     2. Click `Create flow` and then `Build from scratch`.
     3. Name the flow and click `Create flow`.
     4. Next, you'll be asked to set up a flow trigger.
-    5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+    5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
 
 === "Magento"
 
@@ -557,7 +557,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     2. Click `Create flow` and then `Build from scratch`.
     3. Name the flow and click `Create flow`.
     4. Next, you'll be asked to set up a flow trigger.
-    5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+    5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
 
 === "BigCommerce"
 
@@ -565,7 +565,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     2. Click `Create flow` and then `Build from scratch`.
     3. Name the flow and click `Create flow`.
     4. Next, you'll be asked to set up a flow trigger.
-    5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+    5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
 
 === "Standalone"
 
@@ -573,7 +573,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     2. Click `Create flow` and then `Build from scratch`.
     3. Name the flow and click `Create flow`.
     4. Next, you'll be asked to set up a flow trigger.
-    5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+    5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
 
 ### (Optional) update marketing consent
 

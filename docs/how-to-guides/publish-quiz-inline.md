@@ -92,7 +92,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
         !!! note 
             If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
-            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [section](#embed-a-specific-quiz) for more information.
+            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [Embed a specific quiz](#embed-a-specific-quiz) for more information.
 
     4. In the `Inline Quiz` section, you can adjust the inline quiz settings.
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
@@ -220,7 +220,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
         !!! note 
             If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
-            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [section](#embed-a-specific-quiz) for more information.
+            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [Embed a specific quiz](#embed-a-specific-quiz) for more information.
 
     5. **Configure Quiz settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
 

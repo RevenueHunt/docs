@@ -5782,8 +5782,8 @@ With the Built for Shopify version of the RevenueHunt app, you can:
         If you have a discount applied to certain products in your store, these reduced prices will be reflected in the quiz results page automatically.
     To further personalize the customer experience, you can incorporate the discount code within the follow-up email sent to the customer with quiz results. This allows customers to conveniently copy and paste the code at checkout.
     Simply go to the [Quiz settings](/reference/quiz-builder/quiz-settings/), find the [Emails to respondents](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
-    !!! info
-        Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
+    !!! tip
+        Check out [Setting Up Result Emails with Product Recommendation Quiz](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
     Yes, you can apply a discount at checkout only for customers who leave their email in the quiz. The idea is to send customers to one of two results pages depending on whether they complete the email question: a default page with no discount, and a second page that carries the discount code.
     1. **Create multiple results pages**: Go to [`Results Page Settings -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click `Activate`. A second results page is added.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
@@ -6637,7 +6637,7 @@ This section will guide you through the process of importing your products from 
 
     !!! warning 
 
-        You cannot just upload any data source file to the RevenueHunt app. The file must be a **valid Google Product Feed XML file**. Check this [guide](https://support.google.com/merchants/answer/12631822?hl=en) to learn more about the best practices for creating a valid Google Product Feed.
+        You cannot just upload any data source file to the RevenueHunt app. The file must be a **valid Google Product Feed XML file**. Check this [Google Merchant Center feed specification](https://support.google.com/merchants/answer/12631822?hl=en) to learn more about the best practices for creating a valid Google Product Feed.
     
 
     !!! info "How do I find my Google Product Feed URL?"
@@ -6709,7 +6709,7 @@ The quiz needs to be published on live website (not hidden by a “coming soon�
 
 !!! tip
 
-    Check [this article](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
+    Check [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
 
 ## You’re using a cart drawer
 
@@ -6735,7 +6735,7 @@ If you configure your Shopify theme to handle cart updates, it may be possible t
     
 !!! tip
 
-    Check [this article](/how-to-guides/update-shopify-cart-drawer/) to learn how quiz adds products to the cart and how to configure your Shopify theme to handle cart updates.
+    Check [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) to learn how quiz adds products to the cart and how to configure your Shopify theme to handle cart updates.
 
 **Option 2: Send the customer to the product page**
 
@@ -6743,7 +6743,7 @@ You could, instead of adding the product to the cart, send the customer to the p
 
 !!! tip
 
-    Check [this article](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
+    Check [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
 
 
 ## Your product is a subscription product
@@ -6774,7 +6774,7 @@ Directly asking for marketing consent or acceptance of data processing in your q
 
 This article outlines several methods to integrate consent requests seamlessly into your quizzes.
 
-!!! note
+!!! tip
 
     Check our latest article [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/) to learn more.
 
@@ -7323,7 +7323,7 @@ This article will guide you through the process of copying a quiz from one store
         ![Import Quiz Step](/images/manual_shopifyV2_createquiz_importquiz.png)
     After completing these steps, the imported quiz will appear in your dashboard with a `- imported from QUIZID` suffix in its name.
     If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
-    If you’re changing the `.myshopify` account, then check [this guide](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    If you’re changing the `.myshopify` account, then check [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
 
 
@@ -7398,7 +7398,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     1. **Publish the quiz**: To add the quiz to your store, go the [Publish tab](/reference/quiz-builder/share-publish/) from your [Dashboard](/reference/dashboard/) side menu.
     2. **Pick a publishing method**: Pick a publishing method such as a quiz embeded on a new page, homepage or a link popup in the website menu and follow the instructions provided.
         ![Publish Page](/images/manual_shopifyV2_quizbuilder_share_publish_publishpage.png)
-        !!! note
+        !!! tip
             Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added to your website.
     If changes are made post-publishing, click `Save` again to update the live quiz.
     ![Unsaved Changes](/images/manual_shopifyV2_quizbuilder_unsavedchanges.png)
@@ -8124,7 +8124,7 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
         The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
         If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     !!! note
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
     1. Make sure you have set up the GA4 tracking on your website. 
         !!! tip
             Don't know how to connect your website to Google Analytics or find your GA tracking code? [Check this link](https://support.google.com/analytics/answer/1008080).
@@ -8282,7 +8282,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
 !!! note
 
-    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
 
 --- Shopify Specific Content ---
 
@@ -8354,8 +8354,8 @@ This article explains how to integrate the TikTok Pixel with your quiz applicati
 !!! warning
         This feature is currently in beta and is not available for all stores. Please [reach out to the RevenueHunt support team](/how-to-guides/contact-customer-support/) if you'd like to use it.
     To connect tiktok pixel to your quiz, follow the instructions below: 
-    1. **Connect TikTok to Shopify**: To connect your TikTok Pixel with your quiz, you need to first set it up in your Shopify store and make sure it is integrated with your website. Follow the instructions in [this article](https://ads.tiktok.com/help/article/shopify-set-up-guide) to set it up.
-    2. **Embed Quiz on a New Page**: TikTok Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+    1. **Connect TikTok to Shopify**: To connect your TikTok Pixel with your quiz, you need to first set it up in your Shopify store and make sure it is integrated with your website. Follow the instructions in [TikTok Shopify setup guide](https://ads.tiktok.com/help/article/shopify-set-up-guide) to set it up.
+    2. **Embed Quiz on a New Page**: TikTok Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
     3. **Reach out to Support**: Then, please [reach out to the RevenueHunt support team](/how-to-guides/contact-customer-support/) to connect your TikTok Pixel with your quiz.
 
 
@@ -8725,7 +8725,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
     !!! note
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/0mJ4KiHQFq8?si=xWPSV0l6JDcVIcGN" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
@@ -8749,7 +8749,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
     !!! note
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-675UKK1uJI?si=hb4rRFFhwkk53a9p" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
@@ -8769,7 +8769,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
     !!! note
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
     By default when add an automatic popup, the default quiz for your store will show. 
     !!! note
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. 
@@ -8848,7 +8848,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
     !!! note
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/RM0MySN9PUU?si=wtcWwFSvN25coodT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt appcannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
@@ -8866,7 +8866,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
     !!! note
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.  
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.  
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/rbweJaslzvo?si=0EZZDjAhO8FfQt3R" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
@@ -8887,7 +8887,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
     !!! note
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
     By default when add an chat button, the default quiz for your store will show. 
     !!! note
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. 
@@ -8960,7 +8960,7 @@ There are two ways to create an external link to your quiz for emails and newsle
     4. The default quiz for your store will be rendered. 
         !!! note 
             If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [section](#open-a-specific-quiz) for more information.
+            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
     5. **Configure Quiz settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
     6. **Assign the Template to a Page**: Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`. 
         ![how to publish inline quiz built for shopify revenuehunt app new page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
@@ -8980,7 +8980,7 @@ There are two ways to create an external link to your quiz for emails and newsle
     !!! note
         When visitors open the link, the default quiz for your store will open based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
     By default when you use `#quiz` as the link, the default quiz for your store will open. 
     !!! note
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. 
@@ -9050,7 +9050,7 @@ There are two ways to create an external link to your quiz for social media:
     4. The default quiz for your store will be rendered. 
         !!! note 
             If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [section](#open-a-specific-quiz) for more information.
+            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
     5. **Configure Quiz settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
     6. **Assign the Template to a Page**: Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`. 
         ![how to publish inline quiz built for shopify revenuehunt app new page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
@@ -9075,7 +9075,7 @@ There are two ways to create an external link to your quiz for social media:
     !!! note
         When visitors open the link, the default quiz for your store will open based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
     By default when you use `#quiz` as the link, the default quiz for your store will open. 
     !!! note
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. 
@@ -9129,7 +9129,7 @@ In short, to embed an inline quiz on your store, you need to:
     3. The default quiz for your store will be rendered. 
         !!! note 
             If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [section](#embed-a-specific-quiz) for more information.
+            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [Embed a specific quiz](#embed-a-specific-quiz) for more information.
     4. In the `Inline Quiz` section, you can adjust the inline quiz settings.
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_inline_settings.png)
         `Quiz height` - The initial height of the quiz. The first question always uses this fixed height (this is a Shopify requirement to prevent layout shifts on page load). After the first question, the quiz will expand to fit the content.
@@ -9155,7 +9155,7 @@ In short, to embed an inline quiz on your store, you need to:
     4. The default quiz for your store will be rendered. 
         !!! note 
             If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [section](#embed-a-specific-quiz) for more information.
+            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [Embed a specific quiz](#embed-a-specific-quiz) for more information.
     5. **Configure Quiz settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
     6. **Assign the Template to a Page**: Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`. 
         ![how to publish inline quiz built for shopify revenuehunt app new page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
@@ -9232,7 +9232,7 @@ In short, to add a link popup to your store, you need to:
         ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2.png)
         When clicked, the default quiz for your store will open. 
         **Note:** If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
-        If you'd like a specific quiz to open instead of the default, check [this section](#open-a-specific-quiz).
+        If you'd like a specific quiz to open instead of the default, check [Open a specific quiz](#open-a-specific-quiz).
     Step by step instructions:
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
     2. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
@@ -9253,7 +9253,7 @@ In short, to add a link popup to your store, you need to:
         !!! warning
             Don't add the full URL into the `Link` filed. It should only contain the `#quiz` text and **not** a full URL like `http://yourwebsite.com/#quiz`.
         !!! note
-            When clicked, #quiz will open the default quiz for your store. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. If you'd like a specific quiz to open instead of the default, check [this section](#open-a-specific-quiz).
+            When clicked, #quiz will open the default quiz for your store. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. If you'd like a specific quiz to open instead of the default, check [Open a specific quiz](#open-a-specific-quiz).
     7. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu.
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with the `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
@@ -9278,7 +9278,7 @@ In short, to add a link popup to your store, you need to:
         !!! warning
             Don't add the full URL into the `Link` filed. It should only contain the `#quiz` text and **not** a full URL like `http://yourwebsite.com/#quiz`.
         !!! note
-            When clicked, #quiz will open the default quiz for your store. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. If you'd like a specific quiz to open instead of the default, check [this section](#open-a-specific-quiz).
+            When clicked, #quiz will open the default quiz for your store. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. If you'd like a specific quiz to open instead of the default, check [Open a specific quiz](#open-a-specific-quiz).
     9. **Save Your Changes**: Don't forget to click the `Save` button to apply the changes to your navigation menu. From now on the quiz link in the menu will only open the quiz as a popup over the page that carries the same template.
     10. Remember to apply the new page template to the page you want to add the link popup to.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/P853mRgPwr8?si=ElHwiQdpN7ZPRNWT" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -9289,7 +9289,7 @@ In short, to add a link popup to your store, you need to:
         ![how to publish link popup built for shopify revenuehunt app](/images/how_to_publish_link_popup_shopify_v2_button.png)
         When clicked, the default quiz for your store will open. 
         **Note:** If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. 
-        If you'd like a specific quiz to open instead of the default, check [this section](#open-a-specific-quiz).
+        If you'd like a specific quiz to open instead of the default, check [Open a specific quiz](#open-a-specific-quiz).
     Step by step instructions:
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
     3. **Activate App Embeds**: Go to `Online Store > Theme > Customize`. Within the theme customization area, go to `App Embeds`. Look for the Link Popup Quiz option and toggle it on. This action will automatically add the `embed.js` script to your site, enabling quiz links to load in an iframe popup.
@@ -9326,7 +9326,7 @@ In short, to add a link popup to your store, you need to:
         !!! warning
             Don't add the full URL into the `Link` filed. It should only contain the `#quiz` text and **not** a full URL like `http://yourwebsite.com/#quiz`.
         !!! note
-            When clicked, `#quiz` will open the default quiz for your store. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. If you'd like a specific quiz to open instead of the default, check [this section](#open-a-specific-quiz).
+            When clicked, `#quiz` will open the default quiz for your store. If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead. If you'd like a specific quiz to open instead of the default, check [Open a specific quiz](#open-a-specific-quiz).
     9. **Save Changes**: Make sure to save your changes by clicking on the **"Save"** button. From now on, whenever someone clicks on the button on this page or any other page that uses this template, a quiz popup will open.
     10. Remember to apply the new page template to the page you want to add the link popup to.
     By default when you use `#quiz` as the link, the default quiz for your store will open. 
@@ -9524,7 +9524,7 @@ You can hide these technical choices in the last question using custom CSS code.
 
 ## Where do I input the custom JavaScript code?
 
-[This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
+[How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
 
 ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png)
 
@@ -9644,7 +9644,7 @@ RevenueHunt Product Recommendation Quiz can show on the results page **product v
     - On the results page, add a product block that displays the most voted items.
     - You can show multiple product slots to recommend a routine or bundle.
     !!! note
-        Follow [this guide](/how-to-guides/set-up-funnel-quiz/) to learn how to set up this option.
+        Follow [How to Set Up Funnel Quiz](/how-to-guides/set-up-funnel-quiz/) to learn how to set up this option.
     **🎯 Option 2: Use Scoring or Variables**
     *Best for personality-style quizzes.*
     ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_variablequiz.png){width="300"}
@@ -9653,7 +9653,7 @@ RevenueHunt Product Recommendation Quiz can show on the results page **product v
     - Use display logic to show the right section based on the score or variable with the highest value.
     - **Example:** Show Section A if the top variable is "blue", Section B if it’s "red".
     !!! note   
-        Follow [this guide](/how-to-guides/set-up-scoring-quiz/) to learn how to set up this option.
+        Follow [How to Set Up Scoring Quiz](/how-to-guides/set-up-scoring-quiz/) to learn how to set up this option.
     **🧩 Option 3: Use Complex Display logic**
     *Best for advanced logic or detailed recommendation matrices.*
     ![how_to_shopify_v2_recommendations_displaylogic](/images/how_to_shopify_v2_recommendations_displaylogic.png){width="300"}
@@ -9661,7 +9661,7 @@ RevenueHunt Product Recommendation Quiz can show on the results page **product v
     - Or use one results page with multiple sections and display logic for each.
     - Show/hide each section depending on the customer’s answers.
     !!! note
-        Follow [this guide](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up this option.
+        Follow [How to Set Up Fixed Recommendations Quiz](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up this option.
     ![how_to_recommend_products_decision_tree_V2](/images/how_to_recommend_products_decision_tree_V2.png)
     | Recommendation System | Best For | Key Features | Complexity |
     |------------------------|----------|--------------|------------|
@@ -9674,7 +9674,7 @@ RevenueHunt Product Recommendation Quiz can show on the results page **product v
     !!! info
         Not sure how to set up your recommendations? [Take the quiz and find out!](https://skincarequiz.myshopify.com/#quiz-LKPc6j)
     The new RevenueHunt app for Shopify doesn't yet support recommending subscription products.
-    Check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+    Check [Other subscriptions](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#other-subscriptions)
     While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product.
     To show an text that explains why a certain product was recommended, follow the guide for [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) if you're building a personality-type quiz or [🧩 Fixed Recommendations with Display logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) if you're building a quiz with a lot of logic conditions, precise rules, or exceptions.
@@ -10025,7 +10025,7 @@ While the new Built for Shopify version of the RevenueHunt app **does not** yet 
     It is **not yet possible** to link your Product Recommendation Quiz created in the new Built for Shopify version of the RevenueHunt app to ActiveCampaign.
     Check [Alternative Ways to Send Quiz leads to ActiveCampaign](#alternative-ways-to-send-quiz-leads-to-activecampaign) to learn how you can send quiz leads to ActiveCampaign anyway.
     Sometimes, you would like a bit more control over the data that is sent to ActiveCampaign. In that case there are a few alternatives you can use to send quiz leads to ActiveCampaign.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to ActiveCampaign. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to ActiveCampaign.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to ActiveCampaign. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to ActiveCampaign.
     - **Manually adding the quiz leads to ActiveCampaign**: You can manually add the quiz leads to ActiveCampaign by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
     With the quiz integrated via [one of our alternative methods](/how-to-guides/send-leads-to-activecampaign/#alternative-ways-to-send-quiz-leads-to-activecampaign), you should be able to tag contact profiles with additional custom information derived from quiz results.
     Here’s a list of additional custom information that can be added to your contact profile:
@@ -10043,7 +10043,7 @@ While the new Built for Shopify version of the RevenueHunt app **does not** yet 
         Since you are using one of our alternative methods to connect to ActiveCampaign, you will have full control over the data that is sent to ActiveCampaign. The data provided above are only a list of the most common fields that are sent to ActiveCampaign.
         The exact payload is the one carried by the method you pick, so see [What Data is Sent to Zapier?](/how-to-guides/send-leads-to-zapier/#what-data-is-sent-to-zapier) or [What Data is Sent to Webhook?](/how-to-guides/send-leads-to-webhooks/#what-data-is-sent-to-webhook) for the full field list.
         For more information about using data in customer profile for ActiveCampaign, please refer to [ActiveCampaign documentation](https://help.activecampaign.com/hc/en-us/articles/115001374664-How-to-manage-custom-contact-fields).
-    To set up a redirection of selected data to ActiveCampaign, you can use our Webhooks integration. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, check [ActiveCampaign's webhooks documentation](https://developers.activecampaign.com/page/webhooks) for more information on how to set up a redirection of selected data to ActiveCampaign.
+    To set up a redirection of selected data to ActiveCampaign, you can use our Webhooks integration. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, check [ActiveCampaign's webhooks documentation](https://developers.activecampaign.com/page/webhooks) for more information on how to set up a redirection of selected data to ActiveCampaign.
     To send automatic follow-up emails to quiz takers, you can set up an automation in ActiveCampaign.
     To automate email communications based on quiz participation:
     1. Within ActiveCampaign, go to the `Automations` menu and create a new automation.
@@ -10189,7 +10189,7 @@ Integrating your RevenueHunt Product Recommendation Quiz with HubSpot can improv
     !!! tip "Create Lists in HubSpot First"
         The dropdown will show lists that already exist in your HubSpot account. Create your lists in HubSpot before configuring this setting. Check [this HubSpot article](https://knowledge.hubspot.com/lists/create-active-or-static-lists) to learn how to create lists.
     Sometimes, you would like a bit more control over the data that is sent to HubSpot. In that case there are a few alternatives you can use to send quiz leads to HubSpot.
-    - **Using Zapier**: You can use our native Zapier integration to send quiz leads to HubSpot with custom mapping. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to HubSpot.
+    - **Using Zapier**: You can use our native Zapier integration to send quiz leads to HubSpot with custom mapping. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to HubSpot.
     - **Manually adding the quiz leads to HubSpot**: You can manually add the quiz leads to HubSpot by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
     Every time a customer completes your quiz and provides an email address, their contact details along with all of their responses and product recommendations will be sent to your HubSpot account.
     **Viewing Contact Data**
@@ -10275,7 +10275,7 @@ icon: material/email-newsletter
 
 Apart from giving your customers personalized product recommendations, you can connect your quiz to Klaviyo. This way all the contacts coming from the quiz will be added to your Klaviyo account and you can create targeted email campaigns to upsell them.
 
-This article walks you through the process of connecting your quiz to Klaviyo and setting up post-quiz email flow. You can also follow our step-by-step [tutorial](/tutorials/follow-up-emails-klaviyo/).
+This article walks you through the process of connecting your quiz to Klaviyo and setting up post-quiz email flow. You can also follow our step-by-step [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/).
 
 --- Shopify Specific Content ---
 
@@ -10328,7 +10328,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
     1. **Add Email question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
         !!! tip
             You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
-    2. **Connect Quiz to Klaviyo**: Follow the instructions in [this section](#link-your-quiz-to-klaviyo) to learn how to connect your quiz to Klaviyo correctly.
+    2. **Connect Quiz to Klaviyo**: Follow the instructions in [Link your quiz to Klaviyo](#link-your-quiz-to-klaviyo) to learn how to connect your quiz to Klaviyo correctly.
     3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
         1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
         2. Name the segment and set up the definition. 
@@ -10829,8 +10829,8 @@ Apart from giving your customers personalized product recommendations, you can c
     3. Confirm the action.
     No more quiz data will flow to Mailchimp from any quiz in the account.
     Sometimes, you would like a bit more control over the data that is sent to Mailchimp, for example to pass full quiz answers or recommended products, which the native integration doesn't sync. In that case there are a few alternatives you can use.
-    - **Using Shopify Customers**: You can use Shopify Customers to send quiz leads to Mailchimp. Just connect your quiz to Shopify Customers following [this guide](/how-to-guides/send-leads-to-shopify-customers/). Then, use a native Shopify - Mailchimp integration to send the quiz leads to Mailchimp.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Mailchimp. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Mailchimp.
+    - **Using Shopify Customers**: You can use Shopify Customers to send quiz leads to Mailchimp. Just connect your quiz to Shopify Customers following [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/). Then, use a native Shopify - Mailchimp integration to send the quiz leads to Mailchimp.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Mailchimp. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Mailchimp.
     - **Manually adding the quiz leads to Mailchimp**: You can manually add the quiz leads to Mailchimp by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
 
 
@@ -10860,8 +10860,8 @@ This article explains how to send leads to MailerLite from your product recommen
     MailerLite is not yet integrated with the `💎 Built for Shopify` version of the RevenueHunt app.
     If you are looking to send leads to MailerLite, please [reach out to the RevenueHunt support team](/how-to-guides/contact-customer-support/) to get help.
     Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
     - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 
@@ -11047,7 +11047,7 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
     By default, all the contacts added to the Shopify Customers list via the quiz **will be marked as subscribed** and their consent to receiving marketing information was given. It is not possible to change the default consent state.
     However, there are many ways you can ask the customer for marketing consent directly in the quiz. 
     !!! tip
-        Check [this article](/how-to-guides/ask-for-marketing-consent/) to learn how to ask for marketing consent directly in the quiz.
+        Check [How to Ask for Marketing/Data Processing Consent](/how-to-guides/ask-for-marketing-consent/) to learn how to ask for marketing consent directly in the quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=Bpvc82ZhqPbLf5kL&amp;start=38" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     You can use [Customer tags](/reference/quiz-builder/link-collections/#customer-tags) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
     Follow these steps to add tags to your quiz choices and test the setup:
@@ -11783,7 +11783,7 @@ The `💎 Built for Shopify` version of the RevenueHunt app integrates directly 
         - Verify that all relevant information (response ID, quiz ID, answers) is populated correctly.
         ![how_to_shopifyv2_send_leads_to_zapier_test_response](/images/how_to_shopifyv2_send_leads_to_zapier_test_response.png)
         !!! info "What data is sent to Zapier?"
-            Check [this section](#what-data-is-sent-to-zapier) to see what data is sent to Zapier from your RevenueHunt quiz.
+            Check [What data is sent to Zapier?](#what-data-is-sent-to-zapier) to see what data is sent to Zapier from your RevenueHunt quiz.
     8. **Set up what happends to Quiz leads**: After confirming the integration is successful, you can decide how to use the data. Zapier offers plenty of integrations including:
         - Sending responses to a Google Sheet.
         - Filtering responses based on specific conditions.
@@ -11798,7 +11798,7 @@ The `💎 Built for Shopify` version of the RevenueHunt app integrates directly 
         - Here, you will find a list of all active Zaps associated with the quiz.
         ![how_to_shopifyv2_send_leads_to_zapier_active_zaps](/images/how_to_shopifyv2_send_leads_to_zapier_active_zaps.png)
     Sometimes, you would like a bit more control over the data that is sent to Zapier. In that case there are a few alternatives you can use to send quiz leads to Zapier.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Zapier. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Zapier.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Zapier. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Zapier.
     - **Manually adding the quiz leads to Zapier**: You can manually add the quiz leads to Zapier by uploading a CSV file generated from the quiz [responses](/reference/quiz-builder/metrics/#responses) section.
     Once you've [Linked your quiz to Zapier](#link-quiz-to-zapier), your Zap will recevie the all the response information after each quiz completion. 
     ![how_to_shopifyv2_send_leads_to_zapier_test_response](/images/how_to_shopifyv2_send_leads_to_zapier_test_response.png)
@@ -13047,7 +13047,7 @@ In the `💎Built for Shopify` version of the app, quiz data can be passed to Sh
         Cart attributes are written only when the shopper reaches the page where your custom JavaScript runs. If you need the data before checkout, add the code to the question or results page that appears before the shopper goes to the cart.
     !!! warning
         Shopify Revenue Tracking and cart-based order tagging only work if the customer adds products to the cart directly from the quiz results page **AND** then proceeds through checkout without breaking the flow. If they purchase later, the order may no longer be attributed to the quiz.
-        Make sure your Results page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](/how-to-guides/change-checkout-settings/).
+        Make sure your Results page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
     If the cart or order tagging is not working as expected, try the following:
     1. Open the question or results page where you added the custom JavaScript and confirm the code is saved.
     2. Make sure the code uses `actions.updateCartAttributes({...})` and runs before the customer leaves for the cart or checkout.
@@ -13185,8 +13185,8 @@ description: "Learn how to display custom explanations for why products were rec
     - You can then use the [Display logic](/reference/quiz-builder/conditional-logic/#display-logic) feature to tell each section when to be shown or hidden based on a customer answers, variable or a score.  
     - For this reason, it can be very easy to build a **"personality-type"** or **Dosha** quiz with our Built for Shopify solution.
     !!! info
-        To learn how to **use Display logic** to show different sections on the results page, check [this guide](/how-to-guides/use-display-logic/).
-        You can also check [this guide](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) on settings up a quiz with the winning variable or [this guide](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) on how to set up a quiz with a custom scoring system. Both options are good for building a **personality-type** quiz.
+        To learn how to **use Display logic** to show different sections on the results page, check [How to use Display Logic](/how-to-guides/use-display-logic/).
+        You can also check [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) on settings up a quiz with the winning variable or [Scoring quiz with one results page](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) on how to set up a quiz with a custom scoring system. Both options are good for building a **personality-type** quiz.
 
 
 
@@ -13646,7 +13646,7 @@ In this article, you’ll discover how to use `IF-THEN` conditional logic to dis
 
 ## [How to use jump logic](/how-to-guides/use-jump-logic/)
 
-Jump Logic is a tool designed to personalize the experience of quiz participants by guiding them down different paths based on their answers. [This article](/how-to-guides/use-jump-logic/) provides a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
+Jump Logic is a tool designed to personalize the experience of quiz participants by guiding them down different paths based on their answers. [How to Use Jump Logic](/how-to-guides/use-jump-logic/) provides a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
 
 !!! info "Use Jump Logic to:"
 
@@ -13660,7 +13660,7 @@ Jump Logic is a tool designed to personalize the experience of quiz participants
 
 ## [How to use skip logic](/how-to-guides/use-skip-logic/)
 
-Skip Logic is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. [This guide](/how-to-guides/use-skip-logic/) will show you how to set up and use Skip Logic, including some examples of how it works.
+Skip Logic is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. [How to Use Skip Logic](/how-to-guides/use-skip-logic/) will show you how to set up and use Skip Logic, including some examples of how it works.
 
 !!! info "Use Skip Logic to:"
 
@@ -13673,7 +13673,7 @@ Skip Logic is a tool used in quizzes or surveys to make answering questions smoo
 
 ## [How to use display logic](/how-to-guides/use-display-logic/)
 
-Display logic is a feature of the Results Page that allows you to make elements visible or hidden based on conditional logic rules. [This article](/how-to-guides/use-display-logic/) explains how to use Display Logic on the Results Page.
+Display logic is a feature of the Results Page that allows you to make elements visible or hidden based on conditional logic rules. [How to use Display Logic](/how-to-guides/use-display-logic/) explains how to use Display Logic on the Results Page.
 
 
 !!! info "Use Display Logic to:"
@@ -14147,7 +14147,7 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=0v4iXxZKuT0ljH-c&amp;start=82" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     With Jump logic, you can send users to different results pages based on their answers.
     **Implementation**
-    1. Set up Multiple Results pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
+    1. Set up Multiple Results pages in your quiz. Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -14162,8 +14162,8 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
             IF the response to the question `Q1: What is your skin type?` is `Combination`, then go to `Results Page 4`.
     6. **Save the changes**: Click the top-right `Save` button to update the preview/live quiz.   
     ![send users to different results pages jump logic](https://loom.com/i/cf75df4cb4574b2ab7f4b81eff37c83e?workflows_screenshot=true)
-    !!! info
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
+    !!! tip
+        Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=M8ps59EfgFulqM9z&amp;start=123" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     With Jump logic, you can send users to an external URL based on their answers.
     **Implementation**
@@ -14178,8 +14178,8 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
             IF the answer to the question `Q1: What is your skin type?` is `Dry`, then `Link to URL` and paste the desired URL, for example `https://yourstore.com/dry-skin`.
     6. **Save the changes**: Click the top-right `Save` button to update the preview/live quiz.
     ![how to send users to an external url jump logic](https://loom.com/i/87753ed6e35d45ee8f0abfb0d1c3c92b?workflows_screenshot=true)
-    !!! info
-        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+    !!! tip
+        Check out this [Using jump logic for conditional redirection](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
 
 
 
@@ -15425,10 +15425,10 @@ The RevenueHunt Quizzes `Dashboard` is the central hub where you can view, manag
     ![manual_shopifyV2_createquiz_importquiz](/images/manual_shopifyV2_createquiz_importquiz.png){width="500"}
     Click `Cancel` to return to the Quizzes or `Import` to open the new quiz.
     !!! note "Import quiz instructions"
-        For instructions no how to export/import a quiz from one store to another in a JSON format, please check [this guide](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
+        For instructions no how to export/import a quiz from one store to another in a JSON format, please check [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
     `Migrate from Legacy App` - Opens a dialog listing all quizzes from your legacy RevenueHunt account. Select a quiz and click `Import Now` to copy it into the `💎Built for Shopify` app. Questions, results pages, logic, and design are migrated automatically. The imported quiz will appear in your dashboard with the suffix **(Imported from V1)**.
     ![manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png){width="500"}
-    !!! note "Migration guide"
+    !!! tip "Migration guide"
         For full details on what migrates and what may need manual follow-up, check [How to Migrate a Legacy Quiz to the 💎Built for Shopify App](/how-to-guides/migrate-shopify-legacy-quiz/).
     ![manual_shopifyV2_dashboard_support](/images/manual_shopifyV2_dashboard_support.png)
     The `Get Support` section helps users quickly find answers, resolve issues, and get in touch with the support team. It provides essential resources to guide users through using the app effectively.
@@ -17674,12 +17674,12 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `+ Add results page` - Click to add an extra results page to your quiz. Each results page can have different settings and content.
     !!! info "Jump logic is required"
         The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional logic tab.
-        Check out [this guide](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump logic.
+        Check out [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump logic.
     1. To add a discount code to the results page, open the [Results page settings](/reference/quiz-builder/results-page/#results-page-settings).
     2. Locate the `Discount code` section and paste the discount code in the `Code` field. Note that the code must be a valid discount code in your Shopify store.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
     !!! tip "How to add a discount code"
-        Check out [this guide](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
+        Check out [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
     This section provides a complete reference for dynamic content using Liquid templates and JavaScript on results pages.
     ### Liquid templates
     Liquid is a templating language that allows you to display dynamic content based on quiz answers and variables. On results pages, it's supported in:
@@ -18676,7 +18676,7 @@ In this tutorial, you’ll learn how to use [Jump logic](#jump-logic), [Skip log
         For example, you can create a quiz that asks the participant about their skin type and then based on the answer, you can redirect them to a different results page with custom content relevant to their skin type.
     1. Set up Multiple Results pages in your quiz. 
         !!! tip
-            Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
+            Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -18830,7 +18830,7 @@ In this tutorial, you’ll learn how to use [Jump logic](#jump-logic), [Skip log
             The quiz consists of five questions, each with five choices.  Each question and choice should help the user determine their skin type.
     2. Assign variables to choices. Each choice is associated with a [custom variable and a score](#how-to-add-scores-or-variables-to-choices) via the [`Choices Settings`](/reference/quiz-builder/questions/#choice-settings) section. 
         !!! tip
-            To learn how to add scores or variables to choices, check out [this section](#add-scores-or-variables-to-choices).
+            To learn how to add scores or variables to choices, check out [Add scores or variables to choices](#add-scores-or-variables-to-choices).
         !!! example "Example: Assigning variables to choices"
             Each answer contributes a score of +1 to the corresponding skin type variable: 
             - Dry skin: `dry +1`    
@@ -18880,7 +18880,7 @@ In this tutorial, you’ll learn how to use [Jump logic](#jump-logic), [Skip log
             The quiz consists of five questions, each with five choices.  Each question and choice should help the user determine their skin type.
     2. Assign variables to choices. Each choice is associated with a [custom variable and a score](#how-to-add-scores-or-variables-to-choices) via the [`Choices Settings`](/reference/quiz-builder/questions/#choice-settings) section. 
         !!! tip
-            To learn how to add scores or variables to choices, check out [this section](#add-scores-or-variables-to-choices).
+            To learn how to add scores or variables to choices, check out [Add scores or variables to choices](#add-scores-or-variables-to-choices).
         !!! example "Example: Assigning scoresto choices"
             Each answer contributes a score of +1 to the corresponding skin type variable: 
             - First choice: `+1 point`
@@ -19012,7 +19012,7 @@ In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendatio
     2. Click `Create flow` and then `Build from scratch`.
     3. Name the flow and click `Create flow`.
     4. Next, you'll be asked to set up a flow trigger.
-    5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Set the `Reentry criteria` to `Allow reentry` so quiz takers receive an email every time they complete the quiz. Click `Confirm` and `Confirm and save`.
+    5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Set the `Reentry criteria` to `Allow reentry` so quiz takers receive an email every time they complete the quiz. Click `Confirm` and `Confirm and save`.
         !!! tip "Alternative: trigger from a Klaviyo list"
             Instead of triggering from a segment, you can trigger the flow when a contact is added to a specific Klaviyo list. This is useful if you're using the `Klaviyo list` selector in your quiz's email question block to send contacts directly to a list (see [Add Contacts to List](/tutorials/follow-up-emails-klaviyo/#add-contacts-to-list)).
     If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
@@ -19707,7 +19707,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
     Now you can build your quiz. 
     1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
         !!! tip
-            Check out our [previous step-by-step tutorial](/tutorials/making-first-quiz/) to learn how to use the [Quiz builder](/reference/quiz-builder/).
+            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz builder](/reference/quiz-builder/).
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
         - Use a [`Multiple-choice question`](/reference/quiz-builder/questions/#multiple-choice) to find out the client’s **age** and **skin type**.
         - Use a [`Name question`](/reference/quiz-builder/questions/#name) to make the quiz personal.
@@ -19733,7 +19733,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
     It’s time to edit the [Results page](/reference/quiz-builder/results-page/). 
     1. Add a heading, a logo or a text block to customize the page. For example, you can add a text block to include more information about the recommended skincare routine.
         !!! tip
-            Check the [previous tutorial](/tutorials/making-first-quiz/) to see examples of different blocks being used.
+            Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
     2. **Add Product block**: Include a `Product Block` to display the recommended routine. In `Slot settings` set the `Max. recommended items` to four.
     3. **Preview the quiz**: Update the preview/with the top-right `Save` button and click `Preview` to test the quiz. Take the quiz a few times to check if the recommended products are displayed in accordance with the product matrix.
     Now let’s sort the recommended products into clear steps/categories. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.

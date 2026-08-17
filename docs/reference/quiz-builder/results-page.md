@@ -2012,7 +2012,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional logic tab.
 
-        Check out [this guide](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump logic.
+        Check out [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump logic.
 
 
 === "Shopify (Legacy)"
@@ -2116,7 +2116,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! tip "How to add a discount code"
 
-        Check out [this guide](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
+        Check out [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
 
 
 === "Shopify (Legacy)"

@@ -48,7 +48,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
     
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
-        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
 
 
 === "Shopify (Legacy)"
@@ -160,7 +160,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
     
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
-        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.  
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.  
 
 
 === "Shopify (Legacy)"
@@ -227,7 +227,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
     
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
-        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
 
 
 === "Shopify (Legacy)"

@@ -54,7 +54,7 @@ There are two ways to create an external link to your quiz for social media:
         !!! note 
             If you’ve configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
-            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [section](#open-a-specific-quiz) for more information.
+            If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
 
     5. **Configure Quiz settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
 
@@ -176,7 +176,7 @@ There are two ways to create an external link to your quiz for social media:
     
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
 
-        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [section](#open-a-specific-quiz) for more information.
+        If you want to show a specific quiz, you can do so by setting the `Quiz ID` in the popup settings. Check this [Open a specific quiz](#open-a-specific-quiz) for more information.
 
 
 

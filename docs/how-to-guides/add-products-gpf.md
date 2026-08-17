@@ -84,7 +84,7 @@ This section will guide you through the process of importing your products from 
 
     !!! warning 
 
-        You cannot just upload any data source file to the RevenueHunt app. The file must be a **valid Google Product Feed XML file**. Check this [guide](https://support.google.com/merchants/answer/12631822?hl=en) to learn more about the best practices for creating a valid Google Product Feed.
+        You cannot just upload any data source file to the RevenueHunt app. The file must be a **valid Google Product Feed XML file**. Check this [Google Merchant Center feed specification](https://support.google.com/merchants/answer/12631822?hl=en) to learn more about the best practices for creating a valid Google Product Feed.
     
 
     !!! info "How do I find my Google Product Feed URL?"

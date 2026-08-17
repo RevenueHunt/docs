@@ -7,7 +7,7 @@ icon: material/email-newsletter
 
 Apart from giving your customers personalized product recommendations, you can connect your quiz to Klaviyo. This way all the contacts coming from the quiz will be added to your Klaviyo account and you can create targeted email campaigns to upsell them.
 
-This article walks you through the process of connecting your quiz to Klaviyo and setting up post-quiz email flow. You can also follow our step-by-step [tutorial](/tutorials/follow-up-emails-klaviyo/).
+This article walks you through the process of connecting your quiz to Klaviyo and setting up post-quiz email flow. You can also follow our step-by-step [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/).
 
 
 === "Shopify"
@@ -419,7 +419,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         !!! tip
 
             You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
-    2. **Connect Quiz to Klaviyo**: Follow the instructions in [this section](#link-your-quiz-to-klaviyo) to learn how to connect your quiz to Klaviyo correctly.
+    2. **Connect Quiz to Klaviyo**: Follow the instructions in [Link your quiz to Klaviyo](#link-your-quiz-to-klaviyo) to learn how to connect your quiz to Klaviyo correctly.
     3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
         1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
@@ -556,7 +556,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         2. Click `Create flow` and then `Build from scratch`.
         3. Name the flow and click `Create flow`.
         4. Next, you'll be asked to set up a flow trigger.
-        5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+        5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
 
         **Optional: Update Marketing Consent**
 
@@ -583,7 +583,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
             !!! tip
 
-                If you would rather create your own email template, check [this section](#use-quiz-data-in-klaviyo-email-templates) for more details.
+                If you would rather create your own email template, check [Use quiz data in Klaviyo email templates](#use-quiz-data-in-klaviyo-email-templates) for more details.
 
         10. Copy the code and go back to Klaviyo.
         11. Open the `HTML email template` and remove the existing code.
@@ -645,7 +645,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         2. Click `Create flow` and then `Build from scratch`.
         3. Name the flow and click `Create flow`.
         4. Next, you'll be asked to set up a flow trigger.
-        5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+        5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
 
         **Optional: Update Marketing Consent**
 
@@ -672,7 +672,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
             !!! tip
 
-                If you would rather create your own email template, check [this section](#use-quiz-data-in-klaviyo-email-templates) for more details.
+                If you would rather create your own email template, check [Use quiz data in Klaviyo email templates](#use-quiz-data-in-klaviyo-email-templates) for more details.
 
         10. Copy the code and go back to Klaviyo.
         11. Open the `HTML email template` and remove the existing code.
@@ -733,7 +733,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         2. Click `Create flow` and then `Build from scratch`.
         3. Name the flow and click `Create flow`.
         4. Next, you'll be asked to set up a flow trigger.
-        5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+        5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
 
         **Optional: Update Marketing Consent**
 
@@ -760,7 +760,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
             !!! tip
 
-                If you would rather create your own email template, check [this section](#use-quiz-data-in-klaviyo-email-templates) for more details.
+                If you would rather create your own email template, check [Use quiz data in Klaviyo email templates](#use-quiz-data-in-klaviyo-email-templates) for more details.
 
         10. Copy the code and go back to Klaviyo.
         11. Open the `HTML email template` and remove the existing code.
@@ -821,7 +821,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         2. Click `Create flow` and then `Build from scratch`.
         3. Name the flow and click `Create flow`.
         4. Next, you'll be asked to set up a flow trigger.
-        5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+        5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
 
         **Optional: Update Marketing Consent**
 
@@ -848,7 +848,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
             !!! tip
 
-                If you would rather create your own email template, check [this section](#use-quiz-data-in-klaviyo-email-templates) for more details.
+                If you would rather create your own email template, check [Use quiz data in Klaviyo email templates](#use-quiz-data-in-klaviyo-email-templates) for more details.
 
         10. Copy the code and go back to Klaviyo.
         11. Open the `HTML email template` and remove the existing code.
@@ -909,7 +909,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         2. Click `Create flow` and then `Build from scratch`.
         3. Name the flow and click `Create flow`.
         4. Next, you'll be asked to set up a flow trigger.
-        5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+        5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
 
         **Optional: Update Marketing Consent**
 
@@ -936,7 +936,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
             !!! tip
 
-                If you would rather create your own email template, check [this section](#use-quiz-data-in-klaviyo-email-templates) for more details.
+                If you would rather create your own email template, check [Use quiz data in Klaviyo email templates](#use-quiz-data-in-klaviyo-email-templates) for more details.
 
         10. Copy the code and go back to Klaviyo.
         11. Open the `HTML email template` and remove the existing code.

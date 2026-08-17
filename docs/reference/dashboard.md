@@ -747,13 +747,13 @@ On the dashboard, you'll find all the quizzes that you create.
 
     !!! note "Import quiz instructions"
 
-        For instructions no how to export/import a quiz from one store to another in a JSON format, please check [this guide](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
+        For instructions no how to export/import a quiz from one store to another in a JSON format, please check [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/).
 
     `Migrate from Legacy App` - Opens a dialog listing all quizzes from your legacy RevenueHunt account. Select a quiz and click `Import Now` to copy it into the `💎Built for Shopify` app. Questions, results pages, logic, and design are migrated automatically. The imported quiz will appear in your dashboard with the suffix **(Imported from V1)**.
 
     ![manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog](/images/manual_shopifyV2_dashboard_createquiz_migratefromlegacyapp_dialog.png){width="500"}
 
-    !!! note "Migration guide"
+    !!! tip "Migration guide"
 
         For full details on what migrates and what may need manual follow-up, check [How to Migrate a Legacy Quiz to the 💎Built for Shopify App](/how-to-guides/migrate-shopify-legacy-quiz/).
 

@@ -28,7 +28,7 @@ description: "Information about showing RevenueHunt quiz on Shopify customer pro
 
     **Step 1: Connect Your Quiz to Shopify's Customer List**
 
-    To ensure quiz results are associated with the correct customer profile, the first step involves linking your quiz tool with [Shopify's Customer List](/how-to-guides/send-leads-to-shopify-customers/). Follow the instructions in [this article](/how-to-guides/send-leads-to-shopify-customers/) to check if the quiz was connected correctly.
+    To ensure quiz results are associated with the correct customer profile, the first step involves linking your quiz tool with [Shopify's Customer List](/how-to-guides/send-leads-to-shopify-customers/). Follow the instructions in [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) to check if the quiz was connected correctly.
 
     **Step 2: Edit the customers/account.liquid File**
 

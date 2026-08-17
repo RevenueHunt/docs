@@ -86,7 +86,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     !!! note
 
-        Follow [this guide](/how-to-guides/set-up-funnel-quiz/) to learn how to set up this option.
+        Follow [How to Set Up Funnel Quiz](/how-to-guides/set-up-funnel-quiz/) to learn how to set up this option.
 
     **🎯 Option 2: Use Scoring or Variables**
 
@@ -101,7 +101,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     !!! note   
 
-        Follow [this guide](/how-to-guides/set-up-scoring-quiz/) to learn how to set up this option.
+        Follow [How to Set Up Scoring Quiz](/how-to-guides/set-up-scoring-quiz/) to learn how to set up this option.
 
     **🧩 Option 3: Use Complex Display logic**
 
@@ -115,7 +115,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     !!! note
         
-        Follow [this guide](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up this option.
+        Follow [How to Set Up Fixed Recommendations Quiz](/how-to-guides/set-up-fixed-recommendations-quiz/) to learn how to set up this option.
 
 
 === "Shopify (Legacy)"
@@ -365,13 +365,13 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
 With RevenueHunt Product Recommendation Quiz, it is not possible to recommend products based on open-ended numerical questions like Number or Date. Instead, it's recommended to set up finite choices to be able to use the user responses to set up precise recommendations.
 
-[This guide](/how-to-guides/recommend-products-based-on-numerical-inputs/) is designed to help merchants effectively use dropdown and multiple-choice questions to set up precise numerical recommendations.
+[How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/) is designed to help merchants effectively use dropdown and multiple-choice questions to set up precise numerical recommendations.
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 
 ### Recommend products that match multiple criteria (matrix)
 
-[This article](/how-to-guides/recommend-product-matrix/) outlines a method for recommending skincare products based on multiple criteria using a product matrix to categorize recommendations. 
+[How to recommend products that match multiple criteria (matrix)](/how-to-guides/recommend-product-matrix/) outlines a method for recommending skincare products based on multiple criteria using a product matrix to categorize recommendations. 
 
 | Age/Skin type   | Dry or Normal                                                                                                                                                 | Oily                                                                                                                                                                  |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -396,7 +396,7 @@ You can limit the number of recommended products on the results page by only sho
 
     The new RevenueHunt app for Shopify doesn't yet support recommending subscription products.
 
-    Check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+    Check [Other subscriptions](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#other-subscriptions)
 
@@ -404,21 +404,21 @@ You can limit the number of recommended products on the results page by only sho
 === "Shopify (Legacy)"
 
 
-    If you're using a legacy version of the RevenueHunt app for Shopify and Rechare Subscriptions check [this guide](/how-to-guides/recommend-subscription-products/) to learn how to recommend subscription products directly from the quiz.
+    If you're using a legacy version of the RevenueHunt app for Shopify and Rechare Subscriptions check [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) to learn how to recommend subscription products directly from the quiz.
 
     ![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png){width="150"}
 
-    For other subscription apps check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+    For other subscription apps check [Other subscriptions](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/)
 
 === "WooCommerce"
 
-    If you're using a WooCommerce Subscriptions check [this guide](/how-to-guides/recommend-subscription-products/#woocommerce-subscriptions/) to learn how to recommend subscription products directly from the quiz.
+    If you're using a WooCommerce Subscriptions check [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/#woocommerce-subscriptions/) to learn how to recommend subscription products directly from the quiz.
 
     ![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png){width="150"}
 
-    For other subscription apps check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+    For other subscription apps check [Other subscriptions](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#woocommerce-subscriptions)
 
@@ -426,7 +426,7 @@ You can limit the number of recommended products on the results page by only sho
 
     The RevenueHunt app for BigCommerce doesn't yet support recommending subscription products.
 
-    Check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+    Check [Other subscriptions](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#other-subscriptions)
 
@@ -434,7 +434,7 @@ You can limit the number of recommended products on the results page by only sho
 
     The RevenueHunt app for Magento doesn't yet support recommending subscription products.
 
-    Check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+    Check [Other subscriptions](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#other-subscriptions)
 
@@ -442,7 +442,7 @@ You can limit the number of recommended products on the results page by only sho
 
     The RevenueHunt app for Headless ecommerce (Standalone) doesn't yet support recommending subscription products.
 
-    Check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+    Check [Other subscriptions](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/#other-subscriptions)
 
@@ -451,7 +451,7 @@ You can limit the number of recommended products on the results page by only sho
 
 ### Ensure a specific product always appears on your results page
 
-[This guide](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) provides a clear, step-by-step process to making sure that specific products are always visible on the Results Page of your quiz, regardless of the customer's choices.
+[Always the same recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) provides a clear, step-by-step process to making sure that specific products are always visible on the Results Page of your quiz, regardless of the customer's choices.
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations)
 

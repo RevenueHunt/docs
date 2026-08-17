@@ -451,7 +451,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
     
     !!! tip 
-        You can change your billing details directly in your Stripe account following [this guide](/reference/plans-pricing/#how-to-change-my-billing-details).
+        You can change your billing details directly in your Stripe account following [How to change my billing details?](/reference/plans-pricing/#how-to-change-my-billing-details).
 
     If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
 
@@ -464,7 +464,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
     
     !!! tip 
-        You can change your billing details directly in your Stripe account following [this guide](/reference/plans-pricing/#how-to-change-my-billing-details).
+        You can change your billing details directly in your Stripe account following [How to change my billing details?](/reference/plans-pricing/#how-to-change-my-billing-details).
 
     If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
 
@@ -477,7 +477,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
     
     !!! tip 
-        You can change your billing details directly in your Stripe account following [this guide](/reference/plans-pricing/#how-to-change-my-billing-details).
+        You can change your billing details directly in your Stripe account following [How to change my billing details?](/reference/plans-pricing/#how-to-change-my-billing-details).
 
     If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
 
@@ -490,7 +490,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
     ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
     
     !!! tip 
-        You can change your billing details directly in your Stripe account following [this guide](/reference/plans-pricing/#how-to-change-my-billing-details).
+        You can change your billing details directly in your Stripe account following [How to change my billing details?](/reference/plans-pricing/#how-to-change-my-billing-details).
 
     If you have any other questions about billing or refunds, please [contact support](/how-to-guides/contact-customer-support/).
 

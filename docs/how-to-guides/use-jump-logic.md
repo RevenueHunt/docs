@@ -674,7 +674,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     **Implementation**
 
-    1. Set up Multiple Results pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
+    1. Set up Multiple Results pages in your quiz. Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -700,9 +700,9 @@ Jump Logic allows you to route customers to different questions based on their r
 
     ![send users to different results pages jump logic](https://loom.com/i/cf75df4cb4574b2ab7f4b81eff37c83e?workflows_screenshot=true)
 
-    !!! info
+    !!! tip
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
+        Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 
 
 
@@ -712,7 +712,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     **Implementation**
 
-    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -739,9 +739,9 @@ Jump Logic allows you to route customers to different questions based on their r
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
 
 
-    !!! info
+    !!! tip
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
+        Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 
 
 
@@ -752,7 +752,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     **Implementation**
 
-    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -779,9 +779,9 @@ Jump Logic allows you to route customers to different questions based on their r
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
 
 
-    !!! info
+    !!! tip
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
+        Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 
 
 
@@ -792,7 +792,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     **Implementation**
 
-    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -819,9 +819,9 @@ Jump Logic allows you to route customers to different questions based on their r
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
 
 
-    !!! info
+    !!! tip
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
+        Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 
 
 
@@ -832,7 +832,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     **Implementation**
 
-    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -859,9 +859,9 @@ Jump Logic allows you to route customers to different questions based on their r
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
 
 
-    !!! info
+    !!! tip
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
+        Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 
 
 === "Standalone"
@@ -871,7 +871,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     **Implementation**
 
-    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -898,9 +898,9 @@ Jump Logic allows you to route customers to different questions based on their r
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
 
 
-    !!! info
+    !!! tip
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
+        Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 
 
 
@@ -933,9 +933,9 @@ Jump Logic allows you to route customers to different questions based on their r
 
     ![how to send users to an external url jump logic](https://loom.com/i/87753ed6e35d45ee8f0abfb0d1c3c92b?workflows_screenshot=true)
 
-    !!! info
+    !!! tip
 
-        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+        Check out this [Using jump logic for conditional redirection](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
 
 
 === "Shopify (Legacy)"
@@ -964,9 +964,9 @@ Jump Logic allows you to route customers to different questions based on their r
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
 
 
-    !!! info
+    !!! tip
 
-        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+        Check out this [Using jump logic for conditional redirection](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
 
 
 === "WooCommerce"
@@ -995,9 +995,9 @@ Jump Logic allows you to route customers to different questions based on their r
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
 
 
-    !!! info
+    !!! tip
 
-        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+        Check out this [Using jump logic for conditional redirection](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
 
 
 === "Magento"
@@ -1026,9 +1026,9 @@ Jump Logic allows you to route customers to different questions based on their r
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
 
 
-    !!! info
+    !!! tip
 
-        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+        Check out this [Using jump logic for conditional redirection](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
 
 
 === "BigCommerce"
@@ -1057,9 +1057,9 @@ Jump Logic allows you to route customers to different questions based on their r
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
 
 
-    !!! info
+    !!! tip
 
-        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+        Check out this [Using jump logic for conditional redirection](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
 
 
 === "Standalone"
@@ -1088,9 +1088,9 @@ Jump Logic allows you to route customers to different questions based on their r
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
 
 
-    !!! info
+    !!! tip
 
-        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+        Check out this [Using jump logic for conditional redirection](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
 
 
 

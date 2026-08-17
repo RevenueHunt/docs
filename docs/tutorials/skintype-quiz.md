@@ -207,7 +207,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
     Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
 
     !!! tip 
-        Check [this article](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
+        Check [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
     
     
     !!! tip 
@@ -222,7 +222,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
     !!! tip 
-        Check [this article](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
+        Check [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
     
     
     !!! tip 
@@ -237,7 +237,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
     !!! tip 
-        Check [this article](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
+        Check [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
     
     
     !!! tip 
@@ -253,7 +253,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
     !!! tip 
-        Check [this article](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
+        Check [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
     
     
     !!! tip 
@@ -268,7 +268,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
     !!! tip 
-        Check [this article](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
+        Check [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
     
     
     !!! tip 

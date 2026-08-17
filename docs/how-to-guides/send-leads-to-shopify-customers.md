@@ -167,7 +167,7 @@ When someone completes the quiz and leaves their email address, the app creates 
     
     !!! tip
 
-        Check [this article](/how-to-guides/ask-for-marketing-consent/) to learn how to ask for marketing consent directly in the quiz.
+        Check [How to Ask for Marketing/Data Processing Consent](/how-to-guides/ask-for-marketing-consent/) to learn how to ask for marketing consent directly in the quiz.
 
 
 === "Shopify (Legacy)"

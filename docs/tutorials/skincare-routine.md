@@ -343,7 +343,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
         - a *Cleansers* collection should have all the cleansing products, 
         - a *Toners* collection should have all the toning products, 
         - a *Serums* collection should have all the serums, etc.
-    3. To create a collection, click on the top-right button. Check [this article](https://help.shopify.com/en/manual/products/collections) for detailed instructions on managing collections in Shopify.
+    3. To create a collection, click on the top-right button. Check [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) for detailed instructions on managing collections in Shopify.
     4. Give it a name and a description. 
     5. Next, you’ll select how to add products to a collection. You can do that **manually**, selecting each product one by one, or you can make an **automatic collection** based on a product tag. 
     6. To create a *Cleansers* collection, we’ll choose the tag to be equal to the word `cleanser`. Shopify will automatically add all the products with this tag to the collection. 
@@ -357,7 +357,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
         - a *Cleansers* category should have all the cleansing products, 
         - a *Toners* category should have all the toning products, 
         - a *Serums* category should have all the serums, etc.
-    3. To create a category, check [this article](https://woocommerce.com/document/managing-product-taxonomies/#product-categories) for detailed instructions on managing categories in WooCommerce.
+    3. To create a category, check [create a category in your WooCommerce store](https://woocommerce.com/document/managing-product-taxonomies/#product-categories) for detailed instructions on managing categories in WooCommerce.
 
 === "Magento"
 
@@ -366,7 +366,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
         - a *Cleansers* category should have all the cleansing products, 
         - a *Toners* category should have all the toning products, 
         - a *Serums* category should have all the serums, etc.
-    3. To create a category, check [this article](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/categories) for detailed instructions on managing categories in Magento.
+    3. To create a category, check [create a category in your Magento store](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/categories) for detailed instructions on managing categories in Magento.
 
 === "BigCommerce"
 
@@ -375,7 +375,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
         - a *Cleansers* category should have all the cleansing products, 
         - a *Toners* category should have all the toning products, 
         - a *Serums* category should have all the serums, etc.
-    3. To create a category, check [this article](https://support.bigcommerce.com/s/article/Product-Categories?language=en_US) for detailed instructions on managing categories in BigCommerce.
+    3. To create a category, check [create a category in your BigCommerce store](https://support.bigcommerce.com/s/article/Product-Categories?language=en_US) for detailed instructions on managing categories in BigCommerce.
 
 === "Standalone"
 
@@ -468,7 +468,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
 
         !!! tip
-            Check out our [previous step-by-step tutorial](/tutorials/making-first-quiz/) to learn how to use the [Quiz builder](/reference/quiz-builder/).
+            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz builder](/reference/quiz-builder/).
 
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
 
@@ -484,7 +484,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
     
         !!! tip
-            Check out our [previous step-by-step tutorial](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
+            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
     
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
     
@@ -502,7 +502,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
     
         !!! tip
-            Check out our [previous step-by-step tutorial](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
+            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
     
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
     
@@ -521,7 +521,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
     
         !!! tip
-            Check out our [previous step-by-step tutorial](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
+            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
     
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
     
@@ -539,7 +539,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
     
         !!! tip
-            Check out our [previous step-by-step tutorial](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
+            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
     
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
     
@@ -557,7 +557,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
     
         !!! tip
-            Check out our [previous step-by-step tutorial](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
+            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
     
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
     
@@ -846,7 +846,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. Add a heading, a logo or a text block to customize the page. For example, you can add a text block to include more information about the recommended skincare routine.
 
         !!! tip
-            Check the [previous tutorial](/tutorials/making-first-quiz/) to see examples of different blocks being used.
+            Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
     2. **Add Product block**: Include a `Product Block` to display the recommended routine. In `Slot settings` set the `Max. recommended items` to four.
     3. **Preview the quiz**: Update the preview/with the top-right `Save` button and click `Preview` to test the quiz. Take the quiz a few times to check if the recommended products are displayed in accordance with the product matrix.
 
@@ -858,7 +858,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. Add a heading, a logo or a content block to customize the page.
 
         !!! tip
-            Check the [previous tutorial](/tutorials/making-first-quiz/) to see examples of different blocks being used.
+            Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
     
     2. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
     3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
@@ -873,7 +873,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. Add a heading, a logo or a content block to customize the page.  
 
         !!! tip
-            Check the [previous tutorial](/tutorials/making-first-quiz/) to see examples of different blocks being used.
+            Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
     2. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
     3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
 
@@ -887,7 +887,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. Add a heading, a logo or a content block to customize the page.
     
         !!! tip
-            Check the [previous tutorial](/tutorials/making-first-quiz/) to see examples of different blocks being used.
+            Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
     2. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
     3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
 
@@ -901,7 +901,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. Add a heading, a logo or a content block to customize the page.
     
         !!! tip
-            Check the [previous tutorial](/tutorials/making-first-quiz/) to see examples of different blocks being used.
+            Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
     2. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
     3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
 
@@ -915,7 +915,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. Add a heading, a logo or a content block to customize the page.
     
         !!! tip
-            Check the [previous tutorial](/tutorials/making-first-quiz/) to see examples of different blocks being used.
+            Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
     2. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
     3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
 

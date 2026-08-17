@@ -80,7 +80,7 @@ This documentation outlines how to track quiz analytics and revenue generated fr
 
          Shopify Revenue Tracking and Orders Tagging only works if the customer adds the products to the cart directly from the quiz results page **AND** if they immediately proceed to the cart after the quiz, and then right away complete the purchase. If they purchase at a later date, this revenue will not be attributed to the quiz anymore.
          
-         Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](/how-to-guides/change-checkout-settings/).
+         Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
 
     ## Tracking revenue with Google Analytics
 

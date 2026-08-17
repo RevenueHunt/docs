@@ -9,7 +9,7 @@ Directly asking for marketing consent or acceptance of data processing in your q
 
 This article outlines several methods to integrate consent requests seamlessly into your quizzes.
 
-!!! note
+!!! tip
 
     Check our latest article [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/) to learn more.
 

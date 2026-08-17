@@ -23,7 +23,7 @@ You can hide these technical choices in the last question using custom CSS code.
 
 ## Where do I input the custom JavaScript code?
 
-[This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
+[How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
 
 ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png)
 

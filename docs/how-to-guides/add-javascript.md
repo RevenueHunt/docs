@@ -2372,31 +2372,31 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [How to Change the Language of Your Quiz](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
 === "WooCommerce"
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [How to Change the Language of Your Quiz](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
 === "Magento"
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [How to Change the Language of Your Quiz](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
 === "BigCommerce"
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [How to Change the Language of Your Quiz](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
 === "Standalone"
 
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [How to Change the Language of Your Quiz](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
 ### Other examples
 

@@ -265,32 +265,32 @@ Follow these steps if you plan to change the domain on which the RevenueHunt app
 
     If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 
-    If you’re changing the `.myshopify` account, then check [this guide](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    If you’re changing the `.myshopify` account, then check [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
 
 === "Shopify (Legacy)"
 
     If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 
-    If you’re changing the `.myshopify` account, then check [this guide](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    If you’re changing the `.myshopify` account, then check [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
 === "WooCommerce"
 
     If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 
-    When changing the domain accounts in WordPress, you’ll have to copy your quiz from the old domain to the new one first. [This article](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two WordPress accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    When changing the domain accounts in WordPress, you’ll have to copy your quiz from the old domain to the new one first. [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two WordPress accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
 === "Magento"
 
     If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 
-    When changing the domain accounts in Magento, you’ll have to copy your quiz from the old domain to the new one first. [This article](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Magento accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    When changing the domain accounts in Magento, you’ll have to copy your quiz from the old domain to the new one first. [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Magento accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
 === "BigCommerce"
 
     If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the WordPress account the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
 
-    When changing the domain accounts in BigCommerce, you’ll have to copy your quiz from the old domain to the new one first. [This article](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two BigCommerce accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    When changing the domain accounts in BigCommerce, you’ll have to copy your quiz from the old domain to the new one first. [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) explains how to do that. You may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two BigCommerce accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
 === "Standalone"
 

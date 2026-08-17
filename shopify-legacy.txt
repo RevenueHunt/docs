@@ -5760,8 +5760,8 @@ Adding discount coupons into your quiz allows customers to enjoy special offers 
     1. Click the top-right [`Publish` button](/reference/quiz-builder/questions/) to apply your changes to the live quiz/preview.
     **Alternatively**
     Your developer can also add a discount code to the results page using custom JavaScript code added to the Results page.
-    !!! info
-        Check out [this article](/how-to-guides/add-javascript/) for more information on how to add custom JavaScript code to your results page.
+    !!! tip
+        Check out [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) for more information on how to add custom JavaScript code to your results page.
     !!! example 
         You can use this function 
         ```html
@@ -5771,8 +5771,8 @@ Adding discount coupons into your quiz allows customers to enjoy special offers 
         to add a custom coupon or a discount code to the results page and apply it to all the products. Note, that this coupon code needs to be first set up in your store.
     To further personalize the customer experience, you can incorporate the discount code within the follow-up email and results page. This allows customers to conveniently copy and paste the code at checkout.
     Simply go to the [Quiz Builder](/reference/quiz-builder/), find the [Notifications > TO RESPONDENT](/reference/quiz-builder/notifications/#to-respondent) tab, and edit the message to include your discount code text.
-    !!! info
-        Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
+    !!! tip
+        Check out [Setting Up Result Emails with Product Recommendation Quiz](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
     In the RevenueHunt app, you can apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
         ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
@@ -5787,7 +5787,7 @@ Adding discount coupons into your quiz allows customers to enjoy special offers 
         ![how to add discount email question](/images/how_to_add_discount_email_question.png)
     5. **Add Jump Logic**: Now you can redirect customers to either the *Results Page 1 (no discount)* or the *Results Page 2 (discount)* depending on their answer to the discount question. To do that you’ll need to add two Jump Logic statements.
         !!! tip
-            To learn more about Jump Logic, check [this article](/how-to-guides/use-jump-logic/).
+            To learn more about Jump Logic, check [How to Use Jump Logic](/how-to-guides/use-jump-logic/).
     6. **FIRST JUMP LOGIC – DISCOUNT QUESTION**: To add Jump Logic to the discount question, click the `conditional logic` button. In the `Jump Logic` menu, select `Add Jump Logic`. Add the following logic condition:
         ![how to add discount jump logic 1](/images/how_to_add_discount_jump_logic_1.png)
         - If the customer answers ‘Yes’ to the discount question, they will automatically go to the next question (the email question).
@@ -6070,7 +6070,7 @@ Before diving into the implementation, it's important to understand the differen
         }
         ```
     Our application syncs only the base products from your store. Products translated into other languages won't have unique IDs for sync. Although you can change the quiz language, product names and descriptions will display in the original language. 
-    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
+    A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [How to Change the Language of Your Quiz](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
 
 
@@ -6254,7 +6254,7 @@ This section will guide you through the process of importing your products from 
 
     !!! warning 
 
-        You cannot just upload any data source file to the RevenueHunt app. The file must be a **valid Google Product Feed XML file**. Check this [guide](https://support.google.com/merchants/answer/12631822?hl=en) to learn more about the best practices for creating a valid Google Product Feed.
+        You cannot just upload any data source file to the RevenueHunt app. The file must be a **valid Google Product Feed XML file**. Check this [Google Merchant Center feed specification](https://support.google.com/merchants/answer/12631822?hl=en) to learn more about the best practices for creating a valid Google Product Feed.
     
 
     !!! info "How do I find my Google Product Feed URL?"
@@ -6326,7 +6326,7 @@ The quiz needs to be published on live website (not hidden by a “coming soon�
 
 !!! tip
 
-    Check [this article](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
+    Check [How to Publish a Quiz on Your Website](/how-to-guides/publish-quiz/) to learn how to publish your quiz.
 
 ## You’re using a cart drawer
 
@@ -6352,7 +6352,7 @@ If you configure your Shopify theme to handle cart updates, it may be possible t
     
 !!! tip
 
-    Check [this article](/how-to-guides/update-shopify-cart-drawer/) to learn how quiz adds products to the cart and how to configure your Shopify theme to handle cart updates.
+    Check [How to Update Your Shopify Cart Drawer Products After the Quiz](/how-to-guides/update-shopify-cart-drawer/) to learn how quiz adds products to the cart and how to configure your Shopify theme to handle cart updates.
 
 **Option 2: Send the customer to the product page**
 
@@ -6360,7 +6360,7 @@ You could, instead of adding the product to the cart, send the customer to the p
 
 !!! tip
 
-    Check [this article](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
+    Check [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/) to learn how to change your checkout settings.
 
 
 ## Your product is a subscription product
@@ -6391,7 +6391,7 @@ Directly asking for marketing consent or acceptance of data processing in your q
 
 This article outlines several methods to integrate consent requests seamlessly into your quizzes.
 
-!!! note
+!!! tip
 
     Check our latest article [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/) to learn more.
 
@@ -6833,7 +6833,7 @@ This article will guide you through the process of copying a quiz from one store
         ![Import Quiz Step](/images/how_to_copy_the_quiz_step_3.gif)
     After completing these steps, the imported quiz will appear in your dashboard with a `(copy)` suffix in its name.
     If you’re only changing the domain name (from `example.com` to `example-two.com`) and NOT changing the Shopify account (aka `.myshopify.com` address) the process shouldn’t disturb the RevenueHunt app and your quizzes. You can do so safely.
-    If you’re changing the `.myshopify` account, then check [this guide](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
+    If you’re changing the `.myshopify` account, then check [How to Copy the Quiz from One Store to Another](#how-to-copy-the-quiz-from-one-store-to-another) to copy the quiz from one store to another. After the quiz is copied, you may need to link your products to choices again, as they will have different product IDs in your new store. Make sure you’re **not** logged into two Shopify accounts at the same time on the same browser. This may cause caching issues. Instead, use Incognito / Private browsing for the second account.
 
 
 
@@ -7645,7 +7645,7 @@ To track quiz performance with Google Analytics in Shopify (legacy), you'll need
         The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately.  
         If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
     !!! note
-        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+        Google Analytics GA4 tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
     To track quiz events and performance in Google Analytics, you'll need to implement custom JavaScript tracking to your website, preferably the page where the quiz is embeded.
     To implement custom event tracking for your quiz, follow these steps:
     1. **Understand the Callback Function**: Visit the [FAQ page](/how-to-guides/use-callback-function/) to learn how our callback function works and how it can be used for tracking custom events.
@@ -7747,7 +7747,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
 !!! note
 
-    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+    Facebook Pixel / Meta Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -8812,7 +8812,7 @@ You can hide these technical choices in the last question using custom CSS code.
 
 ## Where do I input the custom JavaScript code?
 
-[This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
+[How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
 
 ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png)
 
@@ -8920,9 +8920,9 @@ RevenueHunt Product Recommendation Quiz can show on the results page **product v
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
     Check the quiz to learn how to build the quiz outcome you want or consult the *How-to* guides listed below.
     <script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/X2Hy6G" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
-    If you're using a legacy version of the RevenueHunt app for Shopify and Rechare Subscriptions check [this guide](/how-to-guides/recommend-subscription-products/) to learn how to recommend subscription products directly from the quiz.
+    If you're using a legacy version of the RevenueHunt app for Shopify and Rechare Subscriptions check [How to Recommend Subscription Products](/how-to-guides/recommend-subscription-products/) to learn how to recommend subscription products directly from the quiz.
     ![how to recommend subscription products sample product](/images/how_to_recommend_subscription_products_sample_product.png){width="150"}
-    For other subscription apps check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
+    For other subscription apps check [Other subscriptions](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/)
     While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
     If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless ecommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
@@ -9078,7 +9078,7 @@ If you're using a subscription app that is not supported, you can still recommen
     - It is not possible to add all products to the cart with a single button; each subscription has to be chosen and added separately.
     - The subscription duration can only be chosen on the results page. It is not possible to recommend a specific subscription duration.
     - The customer needs to proceed to the cart first and cannot proceed to checkout directly with subscription products. You can change this in the [checkout settings](/how-to-guides/change-checkout-settings/).
-    - We only integrate with the **new Shopify Checkout**; the old Recharge Checkout is not supported. For instructions on how to migrate from the old ReCharge Checkout to the new Shopify Checkout, check [this article](https://support.rechargepayments.com/hc/en-us/articles/4403505928599).
+    - We only integrate with the **new Shopify Checkout**; the old Recharge Checkout is not supported. For instructions on how to migrate from the old ReCharge Checkout to the new Shopify Checkout, check [ReCharge migration guide](https://support.rechargepayments.com/hc/en-us/articles/4403505928599).
     Not applicable.
     For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Recommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
     **Step 1: Link One-Time Payment Products to Quiz Choices**
@@ -9270,8 +9270,8 @@ Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign all
     !!! note
         Note that the Quiz is only responsible for sending the raw data, you will have to configure a flow or any other custom event you wish to make with the data within ActiveCampaign in itself, and any questions regarding this process should be asked to ActiveCampaign’s support team directly.
     Sometimes, you would like a bit more control over the data that is sent to ActiveCampaign. In that case there are a few alternatives you can use to send quiz leads to ActiveCampaign.
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to ActiveCampaign. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to ActiveCampaign.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to ActiveCampaign. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to ActiveCampaign.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to ActiveCampaign. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to ActiveCampaign.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to ActiveCampaign. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to ActiveCampaign.
     - **Manually adding the quiz leads to ActiveCampaign**: You can manually add the quiz leads to ActiveCampaign by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
     With the quiz integrated, you might want to enhance contact profiles with additional custom information derived from quiz results.
     Quiz data is added to the contact as **custom fields**, and quiz tags are added as native ActiveCampaign tags.
@@ -9423,7 +9423,7 @@ Integrating your RevenueHunt Product Recommendation Quiz with HubSpot can improv
     The integration is enabled automatically when you connect your quiz to HubSpot. All quiz responses with an email address will be sent to your HubSpot account.
     Adding contacts to a specific list is not available in this version. You can create segments in HubSpot based on the custom properties sent with quiz responses.
     Sometimes, you would like a bit more control over the data that is sent to HubSpot. In that case there are a few alternatives you can use to send quiz leads to HubSpot.
-    - **Using Zapier**: You can use our native Zapier integration to send quiz leads to HubSpot. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to HubSpot.
+    - **Using Zapier**: You can use our native Zapier integration to send quiz leads to HubSpot. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to HubSpot.
     - **Manually adding the quiz leads to HubSpot**: You can manually add the quiz leads to HubSpot by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
     Every time your customers take the quiz, their contact details along with all of their responses and product recommendations will be sent to your HubSpot account.
     1. To view the imported data, navigate to the `contacts` section within HubSpot.
@@ -9503,7 +9503,7 @@ icon: material/email-newsletter
 
 Apart from giving your customers personalized product recommendations, you can connect your quiz to Klaviyo. This way all the contacts coming from the quiz will be added to your Klaviyo account and you can create targeted email campaigns to upsell them.
 
-This article walks you through the process of connecting your quiz to Klaviyo and setting up post-quiz email flow. You can also follow our step-by-step [tutorial](/tutorials/follow-up-emails-klaviyo/).
+This article walks you through the process of connecting your quiz to Klaviyo and setting up post-quiz email flow. You can also follow our step-by-step [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/).
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -9560,7 +9560,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
         2. Click `Create flow` and then `Build from scratch`.
         3. Name the flow and click `Create flow`.
         4. Next, you'll be asked to set up a flow trigger.
-        5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+        5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
         **Optional: Update Marketing Consent**
         If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
         1. Right below the flow trigger, add a `Profile property update` action.
@@ -9576,7 +9576,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
             ![how to send leads to klaviyo email template download1](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
             ![how to send leads to klaviyo email template download2](/images/how_to_send_leads_to_klaviyo_email_template_download2.png)
             !!! tip
-                If you would rather create your own email template, check [this section](#use-quiz-data-in-klaviyo-email-templates) for more details.
+                If you would rather create your own email template, check [Use quiz data in Klaviyo email templates](#use-quiz-data-in-klaviyo-email-templates) for more details.
         10. Copy the code and go back to Klaviyo.
         11. Open the `HTML email template` and remove the existing code.
         12. Paste the new template code.
@@ -9725,9 +9725,9 @@ Apart from giving your customers personalized product recommendations, you can c
     4. **Test and Optimize.** After setting up your email campaigns, test them with a test email and optimize them based on the results.
     Open the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz, scroll to the Mailchimp section and remove the connection. Then click the `Publish` button to update the preview/live quiz with the new settings.
     Sometimes, you would like a bit more control over the data that is sent to Mailchimp. In that case there are a few alternatives you can use to send quiz leads to Mailchimp.
-    - **Using Shopify Customers**: You can use Shopify Customers to send quiz leads to Mailchimp. Just connect your quiz to Shopify Customers following [this guide](/how-to-guides/send-leads-to-shopify-customers/). Then, use a native Shopify - Mailchimp integration to send the quiz leads to Mailchimp.
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Mailchimp. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Mailchimp.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Mailchimp. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Mailchimp.
+    - **Using Shopify Customers**: You can use Shopify Customers to send quiz leads to Mailchimp. Just connect your quiz to Shopify Customers following [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/). Then, use a native Shopify - Mailchimp integration to send the quiz leads to Mailchimp.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to Mailchimp. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to Mailchimp.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Mailchimp. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Mailchimp.
     - **Manually adding the quiz leads to Mailchimp**: You can manually add the quiz leads to Mailchimp by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 
@@ -9754,8 +9754,8 @@ This article explains how to send leads to MailerLite from your product recommen
 
 MailerLite is not supported in Shopify (Legacy) version of the RevenueHunt app.
     Sometimes, you would like a bit more control over the data that is sent to MailerLite. In that case there are a few alternatives you can use to send quiz leads to MailerLite.
-    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [this guide](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
+    - **Using Zapier**: You can use out native Zapier integration to send quiz leads to MailerLite. Just connect your quiz to Zapier following [How to Send Leads to Zapier](/how-to-guides/send-leads-to-zapier/). Then, in Zapier set up a redirection of selected data to MailerLite.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to MailerLite. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to MailerLite.
     - **Manually adding the quiz leads to MailerLite**: You can manually add the quiz leads to MailerLite by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 
@@ -10264,7 +10264,7 @@ Automating the transfer of leads from your quizzes to your Customer Relationship
     Confirm with `Yes, Continue to RevenueHunt`.
     4. **New Connection Added** You should see a `New Connection Added` banner. Then you can use this connection to set up your email flow.
     Sometimes, you would like a bit more control over the data that is sent to Zapier. In that case there are a few alternatives you can use to send quiz leads to Zapier.
-    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Zapier. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Zapier.
+    - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Zapier. Just connect your quiz to Webhooks following [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Zapier.
     - **Manually adding the quiz leads to Zapier**: You can manually add the quiz leads to Zapier by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
     During the setup, you can check the quiz data that Zapier will receive from the quiz. This includes:
     - Email addresses of quiz participants.
@@ -11142,7 +11142,7 @@ Scoring system is not available in the legacy version of the RevenueHunt app for
     **How can I ensure that users don’t see the choices in the last question?**
     You can hide these technical choices in the last question using custom CSS code. See [How to Customize the Quiz Design](/how-to-guides/customize-quiz-design/).
     **Where do I input the custom JavaScript code?**
-    [This article](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
+    [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) explains how to add custom JavaScript code to quiz questions. For example:
     ![recommend-products-based-on-number-of-user-choices image1](/images/recommend-products-based-on-number-of-user-choices_image1.png){width=500}
     The custom JavaScript code should be integrated into the final question to assess the user’s choices and click the right choices in order to recommend a product collection accordingly.
     **How can I identify the selected choices from each slide or question with JavaScript?**
@@ -11215,7 +11215,7 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
         Some Shopify themes disable the passing of tags to the orders. These themes should have the option to activate this feature in the theme settings manually.
     !!! warning
         Shopify Revenue Tracking and Orders Tagging only works if the customer adds the products to the cart directly from the quiz results page **AND** if they immediately proceed to the cart after the quiz, and then right away complete the purchase. If they purchase at a later date, this revenue will not be attributed to the quiz anymore.
-        Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](/how-to-guides/change-checkout-settings/).
+        Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
     If you believe the orders tagging is not working as it should, try to following steps:
     1. Go to the `Connect` tab and disconnect the quiz from **Shopify Customers** and **Shopify Orders Tagging**. Then, publish the changes with the top-right `Publish` button. 
     2. Connect the quiz again to these tools and (again) publish the changes with the top-right `Publish` button. That should reset the connection.
@@ -11279,7 +11279,7 @@ Integrating quiz results into a customer's profile on your Shopify store can per
     !!! note
         This method works only for Shopify accounts using our [RevenueHunt](https://revenuehunt.com/product-recommendation-quiz-shopify/) app. Unfortunately, we don't have a solution yet on how to show the quiz on a customer profile in WooCommerce, Magento or BigCommerce.
     **Step 1: Connect Your Quiz to Shopify's Customer List**
-    To ensure quiz results are associated with the correct customer profile, the first step involves linking your quiz tool with [Shopify's Customer List](/how-to-guides/send-leads-to-shopify-customers/). Follow the instructions in [this article](/how-to-guides/send-leads-to-shopify-customers/) to check if the quiz was connected correctly.
+    To ensure quiz results are associated with the correct customer profile, the first step involves linking your quiz tool with [Shopify's Customer List](/how-to-guides/send-leads-to-shopify-customers/). Follow the instructions in [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) to check if the quiz was connected correctly.
     **Step 2: Edit the customers/account.liquid File**
     When a respondent completes the quiz, we will send a `metafield` to their profile, which includes the `response/recommendations` they just got.
     When you navigate to Your `Shopify Theme -> Actions -> Edit code`, you can find this metafield within the Templates liquid code of the customer profile:
@@ -11567,7 +11567,7 @@ The [**Shopify Revenue Report**](#activate-shopify-revenue-report) feature withi
     - **Avg. Order Value**: Indicates the average value of orders placed post-quiz.
     !!! warning
          Shopify Revenue Tracking and Orders Tagging only works if the customer adds the products to the cart directly from the quiz results page **AND** if they immediately proceed to the cart after the quiz, and then right away complete the purchase. If they purchase at a later date, this revenue will not be attributed to the quiz anymore.
-         Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](/how-to-guides/change-checkout-settings/).
+         Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [How to Change Checkout Settings on Your Results Page](/how-to-guides/change-checkout-settings/).
     ## Tracking revenue with Google Analytics
     For a more detailed analysis you can track quiz revenue alongside other metrics with [Google Analytics](/how-to-guides/integrate-google-analytics/).
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/integrate-google-analytics/)
@@ -12027,7 +12027,7 @@ In this article, you’ll discover how to use `IF-THEN` conditional logic to dis
 
 ## [How to use jump logic](/how-to-guides/use-jump-logic/)
 
-Jump Logic is a tool designed to personalize the experience of quiz participants by guiding them down different paths based on their answers. [This article](/how-to-guides/use-jump-logic/) provides a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
+Jump Logic is a tool designed to personalize the experience of quiz participants by guiding them down different paths based on their answers. [How to Use Jump Logic](/how-to-guides/use-jump-logic/) provides a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
 
 !!! info "Use Jump Logic to:"
 
@@ -12041,7 +12041,7 @@ Jump Logic is a tool designed to personalize the experience of quiz participants
 
 ## [How to use skip logic](/how-to-guides/use-skip-logic/)
 
-Skip Logic is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. [This guide](/how-to-guides/use-skip-logic/) will show you how to set up and use Skip Logic, including some examples of how it works.
+Skip Logic is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. [How to Use Skip Logic](/how-to-guides/use-skip-logic/) will show you how to set up and use Skip Logic, including some examples of how it works.
 
 !!! info "Use Skip Logic to:"
 
@@ -12054,7 +12054,7 @@ Skip Logic is a tool used in quizzes or surveys to make answering questions smoo
 
 ## [How to use display logic](/how-to-guides/use-display-logic/)
 
-Display logic is a feature of the Results Page that allows you to make elements visible or hidden based on conditional logic rules. [This article](/how-to-guides/use-display-logic/) explains how to use Display Logic on the Results Page.
+Display logic is a feature of the Results Page that allows you to make elements visible or hidden based on conditional logic rules. [How to use Display Logic](/how-to-guides/use-display-logic/) explains how to use Display Logic on the Results Page.
 
 
 !!! info "Use Display Logic to:"
@@ -12362,7 +12362,7 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     With Jump Logic, you can send users to different results pages based on their answers.
     **Implementation**
-    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -12377,8 +12377,8 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
             IF the answer to the question `Q1: What is your skin type?` is `Combination`, then go to `Results Page 4`.
     6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.   
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
-    !!! info
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
+    !!! tip
+        Check out this [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
     With Jump Logic, you can send users to an external URL based on their answers.
     **Implementation**
     1. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
@@ -12392,8 +12392,8 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
             IF the answer to the question `Q1: What is your skin type?` is `Dry`, then always jumpto the URL `https://yourstore.com/dry-skin`.
     6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     ![how to send users to an external url jump logic](/images/how_to_redirect_quiz_ot_another_page_jump_logic.png)
-    !!! info
-        Check out this [guide](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
+    !!! tip
+        Check out this [Using jump logic for conditional redirection](/how-to-guides/redirect-quiz-to-another-page/#using-jump-logic-for-conditional-redirection) to learn how to send users to an external URL based on their answers.
 
 
 
@@ -14962,7 +14962,7 @@ In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendatio
     2. Click `Create flow` and then `Build from scratch`.
     3. Name the flow and click `Create flow`.
     4. Next, you'll be asked to set up a flow trigger.
-    5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
+    5. Choose the trigger to be `Added to a segment` and select the segment created in the [Create segment for quiz takers](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
     If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
     1. Right below the flow trigger, add a `Profile property update` action.
     2. Click `+ Step`.
@@ -15547,7 +15547,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
         - a *Cleansers* collection should have all the cleansing products, 
         - a *Toners* collection should have all the toning products, 
         - a *Serums* collection should have all the serums, etc.
-    3. To create a collection, click on the top-right button. Check [this article](https://help.shopify.com/en/manual/products/collections) for detailed instructions on managing collections in Shopify.
+    3. To create a collection, click on the top-right button. Check [create a collection in your Shopify store](https://help.shopify.com/en/manual/products/collections) for detailed instructions on managing collections in Shopify.
     4. Give it a name and a description. 
     5. Next, you’ll select how to add products to a collection. You can do that **manually**, selecting each product one by one, or you can make an **automatic collection** based on a product tag. 
     6. To create a *Cleansers* collection, we’ll choose the tag to be equal to the word `cleanser`. Shopify will automatically add all the products with this tag to the collection. 
@@ -15562,7 +15562,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
     Now you can build your quiz. 
     1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
         !!! tip
-            Check out our [previous step-by-step tutorial](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
+            Check out our [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
         - Use a `Name question` to make the quiz personal.
         - `Multiple-choice questions` can be useful in finding out the client’s age, skin type, skin concerns or the environment they live in.
@@ -15592,7 +15592,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
     It’s time to edit the [Results Page](/reference/quiz-builder/results-page/). 
     1. Add a heading, a logo or a content block to customize the page.
         !!! tip
-            Check the [previous tutorial](/tutorials/making-first-quiz/) to see examples of different blocks being used.
+            Check the [Making Your First Product Recommendation Quiz || Recommending the Best Cleanser](/tutorials/making-first-quiz/) to see examples of different blocks being used.
     2. To make the page more attractive, let’s add a `content block`. In this block, we’ll describe every step in the beauty routine. 
     3. Remember to use [Markdown language](/how-to-guides/use-markdown/) to style your text. 
     The page is almost done. 
@@ -15641,7 +15641,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 Scoring system is not available in the legacy version of the RevenueHunt app for Shopify. For this reason building a personality-type quiz or a scoring quiz like this one is not possible with the off-the-shelf solution.
     Your developer can implement a custom scoring system with JavaScript on the Results Page instead. 
     !!! tip 
-        Check [this article](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
+        Check [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) to learn how to  recommend products based on the number of user choices in the legacy version of the RevenueHunt app for Shopify.
     !!! tip 
         Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 

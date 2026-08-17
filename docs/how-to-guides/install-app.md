@@ -59,7 +59,7 @@ icon: material/download
     5. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
     6. Drive traffic to your quiz and start getting sales and leads!
 
-    If you have any issues with your WooCommerce installation please check [this article](https://revenuehunt.com/faqs/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce/).
+    If you have any issues with your WooCommerce installation please check [WooCommerce troubleshooting FAQ](https://revenuehunt.com/faqs/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce/).
 
 === "Magento"
 

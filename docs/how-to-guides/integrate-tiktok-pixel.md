@@ -24,9 +24,9 @@ This article explains how to integrate the TikTok Pixel with your quiz applicati
 
     To connect tiktok pixel to your quiz, follow the instructions below: 
 
-    1. **Connect TikTok to Shopify**: To connect your TikTok Pixel with your quiz, you need to first set it up in your Shopify store and make sure it is integrated with your website. Follow the instructions in [this article](https://ads.tiktok.com/help/article/shopify-set-up-guide) to set it up.
+    1. **Connect TikTok to Shopify**: To connect your TikTok Pixel with your quiz, you need to first set it up in your Shopify store and make sure it is integrated with your website. Follow the instructions in [TikTok Shopify setup guide](https://ads.tiktok.com/help/article/shopify-set-up-guide) to set it up.
 
-    2. **Embed Quiz on a New Page**: TikTok Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [this article](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
+    2. **Embed Quiz on a New Page**: TikTok Pixel tracking works best if you embed your quiz on a new page in your online store. Follow the instuctions in [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) to set this up.
 
     3. **Reach out to Support**: Then, please [reach out to the RevenueHunt support team](/how-to-guides/contact-customer-support/) to connect your TikTok Pixel with your quiz.
 

@@ -21,9 +21,9 @@ description: "Learn how to display custom explanations for why products were rec
 
     !!! info
     
-        To learn how to **use Display logic** to show different sections on the results page, check [this guide](/how-to-guides/use-display-logic/).
+        To learn how to **use Display logic** to show different sections on the results page, check [How to use Display Logic](/how-to-guides/use-display-logic/).
 
-        You can also check [this guide](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) on settings up a quiz with the winning variable or [this guide](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) on how to set up a quiz with a custom scoring system. Both options are good for building a **personality-type** quiz.
+        You can also check [Winning variable quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) on settings up a quiz with the winning variable or [Scoring quiz with one results page](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) on how to set up a quiz with a custom scoring system. Both options are good for building a **personality-type** quiz.
 
 
 === "Shopify (Legacy)"

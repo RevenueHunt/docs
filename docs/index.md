@@ -66,7 +66,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
     5. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
     6. Drive traffic to your quiz and start getting sales and leads!
 
-    If you have any issues with your WooCommerce installation please check [this article](https://revenuehunt.com/faqs/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce/).
+    If you have any issues with your WooCommerce installation please check [WooCommerce troubleshooting FAQ](https://revenuehunt.com/faqs/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce/).
 
 === "Magento"
 
@@ -76,7 +76,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
     4. Follow the [Success Checklist](/reference/dashboard/#success-checklist) to create and publish your quiz.
     5. Drive traffic to your quiz and start getting sales and leads!
 
-    If you have any issues, check this [step-by-step guide](/how-to-guides/install-app/).
+    If you have any issues, check this [How to install the app](/how-to-guides/install-app/).
 
 === "BigCommerce"
 

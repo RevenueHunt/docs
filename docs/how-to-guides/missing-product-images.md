@@ -31,7 +31,7 @@ This guide explains how to fix product images not showing in your quiz.
 
     If you want to allow our app to hotlink your images, you can whitelist our server `admin.revenuehunt.com` and our server’s IP address `3.14.55.225`.
 
-    [This article](https://serverguy.com/disable-image-hotlinking-in-wordpress/) can guide you on how to enable hotlinking on your WordPress site by disabling hotlinking protection.
+    [guide to disabling image hotlinking in WordPress](https://serverguy.com/disable-image-hotlinking-in-wordpress/) can guide you on how to enable hotlinking on your WordPress site by disabling hotlinking protection.
 
 === "Magento"
 
