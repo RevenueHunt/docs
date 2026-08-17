@@ -165,7 +165,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
     6. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
     7. **Assign the template to the page**: Go to `Online Store > Pages` and select the page you created. Under `Page Template` select the template you created.
 
-        ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_tempalte](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_tempalte.png)
+        ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_template](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_template.png)
     8. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
     9. **Test the Automatic Pop-up**: To view the Automatic Pop-up, ensure you are in an incognito or private browsing window, as pop-ups are shown only once per user session.
 

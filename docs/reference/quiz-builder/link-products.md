@@ -76,7 +76,7 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
     To remove a linked product click "x" next to the product name.
 
-    **excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
+    **excluded products** - Opens the dropdown which allows to exclude products from a choice. 
 
     ![quiz builder link products exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
 

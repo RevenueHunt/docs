@@ -283,7 +283,7 @@ At the end of the quiz, the results page displays the product variants with the 
 
         !!! note
 
-            Product Block also allows you to display the products in clear steps, for example as a **skincare routine**. Each Product Block that has an added **Segement Filter** can recommend the most-voted product from a collection that's linked to it. Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.
+            Product Block also allows you to display the products in clear steps, for example as a **skincare routine**. Each Product Block that has an added **Segment Filter** can recommend the most-voted product from a collection that's linked to it. Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.
 
 
     4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
@@ -1603,7 +1603,7 @@ Show or hide different text blocks on the results page based on customer choices
     **Step 3: Link Products to Choices**
 
     1. Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab
-    2. For each choice link relevant products, varaints or collections.
+    2. For each choice link relevant products, variants or collections.
     3. The quiz will count votes from all questions
 
     **Step 4: Configure Results Page**
@@ -1646,7 +1646,7 @@ Show or hide different text blocks on the results page based on customer choices
     **Step 3: Link Products to Choices**
 
     1. Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab
-    2. For each choice link relevant products, varaints or collections.
+    2. For each choice link relevant products, variants or collections.
     3. The quiz will count votes from all questions
 
     **Step 4: Configure Results Page**
@@ -1689,7 +1689,7 @@ Show or hide different text blocks on the results page based on customer choices
     **Step 3: Link Products to Choices**
 
     1. Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab
-    2. For each choice link relevant products, varaints or collections.
+    2. For each choice link relevant products, variants or collections.
     3. The quiz will count votes from all questions
 
     **Step 4: Configure Results Page**
@@ -1732,7 +1732,7 @@ Show or hide different text blocks on the results page based on customer choices
     **Step 3: Link Products to Choices**
 
     1. Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab
-    2. For each choice link relevant products, varaints or collections.
+    2. For each choice link relevant products, variants or collections.
     3. The quiz will count votes from all questions
 
     **Step 4: Configure Results Page**
@@ -1775,7 +1775,7 @@ Show or hide different text blocks on the results page based on customer choices
     **Step 3: Link Products to Choices**
 
     1. Navigate to the [Link Products](/reference/quiz-builder/link-products/) tab
-    2. For each choice link relevant products, varaints or collections.
+    2. For each choice link relevant products, variants or collections.
     3. The quiz will count votes from all questions
 
     **Step 4: Configure Results Page**

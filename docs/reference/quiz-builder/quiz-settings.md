@@ -8,38 +8,38 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts, set up integrtations, notificaiton emails to self and result emails to quiz takers, or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts, set up integrtations, notificaiton emails to self and result emails to quiz takers, or restore a previously published version of the quiz.
 
 
 === "Shopify (Legacy)"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
 
 === "WooCommerce"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
 
 === "Magento"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
 
 === "BigCommerce"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
 
 === "Standalone"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
 
 ### General
 
@@ -49,7 +49,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     **Quiz behavior settings**
 
-    `Save quiz progress` - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
 
     `Pre-fill answers on retake` - Activating this setting will pre-fill the answers on the retake quiz page. Toggle to activate. When customers retake the quiz, their previous answers will be pre-filled so they only need to change what's different.
 
@@ -78,15 +78,15 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
 
-    `Currency` - Choose from a dropdown in which currency the product price should be displayes.
+    `Currency` - Choose from a dropdown in which currency the product price should be displayed.
 
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
 
-    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     `Use top level product` - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
 
@@ -106,15 +106,15 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
 
-    `Currency` - Choose from a dropdown in which currency the product price should be displayes.
+    `Currency` - Choose from a dropdown in which currency the product price should be displayed.
 
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
 
-    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     `Use top level product` - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
 
@@ -130,15 +130,15 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
 
-    `Currency` - Choose from a dropdown in which currency the product price should be displayes.
+    `Currency` - Choose from a dropdown in which currency the product price should be displayed.
 
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
 
-    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
@@ -152,15 +152,15 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
 
-    `Currency` - Choose from a dropdown in which currency the product price should be displayes.
+    `Currency` - Choose from a dropdown in which currency the product price should be displayed.
 
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
 
-    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     `Use top level product` - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
 
@@ -176,15 +176,15 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
 
-    `Currency` - Choose from a dropdown in which currency the product price should be displayes.
+    `Currency` - Choose from a dropdown in which currency the product price should be displayed.
 
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
 
-    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+    `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
@@ -783,7 +783,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...` - Click to open the restore menu.
 
-    `Create a new quiz usign this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
     `Restore this version` - Allows you to replace the current version of the quiz with the selected one.
 
@@ -802,7 +802,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...` - Click to open the restore menu.
 
-    `Create a new quiz usign this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
     `Rename this version` - Allows you to rename this saved version of the quiz.
 
@@ -816,7 +816,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...` - Click to open the restore menu.
 
-    `Create a new quiz usign this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
     `Rename this version` - Allows you to rename this saved version of the quiz.
 
@@ -830,7 +830,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...` - Click to open the restore menu.
 
-    `Create a new quiz usign this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
     `Rename this version` - Allows you to rename this saved version of the quiz.
 
@@ -844,7 +844,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...` - Click to open the restore menu.
 
-    `Create a new quiz usign this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
     `Rename this version` - Allows you to rename this saved version of the quiz.
 
@@ -858,7 +858,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...` - Click to open the restore menu.
 
-    `Create a new quiz usign this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
     `Rename this version` - Allows you to rename this saved version of the quiz.
 

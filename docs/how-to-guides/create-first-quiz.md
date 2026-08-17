@@ -174,9 +174,9 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     - On the Results Page, add a product block that will recommend the most voted products based on the customer's answers.
     - You can also sort recommendations into multiple product slots to show a complete product routine.
 
-    **Option 2**: Set up a custom varaible or a score that will determine what recommendations should be shown *(recommended for personality-type quizzes)*
+    **Option 2**: Set up a custom variable or a score that will determine what recommendations should be shown *(recommended for personality-type quizzes)*
 
-    ![Scoring Quiz](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png){: width="500"}
+    ![Scoring Quiz](/images/how_to_shopifyv2_scoringquiz_variablequiz.png){: width="500"}
 
     In this setup, you'll have to:
 
@@ -192,7 +192,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     In this setup, you'll have to either:
 
     - Create complex logic branching in the quiz that leads the user to different results pages with fixed recomemendations and text 
-    - Create one results page with multple sections and via display logic tell each section when to be shown or hidden based on the customer's answers.
+    - Create one results page with multiple sections and via display logic tell each section when to be shown or hidden based on the customer's answers.
 
     !!! tip
         If you're not sure which option to choose, check out our [How to Set Up Recommendations guide](/how-to-guides/set-up-recommendations/) that contains a decision tree to help you choose the best option for your quiz.

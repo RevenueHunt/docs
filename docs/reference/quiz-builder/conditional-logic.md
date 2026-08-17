@@ -236,9 +236,9 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     !!! example "Example 4"
 
-        ![manual_shopifyv2_jumplogic_example4_scorevaraible](/images/manual_shopifyv2_jumplogic_example4_scorevaraible.png)
+        ![manual_shopifyv2_jumplogic_example4_scorevariable](/images/manual_shopifyv2_jumplogic_example4_scorevariable.png)
 
-        In the example if the score of the varaible `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` after the customer answers Question 9 then the user will be redirected to the `Resutls page 1`.
+        In the example if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` after the customer answers Question 9 then the user will be redirected to the `Results page 1`.
 
     ---
 
@@ -259,7 +259,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
         ![manual_shopifyv2_jumplogic_example5_highestscorevariable](/images/manual_shopifyv2_jumplogic_example5_highestscorevariable.png)
 
-        In the example if the variable with the highest score is `dry` and the customer answers Question 9 then the user will be redirected to the `Resutls page 1`.
+        In the example if the variable with the highest score is `dry` and the customer answers Question 9 then the user will be redirected to the `Results page 1`.
 
         
    
@@ -536,9 +536,9 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     !!! example "Example 2"
 
-        ![manual_shopifyv2_skiplogic_example2_scorevaraible](/images/manual_shopifyv2_skiplogic_example2_scorevaraible.png)
+        ![manual_shopifyv2_skiplogic_example2_scorevariable](/images/manual_shopifyv2_skiplogic_example2_scorevariable.png)
 
-        In the example if the score of the varaible `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` then question 9 will be skipped.
+        In the example if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then question 9 will be skipped.
 
     ---
 

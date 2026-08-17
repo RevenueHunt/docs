@@ -309,7 +309,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
 
-        In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
+        In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
 
     ---
 
@@ -329,7 +329,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! example "Example 3"
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible.png)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
 
         In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
 
@@ -792,7 +792,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         Go to **Shopify Admin → Settings → Markets → Preferences** and ensure that compare-at prices are enabled for the relevant market (e.g., Germany or the EEA). 
 
-        ![how_to_shopifyv2_change_quiz_languge_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_languge_markets_compareatissue.png)
+        ![how_to_shopifyv2_change_quiz_language_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_language_markets_compareatissue.png)
         
         You can test this by previewing the quiz on your live store while simulating a visitor from the affected country.
 
@@ -816,7 +816,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Variants dropdown` - Adds a dropdown that dislays all the product variants. The dropdown will always be hidden if no products in the same block have variants or if the slots are stacked.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_varaintsdropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_varaintsdropdown.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_variantsdropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_variantsdropdown.png)
 
     `Metafield` - Adds a metafield to the product block. Select a metafield to display from the `Select a metafield` dropdown. Note: You can also display a metafield by adding a `Text` block to your product layout and adding the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/).
 
@@ -914,7 +914,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. 
 
-        If you add a segement, the slot will be able to display the most upvoted items from the linked products/collections.
+        If you add a segment, the slot will be able to display the most upvoted items from the linked products/collections.
         
         Unless you add a filter, the slot will display a list of upvoted items. 
 
@@ -938,7 +938,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Data
 
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
 
     `Value` - Set the value to be displayed in the chart.
 
@@ -984,7 +984,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Label` - Set the label for the first axis.
 
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
 
     `Value` - If you select `Fixed`, set the value to be displayed in the chart.
 
@@ -1038,7 +1038,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Label` - Set the label for the first axis.
 
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
 
     `Value` - If you select `Fixed`, set the value to be displayed in the chart.
 
@@ -1086,7 +1086,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Data
 
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
 
     `Value` - Set the value to be displayed in the chart.
 
@@ -1114,7 +1114,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Load template` - Select a chart template code from the dropdown list.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtempalte](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtempalte.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate.png)
 
     Layout
 
@@ -1660,7 +1660,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         - Judge.me Product Reviews,
         - Rivyo Product Reviews.
 
-    `Show metafields` - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    `Show metafields` - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafields in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
 
     **Style Settings**
 
@@ -1719,7 +1719,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
          We currently sync only the official WooCommerce Reviews.
 
-    `Show metafields/attributes` - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    `Show metafields/attributes` - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafields in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
 
     **Style Settings**
 

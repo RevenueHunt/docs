@@ -263,7 +263,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `Default Quiz` - The main quiz set up for the main Shopify market in your store.
 
-    ![manual_shopifyV2_dafaultquiz](/images/manual_shopifyV2_dafaultquiz.png)
+    ![manual_shopifyV2_defaultquiz](/images/manual_shopifyV2_defaultquiz.png)
 
     `4.5K Responses` - Shows the number of responses the current default quiz received.
 
@@ -705,7 +705,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![manual_standalone_succcesschecklist_catalogue_add_product](/images/manual_standalone_succcesschecklist_catalogue_add_product.png)
 
-    `+ add new collection` - Adds a new empty colelction. The prompt will ask you for a collection name. This can be edited later. Confirm with `Create`. Pick from the dropdown of existing products that should be added to the collection.
+    `+ add new collection` - Adds a new empty collection. The prompt will ask you for a collection name. This can be edited later. Confirm with `Create`. Pick from the dropdown of existing products that should be added to the collection.
 
     ![manual_standalone_succcesschecklist_catalogue_add_collection](/images/manual_standalone_succcesschecklist_catalogue_add_collection.png)
 
@@ -733,7 +733,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![manual_shopifyV2_createquiz_templates](/images/manual_shopifyV2_createquiz_templates.png){width="300"}
 
-    Click `Select` to confirm the tempalte choice, `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new quiz.
+    Click `Select` to confirm the template choice, `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new quiz.
 
     ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="300"}
 

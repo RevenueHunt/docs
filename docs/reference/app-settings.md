@@ -18,7 +18,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
         You can add multiple contact emails by separating them with a comma.
 
-    `Shopify Markets` - Assign quizzes to different markets and languges via the [Shopify Markets](#shopify-markets) tab.
+    `Shopify Markets` - Assign quizzes to different markets and languages via the [Shopify Markets](#shopify-markets) tab.
 
     `Shopify Customers` - Enable automatic syncing of quiz leads to your Shopify Customers list via the [Shopify Customers](#shopify-customers) tab.
 
@@ -123,7 +123,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
 
-    `▶` -  Click to display a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by dafault for the customer from that Market **and** lanuguage.
+    `▶` -  Click to display a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by default for the customer from that Market **and** language.
 
     ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
 
@@ -341,7 +341,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
 
-    `SMTP Authentication`  - Select from teh dropdown your SMTP email authentication method.
+    `SMTP Authentication`  - Select from the dropdown your SMTP email authentication method.
 
     `Enable STARTTLS` - Check to enable STARTTLS. *STARTTLS is a protocol command used to upgrade an existing insecure connection to a secure, encrypted connection using TLS (Transport Layer Security). It typically runs over port 587. You should check this if your mail server supports STARTTLS".* Note that this option is enabled by default, but you should untick it if your SMTP server does not support STARTTLS, as this could prevent successful connections.
 

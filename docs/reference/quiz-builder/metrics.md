@@ -493,7 +493,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton.png)
     
-    This will open a side bar with avialble analytics cards(blocks):
+    This will open a side bar with available analytics cards(blocks):
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_customize](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customize.png)
 

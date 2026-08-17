@@ -73,7 +73,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     To link a collection to a choice click on the white dropdown bar and start typing the name.
 
-    ![quiz builder link collecctions search](/images/manual_quizbuilder_linkcollections_search.png)
+    ![quiz builder link collections search](/images/manual_quizbuilder_linkcollections_search.png)
 
     Select a collection and it will be automatically added to the choice. 
 
@@ -103,7 +103,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     To link a category to a choice click on the white dropdown bar and start typing the name.
 
-    ![quiz builder link collecctions search](/images/manual_woo_quizbuilder_linkcategories_pickcategory.png)
+    ![quiz builder link collections search](/images/manual_woo_quizbuilder_linkcategories_pickcategory.png)
 
     Select a category and it will be automatically added to the choice. 
 

@@ -594,7 +594,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
 === "Shopify (Legacy)" 
 
-    In the [Quiz Buider](/reference/quiz-builder/) tab, you can design each question/slide. 
+    In the [Quiz Builder](/reference/quiz-builder/) tab, you can design each question/slide. 
 
 
     **Question Settings**
@@ -736,7 +736,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 === "WooCommerce"
 
 
-    In the [Quiz Buider](/reference/quiz-builder/) tab, you can design each question/slide. 
+    In the [Quiz Builder](/reference/quiz-builder/) tab, you can design each question/slide. 
 
 
     **Question Settings**
@@ -879,7 +879,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 === "Magento"
 
 
-    In the [Quiz Buider](/reference/quiz-builder/) tab, you can design each question/slide. 
+    In the [Quiz Builder](/reference/quiz-builder/) tab, you can design each question/slide. 
 
 
     **Question Settings**
@@ -1021,7 +1021,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 === "BigCommerce"
 
 
-    In the [Quiz Buider](/reference/quiz-builder/) tab, you can design each question/slide. 
+    In the [Quiz Builder](/reference/quiz-builder/) tab, you can design each question/slide. 
 
 
     **Question Settings**
@@ -1163,7 +1163,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 === "Standalone"
 
 
-    In the [Quiz Buider](/reference/quiz-builder/) tab, you can design each question/slide. 
+    In the [Quiz Builder](/reference/quiz-builder/) tab, you can design each question/slide. 
 
 
     **Question Settings**
@@ -1342,7 +1342,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     The [Results Page](/reference/quiz-builder/results-page/) tab is where you design what users see after completing the quiz.
 
-    You can add differrent blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
+    You can add different blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
 
     ![manual_quizbuilder_resultspage_addblockmenu](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
 
@@ -1350,7 +1350,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Click `add` on the **image block** to upload an image to the results page and adjust it's opacity.
 
-    - **heading and content blocks** allow you to add text to the results page, style it with Markdown lanuguage or embed images, links or videos.
+    - **heading and content blocks** allow you to add text to the results page, style it with Markdown language or embed images, links or videos.
 
         ??? info "How do I use Markdown lanague?"
 
@@ -1419,7 +1419,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     The [Results Page](/reference/quiz-builder/results-page/) tab is where you design what users see after completing the quiz.
 
-    You can add differrent blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
+    You can add different blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
 
     ![manual_quizbuilder_resultspage_addblockmenu](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
 
@@ -1427,7 +1427,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Click `add` on the **image block** to upload an image to the results page and adjust it's opacity.
 
-    - **heading and content blocks** allow you to add text to the results page, style it with Markdown lanuguage or embed images, links or videos.
+    - **heading and content blocks** allow you to add text to the results page, style it with Markdown language or embed images, links or videos.
 
         ??? info "How do I use Markdown lanague?"
 
@@ -1497,7 +1497,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     The [Results Page](/reference/quiz-builder/results-page/) tab is where you design what users see after completing the quiz.
 
-    You can add differrent blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
+    You can add different blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
 
     ![manual_quizbuilder_resultspage_addblockmenu](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
 
@@ -1505,7 +1505,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Click `add` on the **image block** to upload an image to the results page and adjust it's opacity.
 
-    - **heading and content blocks** allow you to add text to the results page, style it with Markdown lanuguage or embed images, links or videos.
+    - **heading and content blocks** allow you to add text to the results page, style it with Markdown language or embed images, links or videos.
 
         ??? info "How do I use Markdown lanague?"
 
@@ -1575,7 +1575,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     The [Results Page](/reference/quiz-builder/results-page/) tab is where you design what users see after completing the quiz.
 
-    You can add differrent blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
+    You can add different blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
 
     ![manual_quizbuilder_resultspage_addblockmenu](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
 
@@ -1583,7 +1583,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Click `add` on the **image block** to upload an image to the results page and adjust it's opacity.
 
-    - **heading and content blocks** allow you to add text to the results page, style it with Markdown lanuguage or embed images, links or videos.
+    - **heading and content blocks** allow you to add text to the results page, style it with Markdown language or embed images, links or videos.
 
         ??? info "How do I use Markdown lanague?"
 
@@ -1653,7 +1653,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     The [Results Page](/reference/quiz-builder/results-page/) tab is where you design what users see after completing the quiz.
 
-    You can add differrent blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
+    You can add different blocks to the results page such as heading, text, image, custom HTML, products and slots. Click on the `+` icon to add a block.
 
     ![manual_quizbuilder_resultspage_addblockmenu](/images/manual_quizbuilder_resultspage_addblockmenu.png){width="300"}
 
@@ -1661,7 +1661,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Click `add` on the **image block** to upload an image to the results page and adjust it's opacity.
 
-    - **heading and content blocks** allow you to add text to the results page, style it with Markdown lanuguage or embed images, links or videos.
+    - **heading and content blocks** allow you to add text to the results page, style it with Markdown language or embed images, links or videos.
 
         ??? info "How do I use Markdown lanague?"
 

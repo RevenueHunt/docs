@@ -69,8 +69,6 @@ icon: material/cellphone-message
 
     3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and navigate to **Settings** > **Integrations** and select the **Omnisend** tab. In the field that appears, you'll need to enter your `Omnisend API Key` into the input field, then click `Save`.
 
-        ![manual_shopifyV2_quizbuilder_quizbuilder_settings_integrations_omnisend_addapi](/images/manual_shopifyV2_quizbuilder_quizbuilder_settings_integrations_omnisend_addapi.png)
-
     4. **Preview your quiz**: After connecting to Omnisend, preview your quiz all the way to the results page to send the first contact. Use a sample email (e.g., 'alexa@example.com') and provide sample answers to populate properties in Omnisend.
     5. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (e.g., 'Alexa RevenueHunt / alexa@example.com') has been added. Click on the profile to view all custom properties from the quiz, including: 
 

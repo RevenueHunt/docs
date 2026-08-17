@@ -204,7 +204,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
             ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
 
-            In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
+            In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
 
         ---
 
@@ -224,7 +224,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
         !!! example "Example 3"
 
-            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible.png)
+            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
 
             In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
 
@@ -737,7 +737,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 
 
-### Diplsay Logic Based on Winning Variable
+### Display Logic Based on Winning Variable
 
 === "Shopify"
 
@@ -923,10 +923,10 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     2. Set up the rule like this:
 
-        - **If** `The score of a variable`  select the varaible `score` 
+        - **If** `The score of a variable`  select the variable `score` 
         - `is greater than or equal to` - `5`
         - **AND**
-        - **IF** `The score of a variable`  select the varaible `score` 
+        - **IF** `The score of a variable`  select the variable `score` 
         - `is less than or equal to` - `7`
         - **THEN this section is VISIBLE**
         - Set the `Default visibility` to `Hidden`.

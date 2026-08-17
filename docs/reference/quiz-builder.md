@@ -91,7 +91,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
 
-    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+    ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
     `Quiz Builder` - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 
@@ -145,7 +145,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
 
-    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+    ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
     **Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 
@@ -199,7 +199,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
 
-    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+    ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
     **Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 
@@ -253,7 +253,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
 
-    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+    ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
     **Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 
@@ -307,7 +307,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
 
-    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+    ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
     **Quiz Builder** - Opens the [Quiz Builder](#quiz-builder-1) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 
@@ -392,7 +392,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
-    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
 
     **Yes/No** - Two choices slide which displays choices as a clickable options.
 
@@ -437,7 +437,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
 
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
 
@@ -475,7 +475,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
 
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
 
@@ -513,7 +513,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
 
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
 
@@ -551,7 +551,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
 
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
 
@@ -589,7 +589,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
 
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
 
@@ -632,7 +632,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     Once uploaded click `Change`to change the image or `Remove` to remove it. 
 
     **Background postion** - Place the image as a background or split the screen in half with the image. 
-    **Background opacity** - Use the slider to change opacity percentage of the uplaoded image.
+    **Background opacity** - Use the slider to change opacity percentage of the uploaded image.
 
     **Custom CSS code** -  Expand to add your own custom CSS code to this section only. 
 
@@ -652,7 +652,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     !!! note
 
-        Auto-advance feature is only avialble in questions without user input.
+        Auto-advance feature is only available in questions without user input.
 
     **Question ID** - Displays the question ID of the selected question.
 
@@ -681,19 +681,19 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
 
-        - **Range** - Select the range of answers a cusotmer can cliced.
+        - **Range** - Select the range of answers a customer can click.
 
     - **Image** - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-        - **above** - Places the uplaoded image above the question, on top of the slide.
+        - **above** - Places the uploaded image above the question, on top of the slide.
         
-        - **below** - Places the uplaoded image below the question, above the choices.
+        - **below** - Places the uploaded image below the question, above the choices.
 
-        - **background** - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+        - **background** - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-        - **split** - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+        - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uplaoded image.
+        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
 
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -703,13 +703,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uplaoded video.
+        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
 
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
     - **Question ID** - Displays the question unique ID.
 
-    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
+    **conditional logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
 
     **more options** / **...** - Opens more options menu.
 
@@ -739,19 +739,19 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
 
-        - **Range** - Select the range of answers a cusotmer can cliced.
+        - **Range** - Select the range of answers a customer can click.
 
     - **Image** - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-        - **above** - Places the uplaoded image above the question, on top of the slide.
+        - **above** - Places the uploaded image above the question, on top of the slide.
         
-        - **below** - Places the uplaoded image below the question, above the choices.
+        - **below** - Places the uploaded image below the question, above the choices.
 
-        - **background** - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+        - **background** - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-        - **split** - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+        - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uplaoded image.
+        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
 
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -761,13 +761,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uplaoded video.
+        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
 
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
     - **Question ID** - Displays the question unique ID.
 
-    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
+    **conditional logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
 
     **more options** / **...** - Opens more options menu.
 
@@ -797,19 +797,19 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
 
-        - **Range** - Select the range of answers a cusotmer can cliced.
+        - **Range** - Select the range of answers a customer can click.
 
     - **Image** - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-        - **above** - Places the uplaoded image above the question, on top of the slide.
+        - **above** - Places the uploaded image above the question, on top of the slide.
         
-        - **below** - Places the uplaoded image below the question, above the choices.
+        - **below** - Places the uploaded image below the question, above the choices.
 
-        - **background** - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+        - **background** - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-        - **split** - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+        - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uplaoded image.
+        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
 
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -819,13 +819,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uplaoded video.
+        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
 
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
     - **Question ID** - Displays the question unique ID.
 
-    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
+    **conditional logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
 
     **more options** / **...** - Opens more options menu.
 
@@ -855,19 +855,19 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
 
-        - **Range** - Select the range of answers a cusotmer can cliced.
+        - **Range** - Select the range of answers a customer can click.
 
     - **Image** - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-        - **above** - Places the uplaoded image above the question, on top of the slide.
+        - **above** - Places the uploaded image above the question, on top of the slide.
         
-        - **below** - Places the uplaoded image below the question, above the choices.
+        - **below** - Places the uploaded image below the question, above the choices.
 
-        - **background** - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+        - **background** - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-        - **split** - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+        - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uplaoded image.
+        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
 
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -877,13 +877,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uplaoded video.
+        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
 
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
     - **Question ID** - Displays the question unique ID.
 
-    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
+    **conditional logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
 
     **more options** / **...** - Opens more options menu.
 
@@ -913,19 +913,19 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Multiple Selection** - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
 
-        - **Range** - Select the range of answers a cusotmer can cliced.
+        - **Range** - Select the range of answers a customer can click.
 
     - **Image** - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-        - **above** - Places the uplaoded image above the question, on top of the slide.
+        - **above** - Places the uploaded image above the question, on top of the slide.
         
-        - **below** - Places the uplaoded image below the question, above the choices.
+        - **below** - Places the uploaded image below the question, above the choices.
 
-        - **background** - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+        - **background** - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-        - **split** - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+        - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uplaoded image.
+        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
 
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -935,13 +935,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uplaoded video.
+        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
 
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
     - **Question ID** - Displays the question unique ID.
 
-    **conditonal logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
+    **conditional logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
 
     **more options** / **...** - Opens more options menu.
 
@@ -993,7 +993,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
 
-    *Button text* - Change the defualt button text. 
+    *Button text* - Change the default button text. 
 
     *Button Alignment* - Move the button left, right or center.
 
@@ -1049,7 +1049,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext.png)
 
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder* - The default text displayed in the textbox visible to the customer.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
 
@@ -1073,13 +1073,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_fileupload](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_fileupload.png)
 
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder* - The default text displayed in the textbox visible to the customer.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
 
     *Error message* - Add a default message in case of an error.
 
-    *Placeholder description* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder description* - The default text displayed in the textbox visible to the customer.
 
     *File size error message* - Add a default message in case of an error.
 
@@ -1089,7 +1089,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number.png)
 
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder* - The default text displayed in the textbox visible to the customer.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
 
@@ -1103,7 +1103,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png)
 
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder* - The default text displayed in the textbox visible to the customer.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
 
@@ -1115,7 +1115,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     *Name* - Select whether you want to ask for the Full Name, First Name or Last Name.
 
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder* - The default text displayed in the textbox visible to the customer.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
 
@@ -1131,7 +1131,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     *Default Country Code* - Select a default contry code from the dropdown list.
 
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder* - The default text displayed in the textbox visible to the customer.
 
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
 
@@ -1250,7 +1250,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     To link a collection to a choice click on the white dropdown bar and start typing the name.
 
-    ![quiz builder link collecctions search](/images/manual_quizbuilder_linkcollections_search.png)
+    ![quiz builder link collections search](/images/manual_quizbuilder_linkcollections_search.png)
 
     Select a collection and it will be automatically added to the choice. 
 
@@ -1280,7 +1280,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     To link a category to a choice click on the white dropdown bar and start typing the name.
 
-    ![quiz builder link collecctions search](/images/manual_woo_quizbuilder_linkcategories_pickcategory.png)
+    ![quiz builder link collections search](/images/manual_woo_quizbuilder_linkcategories_pickcategory.png)
 
     Select a category and it will be automatically added to the choice. 
 
@@ -1435,7 +1435,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     To remove a linked product click "x" next to the product name.
 
-    **excluded products** - Opens the dropdown which allows to exclude products of products from a choice. 
+    **excluded products** - Opens the dropdown which allows to exclude products from a choice. 
 
     ![quiz builder link products exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
 
@@ -3072,7 +3072,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     *Product components layout:* - Select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
 
-    - **+ Add block** - add an extra block to the priduct slot. Below you can find a list of avialble product comonents. All the data are synced directly from your Shopify catalog.
+    - **+ Add block** - add an extra block to the product slot. Below you can find a list of available product components. All the data are synced directly from your Shopify catalog.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png)
 
@@ -3469,7 +3469,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
             - Judge.me Product Reviews,
             - Rivyo Product Reviews.
 
-    - **Show metafields** - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    - **Show metafields** - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafields in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
 
     **Style Settings**
 
@@ -3528,7 +3528,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
             We currently sync only the official WooCommerce Reviews.
 
-    - **Show metafields/attributes** - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafieleds in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    - **Show metafields/attributes** - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafields in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
 
     **Style Settings**
 
@@ -4420,38 +4420,38 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
 
 
 === "Shopify (Legacy)"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
 
 === "WooCommerce"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
 
 === "Magento"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
 
 === "BigCommerce"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
 
 === "Standalone"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
 
 ### General
 
@@ -4459,9 +4459,9 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Advanced quiz settings**
 
-    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
 
-    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     **Quiz migration**
 
@@ -4478,15 +4478,15 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Language** - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
 
-    **Currency** - Choose from a dropdown in which currency the product price should be displayes.
+    **Currency** - Choose from a dropdown in which currency the product price should be displayed.
 
     **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
 
     **Separators** - Choose from a dropdown how the currency number should be displayed.
 
-    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
 
-    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     **Use top level product** - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
 
@@ -4506,15 +4506,15 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Language** - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
 
-    **Currency** - Choose from a dropdown in which currency the product price should be displayes.
+    **Currency** - Choose from a dropdown in which currency the product price should be displayed.
 
     **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
 
     **Separators** - Choose from a dropdown how the currency number should be displayed.
 
-    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
 
-    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     **Use top level product** - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
 
@@ -4530,15 +4530,15 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Language** - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
 
-    **Currency** - Choose from a dropdown in which currency the product price should be displayes.
+    **Currency** - Choose from a dropdown in which currency the product price should be displayed.
 
     **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
 
     **Separators** - Choose from a dropdown how the currency number should be displayed.
 
-    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
 
-    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
@@ -4552,15 +4552,15 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Language** - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
 
-    **Currency** - Choose from a dropdown in which currency the product price should be displayes.
+    **Currency** - Choose from a dropdown in which currency the product price should be displayed.
 
     **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
 
     **Separators** - Choose from a dropdown how the currency number should be displayed.
 
-    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
 
-    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     **Use top level product** - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
 
@@ -4576,15 +4576,15 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Language** - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
 
-    **Currency** - Choose from a dropdown in which currency the product price should be displayes.
+    **Currency** - Choose from a dropdown in which currency the product price should be displayed.
 
     **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
 
     **Separators** - Choose from a dropdown how the currency number should be displayed.
 
-    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
 
-    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
     **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
@@ -5124,7 +5124,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
      **...** - Click to open the restore menu.
 
-    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+    - **Create a new quiz using this version** - Create a new quiz on our dashboard based on this version of the current quiz.
 
     - **Restore this version** - Allows you to replca the current version of the quiz with the selected one.
 
@@ -5139,7 +5139,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **...** - Click to open the restore menu.
 
-    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+    - **Create a new quiz using this version** - Create a new quiz on our dashboard based on this version of the current quiz.
 
     - **Rename this version** - Allows you to rename this saved version of the quiz.
 
@@ -5153,7 +5153,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **...** - Click to open the restore menu.
 
-    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+    - **Create a new quiz using this version** - Create a new quiz on our dashboard based on this version of the current quiz.
 
     - **Rename this version** - Allows you to rename this saved version of the quiz.
 
@@ -5167,7 +5167,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **...** - Click to open the restore menu.
 
-    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+    - **Create a new quiz using this version** - Create a new quiz on our dashboard based on this version of the current quiz.
 
     - **Rename this version** - Allows you to rename this saved version of the quiz.
 
@@ -5181,7 +5181,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **...** - Click to open the restore menu.
 
-    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+    - **Create a new quiz using this version** - Create a new quiz on our dashboard based on this version of the current quiz.
 
     - **Rename this version** - Allows you to rename this saved version of the quiz.
 
@@ -5195,7 +5195,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **...** - Click to open the restore menu.
 
-    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+    - **Create a new quiz using this version** - Create a new quiz on our dashboard based on this version of the current quiz.
 
     - **Rename this version** - Allows you to rename this saved version of the quiz.
 

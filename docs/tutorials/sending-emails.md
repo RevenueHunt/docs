@@ -90,7 +90,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
     3. **Edit Email Template - Email TO**: Choose an answer to which email question should be used to send the result emails to.
     4. **Edit Email Template -  REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
     5. **Edit Email Template - Email Subject**: Edit the title of the email that customers will receive. 
-    6. **Edit Email Template - Email Liquid template**: Configure the email temaplate of the email that your customers will receive. 
+    6. **Edit Email Template - Email Liquid template**: Configure the email template of the email that your customers will receive. 
 
         ![how to send result emails html template](https://loom.com/i/200e22c07c214de2a399b481d7720c80?workflows_screenshot=true)
 
@@ -109,7 +109,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
     
             !!! tip
 
-                You can copy the useful code snippets and paste them into a large languge model like ChatGPT or Gemini to style the liquid email template.
+                You can copy the useful code snippets and paste them into a large language model like ChatGPT or Gemini to style the liquid email template.
         
 
         !!! note
@@ -146,7 +146,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
     5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
     5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
         - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
-        ![how to send result emails basic tempalte](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
+        ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
         - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about styling Advanced HTML Email temapltes [here](/how-to-guides/send-result-emails/#editing-email-templates).
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
@@ -177,7 +177,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
     5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
     5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
         - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
-        ![how to send result emails basic tempalte](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
+        ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
         - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about styling Advanced HTML Email temapltes [here](/how-to-guides/send-result-emails/#editing-email-templates).
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
@@ -208,7 +208,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
     5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
     5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
         - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
-        ![how to send result emails basic tempalte](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
+        ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
         - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about styling Advanced HTML Email temapltes [here](/how-to-guides/send-result-emails/#editing-email-templates).
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
@@ -239,7 +239,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
     5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
     5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
         - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
-        ![how to send result emails basic tempalte](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
+        ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
         - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about styling Advanced HTML Email temapltes [here](/how-to-guides/send-result-emails/#editing-email-templates).
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
@@ -270,7 +270,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
     5. **Email Subject**: Edit the title of the email that customers will receive. You can use `@` to [recall information](/how-to-guides/use-information-recalls/) such as the customer name or the quiz name in the title field.
     5. **Edit Email Content**: Configure the email your customers will receive. You can choose between a **Basic (text)** email format or **Advanced (HTML)** email format. You can switch between the two by clicking `switch to advanced HTML message` or `switch to basic text message` in the `Email Text Message` field.
         - **Basic text** email template is easy to use. Type the text that you want the customer to see in the `Email Text Message` field. You can personalize the email subject and content. You can add dynamic elements with `@`. Use `@` / [Information Recalls](/how-to-guides/use-information-recalls/) to recall quiz information in the email body. You can recall data such as customer name, email, phone number, quiz name, question responses, recommended products and more. Basic email template does not allow the display of images or color customization but offers maximum deliverability.
-        ![how to send result emails basic tempalte](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
+        ![how to send result emails basic template](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
         - **Advanced HTML** email template requires the knowledge of HTML and [Handlebars helpers](https://github.com/helpers/handlebars-helpers) to be edited. Incorporate quiz response metadata like `{{first_name}}` to personalize emails. You can use Handlebars to loop through and display recommended products or customize content based on quiz outcomes. Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about styling Advanced HTML Email temapltes [here](/how-to-guides/send-result-emails/#editing-email-templates).
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
@@ -286,16 +286,16 @@ description: "Send automated quiz result emails and connect your SMTP email serv
 
     2. **Activate Emails to Self**: Go to [`Quiz Settings > Emails to self`](/reference/quiz-builder/notifications/#to-self) and check the `Receive an email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
-    3. **Edit Email template - Email to**: Choose what email adress should receive the notification (e.g., company or personal email).
+    3. **Edit Email template - Email to**: Choose what email address should receive the notification (e.g., company or personal email).
     4. **Edit Email template - Email Subject**: Edit the title of the email notifications will receive. 
-    5. **Edit Email template - Email Liquid tempalte**: Configure the email your customers will receive. Edit the liquid email template. 
+    5. **Edit Email template - Email Liquid template**: Configure the email your customers will receive. Edit the liquid email template. 
     
         - The default liquid template includes all customer answers from the quiz. You can edit this template to include additional information.
         - Use provided `useful code snippets` to add personal information from users. To add personal information, click to copy the template snippet and paste it at the top of your email liquid template.
 
             !!! tip
 
-                You can copy the useful code snippets and paste them into a large languge model like ChatGPT or Gemini to style the liquid email template.
+                You can copy the useful code snippets and paste them into a large language model like ChatGPT or Gemini to style the liquid email template.
         
 
         - You can always reset the email template to default settings.
@@ -324,7 +324,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
 
     1. **Open Notifications**: Navigate to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     2. **Activate Notifications**: Toggle the button to activate the emails. Here, you can opt to receive an email for each quiz completion and/or when someone proceeds to the cart or checkout.
-        ![how to send resutl emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
+        ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
     3. Add your email address in the `Send email notification to` field.
     4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
 
@@ -347,7 +347,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
 
     1. **Open Notifications**: Navigate to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     2. **Activate Notifications**: Toggle the button to activate the emails. Here, you can opt to receive an email for each quiz completion and/or when someone proceeds to the cart or checkout.
-        ![how to send resutl emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
+        ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
     3. Add your email address in the `Send email notification to` field.
     4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
 
@@ -370,7 +370,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
 
     1. **Open Notifications**: Navigate to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     2. **Activate Notifications**: Toggle the button to activate the emails. Here, you can opt to receive an email for each quiz completion and/or when someone proceeds to the cart or checkout.
-        ![how to send resutl emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
+        ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
     3. Add your email address in the `Send email notification to` field.
     4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
 
@@ -393,7 +393,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
 
     1. **Open Notifications**: Navigate to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     2. **Activate Notifications**: Toggle the button to activate the emails. Here, you can opt to receive an email for each quiz completion and/or when someone proceeds to the cart or checkout.
-        ![how to send resutl emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
+        ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
     3. Add your email address in the `Send email notification to` field.
     4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
 
@@ -416,7 +416,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
 
     1. **Open Notifications**: Navigate to [`Notifications > TO SELF`](/reference/quiz-builder/notifications/#to-self) in your quiz dashboard.
     2. **Activate Notifications**: Toggle the button to activate the emails. Here, you can opt to receive an email for each quiz completion and/or when someone proceeds to the cart or checkout.
-        ![how to send resutl emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
+        ![how to send result emails to self](/images/manual_quizbuilder_notifications_toself_active.png)
     3. Add your email address in the `Send email notification to` field.
     4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
 

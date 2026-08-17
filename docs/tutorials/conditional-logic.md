@@ -18,7 +18,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
         - how to use Skip Logic to show different skin advice in the quiz (statement),
         - how to use Skip Logic to show or hide a number of follow-up questions,
         - how to use Skip Logic to show or hide follow-up questions based on questions that allow multiple answers,
-        - how to add varaibles and scores to choices in the quiz,
+        - how to add variables and scores to choices in the quiz,
         - how to use Display Logic to show different personalized advice on the Results Page based on customer answers,
         - how to use Display Logic to show different quiz results based on a winning variable (personality type quiz),
         - how to use Display Logic to show different quiz results based on a total custom score.
@@ -274,7 +274,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
     
         !!! info "Jump Logic format"
     
-            IF the response to the question `Pick your quesions` `is/is not` `Pick the choice`, THEN go to... `Set the destination`.
+            IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN go to... `Set the destination`.
 
         !!! example
 
@@ -345,7 +345,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
         !!! info "Jump Logic format"
     
-            IF the response to the question `Pick your quesions` `is/is not` `Pick the choice`, THEN go to... `Set the destination`.
+            IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN go to... `Set the destination`.
 
         !!! example
 
@@ -389,7 +389,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
         !!! info "Jump Logic format"
     
-            IF the response to the question `Pick your quesions` `is/is not` `Pick the choice`, THEN go to... `Link to URL`.
+            IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN go to... `Link to URL`.
 
         !!! example
 
@@ -657,7 +657,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
         !!! info "Skip Logic format"
 
-            IF the response to the question `Pick your quesions` `is/is not` `Pick the choice`, THEN this question will be skipped.
+            IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN this question will be skipped.
 
         !!! example
 
@@ -713,7 +713,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
         !!! info "Skip Logic format"
 
-            IF the response to the question `Pick your quesions` `is/is not` `Pick the choice`, THEN this question will be skipped.
+            IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN this question will be skipped.
 
         !!! example
 
@@ -959,7 +959,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
             The quiz consists of five questions, each with five choices.  Each question and choice should help the user determine their skin type.
 
-    2. Assign varaibles to choices. Each choice is associated with a [custom variable and a score](#how-to-add-scores-or-variables-to-choices) via the [`Choices Settings`](/reference/quiz-builder/questions/#choice-settings) section. 
+    2. Assign variables to choices. Each choice is associated with a [custom variable and a score](#how-to-add-scores-or-variables-to-choices) via the [`Choices Settings`](/reference/quiz-builder/questions/#choice-settings) section. 
 
 
         !!! tip
@@ -1047,7 +1047,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
             The quiz consists of five questions, each with five choices.  Each question and choice should help the user determine their skin type.
 
-    2. Assign varaibles to choices. Each choice is associated with a [custom variable and a score](#how-to-add-scores-or-variables-to-choices) via the [`Choices Settings`](/reference/quiz-builder/questions/#choice-settings) section. 
+    2. Assign variables to choices. Each choice is associated with a [custom variable and a score](#how-to-add-scores-or-variables-to-choices) via the [`Choices Settings`](/reference/quiz-builder/questions/#choice-settings) section. 
 
         !!! tip
 
@@ -1098,20 +1098,20 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
         !!! info "Display Logic format"
 
-            - **If** `The score of a variable`  select the varaible `Selected variable` 
+            - **If** `The score of a variable`  select the variable `Selected variable` 
             - `is greater than or equal to` - `Number`- `Add your number`
             - **AND**
-            - **IF** `The score of a variable`  select the varaible `Selected variable` 
+            - **IF** `The score of a variable`  select the variable `Selected variable` 
             - `is less than or equal to` - `Number`- `Add your number`
             - **THEN this section is VISIBLE**
             - Set the `Default visibility` to `Hidden`.
 
         !!! example "Example: Display Logic rule for the Dry Skin section"
 
-            - **If** `The score of a variable`  select the varaible `score` 
+            - **If** `The score of a variable`  select the variable `score` 
             - `is greater than or equal to` - `5`
             - **AND**
-            - **IF** `The score of a variable`  select the varaible `score` 
+            - **IF** `The score of a variable`  select the variable `score` 
             - `is less than or equal to` - `7`
             - **THEN this section is VISIBLE**
             - Set the `Default visibility` to `Hidden`.

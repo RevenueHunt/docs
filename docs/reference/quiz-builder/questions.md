@@ -87,7 +87,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_pictureschoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_picturechoice.png){width="500"}
 
-    `Dropdown` - Multiple choice slide which displays choices as a dropdwon menu.
+    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown.png){width="500"}
 
@@ -154,7 +154,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    `Dropdown` - Multiple choice slide which displays choices as a dropdwon menu.
+    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
 
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
 
@@ -192,7 +192,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    `Dropdown` - Multiple choice slide which displays choices as a dropdwon menu.
+    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
 
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
 
@@ -230,7 +230,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    `Dropdown` - Multiple choice slide which displays choices as a dropdwon menu.
+    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
 
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
 
@@ -268,7 +268,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    `Dropdown` - Multiple choice slide which displays choices as a dropdwon menu.
+    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
 
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
 
@@ -306,7 +306,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    `Dropdown` - Multiple choice slide which displays choices as a dropdwon menu.
+    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
 
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
 
@@ -362,7 +362,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
         `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
 
-        `Opacity` - Use the slider to change opacity percentage of the uplaoded image.
+        `Opacity` - Use the slider to change opacity percentage of the uploaded image.
 
         **Split image settings**
 
@@ -370,7 +370,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
         `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
 
-        `Opacity` - Use the slider to change opacity percentage of the uplaoded image.
+        `Opacity` - Use the slider to change opacity percentage of the uploaded image.
 
         `Position (desktop)` - Choose whether the image should be placed `left` or `right` of the question on desktop.
 
@@ -392,7 +392,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     !!! note
 
-        Auto-advance feature is only avialble in questions without user input.
+        Auto-advance feature is only available in questions without user input.
 
 
     `Custom CSS code` -  Expand to add your own custom CSS code to this section only. 
@@ -482,28 +482,28 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
 
-    `Range` - Select the range of answers a cusotmer can cliced.
+    `Range` - Select the range of answers a customer can click.
 
     `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-    - *above* - Places the uplaoded image above the question, on top of the slide.
-    - *below* - Places the uplaoded image below the question, above the choices.
-    - *background* - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
-    - *split* - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
-    - *Image Opacity* - A slider which allows to adjust the opacity of the uplaoded image.
+    - *above* - Places the uploaded image above the question, on top of the slide.
+    - *below* - Places the uploaded image below the question, above the choices.
+    - *background* - Places the uploaded image on the background of the slide (overrides the default quiz background).
+    - *split* - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
+    - *Image Opacity* - A slider which allows to adjust the opacity of the uploaded image.
 
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
     - *responsive* - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
     - *widget* - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
     - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
-    - *Video Opacity* - A slider which allows to adjust the opacity of the uplaoded video.
+    - *Video Opacity* - A slider which allows to adjust the opacity of the uploaded video.
 
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
 
-    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
+    `conditional logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     `more options` / `...` - Opens more options menu.
 
@@ -533,19 +533,19 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
 
-    `Range` - Select the range of answers a cusotmer can cliced.
+    `Range` - Select the range of answers a customer can click.
 
     `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-    - *above* - Places the uplaoded image above the question, on top of the slide.
+    - *above* - Places the uploaded image above the question, on top of the slide.
         
-    - *below* - Places the uplaoded image below the question, above the choices.
+    - *below* - Places the uploaded image below the question, above the choices.
 
-    - *background* - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+    - *background* - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-    - *split* - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+    - *split* - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-    - *Image Opacity* - A slider which allows to adjust the opacity of the uplaoded image.
+    - *Image Opacity* - A slider which allows to adjust the opacity of the uploaded image.
 
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -555,13 +555,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-    - *Video Opacity* - A slider which allows to adjust the opacity of the uplaoded video.
+    - *Video Opacity* - A slider which allows to adjust the opacity of the uploaded video.
 
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
 
-    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
+    `conditional logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     `more options` / `...` - Opens more options menu.
 
@@ -591,19 +591,19 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
 
-    `Range` - Select the range of answers a cusotmer can cliced.
+    `Range` - Select the range of answers a customer can click.
 
     `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-    - `above` - Places the uplaoded image above the question, on top of the slide.
+    - `above` - Places the uploaded image above the question, on top of the slide.
         
-    - `below` - Places the uplaoded image below the question, above the choices.
+    - `below` - Places the uploaded image below the question, above the choices.
 
-    - `background` - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+    - `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-    - `split` - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+    - `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-    - `Image Opacity` - A slider which allows to adjust the opacity of the uplaoded image.
+    - `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
 
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -613,13 +613,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     - `background` - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-    - `Video Opacity` - A slider which allows to adjust the opacity of the uplaoded video.
+    - `Video Opacity` - A slider which allows to adjust the opacity of the uploaded video.
 
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
 
-    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
+    `conditional logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     `more options` / `...` - Opens more options menu.
 
@@ -649,19 +649,19 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
 
-    `Range` - Select the range of answers a cusotmer can cliced.
+    `Range` - Select the range of answers a customer can click.
 
     `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-    - `above` - Places the uplaoded image above the question, on top of the slide.
+    - `above` - Places the uploaded image above the question, on top of the slide.
         
-    - `below` - Places the uplaoded image below the question, above the choices.
+    - `below` - Places the uploaded image below the question, above the choices.
 
-    - `background` - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+    - `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-    - `split` - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+    - `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-    - `Image Opacity` - A slider which allows to adjust the opacity of the uplaoded image.
+    - `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
 
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -671,13 +671,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     - `background` - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-    - `Video Opacity` - A slider which allows to adjust the opacity of the uplaoded video.
+    - `Video Opacity` - A slider which allows to adjust the opacity of the uploaded video.
 
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
 
-    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
+    `conditional logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     `more options` / `...` - Opens more options menu.
 
@@ -707,19 +707,19 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
 
-    `Range` - Select the range of answers a cusotmer can cliced.
+    `Range` - Select the range of answers a customer can click.
 
     `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-    - `above` - Places the uplaoded image above the question, on top of the slide.
+    - `above` - Places the uploaded image above the question, on top of the slide.
         
-    - `below` - Places the uplaoded image below the question, above the choices.
+    - `below` - Places the uploaded image below the question, above the choices.
 
-    - `background` - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+    - `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-    - `split` - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+    - `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-    - `Image Opacity` - A slider which allows to adjust the opacity of the uplaoded image.
+    - `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
 
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -729,13 +729,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     - `background` - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-    - `Video Opacity` - A slider which allows to adjust the opacity of the uplaoded video.
+    - `Video Opacity` - A slider which allows to adjust the opacity of the uploaded video.
 
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
 
-    `conditonal logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
+    `conditional logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
 
     `more options` / `...` - Opens more options menu.
 
@@ -770,7 +770,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
 
-    `Button text` - Change the defualt button text. 
+    `Button text` - Change the default button text. 
 
     `Alignment` - Move the button left, right or center.
 
@@ -1119,7 +1119,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Input type` - Switch between `Short text` or `Long text` input type.
 
-    `Placeholder` - The default text diplayed in the textbox visible to the customer.
+    `Placeholder` - The default text displayed in the textbox visible to the customer.
 
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 
@@ -1143,7 +1143,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
-    `Placeholder` - The default text diplayed in the textbox visible to the customer.
+    `Placeholder` - The default text displayed in the textbox visible to the customer.
 
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 
@@ -1165,7 +1165,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
-    `Placeholder` - The default text diplayed in the textbox visible to the customer.
+    `Placeholder` - The default text displayed in the textbox visible to the customer.
 
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 
@@ -1218,7 +1218,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Name` - Select whether you want to ask for the Full Name, First Name or Last Name.
 
-    `Placeholder` - The default text diplayed in the textbox visible to the customer.
+    `Placeholder` - The default text displayed in the textbox visible to the customer.
 
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 
@@ -1242,7 +1242,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
-    `Placeholder` - The default text diplayed in the textbox visible to the customer.
+    `Placeholder` - The default text displayed in the textbox visible to the customer.
 
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 
@@ -1265,7 +1265,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Default Country Code` - Select a default contry code from the dropdown list.
 
-    `Placeholder` - The default text diplayed in the textbox visible to the customer.
+    `Placeholder` - The default text displayed in the textbox visible to the customer.
 
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 
@@ -1287,7 +1287,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     Data
 
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
 
     `Value` - Set the value to be displayed in the chart.
 
@@ -1334,7 +1334,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Label` - Set the label for the first axis.
 
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
 
     `Value` - If you select `Fixed`, set the value to be displayed in the chart.
 
@@ -1389,7 +1389,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Label` - Set the label for the first axis.
 
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
 
     `Value` - If you select `Fixed`, set the value to be displayed in the chart.
 
@@ -1437,7 +1437,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     Data
 
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
 
     `Value` - Set the value to be displayed in the chart.
 
@@ -1466,7 +1466,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Load template` - Select a chart template code from the dropdown list.
 
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtempalte](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtempalte.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate.png)
 
     Layout
 
@@ -1555,7 +1555,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     ### Scores and calculations
 
-    `Scores and calculations` – Add points to a varaible when this choice is selected. Use scores to show different results based on total points.
+    `Scores and calculations` – Add points to a variable when this choice is selected. Use scores to show different results based on total points.
 
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
 
@@ -1571,7 +1571,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     
     !!! note
 
-        Avialble only if `Allow multipe selection` is active in Multiple-Choice [Block Settings](#block-settings).
+        Available only if `Allow multiple selection` is active in Multiple-Choice [Block Settings](#block-settings).
 
     *Regular choice* - Regular choice type.
 

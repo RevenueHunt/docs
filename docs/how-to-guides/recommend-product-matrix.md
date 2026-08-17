@@ -274,7 +274,7 @@ To recommend the right product, in your eCommerce platform you should create fou
     You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
 
     1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
-    2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
+    2. **Link Collections/Categories to choices**: Link the collections/categories to choices as shown below.
 
         ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
 
@@ -284,7 +284,7 @@ To recommend the right product, in your eCommerce platform you should create fou
     You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
 
     1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
-    2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
+    2. **Link Collections/Categories to choices**: Link the collections/categories to choices as shown below.
 
         ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
 
@@ -294,7 +294,7 @@ To recommend the right product, in your eCommerce platform you should create fou
     You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
 
     1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
-    2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
+    2. **Link Collections/Categories to choices**: Link the collections/categories to choices as shown below.
 
         ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
 
@@ -304,7 +304,7 @@ To recommend the right product, in your eCommerce platform you should create fou
     You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
 
     1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
-    2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
+    2. **Link Collections/Categories to choices**: Link the collections/categories to choices as shown below.
 
         ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
 
@@ -314,7 +314,7 @@ To recommend the right product, in your eCommerce platform you should create fou
     You should link the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
 
     1. **Open Link Collections/Categories tab**: To do that, navigate to the [Link Collections/Categories](/reference/quiz-builder/link-collections/) tab in the Quiz Builder.
-    2. **Link Collections/Categories to choices**: Link the collections/categories to chocies as shown below.
+    2. **Link Collections/Categories to choices**: Link the collections/categories to choices as shown below.
 
         ![how to recommend products matrix link collections](/images/how_to_recommend_products_linkcollections.png)
 
@@ -474,7 +474,7 @@ If you’d like to organize the products in a specific order, you can create `Pr
 
     ![how to recommend products complex matrix jump logic 3](/images/how_to_recommend_products_complexmatrix_jumplogic3.png)
 
-    This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
+    This setup allows you to link different products to the same questions leading to different results, while maintaining the same customer experience.
 
     !!! tip
 
@@ -514,7 +514,7 @@ If you’d like to organize the products in a specific order, you can create `Pr
 
     ![how to recommend products complex matrix jump logic 3](/images/how_to_recommend_products_complexmatrix_jumplogic3.png)
 
-    This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
+    This setup allows you to link different products to the same questions leading to different results, while maintaining the same customer experience.
 
     !!! tip
 
@@ -553,7 +553,7 @@ If you’d like to organize the products in a specific order, you can create `Pr
 
     ![how to recommend products complex matrix jump logic 3](/images/how_to_recommend_products_complexmatrix_jumplogic3.png)
 
-    This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
+    This setup allows you to link different products to the same questions leading to different results, while maintaining the same customer experience.
 
     !!! tip
 
@@ -592,7 +592,7 @@ If you’d like to organize the products in a specific order, you can create `Pr
 
     ![how to recommend products complex matrix jump logic 3](/images/how_to_recommend_products_complexmatrix_jumplogic3.png)
 
-    This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
+    This setup allows you to link different products to the same questions leading to different results, while maintaining the same customer experience.
 
     !!! tip
 
@@ -632,7 +632,7 @@ If you’d like to organize the products in a specific order, you can create `Pr
 
     ![how to recommend products complex matrix jump logic 3](/images/how_to_recommend_products_complexmatrix_jumplogic3.png)
 
-    This setup allows you to link different products to the same questions leading to differnt results, while maintaining the same customer experince.
+    This setup allows you to link different products to the same questions leading to different results, while maintaining the same customer experience.
 
     !!! tip
 

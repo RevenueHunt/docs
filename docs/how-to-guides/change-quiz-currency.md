@@ -150,7 +150,7 @@ This guide explains how to change the currency of your quiz and how to handle mu
 
         Go to **Shopify Admin → Settings → Markets → Preferences** and ensure that compare-at prices are enabled for the relevant market (e.g., Germany or the EEA). 
 
-        ![how_to_shopifyv2_change_quiz_languge_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_languge_markets_compareatissue.png)
+        ![how_to_shopifyv2_change_quiz_language_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_language_markets_compareatissue.png)
         
         You can test this by previewing the quiz on your live store while simulating a visitor from the affected country.
 

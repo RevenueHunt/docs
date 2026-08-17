@@ -84,33 +84,33 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 
     RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
 
-    ![how to use markdown languge example](/images/how_to_use_markdown_languge_example.png)
+    ![how to use markdown language example](/images/how_to_use_markdown_language_example.png)
 
 === "WooCommerce"
 
 
     RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
 
-    ![how to use markdown languge example](/images/how_to_use_markdown_languge_example.png)
+    ![how to use markdown language example](/images/how_to_use_markdown_language_example.png)
 
 === "Magento"
 
     RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
 
-    ![how to use markdown languge example](/images/how_to_use_markdown_languge_example.png)
+    ![how to use markdown language example](/images/how_to_use_markdown_language_example.png)
 
 === "BigCommerce"
 
 
     RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
 
-    ![how to use markdown languge example](/images/how_to_use_markdown_languge_example.png)
+    ![how to use markdown language example](/images/how_to_use_markdown_language_example.png)
 
 === "Standalone"
 
     RevenueHunt app uses its own version of Markdown syntax, supporting a curated set of elements to enhance your questions, choices, and results pages.
 
-    ![how to use markdown languge example](/images/how_to_use_markdown_languge_example.png)
+    ![how to use markdown language example](/images/how_to_use_markdown_language_example.png)
 
 
 ### Headings

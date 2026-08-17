@@ -50,7 +50,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
 === "Shopify"
 
-    To start, make sure you have [Shopify Markets](https://help.shopify.com/en/manual/international/managing) enabled and cofigured in your Shopify store. In order to show a quiz in a differnt currency or language, you first need to have a market configured in your Shopify store for these currencies or languages.
+    To start, make sure you have [Shopify Markets](https://help.shopify.com/en/manual/international/managing) enabled and configured in your Shopify store. In order to show a quiz in a different currency or language, you first need to have a market configured in your Shopify store for these currencies or languages.
 
     !!! example "Example"
         If you have a market configured for Europe with the `EUR` currency, you can show a quiz in that market. 
@@ -98,7 +98,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
     Go to the [Quiz Builder](/reference/quiz-builder/) and create a new quiz. 
     
-    To create a quiz in a different languege, duplicate the quiz from the dashbaord and edit the quiz. 
+    To create a quiz in a different language, duplicate the quiz from the dashbaord and edit the quiz. 
     
     ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
     
@@ -142,7 +142,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
 === "Shopify"
 
-    Once all your quizzes in different languages are created, head over to [App Settings > Shopify Markets](/reference/app-settings/#shopify-markets). This section contains all the markets and langueges you've set up in your Shopify store.
+    Once all your quizzes in different languages are created, head over to [App Settings > Shopify Markets](/reference/app-settings/#shopify-markets). This section contains all the markets and languages you've set up in your Shopify store.
 
     ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
 
@@ -150,7 +150,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
     ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
 
-    Click on `Show ALL locales` to set up a different default quiz for each languge and market specifically.
+    Click on `Show ALL locales` to set up a different default quiz for each language and market specifically.
 
     ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
 

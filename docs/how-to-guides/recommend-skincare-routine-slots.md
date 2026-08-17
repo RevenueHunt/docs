@@ -97,7 +97,7 @@ It's advised to familiarize yourself with this [voting system](/how-to-guides/re
 
         ![how to recommend slots cleansers collection](/images/how_to_recommend_slots_cleansers_collection.png)
 
-    3. **Catalog Sync**: Perform a [catlog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
 === "WooCommerce"
 
@@ -110,7 +110,7 @@ It's advised to familiarize yourself with this [voting system](/how-to-guides/re
         - a *Serums* category should have all the serums, etc. 
         - You can have more than one category that includes some of the same products.
 
-    3. **Catalog Sync**: Perform a [catlog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
 === "Magento"
 
@@ -123,7 +123,7 @@ It's advised to familiarize yourself with this [voting system](/how-to-guides/re
         - a *Serums* category should have all the serums, etc. 
         - You can have more than one category that includes some of the same products.
 
-    3. **Catalog Sync**: Perform a [catlog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
 === "BigCommerce"
 
@@ -136,7 +136,7 @@ It's advised to familiarize yourself with this [voting system](/how-to-guides/re
         - a *Serums* category should have all the serums, etc. 
         - You can have more than one category that includes some of the same products.
 
-    3. **Catalog Sync**: Perform a [catlog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
 === "Standalone"
 
@@ -148,7 +148,7 @@ It's advised to familiarize yourself with this [voting system](/how-to-guides/re
         - a *Serums* collection should have all the serums, etc. 
         - You can have more than one collection that includes some of the same products.
 
-    3. **Catalog Sync**: Perform a [catlog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
+    3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
 ## Step 3: Build the Quiz
 

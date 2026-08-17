@@ -327,7 +327,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         #question-AbC7Zde  p {color: red;}
         ```
 
-        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](/reference/quiz-builder/questions/#question-settings).
+        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question settings](/reference/quiz-builder/questions/#question-settings).
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
@@ -375,7 +375,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         #question-AbC7Zde  p {color: red;}
         ```
 
-        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](/reference/quiz-builder/questions/#question-settings).
+        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question settings](/reference/quiz-builder/questions/#question-settings).
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
@@ -423,7 +423,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         #question-AbC7Zde  p {color: red;}
         ```
 
-        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](/reference/quiz-builder/questions/#question-settings).
+        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question settings](/reference/quiz-builder/questions/#question-settings).
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
@@ -471,7 +471,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         #question-AbC7Zde  p {color: red;}
         ```
 
-        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](/reference/quiz-builder/questions/#question-settings).
+        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question settings](/reference/quiz-builder/questions/#question-settings).
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
@@ -519,7 +519,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         #question-AbC7Zde  p {color: red;}
         ```
 
-        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question setttings](/reference/quiz-builder/questions/#question-settings).
+        will change the color of a paragraph to red ONLY for question `AbC7Zde`, where `AbC7Zde` is the question ID. You can find a specific question ID in Quiz Builder > [Question settings](/reference/quiz-builder/questions/#question-settings).
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
@@ -689,7 +689,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
 
-    ??? question "What is Markdown Languge?"
+    ??? question "What is Markdown Language?"
             
         Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
@@ -726,7 +726,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
 
-    ??? question "What is Markdown Languge?"
+    ??? question "What is Markdown Language?"
             
         Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
@@ -763,7 +763,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
 
-    ??? question "What is Markdown Languge?"
+    ??? question "What is Markdown Language?"
             
         Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
@@ -800,7 +800,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
 
-    ??? question "What is Markdown Languge?"
+    ??? question "What is Markdown Language?"
             
         Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 
@@ -837,7 +837,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     You can use [Markdown Language](/how-to-guides/use-markdown/) for basic styling of text in the quiz. 
 
-    ??? question "What is Markdown Languge?"
+    ??? question "What is Markdown Language?"
             
         Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters, like `#` or `*`.
 

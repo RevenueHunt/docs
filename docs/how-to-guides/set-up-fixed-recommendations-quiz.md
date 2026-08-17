@@ -444,13 +444,13 @@ Set up multiple sections on the results page with fixed product and text combina
 
 ## Fixed Recommendations with Display Logic and Multiple Results Pages 
 
-Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent results pages.	
+Set up multiple results pages with unique fixed product recommendations and texts and control visibility by adding branching with Jump Logic that leads to different results pages.	
 
 !!! note
 
-    The difference between this method and the previous one is that in this method you set up multiple results pages and control visbility by adding branching with Jump Logic that leads to diferent results pages while the previous method is a single results page with multiple content + product blocks controlled by Display Logic. 
+    The difference between this method and the previous one is that in this method you set up multiple results pages and control visibility by adding branching with Jump Logic that leads to different results pages while the previous method is a single results page with multiple content + product blocks controlled by Display Logic. 
     
-    Overall, both methods are the same, the difference is only in where you add the conditonal logic (Display Logic vs Jump Logic).
+    Overall, both methods are the same, the difference is only in where you add the conditional logic (Display Logic vs Jump Logic).
 
 ![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png){width=500}
 

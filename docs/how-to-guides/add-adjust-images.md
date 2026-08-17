@@ -448,7 +448,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
 
-    `Opacity` - Use the slider to change opacity percentage of the uplaoded image.
+    `Opacity` - Use the slider to change opacity percentage of the uploaded image.
 
     **Split image settings**
 
@@ -456,7 +456,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
 
-    `Opacity` - Use the slider to change opacity percentage of the uplaoded image.
+    `Opacity` - Use the slider to change opacity percentage of the uploaded image.
 
     `Position (desktop)` - Choose whether the image should be placed `left` or `right` of the question on desktop.
 
@@ -478,15 +478,15 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     3. Find the `Image` section in the question settings and click `Add` to upload a featured image to the question. An extra menu appears once activated.
 
-        `above` - Places the uplaoded image above the question, on top of the slide.
+        `above` - Places the uploaded image above the question, on top of the slide.
 
-        `below` - Places the uplaoded image below the question, above the choices.
+        `below` - Places the uploaded image below the question, above the choices.
 
-        `background` - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+        `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-        `split` - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+        `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        `Image Opacity` - A slider which allows to adjust the opacity of the uplaoded image.
+        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
 
     
     !!! tip "Uploaded image Tip"
@@ -549,15 +549,15 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     3. Find the `Image` section in the question settings and click `Add` to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-        `above` - Places the uplaoded image above the question, on top of the slide.
+        `above` - Places the uploaded image above the question, on top of the slide.
 
-        `below` - Places the uplaoded image below the question, above the choices.
+        `below` - Places the uploaded image below the question, above the choices.
 
-        `background` - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+        `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-        `split` - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+        `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        `Image Opacity` - A slider which allows to adjust the opacity of the uplaoded image.
+        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
 
 
     !!! tip "Uploaded image Tip"
@@ -618,15 +618,15 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     3. Find the `Image` section in the question settings and click `Add` to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-        `above` - Places the uplaoded image above the question, on top of the slide.
+        `above` - Places the uploaded image above the question, on top of the slide.
 
-        `below` - Places the uplaoded image below the question, above the choices.
+        `below` - Places the uploaded image below the question, above the choices.
 
-        `background` - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+        `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-        `split` - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+        `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        `Image Opacity` - A slider which allows to adjust the opacity of the uplaoded image.
+        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
 
 
     !!! tip "Uploaded image Tip"
@@ -687,15 +687,15 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     3. Find the `Image` section in the question settings and click `Add` to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-        `above` - Places the uplaoded image above the question, on top of the slide.
+        `above` - Places the uploaded image above the question, on top of the slide.
 
-        `below` - Places the uplaoded image below the question, above the choices.
+        `below` - Places the uploaded image below the question, above the choices.
 
-        `background` - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+        `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-        `split` - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+        `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        `Image Opacity` - A slider which allows to adjust the opacity of the uplaoded image.
+        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
 
 
     !!! tip "Uploaded image Tip"
@@ -756,15 +756,15 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     3. Find the `Image` section in the question settings and click `Add` to upload a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
 
-        `above` - Places the uplaoded image above the question, on top of the slide.
+        `above` - Places the uploaded image above the question, on top of the slide.
 
-        `below` - Places the uplaoded image below the question, above the choices.
+        `below` - Places the uploaded image below the question, above the choices.
 
-        `background` - Places the uplaoded image on the background of the slide (overrides the defautl quiz background).
+        `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
 
-        `split` - Places the uploaded image on the side of the slide. Splits the sldie into two. On mobile, the image is placed on top of the question.
+        `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        `Image Opacity` - A slider which allows to adjust the opacity of the uplaoded image.
+        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
 
 
 
@@ -1480,7 +1480,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
         `Optimize images size` - Select this option to optimize the image size for the quiz. If unchecked, the image will be displayed in the original size.
         
         !!! note
-            Product images are taken directly from your Shopify catalog. Product slots diplsay the first image of the product, variant or a collection as uploaded to your Shopify Products/Collections section. 
+            Product images are taken directly from your Shopify catalog. Product slots display the first image of the product, variant or a collection as uploaded to your Shopify Products/Collections section. 
 
 
         !!! tip
@@ -1490,7 +1490,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 === "Shopify (Legacy)"
 
-    Product Images displayed on the Results page are taken directly from your Shopify catalog. Product slots diplsay the first image of the product or variant uploaded to your Shopify Products section.
+    Product Images displayed on the Results page are taken directly from your Shopify catalog. Product slots display the first image of the product or variant uploaded to your Shopify Products section.
 
     !!! tip
 
@@ -1506,7 +1506,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 === "WooCommerce"
 
-    Product Images displayed on the Results page are taken directly from your WooCommerce catalog. Product slots diplsay the first image of the product or variant uploaded to your WooCommerce Products section.
+    Product Images displayed on the Results page are taken directly from your WooCommerce catalog. Product slots display the first image of the product or variant uploaded to your WooCommerce Products section.
 
     !!! tip
 
@@ -1522,7 +1522,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 === "Magento"
 
-    Product Images displayed on the Results page are taken directly from your Magento catalog. Product slots diplsay the first image of the product or variant uploaded to your Magento Products section.
+    Product Images displayed on the Results page are taken directly from your Magento catalog. Product slots display the first image of the product or variant uploaded to your Magento Products section.
 
     !!! tip
 
@@ -1538,7 +1538,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 === "BigCommerce"
 
-    Product Images displayed on the Results page are taken directly from your BigCommerce catalog. Product slots diplsay the first image of the product or variant uploaded to your BigCommerce Products section.
+    Product Images displayed on the Results page are taken directly from your BigCommerce catalog. Product slots display the first image of the product or variant uploaded to your BigCommerce Products section.
 
     !!! tip
 
@@ -1554,7 +1554,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 === "Standalone"
 
-    Product Images displayed on the Results page are taken directly from your Standalone catalog or Google Product Feed. Product slots diplsay the first image of the product or variant uploaded to your Standalone Products section or Google Product Feed.
+    Product Images displayed on the Results page are taken directly from your Standalone catalog or Google Product Feed. Product slots display the first image of the product or variant uploaded to your Standalone Products section or Google Product Feed.
 
     !!! tip
 

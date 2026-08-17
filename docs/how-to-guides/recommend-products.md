@@ -17,9 +17,9 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     If you add a Block to your results page, you can choose to display **product variants**, **main products** or **collections** under [Block Settings > Recommendations Type](/reference/quiz-builder/results-page/#products-products-variants-collections). 
 
-    - If you chose a **Products** under Recommendations Type, the Slot will show the main product with a optional dropdown to choose the specific variant. The order in which the product variants are displayed is based on the number of votes they received. If all varaints of the same product received the same number of votes, the variants will be displayed in random order.
+    - If you chose a **Products** under Recommendations Type, the Slot will show the main product with a optional dropdown to choose the specific variant. The order in which the product variants are displayed is based on the number of votes they received. If all variants of the same product received the same number of votes, the variants will be displayed in random order.
 
-    - If you chose a **Product Varaints** under Recommendations Type, the Slot will show recommended variants of a product with the full name of a product followed by the varaint name, for example "Toner - 100ml". 
+    - If you chose a **Product Variants** under Recommendations Type, the Slot will show recommended variants of a product with the full name of a product followed by the varaint name, for example "Toner - 100ml". 
     
         !!! note
         
@@ -92,7 +92,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     *Best for personality-style quizzes.*
 
-    ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png){width="300"}
+    ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_variablequiz.png){width="300"}
 
     - Assign a score or custom variable to each choice in the quiz.
     - Set up result sections with fixed recommendations for each type of outcome.

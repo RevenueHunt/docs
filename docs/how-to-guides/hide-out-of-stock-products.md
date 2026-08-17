@@ -48,7 +48,7 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
     1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
+    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
 
         ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Update the preview/live quiz with the top-right `Publish` button.
@@ -60,7 +60,7 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
     1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
+    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
 
         ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Update the preview/live quiz with the top-right `Publish` button.
@@ -72,7 +72,7 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
     1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
+    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
 
         ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Update the preview/live quiz with the top-right `Publish` button.
@@ -84,7 +84,7 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
     1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
+    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
 
         ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Update the preview/live quiz with the top-right `Publish` button.
@@ -96,7 +96,7 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
     1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
+    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
 
         ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Update the preview/live quiz with the top-right `Publish` button.
@@ -130,7 +130,7 @@ This guide explains how to hide draft products from your quiz recommendations.
     1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
+    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
 
         ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Update the preview/live quiz with the top-right `Publish` button.
@@ -142,7 +142,7 @@ This guide explains how to hide draft products from your quiz recommendations.
     1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
+    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
 
         ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Update the preview/live quiz with the top-right `Publish` button.
@@ -154,7 +154,7 @@ This guide explains how to hide draft products from your quiz recommendations.
     1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
+    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
 
         ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Update the preview/live quiz with the top-right `Publish` button.
@@ -166,7 +166,7 @@ This guide explains how to hide draft products from your quiz recommendations.
     1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
+    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
 
         ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Update the preview/live quiz with the top-right `Publish` button.
@@ -178,7 +178,7 @@ This guide explains how to hide draft products from your quiz recommendations.
     1. Navigate to [Results Page](/reference/quiz-builder/results-page/) and open the [Results Page Settings](/reference/quiz-builder/results-page/) (a cog icon).
     2. Open the [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) tab. 
     3. Under `Recommendation Settings` scroll to the `Show Unavailable products` field.
-    4. Toggle the button to deactivate showing unavialble or out-of-stock products as recommendations.
+    4. Toggle the button to deactivate showing unavailable or out-of-stock products as recommendations.
 
         ![how to hide out of stock products](/images/manual_quizbuilder_resultspage_settings_advanced.png){width=50%}
     5. Update the preview/live quiz with the top-right `Publish` button.

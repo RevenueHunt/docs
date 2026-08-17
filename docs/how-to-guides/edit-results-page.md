@@ -115,7 +115,7 @@ This guide will walk you through adding elements to your results page using a va
 
     A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
 
-    You'll want to start by adding content to your results page. Below is a list of availbale elements you can use to build your page.
+    You'll want to start by adding content to your results page. Below is a list of available elements you can use to build your page.
 
     ![how to edit the results page block types](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
 
@@ -184,7 +184,7 @@ This guide will walk you through adding elements to your results page using a va
 
     A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
 
-    You'll want to start by adding content to your results page. Below is a list of availbale elements you can use to build your page.
+    You'll want to start by adding content to your results page. Below is a list of available elements you can use to build your page.
 
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
@@ -208,7 +208,7 @@ This guide will walk you through adding elements to your results page using a va
 
     A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
 
-    You'll want to start by adding content to your results page. Below is a list of availbale elements you can use to build your page.
+    You'll want to start by adding content to your results page. Below is a list of available elements you can use to build your page.
 
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
@@ -232,7 +232,7 @@ This guide will walk you through adding elements to your results page using a va
 
     A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
 
-    You'll want to start by adding content to your results page. Below is a list of availbale elements you can use to build your page.
+    You'll want to start by adding content to your results page. Below is a list of available elements you can use to build your page.
 
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
@@ -256,7 +256,7 @@ This guide will walk you through adding elements to your results page using a va
 
     A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
 
-    You'll want to start by adding content to your results page. Below is a list of availbale elements you can use to build your page.
+    You'll want to start by adding content to your results page. Below is a list of available elements you can use to build your page.
 
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
@@ -280,7 +280,7 @@ This guide will walk you through adding elements to your results page using a va
 
     A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
 
-    You'll want to start by adding content to your results page. Below is a list of availbale elements you can use to build your page.
+    You'll want to start by adding content to your results page. Below is a list of available elements you can use to build your page.
 
     ![how to edit the results page block types](/images/manual_quizbuilder_resultspage_addblockmenu.png)
 
@@ -314,7 +314,7 @@ This guide will walk you through adding elements to your results page using a va
 
             Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
 
     [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
@@ -356,7 +356,7 @@ This guide will walk you through adding elements to your results page using a va
 
     [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
 
@@ -399,7 +399,7 @@ This guide will walk you through adding elements to your results page using a va
 
     [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
 
@@ -442,7 +442,7 @@ This guide will walk you through adding elements to your results page using a va
 
     [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
 
@@ -485,7 +485,7 @@ This guide will walk you through adding elements to your results page using a va
 
     [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
 
@@ -528,7 +528,7 @@ This guide will walk you through adding elements to your results page using a va
 
     [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Advanced Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
 

@@ -64,7 +64,7 @@ description: "Information about showing RevenueHunt quiz on Shopify customer pro
 
 === "WooCommerce"
 
-    It is **not possible yet** to directly show the quiz on a customer profile usign the RevenueHunt app for WooCommerce.
+    It is **not possible yet** to directly show the quiz on a customer profile using the RevenueHunt app for WooCommerce.
 
     !!! tip 
 

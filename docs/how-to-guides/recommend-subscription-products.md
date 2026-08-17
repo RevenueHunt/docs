@@ -70,7 +70,7 @@ If you're using a subscription app that is not supported, you can still recommen
 
     !!! warning "Quiz Preview"
 
-        The subscription options will not be avialble in the quiz preview. To test the integration, you need to [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page)  the quiz on a new page in your website.
+        The subscription options will not be available in the quiz preview. To test the integration, you need to [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page)  the quiz on a new page in your website.
 
 
 === "Shopify (Legacy)"
@@ -155,13 +155,13 @@ If you're using a subscription app that is not supported, you can still recommen
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AWrsUZ-u2nk?si=INZh4rcHzVQ4268P" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Reocommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
+    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Recommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
 
     **Step 1: Link One-Time Payment Products to Quiz Choices**
 
     1. Identify your subscription products that you wish to promote through the quiz.
     2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to chocies**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices or set up [Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) on your Results Page. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
+    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices or set up [Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) on your Results Page. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
 
     **Step 2: Adjust Checkout Settings**
 
@@ -180,13 +180,13 @@ If you're using a subscription app that is not supported, you can still recommen
 
 === "Shopify (Legacy)"
 
-    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Reocommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
+    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Recommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
 
     **Step 1: Link One-Time Payment Products to Quiz Choices**
 
     1. Identify your subscription products that you wish to promote through the quiz.
     2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to chocies**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
+    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
 
     **Step 2: Adjust Checkout Settings**
 
@@ -197,13 +197,13 @@ If you're using a subscription app that is not supported, you can still recommen
 
 === "WooCommerce"
 
-    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Reocommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
+    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Recommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
 
     **Step 1: Link One-Time Payment Products to Quiz Choices**
 
     1. Identify your subscription products that you wish to promote through the quiz.
     2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to chocies**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
+    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
 
     **Step 2: Adjust Checkout Settings**
 
@@ -214,13 +214,13 @@ If you're using a subscription app that is not supported, you can still recommen
 
 === "Magento"
 
-    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Reocommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
+    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Recommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
 
     **Step 1: Link One-Time Payment Products to Quiz Choices**
 
     1. Identify your subscription products that you wish to promote through the quiz.
     2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to chocies**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
+    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
 
     **Step 2: Adjust Checkout Settings**
 
@@ -231,13 +231,13 @@ If you're using a subscription app that is not supported, you can still recommen
 
 === "BigCommerce"
 
-    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Reocommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
+    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Recommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
 
     **Step 1: Link One-Time Payment Products to Quiz Choices**
 
     1. Identify your subscription products that you wish to promote through the quiz.
     2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to chocies**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
+    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
 
     **Step 2: Adjust Checkout Settings**
 
@@ -248,13 +248,13 @@ If you're using a subscription app that is not supported, you can still recommen
 
 === "Standalone"
 
-    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Reocommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
+    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Recommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
 
     **Step 1: Link One-Time Payment Products to Quiz Choices**
 
     1. Identify your subscription products that you wish to promote through the quiz.
     2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to chocies**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
+    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
 
     **Step 2: Adjust Checkout Settings**
 

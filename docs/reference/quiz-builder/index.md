@@ -95,7 +95,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
 
-    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+    ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
     `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 
@@ -157,7 +157,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
 
-    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+    ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
     `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 
@@ -211,7 +211,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
 
-    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+    ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
     `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 
@@ -265,7 +265,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
 
-    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+    ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
     `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 
@@ -319,7 +319,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
 
-    ![quiz buidler side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
+    ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
     `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
 

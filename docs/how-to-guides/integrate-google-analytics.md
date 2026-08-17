@@ -603,8 +603,6 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 
     Once set up, you'll be able to see customer events in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
 
-    ![how to ga events](/images/how_to_woocommerce_events.png)
-
     **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
 
     | Trigger | Event Name | Event Parameters |
@@ -638,8 +636,6 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 === "Magento"
 
     Once set up, you'll be able to see customer events in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
-
-    ![how to ga events](/images/how_to_magento_events.png)
 
     **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
 
@@ -675,8 +671,6 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 
     Once set up, you'll be able to see customer events in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
 
-    ![how to ga events](/images/how_to_bigcommerce_events.png)
-
     **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
 
     | Trigger | Event Name | Event Parameters |
@@ -710,8 +704,6 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 === "Standalone"
 
     Once set up, you'll be able to see customer events in your Google Analytics dashboard, under `Reports > View user engagement and retention > Events`.
-
-    ![how to ga events](/images/how_to_standalone_events.png)
 
     **Built-in events (no script required).** Click `Activate` in your quiz's `Connect → Google Analytics` section, and the quiz automatically sends GA4-native events to whichever GA4 property your store's `gtag.js` is configured with. (No Measurement ID needed — just make sure your `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.) Each event name is built from its main parameter, so the value shows up directly in GA4's `Event name` report. To use the other parameters (like `question_title` or `question_ref`) as report columns, register them as **custom dimensions** under `Admin → Custom definitions`:
 

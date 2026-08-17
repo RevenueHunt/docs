@@ -340,8 +340,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.
     5. Paste your Public API Key and `save`.
     6. Publish the changes with the top-right `Publish` button.
-    7. Test quiz all the way to the results. Make sure to provide a sample email that doesn't already exist in your Kalviyo account.
-    8. To verify the test, open `Kalviyo > Profiles` section.
+    7. Test quiz all the way to the results. Make sure to provide a sample email that doesn't already exist in your Klaviyo account.
+    8. To verify the test, open `Klaviyo > Profiles` section.
     9. If a new profile was added the integration was successful.
 
         !!! tip
@@ -361,8 +361,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.
     5. Paste your Public API Key and `save`.
     6. Publish the changes with the top-right `Publish` button.
-    7. Test quiz all the way to the results. Make sure to provide a sample email that doesn't already exist in your Kalviyo account.
-    8. To verify the test, open `Kalviyo > Profiles` section.
+    7. Test quiz all the way to the results. Make sure to provide a sample email that doesn't already exist in your Klaviyo account.
+    8. To verify the test, open `Klaviyo > Profiles` section.
     9. If a new profile was added the integration was successful.
 
         !!! tip
@@ -382,8 +382,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.
     5. Paste your Public API Key and `save`.
     6. Publish the changes with the top-right `Publish` button.
-    7. Test quiz all the way to the results. Make sure to provide a sample email that doesn't already exist in your Kalviyo account.
-    8. To verify the test, open `Kalviyo > Profiles` section.
+    7. Test quiz all the way to the results. Make sure to provide a sample email that doesn't already exist in your Klaviyo account.
+    8. To verify the test, open `Klaviyo > Profiles` section.
     9. If a new profile was added the integration was successful.
 
         !!! tip
@@ -403,8 +403,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.
     5. Paste your Public API Key and `save`.
     6. Publish the changes with the top-right `Publish` button.
-    7. Test quiz all the way to the results. Make sure to provide a sample email that doesn't already exist in your Kalviyo account.
-    8. To verify the test, open `Kalviyo > Profiles` section.
+    7. Test quiz all the way to the results. Make sure to provide a sample email that doesn't already exist in your Klaviyo account.
+    8. To verify the test, open `Klaviyo > Profiles` section.
     9. If a new profile was added the integration was successful.
 
         !!! tip
@@ -424,8 +424,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     4. In the [`Quiz > Connect`](/reference/quiz-builder/connect-integrations/) tab, scroll to Klaviyo and `edit` the connection.
     5. Paste your Public API Key and `save`.
     6. Publish the changes with the top-right `Publish` button.
-    7. Test quiz all the way to the results. Make sure to provide a sample email that doesn't already exist in your Kalviyo account.
-    8. To verify the test, open `Kalviyo > Profiles` section.
+    7. Test quiz all the way to the results. Make sure to provide a sample email that doesn't already exist in your Klaviyo account.
+    8. To verify the test, open `Klaviyo > Profiles` section.
     9. If a new profile was added the integration was successful.
 
         !!! tip
@@ -439,7 +439,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     All quiz contacts can be grouped into a **segment** in Klaviyo. 
 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
     2. Name the segment and set up the definition. 
     3. Segment definition: Select `Properties about someone` and add a property that will be unique for profiles coming from the quiz. This can be any of the [custom properties](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) that RevenueHunt sends to Klaviyo Profiles.
         
@@ -463,7 +463,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     All quiz contacts can be grouped into a **segment** in Klaviyo. 
 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
     2. Name the segment and set up the definition.
     3. The `Permalink-QuizID`  property is unique for profiles coming from the quiz.
     4. If you don't see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
@@ -475,7 +475,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     All quiz contacts can be grouped into a **segment** in Klaviyo. 
 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
     2. Name the segment and set up the definition.
     3. The `Permalink-QuizID` property is unique for profiles coming from the quiz.
     4. If you don't see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
@@ -487,7 +487,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     All quiz contacts can be grouped into a **segment** in Klaviyo. 
 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
     2. Name the segment and set up the definition.
     3. The `Permalink-QuizID` property is unique for profiles coming from the quiz.
     4. If you don't see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
@@ -499,7 +499,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     All quiz contacts can be grouped into a **segment** in Klaviyo. 
 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
     2. Name the segment and set up the definition.
     3. The `Permalink-QuizID` property is unique for profiles coming from the quiz.
     4. If you don't see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
@@ -511,7 +511,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     All quiz contacts can be grouped into a **segment** in Klaviyo. 
 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
     2. Name the segment and set up the definition.
     3. The `Permalink-QuizID` property is unique for profiles coming from the quiz.
     4. If you don't see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
@@ -521,7 +521,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 ## Set Up Email Flow
 
-### Add a Triger
+### Add a Trigger
 
 === "Shopify"
 
@@ -579,7 +579,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify"
 
-    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
 
     1. Right below the flow trigger, add a `Profile property update` action.
     2. Click `+ Step`.
@@ -591,7 +591,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify (Legacy)"
 
-    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
 
     1. Right below the flow trigger, add a `Profile property update` action.
     2. Click `+ Step`.
@@ -603,7 +603,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 === "WooCommerce"
 
 
-    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
 
     1. Right below the flow trigger, add a `Profile property update` action.
     2. Click `+ Step`.
@@ -615,7 +615,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 === "Magento"
 
 
-    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
 
     1. Right below the flow trigger, add a `Profile property update` action.
     2. Click `+ Step`.
@@ -627,7 +627,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 === "BigCommerce"
 
 
-    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
 
     1. Right below the flow trigger, add a `Profile property update` action.
     2. Click `+ Step`.
@@ -638,7 +638,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Standalone"
 
-    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
 
     1. Right below the flow trigger, add a `Profile property update` action.
     2. Click `+ Step`.
@@ -662,7 +662,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
         
         !!! info "Klaviyo Template"
 
-            ![how to send leads to klaviyo email tempalte download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
+            ![how to send leads to klaviyo email template download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
 
             The code contains several ready-to-use code snippets that allow you to display: 
 
@@ -693,7 +693,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     11. Once you're happy with the email template, click `Exit` then `Done` and return to your flow.
     12. Turn your email `LIVE`.
 
-    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
 
 
 === "Shopify (Legacy)"
@@ -709,7 +709,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     9. Make sure to `Save` the changes and click `Done`.
     10. Return to your flow and turn your email `LIVE`.
 
-    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
 
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up.
 
@@ -726,7 +726,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     9. Make sure to `Save` the changes and click `Done`.
     10. Return to your flow and turn your email `LIVE`.
 
-    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
 
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up.
 
@@ -743,7 +743,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     9. Make sure to `Save` the changes and click `Done`.
     10. Return to your flow and turn your email `LIVE`.
 
-    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
 
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up.
 
@@ -760,7 +760,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     9. Make sure to `Save` the changes and click `Done`.
     10. Return to your flow and turn your email `LIVE`.
 
-    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
 
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up.
 
@@ -777,7 +777,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     9. Make sure to `Save` the changes and click `Done`.
     10. Return to your flow and turn your email `LIVE`.
 
-    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
 
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up.
 

@@ -248,4 +248,4 @@ This guide will walk you through the process of using the [Version History](/ref
 
 
 ---
-Follow instructions above to recover a puiblished quiz version.
+Follow instructions above to recover a published quiz version.

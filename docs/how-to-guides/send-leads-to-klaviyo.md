@@ -116,8 +116,8 @@ This article walks you through the process of connecting your quiz to Klaviyo an
         ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
     5. Publish the changes with the top-right `Publish` button.
-    6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
-    7. To verify the test, open `Kalviyo > Audeince > Profiles` section. If a new profile was added the integration was successful.
+    6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Klaviyo account.
+    7. To verify the test, open `Klaviyo > Audience > Profiles` section. If a new profile was added the integration was successful.
 
     From now on all the contacts coming from the quiz will be added to your Klaviyo account.
 
@@ -141,8 +141,8 @@ This article walks you through the process of connecting your quiz to Klaviyo an
         ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
     5. Publish the changes with the top-right `Publish` button.
-    6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
-    7. To verify the test, open `Kalviyo > Audeince > Profiles` section. If a new profile was added the integration was successful.
+    6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Klaviyo account.
+    7. To verify the test, open `Klaviyo > Audience > Profiles` section. If a new profile was added the integration was successful.
 
     From now on all the contacts coming from the quiz will be added to your Klaviyo account.
 
@@ -164,8 +164,8 @@ This article walks you through the process of connecting your quiz to Klaviyo an
         ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
     5. Publish the changes with the top-right `Publish` button.
-    6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
-    7. To verify the test, open `Kalviyo > Audeince > Profiles` section. If a new profile was added the integration was successful.
+    6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Klaviyo account.
+    7. To verify the test, open `Klaviyo > Audience > Profiles` section. If a new profile was added the integration was successful.
 
     From now on all the contacts coming from the quiz will be added to your Klaviyo account.
 
@@ -189,8 +189,8 @@ This article walks you through the process of connecting your quiz to Klaviyo an
         ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
     5. Publish the changes with the top-right `Publish` button.
-    6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
-    7. To verify the test, open `Kalviyo > Audeince > Profiles` section. If a new profile was added the integration was successful.
+    6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Klaviyo account.
+    7. To verify the test, open `Klaviyo > Audience > Profiles` section. If a new profile was added the integration was successful.
 
     From now on all the contacts coming from the quiz will be added to your Klaviyo account.
 
@@ -214,8 +214,8 @@ This article walks you through the process of connecting your quiz to Klaviyo an
         ![how to send leads to klaviyo public api key provided2](/images/how_to_send_leads_to_klaviyo_public_api_key_provided2.png)
 
     5. Publish the changes with the top-right `Publish` button.
-    6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Kalviyo account.
-    7. To verify the test, open `Kalviyo > Audeince > Profiles` section. If a new profile was added the integration was successful.
+    6. Test quiz all the way to the results. Make sure to provide a sample email that doesn’t already exist in your Klaviyo account.
+    7. To verify the test, open `Klaviyo > Audience > Profiles` section. If a new profile was added the integration was successful.
 
     From now on all the contacts coming from the quiz will be added to your Klaviyo account.
 
@@ -422,7 +422,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     2. **Connect Quiz to Klaviyo**: Follow the instructions in [this section](#link-your-quiz-to-klaviyo) to learn how to connect your quiz to Klaviyo correctly.
     3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
-        1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+        1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
         2. Name the segment and set up the definition. 
         3. Segment definition: Select `Properties about someone` and add a property that will be unique for profiles coming from the quiz. This can be any of the [custom properties](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) that RevenueHunt sends to Klaviyo Profiles.
             
@@ -456,7 +456,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         **Optional: Update Marketing Consent**
 
-        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
 
         1. Right below the flow trigger, add a `Profile property update` action.
         2. Click `+ Step`.
@@ -484,8 +484,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
             
             !!! info "Klaviyo Template"
 
-                ![how to send leads to klaviyo email tempalte download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
-                ![how to send leads to klaviyo email tempalte download2](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
+                ![how to send leads to klaviyo email template download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
+                ![how to send leads to klaviyo email template download2](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
 
                 The code contains several ready-to-use code snippets that allow you to display: 
 
@@ -517,7 +517,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         11. Once you're happy with the email template, click `Exit` then `Done` and return to your flow.
         12. Turn your email `LIVE`.
 
-        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
 
     8. **Re-trigger the flow**: The easiest way to send an email with each quiz retake is to set the **reentry criteria** when you configure the flow trigger:
 
@@ -542,7 +542,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     2. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
     3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
-        1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+        1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
         2. Name the segment and set up the definition.
         3. The `Permalink-QuizID`  property is unique for profiles coming from the quiz.
         4. If you don't see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
@@ -560,7 +560,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         **Optional: Update Marketing Consent**
 
-        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
 
         1. Right below the flow trigger, add a `Profile property update` action.
         2. Click `+ Step`.
@@ -578,8 +578,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         8. Edit the name/subject/email to your liking and select the `HTML email template`.
         9. From the `Connect >  Klaviyo` tab you can download a ready-to-use email template. 
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how_to_send_leads_to_klaviyo_email_tempalte_download1.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how_to_send_leads_to_klaviyo_email_tempalte_download2.png)
+            ![how to send leads to klaviyo email template download1](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
+            ![how to send leads to klaviyo email template download2](/images/how_to_send_leads_to_klaviyo_email_template_download2.png)
 
             !!! tip
 
@@ -592,7 +592,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         14. Make sure to `Save` the changes and click `Done`.
         15. Return to your flow and turn your email `LIVE`.
 
-        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
 
     7. **Re-trigger the flow**: If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
@@ -631,7 +631,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     2. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
     3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
-        1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+        1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
         2. Name the segment and set up the definition.
         3. The `Permalink-QuizID`  property is unique for profiles coming from the quiz.
         4. If you don't see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
@@ -649,7 +649,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         **Optional: Update Marketing Consent**
 
-        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
 
         1. Right below the flow trigger, add a `Profile property update` action.
         2. Click `+ Step`.
@@ -667,8 +667,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         8. Edit the name/subject/email to your liking and select the `HTML email template`.
         9. From the `Connect >  Klaviyo` tab you can download a ready-to-use email template. 
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how_to_send_leads_to_klaviyo_email_tempalte_download1.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how_to_send_leads_to_klaviyo_email_tempalte_download2.png)
+            ![how to send leads to klaviyo email template download1](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
+            ![how to send leads to klaviyo email template download2](/images/how_to_send_leads_to_klaviyo_email_template_download2.png)
 
             !!! tip
 
@@ -681,7 +681,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         14. Make sure to `Save` the changes and click `Done`.
         15. Return to your flow and turn your email `LIVE`.
 
-        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
 
     7. **Re-trigger the flow**: If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
@@ -719,7 +719,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     2. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
     3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
-        1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+        1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
         2. Name the segment and set up the definition.
         3. The `Permalink-QuizID`  property is unique for profiles coming from the quiz.
         4. If you don't see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
@@ -737,7 +737,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         **Optional: Update Marketing Consent**
 
-        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
 
         1. Right below the flow trigger, add a `Profile property update` action.
         2. Click `+ Step`.
@@ -755,8 +755,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         8. Edit the name/subject/email to your liking and select the `HTML email template`.
         9. From the `Connect >  Klaviyo` tab you can download a ready-to-use email template. 
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how_to_send_leads_to_klaviyo_email_tempalte_download1.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how_to_send_leads_to_klaviyo_email_tempalte_download2.png)
+            ![how to send leads to klaviyo email template download1](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
+            ![how to send leads to klaviyo email template download2](/images/how_to_send_leads_to_klaviyo_email_template_download2.png)
 
             !!! tip
 
@@ -769,7 +769,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         14. Make sure to `Save` the changes and click `Done`.
         15. Return to your flow and turn your email `LIVE`.
 
-        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
 
     7. **Re-trigger the flow**: If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
@@ -807,7 +807,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     2. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
     3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
-        1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+        1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
         2. Name the segment and set up the definition.
         3. The `Permalink-QuizID`  property is unique for profiles coming from the quiz.
         4. If you don't see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
@@ -825,7 +825,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         **Optional: Update Marketing Consent**
 
-        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
 
         1. Right below the flow trigger, add a `Profile property update` action.
         2. Click `+ Step`.
@@ -843,8 +843,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         8. Edit the name/subject/email to your liking and select the `HTML email template`.
         9. From the `Connect >  Klaviyo` tab you can download a ready-to-use email template. 
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how_to_send_leads_to_klaviyo_email_tempalte_download1.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how_to_send_leads_to_klaviyo_email_tempalte_download2.png)
+            ![how to send leads to klaviyo email template download1](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
+            ![how to send leads to klaviyo email template download2](/images/how_to_send_leads_to_klaviyo_email_template_download2.png)
 
             !!! tip
 
@@ -857,7 +857,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         14. Make sure to `Save` the changes and click `Done`.
         15. Return to your flow and turn your email `LIVE`.
 
-        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
 
     7. **Re-trigger the flow**: If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
@@ -895,7 +895,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     2. **Connect Quiz to Klaviyo**: Follow the instructions in [this](#link-your-quiz-to-klaviyo) section to learn how to connect your quiz to Klaviyo correctly.
     3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
 
-        1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+        1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
         2. Name the segment and set up the definition.
         3. The `Permalink-QuizID`  property is unique for profiles coming from the quiz.
         4. If you don't see the permalink property in the dropdown menu, you may need to take a test quiz and try again.
@@ -913,7 +913,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         **Optional: Update Marketing Consent**
 
-        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
 
         1. Right below the flow trigger, add a `Profile property update` action.
         2. Click `+ Step`.
@@ -931,8 +931,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         8. Edit the name/subject/email to your liking and select the `HTML email template`.
         9. From the `Connect >  Klaviyo` tab you can download a ready-to-use email template. 
         
-            ![how to send leads to klaviyo email tempalte download1](/images/how_to_send_leads_to_klaviyo_email_tempalte_download1.png)
-            ![how to send leads to klaviyo email tempalte download2](/images/how_to_send_leads_to_klaviyo_email_tempalte_download2.png)
+            ![how to send leads to klaviyo email template download1](/images/how_to_send_leads_to_klaviyo_email_template_download1.png)
+            ![how to send leads to klaviyo email template download2](/images/how_to_send_leads_to_klaviyo_email_template_download2.png)
 
             !!! tip
 
@@ -945,7 +945,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         14. Make sure to `Save` the changes and click `Done`.
         15. Return to your flow and turn your email `LIVE`.
 
-        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
 
     7. **Re-trigger the flow**: If you want to send an email with each quiz retake, you can do that by adding a `Profile property update` action at the end of the flow. Follow these steps:
 
@@ -1150,7 +1150,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         However, properties such as `RECOMMENDATIONS_BY_SLOT` or `RESULT_CONTENT_BY_BLOCK` are sent as a JSON object, meaning that their values get **appended** to the existing data upon each quiz completion. 
 
-        If you want to make sure that in your Klaviyo template, the **values get overwritten** with new data upon each quiz completion and you want to use our pre-defined Klaviyo email tempalte which you can download from [Integrations](/reference/quiz-builder/connect-integrations/) tab, make sure to only use the code snippet that starts with the following comment:
+        If you want to make sure that in your Klaviyo template, the **values get overwritten** with new data upon each quiz completion and you want to use our pre-defined Klaviyo email template which you can download from [Integrations](/reference/quiz-builder/connect-integrations/) tab, make sure to only use the code snippet that starts with the following comment:
         
         
         ```html

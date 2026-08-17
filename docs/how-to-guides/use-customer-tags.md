@@ -296,7 +296,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 === "Shopify"    
 
-    Once you've set up specific [segement in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
+    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
 
     1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
 
@@ -311,7 +311,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 === "Shopify (Legacy)"
 
-    Once you've set up specific [segement in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
+    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
 
     1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
 
@@ -327,7 +327,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 === "WooCommerce"
 
-    Once you've set up specific [segement in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
+    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
 
     1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
 
@@ -342,7 +342,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 === "Magento"
 
-    Once you've set up specific [segement in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
+    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
 
     1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
 
@@ -357,7 +357,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 === "BigCommerce"
 
-    Once you've set up specific [segement in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
+    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
 
     1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
 
@@ -372,7 +372,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 === "Standalone"
 
-    Once you've set up specific [segement in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
+    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
 
     1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
 

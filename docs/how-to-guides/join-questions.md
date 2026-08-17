@@ -18,7 +18,7 @@ To combine two or more questions into one slide, follow these steps:
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Add a question to the quiz by clicking on the [`+ question`](/reference/quiz-builder/questions/#question-types) button.
     3. Within the question, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a block type from the list. 
-    4. To show an extra question on the same slide, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a differnt block type from the list. 
+    4. To show an extra question on the same slide, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a different block type from the list. 
     5. Both questions will now appear on the same slide.
 
     ![joined slides example in built for shopify revenuehunt app](https://loom.com/i/75de3b0357fc46919b8cf40d51a94975?workflows_screenshot=true)
