@@ -1120,7 +1120,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
 ??? tip "Tip: Segmented Campaigns Work Better"
 
-    It is possible to add contacts to Klaviyo List but there may be a better way: instead of adding them to a general list you can create **dynamic segments** based on your customers’ responses to send them hyper-targeted campaigns. Highly segmented campaigns return more than 3X the revenue per recipient as unsegmented campaigns.
+    You can add contacts to Klaviyo List but there may be a better way: instead of adding them to a general list you can create **dynamic segments** based on your customers’ responses to send them hyper-targeted campaigns. Highly segmented campaigns return more than 3X the revenue per recipient as unsegmented campaigns.
 
     With Klaviyo you can create segments to filter your leads and assign email flows to each segment. [Read more about sending follow-up emails via Klaviyo](#sending-follow-up-emails-via-klaviyo), including how to create and use segments on Klaviyo.
 

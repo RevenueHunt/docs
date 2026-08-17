@@ -85,7 +85,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     To remove a linked collection click "x" next to the collection name.
 
-    **excluded collections** - Opens the dropdown which allows to exclude collections of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude collections of products from a choice. 
 
     ![quiz builder link collections exclude](/images/manual_quizbuilder_linkcollections_exclude.png)
 
@@ -115,7 +115,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     To remove a linked categories click "x" next to the category name.
 
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
 
     ![quiz builder link collections exclude](/images/manual_woo_quizbuilder_linkcategories_excludecategories.png)
 
@@ -145,7 +145,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     To remove a linked category click "x" next to the category name.
 
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
@@ -175,7 +175,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     To remove a linked category click "x" next to the category name.
 
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
@@ -209,7 +209,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     To remove a linked category click "x" next to the category name.
 
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 

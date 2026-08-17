@@ -5,7 +5,7 @@ description: "Learn how to recommend personalized skincare routines using Revenu
 
 # How to Recommend a Skincare Routine with Slots
 
-With RevenueHunt Product Recommendation Quiz, it is possible to group products into slots and recommend a product for each step in a beauty routine.
+With RevenueHunt Product Recommendation Quiz, you can group products into slots and recommend a product for each step in a beauty routine.
 
 This guide is designed to help merchants effectively use [Product Slot Blocks](/reference/quiz-builder/results-page/#block-types) on the results page to organize product recommendations. 
 

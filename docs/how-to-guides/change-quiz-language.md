@@ -222,7 +222,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     How does it work?
 
-    - For now, it is possible to [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
@@ -315,7 +315,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     How does it work?
 
-    - For now, it is possible to [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
@@ -408,7 +408,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     How does it work?
 
-    - For now, it is possible to [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
@@ -501,7 +501,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     How does it work?
 
-    - For now, it is possible to [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
@@ -594,7 +594,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     How does it work?
 
-    - For now, it is possible to [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.

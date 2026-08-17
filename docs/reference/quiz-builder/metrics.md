@@ -194,7 +194,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     `↑1 🎁1` - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
 
-    `✅5` - Displays which products this slot will allow to be displayed.
+    `✅5` - Displays which products this slot can show.
 
     `Cleansers (5)` / `Collection (x)` - Displays the collections which are linked to this slot.
 
@@ -246,7 +246,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     `↑1 🎁1` - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
 
-    `✅5` - Displays which products this slot will allow to be displayed.
+    `✅5` - Displays which products this slot can show.
 
     `Cleansers (5)` / `Collection (x)` - Displays the collections which are linked to this slot.
 
@@ -298,7 +298,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     `↑1 🎁1` - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
 
-    `✅5` - Displays which products this slot will allow to be displayed.
+    `✅5` - Displays which products this slot can show.
 
     `Cleansers (5)` / `Collection (x)` - Displays the collections which are linked to this slot.
 
@@ -350,7 +350,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     `↑1 🎁1` - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
 
-    `✅5` - Displays which products this slot will allow to be displayed.
+    `✅5` - Displays which products this slot can show.
 
     `Cleansers (5)` / `Collection (x)` - Displays the collections which are linked to this slot.
 
@@ -402,7 +402,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     `↑1 🎁1` - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
 
-    `✅5` - Displays which products this slot will allow to be displayed.
+    `✅5` - Displays which products this slot can show.
 
     `Cleansers (5)` / `Collection (x)` - Displays the collections which are linked to this slot.
 

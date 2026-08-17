@@ -19,7 +19,7 @@ description: "Learn how to enable pre-fill on retake for RevenueHunt quiz respon
 
 === "Shopify (Legacy)"
 
-    With RevenueHunt app you have the possibility to pre-fill the responses to certain questions in your quiz. 
+    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
 
     - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
     - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
@@ -31,7 +31,7 @@ description: "Learn how to enable pre-fill on retake for RevenueHunt quiz respon
 
 === "WooCommerce"
 
-    With RevenueHunt app you have the possibility to pre-fill the responses to certain questions in your quiz. 
+    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
 
     - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
     - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
@@ -44,7 +44,7 @@ description: "Learn how to enable pre-fill on retake for RevenueHunt quiz respon
 
 === "Magento"
 
-    With RevenueHunt app you have the possibility to pre-fill the responses to certain questions in your quiz. 
+    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
 
     - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
     - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
@@ -57,7 +57,7 @@ description: "Learn how to enable pre-fill on retake for RevenueHunt quiz respon
 
 === "BigCommerce"
 
-    With RevenueHunt app you have the possibility to pre-fill the responses to certain questions in your quiz. 
+    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
 
     - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
     - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
@@ -69,7 +69,7 @@ description: "Learn how to enable pre-fill on retake for RevenueHunt quiz respon
 
 === "Standalone"
 
-    With RevenueHunt app you have the possibility to pre-fill the responses to certain questions in your quiz. 
+    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
 
     - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
     - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.

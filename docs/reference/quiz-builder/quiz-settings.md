@@ -325,9 +325,9 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
 
-    `One-time purchase` - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+    `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Subscribe & save` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Placeholders**
 
@@ -365,13 +365,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `File under 2MB` - Default text on the file upload question slides. | Quiz
 
-    `Delivery every X days` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X days` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X weeks` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X weeks` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X months` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X months` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X years` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X years` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Discount Notifications**
 
@@ -419,9 +419,9 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
 
-    `One-time purchase` - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+    `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Subscribe & save` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Placeholders**
 
@@ -459,13 +459,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `File under 2MB` - Default text on the file upload question slides. | Quiz
 
-    `Delivery every X days` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X days` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X weeks` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X weeks` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X months` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X months` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X years` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X years` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Discount Notifications**
 
@@ -513,9 +513,9 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
 
-    `One-time purchase` - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+    `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Subscribe & save` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Placeholders**
 
@@ -553,13 +553,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `File under 2MB` - Default text on the file upload question slides. | Quiz
 
-    `Delivery every X days` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X days` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X weeks` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X weeks` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X months` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X months` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X years` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X years` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Discount Notifications**
 
@@ -607,9 +607,9 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
 
-    `One-time purchase` - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+    `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Subscribe & save` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Placeholders**
 
@@ -647,13 +647,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `File under 2MB` - Default text on the file upload question slides. | Quiz
 
-    `Delivery every X days` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X days` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X weeks` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X weeks` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X months` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X months` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X years` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X years` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Discount Notifications**
 
@@ -701,9 +701,9 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
 
-    `One-time purchase` - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+    `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Subscribe & save` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Placeholders**
 
@@ -741,13 +741,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `File under 2MB` - Default text on the file upload question slides. | Quiz
 
-    `Delivery every X days` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X days` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X weeks` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X weeks` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X months` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X months` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    `Delivery every X years` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X years` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Discount Notifications**
 

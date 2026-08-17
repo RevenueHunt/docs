@@ -693,7 +693,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
+        - **Image Opacity** - A slider which lets you adjust the opacity of the uploaded image.
 
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -703,7 +703,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
+        - **Video Opacity** - A slider which lets you adjust the opacity of the uploaded video.
 
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
@@ -751,7 +751,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
+        - **Image Opacity** - A slider which lets you adjust the opacity of the uploaded image.
 
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -761,7 +761,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
+        - **Video Opacity** - A slider which lets you adjust the opacity of the uploaded video.
 
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
@@ -809,7 +809,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
+        - **Image Opacity** - A slider which lets you adjust the opacity of the uploaded image.
 
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -819,7 +819,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
+        - **Video Opacity** - A slider which lets you adjust the opacity of the uploaded video.
 
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
@@ -867,7 +867,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
+        - **Image Opacity** - A slider which lets you adjust the opacity of the uploaded image.
 
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -877,7 +877,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
+        - **Video Opacity** - A slider which lets you adjust the opacity of the uploaded video.
 
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
@@ -925,7 +925,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
+        - **Image Opacity** - A slider which lets you adjust the opacity of the uploaded image.
 
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -935,7 +935,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
+        - **Video Opacity** - A slider which lets you adjust the opacity of the uploaded video.
 
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
@@ -1262,7 +1262,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     To remove a linked collection click "x" next to the collection name.
 
-    **excluded collections** - Opens the dropdown which allows to exclude collections of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude collections of products from a choice. 
 
     ![quiz builder link collections exclude](/images/manual_quizbuilder_linkcollections_exclude.png)
 
@@ -1292,7 +1292,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     To remove a linked categories click "x" next to the category name.
 
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
 
     ![quiz builder link collections exclude](/images/manual_woo_quizbuilder_linkcategories_excludecategories.png)
 
@@ -1322,7 +1322,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     To remove a linked category click "x" next to the category name.
 
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
@@ -1352,7 +1352,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     To remove a linked category click "x" next to the category name.
 
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
@@ -1386,7 +1386,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     To remove a linked category click "x" next to the category name.
 
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
@@ -1435,7 +1435,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     To remove a linked product click "x" next to the product name.
 
-    **excluded products** - Opens the dropdown which allows to exclude products from a choice. 
+    **excluded products** - Opens the dropdown which lets you exclude products from a choice. 
 
     ![quiz builder link products exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
 
@@ -3104,7 +3104,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     *Heading size* - Changes the heading font size.
 
-    *Description* - Adds a custom description to the slot block. Allows to add text, links or personalization.
+    *Description* - Adds a custom description to the slot block. Lets you add text, links or personalization.
 
     *Max. recommended products* - The maximum number of products allowed to be displayed in the slot block.
 
@@ -3923,7 +3923,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    **Discount Code Settings** - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -3931,7 +3931,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    **Dynamic Discounts** - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
@@ -3961,7 +3961,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    **Discount Code Settings** - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -3969,7 +3969,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    **Dynamic Discounts** - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
@@ -3999,7 +3999,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    **Discount Code Settings** - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -4007,7 +4007,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    **Dynamic Discounts** - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
@@ -4037,7 +4037,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    **Discount Code Settings** - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -4045,7 +4045,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    **Dynamic Discounts** - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
@@ -4075,7 +4075,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    **Discount Code Settings** - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -4083,7 +4083,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    **Dynamic Discounts** - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
@@ -4113,7 +4113,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    **Discount Code Settings** - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -4121,7 +4121,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    **Dynamic Discounts** - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
@@ -4211,7 +4211,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
 
     - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -4243,7 +4243,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
 
     - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -4275,7 +4275,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
 
     - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -4307,7 +4307,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
 
     - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -4339,7 +4339,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
 
     - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -4676,9 +4676,9 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
 
-    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+    - **One-time purchase** - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Subscribe & save** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Placeholders**
 
@@ -4716,13 +4716,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **File under 2MB** - Default text on the file upload question slides. | Quiz
 
-    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X days** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X weeks** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X months** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X years** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Discount Notifications**
 
@@ -4770,9 +4770,9 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
 
-    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+    - **One-time purchase** - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Subscribe & save** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Placeholders**
 
@@ -4810,13 +4810,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **File under 2MB** - Default text on the file upload question slides. | Quiz
 
-    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X days** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X weeks** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X months** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X years** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Discount Notifications**
 
@@ -4864,9 +4864,9 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
 
-    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+    - **One-time purchase** - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Subscribe & save** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Placeholders**
 
@@ -4904,13 +4904,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **File under 2MB** - Default text on the file upload question slides. | Quiz
 
-    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X days** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X weeks** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X months** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X years** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Discount Notifications**
 
@@ -4958,9 +4958,9 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
 
-    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+    - **One-time purchase** - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Subscribe & save** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Placeholders**
 
@@ -4998,13 +4998,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **File under 2MB** - Default text on the file upload question slides. | Quiz
 
-    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X days** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X weeks** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X months** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X years** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Discount Notifications**
 
@@ -5052,9 +5052,9 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
 
-    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
+    - **One-time purchase** - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Subscribe & save** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Placeholders**
 
@@ -5092,13 +5092,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **File under 2MB** - Default text on the file upload question slides. | Quiz
 
-    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X days** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X weeks** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X months** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
-    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X years** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
 
     **Discount Notifications**
 
@@ -5997,7 +5997,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **↑1 🎁1** - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
 
-    **✅5** - Displays which products this slot will allow to be displayed.
+    **✅5** - Displays which products this slot can show.
 
     **Cleansers (5)** / **Collection (x)** - Displays the collections which are linked to this slot.
 
@@ -6049,7 +6049,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **↑1 🎁1** - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
 
-    **✅5** - Displays which products this slot will allow to be displayed.
+    **✅5** - Displays which products this slot can show.
 
     **Cleansers (5)** / **Collection (x)** - Displays the collections which are linked to this slot.
 
@@ -6101,7 +6101,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **↑1 🎁1** - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
 
-    **✅5** - Displays which products this slot will allow to be displayed.
+    **✅5** - Displays which products this slot can show.
 
     **Cleansers (5)** / **Collection (x)** - Displays the collections which are linked to this slot.
 
@@ -6153,7 +6153,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **↑1 🎁1** - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
 
-    **✅5** - Displays which products this slot will allow to be displayed.
+    **✅5** - Displays which products this slot can show.
 
     **Cleansers (5)** / **Collection (x)** - Displays the collections which are linked to this slot.
 
@@ -6205,7 +6205,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **↑1 🎁1** - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
 
-    **✅5** - Displays which products this slot will allow to be displayed.
+    **✅5** - Displays which products this slot can show.
 
     **Cleansers (5)** / **Collection (x)** - Displays the collections which are linked to this slot.
 

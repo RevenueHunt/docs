@@ -2123,7 +2123,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -2131,7 +2131,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
@@ -2161,7 +2161,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -2169,7 +2169,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
@@ -2199,7 +2199,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -2207,7 +2207,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
@@ -2237,7 +2237,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -2245,7 +2245,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
@@ -2275,7 +2275,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -2283,7 +2283,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 
@@ -2313,7 +2313,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
 
-    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
 
@@ -2321,7 +2321,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
 
-    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
 
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
 

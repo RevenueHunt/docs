@@ -5,7 +5,7 @@ icon: material/vote-outline
 
 # How to Only Recommend Products with X Votes or More
 
-It is possible to limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners. 
+You can limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners. 
 
 To activate this setting in your quiz follow the instructions below.
 

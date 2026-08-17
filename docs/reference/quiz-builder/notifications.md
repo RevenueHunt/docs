@@ -246,7 +246,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
 
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -278,7 +278,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
 
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -310,7 +310,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
 
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -342,7 +342,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
 
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -374,7 +374,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
 
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 

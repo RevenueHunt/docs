@@ -385,7 +385,7 @@ It describes a step-by-step process involving creating product collections, buil
 
 ### [Only recommend products with X votes or more](/how-to-guides/only-recommend-products-with-minimum-votes/)
 
-It is possible to limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners.
+You can limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners.
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/only-recommend-products-with-minimum-votes/)
 

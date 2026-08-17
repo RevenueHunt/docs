@@ -5,7 +5,7 @@ description: "Learn how to set up multiple results pages in RevenueHunt to show 
 
 # How to Set Up Multiple Results Pages
 
-With the RevenueHunt app it is possible to set up Multiple Results Pages. To add an extra Results Page to your quiz follow the instructions below.
+With the RevenueHunt app you can set up Multiple Results Pages. To add an extra Results Page to your quiz follow the instructions below.
 
 !!! warning
 

@@ -1833,7 +1833,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify (Legacy)"
 
-    It is possible to make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
 
     ??? example "Select all, select none"
 
@@ -1939,7 +1939,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "WooCommerce"
 
-    It is possible to make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
 
     ??? example "Select all, select none"
 
@@ -2045,7 +2045,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Magento"
 
-    It is possible to make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
 
     ??? example "Select all, select none"
 
@@ -2151,7 +2151,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "BigCommerce"
 
-    It is possible to make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
 
     ??? example "Select all, select none"
 
@@ -2257,7 +2257,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Standalone"
 
-    It is possible to make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
 
     ??? example "Select all, select none"
 

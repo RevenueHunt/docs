@@ -137,7 +137,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify"
 
-    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
+    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
 
     !!! tip
         Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
@@ -161,7 +161,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 === "Shopify (Legacy)"
 
-    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
+    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
 
     !!! tip
         Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
@@ -174,7 +174,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "WooCommerce"
 
 
-    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
+    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
 
     !!! tip
         Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
@@ -186,7 +186,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Magento"
 
 
-    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
+    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
 
     !!! tip
         Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
@@ -198,7 +198,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "BigCommerce"
 
 
-    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
+    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
 
     !!! tip
         Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
@@ -210,7 +210,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Standalone"
 
 
-    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
+    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
 
     !!! tip
         Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.

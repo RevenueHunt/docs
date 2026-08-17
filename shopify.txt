@@ -5724,7 +5724,7 @@ icon: material/sale
 
 --- Shopify Specific Content ---
 
-With the Built for Shopify version of the RevenueHunt app, it is possible to:
+With the Built for Shopify version of the RevenueHunt app, you can:
     - **add your Shopify discount code** to be applied automatically at checkout,
     - **add a discount code as text** to quiz questions or results page,
     - **add the discount code to the [result emails](/reference/quiz-builder/notifications/#to-respondent)**.
@@ -7989,7 +7989,7 @@ icon: material/sort-variant-off
 
 # How to Hide Product Variants 
 
-Within Product Recommendation Quiz it is possible to hide the product variants dropdown on the results page.
+In Product Recommendation Quiz you can hide the product variants dropdown on the results page.
 
 ![how to hide product variants image1](/images/how_to_hide_product_variants_image1.png)
 
@@ -8558,7 +8558,7 @@ icon: material/vote-outline
 
 # How to Only Recommend Products with X Votes or More
 
-It is possible to limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners. 
+You can limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners. 
 
 To activate this setting in your quiz follow the instructions below.
 
@@ -9768,7 +9768,7 @@ description: "Learn how to recommend personalized skincare routines using Revenu
 
 # How to Recommend a Skincare Routine with Slots
 
-With RevenueHunt Product Recommendation Quiz, it is possible to group products into slots and recommend a product for each step in a beauty routine.
+With RevenueHunt Product Recommendation Quiz, you can group products into slots and recommend a product for each step in a beauty routine.
 
 This guide is designed to help merchants effectively use [Product Slot Blocks](/reference/quiz-builder/results-page/#block-types) on the results page to organize product recommendations.
 
@@ -11953,7 +11953,7 @@ description: "Complete guide to setting up RevenueHunt quiz result emails and ad
 
 # Setting Up Result Emails with Product Recommendation Quiz
 
-Sending result emails to quiz takers can significantly improve your quiz sales by reducing cart abandonment and improving the customer experience. With RevenueHunt app it is possible to set up quiz result emails directly without the need to connect the app to an external CRM service, though this option is also available.
+Sending result emails to quiz takers can significantly improve your quiz sales by reducing cart abandonment and improving the customer experience. With the RevenueHunt app you can set up quiz result emails directly without the need to connect the app to an external CRM service, though this option is also available.
 
 This guide covers setting up email results for both [quiz respondents](#email-quiz-results-via-shop-quiz-app) and [administartors](#activate-email-notifications-to-admin) and well as sending results emails via an [external CRM service](/how-to-guides/send-leads-to-crm/).
 
@@ -12171,7 +12171,7 @@ description: "Learn how to set up multiple results pages in RevenueHunt to show 
 
 # How to Set Up Multiple Results Pages
 
-With the RevenueHunt app it is possible to set up Multiple Results Pages. To add an extra Results Page to your quiz follow the instructions below.
+With the RevenueHunt app you can set up Multiple Results Pages. To add an extra Results Page to your quiz follow the instructions below.
 
 !!! warning
 
@@ -18453,7 +18453,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot.png)
     *Heading* - Adds a custom heading to the slot block.
     *Heading size* - Changes the heading font size.
-    *Description* - Adds a custom description to the slot block. Allows to add text, links or personalization.
+    *Description* - Adds a custom description to the slot block. Lets you add text, links or personalization.
     *Max. recommended products* - The maximum number of products allowed to be displayed in the slot block.
     **Add segments** - Click `v Add` to select products from which Collections, Tags, Variants or Vendors will be shown in this slot block.
     !!! warning
@@ -19622,7 +19622,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/uJJQ34BUcLg?si=9b1Aogh9_gaorp8G" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
+    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
     !!! tip
         Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
     **Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.

@@ -6128,7 +6128,7 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
         `below` - Places the uploaded image below the question, above the choices.
         `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
         `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+        `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
     !!! tip "Uploaded image Tip"
         Our app uses a **responsive design**, meaning your quiz will adjust to different screen sizes (desktop, tablet, and mobile). Because of this, **uploaded images may crop or scale differently depending on the device**.
         To ensure your uploaded images look great across all devices, we recommend:
@@ -6167,7 +6167,7 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
         `below` - Places the uploaded image below the question, above the choices.
         `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
         `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+        `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
     !!! tip "Uploaded image Tip"
         Our app uses a **responsive design**, meaning your quiz will adjust to different screen sizes (desktop, tablet, and mobile). Because of this, **uploaded images may crop or scale differently depending on the device**.
         To ensure your uploaded images look great across all devices, we recommend:
@@ -6206,7 +6206,7 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
         `below` - Places the uploaded image below the question, above the choices.
         `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
         `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+        `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
     !!! tip "Uploaded image Tip"
         Our app uses a **responsive design**, meaning your quiz will adjust to different screen sizes (desktop, tablet, and mobile). Because of this, **uploaded images may crop or scale differently depending on the device**.
         To ensure your uploaded images look great across all devices, we recommend:
@@ -6245,7 +6245,7 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
         `below` - Places the uploaded image below the question, above the choices.
         `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
         `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+        `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
     !!! tip "Uploaded image Tip"
         Our app uses a **responsive design**, meaning your quiz will adjust to different screen sizes (desktop, tablet, and mobile). Because of this, **uploaded images may crop or scale differently depending on the device**.
         To ensure your uploaded images look great across all devices, we recommend:
@@ -6647,7 +6647,7 @@ Adding discount coupons into your quiz allows customers to enjoy special offers 
     !!! info
         Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
 ## Apply discount only if customer leaves their email
-    In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
+    In the RevenueHunt app, you can apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
         ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
@@ -6667,7 +6667,7 @@ Adding discount coupons into your quiz allows customers to enjoy special offers 
     7. **SECOND JUMP LOGIC – EMAIL QUESTION**: Next, you’ll have to add Jump Logic to the email question. In this case, it is enough to always send the customer to the *Results Page 2 (discount)* with the `Always Jump to...` function.
         ![how to add discount jump logic 2](/images/how_to_add_discount_jump_logic_2.png)
     8. **Test the quiz**: Once the discounts are set up, update the preview/live quiz with the `Publish` button. Then, test the quiz by clicking the `Preview` button in the top right corner of the app.
-    In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
+    In the RevenueHunt app, you can apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
         ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
@@ -6687,7 +6687,7 @@ Adding discount coupons into your quiz allows customers to enjoy special offers 
     7. **SECOND JUMP LOGIC – EMAIL QUESTION**: Next, you’ll have to add Jump Logic to the email question. In this case, it is enough to always send the customer to the *Results Page 2 (discount)* with the `Always Jump to...` function.
         ![how to add discount jump logic 2](/images/how_to_add_discount_jump_logic_2.png)
     8. **Test the quiz**: Once the discounts are set up, update the preview/live quiz with the `Publish` button. Then, test the quiz by clicking the `Preview` button in the top right corner of the app.
-    In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
+    In the RevenueHunt app, you can apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
         ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
@@ -6707,7 +6707,7 @@ Adding discount coupons into your quiz allows customers to enjoy special offers 
     7. **SECOND JUMP LOGIC – EMAIL QUESTION**: Next, you’ll have to add Jump Logic to the email question. In this case, it is enough to always send the customer to the *Results Page 2 (discount)* with the `Always Jump to...` function.
         ![how to add discount jump logic 2](/images/how_to_add_discount_jump_logic_2.png)
     8. **Test the quiz**: Once the discounts are set up, update the preview/live quiz with the `Publish` button. Then, test the quiz by clicking the `Preview` button in the top right corner of the app.
-    In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
+    In the RevenueHunt app, you can apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
         ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
@@ -7290,7 +7290,7 @@ You can display the information you have gathered throughout the quiz and mash i
     element.innerHTML = bmi.toFixed(2); 
     ```
 You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
-    It is possible to make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
     ??? example "Select all, select none"
         This code may require adjustments by a developer.  Use it as an example only.
         ```javascript
@@ -7376,7 +7376,7 @@ You can also load jQuery [this way](https://stackoverflow.com/questions/10113366
           return values.includes(choiceId(c));
         }
         ```
-    It is possible to make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
     ??? example "Select all, select none"
         This code may require adjustments by a developer.  Use it as an example only.
         ```javascript
@@ -7462,7 +7462,7 @@ You can also load jQuery [this way](https://stackoverflow.com/questions/10113366
           return values.includes(choiceId(c));
         }
         ```
-    It is possible to make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
     ??? example "Select all, select none"
         This code may require adjustments by a developer.  Use it as an example only.
         ```javascript
@@ -7548,7 +7548,7 @@ You can also load jQuery [this way](https://stackoverflow.com/questions/10113366
           return values.includes(choiceId(c));
         }
         ```
-    It is possible to make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    You can make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
     ??? example "Select all, select none"
         This code may require adjustments by a developer.  Use it as an example only.
         ```javascript
@@ -8280,7 +8280,7 @@ This guide will help you change the language of your quiz, translate it into dif
 ## Set up multilingual quizzes
     While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
     How does it work?
-    - For now, it is possible to [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
@@ -8344,7 +8344,7 @@ This guide will help you change the language of your quiz, translate it into dif
     5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
     While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
     How does it work?
-    - For now, it is possible to [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
@@ -8408,7 +8408,7 @@ This guide will help you change the language of your quiz, translate it into dif
     5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
     While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
     How does it work?
-    - For now, it is possible to [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
@@ -8472,7 +8472,7 @@ This guide will help you change the language of your quiz, translate it into dif
     5. Make sure to replace the `https://www.example.com` with your store URL and change the `shopURL+"/en"` to the language code you have set up in your store (for example, `shopURL+"/fr"` for French).
     While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
     How does it work?
-    - For now, it is possible to [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
+    - For now, you can [create multiple quizzes](#step-1-create-quizzes-in-different-languages), each one in a different language.
     - Then, each of these quizzes will have a **unique quiz ID**.
     - You can embed each of these quizzes on a separate page on your store (eg quiz-en, quiz-de, quiz-fr…) or have your developer create a [script that displays the correct quiz](#step-2-display-the-correct-quiz-based-on-browser-language) popup depending on the browser language.
     - However, the main problem is that our app **can only sync the base products from your store (in the main language)**, as products translated automatically to other languages don't have unique product IDs that we could sync. So you can change the quiz language but the product names and descriptions will be shown in the original language. There are some [workarounds](#step-3-handling-product-sync-in-multilingual-stores) mentioned in the article that you can try.
@@ -10453,7 +10453,7 @@ icon: material/sort-variant-off
 
 # How to Hide Product Variants 
 
-Within Product Recommendation Quiz it is possible to hide the product variants dropdown on the results page.
+In Product Recommendation Quiz you can hide the product variants dropdown on the results page.
 
 ![how to hide product variants image1](/images/how_to_hide_product_variants_image1.png)
 
@@ -11595,7 +11595,7 @@ icon: material/vote-outline
 
 # How to Only Recommend Products with X Votes or More
 
-It is possible to limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners. 
+You can limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners. 
 
 To activate this setting in your quiz follow the instructions below.
 
@@ -11716,25 +11716,25 @@ description: "Learn how to enable pre-fill on retake for RevenueHunt quiz respon
 
 --- WooCommerce Specific Content ---
 
-With RevenueHunt app you have the possibility to pre-fill the responses to certain questions in your quiz. 
+With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
     - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
     - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
     This feature can be implemented in two ways:
     - either declaring JavaScript variables in your store’s source code (note: developer needed)
     - passing URL parameters on a link to your store.
-    With RevenueHunt app you have the possibility to pre-fill the responses to certain questions in your quiz. 
+    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
     - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
     - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
     This feature can be implemented in two ways:
     - either declaring JavaScript variables in your store’s source code (note: developer needed)
     - passing URL parameters on a link to your store.
-    With RevenueHunt app you have the possibility to pre-fill the responses to certain questions in your quiz. 
+    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
     - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
     - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
     This feature can be implemented in two ways:
     - either declaring JavaScript variables in your store’s source code (note: developer needed)
     - passing URL parameters on a link to your store.
-    With RevenueHunt app you have the possibility to pre-fill the responses to certain questions in your quiz. 
+    With the RevenueHunt app you can pre-fill the responses to certain questions in your quiz. 
     - This comes in very handy when users are logged in to your store and don’t want to ask them for the information you already have about them (eg. their name and email).
     - Another use case is when you’re driving traffic to your quiz from a mailing list and, again, you don’t want to ask them for their contact details.
     This feature can be implemented in two ways:
@@ -14055,7 +14055,7 @@ With RevenueHunt Product Recommendation Quiz, it is not possible to recommend pr
 It describes a step-by-step process involving creating product collections, building and linking quizzes to these collections, and utilizing a voting system algorithm to prioritize product suggestions, catering to complex customer profiles and ensuring personalized recommendations.
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-product-matrix/)
 ### [Only recommend products with X votes or more](/how-to-guides/only-recommend-products-with-minimum-votes/)
-It is possible to limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners.
+You can limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners.
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/only-recommend-products-with-minimum-votes/)
 ### Recommend subscription products
     If you're using a WooCommerce Subscriptions check [this guide](/how-to-guides/recommend-subscription-products/#woocommerce-subscriptions/) to learn how to recommend subscription products directly from the quiz.
@@ -14311,7 +14311,7 @@ description: "Learn how to recommend personalized skincare routines using Revenu
 
 # How to Recommend a Skincare Routine with Slots
 
-With RevenueHunt Product Recommendation Quiz, it is possible to group products into slots and recommend a product for each step in a beauty routine.
+With RevenueHunt Product Recommendation Quiz, you can group products into slots and recommend a product for each step in a beauty routine.
 
 This guide is designed to help merchants effectively use [Product Slot Blocks](/reference/quiz-builder/results-page/#block-types) on the results page to organize product recommendations.
 
@@ -16309,7 +16309,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     10. Save the changes and publish them with the top-right `Publish` button.
     11. Remember to test the connection with a sample email.
 ??? tip "Tip: Segmented Campaigns Work Better"
-    It is possible to add contacts to Klaviyo List but there may be a better way: instead of adding them to a general list you can create **dynamic segments** based on your customers’ responses to send them hyper-targeted campaigns. Highly segmented campaigns return more than 3X the revenue per recipient as unsegmented campaigns.
+    You can add contacts to Klaviyo List but there may be a better way: instead of adding them to a general list you can create **dynamic segments** based on your customers’ responses to send them hyper-targeted campaigns. Highly segmented campaigns return more than 3X the revenue per recipient as unsegmented campaigns.
     With Klaviyo you can create segments to filter your leads and assign email flows to each segment. [Read more about sending follow-up emails via Klaviyo](#sending-follow-up-emails-via-klaviyo), including how to create and use segments on Klaviyo.
 ## Use quiz data in Klaviyo email templates
     If you need to modify our Klaviyo email template to match your brand’s style guide, you’ll need a developer because email templates in Klaviyo are built using HTML, CSS and the [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) system.
@@ -18680,7 +18680,7 @@ description: "Complete guide to setting up RevenueHunt quiz result emails and ad
 
 # Setting Up Result Emails with Product Recommendation Quiz
 
-Sending result emails to quiz takers can significantly improve your quiz sales by reducing cart abandonment and improving the customer experience. With RevenueHunt app it is possible to set up quiz result emails directly without the need to connect the app to an external CRM service, though this option is also available.
+Sending result emails to quiz takers can significantly improve your quiz sales by reducing cart abandonment and improving the customer experience. With the RevenueHunt app you can set up quiz result emails directly without the need to connect the app to an external CRM service, though this option is also available.
 
 This guide covers setting up email results for both [quiz respondents](#email-quiz-results-via-shop-quiz-app) and [administartors](#activate-email-notifications-to-admin) and well as sending results emails via an [external CRM service](/how-to-guides/send-leads-to-crm/).
 
@@ -19287,7 +19287,7 @@ description: "Learn how to set up multiple results pages in RevenueHunt to show 
 
 # How to Set Up Multiple Results Pages
 
-With the RevenueHunt app it is possible to set up Multiple Results Pages. To add an extra Results Page to your quiz follow the instructions below.
+With the RevenueHunt app you can set up Multiple Results Pages. To add an extra Results Page to your quiz follow the instructions below.
 
 !!! warning
 
@@ -25721,7 +25721,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
     You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
     ![quiz builder woo link categoreis link categories](/images/manual_woo_quizbuilder_linkcategories_linked_categories.png)
     To remove a linked categories click "x" next to the category name.
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
     ![quiz builder link collections exclude](/images/manual_woo_quizbuilder_linkcategories_excludecategories.png)
     Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
@@ -25735,7 +25735,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
     You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
     ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
     To remove a linked category click "x" next to the category name.
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
     Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
@@ -25749,7 +25749,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
     You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
     ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
     To remove a linked category click "x" next to the category name.
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
     Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
@@ -25765,7 +25765,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
     You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
     ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
     To remove a linked category click "x" next to the category name.
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
     Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
@@ -25859,7 +25859,7 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     `Slots` - Products were recommended in a Slots block.
     `Step 1: Cleanser` / `Slot Title` - Displays the title of the Slot block.
     `↑1 🎁1` - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
-    `✅5` - Displays which products this slot will allow to be displayed.
+    `✅5` - Displays which products this slot can show.
     `Cleansers (5)` / `Collection (x)` - Displays the collections which are linked to this slot.
     `All Natural Face Cleanser` - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
     ![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
@@ -25884,7 +25884,7 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     `Slots` - Products were recommended in a Slots block.
     `Step 1: Cleanser` / `Slot Title` - Displays the title of the Slot block.
     `↑1 🎁1` - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
-    `✅5` - Displays which products this slot will allow to be displayed.
+    `✅5` - Displays which products this slot can show.
     `Cleansers (5)` / `Collection (x)` - Displays the collections which are linked to this slot.
     `All Natural Face Cleanser` - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
     ![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
@@ -25909,7 +25909,7 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     `Slots` - Products were recommended in a Slots block.
     `Step 1: Cleanser` / `Slot Title` - Displays the title of the Slot block.
     `↑1 🎁1` - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
-    `✅5` - Displays which products this slot will allow to be displayed.
+    `✅5` - Displays which products this slot can show.
     `Cleansers (5)` / `Collection (x)` - Displays the collections which are linked to this slot.
     `All Natural Face Cleanser` - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
     ![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
@@ -25934,7 +25934,7 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     `Slots` - Products were recommended in a Slots block.
     `Step 1: Cleanser` / `Slot Title` - Displays the title of the Slot block.
     `↑1 🎁1` - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
-    `✅5` - Displays which products this slot will allow to be displayed.
+    `✅5` - Displays which products this slot can show.
     `Cleansers (5)` / `Collection (x)` - Displays the collections which are linked to this slot.
     `All Natural Face Cleanser` - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
     ![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
@@ -26106,7 +26106,7 @@ In the Notifications tab of the Quiz Builder, you can activate and edit the emai
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
     `Email TO:` - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     `switch to basic text message` - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
@@ -26121,7 +26121,7 @@ In the Notifications tab of the Quiz Builder, you can activate and edit the emai
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
     `Email TO:` - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     `switch to basic text message` - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
@@ -26136,7 +26136,7 @@ In the Notifications tab of the Quiz Builder, you can activate and edit the emai
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
     `Email TO:` - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     `switch to basic text message` - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
@@ -26151,7 +26151,7 @@ In the Notifications tab of the Quiz Builder, you can activate and edit the emai
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
     `Email TO:` - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     `switch to basic text message` - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
@@ -26290,12 +26290,12 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - *below* - Places the uploaded image below the question, above the choices.
     - *background* - Places the uploaded image on the background of the slide (overrides the default quiz background).
     - *split* - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-    - *Image Opacity* - A slider which allows to adjust the opacity of the uploaded image.
+    - *Image Opacity* - A slider which lets you adjust the opacity of the uploaded image.
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
     - *responsive* - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
     - *widget* - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
     - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
-    - *Video Opacity* - A slider which allows to adjust the opacity of the uploaded video.
+    - *Video Opacity* - A slider which lets you adjust the opacity of the uploaded video.
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
     `Question ID` - Displays the question unique ID.
     `conditional logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
@@ -26319,12 +26319,12 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - `below` - Places the uploaded image below the question, above the choices.
     - `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
     - `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-    - `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+    - `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
     - `responsive` - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
     - `widget` - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
     - `background` - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
-    - `Video Opacity` - A slider which allows to adjust the opacity of the uploaded video.
+    - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
     `Question ID` - Displays the question unique ID.
     `conditional logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
@@ -26348,12 +26348,12 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - `below` - Places the uploaded image below the question, above the choices.
     - `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
     - `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-    - `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+    - `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
     - `responsive` - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
     - `widget` - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
     - `background` - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
-    - `Video Opacity` - A slider which allows to adjust the opacity of the uploaded video.
+    - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
     `Question ID` - Displays the question unique ID.
     `conditional logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
@@ -26377,12 +26377,12 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - `below` - Places the uploaded image below the question, above the choices.
     - `background` - Places the uploaded image on the background of the slide (overrides the default quiz background).
     - `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-    - `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+    - `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
     - `responsive` - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
     - `widget` - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
     - `background` - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
-    - `Video Opacity` - A slider which allows to adjust the opacity of the uploaded video.
+    - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
     `Question ID` - Displays the question unique ID.
     `conditional logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
@@ -26624,8 +26624,8 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
     `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
-    `One-time purchase` - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
-    `Subscribe & save` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Placeholders**
     ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
     `Your name` - Default placeholder text on the name question slides. | Quiz
@@ -26644,10 +26644,10 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `Drop file here` - Default text on the file upload question slides. | Quiz
     `Click to upload` - Default text on the file upload question slides. | Quiz
     `File under 2MB` - Default text on the file upload question slides. | Quiz
-    `Delivery every X days` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    `Delivery every X weeks` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    `Delivery every X months` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    `Delivery every X years` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X days` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Delivery every X weeks` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Delivery every X months` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Delivery every X years` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Discount Notifications**
     ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
     `Qualifies for discount` - Default text when dynamic discounts are active in the quiz. | Results Page
@@ -26670,8 +26670,8 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
     `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
-    `One-time purchase` - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
-    `Subscribe & save` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Placeholders**
     ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
     `Your name` - Default placeholder text on the name question slides. | Quiz
@@ -26690,10 +26690,10 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `Drop file here` - Default text on the file upload question slides. | Quiz
     `Click to upload` - Default text on the file upload question slides. | Quiz
     `File under 2MB` - Default text on the file upload question slides. | Quiz
-    `Delivery every X days` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    `Delivery every X weeks` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    `Delivery every X months` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    `Delivery every X years` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X days` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Delivery every X weeks` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Delivery every X months` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Delivery every X years` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Discount Notifications**
     ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
     `Qualifies for discount` - Default text when dynamic discounts are active in the quiz. | Results Page
@@ -26716,8 +26716,8 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
     `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
-    `One-time purchase` - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
-    `Subscribe & save` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Placeholders**
     ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
     `Your name` - Default placeholder text on the name question slides. | Quiz
@@ -26736,10 +26736,10 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `Drop file here` - Default text on the file upload question slides. | Quiz
     `Click to upload` - Default text on the file upload question slides. | Quiz
     `File under 2MB` - Default text on the file upload question slides. | Quiz
-    `Delivery every X days` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    `Delivery every X weeks` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    `Delivery every X months` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    `Delivery every X years` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X days` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Delivery every X weeks` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Delivery every X months` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Delivery every X years` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Discount Notifications**
     ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
     `Qualifies for discount` - Default text when dynamic discounts are active in the quiz. | Results Page
@@ -26762,8 +26762,8 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
     `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
-    `One-time purchase` - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
-    `Subscribe & save` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Placeholders**
     ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
     `Your name` - Default placeholder text on the name question slides. | Quiz
@@ -26782,10 +26782,10 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `Drop file here` - Default text on the file upload question slides. | Quiz
     `Click to upload` - Default text on the file upload question slides. | Quiz
     `File under 2MB` - Default text on the file upload question slides. | Quiz
-    `Delivery every X days` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    `Delivery every X weeks` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    `Delivery every X months` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    `Delivery every X years` - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    `Delivery every X days` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Delivery every X weeks` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Delivery every X months` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    `Delivery every X years` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Discount Notifications**
     ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
     `Qualifies for discount` - Default text when dynamic discounts are active in the quiz. | Results Page
@@ -27253,11 +27253,11 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Create new Results Page` - add a new results page to your quiz.
 ### Discounts settings
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
-    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
     `Visible discount` - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
     `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
-    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
     **Dynamic Discounts Settings**
     `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
@@ -27271,11 +27271,11 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `add a discount` - Adds a new dynamic discount below (Discount [B]).
     `deactivate` - Deactivates dynamic discounts.
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
-    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
     `Visible discount` - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
     `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
-    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
     **Dynamic Discounts Settings**
     `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
@@ -27289,11 +27289,11 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `add a discount` - Adds a new dynamic discount below (Discount [B]).
     `deactivate` - Deactivates dynamic discounts.
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
-    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
     `Visible discount` - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
     `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
-    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
     **Dynamic Discounts Settings**
     `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
@@ -27307,11 +27307,11 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `add a discount` - Adds a new dynamic discount below (Discount [B]).
     `deactivate` - Deactivates dynamic discounts.
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
-    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
     `Visible discount` - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
     `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
-    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
     **Dynamic Discounts Settings**
     `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
@@ -27325,11 +27325,11 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `add a discount` - Adds a new dynamic discount below (Discount [B]).
     `deactivate` - Deactivates dynamic discounts.
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
-    `Discount Code Settings` - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    `Discount Code Settings` - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
     `Visible discount` - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
     `Code` - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
-    `Dynamic Discounts` - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    `Dynamic Discounts` - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
     **Dynamic Discounts Settings**
     `Enable notifications` - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
@@ -27791,12 +27791,12 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
         - **below** - Places the uploaded image below the question, above the choices.
         - **background** - Places the uploaded image on the background of the slide (overrides the default quiz background).
         - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
+        - **Image Opacity** - A slider which lets you adjust the opacity of the uploaded image.
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
         - **responsive** - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
         - **widget** - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
+        - **Video Opacity** - A slider which lets you adjust the opacity of the uploaded video.
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
     - **Question ID** - Displays the question unique ID.
     **conditional logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
@@ -27820,12 +27820,12 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
         - **below** - Places the uploaded image below the question, above the choices.
         - **background** - Places the uploaded image on the background of the slide (overrides the default quiz background).
         - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
+        - **Image Opacity** - A slider which lets you adjust the opacity of the uploaded image.
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
         - **responsive** - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
         - **widget** - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
+        - **Video Opacity** - A slider which lets you adjust the opacity of the uploaded video.
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
     - **Question ID** - Displays the question unique ID.
     **conditional logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
@@ -27849,12 +27849,12 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
         - **below** - Places the uploaded image below the question, above the choices.
         - **background** - Places the uploaded image on the background of the slide (overrides the default quiz background).
         - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
+        - **Image Opacity** - A slider which lets you adjust the opacity of the uploaded image.
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
         - **responsive** - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
         - **widget** - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
+        - **Video Opacity** - A slider which lets you adjust the opacity of the uploaded video.
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
     - **Question ID** - Displays the question unique ID.
     **conditional logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
@@ -27878,12 +27878,12 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
         - **below** - Places the uploaded image below the question, above the choices.
         - **background** - Places the uploaded image on the background of the slide (overrides the default quiz background).
         - **split** - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-        - **Image Opacity** - A slider which allows to adjust the opacity of the uploaded image.
+        - **Image Opacity** - A slider which lets you adjust the opacity of the uploaded image.
     - **Video** - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
         - **responsive** - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
         - **widget** - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
         - **background** - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
-        - **Video Opacity** - A slider which allows to adjust the opacity of the uploaded video.
+        - **Video Opacity** - A slider which lets you adjust the opacity of the uploaded video.
     - **Custom JS Code** - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
     - **Question ID** - Displays the question unique ID.
     **conditional logic** / **tree icon** - Opens the [Conditional Logic](#conditional-logic) section of the Quiz Builder.
@@ -27905,7 +27905,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
     ![quiz builder woo link categoreis link categories](/images/manual_woo_quizbuilder_linkcategories_linked_categories.png)
     To remove a linked categories click "x" next to the category name.
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
     ![quiz builder link collections exclude](/images/manual_woo_quizbuilder_linkcategories_excludecategories.png)
     Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
@@ -27919,7 +27919,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
     ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
     To remove a linked category click "x" next to the category name.
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
     Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
@@ -27933,7 +27933,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
     ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
     To remove a linked category click "x" next to the category name.
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
     Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
@@ -27949,7 +27949,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
     ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
     To remove a linked category click "x" next to the category name.
-    **excluded collections** - Opens the dropdown which allows to exclude categories of products from a choice. 
+    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
     Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
@@ -28719,11 +28719,11 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Create new Results Page** - add a new results page to your quiz.
 ### Discounts settings
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    **Discount Code Settings** - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
     - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
     - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    **Dynamic Discounts** - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
     **Dynamic Discounts Settings**
     - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
@@ -28737,11 +28737,11 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **add a discount** - Adds a new dynamic discount below (Discount [B]).
     **deactivate** - Deactivates dynamic discounts.
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    **Discount Code Settings** - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
     - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
     - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    **Dynamic Discounts** - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
     **Dynamic Discounts Settings**
     - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
@@ -28755,11 +28755,11 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **add a discount** - Adds a new dynamic discount below (Discount [B]).
     **deactivate** - Deactivates dynamic discounts.
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    **Discount Code Settings** - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
     - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
     - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    **Dynamic Discounts** - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
     **Dynamic Discounts Settings**
     - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
@@ -28773,11 +28773,11 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **add a discount** - Adds a new dynamic discount below (Discount [B]).
     **deactivate** - Deactivates dynamic discounts.
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    **Discount Code Settings** - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
     - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
     - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    **Dynamic Discounts** - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
     **Dynamic Discounts Settings**
     - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
@@ -28791,11 +28791,11 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **add a discount** - Adds a new dynamic discount below (Discount [B]).
     **deactivate** - Deactivates dynamic discounts.
     ![quiz builder results page discount](/images/manual_quizbuilder_resultspage_settings_discount.png)
-    **Discount Code Settings** - Allows to add a static discount to your results page. Click "Add" to open the discount menu.
+    **Discount Code Settings** - Lets you add a static discount to your results page. Click "Add" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_discountcode.png){width="500"}
     - **Visible discount** - Select the discount % from the dropdown. The percentage discount will be visible on the results page products. The discount code will be automatically redeemed at checkout.
     - **Code** - Type a discount code that corresponds to this discount. You have to set up this discount code in your store > Shopify Discounts first. Follow this guide to learn [How to add a discount to the quiz](/how-to-guides/add-discount/).
-    **Dynamic Discounts** - Allows to add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
+    **Dynamic Discounts** - Lets you add a dynamic discount to your results page with a minimal cart value. Click "activate" to open the discount menu.
     ![quiz builder results page discount discount code](/images/manual_quizbuilder_resultspage_settings_discount_dynamicdiscounts.png){width="500"}
     **Dynamic Discounts Settings**
     - **Enable notifications** - A toast notification will appear when a customer qualifies for a discount. Toggle to enable/disable.
@@ -28824,7 +28824,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
-    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
     - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
@@ -28839,7 +28839,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
-    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
     - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
@@ -28854,7 +28854,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
-    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
     - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
@@ -28869,7 +28869,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Email REPLY_TO:** - Fill in the email address to which the customer will be able to send a reply.
     **Email TO:** - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
     **Email Subject:** - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
-    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and allows to display product images).
+    **Email Text Message** - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
     - **switch to advanced HTML message** - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     - **switch to basic text message** - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
@@ -28960,8 +28960,8 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - **...Cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
     - **Retake quiz** - Default text on the button that allows the user to retake the quiz. | Results Page
     - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
-    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **One-time purchase** - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Subscribe & save** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Placeholders**
     ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
     - **Your name** - Default placeholder text on the name question slides. | Quiz
@@ -28980,10 +28980,10 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - **Drop file here** - Default text on the file upload question slides. | Quiz
     - **Click to upload** - Default text on the file upload question slides. | Quiz
     - **File under 2MB** - Default text on the file upload question slides. | Quiz
-    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X days** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Delivery every X weeks** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Delivery every X months** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Delivery every X years** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Discount Notifications**
     ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
     - **Qualifies for discount** - Default text when dynamic discounts are active in the quiz. | Results Page
@@ -29006,8 +29006,8 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - **...Cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
     - **Retake quiz** - Default text on the button that allows the user to retake the quiz. | Results Page
     - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
-    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **One-time purchase** - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Subscribe & save** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Placeholders**
     ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
     - **Your name** - Default placeholder text on the name question slides. | Quiz
@@ -29026,10 +29026,10 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - **Drop file here** - Default text on the file upload question slides. | Quiz
     - **Click to upload** - Default text on the file upload question slides. | Quiz
     - **File under 2MB** - Default text on the file upload question slides. | Quiz
-    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X days** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Delivery every X weeks** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Delivery every X months** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Delivery every X years** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Discount Notifications**
     ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
     - **Qualifies for discount** - Default text when dynamic discounts are active in the quiz. | Results Page
@@ -29052,8 +29052,8 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - **...Cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
     - **Retake quiz** - Default text on the button that allows the user to retake the quiz. | Results Page
     - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
-    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **One-time purchase** - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Subscribe & save** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Placeholders**
     ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
     - **Your name** - Default placeholder text on the name question slides. | Quiz
@@ -29072,10 +29072,10 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - **Drop file here** - Default text on the file upload question slides. | Quiz
     - **Click to upload** - Default text on the file upload question slides. | Quiz
     - **File under 2MB** - Default text on the file upload question slides. | Quiz
-    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X days** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Delivery every X weeks** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Delivery every X months** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Delivery every X years** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Discount Notifications**
     ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
     - **Qualifies for discount** - Default text when dynamic discounts are active in the quiz. | Results Page
@@ -29098,8 +29098,8 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - **...Cart** - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
     - **Retake quiz** - Default text on the button that allows the user to retake the quiz. | Results Page
     - **Read more** - Default text on the product tile that opens the extended product description. | Results Page
-    - **One-time purchase** - Default text that allows to add to cart a single-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Subscribe & save** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **One-time purchase** - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Subscribe & save** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Placeholders**
     ![quiz builder quiz settings messages placeholders](/images/manual_quizbuilder_quizsettings_messages_placeholders.png){width="500"}
     - **Your name** - Default placeholder text on the name question slides. | Quiz
@@ -29118,10 +29118,10 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - **Drop file here** - Default text on the file upload question slides. | Quiz
     - **Click to upload** - Default text on the file upload question slides. | Quiz
     - **File under 2MB** - Default text on the file upload question slides. | Quiz
-    - **Delivery every X days** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Delivery every X weeks** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Delivery every X months** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
-    - **Delivery every X years** - Default text that allows to add to cart a reoccurring-purchase variant of the product if a product is a subscription product. | Results Page
+    - **Delivery every X days** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Delivery every X weeks** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Delivery every X months** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
+    - **Delivery every X years** - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     **Discount Notifications**
     ![quiz builder quiz settings messages discounts](/images/manual_quizbuilder_quizsettings_messages_discounts.png){width="500"}
     - **Qualifies for discount** - Default text when dynamic discounts are active in the quiz. | Results Page
@@ -29392,7 +29392,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Slots** - Products were recommended in a Slots block.
     **Step 1: Cleanser** / **Slot Title** - Displays the title of the Slot block.
     **↑1 🎁1** - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
-    **✅5** - Displays which products this slot will allow to be displayed.
+    **✅5** - Displays which products this slot can show.
     **Cleansers (5)** / **Collection (x)** - Displays the collections which are linked to this slot.
     **All Natural Face Cleanser** - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
     ![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
@@ -29417,7 +29417,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Slots** - Products were recommended in a Slots block.
     **Step 1: Cleanser** / **Slot Title** - Displays the title of the Slot block.
     **↑1 🎁1** - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
-    **✅5** - Displays which products this slot will allow to be displayed.
+    **✅5** - Displays which products this slot can show.
     **Cleansers (5)** / **Collection (x)** - Displays the collections which are linked to this slot.
     **All Natural Face Cleanser** - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
     ![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
@@ -29442,7 +29442,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Slots** - Products were recommended in a Slots block.
     **Step 1: Cleanser** / **Slot Title** - Displays the title of the Slot block.
     **↑1 🎁1** - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
-    **✅5** - Displays which products this slot will allow to be displayed.
+    **✅5** - Displays which products this slot can show.
     **Cleansers (5)** / **Collection (x)** - Displays the collections which are linked to this slot.
     **All Natural Face Cleanser** - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
     ![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
@@ -29467,7 +29467,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Slots** - Products were recommended in a Slots block.
     **Step 1: Cleanser** / **Slot Title** - Displays the title of the Slot block.
     **↑1 🎁1** - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
-    **✅5** - Displays which products this slot will allow to be displayed.
+    **✅5** - Displays which products this slot can show.
     **Cleansers (5)** / **Collection (x)** - Displays the collections which are linked to this slot.
     **All Natural Face Cleanser** - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
     ![quiz builder metrics responses details3](/images/manual_quizbuilder_metrics_responses_details3.png)
@@ -31993,22 +31993,22 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
     <iframe src="https://www.youtube.com/embed/gfIwTn9hp8E?si=osTF2c3z9afF7IU1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 ## Intro 
-    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
+    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
     !!! tip
         Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
     **Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.
     Let’s get started.
-    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
+    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
     !!! tip
         Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
     **Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.
     Let’s get started.
-    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
+    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
     !!! tip
         Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
     **Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.
     Let’s get started.
-    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, it is possible to group products into slots and recommend a product for each step in your beauty routine.
+    If you run a cosmetics shop you may want to recommend a full routine to your customers instead of singular products. With the RevenueHunt app, you can group products into slots and recommend a product for each step in your beauty routine.
     !!! tip
         Check out our [Skincare Quiz Demo](https://skincarequiz.myshopify.com/) site and take the quiz to see an example.
     **Objective**: In this tutorial, you’ll learn how to build a quiz that recommends a four-step skincare routine to your customers.

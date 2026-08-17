@@ -486,7 +486,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+        `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
 
     
     !!! tip "Uploaded image Tip"
@@ -557,7 +557,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+        `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
 
 
     !!! tip "Uploaded image Tip"
@@ -626,7 +626,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+        `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
 
 
     !!! tip "Uploaded image Tip"
@@ -695,7 +695,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+        `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
 
 
     !!! tip "Uploaded image Tip"
@@ -764,7 +764,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-        `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+        `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
 
 
 

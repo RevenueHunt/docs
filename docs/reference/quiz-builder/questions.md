@@ -490,14 +490,14 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - *below* - Places the uploaded image below the question, above the choices.
     - *background* - Places the uploaded image on the background of the slide (overrides the default quiz background).
     - *split* - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
-    - *Image Opacity* - A slider which allows to adjust the opacity of the uploaded image.
+    - *Image Opacity* - A slider which lets you adjust the opacity of the uploaded image.
 
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
     - *responsive* - Places the uploaded video as a background on the slide. The play/pause menu is active on the slide.
     - *widget* - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
     - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
-    - *Video Opacity* - A slider which allows to adjust the opacity of the uploaded video.
+    - *Video Opacity* - A slider which lets you adjust the opacity of the uploaded video.
 
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
@@ -545,7 +545,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - *split* - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-    - *Image Opacity* - A slider which allows to adjust the opacity of the uploaded image.
+    - *Image Opacity* - A slider which lets you adjust the opacity of the uploaded image.
 
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -555,7 +555,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-    - *Video Opacity* - A slider which allows to adjust the opacity of the uploaded video.
+    - *Video Opacity* - A slider which lets you adjust the opacity of the uploaded video.
 
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
@@ -603,7 +603,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-    - `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+    - `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
 
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -613,7 +613,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `background` - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-    - `Video Opacity` - A slider which allows to adjust the opacity of the uploaded video.
+    - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
 
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
@@ -661,7 +661,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-    - `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+    - `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
 
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -671,7 +671,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `background` - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-    - `Video Opacity` - A slider which allows to adjust the opacity of the uploaded video.
+    - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
 
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
@@ -719,7 +719,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `split` - Places the uploaded image on the side of the slide. Splits the slide into two. On mobile, the image is placed on top of the question.
 
-    - `Image Opacity` - A slider which allows to adjust the opacity of the uploaded image.
+    - `Image Opacity` - A slider which lets you adjust the opacity of the uploaded image.
 
     `Video` - Click "Add" to uplaod a featured video to the question. An extra menu appears once activated.
 
@@ -729,7 +729,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `background` - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
 
-    - `Video Opacity` - A slider which allows to adjust the opacity of the uploaded video.
+    - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
 
     `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
 
