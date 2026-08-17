@@ -465,7 +465,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     !!! example
 
-        Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
+        Imagine you run a skincare ecommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
         In Mailchimp, you create an email series targeting these tags. For instance:
 
@@ -506,7 +506,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
         !!! example
 
-            Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
+            Imagine you run a skincare ecommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
             In Mailchimp, you create an email series targeting these tags. For instance:
 
@@ -545,7 +545,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
         !!! example
 
-            Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
+            Imagine you run a skincare ecommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
             In Mailchimp, you create an email series targeting these tags. For instance:
 
@@ -585,7 +585,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
         !!! example
 
-            Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
+            Imagine you run a skincare ecommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
             In Mailchimp, you create an email series targeting these tags. For instance:
 
@@ -625,7 +625,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
         !!! example
 
-            Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
+            Imagine you run a skincare ecommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
             In Mailchimp, you create an email series targeting these tags. For instance:
 
@@ -665,7 +665,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
         !!! example
 
-            Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
+            Imagine you run a skincare ecommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
             In Mailchimp, you create an email series targeting these tags. For instance:
 

@@ -18,7 +18,7 @@ This article explains how to add product metafields/attributes to products on yo
 
         In product variant slots, metafield blocks currently display metafields from the parent product, not variant-level metafields.
 
-    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible (though the `💎Built for Shopify` version of the RevenueHunt app now offers a direct `Unit price` settings under [Slot item composition](/reference/quiz-builder/results-page/#slot-item-composition) settings).
+    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on ecommerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible (though the `💎Built for Shopify` version of the RevenueHunt app now offers a direct `Unit price` settings under [Slot item composition](/reference/quiz-builder/results-page/#slot-item-composition) settings).
 
 
     In the `💎Built for Shopify` version of the RevenueHunt app, the process for adding and displaying metafields is streamlined. Follow the steps outlined below to import product metafields from your store into the Product Recommendation Quiz and display them on your quiz's results page:
@@ -57,7 +57,7 @@ This article explains how to add product metafields/attributes to products on yo
 
         The app can only sync and show the custom text product metafields.
 
-    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
+    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on ecommerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
 
     If you're looking to import product metafields from your store into the Product Recommendation Quiz to display them on your quiz's results page, follow the steps outlined below:
 
@@ -121,7 +121,7 @@ This article explains how to add product metafields/attributes to products on yo
 
 === "WooCommerce"
 
-    [Attributes](https://woocommerce.com/document/managing-product-taxonomies/#product-attributes) in WooCommerce are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Attributes make this possible.
+    [Attributes](https://woocommerce.com/document/managing-product-taxonomies/#product-attributes) in WooCommerce are used by stores to display specific product properties that aren't shown by default on ecommerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Attributes make this possible.
 
     If you're looking to import product attributes from your store into the Product Recommendation Quiz to display them on your quiz's results page, follow the steps outlined below:
 

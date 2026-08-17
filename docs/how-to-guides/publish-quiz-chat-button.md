@@ -1,5 +1,5 @@
 ---
-description: "Step-by-step guide to add a chat button that opens a RevenueHunt quiz popup on your eCommerce store."
+description: "Step-by-step guide to add a chat button that opens a RevenueHunt quiz popup on your ecommerce store."
 icon: material/chat-outline
 ---
 
@@ -8,7 +8,7 @@ icon: material/chat-outline
 This guide provides step-by-step instructions on how to implement a chat button that opens the quiz feature, offering both theme-based and manual methods.
 
 !!! info "What's a Chat Button?"
-    It's a button that opens the quiz popup when clicked. You can improve your Shopify / eCommerce store's interactivity by integrating a chat-like button that triggers a quiz popup. 
+    It's a button that opens the quiz popup when clicked. You can improve your Shopify / ecommerce store's interactivity by integrating a chat-like button that triggers a quiz popup. 
 
 !!! note "Before you start"
 
@@ -417,4 +417,4 @@ This guide provides step-by-step instructions on how to implement a chat button 
     4. Save the changes and refresh the page.   
 
 ---
-By following these instructions, you can successfully add a chat-like button to your Shopify/eCommerce store that opens a quiz popup.
+By following these instructions, you can successfully add a chat-like button to your Shopify/ecommerce store that opens a quiz popup.

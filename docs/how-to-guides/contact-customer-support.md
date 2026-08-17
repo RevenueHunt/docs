@@ -5,7 +5,7 @@ icon: material/face-agent
 
 # How to Contact Customer Support
 
-Our sharpest and friendliest support team in the eCommerce sector can be reached via the quiz below:
+Our sharpest and friendliest support team in the ecommerce sector can be reached via the quiz below:
 
 <script src="https://admin.revenuehunt.com/embed.js" async></script>
 <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/ZAHJoMM" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>

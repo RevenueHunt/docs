@@ -1,5 +1,5 @@
 ---
-description: "Create and manage quiz questions in RevenueHunt with multiple choice blocks, settings, and customization options."
+description: "Create and manage quiz questions in RevenueHunt with multiple-choice blocks, settings, and customization options."
 ---
 
 # Quiz Builder - Questions
@@ -83,11 +83,11 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice.png){width="500"}
 
-    `Pictures Choice` - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_pictureschoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_picturechoice.png){width="500"}
 
-    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
+    `Dropdown` - Multiple-choice slide which displays choices as a dropdown menu.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown.png){width="500"}
 
@@ -154,13 +154,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
+    `Dropdown` - Multiple-choice slide which displays choices as a dropdown menu.
 
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
 
     `Yes/No` - Two choices slide which displays choices as a clickable options.
 
-    `Pictures Choice` - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
@@ -192,13 +192,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
+    `Dropdown` - Multiple-choice slide which displays choices as a dropdown menu.
 
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
 
     `Yes/No` - Two choices slide which displays choices as a clickable options.
 
-    `Pictures Choice` - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
@@ -230,13 +230,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
+    `Dropdown` - Multiple-choice slide which displays choices as a dropdown menu.
 
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
 
     `Yes/No` - Two choices slide which displays choices as a clickable options.
 
-    `Pictures Choice` - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
@@ -268,13 +268,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
+    `Dropdown` - Multiple-choice slide which displays choices as a dropdown menu.
 
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
 
     `Yes/No` - Two choices slide which displays choices as a clickable options.
 
-    `Pictures Choice` - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
@@ -306,13 +306,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
+    `Dropdown` - Multiple-choice slide which displays choices as a dropdown menu.
 
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
 
     `Yes/No` - Two choices slide which displays choices as a clickable options.
 
-    `Pictures Choice` - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
@@ -946,7 +946,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
 
     #### Multiple Choice 
     
-    Adds a multiple choice block to your question.
+    Adds a multiple-choice block to your question.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice.png){width="300"}
 

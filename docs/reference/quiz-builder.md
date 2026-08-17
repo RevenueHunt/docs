@@ -390,9 +390,9 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
 
-    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    **Pictures Choice** - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
-    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
+    **Dropdown** - Multiple-choice slide which displays choices as a dropdown menu.
 
     **Yes/No** - Two choices slide which displays choices as a clickable options.
 
@@ -437,13 +437,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
+    **Dropdown** - Multiple-choice slide which displays choices as a dropdown menu.
 
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
 
     **Yes/No** - Two choices slide which displays choices as a clickable options.
 
-    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    **Pictures Choice** - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
     **Statement** - A statement slide which displays text and a button to proceed to the next question.
 
@@ -475,13 +475,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
+    **Dropdown** - Multiple-choice slide which displays choices as a dropdown menu.
 
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
 
     **Yes/No** - Two choices slide which displays choices as a clickable options.
 
-    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    **Pictures Choice** - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
     **Statement** - A statement slide which displays text and a button to proceed to the next question.
 
@@ -513,13 +513,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
+    **Dropdown** - Multiple-choice slide which displays choices as a dropdown menu.
 
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
 
     **Yes/No** - Two choices slide which displays choices as a clickable options.
 
-    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    **Pictures Choice** - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
     **Statement** - A statement slide which displays text and a button to proceed to the next question.
 
@@ -551,13 +551,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
+    **Dropdown** - Multiple-choice slide which displays choices as a dropdown menu.
 
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
 
     **Yes/No** - Two choices slide which displays choices as a clickable options.
 
-    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    **Pictures Choice** - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
     **Statement** - A statement slide which displays text and a button to proceed to the next question.
 
@@ -589,13 +589,13 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
-    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
+    **Dropdown** - Multiple-choice slide which displays choices as a dropdown menu.
 
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
 
     **Yes/No** - Two choices slide which displays choices as a clickable options.
 
-    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    **Pictures Choice** - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
 
     **Statement** - A statement slide which displays text and a button to proceed to the next question.
 
@@ -3444,7 +3444,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
             It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+            This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
             ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -3507,7 +3507,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
             It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+            This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
             ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -3560,7 +3560,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
             It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+            This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
             ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -3602,7 +3602,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
             It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+            This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
             ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -3642,7 +3642,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
             It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+            This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
             ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -6487,17 +6487,17 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
 
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
 
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
 
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
 
-    **table** - Displays the dropoff rate for each question and the results page in a table format.
+    **table** - Displays the drop-off rate for each question and the results page in a table format.
 
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
 
-    **chart** - Displays the dropoff rate for each question and the results page in a chart format.
+    **chart** - Displays the drop-off rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
@@ -6505,17 +6505,17 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_woo_quizbuilder_metrics_dropoff](/images/manual_woo_quizbuilder_metrics_dropoff.png)
 
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
 
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
 
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
 
-    **table** - Displays the dropoff rate for each question and the results page in a table format.
+    **table** - Displays the drop-off rate for each question and the results page in a table format.
 
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
 
-    **chart** - Displays the dropoff rate for each question and the results page in a chart format.
+    **chart** - Displays the drop-off rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
@@ -6523,17 +6523,17 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
 
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
 
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
 
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
 
-    **table** - Displays the dropoff rate for each question and the results page in a table format.
+    **table** - Displays the drop-off rate for each question and the results page in a table format.
 
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
 
-    **chart** - Displays the dropoff rate for each question and the results page in a chart format.
+    **chart** - Displays the drop-off rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
@@ -6541,17 +6541,17 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
 
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
 
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
 
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
 
-    **table** - Displays the dropoff rate for each question and the results page in a table format.
+    **table** - Displays the drop-off rate for each question and the results page in a table format.
 
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
 
-    **chart** - Displays the dropoff rate for each question and the results page in a chart format.
+    **chart** - Displays the drop-off rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
@@ -6559,17 +6559,17 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
 
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
 
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
 
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
 
-    **table** - Displays the dropoff rate for each question and the results page in a table format.
+    **table** - Displays the drop-off rate for each question and the results page in a table format.
 
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
 
-    **chart** - Displays the dropoff rate for each question and the results page in a chart format.
+    **chart** - Displays the drop-off rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 

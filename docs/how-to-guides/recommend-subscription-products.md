@@ -7,7 +7,7 @@ description: "Step-by-step guide to integrate and recommend subscription product
 
 This guide explains how to integrate and recommend subscription products with RevenueHunt app.
 
-Recommending subscription products via the RevenueHunt Product Recommendation Quiz can simplify your e-commerce strategy by providing a steady revenue stream and fostering long-term customer relationships. 
+Recommending subscription products via the RevenueHunt Product Recommendation Quiz can simplify your ecommerce strategy by providing a steady revenue stream and fostering long-term customer relationships. 
 
 However, not all subscription apps are supported yet with the RevenueHunt app. Currently, we support [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce.
 

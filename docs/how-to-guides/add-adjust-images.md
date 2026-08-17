@@ -22,7 +22,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 - **[Image Block](/how-to-guides/add-adjust-images/#image-blocks)** - You can upload an individual image via an Image Block directly into one of the quiz [questions](/reference/quiz-builder/questions/) or [results page](/reference/quiz-builder/results-page/).
 
-- **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - You can add a [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) to your question, which will allow you to add an image to each choice in that multiple choice question.
+- **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - You can add a [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) to your question, which will allow you to add an image to each choice in that multiple-choice question.
 
 - **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-image-in-productvariantscollection-blocks) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
 
@@ -1272,7 +1272,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/pRIPY4pLoMw?si=EbnsHRRnzSf_NKHX" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
 
     ![how_to_shopifyv2_improve_image_quality_picturechoicequestions](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
 
@@ -1308,7 +1308,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 === "Shopify (Legacy)"
 
-    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
 
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
@@ -1317,7 +1317,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         ![manual_quizbuilder_quizbuilder_addquestions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
+    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
 
         !!! warning "Image size"
 
@@ -1336,7 +1336,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 === "WooCommerce"
 
-    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
 
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
@@ -1345,7 +1345,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         ![manual_quizbuilder_quizbuilder_addquestions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
+    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
 
         !!! warning "Image size"
 
@@ -1363,7 +1363,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 === "Magento"
 
-    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
 
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
@@ -1372,7 +1372,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         ![manual_quizbuilder_quizbuilder_addquestions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
+    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
 
         !!! warning "Image size"
 
@@ -1390,7 +1390,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 === "BigCommerce"
 
-    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
 
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
@@ -1399,7 +1399,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         ![manual_quizbuilder_quizbuilder_addquestions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
+    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
 
         !!! warning "Image size"
 
@@ -1417,7 +1417,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 === "Standalone"
 
-    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
 
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
@@ -1426,7 +1426,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
         ![manual_quizbuilder_quizbuilder_addquestions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
+    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
 
         !!! warning "Image size"
 

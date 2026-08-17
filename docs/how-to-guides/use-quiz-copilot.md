@@ -42,9 +42,9 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     1. To open Quiz Copilot, go to the [Get support](/reference/dashboard/#support) page.
     2. Click on the `Chat with Quiz Copilot` button.
-    3. A new pop-up window will open for you to type your first message to Quiz Copilot.
+    3. A new popup window will open for you to type your first message to Quiz Copilot.
 
-    ![QuizCopilot Pop-up Window](https://loom.com/i/68afd9e9eaf9497383582691480beb73?workflows_screenshot=true)
+    ![QuizCopilot Popup Window](https://loom.com/i/68afd9e9eaf9497383582691480beb73?workflows_screenshot=true)
 
     ## Use Cases
 
@@ -54,7 +54,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=CpUXSDUwlrfQnCjy&amp;start=16" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. You can request Quiz Copilot to create a quiz. *For example, to determine customer's skin type.*
     3. Quiz Copilot will process your request and may ask additional questions for clarification.
     4. It will then generate a new quiz and provide more information about the quiz it created.
@@ -72,7 +72,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     You can ask Quiz Copilot to add recommended products to the quiz.
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to add recommended products to the quiz.
     3. Quiz Copilot will generate a new quiz with the recommended products.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -85,7 +85,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     You can ask Quiz Copilot to style the quiz with Custom CSS code.
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to make changes to the quiz design.
     3. Quiz Copilot will generate changes and allow you to apply or reject the changes.
 
@@ -95,7 +95,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     You can ask Quiz Copilot to analyze the quiz and provide insights on how to improve it.
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to analyze the quiz.
     3. Quiz Copilot will analyze the quiz and provide insights on how to improve it.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -108,7 +108,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     You can ask Quiz Copilot to explain how to publish the quiz on your website.
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask for instructions on how to publish the quiz.
     3. Quiz Copilot will read our documentation and provide step-by-step guidance and relevant documentation links.
 
@@ -120,7 +120,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     QuizCopilot can assist in creating email or Klaviyo email templates for your quiz email flow.
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window, or head over to the [Quiz Settings](/reference/quiz-builder/quiz-settings/)  > [Integrations](/reference/quiz-builder/quiz-settings/#integrations) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or head over to the [Quiz Settings](/reference/quiz-builder/quiz-settings/)  > [Integrations](/reference/quiz-builder/quiz-settings/#integrations) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
     2. Paste your desired layout message, and Quiz Copilot will generate the template code.
 
         ![QuizCopilot Building Klaviyo Templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)
@@ -133,7 +133,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     Quiz Copilot can also be used to translate a quiz to another language.
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to translate your main  quiz to another language.
     3. Quiz Copilot will generate a new quiz copy in the desired language.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -146,7 +146,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     **Styling Questions**
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to style the quiz with Custom CSS code.
     3. Quiz Copilot will generate a new CSS code for the quiz.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -160,7 +160,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     **Styling Results Page**
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to style the results page with Custom CSS code.
     3. Quiz Copilot will generate a new CSS code for the results page.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -178,7 +178,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     **Styling Questions**   
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to style the questions with Custom JavaScript code.
     3. Quiz Copilot will generate a new JavaScript code for the questions.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -191,7 +191,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     **Styling Results Page**
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to style the results page with Custom JavaScript code.
     3. Quiz Copilot will generate a new JavaScript code for the results page.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -208,7 +208,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     You can ask Quiz Copilot to analyze a quiz response and provide insights on why certain products were recommended or not.
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to analyze a quiz response.
     3. Quiz Copilot will analyze the quiz response and provide insights on why certain products were recommended or not.
 
@@ -230,7 +230,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
 === "Standalone"
 
-    Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the Standalone version of the RevenueHunt app for Headless e-commerce.
+    Quiz Copilot is a feature of the new Built for Shopify RevenueHunt app. It is **not available** in the Standalone version of the RevenueHunt app for Headless ecommerce.
 
 
 

@@ -1635,7 +1635,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-        This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -1698,7 +1698,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-        This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -1751,7 +1751,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-        This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -1793,7 +1793,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-        This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -1833,7 +1833,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-        This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         

@@ -635,7 +635,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
         ![how to use skip logic example](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
 
 
-    1. Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
     2. Add multiple [`Statement` slides](/reference/quiz-builder/questions/#statement) describing the specific skin type and its challenges. For example:
 
         !!! example "Statement Slides"
@@ -867,7 +867,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
     To add scores or variables to choices, follow these steps:
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
     2. Open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed

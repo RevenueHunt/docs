@@ -517,7 +517,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -548,7 +548,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -579,7 +579,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -610,7 +610,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -641,7 +641,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 

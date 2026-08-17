@@ -26,7 +26,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 
     To add scores or variables to choices, follow these steps:
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
     2. Open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
@@ -107,7 +107,7 @@ Follow these steps to set up a winning variable quiz:
 
     Let's imagine you are creating a quiz for a skin care brand. You want to know which skin type the customer has.
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their skin condition. For example: itchiness, tightness, dryness, etc. if you are creating a quiz for a skin care brand.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their skin condition. For example: itchiness, tightness, dryness, etc. if you are creating a quiz for a skin care brand.
 
     2. **Assign Variables and Scores to Choices**: Go to each question in your quiz. For each choice, open the [choice settings](/reference/quiz-builder/questions/#choice-settings) and [assign varibales to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices). 
 
@@ -384,7 +384,7 @@ Follow these steps to set up a scoring quiz with one results page:
 
         We have Scoring Quiz template available among the Quiz Templates. To use it go to the [Dashboard](/reference/dashboard/) and click on `Create Quiz` button. Then, select `Scoring Quiz` template.
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
 
     2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) section. 
 
@@ -495,7 +495,7 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/aRp9cmo8XLI?si=dlqABFGJMtT4mmnc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
 
     2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) section. 
 

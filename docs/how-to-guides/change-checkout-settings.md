@@ -169,4 +169,4 @@ Follow the instructions below to change your checkout settings:
 
 ---
 
-By following these steps, you can edit the checkout settings on your RevenueHunt eCommerce quiz.
+By following these steps, you can edit the checkout settings on your RevenueHunt ecommerce quiz.

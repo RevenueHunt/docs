@@ -1,11 +1,11 @@
 ---
 icon: material/cash-multiple
-description: "Track RevenueHunt quiz analytics and revenue metrics to measure eCommerce store performance and ROI."
+description: "Track RevenueHunt quiz analytics and revenue metrics to measure ecommerce store performance and ROI."
 ---
 
 # How to Track Quiz Revenue
 
-Understanding the revenue generated from quizzes on your eCommerce store can provide valuable insights into customer engagement and the effectiveness of your marketing strategies. 
+Understanding the revenue generated from quizzes on your ecommerce store can provide valuable insights into customer engagement and the effectiveness of your marketing strategies. 
 
 This documentation outlines how to track quiz analytics and revenue generated from quizzes in the Revenue Hunt app.
 

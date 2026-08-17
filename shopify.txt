@@ -656,7 +656,7 @@ These are the known bugs that we are aware of and are working to fix:
     - **User Name Display Issue in Email**: Instead of showing the name of the person who completed the quiz, it’s displaying the question reference like: "Hey Q2: BEFORE WE BEGIN___".
         !!! note "Status"
             Under investigation.
-    - **Quiz Completion Behavior**: Closing a pop-up quiz before finishing can cause the website background to turn white, requiring a manual refresh.
+    - **Quiz Completion Behavior**: Closing a popup quiz before finishing can cause the website background to turn white, requiring a manual refresh.
         !!! note "Status"
             Likely theme/cart conflict. Under investigation.
     - **Error on Results Page**: In some cases, users encounter an error when responses are saved and they’re redirected to the results page.
@@ -4751,7 +4751,7 @@ A quiz with fully mapped answers produces tight, accurate recommendations. Those
 - Recommend **1-3 products maximum** (or one per slot for routines)
 - Place the products and add-to-cart buttons above the fold
 - Include a discount code if the customer earned one
-- Remove distractions: hide pop-ups, chat overlays, and promo banners while the quiz is active
+- Remove distractions: hide popups, chat overlays, and promo banners while the quiz is active
 
 ![Focused single-product results page](/images/how_to_build_a_successful_quiz_image7.png)
 
@@ -5594,7 +5594,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 - **[Image Block](/how-to-guides/add-adjust-images/#image-blocks)** - You can upload an individual image via an Image Block directly into one of the quiz [questions](/reference/quiz-builder/questions/) or [results page](/reference/quiz-builder/results-page/).
 
-- **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - You can add a [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) to your question, which will allow you to add an image to each choice in that multiple choice question.
+- **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - You can add a [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) to your question, which will allow you to add an image to each choice in that multiple-choice question.
 
 - **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-image-in-productvariantscollection-blocks) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
 
@@ -5670,7 +5670,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
             `Adapt to image` will adjust the image size to the original size of the image. Pick this option if you want to keep the original image size and resolution.
     9. You can change the alignement of the image left, right or center.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/pRIPY4pLoMw?si=EbnsHRRnzSf_NKHX" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
     ![how_to_shopifyv2_improve_image_quality_picturechoicequestions](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_picturechoice.png)
     1. Open the [Question settings](/reference/quiz-builder/questions/#picture-choice)
     2. Click `+ Add question` to see a list of available questions or `+ Add block` to see a list of available blocks.
@@ -6496,7 +6496,7 @@ This article explains how to add product metafields/attributes to products on yo
     !!! note
         The app can only sync and show the string, single_line_text_field, multi_line_text_field, date, and number product metafields. Rich_text_fields metafields are not currently supported.
         In product variant slots, metafield blocks currently display metafields from the parent product, not variant-level metafields.
-    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible (though the `💎Built for Shopify` version of the RevenueHunt app now offers a direct `Unit price` settings under [Slot item composition](/reference/quiz-builder/results-page/#slot-item-composition) settings).
+    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on ecommerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible (though the `💎Built for Shopify` version of the RevenueHunt app now offers a direct `Unit price` settings under [Slot item composition](/reference/quiz-builder/results-page/#slot-item-composition) settings).
     In the `💎Built for Shopify` version of the RevenueHunt app, the process for adding and displaying metafields is streamlined. Follow the steps outlined below to import product metafields from your store into the Product Recommendation Quiz and display them on your quiz's results page:
     **Step 1: Enable Metafields Display**
     To enable the display of metafields for individual products:
@@ -6584,7 +6584,7 @@ This tutorial will guide you through the process of manually adding products and
 1. In the Catalog section, click the `+ add new product` button
 2. Enter a name for your new product when prompted
 3. Click `Create` to confirm
-4. Fill in all the required product details that match your eCommerce store
+4. Fill in all the required product details that match your ecommerce store
 5. Your changes will be saved automatically
 
 ![manual_standalone_succcesschecklist_catalogue_add_product](/images/manual_standalone_succcesschecklist_catalogue_add_product.png)
@@ -6863,7 +6863,7 @@ How the workflow starts depends on which version of the app you use. The Built f
     | `questionRef`, `questionTitle` | Reference and title of the question |
     | `blockRef`, `answerType` | Reference of the block and the type of answer it collects |
     | `value` | The answer itself, stringified |
-    | `choiceRefs`, `choiceLabels` | The choices picked, for multiple choice questions |
+    | `choiceRefs`, `choiceLabels` | The choices picked, for multiple-choice questions |
     | `position` | Order of the question in the quiz |
     ### `recommendations`
     A list of the recommended products or items.
@@ -7208,7 +7208,7 @@ icon: material/face-agent
 
 # How to Contact Customer Support
 
-Our sharpest and friendliest support team in the eCommerce sector can be reached via the quiz below:
+Our sharpest and friendliest support team in the ecommerce sector can be reached via the quiz below:
 
 <script src="https://admin.revenuehunt.com/embed.js" async></script>
 <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/ZAHJoMM" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
@@ -7546,7 +7546,7 @@ This article explains how to customize the quiz design with built-in app setting
         - **Quiz Background image** - You can uplaod a background image for the whole quiz via the Quiz Design tab.
         - **Question Background/Split image** - You can upload a background image to each question in the quiz via the question settings.
         - **Image Block** - You can upload an individual image via an Image Block directly into one of the quiz questions or results page.
-        - **Picture Choice** - You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
+        - **Picture Choice** - You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
         - **Product Image** - You can also add a Product/Variants/Collection Block to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
     **Image Block**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png){width="300"}
@@ -7615,7 +7615,7 @@ This guide outlines the process for downloading quiz responses from your quiz, a
     1. Navigate to the [Responses](/reference/quiz-builder/metrics/#responses) tab within your dashboard.
     2. To initiate the download, click the `Export CSV` button.
         ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
-    3. A pop-up will appear that allows you to select an email address to send the CSV file to. 
+    3. A popup will appear that allows you to select an email address to send the CSV file to. 
         ![manual_shopifyV2_quizbuilder_responses_exportCSV](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
         !!! note "Security"
             For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
@@ -7716,7 +7716,7 @@ icon: material/filter
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/zfrq6Dh65S0?si=L-XkEXprRKs33ALk" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     This guide explains how to filter recommendations by price in your quiz results page. 
     It explains how to implement a price filtering feature in a quiz using Shopify and the Revenue Hunt Quizzes app. It covers the steps to create collections based on price ranges and how to configure the quiz to filter product recommendations accordingly.
-    1. **Adding a Price Filtering Question**: Open the quiz by clicking `Customize` and  open the [Questions](/reference/quiz-builder/questions/) section.  Click `+ Add question` to add a new multiple choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
+    1. **Adding a Price Filtering Question**: Open the quiz by clicking `Customize` and  open the [Questions](/reference/quiz-builder/questions/) section.  Click `+ Add question` to add a new multiple-choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
         !!! example "Price Filtering Question"
             Provide three options: 
             - Under 20 euros
@@ -7827,7 +7827,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
     </div>
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=hcgIntH-XecaQxua" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_flow.png)
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
@@ -7847,7 +7847,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
         ![how to hide content with logic shopifyv2 jump logic default destination](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_default_destination.png)
     4. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=h7Ortp7mpm1wzTHu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
     2. **Add Content Sections to Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign. 
@@ -7908,7 +7908,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
     5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz. Test the quiz by clicking the `Preview` button and selecting different answers and checking if the correct content blocks are displayed.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=iMGaCLXqTpr8yS0B" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
@@ -8634,14 +8634,14 @@ GemPages lets you embed a RevenueHunt quiz directly into your landing pages and 
     4. In the theme editor, select the section where the Shopify App element is placed and click `Add block`. Switch to the `Apps` tab.
     5. Add any of the RevenueHunt blocks depending on how you want the quiz to display, for example:
         - **Inline Quiz** (embeds the quiz directly in the page).
-        - **Auto Popup Quiz** (opens the quiz automatically as a pop-up).
-        - **Link Popup Quiz** (opens the quiz in a pop-up when a link or button is clicked).
+        - **Auto Popup Quiz** (opens the quiz automatically as a popup).
+        - **Link Popup Quiz** (opens the quiz in a popup when a link or button is clicked).
         - **Chat Button Quiz** (opens the quiz from a floating chat-style button).
         ![Add a RevenueHunt app block in the Shopify theme editor](/images/gempages_themeeditor_addappblock.jpg)
     6. Click `Save` in the Shopify theme editor.
     7. Go back to the GemPages page builder and open your landing page. GemPages will indicate the page **needs republishing** because changes were made via the Shopify default theme editor. Click `Save`, then `Publish`.
         ![GemPages needs republishing after theme editor changes](/images/gempages_saveandpublish.jpg)
-    8. Once the page is published, view the live page. Your quiz will be embedded on the page, and if you added an auto pop-up, it will also appear after a short while.
+    8. Once the page is published, view the live page. Your quiz will be embedded on the page, and if you added an auto popup, it will also appear after a short while.
         ![RevenueHunt quiz published on a GemPages page](/images/gempages_quizpublished.jpg)
 
 
@@ -8685,7 +8685,7 @@ icon: material/timer-play-outline
 
 # How to Set Up Automatic Popups
 
-This guide walks you through setting up automatic popups on your eCommerce store, including popups that appear based on time spent on a page, across all pages, on the homepage, with exit intent, and options for showing popups multiple times per session.
+This guide walks you through setting up automatic popups on your ecommerce store, including popups that appear based on time spent on a page, across all pages, on the homepage, with exit intent, and options for showing popups multiple times per session.
 
 !!! info "What's an Automatic Popup?"
     It's a quiz popup that appears after X seconds. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings. Automatic popups can significantly enhance user engagement by presenting timely content or interactive elements like quizzes. 
@@ -8698,7 +8698,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
 
     Before you start ensure you have a quiz created with the RevenueHunt app, access to the theme editor and (optional) basic understanding of HTML for editing themes.
 
-    *Note: Directly editing your Shopify or other eCommerce theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.*
+    *Note: Directly editing your Shopify or other ecommerce theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.*
 
 ## Auto-Popup on the Main Page
 
@@ -8711,7 +8711,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. **Add a section for the app embed**: In the Home page Template, add a section for the app embed called `Auto Popup Quiz ` by Revenue Hunt Quizzes. This will enable the quiz pop-up on the home page.
+    2. **Add a section for the app embed**: In the Home page Template, add a section for the app embed called `Auto Popup Quiz ` by Revenue Hunt Quizzes. This will enable the quiz popup on the home page.
         ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
     3. **Configure Popup Settings**: 
         ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
@@ -8721,7 +8721,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
         - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
         - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
     4. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
-    5. **Test the Automatic Pop-up**: To view the Automatic Pop-up, ensure you are in an incognito or private browsing window, as pop-ups are shown only once per user session.
+    5. **Test the Automatic Popup**: To view the Automatic Popup, ensure you are in an incognito or private browsing window, as popups are shown only once per user session.
     !!! note
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
@@ -8729,10 +8729,10 @@ This guide walks you through setting up automatic popups on your eCommerce store
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/0mJ4KiHQFq8?si=xWPSV0l6JDcVIcGN" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
-    1. **Create a new page**: Navigate to Shopify `Online Store > Pages`. Click on `Add New Page` to create a new page (e.g., `Automatic Pop-up Page`). Set the visibility to `Visible` and save the changes.
+    1. **Create a new page**: Navigate to Shopify `Online Store > Pages`. Click on `Add New Page` to create a new page (e.g., `Automatic Popup Page`). Set the visibility to `Visible` and save the changes.
     2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    3. **Create a new template**: Go to `Online Store > Themes > Customize`. Access the Homepage menu > Pages and click `+ Create a new template`. Name the template something like `Automatic Quiz Pop-up Template` and edit it.
-    4. **Add a section for the app embed**: In the new template, add a section for the app embed called `Automatic Pop-up Quiz (Block)` by Revenue Hunt Quizzes. This will enable the quiz pop-up on the specified page.
+    3. **Create a new template**: Go to `Online Store > Themes > Customize`. Access the Homepage menu > Pages and click `+ Create a new template`. Name the template something like `Automatic Quiz Popup Template` and edit it.
+    4. **Add a section for the app embed**: In the new template, add a section for the app embed called `Automatic Popup Quiz (Block)` by Revenue Hunt Quizzes. This will enable the quiz popup on the specified page.
         ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
     5. **Configure Popup Settings**: 
         ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
@@ -8745,7 +8745,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
     7. **Assign the template to the page**: Go to `Online Store > Pages` and select the page you created. Under `Page Template` select the template you created.
         ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_template](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_template.png)
     8. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
-    9. **Test the Automatic Pop-up**: To view the Automatic Pop-up, ensure you are in an incognito or private browsing window, as pop-ups are shown only once per user session.
+    9. **Test the Automatic Popup**: To view the Automatic Popup, ensure you are in an incognito or private browsing window, as popups are shown only once per user session.
     !!! note
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
         If you've configured [Shopify Markets](/reference/app-settings/#__tabbed_5_2), the default quiz for that specific market will be shown instead.
@@ -8764,7 +8764,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
         - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
         - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
     4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-    5. **Test the Automatic Pop-up**: To view the Automatic Pop-up, ensure you are in an incognito or private browsing window, as pop-ups are shown only once per user session.
+    5. **Test the Automatic Popup**: To view the Automatic Popup, ensure you are in an incognito or private browsing window, as popups are shown only once per user session.
     The popup will now appear across all pages that have the same template/theme applied according to the configured settings.
     !!! note
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
@@ -8807,7 +8807,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/
 ================================================================================
 
 ---
-description: "Step-by-step guide to add a chat button that opens a RevenueHunt quiz popup on your eCommerce store."
+description: "Step-by-step guide to add a chat button that opens a RevenueHunt quiz popup on your ecommerce store."
 icon: material/chat-outline
 ---
 
@@ -8816,7 +8816,7 @@ icon: material/chat-outline
 This guide provides step-by-step instructions on how to implement a chat button that opens the quiz feature, offering both theme-based and manual methods.
 
 !!! info "What's a Chat Button?"
-    It's a button that opens the quiz popup when clicked. You can improve your Shopify / eCommerce store's interactivity by integrating a chat-like button that triggers a quiz popup. 
+    It's a button that opens the quiz popup when clicked. You can improve your Shopify / ecommerce store's interactivity by integrating a chat-like button that triggers a quiz popup. 
 
 !!! note "Before you start"
 
@@ -9208,7 +9208,7 @@ icon: material/link-variant
 
 # How to Set Up a Quiz Link Popup on Your Store
 
-This guide will walk you through the process of setting up a **Quiz Link Popup** on your eCommerce store. 
+This guide will walk you through the process of setting up a **Quiz Link Popup** on your ecommerce store. 
 
 !!! info "What's a Link Popup?"
 
@@ -9703,7 +9703,7 @@ Recommending the right size in a RevenueHunt quiz - for bras, clothing, footwear
     ??? info "Why can't I use open-ended inputs for size recommendations?"
         Open-ended number fields let customers type any value, so it's impossible to link those answers to specific products. You need predefined choices instead. Learn more in [Recommend Products Based on Numerical Inputs](https://docs.revenuehunt.com/how-to-guides/recommend-products-based-on-numerical-inputs/).
         <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/m92ELGhOq38?si=H7vJC9sn44PVQfd7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    To make size recommendations work, **replace any measurement input with a dropdown or multiple choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
+    To make size recommendations work, **replace any measurement input with a dropdown or multiple-choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
     !!! example "Example - Bra Size Quiz"
         Instead of "Enter your underbust measurement", use a dropdown:
         - Under 27" / Under 69 cm
@@ -9810,7 +9810,7 @@ description: "Step-by-step guide to integrate and recommend subscription product
 
 This guide explains how to integrate and recommend subscription products with RevenueHunt app.
 
-Recommending subscription products via the RevenueHunt Product Recommendation Quiz can simplify your e-commerce strategy by providing a steady revenue stream and fostering long-term customer relationships. 
+Recommending subscription products via the RevenueHunt Product Recommendation Quiz can simplify your ecommerce strategy by providing a steady revenue stream and fostering long-term customer relationships. 
 
 However, not all subscription apps are supported yet with the RevenueHunt app. Currently, we support [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce.
 
@@ -10437,7 +10437,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
     ### Use Copilot to generate Klaviyo Email Template
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/645cfa070ef5454f812d851908572cdb?sid=f8c3a497-b077-4c81-bfb6-863320a127cb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     QuizCopilot can assist in creating Klaviyo email templates for your quiz email flow.
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window, or head over to the [Quiz Settings](/reference/quiz-settings/)  > [Integrations](/reference/quiz-settings/integrations/) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or head over to the [Quiz Settings](/reference/quiz-settings/)  > [Integrations](/reference/quiz-settings/integrations/) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
     2. Paste your desired layout message, and Quiz Copilot will generate the template code.
         ![QuizCopilot Building Klaviyo Templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)
     3. The generated code for the Klaviyo email template can be copied by clicking the `Copy` icon.
@@ -10814,7 +10814,7 @@ Apart from giving your customers personalized product recommendations, you can c
     5. **Personalize with tags.** Because full quiz answers and product recommendations do not sync to Mailchimp, email personalization is based on the tags added to each contact's profile. Use Mailchimp's dynamic content visibility settings to display different text depending on the tags assigned to each contact.
     6. **Publish.** Continue building your automation, then publish it once it is ready.
     !!! example
-        Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
+        Imagine you run a skincare ecommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
         In Mailchimp, you create an email series targeting these tags. For instance:
         - Day 1: Introduction to products suitable for oily skin. 
         - Day 3: Customer testimonials and reviews for oily skin products. 
@@ -12244,7 +12244,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
     3. Adjust the `Max. recommended items` number to match the number of recommended products. 
     4. Save the changes and preview the quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/NvDLDlknJv4?si=x9HaGPZxsjDwTrY-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
     2. **Add Content Sections to Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign. 
@@ -12265,7 +12265,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
         ![how to hide content with logic display logic statement](/images/how_to_shopifyv2_fixedrecommendationquiz_displaylogic.png)
     5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uLqul_uj0UQ?si=E77WIlpSvtjC4w7R" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
     2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+ Add Results Page` button to create additional results pages. Create a separate results page for each skin type (Dry, Normal, Oily, Combination).
@@ -12783,7 +12783,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hoAcDUqp9u4?si=BW3HNCCZasjFUVal" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Custom scores or variables can be assigned to choices in the quiz in order to set up a scoring quiz, personality type quiz, dosha quiz, etc.
     To add scores or variables to choices, follow these steps:
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
     2. Open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
@@ -12805,7 +12805,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
         - [How to Set Up a Scoring Quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/Frn5srnYSkY?si=vbLbqtfXjzSC7yna" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Let's imagine you are creating a quiz for a skin care brand. You want to know which skin type the customer has.
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their skin condition. For example: itchiness, tightness, dryness, etc. if you are creating a quiz for a skin care brand.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their skin condition. For example: itchiness, tightness, dryness, etc. if you are creating a quiz for a skin care brand.
     2. **Assign Variables and Scores to Choices**: Go to each question in your quiz. For each choice, open the [choice settings](/reference/quiz-builder/questions/#choice-settings) and [assign varibales to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices). 
         !!! tip
             To learn how to add scores or variables to choices, check out this guide: [How to Add Scores or Variables to Choices](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices).
@@ -12841,7 +12841,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/byAgOMjzi9A?si=vGZrYCxmNUK_Ool7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! tip
         We have Scoring Quiz template available among the Quiz Templates. To use it go to the [Dashboard](/reference/dashboard/) and click on `Create Quiz` button. Then, select `Scoring Quiz` template.
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
     2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) section. 
         ![assigning scores to choices](/images/how_to_shopifyv2_scoringquiz_addscore.png)
         !!! tip
@@ -12877,7 +12877,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
             - Sensitive skin content: Total score is between 23-25 points
     5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/aRp9cmo8XLI?si=dlqABFGJMtT4mmnc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
     2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) section. 
         !!! tip
             To learn how to add scores or variables to choices, check out this guide: [How to Add Scores or Variables to Choices](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices).
@@ -13254,12 +13254,12 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/track-quiz-revenue/
 
 ---
 icon: material/cash-multiple
-description: "Track RevenueHunt quiz analytics and revenue metrics to measure eCommerce store performance and ROI."
+description: "Track RevenueHunt quiz analytics and revenue metrics to measure ecommerce store performance and ROI."
 ---
 
 # How to Track Quiz Revenue
 
-Understanding the revenue generated from quizzes on your eCommerce store can provide valuable insights into customer engagement and the effectiveness of your marketing strategies. 
+Understanding the revenue generated from quizzes on your ecommerce store can provide valuable insights into customer engagement and the effectiveness of your marketing strategies. 
 
 This documentation outlines how to track quiz analytics and revenue generated from quizzes in the Revenue Hunt app.
 
@@ -13357,7 +13357,7 @@ description: "Comprehensive troubleshooting guide for RevenueHunt quiz app issue
 
 # Troubleshooting Product Recommendation Quiz App Issues for WordPress / WooCommerce
 
-Our Product Recommendation Quiz app is designed to integrate seamlessly with most e-commerce stores. However, due to the high level of customization in WordPress / WooCommerce stores, conflicts with other plugins or store settings can occasionally arise, impacting the app’s functionality. This guide aims to address common issues and provide clear solutions.
+Our Product Recommendation Quiz app is designed to integrate seamlessly with most ecommerce stores. However, due to the high level of customization in WordPress / WooCommerce stores, conflicts with other plugins or store settings can occasionally arise, impacting the app’s functionality. This guide aims to address common issues and provide clear solutions.
 
 !!! tip "General Troubleshooting Tip"
     
@@ -13437,7 +13437,7 @@ Possible Causes and Solutions:
 
 Possible Causes and Solutions:
 
-1. **Duplicate Plugin Activation**: Deactivate the existing WordPress Plugin (Product recommendation Quiz for eCommerce) before activating the WooCommerce extension (Product Recommendation Quiz for WooCommerce). Don’t worry, you won’t lose any data because your quizzes and responses are stored in our server.
+1. **Duplicate Plugin Activation**: Deactivate the existing WordPress Plugin (Product recommendation Quiz for ecommerce) before activating the WooCommerce extension (Product Recommendation Quiz for WooCommerce). Don’t worry, you won’t lose any data because your quizzes and responses are stored in our server.
 
 ![how to troubleshoot wordpress woocommerce image3](/images/how_to_troubleshoot_wordpress_woocommerce_image3.png)
 
@@ -13885,7 +13885,7 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=EoRzoYJ04e48VsJu&amp;start=96" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Custom scores or variables can be assigned to choices in the quiz in order to set up a scoring quiz, personality type quiz, dosha quiz, etc.
     To add scores or variables to choices, follow these steps:
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
     2. Open the [Choice Settings](/reference/quiz-builder/choice-settings/).
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
@@ -14246,13 +14246,13 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     ## Opening Quiz Copilot
     1. To open Quiz Copilot, go to the [Get support](/reference/dashboard/#support) page.
     2. Click on the `Chat with Quiz Copilot` button.
-    3. A new pop-up window will open for you to type your first message to Quiz Copilot.
-    ![QuizCopilot Pop-up Window](https://loom.com/i/68afd9e9eaf9497383582691480beb73?workflows_screenshot=true)
+    3. A new popup window will open for you to type your first message to Quiz Copilot.
+    ![QuizCopilot Popup Window](https://loom.com/i/68afd9e9eaf9497383582691480beb73?workflows_screenshot=true)
     ## Use Cases
     Quiz Copilot can help you with many tasks related to quiz creation and publishing. Here are some examples:
     ### Example 1: Creating a quiz
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=CpUXSDUwlrfQnCjy&amp;start=16" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. You can request Quiz Copilot to create a quiz. *For example, to determine customer's skin type.*
     3. Quiz Copilot will process your request and may ask additional questions for clarification.
     4. It will then generate a new quiz and provide more information about the quiz it created.
@@ -14265,7 +14265,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     ### Example 2: Adding Recommended Products to the Quiz
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=H5x9gmYq-jOq2qgP&amp;start=93" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     You can ask Quiz Copilot to add recommended products to the quiz.
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to add recommended products to the quiz.
     3. Quiz Copilot will generate a new quiz with the recommended products.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -14274,13 +14274,13 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     ### Example 3: Styling the Quiz
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=KQYqq-uDJHFadH85&amp;start=137" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
     You can ask Quiz Copilot to style the quiz with Custom CSS code.
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to make changes to the quiz design.
     3. Quiz Copilot will generate changes and allow you to apply or reject the changes.
     ### Example 4: Analyze Quiz
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=vRzH7pU7Tc5yKzT7&amp;start=25" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     You can ask Quiz Copilot to analyze the quiz and provide insights on how to improve it.
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to analyze the quiz.
     3. Quiz Copilot will analyze the quiz and provide insights on how to improve it.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -14289,14 +14289,14 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     ### Example 5: Ask Copilot about Publishing the Quiz
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=WP0EOlWlls7XcGE0&amp;start=222" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     You can ask Quiz Copilot to explain how to publish the quiz on your website.
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask for instructions on how to publish the quiz.
     3. Quiz Copilot will read our documentation and provide step-by-step guidance and relevant documentation links.
     ![QuizCopilot Publishing Quiz](https://loom.com/i/19c8ed7dfe6641e3a4185a53a08a74dd?workflows_screenshot=true)
     ### Example 6: Building Email / Klaviyo Template
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=MaarSfQh39sT_bEI&amp;start=243" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     QuizCopilot can assist in creating email or Klaviyo email templates for your quiz email flow.
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window, or head over to the [Quiz Settings](/reference/quiz-builder/quiz-settings/)  > [Integrations](/reference/quiz-builder/quiz-settings/#integrations) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or head over to the [Quiz Settings](/reference/quiz-builder/quiz-settings/)  > [Integrations](/reference/quiz-builder/quiz-settings/#integrations) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
     2. Paste your desired layout message, and Quiz Copilot will generate the template code.
         ![QuizCopilot Building Klaviyo Templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)
     3. The generated code for the Klaviyo email template can be copied by clicking the `Copy` icon.
@@ -14304,7 +14304,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     ### Example 7: Translating Quiz to Another Language
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=cDSpAoLc0j56Q-0j&amp;start=115" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
     Quiz Copilot can also be used to translate a quiz to another language.
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to translate your main  quiz to another language.
     3. Quiz Copilot will generate a new quiz copy in the desired language.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -14313,7 +14313,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     ### Example 8: Styling the quiz with Custom CSS code
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=IYA3uFlv9yV_Lunq&amp;start=136" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
     **Styling Questions**
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to style the quiz with Custom CSS code.
     3. Quiz Copilot will generate a new CSS code for the quiz.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -14322,7 +14322,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     OR
     1. Go to [Question settings](/reference/quiz-builder/questions/#question-settings) and click `✨Get help with custom CSS` to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
     **Styling Results Page**
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to style the results page with Custom CSS code.
     3. Quiz Copilot will generate a new CSS code for the results page.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -14333,7 +14333,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     ### Example 9: Styling the quiz with Custom JavaScript code
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=IYA3uFlv9yV_Lunq&amp;start=136" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
     **Styling Questions**   
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to style the questions with Custom JavaScript code.
     3. Quiz Copilot will generate a new JavaScript code for the questions.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -14342,7 +14342,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     OR
     1. Go to [Question settings](/reference/quiz-builder/questions/#question-settings) and click `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly make design changes with JavaScript code!
     **Styling Results Page**
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to style the results page with Custom JavaScript code.
     3. Quiz Copilot will generate a new JavaScript code for the results page.
     4. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
@@ -14353,7 +14353,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     ### Example 10: Analyze Quiz Response
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=C3dEBqx3SEFfZokm&amp;start=305" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     You can ask Quiz Copilot to analyze a quiz response and provide insights on why certain products were recommended or not.
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the pop-up window.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to analyze a quiz response.
     3. Quiz Copilot will analyze the quiz response and provide insights on why certain products were recommended or not.
 
@@ -14411,7 +14411,7 @@ In this article, we will show you how to set up and use Skip Logic in your quiz,
     You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip Logic, which then continues the quiz based on the participant's specific path.
     ![how to use skip logic example](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
     **Implementation**
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
@@ -14950,7 +14950,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 |----------|-------------|
 | `#qbc-{ref}` | Choice block container with unique reference ID |
 | `.question-choice_list` | Choice list container |
-| `.question-choice_list--multiple-choice` | Multiple choice type |
+| `.question-choice_list--multiple-choice` | Multiple-choice type |
 | `.question-choice_list--picture-choice` | Picture choice type |
 | `.question-choice_list--slider-choice` | Slider choice type |
 | `.question-choice_list--scroll-snap` | Horizontal scroll layout |
@@ -15926,7 +15926,7 @@ Quiz metrics are can be found in several sections:
     !!! warning "Test responses removal"
         Admin responses and quiz previews are removed from the list **after 24 hours** to don't add to your plan's limits.
     `All` / `With recommendations` / `No recommendations` - Switch to filter responses that received product recommendations and those that did not.
-    `Export CSV` - Download the selected responses in a CSV file format. A pop-up will appear that allows you to select an email address to send the CSV file to. For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
+    `Export CSV` - Download the selected responses in a CSV file format. A popup will appear that allows you to select an email address to send the CSV file to. For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
     ![manual_shopifyV2_quizbuilder_responses_exportCSV](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
     `Response date` - The date and time the response has been submitted.
     `Type` - The type of quiz response, eg. `Preview` or `Customer`. Preview responses are created when you click the `Preview` button in the quiz builder. Customer responses are created when a customer completes the quiz on the live site.
@@ -16043,7 +16043,7 @@ Quiz metrics are can be found in several sections:
     `Section visibility`- See which sections within results pages are displayed most often. Shows how often each section within your results pages is displayed to quiz respondents. Each bar represents the percentage of total result views where that section appeared. `Views` indicate the number of quiz completions that triggered each section to be shown. `Percentages` reflect how frequently each section was visible relative to all result views.
     !!! example
         From 3 views, 100% of respondents saw `S1: Your results are in!`, while `S2: Dry Skin`, `S4: Oily Skin,` and `S6: Sensitive Skin` each appeared in 33.3% of results.
-    The Drop-off data (drop off rate per question) is available by default in the [Analytics](#analytics) section of the Quiz Builder.
+    The Drop-off data (drop-off rate per question) is available by default in the [Analytics](#analytics) section of the Quiz Builder.
     ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
     `Drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how visitors move through your quiz — from the first question to the results and checkout - and where they drop off. 
     `Origin` - The slide or question where respondents started a step in the flow. 
@@ -16052,12 +16052,12 @@ Quiz metrics are can be found in several sections:
     `Share of Step` - The percentage (and number) of respondents who exited the quiz instead of continuing to the next step.
     `Outcome` - Continued or Exited the quiz.
     !!! warning "How drop-off is measured"
-        The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+        The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
     !!! tip "Reducing Drop-off"
         A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep users progressing.
         Check [this help article](/customer-success/reduce-dropoff/) to learn how to reduce your quiz drop-off rates.
     !!! note "Alternative ways to measure drop-off"
-        You can also measure the drop off per choice or question by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
+        You can also measure the drop-off per choice or question by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
 
 
 
@@ -16299,7 +16299,7 @@ SOURCE: https://docs.revenuehunt.com/reference/quiz-builder/questions/
 ================================================================================
 
 ---
-description: "Create and manage quiz questions in RevenueHunt with multiple choice blocks, settings, and customization options."
+description: "Create and manage quiz questions in RevenueHunt with multiple-choice blocks, settings, and customization options."
 ---
 
 # Quiz Builder - Questions
@@ -16327,9 +16327,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     **Choices**
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice.png){width="500"}
-    `Pictures Choice` - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_pictureschoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_picturechoice.png){width="500"}
-    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
+    `Dropdown` - Multiple-choice slide which displays choices as a dropdown menu.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown.png){width="500"}
     `Slider bar` - A question slide with a slider bar for users to select a value between options.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_slider](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_slider.png){width="500"}
@@ -16536,7 +16536,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     `qbhtml-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
     ### CHOICES BLOCKS
     #### Multiple Choice 
-    Adds a multiple choice block to your question.
+    Adds a multiple-choice block to your question.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice.png){width="300"}
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `⿻ Duplicate` to duplicate the block or `🗑 Remove` to delete it.
@@ -18106,8 +18106,8 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
     *Choices*
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
-    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
-    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
+    **Pictures Choice** - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    **Dropdown** - Multiple-choice slide which displays choices as a dropdown menu.
     **Yes/No** - Two choices slide which displays choices as a clickable options.
     **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
     *Inputs*
@@ -18720,7 +18720,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
     !!! example "Example: Skincare Quiz that shows only the relevant statement based on the user's skin type"
         You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip Logic, which then continues the quiz based on the participant's specific path.
         ![how to use skip logic example](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
-    1. Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
     2. Add multiple [`Statement` slides](/reference/quiz-builder/questions/#statement) describing the specific skin type and its challenges. For example:
         !!! example "Statement Slides"
             ![skip logic skip slides statements](https://loom.com/i/11c8cff2e27a451a8c8b40b348de4a42?workflows_screenshot=true)
@@ -18775,7 +18775,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
     ### Add Scores or Variables to Choices
     Custom scores or variables can be assigned to choices in the quiz in order to set up a scoring quiz, personality type quiz, dosha quiz, etc.
     To add scores or variables to choices, follow these steps:
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
     2. Open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
@@ -19896,9 +19896,9 @@ In this tutorial, you’ll learn how to build a quiz that determines the user's 
     ## Publish the Quiz as Link Button
     In Shopify, you can make the quiz appear as a popup by simply linking a button or menu item to `#quiz`.
     1. Set the quiz as default by going to the [Dashboard](/reference/dashboard/) and clicking on the `Set as default` button.
-    2. Head over to the [Publish](/reference/quiz-builder/share-publish/) tab and check the `Add the quiz as a link triggered pop-up` option for step-bystep instructions on how to do this.
+    2. Head over to the [Publish](/reference/quiz-builder/share-publish/) tab and check the `Add the quiz as a link-triggered popup` option for step-by-step instructions on how to do this.
     3. In Shopify, go to `Online Store > Themes`, and click `Customize` on your current theme.
-    4. Go to `App Embeds` in the left sidebar. Find the `Link Popup Quiz` by Rand make sure it’s toggled on.  This will load the quiz script and allow it to open in a popup when the link is clicked.
+    4. Go to `App Embeds` in the left sidebar. Find the `Link Popup Quiz` by Revenue Hunt Quizzes and make sure it’s toggled on.  This will load the quiz script and allow it to open in a popup when the link is clicked.
     5. Now, to add a quiz button. Inside the theme editor, choose a section that contains a button, like `Rich text`.
     6. Edit the section heading and the text on the button.
     7. In the `Button Link` field, type `#quiz`. Just that — not a full URL.

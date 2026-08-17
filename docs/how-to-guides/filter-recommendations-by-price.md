@@ -14,7 +14,7 @@ icon: material/filter
     
     It explains how to implement a price filtering feature in a quiz using Shopify and the Revenue Hunt Quizzes app. It covers the steps to create collections based on price ranges and how to configure the quiz to filter product recommendations accordingly.
 
-    1. **Adding a Price Filtering Question**: Open the quiz by clicking `Customize` and  open the [Questions](/reference/quiz-builder/questions/) section.  Click `+ Add question` to add a new multiple choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
+    1. **Adding a Price Filtering Question**: Open the quiz by clicking `Customize` and  open the [Questions](/reference/quiz-builder/questions/) section.  Click `+ Add question` to add a new multiple-choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
 
         !!! example "Price Filtering Question"
 
@@ -74,7 +74,7 @@ icon: material/filter
     
     It explains how to implement a price filtering feature in a quiz using Shopify and the Revenue Hunt Quizzes app. It covers the steps to create collections based on price ranges and how to configure the quiz to filter product recommendations accordingly.
 
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
+    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple-choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
 
         !!! example "Price Filtering Question"
 
@@ -137,7 +137,7 @@ icon: material/filter
     
     It explains how to implement a price filtering feature in a quiz using WooCommerce and the Revenue Hunt Quizzes app. It covers the steps to create categories based on price ranges and how to configure the quiz to filter product recommendations accordingly.
 
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
+    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple-choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
 
         !!! example "Price Filtering Question"
 
@@ -195,7 +195,7 @@ icon: material/filter
     
     It explains how to implement a price filtering feature in a quiz using Magento and the Revenue Hunt Quizzes app. It covers the steps to create categories based on price ranges and how to configure the quiz to filter product recommendations accordingly.
 
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
+    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple-choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
 
         !!! example "Price Filtering Question"
 
@@ -253,7 +253,7 @@ icon: material/filter
     
     It explains how to implement a price filtering feature in a quiz using BigCommerce and the Revenue Hunt Quizzes app. It covers the steps to create categories based on price ranges and how to configure the quiz to filter product recommendations accordingly.
 
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
+    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple-choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
 
         !!! example "Price Filtering Question"
 
@@ -313,7 +313,7 @@ icon: material/filter
     
     It explains how to implement a price filtering feature in a quiz using WooCommerce and the Revenue Hunt Quizzes app. It covers the steps to create categories based on price ranges and how to configure the quiz to filter product recommendations accordingly.
 
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
+    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple-choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
 
         !!! example "Price Filtering Question"
 

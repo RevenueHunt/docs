@@ -440,7 +440,7 @@ It is possible to limit the number of recommended products on the results page b
 
 === "Standalone"
 
-    The RevenueHunt app for Headless eCommerce (Standalone) doesn't yet support recommending subscription products.
+    The RevenueHunt app for Headless ecommerce (Standalone) doesn't yet support recommending subscription products.
 
     Check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
 
@@ -468,7 +468,7 @@ It is possible to limit the number of recommended products on the results page b
 
     While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
 
-    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless eCommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless ecommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
 
@@ -476,7 +476,7 @@ It is possible to limit the number of recommended products on the results page b
 
     While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
 
-    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless eCommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless ecommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
 
@@ -484,7 +484,7 @@ It is possible to limit the number of recommended products on the results page b
 
     While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
 
-    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless eCommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless ecommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
 
@@ -492,7 +492,7 @@ It is possible to limit the number of recommended products on the results page b
 
     While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
 
-    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless eCommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless ecommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
 
@@ -500,7 +500,7 @@ It is possible to limit the number of recommended products on the results page b
 
     While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
 
-    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless eCommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless ecommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
 

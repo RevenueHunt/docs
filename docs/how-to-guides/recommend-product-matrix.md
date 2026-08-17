@@ -116,7 +116,7 @@ First of all, you should understand that the recommendations algorithm works lik
 
 ### Step 2: Create collections/categories
 
-To recommend the right product, in your eCommerce platform you should create four collections/categories and include in them the following products:
+To recommend the right product, in your ecommerce platform you should create four collections/categories and include in them the following products:
 
 - Collection 1: Teens and 20's
 

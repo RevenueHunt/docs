@@ -4716,7 +4716,7 @@ A quiz with fully mapped answers produces tight, accurate recommendations. Those
 - Recommend **1-3 products maximum** (or one per slot for routines)
 - Place the products and add-to-cart buttons above the fold
 - Include a discount code if the customer earned one
-- Remove distractions: hide pop-ups, chat overlays, and promo banners while the quiz is active
+- Remove distractions: hide popups, chat overlays, and promo banners while the quiz is active
 
 ![Focused single-product results page](/images/how_to_build_a_successful_quiz_image7.png)
 
@@ -5554,7 +5554,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 - **[Image Block](/how-to-guides/add-adjust-images/#image-blocks)** - You can upload an individual image via an Image Block directly into one of the quiz [questions](/reference/quiz-builder/questions/) or [results page](/reference/quiz-builder/results-page/).
 
-- **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - You can add a [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) to your question, which will allow you to add an image to each choice in that multiple choice question.
+- **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - You can add a [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) to your question, which will allow you to add an image to each choice in that multiple-choice question.
 
 - **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-image-in-productvariantscollection-blocks) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
 
@@ -5681,12 +5681,12 @@ You can upload a background image for the whole quiz via the [Quiz Design tab](/
         ```
         Replace `https://your-image-url.com/image.jpg` with the URL of the image you want to upload.
     6. Click `Publish` to save the changes.
-    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Click `+ Add new question` to see a list of available questions.
         ![manual_quizbuilder_quizbuilder_addquestions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
-    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
+    3. Click on `Picture choice` to add a picture choice block to the question. Pictures Choices are a Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. 
         !!! warning "Image size"
             It'sd recommended to uplaod square images, max. 400px x 400px.
             If your images are not square, they will be cropped to a square. You can adjust them in a free online image editor before uploading.
@@ -5983,7 +5983,7 @@ Before diving into the implementation, it's important to understand the differen
         element.innerHTML = bmi.toFixed(2); 
         ```
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
-    It is possible to make the quiz multiple choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
+    It is possible to make the quiz multiple-choice questions select all preceding answers and none of the answers with custom JavaScript code. You will be able to use it as long as there is only one choice that contains the word "All" and one that contains the word "None".  It doesn't matter the order or the question number.
     ??? example "Select all, select none"
         This code may require adjustments by a developer.  Use it as an example only.
         ```javascript
@@ -6092,7 +6092,7 @@ This article explains how to add product metafields/attributes to products on yo
 
 !!! note
         The app can only sync and show the custom text product metafields.
-    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
+    [Metafields](https://help.shopify.com/en/manual/custom-data/metafields) in Shopify are used by stores to display specific product properties that aren't shown by default on ecommerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Metafields make this possible.
     If you're looking to import product metafields from your store into the Product Recommendation Quiz to display them on your quiz's results page, follow the steps outlined below:
     **Step 1: Enable Metafields Display**
     First, enable the display of metafields for individual products:
@@ -6201,7 +6201,7 @@ This tutorial will guide you through the process of manually adding products and
 1. In the Catalog section, click the `+ add new product` button
 2. Enter a name for your new product when prompted
 3. Click `Create` to confirm
-4. Fill in all the required product details that match your eCommerce store
+4. Fill in all the required product details that match your ecommerce store
 5. Your changes will be saved automatically
 
 ![manual_standalone_succcesschecklist_catalogue_add_product](/images/manual_standalone_succcesschecklist_catalogue_add_product.png)
@@ -6718,7 +6718,7 @@ icon: material/face-agent
 
 # How to Contact Customer Support
 
-Our sharpest and friendliest support team in the eCommerce sector can be reached via the quiz below:
+Our sharpest and friendliest support team in the ecommerce sector can be reached via the quiz below:
 
 <script src="https://admin.revenuehunt.com/embed.js" async></script>
 <div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/ZAHJoMM" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
@@ -7300,7 +7300,7 @@ icon: material/filter
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/66ade08895f5478d80b2f686576642ad?sid=da3831fd-a490-4ba8-aab6-cb05bd873001" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     This guide explains how to filter recommendations by price in your quiz results page. 
     It explains how to implement a price filtering feature in a quiz using Shopify and the Revenue Hunt Quizzes app. It covers the steps to create collections based on price ranges and how to configure the quiz to filter product recommendations accordingly.
-    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
+    1. **Adding a Price Filtering Question**: Open the [Quiz Builder](/reference/quiz-builder/). Click `+` to add a new multiple-choice question titled "What's your desired price range for your skincare routine?". Provide a price range for each option. Save the changes to ensure the question is added.
         !!! example "Price Filtering Question"
             Provide three options: 
             - Under 20 euros
@@ -7420,7 +7420,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
     </div>
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=gdRcqMWV35IOV0QA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png)
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
@@ -7434,7 +7434,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
     4. **Add "Always Jump to..." Logic**: Once all the statements are linked with logic to the skin type question, you should point each statement to the next question in the quiz. This is done by going to the [jump logic](/how-to-guides/use-jump-logic/) tab and scrolling toward the `Always jump to...` section. Point each statement to the next question.
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=tBJo7gXHs4dvRTn1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
@@ -7450,7 +7450,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/bHYDwwTIuWg?si=pRhc-juq4lgIsIw2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_skip_logic.png)
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
@@ -8141,14 +8141,14 @@ GemPages lets you embed a RevenueHunt quiz directly into your landing pages and 
     4. In the theme editor, select the section where the Shopify App element is placed and click `Add block`. Switch to the `Apps` tab.
     5. Add any of the RevenueHunt blocks depending on how you want the quiz to display. With the legacy version of the app the blocks carry a **(Legacy)** label, for example:
         - **Inline Quiz (Legacy)** (embeds the quiz directly in the page).
-        - **Auto Popup Quiz (Legacy)** (opens the quiz automatically as a pop-up).
-        - **Link Popup Quiz (Legacy)** (opens the quiz in a pop-up when a link or button is clicked).
+        - **Auto Popup Quiz (Legacy)** (opens the quiz automatically as a popup).
+        - **Link Popup Quiz (Legacy)** (opens the quiz in a popup when a link or button is clicked).
         - **Chat Button Quiz (Legacy)** (opens the quiz from a floating chat-style button).
         ![Add a RevenueHunt app block in the Shopify theme editor](/images/gempages_themeeditor_addappblock.jpg)
     6. Click `Save` in the Shopify theme editor.
     7. Go back to the GemPages page builder and open your landing page. GemPages will indicate the page **needs republishing** because changes were made via the Shopify default theme editor. Click `Save`, then `Publish`.
         ![GemPages needs republishing after theme editor changes](/images/gempages_saveandpublish.jpg)
-    8. Once the page is published, view the live page. Your quiz will be embedded on the page, and if you added an auto pop-up, it will also appear after a short while.
+    8. Once the page is published, view the live page. Your quiz will be embedded on the page, and if you added an auto popup, it will also appear after a short while.
         ![RevenueHunt quiz published on a GemPages page](/images/gempages_quizpublished.jpg)
 
 
@@ -8207,7 +8207,7 @@ icon: material/timer-play-outline
 
 # How to Set Up Automatic Popups
 
-This guide walks you through setting up automatic popups on your eCommerce store, including popups that appear based on time spent on a page, across all pages, on the homepage, with exit intent, and options for showing popups multiple times per session.
+This guide walks you through setting up automatic popups on your ecommerce store, including popups that appear based on time spent on a page, across all pages, on the homepage, with exit intent, and options for showing popups multiple times per session.
 
 !!! info "What's an Automatic Popup?"
     It's a quiz popup that appears after X seconds. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings. Automatic popups can significantly enhance user engagement by presenting timely content or interactive elements like quizzes. 
@@ -8220,7 +8220,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
 
     Before you start ensure you have a quiz created with the RevenueHunt app, access to the theme editor and (optional) basic understanding of HTML for editing themes.
 
-    *Note: Directly editing your Shopify or other eCommerce theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.*
+    *Note: Directly editing your Shopify or other ecommerce theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.*
 
 ## Auto-Popup on the Main Page
 
@@ -8288,7 +8288,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/
 ================================================================================
 
 ---
-description: "Step-by-step guide to add a chat button that opens a RevenueHunt quiz popup on your eCommerce store."
+description: "Step-by-step guide to add a chat button that opens a RevenueHunt quiz popup on your ecommerce store."
 icon: material/chat-outline
 ---
 
@@ -8297,7 +8297,7 @@ icon: material/chat-outline
 This guide provides step-by-step instructions on how to implement a chat button that opens the quiz feature, offering both theme-based and manual methods.
 
 !!! info "What's a Chat Button?"
-    It's a button that opens the quiz popup when clicked. You can improve your Shopify / eCommerce store's interactivity by integrating a chat-like button that triggers a quiz popup. 
+    It's a button that opens the quiz popup when clicked. You can improve your Shopify / ecommerce store's interactivity by integrating a chat-like button that triggers a quiz popup. 
 
 !!! note "Before you start"
 
@@ -8571,7 +8571,7 @@ icon: material/link-variant
 
 # How to Set Up a Quiz Link Popup on Your Store
 
-This guide will walk you through the process of setting up a **Quiz Link Popup** on your eCommerce store. 
+This guide will walk you through the process of setting up a **Quiz Link Popup** on your ecommerce store. 
 
 !!! info "What's a Link Popup?"
 
@@ -8925,7 +8925,7 @@ RevenueHunt Product Recommendation Quiz can show on the results page **product v
     For other subscription apps check [this guide](/how-to-guides/recommend-subscription-products/#other-subscriptions) to learn of a possible workaround.
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-subscription-products/)
     While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product. That's why it's hard to build a "personality-type" quiz with our legacy solution.
-    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless eCommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
+    If you're using a legacy version of the RevenueHunt app for Shopify, WooCommerce, Magento, BigCommerce or Headless ecommerce (Standalone) check this guide to learn about possible workarounds: [How to Show Results Explanation](/how-to-guides/show-results-explanation/).
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
 
 
@@ -8949,7 +8949,7 @@ Recommending the right size in a RevenueHunt quiz - for bras, clothing, footwear
     The quiz recommendation engine works by linking each answer choice to a fixed list of products. When a customer selects that answer, every product in the list receives one vote. The product with the most votes at the end is recommended.
     **A typed number cannot be linked to anything in advance.** Because users can enter any value, there is no way to assign a product list to every possible number they might type. The voting system has nothing to count.
     This applies to any question where the answer is unpredictable - exact measurements, dates, free-text input. To recommend products, every possible answer must be defined by you before the quiz goes live.
-    To make size recommendations work, **replace any measurement input with a dropdown or multiple choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
+    To make size recommendations work, **replace any measurement input with a dropdown or multiple-choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
     !!! example "Example - Bra Size Quiz"
         Instead of "Enter your underbust measurement", use a dropdown:
         - Under 27" / Under 69 cm
@@ -9048,7 +9048,7 @@ description: "Step-by-step guide to integrate and recommend subscription product
 
 This guide explains how to integrate and recommend subscription products with RevenueHunt app.
 
-Recommending subscription products via the RevenueHunt Product Recommendation Quiz can simplify your e-commerce strategy by providing a steady revenue stream and fostering long-term customer relationships. 
+Recommending subscription products via the RevenueHunt Product Recommendation Quiz can simplify your ecommerce strategy by providing a steady revenue stream and fostering long-term customer relationships. 
 
 However, not all subscription apps are supported yet with the RevenueHunt app. Currently, we support [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce.
 
@@ -9717,7 +9717,7 @@ Apart from giving your customers personalized product recommendations, you can c
         - You can start by setting up Automations (automated email flows) to trigger based on specific tags or quiz completions.
         - Then, create different email templates in Mailchimp that correspond to different quiz outcomes or automation flows.
         !!! example
-            Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
+            Imagine you run a skincare ecommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
             In Mailchimp, you create an email series targeting these tags. For instance:
             - Day 1: Introduction to products suitable for oily skin. 
             - Day 3: Customer testimonials and reviews for oily skin products. 
@@ -10438,7 +10438,7 @@ Follow the step by step instructions below to active and edit the result emails 
     **Using Handlebars**
     You can use Handlebars to add more functionality to your HTML email template.
     For more detailed guidance on using handlebars in your HTML email templates, refer to the following resources:
-    - Handlebars Builtin Helpers: [Handlebars Built-in Helpers](https://handlebarsjs.com/guide/builtin-helpers.html)
+    - Handlebars Built-in Helpers: [Handlebars Built-in Helpers](https://handlebarsjs.com/guide/builtin-helpers.html)
     - GitHub Handlebars Helpers: [Handlebars Helpers on GitHub](https://github.com/helpers/handlebars-helpers)
     The format for helpers in Notifications might slightly differ from those on GitHub. For instance, to truncate a product name to 7 characters, you should write:
     ```handlebars
@@ -10646,7 +10646,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
         - Verify that:
             - Dynamic recommendations change based on answers
             - Fixed products always appear in their dedicated Slot
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
@@ -10660,7 +10660,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
     3. **Add Display Logic**: If we don't add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. To add Display Logic, select a content block and click on `display logic`. Next, click `add display logic`. Set up IF-THEN statements to control when each content block should be visible or hidden based on the customer's choices.
         ![how to hide content with logic display logic statement](/images/how_to_hide_content_with_logic_display_logic_statement.png)
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. 
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each result (for example, based on skin type (Dry, Normal, Oily, Combination)).
@@ -11539,12 +11539,12 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/track-quiz-revenue/
 
 ---
 icon: material/cash-multiple
-description: "Track RevenueHunt quiz analytics and revenue metrics to measure eCommerce store performance and ROI."
+description: "Track RevenueHunt quiz analytics and revenue metrics to measure ecommerce store performance and ROI."
 ---
 
 # How to Track Quiz Revenue
 
-Understanding the revenue generated from quizzes on your eCommerce store can provide valuable insights into customer engagement and the effectiveness of your marketing strategies. 
+Understanding the revenue generated from quizzes on your ecommerce store can provide valuable insights into customer engagement and the effectiveness of your marketing strategies. 
 
 This documentation outlines how to track quiz analytics and revenue generated from quizzes in the Revenue Hunt app.
 
@@ -11646,7 +11646,7 @@ description: "Comprehensive troubleshooting guide for RevenueHunt quiz app issue
 
 # Troubleshooting Product Recommendation Quiz App Issues for WordPress / WooCommerce
 
-Our Product Recommendation Quiz app is designed to integrate seamlessly with most e-commerce stores. However, due to the high level of customization in WordPress / WooCommerce stores, conflicts with other plugins or store settings can occasionally arise, impacting the app’s functionality. This guide aims to address common issues and provide clear solutions.
+Our Product Recommendation Quiz app is designed to integrate seamlessly with most ecommerce stores. However, due to the high level of customization in WordPress / WooCommerce stores, conflicts with other plugins or store settings can occasionally arise, impacting the app’s functionality. This guide aims to address common issues and provide clear solutions.
 
 !!! tip "General Troubleshooting Tip"
     
@@ -11726,7 +11726,7 @@ Possible Causes and Solutions:
 
 Possible Causes and Solutions:
 
-1. **Duplicate Plugin Activation**: Deactivate the existing WordPress Plugin (Product recommendation Quiz for eCommerce) before activating the WooCommerce extension (Product Recommendation Quiz for WooCommerce). Don’t worry, you won’t lose any data because your quizzes and responses are stored in our server.
+1. **Duplicate Plugin Activation**: Deactivate the existing WordPress Plugin (Product recommendation Quiz for ecommerce) before activating the WooCommerce extension (Product Recommendation Quiz for WooCommerce). Don’t worry, you won’t lose any data because your quizzes and responses are stored in our server.
 
 ![how to troubleshoot wordpress woocommerce image3](/images/how_to_troubleshoot_wordpress_woocommerce_image3.png)
 
@@ -12223,7 +12223,7 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
     **Scenario**
     You want to show a custom text block based on the customer's answer to a question. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different text and recommendation about their skincare is shown on the Results Page. This individualized response is made possible by Display Logic.
     **Implementation**
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Add Content Blocks to Results Page**: Go to the Results Page and add a new `content block`. To add a content block click the `+` sign and select `Content Block` from the list. Add multiple content blocks describing the specific skin type and its challenges. For example:
@@ -12347,7 +12347,7 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
     5. **Preview and Adjust:** Publish the changes with the top-right `Publish` button to update the preview/live quiz and test the setup.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/HfYhbWB21Qg?si=K5rbKH2WhSmVBTeP" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_jump_logic.png){width="500"}
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
@@ -12525,7 +12525,7 @@ In this article, we will show you how to set up and use Skip Logic in your quiz,
     You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip Logic, which then continues the quiz based on the participant's specific path.
     ![how to use skip logic example](/images/how_to_hide_content_with_logic_skip_logic.png)
     **Implementation**
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
         !!! tip
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Statement Questions**: Add multiple `Statement` slides describing the specific skin type and its challenges. For example:
@@ -12542,7 +12542,7 @@ In this article, we will show you how to set up and use Skip Logic in your quiz,
     **Implementation**
     1. **Create a Multiple Selection Question**: Start with a question that allows customers to select multiple options, such as "Which areas would you like to focus on?" with choices like "Nails", "Skin", "Hair", and "Makeup".
         !!! tip
-            You can allow multiple selections in the [block settings > multiple choice settings](/reference/quiz-builder/questions/#multiple-choice).
+            You can allow multiple selections in the [block settings > multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
     2. **Set Up Follow-up Questions**: Create a series of follow-up questions for each area, arranged in groups:
         - Questions 2-3: Nail-related questions
         - Questions 4-5: Skin-related questions
@@ -12993,7 +12993,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 |----------|-------------|
 | `#qbc-{ref}` | Choice block container with unique reference ID |
 | `.question-choice_list` | Choice list container |
-| `.question-choice_list--multiple-choice` | Multiple choice type |
+| `.question-choice_list--multiple-choice` | Multiple-choice type |
 | `.question-choice_list--picture-choice` | Picture choice type |
 | `.question-choice_list--slider-choice` | Slider choice type |
 | `.question-choice_list--scroll-snap` | Horizontal scroll layout |
@@ -13824,12 +13824,12 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     `Total Orders Value` - Total value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
     `Avg. Order Value` - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
     ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
-    `table` - Displays the dropoff rate for each question and the results page in a table format.
+    `table` - Displays the drop-off rate for each question and the results page in a table format.
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
-    `chart` - Displays the dropoff rate for each question and the results page in a chart format.
+    `chart` - Displays the drop-off rate for each question and the results page in a chart format.
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
     !!! tip "Tip: Analytics Per Choice"
         If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
@@ -13878,7 +13878,7 @@ SOURCE: https://docs.revenuehunt.com/reference/quiz-builder/questions/
 ================================================================================
 
 ---
-description: "Create and manage quiz questions in RevenueHunt with multiple choice blocks, settings, and customization options."
+description: "Create and manage quiz questions in RevenueHunt with multiple-choice blocks, settings, and customization options."
 ---
 
 # Quiz Builder - Questions
@@ -13891,10 +13891,10 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
     `Welcome Message` - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
-    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
+    `Dropdown` - Multiple-choice slide which displays choices as a dropdown menu.
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
     `Yes/No` - Two choices slide which displays choices as a clickable options.
-    `Pictures Choice` - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
     `Short-text` - An open question slide that allows the user to provide a short text answer.
     `Multi-line Text` - An open question slide that allows the user to provide a short text answer.
@@ -14146,7 +14146,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Truncate description` - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
     ??? question "Show custom shorter product description"
         It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
-        This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         And paste the `<!--more-->` code after the introductory blurb:
         ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
@@ -14324,10 +14324,10 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
     **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
-    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
+    **Dropdown** - Multiple-choice slide which displays choices as a dropdown menu.
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
     **Yes/No** - Two choices slide which displays choices as a clickable options.
-    **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
+    **Pictures Choice** - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
     **Statement** - A statement slide which displays text and a button to proceed to the next question.
     **Short-text** - An open question slide that allows the user to provide a short text answer.
     **Multi-line Text** - An open question slide that allows the user to provide a short text answer.
@@ -14542,7 +14542,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
         **Truncate description** - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
         ??? question "Show custom shorter product description"
             It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (detailed instructions [here](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
-            This feature allows you to add a code snippet in your product description where you want to cut it. In your eCommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+            This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
             ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
             And paste the `<!--more-->` code after the introductory blurb:
             ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
@@ -14792,12 +14792,12 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Total Orders Value** - Total value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
     **Avg. Order Value** - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
     ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
-    **table** - Displays the dropoff rate for each question and the results page in a table format.
+    **table** - Displays the drop-off rate for each question and the results page in a table format.
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
-    **chart** - Displays the dropoff rate for each question and the results page in a chart format.
+    **chart** - Displays the drop-off rate for each question and the results page in a chart format.
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
 
@@ -15340,7 +15340,7 @@ With the RevenueHunt Quiz app, you have complete control over how your quiz look
     !!! tip "Need brand fonts/colors?"
         Use [**Custom CSS**](/reference/quiz-builder/quiz-design/#advanced-customizations-css) in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
     **Picture Choice Slides**
-    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple-choice question.
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
     - Open the Quiz Builder and click `+ Add new question`. This will open a list of available question types.
     - Select `Picture choice`. This creates a multiple-choice slide where each option is displayed as a clickable image. You’ll be able to upload your own image for each choice.

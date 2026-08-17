@@ -54,7 +54,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     `All` / `With recommendations` / `No recommendations` - Switch to filter responses that received product recommendations and those that did not.
     
-    `Export CSV` - Download the selected responses in a CSV file format. A pop-up will appear that allows you to select an email address to send the CSV file to. For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
+    `Export CSV` - Download the selected responses in a CSV file format. A popup will appear that allows you to select an email address to send the CSV file to. For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
 
     ![manual_shopifyV2_quizbuilder_responses_exportCSV](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
 
@@ -800,7 +800,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
 === "Shopify"
 
-    The Drop-off data (drop off rate per question) is available by default in the [Analytics](#analytics) section of the Quiz Builder.
+    The Drop-off data (drop-off rate per question) is available by default in the [Analytics](#analytics) section of the Quiz Builder.
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 
@@ -817,7 +817,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
     `Outcome` - Continued or Exited the quiz.
 
     !!! warning "How drop-off is measured"
-        The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+        The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
 
     !!! tip "Reducing Drop-off"
         A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep users progressing.
@@ -825,24 +825,24 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
         Check [this help article](/customer-success/reduce-dropoff/) to learn how to reduce your quiz drop-off rates.
 
     !!! note "Alternative ways to measure drop-off"
-        You can also measure the drop off per choice or question by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
+        You can also measure the drop-off per choice or question by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
 
 
 === "Shopify (Legacy)"
 
     ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
 
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
 
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
 
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
 
-    `table` - Displays the dropoff rate for each question and the results page in a table format.
+    `table` - Displays the drop-off rate for each question and the results page in a table format.
 
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
 
-    `chart` - Displays the dropoff rate for each question and the results page in a chart format.
+    `chart` - Displays the drop-off rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
@@ -855,17 +855,17 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     ![manual_woo_quizbuilder_metrics_dropoff](/images/manual_woo_quizbuilder_metrics_dropoff.png)
 
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
 
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
 
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
 
-    `table` - Displays the dropoff rate for each question and the results page in a table format.
+    `table` - Displays the drop-off rate for each question and the results page in a table format.
 
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
 
-    `chart` - Displays the dropoff rate for each question and the results page in a chart format.
+    `chart` - Displays the drop-off rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
@@ -878,17 +878,17 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
 
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
 
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
 
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
 
-    `table` - Displays the dropoff rate for each question and the results page in a table format.
+    `table` - Displays the drop-off rate for each question and the results page in a table format.
 
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
 
-    `chart` - Displays the dropoff rate for each question and the results page in a chart format.
+    `chart` - Displays the drop-off rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
@@ -901,17 +901,17 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
 
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
 
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
 
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
 
-    `table` - Displays the dropoff rate for each question and the results page in a table format.
+    `table` - Displays the drop-off rate for each question and the results page in a table format.
 
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
 
-    `chart` - Displays the dropoff rate for each question and the results page in a chart format.
+    `chart` - Displays the drop-off rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 
@@ -924,17 +924,17 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     ![manual_standalone_quizbuilder_metrics_dropoff](/images/manual_standalone_quizbuilder_metrics_dropoff.png)
 
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the dropoff rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
 
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
 
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
 
-    `table` - Displays the dropoff rate for each question and the results page in a table format.
+    `table` - Displays the drop-off rate for each question and the results page in a table format.
 
     ![quiz builder metrics drop off table](/images/manual_quizbuilder_metrics_dropoff_table.png)
 
-    `chart` - Displays the dropoff rate for each question and the results page in a chart format.
+    `chart` - Displays the drop-off rate for each question and the results page in a chart format.
 
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
 

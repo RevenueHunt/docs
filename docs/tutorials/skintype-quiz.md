@@ -180,9 +180,9 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
     In Shopify, you can make the quiz appear as a popup by simply linking a button or menu item to `#quiz`.
 
     1. Set the quiz as default by going to the [Dashboard](/reference/dashboard/) and clicking on the `Set as default` button.
-    2. Head over to the [Publish](/reference/quiz-builder/share-publish/) tab and check the `Add the quiz as a link triggered pop-up` option for step-bystep instructions on how to do this.
+    2. Head over to the [Publish](/reference/quiz-builder/share-publish/) tab and check the `Add the quiz as a link-triggered popup` option for step-by-step instructions on how to do this.
     3. In Shopify, go to `Online Store > Themes`, and click `Customize` on your current theme.
-    4. Go to `App Embeds` in the left sidebar. Find the `Link Popup Quiz` by Rand make sure it’s toggled on.  This will load the quiz script and allow it to open in a popup when the link is clicked.
+    4. Go to `App Embeds` in the left sidebar. Find the `Link Popup Quiz` by Revenue Hunt Quizzes and make sure it’s toggled on.  This will load the quiz script and allow it to open in a popup when the link is clicked.
     5. Now, to add a quiz button. Inside the theme editor, choose a section that contains a button, like `Rich text`.
     6. Edit the section heading and the text on the button.
     7. In the `Button Link` field, type `#quiz`. Just that — not a full URL.

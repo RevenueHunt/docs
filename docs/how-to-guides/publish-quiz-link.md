@@ -5,7 +5,7 @@ icon: material/link-variant
 
 # How to Set Up a Quiz Link Popup on Your Store
 
-This guide will walk you through the process of setting up a **Quiz Link Popup** on your eCommerce store. 
+This guide will walk you through the process of setting up a **Quiz Link Popup** on your ecommerce store. 
 
 !!! info "What's a Link Popup?"
 
@@ -195,7 +195,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
         Without it, the quiz won't be loaded on your website.
     2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
-    4. Navigate to your eCommerce platform Navigation Menu settings and add a new item. Paste the link copied from the app.
+    4. Navigate to your ecommerce platform Navigation Menu settings and add a new item. Paste the link copied from the app.
     5. Remember to save the changes.
 
 ### On a Specific Page
@@ -313,7 +313,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
         Without it, the quiz won't be loaded on your website.
     2. **Obtain the Popup Link Code**: Go to the [`Share`](/reference/quiz-builder/share-publish/) section of the app, then to [`Link`](/reference/quiz-builder/share-publish/#link).
     3. Edit the **Popup Options** and click on `Get the code` to copy the link provided.
-    4. Navigate to your eCommerce platform Navigation Menu settings and add a new item. Paste the link copied from the app.
+    4. Navigate to your ecommerce platform Navigation Menu settings and add a new item. Paste the link copied from the app.
     5. Remember to save the changes.
 
 ## Link Popup as "Take the Quiz" Button

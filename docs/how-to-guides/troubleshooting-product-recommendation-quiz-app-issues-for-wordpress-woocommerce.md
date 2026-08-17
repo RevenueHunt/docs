@@ -5,7 +5,7 @@ description: "Comprehensive troubleshooting guide for RevenueHunt quiz app issue
 
 # Troubleshooting Product Recommendation Quiz App Issues for WordPress / WooCommerce
 
-Our Product Recommendation Quiz app is designed to integrate seamlessly with most e-commerce stores. However, due to the high level of customization in WordPress / WooCommerce stores, conflicts with other plugins or store settings can occasionally arise, impacting the app’s functionality. This guide aims to address common issues and provide clear solutions.
+Our Product Recommendation Quiz app is designed to integrate seamlessly with most ecommerce stores. However, due to the high level of customization in WordPress / WooCommerce stores, conflicts with other plugins or store settings can occasionally arise, impacting the app’s functionality. This guide aims to address common issues and provide clear solutions.
 
 !!! tip "General Troubleshooting Tip"
     
@@ -85,7 +85,7 @@ Possible Causes and Solutions:
 
 Possible Causes and Solutions:
 
-1. **Duplicate Plugin Activation**: Deactivate the existing WordPress Plugin (Product recommendation Quiz for eCommerce) before activating the WooCommerce extension (Product Recommendation Quiz for WooCommerce). Don’t worry, you won’t lose any data because your quizzes and responses are stored in our server.
+1. **Duplicate Plugin Activation**: Deactivate the existing WordPress Plugin (Product recommendation Quiz for ecommerce) before activating the WooCommerce extension (Product Recommendation Quiz for WooCommerce). Don’t worry, you won’t lose any data because your quizzes and responses are stored in our server.
 
 ![how to troubleshoot wordpress woocommerce image3](/images/how_to_troubleshoot_wordpress_woocommerce_image3.png)
 

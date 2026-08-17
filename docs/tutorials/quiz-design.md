@@ -707,7 +707,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     **Picture Choice Slides**
 
-    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple-choice question.
 
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
@@ -849,7 +849,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     **Picture Choice Slides**
 
-    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple-choice question.
 
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
@@ -992,7 +992,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     **Picture Choice Slides**
 
-    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple-choice question.
 
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
@@ -1134,7 +1134,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     **Picture Choice Slides**
 
-    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple-choice question.
 
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
 
@@ -1276,7 +1276,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     **Picture Choice Slides**
 
-    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple choice question.
+    You can add a Picture Choice question to your quiz, which will allow you to add an image to each choice in that multiple-choice question.
 
     ![how_to_improve_image_quality_picturechoicequestions](/images/how_to_improve_image_quality_picturechoicequestions.png)
 

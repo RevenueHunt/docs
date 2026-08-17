@@ -105,7 +105,7 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
 === "Shopify"
 
-    To make size recommendations work, **replace any measurement input with a dropdown or multiple choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
+    To make size recommendations work, **replace any measurement input with a dropdown or multiple-choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
 
     !!! example "Example - Bra Size Quiz"
 
@@ -137,7 +137,7 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
 === "Shopify (Legacy)"
 
-    To make size recommendations work, **replace any measurement input with a dropdown or multiple choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
+    To make size recommendations work, **replace any measurement input with a dropdown or multiple-choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
 
     !!! example "Example - Bra Size Quiz"
 
@@ -161,7 +161,7 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
 === "WooCommerce"
 
-    To make size recommendations work, **replace any measurement input with a dropdown or multiple choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
+    To make size recommendations work, **replace any measurement input with a dropdown or multiple-choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
 
     !!! example "Example - Bra Size Quiz"
 
@@ -185,7 +185,7 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
 === "Magento"
 
-    To make size recommendations work, **replace any measurement input with a dropdown or multiple choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
+    To make size recommendations work, **replace any measurement input with a dropdown or multiple-choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
 
     !!! example "Example - Bra Size Quiz"
 
@@ -209,7 +209,7 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
 === "BigCommerce"
 
-    To make size recommendations work, **replace any measurement input with a dropdown or multiple choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
+    To make size recommendations work, **replace any measurement input with a dropdown or multiple-choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
 
     !!! example "Example - Bra Size Quiz"
 
@@ -233,7 +233,7 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
 
 === "Standalone"
 
-    To make size recommendations work, **replace any measurement input with a dropdown or multiple choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
+    To make size recommendations work, **replace any measurement input with a dropdown or multiple-choice question**. Instead of asking for an exact number, offer predefined measurement ranges as answer choices.
 
     !!! example "Example - Bra Size Quiz"
 

@@ -165,7 +165,7 @@ A quiz with fully mapped answers produces tight, accurate recommendations. Those
 - Recommend **1-3 products maximum** (or one per slot for routines)
 - Place the products and add-to-cart buttons above the fold
 - Include a discount code if the customer earned one
-- Remove distractions: hide pop-ups, chat overlays, and promo banners while the quiz is active
+- Remove distractions: hide popups, chat overlays, and promo banners while the quiz is active
 
 ![Focused single-product results page](/images/how_to_build_a_successful_quiz_image7.png)
 

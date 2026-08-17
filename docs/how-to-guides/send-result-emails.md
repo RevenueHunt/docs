@@ -641,7 +641,7 @@ You can receive an email notification every time someone completes the quiz or p
 
     For more detailed guidance on using handlebars in your HTML email templates, refer to the following resources:
 
-    - Handlebars Builtin Helpers: [Handlebars Built-in Helpers](https://handlebarsjs.com/guide/builtin-helpers.html)
+    - Handlebars Built-in Helpers: [Handlebars Built-in Helpers](https://handlebarsjs.com/guide/builtin-helpers.html)
     - GitHub Handlebars Helpers: [Handlebars Helpers on GitHub](https://github.com/helpers/handlebars-helpers)
 
     The format for helpers in Notifications might slightly differ from those on GitHub. For instance, to truncate a product name to 7 characters, you should write:
@@ -776,7 +776,7 @@ You can receive an email notification every time someone completes the quiz or p
 
     For more detailed guidance on using handlebars in your HTML email templates, refer to the following resources:
 
-    - Handlebars Builtin Helpers: [Handlebars Built-in Helpers](https://handlebarsjs.com/guide/builtin-helpers.html)
+    - Handlebars Built-in Helpers: [Handlebars Built-in Helpers](https://handlebarsjs.com/guide/builtin-helpers.html)
     - GitHub Handlebars Helpers: [Handlebars Helpers on GitHub](https://github.com/helpers/handlebars-helpers)
 
     The format for helpers in Notifications might slightly differ from those on GitHub. For instance, to truncate a product name to 7 characters, you should write:
@@ -910,7 +910,7 @@ You can receive an email notification every time someone completes the quiz or p
 
     For more detailed guidance on using handlebars in your HTML email templates, refer to the following resources:
 
-    - Handlebars Builtin Helpers: [Handlebars Built-in Helpers](https://handlebarsjs.com/guide/builtin-helpers.html)
+    - Handlebars Built-in Helpers: [Handlebars Built-in Helpers](https://handlebarsjs.com/guide/builtin-helpers.html)
     - GitHub Handlebars Helpers: [Handlebars Helpers on GitHub](https://github.com/helpers/handlebars-helpers)
 
     The format for helpers in Notifications might slightly differ from those on GitHub. For instance, to truncate a product name to 7 characters, you should write:
@@ -1045,7 +1045,7 @@ You can receive an email notification every time someone completes the quiz or p
 
     For more detailed guidance on using handlebars in your HTML email templates, refer to the following resources:
 
-    - Handlebars Builtin Helpers: [Handlebars Built-in Helpers](https://handlebarsjs.com/guide/builtin-helpers.html)
+    - Handlebars Built-in Helpers: [Handlebars Built-in Helpers](https://handlebarsjs.com/guide/builtin-helpers.html)
     - GitHub Handlebars Helpers: [Handlebars Helpers on GitHub](https://github.com/helpers/handlebars-helpers)
 
     The format for helpers in Notifications might slightly differ from those on GitHub. For instance, to truncate a product name to 7 characters, you should write:
@@ -1180,7 +1180,7 @@ You can receive an email notification every time someone completes the quiz or p
 
     For more detailed guidance on using handlebars in your HTML email templates, refer to the following resources:
 
-    - Handlebars Builtin Helpers: [Handlebars Built-in Helpers](https://handlebarsjs.com/guide/builtin-helpers.html)
+    - Handlebars Built-in Helpers: [Handlebars Built-in Helpers](https://handlebarsjs.com/guide/builtin-helpers.html)
     - GitHub Handlebars Helpers: [Handlebars Helpers on GitHub](https://github.com/helpers/handlebars-helpers)
 
     The format for helpers in Notifications might slightly differ from those on GitHub. For instance, to truncate a product name to 7 characters, you should write:

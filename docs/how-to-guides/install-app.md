@@ -139,7 +139,7 @@ icon: material/download
 
     Is your store build on Wix, Squarespace Commerce, Odoo, or others? We got you covered!
 
-    RevenueHunt grants you the option to install a “standalone” version of our Product Recommendation Quiz app in a custom-built eCommerce. This comes at a cost, though:
+    RevenueHunt grants you the option to install a “standalone” version of our Product Recommendation Quiz app in a custom-built ecommerce. This comes at a cost, though:
 
     - products have to be added manually to the app or via Google Product Feed
     - the add to cart and proceed to checkout functionalities won’t work. After the user takes the quiz, they’ll see a results page where they can click on the products to view them.

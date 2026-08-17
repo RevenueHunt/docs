@@ -884,7 +884,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         - **Quiz Background image** - You can uplaod a background image for the whole quiz via the Quiz Design tab.
         - **Question Background/Split image** - You can upload a background image to each question in the quiz via the question settings.
         - **Image Block** - You can upload an individual image via an Image Block directly into one of the quiz questions or results page.
-        - **Picture Choice** - You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple choice question.
+        - **Picture Choice** - You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
         - **Product Image** - You can also add a Product/Variants/Collection Block to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
 
 

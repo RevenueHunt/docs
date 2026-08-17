@@ -701,7 +701,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `CATALOGUE` - This is where you can create products and collections of products that can be used in building your quiz. All the changes you make will be saved automatically.
 
-    `+ add new product` - Adds a new empty product. The prompt will ask you for a product name. This can be edited later. Confirm with `Create`. Fill in the details of your product as specified in your eCommerce store.
+    `+ add new product` - Adds a new empty product. The prompt will ask you for a product name. This can be edited later. Confirm with `Create`. Fill in the details of your product as specified in your ecommerce store.
 
     ![manual_standalone_succcesschecklist_catalogue_add_product](/images/manual_standalone_succcesschecklist_catalogue_add_product.png)
 

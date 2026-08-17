@@ -45,7 +45,7 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
         !!! note "Status"
             Under investigation.
 
-    - **Quiz Completion Behavior**: Closing a pop-up quiz before finishing can cause the website background to turn white, requiring a manual refresh.
+    - **Quiz Completion Behavior**: Closing a popup quiz before finishing can cause the website background to turn white, requiring a manual refresh.
 
         !!! note "Status"
             Likely theme/cart conflict. Under investigation.

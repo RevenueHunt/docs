@@ -173,7 +173,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 |----------|-------------|
 | `#qbc-{ref}` | Choice block container with unique reference ID |
 | `.question-choice_list` | Choice list container |
-| `.question-choice_list--multiple-choice` | Multiple choice type |
+| `.question-choice_list--multiple-choice` | Multiple-choice type |
 | `.question-choice_list--picture-choice` | Picture choice type |
 | `.question-choice_list--slider-choice` | Slider choice type |
 | `.question-choice_list--scroll-snap` | Horizontal scroll layout |

@@ -78,7 +78,7 @@ How the workflow starts depends on which version of the app you use. The Built f
     | `questionRef`, `questionTitle` | Reference and title of the question |
     | `blockRef`, `answerType` | Reference of the block and the type of answer it collects |
     | `value` | The answer itself, stringified |
-    | `choiceRefs`, `choiceLabels` | The choices picked, for multiple choice questions |
+    | `choiceRefs`, `choiceLabels` | The choices picked, for multiple-choice questions |
     | `position` | Order of the question in the quiz |
 
     ### `recommendations`

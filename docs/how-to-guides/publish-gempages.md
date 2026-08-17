@@ -19,15 +19,15 @@ GemPages lets you embed a RevenueHunt quiz directly into your landing pages and 
     4. In the theme editor, select the section where the Shopify App element is placed and click `Add block`. Switch to the `Apps` tab.
     5. Add any of the RevenueHunt blocks depending on how you want the quiz to display, for example:
         - **Inline Quiz** (embeds the quiz directly in the page).
-        - **Auto Popup Quiz** (opens the quiz automatically as a pop-up).
-        - **Link Popup Quiz** (opens the quiz in a pop-up when a link or button is clicked).
+        - **Auto Popup Quiz** (opens the quiz automatically as a popup).
+        - **Link Popup Quiz** (opens the quiz in a popup when a link or button is clicked).
         - **Chat Button Quiz** (opens the quiz from a floating chat-style button).
 
         ![Add a RevenueHunt app block in the Shopify theme editor](/images/gempages_themeeditor_addappblock.jpg)
     6. Click `Save` in the Shopify theme editor.
     7. Go back to the GemPages page builder and open your landing page. GemPages will indicate the page **needs republishing** because changes were made via the Shopify default theme editor. Click `Save`, then `Publish`.
         ![GemPages needs republishing after theme editor changes](/images/gempages_saveandpublish.jpg)
-    8. Once the page is published, view the live page. Your quiz will be embedded on the page, and if you added an auto pop-up, it will also appear after a short while.
+    8. Once the page is published, view the live page. Your quiz will be embedded on the page, and if you added an auto popup, it will also appear after a short while.
         ![RevenueHunt quiz published on a GemPages page](/images/gempages_quizpublished.jpg)
 
 === "Shopify (Legacy)"
@@ -42,15 +42,15 @@ GemPages lets you embed a RevenueHunt quiz directly into your landing pages and 
     4. In the theme editor, select the section where the Shopify App element is placed and click `Add block`. Switch to the `Apps` tab.
     5. Add any of the RevenueHunt blocks depending on how you want the quiz to display. With the legacy version of the app the blocks carry a **(Legacy)** label, for example:
         - **Inline Quiz (Legacy)** (embeds the quiz directly in the page).
-        - **Auto Popup Quiz (Legacy)** (opens the quiz automatically as a pop-up).
-        - **Link Popup Quiz (Legacy)** (opens the quiz in a pop-up when a link or button is clicked).
+        - **Auto Popup Quiz (Legacy)** (opens the quiz automatically as a popup).
+        - **Link Popup Quiz (Legacy)** (opens the quiz in a popup when a link or button is clicked).
         - **Chat Button Quiz (Legacy)** (opens the quiz from a floating chat-style button).
 
         ![Add a RevenueHunt app block in the Shopify theme editor](/images/gempages_themeeditor_addappblock.jpg)
     6. Click `Save` in the Shopify theme editor.
     7. Go back to the GemPages page builder and open your landing page. GemPages will indicate the page **needs republishing** because changes were made via the Shopify default theme editor. Click `Save`, then `Publish`.
         ![GemPages needs republishing after theme editor changes](/images/gempages_saveandpublish.jpg)
-    8. Once the page is published, view the live page. Your quiz will be embedded on the page, and if you added an auto pop-up, it will also appear after a short while.
+    8. Once the page is published, view the live page. Your quiz will be embedded on the page, and if you added an auto popup, it will also appear after a short while.
         ![RevenueHunt quiz published on a GemPages page](/images/gempages_quizpublished.jpg)
 
 === "WooCommerce"

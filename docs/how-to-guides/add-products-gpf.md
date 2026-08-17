@@ -31,7 +31,7 @@ This tutorial will guide you through the process of manually adding products and
 1. In the Catalog section, click the `+ add new product` button
 2. Enter a name for your new product when prompted
 3. Click `Create` to confirm
-4. Fill in all the required product details that match your eCommerce store
+4. Fill in all the required product details that match your ecommerce store
 5. Your changes will be saved automatically
 
 ![manual_standalone_succcesschecklist_catalogue_add_product](/images/manual_standalone_succcesschecklist_catalogue_add_product.png)

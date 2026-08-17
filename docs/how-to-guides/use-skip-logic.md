@@ -371,7 +371,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
     **Implementation**
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -418,7 +418,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
     **Implementation**
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -453,7 +453,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
     **Implementation**
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -489,7 +489,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
     **Implementation**
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -525,7 +525,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
     **Implementation**
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -560,7 +560,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
     **Implementation**
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -645,7 +645,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
         !!! tip
 
-            You can allow multiple selections in the [block settings > multiple choice settings](/reference/quiz-builder/questions/#multiple-choice).
+            You can allow multiple selections in the [block settings > multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
 
     2. **Set Up Follow-up Questions**: Create a series of follow-up questions for each area, arranged in groups:
 
@@ -689,7 +689,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
         !!! tip
 
-            You can allow multiple selections in the [block settings > multiple choice settings](/reference/quiz-builder/questions/#multiple-choice).
+            You can allow multiple selections in the [block settings > multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
 
     2. **Set Up Follow-up Questions**: Create a series of follow-up questions for each area, arranged in groups:
 
@@ -734,7 +734,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
         !!! tip
 
-            You can allow multiple selections in the [block settings > multiple choice settings](/reference/quiz-builder/questions/#multiple-choice).
+            You can allow multiple selections in the [block settings > multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
 
     2. **Set Up Follow-up Questions**: Create a series of follow-up questions for each area, arranged in groups:
 
@@ -779,7 +779,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
         !!! tip
 
-            You can allow multiple selections in the [block settings > multiple choice settings](/reference/quiz-builder/questions/#multiple-choice).
+            You can allow multiple selections in the [block settings > multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
 
     2. **Set Up Follow-up Questions**: Create a series of follow-up questions for each area, arranged in groups:
 
@@ -824,7 +824,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
         !!! tip
 
-            You can allow multiple selections in the [block settings > multiple choice settings](/reference/quiz-builder/questions/#multiple-choice).
+            You can allow multiple selections in the [block settings > multiple-choice settings](/reference/quiz-builder/questions/#multiple-choice).
 
     2. **Set Up Follow-up Questions**: Create a series of follow-up questions for each area, arranged in groups:
 

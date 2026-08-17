@@ -5,7 +5,7 @@ icon: material/timer-play-outline
 
 # How to Set Up Automatic Popups
 
-This guide walks you through setting up automatic popups on your eCommerce store, including popups that appear based on time spent on a page, across all pages, on the homepage, with exit intent, and options for showing popups multiple times per session.
+This guide walks you through setting up automatic popups on your ecommerce store, including popups that appear based on time spent on a page, across all pages, on the homepage, with exit intent, and options for showing popups multiple times per session.
 
 !!! info "What's an Automatic Popup?"
     It's a quiz popup that appears after X seconds. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings. Automatic popups can significantly enhance user engagement by presenting timely content or interactive elements like quizzes. 
@@ -18,7 +18,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
 
     Before you start ensure you have a quiz created with the RevenueHunt app, access to the theme editor and (optional) basic understanding of HTML for editing themes.
 
-    *Note: Directly editing your Shopify or other eCommerce theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.*
+    *Note: Directly editing your Shopify or other ecommerce theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.*
 
 ## Auto-Popup on the Main Page
 
@@ -33,7 +33,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
         Quizzes created with `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    2. **Add a section for the app embed**: In the Home page Template, add a section for the app embed called `Auto Popup Quiz ` by Revenue Hunt Quizzes. This will enable the quiz pop-up on the home page.
+    2. **Add a section for the app embed**: In the Home page Template, add a section for the app embed called `Auto Popup Quiz ` by Revenue Hunt Quizzes. This will enable the quiz popup on the home page.
 
         ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
     3. **Configure Popup Settings**: 
@@ -46,7 +46,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
         - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
         - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
     4. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
-    5. **Test the Automatic Pop-up**: To view the Automatic Pop-up, ensure you are in an incognito or private browsing window, as pop-ups are shown only once per user session.
+    5. **Test the Automatic Popup**: To view the Automatic Popup, ensure you are in an incognito or private browsing window, as popups are shown only once per user session.
 
 
     !!! note
@@ -147,10 +147,10 @@ This guide walks you through setting up automatic popups on your eCommerce store
     !!! warning "Shopify 1.0 Theme Compatibility"
         Quizzes created with `💎Built for Shopify` version of the RevenueHunt app cannot be published on Shopify 1.0 themes. Shopify 1.0 themes do not support app embeds, which are required for the V2 integration. App embeds are a feature available in Online Store 2.0 themes, which allow you to add app functionality without touching any code. If you want to use app embeds, you would need to upgrade to an Online Store 2.0 theme.
 
-    1. **Create a new page**: Navigate to Shopify `Online Store > Pages`. Click on `Add New Page` to create a new page (e.g., `Automatic Pop-up Page`). Set the visibility to `Visible` and save the changes.
+    1. **Create a new page**: Navigate to Shopify `Online Store > Pages`. Click on `Add New Page` to create a new page (e.g., `Automatic Popup Page`). Set the visibility to `Visible` and save the changes.
     2. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
-    3. **Create a new template**: Go to `Online Store > Themes > Customize`. Access the Homepage menu > Pages and click `+ Create a new template`. Name the template something like `Automatic Quiz Pop-up Template` and edit it.
-    4. **Add a section for the app embed**: In the new template, add a section for the app embed called `Automatic Pop-up Quiz (Block)` by Revenue Hunt Quizzes. This will enable the quiz pop-up on the specified page.
+    3. **Create a new template**: Go to `Online Store > Themes > Customize`. Access the Homepage menu > Pages and click `+ Create a new template`. Name the template something like `Automatic Quiz Popup Template` and edit it.
+    4. **Add a section for the app embed**: In the new template, add a section for the app embed called `Automatic Popup Quiz (Block)` by Revenue Hunt Quizzes. This will enable the quiz popup on the specified page.
 
         ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_embed.png)
     5. **Configure Popup Settings**: 
@@ -167,7 +167,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
 
         ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_template](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_template.png)
     8. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
-    9. **Test the Automatic Pop-up**: To view the Automatic Pop-up, ensure you are in an incognito or private browsing window, as pop-ups are shown only once per user session.
+    9. **Test the Automatic Popup**: To view the Automatic Popup, ensure you are in an incognito or private browsing window, as popups are shown only once per user session.
 
     !!! note
         When visitors come to your store, the default quiz for your store will open automatically based on your settings. 
@@ -266,7 +266,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
         - Set the `Quiz ID` (optional) to show a specific quiz. Leave blank to load the default.
         - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
     4. **Save Changes**: Click on the Save button to ensure all changes are saved before exiting the theme editor.
-    5. **Test the Automatic Pop-up**: To view the Automatic Pop-up, ensure you are in an incognito or private browsing window, as pop-ups are shown only once per user session.
+    5. **Test the Automatic Popup**: To view the Automatic Popup, ensure you are in an incognito or private browsing window, as popups are shown only once per user session.
 
     The popup will now appear across all pages that have the same template/theme applied according to the configured settings.
 
@@ -650,4 +650,4 @@ This guide walks you through setting up automatic popups on your eCommerce store
 
 
 ---
-By following these steps, you can enhance your eCommerce store's interactivity and user engagement through well-timed automatic popups.
+By following these steps, you can enhance your ecommerce store's interactivity and user engagement through well-timed automatic popups.

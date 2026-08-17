@@ -106,7 +106,7 @@ This guide outlines the process for downloading quiz responses from your quiz, a
     2. To initiate the download, click the `Export CSV` button.
 
         ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
-    3. A pop-up will appear that allows you to select an email address to send the CSV file to. 
+    3. A popup will appear that allows you to select an email address to send the CSV file to. 
 
         ![manual_shopifyV2_quizbuilder_responses_exportCSV](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
     
