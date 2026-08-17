@@ -1,5 +1,6 @@
 ---
 description: "Learn how to use BigCommerce custom fields to organize and bulk-link products in RevenueHunt."
+icon: material/tag-multiple-outline
 ---
 
 # BigCommerce: Use Custom Fields as tags

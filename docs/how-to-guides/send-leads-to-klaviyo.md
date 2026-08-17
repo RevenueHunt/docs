@@ -1,5 +1,6 @@
 ---
 description: "Complete guide to integrate RevenueHunt quiz with Klaviyo for targeted email follow-up campaigns."
+icon: material/email-newsletter
 ---
 
 # How to Send Quiz Leads to Klaviyo

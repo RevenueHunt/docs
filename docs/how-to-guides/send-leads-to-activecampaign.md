@@ -1,5 +1,6 @@
 ---
 description: "Learn how to send RevenueHunt quiz leads to ActiveCampaign via webhooks or CSV export."
+icon: material/bullhorn-outline
 ---
 
 # How to Send Leads to ActiveCampaign

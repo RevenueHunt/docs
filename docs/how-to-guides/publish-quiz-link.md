@@ -1,5 +1,6 @@
 ---
 description: "Learn how to set up a RevenueHunt quiz link popup that opens when visitors click menu items or buttons."
+icon: material/link-variant
 ---
 
 # How to Set Up a Quiz Link Popup on Your Store

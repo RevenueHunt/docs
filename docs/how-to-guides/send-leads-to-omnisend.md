@@ -1,5 +1,6 @@
 ---
 description: "Learn how to connect RevenueHunt quiz to Omnisend for targeted email and SMS campaigns."
+icon: material/cellphone-message
 ---
 
 # How to Send Leads to Omnisend

@@ -1,5 +1,6 @@
 ---
 description: "Complete guide to setting up a RevenueHunt funnel quiz with dynamic product voting system."
+icon: material/filter-variant
 ---
 
 # How to Set Up Funnel Quiz

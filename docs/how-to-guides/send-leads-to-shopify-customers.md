@@ -1,5 +1,6 @@
 ---
 description: "Learn how to automatically send RevenueHunt quiz leads to your Shopify Customers list."
+icon: simple/shopify
 ---
 
 # How to Send Quiz Leads to Shopify Customers

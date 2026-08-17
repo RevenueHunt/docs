@@ -1,5 +1,6 @@
 ---
 description: "Learn how to integrate RevenueHunt quiz with PageFly page builder using the legacy app version."
+icon: material/butterfly-outline
 ---
 
 # How to Publish Quiz on PageFly Page

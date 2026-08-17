@@ -1,5 +1,6 @@
 ---
 description: "Complete guide to embedding a RevenueHunt inline quiz on your store homepage or dedicated page."
+icon: material/page-layout-body
 ---
 
 # How to Embed an Inline Quiz on Your Store

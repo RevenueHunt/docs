@@ -1,5 +1,6 @@
 ---
 description: "Learn how to connect your RevenueHunt quiz to Mailchimp and send quiz leads to your audience for segmentation and follow-up emails."
+icon: simple/mailchimp
 ---
 
 # How to Send Leads to Mailchimp

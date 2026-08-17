@@ -1,5 +1,6 @@
 ---
 description: "Learn how to set up automatic RevenueHunt quiz popups that appear after a delay or on exit intent."
+icon: material/timer-play-outline
 ---
 
 # How to Set Up Automatic Popups

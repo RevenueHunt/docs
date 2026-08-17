@@ -1,5 +1,6 @@
 ---
 description: "Step-by-step guide to generate a shareable RevenueHunt quiz link for social media platforms."
+icon: material/share-variant
 ---
 
 # How to Get an External Quiz Link for Social Media

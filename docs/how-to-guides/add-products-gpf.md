@@ -1,5 +1,6 @@
 ---
 description: "Learn how to add products manually or import them from Google Merchant Center to your RevenueHunt Standalone app catalog."
+icon: material/package-variant-plus
 ---
 
 # How to Add Products in Standalone RevenueHunt App

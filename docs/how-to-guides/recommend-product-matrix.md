@@ -1,5 +1,6 @@
 ---
 description: "Learn how to create a RevenueHunt product matrix to recommend products based on multiple criteria."
+icon: material/grid
 ---
 
 # How to recommend products that match multiple criteria (matrix)

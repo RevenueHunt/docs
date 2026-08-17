@@ -1,5 +1,6 @@
 ---
 description: "Step-by-step guide to using display logic in RevenueHunt to show/hide results page content."
+icon: material/eye-check-outline
 ---
 
 # How to use Display Logic

@@ -1,5 +1,6 @@
 ---
 description: "Learn how to selectively sync product collections with RevenueHunt for optimized quiz performance."
+icon: material/folder-sync-outline
 ---
 
 # How to Selectively Sync Product Collections with RevenueHunt app

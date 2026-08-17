@@ -1,5 +1,6 @@
 ---
 description: "Learn how to display RevenueHunt quiz answers in Shopify orders and customer notes."
+icon: material/receipt-text-outline
 ---
 
 # How to Show Quiz Answers in the Shopify Orders

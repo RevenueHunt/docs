@@ -1,5 +1,6 @@
 ---
 description: "Step-by-step guide to recommend RevenueHunt products based on the number of user choices selected."
+icon: material/checkbox-multiple-marked-outline
 ---
 
 # How to Recommend Products Based on Number of User Choices

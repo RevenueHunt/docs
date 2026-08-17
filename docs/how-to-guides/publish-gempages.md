@@ -1,5 +1,6 @@
 ---
 description: "Learn how to embed a RevenueHunt quiz into a GemPages page in Shopify using the built-in Shopify App element and theme editor blocks."
+icon: material/view-quilt-outline
 ---
 
 # How to Publish Quiz on GemPages Page

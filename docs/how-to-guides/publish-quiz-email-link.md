@@ -1,5 +1,6 @@
 ---
 description: "Learn how to create an external RevenueHunt quiz link for embedding in email and newsletter campaigns."
+icon: material/email-fast-outline
 ---
 
 # How to Get an External Quiz Link for Emails and Newsletters

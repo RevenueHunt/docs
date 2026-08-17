@@ -1,5 +1,6 @@
 ---
 description: "Learn how to send RevenueHunt quiz data to custom webhooks for automated data processing."
+icon: material/webhook
 ---
 
 # How to Send Leads to Webhooks

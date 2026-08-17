@@ -1,5 +1,6 @@
 ---
 description: "Step-by-step guide to create a RevenueHunt quiz with fixed product recommendations."
+icon: material/pin-outline
 ---
 
 # How to Set Up Fixed Recommendations Quiz

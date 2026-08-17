@@ -1,5 +1,6 @@
 ---
 description: "Learn how to create a RevenueHunt scoring quiz with personality types and calculated results."
+icon: material/scoreboard-outline
 ---
 
 # How to Set Up Scoring Quiz

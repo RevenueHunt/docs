@@ -1,5 +1,6 @@
 ---
 description: "Step-by-step guide to using skip logic in RevenueHunt to skip questions dynamically."
+icon: material/skip-next-outline
 ---
 
 # How to Use Skip Logic

@@ -1,5 +1,6 @@
 ---
 description: "Step-by-step guide to connect RevenueHunt quiz to Zapier for integration with 5000+ apps."
+icon: simple/zapier
 ---
 
 # How to Send Leads to Zapier

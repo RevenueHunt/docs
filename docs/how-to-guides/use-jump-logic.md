@@ -1,5 +1,6 @@
 ---
 description: "Complete guide to using jump logic in RevenueHunt to branch quiz paths based on answers."
+icon: material/directions-fork
 ---
 
 # How to Use Jump Logic

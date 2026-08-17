@@ -1,5 +1,6 @@
 ---
 description: "Step-by-step guide to limit RevenueHunt product recommendations by showing only products with minimum votes."
+icon: material/vote-outline
 ---
 
 # How to Only Recommend Products with X Votes or More

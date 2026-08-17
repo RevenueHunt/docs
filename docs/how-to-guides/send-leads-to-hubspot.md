@@ -1,5 +1,6 @@
 ---
 description: "Learn how to integrate RevenueHunt quiz with HubSpot to segment and engage quiz responses."
+icon: simple/hubspot
 ---
 
 # How to Send Leads to HubSpot

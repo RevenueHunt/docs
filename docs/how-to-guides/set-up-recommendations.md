@@ -1,5 +1,5 @@
 ---
-icon: material/cards
+icon: material/tune
 description: "Comprehensive guide to different RevenueHunt recommendation systems for product quizzes."
 ---
 
