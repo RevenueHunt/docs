@@ -5646,11 +5646,11 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
     **Background image settings**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
     `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
-    `Opacity` - Use the slider to change opacity percentage of the uplaoded image.
+    `Opacity` - Use the slider to change opacity percentage of the uploaded image.
     **Split image settings**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png)
     `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
-    `Opacity` - Use the slider to change opacity percentage of the uplaoded image.
+    `Opacity` - Use the slider to change opacity percentage of the uploaded image.
     `Position (desktop)` - Choose whether the image should be placed `left` or `right` of the question on desktop.
     `Position (mobile)` - Choose whether the image should be placed `above`, `below` a question or `hidden` on mobile.
     !!! tip
@@ -5704,7 +5704,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
         `Source` - Choose the source of the image from `Variant` or `Product`. Choose whether to display the variant-specific image or the main product image. Select `Variant` to show the image associated with the selected variant (falls back to main product image if the variant has no image). Select `Product` to always display the main product image regardless of the variant selection.
         `Optimize images size` - Select this option to optimize the image size for the quiz. If unchecked, the image will be displayed in the original size.
         !!! note
-            Product images are taken directly from your Shopify catalog. Product slots diplsay the first image of the product, variant or a collection as uploaded to your Shopify Products/Collections section. 
+            Product images are taken directly from your Shopify catalog. Product slots display the first image of the product, variant or a collection as uploaded to your Shopify Products/Collections section. 
         !!! tip
             If you don't see any images when recommending collections, make sure that you have uploaded images to your Shopify collection.
 
@@ -6553,6 +6553,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/add-products-gpf/
 
 ---
 description: "Learn how to add products manually or import them from Google Merchant Center to your RevenueHunt Standalone app catalog."
+icon: material/package-variant-plus
 ---
 
 # How to Add Products in Standalone RevenueHunt App
@@ -7051,7 +7052,7 @@ This guide explains how to change the currency of your quiz and how to handle mu
         If the **compare-at price** is missing or showing as `null` on the quiz results page, this is often due to **Shopify Markets settings**. By default, Shopify can hide compare-at prices for customers in certain regions—especially in the **European Economic Area (EEA)**—due to local pricing or legal restrictions.
         How to Fix It:
         Go to **Shopify Admin → Settings → Markets → Preferences** and ensure that compare-at prices are enabled for the relevant market (e.g., Germany or the EEA). 
-        ![how_to_shopifyv2_change_quiz_languge_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_languge_markets_compareatissue.png)
+        ![how_to_shopifyv2_change_quiz_language_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_language_markets_compareatissue.png)
         You can test this by previewing the quiz on your live store while simulating a visitor from the affected country.
 
 
@@ -7372,8 +7373,8 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     - Link products or collections to each choice in the quiz. 
     - On the Results Page, add a product block that will recommend the most voted products based on the customer's answers.
     - You can also sort recommendations into multiple product slots to show a complete product routine.
-    **Option 2**: Set up a custom varaible or a score that will determine what recommendations should be shown *(recommended for personality-type quizzes)*
-    ![Scoring Quiz](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png){: width="500"}
+    **Option 2**: Set up a custom variable or a score that will determine what recommendations should be shown *(recommended for personality-type quizzes)*
+    ![Scoring Quiz](/images/how_to_shopifyv2_scoringquiz_variablequiz.png){: width="500"}
     In this setup, you'll have to:
     - Create a custom variable or a score for each choices in the quiz. 
     - On the Results Page, set up multiple sections with fixed recommendations and content.
@@ -7383,7 +7384,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     ![Recommendations Matrix](/images/how_to_shopify_v2_recommendations_logic.png){: width="500"}
     In this setup, you'll have to either:
     - Create complex logic branching in the quiz that leads the user to different results pages with fixed recomemendations and text 
-    - Create one results page with multple sections and via display logic tell each section when to be shown or hidden based on the customer's answers.
+    - Create one results page with multiple sections and via display logic tell each section when to be shown or hidden based on the customer's answers.
     !!! tip
         If you're not sure which option to choose, check out our [How to Set Up Recommendations guide](/how-to-guides/set-up-recommendations/) that contains a decision tree to help you choose the best option for your quiz.
     To test the quiz, you'll have to save the changes and preview it.
@@ -7651,7 +7652,7 @@ This guide will walk you through adding elements to your results page using a va
     5. **Review and Test**: Click the top-right `Save` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
     A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
     A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
-    You'll want to start by adding content to your results page. Below is a list of availbale elements you can use to build your page.
+    You'll want to start by adding content to your results page. Below is a list of available elements you can use to build your page.
     ![how to edit the results page block types](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
     ### Add Blocks
     Available [Block Types](/reference/quiz-builder/results-page/#block-types):
@@ -7688,7 +7689,7 @@ This guide will walk you through adding elements to your results page using a va
     - **Checkout Settings**: Control how customers interact with recommended products, allowing for direct cart addition or linking to product details. 
         !!! tip
             Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavialble products` setting in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
     - **Custom JavaScript**: Add custom scripts for unique behaviors or logic. 
@@ -7891,7 +7892,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
             Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
         !!! example "Example 2"
             ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
-            In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
+            In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
         ---
         **Type 3: IF the variable with the highest score...**
         Then the Display Logic rules follow the following format:
@@ -7902,7 +7903,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
         !!! info
             Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
         !!! example "Example 3"
-            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible.png)
+            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
             In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
     5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz. Test the quiz by clicking the `Preview` button and selecting different answers and checking if the correct content blocks are displayed.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/ImHVs7AT8YY?si=iMGaCLXqTpr8yS0B" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -8383,7 +8384,7 @@ To combine two or more questions into one slide, follow these steps:
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Add a question to the quiz by clicking on the [`+ question`](/reference/quiz-builder/questions/#question-types) button.
     3. Within the question, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a block type from the list. 
-    4. To show an extra question on the same slide, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a differnt block type from the list. 
+    4. To show an extra question on the same slide, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a different block type from the list. 
     5. Both questions will now appear on the same slide.
     ![joined slides example in built for shopify revenuehunt app](https://loom.com/i/75de3b0357fc46919b8cf40d51a94975?workflows_screenshot=true)
 
@@ -8552,6 +8553,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/only-recommend-products-with-
 
 ---
 description: "Step-by-step guide to limit RevenueHunt product recommendations by showing only products with minimum votes."
+icon: material/vote-outline
 ---
 
 # How to Only Recommend Products with X Votes or More
@@ -8614,6 +8616,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/publish-gempages/
 
 ---
 description: "Learn how to embed a RevenueHunt quiz into a GemPages page in Shopify using the built-in Shopify App element and theme editor blocks."
+icon: material/view-quilt-outline
 ---
 
 # How to Publish Quiz on GemPages Page
@@ -8650,6 +8653,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/publish-pagefly/
 
 ---
 description: "Learn how to integrate RevenueHunt quiz with PageFly page builder using the legacy app version."
+icon: material/butterfly-outline
 ---
 
 # How to Publish Quiz on PageFly Page
@@ -8676,6 +8680,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/publish-quiz-automatic-popup/
 
 ---
 description: "Learn how to set up automatic RevenueHunt quiz popups that appear after a delay or on exit intent."
+icon: material/timer-play-outline
 ---
 
 # How to Set Up Automatic Popups
@@ -8738,7 +8743,7 @@ This guide walks you through setting up automatic popups on your eCommerce store
         - Toggle `Trigger Popup on Exit Intent` if you want the popup to appear when users try to leave the page
     6. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
     7. **Assign the template to the page**: Go to `Online Store > Pages` and select the page you created. Under `Page Template` select the template you created.
-        ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_tempalte](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_tempalte.png)
+        ![how_to_shopifyv2_publish_automatic_popup_on_specific_page_template](/images/how_to_shopifyv2_publish_automatic_popup_on_specific_page_template.png)
     8. **Save Changes**: Click on the `Save` button to ensure all changes are saved before exiting the theme editor.
     9. **Test the Automatic Pop-up**: To view the Automatic Pop-up, ensure you are in an incognito or private browsing window, as pop-ups are shown only once per user session.
     !!! note
@@ -8803,6 +8808,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/
 
 ---
 description: "Step-by-step guide to add a chat button that opens a RevenueHunt quiz popup on your eCommerce store."
+icon: material/chat-outline
 ---
 
 # How to Add a Quiz Popup via a Chat-Like Button on Your Store
@@ -8908,6 +8914,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/publish-quiz-email-link/
 
 ---
 description: "Learn how to create an external RevenueHunt quiz link for embedding in email and newsletter campaigns."
+icon: material/email-fast-outline
 ---
 
 # How to Get an External Quiz Link for Emails and Newsletters
@@ -8998,6 +9005,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/publish-quiz-external-link/
 
 ---
 description: "Step-by-step guide to generate a shareable RevenueHunt quiz link for social media platforms."
+icon: material/share-variant
 ---
 
 # How to Get an External Quiz Link for Social Media
@@ -9092,6 +9100,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/publish-quiz-inline/
 
 ---
 description: "Complete guide to embedding a RevenueHunt inline quiz on your store homepage or dedicated page."
+icon: material/page-layout-body
 ---
 
 # How to Embed an Inline Quiz on Your Store
@@ -9194,6 +9203,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/publish-quiz-link/
 
 ---
 description: "Learn how to set up a RevenueHunt quiz link popup that opens when visitors click menu items or buttons."
+icon: material/link-variant
 ---
 
 # How to Set Up a Quiz Link Popup on Your Store
@@ -9435,6 +9445,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/recommend-product-matrix/
 
 ---
 description: "Learn how to create a RevenueHunt product matrix to recommend products based on multiple criteria."
+icon: material/grid
 ---
 
 # How to recommend products that match multiple criteria (matrix)
@@ -9490,6 +9501,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/recommend-products-based-on-n
 
 ---
 description: "Step-by-step guide to recommend RevenueHunt products based on the number of user choices selected."
+icon: material/checkbox-multiple-marked-outline
 ---
 
 # How to Recommend Products Based on Number of User Choices
@@ -9617,8 +9629,8 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
 RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **collections**.
     If you add a Block to your results page, you can choose to display **product variants**, **main products** or **collections** under [Block Settings > Recommendations Type](/reference/quiz-builder/results-page/#products-products-variants-collections). 
-    - If you chose a **Products** under Recommendations Type, the Slot will show the main product with a optional dropdown to choose the specific variant. The order in which the product variants are displayed is based on the number of votes they received. If all varaints of the same product received the same number of votes, the variants will be displayed in random order.
-    - If you chose a **Product Varaints** under Recommendations Type, the Slot will show recommended variants of a product with the full name of a product followed by the varaint name, for example "Toner - 100ml". 
+    - If you chose a **Products** under Recommendations Type, the Slot will show the main product with a optional dropdown to choose the specific variant. The order in which the product variants are displayed is based on the number of votes they received. If all variants of the same product received the same number of votes, the variants will be displayed in random order.
+    - If you chose a **Product Variants** under Recommendations Type, the Slot will show recommended variants of a product with the full name of a product followed by the varaint name, for example "Toner - 100ml". 
         !!! note
             It is not possible to display the variants in a dropdown with this option, because it's meant to lead the user to the specific variant of a product. If you want to display the variants in a dropdown, you can use a **Products** option instead.
     - If you chose a **Collections** under Recommendations Type, the Slot will show the recommended a specific collection from your Shopify store. 
@@ -9635,7 +9647,7 @@ RevenueHunt Product Recommendation Quiz can show on the results page **product v
         Follow [this guide](/how-to-guides/set-up-funnel-quiz/) to learn how to set up this option.
     **🎯 Option 2: Use Scoring or Variables**
     *Best for personality-style quizzes.*
-    ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png){width="300"}
+    ![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_variablequiz.png){width="300"}
     - Assign a score or custom variable to each choice in the quiz.
     - Set up result sections with fixed recommendations for each type of outcome.
     - Use display logic to show the right section based on the score or variable with the highest value.
@@ -9841,14 +9853,14 @@ If you're using a subscription app that is not supported, you can still recommen
     5. To test the integration, [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page) the quiz on a new page in your website and go all the way to the results page. You should see the subscription options available. From there, you can add the subscription product directly to the cart or proceed to the cart page.
     6. Verify that the subscription item is added correctly to the cart.
     !!! warning "Quiz Preview"
-        The subscription options will not be avialble in the quiz preview. To test the integration, you need to [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page)  the quiz on a new page in your website.
+        The subscription options will not be available in the quiz preview. To test the integration, you need to [publish](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page)  the quiz on a new page in your website.
     Not applicable.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AWrsUZ-u2nk?si=INZh4rcHzVQ4268P" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Reocommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
+    For other subscription apps, there's a workaround that allows you to still guide your customers towards subscription options via the Product Recommendation Quiz. Here's a step-by-step guide on how to implement this workaround effectively:
     **Step 1: Link One-Time Payment Products to Quiz Choices**
     1. Identify your subscription products that you wish to promote through the quiz.
     2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to chocies**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices or set up [Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) on your Results Page. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
+    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices or set up [Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) on your Results Page. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
     **Step 2: Adjust Checkout Settings**
     1. **Open Results Page settings**: Navigate to the [Results Page](/reference/quiz-builder/results-page/) and add or select a [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections)
     2. **Change Product Components Layout**: In [Product Block settings](/reference/quiz-builder/results-page/#products-products-variants-collections), find the [`Product Components Layout`](/reference/quiz-builder/results-page/#product-components-layout) section and remove the `Add to cart button option. Once removed, insert a `Link to Product` component instead.
@@ -10000,13 +10012,14 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-activecampaign/
 
 ---
 description: "Learn how to send RevenueHunt quiz leads to ActiveCampaign via webhooks or CSV export."
+icon: material/bullhorn-outline
 ---
 
 # How to Send Leads to ActiveCampaign
 
 --- Shopify Specific Content ---
 
-While the new Built for Shopiify version of the RevenueHunt app **does not** yet integrate directly with ActiveCampaign, it is still possible to send quiz leads to ActiveCampaign.
+While the new Built for Shopify version of the RevenueHunt app **does not** yet integrate directly with ActiveCampaign, it is still possible to send quiz leads to ActiveCampaign.
     One option includes using our [Webhooks](/how-to-guides/send-leads-to-webhooks/) integration to send quiz leads to ActiveCampaign. Another, includes manually adding the quiz leads to ActiveCampaign by uploading a CSV file generated from the quiz.
     This guide explain how you can send quiz data to ActiveCampaign with a workaround.
     It is **not yet possible** to link your Product Recommendation Quiz created in the new Built for Shopify version of the RevenueHunt app to ActiveCampaign.
@@ -10121,6 +10134,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-hubspot/
 
 ---
 description: "Learn how to integrate RevenueHunt quiz with HubSpot to segment and engage quiz responses."
+icon: simple/hubspot
 ---
 
 # How to Send Leads to HubSpot
@@ -10254,6 +10268,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-klaviyo/
 
 ---
 description: "Complete guide to integrate RevenueHunt quiz with Klaviyo for targeted email follow-up campaigns."
+icon: material/email-newsletter
 ---
 
 # How to Send Quiz Leads to Klaviyo
@@ -10315,7 +10330,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
             You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz.
     2. **Connect Quiz to Klaviyo**: Follow the instructions in [this section](#link-your-quiz-to-klaviyo) to learn how to connect your quiz to Klaviyo correctly.
     3. **Create a Segment**: All quiz contacts can be grouped into a segment in Klaviyo. 
-        1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+        1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
         2. Name the segment and set up the definition. 
         3. Segment definition: Select `Properties about someone` and add a property that will be unique for profiles coming from the quiz. This can be any of the [custom properties](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) that RevenueHunt sends to Klaviyo Profiles.
             !!! example "Example"
@@ -10336,7 +10351,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
             !!! tip "Alternative: trigger from a Klaviyo list"
                 Instead of triggering from a segment, you can trigger the flow when a contact is added to a specific Klaviyo list. This is useful if you're using the `Klaviyo list` selector in your quiz's email question block to send contacts directly to a list (see [Adding Quiz Contacts to Klaviyo List](#adding-quiz-contacts-to-klaviyo-list)).
         **Optional: Update Marketing Consent**
-        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+        If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
         1. Right below the flow trigger, add a `Profile property update` action.
         2. Click `+ Step`.
         3. A menu will appear letting up set up the profile property update.
@@ -10354,8 +10369,8 @@ This article walks you through the process of connecting your quiz to Klaviyo an
         6. To add the quiz content and quiz recommended products you'll need to add an `HTML` block. Drag and drop the `HTML` block to the email builder.
         7. In the `Quiz Settings > Integrations` section, you'll find a button to download a `Klaviyo Template`. Click the `Klaviyo Template` button and a new window will open. There, click `Copy code` to copy the existing template.
             !!! info "Klaviyo Template"
-                ![how to send leads to klaviyo email tempalte download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
-                ![how to send leads to klaviyo email tempalte download2](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
+                ![how to send leads to klaviyo email template download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
+                ![how to send leads to klaviyo email template download2](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
                 The code contains several ready-to-use code snippets that allow you to display: 
                 - **Dynamic Results Page**: Display dynamic result page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
                 - **Static Results Page**: Display the complete result page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
@@ -10376,7 +10391,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
                 Check the [Use quiz data in Klaviyo email templates](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) article to learn how to customize your Klaviyo email template with quiz properties.
         11. Once you're happy with the email template, click `Exit` then `Done` and return to your flow.
         12. Turn your email `LIVE`.
-        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+        From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
     8. **Re-trigger the flow**: The easiest way to send an email with each quiz retake is to set the **reentry criteria** when you configure the flow trigger:
         1. Open the flow trigger (`Added to a segment`).
         2. Set the `Reentry criteria` to `Allow reentry`.
@@ -10411,7 +10426,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
     ??? warning "Overwriting or Appending Custom Properties"	
         Some custom properties sent to Klaviyo from the quiz such as `ANSWER_BY_BLOCK`, `CHOICE`, `RESPONSE_ID`, `RESULT_REF`, `RESULT_SECTIONS` or `TAGS` are sent as an array, meaning that their values get **overwritten** with new data upon each quiz completion.
         However, properties such as `RECOMMENDATIONS_BY_SLOT` or `RESULT_CONTENT_BY_BLOCK` are sent as a JSON object, meaning that their values get **appended** to the existing data upon each quiz completion. 
-        If you want to make sure that in your Klaviyo template, the **values get overwritten** with new data upon each quiz completion and you want to use our pre-defined Klaviyo email tempalte which you can download from [Integrations](/reference/quiz-builder/connect-integrations/) tab, make sure to only use the code snippet that starts with the following comment:
+        If you want to make sure that in your Klaviyo template, the **values get overwritten** with new data upon each quiz completion and you want to use our pre-defined Klaviyo email template which you can download from [Integrations](/reference/quiz-builder/connect-integrations/) tab, make sure to only use the code snippet that starts with the following comment:
         ```html
         {# ================================================================= #}
         {# DYNAMIC RESULT PAGE CONTENT (LOOPS THROUGH RESULT_SECTIONS-lBJ9bk) #}
@@ -10723,6 +10738,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-mailchimp/
 
 ---
 description: "Learn how to connect your RevenueHunt quiz to Mailchimp and send quiz leads to your audience for segmentation and follow-up emails."
+icon: simple/mailchimp
 ---
 
 # How to Send Leads to Mailchimp
@@ -10857,6 +10873,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-omnisend/
 
 ---
 description: "Learn how to connect RevenueHunt quiz to Omnisend for targeted email and SMS campaigns."
+icon: material/cellphone-message
 ---
 
 # How to Send Leads to Omnisend
@@ -10875,7 +10892,6 @@ Apart from giving your customers a personalized product recommendation, you can 
         - Copy the generated API key.
         ![how to send leads to omnisend api key generate](/images/how_to_omnisend_create_api_key.png){:width="500px"}
     3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and navigate to **Settings** > **Integrations** and select the **Omnisend** tab. In the field that appears, you'll need to enter your `Omnisend API Key` into the input field, then click `Save`.
-        ![manual_shopifyV2_quizbuilder_quizbuilder_settings_integrations_omnisend_addapi](/images/manual_shopifyV2_quizbuilder_quizbuilder_settings_integrations_omnisend_addapi.png)
     4. **Preview your quiz**: After connecting to Omnisend, preview your quiz all the way to the results page to send the first contact. Use a sample email (e.g., 'alexa@example.com') and provide sample answers to populate properties in Omnisend.
     5. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (e.g., 'Alexa RevenueHunt / alexa@example.com') has been added. Click on the profile to view all custom properties from the quiz, including: 
         - Quiz answers
@@ -10984,6 +11000,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-shopify-custome
 
 ---
 description: "Learn how to automatically send RevenueHunt quiz leads to your Shopify Customers list."
+icon: simple/shopify
 ---
 
 # How to Send Quiz Leads to Shopify Customers
@@ -11097,6 +11114,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-webhooks/
 
 ---
 description: "Learn how to send RevenueHunt quiz data to custom webhooks for automated data processing."
+icon: material/webhook
 ---
 
 # How to Send Leads to Webhooks
@@ -11724,6 +11742,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/send-leads-to-zapier/
 
 ---
 description: "Step-by-step guide to connect RevenueHunt quiz to Zapier for integration with 5000+ apps."
+icon: simple/zapier
 ---
 
 # How to Send Leads to Zapier
@@ -11934,7 +11953,7 @@ description: "Complete guide to setting up RevenueHunt quiz result emails and ad
 
 # Setting Up Result Emails with Product Recommendation Quiz
 
-Sending result emails to quiz takers can significantly improve your quiz sales by reducing cart abandonmemnt and improving the customer experince. With RevenueHunt app it is possible to set up quiz result emails directly without the need to connect the app to an external CRM service, though this option is also avialble.
+Sending result emails to quiz takers can significantly improve your quiz sales by reducing cart abandonment and improving the customer experience. With RevenueHunt app it is possible to set up quiz result emails directly without the need to connect the app to an external CRM service, though this option is also available.
 
 This guide covers setting up email results for both [quiz respondents](#email-quiz-results-via-shop-quiz-app) and [administartors](#activate-email-notifications-to-admin) and well as sending results emails via an [external CRM service](/how-to-guides/send-leads-to-crm/).
 
@@ -11967,7 +11986,7 @@ Follow the step by step instructions below to active and edit the result emails 
     3. **Email TO**: Choose an answer to which email question should be used to send the result emails to.
     4. **Edit REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
     5. **Email Subject**: Edit the title of the email that customers will receive. 
-    6. **Edit Email Content**: Configure the email temaplate of the email that your customers will receive. 
+    6. **Edit Email Content**: Configure the email template of the email that your customers will receive. 
         ![how to send result emails html template](https://loom.com/i/200e22c07c214de2a399b481d7720c80?workflows_screenshot=true)
         !!! warning
             Email template requires the knowledge of HTML and liquid to be edited. 
@@ -11977,10 +11996,10 @@ Follow the step by step instructions below to active and edit the result emails 
                 To learn more about the metadata, check out the [Quiz Response Metadata Structure](#editing-email-templates).
         - You can find *useful code snippets* under the `Email Liquid Template` field and use them to insert specific data into the email template (e.g., 'Responses by Block' snippet to list user answers).
             !!! tip
-                You can copy the useful code snippets and paste them into a large languge model like ChatGPT or Gemini to style the liquid email template.
+                You can copy the useful code snippets and paste them into a large language model like ChatGPT or Gemini to style the liquid email template.
         !!! note
             Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about styling and editing theEmail templates [here](#advanced-html-email-templates).
-    7. **👉 Recommended - Add Your SMTP Credentials**: By default, the result emails are sent from Revenuehunt email servers. For full deliverabilty and brand experince, it's recommended to connect your email servers to the app instead. To do that, go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    7. **👉 Recommended - Add Your SMTP Credentials**: By default, the result emails are sent from Revenuehunt email servers. For full deliverabilty and brand experience, it's recommended to connect your email servers to the app instead. To do that, go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
         ![manual_appsettings_smtp](/images/manual_shopifyV2_appsettings_smtp.png)
         !!! note
             SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
@@ -11991,13 +12010,13 @@ Follow the step by step instructions below to active and edit the result emails 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/XdPgnR8W4fg?si=TivtkA2wCiHaFQYg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     2. **Activate Emails to Self**: Go to [`Quiz Settings > Emails to self`](/reference/quiz-builder/notifications/#to-self) and check the `Receive an email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
-    3. **Edit Email to**: Choose what email adress should receive the notification (e.g., company or personal email).
+    3. **Edit Email to**: Choose what email address should receive the notification (e.g., company or personal email).
     4. **Edit Email Subject**: Edit the title of the email notifications will receive. 
     5. **Edit Email Content**: Configure the email your customers will receive. Edit the liquid email template. 
         - The default liquid template includes all customer answers from the quiz. You can edit this template to include additional information.
         - Use provided `useful code snippets` to add personal information from users. To add personal information, click to copy the template snippet and paste it at the top of your email liquid template.
         - You can always reset the email template to default settings.
-    6. **👉 Recommended - Add Your SMTP Credentials**: By default, the result emails are sent from Revenuehunt email servers. For full deliverabilty and brand experince, it's recommended to connect your email servers to the app instead. To do that, go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
+    6. **👉 Recommended - Add Your SMTP Credentials**: By default, the result emails are sent from Revenuehunt email servers. For full deliverabilty and brand experience, it's recommended to connect your email servers to the app instead. To do that, go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
         ![manual_appsettings_smtp](/images/manual_shopifyV2_appsettings_smtp.png)
         !!! note
             SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt) to send emails through your email server.
@@ -12174,9 +12193,9 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
     2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab.
     3. Scroll down and click `+ Add results page`. A second results page will appear below the first.
         ![multi result pages built for shopify revenuehunt app activate multi results page](/images/how_to_multi_result_pages_shopify_v2_activate_multi_results_page.png)
-    4. Once you've added your result pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditonal Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
+    4. Once you've added your result pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
         ![how_to_shopifyV2_multiple_result_pages_jumplogic](/images/how_to_shopifyV2_multiple_result_pages_jumplogic.png)
-    5. Scroll down the list of questtion and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
+    5. Scroll down the list of questions and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/how_to_multi_result_pages_shopify_v2_jump_logic_multi_results_page.png)
         To learn more about using Jump Logic, check [this handy guide](/how-to-guides/use-jump-logic/).
     6. Once Jump Logic is set up and leading the customers to different results pages, publish the changes with the top-right `Publish` button to updated the preview/live quiz.
@@ -12190,6 +12209,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/set-up-fixed-recommendations-
 
 ---
 description: "Step-by-step guide to create a RevenueHunt quiz with fixed product recommendations."
+icon: material/pin-outline
 ---
 
 # How to Set Up Fixed Recommendations Quiz
@@ -12280,6 +12300,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/set-up-funnel-quiz/
 
 ---
 description: "Complete guide to setting up a RevenueHunt funnel quiz with dynamic product voting system."
+icon: material/filter-variant
 ---
 
 # How to Set Up Funnel Quiz
@@ -12373,7 +12394,7 @@ To link products or collections to choices, open the [Choice Settings](/referenc
         - Then the results page will show the products like this, sorted by the number of votes:
         ![how to recommend products product block](/images/how_to_recommend_products_product_block.png){width="500"}
         !!! note
-            Product Block also allows you to display the products in clear steps, for example as a **skincare routine**. Each Product Block that has an added **Segement Filter** can recommend the most-voted product from a collection that's linked to it. Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.
+            Product Block also allows you to display the products in clear steps, for example as a **skincare routine**. Each Product Block that has an added **Segment Filter** can recommend the most-voted product from a collection that's linked to it. Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.
     4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
         - Click [`Save`](/reference/quiz-builder/questions/) on the top-right menu to update the preview/live quiz. 
         - Then, click [`Preview`](/reference/quiz-builder/questions/) to test the quiz you've created in a new window. 
@@ -12542,7 +12563,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/set-up-recommendations/
 ================================================================================
 
 ---
-icon: material/cards
+icon: material/tune
 description: "Comprehensive guide to different RevenueHunt recommendation systems for product quizzes."
 ---
 
@@ -12675,7 +12696,7 @@ Set up multiple sections on the results page with fixed product and text combina
 
 ### With Display Logic and Multiple Results Pages
 
-Set up multiple results pages with unique fixed product recommendations and texts and control visbility by adding branching with Jump Logic that leads to diferent results pages.	
+Set up multiple results pages with unique fixed product recommendations and texts and control visibility by adding branching with Jump Logic that leads to different results pages.	
 
 ![how_to_shopify_v2_recommendations_logic](/images/how_to_shopify_v2_recommendations_logic.png){width=500}
 
@@ -12698,7 +12719,7 @@ Recommended for personality-type quizzes. Assign point values to choices and use
 
 Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content and product blocks on the Results Page based on the custom score or most voted variable.
 
-![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_varaiblequiz.png){width=500}
+![how_to_shopify_v2_recommendations_winningvariable](/images/how_to_shopifyv2_scoringquiz_variablequiz.png){width=500}
 
 !!! tip "How to set this up?"
 
@@ -12740,6 +12761,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/set-up-scoring-quiz/
 
 ---
 description: "Learn how to create a RevenueHunt scoring quiz with personality types and calculated results."
+icon: material/scoreboard-outline
 ---
 
 # How to Set Up Scoring Quiz
@@ -12818,8 +12840,8 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
     6. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/byAgOMjzi9A?si=vGZrYCxmNUK_Ool7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! tip
-        We have Scoring Quiz template avialble among the Quiz Templates. To use it go to the [Dashboard]/(reference/dashboard/) and click on `Create Quiz` button. Then, select `Scoring Quiz` template.
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, enviornemnet etc. if you are creating a quiz for a skin care brand.
+        We have Scoring Quiz template available among the Quiz Templates. To use it go to the [Dashboard](/reference/dashboard/) and click on `Create Quiz` button. Then, select `Scoring Quiz` template.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
     2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) section. 
         ![assigning scores to choices](/images/how_to_shopifyv2_scoringquiz_addscore.png)
         !!! tip
@@ -12843,7 +12865,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
     3. **Add Score-Based Display Logic**: On the Results Page, select a content block and in the right-hand menu locate `Display logic`.
         - Click on `+ Add condition (OR)`
-        - Instead of using question-specific conditions, use the `The varaible with the highest score...` or `The score of the varaible...` option
+        - Instead of using question-specific conditions, use the `The variable with the highest score...` or `The score of the variable...` option
         - Set up range conditions to control when each content block should be visible/hidden.
         ![score-based display logic](/images/how_to_shopifyv2_scoringquiz_displaylogic.png)
         !!! example
@@ -12855,7 +12877,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
             - Sensitive skin content: Total score is between 23-25 points
     5. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/aRp9cmo8XLI?si=dlqABFGJMtT4mmnc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, enviornemnet etc. if you are creating a quiz for a skin care brand.
+    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
     2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) section. 
         !!! tip
             To learn how to add scores or variables to choices, check out this guide: [How to Add Scores or Variables to Choices](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices).
@@ -12991,6 +13013,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/show-quiz-answers-in-orders/
 
 ---
 description: "Learn how to display RevenueHunt quiz answers in Shopify orders and customer notes."
+icon: material/receipt-text-outline
 ---
 
 # How to Show Quiz Answers in the Shopify Orders
@@ -13059,23 +13082,23 @@ This article explains how to show a quiz based on Shopify Markets.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=qKfPEBhJ2RvMlgBz" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! tip "Tutorial"
         Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
-    To start, make sure you have [Shopify Markets](https://help.shopify.com/en/manual/international/managing) enabled and cofigured in your Shopify store. In order to show a quiz in a differnt currency or language, you first need to have a market configured in your Shopify store for these currencies or languages.
+    To start, make sure you have [Shopify Markets](https://help.shopify.com/en/manual/international/managing) enabled and configured in your Shopify store. In order to show a quiz in a different currency or language, you first need to have a market configured in your Shopify store for these currencies or languages.
     !!! example "Example"
         If you have a market configured for Europe with the `EUR` currency, you can show a quiz in that market. 
         If you have a market configured for the US with the `USD` currency, you can show a quiz in that market.
         If you have a market in Spanish with the `ES` language, you can show a quiz in Spanish for that market.
         If you market in France with the `FR` language, you can show a quiz in French for that market.
     Go to the [Quiz Builder](/reference/quiz-builder/) and create a new quiz. 
-    To create a quiz in a different languege, duplicate the quiz from the dashbaord and edit the quiz. 
+    To create a quiz in a different language, duplicate the quiz from the dashbaord and edit the quiz. 
     ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
     The quiz doesn't have an automatic translstaion option, so you will have to transalte all the questions and answers manually. The text of buttons and admin messages can be translated in the [Quiz Settings > Quiz Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) section.  
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
     You can create as many quizzes as you want, each in a different language.
-    Once all your quizzes in different languages are created, head over to [App Settings > Shopify Markets](/reference/app-settings/#shopify-markets). This section contains all the markets and langueges you've set up in your Shopify store.
+    Once all your quizzes in different languages are created, head over to [App Settings > Shopify Markets](/reference/app-settings/#shopify-markets). This section contains all the markets and languages you've set up in your Shopify store.
     ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
     Select which quiz should be the default quiz shown for each market.
     ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
-    Click on `Show ALL locales` to set up a different default quiz for each languge and market specifically.
+    Click on `Show ALL locales` to set up a different default quiz for each language and market specifically.
     ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
     In there, you can also change format of how the price currency on recommended product is displayed. If you don't change the default, the price will be displayed as set up in your Shopify Market. If you want to change the format type the currency in the format you want, for example `${{amount}}` or `{{amount}}€` can be used to replace the default `{{amount}}USD` or `{{amount}}EUR`.
     !!! success "Automatic Product Translation"
@@ -13212,6 +13235,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/sync-selected-collections/
 
 ---
 description: "Learn how to selectively sync product collections with RevenueHunt for optimized quiz performance."
+icon: material/folder-sync-outline
 ---
 
 # How to Selectively Sync Product Collections with RevenueHunt app
@@ -13674,6 +13698,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/use-custom-fields-as-tags/
 
 ---
 description: "Learn how to use BigCommerce custom fields to organize and bulk-link products in RevenueHunt."
+icon: material/tag-multiple-outline
 ---
 
 # BigCommerce: Use Custom Fields as tags
@@ -13759,7 +13784,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
     Any profile that has a tag will be included in the segment automatically.
     !!! warning
         In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
-    Once you've set up specific [segement in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
+    Once you've set up specific [segment in your CRM based on customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm), you can use them to send targeted emails to your customers.
     1. Create email flows/campaigns specifically tailored to each segment. When designing tailored email campaigns, it’s all about crafting messages that really speak to each customer segment’s unique needs and preferences.
     2. Start by digging into the data from your customer tags to understand what makes each group tick. Create content that addresses their specific interests and personalize your subject lines and email bodies to make them feel valued. Plan your campaign schedule carefully to keep people engaged without overwhelming them, and use automation to send timely, relevant emails based on their behavior.
         !!! example
@@ -13776,6 +13801,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/use-display-logic/
 
 ---
 description: "Step-by-step guide to using display logic in RevenueHunt to show/hide results page content."
+icon: material/eye-check-outline
 ---
 
 # How to use Display Logic
@@ -13842,7 +13868,7 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
             Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
         !!! example "Example 2"
             ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
-            In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
+            In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
         ---
         **Type 3: IF the variable with the highest score...**
         Then the Display Logic rules follow the following format:
@@ -13853,7 +13879,7 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
         !!! info
             Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
         !!! example "Example 3"
-            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible.png)
+            ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
             In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
     4. **Preview and Adjust**: Publish the changes with the top-right `Save` button to update the preview/live quiz and test the setup.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=EoRzoYJ04e48VsJu&amp;start=96" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -13970,10 +13996,10 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
     To display the correct section based on the total score, follow these steps: 
     1. Go to Section Settings, find `Display Logic` and click `+ Add condition (OR)`.
     2. Set up the rule like this:
-        - **If** `The score of a variable`  select the varaible `score` 
+        - **If** `The score of a variable`  select the variable `score` 
         - `is greater than or equal to` - `5`
         - **AND**
-        - **IF** `The score of a variable`  select the varaible `score` 
+        - **IF** `The score of a variable`  select the variable `score` 
         - `is less than or equal to` - `7`
         - **THEN this section is VISIBLE**
         - Set the `Default visibility` to `Hidden`.
@@ -14046,6 +14072,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/use-jump-logic/
 
 ---
 description: "Complete guide to using jump logic in RevenueHunt to branch quiz paths based on answers."
+icon: material/directions-fork
 ---
 
 # How to Use Jump Logic
@@ -14339,6 +14366,7 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/use-skip-logic/
 
 ---
 description: "Step-by-step guide to using skip logic in RevenueHunt to skip questions dynamically."
+icon: material/skip-next-outline
 ---
 
 # How to Use Skip Logic
@@ -14652,7 +14680,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     `General` - Add a contact email for support to get notified about quiz issues, improvements or important updates (support only, no marketing emails).
     !!! tip
         You can add multiple contact emails by separating them with a comma.
-    `Shopify Markets` - Assign quizzes to different markets and languges via the [Shopify Markets](#shopify-markets) tab.
+    `Shopify Markets` - Assign quizzes to different markets and languages via the [Shopify Markets](#shopify-markets) tab.
     `Shopify Customers` - Enable automatic syncing of quiz leads to your Shopify Customers list via the [Shopify Customers](#shopify-customers) tab.
     `Catalogue` - Import tags, collections, vendors, and metafields from the [Catalogue](#catalogue) tab or check the import status.
     `SMTP settings` - Provide your email [SMTP scredentials](#smtp) to send result emails from your email provider.
@@ -14662,7 +14690,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     Tailor your customer experience by assigning specific quizzes to each of your store's Shopify Markets. Customize product recommendations, content, and language to meet the unique preferences of your global audience.
     Click the `dropdown list` to select a quiz that will be shown by default to the visitors of that Markets version of your store.
     ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
-    `▶` -  Click to display a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by dafault for the customer from that Market **and** lanuguage.
+    `▶` -  Click to display a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by default for the customer from that Market **and** language.
     ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
     `▼` - Click to return to a simplified view of all Markets, without language disctinction.
     `Default` - Select the default quiz for a speciifc region.
@@ -14731,7 +14759,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     `SMTP Username` - Set your SMTP Username.
     `SMTP Password`  - Provide the password associated with the username.
     `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
-    `SMTP Authentication`  - Select from teh dropdown your SMTP email authentication method.
+    `SMTP Authentication`  - Select from the dropdown your SMTP email authentication method.
     `Enable STARTTLS` - Check to enable STARTTLS. *STARTTLS is a protocol command used to upgrade an existing insecure connection to a secure, encrypted connection using TLS (Transport Layer Security). It typically runs over port 587. You should check this if your mail server supports STARTTLS".* Note that this option is enabled by default, but you should untick it if your SMTP server does not support STARTTLS, as this could prevent successful connections.
     `Enable SSL` - Check to enable SLL. *SSL (Secure Sockets Layer) is an older protocol for encrypting connections. If enabled, your connection starts as secure from the beginning (unlike STARTTLS which upgrades after connecting). This is usually used on port 465. Only enable SSL if your SMTP provider specifies SSL.* This option is enabled by default, but should be unticked for SMTP servers that don't use SSL encryption.
     !!! tip "Troubleshooting"
@@ -15320,7 +15348,7 @@ The RevenueHunt Quizzes `Dashboard` is the central hub where you can view, manag
     `X` - Closes the setup guide.
     For the full setup guide, check the [Success Checklist](#success-checklist) section of the [Quiz Builder](/reference/quiz-builder/).
     `Default Quiz` - The main quiz set up for the main Shopify market in your store.
-    ![manual_shopifyV2_dafaultquiz](/images/manual_shopifyV2_dafaultquiz.png)
+    ![manual_shopifyV2_defaultquiz](/images/manual_shopifyV2_defaultquiz.png)
     `4.5K Responses` - Shows the number of responses the current default quiz received.
     `6/9 Quiz optimizations` - Shows the quiz building progress based on the [Success Checklist](#success-checklist).
     `Skincare Quiz (Morning & Night)` - Current quiz title. 
@@ -15390,7 +15418,7 @@ The RevenueHunt Quizzes `Dashboard` is the central hub where you can view, manag
     Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder](/reference/quiz-builder/questions/) of the new blank quiz.
     `From template`  - Start a new quiz by selecting a pre-made template and color scheme.
     ![manual_shopifyV2_createquiz_templates](/images/manual_shopifyV2_createquiz_templates.png){width="300"}
-    Click `Select` to confirm the tempalte choice, `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new quiz.
+    Click `Select` to confirm the template choice, `Cancel` to return to the Quizzes or `Continue` to select the color scheme for the new quiz.
     ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="300"}
     Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder](/reference/quiz-builder/questions/) of the new quiz.
     `Import quiz` - Import a quiz by pasting the quiz JSON in the popup.
@@ -15606,8 +15634,8 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
     !!! info
         Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
     !!! example "Example 4"
-        ![manual_shopifyv2_jumplogic_example4_scorevaraible](/images/manual_shopifyv2_jumplogic_example4_scorevaraible.png)
-        In the example if the score of the varaible `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` after the customer answers Question 9 then the user will be redirected to the `Resutls page 1`.
+        ![manual_shopifyv2_jumplogic_example4_scorevariable](/images/manual_shopifyv2_jumplogic_example4_scorevariable.png)
+        In the example if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` after the customer answers Question 9 then the user will be redirected to the `Results page 1`.
     ---
     ### Type 3: IF the variable with the highest score...
     Then the Jump Logic rules follow the following format:
@@ -15619,7 +15647,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
         Note: Scores and variables are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
     !!! example "Example 5"
         ![manual_shopifyv2_jumplogic_example5_highestscorevariable](/images/manual_shopifyv2_jumplogic_example5_highestscorevariable.png)
-        In the example if the variable with the highest score is `dry` and the customer answers Question 9 then the user will be redirected to the `Resutls page 1`.
+        In the example if the variable with the highest score is `dry` and the customer answers Question 9 then the user will be redirected to the `Results page 1`.
     Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
     `Skip Logic ▼` - Click to open the Skip Logic menu or add a new rule to this question.
@@ -15652,8 +15680,8 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
     !!! info
         Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
     !!! example "Example 2"
-        ![manual_shopifyv2_skiplogic_example2_scorevaraible](/images/manual_shopifyv2_skiplogic_example2_scorevaraible.png)
-        In the example if the score of the varaible `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` then question 9 will be skipped.
+        ![manual_shopifyv2_skiplogic_example2_scorevariable](/images/manual_shopifyv2_skiplogic_example2_scorevariable.png)
+        In the example if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then question 9 will be skipped.
     ---
     ### Type 3: IF the variable with the highest score...
     Then the Skip Logic rules follow the following format:
@@ -15981,7 +16009,7 @@ Quiz metrics are can be found in several sections:
     ### Customize
     If you want to edit the Analytics page or add more insights click `Customize`. 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton.png)
-    This will open a side bar with avialble analytics cards(blocks):
+    This will open a side bar with available analytics cards(blocks):
     ![manual_shopifyV2_quizbuilder_metrics_analytics_customize](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customize.png)
     Click on a card you want to add and it will be automatically placed on the analytics dashbaord. You can then re-arrange and resize each card oin the dashboard. Click `Save` once done editing the analytics dashboard. 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_customized](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customized.png)
@@ -16301,7 +16329,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multiplechoice.png){width="500"}
     `Pictures Choice` - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_pictureschoice](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_picturechoice.png){width="500"}
-    `Dropdown` - Multiple choice slide which displays choices as a dropdwon menu.
+    `Dropdown` - Multiple choice slide which displays choices as a dropdown menu.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_dropdown.png){width="500"}
     `Slider bar` - A question slide with a slider bar for users to select a value between options.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_slider](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_slider.png){width="500"}
@@ -16341,11 +16369,11 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
         **Background image settings**
         ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png){width="500"}
         `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
-        `Opacity` - Use the slider to change opacity percentage of the uplaoded image.
+        `Opacity` - Use the slider to change opacity percentage of the uploaded image.
         **Split image settings**
         ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_splitimage.png){width="500"}
         `Layout` - Place the image as a `background` or `split` the screen in half with the image. 
-        `Opacity` - Use the slider to change opacity percentage of the uplaoded image.
+        `Opacity` - Use the slider to change opacity percentage of the uploaded image.
         `Position (desktop)` - Choose whether the image should be placed `left` or `right` of the question on desktop.
         `Position (mobile)` - Choose whether the image should be placed `above`, `below` a question or `hidden` on mobile.
         !!! tip
@@ -16357,7 +16385,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     `Allow overwrite progress bar` - Check to be able to overwrite the default "% complete" progress bar text for this question.
     `Auto-advance question` - Check if you want the question to automatically proceed to the next one after the selected time. Once checked you can choose the duration of the slide from the dropdown in the `Auto-advance delay` section. You can also chose to `Hide "next" button` to prevent the user from proceeding to the next question.
     !!! note
-        Auto-advance feature is only avialble in questions without user input.
+        Auto-advance feature is only available in questions without user input.
     `Custom CSS code` -  Expand to add your own custom CSS code to this section only. 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customCSS](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customCSS.png)
     `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
@@ -16414,7 +16442,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     #### Button
     The "Next" button is hidden for questions which are both single choice and mandatory, as the quiz will automatically advance to the next question after the user selects a choice.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
-    `Button text` - Change the defualt button text. 
+    `Button text` - Change the default button text. 
     `Alignment` - Move the button left, right or center.
     ### CONTENT BLOCKS
     #### Heading
@@ -16593,7 +16621,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
     `Input type` - Switch between `Short text` or `Long text` input type.
-    `Placeholder` - The default text diplayed in the textbox visible to the customer.
+    `Placeholder` - The default text displayed in the textbox visible to the customer.
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
     `Error message` - Add a default error message in case entered text is too short or too long.
     `Minimum length` - set a minimum number of characters required in this question answer.
@@ -16605,7 +16633,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_longtext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_longtext.png)
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-    `Placeholder` - The default text diplayed in the textbox visible to the customer.
+    `Placeholder` - The default text displayed in the textbox visible to the customer.
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
     `Error message` - Add a default error message in case entered text is too short or too long.
     `Minimum length` - set a minimum number of characters required in this question answer.
@@ -16616,7 +16644,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number.png){width="300"}
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-    `Placeholder` - The default text diplayed in the textbox visible to the customer.
+    `Placeholder` - The default text displayed in the textbox visible to the customer.
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
     `Error message` - Add a default error message in case entered text is too short or too long.
     `Minimum range` - the minimum number value that can be entered.
@@ -16643,7 +16671,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
     `Name` - Select whether you want to ask for the Full Name, First Name or Last Name.
-    `Placeholder` - The default text diplayed in the textbox visible to the customer.
+    `Placeholder` - The default text displayed in the textbox visible to the customer.
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
     `Error message` - Add a default error message in case entered text is too short or too long.
     `Minimum length` - set a minimum number of characters required in this question answer.
@@ -16655,7 +16683,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png){width="300"}
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-    `Placeholder` - The default text diplayed in the textbox visible to the customer.
+    `Placeholder` - The default text displayed in the textbox visible to the customer.
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
     `Error message` - Add a default error message in case entered text is incorrect.
     `🗑 Remove block` - Click to delete this block.
@@ -16666,7 +16694,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
     `Default Country Code` - Select a default contry code from the dropdown list.
-    `Placeholder` - The default text diplayed in the textbox visible to the customer.
+    `Placeholder` - The default text displayed in the textbox visible to the customer.
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
     `Error message` - Add a default error message in case entered text is incorrect.
     `🗑 Remove block` - Click to delete this block.
@@ -16677,7 +16705,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
     Data
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
     `Value` - Set the value to be displayed in the chart.
     Chart Configuration
     `Needle style` - Select the needle style to be displayed in the chart between Classic, Modern or None.
@@ -16700,7 +16728,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     `Category 1` - Set the category name for the first axis.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
     `Label` - Set the label for the first axis.
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
     `Value` - If you select `Fixed`, set the value to be displayed in the chart.
     `Category 2` - Set the category name for the second axis.
     `Category 3` - Set the category name for the third axis.
@@ -16727,7 +16755,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     `Category 1` - Set the category name for the first axis.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
     `Label` - Set the label for the first axis.
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
     `Value` - If you select `Fixed`, set the value to be displayed in the chart.
     `Category 2` - Set the category name for the second axis.
     `Category 3` - Set the category name for the third axis.
@@ -16751,7 +16779,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
     Data
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
     `Value` - Set the value to be displayed in the chart.
     Rating settings
     `Maximum rating` - Set the maximum rating to be displayed in the chart.
@@ -16765,7 +16793,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
     `Load template` - Select a chart template code from the dropdown list.
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtempalte](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtempalte.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate.png)
     Layout
     `Height` - Set the height of the chart.
     `Alignment` - Set the alignment of the chart between Left, Center or Right.
@@ -16802,7 +16830,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags_tagsexample.png)
     When as customer selects this choice, all the linked tags will be added to the customer profile. You can use these tags to segment your customers in your CRM.
     ### Scores and calculations
-    `Scores and calculations` – Add points to a varaible when this choice is selected. Use scores to show different results based on total points.
+    `Scores and calculations` – Add points to a variable when this choice is selected. Use scores to show different results based on total points.
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
     `Search or create variables` - Connect or create variables to this choice for custom logic (for advanced scoring or conditions). To create a new variable, start typing the name of the variable you want to create (e.g. `dry_skin`, `normal_skin`, `oily_skin`, etc.). Once you've typed the full name, a dropdown will appear that will allow you to `Create a new variable "xxx"`. Click on it to add a new variable.
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
@@ -16810,7 +16838,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     `Advanced settings` - Opens the advanced choice settings menu. 
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_advancedsettings.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_advancedsettings.png)
     !!! note
-        Avialble only if `Allow multipe selection` is active in Multiple-Choice [Block Settings](#block-settings).
+        Available only if `Allow multiple selection` is active in Multiple-Choice [Block Settings](#block-settings).
     *Regular choice* - Regular choice type.
     *None of the above* - If the choice is this type and it is selected, it will disable all the other choices.
     *All of the above* - If the choice is this type and it is selected, it will autoamtically select all the choices in that question.
@@ -17022,10 +17050,10 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 --- Shopify Specific Content ---
 
 ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts, set up integrtations, notificaiton emails to self and result emails to quiz takers, or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts, set up integrtations, notificaiton emails to self and result emails to quiz takers, or restore a previously published version of the quiz.
     `Quiz name` - Click on the field to edit the quiz name.
     **Quiz behavior settings**
-    `Save quiz progress` - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
     `Pre-fill answers on retake` - Activating this setting will pre-fill the answers on the retake quiz page. Toggle to activate. When customers retake the quiz, their previous answers will be pre-filled so they only need to change what's different.
     **Quiz accessibility settings**
     `Disable zooming in on mobile devices` - Enabling this setting prevents the screen from zooming in when customers tap on text fields on mobile. This also disables pinch-to-zoom on the quiz.
@@ -17092,7 +17120,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `Version ID: XXXXXX Last saved xx-xx-xxxx` - A version of the quiz.
     **Options Menu**
     `...` - Click to open the restore menu.
-    `Create a new quiz usign this version` - Create a new quiz on our dashboard based on this version of the current quiz.
+    `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
     `Restore this version` - Allows you to replace the current version of the quiz with the selected one.
     `Copy quiz code` - Copy the quiz code (JSON) of this version to clipboard. You can then transfer this quiz version to another store.
     `Show more details` - Click to expand the version change details.
@@ -17199,7 +17227,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
     !!! example "Example 2"
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
-        In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the varaible `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
+        In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
     ---
     ### Type 3: IF the variable with the highest score...
     Then the Display Logic rules follow the following format:
@@ -17210,7 +17238,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     !!! info
         Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
     !!! example "Example 3"
-        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvaraible.png)
+        ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
         In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
     Each building block of your results page has individual block settings.
     ### Content
@@ -17347,7 +17375,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         If the **compare-at price** is missing or showing as `null` on the quiz results page, this is often due to **Shopify Markets settings**. By default, Shopify can hide compare-at prices for customers in certain regions—especially in the **European Economic Area (EEA)**—due to local pricing or legal restrictions.
         How to Fix It:
         Go to **Shopify Admin → Settings → Markets → Preferences** and ensure that compare-at prices are enabled for the relevant market (e.g., Germany or the EEA). 
-        ![how_to_shopifyv2_change_quiz_languge_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_languge_markets_compareatissue.png)
+        ![how_to_shopifyv2_change_quiz_language_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_language_markets_compareatissue.png)
         You can test this by previewing the quiz on your live store while simulating a visitor from the affected country.
     `Add to cart button` - Adds an "Add to cart" button.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_addtocartbutton](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon_addtocart.png)
@@ -17359,7 +17387,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
     `Vendor` - Adds the product vendor as set up in Shopify Products.
     `Variants dropdown` - Adds a dropdown that dislays all the product variants. The dropdown will always be hidden if no products in the same block have variants or if the slots are stacked.
-    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_varaintsdropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_varaintsdropdown.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_variantsdropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_variantsdropdown.png)
     `Metafield` - Adds a metafield to the product block. Select a metafield to display from the `Select a metafield` dropdown. Note: You can also display a metafield by adding a `Text` block to your product layout and adding the metafield value manually as a [content dynamic source](/how-to-guides/use-information-recalls/).
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafield](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_metafieldpng.png)
     !!! info "Supported metafields"
@@ -17410,7 +17438,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/3dcb55fbc6e749019fe609d311915de6?sid=44a004e0-acde-4fe8-9f50-6ca1e6f21289" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     !!! warning "Filtering"
         If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. 
-        If you add a segement, the slot will be able to display the most upvoted items from the linked products/collections.
+        If you add a segment, the slot will be able to display the most upvoted items from the linked products/collections.
         Unless you add a filter, the slot will display a list of upvoted items. 
     `Exclude segments` - Click `+ Add exclude type` to choose products from which Products, Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block. You can exclude items based on tags, vendors, or variants — not just collections (Shopify only).
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1.png)
@@ -17422,7 +17450,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
     Data
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
     `Value` - Set the value to be displayed in the chart.
     Chart Configuration
     `Needle style` - Select the needle style to be displayed in the chart between Classic, Modern or None.
@@ -17445,7 +17473,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Category 1` - Set the category name for the first axis.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
     `Label` - Set the label for the first axis.
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
     `Value` - If you select `Fixed`, set the value to be displayed in the chart.
     `Category 2` - Set the category name for the second axis.
     `Category 3` - Set the category name for the third axis.
@@ -17472,7 +17500,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Category 1` - Set the category name for the first axis.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_radarchart_category1.png)
     `Label` - Set the label for the first axis.
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
     `Value` - If you select `Fixed`, set the value to be displayed in the chart.
     `Category 2` - Set the category name for the second axis.
     `Category 3` - Set the category name for the third axis.
@@ -17496,7 +17524,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
     Data
-    `Data type` - Select the data type to be displayed in the chart beteen `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
+    `Data type` - Select the data type to be displayed in the chart between `Fixed` or `Variable`. If you select `Variable`, you can select a variable from the dropdown list.
     `Value` - Set the value to be displayed in the chart.
     Rating settings
     `Maximum rating` - Set the maximum rating to be displayed in the chart.
@@ -17510,7 +17538,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
     `Load template` - Select a chart template code from the dropdown list.
-    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtempalte](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtempalte.png)
+    ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_customchart_loadtemplate.png)
     Layout
     `Height` - Set the height of the chart.
     `Alignment` - Set the alignment of the chart between Left, Center or Right.
@@ -18079,7 +18107,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     *Choices*
     **Multiple Choice** - A question slide with several clickable options for selecting a single/multiple answers.
     **Pictures Choice** - Multiple choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
-    **Dropdown** - Multiple choice slide which displays choices as a dropdwon menu.
+    **Dropdown** - Multiple choice slide which displays choices as a dropdown menu.
     **Yes/No** - Two choices slide which displays choices as a clickable options.
     **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
     *Inputs*
@@ -18102,7 +18130,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_backgroundimage.png)
     Once uploaded click `Change`to change the image or `Remove` to remove it. 
     **Background postion** - Place the image as a background or split the screen in half with the image. 
-    **Background opacity** - Use the slider to change opacity percentage of the uplaoded image.
+    **Background opacity** - Use the slider to change opacity percentage of the uploaded image.
     **Custom CSS code** -  Expand to add your own custom CSS code to this section only. 
     !!! note
         To add custom CSS code to your entire quiz, go to [quiz design](#quiz-design).
@@ -18112,7 +18140,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Allow overwrite progress bar** - Check to be able to overwrite the default "% complete" progress bar text for this question.
     **Auto-advance question** - Check if you want the question to automatically proceed to the next one after the selected time. Once checked you can choose the duration of the slide from the dropdown. 
     !!! note
-        Auto-advance feature is only avialble in questions without user input.
+        Auto-advance feature is only available in questions without user input.
     **Question ID** - Displays the question ID of the selected question.
     **Block Settings**
     ![]()
@@ -18135,7 +18163,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
     **● Button** - Adds a button to your question.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
-    *Button text* - Change the defualt button text. 
+    *Button text* - Change the default button text. 
     *Button Alignment* - Move the button left, right or center.
     **● Image** - Adds an image block to the question. 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_image.png)
@@ -18163,7 +18191,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     *Labels* - Unfold to add (type in) the labels to each step in the slider.
     **● Short text ● Long text** - Adds an open-text question to this block.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_shortlongtext.png)
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder* - The default text displayed in the textbox visible to the customer.
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
     *Error message* - Add a default error message in case entered text is too short or too long.
     *Minimum length* - set a minimum number of characters required in this question answer.
@@ -18175,28 +18203,28 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     *Error message* - Add a default error message in case entered text is incorrect.
     **● File upload**
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_fileupload](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_fileupload.png)
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder* - The default text displayed in the textbox visible to the customer.
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
     *Error message* - Add a default message in case of an error.
-    *Placeholder description* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder description* - The default text displayed in the textbox visible to the customer.
     *File size error message* - Add a default message in case of an error.
     *File format error message* - Add a default message in case of an error.
     **● Number** - Adds a numerical question to this block.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_number.png)
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder* - The default text displayed in the textbox visible to the customer.
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
     *Error message* - Add a default error message in case entered text is too short or too long.
     *Minimum range* - the minimum number value that can be entered.
     *Maximum range* - the maximum number value that can be entered.
     **● Email** - Adds an email input question to this block.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png)
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder* - The default text displayed in the textbox visible to the customer.
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
     *Error message* - Add a default error message in case entered text is incorrect.
     **● Name** - Adds an name input question to this block.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name.png)
     *Name* - Select whether you want to ask for the Full Name, First Name or Last Name.
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder* - The default text displayed in the textbox visible to the customer.
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
     *Error message* - Add a default error message in case entered text is too short or too long.
     *Minimum length* - set a minimum number of characters required in this question answer.
@@ -18204,7 +18232,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **● Phone number** - Adds a phone number question to this block.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_phonenumber.png)
     *Default Country Code* - Select a default contry code from the dropdown list.
-    *Placeholder* - The default text diplayed in the textbox visible to the customer.
+    *Placeholder* - The default text displayed in the textbox visible to the customer.
     *Optional* - Make a question optional (no answer needs to be give to proceed to the next question).
     *Error message* - Add a default error message in case entered text is incorrect.
     **● Custom HTML** - Adds a custom HTML block question to this block.
@@ -18409,7 +18437,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     *Products/Collections Alignment* - Select how the product slot should be aligned on the results page - left, center or right.
     *Slot title/description alignment* - Select how the slot title or description should be aligned within the slot block- left, center or right.
     *Product components layout:* - Select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
-    - **+ Add block** - add an extra block to the priduct slot. Below you can find a list of avialble product comonents. All the data are synced directly from your Shopify catalog.
+    - **+ Add block** - add an extra block to the product slot. Below you can find a list of available product components. All the data are synced directly from your Shopify catalog.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_addblock.png)
     *Image* - Adds the product image.
     *Title* - Add the product title.
@@ -18461,10 +18489,10 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     *Email TO:* - Add an email address to which the notification should be sent.
     *HTML email template* - Add HTML email template. The template can be built based on the Metadata provided.
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously publsihed version of the quiz.
+    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
     **Advanced quiz settings**
-    **Save quiz progress** - Activating this setting will allow the quiz to rememeber where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their reuslt page instead of the first slide.) Toggle to activate.
-    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your trackign integrations (such as Google Analytics or Meta Pixel).
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
     **Quiz migration**
     **Export quiz to another store** - Clicking `Copy quiz code` generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
     **Quiz ID: XXXXXX** - Click `Copy quiz ID` to copy the quiz ID to clipboard.
@@ -18507,7 +18535,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
     **Version ID: XXXXXX Last saved xx-xx-xxxx** - A version of the quiz.
      **...** - Click to open the restore menu.
-    - **Create a new quiz usign this version** - Create a new quiz on our dashboard based on this version of the current quiz.
+    - **Create a new quiz using this version** - Create a new quiz on our dashboard based on this version of the current quiz.
     - **Restore this version** - Allows you to replca the current version of the quiz with the selected one.
     ![manual_shopifyV2_quizbuilder_integrations](/images/manual_shopifyV2_quizbuilder_integrations.png)
     In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. Check [here](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
@@ -18589,7 +18617,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
         - how to use Skip Logic to show different skin advice in the quiz (statement),
         - how to use Skip Logic to show or hide a number of follow-up questions,
         - how to use Skip Logic to show or hide follow-up questions based on questions that allow multiple answers,
-        - how to add varaibles and scores to choices in the quiz,
+        - how to add variables and scores to choices in the quiz,
         - how to use Display Logic to show different personalized advice on the Results Page based on customer answers,
         - how to use Display Logic to show different quiz results based on a winning variable (personality type quiz),
         - how to use Display Logic to show different quiz results based on a total custom score.
@@ -18617,7 +18645,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
     3. Click on the main question and open the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) tab. Click `+ Add another rule(OR)` and set up a redirection rule.
     4. Set up the first redirection rule. It follows the format: 
         !!! info "Jump Logic format"
-            IF the response to the question `Pick your quesions` `is/is not` `Pick the choice`, THEN go to... `Set the destination`.
+            IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN go to... `Set the destination`.
         !!! example
             If the responses to `Q4: SKIN TYPE` is `Oily all over`, THEN go to... `Q8: SKIN TYPE: OILY`.
             ![how to use jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_rule.png){width="300"}
@@ -18654,7 +18682,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
     4. Click on that question and open the `Jump Logic` tab.
     5. Click `+ Add another rule(OR)` and set up a redirection rule.
         !!! info "Jump Logic format"
-            IF the response to the question `Pick your quesions` `is/is not` `Pick the choice`, THEN go to... `Set the destination`.
+            IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN go to... `Set the destination`.
         !!! example
             IF the response to the question `Q4: SKIN TYPE` is `Oily all over`, THEN go to... `Results Page 2`.
     6. Click `+ Add another rule(OR)` and set up the other redirection rules for the same question.
@@ -18677,7 +18705,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
     3. Click on that question and open the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) tab.
     4. Click `+ Add another rule(OR)` and set up a redirection rule and `Link to URL`.
         !!! info "Jump Logic format"
-            IF the response to the question `Pick your quesions` `is/is not` `Pick the choice`, THEN go to... `Link to URL`.
+            IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN go to... `Link to URL`.
         !!! example
             IF the answer to the question `Q10: ALERGIES` is `Rose`, THEN go to... `Link to URL` and paste the desired URL, for example `https://yourstore.com/alergies`.
              ![how to send users to an external url jump logic](https://loom.com/i/87753ed6e35d45ee8f0abfb0d1c3c92b?workflows_screenshot=true)
@@ -18706,7 +18734,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
     4. Next, in the right-hand menu locate the [`Skip Logic`](/reference/quiz-builder/conditional-logic/#skip-logic) section.
     5. Click `+ Add another rule (OR)` to add a skip logic rule to the selected statement slide. 
         !!! info "Skip Logic format"
-            IF the response to the question `Pick your quesions` `is/is not` `Pick the choice`, THEN this question will be skipped.
+            IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN this question will be skipped.
         !!! example
             IF the response to the question `Q4: SKIN TYPE` is `Dry and tight all over`, THEN this question will be skipped.
             Meaning that if any other answer than "Dry and tight all over" is selected, then this question will be skipped.
@@ -18735,7 +18763,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
     3. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab.
     4. Click `+ Add another rule (OR)` to add a skip logic rule to the selected follow-up question. 
         !!! info "Skip Logic format"
-            IF the response to the question `Pick your quesions` `is/is not` `Pick the choice`, THEN this question will be skipped.
+            IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN this question will be skipped.
         !!! example
             IF the response to the question `Q9: Skin Concerns` is `acne`, THEN this question will be skipped.
             ![how to hide content with logic shopifyv2 skip logic rule](/images/how_to_shopifyV2_skiplogic_example_logic_rule_multipleselection.png)
@@ -18800,7 +18828,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
     1. Open the [Questions](/reference/quiz-builder/questions/) tab and add Questions and Choices. 
         !!! example "Example: Quiz with five questions, each with five choices"
             The quiz consists of five questions, each with five choices.  Each question and choice should help the user determine their skin type.
-    2. Assign varaibles to choices. Each choice is associated with a [custom variable and a score](#how-to-add-scores-or-variables-to-choices) via the [`Choices Settings`](/reference/quiz-builder/questions/#choice-settings) section. 
+    2. Assign variables to choices. Each choice is associated with a [custom variable and a score](#how-to-add-scores-or-variables-to-choices) via the [`Choices Settings`](/reference/quiz-builder/questions/#choice-settings) section. 
         !!! tip
             To learn how to add scores or variables to choices, check out [this section](#add-scores-or-variables-to-choices).
         !!! example "Example: Assigning variables to choices"
@@ -18850,7 +18878,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
     1. Open the [Questions](/reference/quiz-builder/questions/) tab and add Questions and Choices. 
         !!! example "Example: Quiz with five questions, each with five choices"
             The quiz consists of five questions, each with five choices.  Each question and choice should help the user determine their skin type.
-    2. Assign varaibles to choices. Each choice is associated with a [custom variable and a score](#how-to-add-scores-or-variables-to-choices) via the [`Choices Settings`](/reference/quiz-builder/questions/#choice-settings) section. 
+    2. Assign variables to choices. Each choice is associated with a [custom variable and a score](#how-to-add-scores-or-variables-to-choices) via the [`Choices Settings`](/reference/quiz-builder/questions/#choice-settings) section. 
         !!! tip
             To learn how to add scores or variables to choices, check out [this section](#add-scores-or-variables-to-choices).
         !!! example "Example: Assigning scoresto choices"
@@ -18881,18 +18909,18 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
     6. To display the correct section based on the total score, go to Section Settings, find `Display Logic` and click `+ Add condition (OR)`.
     7. Add Display Logic to the Section. Set up the rule like this:
         !!! info "Display Logic format"
-            - **If** `The score of a variable`  select the varaible `Selected variable` 
+            - **If** `The score of a variable`  select the variable `Selected variable` 
             - `is greater than or equal to` - `Number`- `Add your number`
             - **AND**
-            - **IF** `The score of a variable`  select the varaible `Selected variable` 
+            - **IF** `The score of a variable`  select the variable `Selected variable` 
             - `is less than or equal to` - `Number`- `Add your number`
             - **THEN this section is VISIBLE**
             - Set the `Default visibility` to `Hidden`.
         !!! example "Example: Display Logic rule for the Dry Skin section"
-            - **If** `The score of a variable`  select the varaible `score` 
+            - **If** `The score of a variable`  select the variable `score` 
             - `is greater than or equal to` - `5`
             - **AND**
-            - **IF** `The score of a variable`  select the varaible `score` 
+            - **IF** `The score of a variable`  select the variable `score` 
             - `is less than or equal to` - `7`
             - **THEN this section is VISIBLE**
             - Set the `Default visibility` to `Hidden`.
@@ -18969,7 +18997,7 @@ In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendatio
             If a new profile wasn't added to Profiles in Klaviyo, double-check that the `Send Quiz Leads to Klaviyo Profiles` checkbox is enabled in that quiz's settings and that Klaviyo still shows the `Connected` badge in Integrations.
     From now on, all the contacts coming from this quiz will be added to your Klaviyo account.
     All quiz contacts can be grouped into a **segment** in Klaviyo. 
-    1. To create a new segment in Klaviyo go to  `Audience > List & Segements` and click `Create New > New Segment`.
+    1. To create a new segment in Klaviyo go to  `Audience > List & Segments` and click `Create New > New Segment`.
     2. Name the segment and set up the definition. 
     3. Segment definition: Select `Properties about someone` and add a property that will be unique for profiles coming from the quiz. This can be any of the [custom properties](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) that RevenueHunt sends to Klaviyo Profiles.
         !!! example "Example"
@@ -18987,7 +19015,7 @@ In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendatio
     5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Set the `Reentry criteria` to `Allow reentry` so quiz takers receive an email every time they complete the quiz. Click `Confirm` and `Confirm and save`.
         !!! tip "Alternative: trigger from a Klaviyo list"
             Instead of triggering from a segment, you can trigger the flow when a contact is added to a specific Klaviyo list. This is useful if you're using the `Klaviyo list` selector in your quiz's email question block to send contacts directly to a list (see [Add Contacts to List](/tutorials/follow-up-emails-klaviyo/#add-contacts-to-list)).
-    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follw these steps:
+    If you've [asked for marketing consent in the quiz](/how-to-guides/ask-for-marketing-consent/), you can update it in the Klaviyo email flow. Just follow these steps:
     1. Right below the flow trigger, add a `Profile property update` action.
     2. Click `+ Step`.
     3. A menu will appear letting up set up the profile property update.
@@ -19001,7 +19029,7 @@ In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendatio
     6. To add the quiz content and quiz recommended products you'll need to add an `HTML` block. Drag and drop the `HTML` block to the email builder.
     7. In the `Quiz Settings > Integrations` section, you'll find a button to download a `Klaviyo Template`. Click the `Klaviyo Template` button and a new window will open. There, click `Copy code` to copy the existing template.
         !!! info "Klaviyo Template"
-            ![how to send leads to klaviyo email tempalte download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
+            ![how to send leads to klaviyo email template download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
             The code contains several ready-to-use code snippets that allow you to display: 
             - **Dynamic Results Page**: Display dynamic result page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
             - **Static Results Page**: Display the complete result page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
@@ -19021,7 +19049,7 @@ In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendatio
             Check the [Use quiz data in Klaviyo email templates](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) article to learn how to customize your Klaviyo email template with quiz properties.
     11. Once you're happy with the email template, click `Exit` then `Done` and return to your flow.
     12. Turn your email `LIVE`.
-    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Kalviyo Segment and will be sent a follow-up email. 
+    From that moment on, all the quiz takers, who leave their email, will be automatically added to your Klaviyo Segment and will be sent a follow-up email. 
     The easiest way to send an email with each quiz retake is to set the **reentry criteria** when you configure the flow trigger:
     1. Open the flow trigger (`Added to a segment`).
     2. Set the `Reentry criteria` to `Allow reentry`.
@@ -19390,7 +19418,7 @@ In this tutorial, you’ll learn how to send emails to quiz respondents and your
     3. **Edit Email Template - Email TO**: Choose an answer to which email question should be used to send the result emails to.
     4. **Edit Email Template -  REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
     5. **Edit Email Template - Email Subject**: Edit the title of the email that customers will receive. 
-    6. **Edit Email Template - Email Liquid template**: Configure the email temaplate of the email that your customers will receive. 
+    6. **Edit Email Template - Email Liquid template**: Configure the email template of the email that your customers will receive. 
         ![how to send result emails html template](https://loom.com/i/200e22c07c214de2a399b481d7720c80?workflows_screenshot=true)
         !!! warning
             Email template requires the knowledge of HTML and liquid to be edited. 
@@ -19400,7 +19428,7 @@ In this tutorial, you’ll learn how to send emails to quiz respondents and your
                 To learn more about the metadata, check out the [Quiz Response Metadata Structure](/how-to-guides/send-result-emails/#editing-email-templates).
         - You can find *useful code snippets* under the `Email Liquid Template` field and use them to insert specific data into the email template (e.g., 'Responses by Block' snippet to list user answers).
             !!! tip
-                You can copy the useful code snippets and paste them into a large languge model like ChatGPT or Gemini to style the liquid email template.
+                You can copy the useful code snippets and paste them into a large language model like ChatGPT or Gemini to style the liquid email template.
         !!! note
             Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about styling and editing the Email templates [here](/how-to-guides/send-result-emails/#editing-email-templates).
     7. **Email Preview**: Use the Email preview section to check how the email will look like for different respondents.
@@ -19409,13 +19437,13 @@ In this tutorial, you’ll learn how to send emails to quiz respondents and your
     10. **Preview the quiz**: Return to the dashboard and preview the quiz. Complete the quiz all the way to the results page to trigger the email notification.
     2. **Activate Emails to Self**: Go to [`Quiz Settings > Emails to self`](/reference/quiz-builder/notifications/#to-self) and check the `Receive an email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_toself.png)
-    3. **Edit Email template - Email to**: Choose what email adress should receive the notification (e.g., company or personal email).
+    3. **Edit Email template - Email to**: Choose what email address should receive the notification (e.g., company or personal email).
     4. **Edit Email template - Email Subject**: Edit the title of the email notifications will receive. 
-    5. **Edit Email template - Email Liquid tempalte**: Configure the email your customers will receive. Edit the liquid email template. 
+    5. **Edit Email template - Email Liquid template**: Configure the email your customers will receive. Edit the liquid email template. 
         - The default liquid template includes all customer answers from the quiz. You can edit this template to include additional information.
         - Use provided `useful code snippets` to add personal information from users. To add personal information, click to copy the template snippet and paste it at the top of your email liquid template.
             !!! tip
-                You can copy the useful code snippets and paste them into a large languge model like ChatGPT or Gemini to style the liquid email template.
+                You can copy the useful code snippets and paste them into a large language model like ChatGPT or Gemini to style the liquid email template.
         - You can always reset the email template to default settings.
     6. **Email Preview**: Use the Email preview section to check how the email will look like for different respondents.
     7. **`Recommended` Add Your SMTP Credentials**: Check the step by step instructions [here](#sending-emails-from-your-servers-smtp) to learn how to connect your own email server using SMTP.
