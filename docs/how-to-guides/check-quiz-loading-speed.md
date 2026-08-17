@@ -38,7 +38,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
 
     !!! note "About the large inline quiz configuration"
 
-        When inspecting your page source, you may notice a large inline `window.quizzes` JSON object (often 100-200 KB). This is your quiz's configuration: its questions, branching logic, results pages, recommendation rules, design and translations. We embed it directly in the page so the quiz can open instantly, with no extra network request when a shopper interacts.
+        When inspecting your page source, you may notice a large inline `window.quizzes` JSON object (often 100-200 KB). This is your quiz's configuration: its questions, conditional logic, results pages, recommendation rules, design and translations. We embed it directly in the page so the quiz can open instantly, with no extra network request when a shopper interacts.
 
         That uncompressed size looks alarming, but it isn't the bottleneck:
 

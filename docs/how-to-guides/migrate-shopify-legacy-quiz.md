@@ -59,7 +59,7 @@ Review your questions, results pages, and logic to make sure everything looks co
 |---|---|
 | Questions and answer choices | ✅ Fully migrated |
 | Results pages and content | ✅ Fully migrated |
-| Conditional / branching logic | ✅ Fully migrated |
+| Conditional logic | ✅ Fully migrated |
 | Quiz design and styling | ✅ Fully migrated |
 | Custom CSS | ⚠️ Not adapted automatically — see below |
 | Custom JavaScript | ⚠️ Will not migrate — see below |
