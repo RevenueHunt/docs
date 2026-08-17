@@ -63,11 +63,11 @@ Before diving into the implementation, it's important to understand the differen
     **Available**: JavaScript + HTML  
     Liquid is not available in Standalone.
 
-## Access the Custom JavaScript Console
+## Access the custom JavaScript console
 
 You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
-### Results Page
+### Results page
 
 === "Shopify"
 
@@ -140,7 +140,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
-### Quiz Questions
+### Quiz questions
 
 === "Shopify"
 
@@ -214,7 +214,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     4. This is your canvas for crafting and deploying custom scripts that can modify the quiz's behavior based on user interactions and results.
     5. Remember to click the `Publish` button to update the preview/live quiz.
 
-### Via Custom HTML Block
+### Via custom HTML block
 
 ??? info "Use Custom HTML Blocks when"
 
@@ -228,7 +228,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     You can also add custom JavaScript directly in HTML blocks throughout your quiz. These blocks support both JavaScript and Liquid templating for dynamic content.
 
-    #### Results Page
+    #### Results page
 
     1. Navigate to the [Results page](/reference/quiz-builder/results-page/) in the Quiz builder.
     2. Add or edit a [**Custom HTML block**](/reference/quiz-builder/results-page/#custom-html) in your results page layout.
@@ -291,7 +291,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 
 
-    #### Slot Item Composition
+    #### Slot item composition
 
     1. Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.
     2. Open the [Product block](/reference/quiz-builder/results-page/#product-block) and in the [Slot settings](/reference/quiz-builder/results-page/#slot-settings) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.
@@ -341,7 +341,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     Not available.
 
-## Find Block and Question IDs
+## Find block and question IDs
 
 === "Shopify"
 
@@ -502,14 +502,14 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 
 
-## Console.log(x) Function
+## Console.log(x) function
 
 === "Shopify"
 
     In the `💎Built for Shopify` version of the RevenueHunt app, custom JavaScript receives two parameters: `quiz` (read-only context) and `actions` (methods).
 
 
-    ### The `quiz` Object
+    ### The `quiz` object
 
     Your JavaScript code has access to the `quiz` object containing all the current state data:
 
@@ -578,7 +578,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     | `quiz.resultContext.cartItems` | Array of items currently in cart |
     | `quiz.resultContext.discounts` | Object with `applied` array and `eligible` boolean |
 
-    ### Actions (Methods)
+    ### Actions (methods)
 
     **Navigation Actions**
 
@@ -611,7 +611,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     |--------|-------------|
     | `actions.syncCart()` | Fetch Shopify cart state and **replace** the quiz result cart state (async, results page) |
 
-    ### DOM Helpers
+    ### DOM helpers
 
     Since the quiz may render in a shadow DOM, use these helpers instead of `document.querySelector`:
 
@@ -621,7 +621,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     | `window.quiz.querySelectorAll(selector)` | Find all matching elements |
     | `window.quiz.getElementById(id)` | Find element by ID |
 
-    ### Global Event Handler
+    ### Global event handler
 
     ```javascript
     window.quiz.onChange = (event) => {
@@ -631,7 +631,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     };
     ```
 
-    ### JavaScript Examples
+    ### JavaScript examples
 
     **Conditional navigation based on score:**
     ```javascript
@@ -1293,9 +1293,9 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     For other functions and properties refer to the [console.log(prq)](#consolelogprq-function).
 
 
-## Customization Examples
+## Customization examples
 
-### Example 1: Trigger functions from an element in the results page
+### Example 1: trigger functions from an element in the results page
 
 === "Shopify"
 
@@ -1575,7 +1575,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             destination_element.appendChild(element);
             ```
 
-### Example 2: Insert calculations
+### Example 2: insert calculations
 
 === "Shopify"
 
@@ -1824,7 +1824,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     You can also load jQuery [this way](https://stackoverflow.com/questions/10113366/load-jquery-with-javascript-and-use-jquery).
 
 
-### Example 3: Multiple-choice questions: select all, select none
+### Example 3: multiple-choice questions: select all, select none
 
 === "Shopify"
 
@@ -2361,7 +2361,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         }
         ```
 
-### Example 4: Redirect to Translated Product URL
+### Example 4: redirect to translated product URL
 
 === "Shopify"
 
@@ -2398,7 +2398,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     A workaround for this could be creating quizzes in different languages and redirecting users to the translated product pages with JavaScript. We explain this approach in [this article](/how-to-guides/change-quiz-language/#step-3-redirect-to-translated-product-url).
 
-### Other Examples
+### Other examples
 
 === "Shopify"
 

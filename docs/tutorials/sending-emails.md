@@ -78,7 +78,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
 
 
 
-## Sending Emails to Respondents
+## Sending emails to respondents
 
 
 === "Shopify"
@@ -278,7 +278,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
 
 
 
-## Sending Emails to Yourself
+## Sending emails to yourself
 
 
 === "Shopify"
@@ -423,7 +423,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
 
 
 
-## Sending Emails from Your Servers (SMTP)
+## Sending emails from your servers (SMTP)
 
 
 === "Shopify"

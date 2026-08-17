@@ -14,7 +14,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
     Before you start ensure you have a quiz created with the RevenueHunt app and access to the theme editor.
 
-## Chat Button on the Homepage
+## Chat button on the homepage
 
 !!! info "What's a Chat Button on the Homepage?"
     It's a chat-like button that shows up on the homepage of your store and when clicked opens the quiz popup.
@@ -129,7 +129,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
     6. Save the changes.
     7. From now on, the chat icon popup quiz will be visible on the main page.
 
-## Chat Button on All Pages
+## Chat button on all pages
 
 !!! info "What's a Chat Button on All Pages?"
     It's a chat-like button that shows up on all pages of your store and when clicked opens the quiz popup.
@@ -184,7 +184,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
     If you want the chat button to appear across your entire store, follow the [Manual Instructions](#option-2-manual) and insert the code before the `</body>` closing tag in your shop's theme.
 
 
-## Chat Button on a Specific Page
+## Chat button on a specific page
 
 !!! info "What's a Chat Button on a Specific Page?"
     It's a chat-like button that shows up on a specific page of your store and when clicked opens the quiz popup.
@@ -295,7 +295,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
 ## FAQs
 
-### Open a Specific Quiz
+### Open a specific quiz
 
 === "Shopify"
 

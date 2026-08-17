@@ -24,7 +24,7 @@ There are two ways to create an external link to your quiz for social media:
     A direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup.
 
 
-## Quiz on a Dedicated Landing Page
+## Quiz on a dedicated landing page
 
 !!! info "What's an inline quiz on a dedicated landing page?"
 
@@ -141,7 +141,7 @@ There are two ways to create an external link to your quiz for social media:
 
 
 
-## Link Popup for Socials
+## Link popup for socials
 
 !!! info "What's a Link Popup?"
     It's a direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup on your website.
@@ -239,7 +239,7 @@ There are two ways to create an external link to your quiz for social media:
 
 ## FAQs
 
-### Open a Specific Quiz
+### Open a specific quiz
 
 === "Shopify"
 

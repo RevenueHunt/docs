@@ -29,7 +29,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
-### To Respondent
+### To respondent
 
 === "Shopify"
 
@@ -384,7 +384,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
-### To Self
+### To self
 
 === "Shopify"
 

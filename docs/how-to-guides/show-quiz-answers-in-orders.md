@@ -92,7 +92,7 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
 
     This feature is currently only available for the `💎Built for Shopify` version of the RevenueHunt app and the Legacy version of the app for Shopify.
 
-## Testing the Connection
+## Testing the connection
 
 === "Shopify"
 

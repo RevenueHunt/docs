@@ -26,7 +26,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
     By adding customer tags into your quizzes, you can automatically send quiz results to your mailing list or CRM, enabling precise segmentation based on customer responses.
 
 
-## How to Add Customer Tags to Your Quiz
+## How to add customer tags to your quiz
 
 === "Shopify"
 
@@ -116,7 +116,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
     4. **Publish the changes**: Click the top-right `Publish` button to publish the changes and update the preview/live quiz.
 
 
-### How to Send Customer Tags to CRMs
+### How to send customer tags to CRMs
 
 === "Shopify"
 
@@ -171,7 +171,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
     3. **Using Segmented Data:** In your selected CRM, you can now [create segments based on the customer tags](/how-to-guides/use-customer-tags/#creating-segments-in-your-crm) and [send them targeted emails](#using-segmented-data) based on the quiz results.
 
 
-### Creating Segments in Your CRM
+### Creating segments in your CRM
 
 === "Shopify"
 
@@ -286,7 +286,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
         In most integrations, tags are updated with every quiz retake. If you wish to preserve tags from each quiz attempt, [contacting support](/how-to-guides/contact-customer-support/) is recommended for further assistance.
 
 
-### Using Segmented Data
+### Using segmented data
 
 
 !!! tip 

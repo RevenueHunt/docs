@@ -14,7 +14,7 @@ This article explains how to integrate the TikTok Pixel with your quiz applicati
 
     The TikTok Pixel is a piece of code that you place on your website to track user interactions with your quiz and measure the success of your TikTok ads.
 
-## Link Quiz to Your TikTok Pixel
+## Link quiz to your TikTok Pixel
 
 === "Shopify"
 

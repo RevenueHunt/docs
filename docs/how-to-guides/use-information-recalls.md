@@ -9,7 +9,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 
 ![how to use information recalls example filled](/images/how_to_use_information_recalls_example_filled.png)
 
-## Adding Information Recalls / Content Dynamic Source
+## Adding information recalls / content dynamic source
 
 === "Shopify"
 
@@ -96,7 +96,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
     3. **Implement Recalls**: Once selected, the chosen data will be integrated into your current question, email subject line, or message body. Instead of seeing a generic placeholder, participants will see the recalled information, such as their name, making the interaction feel uniquely tailored to them.
         ![how to use information recalls example](/images/how_to_use_information_recalls_example.png)
 
-## Where to Add Information Recalls
+## Where to add information recalls
 
 === "Shopify"
 

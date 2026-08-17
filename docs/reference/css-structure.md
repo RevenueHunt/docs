@@ -6,7 +6,7 @@ description: "Complete CSS class reference guide for customizing RevenueHunt qui
 
 This guide provides a comprehensive overview of all CSS classes and selectors available in the `💎 Built for Shopify` RevenueHunt quiz app. Use this reference to customize the appearance of your quizzes.
 
-## Table of Contents
+## Table of contents
 - [Top-Level Container Structure](#top-level-container-structure)
 - [Question Structure](#question-structure)
 - [Question Blocks](#question-blocks)
@@ -18,9 +18,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 - [Dynamic ID Patterns](#dynamic-id-patterns)
 - [Common Use Cases](#common-use-cases)
 
-## Top-Level Container Structure
+## Top-level container structure
 
-### Main Selectors
+### Main selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -54,9 +54,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Question Structure
+## Question structure
 
-### Main Selectors
+### Main selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -94,9 +94,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Question Blocks
+## Question blocks
 
-### Text Block Selectors
+### Text block selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -109,7 +109,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.question-text--center` | Center aligned text |
 | `.question-text--right` | Right aligned text |
 
-### Heading Block Selectors
+### Heading block selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -123,7 +123,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.heading__center.question-heading__center` | Center aligned heading |
 | `.heading__right.question-heading__right` | Right aligned heading |
 
-### Button Block Selectors
+### Button block selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -165,9 +165,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Choice Blocks
+## Choice blocks
 
-### Main Selectors
+### Main selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -183,7 +183,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.picture-choice__medium` | Medium picture size |
 | `.picture-choice__large` | Large picture size |
 
-### Individual Choice Selectors
+### Individual choice selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -216,9 +216,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Background and Navigation
+## Background and navigation
 
-### Main Selectors
+### Main selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -228,7 +228,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.question-background-image` | Background image element |
 | `.question-background-image--split` | Split layout background image |
 
-### Navigation Bar Selectors
+### Navigation bar selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -262,9 +262,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Results Structure
+## Results structure
 
-### Main Selectors
+### Main selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -274,7 +274,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `#rsb-{ref}` | Result block with unique reference ID |
 | `.block.results-block` | Base result block class |
 
-### Results Heading Selectors
+### Results heading selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -287,7 +287,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.results-heading__center` | Center aligned result heading |
 | `.results-heading__right` | Right aligned result heading |
 
-### Results List Selectors
+### Results list selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -319,9 +319,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Slot Components
+## Slot components
 
-### Main Selectors
+### Main selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -331,7 +331,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.results-slot` | Individual slot item |
 | `.results-slot.in-cart` | Item already in cart state |
 
-### Product Elements
+### Product elements
 
 | Selector | Description |
 |----------|-------------|
@@ -346,7 +346,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.slot-product__button-remove` | Remove quantity button |
 | `.slot-product__button-item-text` | Button item text |
 
-### Collection Elements
+### Collection elements
 
 | Selector | Description |
 |----------|-------------|
@@ -384,7 +384,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 
 ## Animations
 
-### Animation Classes
+### Animation classes
 
 | Selector | Description |
 |----------|-------------|
@@ -412,7 +412,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Dynamic ID Patterns
+## Dynamic ID patterns
 
 Use these patterns to target specific elements in your quiz:
 
@@ -449,9 +449,9 @@ Use these patterns to target specific elements in your quiz:
 }
 ```
 
-## Common Use Cases
+## Common use cases
 
-### Brand Color Customization
+### Brand color customization
 
 ```css
 /* Primary brand colors */
@@ -467,7 +467,7 @@ Use these patterns to target specific elements in your quiz:
 }
 ```
 
-### Mobile-First Responsive Design
+### Mobile-first responsive design
 
 ```css
 /* Mobile base styles */
@@ -489,7 +489,7 @@ Use these patterns to target specific elements in your quiz:
 }
 ```
 
-### Custom Typography Scale
+### Custom typography scale
 
 ```css
 /* Typography hierarchy */
@@ -508,7 +508,7 @@ Use these patterns to target specific elements in your quiz:
 }
 ```
 
-### Product Grid Layout
+### Product grid layout
 
 ```css
 /* Responsive product grid */

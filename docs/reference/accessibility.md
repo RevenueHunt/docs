@@ -9,7 +9,7 @@ RevenueHunt quizzes are built with accessibility best practices in mind, followi
 !!! note "Shared Responsibility"
     Final accessibility compliance also depends on your theme, quiz customization, and embedding method. Colors, fonts, image-only choices, custom CSS/JS, and other overlays on your site can impact accessibility. This guide covers what we provide and best practices for maintaining accessibility.
 
-## Keyboard Navigation
+## Keyboard navigation
 
 Users can complete the entire quiz using only a keyboard:
 
@@ -23,7 +23,7 @@ All question types are fully navigable via keyboard, including dropdowns, slider
 !!! tip "Avoiding Focus Issues"
     Theme overlays like chat widgets or newsletter popups can steal focus while the quiz is open. For the best experience, pause competing overlays while the quiz is active.
 
-## Screen Reader Support
+## Screen reader support
 
 Quizzes work with popular screen readers including VoiceOver (macOS/iOS), NVDA (Windows), and TalkBack (Android):
 
@@ -33,28 +33,28 @@ Quizzes work with popular screen readers including VoiceOver (macOS/iOS), NVDA (
 - Selection states are communicated clearly
 - Progress is indicated (e.g., "Question 2 of 6")
 
-### Best Practice: Use Text Labels
+### Best practice: use text labels
 
 Every choice should have a meaningful text label, not just images. If you use image choices, keep a meaningful label so screen readers can describe the option.
 
 [:fontawesome-solid-arrow-right: Learn more about Questions](/reference/quiz-builder/questions/)
 
-## Focus Management
+## Focus management
 
 - **Visible Focus Indicators** - Clear outline on all interactive elements
 - **Logical Focus Order** - Matches the visual layout
 - **No Keyboard Traps** - Users can always navigate away
 
-## Form Accessibility
+## Form accessibility
 
 - All form fields have associated labels
 - Validation errors are linked to their inputs
 - Required fields are indicated to assistive technology
 - Standard inputs support browser autofill
 
-## Visual Accessibility
+## Visual accessibility
 
-### Color Contrast
+### Color contrast
 
 All 8 built-in color schemes meet contrast requirements:
 
@@ -69,7 +69,7 @@ All 8 built-in color schemes meet contrast requirements:
 
 [:fontawesome-solid-arrow-right: Customize Quiz Design](/reference/quiz-builder/quiz-design/)
 
-### Text Scaling
+### Text scaling
 
 Quiz text scales with browser zoom and user font preferences:
 
@@ -77,7 +77,7 @@ Quiz text scales with browser zoom and user font preferences:
 - Respects system font size preferences
 - Uses relative units for proper scaling
 
-### Touch Targets
+### Touch targets
 
 Interactive elements meet WCAG 2.1 Level AAA touch target requirements:
 
@@ -88,25 +88,25 @@ Interactive elements meet WCAG 2.1 Level AAA touch target requirements:
 
 All interactive elements meet or exceed the WCAG 2.5.5 Level AAA requirement of 44px minimum. Adequate spacing between targets prevents accidental taps.
 
-## Motion & Animation
+## Motion & animation
 
 - Quiz respects the `prefers-reduced-motion` browser setting
 - All animations are disabled when reduced motion is preferred
 - No auto-playing media without user interaction
 
-## Language Support
+## Language support
 
-### Right-to-Left (RTL) Languages
+### Right-to-left (RTL) languages
 
 Quizzes automatically adjust layout for RTL languages including Arabic, Hebrew, Persian, Urdu, Pashto, and Kurdish.
 
-### Multiple Languages
+### Multiple languages
 
 Quizzes support 11+ languages with proper text direction.
 
 [:fontawesome-solid-arrow-right: Change Quiz Language](/how-to-guides/change-quiz-language/)
 
-## Customizable Accessibility Text
+## Customizable accessibility text
 
 Customize screen reader text in **Quiz Builder > Quiz Settings > Accessibility**:
 
@@ -116,7 +116,7 @@ Customize screen reader text in **Quiz Builder > Quiz Settings > Accessibility**
 | Previous/Next Question | Labels for navigation buttons |
 | Answer Before Proceeding | Prompt when answer is required |
 
-## Testing Your Quiz
+## Testing your quiz
 
 We recommend testing your quiz:
 
@@ -134,7 +134,7 @@ Our quiz renderer follows:
 - **Section 508** - US federal accessibility requirements
 - **ADA** - Americans with Disabilities Act guidelines
 
-## Need Help?
+## Need help?
 
 If you notice an accessibility issue, please let us know—our team will address it promptly.
 

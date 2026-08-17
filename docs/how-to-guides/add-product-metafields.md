@@ -181,7 +181,7 @@ This article explains how to add product metafields/attributes to products on yo
     ![Implement Custom JavaScript](/images/how_to_add_metafields_step5.png)
 
 
-## How to Use Metafields as Smart Collections
+## How to use metafields as smart collections
 
 === "Shopify"
 

@@ -159,7 +159,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     `arrow down` - Take you to the question lower.
 
-## Jump Logic
+## Jump logic
 
 === "Shopify"
 
@@ -191,7 +191,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     ---
 
-    ### Type 1: IF The response to the question...
+    ### Type 1: IF the response to the question...
 
     Then the Jump logic rules follow the following format:
 
@@ -219,7 +219,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     ---
 
-    ### Type 2: IF The score of the variable...
+    ### Type 2: IF the score of the variable...
 
     Then the Jump logic rules follow the following format:
 
@@ -475,7 +475,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     `Always jump to:` - Select a slide or URL where the user will be always redirected after this slide.
 
-## Skip Logic
+## Skip logic
 
 === "Shopify"
 
@@ -503,7 +503,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     ---
 
-    ### Type 1: IF The response to the question...
+    ### Type 1: IF the response to the question...
 
     Then the Skip logic rules follow the following format:
 
@@ -519,7 +519,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     ---
 
-    ### Type 2: IF The score of the variable...
+    ### Type 2: IF the score of the variable...
 
     Then the Skip logic rules follow the following format:
 

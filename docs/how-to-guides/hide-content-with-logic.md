@@ -48,7 +48,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
     </div>
 
 
-## Jump Logic: How to Show Custom Text in the Quiz
+## Jump logic: how to show custom text in the quiz
 
 === "Shopify"
 
@@ -242,7 +242,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
-## Display Logic: How to Show Custom Text on the Results Page
+## Display logic: how to show custom text on the results page
 
 === "Shopify"
 
@@ -508,7 +508,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
-## Skip Logic: How to Show Custom Text in the Quiz
+## Skip logic: how to show custom text in the quiz
 
 === "Shopify"
 

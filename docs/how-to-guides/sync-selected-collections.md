@@ -49,7 +49,7 @@ icon: material/folder-sync-outline
 
 
 
-## Selecting Collections/Categories for Synchronization
+## Selecting collections/categories for synchronization
 
 === "Shopify"
 

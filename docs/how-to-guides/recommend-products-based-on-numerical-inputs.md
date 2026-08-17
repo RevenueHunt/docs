@@ -28,7 +28,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
 
 
-## Why You Need a Structured Approach
+## Why you need a structured approach
 
 === "Shopify"
 
@@ -81,7 +81,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     Questions like "What's your age?", "What's your birth date?" or "How big is your room?" might seem useful, but since users can input any number, you can't associate specific product recommendations with those responses.
 
-## Use Finite Choices Instead
+## Use finite choices instead
 
 === "Shopify"
 
@@ -265,7 +265,7 @@ Recommending products based on numerical answers (like age or room size) can be 
     This is how to make sure that the product recommendation logic works in your quiz.
 
 
-## Finalize the Setup
+## Finalize the setup
 
 === "Shopify"
 
@@ -334,7 +334,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     This helps users select a range easily while ensuring you offer relevant products.
 
-## Custom Calculations
+## Custom calculations
 
 === "Shopify"
 

@@ -66,7 +66,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
     !!! tip "Tutorial"
         You can also follow our step-by-step tutorial to learn how to connect your quiz to Klaviyo and send leads to Klaviyo: [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/)
 
-## Link Your Quiz to Klaviyo
+## Link your quiz to Klaviyo
 
 === "Shopify"
 
@@ -233,7 +233,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
 
     **Missing or incomplete data?**: If a lead doesn't arrive in Klaviyo, or a customer profile is missing some of the quiz data, open the [Response Analysis](/reference/quiz-builder/metrics/#response-analysis) tool for that response. It (along with the alerts on your dashboard) tells you when optional data was left out to fit within limits, or when a response was too large to send at all. These messages appear in your app's language.
 
-## Custom Properties Sent to Klaviyo
+## Custom properties sent to Klaviyo
 
 Every completed response is sent to Klaviyo as `custom properties` on the customer's profile, and as event properties on the quiz completion event. Property names include your quiz ID, so two quizzes never overwrite each other's data on the same profile.
 
@@ -396,7 +396,7 @@ Every completed response is sent to Klaviyo as `custom properties` on the custom
     | Results page | `PERMALINK-[ID]` | `RESULT_REF-[SQID]` and `RESPONSE_ID-[SQID]` |
     | Products | `PRODUCTS-[ID]: product_0_name` | `RECOMMENDATIONS_BY_SLOT-[SQID]` |
 
-## Sending Follow-up Emails via Klaviyo
+## Sending follow-up emails via Klaviyo
 
 It’s possible to send the product recommendation follow-up emails via Klaviyo, although this is not something that’s a one-click install. It should be built by someone with technical knowledge and experience in Klaviyo. 
 
@@ -975,7 +975,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
         Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up. 
 
 
-## Adding Quiz Contacts to Klaviyo List
+## Adding quiz contacts to Klaviyo list
 
 === "Shopify"
 
@@ -1124,7 +1124,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     With Klaviyo you can create segments to filter your leads and assign email flows to each segment. [Read more about sending follow-up emails via Klaviyo](#sending-follow-up-emails-via-klaviyo), including how to create and use segments on Klaviyo.
 
-## Use Quiz Data In Klaviyo Email Templates
+## Use quiz data in Klaviyo email templates
 
 === "Shopify"
 
@@ -1216,11 +1216,11 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     If you need to add any additional information to the email template, your developer can do so by pulling the appropriate `custom properties` from the user profile.
 
-### Example Email Templates
+### Example email templates
 
 === "Shopify"
 
-    ### Use Copilot to generate Klaviyo Email Template
+    ### Use Copilot to generate Klaviyo email template
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/645cfa070ef5454f812d851908572cdb?sid=f8c3a497-b077-4c81-bfb6-863320a127cb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -1234,7 +1234,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
     4. Paste the generated code directly into an HTML block in your Klaviyo email template.
 
 
-    ### Example 1 - Display Recommended Products
+    ### Example 1 - display recommended products
 
     In this example, a quiz with ID `YN5L9G` recommends a simple list of products.
 
@@ -1450,7 +1450,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
             - Image URL: `{{ person|lookup:'RECOMMENDATIONS_BY_SLOT-YN5L9G'|lookup:'rsbss-ca4fba94'|lookup:'0'|lookup:'image'|lookup:'url' }}`
 
 
-    ### Example 2 - Display Quiz Answers
+    ### Example 2 - display quiz answers
 
 
     A Skincare Quiz with ID `YN5L9G` wants to display all customer answers in the email. 
@@ -1565,7 +1565,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
             
             Q11: WE'VE GOT YOUR RESULTS - #2 [multiple_choice]: `{{ person|lookup:'ANSWER_BY_BLOCK-qbc-cb601cf6-YN5L9G' }}`
 
-    ### Example 3 - Display Link to Quiz Results
+    ### Example 3 - display link to quiz results
 
     Use the `RESPONSE_ID-QuizID` property to create a link to the quiz results page.
 
@@ -1810,7 +1810,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         Bear in mind that these templates (unlike the one generated from the Connect > Klaviyo tab) won’t work as is. They were created for a sample quiz. Your developer will have to modify the `custom properties` to match the ones that are passed from the quiz to your Klaviyo account. The `quiz ID` is different, so are other property names.
 
-### Pull Product Information Directly from Shopify
+### Pull product information directly from Shopify
 
 There’s a feature in Klaviyo that allows you to pull the product information directly from Shopify by providing the id. This way you don’t need to use the `description` or `image_url` that is provided by revenuehunt, but can pull it directly from Shopify by providing the origin_id of the product. See the Klaviyo [Overview of the Catalog Lookup Tag](https://help.klaviyo.com/hc/en-us/articles/360004785571-Overview-of-the-Catalog-Lookup-Tag).
 

@@ -21,7 +21,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
     ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png){width=300px;}
 
 
-## Always The Same Recommendations
+## Always the same recommendations
 
 Set up a fixed section with pre-determined products to be shown on the results page regardless of the customer answers.
 
@@ -253,7 +253,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
             - Dynamic recommendations change based on answers
             - Fixed products always appear in their dedicated Slot
 
-## Fixed Recommendations with Display Logic and One Results Page 
+## Fixed recommendations with display logic and one results page 
 
 Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
 
@@ -442,7 +442,7 @@ Set up multiple sections on the results page with fixed product and text combina
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
-## Fixed Recommendations with Display Logic and Multiple Results Pages 
+## Fixed recommendations with display logic and multiple results pages 
 
 Set up multiple results pages with unique fixed product recommendations and texts and control visibility by adding branching with Jump Logic that leads to different results pages.	
 

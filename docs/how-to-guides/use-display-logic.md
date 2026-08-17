@@ -44,7 +44,7 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
 
     <div class="videoWrapper"><iframe src="https://www.youtube.com/embed/JVAg0KfkX5Q?si=-3_Sv297f8B4-KPi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-## Results Page
+## Results page
 
 In the [Results Page](/reference/quiz-builder/results-page/) section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
@@ -132,7 +132,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
         - **Products Block** - Adds a block specifically designed for displaying a list of recommended products.
         - **Slots Block** - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
 
-## Add Display Logic to Block / Section
+## Add display logic to block / section
 
 === "Shopify"
 
@@ -423,7 +423,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 
 
-## How to Add Scores or Variables to Choices
+## How to add scores or variables to choices
 
 
 === "Shopify" 
@@ -489,9 +489,9 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 
 
-## Examples and Applications
+## Examples and applications
 
-### Display Logic Based on Customer Answers
+### Display logic based on customer answers
 
 === "Shopify"
 
@@ -737,7 +737,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 
 
-### Display Logic Based on Winning Variable
+### Display logic based on winning variable
 
 === "Shopify"
 
@@ -872,7 +872,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     Check our [How to Add JavaScript](/how-to-guides/add-javascript/) guide for more information on implementing custom JavaScript into your product recommendation quiz.
 
 
-### Display Logic Based on Custom Score
+### Display logic based on custom score
 
 === "Shopify"
 
@@ -1013,7 +1013,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     Check our [How to Add JavaScript](/how-to-guides/add-javascript/) guide for more information on implementing custom JavaScript into your product recommendation quiz.
 
 
-## Additional Resources
+## Additional resources
 
 Understanding conditional logic can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
 

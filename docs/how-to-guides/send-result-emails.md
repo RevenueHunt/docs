@@ -23,7 +23,7 @@ This guide covers setting up email results for both [quiz respondents](#email-qu
 
 
 
-## Email Quiz Results via RevenueHunt app
+## Email quiz results via RevenueHunt app
 
 Result emails can be sent directly from the RevenueHunt app to the email provided by the customer. 
 
@@ -234,11 +234,11 @@ Follow the step by step instructions below to active and edit the result emails 
         ![how to send result emails html template](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     6. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button to update the preview/live quiz.
 
-## Sending Result Emails with Your CRM
+## Sending result emails with your CRM
 
 You can automate the process of sending quiz result emails using your own CRM platform. Connect your quiz to one of our [available integrations](/how-to-guides/send-leads-to-crm/), and the quiz data will be transmitted to your CRM as soon as the customer completes the quiz and reaches the results page. This allows you to set up your own email sequences directly within your CRM. For guidance on connecting the quiz to our integrations, refer to the [documentation provided for each integration](/how-to-guides/send-leads-to-crm/).
 
-## Activate Email Notifications To Admin
+## Activate email notifications to admin
 
 You can receive an email notification every time someone completes the quiz or proceeds to checkout to your specified email address. This allows the quiz admin/responsible to stay up to date with quiz engagments. 
 
@@ -393,7 +393,7 @@ You can receive an email notification every time someone completes the quiz or p
     4. **Publish the changes**: Remember to publish the changes with the top-right `Publish` button.
 
 
-## Editing Email Templates
+## Editing email templates
 
 === "Shopify"
 

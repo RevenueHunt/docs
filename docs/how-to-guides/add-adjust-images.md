@@ -12,7 +12,7 @@ There are several ways you can add images to your quiz in the RevenueHunt app.
 This article explains how you can add images to your quiz and provides tips on how to optimize the image quality for the best quiz performance.
 
 
-## Images in the Quiz
+## Images in the quiz
 
 There are the different ways you can add images to your quiz in the RevenueHunt app:
 
@@ -27,7 +27,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 - **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-image-in-productvariantscollection-blocks) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
 
 
-### Quiz Background Image
+### Quiz background image
 
 === "Shopify"
 
@@ -400,7 +400,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 
 
-### Question Background/Split Image
+### Question background/split image
 
 === "Shopify"
 
@@ -817,7 +817,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 
 
-### Image Blocks
+### Image blocks
 
 === "Shopify"
 
@@ -1266,7 +1266,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 
 
-### Picture Choices
+### Picture choices
 
 === "Shopify"
 
@@ -1445,7 +1445,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 
 
-### Product Image 
+### Product image 
 
 === "Shopify"
 

@@ -15,7 +15,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
     - Quizzes that need to calculate scores that show different products
 
 
-## How to Add Scores or Variables to Choices
+## How to add scores or variables to choices
 
 
 === "Shopify" 
@@ -93,7 +93,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
     !!! tip 
         Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
-## Winning Variable Quiz 
+## Winning variable quiz 
 
 Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the most voted variable.
 
@@ -367,7 +367,7 @@ Follow these steps to set up a winning variable quiz:
     ![recommend-products-based-on-number-of-user-choices image2](/images/recommend-products-based-on-number-of-user-choices_image2.png)
 
 
-## Scoring Quiz with One Results Page
+## Scoring quiz with one results page
 
 Assign numerical scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the accumulated scores.
 
@@ -482,7 +482,7 @@ Follow these steps to set up a scoring quiz with one results page:
         Check this article to learn how to add custom JavaScript to the Results Page: [How to Add Custom JavaScript to the Results Page](/how-to-guides/add-javascript/).
 
 
-## Scoring Quiz with Multiple Results Pages
+## Scoring quiz with multiple results pages
 
 Assign numerical scores to each choice in your quiz. Then, use Jump Logic to direct customers to different results pages based on their accumulated scores. 
 

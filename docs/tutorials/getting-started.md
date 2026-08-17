@@ -165,7 +165,7 @@ Before you start collecting leads and generating sales, here's a quick tour to h
     2. On the right, you can see the [Success Checklist](/reference/dashboard/#success-checklist). It shows the progress you've made in building your quiz.
     3. Click on `+ add new quiz` to create a new project. You can start from scratch, or use one of our pre-designed templates to get started.
 
-## [Quiz Builder](/reference/quiz-builder/)
+## [Quiz builder](/reference/quiz-builder/)
 
 === "Shopify"
 
@@ -216,7 +216,7 @@ Before you start collecting leads and generating sales, here's a quick tour to h
     2. Once you've added your questions, you can drag and drop to move them around.
     3. To change [question settings](/reference/quiz-builder/questions/#question-settings), click on the :material-wrench: little wrench icon. Here you can change things like making the question optional, or allowing multiple answers.
 
-## [Link Products](/reference/quiz-builder/link-products/)
+## [Link products](/reference/quiz-builder/link-products/)
 
 === "Shopify"
 
@@ -303,7 +303,7 @@ Before you start collecting leads and generating sales, here's a quick tour to h
 
     Here you can write insightful information for the customer, select how many products will be recommended, or even group your products into slots to recommend a whole package.
 
-## [Quiz Design](/reference/quiz-builder/quiz-design/)
+## [Quiz design](/reference/quiz-builder/quiz-design/)
 
 === "Shopify"
 
@@ -370,7 +370,7 @@ Before you start collecting leads and generating sales, here's a quick tour to h
 
     All the changes you make will be saved automatically.
 
-## Save & Preview
+## Save & preview
 
 === "Shopify"
 
@@ -405,7 +405,7 @@ Before you start collecting leads and generating sales, here's a quick tour to h
     - Hit the `Publish` button in the top right-hand corner to update the preview/live quiz.
     - Click `Preview` to test the quiz.
 
-## [Share / Publish](/reference/quiz-builder/share-publish/)
+## [Share / publish](/reference/quiz-builder/share-publish/)
 
 === "Shopify"
 
@@ -468,7 +468,7 @@ Before you start collecting leads and generating sales, here's a quick tour to h
 
     The choice is yours. 
 
-## [App Settings](/reference/app-settings/)
+## [App settings](/reference/app-settings/)
 
 === "Shopify"
 
@@ -485,7 +485,7 @@ Before you start collecting leads and generating sales, here's a quick tour to h
 
 === "Standalone"
 
-## [Connect / Integrations](/reference/quiz-builder/connect-integrations/)
+## [Connect / integrations](/reference/quiz-builder/connect-integrations/)
 
 === "Shopify"
 
@@ -530,7 +530,7 @@ Before you start collecting leads and generating sales, here's a quick tour to h
     - The [`Connect`](/reference/quiz-builder/connect-integrations/) section lets you see all our integrations. 
     - To set this up, select a platform and click `connect`. 
 
-## [Metrics / Analytics](/reference/quiz-builder/metrics/)
+## [Metrics / analytics](/reference/quiz-builder/metrics/)
 
 === "Shopify"
 

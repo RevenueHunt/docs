@@ -17,7 +17,7 @@ Transferring a quiz from one store to another with the RevenueHunt app is straig
 
 This article will guide you through the process of copying a quiz from one store to another.
 
-## Copying the Quiz
+## Copying the quiz
 
 === "Shopify"
 
@@ -257,7 +257,7 @@ This article will guide you through the process of copying a quiz from one store
 
 
 
-## Changing Domains
+## Changing domains
 
 Follow these steps if you plan to change the domain on which the RevenueHunt app is installed.
 

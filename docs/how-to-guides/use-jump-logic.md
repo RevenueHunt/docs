@@ -57,7 +57,7 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
 
     It is advised not to mix [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) and [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) in one quiz. Mixing logic rules can lead to unexpected results.
 
-## Conditional Logic
+## Conditional logic
 
 === "Shopify"
 
@@ -222,7 +222,7 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
 
         **arrow down** - Take you to the question lower.
 
-## Add Jump Logic to Questions
+## Add jump logic to questions
 
 Jump Logic allows you to route customers to different questions based on their responses.
 
@@ -465,9 +465,9 @@ Jump Logic allows you to route customers to different questions based on their r
 
     5. **Preview and Adjust:** Publish the changes with the top-right `Publish` button to update the preview/live quiz and test the setup.
 
-## Examples and Applications
+## Examples and applications
 
-### Branching the Quiz
+### Branching the quiz
 
 === "Shopify"
 
@@ -664,7 +664,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     4. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.
 
-### Sending Users to Different Results Pages
+### Sending users to different results pages
 
 === "Shopify"
 
@@ -904,7 +904,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
 
 
-### Sending Users to an External URL
+### Sending users to an external URL
 
 === "Shopify"
 
@@ -1094,7 +1094,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
 
 
-### Jump Logic vs. Skip Logic
+### Jump logic vs. skip logic
 
 While Jump Logic and Skip Logic may seem similar, they serve distinct purposes. **Jump Logic** creates separate, divergent paths for participants based on their answers, effectively jumping to different questions or content. **Skip Logic**, on the other hand, determines if a question should be presented or skipped, maintaining a single path but customizing the questions seen by the participant. 
 
@@ -1102,7 +1102,7 @@ While Jump Logic and Skip Logic may seem similar, they serve distinct purposes. 
 
     It's not recommended to use both Jump Logic and Skip Logic on one quiz.
 
-## Additional Resources
+## Additional resources
 
 Understanding conditional logic, the foundation of Jump Logic, can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
 

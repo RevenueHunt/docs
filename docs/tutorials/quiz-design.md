@@ -182,7 +182,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     - And when you need full control, **custom CSS** and **JavaScript** are available at every step.
 
 
-## Quiz Design Tab
+## Quiz design tab
 
 === "Shopify"
 
@@ -552,7 +552,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
 
 
-## Questions Tab
+## Questions tab
 
 
 === "Shopify"
@@ -563,7 +563,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
         
         ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes.png){width="300"}
 
-    ### Question Settings
+    ### Question settings
 
     - Open [question settings](/reference/quiz-builder/questions/#question-settings) by clicking on the question.
     - Upload a **featured image** for each question and chose a `background` or a `split layout` as well as alignment options for mobile.
@@ -575,7 +575,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings.png){width="300"}
 
-    ### Block Settings
+    ### Block settings
 
     - Open [block settings](/reference/quiz-builder/questions/#block-settings) by clicking on the block.
 
@@ -587,7 +587,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
     - **Image blocks**: resize and align graphics.
     - **Picture-choice blocks**: select image ratios and mobile layout options (1-2 per row or carousel).
 
-    ### Choice Settings
+    ### Choice settings
 
     [**Choice settings**](/reference/quiz-builder/questions/#choice-settings) give you control over individual answers, letting you tweak each option separately.
 
@@ -1303,7 +1303,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
 
 
-## Results Page Tab
+## Results page tab
 
 
 === "Shopify"

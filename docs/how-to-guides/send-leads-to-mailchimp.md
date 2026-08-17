@@ -123,7 +123,7 @@ Apart from giving your customers personalized product recommendations, you can c
     - An active Mailchimp account.
     - A RevenueHunt Product Recommendation Quiz that you wish to connect with Mailchimp.
 
-## Link Quiz to Mailchimp
+## Link quiz to Mailchimp
 
 === "Shopify"
 
@@ -258,7 +258,7 @@ Apart from giving your customers personalized product recommendations, you can c
     6. Follow the prompts to select the Mailchimp list you wish to send your quiz results to from the dropdown.
 
 
-## Add Quiz Contacts to a Mailchimp Audience
+## Add quiz contacts to a Mailchimp audience
 
 === "Shopify"
 
@@ -296,7 +296,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     The Mailchimp list is selected in the [Connect](/reference/quiz-builder/connect-integrations/) tab, as described in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
 
-## Use Customer Tags for Segmentation in Mailchimp
+## Use customer tags for segmentation in Mailchimp
 
 === "Shopify"
 
@@ -390,7 +390,7 @@ Apart from giving your customers personalized product recommendations, you can c
     5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
 
 
-### Hack: Send Quiz Answers to Mailchimp
+### Hack: send quiz answers to Mailchimp
 
 === "Shopify"
 
@@ -447,7 +447,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
 
-## Set up Post-Quiz Email Flow with Mailchimp
+## Set up Post-quiz email flow with Mailchimp
 
 === "Shopify"
 
@@ -712,7 +712,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     Open the [Connect](/reference/quiz-builder/connect-integrations/) tab in your quiz, scroll to the Mailchimp section and remove the connection. Then click the `Publish` button to update the preview/live quiz with the new settings.
 
-## Alternative Ways to Send Quiz Leads to Mailchimp
+## Alternative ways to send quiz leads to Mailchimp
 
 === "Shopify"
 

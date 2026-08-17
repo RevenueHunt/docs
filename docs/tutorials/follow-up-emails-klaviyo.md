@@ -216,7 +216,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 
 
-## Add Email Question
+## Add email question
 
 === "Shopify"
 
@@ -297,7 +297,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
             - Or you can add a [marketing checkmark](/how-to-guides/ask-for-marketing-consent#option-2-marketing-checkmark) by joining two slides together. 
 
-## Connect Quiz to Klaviyo
+## Connect quiz to Klaviyo
 
 === "Shopify"
 
@@ -433,7 +433,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     From now on all the contacts coming from the quiz will be added to your Klaviyo account.
 
-## Create Segment for Quiz Takers
+## Create segment for quiz takers
 
 === "Shopify"
 
@@ -519,9 +519,9 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     Now all the contacts coming from the quiz will also be added to this specific segment.
 
-## Set Up Email Flow
+## Set up email flow
 
-### Add a Trigger
+### Add a trigger
 
 === "Shopify"
 
@@ -575,7 +575,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     4. Next, you'll be asked to set up a flow trigger.
     5. Choose the trigger to be `Added to a segment` and select the segment created in the [previous step](/tutorials/follow-up-emails-klaviyo/#create-segment-for-quiz-takers). Click `Confirm` and `Confirm and save`. This way whenever someone enters the segment they will trigger the email flow.    
 
-### (optional) Update Marketing Consent
+### (Optional) update marketing consent
 
 === "Shopify"
 
@@ -648,7 +648,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 
 
-### Edit the Email
+### Edit the email
 
 === "Shopify"
 
@@ -781,7 +781,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     Remember to deactivate the [email Notifications](/how-to-guides/send-result-emails/) from the Quiz Builder once the Klaviyo flow is set up.
 
-### Send Email with Each Quiz Retake
+### Send email with each quiz retake
 
 === "Shopify"
 
@@ -882,7 +882,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     This way, each time a quiz taker takes the quiz again, they will be re-added to the segment and will trigger the email flow again.
 
 
-## Add Contacts to List
+## Add contacts to list
 
 === "Shopify"
 

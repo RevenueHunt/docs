@@ -21,7 +21,7 @@ This guide explains:
 
 - What your theme editor or developer can do to fix it
 
-## Step 1: Understand How Quiz Adds Products to the Cart
+## Step 1: understand how quiz adds products to the cart
 
 Our app uses Shopify’s official AJAX Cart API to add products. These are the same endpoints used by most Shopify themes and apps.
 
@@ -37,7 +37,7 @@ We use:
 
 These actions notify Shopify that the cart has changed. It’s then up to the theme to update the UI, such as opening or refreshing the cart drawer.
 
-## Step 2: Confirm If Your Theme Supports Cart Drawer Updates
+## Step 2: confirm if your theme supports cart drawer updates
 
 Most modern themes (like Dawn) include a cart drawer or slide-out cart. However, if your cart drawer does not update after a quiz submission:
 
@@ -45,7 +45,7 @@ Most modern themes (like Dawn) include a cart drawer or slide-out cart. However,
 
 - This can happen even in Shopify’s default themes if the cart drawer script wasn’t customized / extended properly or if the cart drawer script isn’t configured to react to external AJAX calls.
 
-## Step 3: Talk to Your Theme Developer
+## Step 3: talk to your theme developer
 
 Since our app only triggers Shopify’s standard cart actions, you’ll need to make sure your theme is set up to respond to those actions.
 
@@ -99,7 +99,7 @@ Share the following resources with your developer or Shopify Expert:
 
     Once this script was added, the cart drawer updated perfectly — without any app-side changes.
 
-## Step 4: Test Your Setup
+## Step 4: test your setup
 
 Once your theme is updated to listen to the AJAX cart actions, test the following:
 

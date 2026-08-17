@@ -26,32 +26,32 @@ We've identified key elements that make quizzes popular with shoppers and drive 
 
 [:fontawesome-solid-arrow-right: check tutorial](/customer-success/how-to-build-successful-quiz/)
 
-### [Recommending a Skincare Routine](/tutorials/skincare-routine/)
+### [Recommending a skincare routine](/tutorials/skincare-routine/)
 
 Make and publish a short quiz that recommends a group of complementary products to your customers.
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/skincare-routine/)
 
-### [Building a Skin Type Quiz](/tutorials/skintype-quiz/)
+### [Building a skin type quiz](/tutorials/skintype-quiz/)
 
 Make and publish a quiz that determines your customers' skin type and recommends a group of complementary products to your customers.
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/skintype-quiz/)
 
 
-### [Using Conditional Logic](/tutorials/conditional-logic/)
+### [Using conditional logic](/tutorials/conditional-logic/)
 
 Learn how to use Jump Logic, Skip Logic, and Display logic to show/hide questions/content in the quiz as well as in the Results Page.
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/conditional-logic/)
 
-### [Sending Emails](/tutorials/sending-emails/)
+### [Sending emails](/tutorials/sending-emails/)
 
 Learn how to send emails to your quiz leads with the RevenueHunt app.
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/sending-emails/)
 
-### [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/)
+### [Sending follow-up emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/)
 
 Learn how to add RevenueHunt: Product Recommendation Quiz leads to Klaviyo and how to build a post-quiz email flow in Klaviyo.
 

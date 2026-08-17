@@ -51,7 +51,7 @@ icon: material/cellphone-message
 
 
 
-## Link Quiz to Omnisend
+## Link quiz to Omnisend
 
 === "Shopify"
 
@@ -270,7 +270,7 @@ icon: material/cellphone-message
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](#use-quiz-data-in-omnisend-email-templates).
 
  
-## Custom Properties Sent to Omnisend
+## Custom properties sent to Omnisend
 
 Every completed response is sent to Omnisend as `custom properties` on the contact profile. Property names include your quiz ID, so two quizzes never overwrite each other's data on the same contact.
 
@@ -475,7 +475,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
     | Products | Title, URL, price and image only | Adds slot headings and descriptions, currency, vendor, handle and item IDs |
     | Consent | Defaults to `subscribed` on submission | Follows the Omnisend consent setting on the quiz block |
 
-## Send Follow-up Emails with Omnisend
+## Send follow-up emails with Omnisend
 
 === "Shopify"
 
@@ -763,7 +763,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
 
 
-## Use Quiz Data In Omnisend Email Templates
+## Use quiz data in Omnisend email templates
 
 See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) for the full list of properties you can pull into a template.
 
@@ -822,7 +822,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](https://support.omnisend.com/en/articles/1061885-custom-properties-for-contacts).
 
-### Pull Customer Answers into an Email Template
+### Pull customer answers into an email template
 
 === "Shopify"
 
@@ -956,7 +956,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
 
 
-### Display a Link to the Quiz Results in an email
+### Display a link to the quiz results in an email
 
 
 === "Shopify"
@@ -1017,13 +1017,13 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
 
 
-### Customer Tags in Omnisend
+### Customer tags in Omnisend
 
 Note that while customer profiles are updated with new quiz takes—including answers and product recommendations—Omnisend does not automatically remove unselected tags from previous sessions. A `tags_quizID` property is used to track the latest customer tags, which can be utilized to create segmented audiences for targeted marketing efforts.
 
 
 
-### Email Templates
+### Email templates
 
 === "Shopify"
 

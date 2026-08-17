@@ -121,7 +121,7 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
     `Results` - Shows the preview of how the results page looks like.
 
-## Edit Theme
+## Edit theme
 
 === "Shopify"
 
@@ -323,7 +323,7 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
     `Custom CSS` - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
-## My Themes
+## My themes
 
 === "Shopify"
 

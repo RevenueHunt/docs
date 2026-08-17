@@ -5475,46 +5475,46 @@ Ensure you have:
 - Access to your website’s backend or a platform that allows you to edit HTML/JavaScript for traffic distribution (optional for advanced routing).
 - Analytics tools or integration such as  [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/). to measure quiz performance.
 
-## Step 1: Create Two Versions of Your Quiz
+## Step 1: create two versions of your quiz
 
 - **Design Your Original Quiz**: Create your quiz (Version A) in the RevenueHunt app, focusing on the content and design that you currently believe will perform best.
 - **Duplicate and Modify for Version B**: Use the duplication feature on the dashboard to make a copy of Version A. Alter one or more elements (e.g., title, color scheme, question order) to create Version B. Ensure only one key variable is different to accurately measure the effect of that change. Remember to publish the changes with the top-right Publish button.
 
-## Step 2: Publish Both Versions on Your Website
+## Step 2: publish both versions on your website
 
 Deploying both versions of your quiz on your website can be done through simple or advanced methods, depending on your ability to modify your site’s code and the level of precision you require in your A/B testing.
 
-### No Coding Solution: Basic A/B Testing
+### No coding solution: basic A/B testing
 For straightforward A/B testing, we recommend publishing each version of the quiz on separate pages within your store. This approach does not require any coding:
 
 - **Inline Quiz on a New Page**: Create a new page for each version of the quiz (Version A and Version B). Follow the [Inline Quiz on a New Page](/how-to-guides/publish-quiz-inline/#embedding-an-inline-quiz-on-a-new-page) publishing instructions to embed each quiz into its respective page. 
 
 This method allows you to directly link to each quiz version from different parts of your website or through external marketing channels.
 
-### Coding Solution: Advanced A/B Testing
+### Coding solution: advanced A/B testing
 If you’re aiming for a more sophisticated A/B testing setup that involves randomizing which quiz version a visitor sees, you’ll need some coding:
 
 - **Link Popup**: Implement a Link Popup method by creating a single entry point (like a button or link) that dynamically directs visitors to either Version A or Version B of the quiz. You will need to work with a developer to program the logic that decides which link to the quiz is shown to each visitor. Follow the [Link Popup Publishing Instructions](/how-to-guides/publish-quiz-link/) for detailed steps on how to implement this solution.
 
 By choosing the appropriate method based on your needs and capabilities, you can effectively publish and test different quiz versions on your website to gather insights and improve engagement.
 
-## Step 3: Evenly Distribute Traffic Between Quizzes
+## Step 3: evenly distribute traffic between quizzes
 
 To manually distribute traffic:
 
 - For Basic Routing: Use two separate URLs for each quiz version and direct users randomly via your website’s links or promotions.
 - For Advanced Routing: Implement a JavaScript snippet or server-side logic on your landing page that randomly serves Version A or Version B of the quiz to each new visitor.
 
-## Step 4: Track and Analyze Results
+## Step 4: track and analyze results
 
 - **Set Up Analytics**: Ensure each quiz version has tracking set up. By default, we track the quiz starts, completions, conversion rate, and drop-off in the [Metrics](/reference/quiz-builder/metrics/) panel. For more advanced analytics, you can connect your quizzes to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
 - **Analyze Performance**: After a significant amount of traffic has interacted with both versions, analyze the data to identify which version achieved better performance based on your predefined goals (e.g., higher completion rates).
 
-## Step 5: Implement Improvements
+## Step 5: implement improvements
 
 Based on the analysis, decide which version of the quiz is more effective. Implement the winning elements in your standard quiz and consider new variables to test in future A/B testing cycles.
 
-## Tips for Effective A/B Testing
+## Tips for effective A/B testing
 
 - Test one variable at a time to understand its impact clearly.
 - Ensure you have a statistically significant sample size before drawing conclusions.
@@ -5544,7 +5544,7 @@ There are several ways you can add images to your quiz in the RevenueHunt app.
 This article explains how you can add images to your quiz and provides tips on how to optimize the image quality for the best quiz performance.
 
 
-## Images in the Quiz
+## Images in the quiz
 
 There are the different ways you can add images to your quiz in the RevenueHunt app:
 
@@ -5559,7 +5559,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 - **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-image-in-productvariantscollection-blocks) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
 
 
-### Quiz Background Image
+### Quiz background image
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -5838,7 +5838,7 @@ Before diving into the implementation, it's important to understand the differen
 
 **Platform support**
 
-### Example 3: Multiple-choice questions: select all, select none
+### Example 3: multiple-choice questions: select all, select none
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -6177,7 +6177,7 @@ icon: material/package-variant-plus
 
 This guide explains different methods to add products in the Standalone version of the RevenueHunt quiz app. You can either add products manually or import them from Google Merchant Center as a valid data source/XML file.
 
-## Add Products Manually
+## Add products manually
 
 This tutorial will guide you through the process of manually adding products and collections to your quiz using the RevenueHunt catalog.
 
@@ -6225,7 +6225,7 @@ After adding your products and collections, you can:
 - [Customize your quiz design](/how-to-guides/customize-quiz-design/)
 
 
-## Add Products via Google Merchant Center
+## Add products via Google Merchant Center
 
 <div style="position: relative; padding-bottom: 56.289308176100626%; height: 0;"><iframe src="https://www.loom.com/embed/5817998bfddb47c7a13d1adb28beeb05?sid=584e70a7-c306-407a-a76e-7b370108c0c8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -6395,7 +6395,7 @@ This article outlines several methods to integrate consent requests seamlessly i
 
     Check our latest article [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/) to learn more.
 
-## Add a Link to Your Privacy Policy
+## Add a link to your privacy policy
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -6731,12 +6731,12 @@ You can also send your inquiries via email to `team@revenuehunt.com`.
     
     **Response Time**: Expect a reply within 2-3 hours during business hours.
 
-## Check App Status
+## Check app status
 
 Before reaching out, you can view our [app status page](https://status.revenuehunt.com/) to see if there are any ongoing issues affecting our services.
 
 
-## What Level of Support is Offered
+## What level of support is offered
 
 We offer email support to all our users, whether they’re free or paid.
 
@@ -6763,14 +6763,14 @@ We respond to every query within **2–3 hours on the same business day**. If yo
 
 **Please note:** while our app lets you include custom JavaScript and CSS in your quiz, we’re a small team and can’t supply or maintain those code snippets. Any advanced customization must be handled by your developer. If you don’t have an in-house developer you can find affordable freelance developers on platforms like [Upwork](https://www.upwork.com/) or [Fiverr](https://www.fiverr.com/).
  
-## Can You Build a Quiz for Me?
+## Can you build a quiz for me?
 
 **No.** Our support team can help you understand how the app works, and point you to helpful support articles and videos, but we do not offer quiz-building services. 
 
 If you need help building & styling your dream quiz, you can find affordable freelance developers on platforms like [Upwork](https://www.upwork.com/) or [Fiverr](https://www.fiverr.com/). Any front-end developer should be able to help you with queries regarding quiz building and styling. You can also search for quiz-building experts on these platforms by typing `quiz` in the search bar.
 
 
-## Not Sure Where to Start?
+## Not sure where to start?
 
 Feeling unsure about where to begin? We've curated resources to jump-start your journey:
 
@@ -6778,7 +6778,7 @@ Feeling unsure about where to begin? We've curated resources to jump-start your 
 - [How To Articles](/how-to-guides/create-first-quiz/): Explore detailed articles for in-depth guidance on specific features and troubleshooting steps.
 
 
-## Troubleshooting Quiz Results
+## Troubleshooting quiz results
 
 Encountering unexpected quiz outcomes? We have a tool designed to help you diagnose and resolve such issues efficiently. Discover how to troubleshoot your quiz for insights on recommendations or missing products by visiting our [troubleshooting guide](/how-to-guides/troubleshoot-product-results/).
 
@@ -6808,7 +6808,7 @@ Transferring a quiz from one store to another with the RevenueHunt app is straig
 
 This article will guide you through the process of copying a quiz from one store to another.
 
-## Copying the Quiz
+## Copying the quiz
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -7350,7 +7350,7 @@ icon: material/cellphone-link
 
 This guide addresses a common issue where the form on mobile devices is not fixed and moves from side to side, causing a poor user experience. This problem can be resolved by adjusting the meta viewport tag in the store's HTML.
 
-## Problem Description
+## Problem description
 
 Users have reported that on mobile devices, the form page slightly zooms in when focusing on a text input, causing the page to move from left to right and resulting in a poor user experience. This issue needs to be addressed to ensure the form remains fixed on mobile devices.
 
@@ -7358,7 +7358,7 @@ Users have reported that on mobile devices, the form page slightly zooms in when
 
 To fix this issue, the developer needs to modify the meta viewport tag in the store's HTML. The tag should include `maximum-scale=1.0` and `user-scalable=0` to prevent the page from moving.
 
-### Step-by-Step Guide
+### Step-by-step guide
 
 1. Locate the meta viewport tag in the HTML of your store. It might look like this:
 
@@ -7380,12 +7380,12 @@ To fix this issue, the developer needs to modify the meta viewport tag in the st
 
 After making these changes, test the form on a mobile device to ensure it remains fixed and does not move from side to side.
 
-## Additional Notes
+## Additional notes
 
 - Ensure that the changes are applied to the correct HTML file in your store.
 - If you encounter any issues, consider reaching out to your web developer for assistance.
 
-## Platform-Specific Instructions
+## Platform-specific instructions
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -7479,7 +7479,7 @@ icon: material/basket-off-outline
 
 In this guide, you'll learn how to hide out-of-stock or draft products from your quiz recommendations.
 
-## Hide Out-Of-Stock Products
+## Hide Out-of-stock products
 
 This guide explains how to hide out-of-stock products from your quiz recommendations.
 
@@ -7561,7 +7561,7 @@ Whether you're here to craft your very first quiz or looking to fine-tune the ex
 
 RevenueHunt app offers a rich array of features to engage your audience, gather insights, and provide tailored recommendations through quizzes. To help you make the most of these capabilities, we've prepared detailed guides covering a wide range of topics.
 
-## Getting Started
+## Getting started
 
 For those new to our platform or looking to create a quiz for the first time, we recommend starting with these essential guides:
 
@@ -7570,7 +7570,7 @@ For those new to our platform or looking to create a quiz for the first time, we
 - [:material-palette-outline: Customize Quiz Design](/how-to-guides/customize-quiz-design/): Dive into customization options to ensure your quiz matches your brand's look and feel.
 - [:material-monitor-share: Publish the Quiz on Your Website](/how-to-guides/publish-quiz/): Get step-by-step instructions on how to seamlessly integrate your quiz into your website.
 
-## Enhancing Your Quizzes
+## Enhancing your quizzes
 
 Once you're comfortable with the basics, enhance your quizzes and user experience with these advanced features:
 
@@ -7579,14 +7579,14 @@ Once you're comfortable with the basics, enhance your quizzes and user experienc
 - [:material-account-filter: Send Leads to Your CRM](/how-to-guides/send-leads-to-crm/): Connect your quiz to one of our many integrations and send all the quiz data there for segmented retargeting.
 - [:material-cellphone-link: Fix Viewport Issue on Mobile](/how-to-guides/fix-viewport-issue-on-mobile/): Ensure a smooth user experience on mobile devices by fixing viewport issues that cause the form to move.
 
-## Advanced Customization
+## Advanced customization
 
 For those looking to dive deeper into customization and integration:
 
 - [:material-language-javascript: Add JavaScript](/how-to-guides/add-javascript/): Learn how to add custom JavaScript for advanced quiz interactions.
 - [:material-code-json: Use Callback Function](/how-to-guides/use-callback-function/): Discover how to use a callback function to execute custom code based on quiz outcomes or user actions.
 
-## Need More Help?
+## Need more help?
 
 Browse through our collection for detailed instructions on every feature we offer. If you have specific questions or need further assistance, [our support team is here to help](/how-to-guides/contact-customer-support/)
 
@@ -7604,7 +7604,7 @@ description: "Step-by-step guide to install the RevenueHunt app on your Shopify 
 icon: material/download
 ---
 
-## How To Install the App
+## How to install the app
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -7743,7 +7743,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
     This small piece of code placed on your website helps you monitor conversions from ads, improve the performance of future advertising, and create targeted audiences based on past interactions with your website.
 
-## Setting Up Your Meta Pixel
+## Setting up your Meta Pixel
 
 !!! note
 
@@ -7810,7 +7810,7 @@ This article explains how to integrate the TikTok Pixel with your quiz applicati
 
     The TikTok Pixel is a piece of code that you place on your website to track user interactions with your quiz and measure the success of your TikTok ads.
 
-## Link Quiz to Your TikTok Pixel
+## Link quiz to your TikTok Pixel
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -7870,14 +7870,14 @@ If you have quizzes built in the original RevenueHunt app (Legacy), you can now 
 
 ---
 
-## Before You Begin
+## Before you begin
 
 - You must have the `💎Built for Shopify` version of RevenueHunt app installed and active. If you haven't switched yet, follow the [Install App](/how-to-guides/install-app/) guide.
 - Your legacy quizzes remain untouched — the migration creates a **copy** in the `💎Built for Shopify` app. Nothing is deleted from the legacy version.
 
 ---
 
-## Step 1: Open the New Quiz Menu
+## Step 1: open the new quiz menu
 
 1. Open the **RevenueHunt** app in your Shopify dashboard.
 2. From the Dashboard, click the **Create new quiz** button.
@@ -7887,7 +7887,7 @@ If you have quizzes built in the original RevenueHunt app (Legacy), you can now 
 
 ---
 
-## Step 2: Select the Quiz to Import
+## Step 2: select the quiz to import
 
 A dialog will appear listing all quizzes from your legacy account. Each quiz shows:
 
@@ -7901,7 +7901,7 @@ Click **Import Now** next to the quiz you want to migrate.
 
 ---
 
-## Step 3: Review the Imported Quiz
+## Step 3: review the imported quiz
 
 Once the import completes, the quiz opens in the Quiz Builder. Its name will include the suffix **(Imported from V1)** so you can easily identify it.
 
@@ -7911,7 +7911,7 @@ Review your questions, results pages, and logic to make sure everything looks co
 
 ---
 
-## What Gets Migrated — and What Doesn't
+## What gets migrated — and what doesn't
 
 | What migrates | Status |
 |---|---|
@@ -7926,7 +7926,7 @@ Review your questions, results pages, and logic to make sure everything looks co
 
 ---
 
-## What to Watch For After Import
+## What to watch for after import
 
 Most quizzes migrate cleanly, but some advanced configurations require a manual follow-up.
 
@@ -7946,7 +7946,7 @@ Custom JavaScript **will not be migrated**. The `💎Built for Shopify` app has 
 
     If your legacy quiz relied on custom JavaScript (e.g., custom events, DOM manipulation, or callback functions), you will need to rewrite those using the [JavaScript API](/how-to-guides/add-javascript/).
 
-### Product Mappings
+### Product mappings
 
 Questions, answer choices, and results pages migrate — but product links are tied to Shopify product IDs, which are the same across both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
 
@@ -7954,13 +7954,13 @@ Questions, answer choices, and results pages migrate — but product links are t
 
     After importing, go to your results page and verify that the expected products are still linked. If any products appear missing or unlinked, re-add them using the [Results Page editor](/reference/quiz-builder/results-page/).
 
-### Special Integrations
+### Special integrations
 
 Connections to third-party tools (Klaviyo, Mailchimp, webhooks, etc.) are not automatically re-established after migration. Reconnect any integrations you need through [Quiz Settings](/reference/quiz-builder/quiz-settings/).
 
 ---
 
-## After the Import
+## After the import
 
 Once you've reviewed the quiz and fixed any warnings:
 
@@ -8222,7 +8222,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
 
     *Note: Directly editing your Shopify or other ecommerce theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.*
 
-## Auto-Popup on the Main Page
+## Auto-popup on the main page
 
 !!! info "What's an Automatic Popup Quiz on the Main Page?"
     It's a quiz popup that appears after X seconds on the main page of your store. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
@@ -8303,7 +8303,7 @@ This guide provides step-by-step instructions on how to implement a chat button 
 
     Before you start ensure you have a quiz created with the RevenueHunt app and access to the theme editor.
 
-## Chat Button on the Homepage
+## Chat button on the homepage
 
 !!! info "What's a Chat Button on the Homepage?"
     It's a chat-like button that shows up on the homepage of your store and when clicked opens the quiz popup.
@@ -8372,7 +8372,7 @@ There are two ways to create an external link to your quiz for emails and newsle
 
 
 
-## Quiz on a Dedicated Landing Page
+## Quiz on a dedicated landing page
 
 !!! info "What's an inline quiz on a dedicated landing page?"
 
@@ -8438,7 +8438,7 @@ There are two ways to create an external link to your quiz for social media:
     A direct link, like `https://yourstore.myshopify.com/#quiz-ABC`, that opens a quiz popup.
 
 
-## Quiz on a Dedicated Landing Page
+## Quiz on a dedicated landing page
 
 !!! info "What's an inline quiz on a dedicated landing page?"
 
@@ -8671,46 +8671,46 @@ After you've prepared your quiz, connected product collections to responses and 
 
 This guide will walk you through the process of sharing your quiz with your customers in a manner that aligns with your store's style and enhances their shopping experience.
 
-## Select Your Display Option
+## Select your display option
 
 Your quiz can be presented on your store in several ways, each with its advantages:
 
-### Link Popup
+### Link popup
 
 A clickable link that opens the quiz in a popup overlay on your page.
 
 - **Purpose**: For engaging users through clickable links on navigation menus or any page.
 - **Implementation Guide**: [Adding a Quiz Link Popup](/how-to-guides/publish-quiz-link/).
 
-### Embedded Inline
+### Embedded inline
 
 Directly embed the quiz within a page's content. Ideal for a dedicated landing page.
 
 - **Purpose**: Ideal for a dedicated landing page to attract traffic via paid ads.
 - **Implementation Guide**: [Embedding the Quiz Inline](/how-to-guides/publish-quiz-inline/).
 
-### Automatic Popup
+### Automatic popup
 
 The quiz automatically appears as a popup after a visitor spends a certain amount of time on a page.
 
 - **Purpose**: To capture attention after visitors spend a preset time on a page.
 - **Implementation Guide**: [Setting Up an Automatic Quiz Popup](/how-to-guides/publish-quiz-automatic-popup/).
 
-### External Quiz Link
+### External quiz link
 
 Share a direct link to the quiz on social media platforms.
 
 - **Purpose**: For social media posts to engage users.
 - **Implementation Guide**: [Creating an External Quiz Link for Social Media](/how-to-guides/publish-quiz-external-link/).
 
-### Email Quiz Link
+### Email quiz link
 
 Incorporate a quiz link in your emails or newsletters.
 
 - **Purpose**: To engage users directly through email marketing.
 - **Implementation Guide**: [Generating an Email Popup Link](/how-to-guides/publish-quiz-email-link/).
 
-### Chat Button Popup
+### Chat button popup
 
 Trigger a quiz popup through a chat-like button interaction.
 
@@ -9061,7 +9061,7 @@ If you're using a subscription app that is not supported, you can still recommen
 
     RevenueHunt app currently integrates with [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce. Subscription products are not yet supported in the Product Recommendation Quiz for BigCommerce or Magento. They will not show up on the Results page. However, there’s a workaround explained in the [Other subscriptions](#other-subscriptions) section of the article.
 
-## ReCharge Subscriptions
+## ReCharge subscriptions
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -9106,7 +9106,7 @@ description: "Learn how to redirect quiz takers to another page after completing
 
 In this guide, we'll explore several methods to redirect your customers to another page following the completion of a quiz. Below, you'll find detailed steps for implementing page redirection using various techniques within a quiz environment.
 
-## Using Jump Logic for Conditional Redirection
+## Using jump logic for conditional redirection
 
 [Jump Logic](/how-to-guides/use-jump-logic/) offers a dynamic way to direct customers to specific URLs based on their quiz interactions. Here's how to implement it:
 
@@ -9334,9 +9334,9 @@ description: "Learn how to send RevenueHunt quiz leads to your CRM platform for 
 
 Apart from giving your customers personalized product recommendations, you can connect your quiz to a CRM service like Klaviyo or Mailchimp. This way all the contacts coming from the quiz will be added to your CRM account and you can create targeted email campaigns to upsell them.
 
-## Direct Integrations
+## Direct integrations
 
-### [:fontawesome-brands-shopify: Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/)
+### [:fontawesome-brands-shopify: Shopify customers](/how-to-guides/send-leads-to-shopify-customers/)
 
 You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/link-collections/#customer-tags).
 
@@ -9384,7 +9384,7 @@ Integrating the quiz with webhooks allows you to automatically send all quiz dat
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-webhooks/)
 
-## Indirect Integrations
+## Indirect integrations
 
 If we don't currently integrate with your CRM service and you want to send data there automatically you could set up a redirection via one of our current integrations such as [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
@@ -9748,7 +9748,7 @@ MailerLite is a powerful email marketing platform that allows you to send email 
 
 This article explains how to send leads to MailerLite from your product recommendation quiz.
 
-## Connecting Your MailerLite Account
+## Connecting your MailerLite account
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -9887,7 +9887,7 @@ You can add new customers automatically to your Shopify Customers list every tim
 
 This article explains how to connect your quiz to Shopify Customers, tag respondents based on their answers, and build a Shopify Flow targeted at quiz takers.
 
-## Link Quiz to Shopify Customers
+## Link quiz to Shopify customers
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -9982,7 +9982,7 @@ Before you start, ensure you have:
 - A RevenueHunt Product Recommendation Quiz from which you want to send data.
 - A valid webhook URL to receive the data. You can use a service like [Webhook.site](https://webhook.site) to generate a temporary endpoint if you want to test the feature.
 
-## Link Quiz to Webhooks
+## Link quiz to webhooks
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -10325,7 +10325,7 @@ SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails acros
 
     Connecting your SMTP server to your quiz will allow you to send emails from your own email servers instead of Revenuehunt email servers and is a recommended practice.
 
-## Setting Up SMTP Server Connection
+## Setting up SMTP server connection
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -10382,7 +10382,7 @@ This guide covers setting up email results for both [quiz respondents](#email-qu
 
 
 
-## Email Quiz Results via RevenueHunt app
+## Email quiz results via RevenueHunt app
 
 Result emails can be sent directly from the RevenueHunt app to the email provided by the customer. 
 
@@ -10608,7 +10608,7 @@ Recommended for quizzes with complex branching. Set up fixed sections with pre-d
     ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png){width=300px;}
 
 
-## Always The Same Recommendations
+## Always the same recommendations
 
 Set up a fixed section with pre-determined products to be shown on the results page regardless of the customer answers.
 
@@ -10707,7 +10707,7 @@ A Funnel Quiz helps your customers find the best product by assigning "votes" to
     - Quizzes without complex branching
 
 
-## ✍🏻 Voting System
+## ✍🏻 Voting system
 
 Our product recommendation algorithm works like a voting system:
 
@@ -10719,7 +10719,7 @@ Our product recommendation algorithm works like a voting system:
 
 **Understand Inclusion and Exclusion**
 
-### Upvote Inclusion
+### Upvote inclusion
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -10931,7 +10931,7 @@ Product recommendations are the heart of any successful quiz experience. They he
 
     Not sure how to set up your recommendations? [Take the quiz and find out!](https://skincarequiz.myshopify.com/#quiz-LKPc6j)
 
-## ✍🏻 Voting System
+## ✍🏻 Voting system
 
 
 Recommended for most quizzes. The voting system counts product "votes" based on customer quiz choices and recommends products with the highest votes.
@@ -10943,7 +10943,7 @@ Recommended for most quizzes. The voting system counts product "votes" based on 
     - Your first product recommendation quiz
     - Quizzes without complex branching
 
-### Funnel Quiz
+### Funnel quiz
 
 The voting system counts product "votes" based on customer quiz choices and recommends products with the highest votes.
 
@@ -10960,7 +10960,7 @@ Product recommendation algorithm works like a voting system:
 
     Check out the [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz) guide.
 
-### Funnel Quiz with Slots
+### Funnel quiz with slots
 
 The voting system counts product "votes" based on customer quiz choices and then recommends highest voted products based on a filter added to each slot. For example, you can recommend a full skincare routine with a quiz that takes into account the customer answers and shows the most voted cleanser, toner, serum and moisturizer arranged into specific slots. 
 
@@ -10970,7 +10970,7 @@ The voting system counts product "votes" based on customer quiz choices and then
 
     Check out the [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots) guide.
 
-### Funnel Quiz with Branching
+### Funnel quiz with branching
 
 Branch your quiz to show different follow-up questions based on customer choices. The algorithm counts votes only from questions and answers shown to each customer.
 
@@ -10980,7 +10980,7 @@ Branch your quiz to show different follow-up questions based on customer choices
 
     Check out the [✍🏻 Voting System (Funnel Quiz with Branching)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-branching) and [Jump Logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) guides.
 
-### Funnel Quiz that Skips Slides
+### Funnel quiz that skips slides
 
 Show different follow-up questions based on customer choices in a multiple-choice, multiple selection question. For example, ask about skin concerns and then only show follow-up questions related to the selected concerns. The algorithm counts votes only from questions and answers shown to each customer. 
 
@@ -10992,7 +10992,7 @@ Show different follow-up questions based on customer choices in a multiple-choic
 
     Check out the [✍🏻 Voting System (Funnel Quiz that Skips Slides)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides) and [Skip Logic](/how-to-guides/hide-content-with-logic/#skip-logic-how-to-show-custom-text-in-the-quiz) guides.
 
-### Funnel Quiz that Shows Custom Text Based on Choices
+### Funnel quiz that shows custom text based on choices
 
 !!! warning "Not recommended for personality-type quizzes"
 
@@ -11007,7 +11007,7 @@ Show or hide different text blocks on the results page. This approach requires p
 
     Check out the [✍🏻 Voting System (Funnel Quiz that Shows Custom Text Based on Choices)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-shows-custom-text-based-on-choices) and [Display Logic](/how-to-guides/hide-content-with-logic/#display-logic-how-to-show-custom-text-on-the-results-page) guides.
 
-## 🧩 Fixed Recommendations
+## 🧩 Fixed recommendations
 
 Recommended for quizzes with complex branching and multiple very precise outcomes and product recommendations. Set up fixed sections with pre-determined products to be shown on the results page. Then add logic to control visibility of each section or results page.
 
@@ -11018,7 +11018,7 @@ Recommended for quizzes with complex branching and multiple very precise outcome
     - Quizzes with complex branching
     - Quizzes that require a lot of logic conditions and custom text
 
-### Always The Same Recommendations
+### Always the same recommendations
 
 Set up a fixed section with pre-determined products to be shown on the results page regardless of the customer answers.
 
@@ -11029,7 +11029,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
     Check out the [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) guide.
 
 
-### With Display Logic and One Results Page 
+### With display logic and one results page 
 
 Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
 
@@ -11039,7 +11039,7 @@ Set up multiple sections on the results page with fixed product and text combina
 
     Check out the [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) guide.
 
-### With Display Logic and Multiple Results Pages
+### With display logic and multiple results pages
 
 Set up multiple results pages with unique fixed product recommendations and texts and control visibility by adding branching with Jump Logic that leads to different results pages.	
 
@@ -11049,7 +11049,7 @@ Set up multiple results pages with unique fixed product recommendations and text
 
     Check out the [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-multiple-results-pages) guide.
 
-## 🎯 Custom Scoring System 
+## 🎯 Custom scoring system 
 
 Recommended for personality-type quizzes. Assign point values to choices and use the total scores to determine which products to recommend.
 
@@ -11060,7 +11060,7 @@ Recommended for personality-type quizzes. Assign point values to choices and use
     - Quizzes that show different text results based on choices
     - Quizzes that need to calculate scores that show different products
 
-### Winning Variable Quiz
+### Winning variable quiz
 
 Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content and product blocks on the Results Page based on the custom score or most voted variable.
 
@@ -11071,7 +11071,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
     Check out the [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) guide.
 
 
-### Scoring Quiz with One Results Page
+### Scoring quiz with one results page
 
 Assign numerical scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the accumulated scores.
 
@@ -11083,7 +11083,7 @@ Assign numerical scores to each choice in your quiz. Then, use Display Logic to 
     Check out the [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) guide.
 
 
-### Scoring Quiz with Multiple Results Pages
+### Scoring quiz with multiple results pages
 
 Assign numerical scores to each choice in your quiz. Then, use Jump Logic or Skip Logic to direct customers to different results pages based on their accumulated scores. 
 
@@ -11121,7 +11121,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
     - Quizzes that need to calculate scores that show different products
 
 
-## How to Add Scores or Variables to Choices
+## How to add scores or variables to choices
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -11553,7 +11553,7 @@ This documentation outlines how to track quiz analytics and revenue generated fr
 The [**Shopify Revenue Report**](#activate-shopify-revenue-report) feature within the RevenueHunt app allows you to track orders tagged by your quiz, offering a clear view of its impact on sales. 
     This how-to article guides you through the process of setting up your Shopify Revenue Report and accessing vital orders data from the quiz.
     Alternatively, you can track quiz revenue with [Google Analytics](/how-to-guides/integrate-google-analytics/).
-    ## Activate Shopify Revenue Report
+    ## Activate Shopify revenue report
     To enable the automated revenue report feature:
     1. **Enable Order Notes**: You need to enable Order Notes in your Theme Settings for this feature to work. Follow [these instructions](https://help.shopify.com/en/manual/online-store/themes/themes-by-shopify/vintage-themes/customizing-vintage-themes/get-more-information-with-order-notes) to enable them or contact your theme developer.
     2. **Open the Connect tab**: Open the RevenueHunt app and navigate to the [Connect](/reference/quiz-builder/connect-integrations/) tab.
@@ -11568,10 +11568,10 @@ The [**Shopify Revenue Report**](#activate-shopify-revenue-report) feature withi
     !!! warning
          Shopify Revenue Tracking and Orders Tagging only works if the customer adds the products to the cart directly from the quiz results page **AND** if they immediately proceed to the cart after the quiz, and then right away complete the purchase. If they purchase at a later date, this revenue will not be attributed to the quiz anymore.
          Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](/how-to-guides/change-checkout-settings/).
-    ## Tracking Revenue with Google Analytics
+    ## Tracking revenue with Google Analytics
     For a more detailed analysis you can track quiz revenue alongside other metrics with [Google Analytics](/how-to-guides/integrate-google-analytics/).
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/integrate-google-analytics/)
-    ## Show Quiz Answers in the Shopify Orders
+    ## Show quiz answers in the Shopify orders
     It’s possible to know exactly which orders in your Shopify Orders tab come from the quiz.
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-quiz-answers-in-orders/)
 
@@ -11597,7 +11597,7 @@ This guide will walk you through the process of troubleshooting product recommen
 
     When a particular product appears (or fails to appear) on the Results Page, it's crucial to understand the mechanism behind its selection. This involves tracing back to the quiz responses and analyzing the [voting system](/how-to-guides/set-up-funnel-quiz/#voting-system) or [display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) that influences product visibility.
 
-## Step-by-Step Process to Check Recommendations
+## Step-by-step process to check recommendations
 
 !!! tip
 
@@ -11656,7 +11656,7 @@ Our Product Recommendation Quiz app is designed to integrate seamlessly with mos
 
     Important Addition: Ensure to whitelist our IP address (`3.14.55.225`) in your store’s settings to facilitate uninterrupted communication between our app and your store.
 
-## Error #1: Request and Data Transmission Issues
+## Error #1: request and data transmission issues
 
 !!! example "Error Messages"
 
@@ -11692,7 +11692,7 @@ Advanced Solutions:
 
 **Special Note**: If using CAFE24 hosting, disable the “SPAM Shield” function.
 
-## Error #2: Authentication and Permission Issues
+## Error #2: authentication and permission issues
 
 !!! example "Error Messages"
 
@@ -11777,7 +11777,7 @@ This guide explains:
 
 - What your theme editor or developer can do to fix it
 
-## Step 1: Understand How Quiz Adds Products to the Cart
+## Step 1: understand how quiz adds products to the cart
 
 Our app uses Shopify’s official AJAX Cart API to add products. These are the same endpoints used by most Shopify themes and apps.
 
@@ -11793,7 +11793,7 @@ We use:
 
 These actions notify Shopify that the cart has changed. It’s then up to the theme to update the UI, such as opening or refreshing the cart drawer.
 
-## Step 2: Confirm If Your Theme Supports Cart Drawer Updates
+## Step 2: confirm if your theme supports cart drawer updates
 
 Most modern themes (like Dawn) include a cart drawer or slide-out cart. However, if your cart drawer does not update after a quiz submission:
 
@@ -11801,7 +11801,7 @@ Most modern themes (like Dawn) include a cart drawer or slide-out cart. However,
 
 - This can happen even in Shopify’s default themes if the cart drawer script wasn’t customized / extended properly or if the cart drawer script isn’t configured to react to external AJAX calls.
 
-## Step 3: Talk to Your Theme Developer
+## Step 3: talk to your theme developer
 
 Since our app only triggers Shopify’s standard cart actions, you’ll need to make sure your theme is set up to respond to those actions.
 
@@ -11855,7 +11855,7 @@ Share the following resources with your developer or Shopify Expert:
 
     Once this script was added, the cart drawer updated perfectly — without any app-side changes.
 
-## Step 4: Test Your Setup
+## Step 4: test your setup
 
 Once your theme is updated to listen to the AJAX cart actions, test the following:
 
@@ -12018,14 +12018,14 @@ description: "Master conditional logic in RevenueHunt to branch quizzes and cust
 
 [Conditional Logic](/reference/quiz-builder/conditional-logic/) allows you to branch the quiz or hide content based on customer answers.
 
-## [How to Show or Hide Content Based on Quiz Answers](/how-to-guides/hide-content-with-logic/)
+## [How to show or hide content based on quiz answers](/how-to-guides/hide-content-with-logic/)
 
 In this article, you’ll discover how to use `IF-THEN` conditional logic to display customized text to quiz takers. This includes adding custom text within your quiz using [Jump Logic](/how-to-guides/use-jump-logic/) or [Skip Logic](/how-to-guides/use-skip-logic/) and displaying custom text on the Results page with [Display Logic](/how-to-guides/use-display-logic/).
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/hide-content-with-logic/)
 
 
-## [How to Use Jump Logic](/how-to-guides/use-jump-logic/)
+## [How to use jump logic](/how-to-guides/use-jump-logic/)
 
 Jump Logic is a tool designed to personalize the experience of quiz participants by guiding them down different paths based on their answers. [This article](/how-to-guides/use-jump-logic/) provides a clear, step-by-step guide on how to use Jump Logic, its workings, and examples to illustrate its functionality.
 
@@ -12039,7 +12039,7 @@ Jump Logic is a tool designed to personalize the experience of quiz participants
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/use-jump-logic/)
 
 
-## [How to Use Skip Logic](/how-to-guides/use-skip-logic/)
+## [How to use skip logic](/how-to-guides/use-skip-logic/)
 
 Skip Logic is a tool used in quizzes or surveys to make answering questions smoother for people taking them. It works by changing the order of questions based on the answers given to previous questions. This means if someone answers a question a certain way, they might skip some questions or see different ones next. [This guide](/how-to-guides/use-skip-logic/) will show you how to set up and use Skip Logic, including some examples of how it works.
 
@@ -12052,7 +12052,7 @@ Skip Logic is a tool used in quizzes or surveys to make answering questions smoo
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/use-skip-logic/)
 
 
-## [How to Use Display Logic](/how-to-guides/use-display-logic/)
+## [How to use display logic](/how-to-guides/use-display-logic/)
 
 Display logic is a feature of the Results Page that allows you to make elements visible or hidden based on conditional logic rules. [This article](/how-to-guides/use-display-logic/) explains how to use Display Logic on the Results Page.
 
@@ -12132,7 +12132,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
     By adding customer tags into your quizzes, you can automatically send quiz results to your mailing list or CRM, enabling precise segmentation based on customer responses.
 
 
-## How to Add Customer Tags to Your Quiz
+## How to add customer tags to your quiz
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -12266,7 +12266,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
 
 ![how to use information recalls example filled](/images/how_to_use_information_recalls_example_filled.png)
 
-## Adding Information Recalls / Content Dynamic Source
+## Adding information recalls / content dynamic source
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -12588,7 +12588,7 @@ This interactive tool aims to improve customer engagement and increase sales by 
 
 The app includes a Free plan and a 14-day free trial, with paid plans starting at $39 per month​.
 
-## Installing the App
+## Installing the app
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -12624,7 +12624,7 @@ RevenueHunt quizzes are built with accessibility best practices in mind, followi
 !!! note "Shared Responsibility"
     Final accessibility compliance also depends on your theme, quiz customization, and embedding method. Colors, fonts, image-only choices, custom CSS/JS, and other overlays on your site can impact accessibility. This guide covers what we provide and best practices for maintaining accessibility.
 
-## Keyboard Navigation
+## Keyboard navigation
 
 Users can complete the entire quiz using only a keyboard:
 
@@ -12638,7 +12638,7 @@ All question types are fully navigable via keyboard, including dropdowns, slider
 !!! tip "Avoiding Focus Issues"
     Theme overlays like chat widgets or newsletter popups can steal focus while the quiz is open. For the best experience, pause competing overlays while the quiz is active.
 
-## Screen Reader Support
+## Screen reader support
 
 Quizzes work with popular screen readers including VoiceOver (macOS/iOS), NVDA (Windows), and TalkBack (Android):
 
@@ -12648,28 +12648,28 @@ Quizzes work with popular screen readers including VoiceOver (macOS/iOS), NVDA (
 - Selection states are communicated clearly
 - Progress is indicated (e.g., "Question 2 of 6")
 
-### Best Practice: Use Text Labels
+### Best practice: use text labels
 
 Every choice should have a meaningful text label, not just images. If you use image choices, keep a meaningful label so screen readers can describe the option.
 
 [:fontawesome-solid-arrow-right: Learn more about Questions](/reference/quiz-builder/questions/)
 
-## Focus Management
+## Focus management
 
 - **Visible Focus Indicators** - Clear outline on all interactive elements
 - **Logical Focus Order** - Matches the visual layout
 - **No Keyboard Traps** - Users can always navigate away
 
-## Form Accessibility
+## Form accessibility
 
 - All form fields have associated labels
 - Validation errors are linked to their inputs
 - Required fields are indicated to assistive technology
 - Standard inputs support browser autofill
 
-## Visual Accessibility
+## Visual accessibility
 
-### Color Contrast
+### Color contrast
 
 All 8 built-in color schemes meet contrast requirements:
 
@@ -12684,7 +12684,7 @@ All 8 built-in color schemes meet contrast requirements:
 
 [:fontawesome-solid-arrow-right: Customize Quiz Design](/reference/quiz-builder/quiz-design/)
 
-### Text Scaling
+### Text scaling
 
 Quiz text scales with browser zoom and user font preferences:
 
@@ -12692,7 +12692,7 @@ Quiz text scales with browser zoom and user font preferences:
 - Respects system font size preferences
 - Uses relative units for proper scaling
 
-### Touch Targets
+### Touch targets
 
 Interactive elements meet WCAG 2.1 Level AAA touch target requirements:
 
@@ -12703,25 +12703,25 @@ Interactive elements meet WCAG 2.1 Level AAA touch target requirements:
 
 All interactive elements meet or exceed the WCAG 2.5.5 Level AAA requirement of 44px minimum. Adequate spacing between targets prevents accidental taps.
 
-## Motion & Animation
+## Motion & animation
 
 - Quiz respects the `prefers-reduced-motion` browser setting
 - All animations are disabled when reduced motion is preferred
 - No auto-playing media without user interaction
 
-## Language Support
+## Language support
 
-### Right-to-Left (RTL) Languages
+### Right-to-left (RTL) languages
 
 Quizzes automatically adjust layout for RTL languages including Arabic, Hebrew, Persian, Urdu, Pashto, and Kurdish.
 
-### Multiple Languages
+### Multiple languages
 
 Quizzes support 11+ languages with proper text direction.
 
 [:fontawesome-solid-arrow-right: Change Quiz Language](/how-to-guides/change-quiz-language/)
 
-## Customizable Accessibility Text
+## Customizable accessibility text
 
 Customize screen reader text in **Quiz Builder > Quiz Settings > Accessibility**:
 
@@ -12731,7 +12731,7 @@ Customize screen reader text in **Quiz Builder > Quiz Settings > Accessibility**
 | Previous/Next Question | Labels for navigation buttons |
 | Answer Before Proceeding | Prompt when answer is required |
 
-## Testing Your Quiz
+## Testing your quiz
 
 We recommend testing your quiz:
 
@@ -12749,7 +12749,7 @@ Our quiz renderer follows:
 - **Section 508** - US federal accessibility requirements
 - **ADA** - Americans with Disabilities Act guidelines
 
-## Need Help?
+## Need help?
 
 If you notice an accessibility issue, please let us know—our team will address it promptly.
 
@@ -12826,7 +12826,7 @@ description: "Complete CSS class reference guide for customizing RevenueHunt qui
 
 This guide provides a comprehensive overview of all CSS classes and selectors available in the `💎 Built for Shopify` RevenueHunt quiz app. Use this reference to customize the appearance of your quizzes.
 
-## Table of Contents
+## Table of contents
 - [Top-Level Container Structure](#top-level-container-structure)
 - [Question Structure](#question-structure)
 - [Question Blocks](#question-blocks)
@@ -12838,9 +12838,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 - [Dynamic ID Patterns](#dynamic-id-patterns)
 - [Common Use Cases](#common-use-cases)
 
-## Top-Level Container Structure
+## Top-level container structure
 
-### Main Selectors
+### Main selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -12874,9 +12874,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Question Structure
+## Question structure
 
-### Main Selectors
+### Main selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -12914,9 +12914,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Question Blocks
+## Question blocks
 
-### Text Block Selectors
+### Text block selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -12929,7 +12929,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.question-text--center` | Center aligned text |
 | `.question-text--right` | Right aligned text |
 
-### Heading Block Selectors
+### Heading block selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -12943,7 +12943,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.heading__center.question-heading__center` | Center aligned heading |
 | `.heading__right.question-heading__right` | Right aligned heading |
 
-### Button Block Selectors
+### Button block selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -12985,9 +12985,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Choice Blocks
+## Choice blocks
 
-### Main Selectors
+### Main selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -13003,7 +13003,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.picture-choice__medium` | Medium picture size |
 | `.picture-choice__large` | Large picture size |
 
-### Individual Choice Selectors
+### Individual choice selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -13036,9 +13036,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Background and Navigation
+## Background and navigation
 
-### Main Selectors
+### Main selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -13048,7 +13048,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.question-background-image` | Background image element |
 | `.question-background-image--split` | Split layout background image |
 
-### Navigation Bar Selectors
+### Navigation bar selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -13082,9 +13082,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Results Structure
+## Results structure
 
-### Main Selectors
+### Main selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -13094,7 +13094,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `#rsb-{ref}` | Result block with unique reference ID |
 | `.block.results-block` | Base result block class |
 
-### Results Heading Selectors
+### Results heading selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -13107,7 +13107,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.results-heading__center` | Center aligned result heading |
 | `.results-heading__right` | Right aligned result heading |
 
-### Results List Selectors
+### Results list selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -13139,9 +13139,9 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Slot Components
+## Slot components
 
-### Main Selectors
+### Main selectors
 
 | Selector | Description |
 |----------|-------------|
@@ -13151,7 +13151,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.results-slot` | Individual slot item |
 | `.results-slot.in-cart` | Item already in cart state |
 
-### Product Elements
+### Product elements
 
 | Selector | Description |
 |----------|-------------|
@@ -13166,7 +13166,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.slot-product__button-remove` | Remove quantity button |
 | `.slot-product__button-item-text` | Button item text |
 
-### Collection Elements
+### Collection elements
 
 | Selector | Description |
 |----------|-------------|
@@ -13204,7 +13204,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 
 ## Animations
 
-### Animation Classes
+### Animation classes
 
 | Selector | Description |
 |----------|-------------|
@@ -13232,7 +13232,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 }
 ```
 
-## Dynamic ID Patterns
+## Dynamic ID patterns
 
 Use these patterns to target specific elements in your quiz:
 
@@ -13269,9 +13269,9 @@ Use these patterns to target specific elements in your quiz:
 }
 ```
 
-## Common Use Cases
+## Common use cases
 
-### Brand Color Customization
+### Brand color customization
 
 ```css
 /* Primary brand colors */
@@ -13287,7 +13287,7 @@ Use these patterns to target specific elements in your quiz:
 }
 ```
 
-### Mobile-First Responsive Design
+### Mobile-first responsive design
 
 ```css
 /* Mobile base styles */
@@ -13309,7 +13309,7 @@ Use these patterns to target specific elements in your quiz:
 }
 ```
 
-### Custom Typography Scale
+### Custom typography scale
 
 ```css
 /* Typography hierarchy */
@@ -13328,7 +13328,7 @@ Use these patterns to target specific elements in your quiz:
 }
 ```
 
-### Product Grid Layout
+### Product grid layout
 
 ```css
 /* Responsive product grid */
@@ -13442,7 +13442,7 @@ On the dashboard, you'll find all the quizzes that you create. From the dashboar
 
 [:fontawesome-solid-arrow-right: continue reading](dashboard/)
 
-## [Quiz Builder](/reference/quiz-builder/)
+## [Quiz builder](/reference/quiz-builder/)
 
 In Quiz Builder you'll create your quiz. Via the Quiz Builder, you can add questions to your quiz, link products, edit the results page, language, currency, or set up integrations and results emails.
 
@@ -13452,23 +13452,23 @@ Quiz Builder is composed of the following sections:
 
 This is where you'll add questions/slides to your quiz..
 
-### [Link Products/ Collections](/reference/quiz-builder/link-collections/)
+### [Link products/ collections](/reference/quiz-builder/link-collections/)
 
 This is where you'll link individual products or entire collections or tags of products from your store to individual choices.
 
-### [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) 
+### [Customer tags](/reference/quiz-builder/link-collections/#customer-tags) 
 
 This is where you'll create custom tags to link to individual choices.
 
-### [Conditional Logic](/reference/quiz-builder/conditional-logic/)
+### [Conditional logic](/reference/quiz-builder/conditional-logic/)
 
 This is where you'll create branching in your quiz.
 
-### [Quiz Design](/reference/quiz-builder/quiz-design/) 
+### [Quiz design](/reference/quiz-builder/quiz-design/) 
 
 This is where you'll style your quiz.
 
-### [Results Page](/reference/quiz-builder/results-page/)
+### [Results page](/reference/quiz-builder/results-page/)
 
 This is where you'll edit your results page.
 
@@ -13476,7 +13476,7 @@ This is where you'll edit your results page.
 
 This is where you'll set up your quiz result emails.
 
-### [Quiz Settings](/reference/quiz-builder/quiz-settings/)
+### [Quiz settings](/reference/quiz-builder/quiz-settings/)
 
 This is where you'll change the currency, language, and other global settings of the quiz.
 
@@ -13494,13 +13494,13 @@ This is where you'll check your quiz metrics and responses.
 
 [:fontawesome-solid-arrow-right: continue reading](quiz-builder/)
 
-## [Plans & Pricing](plans-pricing/)
+## [Plans & pricing](plans-pricing/)
 
 In the Plans & Pricing section, you can find details of our pricing plans and upgrade or downgrade your account's plan.
 
 [:fontawesome-solid-arrow-right: continue reading](plans-pricing/)
 
-## [App Settings](app-settings/)
+## [App settings](app-settings/)
 
 In the App Settings section, you adjust your contact details, set up Shopify Markets, change GDPR settings or connect your SMTP server.
 
@@ -13657,7 +13657,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
 # Quiz Builder
 
-## Quiz Builder Overview
+## Quiz builder overview
 
 --- Shopify (Legacy) Specific Content ---
 
@@ -15100,32 +15100,32 @@ We've identified key elements that make quizzes popular with shoppers and drive 
 
 [:fontawesome-solid-arrow-right: check tutorial](/customer-success/how-to-build-successful-quiz/)
 
-### [Recommending a Skincare Routine](/tutorials/skincare-routine/)
+### [Recommending a skincare routine](/tutorials/skincare-routine/)
 
 Make and publish a short quiz that recommends a group of complementary products to your customers.
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/skincare-routine/)
 
-### [Building a Skin Type Quiz](/tutorials/skintype-quiz/)
+### [Building a skin type quiz](/tutorials/skintype-quiz/)
 
 Make and publish a quiz that determines your customers' skin type and recommends a group of complementary products to your customers.
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/skintype-quiz/)
 
 
-### [Using Conditional Logic](/tutorials/conditional-logic/)
+### [Using conditional logic](/tutorials/conditional-logic/)
 
 Learn how to use Jump Logic, Skip Logic, and Display logic to show/hide questions/content in the quiz as well as in the Results Page.
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/conditional-logic/)
 
-### [Sending Emails](/tutorials/sending-emails/)
+### [Sending emails](/tutorials/sending-emails/)
 
 Learn how to send emails to your quiz leads with the RevenueHunt app.
 
 [:fontawesome-solid-arrow-right: check tutorial](/tutorials/sending-emails/)
 
-### [Sending Follow-up Emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/)
+### [Sending follow-up emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/)
 
 Learn how to add RevenueHunt: Product Recommendation Quiz leads to Klaviyo and how to build a post-quiz email flow in Klaviyo.
 

@@ -70,7 +70,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
     
     - Paste the embed code into  an HTML element of the page where you want the quiz to show.
 
-## Embed an Inline Quiz on the Homepage
+## Embed an inline quiz on the homepage
 
 !!! info "What's an inline quiz on the homepage?"
 
@@ -191,7 +191,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
     6. Save the changes.
     7. From now on, the inline quiz will be visible on the main page.
 
-## Embed an Inline Quiz on a Dedicated Landing Page
+## Embed an inline quiz on a dedicated landing page
 
 !!! info "What's an inline quiz on a dedicated landing page?"
 
@@ -305,7 +305,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
 
     You can add a link to this page to your website menu or use the link to this new page in your marketing campaigns.
 
-## Embed an Inline Quiz on a Specific Collection/Category
+## Embed an inline quiz on a specific collection/category
 
 !!! info "What's an inline quiz on a specific collection/category?"
 
@@ -393,7 +393,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
 
 ## FAQs
 
-### Embed a Specific Quiz
+### Embed a specific quiz
 
 === "Shopify"
 
@@ -451,7 +451,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
     
     
 
-### Fixing the Size of the Inline Quiz
+### Fixing the size of the inline quiz
 
 To prevent the quiz from adjusting size based on content, manually set a fixed width and height in the quiz settings or embed code.
 
@@ -522,7 +522,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
     4. **Get new code**: Click `Get code` and copy the new HTML embed code.
     5. **Embed the Quiz**: Paste the copied HTML code wherever you like on your website. Follow instructions on How to add an inline quiz on the [Homepage](#embedding-an-inline-quiz-on-the-homepage), [New Page](#embedding-an-inline-quiz-on-a-new-page) or [Collection/Category Page](#embedding-an-inline-quiz-on-a-specific-collectioncategory-page).
 
-### Preventing Autoscroll in Inline Quiz
+### Preventing autoscroll in inline quiz
 
 === "Shopify"
 

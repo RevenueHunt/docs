@@ -141,7 +141,7 @@ The most successful quizzes have two things in common. They are **short** and th
 
 **Objective**: Let's say that you run a cosmetics shop and have a selection of cleansers for different types of skin. Let's build a short quiz to help your customer choose the best cleanser for them.
 
-## Add a New Quiz
+## Add a new quiz
 
 === "Shopify"
 
@@ -228,7 +228,7 @@ The most successful quizzes have two things in common. They are **short** and th
     10. Once you have all your questions you can move them around by drag and drop. 
     11. Make sure to keep the quiz short. Customers typically drop out after question 8 and almost nobody gets to question 12. There's power in simplicity!
 
-## Changing Design
+## Changing design
 
 Now let's make the quiz pretty. 
 
@@ -316,7 +316,7 @@ Now let's make the quiz pretty.
     6. All the changes you make will be saved automatically.
     7. Once you're done, you can change the name of your theme and it will be saved in [My Themes gallery](/reference/quiz-builder/quiz-design/#my-themes). You'll be able to apply it to other quizzes that you create.
 
-## Linking Products
+## Linking products
 
 Once you're happy with the design, you can add products to each question. It is a very important step! 
 
@@ -405,7 +405,7 @@ Once you're happy with the design, you can add products to each question. It is 
     6. Make sure to link products to each question and choice in the quiz. 
     7. You can test different answering routes and results by clicking on the `Publish` button to update the preview/live quiz and then `Preview`.
 
-## Editing the Results Page
+## Editing the results page
 
 Speaking of results. Make sure to also edit the Results Page.
 

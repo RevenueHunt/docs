@@ -12,7 +12,7 @@ This interactive tool aims to improve customer engagement and increase sales by 
 
 The app includes a Free plan and a 14-day free trial, with paid plans starting at $39 per month​.
 
-## Installing the App
+## Installing the app
 
 === "Shopify"
 
@@ -95,7 +95,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
 
     Check out this [step-by-step installation guide](/how-to-guides/install-app/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 Here's what other people are finding most helpful right now:
 
@@ -117,7 +117,7 @@ Here's what other people are finding most helpful right now:
 
 [:fontawesome-brands-shopify: How to Send Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/)
 
-## Contact Support
+## Contact support
 
 Still looking for an answer?
 Feel free to [contact support](/how-to-guides/contact-customer-support/).

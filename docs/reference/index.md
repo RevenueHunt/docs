@@ -14,7 +14,7 @@ On the dashboard, you'll find all the quizzes that you create. From the dashboar
 
 [:fontawesome-solid-arrow-right: continue reading](dashboard/)
 
-## [Quiz Builder](/reference/quiz-builder/)
+## [Quiz builder](/reference/quiz-builder/)
 
 In Quiz Builder you'll create your quiz. Via the Quiz Builder, you can add questions to your quiz, link products, edit the results page, language, currency, or set up integrations and results emails.
 
@@ -24,23 +24,23 @@ Quiz Builder is composed of the following sections:
 
 This is where you'll add questions/slides to your quiz..
 
-### [Link Products/ Collections](/reference/quiz-builder/link-collections/)
+### [Link products/ collections](/reference/quiz-builder/link-collections/)
 
 This is where you'll link individual products or entire collections or tags of products from your store to individual choices.
 
-### [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) 
+### [Customer tags](/reference/quiz-builder/link-collections/#customer-tags) 
 
 This is where you'll create custom tags to link to individual choices.
 
-### [Conditional Logic](/reference/quiz-builder/conditional-logic/)
+### [Conditional logic](/reference/quiz-builder/conditional-logic/)
 
 This is where you'll create branching in your quiz.
 
-### [Quiz Design](/reference/quiz-builder/quiz-design/) 
+### [Quiz design](/reference/quiz-builder/quiz-design/) 
 
 This is where you'll style your quiz.
 
-### [Results Page](/reference/quiz-builder/results-page/)
+### [Results page](/reference/quiz-builder/results-page/)
 
 This is where you'll edit your results page.
 
@@ -48,7 +48,7 @@ This is where you'll edit your results page.
 
 This is where you'll set up your quiz result emails.
 
-### [Quiz Settings](/reference/quiz-builder/quiz-settings/)
+### [Quiz settings](/reference/quiz-builder/quiz-settings/)
 
 This is where you'll change the currency, language, and other global settings of the quiz.
 
@@ -66,13 +66,13 @@ This is where you'll check your quiz metrics and responses.
 
 [:fontawesome-solid-arrow-right: continue reading](quiz-builder/)
 
-## [Plans & Pricing](plans-pricing/)
+## [Plans & pricing](plans-pricing/)
 
 In the Plans & Pricing section, you can find details of our pricing plans and upgrade or downgrade your account's plan.
 
 [:fontawesome-solid-arrow-right: continue reading](plans-pricing/)
 
-## [App Settings](app-settings/)
+## [App settings](app-settings/)
 
 In the App Settings section, you adjust your contact details, set up Shopify Markets, change GDPR settings or connect your SMTP server.
 

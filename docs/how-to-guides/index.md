@@ -8,7 +8,7 @@ Whether you're here to craft your very first quiz or looking to fine-tune the ex
 
 RevenueHunt app offers a rich array of features to engage your audience, gather insights, and provide tailored recommendations through quizzes. To help you make the most of these capabilities, we've prepared detailed guides covering a wide range of topics.
 
-## Getting Started
+## Getting started
 
 For those new to our platform or looking to create a quiz for the first time, we recommend starting with these essential guides:
 
@@ -17,7 +17,7 @@ For those new to our platform or looking to create a quiz for the first time, we
 - [:material-palette-outline: Customize Quiz Design](/how-to-guides/customize-quiz-design/): Dive into customization options to ensure your quiz matches your brand's look and feel.
 - [:material-monitor-share: Publish the Quiz on Your Website](/how-to-guides/publish-quiz/): Get step-by-step instructions on how to seamlessly integrate your quiz into your website.
 
-## Enhancing Your Quizzes
+## Enhancing your quizzes
 
 Once you're comfortable with the basics, enhance your quizzes and user experience with these advanced features:
 
@@ -26,14 +26,14 @@ Once you're comfortable with the basics, enhance your quizzes and user experienc
 - [:material-account-filter: Send Leads to Your CRM](/how-to-guides/send-leads-to-crm/): Connect your quiz to one of our many integrations and send all the quiz data there for segmented retargeting.
 - [:material-cellphone-link: Fix Viewport Issue on Mobile](/how-to-guides/fix-viewport-issue-on-mobile/): Ensure a smooth user experience on mobile devices by fixing viewport issues that cause the form to move.
 
-## Advanced Customization
+## Advanced customization
 
 For those looking to dive deeper into customization and integration:
 
 - [:material-language-javascript: Add JavaScript](/how-to-guides/add-javascript/): Learn how to add custom JavaScript for advanced quiz interactions.
 - [:material-code-json: Use Callback Function](/how-to-guides/use-callback-function/): Discover how to use a callback function to execute custom code based on quiz outcomes or user actions.
 
-## Need More Help?
+## Need more help?
 
 Browse through our collection for detailed instructions on every feature we offer. If you have specific questions or need further assistance, [our support team is here to help](/how-to-guides/contact-customer-support/)
 

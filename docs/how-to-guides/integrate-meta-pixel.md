@@ -13,7 +13,7 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
     This small piece of code placed on your website helps you monitor conversions from ads, improve the performance of future advertising, and create targeted audiences based on past interactions with your website.
 
-## Setting Up Your Meta Pixel
+## Setting up your Meta Pixel
 
 !!! note
 
@@ -184,13 +184,13 @@ This article explains how to integrate the Meta Pixel with your quiz application
 
     5. **Review Custom Events**: If you want to use the custom events in your ads and audiences, you need to review them. Check the [Review Custom Events](/how-to-guides/integrate-meta-pixel/#review-custom-events) section.
 
-## Tracking Engagement with Meta Events Manager
+## Tracking engagement with Meta events manager
 
 With the Pixel activated, the Meta **Events Manager dashboard** becomes a window into how users interact with your quiz. This data is vital for crafting [Custom Audiences](https://www.facebook.com/business/learn/lessons/custom-audience-tips-with-facebook-pixel) and [Lookalike Audiences](https://www.facebook.com/business/help/164749007013531?id=401668390442328) to refine your marketing strategies.
 
 ![how to integrate fb pixel events](/images/how_to_fb_pixel_events.png)
 
-### Tracked Interactions
+### Tracked interactions
 
 The Pixel will fire a `viewContent` event for the following user actions:
 
@@ -202,7 +202,7 @@ The Pixel will fire a `viewContent` event for the following user actions:
 
 Each `viewContent` event is distinguished by a specific "category" tag, allowing for detailed tracking.
 
-### Tracked Events
+### Tracked events
 
 Besides the `viewContent` events, the Pixel will also track when a user:
 
@@ -229,7 +229,7 @@ Here’s a list of all the tracked events:
 
 
 
-## Review Custom Events
+## Review custom events
 
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/qxcWFdfTZ_s?si=s1XW819N9ub_Gv0j&amp;start=227" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -273,7 +273,7 @@ This section outlines the process for managing custom events in Metapixel after 
 4. Refresh your Metapixel dashboard to ensure the notification is gone.
 5. Your data should now flow correctly, allowing you to use the custom events in your ads and audiences.
 
-## Adding a Custom Pixel
+## Adding a custom pixel
 
 === "Shopify"
 

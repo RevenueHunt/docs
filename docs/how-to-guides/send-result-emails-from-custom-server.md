@@ -13,7 +13,7 @@ SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails acros
 
     Connecting your SMTP server to your quiz will allow you to send emails from your own email servers instead of Revenuehunt email servers and is a recommended practice.
 
-## Setting Up SMTP Server Connection
+## Setting up SMTP server connection
 
 === "Shopify"
 
@@ -242,9 +242,9 @@ SMTP (Simple Mail Transfer Protocol) is a protocol used for sending emails acros
 
 
 
-## Specific SMTP Configurations
+## Specific SMTP configurations
 
-### Outlook Office 365 Users
+### Outlook office 365 users
 
 To find credentials to fill in please check [this Microsoft documentation](https://learn.microsoft.com/en-us/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365).
 
@@ -255,7 +255,7 @@ For Office 365 SMTP, whitelist IP `3.14.55.225` to allow email sending.
     - In `Protection`, choose `Connection Filter` and edit with the pencil icon.
     - Add IP `3.14.55.225` to the `IP Allow List` and enable the `Enable Safe List`.
 
-### Google Workspace Users
+### Google workspace users
 
 
 To find credentials to fill in please check [this Google documentation](https://support.google.com/a/answer/176600?hl=en).
@@ -268,7 +268,7 @@ To find credentials to fill in please check [this Google documentation](https://
     - Navigate to [App Passwords](https://myaccount.google.com/apppasswords).
     - Select `Mail` and `Other`, generate a password for use in SMTP settings.
 
-## Troubleshooting: Common SMTP Connection Issues
+## Troubleshooting: common SMTP connection issues
 
 - **Test Credentails with Thrid Party Tool**: Utilize third-party tools like [GMass SMTP Test](https://www.gmass.co/smtp-test) for SMTP settings verification. If the credentials work there, they will also work in our app. Should you encounter issues, consult with your developer or SMTP service provider.
 - **SMTP Settings Not Working**: Ensure correctness with third-party tools. If issues persist, verify with your SMTP provider.

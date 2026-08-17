@@ -125,7 +125,7 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 
 
-## Create Multiple Quizzes
+## Create multiple quizzes
 
 === "Shopify"
 
@@ -193,7 +193,7 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
     !!! note "Platform Availability"
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 
-## Assign Quizzes to Markets
+## Assign quizzes to markets
 
 === "Shopify"
 
@@ -239,7 +239,7 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
     !!! note "Platform Availability"
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 
-## Assign Quizzes by Language
+## Assign quizzes by language
 
 === "Shopify"
 
@@ -292,7 +292,7 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
     !!! note "Platform Availability"
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 
-## Change Currency Format for Markets
+## Change currency format for markets
 
 === "Shopify"
 
@@ -344,7 +344,7 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
     !!! note "Platform Availability"
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 
-## Publish the Main Quiz
+## Publish the main quiz
 
 === "Shopify"
 
@@ -383,7 +383,7 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
     !!! note "Platform Availability"
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 
-## Test the Setup
+## Test the setup
 
 === "Shopify"
 

@@ -178,7 +178,7 @@ description: "Learn how to use Markdown formatting in RevenueHunt quiz text and 
 
 
 
-### Text Styling
+### Text styling
 
 === "Shopify"
 

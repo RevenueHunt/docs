@@ -150,7 +150,7 @@ Every completion writes a set of `custom properties` to the Klaviyo profile. You
 
     Take a test quiz with a sample email, then open `Klaviyo > Audience > Profiles` and search for it. The profile shows every property your quiz sends, with the exact block references, slot names and quiz ID. Copy the names from there. See [Use Quiz Data in Klaviyo Email Templates](/how-to-guides/send-leads-to-klaviyo/#use-quiz-data-in-klaviyo-email-templates) for the full reference and the `{{ person|lookup:'...' }}` syntax.
 
-### Create your "Quiz Takers" segment
+### Create your "quiz takers" segment
 
 This segment is the backbone. It defines everyone who finished the quiz, and you use it both as a trigger (results delivery, win-back) and as a filter inside behavior-triggered flows.
 

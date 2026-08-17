@@ -79,7 +79,7 @@ description: "Learn how to enable pre-fill on retake for RevenueHunt quiz respon
     - either declaring JavaScript variables in your store’s source code (note: developer needed)
     - passing URL parameters on a link to your store.
 
-## Option 1: Declare window.prq_vars
+## Option 1: declare window.prq_vars
 
 === "Shopify"
 
@@ -271,7 +271,7 @@ description: "Learn how to enable pre-fill on retake for RevenueHunt quiz respon
     
     This way you will pass the productID as a parameter to differentiate where the quiz was taken from.
 
-## Option 2: Pass URL parameters
+## Option 2: pass URL parameters
 
 === "Shopify"
 

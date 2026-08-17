@@ -41,7 +41,7 @@ This guide will walk you through the process of using the [Version History](/ref
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/c04e2d8b2548424696c2743d8f846ed8?sid=fe2edbcd-7f82-4735-9c5e-f0ed0f15157b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-## Accessing Version History
+## Accessing version history
 
 === "Shopify"
 
@@ -103,7 +103,7 @@ This guide will walk you through the process of using the [Version History](/ref
 
     ![Version History](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
 
-## Understanding Saved Versions
+## Understanding saved versions
 
 === "Shopify"
 
@@ -154,7 +154,7 @@ This guide will walk you through the process of using the [Version History](/ref
     - The interface uses colored `tags` to indicate where changes were made, such as to `questions` or `settings`, making it easier to identify the nature of each version. 
     - For better organization and clarity, you have the option to `rename` any saved version. This can help you keep track of significant changes or versions you may want to revert to later.
 
-## Recovering a Quiz Version
+## Recovering a quiz version
 
 === "Shopify"
 

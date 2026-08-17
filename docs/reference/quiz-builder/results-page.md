@@ -64,7 +64,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
-## Block Types
+## Block types
 
 === "Shopify"
 
@@ -244,7 +244,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-## Display Logic / Display Section Logic
+## Display logic / display section logic
 
 === "Shopify"
 
@@ -270,7 +270,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ---
 
-    ### Type 1: IF The response to the question...
+    ### Type 1: IF the response to the question...
 
     Then the Display logic rules follow the following format:
 
@@ -287,7 +287,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ---
 
-    ### Type 2: IF The score of the variable...
+    ### Type 2: IF the score of the variable...
 
     Then the Display logic rules follow the following format:
 
@@ -529,7 +529,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `bin` / `delete block` - Deletes the current block from the results page.
 
-## Block Settings
+## Block settings
 
 === "Shopify"
 
@@ -721,7 +721,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ### Slots
 
-    #### Product | Product variants | Collections
+    #### Product | product variants | collections
     
     Adds a block specifically designed for displaying a list of recommended products, product variants or collections.
 
@@ -1156,7 +1156,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Remove` - Deletes the current block from the results page.
 
-    #### Cart/Checkout
+    #### Cart/checkout
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_cartcheckout.png)
 
@@ -1360,7 +1360,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Slot ID` - Displays the current slot ID.
 
-## Results Page Settings
+## Results page settings
 
 === "Shopify"
 
@@ -1541,7 +1541,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-### Basic Settings
+### Basic settings
 
 **Checkout Settings**
 
@@ -1855,7 +1855,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
 
-### Advanced Settings
+### Advanced settings
 
 === "Shopify"
 
@@ -2000,7 +2000,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Activate multiple results pages` - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
-### Multiple Results Pages Settings
+### Multiple results pages settings
 
 === "Shopify"
 
@@ -2105,7 +2105,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Create new Results Page` - add a new results page to your quiz.
 
-### Discounts Settings
+### Discounts settings
 
 === "Shopify"
 
@@ -2347,13 +2347,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `deactivate` - Deactivates dynamic discounts.
 
-## Dynamic Content & JavaScript Reference
+## Dynamic content & JavaScript reference
 
 === "Shopify"
 
     This section provides a complete reference for dynamic content using Liquid templates and JavaScript on results pages.
 
-    ### Liquid Templates
+    ### Liquid templates
 
     Liquid is a templating language that allows you to display dynamic content based on quiz answers and variables. On results pages, it's supported in:
 
@@ -2363,7 +2363,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     - **Slot title & description** - Personalized slot headers
     - **No recommendations message** - Personalized empty states
 
-    #### The `quiz` Object
+    #### The `quiz` object
 
     All Liquid templates have access to the `quiz` object with the following properties:
 
@@ -2375,7 +2375,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     | `quiz.questions` | array | All quiz questions |
     | `quiz.results` | array | All results pages |
 
-    #### Accessing Answers
+    #### Accessing answers
 
     | Property | Description |
     |----------|-------------|
@@ -2394,14 +2394,14 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     | `.choicesRefs` | Array of selected choice IDs |
     | `.isValid` | Whether answer passed validation |
 
-    #### Variables & Scoring
+    #### Variables & scoring
 
     | Property | Description |
     |----------|-------------|
     | `quiz.variables.scores` | Object with variable scores `{ varName: number }` |
     | `quiz.variables.highest` | Reference of highest-scoring variable |
 
-    #### Result Context (Results Page Only)
+    #### Result context (results page only)
 
     | Property | Description |
     |----------|-------------|
@@ -2409,7 +2409,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     | `quiz.resultContext.cartItems` | Array of items currently in cart |
     | `quiz.resultContext.discounts` | Object with `applied` array and `eligible` boolean |
 
-    #### Liquid Examples
+    #### Liquid examples
 
     **Personalized greeting:**
     ```liquid
@@ -2442,7 +2442,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     {% endif %}
     ```
 
-    #### Slot Block Context
+    #### Slot block context
 
     In **Custom HTML blocks within product slots**, you have additional variables:
 
@@ -2468,7 +2468,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Custom JavaScript code receives two parameters: `quiz` (read-only context) and `actions` (methods).
 
-    #### Quiz Context Properties
+    #### Quiz context properties
 
     The `quiz` parameter contains all the data from the Liquid context above, plus:
 
@@ -2478,7 +2478,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     | `quiz.metadata.language` | Quiz language code |
     | `quiz.metadata.inBuilder` | `true` if in builder preview |
 
-    #### Actions (Methods)
+    #### Actions (methods)
 
     Results pages have additional cart-related actions:
 
@@ -2488,7 +2488,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     | `actions.setAnswer(blockRef, value)` | Set answer value |
     | `actions.clearAnswer(blockRef)` | Clear an answer |
 
-    #### DOM Helpers
+    #### DOM helpers
 
     Since the quiz may render in a shadow DOM, use these helpers instead of `document.querySelector`:
 
@@ -2498,7 +2498,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     | `window.quiz.querySelectorAll(selector)` | Find all matching elements |
     | `window.quiz.getElementById(id)` | Find element by ID |
 
-    #### JavaScript Examples
+    #### JavaScript examples
 
     **Add all recommended items with Shopify cart APIs:**
     ```javascript

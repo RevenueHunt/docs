@@ -68,9 +68,9 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     - Paste the link in the navigation menu item, a button, a banner or any page or blog post to open the quiz as a popup.
 
 
-## Link Popup in Website Menu
+## Link popup in website menu
 
-### On Every Page
+### On every page
 
 !!! info "What's a Link Popup in menu that opens on every page?"
 
@@ -198,7 +198,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     4. Navigate to your ecommerce platform Navigation Menu settings and add a new item. Paste the link copied from the app.
     5. Remember to save the changes.
 
-### On a Specific Page
+### On a specific page
 
 !!! info "What's a Link Popup in menu that opens on a specific page?"
 
@@ -316,9 +316,9 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     4. Navigate to your ecommerce platform Navigation Menu settings and add a new item. Paste the link copied from the app.
     5. Remember to save the changes.
 
-## Link Popup as "Take the Quiz" Button
+## Link popup as "take the quiz" button
 
-### On Home Page
+### On home page
 
 !!! info "What's a Link Popup that opens via a button on every page?"
     It's a link that will open the quiz as a popup over every page in your store when a button is clicked.
@@ -444,7 +444,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
     7. From now on, whenever someone clicks on the button, a quiz popup will open.
 
 
-### On a Specific Page
+### On a specific page
 
 !!! info "What's a Link Popup that opens via a button on a specific page?"
     It's a link that will open the quiz as a popup over a specific page (only) when a button is clicked.
@@ -577,7 +577,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
 ## FAQs
 
 
-### Open a Specific Quiz
+### Open a specific quiz
 
 === "Shopify"
 
@@ -660,7 +660,7 @@ This guide will walk you through the process of setting up a **Quiz Link Popup**
         Keep in mind that the Quiz ID is case-sensitive.
 
 
-### Popup Displays Behind Website Header
+### Popup displays behind website header
 
 If the Quiz Popup displays behind your website header or the `X` closing button is not visible it's likely that your website's header has an unusually high z-index. This can be fixed either from the app settings or from your website's theme.
 
@@ -760,7 +760,7 @@ If the Quiz Popup displays behind your website header or the `X` closing button 
 
 
 
-### Linking to Multiple Quizzes
+### Linking to multiple quizzes
 
 In some cases, you might want to have links to different quizzes on the same page. This section explains how to set up multiple quiz links for different platforms.
 

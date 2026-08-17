@@ -92,7 +92,7 @@ It describes a step-by-step process involving creating product collections, link
 
 
 
-### Step 1: Understand the algorithm
+### Step 1: understand the algorithm
 
 First of all, you should understand that the recommendations algorithm works like a [voting system](#voting-system). 
 
@@ -114,7 +114,7 @@ First of all, you should understand that the recommendations algorithm works lik
 
 
 
-### Step 2: Create collections/categories
+### Step 2: create collections/categories
 
 To recommend the right product, in your ecommerce platform you should create four collections/categories and include in them the following products:
 
@@ -147,7 +147,7 @@ To recommend the right product, in your ecommerce platform you should create fou
 
     After creating products or collections you may need to sync the app with your store. Here‘s [How to Sync Your Catalog with the App](/how-to-guides/sync-catalog/).
 
-### Step 3: Build the quiz
+### Step 3: build the quiz
 
 === "Shopify"
 
@@ -255,7 +255,7 @@ To recommend the right product, in your ecommerce platform you should create fou
 
 
 
-### Step 4: Link collections/categories
+### Step 4: link collections/categories
 
 === "Shopify"
 
@@ -324,7 +324,7 @@ To recommend the right product, in your ecommerce platform you should create fou
 
 
 
-### Step 5: Create a Products block on the Results Page
+### Step 5: create a products block on the results page
 
 === "Shopify"
 
@@ -379,7 +379,7 @@ To recommend the right product, in your ecommerce platform you should create fou
     2. **Add a Product Block**:  Clicking the `+` to add a block type. Slect a `Product Block` from the dropdown list.
     3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the `Product Block settings` and select how many products should be recommended in this Product Block from the dropdown.
 
-### Step 6: Preview the quiz and check results
+### Step 6: preview the quiz and check results
 
 Now that the quiz is built and product are linked to each choice, you can test the quiz. To test the quiz, you'll have to save the changes and preview it.
 

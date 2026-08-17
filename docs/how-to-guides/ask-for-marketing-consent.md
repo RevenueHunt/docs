@@ -13,7 +13,7 @@ This article outlines several methods to integrate consent requests seamlessly i
 
     Check our latest article [Smart Ways to Ask for Marketing/Data Processing Consent in Your Product Recommendation Quiz](/customer-success/ask-marketing-consent/) to learn more.
 
-## Add a Link to Your Privacy Policy
+## Add a link to your privacy policy
 
 === "Shopify"
 
@@ -84,9 +84,9 @@ This article outlines several methods to integrate consent requests seamlessly i
 
     ![how to consent privacy policy](https://revenuehunt.com/wp-content/uploads/2024/06/Screenshot-2024-06-14-122634.png)
 
-## How to Ask for Marketing/Data Processing Consent
+## How to ask for marketing/data processing consent
 
-### Option 1: Question Description / Text Block
+### Option 1: question description / text block
 
 === "Shopify"
 
@@ -148,7 +148,7 @@ This article outlines several methods to integrate consent requests seamlessly i
     4. Include a link to your privacy policy using [Markdown Language](/how-to-guides/use-markdown/), e.g., `[privacy policy](https://www.linktoyourprivacypolicy.com)`
     5. Publish your changes using the `Publish` button located at the top-right corner.
 
-### Option 2: Marketing Checkmark
+### Option 2: marketing checkmark
 
 === "Shopify"
 
@@ -210,7 +210,7 @@ This article outlines several methods to integrate consent requests seamlessly i
     4. This connects the two questions, requiring users to select the marketing consent option to proceed with the quiz.
         ![how to ask for marketing consent join questions](/images/how_to_ask_for_marketing_consent_join_questions.png)
 
-### Option 3: GDPR Question
+### Option 3: GDPR question
 
 You can ask directly a `Legal Tererms/GDPR` question in your quiz, where you ask the customer to accept the processing of their data or receive marketing information.
 

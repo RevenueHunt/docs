@@ -49,7 +49,7 @@ A personalized skincare routine recommendation quiz was chosen as an example to 
 
 ![how to recommend slots example](/images/how_to_recommend_slots_example.png)
 
-## Step 1: Understand Recommendation Mechanism
+## Step 1: understand recommendation mechanism
 
 Make sure that you're familiar with [how the recommendations work](/how-to-guides/recommend-products/) in RevenueHunt app.
 
@@ -70,7 +70,7 @@ Make sure that you're familiar with [how the recommendations work](/how-to-guide
 
 It's advised to familiarize yourself with this [voting system](/how-to-guides/recommend-products/#voting-system) before working with Product Slots.
 
-## Step 2: Organize Products into Collections/Categories
+## Step 2: organize products into collections/categories
 
 === "Shopify"
 
@@ -150,14 +150,14 @@ It's advised to familiarize yourself with this [voting system](/how-to-guides/re
 
     3. **Catalog Sync**: Perform a [catalog sync](/how-to-guides/sync-catalog/) after creating collections to update RevenueHunt Product Recommendation Quiz with the latest product collections.
 
-## Step 3: Build the Quiz
+## Step 3: build the quiz
 
 1. **Add new quiz**: Go to the app’s [dashboard](/reference/dashboard/) and click [`add new quiz`](/reference/dashboard/#new-quiz).
 2. **Choose a template**: Choose a pre-defined template or start from scratch. *Tip: There’s are Basic and Advanced Skincare Quiz templates already available.*
 3. **Name your quiz**: The name can be edited later.
 4.  **Add slides**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/). Add questions to your quiz that will help the customer determine their skincare routine. To add a question, click the `+ Add question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown/menu.
 
-## Step 4: Link Products to Choices
+## Step 4: link products to choices
 
 Once your quiz is set up, you should add products and collections to the choices in the quiz. This step is necessary to show recommendations.
 
@@ -206,7 +206,7 @@ Once your quiz is set up, you should add products and collections to the choices
 
         ![how to recommend slots link products](/images/how_to_recommend_slots_link_products.png)
 
-## Step 5: Add Product Slots to the Results Page
+## Step 5: add product slots to the results page
 
 === "Shopify"
 
@@ -270,7 +270,7 @@ Once your quiz is set up, you should add products and collections to the choices
     ![how to recommend slots slot block](/images/how_to_recommend_slots_slot_block.png)
     6. **Choose Product number**: In the [`Slot Block settings`](/reference/quiz-builder/questions/#block-settings) you can choose how many products should be recommended per each step. *Tip: Our most succseful quizzes recommend a single product per slot.*
 
-## Step 6: Test and Troubleshoot
+## Step 6: test and troubleshoot
 
 Now that the slots are built and product/collections are linked to each choice, you can test the quiz. To test the quiz, you'll have to save the changes and preview it.
 

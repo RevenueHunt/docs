@@ -4,7 +4,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
 # Quiz Builder
 
-## Quiz Builder Overview
+## Quiz builder overview
 
 === "Shopify"
 
@@ -12,7 +12,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     Quiz builder is composed of different sections: 
 
-    ### Quiz Builder Menu
+    ### Quiz builder menu
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_menu.png)
 
@@ -22,7 +22,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     The [`Questions`](/reference/quiz-builder/questions/) section allows you to add, edit and delete questions from your quiz.
 
-    ### Quiz Preview 
+    ### Quiz preview 
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png)
 
@@ -41,11 +41,11 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
     Use the `↶` undo / `↷` redo buttons to revert your changes.
 
 
-    ### Question Settings
+    ### Question settings
 
     In the [`Question Settings`](/reference/quiz-builder/questions/#question-settings) section adjust specific settings of the question, change elements alignment or upload an image.
 
-    ### Top Menu
+    ### Top menu
 
     ![manual_shopifyV2_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_preview.png)
 
@@ -339,7 +339,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
 
-## Save Changes
+## Save changes
 
 === "Shopify"
 
@@ -378,7 +378,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
     `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
 
 
-## Preview the Quiz
+## Preview the quiz
 
 === "Shopify"
 

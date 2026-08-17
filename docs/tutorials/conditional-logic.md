@@ -238,13 +238,13 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
 
 
-## Jump Logic
+## Jump logic
 
 === "Shopify"
 
     Jump logic is used to redirect users to different questions, results pages, or external URLs, based on their responses. 
 
-    ### Branching the Quiz
+    ### Branching the quiz
 
     Jump logic allows you to branch the quiz based on the participant's responses.
 
@@ -326,7 +326,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
 
 
-    ### Redirecting to different Results Pages
+    ### Redirecting to different results pages
 
     With Jump logic, you can send users to different results pages based on their answers.
 
@@ -374,7 +374,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
     7. Click the top-right `Save` button to update the preview/live quiz. Preview the quiz with the top-right `Preview` button and test the logic.
 
-    ### Redirecting to an External URL
+    ### Redirecting to an external URL
 
     With Jump logic, you can send users to an external URL based on their answers.
 
@@ -619,14 +619,14 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
 
 
-## Skip Logic
+## Skip logic
 
 === "Shopify"
 
     Skip logic hides specific slides when they are not relevant, based on user responses.
 
 
-    ### Skip Slides
+    ### Skip slides
 
     !!! example "Example: Skincare Quiz that shows only the relevant statement based on the user's skin type"
 
@@ -683,7 +683,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
 
 
-    ### Skip Follow-up Questions (Multiple Selection Questions)
+    ### Skip follow-up questions (multiple selection questions)
 
     !!! example "Skincare Quiz that shows only follow-up questions relevant to the user's selections"
 
@@ -855,13 +855,13 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
 
 
-## Display Logic
+## Display logic
 
 === "Shopify"
 
     Display logic controls which sections appear on the results page, based on answers, variables, or scores.
 
-    ### Add Scores or Variables to Choices
+    ### Add scores or variables to choices
 
     Custom scores or variables can be assigned to choices in the quiz in order to set up a scoring quiz, personality type quiz, dosha quiz, etc.
 
@@ -886,7 +886,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
     7. Once a new variable is created, you can assign a score to it.
     8. Repeat the process for each choice in that question and move on to the next question in your quiz.
 
-    ### Based on Customer Answers
+    ### Based on customer answers
 
     !!! example "Example: Show a different section on a Results page based on the customer's answer to a question"
 
@@ -944,7 +944,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
 
 
-    ### Based on Winning Variable
+    ### Based on winning variable
 
 
     !!! example "Example: Show a different section on a Results page based on the winning variable"
@@ -1035,7 +1035,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
             Select answers that correspond to a specific skin type (e.g., mostly dry skin). Verify that the correct results section is displayed based on the selected answers.
 
 
-    ### Based on Total Score
+    ### Based on total score
 
     !!! example "Example: Show a different section on a Results page based on the total score"
 

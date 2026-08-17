@@ -54,7 +54,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     <iframe src="https://www.youtube.com/embed/UMCpGlbjrUA?si=i8qBdRW2V0RQdLHx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>          
 
-## Step 1: Create a New Quiz
+## Step 1: create a new quiz
 
 === "Shopify"
 
@@ -106,7 +106,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
 
 
-## Step 2: Manage Questions
+## Step 2: manage questions
 
 === "Shopify (Legacy)"
 
@@ -156,7 +156,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     2. **Delete slides**: To delete a question, click the `.../more options` button (three dots) and select **Delete/Remove**.
 
 
-## Step 3: Set up Product Recommendations
+## Step 3: set up product recommendations
 
 === "Shopify"
 
@@ -332,7 +332,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 
 
-## Step 4: Publish & Preview the Quiz
+## Step 4: publish & preview the quiz
 
 === "Shopify"
 
@@ -402,7 +402,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 
 
-## Step 5: Publish the Quiz on Your website
+## Step 5: publish the quiz on your website
 
 === "Shopify"
 
@@ -451,7 +451,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     1. **Publish the quiz**: Follow this guide on [How to Publish the Quiz on Your Website](/how-to-guides/publish-quiz/) to learn about different ways the quiz can be added.
 
 
-## After Publishing
+## After publishing
 
 === "Shopify"
 

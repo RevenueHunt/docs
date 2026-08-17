@@ -106,7 +106,7 @@ On the dashboard, you'll find all the quizzes that you create.
     - `Plans & Pricing` - Opens the [Plans & Pricing tab](/reference/plans-pricing/) (in-app URL (https://admin.revenuehunt.com/plans))
     - `Contact Support` - Opens the page to [contact support](/how-to-guides/contact-customer-support/).
 
-## Shopify Side Menu
+## Shopify side menu
 
 === "Shopify"
 
@@ -135,7 +135,7 @@ On the dashboard, you'll find all the quizzes that you create.
 === "Standalone"
 
 
-## Analytics Overview
+## Analytics overview
 
 === "Shopify"
 
@@ -214,7 +214,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `show breakdown` - Shows a detailed breakdown of the quizzes metrics in the last 30 days.
 
-## Setup Guide
+## Setup guide
 
 === "Shopify"
 
@@ -515,7 +515,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
 
 
-## Tips & Tricks
+## Tips & tricks
 
 === "Shopify"
 
@@ -709,7 +709,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![manual_standalone_succcesschecklist_catalogue_add_collection](/images/manual_standalone_succcesschecklist_catalogue_add_collection.png)
 
-## New Quiz
+## New quiz
 
 === "Shopify"
 
@@ -896,7 +896,7 @@ On the dashboard, you'll find all the quizzes that you create.
 === "Standalone" 
 
 
-## Switch to legacy
+## Switch to Legacy
 
 === "Shopify"
 

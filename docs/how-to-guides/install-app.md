@@ -3,7 +3,7 @@ description: "Step-by-step guide to install the RevenueHunt app on your Shopify 
 icon: material/download
 ---
 
-## How To Install the App
+## How to install the app
 
 === "Shopify"
 

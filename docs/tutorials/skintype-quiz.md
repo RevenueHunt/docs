@@ -26,7 +26,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
     This documentation outlines the steps to create a skin type quiz that recommends products based on user responses. It covers quiz setup, variable assignment, results configuration, and integration into a Shopify store.
 
 
-    ## Plan the Quiz
+    ## Plan the quiz
 
     Before you begin building your quiz, it’s important to plan what you want to show at the end.
 
@@ -45,7 +45,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
         | 🌸 Sensitive Skin   | You have Sensitive Skin | Your skin reacts easily — whether it’s to weather changes, new products, or stress. Redness, itching, or stinging might be common for you. A minimalist routine with soothing ingredients is your best friend.<br><br>**Tip:** Choose fragrance-free, hypoallergenic products with calming ingredients like aloe vera, chamomile, or calendula. | 1. Redness-Relief Refreshing Cleansing Lotion<br>2. Aloe Soothing Toner<br>3. Soothing Serum |
 
 
-    ## Build the Quiz
+    ## Build the quiz
 
     Next, let’s build the quiz. 
     
@@ -76,7 +76,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
 
-    ## Assign Variables to Choices
+    ## Assign variables to choices
 
     Now it’s time to assign variables and scores to each choice.
 
@@ -109,7 +109,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
             - Choice 5: Red and irritated (variable `sensitive_skin` +1)
 
 
-    ## Add Sections to Results Page
+    ## Add sections to results page
 
     Now let’s edit the Results page.
     
@@ -126,7 +126,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
 
 
-    ## Add Display Logic
+    ## Add display logic
 
     Now let’s tell the app *when* to show each section.
 
@@ -158,7 +158,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
     Choose different answers to simulate different skin types, and make sure the correct section and products are shown on the results page.
 
 
-    ## Troubleshoot Results
+    ## Troubleshoot results
 
     If you see the wrong result, double-check your variables and scoring in the [Questions](/reference/quiz-builder/questions/) tab.
 
@@ -175,7 +175,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
     
 
 
-    ## Publish the Quiz as Link Button
+    ## Publish the quiz as link button
 
     In Shopify, you can make the quiz appear as a popup by simply linking a button or menu item to `#quiz`.
 

@@ -15,7 +15,7 @@ A Funnel Quiz helps your customers find the best product by assigning "votes" to
     - Quizzes without complex branching
 
 
-## ✍🏻 Voting System
+## ✍🏻 Voting system
 
 Our product recommendation algorithm works like a voting system:
 
@@ -27,7 +27,7 @@ Our product recommendation algorithm works like a voting system:
 
 **Understand Inclusion and Exclusion**
 
-### Upvote Inclusion
+### Upvote inclusion
 
 
 === "Shopify"
@@ -197,7 +197,7 @@ Our product recommendation algorithm works like a voting system:
     ![how to recommend products exclusion example](/images/how_to_recommend_products_exclusion_example.png)
     This way if a customer chooses that he doesn't want to spend more than 100$, all the products over that price will be excluded from the recommendations.
 
-## Funnel Quiz
+## Funnel quiz
 
 The voting system recommends products by counting how many times each one is "voted for" through customer quiz choices. Each quiz choice can be linked to specific product variants, and every time a customer selects a choice, the associated products receive one vote. 
 
@@ -523,7 +523,7 @@ At the end of the quiz, the results page displays the product variants with the 
 
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
 
-## Funnel Quiz with Slots
+## Funnel quiz with slots
 
 The voting system counts product "votes" based on customer quiz choices and then recommends highest voted products based on a filter added to each slot. For example, you can recommend a full skincare routine with a quiz that takes into account the customer answers and shows the most voted cleanser, toner, serum and moisturizer arranged into specific slots. 
 
@@ -934,7 +934,7 @@ The voting system counts product "votes" based on customer quiz choices and then
     3. Use the quiz's [built-in search bar](/how-to-guides/troubleshoot-product-results/) in `Metrics > Responses` to troubleshoot recommendations
     4. Test responses as admin are automatically removed after 1 hour
 
-## Funnel Quiz that Skips Slides
+## Funnel quiz that skips slides
 
 Show different follow-up questions based on customer choices in a multiple-choice, multiple selection question. For example, ask about skin concerns and then only show follow-up questions related to the selected concerns. The algorithm counts votes only from questions and answers shown to each customer. 
 
@@ -1195,7 +1195,7 @@ Show different follow-up questions based on customer choices in a multiple-choic
 
 
 
-## Funnel Quiz with Branching
+## Funnel quiz with branching
 
 Branch your quiz to show different follow-up questions based on customer choices. The algorithm counts votes only from questions and answers shown to each customer. You can display recommendations either as a simple list or arrange them into slots for a more structured presentation.
 
@@ -1529,7 +1529,7 @@ Branch your quiz to show different follow-up questions based on customer choices
     3. Use the [Response Analysis tool](/how-to-guides/troubleshoot-product-results/) to verify logic
 
 
-## Funnel Quiz that Shows Custom Text Based on Choices
+## Funnel quiz that shows custom text based on choices
 
 Show or hide different text blocks on the results page based on customer choices. This approach requires predicting every possible answering route and adding display logic rules for each text block. 
 

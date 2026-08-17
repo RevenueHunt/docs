@@ -7,7 +7,7 @@ description: "Learn how to redirect quiz takers to another page after completing
 
 In this guide, we'll explore several methods to redirect your customers to another page following the completion of a quiz. Below, you'll find detailed steps for implementing page redirection using various techniques within a quiz environment.
 
-## Using Jump Logic for Conditional Redirection
+## Using jump logic for conditional redirection
 
 [Jump Logic](/how-to-guides/use-jump-logic/) offers a dynamic way to direct customers to specific URLs based on their quiz interactions. Here's how to implement it:
 
@@ -72,7 +72,7 @@ In this guide, we'll explore several methods to redirect your customers to anoth
 
       Redirecting with Jump Logic does not transfer quiz data to this new redirection page. If you want to send quiz data to another URL use the [callback function](#redirecting-to-a-custom-results-page-via-callback-function).
 
-## Redirecting to a Custom Results Page via Callback Function
+## Redirecting to a custom results page via callback function
 
 You can use our [callback function](/how-to-guides/use-callback-function/) to redirect the customers to another (custom-built) Results Page. This allows for greater flexibility in handling quiz data and customizing the quiz results look.
 
@@ -150,7 +150,7 @@ You can use our [callback function](/how-to-guides/use-callback-function/) to re
 
     For a more detailed guide on setting up the callback function, refer to [this resource](/how-to-guides/use-callback-function/).
 
-## Add a Redirection Button to the Results Page
+## Add a redirection button to the results page
 
 === "Shopify"
 

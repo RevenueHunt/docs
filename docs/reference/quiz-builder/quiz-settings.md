@@ -190,7 +190,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Quiz ID` - Displays the current quiz ID.
 
-### Messages / Quiz Content
+### Messages / quiz content
 
 === "Shopify"
 
@@ -761,7 +761,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Restore default messages` - Click "restore" to set all fields back to default.
 
-### Version History
+### Version history
 
 === "Shopify"
 

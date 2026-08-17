@@ -7,7 +7,7 @@ icon: material/basket-off-outline
 
 In this guide, you'll learn how to hide out-of-stock or draft products from your quiz recommendations.
 
-## Hide Out-Of-Stock Products
+## Hide Out-of-stock products
 
 This guide explains how to hide out-of-stock products from your quiz recommendations.
 
@@ -102,7 +102,7 @@ This guide explains how to hide out-of-stock products from your quiz recommendat
     5. Update the preview/live quiz with the top-right `Publish` button.
 
 
-## Hide Draft Products
+## Hide draft products
 
 This guide explains how to hide draft products from your quiz recommendations.
 

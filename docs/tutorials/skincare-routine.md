@@ -222,7 +222,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 
-## Create Collections/Categories
+## Create collections/categories
 
 === "Shopify"
 
@@ -459,7 +459,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 
-## Build the Quiz
+## Build the quiz
 
 === "Shopify"
 
@@ -569,7 +569,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 
-## Quiz Design
+## Quiz design
 
 === "Shopify"
 
@@ -609,7 +609,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 
-## Upvote Collections/Categories
+## Upvote collections/categories
 
 === "Shopify"
 
@@ -749,7 +749,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 
-## Exclude Products
+## Exclude products
 
 === "Shopify"
 
@@ -836,7 +836,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 
-## Edit the Results Page
+## Edit the results page
 
 === "Shopify"
 
@@ -927,7 +927,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
 
 
-## Add Slots
+## Add slots
 
 === "Shopify"
 

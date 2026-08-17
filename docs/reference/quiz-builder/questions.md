@@ -55,7 +55,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click `Test Quiz` in the top menu.
 
-## Question Types
+## Question types
 
 === "Shopify"
 
@@ -334,7 +334,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
-## Question Settings
+## Question settings
 
 === "Shopify"
 
@@ -745,7 +745,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - `Duplicate` - Duplicate this slide. Creates a copy slide below.
     - `Delete` - Delete this slide. 
 
-## Block Settings
+## Block settings
 
 === "Shopify"
 
@@ -944,7 +944,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ### CHOICES BLOCKS
 
 
-    #### Multiple Choice 
+    #### Multiple choice 
     
     Adds a multiple-choice block to your question.
 
@@ -1073,7 +1073,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `qbc-7eb5bf2c` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
-    #### Yes/No
+    #### Yes/no
 
     Adds a yes/no block to your question.
 
@@ -1489,7 +1489,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
 === "Standalone"
 
-## Choice Settings
+## Choice settings
 
 === "Shopify"
 
@@ -1594,13 +1594,13 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
 === "Standalone"
 
-## Dynamic Content & JavaScript Reference
+## Dynamic content & JavaScript reference
 
 === "Shopify"
 
     This section provides a complete reference for dynamic content using Liquid templates and JavaScript in quiz questions.
 
-    ### Liquid Templates
+    ### Liquid templates
 
     Liquid is a templating language that allows you to display dynamic content based on quiz answers and variables. It's supported in:
 
@@ -1609,7 +1609,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - **Custom HTML blocks** - Full template control
     - **Choice labels** - Personalized answer options (HTML auto-stripped for dropdowns)
 
-    #### The `quiz` Object
+    #### The `quiz` object
 
     All Liquid templates have access to the `quiz` object with the following properties:
 
@@ -1621,7 +1621,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | `quiz.questions` | array | All quiz questions |
     | `quiz.results` | array | All results pages |
 
-    #### Accessing Answers
+    #### Accessing answers
 
     | Property | Description |
     |----------|-------------|
@@ -1640,14 +1640,14 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | `.choicesRefs` | Array of selected choice IDs |
     | `.isValid` | Whether answer passed validation |
 
-    #### Variables & Scoring
+    #### Variables & scoring
 
     | Property | Description |
     |----------|-------------|
     | `quiz.variables.scores` | Object with variable scores `{ varName: number }` |
     | `quiz.variables.highest` | Reference of highest-scoring variable |
 
-    #### Progress (Question Mode)
+    #### Progress (question mode)
 
     | Property | Description |
     |----------|-------------|
@@ -1658,7 +1658,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | `quiz.progress.hasPrevious` | Can navigate back |
     | `quiz.progress.hasNext` | Can navigate forward |
 
-    #### Liquid Examples
+    #### Liquid examples
 
     **Display previous answer:**
     ```liquid
@@ -1686,7 +1686,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Custom JavaScript code receives two parameters: `quiz` (read-only context) and `actions` (methods).
 
-    #### Quiz Context Properties
+    #### Quiz context properties
 
     The `quiz` parameter contains all the data from the Liquid context above, plus:
 
@@ -1696,7 +1696,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | `quiz.metadata.language` | Quiz language code |
     | `quiz.metadata.inBuilder` | `true` if in builder preview |
 
-    #### Actions (Methods)
+    #### Actions (methods)
 
     | Method | Description |
     |--------|-------------|
@@ -1708,7 +1708,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | `actions.clearAnswer(blockRef)` | Clear an answer |
     | `actions.removeAnswer(blockRef)` | Remove answer completely |
 
-    #### DOM Helpers
+    #### DOM helpers
 
     Since the quiz may render in a shadow DOM, use these helpers instead of `document.querySelector`:
 
@@ -1718,7 +1718,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     | `window.quiz.querySelectorAll(selector)` | Find all matching elements |
     | `window.quiz.getElementById(id)` | Find element by ID |
 
-    #### Global Event Handler
+    #### Global event handler
 
     ```javascript
     window.quiz.onChange = (event) => {
@@ -1728,7 +1728,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     };
     ```
 
-    #### JavaScript Examples
+    #### JavaScript examples
 
     **Conditional navigation based on score:**
     ```javascript

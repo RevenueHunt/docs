@@ -38,7 +38,7 @@ This guide outlines the process for downloading quiz responses from your quiz, a
 
 
 
-## Check Individual Responses
+## Check individual responses
 
 === "Shopify"
 
@@ -93,7 +93,7 @@ This guide outlines the process for downloading quiz responses from your quiz, a
 
         ![how to download responses](/images/manual_standalone_quizbuilder_metrics_responses.png)
 
-## Download All Responses
+## Download all responses
 
 
 === "Shopify"

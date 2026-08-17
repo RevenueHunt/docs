@@ -15,7 +15,7 @@ Our Product Recommendation Quiz app is designed to integrate seamlessly with mos
 
     Important Addition: Ensure to whitelist our IP address (`3.14.55.225`) in your store’s settings to facilitate uninterrupted communication between our app and your store.
 
-## Error #1: Request and Data Transmission Issues
+## Error #1: request and data transmission issues
 
 !!! example "Error Messages"
 
@@ -51,7 +51,7 @@ Advanced Solutions:
 
 **Special Note**: If using CAFE24 hosting, disable the “SPAM Shield” function.
 
-## Error #2: Authentication and Permission Issues
+## Error #2: authentication and permission issues
 
 !!! example "Error Messages"
 

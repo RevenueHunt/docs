@@ -24,7 +24,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
 === "Standalone"
 
-## Change Quiz Language in Settings
+## Change quiz language in settings
 
 === "Shopify"
 
@@ -76,7 +76,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     By following these steps, you'll have a well-localized quiz experience ready for each market and language, which you can then manage seamlessly in the Shopify Markets tab of your app settings.
 
-    ## Automatic Product Translation
+    ## Automatic product translation
 
     !!! success "Translated Product Titles & Descriptions"
 
@@ -155,7 +155,7 @@ This guide will help you change the language of your quiz, translate it into dif
     3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
     4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
 
-## Set Up Multilingual Quizzes
+## Set up multilingual quizzes
 
 === "Shopify"
 

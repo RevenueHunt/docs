@@ -12,14 +12,14 @@ If you have quizzes built in the original RevenueHunt app (Legacy), you can now 
 
 ---
 
-## Before You Begin
+## Before you begin
 
 - You must have the `💎Built for Shopify` version of RevenueHunt app installed and active. If you haven't switched yet, follow the [Install App](/how-to-guides/install-app/) guide.
 - Your legacy quizzes remain untouched — the migration creates a **copy** in the `💎Built for Shopify` app. Nothing is deleted from the legacy version.
 
 ---
 
-## Step 1: Open the New Quiz Menu
+## Step 1: open the new quiz menu
 
 1. Open the **RevenueHunt** app in your Shopify dashboard.
 2. From the Dashboard, click the **Create new quiz** button.
@@ -29,7 +29,7 @@ If you have quizzes built in the original RevenueHunt app (Legacy), you can now 
 
 ---
 
-## Step 2: Select the Quiz to Import
+## Step 2: select the quiz to import
 
 A dialog will appear listing all quizzes from your legacy account. Each quiz shows:
 
@@ -43,7 +43,7 @@ Click **Import Now** next to the quiz you want to migrate.
 
 ---
 
-## Step 3: Review the Imported Quiz
+## Step 3: review the imported quiz
 
 Once the import completes, the quiz opens in the Quiz Builder. Its name will include the suffix **(Imported from V1)** so you can easily identify it.
 
@@ -53,7 +53,7 @@ Review your questions, results pages, and logic to make sure everything looks co
 
 ---
 
-## What Gets Migrated — and What Doesn't
+## What gets migrated — and what doesn't
 
 | What migrates | Status |
 |---|---|
@@ -68,7 +68,7 @@ Review your questions, results pages, and logic to make sure everything looks co
 
 ---
 
-## What to Watch For After Import
+## What to watch for after import
 
 Most quizzes migrate cleanly, but some advanced configurations require a manual follow-up.
 
@@ -88,7 +88,7 @@ Custom JavaScript **will not be migrated**. The `💎Built for Shopify` app has 
 
     If your legacy quiz relied on custom JavaScript (e.g., custom events, DOM manipulation, or callback functions), you will need to rewrite those using the [JavaScript API](/how-to-guides/add-javascript/).
 
-### Product Mappings
+### Product mappings
 
 Questions, answer choices, and results pages migrate — but product links are tied to Shopify product IDs, which are the same across both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
 
@@ -96,13 +96,13 @@ Questions, answer choices, and results pages migrate — but product links are t
 
     After importing, go to your results page and verify that the expected products are still linked. If any products appear missing or unlinked, re-add them using the [Results Page editor](/reference/quiz-builder/results-page/).
 
-### Special Integrations
+### Special integrations
 
 Connections to third-party tools (Klaviyo, Mailchimp, webhooks, etc.) are not automatically re-established after migration. Reconnect any integrations you need through [Quiz Settings](/reference/quiz-builder/quiz-settings/).
 
 ---
 
-## After the Import
+## After the import
 
 Once you've reviewed the quiz and fixed any warnings:
 

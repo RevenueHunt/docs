@@ -90,7 +90,7 @@ icon: material/google-analytics
 
 
 
-## Connect Quiz to Google Analytics
+## Connect quiz to Google Analytics
 
 === "Shopify"
 
@@ -433,7 +433,7 @@ icon: material/google-analytics
     4. **Monitor and Adjust**: Once implemented, regularly check your Google Analytics dashboard to ensure events are being tracked correctly. Adjust the tracking code as needed based on your specific requirements.
 
 
-## Complete Custom Tracking Script (GA4)
+## Complete custom tracking script (GA4)
 
 !!! info "For the Shopify (Legacy), WooCommerce, Magento, BigCommerce and Standalone versions"
 
@@ -533,7 +533,7 @@ If you'd rather send your own cleanly-named GA4 events than rely on the built-in
 
 The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, and so on) are standard GA4 event parameters. To use them in GA4 reports and Explorations, register the ones you need as **custom dimensions** under `Admin → Custom definitions`.
 
-## Track Customer Behavior (Events)
+## Track customer behavior (events)
 
 === "Shopify"
 
@@ -735,7 +735,7 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 
     If you're not seeing the events, make sure your GA4 `gtag.js` snippet loads **before** RevenueHunt's `embed.js`.
 
-## Track Quiz Revenue
+## Track quiz revenue
 
 === "Shopify"
 
@@ -744,7 +744,7 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
     
     Here are some options:
 
-    ### Option 1 - Create Free Form Exploration
+    ### Option 1 - create free form exploration
 
     You can measure how much revenue your quiz generates directly in GA4 using an **Exploration**. This walkthrough shows how to build a Free form table comparing **quiz users** with **all users**.
 
@@ -787,7 +787,7 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
             - If your quiz is on a dedicated page: Create a **Session/User segment**: include users where **Page location contains `/pages/skin-quiz`**.
                 This shows revenue for anyone visiting that quiz page.
 
-    ### Option 2 – Attribution via Source/Medium
+    ### Option 2 – attribution via source/medium
 
     If you’re tagging quiz entry points with UTM parameters (like `utm_source=quiz` or `utm_campaign=quiz_name`), GA4’s `Advertising → Attribution → Model comparison` will show revenue attributed to those.
 
@@ -836,7 +836,7 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 
 
 
-## Use GA4 Explorations
+## Use GA4 explorations
 
 
 === "Shopify"
@@ -857,7 +857,7 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 
     Refer to the Google Analytics [documentation](https://support.google.com/analytics/answer/7579450?hl=en#zippy=%2Cin-this-article) for more information on how to use GA4 Explorations.
 
-    ### Example 1: Most Clicked Choices
+    ### Example 1: most clicked choices
 
     You can build an exploration to see which choices are most popular.
 
@@ -885,7 +885,7 @@ The parameters above (`quiz_name`, `question_title`, `answer`, `product_name`, a
 
 
 
-    ### Example 2: Track Revenue from Quizzes
+    ### Example 2: track revenue from quizzes
     
     You can measure how much revenue your quiz generates directly in GA4 using an **Exploration**. This walkthrough shows how to build a Free form table comparing **quiz users** with **all users**.
 

@@ -7,7 +7,7 @@ icon: material/package-variant-plus
 
 This guide explains different methods to add products in the Standalone version of the RevenueHunt quiz app. You can either add products manually or import them from Google Merchant Center as a valid data source/XML file.
 
-## Add Products Manually
+## Add products manually
 
 This tutorial will guide you through the process of manually adding products and collections to your quiz using the RevenueHunt catalog.
 
@@ -55,7 +55,7 @@ After adding your products and collections, you can:
 - [Customize your quiz design](/how-to-guides/customize-quiz-design/)
 
 
-## Add Products via Google Merchant Center
+## Add products via Google Merchant Center
 
 <div style="position: relative; padding-bottom: 56.289308176100626%; height: 0;"><iframe src="https://www.loom.com/embed/5817998bfddb47c7a13d1adb28beeb05?sid=584e70a7-c306-407a-a76e-7b370108c0c8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

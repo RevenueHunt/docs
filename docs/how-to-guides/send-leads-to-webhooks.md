@@ -14,7 +14,7 @@ Before you start, ensure you have:
 - A RevenueHunt Product Recommendation Quiz from which you want to send data.
 - A valid webhook URL to receive the data. You can use a service like [Webhook.site](https://webhook.site) to generate a temporary endpoint if you want to test the feature.
 
-## Link Quiz to Webhooks
+## Link quiz to webhooks
 
 === "Shopify"
 
@@ -189,7 +189,7 @@ Before you start, ensure you have:
 
 
 
-## What Data is Sent to Webhook?
+## What data is sent to webhook?
 
 === "Shopify"
 
@@ -1885,7 +1885,7 @@ Before you start, ensure you have:
     ```
 
 
-## Troubleshooting Broken JSON Responses in Webhooks
+## Troubleshooting broken JSON responses in webhooks
 
 If you're experiencing issues where a webhook response contains broken or invalid JSON, here's a step-by-step guide to help you identify and resolve the problem.
 

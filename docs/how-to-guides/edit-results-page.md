@@ -42,7 +42,7 @@ This guide will walk you through adding elements to your results page using a va
 
 
 
-## Build Your Results Page
+## Build your results page
 
 === "Shopify"
 
@@ -107,7 +107,7 @@ This guide will walk you through adding elements to your results page using a va
     4. **Adjust Page Settings**: Tailor the checkout process, product reviews visibility, and manage out-of-stock and duplicate product recommendations under [Basic Settings](/reference/quiz-builder/results-page/#basic-settings). Use [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) for further customization with [JavaScript](/how-to-guides/add-javascript/) and [product metafields](/how-to-guides/add-product-metafields/).
     5. **Review and Test**: Click the top-right `Publish` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
 
-## Add Content
+## Add content
 
 === "Shopify"
 
@@ -119,7 +119,7 @@ This guide will walk you through adding elements to your results page using a va
 
     ![how to edit the results page block types](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
 
-    ### Add Blocks
+    ### Add blocks
 
     Available [Block Types](/reference/quiz-builder/results-page/#block-types):
 
@@ -161,7 +161,7 @@ This guide will walk you through adding elements to your results page using a va
 
     - **Cart/Checkout** - Adds a Proceed to cart or Proceed to checkout button to the results page.
 
-    ### Add Dynamic Content
+    ### Add dynamic content
 
     Dynamic elements of the results page:
 
@@ -298,7 +298,7 @@ This guide will walk you through adding elements to your results page using a va
     - **Information Recalls**: [Information Recalls](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Content Block` or a `Heading Block` on the results page. To add an information recall type `@` on your keyboard. A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
     - **Display Logic**: With [Display Logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
 
-## Adjust Results Page Settings
+## Adjust results page settings
 
 === "Shopify"
 

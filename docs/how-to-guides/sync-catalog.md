@@ -47,7 +47,7 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
     This article will guide you through troubleshooting and syncing your product catalog with the RevenueHunt app.
 
 
-## Import Your Catalogue
+## Import your catalogue
 
 === "Shopify"
 
@@ -107,7 +107,7 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
     1. **Navigate to Dashboard:** Log in to your [Dashboard](/reference/dashboard/) and locate the [Success Checklist](/reference/dashboard/#success-checklist).
     2. **Initiate Manual Sync:** Under the `SYNC PRODUCTS FROM YOUR STORE` section, click the `run manual sync` button. The sync takes about 30-60 minutes to complete depending on the size of your catalog.
 
-## Import Details
+## Import details
 
 === "Shopify"
 
@@ -171,7 +171,7 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
     - You can manually sync your store **every 1 hour**. Additionally, our app automatically performs a sync every 24 hours to keep your catalog current.
     - For optimal results, make any necessary updates or changes to your store before triggering a manual sync. This ensures your latest product information is accurately reflected in the app.
 
-## Troubleshooting Import Issues
+## Troubleshooting import issues
 
 === "Shopify"
 
@@ -205,7 +205,7 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
     - **Check Sync Status:** If your products or collections aren't showing up as expected, or if the product counts remain at zero, it's possible the initial sync is still in progress or has encountered an issue.
     - **Contact Support:** Should issues persist beyond the expected sync time, please [contact our support team](/how-to-guides/contact-customer-support/). We can manually initiate a complete sync of your shop to ensure everything is up-to-date.
 
-## Selectively Import Product Collections/Categories
+## Selectively import product collections/categories
 
 === "Shopify"
 

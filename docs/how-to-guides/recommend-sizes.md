@@ -30,7 +30,7 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
     Recommending the right size in a RevenueHunt quiz - for bras, clothing, footwear, or any fit-based product - requires a structured approach. This guide explains why open-ended measurement inputs won't work, how to design questions that produce accurate size recommendations using the voting system, and what alternatives exist if you need precise numerical calculations.
 
 
-## Why Open-Ended Questions Won't Work
+## Why Open-ended questions won't work
 
 === "Shopify"
 
@@ -101,7 +101,7 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
     This applies to any question where the answer is unpredictable - exact measurements, dates, free-text input. To recommend products, every possible answer must be defined by you before the quiz goes live.
 
 
-## Use Ranges Instead of Exact Numbers
+## Use ranges instead of exact numbers
 
 === "Shopify"
 
@@ -256,7 +256,7 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
     - Set up [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the customer's selection
 
 
-## Map Out Your Products Before You Start
+## Map out your products before you start
 
 === "Shopify"
 
@@ -373,7 +373,7 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
         > "I sell bras in these sizes: [paste your size list]. I have two quiz questions - underbust measurement and bust difference. For each dropdown option, list every product variant that should receive a vote."
 
 
-## Add a Tiebreaker Question
+## Add a tiebreaker question
 
 === "Shopify"
 
@@ -520,7 +520,7 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
         A question like "Does your current bra band feel too tight?" seems useful, but acting on it - "add a vote to the next band size up" - requires knowing what the first question answered. That is logic, not a static list, and **it cannot exist in the voting system**. Any tiebreaker question must be answerable in isolation, with a product list that is the same for every customer who picks that option.
 
 
-## Alternative: Custom JavaScript Calculation
+## Alternative: custom JavaScript calculation
 
 === "Shopify"
 

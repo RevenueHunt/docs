@@ -20,7 +20,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
 
     *Note: Directly editing your Shopify or other ecommerce theme's source code can potentially disrupt your store's functionality. If unsure about some steps, consider hiring a developer.*
 
-## Auto-Popup on the Main Page
+## Auto-popup on the main page
 
 !!! info "What's an Automatic Popup Quiz on the Main Page?"
     It's a quiz popup that appears after X seconds on the main page of your store. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
@@ -134,7 +134,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
     6. Save the changes.
     7. From now on, the automatic popup quiz will be visible on the main page.
 
-## Auto-Popup on a Specific Page
+## Auto-popup on a specific page
 
 !!! info "What's an Automatic Popup Quiz on a Specific Page?"
     It's a quiz popup that appears after X seconds on a specifc page of your store. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
@@ -241,7 +241,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
     6. Save the changes.
     7. From now on, the automatic popup quiz will be visible on that page.
 
-## Auto-Popup on All Pages
+## Auto-popup on all pages
 
 !!! info "What's an Automatic Popup Quiz on All Pages?"
     It's a quiz popup that appears after X seconds on all pages of your store that have the same template/theme applied. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
@@ -364,7 +364,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
 
 ## FAQs
 
-### Open a Specific Quiz
+### Open a specific quiz
 
 === "Shopify"
 
@@ -407,7 +407,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
 
     To open a specific quiz as an automatic popup, just generate the embed code from the [`Share`](/reference/quiz-builder/share-publish/) tab of the desired quiz and add it to the page where you want the quiz to show.
 
-### Show Popup on Exit Intent
+### Show popup on exit intent
 
 === "Shopify"
 
@@ -486,7 +486,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
     4. **Publish the quiz**: Follow the instructions to publish the quiz on the [homepage](#on-the-main-page), [specific page](#on-a-specific-page) or [across all pages](#across-all-pages).      
 
 
-### Repeated Popup Displays per Session
+### Repeated popup displays per session
 
 === "Shopify"
 

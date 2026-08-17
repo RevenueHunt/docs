@@ -46,11 +46,11 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     ![QuizCopilot Popup Window](https://loom.com/i/68afd9e9eaf9497383582691480beb73?workflows_screenshot=true)
 
-    ## Use Cases
+    ## Use cases
 
     Quiz Copilot can help you with many tasks related to quiz creation and publishing. Here are some examples:
 
-    ### Example 1: Creating a quiz
+    ### Example 1: creating a quiz
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=CpUXSDUwlrfQnCjy&amp;start=16" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -66,7 +66,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     7. If satisfied with the quiz, save the changes with the `Save` button.
     8. The newly created quiz will be displayed on your [Dashboard](/reference/dashboard/).
 
-    ### Example 2: Adding Recommended Products to the Quiz
+    ### Example 2: adding recommended products to the quiz
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=H5x9gmYq-jOq2qgP&amp;start=93" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -79,7 +79,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     5. If satisfied with the quiz, save the changes with the `Save` button.
     6. The newly created quiz will be displayed on your [Dashboard](/reference/dashboard/).
 
-    ### Example 3: Styling the Quiz
+    ### Example 3: styling the quiz
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=KQYqq-uDJHFadH85&amp;start=137" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
 
@@ -89,7 +89,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     2. Ask Quiz Copilot to make changes to the quiz design.
     3. Quiz Copilot will generate changes and allow you to apply or reject the changes.
 
-    ### Example 4: Analyze Quiz
+    ### Example 4: analyze quiz
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=vRzH7pU7Tc5yKzT7&amp;start=25" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -102,7 +102,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     5. If satisfied with the quiz, save the changes with the `Save` button.
     6. The newly created quiz will be displayed on your [Dashboard](/reference/dashboard/).
 
-    ### Example 5: Ask Copilot about Publishing the Quiz
+    ### Example 5: ask Copilot about publishing the quiz
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=WP0EOlWlls7XcGE0&amp;start=222" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -114,7 +114,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     ![QuizCopilot Publishing Quiz](https://loom.com/i/19c8ed7dfe6641e3a4185a53a08a74dd?workflows_screenshot=true)
 
-    ### Example 6: Building Email / Klaviyo Template
+    ### Example 6: building email / Klaviyo template
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=MaarSfQh39sT_bEI&amp;start=243" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -127,7 +127,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     3. The generated code for the Klaviyo email template can be copied by clicking the `Copy` icon.
     4. Paste the generated code directly into an HTML block in your Klaviyo email template.
 
-    ### Example 7: Translating Quiz to Another Language
+    ### Example 7: translating quiz to another language
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/c0exzYPtydo?si=cDSpAoLc0j56Q-0j&amp;start=115" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
 
@@ -140,7 +140,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     5. If satisfied with the quiz, save the changes with the `Save` button.
     6. The newly created quiz copy in another language will be displayed on your [Dashboard](/reference/dashboard/).
 
-    ### Example 8: Styling the quiz with Custom CSS code
+    ### Example 8: styling the quiz with custom CSS code
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=IYA3uFlv9yV_Lunq&amp;start=136" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
 
@@ -172,7 +172,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     1. Go to [Results page settings](/reference/quiz-builder/results-page/) and click `✨Get help with custom CSS` to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
 
 
-    ### Example 9: Styling the quiz with Custom JavaScript code
+    ### Example 9: styling the quiz with custom JavaScript code
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=IYA3uFlv9yV_Lunq&amp;start=136" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div> 
 
@@ -202,7 +202,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     1. Go to [Results page settings](/reference/quiz-builder/results-page/) and click `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly make design changes with JavaScript code!
 
-    ### Example 10: Analyze Quiz Response
+    ### Example 10: analyze quiz response
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=C3dEBqx3SEFfZokm&amp;start=305" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

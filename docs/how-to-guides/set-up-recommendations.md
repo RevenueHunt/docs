@@ -22,7 +22,7 @@ Product recommendations are the heart of any successful quiz experience. They he
 
     Not sure how to set up your recommendations? [Take the quiz and find out!](https://skincarequiz.myshopify.com/#quiz-LKPc6j)
 
-## ✍🏻 Voting System
+## ✍🏻 Voting system
 
 
 Recommended for most quizzes. The voting system counts product "votes" based on customer quiz choices and recommends products with the highest votes.
@@ -34,7 +34,7 @@ Recommended for most quizzes. The voting system counts product "votes" based on 
     - Your first product recommendation quiz
     - Quizzes without complex branching
 
-### Funnel Quiz
+### Funnel quiz
 
 The voting system counts product "votes" based on customer quiz choices and recommends products with the highest votes.
 
@@ -51,7 +51,7 @@ Product recommendation algorithm works like a voting system:
 
     Check out the [✍🏻 Voting System (Funnel Quiz)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz) guide.
 
-### Funnel Quiz with Slots
+### Funnel quiz with slots
 
 The voting system counts product "votes" based on customer quiz choices and then recommends highest voted products based on a filter added to each slot. For example, you can recommend a full skincare routine with a quiz that takes into account the customer answers and shows the most voted cleanser, toner, serum and moisturizer arranged into specific slots. 
 
@@ -61,7 +61,7 @@ The voting system counts product "votes" based on customer quiz choices and then
 
     Check out the [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots) guide.
 
-### Funnel Quiz with Branching
+### Funnel quiz with branching
 
 Branch your quiz to show different follow-up questions based on customer choices. The algorithm counts votes only from questions and answers shown to each customer.
 
@@ -71,7 +71,7 @@ Branch your quiz to show different follow-up questions based on customer choices
 
     Check out the [✍🏻 Voting System (Funnel Quiz with Branching)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-branching) and [Jump Logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) guides.
 
-### Funnel Quiz that Skips Slides
+### Funnel quiz that skips slides
 
 Show different follow-up questions based on customer choices in a multiple-choice, multiple selection question. For example, ask about skin concerns and then only show follow-up questions related to the selected concerns. The algorithm counts votes only from questions and answers shown to each customer. 
 
@@ -83,7 +83,7 @@ Show different follow-up questions based on customer choices in a multiple-choic
 
     Check out the [✍🏻 Voting System (Funnel Quiz that Skips Slides)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-skips-slides) and [Skip Logic](/how-to-guides/hide-content-with-logic/#skip-logic-how-to-show-custom-text-in-the-quiz) guides.
 
-### Funnel Quiz that Shows Custom Text Based on Choices
+### Funnel quiz that shows custom text based on choices
 
 !!! warning "Not recommended for personality-type quizzes"
 
@@ -98,7 +98,7 @@ Show or hide different text blocks on the results page. This approach requires p
 
     Check out the [✍🏻 Voting System (Funnel Quiz that Shows Custom Text Based on Choices)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-that-shows-custom-text-based-on-choices) and [Display Logic](/how-to-guides/hide-content-with-logic/#display-logic-how-to-show-custom-text-on-the-results-page) guides.
 
-## 🧩 Fixed Recommendations
+## 🧩 Fixed recommendations
 
 Recommended for quizzes with complex branching and multiple very precise outcomes and product recommendations. Set up fixed sections with pre-determined products to be shown on the results page. Then add logic to control visibility of each section or results page.
 
@@ -109,7 +109,7 @@ Recommended for quizzes with complex branching and multiple very precise outcome
     - Quizzes with complex branching
     - Quizzes that require a lot of logic conditions and custom text
 
-### Always The Same Recommendations
+### Always the same recommendations
 
 Set up a fixed section with pre-determined products to be shown on the results page regardless of the customer answers.
 
@@ -120,7 +120,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
     Check out the [🧩 Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) guide.
 
 
-### With Display Logic and One Results Page 
+### With display logic and one results page 
 
 Set up multiple sections on the results page with fixed product and text combinations, then control visibility of each section with Display Logic display rules.
 
@@ -130,7 +130,7 @@ Set up multiple sections on the results page with fixed product and text combina
 
     Check out the [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) guide.
 
-### With Display Logic and Multiple Results Pages
+### With display logic and multiple results pages
 
 Set up multiple results pages with unique fixed product recommendations and texts and control visibility by adding branching with Jump Logic that leads to different results pages.	
 
@@ -140,7 +140,7 @@ Set up multiple results pages with unique fixed product recommendations and text
 
     Check out the [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-multiple-results-pages) guide.
 
-## 🎯 Custom Scoring System 
+## 🎯 Custom scoring system 
 
 Recommended for personality-type quizzes. Assign point values to choices and use the total scores to determine which products to recommend.
 
@@ -151,7 +151,7 @@ Recommended for personality-type quizzes. Assign point values to choices and use
     - Quizzes that show different text results based on choices
     - Quizzes that need to calculate scores that show different products
 
-### Winning Variable Quiz
+### Winning variable quiz
 
 Assign variables and scores to each choice in your quiz. Then, use Display Logic to control the visibility of content and product blocks on the Results Page based on the custom score or most voted variable.
 
@@ -162,7 +162,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
     Check out the [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) guide.
 
 
-### Scoring Quiz with One Results Page
+### Scoring quiz with one results page
 
 Assign numerical scores to each choice in your quiz. Then, use Display Logic to control the visibility of content blocks on the Results Page based on the accumulated scores.
 
@@ -174,7 +174,7 @@ Assign numerical scores to each choice in your quiz. Then, use Display Logic to 
     Check out the [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) guide.
 
 
-### Scoring Quiz with Multiple Results Pages
+### Scoring quiz with multiple results pages
 
 Assign numerical scores to each choice in your quiz. Then, use Jump Logic or Skip Logic to direct customers to different results pages based on their accumulated scores. 
 

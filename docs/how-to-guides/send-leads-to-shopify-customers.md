@@ -9,7 +9,7 @@ You can add new customers automatically to your Shopify Customers list every tim
 
 This article explains how to connect your quiz to Shopify Customers, tag respondents based on their answers, and build a Shopify Flow targeted at quiz takers.
 
-## Link Quiz to Shopify Customers
+## Link quiz to Shopify customers
 
 === "Shopify"
 
@@ -89,7 +89,7 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
 
 
 
-## What Data is Sent to Shopify Customers?
+## What data is sent to Shopify customers?
 
 When someone completes the quiz and leaves their email address, the app creates or updates a customer in your Shopify admin with the data below.
 
@@ -201,7 +201,7 @@ When someone completes the quiz and leaves their email address, the app creates 
 
     Not applicable.
 
-## Tag Quiz Choices to Segment Shopify Customers
+## Tag quiz choices to segment Shopify customers
 
 === "Shopify"
 

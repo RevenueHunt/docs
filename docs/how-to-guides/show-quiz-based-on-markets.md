@@ -46,7 +46,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
     !!! note "Platform Availability"
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 
-## Step 1: Configure Shopify Markets
+## Step 1: configure Shopify Markets
 
 === "Shopify"
 
@@ -92,7 +92,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 
 
-## Step 2: Create Different Quizzes for Different Markets
+## Step 2: create different quizzes for different markets
 
 === "Shopify"
 
@@ -138,7 +138,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
 
 
-## Step 3: Configure In-App Shopify Markets
+## Step 3: configure In-app Shopify Markets
 
 === "Shopify"
 
@@ -191,7 +191,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
 
 
-## Step 4: Save the Changes
+## Step 4: save the changes
 
 === "Shopify"
 
@@ -225,7 +225,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
         This feature is only available in the Built for Shopify version of the RevenueHunt app. It is not available for standalone installations.
 
 
-## Step 5: Test the Quiz
+## Step 5: test the quiz
 
 === "Shopify"
 

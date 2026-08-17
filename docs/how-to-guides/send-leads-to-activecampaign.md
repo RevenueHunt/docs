@@ -100,7 +100,7 @@ icon: material/bullhorn-outline
         The integration process mainly involves transferring raw data from the quiz to ActiveCampaign. Setting up detailed flows or custom events based on this data is managed within ActiveCampaign itself.
 
 
-## Link Quiz to ActiveCampaign
+## Link quiz to ActiveCampaign
 
 === "Shopify"
 
@@ -314,7 +314,7 @@ icon: material/bullhorn-outline
 
 
 
-## Alternative Ways to Send Quiz Leads to ActiveCampaign
+## Alternative ways to send quiz leads to ActiveCampaign
 
 === "Shopify"
 
@@ -370,7 +370,7 @@ icon: material/bullhorn-outline
     - **Manually adding the quiz leads to ActiveCampaign**: You can manually add the quiz leads to ActiveCampaign by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
 
-## Adding custom information to the Contact profile
+## Adding custom information to the contact profile
 
 === "Shopify"
 
@@ -668,7 +668,7 @@ icon: material/bullhorn-outline
 
 
 
-## Sending Follow-up Emails with ActiveCampaign
+## Sending follow-up emails with ActiveCampaign
 
 === "Shopify"
 
@@ -747,7 +747,7 @@ icon: material/bullhorn-outline
     3. Following the trigger setup, design your email template. Incorporate personalization by adding `custom properties`, such as direct links to quiz responses, to your text blocks.
         ![how to activecampaign add custom properties](/images/how_to_activecampaign_add_custom_properties.gif)
 
-### Adding Recommended Products to Emails
+### Adding recommended products to emails
 
 === "Shopify"
 

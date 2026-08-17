@@ -79,14 +79,14 @@ icon: material/sale
 
         You can also add the discount code as text to the quiz questions or results page by typing the discount code in the text field. Then customers will be able to copy and paste the discount code at checkout.
 
-## Set Up Discount on the Results Page
+## Set up discount on the results page
 
 === "Shopify"
 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/F8rN6jOveOw?si=zZyYtDmydJoeqrg-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    ### Automatic Discount Code
+    ### Automatic discount code
 
     You can add a discount code to be applied automatically at checkout when users finish the quiz and proceed to cart.
 
@@ -138,7 +138,7 @@ icon: material/sale
         
             The discount code will not be visible on the quiz preview or the results page. It is applied automatically when the customer proceeds to Shopify checkout.
 
-    ### Discount Code as Text
+    ### Discount code as text
 
     You can add a discount code as text within a [text block](/reference/quiz-builder/results-page/#text) on the Quiz results page. Users will be able to copy and paste the discount code at checkout.
 
@@ -151,7 +151,7 @@ icon: material/sale
     ![how to add discount text block](/images/how_to_shopifyv2_add_discount_as_text.png)
 
 
-    ### Discount Code with JavaScript
+    ### Discount code with JavaScript
 
     !!! tip "Check JavaScript guide"
 
@@ -374,7 +374,7 @@ icon: material/sale
         to add a custom coupon or a discount code to the results page and apply it to all the products. Note, that this coupon code needs to be first set up in your store.
 
 
-## Include Discount Codes in Follow-Up Emails
+## Include discount codes in Follow-up emails
 
 === "Shopify"
 
@@ -437,7 +437,7 @@ icon: material/sale
 
         Check out [this article](/how-to-guides/send-result-emails/) for more information on how to set up and customize the quiz result email.
 
-## Apply Discount Only if Customer Leaves Their Email
+## Apply discount only if customer leaves their email
 
 === "Shopify"
 

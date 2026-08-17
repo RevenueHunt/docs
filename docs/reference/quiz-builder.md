@@ -327,7 +327,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Quiz Settings** - Opens the [Quiz Settings](#quiz-settings) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
 
-## Quiz Builder - Questions
+## Quiz builder - questions
 
 === "Shopify"
 
@@ -378,7 +378,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click **Test Quiz** in the top menu.
 
-### Question Types
+### Question types
 
 === "Shopify"
 
@@ -617,7 +617,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Legal Terms/GDPR** - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
-### Question Settings
+### Question settings
 
 === "Shopify"
 
@@ -951,7 +951,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - **Duplicate** - Duplicate this slide. Creates a copy slide below.
     - **Delete** - Delete this slide. 
 
-### Block Settings
+### Block settings
 
 === "Shopify"
 
@@ -1158,7 +1158,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
 === "Standalone"
 
-### Choice Settings
+### Choice settings
 
 === "Shopify"
 
@@ -1203,7 +1203,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     
 
-## Link Collections / Link Categories
+## Link collections / link categories
 
 === "Shopify"
 
@@ -1394,7 +1394,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to update the app.
 
-## Link Products
+## Link products
 
 === "Shopify"
 
@@ -1507,7 +1507,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     You can create as many tags as you like. You can link as many tags as you like to the same choice.
 
-## Customer Tags
+## Customer tags
 
 === "Shopify"
 
@@ -1608,7 +1608,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     You can create as many tags as you like. You can link as many tags as you like to the same choice.
 
-## Conditional Logic
+## Conditional logic
 
 === "Shopify"
 
@@ -1763,7 +1763,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **arrow down** - Take you to the question lower.
 
-### Jump Logic
+### Jump logic
 
 === "Shopify"
 
@@ -2023,7 +2023,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Always jump to:** - Select a slide or URL where the user will be always redirected after this slide.
 
-### Skip Logic
+### Skip logic
 
 === "Shopify"
 
@@ -2196,7 +2196,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **+ add concurrent logic** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
-## Quiz Design
+## Quiz design
 
 === "Shopify"
 
@@ -2315,7 +2315,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Results** - Shows the preview of how the results page looks like.
 
-### Edit Theme
+### Edit theme
 
 === "Shopify"
 
@@ -2478,7 +2478,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Custom CSS** - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 
-### My Themes
+### My themes
 
 === "Shopify"
 
@@ -2573,7 +2573,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Delete** - Deletes the selected theme from MY THEMES gallery.
 
-## Results Page
+## Results page
 
 === "Shopify"
 
@@ -2638,7 +2638,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
 
-### Block Types
+### Block types
 
 === "Shopify"
 
@@ -2763,7 +2763,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-### Display Logic / Section Logic
+### Display logic / section logic
 
 === "Shopify"
 
@@ -2994,7 +2994,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **bin** / **delete block** - Deletes the current block from the results page.
 
-### Block Settings
+### Block settings
 
 === "Shopify"
 
@@ -3297,7 +3297,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Slot ID** - Displays the current slot ID.
 
-### Results Page Settings
+### Results page settings
 
 === "Shopify"
 
@@ -3348,7 +3348,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
 
-### Basic Settings
+### Basic settings
 
 **Checkout Settings**
 
@@ -3664,7 +3664,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Image Opacity** - A slider that allows you to adjust the opacity of the uploaded background image.
 
-### Advanced Settings
+### Advanced settings
 
 === "Shopify"
 
@@ -3809,7 +3809,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Activate multiple results pages** - Click "activate" to open the MULTIPLE RESULTS PAGES menu.
 
-### Multiple Results Pages Settings
+### Multiple results pages settings
 
 === "Shopify"
 
@@ -3912,7 +3912,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Create new Results Page** - add a new results page to your quiz.
 
-### Discounts Settings
+### Discounts settings
 
 === "Shopify"
 
@@ -4174,7 +4174,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
-### To Respondent
+### To respondent
 
 === "Shopify"
 
@@ -4349,7 +4349,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
-### To Self
+### To self
 
 === "Shopify"
 
@@ -4414,7 +4414,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 
-## Quiz Settings
+## Quiz settings
 
 === "Shopify"
 
@@ -4590,7 +4590,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Quiz ID** - Displays the current quiz ID.
 
-### Messages / Quiz Content
+### Messages / quiz content
 
 === "Shopify"
 
@@ -5112,7 +5112,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Restore default messages** - Click "restore" to set all fields back to default.
 
-### Version History
+### Version history
 
 === "Shopify"
 
@@ -5199,7 +5199,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **Rename this version** - Allows you to rename this saved version of the quiz.
 
-## Connect / Integrations
+## Connect / integrations
 
 === "Shopify"
 
@@ -5250,7 +5250,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     To connect the quiz to a particular service, find it on the page and click `Connect`. Then follow the instructions displayed in the browser or in the `read more` section.
 
-## Share / Publish
+## Share / publish
 
 === "Shopify (Legacy)"
 

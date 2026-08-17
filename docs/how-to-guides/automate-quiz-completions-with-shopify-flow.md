@@ -107,7 +107,7 @@ How the workflow starts depends on which version of the app you use. The Built f
         - **The trigger fires only when the response has an email address and the Shopify customer was created or updated successfully.** Completions without an email produce no workflow run.
         - **The payload is capped at 45 KB**, to stay inside Shopify's 50 KB limit. If a completion would exceed that, data is pruned automatically in this order: first the recommendation metadata (URLs and prices), then the oldest answers, and finally `recommendationsIncomplete` is set to `true`. A long quiz with many recommendations is the usual cause, so do not rely on every optional field being present in every run.
 
-    ## Example 1: Email your team after every quiz completion
+    ## Example 1: email your team after every quiz completion
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=DWLjT4VJK--eRFyR&amp;start=188" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
@@ -134,7 +134,7 @@ How the workflow starts depends on which version of the app you use. The Built f
 
         Formatting in the message body is up to you. Add line breaks and labels around the variables so the email stays readable once several fields are filled in.
 
-    ## Example 2: Branch on a quiz answer
+    ## Example 2: branch on a quiz answer
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=HhUhmbUvsSC7awe4&amp;start=233" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

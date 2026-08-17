@@ -72,7 +72,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     !!! info "What's a Link Popup?"
         It's a link that will open the quiz as a popup over your page.
 
-    ### On Every Page
+    ### On every page
 
     1. To add a link popup to your webstie, in Shopify, go to `Online Store > Theme` and click ` Customize`. 
     2. Open `App Embeds` and toggle the button to acitvate the `Link Popup Quiz`.
@@ -103,7 +103,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
         ![manual_shopifyV2_quizbuilder_share_publish_linkpopup](/images/manual_shopifyV2_quizbuilder_share_publish_linkpopup.png)
 
 
-    ### On a Specific Page
+    ### On a specific page
 
     1. To add a link popup to a specific page, in Shopify, go to `Online Theme > Customize`. From the `Home page` menu on top, go to `Pages` and click on the page template you want to add the link popup to or create a new page template.
     2. Once in the page template editor, click on `+ Add section`, click the `Apps`. From the list, pick the `Link Popup Quiz`.
@@ -215,7 +215,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     !!! info "What's an Inline Quiz?"
         It's a quiz embedded inline with a page.
 
-    ### On Every Page
+    ### On every page
 
     !!! warning 
 
@@ -252,7 +252,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
         
         Follow the step by step instructions provided in the `Add the quiz to your home page` section or in our [How to Embed an Inline Quiz on Your Store](/how-to-guides/publish-quiz-inline/) for step by step instructions.
     
-    ### On a Specific Page
+    ### On a specific page
 
 
     1. To add a inline quiz to a specific page, in Shopify, go to `Online Theme > Customize`. From the `Home page` menu on top, go to `Pages` and click on the page template you want to add the inline quiz to or create a new page template.
@@ -385,7 +385,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     !!! info "What's an Automatic Popup?"
         It's a quiz popup that appears after X seconds. The popup is shown only once per session unless `Exit Intent` option is enabled in the popup settings.
 
-    ### On Every Page
+    ### On every page
 
     1. To add an automatic popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Automatic Popup Quiz`.
 
@@ -418,7 +418,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
         By default, the popup is only shown once per session unless `Exit Intent` is enabled.
 
 
-    ### On a Specific Page
+    ### On a specific page
 
     1. To add a link popup to a specific page, in Shopify, go to `Online Theme > Customize`. From the `Home page` menu on top, go to `Pages` and click on the page template you want to add the automatic popup to or create a new page template.
     2. Then, `+ Add section`, click the `Apps`. From the list, pick the `Automatic Popup Quiz`.
@@ -579,7 +579,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     - [Dedicated Quiz Page](#dedicated-quiz-page)
     - [Link Popup for Socials](#link-popup-for-socials)
 
-    ### Dedicated Quiz Page
+    ### Dedicated quiz page
 
     This method involves creating a dedicated quiz page for your quiz (for example `https://yourstore.myshopify.com/pages/quiz-page`), embeding the quiz on that page and sharing the link to the page on social media.
 
@@ -587,7 +587,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         For step by step instructions, check [Inline Quiz on a Specific Page](/reference/quiz-builder/share-publish/#on-a-specific-page_1).
 
-    ### Link Popup for Socials
+    ### Link popup for socials
 
     This method involves actrivating the `Link Popup Quiz` app embed in your store theme and then adding a `#quiz` to any URL. For example, `https://yourstore.myshopify.com/#quiz` can open the quiz as long as the `Link Popup Quiz` app embed is activated. You can use this URL to share the quiz on social media.
 
@@ -669,7 +669,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
      - [Dedicated Quiz Page](#dedicated-quiz-page_1)
      - [Link Popup for Socials](#link-popup-for-socials_1)
 
-    ### Dedicated Quiz Page
+    ### Dedicated quiz page
 
     This method involves creating a dedicated quiz page for your quiz (for example `https://yourstore.myshopify.com/pages/quiz-page`), embeding the quiz on that page and sharing the link to the page in your emails.
 
@@ -677,7 +677,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 
         For step by step instructions, check [Inline Quiz on a Specific Page](/reference/quiz-builder/share-publish/#on-a-specific-page_1).
 
-    ### Link Popup for Socials
+    ### Link popup for socials
 
     This method involves actrivating the `Link Popup Quiz` app embed in your store theme and then adding a `#quiz` to any URL. For example, `https://yourstore.myshopify.com/#quiz` can open the quiz as long as the `Link Popup Quiz` app embed is activated. You can use this URL to share the quiz in your emails.
 
@@ -754,7 +754,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     !!! info "What's a Chat Popup?"
         It's a quiz popup that appears after a visitor clicks on a chat-like button.
 
-    ### On Every Page
+    ### On every page
 
     1. To add a chat popup to your website, in Shopify, go to `Online Store > Theme` and click `Customize`. Open `App Embeds` and toggle the button to activate the `Chat Button Quiz`.
 
@@ -791,7 +791,7 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
         Follow the step by step instructions provided in our [How to Set Up Chat Button Popups](https://docs.revenuehunt.com/how-to-guides/publish-quiz-chat-button/) to add a chat popup to your website.
 
 
-    ### On a Specific Page
+    ### On a specific page
 
     1. To add a chat popup to a specific page, in Shopify, go to `Online Theme > Customize`. From the `Home page` menu on top, go to `Pages` and click on the page template you want to add the chat popup to or create a new page template.
     2. Then, `+ Add section`, click the `Apps`. From the list, pick the `Chat Button Quiz`.

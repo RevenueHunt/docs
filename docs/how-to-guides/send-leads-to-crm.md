@@ -7,9 +7,9 @@ description: "Learn how to send RevenueHunt quiz leads to your CRM platform for 
 
 Apart from giving your customers personalized product recommendations, you can connect your quiz to a CRM service like Klaviyo or Mailchimp. This way all the contacts coming from the quiz will be added to your CRM account and you can create targeted email campaigns to upsell them.
 
-## Direct Integrations
+## Direct integrations
 
-### [:fontawesome-brands-shopify: Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/)
+### [:fontawesome-brands-shopify: Shopify customers](/how-to-guides/send-leads-to-shopify-customers/)
 
 You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/link-collections/#customer-tags).
 
@@ -57,7 +57,7 @@ Integrating the quiz with webhooks allows you to automatically send all quiz dat
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-webhooks/)
 
-## Indirect Integrations
+## Indirect integrations
 
 If we don't currently integrate with your CRM service and you want to send data there automatically you could set up a redirection via one of our current integrations such as [Zapier](/how-to-guides/send-leads-to-zapier/) or [Webhooks](/how-to-guides/send-leads-to-webhooks/).
 

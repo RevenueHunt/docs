@@ -49,7 +49,7 @@ description: "Learn about using callback functions for custom integrations with 
     This guide will walk you through the process of using a callback function for custom integrations with Product Recommendation Quiz. Whether you're aiming to build your own results page, add unique code, display custom product recommendations, or direct users to specific pages on your store, callback functions offer a versatile solution.
 
 
-## What Are Callback Functions?
+## What are callback functions?
 
 A **callback function** is a piece of JavaScript code that executes in response to an event - in this case, the completion of a quiz. You add this callback function to your website and a listener that will be triggered when the quiz is completed. Then you will have access to all the data from quiz responses.
 
@@ -68,7 +68,7 @@ The JSON with the quiz response includes:
     Note that this callback function will also be triggered if your customers reach the results page via [follow-up emails](/how-to-guides/send-result-emails/) you send your customers with a link to their results.
 
 
-## Implementing the Callback Function
+## Implementing the callback function
 
 === "Shopify"
 
@@ -354,7 +354,7 @@ The JSON with the quiz response includes:
           ```
 
 
-## Callback Function Reference
+## Callback function reference
 
 !!! info "Not available in the Built for Shopify version"
 
@@ -378,7 +378,7 @@ Each callback is a global function you define on the page where the quiz is embe
 
     `prqAppLoadedCallback` fires when the embed finishes loading, **not** when the customer starts the quiz. The earliest callback tied to customer activity is `prqSlideCallback`, which fires when they answer the first question.
 
-### The Response Object (`prqQuizCallback`)
+### The response object (`prqQuizCallback`)
 
 The argument passed to `prqQuizCallback` has this top-level shape:
 
@@ -390,7 +390,7 @@ The argument passed to `prqQuizCallback` has this top-level shape:
 
 The full object carries much more (theme, logic, layout blocks). The quickest way to see everything is to `console.log(response)` inside `prqQuizCallback` and complete the quiz once.
 
-## Seeing Callback Function in Action
+## Seeing callback function in action
 
 === "Shopify"
 
@@ -429,7 +429,7 @@ The full object carries much more (theme, logic, layout blocks). The quickest wa
 
 
 
-## Making sense of the Callback’s JSON Object
+## Making sense of the callback’s JSON object
 
 === "Shopify"
 
@@ -453,7 +453,7 @@ The full object carries much more (theme, logic, layout blocks). The quickest wa
 
     You will find some of the most important data points on the object within the following locations:
 
-### General Data
+### General data
 
 === "Shopify"
 
@@ -514,7 +514,7 @@ The full object carries much more (theme, logic, layout blocks). The quickest wa
     - **ID**: You can see/copy the ID of the quiz here.
     - **Type**: Quiz
 
-### ⤵ Attributes Object
+### ⤵ Attributes object
 
 === "Shopify"
 

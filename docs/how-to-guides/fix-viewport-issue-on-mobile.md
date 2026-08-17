@@ -9,7 +9,7 @@ icon: material/cellphone-link
 
 This guide addresses a common issue where the form on mobile devices is not fixed and moves from side to side, causing a poor user experience. This problem can be resolved by adjusting the meta viewport tag in the store's HTML.
 
-## Problem Description
+## Problem description
 
 Users have reported that on mobile devices, the form page slightly zooms in when focusing on a text input, causing the page to move from left to right and resulting in a poor user experience. This issue needs to be addressed to ensure the form remains fixed on mobile devices.
 
@@ -17,7 +17,7 @@ Users have reported that on mobile devices, the form page slightly zooms in when
 
 To fix this issue, the developer needs to modify the meta viewport tag in the store's HTML. The tag should include `maximum-scale=1.0` and `user-scalable=0` to prevent the page from moving.
 
-### Step-by-Step Guide
+### Step-by-step guide
 
 1. Locate the meta viewport tag in the HTML of your store. It might look like this:
 
@@ -39,12 +39,12 @@ To fix this issue, the developer needs to modify the meta viewport tag in the st
 
 After making these changes, test the form on a mobile device to ensure it remains fixed and does not move from side to side.
 
-## Additional Notes
+## Additional notes
 
 - Ensure that the changes are applied to the correct HTML file in your store.
 - If you encounter any issues, consider reaching out to your web developer for assistance.
 
-## Platform-Specific Instructions
+## Platform-specific instructions
 
 === "Shopify (Legacy)"
 

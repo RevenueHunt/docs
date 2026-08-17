@@ -9,7 +9,7 @@ MailerLite is a powerful email marketing platform that allows you to send email 
 
 This article explains how to send leads to MailerLite from your product recommendation quiz.
 
-## Connecting Your MailerLite Account
+## Connecting your MailerLite account
 
 === "Shopify"
 
@@ -43,7 +43,7 @@ This article explains how to send leads to MailerLite from your product recommen
 
     MailerLite is not supported in Standalone version of the RevenueHunt app.
 
-## Alternative Ways to Send Leads to MailerLite
+## Alternative ways to send leads to MailerLite
 
 === "Shopify"
 

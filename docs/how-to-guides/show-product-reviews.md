@@ -48,7 +48,7 @@ This article explains how to show product reviews on the results page on your qu
 
         If issues persist with reviews not being pulled, contact the support team for assistance.
 
-    ## Enabling Storefront API Access for Review Apps
+    ## Enabling storefront API access for review apps
 
     All review apps store product ratings in Shopify metafields. For our app to display these reviews, the metafields must be **exposed to the Storefront API**. By default, most review apps set their metafields to private.
 
@@ -59,7 +59,7 @@ This article explains how to show product reviews on the results page on your qu
         - `reviews.rating` - The average star rating (stored as JSON with `value`, `scale_min`, `scale_max`)
         - `reviews.rating_count` - The total number of reviews (stored as an integer)
 
-    ### How to Enable Storefront API Access
+    ### How to enable storefront API access
 
     Follow these steps to make review metafields accessible:
 
@@ -82,7 +82,7 @@ This article explains how to show product reviews on the results page on your qu
 
         After saving, you may need to clear your browser cache or wait a few seconds for Shopify's edge cache to update.
 
-    ### Review App-Specific Notes
+    ### Review App-specific notes
 
     #### Judge.me
 

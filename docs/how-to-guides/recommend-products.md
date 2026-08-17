@@ -67,7 +67,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
     RevenueHunt Product Recommendation Quiz **cannot recommend collections** of products, though it's possible to [only recommend products from a specific collection](/how-to-guides/recommend-skincare-routine-slots/).
 
 
-## Recommending the Right Products
+## Recommending the right products
 
 
 === "Shopify" 
@@ -308,7 +308,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
 
-## How to Build Your Quiz Setup
+## How to build your quiz setup
 
 === "Shopify"
 
@@ -359,9 +359,9 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
     <script src="https://admin.revenuehunt.com/embed.js" async></script><div class="rh-widget rh-inline" data-url="https://admin.revenuehunt.com/public/quiz/X2Hy6G" style="margin: 10px auto; width: 100%; height: 600px; display: flex;"></div>
 
 
-## Specific Setup Guides
+## Specific setup guides
 
-### [Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
+### [Recommend products based on numerical inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 
 With RevenueHunt Product Recommendation Quiz, it is not possible to recommend products based on open-ended numerical questions like Number or Date. Instead, it's recommended to set up finite choices to be able to use the user responses to set up precise recommendations.
 
@@ -383,14 +383,14 @@ It describes a step-by-step process involving creating product collections, buil
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/recommend-product-matrix/)
 
 
-### [Only Recommend Products with X Votes or More](/how-to-guides/only-recommend-products-with-minimum-votes/)
+### [Only recommend products with X votes or more](/how-to-guides/only-recommend-products-with-minimum-votes/)
 
 It is possible to limit the number of recommended products on the results page by only showing products that received X votes or more (a certain minimum number of votes). This allows you to filter the quiz recommendations and only show the real winners.
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/only-recommend-products-with-minimum-votes/)
 
 
-### Recommend Subscription Products
+### Recommend subscription products
 
 === "Shopify"
 
@@ -449,13 +449,13 @@ It is possible to limit the number of recommended products on the results page b
 
 
 
-### Ensure a Specific Product Always Appears on Your Results Page
+### Ensure a specific product always appears on your results page
 
 [This guide](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) provides a clear, step-by-step process to making sure that specific products are always visible on the Results Page of your quiz, regardless of the customer's choices.
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations)
 
-### Show Results Explanation
+### Show results explanation
 
 === "Shopify"
 
@@ -504,7 +504,7 @@ It is possible to limit the number of recommended products on the results page b
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/show-results-explanation/)
 
-### Recommend Products Based on the Number of User Choices
+### Recommend products based on the number of user choices
 
 This guide provides information on how to set up a custom solution that will recommend products based on the number of user choices.
 

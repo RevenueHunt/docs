@@ -111,7 +111,7 @@ icon: simple/zapier
     - Access to your CRM or mailing list platform.
 
 
-## Link Quiz to Zapier
+## Link quiz to Zapier
 
 === "Shopify"
 
@@ -331,7 +331,7 @@ icon: simple/zapier
     4. **New Connection Added** You should see a `New Connection Added` banner. Then you can use this connection to set up your email flow.
 
 
-## Alternative Ways to Send Quiz Leads to Zapier
+## Alternative ways to send quiz leads to Zapier
 
 === "Shopify"
 
@@ -381,7 +381,7 @@ icon: simple/zapier
     - **Using Webhooks**: You can use our Webhooks integration to send quiz leads to Zapier. Just connect your quiz to Webhooks following [this guide](/how-to-guides/send-leads-to-webhooks/). Then, in Webhooks set up a redirection of selected data to Zapier.
     - **Manually adding the quiz leads to Zapier**: You can manually add the quiz leads to Zapier by uploading a CSV file generated from the quiz [metrics > responses](/reference/quiz-builder/metrics/#responses) section.
 
-## What Data is Sent to Zapier?
+## What data is sent to Zapier?
 
 === "Shopify"
 
@@ -728,7 +728,7 @@ icon: simple/zapier
     | Stability | Renaming a question breaks the Zap mapping | Renaming a question is safe |
     | Product data | Flattened numbered fields like `product_[INDEX]_name` | Full item objects inside `recommendationsBySlot` |
 
-## Sending Follow-up Emails Directly from Zapier
+## Sending follow-up emails directly from Zapier
 
 === "Shopify"
 

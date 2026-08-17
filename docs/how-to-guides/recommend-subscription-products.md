@@ -20,7 +20,7 @@ If you're using a subscription app that is not supported, you can still recommen
 
     RevenueHunt app currently integrates with [ReCharge Subscriptions](https://apps.shopify.com/subscription-payments?surface_intra_position=1&surface_type=partners&surface_version=redesign) for Shopify and [WooCommerce Subscriptions](https://woocommerce.com/products/woocommerce-subscriptions/) for WooCommerce. Subscription products are not yet supported in the Product Recommendation Quiz for BigCommerce or Magento. They will not show up on the Results page. However, there’s a workaround explained in the [Other subscriptions](#other-subscriptions) section of the article.
 
-## ReCharge Subscriptions
+## ReCharge subscriptions
 
 === "Shopify"
 
@@ -116,7 +116,7 @@ If you're using a subscription app that is not supported, you can still recommen
 
     Not applicable.
 
-## WooCommerce Subscriptions
+## WooCommerce subscriptions
 
 === "Shopify"
 
@@ -148,7 +148,7 @@ If you're using a subscription app that is not supported, you can still recommen
 
     Not applicable.
 
-## Other Subscriptions
+## Other subscriptions
 
 === "Shopify"
 

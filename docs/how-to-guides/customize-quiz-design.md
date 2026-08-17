@@ -43,9 +43,9 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 
 
-## Quiz Design Tab
+## Quiz design tab
 
-### Basic Customizations
+### Basic customizations
 
 === "Shopify"
 
@@ -239,7 +239,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     5. **Publish the changes**: Click the top-right `Publish` button to apply the changes to the preview/live quiz.
 
-### Advanced Customizations (CSS)
+### Advanced customizations (CSS)
 
 === "Shopify"
 
@@ -549,7 +549,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
-## Advanced Customizations (JavaScript)
+## Advanced customizations (JavaScript)
 
 === "Shopify"
 
@@ -647,7 +647,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
     Check out the [How to Add JavaScript to the Quiz](/how-to-guides/add-javascript/) guide for more details on how to add custom JavaScript to the quiz.
 
 
-## Styling Quiz Text
+## Styling quiz text
 
 === "Shopify"
 
@@ -870,7 +870,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     If you want to change the font or the color of certain texts or whole paragraphs, you may need to use [Custom CSS](#add-custom-css-code) code for that. 
 
-## Adding Images and Videos
+## Adding images and videos
 
 === "Shopify"
 
@@ -1029,7 +1029,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
         Check this guide to learn how to add and optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
 
 
-## Individual Question Design
+## Individual question design
 
 === "Shopify"
 
@@ -1086,7 +1086,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
     The question settings also allow you to incorporate [custom JavaScript](/how-to-guides/add-javascript/) into your quiz design.
 
 
-## Results Page Design
+## Results page design
 
 The Results Page also has its own customization options. 
 
@@ -1098,11 +1098,11 @@ In addition to the basic elements, you can set a unique background image for eac
 
 If you find the default results page too restrictive, you might want to **create a custom results page** on your site and direct all quiz data to it using the [Callback Function](/how-to-guides/use-callback-function/). This function enables you to collect all quiz responses in JSON format on any page you choose.
 
-## Customization Examples
+## Customization examples
 
 We offer complete flexibility to developers for personalizing both the quiz and the results page. Take a look at [these examples](https://revenuehunt.com/templates/#customization) to discover the various designs you can achieve with our app using some creativity and CSS code.
 
-## Useful CSS Codes
+## Useful CSS codes
 
 === "Shopify"
 

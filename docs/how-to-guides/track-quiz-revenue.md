@@ -58,7 +58,7 @@ This documentation outlines how to track quiz analytics and revenue generated fr
 
     Alternatively, you can track quiz revenue with [Google Analytics](/how-to-guides/integrate-google-analytics/).
 
-    ## Activate Shopify Revenue Report
+    ## Activate Shopify revenue report
 
     To enable the automated revenue report feature:
 
@@ -82,13 +82,13 @@ This documentation outlines how to track quiz analytics and revenue generated fr
          
          Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](/how-to-guides/change-checkout-settings/).
 
-    ## Tracking Revenue with Google Analytics
+    ## Tracking revenue with Google Analytics
 
     For a more detailed analysis you can track quiz revenue alongside other metrics with [Google Analytics](/how-to-guides/integrate-google-analytics/).
 
     [:fontawesome-solid-arrow-right: learn more](/how-to-guides/integrate-google-analytics/)
 
-    ## Show Quiz Answers in the Shopify Orders
+    ## Show quiz answers in the Shopify orders
 
     It’s possible to know exactly which orders in your Shopify Orders tab come from the quiz.
 

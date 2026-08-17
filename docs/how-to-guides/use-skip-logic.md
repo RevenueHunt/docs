@@ -50,7 +50,7 @@ In this article, we will show you how to set up and use Skip Logic in your quiz,
     It is advised not to mix [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) and [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) in one quiz. Mixing logic rules can lead to unexpected results.
 
 
-## Conditional Logic
+## Conditional logic
 
 === "Shopify"
 
@@ -215,7 +215,7 @@ In this article, we will show you how to set up and use Skip Logic in your quiz,
 
         **arrow down** - Take you to the question lower.
 
-## Add Skip Logic to Questions
+## Add skip logic to questions
 
 Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
 
@@ -355,9 +355,9 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
     5. **Preview and Adjust:** Publish the changes with the top-right `Publish` button to update the preview/live quiz and test the setup.
 
-## Examples and Applications
+## Examples and applications
 
-### Skip Questions Based on User's Answers
+### Skip questions based on user's answers
 
 === "Shopify"
 
@@ -584,7 +584,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 
 
-### Show Different Follow-Up Questions After Multiple-Selection Question
+### Show different Follow-up questions after Multiple-selection question
 
 === "Shopify"
 
@@ -862,7 +862,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 
 
-### Filtering Email Collection Based on Interest
+### Filtering email collection based on interest
 
 === "Shopify"
 
@@ -961,7 +961,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
 
 
-### Skip Logic vs. Jump Logic
+### Skip logic vs. jump logic
 
 The new app interface gives the option to use Jump Logic and Skip Logic. You shouldn’t combine both types of logic in the same quiz.
 
@@ -970,7 +970,7 @@ The new app interface gives the option to use Jump Logic and Skip Logic. You sho
 
 
 
-## Additional Resources
+## Additional resources
 
 Understanding conditional logic, the foundation of Skip Logic, can be challenging. Resources such as [WolframAlpha](https://www.wolframalpha.com/input/?i=A+AND+%28B+OR+C%29) and [Khan Academy](https://www.khanacademy.org/computing/ap-computer-science-principles/programming-101/boolean-logic/a/compound-booleans-with-logical-operators) offer tutorials on AND/OR logic, which can enhance your ability to create effective and complex quiz flows.
 

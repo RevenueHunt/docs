@@ -156,7 +156,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     Not applicable.
 
-## Shopify Customers
+## Shopify customers
 
 === "Shopify"
 
@@ -482,7 +482,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
         
     `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
 
-## Plans & Pricing
+## Plans & pricing
 
 === "Shopify"
 
