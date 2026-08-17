@@ -70,55 +70,64 @@ nav:
     - Using Conditional Logic: tutorials/conditional-logic.md
     - Shopify Markets: tutorials/shopify-markets.md
   - How-to Guides:
-    - How-to Guides Index: how-to-guides/index.md
+    # Section index (navigation.indexes): the "How-to Guides" row itself links here.
+    - how-to-guides/index.md
     - Getting Started:
       - Install App: how-to-guides/install-app.md
       - Create Your First Quiz: how-to-guides/create-first-quiz.md
+      - Use Quiz Copilot: how-to-guides/use-quiz-copilot.md
       - Migrate a Legacy Quiz to Built for Shopify: how-to-guides/migrate-shopify-legacy-quiz.md
       - Contact Customer Support: how-to-guides/contact-customer-support.md
-      - Use Quiz Copilot: how-to-guides/use-quiz-copilot.md
-    - Quiz Design & Customization:
-      - Customize Quiz Design: how-to-guides/customize-quiz-design.md
-      - Add & Adjust Images: how-to-guides/add-adjust-images.md
-      - Change Quiz Language: how-to-guides/change-quiz-language.md
-      - Change Quiz Currency: how-to-guides/change-quiz-currency.md
-      - Edit the Results Page: how-to-guides/edit-results-page.md
-      - Use Markdown Language: how-to-guides/use-markdown.md
-      - Set Multiple Result Pages: how-to-guides/set-multiple-result-pages.md
-      - Use Information Recalls: how-to-guides/use-information-recalls.md
-      - Join Questions: how-to-guides/join-questions.md
+    - Design & Content:
+      - Design & Branding:
+        - Customize Quiz Design: how-to-guides/customize-quiz-design.md
+        - Add & Adjust Images: how-to-guides/add-adjust-images.md
+        - Use Markdown Language: how-to-guides/use-markdown.md
+      - Results Page:
+        - Edit the Results Page: how-to-guides/edit-results-page.md
+        - Set Multiple Result Pages: how-to-guides/set-multiple-result-pages.md
+        - Show Results Explanation: how-to-guides/show-results-explanation.md
+      - Questions & Recalls:
+        - Join Questions: how-to-guides/join-questions.md
+        - Use Information Recalls: how-to-guides/use-information-recalls.md
+      - Language & Currency:
+        - Change Quiz Language: how-to-guides/change-quiz-language.md
+        - Change Quiz Currency: how-to-guides/change-quiz-currency.md
       - A/B Test Your Quiz: how-to-guides/ab-test-quiz.md
     - Product Recommendations:
-      - Recommend Products: how-to-guides/recommend-products.md
-      - Set Up Recommendations: how-to-guides/set-up-recommendations.md
-      - Set Up a Scoring Quiz: how-to-guides/set-up-scoring-quiz.md
-      - Set Up a Funnel Quiz: how-to-guides/set-up-funnel-quiz.md
-      - Set Up a Fixed Recommendations Quiz: how-to-guides/set-up-fixed-recommendations-quiz.md
-      - Recommend Products Matching Multiple Criteria: how-to-guides/recommend-product-matrix.md
-      - Recommend Products Based on Number of Choices: how-to-guides/recommend-products-based-on-number-of-user-choices.md
-      - Only Recommend Products with a Minimum Vote Count: how-to-guides/only-recommend-products-with-minimum-votes.md
-      - Recommend Subscription Products: how-to-guides/recommend-subscription-products.md
-      - Recommend Slots (Skincare Routine): how-to-guides/recommend-skincare-routine-slots.md
-      - Recommend Products Based on Numerical Inputs: how-to-guides/recommend-products-based-on-numerical-inputs.md
-      - Recommend Sizes: how-to-guides/recommend-sizes.md
-      - Filter Recommendations by Price: how-to-guides/filter-recommendations-by-price.md
-      - Hide Out-Of-Stock Products: how-to-guides/hide-out-of-stock-products.md
-      - Hide Product Variants: how-to-guides/hide-product-variants.md
-      - Add Product Metafields: how-to-guides/add-product-metafields.md
-      - Show Product Reviews: how-to-guides/show-product-reviews.md
+      - Recommend Products:
+        - how-to-guides/recommend-products.md
+        - Set Up Recommendations: how-to-guides/set-up-recommendations.md
+        - Set Up a Scoring Quiz: how-to-guides/set-up-scoring-quiz.md
+        - Set Up a Funnel Quiz: how-to-guides/set-up-funnel-quiz.md
+        - Set Up a Fixed Recommendations Quiz: how-to-guides/set-up-fixed-recommendations-quiz.md
+      - Advanced Setups:
+        - Match Multiple Criteria (Matrix): how-to-guides/recommend-product-matrix.md
+        - Based on Number of Choices: how-to-guides/recommend-products-based-on-number-of-user-choices.md
+        - Based on Numerical Inputs: how-to-guides/recommend-products-based-on-numerical-inputs.md
+        - Minimum Vote Count: how-to-guides/only-recommend-products-with-minimum-votes.md
+        - Recommend Sizes: how-to-guides/recommend-sizes.md
+        - Recommend Slots (Skincare Routine): how-to-guides/recommend-skincare-routine-slots.md
+        - Subscription Products: how-to-guides/recommend-subscription-products.md
+      - Product Data & Filtering:
+        - Filter Recommendations by Price: how-to-guides/filter-recommendations-by-price.md
+        - Hide Out-Of-Stock Products: how-to-guides/hide-out-of-stock-products.md
+        - Hide Product Variants: how-to-guides/hide-product-variants.md
+        - Add Product Metafields: how-to-guides/add-product-metafields.md
+        - Show Product Reviews: how-to-guides/show-product-reviews.md
       - Troubleshoot Quiz Results: how-to-guides/troubleshoot-product-results.md
-    - Quiz Logic & Advanced Features:
+    - Quiz Logic & Development:
       - Use Conditional Logic:
         - how-to-guides/use-conditional-logic.md
         - Use Display Logic: how-to-guides/use-display-logic.md
         - Use Jump Logic: how-to-guides/use-jump-logic.md
         - Use Skip Logic: how-to-guides/use-skip-logic.md
+      - Developer Tools:
+        - Add JavaScript: how-to-guides/add-javascript.md
+        - Use Callback Function: how-to-guides/use-callback-function.md
+        - Pass Parameters to Pre-Fill Quiz Responses: how-to-guides/pass-parameters-to-fill-quiz-responses.md
       - Hide Content with Logic: how-to-guides/hide-content-with-logic.md
-      - Add JavaScript: how-to-guides/add-javascript.md
       - Add Discount: how-to-guides/add-discount.md
-      - Use Callback Function: how-to-guides/use-callback-function.md
-      - Pass Parameters to Pre-Fill Quiz Responses: how-to-guides/pass-parameters-to-fill-quiz-responses.md
-      - Show Results Explanation: how-to-guides/show-results-explanation.md
     - Publishing & Display:
       - Publish the Quiz on Your Website:
         - how-to-guides/publish-quiz.md
@@ -130,13 +139,14 @@ nav:
         - Get an External Link for Emails: how-to-guides/publish-quiz-email-link.md
         - Publish on a GemPages Page: how-to-guides/publish-gempages.md
         - Publish on a PageFly Page: how-to-guides/publish-pagefly.md
-      - Show a Quiz Based on Shopify Markets: how-to-guides/show-quiz-based-on-markets.md
-      - Show Quiz on Customer Profile: how-to-guides/show-quiz-on-customer-profile.md
-      - Show Quiz Only to Logged-In Customers: how-to-guides/show-quiz-to-logged-in-customers.md
+      - Visibility & Targeting:
+        - Show a Quiz Based on Shopify Markets: how-to-guides/show-quiz-based-on-markets.md
+        - Show Quiz on Customer Profile: how-to-guides/show-quiz-on-customer-profile.md
+        - Show Quiz Only to Logged-In Customers: how-to-guides/show-quiz-to-logged-in-customers.md
       - Redirect Quiz to Another Page: how-to-guides/redirect-quiz-to-another-page.md
       - Change Checkout Settings: how-to-guides/change-checkout-settings.md
       - Restore Quiz Progress: how-to-guides/restore-quiz-progress.md
-    - Integrations & Data Collection:
+    - Integrations & Data:
       - Send Leads to Your CRM:
         - how-to-guides/send-leads-to-crm.md
         - Klaviyo: how-to-guides/send-leads-to-klaviyo.md
@@ -147,31 +157,36 @@ nav:
         - MailerLite: how-to-guides/send-leads-to-mailerlite.md
         - Omnisend: how-to-guides/send-leads-to-omnisend.md
         - Shopify Customers: how-to-guides/send-leads-to-shopify-customers.md
+        - Shopify Flow: how-to-guides/automate-quiz-completions-with-shopify-flow.md
         - Zapier: how-to-guides/send-leads-to-zapier.md
         - Webhooks: how-to-guides/send-leads-to-webhooks.md
-      - Automate Quiz Completions with Shopify Flow: how-to-guides/automate-quiz-completions-with-shopify-flow.md
-      - Ask for Marketing Consent: how-to-guides/ask-for-marketing-consent.md
-      - Use Customer Tags: how-to-guides/use-customer-tags.md
-      - Use Custom Fields as Tags (BigCommerce): how-to-guides/use-custom-fields-as-tags.md
-      - Show Quiz Answers in Shopify Orders: how-to-guides/show-quiz-answers-in-orders.md
-      - Integrate Meta Pixel: how-to-guides/integrate-meta-pixel.md
-      - Integrate TikTok Pixel: how-to-guides/integrate-tiktok-pixel.md
-      - Integrate Google Analytics: how-to-guides/integrate-google-analytics.md
-      - Send Result Emails: how-to-guides/send-result-emails.md
-      - Connect SMTP for Email: how-to-guides/send-result-emails-from-custom-server.md
-      - Track Quiz Revenue: how-to-guides/track-quiz-revenue.md
+      - Result Emails:
+        - Send Result Emails: how-to-guides/send-result-emails.md
+        - Connect SMTP for Email: how-to-guides/send-result-emails-from-custom-server.md
+      - Analytics & Tracking:
+        - Integrate Google Analytics: how-to-guides/integrate-google-analytics.md
+        - Integrate Meta Pixel: how-to-guides/integrate-meta-pixel.md
+        - Integrate TikTok Pixel: how-to-guides/integrate-tiktok-pixel.md
+        - Track Quiz Revenue: how-to-guides/track-quiz-revenue.md
+      - Customer Data & Tags:
+        - Ask for Marketing Consent: how-to-guides/ask-for-marketing-consent.md
+        - Use Customer Tags: how-to-guides/use-customer-tags.md
+        - Use Custom Fields as Tags (BigCommerce): how-to-guides/use-custom-fields-as-tags.md
+        - Show Quiz Answers in Shopify Orders: how-to-guides/show-quiz-answers-in-orders.md
       - Download Quiz Responses: how-to-guides/download-quiz-responses.md
     - Troubleshooting & Maintenance:
-      - Fix Viewport Issue on Mobile: how-to-guides/fix-viewport-issue-on-mobile.md
-      - Update Shopify Cart Drawer: how-to-guides/update-shopify-cart-drawer.md
-      - Missing Product Images: how-to-guides/missing-product-images.md
-      - Sync Catalog: how-to-guides/sync-catalog.md
-      - Selectively Sync Collections: how-to-guides/sync-selected-collections.md
-      - Add Products (Standalone): how-to-guides/add-products-gpf.md
+      - Catalog & Products:
+        - Sync Catalog: how-to-guides/sync-catalog.md
+        - Selectively Sync Collections: how-to-guides/sync-selected-collections.md
+        - Add Products (Standalone): how-to-guides/add-products-gpf.md
+        - Missing Product Images: how-to-guides/missing-product-images.md
+      - Fix Common Issues:
+        - Products Not Added To Cart: how-to-guides/add-to-cart-issues.md
+        - Fix Viewport Issue on Mobile: how-to-guides/fix-viewport-issue-on-mobile.md
+        - Update Shopify Cart Drawer: how-to-guides/update-shopify-cart-drawer.md
+        - Check Quiz Loading Speed: how-to-guides/check-quiz-loading-speed.md
+        - WordPress / WooCommerce Issues: how-to-guides/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce.md
       - Copy Quiz from One Store to Another: how-to-guides/copy-the-quiz-from-one-store-to-another.md
-      - Check Quiz Loading Speed: how-to-guides/check-quiz-loading-speed.md
-      - Products Not Added To Cart: how-to-guides/add-to-cart-issues.md
-      - Troubleshoot App Issues for WordPress/WooCommerce: how-to-guides/troubleshooting-product-recommendation-quiz-app-issues-for-wordpress-woocommerce.md
   - App Manual:
     - Overview: reference/index.md
     - Dashboard: reference/dashboard.md
