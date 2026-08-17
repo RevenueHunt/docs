@@ -674,7 +674,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     **Implementation**
 
-    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -702,7 +702,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     !!! info
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 
 
 
@@ -712,7 +712,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     **Implementation**
 
-    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -741,7 +741,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     !!! info
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 
 
 
@@ -752,7 +752,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     **Implementation**
 
-    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -781,7 +781,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     !!! info
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 
 
 
@@ -792,7 +792,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     **Implementation**
 
-    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -821,7 +821,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     !!! info
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 
 
 
@@ -832,7 +832,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     **Implementation**
 
-    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -861,7 +861,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     !!! info
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 
 
 === "Standalone"
@@ -871,7 +871,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     **Implementation**
 
-    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -900,7 +900,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     !!! info
 
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 
 
 

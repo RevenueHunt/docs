@@ -25,7 +25,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - [Conditional logic](#conditional-logic), 
     - [Quiz design](#quiz-design), 
     - [Email notifications](#notifications), 
-    - [Result pages](#results-page) and 
+    - [Results pages](#results-page) and 
     - [Success checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist).
     
     **Quiz Preview**
@@ -4459,7 +4459,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Advanced quiz settings**
 
-    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
 
     **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
@@ -4484,7 +4484,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Separators** - Choose from a dropdown how the currency number should be displayed.
 
-    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
 
     **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
@@ -4512,7 +4512,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Separators** - Choose from a dropdown how the currency number should be displayed.
 
-    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
 
     **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
@@ -4536,7 +4536,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Separators** - Choose from a dropdown how the currency number should be displayed.
 
-    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
 
     **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
@@ -4558,7 +4558,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Separators** - Choose from a dropdown how the currency number should be displayed.
 
-    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
 
     **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
@@ -4582,7 +4582,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Separators** - Choose from a dropdown how the currency number should be displayed.
 
-    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
 
     **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 

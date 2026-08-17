@@ -1692,7 +1692,7 @@ SOURCE: https://docs.revenuehunt.com/customer-success/personality-quizzes/
 
 ---
 icon: material/numeric-5
-description: "When to use a personality or 'type' quiz, why they get shared, how a scoring quiz actually works, what the result page should do, and how to plan one that collects useful data and routes shoppers to the right outcome."
+description: "When to use a personality or 'type' quiz, why they get shared, how a scoring quiz actually works, what the results page should do, and how to plan one that collects useful data and routes shoppers to the right outcome."
 ---
 
 # Personality Quizzes: What They're For and How to Plan One
@@ -1784,7 +1784,7 @@ There are a few common ways to turn the score into a result. You don't choose th
 
 - **Winning variable** (classic personality type): the variable with the highest tally wins, and the matching result is shown.
 - **Score range**: a numeric total falls into a band (for example 13-17 = "oily").
-- **Dedicated result pages**: when each outcome deserves its own full page, the quiz routes there.
+- **Dedicated results pages**: when each outcome deserves its own full page, the quiz routes there.
 
 Which one you use, and exactly how it's configured, depends on your app version (see [Setting it up](#setting-it-up)).
 
@@ -1807,7 +1807,7 @@ Which one you use, and exactly how it's configured, depends on your app version 
 
 ## Design the result to be shared and to sell
 
-The result page is where a personality quiz either pays off or stays a toy. Make it do both jobs:
+The results page is where a personality quiz either pays off or stays a toy. Make it do both jobs:
 
 - **Name and flatter the type first.** People share a result that says something good about them. Give the type a memorable name and a short, positive description *before* you recommend anything.
 - **Then recommend the matching set.** The type is the hook; the [recommended products or routine](/customer-success/recommend-bundles-kits/) are the payoff. Tie each pick back to the type so it reads as "made for you."
@@ -3632,7 +3632,7 @@ Across the top quizzes, the same handful of questions show up again and again. E
 - **How does your skin feel on an average day?** The single most common question in top skincare quizzes, and it maps cleanly to skin type without asking shoppers to self-diagnose.
 - **What's your main skin concern?** Acne, aging, dullness, redness, hyperpigmentation. Drives which actives you recommend, and it's your most powerful [segment](/customer-success/use-customer-tags-in-quiz/).
 - **Do you have sensitive skin / anything we should avoid?** Lets you **exclude** irritating products, which protects trust.
-- **What's your goal?** "Clear breakouts," "even skin tone," "a simple routine." Frames the result page and the follow-up email.
+- **What's your goal?** "Clear breakouts," "even skin tone," "a simple routine." Frames the results page and the follow-up email.
 - **Age range** (optional). Useful only if it changes what you recommend, otherwise cut it.
 
 Keep it to around **6 questions**. The benchmark says skincare shoppers finish at that length; pile on more and completion slides.
@@ -5972,7 +5972,7 @@ Before diving into the implementation, it's important to understand the differen
         - `qbc-skintype` (question block choice)
         - `qbi-email` (question block input)
         - `q-concerns` (question)
-        - `r-results` (result page)
+        - `r-results` (results page)
         !!! warning "Use the Exact ID"
             Block references are case-sensitive! Make sure to copy them exactly as they appear. `qbc-skintype` is different from `qbc-SkinType`.
         ??? info "Quick Test"
@@ -5997,7 +5997,7 @@ Before diving into the implementation, it's important to understand the differen
     | `quiz.mode` | string | Always `'question'` on question pages |
     | `quiz.currentQuestion` | object | Current question data |
     | `quiz.questions` | array | All quiz questions |
-    | `quiz.results` | array | All result pages |
+    | `quiz.results` | array | All results pages |
     **Accessing Answers (Question Mode)**
     | Property | Description |
     |----------|-------------|
@@ -6031,7 +6031,7 @@ Before diving into the implementation, it's important to understand the differen
     | Property | Description |
     |----------|-------------|
     | `quiz.mode` | Always `'result'` on results pages |
-    | `quiz.currentResult` | Current result page data |
+    | `quiz.currentResult` | Current results page data |
     | `quiz.resultContext.slotItems` | Object of recommended products/collections keyed by Shopify GID |
     | `quiz.resultContext.cartItems` | Array of items currently in cart |
     | `quiz.resultContext.discounts` | Object with `applied` array and `eligible` boolean |
@@ -6256,7 +6256,7 @@ Before diving into the implementation, it's important to understand the differen
     !!! tip "Finding Block References"
         Not sure what block reference to use? See [Finding Your Block and Question References](#finding-your-block-and-question-references) above for detailed instructions.
     In the `💎Built for Shopify` version of the RevenueHunt app, you can add interactive elements to your quiz results page:
-    1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
         !!! example "Add the `onclick` functionality via the Custom Javascript."
             ```html
             <!-- In Result page in a HTML block -->
@@ -7176,7 +7176,7 @@ This guide outlines steps to diagnose and resolve quiz loading issues by optimiz
     !!! info
         The new Built for Shopify version of the RevenueHunt app integrates the quiz as a native Shopify block within the Theme.
     !!! note "About the large inline quiz configuration"
-        When inspecting your page source, you may notice a large inline `window.quizzes` JSON object (often 100-200 KB). This is your quiz's configuration: its questions, branching logic, result pages, recommendation rules, design and translations. We embed it directly in the page so the quiz can open instantly, with no extra network request when a shopper interacts.
+        When inspecting your page source, you may notice a large inline `window.quizzes` JSON object (often 100-200 KB). This is your quiz's configuration: its questions, branching logic, results pages, recommendation rules, design and translations. We embed it directly in the page so the quiz can open instantly, with no extra network request when a shopper interacts.
         That uncompressed size looks alarming, but it isn't the bottleneck:
         - **It's compressed on the wire.** Shopify serves your pages gzip/brotli compressed, so a ~150 KB config typically ships at **10-15 KB** to the browser, often less than a single product thumbnail.
         - **It's not rendered DOM.** It lives inside a `<script>` tag, so it adds no layout or paint cost.
@@ -8487,7 +8487,7 @@ Custom JavaScript **will not be migrated**. The `💎Built for Shopify` app has 
 
 ### Product Mappings
 
-Questions, answer choices, and result pages migrate — but product links are tied to Shopify product IDs, which are the same across both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
+Questions, answer choices, and results pages migrate — but product links are tied to Shopify product IDs, which are the same across both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
 
 !!! tip
 
@@ -9602,7 +9602,7 @@ Recommending products based on numerical answers (like age or room size) can be 
     - Set up [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the user's choices
     This helps users select a range easily while ensuring you offer relevant products.
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the result page with JavaScript and printing an output onto an HTML element. 
+    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
     In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page.
 
 
@@ -9657,7 +9657,7 @@ RevenueHunt Product Recommendation Quiz can show on the results page **product v
     **🧩 Option 3: Use Complex Display Logic**
     *Best for advanced logic or detailed recommendation matrices.*
     ![how_to_shopify_v2_recommendations_displaylogic](/images/how_to_shopify_v2_recommendations_displaylogic.png){width="300"}
-    - Create logic-based paths that lead users to different result pages.
+    - Create logic-based paths that lead users to different results pages.
     - Or use one results page with multiple sections and display logic for each.
     - Show/hide each section depending on the customer’s answers.
     !!! note
@@ -9670,7 +9670,7 @@ RevenueHunt Product Recommendation Quiz can show on the results page **product v
     | [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots) | Product recommendation routines, different product categories (e.g. cleanser + moisturizer) | - Slot-based grouping<br>- Step-by-step product recommendations<br>- Still uses dynamic voting | Medium |
     | [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) | Personality quizzes, Dosha tests, where outcome depends on which variable (A, B, C...) got the most choices | - Tracks most frequent variable<br>- Outputs results by majority<br>- Often used for typology quizzes | Medium |
     | [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) | Quizzes that need to calculate values or mix scoring with conditions | - Weighted scoring<br>- Adds hidden variables<br>- Logic can combine score + other rules | Medium to High |
-    | [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple result pages<br>- Allows display rules and custom text | High |
+    | [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple results pages<br>- Allows display rules and custom text | High |
     !!! info
         Not sure how to set up your recommendations? [Take the quiz and find out!](https://skincarequiz.myshopify.com/#quiz-LKPc6j)
     The new RevenueHunt app for Shopify doesn't yet support recommending subscription products.
@@ -10208,8 +10208,8 @@ Integrating your RevenueHunt Product Recommendation Quiz with HubSpot can improv
     | `phone` | Contact's phone number (if provided) |
     | `quiz_{id}_response_id` | Unique identifier for this quiz response |
     | `quiz_{id}_quiz_name` | Name of the quiz |
-    | `quiz_{id}_result_ref` | Reference to the result page shown |
-    | `quiz_{id}_result_page_name` | Name of the result page |
+    | `quiz_{id}_result_ref` | Reference to the results page shown |
+    | `quiz_{id}_result_page_name` | Name of the results page |
     | `quiz_{id}_created_at` | Timestamp when the quiz was completed |
     | `quiz_{id}_tags` | Tags assigned based on quiz answers |
     | `quiz_{id}_variable_scores` | Variable scores calculated from answers |
@@ -10318,7 +10318,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
     | `TAG-[TAG_NAME]-[SQID]` | `true` for every [tag](/how-to-guides/use-customer-tags/) assigned. |
     | `VARIABLE_SCORES-[SQID]` | JSON with all [variable](/how-to-guides/set-up-scoring-quiz/) scores. |
     | `HIGHEST_VARIABLE_REF-[SQID]` | Reference of the top-scoring variable. |
-    | `RESULT_REF-[SQID]` | Reference or URL of the result page shown. |
+    | `RESULT_REF-[SQID]` | Reference or URL of the results page shown. |
     | `RESULT_SECTIONS-[SQID]` | JSON with the result sections shown. |
     | `RESULT_CONTENT_BY_BLOCK-[SQID]` | JSON with the content shown in each result block. |
     | `RECOMMENDATIONS_BY_SLOT-[SQID]` | JSON with the recommended products per [slot](/reference/quiz-builder/results-page/). |
@@ -10372,8 +10372,8 @@ This article walks you through the process of connecting your quiz to Klaviyo an
                 ![how to send leads to klaviyo email template download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_get_template.png)
                 ![how to send leads to klaviyo email template download2](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
                 The code contains several ready-to-use code snippets that allow you to display: 
-                - **Dynamic Results Page**: Display dynamic result page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
-                - **Static Results Page**: Display the complete result page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
+                - **Dynamic Results Page**: Display dynamic results page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
+                - **Static Results Page**: Display the complete results page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
                 - **Individual recommendations**: Display individual product recommendations by slot. Use this to show specific recommended items with their details like title, description, price, and images.
                 - **Question answers**: Display quiz information and individual question answers. Use this to show personal data and specific responses from quiz questions.
         8. Paste the code in the `HTML` block in Klaviyo email.
@@ -11043,7 +11043,7 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
     !!! info "Opt-in level"
         Whether the subscription is recorded as single or confirmed opt-in depends on your settings in the quiz editor. See [Change subscribed/consent status](#change-subscribedconsent-status-for-email-and-phone-questions) and [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
     !!! tip "Shopify Flow receives much more"
-        The customer profile holds identity, tags and consent only. The `Quiz Completed` trigger for [Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/) carries the full response: every answer with its question title, block reference and choice references, the variable scores, the result page, and each recommended product with its product and variant GIDs, price, URL, rank and slot. See [What data is sent](/how-to-guides/automate-quiz-completions-with-shopify-flow/#what-data-is-sent) for the complete field list.
+        The customer profile holds identity, tags and consent only. The `Quiz Completed` trigger for [Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/) carries the full response: every answer with its question title, block reference and choice references, the variable scores, the results page, and each recommended product with its product and variant GIDs, price, URL, rank and slot. See [What data is sent](/how-to-guides/automate-quiz-completions-with-shopify-flow/#what-data-is-sent) for the complete field list.
     By default, all the contacts added to the Shopify Customers list via the quiz **will be marked as subscribed** and their consent to receiving marketing information was given. It is not possible to change the default consent state.
     However, there are many ways you can ask the customer for marketing consent directly in the quiz. 
     !!! tip
@@ -11817,9 +11817,9 @@ The `💎 Built for Shopify` version of the RevenueHunt app integrates directly 
     | `tags` | Array of all [tags](/how-to-guides/use-customer-tags/) assigned. |
     | `variableScores` | All [variables](/how-to-guides/set-up-scoring-quiz/) and their final scores. |
     | `highestVariableRef` | Reference of the top-scoring variable. |
-    | `resultRef` | Reference of the result page shown. |
+    | `resultRef` | Reference of the results page shown. |
     | `recommendationsBySlot` | The recommended items, organized by [slot](/reference/quiz-builder/results-page/) reference. |
-    | `resultSections` | The result page sections that were visible to the customer. |
+    | `resultSections` | The results page sections that were visible to the customer. |
     | `resultContentByBlock` | The full content (text, images and slots) of each result block. |
     !!! info "Inside `recommendationsBySlot`"
         Each recommended item carries: `id`, `handle`, `title`, `description`, `price`, `image`, `onlineStoreUrl` and `vendor`.
@@ -11869,8 +11869,8 @@ The `💎 Built for Shopify` version of the RevenueHunt app integrates directly 
         ]
         }
         ```
-    ??? example "Result Page Content"
-        The quiz’s result page content is included in two sections:
+    ??? example "Results Page Content"
+        The quiz’s results page content is included in two sections:
         `resultSections` → Organized view of all result blocks (headings, text, products, etc.)
         `resultContentByBlock`→ Flattened key-value pairs for each block reference
         Example:
@@ -12035,10 +12035,10 @@ Follow the step by step instructions below to active and edit the result emails 
     - `firstName`, `fullName`, `email`: basic user info
     - `answersByBlock`: customer’s answers to quiz questions
     - `recommendationsBySlot`: products recommended by the quiz
-    - `resultContentByBlock`: dynamic text, tips, and headings from the result page
+    - `resultContentByBlock`: dynamic text, tips, and headings from the results page
     !!! info "Quiz Response Metadata Structure"
         ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
-        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic result pages, follow-up emails, and custom workflows.
+        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
         ---
         **Basic Information**
         `responseId` - Unique ID for this specific quiz response
@@ -12083,7 +12083,7 @@ Follow the step by step instructions below to active and edit the result emails 
         Each result "slot" contains one or more product recommendations.
         Each product object includes: id, title, vendor, handle: Shopify product metadata
         `variants` - Variant ID, price, and image per product
-        `slotHeading / slotDescription` - Rich text HTML displayed on result pages
+        `slotHeading / slotDescription` - Rich text HTML displayed on results pages
         `image` - URL for the main product image
         `price` - Object with amount and currencyCode
         Example: `rsbss-33464eed` → contains "Ordinary Serum", $45 USD
@@ -12166,10 +12166,10 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/set-multiple-result-pages/
 
 ---
 icon: material/file-document-multiple
-description: "Learn how to set up multiple result pages in RevenueHunt to show personalized content."
+description: "Learn how to set up multiple results pages in RevenueHunt to show personalized content."
 ---
 
-# How to Set Up Multiple Result Pages
+# How to Set Up Multiple Results Pages
 
 With the RevenueHunt app it is possible to set up Multiple Results Pages. To add an extra Results Page to your quiz follow the instructions below.
 
@@ -12192,8 +12192,8 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
     1. Open the [Quiz Builder](/reference/quiz-builder/).
     2. Go to the [Results Page](/reference/quiz-builder/results-page/) tab.
     3. Scroll down and click `+ Add results page`. A second results page will appear below the first.
-        ![multi result pages built for shopify revenuehunt app activate multi results page](/images/how_to_multi_result_pages_shopify_v2_activate_multi_results_page.png)
-    4. Once you've added your result pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
+        ![multi results pages built for shopify revenuehunt app activate multi results page](/images/how_to_multi_result_pages_shopify_v2_activate_multi_results_page.png)
+    4. Once you've added your results pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
         ![how_to_shopifyV2_multiple_result_pages_jumplogic](/images/how_to_shopifyV2_multiple_result_pages_jumplogic.png)
     5. Scroll down the list of questions and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/how_to_multi_result_pages_shopify_v2_jump_logic_multi_results_page.png)
@@ -12580,7 +12580,7 @@ Product recommendations are the heart of any successful quiz experience. They he
 | [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots) | Product recommendation routines, different product categories (e.g. cleanser + moisturizer) | - Slot-based grouping<br>- Step-by-step product recommendations<br>- Still uses dynamic voting | Medium |
 | [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) | Personality quizzes, Dosha tests, where outcome depends on which variable (A, B, C...) got the most choices | - Tracks most frequent variable<br>- Outputs results by majority<br>- Often used for typology quizzes | Medium |
 | [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) | Quizzes that need to calculate values or mix scoring with conditions | - Weighted scoring<br>- Adds hidden variables<br>- Logic can combine score + other rules | Medium to High |
-| [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple result pages<br>- Allows display rules and custom text | High |
+| [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple results pages<br>- Allows display rules and custom text | High |
 
 !!! info
 
@@ -13044,7 +13044,7 @@ In the `💎Built for Shopify` version of the app, quiz data can be passed to Sh
         Use the `__` prefix when you want to save an internal value on the cart without showing it as a normal storefront cart attribute.
         Leave the prefix off when you want the value to stay visible in Shopify cart or order surfaces.
     !!! warning
-        Cart attributes are written only when the shopper reaches the page where your custom JavaScript runs. If you need the data before checkout, add the code to the question or result page that appears before the shopper goes to the cart.
+        Cart attributes are written only when the shopper reaches the page where your custom JavaScript runs. If you need the data before checkout, add the code to the question or results page that appears before the shopper goes to the cart.
     !!! warning
         Shopify Revenue Tracking and cart-based order tagging only work if the customer adds products to the cart directly from the quiz results page **AND** then proceeds through checkout without breaking the flow. If they purchase later, the order may no longer be attributed to the quiz.
         Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](/how-to-guides/change-checkout-settings/).
@@ -14147,7 +14147,7 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=0v4iXxZKuT0ljH-c&amp;start=82" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     With Jump Logic, you can send users to different results pages based on their answers.
     **Implementation**
-    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -14163,7 +14163,7 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
     6. **Save the changes**: Click the top-right `Save` button to update the preview/live quiz.   
     ![send users to different results pages jump logic](https://loom.com/i/cf75df4cb4574b2ab7f4b81eff37c83e?workflows_screenshot=true)
     !!! info
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=M8ps59EfgFulqM9z&amp;start=123" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     With Jump Logic, you can send users to an external URL based on their answers.
     **Implementation**
@@ -14805,7 +14805,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.quiz` | Base quiz class - always present |
 | `.mobile` | Applied when viewport < 480px |
 | `.quiz-question` | Applied when showing question pages |
-| `.quiz-result` | Applied when showing result pages |
+| `.quiz-result` | Applied when showing results pages |
 | `.quiz-modal` | Modal type quiz styling |
 | `.quiz-inline` | Inline type quiz styling |
 | `.use-font-family-heading` | When custom heading font is set |
@@ -15202,7 +15202,7 @@ Use these patterns to target specific elements in your quiz:
 | `#qbc-{ref}` | Target specific choice block |
 | `#qbcc-{ref}` | Target specific choice option |
 | `#qbb-{ref}` | Target specific button block |
-| `#r-{ref}` | Target specific result page |
+| `#r-{ref}` | Target specific results page |
 | `#rs-{ref}` | Target specific result section |
 | `#rsb-{ref}` | Target specific result block |
 | `#rsbss-{ref}` | Target specific slot |
@@ -15576,7 +15576,7 @@ SOURCE: https://docs.revenuehunt.com/reference/quiz-builder/conditional-logic/
 ================================================================================
 
 ---
-description: "Set up conditional logic in RevenueHunt to branch quizzes, skip questions, and redirect to different result pages."
+description: "Set up conditional logic in RevenueHunt to branch quizzes, skip questions, and redirect to different results pages."
 ---
 
 # Conditional Logic
@@ -15584,7 +15584,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 --- Shopify Specific Content ---
 
 ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
-    In the Conditional Logic tab you can branch your quiz, tell it to skip certain questions or redirect customers to a different result pages. 
+    In the Conditional Logic tab you can branch your quiz, tell it to skip certain questions or redirect customers to a different results pages. 
     The right-hand menu allows you to add conditional logic rules to questions in the quiz. The center preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom.png)
@@ -15768,7 +15768,7 @@ SOURCE: https://docs.revenuehunt.com/reference/quiz-builder/
 ================================================================================
 
 ---
-description: "Complete guide to RevenueHunt Quiz Builder sections including questions, conditional logic, design, and result pages."
+description: "Complete guide to RevenueHunt Quiz Builder sections including questions, conditional logic, design, and results pages."
 ---
 
 # Quiz Builder
@@ -15781,7 +15781,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
     Quiz Builder is composed of different sections: 
     ### Quiz Builder Menu
     ![manual_shopifyV2_quizbuilder_quizbuilder_menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_menu.png)
-    From this menu you can switch between the following sections: [`Questions`](/reference/quiz-builder/questions/), [`Conditional logic`](/reference/quiz-builder/conditional-logic/), [`Quiz design`](/reference/quiz-builder/quiz-design/), [`Result pages`](/reference/quiz-builder/results-page/) and [`Success checklist`](/reference/dashboard/#success-checklist).
+    From this menu you can switch between the following sections: [`Questions`](/reference/quiz-builder/questions/), [`Conditional logic`](/reference/quiz-builder/conditional-logic/), [`Quiz design`](/reference/quiz-builder/quiz-design/), [`Results pages`](/reference/quiz-builder/results-page/) and [`Success checklist`](/reference/dashboard/#success-checklist).
     ### Questions
     The [`Questions`](/reference/quiz-builder/questions/) section allows you to add, edit and delete questions from your quiz.
     ### Quiz Preview 
@@ -16040,7 +16040,7 @@ Quiz metrics are can be found in several sections:
     !!! example
         From 7 responses, 42.9% of respondents saw `Results page 2`, 42.9% saw `Results page 1`, and 14.3% saw `Results page 3`.
     ![manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility](/images/manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility.png)
-    `Section visibility`- See which sections within result pages are displayed most often. Shows how often each section within your results pages is displayed to quiz respondents. Each bar represents the percentage of total result views where that section appeared. `Views` indicate the number of quiz completions that triggered each section to be shown. `Percentages` reflect how frequently each section was visible relative to all result views.
+    `Section visibility`- See which sections within results pages are displayed most often. Shows how often each section within your results pages is displayed to quiz respondents. Each bar represents the percentage of total result views where that section appeared. `Views` indicate the number of quiz completions that triggered each section to be shown. `Percentages` reflect how frequently each section was visible relative to all result views.
     !!! example
         From 3 views, 100% of respondents saw `S1: Your results are in!`, while `S2: Dry Skin`, `S4: Oily Skin,` and `S6: Sensitive Skin` each appeared in 33.3% of results.
     The Drop-off data (drop off rate per question) is available by default in the [Analytics](#analytics) section of the Quiz Builder.
@@ -16094,7 +16094,7 @@ To set up email notifications, go to [Quiz Settings](/reference/quiz-builder/qui
     `Copy to clipboard` - Copies the selected metadata to the clipboard.
     !!! info "Quiz Response Metadata Structure"
         ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
-        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic result pages, follow-up emails, and custom workflows.
+        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
         ---
         **Basic Information**
         `responseId` - Unique ID for this specific quiz response
@@ -16139,7 +16139,7 @@ To set up email notifications, go to [Quiz Settings](/reference/quiz-builder/qui
         Each result "slot" contains one or more product recommendations.
         Each product object includes: id, title, vendor, handle: Shopify product metadata
         `variants` - Variant ID, price, and image per product
-        `slotHeading / slotDescription` - Rich text HTML displayed on result pages
+        `slotHeading / slotDescription` - Rich text HTML displayed on results pages
         `image` - URL for the main product image
         `price` - Object with amount and currencyCode
         Example: `rsbss-33464eed` → contains "Ordinary Serum", $45 USD
@@ -16179,7 +16179,7 @@ To set up email notifications, go to [Quiz Settings](/reference/quiz-builder/qui
         `content or slots` - The rendered HTML or product data
     !!! info "Use Cases"
         This metadata allows you to:
-        - Personalize result pages based on user answers
+        - Personalize results pages based on user answers
         - Send dynamic follow-up emails with relevant product suggestions
         - Store quiz responses for analytics and customer profiling
         - Integrate with marketing tools like Klaviyo or HubSpot using dynamic fields
@@ -16201,7 +16201,7 @@ To set up email notifications, go to [Quiz Settings](/reference/quiz-builder/qui
     `Copy to clipboard` - Copies the selected metadata to the clipboard.
     !!! info "Quiz Response Metadata Structure"
         ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
-        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic result pages, follow-up emails, and custom workflows.
+        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
         ---
         **Basic Information**
         `responseId` - Unique ID for this specific quiz response
@@ -16246,7 +16246,7 @@ To set up email notifications, go to [Quiz Settings](/reference/quiz-builder/qui
         Each result "slot" contains one or more product recommendations.
         Each product object includes: id, title, vendor, handle: Shopify product metadata
         `variants` - Variant ID, price, and image per product
-        `slotHeading / slotDescription` - Rich text HTML displayed on result pages
+        `slotHeading / slotDescription` - Rich text HTML displayed on results pages
         `image` - URL for the main product image
         `price` - Object with amount and currencyCode
         Example: `rsbss-33464eed` → contains "Ordinary Serum", $45 USD
@@ -16286,7 +16286,7 @@ To set up email notifications, go to [Quiz Settings](/reference/quiz-builder/qui
         `content or slots` - The rendered HTML or product data
     !!! info "Use Cases"
         This metadata allows you to:
-        - Personalize result pages based on user answers
+        - Personalize results pages based on user answers
         - Send dynamic follow-up emails with relevant product suggestions
         - Store quiz responses for analytics and customer profiling
         - Integrate with marketing tools like Klaviyo or HubSpot using dynamic fields
@@ -16859,7 +16859,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     | `quiz.mode` | string | Always `'question'` on question pages |
     | `quiz.currentQuestion` | object | Current question data |
     | `quiz.questions` | array | All quiz questions |
-    | `quiz.results` | array | All result pages |
+    | `quiz.results` | array | All results pages |
     #### Accessing Answers
     | Property | Description |
     |----------|-------------|
@@ -17053,7 +17053,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts, set up integrtations, notificaiton emails to self and result emails to quiz takers, or restore a previously published version of the quiz.
     `Quiz name` - Click on the field to edit the quiz name.
     **Quiz behavior settings**
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
     `Pre-fill answers on retake` - Activating this setting will pre-fill the answers on the retake quiz page. Toggle to activate. When customers retake the quiz, their previous answers will be pre-filled so they only need to change what's different.
     **Quiz accessibility settings**
     `Disable zooming in on mobile devices` - Enabling this setting prevents the screen from zooming in when customers tap on text fields on mobile. This also disables pinch-to-zoom on the quiz.
@@ -17153,7 +17153,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `+ Add slot` - Adds a new slot to this [Products block](/reference/quiz-builder/results-page/#products-products-variants-collections). To remove a section or a block, click the `bin` icon.
     `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
     `+ Add section` - Adds a new section to this results page. To remove a section or a block, click the `bin` icon.
-    `+ Add results page` - Add another results page to your quiz. To remove a Result Page, click on the Result Page and go to [Result Page settings](#results-page-settings).
+    `+ Add results page` - Add another results page to your quiz. To remove a Results Page, click on the Results Page and go to [Results Page settings](#results-page-settings).
     !!! note
         The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional Logic tab.
     `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
@@ -17694,9 +17694,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     |----------|------|-------------|
     | `quiz.id` | string | Quiz identifier |
     | `quiz.mode` | string | Always `'result'` on results pages |
-    | `quiz.currentResult` | object | Current result page data |
+    | `quiz.currentResult` | object | Current results page data |
     | `quiz.questions` | array | All quiz questions |
-    | `quiz.results` | array | All result pages |
+    | `quiz.results` | array | All results pages |
     #### Accessing Answers
     | Property | Description |
     |----------|-------------|
@@ -18084,7 +18084,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - [Conditional logic](#conditional-logic), 
     - [Quiz design](#quiz-design), 
     - [Email notifications](#notifications), 
-    - [Result pages](#results-page) and 
+    - [Results pages](#results-page) and 
     - [Success checklist](https://docs.revenuehunt.com/reference/dashboard/#success-checklist).
     **Quiz Preview**
     ![manual_shopifyV2_quizbuilder_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png)
@@ -18491,7 +18491,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
     In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
     **Advanced quiz settings**
-    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
     **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
     **Quiz migration**
     **Export quiz to another store** - Clicking `Copy quiz code` generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
@@ -18674,9 +18674,9 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
     With Jump Logic, you can send users to different results pages based on their answers.
     !!! example "Example: Skincare Quiz that sends users to different results pages based on their answers"
         For example, you can create a quiz that asks the participant about their skin type and then based on the answer, you can redirect them to a different results page with custom content relevant to their skin type.
-    1. Set up Multiple Result Pages in your quiz. 
+    1. Set up Multiple Results Pages in your quiz. 
         !!! tip
-            Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+            Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -19031,8 +19031,8 @@ In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendatio
         !!! info "Klaviyo Template"
             ![how to send leads to klaviyo email template download1](/images/how_to_shopifyv2_klaviyo_shopify_v2_copy_template.png)
             The code contains several ready-to-use code snippets that allow you to display: 
-            - **Dynamic Results Page**: Display dynamic result page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
-            - **Static Results Page**: Display the complete result page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
+            - **Dynamic Results Page**: Display dynamic results page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
+            - **Static Results Page**: Display the complete results page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
             - **Individual recommendations**: Display individual product recommendations by slot. Use this to show specific recommended items with their details like title, description, price, and images.
             - **Question answers**: Display quiz information and individual question answers. Use this to show personal data and specific responses from quiz questions.
     8. Paste the code in the `HTML` block in Klaviyo email.

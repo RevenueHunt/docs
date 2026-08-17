@@ -340,7 +340,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
 
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the result page with JavaScript and printing an output onto an HTML element. 
+    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
 
     In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
 
@@ -349,7 +349,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
 
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the result page with JavaScript and printing an output onto an HTML element. 
+    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
 
     In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
 
@@ -357,7 +357,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
 
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the result page with JavaScript and printing an output onto an HTML element. 
+    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
 
     In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
 
@@ -365,7 +365,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
 
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the result page with JavaScript and printing an output onto an HTML element. 
+    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
 
     In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
 
@@ -373,7 +373,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
 
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the result page with JavaScript and printing an output onto an HTML element. 
+    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
 
     In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
 
@@ -381,7 +381,7 @@ Recommending products based on numerical answers (like age or room size) can be 
 
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
 
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the result page with JavaScript and printing an output onto an HTML element. 
+    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
 
     In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
 

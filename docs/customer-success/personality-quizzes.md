@@ -1,6 +1,6 @@
 ---
 icon: material/numeric-5
-description: "When to use a personality or 'type' quiz, why they get shared, how a scoring quiz actually works, what the result page should do, and how to plan one that collects useful data and routes shoppers to the right outcome."
+description: "When to use a personality or 'type' quiz, why they get shared, how a scoring quiz actually works, what the results page should do, and how to plan one that collects useful data and routes shoppers to the right outcome."
 ---
 
 # Personality Quizzes: What They're For and How to Plan One
@@ -92,7 +92,7 @@ There are a few common ways to turn the score into a result. You don't choose th
 
 - **Winning variable** (classic personality type): the variable with the highest tally wins, and the matching result is shown.
 - **Score range**: a numeric total falls into a band (for example 13-17 = "oily").
-- **Dedicated result pages**: when each outcome deserves its own full page, the quiz routes there.
+- **Dedicated results pages**: when each outcome deserves its own full page, the quiz routes there.
 
 Which one you use, and exactly how it's configured, depends on your app version (see [Setting it up](#setting-it-up)).
 
@@ -115,7 +115,7 @@ Which one you use, and exactly how it's configured, depends on your app version 
 
 ## Design the result to be shared and to sell
 
-The result page is where a personality quiz either pays off or stays a toy. Make it do both jobs:
+The results page is where a personality quiz either pays off or stays a toy. Make it do both jobs:
 
 - **Name and flatter the type first.** People share a result that says something good about them. Give the type a memorable name and a short, positive description *before* you recommend anything.
 - **Then recommend the matching set.** The type is the hook; the [recommended products or routine](/customer-success/recommend-bundles-kits/) are the payoff. Tie each pick back to the type so it reads as "made for you."

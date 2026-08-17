@@ -1,5 +1,5 @@
 ---
-description: "Set up conditional logic in RevenueHunt to branch quizzes, skip questions, and redirect to different result pages."
+description: "Set up conditional logic in RevenueHunt to branch quizzes, skip questions, and redirect to different results pages."
 ---
 
 # Conditional Logic
@@ -8,7 +8,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
-    In the Conditional Logic tab you can branch your quiz, tell it to skip certain questions or redirect customers to a different result pages. 
+    In the Conditional Logic tab you can branch your quiz, tell it to skip certain questions or redirect customers to a different results pages. 
     
     The right-hand menu allows you to add conditional logic rules to questions in the quiz. The center preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 

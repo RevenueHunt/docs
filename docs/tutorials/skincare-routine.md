@@ -968,7 +968,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
 
-    Et voila! You’ve just created a dynamic result page for your beauty quiz!
+    Et voila! You’ve just created a dynamic results page for your beauty quiz!
 
 === "WooCommerce"
 
@@ -988,7 +988,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
 
-    Et voila! You’ve just created a dynamic result page for your beauty quiz!
+    Et voila! You’ve just created a dynamic results page for your beauty quiz!
 
 
 
@@ -1010,7 +1010,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
 
-    Et voila! You’ve just created a dynamic result page for your beauty quiz!
+    Et voila! You’ve just created a dynamic results page for your beauty quiz!
 
 
 
@@ -1032,7 +1032,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
 
-    Et voila! You’ve just created a dynamic result page for your beauty quiz!
+    Et voila! You’ve just created a dynamic results page for your beauty quiz!
 
 
 
@@ -1054,7 +1054,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
 
-    Et voila! You’ve just created a dynamic result page for your beauty quiz!
+    Et voila! You’ve just created a dynamic results page for your beauty quiz!
 
 
 ## Preview the quiz

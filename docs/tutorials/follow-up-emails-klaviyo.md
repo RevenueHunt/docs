@@ -666,8 +666,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
             The code contains several ready-to-use code snippets that allow you to display: 
 
-            - **Dynamic Results Page**: Display dynamic result page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
-            - **Static Results Page**: Display the complete result page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
+            - **Dynamic Results Page**: Display dynamic results page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
+            - **Static Results Page**: Display the complete results page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
             - **Individual recommendations**: Display individual product recommendations by slot. Use this to show specific recommended items with their details like title, description, price, and images.
             - **Question answers**: Display quiz information and individual question answers. Use this to show personal data and specific responses from quiz questions.
         

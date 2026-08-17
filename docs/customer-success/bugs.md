@@ -71,7 +71,7 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
         !!! note "Status"
             Manual fix required. [Contact support](/how-to-guides/contact-customer-support/) to fix.
 
-    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
+    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple results pages are configured. The saving works correctly when applied to the default results page.
     
         !!! note "Status"
             Under investigation.
@@ -97,7 +97,7 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
         !!! note "Status"
             Under investigation.
 
-    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
+    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple results pages are configured. The saving works correctly when applied to the default results page.
     
         !!! note "Status"
             Under investigation.
@@ -113,7 +113,7 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
             
             If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
 
-    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
+    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple results pages are configured. The saving works correctly when applied to the default results page.
     
         !!! note "Status"
             Under investigation.
@@ -129,7 +129,7 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
             
             If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
 
-    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
+    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple results pages are configured. The saving works correctly when applied to the default results page.
     
         !!! note "Status"
             Under investigation.
@@ -145,7 +145,7 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
             
             If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
 
-    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
+    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple results pages are configured. The saving works correctly when applied to the default results page.
     
         !!! note "Status"
             Under investigation.

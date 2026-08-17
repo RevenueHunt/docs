@@ -255,7 +255,7 @@ Every completed response is sent to Klaviyo as `custom properties` on the custom
     | `TAG-[TAG_NAME]-[SQID]` | `true` for every [tag](/how-to-guides/use-customer-tags/) assigned. |
     | `VARIABLE_SCORES-[SQID]` | JSON with all [variable](/how-to-guides/set-up-scoring-quiz/) scores. |
     | `HIGHEST_VARIABLE_REF-[SQID]` | Reference of the top-scoring variable. |
-    | `RESULT_REF-[SQID]` | Reference or URL of the result page shown. |
+    | `RESULT_REF-[SQID]` | Reference or URL of the results page shown. |
     | `RESULT_SECTIONS-[SQID]` | JSON with the result sections shown. |
     | `RESULT_CONTENT_BY_BLOCK-[SQID]` | JSON with the content shown in each result block. |
     | `RECOMMENDATIONS_BY_SLOT-[SQID]` | JSON with the recommended products per [slot](/reference/quiz-builder/results-page/). |
@@ -276,7 +276,7 @@ Every completed response is sent to Klaviyo as `custom properties` on the custom
     | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
     | `PERMALINK-[ID]` | Direct link to the customer's results page. |
     | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
-    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the results page, for quizzes with multiple results. |
     | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
     | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
     | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
@@ -299,7 +299,7 @@ Every completed response is sent to Klaviyo as `custom properties` on the custom
     | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
     | `PERMALINK-[ID]` | Direct link to the customer's results page. |
     | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
-    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the results page, for quizzes with multiple results. |
     | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
     | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
     | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
@@ -322,7 +322,7 @@ Every completed response is sent to Klaviyo as `custom properties` on the custom
     | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
     | `PERMALINK-[ID]` | Direct link to the customer's results page. |
     | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
-    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the results page, for quizzes with multiple results. |
     | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
     | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
     | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
@@ -345,7 +345,7 @@ Every completed response is sent to Klaviyo as `custom properties` on the custom
     | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
     | `PERMALINK-[ID]` | Direct link to the customer's results page. |
     | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
-    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the results page, for quizzes with multiple results. |
     | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
     | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
     | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
@@ -368,7 +368,7 @@ Every completed response is sent to Klaviyo as `custom properties` on the custom
     | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
     | `PERMALINK-[ID]` | Direct link to the customer's results page. |
     | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
-    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the results page, for quizzes with multiple results. |
     | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
     | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
     | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
@@ -489,8 +489,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
                 The code contains several ready-to-use code snippets that allow you to display: 
 
-                - **Dynamic Results Page**: Display dynamic result page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
-                - **Static Results Page**: Display the complete result page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
+                - **Dynamic Results Page**: Display dynamic results page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
+                - **Static Results Page**: Display the complete results page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
                 - **Individual recommendations**: Display individual product recommendations by slot. Use this to show specific recommended items with their details like title, description, price, and images.
                 - **Question answers**: Display quiz information and individual question answers. Use this to show personal data and specific responses from quiz questions.
 

@@ -333,8 +333,8 @@ icon: simple/hubspot
     | `phone` | Contact's phone number (if provided) |
     | `quiz_{id}_response_id` | Unique identifier for this quiz response |
     | `quiz_{id}_quiz_name` | Name of the quiz |
-    | `quiz_{id}_result_ref` | Reference to the result page shown |
-    | `quiz_{id}_result_page_name` | Name of the result page |
+    | `quiz_{id}_result_ref` | Reference to the results page shown |
+    | `quiz_{id}_result_page_name` | Name of the results page |
     | `quiz_{id}_created_at` | Timestamp when the quiz was completed |
     | `quiz_{id}_tags` | Tags assigned based on quiz answers |
     | `quiz_{id}_variable_scores` | Variable scores calculated from answers |
@@ -374,7 +374,7 @@ icon: simple/hubspot
     | `permalink_[ID]` | URL of the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated list of all recommended product titles. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -430,7 +430,7 @@ icon: simple/hubspot
     | `permalink_[ID]` | URL of the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated list of all recommended product titles. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -486,7 +486,7 @@ icon: simple/hubspot
     | `permalink_[ID]` | URL of the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated list of all recommended product titles. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -542,7 +542,7 @@ icon: simple/hubspot
     | `permalink_[ID]` | URL of the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated list of all recommended product titles. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -598,7 +598,7 @@ icon: simple/hubspot
     | `permalink_[ID]` | URL of the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated list of all recommended product titles. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |

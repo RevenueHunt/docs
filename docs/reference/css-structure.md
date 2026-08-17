@@ -28,7 +28,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.quiz` | Base quiz class - always present |
 | `.mobile` | Applied when viewport < 480px |
 | `.quiz-question` | Applied when showing question pages |
-| `.quiz-result` | Applied when showing result pages |
+| `.quiz-result` | Applied when showing results pages |
 | `.quiz-modal` | Modal type quiz styling |
 | `.quiz-inline` | Inline type quiz styling |
 | `.use-font-family-heading` | When custom heading font is set |
@@ -425,7 +425,7 @@ Use these patterns to target specific elements in your quiz:
 | `#qbc-{ref}` | Target specific choice block |
 | `#qbcc-{ref}` | Target specific choice option |
 | `#qbb-{ref}` | Target specific button block |
-| `#r-{ref}` | Target specific result page |
+| `#r-{ref}` | Target specific results page |
 | `#rs-{ref}` | Target specific result section |
 | `#rsb-{ref}` | Target specific result block |
 | `#rsbss-{ref}` | Target specific slot |

@@ -287,7 +287,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     ![app settings catalogue](/images/manual_appsettings_catalogue.png)
 
-    `Metafields Namespaces` - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's result page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields.
+    `Metafields Namespaces` - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's results page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields.
     
     !!! tip
 

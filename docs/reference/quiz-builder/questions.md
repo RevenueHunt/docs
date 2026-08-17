@@ -1619,7 +1619,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple choi
     | `quiz.mode` | string | Always `'question'` on question pages |
     | `quiz.currentQuestion` | object | Current question data |
     | `quiz.questions` | array | All quiz questions |
-    | `quiz.results` | array | All result pages |
+    | `quiz.results` | array | All results pages |
 
     #### Accessing Answers
 

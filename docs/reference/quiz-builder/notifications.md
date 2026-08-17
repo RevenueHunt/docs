@@ -71,7 +71,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
         
-        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic result pages, follow-up emails, and custom workflows.
+        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
 
         ---
 
@@ -145,7 +145,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         `variants` - Variant ID, price, and image per product
 
-        `slotHeading / slotDescription` - Rich text HTML displayed on result pages
+        `slotHeading / slotDescription` - Rich text HTML displayed on results pages
 
         `image` - URL for the main product image
 
@@ -211,7 +211,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         This metadata allows you to:
 
-        - Personalize result pages based on user answers
+        - Personalize results pages based on user answers
 
         - Send dynamic follow-up emails with relevant product suggestions
 
@@ -424,7 +424,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
         
-        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic result pages, follow-up emails, and custom workflows.
+        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
 
         ---
 
@@ -498,7 +498,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         `variants` - Variant ID, price, and image per product
 
-        `slotHeading / slotDescription` - Rich text HTML displayed on result pages
+        `slotHeading / slotDescription` - Rich text HTML displayed on results pages
 
         `image` - URL for the main product image
 
@@ -564,7 +564,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         This metadata allows you to:
 
-        - Personalize result pages based on user answers
+        - Personalize results pages based on user answers
 
         - Send dynamic follow-up emails with relevant product suggestions
 

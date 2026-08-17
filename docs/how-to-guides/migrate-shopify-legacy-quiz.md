@@ -90,7 +90,7 @@ Custom JavaScript **will not be migrated**. The `💎Built for Shopify` app has 
 
 ### Product Mappings
 
-Questions, answer choices, and result pages migrate — but product links are tied to Shopify product IDs, which are the same across both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
+Questions, answer choices, and results pages migrate — but product links are tied to Shopify product IDs, which are the same across both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
 
 !!! tip
 

@@ -26,7 +26,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `+ Add section` - Adds a new section to this results page. To remove a section or a block, click the `bin` icon.
 
-    `+ Add results page` - Add another results page to your quiz. To remove a Result Page, click on the Result Page and go to [Result Page settings](#results-page-settings).
+    `+ Add results page` - Add another results page to your quiz. To remove a Results Page, click on the Results Page and go to [Results Page settings](#results-page-settings).
 
     !!! note
 
@@ -2371,9 +2371,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     |----------|------|-------------|
     | `quiz.id` | string | Quiz identifier |
     | `quiz.mode` | string | Always `'result'` on results pages |
-    | `quiz.currentResult` | object | Current result page data |
+    | `quiz.currentResult` | object | Current results page data |
     | `quiz.questions` | array | All quiz questions |
-    | `quiz.results` | array | All result pages |
+    | `quiz.results` | array | All results pages |
 
     #### Accessing Answers
 

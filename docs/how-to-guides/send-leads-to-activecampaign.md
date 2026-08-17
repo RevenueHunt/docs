@@ -422,7 +422,7 @@ icon: material/bullhorn-outline
     | `response_id` | Unique hash ID of this response. |
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `products_ids` | Comma-separated list of the recommended product IDs. |
     | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
     | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
@@ -473,7 +473,7 @@ icon: material/bullhorn-outline
     | `response_id` | Unique hash ID of this response. |
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `products_ids` | Comma-separated list of the recommended product IDs. |
     | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
     | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
@@ -527,7 +527,7 @@ icon: material/bullhorn-outline
     | `response_id` | Unique hash ID of this response. |
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `products_ids` | Comma-separated list of the recommended product IDs. |
     | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
     | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
@@ -581,7 +581,7 @@ icon: material/bullhorn-outline
     | `response_id` | Unique hash ID of this response. |
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `products_ids` | Comma-separated list of the recommended product IDs. |
     | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
     | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
@@ -635,7 +635,7 @@ icon: material/bullhorn-outline
     | `response_id` | Unique hash ID of this response. |
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `products_ids` | Comma-separated list of the recommended product IDs. |
     | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
     | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |

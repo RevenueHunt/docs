@@ -81,7 +81,7 @@ Across the top quizzes, the same handful of questions show up again and again. E
 - **How does your skin feel on an average day?** The single most common question in top skincare quizzes, and it maps cleanly to skin type without asking shoppers to self-diagnose.
 - **What's your main skin concern?** Acne, aging, dullness, redness, hyperpigmentation. Drives which actives you recommend, and it's your most powerful [segment](/customer-success/use-customer-tags-in-quiz/).
 - **Do you have sensitive skin / anything we should avoid?** Lets you **exclude** irritating products, which protects trust.
-- **What's your goal?** "Clear breakouts," "even skin tone," "a simple routine." Frames the result page and the follow-up email.
+- **What's your goal?** "Clear breakouts," "even skin tone," "a simple routine." Frames the results page and the follow-up email.
 - **Age range** (optional). Useful only if it changes what you recommend, otherwise cut it.
 
 Keep it to around **6 questions**. The benchmark says skincare shoppers finish at that length; pile on more and completion slides.

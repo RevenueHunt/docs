@@ -405,9 +405,9 @@ icon: simple/zapier
     | `tags` | Array of all [tags](/how-to-guides/use-customer-tags/) assigned. |
     | `variableScores` | All [variables](/how-to-guides/set-up-scoring-quiz/) and their final scores. |
     | `highestVariableRef` | Reference of the top-scoring variable. |
-    | `resultRef` | Reference of the result page shown. |
+    | `resultRef` | Reference of the results page shown. |
     | `recommendationsBySlot` | The recommended items, organized by [slot](/reference/quiz-builder/results-page/) reference. |
-    | `resultSections` | The result page sections that were visible to the customer. |
+    | `resultSections` | The results page sections that were visible to the customer. |
     | `resultContentByBlock` | The full content (text, images and slots) of each result block. |
 
     !!! info "Inside `recommendationsBySlot`"
@@ -474,9 +474,9 @@ icon: simple/zapier
         }
         ```
 
-    ??? example "Result Page Content"
+    ??? example "Results Page Content"
 
-        The quiz’s result page content is included in two sections:
+        The quiz’s results page content is included in two sections:
 
         `resultSections` → Organized view of all result blocks (headings, text, products, etc.)
 
@@ -524,7 +524,7 @@ icon: simple/zapier
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
     | `created_at` | ISO8601 timestamp of the response. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
     | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
     | `tags` | Comma-separated list of all tags assigned. |
@@ -569,7 +569,7 @@ icon: simple/zapier
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
     | `created_at` | ISO8601 timestamp of the response. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
     | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
     | `tags` | Comma-separated list of all tags assigned. |
@@ -614,7 +614,7 @@ icon: simple/zapier
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
     | `created_at` | ISO8601 timestamp of the response. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
     | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
     | `tags` | Comma-separated list of all tags assigned. |
@@ -659,7 +659,7 @@ icon: simple/zapier
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
     | `created_at` | ISO8601 timestamp of the response. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
     | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
     | `tags` | Comma-separated list of all tags assigned. |
@@ -704,7 +704,7 @@ icon: simple/zapier
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
     | `created_at` | ISO8601 timestamp of the response. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
     | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
     | `tags` | Comma-separated list of all tags assigned. |

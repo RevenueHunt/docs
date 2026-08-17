@@ -370,7 +370,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         - `qbc-skintype` (question block choice)
         - `qbi-email` (question block input)
         - `q-concerns` (question)
-        - `r-results` (result page)
+        - `r-results` (results page)
 
         !!! warning "Use the Exact ID"
 
@@ -529,7 +529,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     | `quiz.mode` | string | Always `'question'` on question pages |
     | `quiz.currentQuestion` | object | Current question data |
     | `quiz.questions` | array | All quiz questions |
-    | `quiz.results` | array | All result pages |
+    | `quiz.results` | array | All results pages |
 
     **Accessing Answers (Question Mode)**
 
@@ -573,7 +573,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     | Property | Description |
     |----------|-------------|
     | `quiz.mode` | Always `'result'` on results pages |
-    | `quiz.currentResult` | Current result page data |
+    | `quiz.currentResult` | Current results page data |
     | `quiz.resultContext.slotItems` | Object of recommended products/collections keyed by Shopify GID |
     | `quiz.resultContext.cartItems` | Array of items currently in cart |
     | `quiz.resultContext.discounts` | Object with `applied` array and `eligible` boolean |
@@ -1301,7 +1301,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     In the `💎Built for Shopify` version of the RevenueHunt app, you can add interactive elements to your quiz results page:
 
-    1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
 
     
         !!! example "Add the `onclick` functionality via the Custom Javascript."
@@ -1351,7 +1351,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     You can do it two ways: 
 
-    1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
 
         !!! example "Add the `onclick` functionality via the Custom Javascript."
 
@@ -1397,7 +1397,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     You can do it two ways: 
 
-    1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
 
         !!! example "Add the `onclick` functionality via the Custom Javascript."
 
@@ -1442,7 +1442,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 === "Magento"
     You can do it two ways: 
 
-    1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
 
         !!! example "Add the `onclick` functionality via the Custom Javascript."
 
@@ -1488,7 +1488,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     You can do it two ways: 
 
-    1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
 
         !!! example "Add the `onclick` functionality via the Custom Javascript."
 
@@ -1533,7 +1533,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 === "Standalone"
     You can do it two ways: 
 
-    1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
 
         !!! example "Add the `onclick` functionality via the Custom Javascript."
 

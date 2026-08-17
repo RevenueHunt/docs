@@ -416,7 +416,7 @@ You can receive an email notification every time someone completes the quiz or p
     - `firstName`, `fullName`, `email`: basic user info
     - `answersByBlock`: customer’s answers to quiz questions
     - `recommendationsBySlot`: products recommended by the quiz
-    - `resultContentByBlock`: dynamic text, tips, and headings from the result page
+    - `resultContentByBlock`: dynamic text, tips, and headings from the results page
 
 
     
@@ -424,7 +424,7 @@ You can receive an email notification every time someone completes the quiz or p
 
         ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
         
-        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic result pages, follow-up emails, and custom workflows.
+        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
 
         ---
 
@@ -498,7 +498,7 @@ You can receive an email notification every time someone completes the quiz or p
 
         `variants` - Variant ID, price, and image per product
 
-        `slotHeading / slotDescription` - Rich text HTML displayed on result pages
+        `slotHeading / slotDescription` - Rich text HTML displayed on results pages
 
         `image` - URL for the main product image
 

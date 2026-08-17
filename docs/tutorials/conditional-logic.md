@@ -334,10 +334,10 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
         For example, you can create a quiz that asks the participant about their skin type and then based on the answer, you can redirect them to a different results page with custom content relevant to their skin type.
 
-    1. Set up Multiple Result Pages in your quiz. 
+    1. Set up Multiple Results Pages in your quiz. 
     
         !!! tip
-            Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+            Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -449,7 +449,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
         - redirect the customer to another, external URL directly from the quiz,
         - create branching in the quiz to send the customer to different answering paths,
         - create branching to link different products to the same choices,
-        - or send customers to different Result Pages.
+        - or send customers to different Results Pages.
 
 === "WooCommerce"
 
@@ -490,7 +490,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
         - redirect the customer to another, external URL directly from the quiz,
         - create branching in the quiz to send the customer to different answering paths,
         - create branching to link different products to the same choices,
-        - or send customers to different Result Pages.
+        - or send customers to different Results Pages.
 
 
 === "Magento"
@@ -531,7 +531,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
         - redirect the customer to another, external URL directly from the quiz,
         - create branching in the quiz to send the customer to different answering paths,
         - create branching to link different products to the same choices,
-        - or send customers to different Result Pages.
+        - or send customers to different Results Pages.
 
 
 === "BigCommerce"
@@ -572,7 +572,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
         - redirect the customer to another, external URL directly from the quiz,
         - create branching in the quiz to send the customer to different answering paths,
         - create branching to link different products to the same choices,
-        - or send customers to different Result Pages.
+        - or send customers to different Results Pages.
 
 === "Standalone"
 
@@ -613,7 +613,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
         - redirect the customer to another, external URL directly from the quiz,
         - create branching in the quiz to send the customer to different answering paths,
         - create branching to link different products to the same choices,
-        - or send customers to different Result Pages.
+        - or send customers to different Results Pages.
 
 
 

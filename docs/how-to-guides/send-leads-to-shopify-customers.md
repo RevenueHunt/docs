@@ -109,7 +109,7 @@ When someone completes the quiz and leaves their email address, the app creates 
         Whether the subscription is recorded as single or confirmed opt-in depends on your settings in the quiz editor. See [Change subscribed/consent status](#change-subscribedconsent-status-for-email-and-phone-questions) and [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
 
     !!! tip "Shopify Flow receives much more"
-        The customer profile holds identity, tags and consent only. The `Quiz Completed` trigger for [Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/) carries the full response: every answer with its question title, block reference and choice references, the variable scores, the result page, and each recommended product with its product and variant GIDs, price, URL, rank and slot. See [What data is sent](/how-to-guides/automate-quiz-completions-with-shopify-flow/#what-data-is-sent) for the complete field list.
+        The customer profile holds identity, tags and consent only. The `Quiz Completed` trigger for [Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/) carries the full response: every answer with its question title, block reference and choice references, the variable scores, the results page, and each recommended product with its product and variant GIDs, price, URL, rank and slot. See [What data is sent](/how-to-guides/automate-quiz-completions-with-shopify-flow/#what-data-is-sent) for the complete field list.
 
 === "Shopify (Legacy)"
 

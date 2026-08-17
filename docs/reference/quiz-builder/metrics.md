@@ -553,7 +553,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility](/images/manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility.png)
 
-    `Section visibility`- See which sections within result pages are displayed most often. Shows how often each section within your results pages is displayed to quiz respondents. Each bar represents the percentage of total result views where that section appeared. `Views` indicate the number of quiz completions that triggered each section to be shown. `Percentages` reflect how frequently each section was visible relative to all result views.
+    `Section visibility`- See which sections within results pages are displayed most often. Shows how often each section within your results pages is displayed to quiz respondents. Each bar represents the percentage of total result views where that section appeared. `Views` indicate the number of quiz completions that triggered each section to be shown. `Percentages` reflect how frequently each section was visible relative to all result views.
 
     !!! example
         From 3 views, 100% of respondents saw `S1: Your results are in!`, while `S2: Dry Skin`, `S4: Oily Skin,` and `S6: Sensitive Skin` each appeared in 33.3% of results.

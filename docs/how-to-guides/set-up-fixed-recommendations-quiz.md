@@ -520,7 +520,7 @@ Set up multiple results pages with unique fixed product recommendations and text
 
         !!! tip
 
-            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+            Check this article [Set Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
 
     3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
 
@@ -563,7 +563,7 @@ Set up multiple results pages with unique fixed product recommendations and text
 
         !!! tip
 
-            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+            Check this article [Set Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
 
     3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
 
@@ -606,7 +606,7 @@ Set up multiple results pages with unique fixed product recommendations and text
 
         !!! tip
 
-            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+            Check this article [Set Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
 
     3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
 
@@ -649,7 +649,7 @@ Set up multiple results pages with unique fixed product recommendations and text
 
         !!! tip
 
-            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+            Check this article [Set Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
 
     3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
 
@@ -692,7 +692,7 @@ Set up multiple results pages with unique fixed product recommendations and text
 
         !!! tip
 
-            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+            Check this article [Set Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
 
     3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
 

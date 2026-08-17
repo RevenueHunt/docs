@@ -482,9 +482,9 @@ icon: material/sale
     In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
 
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
-        ![how to add discount multiple result pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
+        ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
-        ![how to add discount result pages](/images/how_to_add_discount_result_pages.png)
+        ![how to add discount results pages](/images/how_to_add_discount_result_pages.png)
     3. **Add discount code**: In this case, *Results Page 1* will be left as default with no discount and the discount will be applied to *Results Page 2*. To do that, open the `Results Page 2 Settings -> Discount code settings -> Discount code` and click `add`. You can then edit the `Visible % discount` and add the code.
 
         !!! warning
@@ -520,9 +520,9 @@ icon: material/sale
     In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
 
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
-        ![how to add discount multiple result pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
+        ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
-        ![how to add discount result pages](/images/how_to_add_discount_result_pages.png)
+        ![how to add discount results pages](/images/how_to_add_discount_result_pages.png)
     3. **Add discount code**: Follow the instructions in the [first part of this article](#how-to-add-a-discounts-to-your-quiz) to add a discount code to your quiz.
     4. **Add a discount question**: Next, navigate to the [Quiz Builder](/reference/quiz-builder/) and add a `discount question` by clicking `+`. 
         ![how to add discount discount question](/images/how_to_add_discount_discount_question.png)
@@ -551,9 +551,9 @@ icon: material/sale
     In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
 
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
-        ![how to add discount multiple result pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
+        ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
-        ![how to add discount result pages](/images/how_to_add_discount_result_pages.png)
+        ![how to add discount results pages](/images/how_to_add_discount_result_pages.png)
     3. **Add discount code**: Follow the instructions in the [first part of this article](#how-to-add-a-discounts-to-your-quiz) to add a discount code to your quiz.
     4. **Add a discount question**: Next, navigate to the [Quiz Builder](/reference/quiz-builder/) and add a `discount question` by clicking `+`. 
         ![how to add discount discount question](/images/how_to_add_discount_discount_question.png)
@@ -582,9 +582,9 @@ icon: material/sale
     In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
 
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
-        ![how to add discount multiple result pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
+        ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
-        ![how to add discount result pages](/images/how_to_add_discount_result_pages.png)
+        ![how to add discount results pages](/images/how_to_add_discount_result_pages.png)
     3. **Add discount code**: Follow the instructions in the [first part of this article](#how-to-add-a-discounts-to-your-quiz) to add a discount code to your quiz.
     4. **Add a discount question**: Next, navigate to the [Quiz Builder](/reference/quiz-builder/) and add a `discount question` by clicking `+`. 
         ![how to add discount discount question](/images/how_to_add_discount_discount_question.png)
@@ -613,9 +613,9 @@ icon: material/sale
     In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
 
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
-        ![how to add discount multiple result pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
+        ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
-        ![how to add discount result pages](/images/how_to_add_discount_result_pages.png)
+        ![how to add discount results pages](/images/how_to_add_discount_result_pages.png)
     3. **Add discount code**: Follow the instructions in the [first part of this article](#how-to-add-a-discounts-to-your-quiz) to add a discount code to your quiz.
     4. **Add a discount question**: Next, navigate to the [Quiz Builder](/reference/quiz-builder/) and add a `discount question` by clicking `+`. 
         ![how to add discount discount question](/images/how_to_add_discount_discount_question.png)

@@ -644,7 +644,7 @@ These are the known bugs that we are aware of and are working to fix:
     - **Return Key Behavior**: When pressing the return key to make a new line on the css when on an input question, it will act as an enter on the input and move to the results page tab.
         !!! note "Status"
             Under investigation.
-    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
+    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple results pages are configured. The saving works correctly when applied to the default results page.
         !!! note "Status"
             Under investigation.
     These are the known bugs that we are aware of and are working to fix:
@@ -652,7 +652,7 @@ These are the known bugs that we are aware of and are working to fix:
         !!! note "Status"
             Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
             If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
-    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
+    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple results pages are configured. The saving works correctly when applied to the default results page.
         !!! note "Status"
             Under investigation.
     These are the known bugs that we are aware of and are working to fix:
@@ -660,7 +660,7 @@ These are the known bugs that we are aware of and are working to fix:
         !!! note "Status"
             Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
             If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
-    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
+    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple results pages are configured. The saving works correctly when applied to the default results page.
         !!! note "Status"
             Under investigation.
     These are the known bugs that we are aware of and are working to fix:
@@ -668,7 +668,7 @@ These are the known bugs that we are aware of and are working to fix:
         !!! note "Status"
             Since Google transitioned from **Universal Analytics** to **GA4**, event tracking reliability has significantly decreased. The implementation code may be correct and events may fire as expected, but GA4 can still fail to read, process, or report them accurately. 
             If this occurs, we recommend **contacting Google Support**, as the issue is likely on their end.
-    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple result pages are configured. The saving works correctly when applied to the default results page.
+    - **Custom JavaScript on Multiple Results Pages**: Custom JavaScript code may not save properly when multiple results pages are configured. The saving works correctly when applied to the default results page.
         !!! note "Status"
             Under investigation.
 ## ⚖️ Current limitations (by design)
@@ -1771,7 +1771,7 @@ SOURCE: https://docs.revenuehunt.com/customer-success/personality-quizzes/
 
 ---
 icon: material/numeric-5
-description: "When to use a personality or 'type' quiz, why they get shared, how a scoring quiz actually works, what the result page should do, and how to plan one that collects useful data and routes shoppers to the right outcome."
+description: "When to use a personality or 'type' quiz, why they get shared, how a scoring quiz actually works, what the results page should do, and how to plan one that collects useful data and routes shoppers to the right outcome."
 ---
 
 # Personality Quizzes: What They're For and How to Plan One
@@ -1863,7 +1863,7 @@ There are a few common ways to turn the score into a result. You don't choose th
 
 - **Winning variable** (classic personality type): the variable with the highest tally wins, and the matching result is shown.
 - **Score range**: a numeric total falls into a band (for example 13-17 = "oily").
-- **Dedicated result pages**: when each outcome deserves its own full page, the quiz routes there.
+- **Dedicated results pages**: when each outcome deserves its own full page, the quiz routes there.
 
 Which one you use, and exactly how it's configured, depends on your app version (see [Setting it up](#setting-it-up)).
 
@@ -1886,7 +1886,7 @@ Which one you use, and exactly how it's configured, depends on your app version 
 
 ## Design the result to be shared and to sell
 
-The result page is where a personality quiz either pays off or stays a toy. Make it do both jobs:
+The results page is where a personality quiz either pays off or stays a toy. Make it do both jobs:
 
 - **Name and flatter the type first.** People share a result that says something good about them. Give the type a memorable name and a short, positive description *before* you recommend anything.
 - **Then recommend the matching set.** The type is the hook; the [recommended products or routine](/customer-success/recommend-bundles-kits/) are the payoff. Tie each pick back to the type so it reads as "made for you."
@@ -3882,7 +3882,7 @@ Across the top quizzes, the same handful of questions show up again and again. E
 - **How does your skin feel on an average day?** The single most common question in top skincare quizzes, and it maps cleanly to skin type without asking shoppers to self-diagnose.
 - **What's your main skin concern?** Acne, aging, dullness, redness, hyperpigmentation. Drives which actives you recommend, and it's your most powerful [segment](/customer-success/use-customer-tags-in-quiz/).
 - **Do you have sensitive skin / anything we should avoid?** Lets you **exclude** irritating products, which protects trust.
-- **What's your goal?** "Clear breakouts," "even skin tone," "a simple routine." Frames the result page and the follow-up email.
+- **What's your goal?** "Clear breakouts," "even skin tone," "a simple routine." Frames the results page and the follow-up email.
 - **Age range** (optional). Useful only if it changes what you recommend, otherwise cut it.
 
 Keep it to around **6 questions**. The benchmark says skincare shoppers finish at that length; pile on more and completion slides.
@@ -6649,9 +6649,9 @@ Adding discount coupons into your quiz allows customers to enjoy special offers 
 ## Apply Discount Only if Customer Leaves Their Email
     In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
-        ![how to add discount multiple result pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
+        ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
-        ![how to add discount result pages](/images/how_to_add_discount_result_pages.png)
+        ![how to add discount results pages](/images/how_to_add_discount_result_pages.png)
     3. **Add discount code**: Follow the instructions in the [first part of this article](#how-to-add-a-discounts-to-your-quiz) to add a discount code to your quiz.
     4. **Add a discount question**: Next, navigate to the [Quiz Builder](/reference/quiz-builder/) and add a `discount question` by clicking `+`. 
         ![how to add discount discount question](/images/how_to_add_discount_discount_question.png)
@@ -6669,9 +6669,9 @@ Adding discount coupons into your quiz allows customers to enjoy special offers 
     8. **Test the quiz**: Once the discounts are set up, update the preview/live quiz with the `Publish` button. Then, test the quiz by clicking the `Preview` button in the top right corner of the app.
     In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
-        ![how to add discount multiple result pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
+        ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
-        ![how to add discount result pages](/images/how_to_add_discount_result_pages.png)
+        ![how to add discount results pages](/images/how_to_add_discount_result_pages.png)
     3. **Add discount code**: Follow the instructions in the [first part of this article](#how-to-add-a-discounts-to-your-quiz) to add a discount code to your quiz.
     4. **Add a discount question**: Next, navigate to the [Quiz Builder](/reference/quiz-builder/) and add a `discount question` by clicking `+`. 
         ![how to add discount discount question](/images/how_to_add_discount_discount_question.png)
@@ -6689,9 +6689,9 @@ Adding discount coupons into your quiz allows customers to enjoy special offers 
     8. **Test the quiz**: Once the discounts are set up, update the preview/live quiz with the `Publish` button. Then, test the quiz by clicking the `Preview` button in the top right corner of the app.
     In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
-        ![how to add discount multiple result pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
+        ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
-        ![how to add discount result pages](/images/how_to_add_discount_result_pages.png)
+        ![how to add discount results pages](/images/how_to_add_discount_result_pages.png)
     3. **Add discount code**: Follow the instructions in the [first part of this article](#how-to-add-a-discounts-to-your-quiz) to add a discount code to your quiz.
     4. **Add a discount question**: Next, navigate to the [Quiz Builder](/reference/quiz-builder/) and add a `discount question` by clicking `+`. 
         ![how to add discount discount question](/images/how_to_add_discount_discount_question.png)
@@ -6709,9 +6709,9 @@ Adding discount coupons into your quiz allows customers to enjoy special offers 
     8. **Test the quiz**: Once the discounts are set up, update the preview/live quiz with the `Publish` button. Then, test the quiz by clicking the `Preview` button in the top right corner of the app.
     In RevenueHunt app, it is possible to apply a discount at checkout only for the customers who leave their email in the quiz. To set this up you need to follow these steps:
     1. **Create multiple results pages**: To do that, go to the [`Results Page Settings -> Advanced -> Multiple Results Pages`](/reference/quiz-builder/results-page/#multiple-results-pages-settings) and click ``Activate`. [Multiple Results Pages Settings](/reference/quiz-builder/results-page/#multiple-results-pages-settings) screen will appear and a second Results page will be added.
-        ![how to add discount multiple result pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
+        ![how to add discount multiple results pages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="300"}
     2. You can then rename the page and edit it by clicking `edit`.
-        ![how to add discount result pages](/images/how_to_add_discount_result_pages.png)
+        ![how to add discount results pages](/images/how_to_add_discount_result_pages.png)
     3. **Add discount code**: Follow the instructions in the [first part of this article](#how-to-add-a-discounts-to-your-quiz) to add a discount code to your quiz.
     4. **Add a discount question**: Next, navigate to the [Quiz Builder](/reference/quiz-builder/) and add a `discount question` by clicking `+`. 
         ![how to add discount discount question](/images/how_to_add_discount_discount_question.png)
@@ -7116,7 +7116,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 ## Customization Examples
 ### Example 1: Trigger functions from an element in the results page
     You can do it two ways: 
-    1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
         !!! example "Add the `onclick` functionality via the Custom Javascript."
             ```html
             <!-- In Result page in a HTML block -->
@@ -7149,7 +7149,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             destination_element.appendChild(element);
             ```
     You can do it two ways: 
-    1. Create an element in the result page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
         !!! example "Add the `onclick` functionality via the Custom Javascript."
             ```html
             <!-- In Result page in a HTML block -->
@@ -9509,7 +9509,7 @@ This article explains how to customize the quiz design with built-in app setting
 The Results Page also has its own customization options. 
 !!! tip
     Check [this article](/how-to-guides/edit-results-page/) to learn more about styling your results page.
-In addition to the basic elements, you can set a unique background image for each result page through the [results page settings](/reference/quiz-builder/results-page/). You can also use these settings to apply [custom JavaScript](/how-to-guides/add-javascript/) to your quiz design.
+In addition to the basic elements, you can set a unique background image for each results page through the [results page settings](/reference/quiz-builder/results-page/). You can also use these settings to apply [custom JavaScript](/how-to-guides/add-javascript/) to your quiz design.
 If you find the default results page too restrictive, you might want to **create a custom results page** on your site and direct all quiz data to it using the [Callback Function](/how-to-guides/use-callback-function/). This function enables you to collect all quiz responses in JSON format on any page you choose.
 ## Customization Examples
 We offer complete flexibility to developers for personalizing both the quiz and the results page. Take a look at [these examples](https://revenuehunt.com/templates/#customization) to discover the various designs you can achieve with our app using some creativity and CSS code.
@@ -11502,7 +11502,7 @@ Custom JavaScript **will not be migrated**. The `💎Built for Shopify` app has 
 
 ### Product Mappings
 
-Questions, answer choices, and result pages migrate — but product links are tied to Shopify product IDs, which are the same across both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
+Questions, answer choices, and results pages migrate — but product links are tied to Shopify product IDs, which are the same across both app versions on the same store. **Product mappings should transfer correctly** for stores where the legacy app and the `💎Built for Shopify` app are installed on the same Shopify account.
 
 !!! tip
 
@@ -13893,16 +13893,16 @@ Recommending products based on numerical answers (like age or room size) can be 
     This helps users select a range easily while ensuring you offer relevant products.
 ## Custom Calculations
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the result page with JavaScript and printing an output onto an HTML element. 
+    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
     In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the result page with JavaScript and printing an output onto an HTML element. 
+    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
     In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the result page with JavaScript and printing an output onto an HTML element. 
+    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
     In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
     RevenueHunt Quizzes currently doesn't have a feature that would allow custom result calculations based on numerical user input.
-    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the result page with JavaScript and printing an output onto an HTML element. 
+    If you're building a quiz that requires custom calculations based on a precise numerical user input, for example a BMI calculation or dosage calculation, your developer can use the [Custom JavaScript](/how-to-guides/add-javascript/) feature to add custom logic to your quiz results page. This approach involves accessing the quiz answers via the `console.log()` on the results page, programing custom behaviors on the results page with JavaScript and printing an output onto an HTML element. 
     In our [JavaScript guide](/how-to-guides/add-javascript/) we provide an example of adding a [BMI calculator](/how-to-guides/add-javascript/#example-2-insert-calculations) to your results page. 
 ---
 This article explains how to recommend products based on numerical inputs in your quiz.
@@ -15248,7 +15248,7 @@ Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign all
     | `response_id` | Unique hash ID of this response. |
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `products_ids` | Comma-separated list of the recommended product IDs. |
     | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
     | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
@@ -15283,7 +15283,7 @@ Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign all
     | `response_id` | Unique hash ID of this response. |
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `products_ids` | Comma-separated list of the recommended product IDs. |
     | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
     | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
@@ -15318,7 +15318,7 @@ Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign all
     | `response_id` | Unique hash ID of this response. |
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `products_ids` | Comma-separated list of the recommended product IDs. |
     | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
     | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
@@ -15353,7 +15353,7 @@ Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign all
     | `response_id` | Unique hash ID of this response. |
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `products_ids` | Comma-separated list of the recommended product IDs. |
     | `[SLIDE_HASHID]` | One field per question, keyed by the slide's internal hash ID. The value is the text of the answer selected. |
     | `tags` | All [tags](/how-to-guides/use-customer-tags/) assigned, joined into a single field. |
@@ -15603,7 +15603,7 @@ Integrating your RevenueHunt Product Recommendation Quiz with HubSpot can improv
     | `permalink_[ID]` | URL of the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated list of all recommended product titles. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -15642,7 +15642,7 @@ Integrating your RevenueHunt Product Recommendation Quiz with HubSpot can improv
     | `permalink_[ID]` | URL of the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated list of all recommended product titles. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -15681,7 +15681,7 @@ Integrating your RevenueHunt Product Recommendation Quiz with HubSpot can improv
     | `permalink_[ID]` | URL of the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated list of all recommended product titles. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -15720,7 +15720,7 @@ Integrating your RevenueHunt Product Recommendation Quiz with HubSpot can improv
     | `permalink_[ID]` | URL of the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated list of all recommended product titles. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -15946,7 +15946,7 @@ Every completed response is sent to Klaviyo as `custom properties` on the custom
     | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
     | `PERMALINK-[ID]` | Direct link to the customer's results page. |
     | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
-    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the results page, for quizzes with multiple results. |
     | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
     | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
     | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
@@ -15964,7 +15964,7 @@ Every completed response is sent to Klaviyo as `custom properties` on the custom
     | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
     | `PERMALINK-[ID]` | Direct link to the customer's results page. |
     | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
-    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the results page, for quizzes with multiple results. |
     | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
     | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
     | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
@@ -15982,7 +15982,7 @@ Every completed response is sent to Klaviyo as `custom properties` on the custom
     | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
     | `PERMALINK-[ID]` | Direct link to the customer's results page. |
     | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
-    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the results page, for quizzes with multiple results. |
     | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
     | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
     | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
@@ -16000,7 +16000,7 @@ Every completed response is sent to Klaviyo as `custom properties` on the custom
     | `$consent` | Array like `["web", "email"]`, if Klaviyo consent is enabled. |
     | `PERMALINK-[ID]` | Direct link to the customer's results page. |
     | `PERMALINK-HASH-[ID]` | Unique hash of those results. |
-    | `RESULT-PAGE-NAME-[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `RESULT-PAGE-NAME-[ID]` | Name of the results page, for quizzes with multiple results. |
     | `Q-[ID] [SLIDE_ID]: [SLIDE_TITLE]` | The text of the selected answer. |
     | `TAGS-[ID]` | Comma-separated list of all [tags](/how-to-guides/use-customer-tags/) assigned. |
     | `T-[ID]: [TAG_NAME]` | `true` for every individual tag assigned. |
@@ -16885,7 +16885,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
     | `permalink_[ID]` | Link to the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -16907,7 +16907,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
     | `permalink_[ID]` | Link to the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -16929,7 +16929,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
     | `permalink_[ID]` | Link to the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -16951,7 +16951,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
     | `permalink_[ID]` | Link to the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -18403,7 +18403,7 @@ Automating the transfer of leads from your quizzes to your Customer Relationship
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
     | `created_at` | ISO8601 timestamp of the response. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
     | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
     | `tags` | Comma-separated list of all tags assigned. |
@@ -18435,7 +18435,7 @@ Automating the transfer of leads from your quizzes to your Customer Relationship
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
     | `created_at` | ISO8601 timestamp of the response. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
     | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
     | `tags` | Comma-separated list of all tags assigned. |
@@ -18467,7 +18467,7 @@ Automating the transfer of leads from your quizzes to your Customer Relationship
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
     | `created_at` | ISO8601 timestamp of the response. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
     | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
     | `tags` | Comma-separated list of all tags assigned. |
@@ -18499,7 +18499,7 @@ Automating the transfer of leads from your quizzes to your Customer Relationship
     | `permalink` | URL of the customer's results page. |
     | `permalink_hash` | The unique hash part of that URL. |
     | `created_at` | ISO8601 timestamp of the response. |
-    | `result_page_name` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name` | Name of the results page, for quizzes with multiple results. |
     | `[SLIDE_TITLE]` | One property per question, keyed by the slide title. For example `What is your skin type?: Oily`. |
     | `[TAG_NAME]` | One property per [tag](/how-to-guides/use-customer-tags/) assigned, with a value of `true`. For example `Skin Type: Oily: true`. |
     | `tags` | Comma-separated list of all tags assigned. |
@@ -19282,10 +19282,10 @@ SOURCE: https://docs.revenuehunt.com/how-to-guides/set-multiple-result-pages/
 
 ---
 icon: material/file-document-multiple
-description: "Learn how to set up multiple result pages in RevenueHunt to show personalized content."
+description: "Learn how to set up multiple results pages in RevenueHunt to show personalized content."
 ---
 
-# How to Set Up Multiple Result Pages
+# How to Set Up Multiple Results Pages
 
 With the RevenueHunt app it is possible to set up Multiple Results Pages. To add an extra Results Page to your quiz follow the instructions below.
 
@@ -19312,9 +19312,9 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
     5. In the menu, you will see all the results pages created in this quiz.
         ![manual_quizbuilder_resultspage_settings_multipleresultspages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
     6. The default results page will be `Results Page 1`. It will be marked with `This is currently the default Results Page` text. You can click and edit this text to rename the results page for easier identification.
-    7. To create an additional result page click the `Create new Results Page` button.
+    7. To create an additional results page click the `Create new Results Page` button.
     8. A second results page will appear. To set this results page as the new default, click the `set` button. To edit the contents of this results page click `edit`. The quiz builder will switch to this results page and you will be able to set up different settings for each of your results page such as discounts, contents, product blocks or settings.
-    9. Once you've added your result pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
+    9. Once you've added your results pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
         ![how_to_legacy_multiple_result_pages_jumplogic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
     10. Scroll down the list of questions and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
@@ -19328,9 +19328,9 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
     5. In the menu, you will see all the results pages created in this quiz.
         ![manual_quizbuilder_resultspage_settings_multipleresultspages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
     6. The default results page will be `Results Page 1`. It will be marked with `This is currently the default Results Page` text. You can click and edit this text to rename the results page for easier identification.
-    7. To create an additional result page click the `Create new Results Page` button.
+    7. To create an additional results page click the `Create new Results Page` button.
     8. A second results page will appear. To set this results page as the new default, click the `set` button. To edit the contents of this results page click `edit`. The quiz builder will switch to this results page and you will be able to set up different settings for each of your results page such as discounts, contents, product blocks or settings.
-    9. Once you've added your result pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
+    9. Once you've added your results pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
         ![how_to_legacy_multiple_result_pages_jumplogic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
     10. Scroll down the list of questions and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
@@ -19344,9 +19344,9 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
     5. In the menu, you will see all the results pages created in this quiz.
         ![manual_quizbuilder_resultspage_settings_multipleresultspages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
     6. The default results page will be `Results Page 1`. It will be marked with `This is currently the default Results Page` text. You can click and edit this text to rename the results page for easier identification.
-    7. To create an additional result page click the `Create new Results Page` button.
+    7. To create an additional results page click the `Create new Results Page` button.
     8. A second results page will appear. To set this results page as the new default, click the `set` button. To edit the contents of this results page click `edit`. The quiz builder will switch to this results page and you will be able to set up different settings for each of your results page such as discounts, contents, product blocks or settings.
-    9. Once you've added your result pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
+    9. Once you've added your results pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
         ![how_to_legacy_multiple_result_pages_jumplogic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
     10. Scroll down the list of questions and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
@@ -19360,9 +19360,9 @@ With the RevenueHunt app it is possible to set up Multiple Results Pages. To add
     5. In the menu, you will see all the results pages created in this quiz.
         ![manual_quizbuilder_resultspage_settings_multipleresultspages](/images/manual_quizbuilder_resultspage_settings_multipleresultspages.png){width="500"}
     6. The default results page will be `Results Page 1`. It will be marked with `This is currently the default Results Page` text. You can click and edit this text to rename the results page for easier identification.
-    7. To create an additional result page click the `Create new Results Page` button.
+    7. To create an additional results page click the `Create new Results Page` button.
     8. A second results page will appear. To set this results page as the new default, click the `set` button. To edit the contents of this results page click `edit`. The quiz builder will switch to this results page and you will be able to set up different settings for each of your results page such as discounts, contents, product blocks or settings.
-    9. Once you've added your result pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
+    9. Once you've added your results pages **you'll need to add [**Jump Logic**](/how-to-guides/use-jump-logic/) to your quiz in order to redirect users to the correct results page**. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab in your Quiz Builder. 
         ![how_to_legacy_multiple_result_pages_jumplogic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
     10. Scroll down the list of questions and find the last question before the results. Open the question and add Jump Logic rules that will redirect the user to a specific results page. 
         ![manual_quizbuilder_conditionallogic_jumplogicrule_goto](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
@@ -19599,7 +19599,7 @@ Set up multiple results pages with unique fixed product recommendations and text
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each result (for example, based on skin type (Dry, Normal, Oily, Combination)).
         !!! tip
-            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+            Check this article [Set Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
     3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
         !!! example
             - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that's deeply nourishing and hydrating.
@@ -19621,7 +19621,7 @@ Set up multiple results pages with unique fixed product recommendations and text
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each result (for example, based on skin type (Dry, Normal, Oily, Combination)).
         !!! tip
-            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+            Check this article [Set Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
     3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
         !!! example
             - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that's deeply nourishing and hydrating.
@@ -19643,7 +19643,7 @@ Set up multiple results pages with unique fixed product recommendations and text
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each result (for example, based on skin type (Dry, Normal, Oily, Combination)).
         !!! tip
-            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+            Check this article [Set Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
     3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
         !!! example
             - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that's deeply nourishing and hydrating.
@@ -19665,7 +19665,7 @@ Set up multiple results pages with unique fixed product recommendations and text
             Use the description box in `Question Settings -> Show Description` to help customers determine their skin type.
     2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+` sign to add additional results pages. Create a separate results page for each result (for example, based on skin type (Dry, Normal, Oily, Combination)).
         !!! tip
-            Check this article [Set Multiple Result Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
+            Check this article [Set Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages.    
     3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges and a Product Block. For example:
         !!! example
             - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that's deeply nourishing and hydrating.
@@ -20473,7 +20473,7 @@ Product recommendations are the heart of any successful quiz experience. They he
 | [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots) | Product recommendation routines, different product categories (e.g. cleanser + moisturizer) | - Slot-based grouping<br>- Step-by-step product recommendations<br>- Still uses dynamic voting | Medium |
 | [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) | Personality quizzes, Dosha tests, where outcome depends on which variable (A, B, C...) got the most choices | - Tracks most frequent variable<br>- Outputs results by majority<br>- Often used for typology quizzes | Medium |
 | [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) | Quizzes that need to calculate values or mix scoring with conditions | - Weighted scoring<br>- Adds hidden variables<br>- Logic can combine score + other rules | Medium to High |
-| [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple result pages<br>- Allows display rules and custom text | High |
+| [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple results pages<br>- Allows display rules and custom text | High |
 
 !!! info
 
@@ -23197,7 +23197,7 @@ Jump Logic allows you to route customers to different questions based on their r
 ### Sending Users to Different Results Pages
     With Jump Logic, you can send users to different results pages based on their answers.
     **Implementation**
-    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -23213,10 +23213,10 @@ Jump Logic allows you to route customers to different questions based on their r
     6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.   
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
     !!! info
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
     With Jump Logic, you can send users to different results pages based on their answers.
     **Implementation**
-    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -23232,10 +23232,10 @@ Jump Logic allows you to route customers to different questions based on their r
     6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.   
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
     !!! info
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
     With Jump Logic, you can send users to different results pages based on their answers.
     **Implementation**
-    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -23251,10 +23251,10 @@ Jump Logic allows you to route customers to different questions based on their r
     6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.   
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
     !!! info
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
     With Jump Logic, you can send users to different results pages based on their answers.
     **Implementation**
-    1. Set up Multiple Result Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages.
+    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
     2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
@@ -23270,7 +23270,7 @@ Jump Logic allows you to route customers to different questions based on their r
     6. **Publish the changes**: Click the top-right `Publish` button to update the preview/live quiz.   
     ![send users to different results pages jump logic](/images/how_to_legacy_multiple_result_pages_jumplogic.png)
     !!! info
-        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple result pages and send users to different results pages based on their answers.
+        Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages and send users to different results pages based on their answers.
 ### Sending Users to an External URL
     With Jump Logic, you can send users to an external URL based on their answers.
     **Implementation**
@@ -24264,7 +24264,7 @@ This guide provides a comprehensive overview of all CSS classes and selectors av
 | `.quiz` | Base quiz class - always present |
 | `.mobile` | Applied when viewport < 480px |
 | `.quiz-question` | Applied when showing question pages |
-| `.quiz-result` | Applied when showing result pages |
+| `.quiz-result` | Applied when showing results pages |
 | `.quiz-modal` | Modal type quiz styling |
 | `.quiz-inline` | Inline type quiz styling |
 | `.use-font-family-heading` | When custom heading font is set |
@@ -24661,7 +24661,7 @@ Use these patterns to target specific elements in your quiz:
 | `#qbc-{ref}` | Target specific choice block |
 | `#qbcc-{ref}` | Target specific choice option |
 | `#qbb-{ref}` | Target specific button block |
-| `#r-{ref}` | Target specific result page |
+| `#r-{ref}` | Target specific results page |
 | `#rs-{ref}` | Target specific result section |
 | `#rsb-{ref}` | Target specific result block |
 | `#rsbss-{ref}` | Target specific slot |
@@ -25256,7 +25256,7 @@ SOURCE: https://docs.revenuehunt.com/reference/quiz-builder/conditional-logic/
 ================================================================================
 
 ---
-description: "Set up conditional logic in RevenueHunt to branch quizzes, skip questions, and redirect to different result pages."
+description: "Set up conditional logic in RevenueHunt to branch quizzes, skip questions, and redirect to different results pages."
 ---
 
 # Conditional Logic
@@ -25542,7 +25542,7 @@ SOURCE: https://docs.revenuehunt.com/reference/quiz-builder/
 ================================================================================
 
 ---
-description: "Complete guide to RevenueHunt Quiz Builder sections including questions, conditional logic, design, and result pages."
+description: "Complete guide to RevenueHunt Quiz Builder sections including questions, conditional logic, design, and results pages."
 ---
 
 # Quiz Builder
@@ -26571,7 +26571,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
     `Separators` - Choose from a dropdown how the currency number should be displayed.
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
     `Use top level product` - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
     `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
@@ -26582,7 +26582,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
     `Separators` - Choose from a dropdown how the currency number should be displayed.
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
     `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
     `Quiz ID` - Displays the current quiz ID.
@@ -26592,7 +26592,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
     `Separators` - Choose from a dropdown how the currency number should be displayed.
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
     `Use top level product` - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
     `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
@@ -26603,7 +26603,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
     `Separators` - Choose from a dropdown how the currency number should be displayed.
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
     `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
     `Quiz ID` - Displays the current quiz ID.
@@ -28907,7 +28907,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Currency** - Choose from a dropdown in which currency the product price should be displayed.
     **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
     **Separators** - Choose from a dropdown how the currency number should be displayed.
-    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
     **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
     **Use top level product** - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
     **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
@@ -28918,7 +28918,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Currency** - Choose from a dropdown in which currency the product price should be displayed.
     **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
     **Separators** - Choose from a dropdown how the currency number should be displayed.
-    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
     **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
     **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
     **Quiz ID** - Displays the current quiz ID.
@@ -28928,7 +28928,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Currency** - Choose from a dropdown in which currency the product price should be displayed.
     **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
     **Separators** - Choose from a dropdown how the currency number should be displayed.
-    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
     **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
     **Use top level product** - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
     **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
@@ -28939,7 +28939,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Currency** - Choose from a dropdown in which currency the product price should be displayed.
     **Format** - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
     **Separators** - Choose from a dropdown how the currency number should be displayed.
-    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    **Save quiz progress** - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
     **Set *revenuehunt/quiz* as UTM source/medium** - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
     **Export quiz to another store** - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](https://docs.revenuehunt.com/how-to-guides/how-to-copy-the-quiz-from-one-store-to-another/) for detailed instructions.
     **Quiz ID** - Displays the current quiz ID.
@@ -29738,7 +29738,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
         - redirect the customer to another, external URL directly from the quiz,
         - create branching in the quiz to send the customer to different answering paths,
         - create branching to link different products to the same choices,
-        - or send customers to different Result Pages.
+        - or send customers to different Results Pages.
     Let’s start with Jump Logic.
     1. To display text advice in the quiz, you’ll need a `Statement question`.
     2. Make it longer by adding a description.
@@ -29765,7 +29765,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
         - redirect the customer to another, external URL directly from the quiz,
         - create branching in the quiz to send the customer to different answering paths,
         - create branching to link different products to the same choices,
-        - or send customers to different Result Pages.
+        - or send customers to different Results Pages.
     Let’s start with Jump Logic.
     1. To display text advice in the quiz, you’ll need a `Statement question`.
     2. Make it longer by adding a description.
@@ -29792,7 +29792,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
         - redirect the customer to another, external URL directly from the quiz,
         - create branching in the quiz to send the customer to different answering paths,
         - create branching to link different products to the same choices,
-        - or send customers to different Result Pages.
+        - or send customers to different Results Pages.
     Let’s start with Jump Logic.
     1. To display text advice in the quiz, you’ll need a `Statement question`.
     2. Make it longer by adding a description.
@@ -29819,7 +29819,7 @@ In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Log
         - redirect the customer to another, external URL directly from the quiz,
         - create branching in the quiz to send the customer to different answering paths,
         - create branching to link different products to the same choices,
-        - or send customers to different Result Pages.
+        - or send customers to different Results Pages.
 ## Skip Logic
     For linear quizzes, using [Skip Logic](/how-to-guides/use-skip-logic/) instead is recommended.
     To achieve the same effect you can set up your statements to be shown one after another.
@@ -30835,28 +30835,28 @@ Speaking of results. Make sure to also edit the Results Page.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended. 
     3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdowns allow you to add **boldness** or *emphasis* to your text but also insert links, images, and videos. For more information about the Markdown language, check our [How-To documentation](/how-to-guides/) section.
-    4. The [Result Page settings](/reference/quiz-builder/results-page/) allow you to further customize the quiz with a background image.
+    4. The [Results Page settings](/reference/quiz-builder/results-page/) allow you to further customize the quiz with a background image.
     1. Just like in the Quiz Builder, you can add multiple sections to your [Results Page](/reference/quiz-builder/results-page/). 
     2. Click on a `+` plus sign to select a block type. 
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended. 
     3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdowns allow you to add **boldness** or *emphasis* to your text but also insert links, images, and videos. For more information about the Markdown language, check our [How-To documentation](/how-to-guides/) section.
-    4. The [Result Page settings](/reference/quiz-builder/results-page/) allow you to further customize the quiz with a background image.
+    4. The [Results Page settings](/reference/quiz-builder/results-page/) allow you to further customize the quiz with a background image.
     1. Just like in the Quiz Builder, you can add multiple sections to your [Results Page](/reference/quiz-builder/results-page/). 
     2. Click on a `+` plus sign to select a block type. 
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended. 
     3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdowns allow you to add **boldness** or *emphasis* to your text but also insert links, images, and videos. For more information about the Markdown language, check our [How-To documentation](/how-to-guides/) section.
-    4. The [Result Page settings](/reference/quiz-builder/results-page/) allow you to further customize the quiz with a background image.
+    4. The [Results Page settings](/reference/quiz-builder/results-page/) allow you to further customize the quiz with a background image.
     1. Just like in the Quiz Builder, you can add multiple sections to your [Results Page](/reference/quiz-builder/results-page/). 
     2. Click on a `+` plus sign to select a block type. 
         - In `content blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.
         - In the `Products block`, you can select how many products will be recommended. 
     3. You can use the [Markdown language](/how-to-guides/use-markdown/) to make your quiz pop. Markdowns allow you to add **boldness** or *emphasis* to your text but also insert links, images, and videos. For more information about the Markdown language, check our [How-To documentation](/how-to-guides/) section.
-    4. The [Result Page settings](/reference/quiz-builder/results-page/) allow you to further customize the quiz with a background image.
+    4. The [Results Page settings](/reference/quiz-builder/results-page/) allow you to further customize the quiz with a background image.
 ## Publishing the quiz
     1. Once your quiz is set up, hit the [`Share`](/reference/quiz-builder/share-publish/) button in the top right-hand corner to see all of the publishing options.
     2. For example, you can [embed a link to the quiz in your website's menu](/how-to-guides/publish-quiz-link#link-popup-in-website-menu).
@@ -32230,7 +32230,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
         - Include the *Serums* collection/category in the Serum Slot, etc.
     5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
-    Et voila! You’ve just created a dynamic result page for your beauty quiz!
+    Et voila! You’ve just created a dynamic results page for your beauty quiz!
     Now let’s add a space for products.
     1. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
     2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products. 
@@ -32244,7 +32244,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
         - Include the *Serums* collection/category in the Serum Slot, etc.
     5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
-    Et voila! You’ve just created a dynamic result page for your beauty quiz!
+    Et voila! You’ve just created a dynamic results page for your beauty quiz!
     Now let’s add a space for products.
     1. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
     2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products. 
@@ -32258,7 +32258,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
         - Include the *Serums* collection/category in the Serum Slot, etc.
     5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
-    Et voila! You’ve just created a dynamic result page for your beauty quiz!
+    Et voila! You’ve just created a dynamic results page for your beauty quiz!
     Now let’s add a space for products.
     1. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
     2. Use `+` to add a `Product Slots Block` and create four different slots for each of the products. 
@@ -32272,7 +32272,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
         - Include the *Serums* collection/category in the Serum Slot, etc.
     5. Make sure that the products in these collections/categories are [linked to the answers](#link-collections) in the quiz. Otherwise, the slots will produce empty results.
     6. Follow the same steps to create a morning routine.
-    Et voila! You’ve just created a dynamic result page for your beauty quiz!
+    Et voila! You’ve just created a dynamic results page for your beauty quiz!
 ## Preview the quiz
     1. Update the preview/live quiz with the top-right `Publish` button.
     2. You can test the quiz by clicking the `Preview`/`Test Quiz` button.

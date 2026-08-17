@@ -42,7 +42,7 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
 
     !!! warning
 
-        Cart attributes are written only when the shopper reaches the page where your custom JavaScript runs. If you need the data before checkout, add the code to the question or result page that appears before the shopper goes to the cart.
+        Cart attributes are written only when the shopper reaches the page where your custom JavaScript runs. If you need the data before checkout, add the code to the question or results page that appears before the shopper goes to the cart.
 
     !!! warning
 

@@ -319,7 +319,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
     | `permalink_[ID]` | Link to the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -349,7 +349,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
     | `permalink_[ID]` | Link to the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -379,7 +379,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
     | `permalink_[ID]` | Link to the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -409,7 +409,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
     | `permalink_[ID]` | Link to the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |
@@ -439,7 +439,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
     | `permalink_[ID]` | Link to the customer's results page. |
     | `permalink_hash_[ID]` | Unique hash of those results. |
     | `tags_[ID]` | Comma-separated string of all [tags](/how-to-guides/use-customer-tags/) assigned. |
-    | `result_page_name_[ID]` | Name of the result page, for quizzes with multiple results. |
+    | `result_page_name_[ID]` | Name of the results page, for quizzes with multiple results. |
     | `products_[ID]` | Comma-separated string of recommended product titles. Set to `NO RECOMMENDED PRODUCTS` when the quiz recommends nothing. |
     | `q_[ID]_[QUESTION_TITLE]` | The text of the selected answer. |
     | `t_[ID]_[TAG_NAME]` | `true` for every individual tag assigned. |

@@ -49,7 +49,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     **Quiz behavior settings**
 
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
 
     `Pre-fill answers on retake` - Activating this setting will pre-fill the answers on the retake quiz page. Toggle to activate. When customers retake the quiz, their previous answers will be pre-filled so they only need to change what's different.
 
@@ -84,7 +84,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
 
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
@@ -112,7 +112,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
 
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
@@ -136,7 +136,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
 
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
@@ -158,7 +158,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
 
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
@@ -182,7 +182,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their result page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
 
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 

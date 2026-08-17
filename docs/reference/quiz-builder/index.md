@@ -1,5 +1,5 @@
 ---
-description: "Complete guide to RevenueHunt Quiz Builder sections including questions, conditional logic, design, and result pages."
+description: "Complete guide to RevenueHunt Quiz Builder sections including questions, conditional logic, design, and results pages."
 ---
 
 # Quiz Builder
@@ -16,7 +16,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_menu.png)
 
-    From this menu you can switch between the following sections: [`Questions`](/reference/quiz-builder/questions/), [`Conditional logic`](/reference/quiz-builder/conditional-logic/), [`Quiz design`](/reference/quiz-builder/quiz-design/), [`Result pages`](/reference/quiz-builder/results-page/) and [`Success checklist`](/reference/dashboard/#success-checklist).
+    From this menu you can switch between the following sections: [`Questions`](/reference/quiz-builder/questions/), [`Conditional logic`](/reference/quiz-builder/conditional-logic/), [`Quiz design`](/reference/quiz-builder/quiz-design/), [`Results pages`](/reference/quiz-builder/results-page/) and [`Success checklist`](/reference/dashboard/#success-checklist).
 
     ### Questions
 
