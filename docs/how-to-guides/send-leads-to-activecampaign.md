@@ -752,7 +752,7 @@ icon: material/bullhorn-outline
 === "Shopify"
 
 
-    Unfortunately, for now, the only information about the recommended products we were able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
+    Unfortunately, for now, the only information about the recommended products we were able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
 
     To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Shopify first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
 
@@ -760,7 +760,7 @@ icon: material/bullhorn-outline
 === "Shopify (Legacy)" 
 
 
-    Unfortunately, for now, the only information about the recommended products we’re able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
+    Unfortunately, for now, the only information about the recommended products we’re able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
 
     To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Shopify first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
 
@@ -768,7 +768,7 @@ icon: material/bullhorn-outline
 
 
 
-    Unfortunately, for now, the only information about the recommended products we’re able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
+    Unfortunately, for now, the only information about the recommended products we’re able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
 
     To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to WooCommerce first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
 
@@ -776,7 +776,7 @@ icon: material/bullhorn-outline
 
 
 
-    Unfortunately, for now, the only information about the recommended products we’re able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
+    Unfortunately, for now, the only information about the recommended products we’re able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
 
     To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Magento first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
 
@@ -784,7 +784,7 @@ icon: material/bullhorn-outline
 
 
 
-    Unfortunately, for now, the only information about the recommended products we’re able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
+    Unfortunately, for now, the only information about the recommended products we’re able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
 
     To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to BigCommerce first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
 
@@ -792,7 +792,7 @@ icon: material/bullhorn-outline
 
 
 
-    Unfortunately, for now, the only information about the recommended products we’re able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
+    Unfortunately, for now, the only information about the recommended products we’re able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
 
     To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to your Google Product Catalog first.
 

@@ -390,7 +390,7 @@ Apart from giving your customers personalized product recommendations, you can c
     5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
 
 
-### Hack: Send Quiz Answers to MailChimp
+### Hack: Send Quiz Answers to Mailchimp
 
 === "Shopify"
 
@@ -467,7 +467,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
         Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
-        In MailChimp, you create an email series targeting these tags. For instance:
+        In Mailchimp, you create an email series targeting these tags. For instance:
 
         - Day 1: Introduction to products suitable for oily skin. 
         - Day 3: Customer testimonials and reviews for oily skin products. 
@@ -484,31 +484,31 @@ Apart from giving your customers personalized product recommendations, you can c
     
     If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
 
-    1. **Connect Your Quiz to MailChimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
+    1. **Connect Your Quiz to Mailchimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
 
         !!! tip
 
-            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to MailChimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
-    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to MailChimp from the quiz. You can, for example:
+            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
+    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
     
         - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
-        - In MailChimp, you can use these tags to segment your audience and tailor your email campaigns.
+        - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
 
         !!! warning
 
             Mailchimp API only supports email, name, and customer tags to be send from the quiz. To override Mailchimp’s limitation on pushing detailed quiz data, you can use customer tags to represent customer responses.
-    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into MailChimp. That’s when you can set up your email campaigns. 
+    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into Mailchimp. That’s when you can set up your email campaigns. 
         
         - You can start by setting up Automations (automated email flows) to trigger based on specific tags or quiz completions.
-        - Then, create different email templates in MailChimp that correspond to different quiz outcomes or automation flows.
+        - Then, create different email templates in Mailchimp that correspond to different quiz outcomes or automation flows.
 
         !!! example
 
             Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
-            In MailChimp, you create an email series targeting these tags. For instance:
+            In Mailchimp, you create an email series targeting these tags. For instance:
 
             - Day 1: Introduction to products suitable for oily skin. 
             - Day 3: Customer testimonials and reviews for oily skin products. 
@@ -523,31 +523,31 @@ Apart from giving your customers personalized product recommendations, you can c
     
     If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
 
-    1. **Connect Your Quiz to MailChimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
+    1. **Connect Your Quiz to Mailchimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
 
         !!! tip
 
-            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to MailChimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
-    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to MailChimp from the quiz. You can, for example:
+            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
+    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
     
         - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
-        - In MailChimp, you can use these tags to segment your audience and tailor your email campaigns.
+        - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
 
         !!! warning
 
             Mailchimp API only supports email, name, and customer tags to be send from the quiz. To override Mailchimp’s limitation on pushing detailed quiz data, you can use customer tags to represent customer responses.
-    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into MailChimp. That’s when you can set up your email campaigns. 
+    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into Mailchimp. That’s when you can set up your email campaigns. 
         
         - You can start by setting up Automations (automated email flows) to trigger based on specific tags or quiz completions.
-        - Then, create different email templates in MailChimp that correspond to different quiz outcomes or automation flows.
+        - Then, create different email templates in Mailchimp that correspond to different quiz outcomes or automation flows.
 
         !!! example
 
             Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
-            In MailChimp, you create an email series targeting these tags. For instance:
+            In Mailchimp, you create an email series targeting these tags. For instance:
 
             - Day 1: Introduction to products suitable for oily skin. 
             - Day 3: Customer testimonials and reviews for oily skin products. 
@@ -563,31 +563,31 @@ Apart from giving your customers personalized product recommendations, you can c
     
     If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
 
-    1. **Connect Your Quiz to MailChimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
+    1. **Connect Your Quiz to Mailchimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
 
         !!! tip
 
-            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to MailChimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
-    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to MailChimp from the quiz. You can, for example:
+            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
+    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
     
         - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
-        - In MailChimp, you can use these tags to segment your audience and tailor your email campaigns.
+        - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
 
         !!! warning
 
             Mailchimp API only supports email, name, and customer tags to be send from the quiz. To override Mailchimp’s limitation on pushing detailed quiz data, you can use customer tags to represent customer responses.
-    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into MailChimp. That’s when you can set up your email campaigns. 
+    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into Mailchimp. That’s when you can set up your email campaigns. 
         
         - You can start by setting up Automations (automated email flows) to trigger based on specific tags or quiz completions.
-        - Then, create different email templates in MailChimp that correspond to different quiz outcomes or automation flows.
+        - Then, create different email templates in Mailchimp that correspond to different quiz outcomes or automation flows.
 
         !!! example
 
             Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
-            In MailChimp, you create an email series targeting these tags. For instance:
+            In Mailchimp, you create an email series targeting these tags. For instance:
 
             - Day 1: Introduction to products suitable for oily skin. 
             - Day 3: Customer testimonials and reviews for oily skin products. 
@@ -603,31 +603,31 @@ Apart from giving your customers personalized product recommendations, you can c
     
     If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
 
-    1. **Connect Your Quiz to MailChimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
+    1. **Connect Your Quiz to Mailchimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
 
         !!! tip
 
-            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to MailChimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
-    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to MailChimp from the quiz. You can, for example:
+            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
+    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
     
         - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
-        - In MailChimp, you can use these tags to segment your audience and tailor your email campaigns.
+        - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
 
         !!! warning
 
             Mailchimp API only supports email, name, and customer tags to be send from the quiz. To override Mailchimp’s limitation on pushing detailed quiz data, you can use customer tags to represent customer responses.
-    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into MailChimp. That’s when you can set up your email campaigns. 
+    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into Mailchimp. That’s when you can set up your email campaigns. 
         
         - You can start by setting up Automations (automated email flows) to trigger based on specific tags or quiz completions.
-        - Then, create different email templates in MailChimp that correspond to different quiz outcomes or automation flows.
+        - Then, create different email templates in Mailchimp that correspond to different quiz outcomes or automation flows.
 
         !!! example
 
             Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
-            In MailChimp, you create an email series targeting these tags. For instance:
+            In Mailchimp, you create an email series targeting these tags. For instance:
 
             - Day 1: Introduction to products suitable for oily skin. 
             - Day 3: Customer testimonials and reviews for oily skin products. 
@@ -643,31 +643,31 @@ Apart from giving your customers personalized product recommendations, you can c
     
     If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
 
-    1. **Connect Your Quiz to MailChimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
+    1. **Connect Your Quiz to Mailchimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
 
         !!! tip
 
-            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to MailChimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
-    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to MailChimp from the quiz. You can, for example:
+            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
+    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
     
         - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
-        - In MailChimp, you can use these tags to segment your audience and tailor your email campaigns.
+        - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
 
         !!! warning
 
             Mailchimp API only supports email, name, and customer tags to be send from the quiz. To override Mailchimp’s limitation on pushing detailed quiz data, you can use customer tags to represent customer responses.
-    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into MailChimp. That’s when you can set up your email campaigns. 
+    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into Mailchimp. That’s when you can set up your email campaigns. 
         
         - You can start by setting up Automations (automated email flows) to trigger based on specific tags or quiz completions.
-        - Then, create different email templates in MailChimp that correspond to different quiz outcomes or automation flows.
+        - Then, create different email templates in Mailchimp that correspond to different quiz outcomes or automation flows.
 
         !!! example
 
             Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
 
-            In MailChimp, you create an email series targeting these tags. For instance:
+            In Mailchimp, you create an email series targeting these tags. For instance:
 
             - Day 1: Introduction to products suitable for oily skin. 
             - Day 3: Customer testimonials and reviews for oily skin products. 

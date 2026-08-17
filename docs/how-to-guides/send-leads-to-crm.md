@@ -5,7 +5,7 @@ description: "Learn how to send RevenueHunt quiz leads to your CRM platform for 
 
 # How to Send Quiz Leads to Your CRM
 
-Apart from giving your customers personalized product recommendations, you can connect your quiz to a CRM service like Klaviyo or MailChimp. This way all the contacts coming from the quiz will be added to your CRM account and you can create targeted email campaigns to upsell them.
+Apart from giving your customers personalized product recommendations, you can connect your quiz to a CRM service like Klaviyo or Mailchimp. This way all the contacts coming from the quiz will be added to your CRM account and you can create targeted email campaigns to upsell them.
 
 ## Direct Integrations
 
@@ -27,7 +27,7 @@ By automatically sending quiz results to your HubSpot account, you can segment y
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-hubspot/)
 
-### [:fontawesome-brands-mailchimp: MailChimp](/how-to-guides/send-leads-to-mailchimp/)
+### [:fontawesome-brands-mailchimp: Mailchimp](/how-to-guides/send-leads-to-mailchimp/)
 
 Automating the transfer of quiz data to your Mailchimp account streamlines the process of segmenting your audience and enables targeted follow-up campaigns based on [customer tags](/reference/quiz-builder/link-collections/#customer-tags). Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
 

@@ -121,7 +121,7 @@ This article explains how to add product metafields/attributes to products on yo
 
 === "WooCommerce"
 
-    [Attributes](https://woocommerce.com/document/managing-product-taxonomies/#product-attributes) in Woocommerce are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Attributes make this possible.
+    [Attributes](https://woocommerce.com/document/managing-product-taxonomies/#product-attributes) in WooCommerce are used by stores to display specific product properties that aren't shown by default on e-commerce platforms. For instance, in Germany, it's required to show the "grundpreis" or `per 100ml` price for cosmetic products. Attributes make this possible.
 
     If you're looking to import product attributes from your store into the Product Recommendation Quiz to display them on your quiz's results page, follow the steps outlined below:
 

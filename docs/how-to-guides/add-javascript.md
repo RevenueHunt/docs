@@ -1301,10 +1301,10 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     In the `💎Built for Shopify` version of the RevenueHunt app, you can add interactive elements to your quiz results page:
 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
     
-        !!! example "Add the `onclick` functionality via the Custom Javascript."
+        !!! example "Add the `onclick` functionality via the Custom JavaScript."
 
             ```html
             <!-- In Result page in a HTML block -->
@@ -1313,7 +1313,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             ```
 
             ```javascript
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // get the element
             var element = document.getElementById("special_retake_quiz");
 
@@ -1325,12 +1325,12 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             }
             ```
 
-    2. Or you can create the element in the Custom Javascript section and inject it into the results page.
+    2. Or you can create the element in the Custom JavaScript section and inject it into the results page.
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
             ```javascript
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // create the element
             const element = document.createElement("a");
             element.innerHTML = "Click here to retake the quiz";
@@ -1351,9 +1351,9 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     You can do it two ways: 
 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
-        !!! example "Add the `onclick` functionality via the Custom Javascript."
+        !!! example "Add the `onclick` functionality via the Custom JavaScript."
 
             ```html
             <!-- In Result page in a HTML block -->
@@ -1362,7 +1362,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             ```
 
             ```javascript
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // get the element
             var element = document.getElementById("special_retake_quiz");
 
@@ -1372,12 +1372,12 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             }
             ```
 
-    2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
+    2. Or you can create the element in the Custom JavaScript section with an `onclick` event first and then inject it in the results page.
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
             ```javascript
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // create the element
             var element = document.createElement("a");
             element.innerHTML = "Click here to retake the quiz"
@@ -1397,9 +1397,9 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     You can do it two ways: 
 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
-        !!! example "Add the `onclick` functionality via the Custom Javascript."
+        !!! example "Add the `onclick` functionality via the Custom JavaScript."
 
             ```html
             <!-- In Result page in a HTML block -->
@@ -1408,7 +1408,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             ```
 
             ```html
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // get the element
             var element = document.getElementById("special_retake_quiz");
 
@@ -1418,12 +1418,12 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             }
             ```
 
-    2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
+    2. Or you can create the element in the Custom JavaScript section with an `onclick` event first and then inject it in the results page.
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
             ```html
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // create the element
             var element = document.createElement("a");
             element.innerHTML = "Click here to retake the quiz"
@@ -1442,9 +1442,9 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 === "Magento"
     You can do it two ways: 
 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
-        !!! example "Add the `onclick` functionality via the Custom Javascript."
+        !!! example "Add the `onclick` functionality via the Custom JavaScript."
 
             ```html
             <!-- In Result page in a HTML block -->
@@ -1453,7 +1453,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             ```
 
             ```html
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // get the element
             var element = document.getElementById("special_retake_quiz");
 
@@ -1463,12 +1463,12 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             }
             ```
 
-    2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
+    2. Or you can create the element in the Custom JavaScript section with an `onclick` event first and then inject it in the results page.
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
             ```html
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // create the element
             var element = document.createElement("a");
             element.innerHTML = "Click here to retake the quiz"
@@ -1488,9 +1488,9 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     You can do it two ways: 
 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
-        !!! example "Add the `onclick` functionality via the Custom Javascript."
+        !!! example "Add the `onclick` functionality via the Custom JavaScript."
 
             ```html
             <!-- In Result page in a HTML block -->
@@ -1499,7 +1499,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             ```
 
             ```html
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // get the element
             var element = document.getElementById("special_retake_quiz");
 
@@ -1509,12 +1509,12 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             }
             ```
 
-    2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
+    2. Or you can create the element in the Custom JavaScript section with an `onclick` event first and then inject it in the results page.
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
             ```html
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // create the element
             var element = document.createElement("a");
             element.innerHTML = "Click here to retake the quiz"
@@ -1533,9 +1533,9 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 === "Standalone"
     You can do it two ways: 
 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
 
-        !!! example "Add the `onclick` functionality via the Custom Javascript."
+        !!! example "Add the `onclick` functionality via the Custom JavaScript."
 
             ```html
             <!-- In Result page in a HTML block -->
@@ -1544,7 +1544,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             ```
 
             ```html
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // get the element
             var element = document.getElementById("special_retake_quiz");
 
@@ -1554,12 +1554,12 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
             }
             ```
 
-    2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
+    2. Or you can create the element in the Custom JavaScript section with an `onclick` event first and then inject it in the results page.
 
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
 
             ```html
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // create the element
             var element = document.createElement("a");
             element.innerHTML = "Click here to retake the quiz"
@@ -1592,7 +1592,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         Step 2: Add custom JavaScript
 
         ```javascript
-        /* In the Custom Javascript section */
+        /* In the Custom JavaScript section */
 
         // Get the target element inside the quiz
         const element = window.quiz.getElementById("body_mass_index_calculation");
@@ -1641,7 +1641,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         ```
 
         ```javascript
-        /* In the Custom Javascript section */
+        /* In the Custom JavaScript section */
         // get the element
         var element = document.getElementById("body_mass_index_calculation");
 
@@ -1679,7 +1679,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         ```
 
         ```javascript
-        /* In the Custom Javascript section */
+        /* In the Custom JavaScript section */
         // get the element
         var element = document.getElementById("body_mass_index_calculation");
 
@@ -1718,7 +1718,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         ```
 
         ```javascript
-        /* In the Custom Javascript section */
+        /* In the Custom JavaScript section */
         // get the element
         var element = document.getElementById("body_mass_index_calculation");
 
@@ -1757,7 +1757,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         ```
 
         ```javascript
-        /* In the Custom Javascript section */
+        /* In the Custom JavaScript section */
         // get the element
         var element = document.getElementById("body_mass_index_calculation");
 
@@ -1797,7 +1797,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         ```
 
         ```javascript
-        /* In the Custom Javascript section */
+        /* In the Custom JavaScript section */
         // get the element
         var element = document.getElementById("body_mass_index_calculation");
 

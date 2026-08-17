@@ -507,7 +507,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
         ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
 
-        - Navigate to the 'Automation' section in OmniSend.
+        - Navigate to the 'Automation' section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select 'When someone enters the segment' and choose the segment you created, e.g., 'Skincare Quiz Basic Segment'.
         - Save the changes to initiate the workflow when users enter the segment.
@@ -520,10 +520,10 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
     5. **Include Quiz Results in the Email**: To include quiz results in the email, add an HTML element to the email builder.
 
-        - In the quiz builder, navigate to 'Settings' > 'Integrations' and generate an OmniSend email template.
+        - In the quiz builder, navigate to 'Settings' > 'Integrations' and generate an Omnisend email template.
 
             ![how to omnisend email template](/images/how_to_shopifyv2_omnisend_template.png){:width="500px"}
-        - Copy the generated code and paste it into the HTML block of your email template in OmniSend.
+        - Copy the generated code and paste it into the HTML block of your email template in Omnisend.
 
             ![how to omnisend email template](/images/how_to_shopifyv2_omnisend_template_copy.png)
         - This code will create a pre-formatted email with quiz results and recommended products, which can be further edited as needed.
@@ -564,7 +564,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
         ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
 
-        - Navigate to the 'Automation' section in OmniSend.
+        - Navigate to the 'Automation' section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select 'When someone enters the segment' and choose the segment you created, e.g., 'Skincare Quiz Basic Segment'.
         - Save the changes to initiate the workflow when users enter the segment.
@@ -609,7 +609,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
         ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
 
-        - Navigate to the 'Automation' section in OmniSend.
+        - Navigate to the 'Automation' section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select 'When someone enters the segment' and choose the segment you created, e.g., 'Skincare Quiz Basic Segment'.
         - Save the changes to initiate the workflow when users enter the segment.
@@ -655,7 +655,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
         ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
 
-        - Navigate to the 'Automation' section in OmniSend.
+        - Navigate to the 'Automation' section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select 'When someone enters the segment' and choose the segment you created, e.g., 'Skincare Quiz Basic Segment'.
         - Save the changes to initiate the workflow when users enter the segment.
@@ -700,7 +700,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
         ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
 
-        - Navigate to the 'Automation' section in OmniSend.
+        - Navigate to the 'Automation' section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select 'When someone enters the segment' and choose the segment you created, e.g., 'Skincare Quiz Basic Segment'.
         - Save the changes to initiate the workflow when users enter the segment.
@@ -746,7 +746,7 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
 
         ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
 
-        - Navigate to the 'Automation' section in OmniSend.
+        - Navigate to the 'Automation' section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select 'When someone enters the segment' and choose the segment you created, e.g., 'Skincare Quiz Basic Segment'.
         - Save the changes to initiate the workflow when users enter the segment.
@@ -830,7 +830,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     You can pull the customer answers into an email template by using the `custom properties` that are passed from the quiz to your Omnisend account. This is done by using the `insert personalization tag` feature in Omnisend.
 
-    1. Navigate to your OmniSend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
+    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
     2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
     3. Access the text block settings to `insert personalization tag`.
     4. Use the personalization tag feature to browse available custom properties from quiz profiles.    
@@ -852,7 +852,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     You can pull the customer answers into an email template by using the `custom properties` that are passed from the quiz to your Omnisend account. This is done by using the `insert personalization tag` feature in Omnisend.
 
-    1. Navigate to your OmniSend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
+    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
     2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
     3. Access the text block settings to `insert personalization tag`.
     4. Use the personalization tag feature to browse available custom properties from quiz profiles.    
@@ -874,7 +874,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     You can pull the customer answers into an email template by using the `custom properties` that are passed from the quiz to your Omnisend account. This is done by using the `insert personalization tag` feature in Omnisend.
 
-    1. Navigate to your OmniSend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
+    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
     2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
     3. Access the text block settings to `insert personalization tag`.
     4. Use the personalization tag feature to browse available custom properties from quiz profiles.    
@@ -895,7 +895,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     You can pull the customer answers into an email template by using the `custom properties` that are passed from the quiz to your Omnisend account. This is done by using the `insert personalization tag` feature in Omnisend.
 
-    1. Navigate to your OmniSend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
+    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
     2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
     3. Access the text block settings to `insert personalization tag`.
     4. Use the personalization tag feature to browse available custom properties from quiz profiles.    
@@ -917,7 +917,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     You can pull the customer answers into an email template by using the `custom properties` that are passed from the quiz to your Omnisend account. This is done by using the `insert personalization tag` feature in Omnisend.
 
-    1. Navigate to your OmniSend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
+    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
     2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
     3. Access the text block settings to `insert personalization tag`.
     4. Use the personalization tag feature to browse available custom properties from quiz profiles.    
@@ -939,7 +939,7 @@ See [Custom Properties Sent to Omnisend](#custom-properties-sent-to-omnisend) fo
 
     You can pull the customer answers into an email template by using the `custom properties` that are passed from the quiz to your Omnisend account. This is done by using the `insert personalization tag` feature in Omnisend.
 
-    1. Navigate to your OmniSend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
+    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
     2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
     3. Access the text block settings to `insert personalization tag`.
     4. Use the personalization tag feature to browse available custom properties from quiz profiles.    

@@ -5924,15 +5924,15 @@ Before diving into the implementation, it's important to understand the differen
     ```
     For other functions and properties refer to the [console.log(prq)](#consolelogprq-function).
     You can do it two ways: 
-    1. Create an element in the results page and add the `onclick` functionality later via the Custom Javascript.
-        !!! example "Add the `onclick` functionality via the Custom Javascript."
+    1. Create an element in the results page and add the `onclick` functionality later via the Custom JavaScript.
+        !!! example "Add the `onclick` functionality via the Custom JavaScript."
             ```html
             <!-- In Result page in a HTML block -->
             <!-- add a HTML element such as -->
             <a id="special_retake_quiz">Click here to retake the quiz</a>
             ```
             ```javascript
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // get the element
             var element = document.getElementById("special_retake_quiz");
             // add the onclick function to the element
@@ -5940,10 +5940,10 @@ Before diving into the implementation, it's important to understand the differen
                 prq.retakeQuiz();
             }
             ```
-    2. Or you can create the element in the Custom Javascript section with an `onclick` event first and then inject it in the results page.
+    2. Or you can create the element in the Custom JavaScript section with an `onclick` event first and then inject it in the results page.
         !!! example "Create the element with an `onclick` event first and then inject it in the results page."
             ```javascript
-            /* In the Custom Javascript section */
+            /* In the Custom JavaScript section */
             // create the element
             var element = document.createElement("a");
             element.innerHTML = "Click here to retake the quiz"
@@ -5964,7 +5964,7 @@ Before diving into the implementation, it's important to understand the differen
         <div id="body_mass_index_calculation"></div>
         ```
         ```javascript
-        /* In the Custom Javascript section */
+        /* In the Custom JavaScript section */
         // get the element
         var element = document.getElementById("body_mass_index_calculation");
         // get the values of the slides
@@ -9315,7 +9315,7 @@ Integrating your RevenueHunt Product Recommendation Quiz with ActiveCampaign all
         ![how to activecampaign automation](/images/how_to_activecampaign_automation.gif)
     3. Following the trigger setup, design your email template. Incorporate personalization by adding `custom properties`, such as direct links to quiz responses, to your text blocks.
         ![how to activecampaign add custom properties](/images/how_to_activecampaign_add_custom_properties.gif)
-    Unfortunately, for now, the only information about the recommended products we’re able to send to Activecampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
+    Unfortunately, for now, the only information about the recommended products we’re able to send to ActiveCampaign is the Recommended Product IDs. This is not enough information to display the whole list of recommended products.
     To show any products in an ActiveCampaign you may need to connect your ActiveCampaign to Shopify first. Then by adding a product block, you should be able to display products from specific collections. It could be possible to add multiple product blocks and have them shown or hidden based on the recommended product ID, however, this option has not been yet tested thoroughly.
 
 
@@ -9332,7 +9332,7 @@ description: "Learn how to send RevenueHunt quiz leads to your CRM platform for 
 
 # How to Send Quiz Leads to Your CRM
 
-Apart from giving your customers personalized product recommendations, you can connect your quiz to a CRM service like Klaviyo or MailChimp. This way all the contacts coming from the quiz will be added to your CRM account and you can create targeted email campaigns to upsell them.
+Apart from giving your customers personalized product recommendations, you can connect your quiz to a CRM service like Klaviyo or Mailchimp. This way all the contacts coming from the quiz will be added to your CRM account and you can create targeted email campaigns to upsell them.
 
 ## Direct Integrations
 
@@ -9354,7 +9354,7 @@ By automatically sending quiz results to your HubSpot account, you can segment y
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-hubspot/)
 
-### [:fontawesome-brands-mailchimp: MailChimp](/how-to-guides/send-leads-to-mailchimp/)
+### [:fontawesome-brands-mailchimp: Mailchimp](/how-to-guides/send-leads-to-mailchimp/)
 
 Automating the transfer of quiz data to your Mailchimp account streamlines the process of segmenting your audience and enables targeted follow-up campaigns based on [customer tags](/reference/quiz-builder/link-collections/#customer-tags). Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
 
@@ -9703,22 +9703,22 @@ Apart from giving your customers personalized product recommendations, you can c
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/PoLkSjl628o?si=iiIQVsgUgd46BJbu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     If you want to set up a post-quiz email flow with Mailchimp, you can follow the steps below:
-    1. **Connect Your Quiz to MailChimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
+    1. **Connect Your Quiz to Mailchimp.** Follow the instructions in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
         !!! tip
-            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to MailChimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
-    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to MailChimp from the quiz. You can, for example:
+            Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
+    2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
         - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
-        - In MailChimp, you can use these tags to segment your audience and tailor your email campaigns.
+        - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
         !!! warning
             Mailchimp API only supports email, name, and customer tags to be send from the quiz. To override Mailchimp’s limitation on pushing detailed quiz data, you can use customer tags to represent customer responses.
-    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into MailChimp. That’s when you can set up your email campaigns. 
+    3. **Design Email Campaigns.** Once the quiz answers are covered with customer tags, all the information you need about your customer will start flowing into Mailchimp. That’s when you can set up your email campaigns. 
         - You can start by setting up Automations (automated email flows) to trigger based on specific tags or quiz completions.
-        - Then, create different email templates in MailChimp that correspond to different quiz outcomes or automation flows.
+        - Then, create different email templates in Mailchimp that correspond to different quiz outcomes or automation flows.
         !!! example
             Imagine you run a skincare eCommerce store. Your quiz asks customers about their skin type and concerns. Based on their answers, you tag them as “Oily Skin,” “Dry Skin,” etc.
-            In MailChimp, you create an email series targeting these tags. For instance:
+            In Mailchimp, you create an email series targeting these tags. For instance:
             - Day 1: Introduction to products suitable for oily skin. 
             - Day 3: Customer testimonials and reviews for oily skin products. 
             - Day 7: Special discount on recommended products for oily skin.
@@ -9833,7 +9833,7 @@ Apart from giving your customers a personalized product recommendation, you can 
         - Omnisend will automatically add profiles with this property to the segment.
     3. **Set Up an Automated Workflow**: Develop an [automation workflow](https://support.omnisend.com/en/articles/3954813-omnisend-automation-workflow-settings) in Omnisend that triggers when someone is added to the newly created segment of quiz participants. This step involves configuring Omnisend to automatically start the email campaign sequence for users in this segment.
         ![how to omnisend flow](https://loom.com/i/2e3ebc719c764822935b79d68c67456b?workflows_screenshot=true)
-        - Navigate to the 'Automation' section in OmniSend.
+        - Navigate to the 'Automation' section in Omnisend.
         - Explore existing workflows or create a new workflow from scratch.
         - Set a trigger for the workflow: select 'When someone enters the segment' and choose the segment you created, e.g., 'Skincare Quiz Basic Segment'.
         - Save the changes to initiate the workflow when users enter the segment.
@@ -9849,7 +9849,7 @@ Apart from giving your customers a personalized product recommendation, you can 
     If you need to add any additional information to the email template, your developer can do so by [pulling the appropriate custom properties from the user profile](https://support.omnisend.com/en/articles/1061885-custom-properties-for-contacts).
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/1911ea75ad7d4531b3886b0fd5af01a7?sid=741a1bb2-72bb-41ee-be1b-390654e18369" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     You can pull the customer answers into an email template by using the `custom properties` that are passed from the quiz to your Omnisend account. This is done by using the `insert personalization tag` feature in Omnisend.
-    1. Navigate to your OmniSend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
+    1. Navigate to your Omnisend automation workflow. Select the email you want to edit. Begin editing the content to create a new template.
     2. Add a text element to your email template. Type a base message, e.g., "You said that your skin feels...".
     3. Access the text block settings to `insert personalization tag`.
     4. Use the personalization tag feature to browse available custom properties from quiz profiles.    
