@@ -18,11 +18,11 @@ How the workflow starts depends on which version of the app you use. The Built f
     The trigger runs on a Shopify customer record, not on an anonymous quiz session. RevenueHunt matches a respondent to that record using the email address they type into the quiz, which is why the first two steps below matter.
 
     1. **Add an email question to your quiz.** Without one, no customer record is created or updated and the trigger never fires. A phone number is not enough. Make the question required if you want every completion to start a workflow run.
-    2. **Turn on customer syncing.** In RevenueHunt, go to **App Settings > Shopify Customers**, turn on **Enable pushing quiz leads to Shopify Customers**, and save. The **Shopify Flow** section sits on the same page, directly below that checkbox.
+    2. **Turn on customer syncing.** In RevenueHunt, go to **App settings > Shopify Customers**, turn on **Enable pushing quiz leads to Shopify Customers**, and save. The **Shopify Flow** section sits on the same page, directly below that checkbox.
     3. **Install [Shopify Flow](https://admin.shopify.com/apps/flow)** if your store does not have it. It is free.
     4. **Publish the quiz.**
 
-    For more on customer syncing, including how marketing consent is recorded, see [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/).
+    For more on customer syncing, including how marketing consent is recorded, see [How to Send Quiz leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/).
 
     ## Create the workflow
 
@@ -146,7 +146,7 @@ How the workflow starts depends on which version of the app you use. The Built f
 
     1. Open the RevenueHunt app and select your quiz.
     2. Click the choice you want to tag to open its settings.
-    3. Under [Customer Tags](/reference/quiz-builder/customer-tags/), create a new tag or pick an existing one. For example, tag the dry skin choice with `dry skin`.
+    3. Under [Customer tags](/reference/quiz-builder/customer-tags/), create a new tag or pick an existing one. For example, tag the dry skin choice with `dry skin`.
     4. Repeat for the other choices you want to identify later.
     5. Add a common tag such as `quiz` to every choice in one of the questions, so that all participants carry it.
     6. Click `Save`.
@@ -210,9 +210,9 @@ How the workflow starts depends on which version of the app you use. The Built f
 
     ## Check the connection in RevenueHunt
 
-    Return to **RevenueHunt > App Settings > Shopify Customers** and find the **Shopify Flow** section.
+    Return to **RevenueHunt > App settings > Shopify Customers** and find the **Shopify Flow** section.
 
-    ![Shopify Flow section in RevenueHunt App Settings, showing the Flow not detected status and setup steps](/images/how_to_automate_quiz_completions_with_shopify_flow_settings.png)
+    ![Shopify Flow section in RevenueHunt App settings, showing the Flow not detected status and setup steps](/images/how_to_automate_quiz_completions_with_shopify_flow_settings.png)
 
     - **Flow active** means Shopify has reported that a workflow using the **Quiz Completed** trigger from Product Recommendation Quiz is turned on.
     - **Flow inactive** means a workflow was detected but is not currently turned on.

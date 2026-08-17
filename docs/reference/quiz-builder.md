@@ -8,14 +8,14 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder](/images/manual_shopifyV2_quizbuilder.png)
 
-    Quiz Builder is composed of four sections: 
+    Quiz builder is composed of four sections: 
 
-    - 1️⃣ Quiz Builder Menu
+    - 1️⃣ Quiz builder Menu
     - 2️⃣ Questions
     - 3️⃣ Quiz Preview 
-    - 4️⃣ Question Settings
+    - 4️⃣ Question settings
     
-    **Quiz Builder Menu**
+    **Quiz builder Menu**
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_menu.png)
 
@@ -656,7 +656,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Question ID** - Displays the question ID of the selected question.
 
-    **Block Settings**
+    **Block settings**
 
     ![]()
 
@@ -1211,7 +1211,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         In V2 of the RevenueHunt app for Shopify you can not only upvote by also recommend entire collections to the customer.
 
-    To add link collections of products to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
+    To add link collections of products to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice settings](#choice-settings).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
 
@@ -1400,7 +1400,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
 
-    To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
+    To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice settings](#choice-settings).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
 
@@ -1513,7 +1513,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
 
-    To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice Settings](#choice-settings).
+    To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [Choice settings](#choice-settings).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
 
@@ -1614,7 +1614,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
-    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The right-hand menu allows you to add conditional logic rules to questions in the quiz. The center preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the Conditional logic tab you can branch your quiz or tell it to skip certain questions. The right-hand menu allows you to add conditional logic rules to questions in the quiz. The center preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
@@ -1767,17 +1767,17 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
 === "Shopify"
 
-    Jump Logic allows you to route customers to different questions based on their responses.
+    Jump logic allows you to route customers to different questions based on their responses.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic.png)
 
-    **Jump Logic ▼** - Click to Open the Jump Logic options and add new rules to this question.
+    **Jump logic ▼** - Click to Open the Jump logic options and add new rules to this question.
 
-    **+ Add another rule (OR)** - Click to add a new OR Jump Logic rule for the selected question.
+    **+ Add another rule (OR)** - Click to add a new OR Jump logic rule for the selected question.
 
     !!! info
 
-        All the Jump Logic rules follow the same format
+        All the Jump logic rules follow the same format
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
@@ -1789,7 +1789,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then they will be redirected to Question 8 "SKIN TYPE: OILY".
 
-    **+ Add another rule (OR)** - Add another Jump Logic rule. Adds a new OR logical rule.
+    **+ Add another rule (OR)** - Add another Jump logic rule. Adds a new OR logical rule.
 
     !!! example
 
@@ -1797,7 +1797,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then they will be redirected to Question 8 "SKIN TYPE: OILY" but if the user chooses a choice "Oily in certain spots" in Question 4 "SKIN TYPE" then they will be redirected to Question 6 "SKIN TYPE: COMBINATION".
 
-    **bin** - Delete the current Jump Logic rule.
+    **bin** - Delete the current Jump logic rule.
 
     **+ Add concurrent logic (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
@@ -2027,17 +2027,17 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
 === "Shopify"
 
-    Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
+    Skip logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip logic is added to a question, it will be shown.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
 
-    **Skip Logic ▼** - Click to open the Skip Logic menu or add a new rule to this question.
+    **Skip logic ▼** - Click to open the Skip logic menu or add a new rule to this question.
 
-    **+ Add another rule (OR)** - Click to add a new OR Skip Logic rule for the selected question.
+    **+ Add another rule (OR)** - Click to add a new OR Skip logic rule for the selected question.
 
     !!! info
 
-        All the Skip Logic rules follow the same format
+        All the Skip logic rules follow the same format
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
@@ -2049,9 +2049,9 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
         In the example, if a user chooses a choice "Too shiny" in Question 9 "SKIN CONCERNS" then Question 10 "ALERGIES" will be skipped (it will not be shown).
 
-    **+ Add another rule (OR)** - Adds another Skip Logic rule. Adds a new OR logical rule.
+    **+ Add another rule (OR)** - Adds another Skip logic rule. Adds a new OR logical rule.
 
-    **bin** - Delete the current Skip Logic rule.
+    **bin** - Delete the current Skip logic rule.
 
     **+ Add concurrent logic (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
@@ -2202,7 +2202,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
-    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look. This section allows you to configure the design for your quiz. You can customize the design, sections, and slots to display the desired design to the users.
+    In the Quiz design section of the quiz builder you can change how the quiz Questions or the Results page look. This section allows you to configure the design for your quiz. You can customize the design, sections, and slots to display the desired design to the users.
 
     **Questions/Results** - Toggle between the preview of the quiz questions and the results page.
     
@@ -2579,9 +2579,9 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
-    In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like. This section allows you to configure the results settings for your quiz. You can customize the result blocks, sections, and slots to display the desired outcome to the users.
+    In the Results page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like. This section allows you to configure the results settings for your quiz. You can customize the result blocks, sections, and slots to display the desired outcome to the users.
 
-    **Results Pages** - the menu where all your results pages are nested.
+    **Results pages** - the menu where all your results pages are nested.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
 
@@ -2591,7 +2591,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     !!! note
 
-        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](#jump-logic) via the quiz Conditional Logic tab.
+        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump logic](#jump-logic) via the quiz Conditional logic tab.
 
     **Checkout bar** - Seelct the settings of the checkout bar. 
 
@@ -2769,7 +2769,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
-    With Display Logic you can make blocks visible or hidden based on customer's responses.
+    With Display logic you can make blocks visible or hidden based on customer's responses.
 
     **Display logic**
 
@@ -2779,7 +2779,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     !!! info
 
-        All the Display Logic rules follow the same format
+        All the Display logic rules follow the same format
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
@@ -2796,7 +2796,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     - **bin** - Delete the current Logic rule.
     
-    - **+ Add condition (OR)** - Adds another Display Logic rule. Adds a new OR logical rule.
+    - **+ Add condition (OR)** - Adds another Display logic rule. Adds a new OR logical rule.
 
 
 === "Shopify (Legacy)"
@@ -3819,7 +3819,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     !!! note
 
-        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](#jump-logic) via the quiz Conditional Logic tab.
+        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump logic](#jump-logic) via the quiz Conditional logic tab.
 
 
 === "Shopify (Legacy)"
@@ -4151,7 +4151,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
 === "Shopify"
 
-    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
+    In the Notifications tab of the Quiz builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
 
 
 === "Shopify (Legacy)"
@@ -4420,7 +4420,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
+    In Quiz settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
 
 
 === "Shopify (Legacy)"
@@ -4603,17 +4603,17 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **Select language** - Select a language from the list to change the default app translations. Each individual content can be edited below.
 
     **Buttons**
-    *This section defines the default text for various buttons. Note that once a button is created (e.g., on a question block), its text can be individually edited directly in the Quiz Builder.*
+    *This section defines the default text for various buttons. Note that once a button is created (e.g., on a question block), its text can be individually edited directly in the Quiz builder.*
 
     - *Next* - Default text on the buttons that move the user to the next question. | Quiz
-    - *Add to cart* - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
-    - *Add all to cart* -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
-    - *Retake quiz* - Default text on the button that allows the user to retake the quiz. | Results Page
-    - *Proceed to Checkout* - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
-    - *Proceed to Cart* - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
+    - *Add to cart* - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results page
+    - *Add all to cart* -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results page
+    - *Retake quiz* - Default text on the button that allows the user to retake the quiz. | Results page
+    - *Proceed to Checkout* - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results page
+    - *Proceed to Cart* - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results page
 
     **Placeholders**
-    *This section defines the default placeholder text for various input fields. Note that once an input field is created (e.g., on a question block), its placeholder text can be individually edited directly in the Quiz Builder.*
+    *This section defines the default placeholder text for various input fields. Note that once an input field is created (e.g., on a question block), its placeholder text can be individually edited directly in the Quiz builder.*
 
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders.png)
 
@@ -4621,7 +4621,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - *Placeholder for phone inputs* - Default placeholder text on the phone question block. | Quiz
     - *Placeholder for default inputs* - Default placeholder text on the short or long text question block. | Quiz
     - *Placeholder for date inputs* - Default placeholder on date question block. | Quiz
-    - *Placeholder for select variant* - Default placeholder text on variants dropdown | Results Page
+    - *Placeholder for select variant* - Default placeholder text on variants dropdown | Results page
     - *Placeholder for first name inputs* - Default placeholder text on the name question block. | Quiz
     - *Placeholder for full name inputs* - Default placeholder text on the name question block. | Quiz
     - *Placeholder for last name inputs* - Default placeholder text on the name question block. | Quiz
@@ -4637,9 +4637,9 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     - *Message for file size under 10MB* - Default text on the file upload question block. | Quiz
     - *"and" conector for dynamic source* - Default text displayed between each personalization (information recalls). | Quiz
     - *(Percentage)% complete* - Default text on the quiz progress bar. | Quiz
-    - *Loading error retry* - Default text on the results page in case of loading issues. | Results Page
-    - *Loading error no response* - Default text on the results page in case of loading issues. | Results Page
-    - *Try again* - Default text on the results page in case of loading issues. | Results Page
+    - *Loading error retry* - Default text on the results page in case of loading issues. | Results page
+    - *Loading error no response* - Default text on the results page in case of loading issues. | Results page
+    - *Try again* - Default text on the results page in case of loading issues. | Results page
 
 
 === "Shopify (Legacy)"
@@ -5118,7 +5118,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_quizsettings_versionhistory](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
 
-    In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
+    In the Version History section of Quiz settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
 
     **Version ID: XXXXXX Last saved xx-xx-xxxx** - A version of the quiz.
 
@@ -5205,7 +5205,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![manual_shopifyV2_quizbuilder_integrations](/images/manual_shopifyV2_quizbuilder_integrations.png)
 
-    In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
+    In the Integrations tab of the Quiz builder, you can connect your quiz to third-party services. See the [list of integrations](https://revenuehunt.com/integrations/) for the up-to-date list of our integrations.
 
     To connect the quiz to a particular service find it on the page. Then follow the instructions displayed in the browser or in the `read more` section.
 
@@ -5873,7 +5873,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
 === "Shopify"
 
-    In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
+    In the Metrics section of the Quiz builder, you can find individual quiz responses and analytics.
 
 
 === "Shopify (Legacy)"
@@ -5940,7 +5940,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Result** - Showecases the results page results.
 
-    **S1: QUIZ RESULTS** - Displays the name of the section recommended.
+    **S1: Quiz results** - Displays the name of the section recommended.
 
     **Products** 
 
@@ -6237,7 +6237,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     **Quiz Starts** - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). 
 
-    **Quiz Responses** - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.
+    **Quiz responses** - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.
 
     **Completion Rate** - Percentage of people who have engaged with the quiz and completed it.
 

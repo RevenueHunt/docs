@@ -15,7 +15,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     !!! warning "Before you begin"
 
-        **Make sure your quiz collects email addresses.** Open your quiz in the [Quiz Builder](/reference/quiz-builder/questions/) and check for an [email question](/reference/quiz-builder/questions/#email) block. If there isn't one, click `Add Question` and select `Email Address` from the question types. You can also add it to an existing slide from the `Add Block` menu.
+        **Make sure your quiz collects email addresses.** Open your quiz in the [Quiz builder](/reference/quiz-builder/questions/) and check for an [email question](/reference/quiz-builder/questions/#email) block. If there isn't one, click `Add Question` and select `Email Address` from the question types. You can also add it to an existing slide from the `Add Block` menu.
 
         **(optional) Ask for marketing consent.** Add a marketing consent checkbox directly below the email field. This lets quiz takers agree to receive marketing emails, which is useful for GDPR compliance. See [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
 
@@ -268,7 +268,7 @@ Apart from giving your customers personalized product recommendations, you can c
     Once your account is connected, you can choose which Mailchimp **audience** quiz takers are added to. The audience selector lives inside the email question block.
 
     1. Make sure your account is [connected to Mailchimp](#link-quiz-to-mailchimp) and that the `Send Quiz Leads to Mailchimp` checkbox is enabled for the quiz.
-    2. In the RevenueHunt app, open the [Quiz Builder](/reference/quiz-builder/) and click on the [email question](/reference/quiz-builder/questions/#email) block to open its settings.
+    2. In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and click on the [email question](/reference/quiz-builder/questions/#email) block to open its settings.
     3. Under the `Mailchimp Audience` dropdown, select the audience you want quiz takers added to.
     4. Click the top `Save` button to save your changes.
 
@@ -303,11 +303,11 @@ Apart from giving your customers personalized product recommendations, you can c
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=K9vLKxpsVk1Ugva9&amp;start=257" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-    Because full quiz answers don't sync to Mailchimp, we recommend using the [Customer Tags](/reference/quiz-builder/customer-tags/) field on each quiz answer choice. When a quiz taker selects an answer, that choice's customer tag is sent to Mailchimp as a contact tag, which you can then use to build your own segmentation rules.
+    Because full quiz answers don't sync to Mailchimp, we recommend using the [Customer tags](/reference/quiz-builder/customer-tags/) field on each quiz answer choice. When a quiz taker selects an answer, that choice's customer tag is sent to Mailchimp as a contact tag, which you can then use to build your own segmentation rules.
 
     **Tag your answer choices**
 
-    1. Open your quiz in the [Quiz Builder](/reference/quiz-builder/) and click on an answer choice to open its [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
+    1. Open your quiz in the [Quiz builder](/reference/quiz-builder/) and click on an answer choice to open its [Choice settings](/reference/quiz-builder/questions/#choice-settings).
     2. Under `Customer tags`, create a tag that describes that choice. For example, if a question asks about skin type, tag the `Oily` choice with `skin-oily` and the `Dry` choice with `skin-dry`.
 
         ![how to send leads to mailchimp customer tags built for shopify](/images/how_to_shiopifyv2_send_leads_to_mailchimp_tags.png)

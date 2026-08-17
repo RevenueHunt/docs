@@ -60,7 +60,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     **Step 4: Change Translations for Buttons and Helpers:**
 
-    - Go to the [Quiz Settings > Content](/reference/quiz-builder/quiz-settings/#content) tab.
+    - Go to the [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#content) tab.
 
     - Change the translations for buttons and helpers for each language version.
 
@@ -70,7 +70,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
         Check our step by step tutorial on how to set up Shopify Markets and assign quizzes to different markets and languages with the RevenueHunt app: [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/).
 
-    - Once each quiz version is ready, go to [App Settings > Shopify Markets](/reference/app-settings/#markets).
+    - Once each quiz version is ready, go to [App settings > Shopify Markets](/reference/app-settings/#markets).
 
     - Select the appropriate market and language, and link each translated quiz to its respective locale. This will ensure that visitors see the correct quiz based on their market and language settings.
 
@@ -173,7 +173,7 @@ This guide will help you change the language of your quiz, translate it into dif
 
     - In the left-hand menu, go to Apps and select `RevenueHunt`.
 
-    - Once in the app, look for [App Settings](/reference/app-settings/) and select the [Shopify Markets](/reference/app-settings/#markets) tab.
+    - Once in the app, look for [App settings](/reference/app-settings/) and select the [Shopify Markets](/reference/app-settings/#markets) tab.
 
     **Step 2: Assign a Quiz to a Specific Shopify Market**
 

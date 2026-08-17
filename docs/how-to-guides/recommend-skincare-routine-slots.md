@@ -163,7 +163,7 @@ Once your quiz is set up, you should add products and collections to the choices
 
 === "Shopify"
 
-    1. **Go to Link Products/Collections tab**: To add link products or product variants to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice and open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
+    1. **Go to Link Products/Collections tab**: To add link products or product variants to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice and open the [Choice settings](/reference/quiz-builder/questions/#choice-settings).
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections.png)
     2. **Link Products**: Link all relevant product variants or collections to each choice. Ensure every choice in your quiz is linked to at least one product or collection to prevent empty results. If a product does not receive at least one vote, it will never show up on the results page.
@@ -210,8 +210,8 @@ Once your quiz is set up, you should add products and collections to the choices
 
 === "Shopify"
 
-    1. **Edit the Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) tab and edit the content. Add design elements like headings, logos, and content blocks.
-    2. **Add a Product Block**: Use the `+` button to add a `Product Block` to the Results Page.
+    1. **Edit the Results page**: Go to the [Results page](/reference/quiz-builder/results-page/) tab and edit the content. Add design elements like headings, logos, and content blocks.
+    2. **Add a Product block**: Use the `+` button to add a `Product Block` to the Results page.
     3. **Add Slots**: Open the [`Product Block settings`](/reference/quiz-builder/questions/#block-settings) and add a slot for each step in the skincare routine. For example, if your routine consists of 4 products, you should add 4 slots to your Slots Block.
     4. **Edit the Slot**: You can add a title or a description to each slot.
     5. **Add Segments**: Add a segment with the corresponding product collection to each slot in the `Add segment` section. It's vital for displaying recommendations. Slot can only show most-voted products from a collection that's added in the segment field.

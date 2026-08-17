@@ -8,7 +8,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts, set up integrtations, notificaiton emails to self and result emails to quiz takers, or restore a previously published version of the quiz.
+    In Quiz settings you can adjust the quiz language or currency, edit button translations and placeholder texts, set up integrtations, notificaiton emails to self and result emails to quiz takers, or restore a previously published version of the quiz.
 
 
 === "Shopify (Legacy)"
@@ -206,23 +206,23 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Next` - Default text on the buttons that move the user to the next slide. | Quiz
 
-    `Add to cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
+    `Add to cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results page
 
-    `Sold out` - Default text on the product CTA button when a product or selected variant is out of stock. | Results Page
+    `Sold out` - Default text on the product CTA button when a product or selected variant is out of stock. | Results page
 
-    `View product` - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
+    `View product` - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results page
 
-    `View collection` - Default text on the product CTA button when checkout settings are set to "Link to Collection". | Results Page
+    `View collection` - Default text on the product CTA button when checkout settings are set to "Link to Collection". | Results page
 
-    `Add all to cart ({{count}})` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+    `Add all to cart ({{count}})` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results page
 
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
+    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results page
 
-    `Proceed to Checkout ({{count}})` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
+    `Proceed to Checkout ({{count}})` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results page
 
-    `Proceed to Cart ({{count}})` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
+    `Proceed to Cart ({{count}})` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results page
 
-    `{{count}} in cart` - Default text on the product CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
+    `{{count}} in cart` - Default text on the product CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results page
 
     !!! info
 
@@ -232,9 +232,9 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent_placeholders.png)
 
-    `Select variant` - Default placeholder text on variants dropdown | Results Page
+    `Select variant` - Default placeholder text on variants dropdown | Results page
 
-    `No variants` - Default text on the product tile if the product has variants grouped but the product has no variants. | Results Page
+    `No variants` - Default text on the product tile if the product has variants grouped but the product has no variants. | Results page
 
     `Dropdown "select" placeholder` - Default placeholder text on the dropdowns. | Quiz
 
@@ -252,19 +252,19 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `(Percentage)% complete` - Default text on the quiz progress bar. | Quiz
 
-    `Error loading, retrying...` - Default text on the results page in case of loading issues. | Results Page
+    `Error loading, retrying...` - Default text on the results page in case of loading issues. | Results page
 
-    `Error loading response` - Default text on the results page in case of loading issues. | Results Page
+    `Error loading response` - Default text on the results page in case of loading issues. | Results page
 
-    `Try again` - Default text on the results page in case of loading issues. | Results Page
+    `Try again` - Default text on the results page in case of loading issues. | Results page
 
-    `Review (singular)` - Default text on the review block. | Results Page
+    `Review (singular)` - Default text on the review block. | Results page
 
-    `Review (plural)` - Default text on the review block. | Results Page
+    `Review (plural)` - Default text on the review block. | Results page
 
-    `One-time purchase` - Default text on the one-time purchase block. | Results Page
+    `One-time purchase` - Default text on the one-time purchase block. | Results page
 
-    `Subscribe & save` - Default text on the subscribe & save block. | Results Page
+    `Subscribe & save` - Default text on the subscribe & save block. | Results page
 
     `{{percent}}% complete` - Default text on the quiz progress bar. | Quiz
 
@@ -288,7 +288,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Quiz navigation buttons` - Default text on the quiz navigation buttons. | Quiz
 
-    `Results bottom bar` - Default text on the results bottom bar. | Results Page
+    `Results bottom bar` - Default text on the results bottom bar. | Results page
 
 
 === "Shopify (Legacy)"

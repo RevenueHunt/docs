@@ -106,7 +106,7 @@ icon: material/bullhorn-outline
 
     It is **not yet possible** to link your Product Recommendation Quiz created in the new Built for Shopify version of the RevenueHunt app to ActiveCampaign.
 
-    Check [Alternative Ways to Send Quiz Leads to ActiveCampaign](#alternative-ways-to-send-quiz-leads-to-activecampaign) to learn how you can send quiz leads to ActiveCampaign anyway.
+    Check [Alternative Ways to Send Quiz leads to ActiveCampaign](#alternative-ways-to-send-quiz-leads-to-activecampaign) to learn how you can send quiz leads to ActiveCampaign anyway.
 
 
 

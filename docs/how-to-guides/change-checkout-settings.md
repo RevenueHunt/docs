@@ -15,8 +15,8 @@ Follow the instructions below to change your checkout settings:
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_checkoutbar](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
-    1. Open the [Results Page](/reference/quiz-builder/results-page/).
-    2. Open the [Results Page settings](/reference/quiz-builder/results-page/#results-page-settings).
+    1. Open the [Results page](/reference/quiz-builder/results-page/).
+    2. Open the [Results page settings](/reference/quiz-builder/results-page/#results-page-settings).
     3. Find the `Checkout options` section and open it.
     4. Select the `Bar options` you want to use.
 

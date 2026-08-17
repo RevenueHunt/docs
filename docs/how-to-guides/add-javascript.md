@@ -71,7 +71,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
-    ??? info "Use JavaScript on Results Page when you want to:"
+    ??? info "Use JavaScript on Results page when you want to:"
         - Access all quiz data - See all answers, scores, and variables after quiz completion
         - Work with recommendations - Access and manipulate recommended products/collections
         - Cart operations - Add products to cart, apply discount codes
@@ -80,7 +80,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         - Customize recommendations - Modify or filter displayed products
 
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
+    1. Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png)
 
@@ -153,7 +153,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
         - Track individual questions - Fire analytics events for specific questions
 
 
-    1. Navigate to the [Quiz Builder](/reference/quiz-builder/).
+    1. Navigate to the [Quiz builder](/reference/quiz-builder/).
     2. Open [question settings](/reference/quiz-builder/questions/#question-settings).
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png)
@@ -230,7 +230,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     #### Results Page
 
-    1. Navigate to the [Results Page](/reference/quiz-builder/results-page/) in the Quiz Builder.
+    1. Navigate to the [Results page](/reference/quiz-builder/results-page/) in the Quiz builder.
     2. Add or edit a [**Custom HTML block**](/reference/quiz-builder/results-page/#custom-html) in your results page layout.
     3. Add your JavaScript using `<script>` tags:
 
@@ -259,7 +259,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     #### Questions
 
-    1. Navigate to the [Quiz Builder](/reference/quiz-builder/) and open a question.
+    1. Navigate to the [Quiz builder](/reference/quiz-builder/) and open a question.
     2. Add or edit a [**Custom HTML block**](/reference/quiz-builder/questions/#custom-html) within the question.
     3. Add your JavaScript using `<script>` tags:
 
@@ -293,8 +293,8 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     #### Slot Item Composition
 
-    1. Navigate to the [Results Page Settings](/reference/quiz-builder/results-page/) in the Quiz Builder.
-    2. Open the [Product Block](/reference/quiz-builder/results-page/#product-block) and in the [Slot settings](/reference/quiz-builder/results-page/#slot-settings) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.
+    1. Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.
+    2. Open the [Product block](/reference/quiz-builder/results-page/#product-block) and in the [Slot settings](/reference/quiz-builder/results-page/#slot-settings) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.
     3. Add or edit a **Custom HTML block** within a product slot.
     4. Add JavaScript that interacts with individual product data:
 
@@ -349,9 +349,9 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     !!! info "How to Find Block and Question IDs"
 
-        **Method 1: Copy from Quiz Builder (Recommended)**
+        **Method 1: Copy from Quiz builder (Recommended)**
         
-        1. Open your quiz in the Quiz Builder
+        1. Open your quiz in the Quiz builder
         2. Click on any question or block element
         3. Look for the block ID in the settings panel - it's usually displayed at the top
         4. Click the copy icon next to the ID to copy it to your clipboard
@@ -568,7 +568,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     | `quiz.progress.hasPrevious` | Can navigate back |
     | `quiz.progress.hasNext` | Can navigate forward |
 
-    **Results Page Properties**
+    **Results page Properties**
 
     | Property | Description |
     |----------|-------------|
@@ -677,7 +677,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     ```
     These synthetic answers will appear in your webhook's `answersByBlock` payload, allowing you to track attribution data alongside quiz responses.
 
-    **Use Shopify AJAX cart APIs, then sync the quiz UI (Results Page):**
+    **Use Shopify AJAX cart APIs, then sync the quiz UI (Results page):**
     ```javascript
     if ((quiz.variables.scores.premium ?? 0) > 80) {
       await fetch(`${window.Shopify.routes.root}cart/add.js`, {
@@ -692,7 +692,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     }
     ```
 
-    **Apply discount based on cart value (Results Page):**
+    **Apply discount based on cart value (Results page):**
     ```javascript
     const itemCount = Object.keys(quiz.resultContext.slotItems || {}).length;
     if (itemCount >= 3) {
@@ -797,7 +797,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
     Older quiz code may still use `actions.addToCart(...)`, `actions.addAllToCart()`, `actions.applyDiscountCode(...)`, or `actions.updateCartAttributes(...)`. These remain useful for backwards compatibility, but for new Shopify cart work, prefer native Shopify Ajax endpoints plus `syncCart()`.
 
-    **Track quiz completion with analytics (Results Page):**
+    **Track quiz completion with analytics (Results page):**
     ```javascript
     // Send quiz completion data to your analytics
     const data = {
@@ -2365,7 +2365,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 === "Shopify"
 
-    In this version of the Revenuehunt app you can direct users to different markets via the [App Settings > Shopify Markets tab](/reference/app-settings/#shopify-markets) and the product will be already shown in the right language and currency. 
+    In this version of the Revenuehunt app you can direct users to different markets via the [App settings > Shopify Markets tab](/reference/app-settings/#shopify-markets) and the product will be already shown in the right language and currency. 
 
 
 === "Shopify (Legacy)"
@@ -2445,7 +2445,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
 
 
       
-    **Results Page**
+    **Results page**
 
 
     ??? example "Add all recommended products with Shopify cart API, then sync the quiz UI"

@@ -49,11 +49,11 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
     Next, let’s build the quiz. 
     
-    1. Head over to the [Quiz Builder](/reference/quiz-builder/) > [Questions](/reference/quiz-builder/questions/).
+    1. Head over to the [Quiz builder](/reference/quiz-builder/) > [Questions](/reference/quiz-builder/questions/).
     2. Add [multiple-choice questions](/reference/quiz-builder/questions/#multiple-choice) with 5 choices each. These should help determine the customer’s skin condition. Each question and choice should give clues about the user's skin type.
 
         !!! tip
-            Check out our previous tutorial to learn how to use the Quiz Builder and add questions: [How to Make Your First Quiz](/tutorials/making-first-quiz/).
+            Check out our previous tutorial to learn how to use the Quiz builder and add questions: [How to Make Your First Quiz](/tutorials/making-first-quiz/).
 
 
         !!! example "Sample Questions:"
@@ -80,7 +80,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
     Now it’s time to assign variables and scores to each choice.
 
-    1. Click on a choice to open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
+    1. Click on a choice to open the [Choice settings](/reference/quiz-builder/questions/#choice-settings).
     2. Scroll to `Scores & Calculations` and add a new variable.
     3. To create a new variable, click on the `Search or create variable` search bar and start typing the name of the variable you want to create (e.g. `dry_skin`, `normal_skin`, `oily_skin`, etc.). Once you've typed the full name, a dropdown will appear that will allow you to `Create a new variable "xxx"`. Click on it to add a new variable.
     4. Assign a score of 1 to the matching variable.
@@ -111,16 +111,16 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
     ## Add Sections to Results Page
 
-    Now let’s edit the Results Page.
+    Now let’s edit the Results page.
     
-    1. Head over to the [Results Page](/reference/quiz-builder/results-page/).
+    1. Head over to the [Results page](/reference/quiz-builder/results-page/).
     2. Click `+ Add section` to add a new section to your results page.
     3. Add five different sections — one for each skin type.
     4. In each section, add:
         - A [heading](/reference/quiz-builder/results-page/#heading),
         - A short [text description](/reference/quiz-builder/results-page/#text) of what that means,
-        - A [Product Block](/reference/quiz-builder/results-page/.#products-products-variants-collections)
-    5. In the [Product Block settings](/reference/quiz-builder/results-page/#products-products-variants-collections), choose the Recommendations System to be `Fixed Recommendations`.
+        - A [Product block](/reference/quiz-builder/results-page/.#products-products-variants-collections)
+    5. In the [Product block settings](/reference/quiz-builder/results-page/#products-products-variants-collections), choose the Recommendations System to be `Fixed Recommendations`.
     6. In the [Product Slot](/reference/quiz-builder/results-page/#product-slot) settings, select the `Max. recommended items` and click on `Select products` to manually select the products that match that skin type.
     7. Repeat the process for each skin type section.
 
@@ -131,7 +131,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
     Now let’s tell the app *when* to show each section.
 
     1. Click a specific section to open the `Results Section` settings.
-    2. Go to [Display Logic](/reference/quiz-builder/results-page/#display-logic) and click `+ Add condition (OR)`.
+    2. Go to [Display logic](/reference/quiz-builder/results-page/#display-logic) and click `+ Add condition (OR)`.
     3. Show the section if the corresponding variable has the highest score (e.g., dry skin). Ensure default visibility is set to hidden for all sections until conditions are met.  
     
         Set the conditions like this:
@@ -141,7 +141,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
     4. Repeat this for each skin type section using their corresponding variable.
 
-        !!! example "Sample Display Logic:"
+        !!! example "Sample Display logic:"
 
             - IF `the variable with the highest score` `IS` `dry_skin` THEN this section is VISIBLE. Default visibility should be `HIDDEN`.
             - IF `the variable with the highest score` `IS` `normal_skin` THEN this section is VISIBLE. Default visibility should be `HIDDEN`.

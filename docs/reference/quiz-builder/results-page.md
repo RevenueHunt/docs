@@ -8,7 +8,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
-    In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like. This section allows you to configure the results settings for your quiz. You can customize the result blocks, sections, and slots to display the desired outcome to the users.
+    In the Results page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like. This section allows you to configure the results settings for your quiz. You can customize the result blocks, sections, and slots to display the desired outcome to the users.
 
     `Results Page` - the menu where all your results pages are nested.
 
@@ -26,11 +26,11 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `+ Add section` - Adds a new section to this results page. To remove a section or a block, click the `bin` icon.
 
-    `+ Add results page` - Add another results page to your quiz. To remove a Results Page, click on the Results Page and go to [Results Page settings](#results-page-settings).
+    `+ Add results page` - Add another results page to your quiz. To remove a Results page, click on the Results page and go to [Results page settings](#results-page-settings).
 
     !!! note
 
-        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional Logic tab.
+        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional logic tab.
 
 
 
@@ -250,7 +250,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
-    With Display Logic you can make **sections** visible or hidden based on customer's responses.
+    With Display logic you can make **sections** visible or hidden based on customer's responses.
 
     **Display logic**
 
@@ -260,24 +260,24 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `bin` - Delete the current Logic rule.
     
-    `+ Add condition (OR)` - Adds another Display Logic rule. Adds a new OR logical rule.
+    `+ Add condition (OR)` - Adds another Display logic rule. Adds a new OR logical rule.
 
     `Default` - Select whether this section should be `Shown` or `Hidden` by default.
 
     ---
 
-    There are three types of Display Logic rules you can choose from:
+    There are three types of Display logic rules you can choose from:
 
     ---
 
     ### Type 1: IF The response to the question...
 
-    Then the Display Logic rules follow the following format:
+    Then the Display logic rules follow the following format:
 
     - **IF response to** pick the question from a dropdown list
     - **is**/ **is not** pick a choice from the dropdown list
     - **THEN section is Visible** 
-    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display Logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display Logic rule is triggered.
+    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 
     !!! example "Example 1"
 
@@ -289,7 +289,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ### Type 2: IF The score of the variable...
 
-    Then the Display Logic rules follow the following format:
+    Then the Display logic rules follow the following format:
 
     - **IF The score of the variable** 
     - **score** pick the variable from a dropdown list
@@ -297,7 +297,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     - **Number** / **Another variable** pick a choice from the dropdown list
     - **0** / **1** / **2** / **other numerical value** type a value in the input field
     - **THEN section is Visible** 
-    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display Logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display Logic rule is triggered.
+    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 
 
     !!! info
@@ -315,12 +315,12 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ### Type 3: IF the variable with the highest score...
 
-    Then the Display Logic rules follow the following format:
+    Then the Display logic rules follow the following format:
 
     - **IF the variable with the highest score** 
     - **score** pick the variable from a dropdown list
     - **THEN section is Visible**
-    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display Logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display Logic rule is triggered.
+    - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 
     !!! info
 
@@ -784,7 +784,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Price` - Adds the product price as set up in Shopify Products.
 
-    ??? warning "Why the Compare-at Price May Not Show on the Results Page"
+    ??? warning "Why the Compare-at Price May Not Show on the Results page"
 
         If the **compare-at price** is missing or showing as `null` on the quiz results page, this is often due to **Shopify Markets settings**. By default, Shopify can hide compare-at prices for customers in certain regions—especially in the **European Economic Area (EEA)**—due to local pricing or legal restrictions.
 
@@ -870,7 +870,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     
     ??? info "How Slots Work"
 
-        Slots display products based on the `Recommendations system` set up in [Product Block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
+        Slots display products based on the `Recommendations system` set up in [Product block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
         
         If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
 
@@ -902,7 +902,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ??? info "How Slots Work"
 
-        Slots display products based on the `Recommendations system` set up in [Product Block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
+        Slots display products based on the `Recommendations system` set up in [Product block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
         
         If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
 
@@ -1547,7 +1547,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 === "Shopify"
 
-    Check [Results Page settings](#results-page-settings) > `Checkout options`.
+    Check [Results page settings](#results-page-settings) > `Checkout options`.
 
 
 === "Shopify (Legacy)"
@@ -2008,11 +2008,11 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `+ Add results page` - Click to add an extra results page to your quiz. Each results page can have different settings and content.
 
-    !!! info "Jump Logic is required"
+    !!! info "Jump logic is required"
 
-        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional Logic tab.
+        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional logic tab.
 
-        Check out [this guide](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump Logic.
+        Check out [this guide](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump logic.
 
 
 === "Shopify (Legacy)"
@@ -2109,7 +2109,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 === "Shopify"
 
-    1. To add a discount code to the results page, open the [Results Page Settings](/reference/quiz-builder/results-page/#results-page-settings).
+    1. To add a discount code to the results page, open the [Results page settings](/reference/quiz-builder/results-page/#results-page-settings).
     2. Locate the `Discount code` section and paste the discount code in the `Code` field. Note that the code must be a valid discount code in your Shopify store.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)

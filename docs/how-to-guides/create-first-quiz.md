@@ -64,7 +64,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
     2. **Choose a template**: Choose a pre-defined template, generate with AI or start from scratch.
     3. **Name your quiz**: The name can be edited later.
-    4. **Redirect to Quiz Builder**: After that, you'll be redirected to the [Quiz Builder](/reference/quiz-builder/).
+    4. **Redirect to Quiz builder**: After that, you'll be redirected to the [Quiz builder](/reference/quiz-builder/).
 
     !!! tip "Ask Quiz Copilot"
 
@@ -117,11 +117,11 @@ Follow these steps to create your first quiz with the RevenueHunt app.
 
 === "Shopify"        
 
-    In [Quiz Builder > Questions](/reference/quiz-builder/questions/) you'll be able to add questions to your quiz.
+    In [Quiz builder > Questions](/reference/quiz-builder/questions/) you'll be able to add questions to your quiz.
 
     1. **Add questions**: To add a question, click the `+ Add question` button. Select a [question type](/reference/quiz-builder/questions/#question-types) from the dropdown.
 
-        ![Question Types](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
+        ![Question types](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
 
     2. **Add blocks**: You can add multiple different blocks to a single question slide such as text, images, videos, etc.
     3. **Delete slides**: To delete a question, click the `🗑 Remove question` button in [question settings](/reference/quiz-builder/questions/#question-settings).
@@ -171,7 +171,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     In this setup, you'll have to:
     
     - Link products or collections to each choice in the quiz. 
-    - On the Results Page, add a product block that will recommend the most voted products based on the customer's answers.
+    - On the Results page, add a product block that will recommend the most voted products based on the customer's answers.
     - You can also sort recommendations into multiple product slots to show a complete product routine.
 
     **Option 2**: Set up a custom variable or a score that will determine what recommendations should be shown *(recommended for personality-type quizzes)*
@@ -181,7 +181,7 @@ Follow these steps to create your first quiz with the RevenueHunt app.
     In this setup, you'll have to:
 
     - Create a custom variable or a score for each choices in the quiz. 
-    - On the Results Page, set up multiple sections with fixed recommendations and content.
+    - On the Results page, set up multiple sections with fixed recommendations and content.
     - To each section, add display logic to tell it when to be shown or hidden based on the final score or variable with the most votes. 
     - *For example, show Section 1 if the varaibkle with the highest score is "blue" and Section 2 if the varaibkle with the highest score is "red".*
 

@@ -6,7 +6,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
 === "Shopify"
 
-    To set up email notifications, go to [Quiz Settings](/reference/quiz-builder/quiz-settings/) section. You can set up [Emails to self](#to-self) (email notifications to the store owner) and [Emails to respondents](#to-respondent) (email notifications to the quiz takers).
+    To set up email notifications, go to [Quiz settings](/reference/quiz-builder/quiz-settings/) section. You can set up [Emails to self](#to-self) (email notifications to the store owner) and [Emails to respondents](#to-respondent) (email notifications to the quiz takers).
 
 
 === "Shopify (Legacy)"
@@ -59,7 +59,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Jul 10, 2025 12:35 PM` - Date of the quiz completion. Click to open a dropdown and chose a different response.
 
-    `From:` - Email address of the sender. Go to the [App Settings > SMTP section](/reference/app-settings/#smtp/) to set up your email server details. Otherwise, the email will be sent from RevenueHunt email address.
+    `From:` - Email address of the sender. Go to the [App settings > SMTP section](/reference/app-settings/#smtp/) to set up your email server details. Otherwise, the email will be sent from RevenueHunt email address.
 
     `Metadata` - Lists all the metadata provided by the customer.
 
@@ -412,7 +412,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Jul 10, 2025 12:35 PM` - Date of the quiz completion. Click to open a dropdown and chose a different response.
 
-    `From:` - Email address of the sender. Go to the [App Settings > SMTP section](/reference/app-settings/#smtp/) to set up your email server details. Otherwise, the email will be sent from RevenueHunt email address.
+    `From:` - Email address of the sender. Go to the [App settings > SMTP section](/reference/app-settings/#smtp/) to set up your email server details. Otherwise, the email will be sent from RevenueHunt email address.
 
     `Metadata` - Lists all the metadata provided by the customer.
 

@@ -146,7 +146,7 @@ The most successful quizzes have two things in common. They are **short** and th
 === "Shopify"
 
     1. Let's add a new quiz from your [dashboard](/reference/dashboard/) by clicking on the `Create New Quiz` button.
-    2. [Quiz Builder](/reference/quiz-builder/) is where you'll create your quiz. 
+    2. [Quiz builder](/reference/quiz-builder/) is where you'll create your quiz. 
     3. Click on the `+ Add Question` button and select the question type you want to add. 
     4. You can edit the question and you'll see how it looks in the preview.
     5. To change [question settings](/reference/quiz-builder/questions/#question-settings), click on the question card and use the settings panel on the right. Here, you can change things like adding a question description or an image.
@@ -234,7 +234,7 @@ Now let's make the quiz pretty.
 
 === "Shopify"
 
-    1. You can change the look of your quiz in the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
+    1. You can change the look of your quiz in the [Quiz design](/reference/quiz-builder/quiz-design/) tab.
     2. In the [Color Scheme Section](/reference/quiz-builder/quiz-design/#my-themes), you'll see some premade themes that you can choose from.
     3. Or you can create your own design by clicking on different elements in the editing panel.
     4. To make the quiz match the store's style let's:
@@ -411,7 +411,7 @@ Speaking of results. Make sure to also edit the Results Page.
 
 === "Shopify"
 
-    1. Just like in the Quiz Builder, you can add multiple sections to your [Results Page](/reference/quiz-builder/results-page/) by clicking on the `Results Page` tab. 
+    1. Just like in the Quiz builder, you can add multiple sections to your [Results page](/reference/quiz-builder/results-page/) by clicking on the `Results Page` tab. 
     2. Click on the `+ Add Block` button to select a block type. 
         - In `text blocks`, you can write insightful information about the product recommended.
         - With an `image block`, you can add your brand's logo.

@@ -26,8 +26,8 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 
     To add scores or variables to choices, follow these steps:
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
-    2. Open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
+    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
+    2. Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings).
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
 
@@ -52,7 +52,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
 
         To learn how to use these variables to set up a personality type quiz, dosha quiz, scoring quiz, etc. check out the following articles:
 
-        - [How to Use Display Logic](/how-to-guides/use-display-logic/)
+        - [How to Use Display logic](/how-to-guides/use-display-logic/)
         - [How to Set Up a Personality Type Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
         - [How to Set Up a Scoring Quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
 
@@ -107,7 +107,7 @@ Follow these steps to set up a winning variable quiz:
 
     Let's imagine you are creating a quiz for a skin care brand. You want to know which skin type the customer has.
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their skin condition. For example: itchiness, tightness, dryness, etc. if you are creating a quiz for a skin care brand.
+    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their skin condition. For example: itchiness, tightness, dryness, etc. if you are creating a quiz for a skin care brand.
 
     2. **Assign Variables and Scores to Choices**: Go to each question in your quiz. For each choice, open the [choice settings](/reference/quiz-builder/questions/#choice-settings) and [assign varibales to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices). 
 
@@ -133,7 +133,7 @@ Follow these steps to set up a winning variable quiz:
             - Choice 4: T-zone shiny (variable `combination skin` +1)
             - Choice 5: Red and irritated (variable `sensitive skin` +1)
 
-    3. **Add a Results Page and Sections**: Add a [Results Page](/reference/quiz-builder/results-page/) to your quiz. On the Results Page add several **Sections** with Heading, Text and Product Block that shows products for specific skin type and its challenges.
+    3. **Add a Results page and Sections**: Add a [Results page](/reference/quiz-builder/results-page/) to your quiz. On the Results page add several **Sections** with Heading, Text and Product block that shows products for specific skin type and its challenges.
 
         !!! example
 
@@ -147,9 +147,9 @@ Follow these steps to set up a winning variable quiz:
 
             Section 5: Sensitive Skin
 
-    4. **Add a Product Block to Each Section**: Add a [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) to each section on your Results Page. In the Product Block settings set the `Recommendation System` to `Fixed Recommendations` and select the products you want to recommend for that skin type.  
+    4. **Add a Product block to Each Section**: Add a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) to each section on your Results page. In the Product block settings set the `Recommendation System` to `Fixed Recommendations` and select the products you want to recommend for that skin type.  
 
-    5. **Add Display Logic**: Add a [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) to each section on your Results Page to tell it when to be shown or hidden based on the winning variable.
+    5. **Add Display logic**: Add a [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) to each section on your Results page to tell it when to be shown or hidden based on the winning variable.
 
         !!! example
 
@@ -384,9 +384,9 @@ Follow these steps to set up a scoring quiz with one results page:
 
         We have Scoring Quiz template available among the Quiz Templates. To use it go to the [Dashboard](/reference/dashboard/) and click on `Create Quiz` button. Then, select `Scoring Quiz` template.
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
+    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
 
-    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) section. 
+    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice settings](/reference/quiz-builder/questions/#choice-settings) section. 
 
         ![assigning scores to choices](/images/how_to_shopifyv2_scoringquiz_addscore.png)
 
@@ -404,7 +404,7 @@ Follow these steps to set up a scoring quiz with one results page:
             - Combination skin choices: 4 points
             - Sensitive skin choices: 5 points
 
-    2. **Add Content Sections to Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign. 
+    2. **Add Content Sections to Results page**: Go to the [Results page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign. 
     
         Add multiple content blocks describing the specific skin type and its challenges. For example:
 
@@ -417,11 +417,11 @@ Follow these steps to set up a scoring quiz with one results page:
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product Block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  
+        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
             
-    3. **Add Score-Based Display Logic**: On the Results Page, select a content block and in the right-hand menu locate `Display logic`.
+    3. **Add Score-Based Display logic**: On the Results page, select a content block and in the right-hand menu locate `Display logic`.
         
         - Click on `+ Add condition (OR)`
         - Instead of using question-specific conditions, use the `The variable with the highest score...` or `The score of the variable...` option
@@ -495,9 +495,9 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/aRp9cmo8XLI?si=dlqABFGJMtT4mmnc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
+    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skin type, environment etc. if you are creating a quiz for a skin care brand.
 
-    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) section. 
+    2. **Assign Scores to Choices**: Go to each question in your quiz. For each choice, open the choice settings and [assign appropriate point values to each choice](/how-to-guides/set-up-scoring-quiz/#how-to-add-scores-or-variables-to-choices) via the [Choice settings](/reference/quiz-builder/questions/#choice-settings) section. 
 
         !!! tip
 
@@ -515,7 +515,7 @@ Follow these steps to set up a scoring quiz with multiple results pages:
             - Combination skin choices: 4 points
             - Sensitive skin choices: 5 points
 
-    3. **Create Multiple Results Pages**: Go to the [Results Page](/reference/quiz-builder/results-page/) section and click `+ Add Results Page` to create additional results pages. Create one results page for each possible outcome.
+    3. **Create Multiple Results pages**: Go to the [Results page](/reference/quiz-builder/results-page/) section and click `+ Add Results Page` to create additional results pages. Create one results page for each possible outcome.
 
         ![how_to_shopifyv2_scoringquiz_multiresultspages](/images/how_to_shopifyv2_scoringquiz_multiresultspages.png)
 
@@ -523,13 +523,13 @@ Follow these steps to set up a scoring quiz with multiple results pages:
 
             For example:
 
-            - Results Page 1: Dry Skin Routine
-            - Results Page 2: Normal Skin Routine
-            - Results Page 3: Oily Skin Routine
-            - Results Page 4: Combination Skin Routine
-            - Results Page 5: Sensitive Skin Routine
+            - Results page 1: Dry Skin Routine
+            - Results page 2: Normal Skin Routine
+            - Results page 3: Oily Skin Routine
+            - Results page 4: Combination Skin Routine
+            - Results page 5: Sensitive Skin Routine
 
-    3. **Add Content to Each Results Page**: For each results page, addustom text describing the specific skin type and its challenges, product recommendations for that skin type and any additional content blocks relevant to that skin type.
+    3. **Add Content to Each Results page**: For each results page, addustom text describing the specific skin type and its challenges, product recommendations for that skin type and any additional content blocks relevant to that skin type.
 
         To each results page add a section with content describing the specific skin type and its challenges. For example:
 
@@ -542,12 +542,12 @@ Follow these steps to set up a scoring quiz with multiple results pages:
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-        Make sure to add product blocks to each results page and set the `Recommendation System` to `Fixed Recommendations` in the [Product Block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).
+        Make sure to add product blocks to each results page and set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).
 
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
-    4. **Set Up Jump Logic Based on Scores**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) section of Quiz Builder. Find the last question in your quiz and open the [Jump Logic settings](/reference/quiz-builder/conditional-logic/#jump-logic):
+    4. **Set Up Jump logic Based on Scores**: Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of Quiz builder. Find the last question in your quiz and open the [Jump logic settings](/reference/quiz-builder/conditional-logic/#jump-logic):
         
         - Click on `+ Add condition (OR)`
         - Select `The variable with the highest score...` or `The score of the variable...` option

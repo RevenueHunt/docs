@@ -118,7 +118,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `Analytics` - Opens the [Analytics tab](/reference/quiz-builder/metrics/#analytics) where you can check the quiz performance.
 
-    `App settings` - Opens the [App Settings](/reference/app-settings/) menu.
+    `App settings` - Opens the [App settings](/reference/app-settings/) menu.
 
     `Get support` - Opens the [Support](#support) menu.
 
@@ -224,7 +224,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `X` - Closes the setup guide.
 
-    For the full setup guide, check the [Success Checklist](#success-checklist) section of the [Quiz Builder](/reference/quiz-builder/).
+    For the full setup guide, check the [Success checklist](#success-checklist) section of the [Quiz builder](/reference/quiz-builder/).
 
 === "Shopify (Legacy)"
 
@@ -267,7 +267,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     `4.5K Responses` - Shows the number of responses the current default quiz received.
 
-    `6/9 Quiz optimizations` - Shows the quiz building progress based on the [Success Checklist](#success-checklist).
+    `6/9 Quiz optimizations` - Shows the quiz building progress based on the [Success checklist](#success-checklist).
 
     `Skincare Quiz (Morning & Night)` - Current quiz title. 
 
@@ -315,9 +315,9 @@ On the dashboard, you'll find all the quizzes that you create.
         
         If you want to remove or delete the default quiz, you can do so by setting another quiz as default via the `...` > `Make default quiz` quiz management options. Once the quiz is no longer the default quiz, the `Remove` option will become available.
 
-    `Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) menu.
+    `Settings` - Opens the [Quiz settings](/reference/quiz-builder/quiz-settings/) menu.
 
-    `Customize` - Opens the [Quiz Builder](/reference/quiz-builder/questions/).
+    `Customize` - Opens the [Quiz builder](/reference/quiz-builder/questions/).
 
 
 === "Shopify (Legacy)"
@@ -572,13 +572,13 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![manual_shopifyV2_successchecklist](/images/manual_shopifyV2_successchecklist.png)
 
-    The Success Checklist helps you get the most out of your quiz by guiding you through setup steps that improve performance, lead generation, and visibility. Follow these tasks to ensure you're making the most out of your quiz. 
+    The Success checklist helps you get the most out of your quiz by guiding you through setup steps that improve performance, lead generation, and visibility. Follow these tasks to ensure you're making the most out of your quiz. 
     
     Check off each item to ensure your quiz is ready to deliver real value—from personalized results to better marketing insights. Click the `checkmark ⃝` to mark the task as completed or click the `archive icon 🗂️` to ignore a specific check.
 
     Displays a checklist to help you set up and optimize your quiz for better results.
 
-    !!! example "Success Checklist Steps"
+    !!! example "Success checklist Steps"
 
         Product recommendations
 
@@ -597,7 +597,7 @@ On the dashboard, you'll find all the quizzes that you create.
         `Connect quiz to mailing list or CRM` – Sync collected data to your marketing platform.  
         `Tracking with Google Analytics` – Track quiz behavior for deeper insights.  
         `Tracking with Meta Pixel` – Add Facebook / Meta tracking for ad optimization.
-        `Follow up email not being sent via SMTP` – Check if the email is being sent via SMTP (your own email server) or via the app. `SMTP settings` are located in the [App Settings](/reference/app-settings/#smtp) section.
+        `Follow up email not being sent via SMTP` – Check if the email is being sent via SMTP (your own email server) or via the app. `SMTP settings` are located in the [App settings](/reference/app-settings/#smtp) section.
 
 
 
@@ -727,7 +727,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="300"}
 
-    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder](/reference/quiz-builder/questions/) of the new blank quiz.
+    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz builder](/reference/quiz-builder/questions/) of the new blank quiz.
 
     `From template`  - Start a new quiz by selecting a pre-made template and color scheme.
 
@@ -737,7 +737,7 @@ On the dashboard, you'll find all the quizzes that you create.
 
     ![manual_shopifyV2_createquiz_colorscheme](/images/manual_shopifyV2_createquiz_colorscheme.png){width="300"}
 
-    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz Builder](/reference/quiz-builder/questions/) of the new quiz.
+    Click `Select` to confirm the color scheme, `Cancel` to return to the Quizzes or `Continue` to open the [Quiz builder](/reference/quiz-builder/questions/) of the new quiz.
 
     `Import quiz` - Import a quiz by pasting the quiz JSON in the popup.
 

@@ -414,7 +414,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/paS5z2nzTvU?si=KsRYtyVaGyDNuoSs&amp;start=187" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Email Question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
+    1. **Add Email question**: To send contacts to Klaviyo your quiz needs to have an email question. You can add it to the quiz from the [Quiz builder](/reference/quiz-builder/questions/) tab by clicking `+` and selecting `email` from the dropdown list.
 
         !!! tip
 
@@ -473,7 +473,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
         1. Grab the `EMAIL` action and drop it below the flow trigger.
 
-        **Edit the Email Template**
+        **Edit the Email template**
 
         2. In `Email details` section edit the Subject.
         3. Then, click `Select template`. You'll be taken to the Templates section in Klaviyo.
@@ -489,8 +489,8 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
                 The code contains several ready-to-use code snippets that allow you to display: 
 
-                - **Dynamic Results Page**: Display dynamic results page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
-                - **Static Results Page**: Display the complete results page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
+                - **Dynamic Results page**: Display dynamic results page content that loops through sections and blocks. A Dynamic Results page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
+                - **Static Results page**: Display the complete results page content using static lookups. Static Results page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
                 - **Individual recommendations**: Display individual product recommendations by slot. Use this to show specific recommended items with their details like title, description, price, and images.
                 - **Question answers**: Display quiz information and individual question answers. Use this to show personal data and specific responses from quiz questions.
 
@@ -989,7 +989,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
             Quiz contacts can be added only to a [**Single Opt-in**](https://help.klaviyo.com/hc/en-us/articles/115005251108) list in Klaviyo.
 
     2. Make sure your RevenueHunt account is [connected to Klaviyo via OAuth](#link-your-quiz-to-klaviyo) and that the `Send Quiz Leads to Klaviyo Profiles` checkbox is enabled in the quiz's `Quiz Settings > Integrations` section.
-    3. In the RevenueHunt app, open the [Quiz Builder](/reference/quiz-builder/) and click on the email question block to open its settings.
+    3. In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and click on the email question block to open its settings.
     4. Under the `Klaviyo list` dropdown, select the list you want quiz takers added to.
     5. Set the `subscription status` (for example, `Subscribed`).
 
@@ -1226,7 +1226,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     QuizCopilot can assist in creating Klaviyo email templates for your quiz email flow.
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or head over to the [Quiz Settings](/reference/quiz-settings/)  > [Integrations](/reference/quiz-settings/integrations/) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or head over to the [Quiz settings](/reference/quiz-settings/)  > [Integrations](/reference/quiz-settings/integrations/) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
     2. Paste your desired layout message, and Quiz Copilot will generate the template code.
 
         ![QuizCopilot Building Klaviyo Templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)
@@ -1571,7 +1571,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     The default link format adds `#response-{{ person|lookup:'RESPONSE_ID-QuizID' }}` to the end of the URL:
 
-    !!! example "Example: Link to Quiz Results"
+    !!! example "Example: Link to Quiz results"
 
         `<a href="https://yourwebsite.com/#response-{{ person|lookup:'RESPONSE_ID-Gli0KD' }}">View your quiz results</a>`
 
@@ -1824,7 +1824,7 @@ There’s a feature in Klaviyo that allows you to pull the product information d
 
     If you only want one specific quiz to stop sending data to Klaviyo (while other quizzes in your account keep working):
 
-    1. Open the [Quiz Settings](/reference/quiz-builder/quiz-settings/) of the quiz you want to disconnect.
+    1. Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) of the quiz you want to disconnect.
     2. Go to the `Integrations` tab, find the Klaviyo section, and uncheck the `Send Quiz Leads to Klaviyo Profiles` checkbox.
     3. Save your changes.
 
@@ -1834,7 +1834,7 @@ There’s a feature in Klaviyo that allows you to pull the product information d
 
     If you want to completely revoke the Klaviyo connection across your whole RevenueHunt account:
 
-    1. Open [Quiz Settings](/reference/quiz-builder/quiz-settings/) and go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab.
+    1. Open [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab.
     2. Scroll to Klaviyo and click `Disconnect`.
     3. Confirm the action.
 

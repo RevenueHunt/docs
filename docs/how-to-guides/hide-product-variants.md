@@ -14,9 +14,9 @@ Within Product Recommendation Quiz it is possible to hide the product variants d
 
 === "Shopify"
 
-    You can recommend a specific product variant instead of the main product by changing your Product Block on the Results Page.
+    You can recommend a specific product variant instead of the main product by changing your Product block on the Results page.
 
-    1. Open [Results Page](/reference/quiz-builder/results-page/).
+    1. Open [Results page](/reference/quiz-builder/results-page/).
     2. Click `+ Add block`.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
@@ -28,7 +28,7 @@ Within Product Recommendation Quiz it is possible to hide the product variants d
 
     From that point on, the quiz will recommend a specific product variant instead of the main product.
 
-    !!! info "If you're using the Product Block"
+    !!! info "If you're using the Product block"
 
         You can hide the `Variants dropdown` by deleting the `Variants dropdown` option from the [Slot item composition](/reference/quiz-builder/results-page/#products-products-variants-collections) in the [Recommended Product settings](/reference/quiz-builder/results-page/#products-products-variants-collections).
 
@@ -104,7 +104,7 @@ Within Product Recommendation Quiz it is possible to hide the product variants d
 
     ![how to hide product variants image3](/images/how_to_hide_product_variants_image3.png)
 
-    1. Open the [Quiz Design](/reference/quiz-builder/quiz-design/) tab.
+    1. Open the [Quiz design](/reference/quiz-builder/quiz-design/) tab.
     2. Go to the [Advanced](/reference/quiz-builder/quiz-design/#advanced) section and find the CSS console.
     3. Add the following CSS code to the CSS console:
 

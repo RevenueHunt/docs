@@ -96,13 +96,13 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
 === "Shopify"
 
-    Go to the [Quiz Builder](/reference/quiz-builder/) and create a new quiz. 
+    Go to the [Quiz builder](/reference/quiz-builder/) and create a new quiz. 
     
     To create a quiz in a different language, duplicate the quiz from the dashbaord and edit the quiz. 
     
     ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
     
-    The quiz doesn't have an automatic translstaion option, so you will have to transalte all the questions and answers manually. The text of buttons and admin messages can be translated in the [Quiz Settings > Quiz Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) section.  
+    The quiz doesn't have an automatic translstaion option, so you will have to transalte all the questions and answers manually. The text of buttons and admin messages can be translated in the [Quiz settings > Quiz Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) section.  
     
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
     
@@ -142,7 +142,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
 === "Shopify"
 
-    Once all your quizzes in different languages are created, head over to [App Settings > Shopify Markets](/reference/app-settings/#shopify-markets). This section contains all the markets and languages you've set up in your Shopify store.
+    Once all your quizzes in different languages are created, head over to [App settings > Shopify Markets](/reference/app-settings/#shopify-markets). This section contains all the markets and languages you've set up in your Shopify store.
 
     ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
 
@@ -256,7 +256,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
         You can also preview a specific quiz results page within the `Preview` option in the app. 
         
-        1. Open the [Quiz Builder](/reference/quiz-builder/).
+        1. Open the [Quiz builder](/reference/quiz-builder/).
         2. Click the `Preview` button in the top-right corner of the quiz builder and get all the way to the results page.
         3. There, you'll have the option to preview the results page as different markets and languages.
 

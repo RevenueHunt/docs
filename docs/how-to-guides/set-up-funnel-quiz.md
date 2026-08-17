@@ -32,7 +32,7 @@ Our product recommendation algorithm works like a voting system:
 
 === "Shopify"
 
-    To link products or collections to choices, open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) and go to the `Upvotes` section.
+    To link products or collections to choices, open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) and go to the `Upvotes` section.
 
     ![how to recommend products upvote](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
@@ -55,7 +55,7 @@ Our product recommendation algorithm works like a voting system:
 
     !!! tip
     
-        You can also recommend pure text results by setting up different sections on the results page and controlling visibility of each section with Display Logic. This option is not dependent on the voting system but rather on custom scoring system or conditional logic.
+        You can also recommend pure text results by setting up different sections on the results page and controlling visibility of each section with Display logic. This option is not dependent on the voting system but rather on custom scoring system or conditional logic.
 
 
 
@@ -141,7 +141,7 @@ Our product recommendation algorithm works like a voting system:
 
 === "Shopify"
 
-    To exclude products or collections from choices, open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) and go to the `Exclude` section.
+    To exclude products or collections from choices, open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) and go to the `Exclude` section.
 
     ![how to recommend products exclusion](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
@@ -233,7 +233,7 @@ At the end of the quiz, the results page displays the product variants with the 
             - **Tags**: Every product within a linked tag receives a vote when their linked choice is selected.
             - **Variant collections**: Created automatically by the app, every product within a linked variant collection receives a vote when their linked choice is selected.
             - **Vendor collections**: Created automatically by the app, every product within a linked vendor collection receives a vote when their linked choice is selected.
-            - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz Settings](/reference/quiz-builder/quiz-settings/) needs to be active for this option to appear in the Link Products section.
+            - **All variants of the same product at once**: All variants of a product get upvoted at once when their linked choice is selected. Note: A special setting called `Use top-level product` in [Quiz settings](/reference/quiz-builder/quiz-settings/) needs to be active for this option to appear in the Link Products section.
                 
         ??? warning "How does product **exclusion** work in the voting system?"
             
@@ -251,17 +251,17 @@ At the end of the quiz, the results page displays the product variants with the 
                 ![how to recommend products exclusion example](/images/how_to_recommend_products_exclusion_example.png)
                 This way if a customer chooses that he doesn't want to spend more than 100$, all the products over that price will be excluded from the recommendations.
 
-    2. **Edit the Results Page**: In the [Results Page](/reference/quiz-builder/results-page/) tab you can edit the content of your results screen. 
+    2. **Edit the Results page**: In the [Results page](/reference/quiz-builder/results-page/) tab you can edit the content of your results screen. 
     
-        - You can add a heading, content block, image block, HTML block or a Product Block. 
+        - You can add a heading, content block, image block, HTML block or a Product block. 
 
             ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
         !!! tip
 
-            Check [How to Edit the Results Page](/how-to-guides/edit-results-page/) for more information.
+            Check [How to Edit the Results page](/how-to-guides/edit-results-page/) for more information.
 
-    3. **Add a Product Block**: Products or variants or collections can be displayed on the Results Page as a list via the `Products Block`. 
+    3. **Add a Product block**: Products or variants or collections can be displayed on the Results page as a list via the `Products Block`. 
     
         - Click `+ Add Block` and select [`Products Block`](/reference/quiz-builder/results-page/#products-products-variants-collections) to add it to your results page.
 
@@ -269,11 +269,11 @@ At the end of the quiz, the results page displays the product variants with the 
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products.png)
 
-        - In Product Block settings you can chose the `Recommendation system` to be `Upvotes`. the **Product Block** then displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last.
+        - In Product block settings you can chose the `Recommendation system` to be `Upvotes`. the **Product block** then displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 
-        - Every Product Block comes with a default `Slot` that allows you to display the recommended products. In [Slot settings](/reference/quiz-builder/questions/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
+        - Every Product block comes with a default `Slot` that allows you to display the recommended products. In [Slot settings](/reference/quiz-builder/questions/#block-settings) you can **choose how many products you want to show** at the end of the quiz.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot.png)
 
@@ -283,7 +283,7 @@ At the end of the quiz, the results page displays the product variants with the 
 
         !!! note
 
-            Product Block also allows you to display the products in clear steps, for example as a **skincare routine**. Each Product Block that has an added **Segment Filter** can recommend the most-voted product from a collection that's linked to it. Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot Blocks.
+            Product block also allows you to display the products in clear steps, for example as a **skincare routine**. Each Product block that has an added **Segment Filter** can recommend the most-voted product from a collection that's linked to it. Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) for step-by-step instructions on how to set up Slot blocks.
 
 
     4. **Test the Results**: After your products are linked and the results page is set up, you can test your quiz.
@@ -299,10 +299,10 @@ At the end of the quiz, the results page displays the product variants with the 
         ![how to recommend products built for shopify revenuehunt app troubleshoot results](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct.png)
 
         !!! tip
-            Check [How to Troubleshoot Quiz Results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
+            Check [How to Troubleshoot Quiz results](/how-to-guides/troubleshoot-product-results/) for detailed instructions on how to use this tool.
             
     6. **Refine the Results**: If you want to make the results ultra-precise, you can also:
-        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
+        - **Limit the recommendations**: You can choose to limit the recommendations to only show products that received X votes or more in the [Results page settings](/how-to-guides/only-recommend-products-with-minimum-votes/).
         - **Use Exclusions**: You can use [Exclusions](#exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
 
     By linking product variants and collections to quiz choices, and understanding the inclusion/exclusion logic, you can use our algorithm to offer precise product recommendations.
@@ -547,7 +547,7 @@ The voting system counts product "votes" based on customer quiz choices and then
     - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
 
     You can also:
-    - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/how-to-guides/only-recommend-products-with-minimum-votes/)
+    - Limit the recommendations to only show products that received X votes or more in the [Results page settings](/how-to-guides/only-recommend-products-with-minimum-votes/)
     - Use Exclusions to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier)
 
     **Step 2: Organize Products into Collections**
@@ -563,22 +563,22 @@ The voting system counts product "votes" based on customer quiz choices and then
     1. Go to the app's [dashboard](/reference/dashboard/) and click [`add new quiz`](/reference/dashboard/#new-quiz)
     2. Choose a pre-defined template (like Basic or Advanced Skincare Quiz) or start from scratch
     3. Name your quiz (can be edited later)
-    4. In the [Quiz Builder](/reference/quiz-builder/), add questions by clicking `+ Add question`
+    4. In the [Quiz builder](/reference/quiz-builder/), add questions by clicking `+ Add question`
     5. Select appropriate [question types](/reference/quiz-builder/questions/#question-types) for your quiz flow
 
     **Step 4: Link Products to Choices**
 
     1. Go to [Questions](/reference/quiz-builder/questions/)
     2. Select a multiple-choice question
-    3. Select a choice and open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings)
+    3. Select a choice and open the [Choice settings](/reference/quiz-builder/questions/#choice-settings)
     4. Link relevant product variants or collections to each choice
     5. Ensure every choice has at least one product or collection linked
 
     ![how_to_shopifyv2_setuprecommendations_linkcollections](/images/how_to_shopifyv2_setuprecommendations_linkcollections.png)
 
-    **Step 5: Add Product Slots to the Results Page**
+    **Step 5: Add Product Slots to the Results page**
 
-    1. Go to the [Results Page](/reference/quiz-builder/results-page/) tab
+    1. Go to the [Results page](/reference/quiz-builder/results-page/) tab
     2. Add design elements (headings, logos, content blocks)
     3. Click the `+` button to add a `Product Block`
     4. In the [`Product Block settings`](/reference/quiz-builder/questions/#block-settings):
@@ -967,11 +967,11 @@ Show different follow-up questions based on customer choices in a multiple-choic
         - Ensure follow-up questions are set up in the same order as the options in the initial question
         - Customize each follow-up question to be relevant to its specific concern
 
-    3. **Set Up Skip Logic**: Configure conditional logic for each follow-up question:
+    3. **Set Up Skip logic**: Configure conditional logic for each follow-up question:
 
         ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_skiplogic.png)
 
-        - Navigate to the Conditional Logic tab for each follow-up question
+        - Navigate to the Conditional logic tab for each follow-up question
         - Add rules to skip questions if the corresponding concern was not selected
         - For example: If 'Skin Concerns' is not 'Acne', skip the Acne questions
         - Repeat for each follow-up question and corresponding concern
@@ -1217,17 +1217,17 @@ Branch your quiz to show different follow-up questions based on customer choices
 
     **Step 2: Build Quiz Structure**
 
-    1. Create a new quiz in the [Quiz Builder](/reference/quiz-builder/)
+    1. Create a new quiz in the [Quiz builder](/reference/quiz-builder/)
     2. Add all questions needed for each branch
     3. Add all possible choices for each question
-    4. The order doesn't matter yet - you'll configure that with Jump Logic
+    4. The order doesn't matter yet - you'll configure that with Jump logic
 
     **Step 3: Set Up Branching**
 
     ![how_to_hide_content_with_logic_shopifyv2_jump_logic_flow](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_flow.png)
 
     1. Go to each question's settings
-    2. Add Jump Logic rules in the Conditional Logic section:
+    2. Add Jump logic rules in the Conditional logic section:
         - Set conditions for when to jump
         - Choose destination question
         - Add multiple rules if needed
@@ -1238,12 +1238,12 @@ Branch your quiz to show different follow-up questions based on customer choices
     **Step 4: Link Products**
 
     1. For each choice in every branch:
-        - Open Choice Settings
+        - Open Choice settings
         - Add products to "Upvote" section
         - Add collections if applicable
     2. The quiz only counts votes from shown questions
 
-    **Step 5: Configure Results Page**
+    **Step 5: Configure Results page**
 
     1. Add a Products Block
     2. Set "Recommendation system" to "Upvotes"
@@ -1539,7 +1539,7 @@ Show or hide different text blocks on the results page based on customer choices
 
     !!! warning "Not recommended for personality-type quizzes"
 
-        Not recommended for personality-type quizzes due to complexity. For this application, try the [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/) or [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/) solutions.
+        Not recommended for personality-type quizzes due to complexity. For this application, try the [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/) or [🧩 Fixed Recommendations with Display logic](/how-to-guides/set-up-fixed-recommendations-quiz/) solutions.
 
     Follow these steps to set up a funnel quiz with custom text blocks in the `💎Built for Shopify` version of the RevenueHunt app:
 
@@ -1555,19 +1555,19 @@ Show or hide different text blocks on the results page based on customer choices
 
     **Step 2: Build Quiz Structure**
 
-    1. Go to the [Quiz Builder](/reference/quiz-builder/) and create all questions needed. Add all possible choices for each question.
+    1. Go to the [Quiz builder](/reference/quiz-builder/) and create all questions needed. Add all possible choices for each question.
 
     **Step 3: Link Products to Choices**
 
-    1. For each choice open Choice Settings and add products to "Upvote" section.
+    1. For each choice open Choice settings and add products to "Upvote" section.
     2. The quiz will count votes from all questions
 
-    **Step 4: Configure Results Page**
+    **Step 4: Configure Results page**
 
     1. Add a Products Block with "Upvotes" setting for Recommendations System.
     2. Add multiple Sections to your results page for different answer combinations. To each section add text, images or HTML content blocks for different answer combinations.
 
-    **Step 5: Set Up Display Logic**
+    **Step 5: Set Up Display logic**
 
     1. For each content block:
         - Add display logic rules in block settings. Format: If the answer to *Question 1* is *Choice A* **AND** If the answer to *Question 2* is *Choice B* **AND** If the answer to *Question 3* is *Choice C* **OR** If the answer to *Question 1* is *Choice A* **AND** If the answer to *Question 2* is *Choice B* **AND** If the answer to *Question 3* is *Choice D*, then this block is **shown/hidden**.

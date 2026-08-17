@@ -56,7 +56,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
     ![how to hide content with logic jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_flow.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -71,7 +71,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Jump Logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. 
+    3. **Add Jump logic**: If we don’t add jump logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. 
     
         To add jump logic, you should to the [conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the Skin type question. 
     
@@ -79,7 +79,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
         ![how to hide content with logic jump logic statement](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_rule.png)
 
-        Click `+Add another rule (OR)` to add similar Jump Logic rules to direct the user to the Dry, Normal and Combination-Type skin respectively.
+        Click `+Add another rule (OR)` to add similar Jump logic rules to direct the user to the Dry, Normal and Combination-Type skin respectively.
 
         This will ensure that each answer from the Skin Type question will lead tio the right statement.
 
@@ -248,13 +248,13 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oORLg_BU0fI?si=h7Ortp7mpm1wzTHu" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
             Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
 
-    2. **Add Content Sections to Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign. 
+    2. **Add Content Sections to Results page**: Go to the [Results page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign. 
     
         Add multiple content blocks describing the specific skin type and its challenges. For example:
 
@@ -270,7 +270,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
     
 
-    3. **Add Display Logic**: If we don't add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. 
+    3. **Add Display logic**: If we don't add [Display logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results page, regardless of the choice we made. 
 
         ---
 
@@ -282,24 +282,24 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
         `bin` - Delete the current Logic rule.
         
-        `+ Add condition (OR)` - Adds another Display Logic rule. Adds a new OR logical rule.
+        `+ Add condition (OR)` - Adds another Display logic rule. Adds a new OR logical rule.
 
         `Default` - Select whether this section should be `Shown` or `Hidden` by default.
 
         ---
 
-        There are three types of Display Logic rules you can choose from:
+        There are three types of Display logic rules you can choose from:
 
         ---
 
         **Type 1: IF The response to the question...**
 
-        Then the Display Logic rules follow the following format:
+        Then the Display logic rules follow the following format:
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
         - **THEN section is Visible** 
-        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display Logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display Logic rule is triggered.
+        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 
         !!! example "Example 1"
 
@@ -311,7 +311,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
         **Type 2: IF The score of the variable...**
 
-        Then the Display Logic rules follow the following format:
+        Then the Display logic rules follow the following format:
 
         - **IF The score of the variable** 
         - **score** pick the variable from a dropdown list
@@ -319,7 +319,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
         - **Number** / **Another variable** pick a choice from the dropdown list
         - **0** / **1** / **2** / **other numerical value** type a value in the input field
         - **THEN section is Visible** 
-        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display Logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display Logic rule is triggered.
+        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 
 
         !!! info
@@ -337,12 +337,12 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
         **Type 3: IF the variable with the highest score...**
 
-        Then the Display Logic rules follow the following format:
+        Then the Display logic rules follow the following format:
 
         - **IF the variable with the highest score** 
         - **score** pick the variable from a dropdown list
         - **THEN section is Visible**
-        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display Logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display Logic rule is triggered.
+        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 
         !!! info
 
@@ -516,7 +516,7 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
 
     ![how to hide content with logic skip logic](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
@@ -531,9 +531,9 @@ Using a skincare routine quiz as an example, we'll show how custom text and resu
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Skip Logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. 
+    3. **Add Skip logic**: If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. 
     
-        To add [skip logic](/how-to-guides/use-skip-logic/), you should go the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the quesiton that should be skipped.  
+        To add [skip logic](/how-to-guides/use-skip-logic/), you should go the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the quesiton that should be skipped.  
     
         Next, in the right-hand menu locte the `Skip Logic` section.
     

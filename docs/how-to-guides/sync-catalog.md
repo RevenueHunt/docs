@@ -59,7 +59,7 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 
     To run a manual import:
 
-    1. **Navigate to App Settings:** Go to [App Settings > Catalogue](/reference/app-settings/#catalogue).
+    1. **Navigate to App settings:** Go to [App settings > Catalogue](/reference/app-settings/#catalogue).
     2. **Click "Import now"** in the *Import tags, collections, vendors & metafields* section.
 
         ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
@@ -118,7 +118,7 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
     - Only products marked as **active** are included in the import. **Archived products are excluded**.
     - **Draft products are included** in the import unless you change your [Catalogue Settings](/reference/app-settings/#catalogue) to exclude them.
     - You typically don't need to run a manual import. It's only necessary when you've added new tags, collections, or vendors in Shopify and they haven't appeared in the quiz builder yet.
-    - To run a manual import, use the `Import now` button in [App Settings > Catalogue](/reference/app-settings/#catalogue).
+    - To run a manual import, use the `Import now` button in [App settings > Catalogue](/reference/app-settings/#catalogue).
 
 
 === "Shopify (Legacy)"
@@ -175,9 +175,9 @@ description: "Learn how to import and sync your product catalog with RevenueHunt
 
 === "Shopify"
 
-    - **Missing tags, collections, or vendors in the builder?** Run a manual import from [App Settings > Catalogue](/reference/app-settings/#catalogue) by clicking `Import now`. New items should appear within a few minutes.
+    - **Missing tags, collections, or vendors in the builder?** Run a manual import from [App settings > Catalogue](/reference/app-settings/#catalogue) by clicking `Import now`. New items should appear within a few minutes.
     - **Products not showing up?** Check that they are set to "Active" status in your Shopify store. Archived products are excluded from the import.
-    - **Import stuck or failed?** Check the import status in [App Settings > Catalogue](/reference/app-settings/#catalogue). If it shows "Import failed", click `Import now` to retry. If problems persist, please [contact our support team](/how-to-guides/contact-customer-support/) for assistance.
+    - **Import stuck or failed?** Check the import status in [App settings > Catalogue](/reference/app-settings/#catalogue). If it shows "Import failed", click `Import now` to retry. If problems persist, please [contact our support team](/how-to-guides/contact-customer-support/) for assistance.
 
 
 === "Shopify (Legacy)"

@@ -8,7 +8,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
-    In the Conditional Logic tab you can branch your quiz, tell it to skip certain questions or redirect customers to a different results pages. 
+    In the Conditional logic tab you can branch your quiz, tell it to skip certain questions or redirect customers to a different results pages. 
     
     The right-hand menu allows you to add conditional logic rules to questions in the quiz. The center preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
@@ -163,17 +163,17 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
 === "Shopify"
 
-    Jump Logic allows you to route customers to different questions based on their responses, send users to different results pages or even external URLs.
+    Jump logic allows you to route customers to different questions based on their responses, send users to different results pages or even external URLs.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic.png)
 
-    `Jump Logic ▼` - Click to Open the Jump Logic options and add new rules to this question.
+    `Jump Logic ▼` - Click to Open the Jump logic options and add new rules to this question.
 
-    `+ Add another rule (OR)` - Click to add a new OR Jump Logic rule for the selected question.
+    `+ Add another rule (OR)` - Click to add a new OR Jump logic rule for the selected question.
 
-    `+ Add another rule (AND)` - Add another Jump Logic rule. Adds a new AND logical rule.
+    `+ Add another rule (AND)` - Add another Jump logic rule. Adds a new AND logical rule.
 
-    `bin` - Delete the current Jump Logic rule.
+    `bin` - Delete the current Jump logic rule.
 
     `+ Add concurrent logic (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
@@ -181,19 +181,19 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     !!! tip "Drag-and-Drop Reordering"
 
-        You can reorder Jump Logic rules by dragging and dropping them. Simply click and hold on a rule, then drag it to your desired position in the list.
+        You can reorder Jump logic rules by dragging and dropping them. Simply click and hold on a rule, then drag it to your desired position in the list.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_defaultdestination.png)
 
     ---
 
-    There are three types of Jump Logic rules you can choose from:
+    There are three types of Jump logic rules you can choose from:
 
     ---
 
     ### Type 1: IF The response to the question...
 
-    Then the Jump Logic rules follow the following format:
+    Then the Jump logic rules follow the following format:
 
     - **IF response to** pick the question from a dropdown list
     - **is**/ **is not** pick a choice from the dropdown list
@@ -221,7 +221,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     ### Type 2: IF The score of the variable...
 
-    Then the Jump Logic rules follow the following format:
+    Then the Jump logic rules follow the following format:
 
     - **IF The score of the variable** 
     - **score** pick the variable from a dropdown list
@@ -244,7 +244,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     ### Type 3: IF the variable with the highest score...
 
-    Then the Jump Logic rules follow the following format:
+    Then the Jump logic rules follow the following format:
 
     - **IF the variable with the highest score**
     - **IS** / **IS NOT** pick a choice from the dropdown list
@@ -479,33 +479,33 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
 === "Shopify"
 
-    Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
+    Skip logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip logic is added to a question, it will be shown.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic.png)
 
-    `Skip Logic ▼` - Click to open the Skip Logic menu or add a new rule to this question.
+    `Skip Logic ▼` - Click to open the Skip logic menu or add a new rule to this question.
 
-    `+ Add another rule (OR)` - Click to add a new OR Skip Logic rule for the selected question.
+    `+ Add another rule (OR)` - Click to add a new OR Skip logic rule for the selected question.
 
-    `+ Add another rule (OR)` - Adds another Skip Logic rule. Adds a new OR logical rule.
+    `+ Add another rule (OR)` - Adds another Skip logic rule. Adds a new OR logical rule.
 
-    `bin` - Delete the current Skip Logic rule.
+    `bin` - Delete the current Skip logic rule.
 
     `+ Add concurrent logic (AND)` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
     !!! tip "Drag-and-Drop Reordering"
 
-        You can reorder Skip Logic rules by dragging and dropping them. Simply click and hold on a rule, then drag it to your desired position in the list.
+        You can reorder Skip logic rules by dragging and dropping them. Simply click and hold on a rule, then drag it to your desired position in the list.
 
     ---
 
-    There are three types of Skip Logic rules you can choose from:
+    There are three types of Skip logic rules you can choose from:
 
     ---
 
     ### Type 1: IF The response to the question...
 
-    Then the Skip Logic rules follow the following format:
+    Then the Skip logic rules follow the following format:
 
     - **IF response to** pick the question from a dropdown list
     - **is**/ **is not** pick a choice from the dropdown list
@@ -521,7 +521,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     ### Type 2: IF The score of the variable...
 
-    Then the Skip Logic rules follow the following format:
+    Then the Skip logic rules follow the following format:
 
     - **IF The score of the variable** 
     - **score** pick the variable from a dropdown list
@@ -544,7 +544,7 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 
     ### Type 3: IF the variable with the highest score...
 
-    Then the Skip Logic rules follow the following format:
+    Then the Skip logic rules follow the following format:
 
     - **IF the variable with the highest score** 
     - **score** pick the variable from a dropdown list

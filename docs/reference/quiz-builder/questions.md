@@ -1571,7 +1571,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     
     !!! note
 
-        Available only if `Allow multiple selection` is active in Multiple-Choice [Block Settings](#block-settings).
+        Available only if `Allow multiple selection` is active in Multiple-Choice [Block settings](#block-settings).
 
     *Regular choice* - Regular choice type.
 

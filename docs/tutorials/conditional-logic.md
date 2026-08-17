@@ -7,21 +7,21 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
 === "Shopify"
 
-    In this tutorial, you’ll learn how to use [Jump Logic](#jump-logic), [Skip Logic](#skip-logic), and [Display Logic](#display-logic) to show (or hide) questions/content in the quiz as well as the Results Page.
+    In this tutorial, you’ll learn how to use [Jump logic](#jump-logic), [Skip logic](#skip-logic), and [Display logic](#display-logic) to show (or hide) questions/content in the quiz as well as the Results page.
 
     !!! info "You’ll learn:"
 
-        - how to use Jump Logic to show different skin advice in the quiz,
-        - how to use Jump Logic to redirect the customer to an external URL from the quiz,
-        - how to use Jump Logic to create branching in the quiz to show different questions,
-        - how to use Jump Logic to send customers to different Results Pages,
-        - how to use Skip Logic to show different skin advice in the quiz (statement),
-        - how to use Skip Logic to show or hide a number of follow-up questions,
-        - how to use Skip Logic to show or hide follow-up questions based on questions that allow multiple answers,
+        - how to use Jump logic to show different skin advice in the quiz,
+        - how to use Jump logic to redirect the customer to an external URL from the quiz,
+        - how to use Jump logic to create branching in the quiz to show different questions,
+        - how to use Jump logic to send customers to different Results pages,
+        - how to use Skip logic to show different skin advice in the quiz (statement),
+        - how to use Skip logic to show or hide a number of follow-up questions,
+        - how to use Skip logic to show or hide follow-up questions based on questions that allow multiple answers,
         - how to add variables and scores to choices in the quiz,
-        - how to use Display Logic to show different personalized advice on the Results Page based on customer answers,
-        - how to use Display Logic to show different quiz results based on a winning variable (personality type quiz),
-        - how to use Display Logic to show different quiz results based on a total custom score.
+        - how to use Display logic to show different personalized advice on the Results page based on customer answers,
+        - how to use Display logic to show different quiz results based on a winning variable (personality type quiz),
+        - how to use Display logic to show different quiz results based on a total custom score.
 
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/s71v8NfNRWk?si=rG4JvvFCA_YcOsP_" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -166,11 +166,11 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
 === "Shopify"
 
-    Conditional Logic controls the quiz flow, determining exactly which questions, texts, or results are shown to customers based on their answers. 
+    Conditional logic controls the quiz flow, determining exactly which questions, texts, or results are shown to customers based on their answers. 
 
-    This tutorial covers the three logic types: Jump Logic, Skip Logic, and Display Logic, with practical examples of each.
+    This tutorial covers the three logic types: Jump logic, Skip logic, and Display logic, with practical examples of each.
 
-    **Objective**: In this tutorial, we’ll teach you how to show custom content based on customer answers using [Jump Logic](#jump-logic), [Skip Logic](#skip-logic), or [Display Logic](#display-logic) on the results page.
+    **Objective**: In this tutorial, we’ll teach you how to show custom content based on customer answers using [Jump logic](#jump-logic), [Skip logic](#skip-logic), or [Display logic](#display-logic) on the results page.
 
 
 
@@ -242,11 +242,11 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
 === "Shopify"
 
-    Jump Logic is used to redirect users to different questions, results pages, or external URLs, based on their responses. 
+    Jump logic is used to redirect users to different questions, results pages, or external URLs, based on their responses. 
 
     ### Branching the Quiz
 
-    Jump Logic allows you to branch the quiz based on the participant's responses.
+    Jump logic allows you to branch the quiz based on the participant's responses.
 
     !!! example "Example: Skincare Quiz that shows only the relevant statement based on the user's skin type"
 
@@ -268,11 +268,11 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
                 
-    2. Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the main question. 
-    3. Click on the main question and open the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) tab. Click `+ Add another rule(OR)` and set up a redirection rule.
+    2. Navigate to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the main question. 
+    3. Click on the main question and open the [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) tab. Click `+ Add another rule(OR)` and set up a redirection rule.
     4. Set up the first redirection rule. It follows the format: 
     
-        !!! info "Jump Logic format"
+        !!! info "Jump logic format"
     
             IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN go to... `Set the destination`.
 
@@ -300,7 +300,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
             
             - If the response to `Q4: SKIN TYPE` is `Oily all over`, THEN go to... `Q8: SKIN TYPE: OILY`.
 
-    6. **Adjust Default Destinations for Each Statement.** Click on each statement slide one by one and in the Jump Logic tab change `Default destination` to the next question in the pipeline, avoiding the other statements.
+    6. **Adjust Default Destinations for Each Statement.** Click on each statement slide one by one and in the Jump logic tab change `Default destination` to the next question in the pipeline, avoiding the other statements.
 
         !!! example
 
@@ -328,22 +328,22 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
     ### Redirecting to different Results Pages
 
-    With Jump Logic, you can send users to different results pages based on their answers.
+    With Jump logic, you can send users to different results pages based on their answers.
 
     !!! example "Example: Skincare Quiz that sends users to different results pages based on their answers"
 
         For example, you can create a quiz that asks the participant about their skin type and then based on the answer, you can redirect them to a different results page with custom content relevant to their skin type.
 
-    1. Set up Multiple Results Pages in your quiz. 
+    1. Set up Multiple Results pages in your quiz. 
     
         !!! tip
             Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
-    2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    2. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
     5. Click `+ Add another rule(OR)` and set up a redirection rule.
 
-        !!! info "Jump Logic format"
+        !!! info "Jump logic format"
     
             IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN go to... `Set the destination`.
 
@@ -376,18 +376,18 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
     ### Redirecting to an External URL
 
-    With Jump Logic, you can send users to an external URL based on their answers.
+    With Jump logic, you can send users to an external URL based on their answers.
 
     !!! example "Example: Skincare Quiz that sends users to an external URL based on their answers"
 
         For example, you can create a quiz that asks the participant about their allergies and then based on the answer, you can redirect them to an external URL with custom content explaining the allergens in your products.
 
-    1. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    1. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.
     2. Pick the question you want to add redirect logic to.
-    3. Click on that question and open the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) tab.
+    3. Click on that question and open the [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) tab.
     4. Click `+ Add another rule(OR)` and set up a redirection rule and `Link to URL`.
 
-        !!! info "Jump Logic format"
+        !!! info "Jump logic format"
     
             IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN go to... `Link to URL`.
 
@@ -402,7 +402,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
             To always redirect users to a specific page after a certain question, you can set up a `Default destination` rule. 
             
-            1. Click on a question and open the [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) tab. 
+            1. Click on a question and open the [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) tab. 
             2. In the `Default destination` section, select `Link to URL` and paste the desired URL, for example `https://yourstore.com/`. 
             3. This way users will be redirected to the desired page after answering the question.
 
@@ -623,19 +623,19 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
 === "Shopify"
 
-    Skip Logic hides specific slides when they are not relevant, based on user responses.
+    Skip logic hides specific slides when they are not relevant, based on user responses.
 
 
     ### Skip Slides
 
     !!! example "Example: Skincare Quiz that shows only the relevant statement based on the user's skin type"
 
-        You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip Logic, which then continues the quiz based on the participant's specific path.
+        You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip logic, which then continues the quiz based on the participant's specific path.
 
         ![how to use skip logic example](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
 
 
-    1. Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
     2. Add multiple [`Statement` slides](/reference/quiz-builder/questions/#statement) describing the specific skin type and its challenges. For example:
 
         !!! example "Statement Slides"
@@ -651,11 +651,11 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
             If we don’t add skip logic to the quiz, our statement questions will just appear one after the other, regardless of the choice we made. 
     
-    3. To add [Skip logic](/how-to-guides/use-skip-logic/), you should go the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the first statement quesiton that should be skipped.  
+    3. To add [Skip logic](/how-to-guides/use-skip-logic/), you should go the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the first statement quesiton that should be skipped.  
     4. Next, in the right-hand menu locate the [`Skip Logic`](/reference/quiz-builder/conditional-logic/#skip-logic) section.
     5. Click `+ Add another rule (OR)` to add a skip logic rule to the selected statement slide. 
 
-        !!! info "Skip Logic format"
+        !!! info "Skip logic format"
 
             IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN this question will be skipped.
 
@@ -669,7 +669,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
     
     6. Use similar skip logic rules on the other statements to ensure that only relevant statement questions appear based on the customer's skin type selection.
 
-        !!! example "Skip Logic for other statements"
+        !!! example "Skip logic for other statements"
 
             IF the response to the question `Q4: SKIN TYPE` is `Dry and tight all over`, THEN this question will be skipped.
 
@@ -689,7 +689,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
         You want to create a beauty quiz where customers can select multiple areas of concern (acne, flaky skin, wrinkles, etc.) and then only see follow-up questions relevant to their selections. The goal is to display only the follow-up questions that are relevant to the user's selections. For example, if a user selects 'acne' as a skin concern, only questions related to acne should be displayed, all the others skipped.
 
-    1. Use the [Quiz Builder](/reference/quiz-builder/) to add a multiple-choice question that **allows multiple selections** (this can be done via the [Multiple Choice Block Settings](/reference/quiz-builder/questions/#multiple-choice)) and create several follow-up questions that match the choices in the initial question.
+    1. Use the [Quiz builder](/reference/quiz-builder/) to add a multiple-choice question that **allows multiple selections** (this can be done via the [Multiple Choice Block settings](/reference/quiz-builder/questions/#multiple-choice)) and create several follow-up questions that match the choices in the initial question.
 
         !!! example "Setting Up Follow-up Questions"
 
@@ -707,11 +707,11 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
             Follow-up questions should be ordered in the same order as the choices presented in the initial question. So if the first choice is 'acne', the first follow-up question should be the one related to acne, and so on.
 
-    2. Head over to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select the first follow-up question, right after the multiple selection question. 
-    3. Open the [Skip Logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab.
+    2. Head over to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the first follow-up question, right after the multiple selection question. 
+    3. Open the [Skip logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab.
     4. Click `+ Add another rule (OR)` to add a skip logic rule to the selected follow-up question. 
 
-        !!! info "Skip Logic format"
+        !!! info "Skip logic format"
 
             IF the response to the question `Pick your questions` `is/is not` `Pick the choice`, THEN this question will be skipped.
 
@@ -724,7 +724,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
     5. For each  subsequent follow-up question, add a similar skip logic rule.
     6. After setting up the skip logic, make sure to save the changes with the top-right `Save` button. Then, ` Preview` the quiz and test the functionality by selecting different options in the quiz. 
 
-        !!! example "Testing Skip Logic Functionality"
+        !!! example "Testing Skip logic Functionality"
         
             For instance, selecting 'acne' and 'wrinkles' should display only the relevant follow-up questions while skipping others. If 'tight flaky skin' is selected, only questions related to flaky skin should appear, confirming that the skip logic is functioning correctly.
 
@@ -859,7 +859,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
 === "Shopify"
 
-    Display Logic controls which sections appear on the results page, based on answers, variables, or scores.
+    Display logic controls which sections appear on the results page, based on answers, variables, or scores.
 
     ### Add Scores or Variables to Choices
 
@@ -867,8 +867,8 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
     To add scores or variables to choices, follow these steps:
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
-    2. Open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
+    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
+    2. Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings).
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
 
@@ -888,27 +888,27 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
     ### Based on Customer Answers
 
-    !!! example "Example: Show a different section on a Results Page based on the customer's answer to a question"
+    !!! example "Example: Show a different section on a Results page based on the customer's answer to a question"
 
-        You want to show a different section on a Results Page based on the customer's answer to a question. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different text and recommendation about their skincare is shown on the Results Page. This individualized response is made possible by Display Logic.
+        You want to show a different section on a Results page based on the customer's answer to a question. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different text and recommendation about their skincare is shown on the Results page. This individualized response is made possible by Display logic.
 
-    1. Add sections to the Results Page. Open the [Results Page](/reference/quiz-builder/results-page/) and add different sections.
+    1. Add sections to the Results page. Open the [Results page](/reference/quiz-builder/results-page/) and add different sections.
 
-        !!! example "Example: Results Page with four sections"
+        !!! example "Example: Results page with four sections"
 
-            The quiz has four sections on the Results Page for different skin types: Dry Skin, Normal Skin, Oily Skin, and Combination Skin. Without display logic, all sections would be visible at once.To show only one section based on user responses, display logic must be applied to each section.
+            The quiz has four sections on the Results page for different skin types: Dry Skin, Normal Skin, Oily Skin, and Combination Skin. Without display logic, all sections would be visible at once.To show only one section based on user responses, display logic must be applied to each section.
 
-    2. Click on a section title to open the Section settings. From the side menu, click `+ Add logic condition (OR)` to create a new Display Logic rule.
-    3. Add a Display Logic rule for the first section.
+    2. Click on a section title to open the Section settings. From the side menu, click `+ Add logic condition (OR)` to create a new Display logic rule.
+    3. Add a Display logic rule for the first section.
 
-        !!! info "Display Logic format"
+        !!! info "Display logic format"
 
             - **If** `The response to question` - Choose the `question` that determines the skin type.
             - **is** - Select the choice that corresponds to `Dry Skin`.
             - **THEN section is VISIBLE**
             - Choose `Default visibility` to be `Hidden`.
 
-        !!! example "Example: Display Logic rule for the Dry Skinsection"
+        !!! example "Example: Display logic rule for the Dry Skinsection"
         
             - **If** `The response to question` - Choose the `question` that determines the skin type.
             - **is** - Select the choice that corresponds to `Dry Skin`.
@@ -919,7 +919,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
     4. Repeat the process for other skin types.
 
-        !!! example "Example: Display Logic rule for other sections"
+        !!! example "Example: Display logic rule for other sections"
 
             - If the response to the question `Q4: SKIN TYPE` is `Dry and tight all over`, then the section is visible. Default visibility is set to `Hidden`.
             - If the response to the question `Q4: SKIN TYPE` is `Not too oily, not too dry`, then the section is visible. Default visibility is set to `Hidden`.
@@ -928,7 +928,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
     5. Publish the changes with the top-right `Save` button to update the preview/live quiz and test the setup. Preview the quiz by clicking `Preview` button and select different skin types to ensure only the relevant section is displayed.
 
-        !!! tip "Advanced Display Logic Conditions"
+        !!! tip "Advanced Display logic Conditions"
 
 
             You can set multiple conditions for the same section in Display logic: 
@@ -947,7 +947,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
     ### Based on Winning Variable
 
 
-    !!! example "Example: Show a different section on a Results Page based on the winning variable"
+    !!! example "Example: Show a different section on a Results page based on the winning variable"
 
         You're building a personality-type or Dosha quiz. You want to show a different text and product recommendations based on the winning variable. For examples, if the user chooses mostly A's, B's, C's, etc. a different section with different text and product recommendations is shown.
 
@@ -980,9 +980,9 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
             This scoring will help determine the user's skin type based on their responses.
 
-    3. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and add different sections to the Results Page. 
+    3. Go to the [Results page](/reference/quiz-builder/results-page/) tab and add different sections to the Results page. 
 
-        !!! example "Example: Results Page with five sections"
+        !!! example "Example: Results page with five sections"
 
             The results page contains five sections, each corresponding to a skin type. Each section contains a heading, text and a product block to recommend products for that skin type.
 
@@ -998,9 +998,9 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
             Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.
 
     5. To display the correct section based on the highest scoring variable, go to Section Settings, find `Display Logic` and click `+ Add condition (OR)`.
-    6. Add Display Logic to the Section. Set up the rule like this:
+    6. Add Display logic to the Section. Set up the rule like this:
 
-        !!! info "Display Logic format"
+        !!! info "Display logic format"
 
 
             - **If** `The variable with the highest score` 
@@ -1008,7 +1008,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
             - **THEN this section is VISIBLE**
             - `Default visibility` is `Visible/Hidden`.
 
-        !!! example "Example: Display Logic rule for the Dry Skin section"
+        !!! example "Example: Display logic rule for the Dry Skin section"
 
             - **If** `The variable with the highest score` 
             - `is` - `dry` 
@@ -1020,7 +1020,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
     7. For each section, set a similar rule for the visibility condition.
 
 
-        !!! example "Example: Display Logic rule for other skin type sections"
+        !!! example "Example: Display logic rule for other skin type sections"
 
             - If the highest score is `dry`, show the dry skin section.
             - If the highest score is `normal`, show the normal skin section.
@@ -1037,7 +1037,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
     ### Based on Total Score
 
-    !!! example "Example: Show a different section on a Results Page based on the total score"
+    !!! example "Example: Show a different section on a Results page based on the total score"
 
         You're building a custom scoring or presonality-type quiz. You want to show a different text and product recommendations based on the score of a variable. For examples, if the user's score is above 50, a different section with different text and product recommendations is shown.
 
@@ -1067,9 +1067,9 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
             ![how_to_shopifyv2_use_display_logic_based_on_score_example1](/images/how_to_shopifyv2_use_display_logic_based_on_score_example1.png)
 
-    3. Go to the [Results Page](/reference/quiz-builder/results-page/) tab and add different sections to the Results Page. 
+    3. Go to the [Results page](/reference/quiz-builder/results-page/) tab and add different sections to the Results page. 
 
-        !!! example "Example: Results Page with five sections"
+        !!! example "Example: Results page with five sections"
 
             The results page contains five sections, each corresponding to a skin type. Each section contains a heading, text and a product block to recommend products for that skin type.
 
@@ -1094,9 +1094,9 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
             - Sensitive skin should be shown if the score is between 23 and 25 (inclusive): `score >= 23 && score <= 25`
 
     6. To display the correct section based on the total score, go to Section Settings, find `Display Logic` and click `+ Add condition (OR)`.
-    7. Add Display Logic to the Section. Set up the rule like this:
+    7. Add Display logic to the Section. Set up the rule like this:
 
-        !!! info "Display Logic format"
+        !!! info "Display logic format"
 
             - **If** `The score of a variable`  select the variable `Selected variable` 
             - `is greater than or equal to` - `Number`- `Add your number`
@@ -1106,7 +1106,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
             - **THEN this section is VISIBLE**
             - Set the `Default visibility` to `Hidden`.
 
-        !!! example "Example: Display Logic rule for the Dry Skin section"
+        !!! example "Example: Display logic rule for the Dry Skin section"
 
             - **If** `The score of a variable`  select the variable `score` 
             - `is greater than or equal to` - `5`
@@ -1122,7 +1122,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
     8. For each section, set a similar rule for the visibility condition.
 
-        !!! example "Example: Display Logic rule for different skin type sections"
+        !!! example "Example: Display logic rule for different skin type sections"
 
             - Show  dry skin section if score is between 5 and 7 (inclusive). Condition: `score >= 5 && score <= 7`
             - Show normal skin section if score is between 8 and 12 (inclusive). Condition: `score >= 8 && score <= 12`

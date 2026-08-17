@@ -13,7 +13,7 @@ description: "Create and manage custom customer tags in RevenueHunt for segmenti
 
     ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
-    Under [Choice Settings](#choice-settings), find the `Customer tags` section and click on it to open the settings.
+    Under [Choice settings](#choice-settings), find the `Customer tags` section and click on it to open the settings.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)
 

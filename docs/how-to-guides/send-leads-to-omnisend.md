@@ -67,7 +67,7 @@ icon: material/cellphone-message
 
         ![how to send leads to omnisend api key generate](/images/how_to_omnisend_create_api_key.png){:width="500px"}
 
-    3. **Connect to Omnisend**: Access the [Quiz Builder](/reference/quiz-builder/) and navigate to **Settings** > **Integrations** and select the **Omnisend** tab. In the field that appears, you'll need to enter your `Omnisend API Key` into the input field, then click `Save`.
+    3. **Connect to Omnisend**: Access the [Quiz builder](/reference/quiz-builder/) and navigate to **Settings** > **Integrations** and select the **Omnisend** tab. In the field that appears, you'll need to enter your `Omnisend API Key` into the input field, then click `Save`.
 
     4. **Preview your quiz**: After connecting to Omnisend, preview your quiz all the way to the results page to send the first contact. Use a sample email (e.g., 'alexa@example.com') and provide sample answers to populate properties in Omnisend.
     5. **Check your profile**: Go back to the Omnisend platform and navigate to the **Dashboard** > **Audience** > **Contacts**. Check if the sample profile (e.g., 'Alexa RevenueHunt / alexa@example.com') has been added. Click on the profile to view all custom properties from the quiz, including: 
@@ -512,13 +512,13 @@ Every completed response is sent to Omnisend as `custom properties` on the conta
         - Set a trigger for the workflow: select 'When someone enters the segment' and choose the segment you created, e.g., 'Skincare Quiz Basic Segment'.
         - Save the changes to initiate the workflow when users enter the segment.
 
-    4. **Customize the Email Template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) knowledge. Use Omnisend’s existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand’s style guide.
+    4. **Customize the Email template**: Customizing the email template to include quiz results and product recommendations requires HTML, CSS, and [Django templating](https://docs.djangoproject.com/en/1.8/ref/templates/builtins/) knowledge. Use Omnisend’s existing email templates as a base and modify them to incorporate the quiz data as custom properties. Ensure the template aligns with your brand’s style guide.
 
         - Drag and drop an email action below the trigger in the workflow.
-        - Set the email subject (e.g., 'Your Quiz Results') and add a subheader.
+        - Set the email subject (e.g., 'Your Quiz results') and add a subheader.
         - Edit the email content as needed, then save changes to access the email editor.
 
-    5. **Include Quiz Results in the Email**: To include quiz results in the email, add an HTML element to the email builder.
+    5. **Include Quiz results in the Email**: To include quiz results in the email, add an HTML element to the email builder.
 
         - In the quiz builder, navigate to 'Settings' > 'Integrations' and generate an Omnisend email template.
 

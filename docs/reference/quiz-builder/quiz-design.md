@@ -8,7 +8,7 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
-    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look. This section allows you to configure the design for your quiz. You can customize the design, sections, and slots to display the desired design to the users.
+    In the Quiz design section of the quiz builder you can change how the quiz Questions or the Results page look. This section allows you to configure the design for your quiz. You can customize the design, sections, and slots to display the desired design to the users.
 
     `Questions/Results` - Toggle between the preview of the quiz questions and the results page.
     

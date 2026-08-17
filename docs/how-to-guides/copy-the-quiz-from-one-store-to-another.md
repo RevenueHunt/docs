@@ -28,7 +28,7 @@ This article will guide you through the process of copying a quiz from one store
 
     First, navigate to the quiz you wish to export:
 
-    1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/).
+    1. Go to [Quiz settings > General](/reference/quiz-builder/quiz-settings/).
     2. Search for **Export quiz to another store** and click `Copy quiz code`. The button generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another. It remains valid for only 1 hour.
 
         ![Export Quiz Step](/images/manual_shopifyV2_quizbuilder_quizsettings.png)

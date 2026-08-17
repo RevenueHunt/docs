@@ -119,7 +119,7 @@ icon: simple/zapier
 
     1. **Prepare your quiz**: Before connecting to Zapier, you may want to add a `Name`, `Phone Number`, or `Email` question to your quiz in order to identify your leads. 
 
-        - To do this, use the `+Add Question`or `+Add Block` options in the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder.
+        - To do this, use the `+Add Question`or `+Add Block` options in the [Questions](/reference/quiz-builder/questions/) section of the Quiz builder.
         - Once you’ve added your lead fields, click `Save` to save the changes.
 
     2. **Connecting to Zapier**: From the dashboard, navigate to [`quiz settings`](/reference/quiz-builder/quiz-settings/).
@@ -159,7 +159,7 @@ icon: simple/zapier
 
             Check [this section](#what-data-is-sent-to-zapier) to see what data is sent to Zapier from your RevenueHunt quiz.
 
-    8. **Set up what happends to Quiz Leads**: After confirming the integration is successful, you can decide how to use the data. Zapier offers plenty of integrations including:
+    8. **Set up what happends to Quiz leads**: After confirming the integration is successful, you can decide how to use the data. Zapier offers plenty of integrations including:
 
         - Sending responses to a Google Sheet.
         - Filtering responses based on specific conditions.
@@ -414,7 +414,7 @@ icon: simple/zapier
         Each recommended item carries: `id`, `handle`, `title`, `description`, `price`, `image`, `onlineStoreUrl` and `vendor`.
 
     !!! tip "Map your Zap to block references"
-        Answers are keyed by the block reference (for example `qbc-123`), not by the question title, so you can rename questions in the Quiz Builder without breaking your Zap. You'll find each reference under the `Advanced` tab of the block in the Quiz Builder.
+        Answers are keyed by the block reference (for example `qbc-123`), not by the question title, so you can rename questions in the Quiz builder without breaking your Zap. You'll find each reference under the `Advanced` tab of the block in the Quiz builder.
 
 
     ??? example "Example User Data"
@@ -474,7 +474,7 @@ icon: simple/zapier
         }
         ```
 
-    ??? example "Results Page Content"
+    ??? example "Results page Content"
 
         The quiz’s results page content is included in two sections:
 

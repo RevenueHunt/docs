@@ -61,7 +61,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     5. Click 'Preview Quiz' to view the quiz created by Quiz Copilot.
 
         ![QuizCopilot Preview Quiz](https://loom.com/i/fb247001de6f4b718ce5a073fab8865d?workflows_screenshot=true)
-    5. You will be taken to the Quiz Builder page, where the newly created quiz will be displayed. You will see the questions, choices and the contents of the results page it created.
+    5. You will be taken to the Quiz builder page, where the newly created quiz will be displayed. You will see the questions, choices and the contents of the results page it created.
     6. You can continue to interact with Quiz Copilot to make further modifications to your quiz (such as changing backgrounds or adding questions) or you can make the change manually.
     7. If satisfied with the quiz, save the changes with the `Save` button.
     8. The newly created quiz will be displayed on your [Dashboard](/reference/dashboard/).
@@ -120,7 +120,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     QuizCopilot can assist in creating email or Klaviyo email templates for your quiz email flow.
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or head over to the [Quiz Settings](/reference/quiz-builder/quiz-settings/)  > [Integrations](/reference/quiz-builder/quiz-settings/#integrations) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or head over to the [Quiz settings](/reference/quiz-builder/quiz-settings/)  > [Integrations](/reference/quiz-builder/quiz-settings/#integrations) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
     2. Paste your desired layout message, and Quiz Copilot will generate the template code.
 
         ![QuizCopilot Building Klaviyo Templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)
@@ -158,7 +158,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     1. Go to [Question settings](/reference/quiz-builder/questions/#question-settings) and click `✨Get help with custom CSS` to open a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code!
 
 
-    **Styling Results Page**
+    **Styling Results page**
 
     1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to style the results page with Custom CSS code.
@@ -189,7 +189,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
 
     1. Go to [Question settings](/reference/quiz-builder/questions/#question-settings) and click `✨Get help with custom JavaScript` to open a chat window with the Quiz Copilot AI. It can directly make design changes with JavaScript code!
 
-    **Styling Results Page**
+    **Styling Results page**
 
     1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window.
     2. Ask Quiz Copilot to style the results page with Custom JavaScript code.

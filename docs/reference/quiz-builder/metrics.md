@@ -447,7 +447,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
     !!! info "Data Refresh Frequency"
         Our analytics dashboard updates at different intervals depending on the type of data displayed:
 
-        - Quiz Responses and Engagement Data (e.g. responses, section visibility, results page distribution) → Updated live for recent activity (today/yesterday) and refreshed automatically every ~5 minutes for cached data over longer ranges.
+        - Quiz responses and Engagement Data (e.g. responses, section visibility, results page distribution) → Updated live for recent activity (today/yesterday) and refreshed automatically every ~5 minutes for cached data over longer ranges.
 
         - Orders and Revenue Data → Synced with Shopify once per day to ensure accuracy with your store’s order information.
 
@@ -471,7 +471,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     !!! warning "Note"
 
-        To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [App Settings](/reference/quiz-builder/quiz-settings/#app-settings) section.
+        To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [App settings](/reference/quiz-builder/quiz-settings/#app-settings) section.
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 
@@ -538,7 +538,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_recommendeditems](/images/manual_shopifyV2_quizbuilder_metrics_analytics_recommendeditems.png)
 
-    `Recommended items`- See which recommended items are displayed most often in the results page. Shows which products were displayed most often on the Results Page of your quiz. Each bar represents the share of total quiz completions in which a specific product appeared as a recommendation. `Step titles` (e.g. Step 1 – Cleanser, Step 3 – Moisturizer) correspond to the product slots or sections you configured in your quiz results. `Impressions` indicate how many times that step or product was shown to respondents during the selected time range. `Percentages` show the relative frequency of each product being displayed within its step.
+    `Recommended items`- See which recommended items are displayed most often in the results page. Shows which products were displayed most often on the Results page of your quiz. Each bar represents the share of total quiz completions in which a specific product appeared as a recommendation. `Step titles` (e.g. Step 1 – Cleanser, Step 3 – Moisturizer) correspond to the product slots or sections you configured in your quiz results. `Impressions` indicate how many times that step or product was shown to respondents during the selected time range. `Percentages` show the relative frequency of each product being displayed within its step.
 
     !!! example
         In **Step 3 – Moisturizer**, from 274 impressions, 62.0% of respondents were shown `Organix Facial Moisturizer`, 19.0% saw `Moisturizing Cream-Gel`, 10.9% saw `Oil-Free Moisture Lotion`, 4.7% saw `Ultra Facial Deep Moisture Balm`, and 3.3% saw `Oil-Free Moisture – Combination Skin`.
@@ -800,7 +800,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
 === "Shopify"
 
-    The Drop-off data (drop-off rate per question) is available by default in the [Analytics](#analytics) section of the Quiz Builder.
+    The Drop-off data (drop-off rate per question) is available by default in the [Analytics](#analytics) section of the Quiz builder.
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 

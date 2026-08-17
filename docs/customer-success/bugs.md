@@ -50,7 +50,7 @@ We’re constantly improving the RevenueHunt app. Below you’ll find a list of 
         !!! note "Status"
             Likely theme/cart conflict. Under investigation.
 
-    - **Error on Results Page**: In some cases, users encounter an error when responses are saved and they’re redirected to the results page.
+    - **Error on Results page**: In some cases, users encounter an error when responses are saved and they’re redirected to the results page.
 
         !!! note "Status"
             Intermittent, under investigation.

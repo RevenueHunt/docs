@@ -40,8 +40,8 @@ If you're using a subscription app that is not supported, you can still recommen
         - Insert the correct version of the Recharge Storefront API script in the header section.
         - Save the changes to load the Recharge script in your store, allowing the Revenue Hunt app to access Recharge products.
 
-    1. To add subscription to your recommended products go to the [Results Page](/reference/quiz-builder/results-page/).
-    2. Find the [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
+    1. To add subscription to your recommended products go to the [Results page](/reference/quiz-builder/results-page/).
+    2. Find the [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
     3. Under `Product components layout`, find the `Subscription` option and add it to the layout.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
@@ -161,12 +161,12 @@ If you're using a subscription app that is not supported, you can still recommen
 
     1. Identify your subscription products that you wish to promote through the quiz.
     2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
-    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices or set up [Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) on your Results Page. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
+    3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices or set up [Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) on your Results page. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
 
     **Step 2: Adjust Checkout Settings**
 
-    1. **Open Results Page settings**: Navigate to the [Results Page](/reference/quiz-builder/results-page/) and add or select a [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections)
-    2. **Change Product Components Layout**: In [Product Block settings](/reference/quiz-builder/results-page/#products-products-variants-collections), find the [`Product Components Layout`](/reference/quiz-builder/results-page/#product-components-layout) section and remove the `Add to cart button option. Once removed, insert a `Link to Product` component instead.
+    1. **Open Results page settings**: Navigate to the [Results page](/reference/quiz-builder/results-page/) and add or select a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections)
+    2. **Change Product Components Layout**: In [Product block settings](/reference/quiz-builder/results-page/#products-products-variants-collections), find the [`Product Components Layout`](/reference/quiz-builder/results-page/#product-components-layout) section and remove the `Add to cart button option. Once removed, insert a `Link to Product` component instead.
     
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
 

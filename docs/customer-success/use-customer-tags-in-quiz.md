@@ -108,12 +108,12 @@ Once you have your tag taxonomy, add tags to choices in the Quiz Builder. Every 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/69f8f8ef88f740bf9cc644fba09ca17c?sid=1796846e-b516-42ed-b96c-e5e06250cedc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. Open your quiz in the [Quiz Builder](/reference/quiz-builder/quiz-builder/) and click `Customize`.
+    1. Open your quiz in the [Quiz builder](/reference/quiz-builder/quiz-builder/) and click `Customize`.
     2. Click on any answer choice to open its settings panel.
     3. Find the `Customer Tags` section. Use the search bar to find existing tags or type a new name and press `Create new tag`.
     4. Add all relevant tags to the choice (a choice can carry multiple tags).
 
-        ![Customer Tags in Quiz Builder](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
+        ![Customer tags in Quiz builder](/images/manual_shopifyV2_quizbuilder_quizbuilder_customertags.png)
 
     5. Click `Save`. Tags are automatically assigned to customers when they select that choice.
 

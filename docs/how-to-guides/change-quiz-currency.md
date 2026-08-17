@@ -25,7 +25,7 @@ This guide explains how to change the currency of your quiz and how to handle mu
     
     To assign a quiz to a specific Shopify Market and show prices in the currency of that market, follow the instructions below.
     
-    1. Open the [App Settings](/reference/app-settings/).
+    1. Open the [App settings](/reference/app-settings/).
     2. Open the [Shopify Markets](/reference/app-settings/#markets) tab.
         ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
     3. Find a market and click the `dropdown list` to select the quiz that should be default for this market. 
@@ -136,13 +136,13 @@ This guide explains how to change the currency of your quiz and how to handle mu
 
     To change the currency format:
 
-    1. Go to the [App Settings](/reference/app-settings/)
+    1. Go to the [App settings](/reference/app-settings/)
     2. Open the [Shopify Markets](/reference/app-settings/#markets) tab.
     3. Find the market you want to change the currency format for and click on the `Currency` field to set up the format you want.  Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
         ![how_to_shopifyv2_change_currency](/images/manual_shopifyV2_appsettings_markets_showall.png)  
     4. Once assigned, the quiz will show the product prices in the currency set up for that market. 
 
-    !!! warning "Why the Compare-at Price May Not Show on the Results Page"
+    !!! warning "Why the Compare-at Price May Not Show on the Results page"
 
         If the **compare-at price** is missing or showing as `null` on the quiz results page, this is often due to **Shopify Markets settings**. By default, Shopify can hide compare-at prices for customers in certain regions—especially in the **European Economic Area (EEA)**—due to local pricing or legal restrictions.
 

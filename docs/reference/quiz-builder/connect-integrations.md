@@ -6,7 +6,7 @@ description: "Connect RevenueHunt quizzes to third-party services like Klaviyo, 
 
 === "Shopify"
 
-    In the Integrations tab of the Quiz Builder, you can connect your quiz to third-party services. 
+    In the Integrations tab of the Quiz builder, you can connect your quiz to third-party services. 
      
     !!! info "Currently integrated with"
      
@@ -18,7 +18,7 @@ description: "Connect RevenueHunt quizzes to third-party services like Klaviyo, 
         - [Webhooks](/how-to-guides/send-leads-to-webhooks/)
         - [Zapier](/how-to-guides/send-leads-to-zapier/)
 
-    To open the Integrations tab, go to the [Dashboard](/reference/dashboard/) and open the [Quiz Settings](/reference/quiz-builder/quiz-settings/) page.
+    To open the Integrations tab, go to the [Dashboard](/reference/dashboard/) and open the [Quiz settings](/reference/quiz-builder/quiz-settings/) page.
 
     ![manual_shopifyv2_quizbuilder_integrations_opensettings](/images/manual_shopifyv2_quizbuilder_integrations_opensettings.png)
 

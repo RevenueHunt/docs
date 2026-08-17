@@ -11,7 +11,7 @@ To activate this setting in your quiz follow the instructions below.
 
 === "Shopify"
 
-    1. Make sure that you have a **Product Block** or a **Product Slot Block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
+    1. Make sure that you have a **Product block** or a **Product Slot block** that recommends products on your [results page](/reference/quiz-builder/results-page/). 
     2. Make sure you understand how our [recommendations algorithm](/how-to-guides/recommend-products/) works.
 
         ??? question "How do I get the right recommendations?"
@@ -24,8 +24,8 @@ To activate this setting in your quiz follow the instructions below.
             - If no products have been linked or all the products have been excluded, the results page will appear empty
             - If there's a draw in the number of votes, the app will randomize the order of products.
 
-    2. To activate the `Minimum nuber of votes` setting navigate to the [Results Page](/reference/quiz-builder/results-page/).
-    2. Open the [Product Block Settings](/reference/quiz-builder/results-page/#block-settings).
+    2. To activate the `Minimum nuber of votes` setting navigate to the [Results page](/reference/quiz-builder/results-page/).
+    2. Open the [Product block Settings](/reference/quiz-builder/results-page/#block-settings).
     3. Scroll down to find the `Minimum number of votes` setting.
         ![how to only recommend product with min votes results page settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
 

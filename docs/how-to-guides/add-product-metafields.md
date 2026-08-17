@@ -27,7 +27,7 @@ This article explains how to add product metafields/attributes to products on yo
 
     To enable the display of metafields for individual products:
 
-    1. Navigate to the [Results Page](/reference/quiz-builder/results-page/) tab in the Quiz Builder.
+    1. Navigate to the [Results page](/reference/quiz-builder/results-page/) tab in the Quiz builder.
     2. Add a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
     3. In the [`Product components layout`](/reference/quiz-builder/results-page/#product-components-layout), click `+ block`and add the `Metafield`section.
       ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
@@ -46,7 +46,7 @@ This article explains how to add product metafields/attributes to products on yo
 
         If you're missing custom metafileds from the list of available metafields, you can force a catalog sync:
 
-        1. Go to [App Settings > Catalogue](/reference/app-settings/#catalogue).
+        1. Go to [App settings > Catalogue](/reference/app-settings/#catalogue).
         2. Click the `Import catalogue` button to trigger a manual sync.
 
 

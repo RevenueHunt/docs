@@ -418,7 +418,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
     1. **Access Theme Customization**: Log in to your Shopify admin dashboard. Navigate to `Online Store > Themes`. Find your current theme and click on the `Customize` button.
     2. **Activate App Embeds**: Within the theme customization area, go to `App Embeds`. Look for the `Automatic Popup Quiz` option and toggle it on.
         ![manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic](/images/manual_shopifyV2_quizbuilder_share_publish_onlinestore_automatic.png)
-    3. **Configure Exit Intent**: 
+    3. **Configure Exit intent**: 
 
         ![manual_shopifyV2_quizbuilder_share_publish_automatic_options](/images/manual_shopifyV2_quizbuilder_share_publish_automatic_options.png)
 
@@ -490,7 +490,7 @@ This guide walks you through setting up automatic popups on your ecommerce store
 
 === "Shopify"
 
-    It is not possible to show the popup more than once per session in `💎Built for Shopify` version of the RevenueHunt app unless you activate the `Exit intent` option following [Show Popup on Exit Intent](#show-popup-on-exit-intent).
+    It is not possible to show the popup more than once per session in `💎Built for Shopify` version of the RevenueHunt app unless you activate the `Exit intent` option following [Show Popup on Exit intent](#show-popup-on-exit-intent).
 
 
 === "Shopify (Legacy)"

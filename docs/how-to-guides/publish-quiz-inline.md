@@ -222,7 +222,7 @@ This guide provides step-by-step instructions for embedding an inline quiz on va
 
             If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [section](#embed-a-specific-quiz) for more information.
 
-    5. **Configure Quiz Settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
+    5. **Configure Quiz settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
 
     6. **Assign the Template to a Page**: Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`. 
         ![how to publish inline quiz built for shopify revenuehunt app new page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)
@@ -459,7 +459,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
     2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz` from RevenueHunt. Select it to add to your homepage.
-    3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height. Check the `Fixed size` option.
+    3. **Configure Quiz settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height. Check the `Fixed size` option.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.   
 
 
@@ -528,7 +528,7 @@ To prevent the quiz from adjusting size based on content, manually set a fixed w
 
     1. **Navigate to Theme Customization**: Go to `Online Store > Themes` in your Shopify dashboard. Click the `Customize` button for your active theme.
     2. **Add Inline Quiz Section**: Click `+ Add Section`, then scroll to `Apps` and find `Inline Quiz` from RevenueHunt. Select it to add to your homepage.
-    3. **Configure Quiz Settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings. Uncheck the `Automatic Scroll into View` option.
+    3. **Configure Quiz settings**: Click on the added quiz section to configure. Select the desired Quiz ID to embed and adjust settings. Uncheck the `Automatic Scroll into View` option.
     4. **Save Changes**: Ensure all changes are saved before exiting the theme editor.
 
 

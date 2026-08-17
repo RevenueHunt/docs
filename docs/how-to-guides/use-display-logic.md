@@ -50,7 +50,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 === "Shopify"
 
-    ??? question "What content be added to the Results Page?"
+    ??? question "What content be added to the Results page?"
 
         You can add different types of building blocks to your results page:
 
@@ -136,14 +136,14 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
 === "Shopify"
 
-    With Display Logic you can make sections visible or hidden based on customer's responses.
+    With Display logic you can make sections visible or hidden based on customer's responses.
 
-    1. **Find a section**: Start by identifying or adding the section you wish to add Display Logic to. 
-    2. **Open Display Logic settings**: Click on the section and on the right-hand side identify the `Display logic`.
+    1. **Find a section**: Start by identifying or adding the section you wish to add Display logic to. 
+    2. **Open Display logic settings**: Click on the section and on the right-hand side identify the `Display logic`.
 
         ![quiz builder results page block menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
-    3. Next, select `+ Add logic condition (OR)` to set up the first Display Logic rule.
+    3. Next, select `+ Add logic condition (OR)` to set up the first Display logic rule.
 
         ---
 
@@ -155,24 +155,24 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
         `bin` - Delete the current Logic rule.
         
-        `+ Add condition (OR)` - Adds another Display Logic rule. Adds a new OR logical rule.
+        `+ Add condition (OR)` - Adds another Display logic rule. Adds a new OR logical rule.
 
         `Default` - Select whether this section should be `Shown` or `Hidden` by default.
 
         ---
 
-        There are three types of Display Logic rules you can choose from:
+        There are three types of Display logic rules you can choose from:
 
         ---
 
         **Type 1: IF The response to the question...**
 
-        Then the Display Logic rules follow the following format:
+        Then the Display logic rules follow the following format:
 
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
         - **THEN section is Visible** 
-        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display Logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display Logic rule is triggered.
+        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 
         !!! example "Example 1"
 
@@ -184,7 +184,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
         **Type 2: IF The score of the variable...**
 
-        Then the Display Logic rules follow the following format:
+        Then the Display logic rules follow the following format:
 
         - **IF The score of the variable** 
         - **score** pick the variable from a dropdown list
@@ -192,7 +192,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
         - **Number** / **Another variable** pick a choice from the dropdown list
         - **0** / **1** / **2** / **other numerical value** type a value in the input field
         - **THEN section is Visible** 
-        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display Logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display Logic rule is triggered.
+        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 
 
         !!! info
@@ -210,12 +210,12 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
         **Type 3: IF the variable with the highest score...**
 
-        Then the Display Logic rules follow the following format:
+        Then the Display logic rules follow the following format:
 
         - **IF the variable with the highest score** 
         - **score** pick the variable from a dropdown list
         - **THEN section is Visible**
-        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display Logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display Logic rule is triggered.
+        - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
 
         !!! info
 
@@ -434,8 +434,8 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     To add scores or variables to choices, follow these steps:
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
-    2. Open the [Choice Settings](/reference/quiz-builder/choice-settings/).
+    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
+    2. Open the [Choice settings](/reference/quiz-builder/choice-settings/).
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
 
@@ -461,7 +461,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
         To learn how to use these variables to set up a personality type quiz, dosha quiz, scoring quiz, etc. check out the following articles:
 
-        - [How to Use Display Logic](/how-to-guides/use-display-logic/)
+        - [How to Use Display logic](/how-to-guides/use-display-logic/)
         - [How to Set Up a Personality Type Quiz](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz)
         - [How to Set Up a Scoring Quiz](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page)
 
@@ -499,19 +499,19 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     **Scenario**
 
-    You want to show a section based on the customer's answer to a question. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different text and recommendation about their skincare is shown on the Results Page. This individualized response is made possible by Display Logic.
+    You want to show a section based on the customer's answer to a question. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different text and recommendation about their skincare is shown on the Results page. This individualized response is made possible by Display logic.
 
     **Implementation**
 
-    **Step 1: Add sections to the Results Page**
+    **Step 1: Add sections to the Results page**
 
-    The quiz has four sections on the Results Page for different skin types: Dry Skin, Normal Skin, Oily Skin, and Combination Skin. Without display logic, all sections would be visible at once.To show only one section based on user responses, display logic must be applied to each section.
+    The quiz has four sections on the Results page for different skin types: Dry Skin, Normal Skin, Oily Skin, and Combination Skin. Without display logic, all sections would be visible at once.To show only one section based on user responses, display logic must be applied to each section.
 
-    **Step 2: Configuring Display Logic for Dry Skin Section**
+    **Step 2: Configuring Display logic for Dry Skin Section**
 
-    1. *Find the Dry Skin Section*: Locate the section on the Results Page that corresponds to Dry Skin.
-    2. *Open Display Logic Settings*: Click the `conditional logic / tree icon` button to open the Display Logic menu.
-    3. *Add Display Logic Rule*: Select `+ Add logic condition (OR)` to create a new Display Logic rule.
+    1. *Find the Dry Skin Section*: Locate the section on the Results page that corresponds to Dry Skin.
+    2. *Open Display logic Settings*: Click the `conditional logic / tree icon` button to open the Display logic menu.
+    3. *Add Display logic Rule*: Select `+ Add logic condition (OR)` to create a new Display logic rule.
     4. *Set Up the Rule*:
 
         - **If** `The response to question` - Choose the `question` that determines the skin type.
@@ -531,7 +531,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     Publish the changes with the top-right `Save` button to update the preview/live quiz and test the setup. Test by selecting different skin types to ensure only the relevant section is displayed.
 
-    **Advanced Display Logic Conditions**
+    **Advanced Display logic Conditions**
 
     You can set multiple conditions for display logic: 
 
@@ -770,7 +770,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     This scoring will help determine the user's skin type based on their responses.
 
-    **Step 2: Add Sections to the Results Page**
+    **Step 2: Add Sections to the Results page**
 
     The results page contains five sections, each corresponding to a skin type. Each section contains a heading, text and a product block to recommend products for that skin type.
 
@@ -781,7 +781,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.
 
-    **Step 3: Add Display Logic to the Sections**
+    **Step 3: Add Display logic to the Sections**
 
     To display the correct section based on the highest scoring variable, follow these steps: 
 
@@ -904,7 +904,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     ![how_to_shopifyv2_use_display_logic_based_on_score_example1](/images/how_to_shopifyv2_use_display_logic_based_on_score_example1.png)
 
-    **Step 2: Add Sections to the Results Page**
+    **Step 2: Add Sections to the Results page**
 
     The results page contains five sections, each corresponding to a skin type. Each section contains a heading, text and a product block to recommend products for that skin type.
 
@@ -915,7 +915,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.      
 
-    **Step 3: Add Display Logic to the Sections**
+    **Step 3: Add Display logic to the Sections**
 
     To display the correct section based on the total score, follow these steps: 
 

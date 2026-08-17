@@ -32,8 +32,8 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/oo889rtufp0?si=ttwX_qBEEX3ARQ2S" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Navigate to the Quiz Builder**: Open your quiz in the [Quiz Builder](/reference/quiz-builder/quiz-builder/) by clicking `Customize`.
-    2. **Access choice settings**: Open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings) by clicking on any choice in your quiz.
+    1. **Navigate to the Quiz builder**: Open your quiz in the [Quiz builder](/reference/quiz-builder/quiz-builder/) by clicking `Customize`.
+    2. **Access choice settings**: Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings) by clicking on any choice in your quiz.
     3. **Add customer tags**: In the choice settings, find the `Customer Tags` section.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_customertags.png)
@@ -120,7 +120,7 @@ By adding customer tags into your quizzes, you can automatically send quiz resul
 
 === "Shopify"
 
-    1. **Connecting Your Quiz:** Within the [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    1. **Connecting Your Quiz:** Within the [Quiz settings](/reference/quiz-builder/quiz-settings/), find the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab. This section allows you to link your quiz with several third-party services, including [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [Omnisend](/how-to-guides/send-leads-to-omnisend/), and [Shopify Customers List](/how-to-guides/send-leads-to-shopify-customers/). Integration with additional services is possible via [Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
     2. **Integration:** After choosing a service to connect, simply follow the provided instructions. This setup ensures that every time someone takes your quiz, their contact details, responses, customer tags and product recommendations are directly sent to your selected mailing list or CRM.
 

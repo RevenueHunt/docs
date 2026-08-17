@@ -52,9 +52,9 @@ This guide will walk you through adding elements to your results page using a va
     2. **Add Blocks**: Insert [building blocks](/reference/quiz-builder/results-page/#block-types) such as Heading, Content, HTML, Image, Products List, and Products Slots Blocks as needed.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
-    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings). For dynamic elements, use [information recalls](/how-to-guides/use-information-recalls/) or set [Display Logic](/how-to-guides/use-display-logic/) for conditional visibility.
-    4. **Adjust Page Settings**: Tailor the checkout process, manage out-of-stock and duplicate product recommendations under [Results Page Settings](/reference/quiz-builder/results-page/). From there you can add further customization with [JavaScript](/how-to-guides/add-javascript/) and CSS. 
-    5. **Review and Test**: Click the top-right `Save` button to update the preview/live quiz. Ensure the Results Page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
+    3. **Configure the Block**: Adjust [block settings](/reference/quiz-builder/questions/#block-settings). For dynamic elements, use [information recalls](/how-to-guides/use-information-recalls/) or set [Display logic](/how-to-guides/use-display-logic/) for conditional visibility.
+    4. **Adjust Page settings**: Tailor the checkout process, manage out-of-stock and duplicate product recommendations under [Results page settings](/reference/quiz-builder/results-page/). From there you can add further customization with [JavaScript](/how-to-guides/add-javascript/) and CSS. 
+    5. **Review and Test**: Click the top-right `Save` button to update the preview/live quiz. Ensure the Results page reflects your quiz's purpose and functions as intended, providing a seamless and personalized user experience.
 
 
 === "Shopify (Legacy)"
@@ -111,9 +111,9 @@ This guide will walk you through adding elements to your results page using a va
 
 === "Shopify"
 
-    A **Static Results Page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product Block or Slot Block.
+    A **Static Results page** shows the same content each time customer re-takes the quiz. The only thing that changes are the product recommendations in the Product block or Slot block.
 
-    A **Dynamic Results Page** not only changes the product recommendations but also adapts content based on customer quiz responses.
+    A **Dynamic Results page** not only changes the product recommendations but also adapts content based on customer quiz responses.
 
     You'll want to start by adding content to your results page. Below is a list of available elements you can use to build your page.
 
@@ -173,7 +173,7 @@ This guide will walk you through adding elements to your results page using a va
 
         ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png)
     
-    - **Display Logic**: With [Display Logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
+    - **Display logic**: With [Display logic](/how-to-guides/use-display-logic/) you can make blocks visible or hidden based on customer's responses. Display logic can be applied to any block on the results page, including the `product blocks` and the `slot blocks`.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic.png)
 
@@ -314,8 +314,8 @@ This guide will walk you through adding elements to your results page using a va
 
             Check the [How to Change Checkout Settings](/how-to-guides/change-checkout-settings/) for detailed instructions.
 
-    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
-    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Exclude Out-of-Stock Products**: Ensure unavailable items are not recommended by disabling the `Show unavailable products` setting in the [Results page settings](/reference/quiz-builder/results-page/#advanced-settings).
+    - **Avoid Duplicate Recommendations**: Prevent the same product from being recommended in multiple blocks by disabling the `Allow duplicate recommendations` setting in the [Results page settings](/reference/quiz-builder/results-page/#advanced-settings).
 
     [Advanced Settings](/reference/quiz-builder/results-page/#advanced-settings) worth checking:
 
@@ -323,9 +323,9 @@ This guide will walk you through adding elements to your results page using a va
 
         !!! tip
             
-            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results Page.
+            Check [How to Add JavaScript](/how-to-guides/add-javascript/) for instructions on how to add custom JavaScript to your Results page.
 
-    - **Multiple Results Pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
+    - **Multiple Results pages**: Offer [diverse results pages](/reference/quiz-builder/results-page/#multiple-results-pages-settings) based on customer responses for enhanced personalization.
 
 
 === "Shopify (Legacy)"

@@ -226,7 +226,7 @@ icon: simple/hubspot
 
     You can automatically add quiz respondents to a specific HubSpot list. This is configured through the email block in your quiz.
 
-    1. Open your quiz in the Quiz Builder.
+    1. Open your quiz in the Quiz builder.
     2. Select the email question block in your quiz.
     3. In the block settings panel, scroll to the `HubSpot` section.
         ![how to hubspot shopify list selection](/images/how_to_shopifyv2_hubspot_addcontactstolist.png)
@@ -646,7 +646,7 @@ icon: simple/hubspot
 
     3. You can use the segment as a trigger for your campaign, ensuring that only quiz takers receive the email.
     4. Set up your campaign and email flow.
-    5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email Templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
+    5. You can use the **Personalization Token** feature to personalize the email based on the quiz data. Check the [Using Custom Quiz Properties in Email templates](#using-custom-quiz-properties-in-email-templates) section to learn how to do this.
     6. Turn your campaign on and HubSpot will automatically send the email to the customers in the segment, helping you follow up with your quiz takers and recover lost sales.
 
 

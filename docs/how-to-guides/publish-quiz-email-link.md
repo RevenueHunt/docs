@@ -56,7 +56,7 @@ There are two ways to create an external link to your quiz for emails and newsle
 
             If you want to render a specific quiz, you can do so by providing a specific quiz ID in the `Quiz ID` field. Check this [section](#open-a-specific-quiz) for more information.
 
-    5. **Configure Quiz Settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
+    5. **Configure Quiz settings**: Click on the added quiz section to configure. Adjust settings like quiz height, disable auto-scroll, or fix quiz height for consistent results page height.
 
     6. **Assign the Template to a Page**: Go to `Online Store > Pages`. Click `Add page` or select an existing page to edit. In the Template section on the right, choose your new template from the Theme template dropdown. Click `Save` and then `View Template`. 
         ![how to publish inline quiz built for shopify revenuehunt app new page](/images/how_to_publish_inline_quiz_shopify_v2_new_page.png)

@@ -48,7 +48,7 @@ It's possible to know exactly which orders in your Shopify Orders tab come from 
 
         Shopify Revenue Tracking and cart-based order tagging only work if the customer adds products to the cart directly from the quiz results page **AND** then proceeds through checkout without breaking the flow. If they purchase later, the order may no longer be attributed to the quiz.
 
-        Make sure your Results Page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](/how-to-guides/change-checkout-settings/).
+        Make sure your Results page Checkout settings are correctly set to `proceed to cart` (not `proceed to checkout` or `link to product`). To change your checkout settings, check [this guide](/how-to-guides/change-checkout-settings/).
 
 === "Shopify (Legacy)"
 

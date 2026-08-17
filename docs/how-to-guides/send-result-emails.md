@@ -33,7 +33,7 @@ Follow the step by step instructions below to active and edit the result emails 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/3AWbHe1aTac?si=vBYdeOUlrVtb5m6H" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz Builder](/reference/quiz-builder/questions/).
+    1. **Add Email question**: Before you set up your result emails, you need to make sure that the quiz has an email question. To add an email question go to the [Quiz builder](/reference/quiz-builder/questions/).
     2. **Activate Respondent Emails**: Go to [`Quiz Settings > Emails to respondents`](/reference/quiz-builder/notifications/#to-respondent) and check the `Send email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
     3. **Email TO**: Choose an answer to which email question should be used to send the result emails to.
@@ -62,7 +62,7 @@ Follow the step by step instructions below to active and edit the result emails 
         
 
         !!! note
-            Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email Templates](#editing-email-templates).
+            Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email templates](#editing-email-templates).
 
 
     7. **👉 Recommended - Add Your SMTP Credentials**: By default, the result emails are sent from Revenuehunt email servers. For full deliverabilty and brand experience, it's recommended to connect your email servers to the app instead. To do that, go to [`App Settings > SMTP`](/reference/app-settings/#smtp) and provide your email SMTP credentials. Follow [these instruction](/how-to-guides/send-result-emails-from-custom-server/) to learn how to set this up.
@@ -598,7 +598,7 @@ You can receive an email notification every time someone completes the quiz or p
     {% endfor %}
     ```
 
-    Show Custom Headings from Results Page: You can also pull headings or tips from `resultContentByBlock` by using a code like `{{ person.resultContentByBlock['rsbt-159c2a74'].content }}` or loop through result content blocks:
+    Show Custom Headings from Results page: You can also pull headings or tips from `resultContentByBlock` by using a code like `{{ person.resultContentByBlock['rsbt-159c2a74'].content }}` or loop through result content blocks:
 
     ```liquid
     {% for block_id, block in person.resultContentByBlock %}

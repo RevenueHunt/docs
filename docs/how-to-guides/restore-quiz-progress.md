@@ -47,8 +47,8 @@ This guide will walk you through the process of using the [Version History](/ref
 
     The [Version History](/reference/quiz-builder/quiz-settings/#version-history) function allows you to browse through saved versions of your quiz, offering a safeguard against accidental loss or changes.
 
-    1. **Go to Quiz Settings**: Look for the [Quiz Settings](/reference/quiz-builder/quiz-settings/) option within the Quiz Builder or the Dashboard.
-    2. **Find the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
+    1. **Go to Quiz settings**: Look for the [Quiz settings](/reference/quiz-builder/quiz-settings/) option within the Quiz builder or the Dashboard.
+    2. **Find the Version History Tab**: Within the Quiz settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
 
     ![Built for Shopify revenuehunt app Version History](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
 
@@ -163,8 +163,8 @@ This guide will walk you through the process of using the [Version History](/ref
 
     If multiple slides or questions are missing, follow the steps below to recover a previously published version.
 
-    1. **Navigate to the Quiz Settings**: Go to the [Quiz Settings](/reference/quiz-builder/quiz-settings/) page.
-    2. **Go to the Version History Tab**: Within the Quiz Settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
+    1. **Navigate to the Quiz settings**: Go to the [Quiz settings](/reference/quiz-builder/quiz-settings/) page.
+    2. **Go to the Version History Tab**: Within the Quiz settings, locate the [Version History](/reference/quiz-builder/quiz-settings/#version-history) tab. Here, you'll see a list of the saved versions of your quiz.
     3. **Click Show More Details**: Click on `Show More Details` to view specific changes made in each version. Note that each version is created when you save the quiz. Only saved changes are shown in the version history.
     4. **Select the Version**: Select the version corresponding to the date of the changes you want to recover.
     5. **Use the Three Dots Menu**: Click on the three dots next to the version to see options: `   Create a New Quiz` or `Restore This Version`.

@@ -10,7 +10,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     ![manual_shopifyV2_quizbuilder](/images/manual_shopifyV2_quizbuilder.png)
 
-    Quiz Builder is composed of different sections: 
+    Quiz builder is composed of different sections: 
 
     ### Quiz Builder Menu
 
@@ -57,11 +57,11 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Quiz settings`- open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
 
-    `Quiz Responses` - open the [Quiz Responses](/reference/quiz-builder/metrics/#quiz-responses) section.
+    `Quiz Responses` - open the [Quiz responses](/reference/quiz-builder/metrics/#quiz-responses) section.
 
     `Analytics` - open the [Analytics](/reference/quiz-builder/metrics/#analytics) section.
         
-    To test the whole quiz click `Preview` in the top right corner of the Quiz Builder.
+    To test the whole quiz click `Preview` in the top right corner of the Quiz builder.
 
 === "Shopify (Legacy)"
 
@@ -345,7 +345,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     ![manual_shopifyV2_quizbuilder_unsavedchanges](/images/manual_shopifyV2_quizbuilder_unsavedchanges.png)
 
-    Any changes you make to your quiz will be remembered and need to be saved with the top `Save` button in order to move on to the next section of the Quiz Builder. You can discard your changes by clicking the `Discard` button.    
+    Any changes you make to your quiz will be remembered and need to be saved with the top `Save` button in order to move on to the next section of the Quiz builder. You can discard your changes by clicking the `Discard` button.    
 
 === "Shopify (Legacy)"
 
@@ -384,7 +384,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     ![manual_shopifyV2_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_preview.png)
       
-    To test the whole quiz click `Preview` in the top right corner of the Quiz Builder.
+    To test the whole quiz click `Preview` in the top right corner of the Quiz builder.
 
     !!! tip "Previewing the Quiz"
  

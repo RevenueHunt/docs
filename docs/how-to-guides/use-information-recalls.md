@@ -103,7 +103,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
     Information recall / Content Dynamic Source can be used in various parts of your quiz to enhance personalization:
 
     - **Follow-up Questions:** Make your quiz feel more conversational by recalling the participant's name or other responses in later questions.
-    - **Results Page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
+    - **Results page:** Display personalized messages or recommendations on the results page by recalling the participant's name and answers.
     - **Choice Labels:** Personalize answer options based on previous responses (e.g., "Hi {{ name }}, which option suits you best?").
     - **Slot Titles & Descriptions:** Customize product recommendation headers with quiz data.
     - **No Recommendations Message:** Create personalized fallback messages when no products match.
@@ -122,7 +122,7 @@ Information recalls / Content Dynamic Source allow you to reuse participants' pr
         For a complete reference of all available variables and examples, see:
 
         - [Questions - Dynamic Content & JavaScript Reference](/reference/quiz-builder/questions/#dynamic-content-javascript-reference)
-        - [Results Page - Dynamic Content & JavaScript Reference](/reference/quiz-builder/results-page/#dynamic-content-javascript-reference)
+        - [Results page - Dynamic Content & JavaScript Reference](/reference/quiz-builder/results-page/#dynamic-content-javascript-reference)
 
 === "Shopify (Legacy)"
 

@@ -15,13 +15,13 @@ description: "Learn how to display custom explanations for why products were rec
 
     - The new Built for Shopify version of the RevenueHunt app allows you to set up different section on the results page with different text + product recommendations combinations. 
     
-    - You can then use the [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) feature to tell each section when to be shown or hidden based on a customer answers, variable or a score.  
+    - You can then use the [Display logic](/reference/quiz-builder/conditional-logic/#display-logic) feature to tell each section when to be shown or hidden based on a customer answers, variable or a score.  
     
     - For this reason, it can be very easy to build a **"personality-type"** or **Dosha** quiz with our Built for Shopify solution.
 
     !!! info
     
-        To learn how to **use Display Logic** to show different sections on the results page, check [this guide](/how-to-guides/use-display-logic/).
+        To learn how to **use Display logic** to show different sections on the results page, check [this guide](/how-to-guides/use-display-logic/).
 
         You can also check [this guide](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) on settings up a quiz with the winning variable or [this guide](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) on how to set up a quiz with a custom scoring system. Both options are good for building a **personality-type** quiz.
 

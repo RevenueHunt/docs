@@ -41,7 +41,7 @@ This guide will walk you through the process of troubleshooting product recommen
     3. Check the `Why was a product recommended or not in this response?` section. This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
 
         ![manual_shopifyV2_quizbuilder_responses_sample1](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
-    4. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results Page or one you anticipated but was missing.
+    4. On the results page, identify a product of interest—either one that appeared unexpectedly on the Results page or one you anticipated but was missing.
     5. **Conduct a Product Search**: Use the `SELECT PRODUCT TO CHECK` section to search the name of the product in question. Select the product from the search results to further investigate its recommendation status.
 
         **Understanding Product Status Colors**
@@ -59,7 +59,7 @@ This guide will walk you through the process of troubleshooting product recommen
         - The collections/categories the product belongs to.
         - The number of votes it received and the reasons for its recommendation or absence.
         - The questions/choices that influenced its votes, including the collections/categories where it was either upvoted or excluded.
-        - The specific Results Page and Slots or Product blocks that facilitated its recommendation.
+        - The specific Results page and Slots or Product blocks that facilitated its recommendation.
 
     7. **Troubleshooting and Adjustments**: With this information, you can pinpoint inconsistencies or errors in product categorization, inclusion, or exclusion. 
 

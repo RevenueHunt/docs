@@ -20,7 +20,7 @@ Before you start, ensure you have:
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/VE314AzvTbY?si=jCWb9ok0xAJAbTis" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Prepare Your Quiz**. Ensure your quiz is fully set up with all the questions you want. Open the [Quiz Settings](/reference/quiz-builder/quiz-settings/).
+    1. **Prepare Your Quiz**. Ensure your quiz is fully set up with all the questions you want. Open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
     
     2. **Access the Webhooks Integration**. Scroll down to the [Integrations](/reference/quiz-builder/quiz-settings/#integrations) section. Click on **Webhooks** to open the integration panel.
     

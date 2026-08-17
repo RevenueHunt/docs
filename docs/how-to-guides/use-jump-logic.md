@@ -63,11 +63,11 @@ In this article, we provide a clear, step-by-step guide on how to use Jump Logic
 
     ![quiz builder conditional logic](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic.png)
 
-    In the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The right menu allows you to add conditional logic rules to questions in the quiz. The left preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    In the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab you can branch your quiz. The right menu allows you to add conditional logic rules to questions in the quiz. The left preview shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
 
     By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
 
-    ??? question "How to navigate the Conditional Logic tab?"
+    ??? question "How to navigate the Conditional logic tab?"
 
         ![quiz builder conditional logic preview options](/images/manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_zoom.png)
 
@@ -236,9 +236,9 @@ Jump Logic allows you to route customers to different questions based on their r
 
 === "Shopify"
 
-    1. Open the [Quiz Builder](/reference/quiz-builder/).
-    2. **Open Jump Logic**: Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and select [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.
-    3.  **Add Jump Logic**: Click `+ Add another rule` to add a new Jump Logic rule for the selected question. Here, you'll define your conditional statement using the template:
+    1. Open the [Quiz builder](/reference/quiz-builder/).
+    2. **Open Jump logic**: Navigate to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select [`Jump Logic`](/reference/quiz-builder/conditional-logic/#jump-logic) section.
+    3.  **Add Jump logic**: Click `+ Add another rule` to add a new Jump logic rule for the selected question. Here, you'll define your conditional statement using the template:
         - IF the response to `question X`
         - IS EQUAL TO `choice Y`
         - THEN go to `question Z`
@@ -249,9 +249,9 @@ Jump Logic allows you to route customers to different questions based on their r
 
             In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then they will be redirected to Question 8 "SKIN TYPE: OILY".
 
-    4. **Multiple Conditions:** You can add more than one Jump Logic rule to a single question by clicking on the big `+ Add another rule (OR)` button in the bottom right corner. This allows for complex paths that can direct participants to various follow-up questions based on their specific answers.
+    4. **Multiple Conditions:** You can add more than one Jump logic rule to a single question by clicking on the big `+ Add another rule (OR)` button in the bottom right corner. This allows for complex paths that can direct participants to various follow-up questions based on their specific answers.
 
-        - **+ Add another rule (OR)** - Add another Jump Logic rule. Adds a new OR logical rule.
+        - **+ Add another rule (OR)** - Add another Jump logic rule. Adds a new OR logical rule.
 
             !!! example
 
@@ -259,7 +259,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
                 In the example, if a user chooses a choice "Oily all over" in Question 4 "SKIN TYPE" then they will be redirected to Question 8 "SKIN TYPE: OILY" but if the user chooses a choice "Oily in certain spots" in Question 4 "SKIN TYPE" then they will be redirected to Question 6 "SKIN TYPE: COMBINATION".
 
-        - **bin** - Delete the current Jump Logic rule.
+        - **bin** - Delete the current Jump logic rule.
         - **+ Add concurrent logic (AND)** - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
 
             !!! example
@@ -473,7 +473,7 @@ Jump Logic allows you to route customers to different questions based on their r
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=Ud8s2dtSN0uJECkC&amp;start=13" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    Jump Logic allows you to branch the quiz based on the participant's responses.
+    Jump logic allows you to branch the quiz based on the participant's responses.
 
     For example, you can create a quiz that asks the participant about their skin type and then based on the answer, you can redirect them to a different question or content.
 
@@ -485,9 +485,9 @@ Jump Logic allows you to route customers to different questions based on their r
 
     ![how to use jump logic](https://loom.com/i/11c8cff2e27a451a8c8b40b348de4a42?workflows_screenshot=true)
 
-    **Step 2: Add Jump Logic** Add Jump Logic to the main question. Navigate to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab. Select the main question, in this example it's the skin type question (Question 4).
+    **Step 2: Add Jump logic** Add Jump logic to the main question. Navigate to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab. Select the main question, in this example it's the skin type question (Question 4).
 
-    Add Jump Logic rules for each skin type response, like the following example:
+    Add Jump logic rules for each skin type response, like the following example:
 
     ![how to use jump logic](/images/how_to_hide_content_with_logic_shopifyv2_jump_logic_rule.png){width="300"}
 
@@ -670,12 +670,12 @@ Jump Logic allows you to route customers to different questions based on their r
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=0v4iXxZKuT0ljH-c&amp;start=82" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    With Jump Logic, you can send users to different results pages based on their answers.
+    With Jump logic, you can send users to different results pages based on their answers.
 
     **Implementation**
 
-    1. Set up Multiple Results Pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
-    2. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    1. Set up Multiple Results pages in your quiz. Check out this [guide](/how-to-guides/set-multiple-result-pages/) to learn how to create multiple results pages.
+    2. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.
     3. Pick the question you want to add redirect logic to.
     4. Click on that question and open the `Jump Logic` tab.
     5. Click `+ Add another rule(OR)` and set up a redirection rule.
@@ -910,11 +910,11 @@ Jump Logic allows you to route customers to different questions based on their r
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/N2gudKAy4qU?si=M8ps59EfgFulqM9z&amp;start=123" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    With Jump Logic, you can send users to an external URL based on their answers.
+    With Jump logic, you can send users to an external URL based on their answers.
 
     **Implementation**
 
-    1. Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab.
+    1. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab.
     2. Pick the question you want to add redirect logic to.
     3. Click on that question and open the `Jump Logic` tab.
     4. Click `+ Add another rule(OR)` and set up a redirection rule.

@@ -51,7 +51,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
-    In the [Quiz Design](/reference/quiz-builder/quiz-design/) section of the quiz builder you can change how the quiz `Questions` or the `Results Page` look. 
+    In the [Quiz design](/reference/quiz-builder/quiz-design/) section of the quiz builder you can change how the quiz `Questions` or the `Results Page` look. 
     
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_toggle.png)
 
@@ -63,7 +63,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
     
     This allows you to set a tone that resonates with your brand’s identity.
 
-    The Quiz Design section is divided into two main customization categories: **`Basic`** and **`Advanced`**.
+    The Quiz design section is divided into two main customization categories: **`Basic`** and **`Advanced`**.
  
     `Basic`  - The basic menu of quiz design customization. Here you can edit the quiz colors, fonts, change the navigation options, add animations or a background image.
 
@@ -243,7 +243,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 === "Shopify"
 
-    For those with coding knowledge, the `Advanced` customization panel within the [Quiz Design](/reference/quiz-builder/quiz-design/) offers the flexibility to input custom CSS, allowing you to override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
+    For those with coding knowledge, the `Advanced` customization panel within the [Quiz design](/reference/quiz-builder/quiz-design/) offers the flexibility to input custom CSS, allowing you to override the default styles. This option provides maximum control over every detail of your quiz’s appearance.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_advanced.png)
 
@@ -305,7 +305,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
                 }
                 ```
 
-        5. **Paste the code in Quiz Design > CSS console**: Navigate to the Quiz Design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
+        5. **Paste the code in Quiz design > CSS console**: Navigate to the Quiz design > Custom CSS section of the app and paste the code into the custom CSS field on top of the stylesheet.
         6. **Publish the changes**: Click the top-right `Publish / Save` button to apply the changes to the preview/live quiz.
 
 
@@ -881,7 +881,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
         The article explain in details different ways you can add images to your quiz. Including:
 
-        - **Quiz Background image** - You can uplaod a background image for the whole quiz via the Quiz Design tab.
+        - **Quiz Background image** - You can uplaod a background image for the whole quiz via the Quiz design tab.
         - **Question Background/Split image** - You can upload a background image to each question in the quiz via the question settings.
         - **Image Block** - You can upload an individual image via an Image Block directly into one of the quiz questions or results page.
         - **Picture Choice** - You can add a Picture Choice block to your question, which will allow you to add an image to each choice in that multiple-choice question.
@@ -919,7 +919,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     To upload an image to each choice, open the [**`Choice Settings`**](/reference/quiz-builder/questions/#choice-settings).
 
-    **Adding a Background Image**
+    **Adding a Background image**
 
     You can add a background image to a specific question or to the entire quiz.
 
@@ -927,11 +927,11 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
     To add a background image to a specific question go to the [**`Question Settings`**](/reference/quiz-builder/questions/#question-settings):
 
-    - **Select a Background Image**: Click `Select image` in the question management settings, then click `Add image` to upload a background image from your computer. Alternatively, choose an existing image from your quiz gallery. Once uploaded, click `Change` to replace the image or `Remove` to delete it.
+    - **Select a Background image**: Click `Select image` in the question management settings, then click `Add image` to upload a background image from your computer. Alternatively, choose an existing image from your quiz gallery. Once uploaded, click `Change` to replace the image or `Remove` to delete it.
     - **Background Position**: Set the image to cover the entire background or split the screen, displaying the image on one half and content on the other.
     - **Background Opacity**: Adjust the opacity of the background image using the slider to control transparency and blend it with the quiz content.
 
-    To add a background image to the whole quiz open the [Quiz Design](#quiz-design-tab) tab.
+    To add a background image to the whole quiz open the [Quiz design](#quiz-design-tab) tab.
 
     These settings allow you to control how images appear and interact within your quiz, making it visually engaging.
 
@@ -1033,7 +1033,7 @@ You can change the quiz's appearance to fit your store's style. This guide expla
 
 === "Shopify"
 
-    In addition to the overall Quiz Design options, you can add a unique image to every question through the Quiz Builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
+    In addition to the overall Quiz design options, you can add a unique image to every question through the Quiz builder by accessing the [question settings](/reference/quiz-builder/questions/#question-settings).
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings.png){width="300"}
 

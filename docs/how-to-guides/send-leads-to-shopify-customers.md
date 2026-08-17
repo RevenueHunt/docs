@@ -21,14 +21,14 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
 
         **(optional) Tag choices with customer tags.** Customer tags get trasfered into the Shopify Customer profile and can be used for further retargeting.
 
-    1. Navigate to [App Settings](/reference/app-settings/) from the side menu.
+    1. Navigate to [App settings](/reference/app-settings/) from the side menu.
     2. Click on the `Shopify Customers` tab.
     3. Toggle the `Enable pushing quiz leads to Shopify Customers` switch to enable the integration.
 
         ![manual_shopifyV2_appsettings_shopifycustomers](/images/manual_shopifyV2_appsettings_shopifycustomers.png)   
     4. Click the `Save` button to save the changes.
 
-    Newly captured leads will appear in your Shopify Customers List with their [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) added to their profile.
+    Newly captured leads will appear in your Shopify Customers List with their [Customer tags](/reference/quiz-builder/link-collections/#customer-tags) added to their profile.
 
     ![how to send leads to shopify customers customer profile](/images/how_to_shopifyv2_send_leads_to_shopify_customers_customer_profile.png)
 
@@ -208,7 +208,7 @@ When someone completes the quiz and leaves their email address, the app creates 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=Bpvc82ZhqPbLf5kL&amp;start=38" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-    You can use [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
+    You can use [Customer tags](/reference/quiz-builder/link-collections/#customer-tags) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
 
     Follow these steps to add tags to your quiz choices and test the setup:
 
@@ -216,7 +216,7 @@ When someone completes the quiz and leaves their email address, the app creates 
 
         - Open the Revenue Hunt Quizzes app and select your quiz.
         - Navigate to the choice settings section.
-        - Under [Customer Tags](/reference/quiz-builder/customer-tags/), create new tags for each choice. For example, create a tag called `teen` and assign it to the relevant choice.
+        - Under [Customer tags](/reference/quiz-builder/customer-tags/), create new tags for each choice. For example, create a tag called `teen` and assign it to the relevant choice.
         - Repeat this process for other choices, adding appropriate tags as needed (e.g., `30s`).
         - Additionally, add a common tag (e.g., `quiz`) to all choices in one of the questions to identify participants from the product recommendation quiz. Anyone who takes the quiz will be tagged with this common tag.
     2. **Saving Changes**: After adding the desired tags, click `Save` to save your changes.

@@ -15,7 +15,7 @@ To combine two or more questions into one slide, follow these steps:
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/C927w-0ZRl4?si=5j8Uwb7CLT-n-m7A" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. Open the [Quiz Builder](/reference/quiz-builder/).
+    1. Open the [Quiz builder](/reference/quiz-builder/).
     2. Add a question to the quiz by clicking on the [`+ question`](/reference/quiz-builder/questions/#question-types) button.
     3. Within the question, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a block type from the list. 
     4. To show an extra question on the same slide, click [`+ block`](/reference/quiz-builder/questions/#block-settings) and select a different block type from the list. 

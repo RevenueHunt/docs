@@ -84,13 +84,13 @@ description: "Send automated quiz result emails and connect your SMTP email serv
 === "Shopify"
 
 
-    1. **Add Email Question**: Before you set up your result emails, you need to make sure that the quiz has an [email question](/reference/quiz-builder/questions/#email). To add an email question go to the [Quiz Builder > Questions](/reference/quiz-builder/questions/) and click `+ Add question`or `+ Add block`.
+    1. **Add Email question**: Before you set up your result emails, you need to make sure that the quiz has an [email question](/reference/quiz-builder/questions/#email). To add an email question go to the [Quiz builder > Questions](/reference/quiz-builder/questions/) and click `+ Add question`or `+ Add block`.
     2. **Activate Respondent Emails**: Go to [`Quiz Settings > Emails to respondents`](/reference/quiz-builder/notifications/#to-respondent) and check the `Send email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
-    3. **Edit Email Template - Email TO**: Choose an answer to which email question should be used to send the result emails to.
-    4. **Edit Email Template -  REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
-    5. **Edit Email Template - Email Subject**: Edit the title of the email that customers will receive. 
-    6. **Edit Email Template - Email Liquid template**: Configure the email template of the email that your customers will receive. 
+    3. **Edit Email template - Email TO**: Choose an answer to which email question should be used to send the result emails to.
+    4. **Edit Email template -  REPLY-TO**: Choose what email the customers will be able to reply to once they receive the results.
+    5. **Edit Email template - Email Subject**: Edit the title of the email that customers will receive. 
+    6. **Edit Email template - Email Liquid template**: Configure the email template of the email that your customers will receive. 
 
         ![how to send result emails html template](https://loom.com/i/200e22c07c214de2a399b481d7720c80?workflows_screenshot=true)
 
@@ -113,7 +113,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
         
 
         !!! note
-            Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email Templates](/how-to-guides/send-result-emails/#editing-email-templates).
+            Note that HTML emails are not rendered the same in different email clients and that you should add styles inline, not as classes. You also can’t add JavaScript code since it won’t be executed by email clients. Read more about [Editing Email templates](/how-to-guides/send-result-emails/#editing-email-templates).
 
     7. **Email Preview**: Use the Email preview section to check how the email will look like for different respondents.
     8. **`Recommended` Add Your SMTP Credentials**: Check [Sending Emails from Your Servers (SMTP)](#sending-emails-from-your-servers-smtp) to learn how to connect your own email server using SMTP.
@@ -428,7 +428,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
 
 === "Shopify"
 
-    1. **Access Settings**: Navigate to your quiz dashboard and open the [App Settings](/reference/app-settings/).
+    1. **Access Settings**: Navigate to your quiz dashboard and open the [App settings](/reference/app-settings/).
     2. **Locate SMTP Settings**: Select the [SMTP tab](/reference/app-settings/#smtp).
     3. **Enter SMTP Details**: Fill in your SMTP server details. 
 

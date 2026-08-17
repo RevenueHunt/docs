@@ -31,7 +31,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uiJwV1MxZKg?si=Ucpz_kB6PXt5VgJ4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     
-    1. To show the same products to everyone regardless of the customer answers, add a [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections) to the Results Page and set the `Recommendation System` to `Fixed Recommendations`.
+    1. To show the same products to everyone regardless of the customer answers, add a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) to the Results page and set the `Recommendation System` to `Fixed Recommendations`.
     2. Under `Slot 1` go to `Fixed recommended items` and select the products you want to show.
     3. Adjust the `Max. recommended items` number to match the number of recommended products. 
     4. Save the changes and preview the quiz.
@@ -263,13 +263,13 @@ Set up multiple sections on the results page with fixed product and text combina
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/NvDLDlknJv4?si=x9HaGPZxsjDwTrY-" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
             Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
 
-    2. **Add Content Sections to Results Page**: Go to the [Results Page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign. 
+    2. **Add Content Sections to Results page**: Go to the [Results page](/reference/quiz-builder/results-page/) and add a new `sections`. To add a new section click the `+ Add section` sign. 
     
         Add multiple content blocks describing the specific skin type and its challenges. For example:
 
@@ -282,7 +282,7 @@ Set up multiple sections on the results page with fixed product and text combina
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Product Blocks**: To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product Block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  
+    3. **Add Product blocks**: To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  
 
         ![how to recommend products fixed recommendations resultspage](/images/how_to_shopifyv2_fixedrecommendationquiz_fixedrecommendationsresultspage.png)
 
@@ -291,9 +291,9 @@ Set up multiple sections on the results page with fixed product and text combina
         ![how to recommend products fixed recommendations resultspage2](/images/how_to_shopifyv2_fixedrecommendationquiz_fixedrecommendationsresultspage2.png)
             
 
-    3. **Add Display Logic**: If we don't add [Display Logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results Page, regardless of the choice we made. 
+    3. **Add Display logic**: If we don't add [Display logic](/how-to-guides/use-display-logic/) to the quiz, our blocks will just appear one after the other on the Results page, regardless of the choice we made. 
     
-        To add Display Logic, select a content block and in the right-hand menu locate `Display logic`. Click on `+ Add condition (OR)`. 
+        To add Display logic, select a content block and in the right-hand menu locate `Display logic`. Click on `+ Add condition (OR)`. 
               
         Set up IF-THEN statements to control when each statement block should be visible or hidden based on the customer's choices. Like this:
 
@@ -458,15 +458,15 @@ Set up multiple results pages with unique fixed product recommendations and text
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uLqul_uj0UQ?si=E77WIlpSvtjC4w7R" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Create Quiz**: Open the [Quiz Builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
+    1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
 
         !!! tip
 
             Use the [images or text blocks](/reference/quiz-builder/questions/#block-settings) to help customers determine their skin type.
 
-    2. **Create Multiple Results Pages**: In the [Results Page](/reference/quiz-builder/results-page/) tab, click on the `+ Add Results Page` button to create additional results pages. Create a separate results page for each skin type (Dry, Normal, Oily, Combination).
+    2. **Create Multiple Results pages**: In the [Results page](/reference/quiz-builder/results-page/) tab, click on the `+ Add Results Page` button to create additional results pages. Create a separate results page for each skin type (Dry, Normal, Oily, Combination).
 
-    3. **Add Content to Each Results Page**: For each results page, add content blocks describing the specific skin type and its challenges. For example:+
+    3. **Add Content to Each Results page**: For each results page, add content blocks describing the specific skin type and its challenges. For example:+
 
         ![how to set up multiple results pages](/images/how_to_shopifyv2_fixedrecommendationquiz_resultpages.png)
 
@@ -477,9 +477,9 @@ Set up multiple results pages with unique fixed product recommendations and text
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    4. **Add Product Blocks to Each Results Page**: For each results page, add a `Products Block` with the specific products you want to recommend for that skin type.
+    4. **Add Product blocks to Each Results page**: For each results page, add a `Products Block` with the specific products you want to recommend for that skin type.
 
-        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product Block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  +
+        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  +
 
         ![how to recommend products fixed recommendations resultspage](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_fixedrecommendationsresultspage.png)
 
@@ -488,22 +488,22 @@ Set up multiple results pages with unique fixed product recommendations and text
         ![how to recommend products fixed recommendations resultspage2](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_fixedrecommendationsresultspage2.png)
 
 
-    5. **Set Up Jump Logic**: Go to the [Conditional Logic](/reference/quiz-builder/conditional-logic/) tab and pick the last question in the quiz. Set up [Jump Logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) to direct customers to the appropriate results page based on their skin type choice.
+    5. **Set Up Jump logic**: Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and pick the last question in the quiz. Set up [Jump logic](/how-to-guides/hide-content-with-logic/#jump-logic-how-to-show-custom-text-in-the-quiz) to direct customers to the appropriate results page based on their skin type choice.
 
         ![how to set up jump logic for results pages](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_jumplogic.png)
 
-        Open the Jump Logic options and add new rules to this question. Click `+ Add another rule (OR)` to add a new OR Jump Logic rule for the selected question.
+        Open the Jump logic options and add new rules to this question. Click `+ Add another rule (OR)` to add a new OR Jump logic rule for the selected question.
 
 
         !!! example
 
             ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_jumplogic_example](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_jumplogic_example.png)
 
-            In the example, if a user chooses a choice "Not too oily..." in Question 4 "SKIN TYPE" then they will be redirected to Results Page 2.
+            In the example, if a user chooses a choice "Not too oily..." in Question 4 "SKIN TYPE" then they will be redirected to Results page 2.
 
         !!! tip
 
-            For each choice in your skin type question, create a Jump Logic rule that directs to the corresponding results page.
+            For each choice in your skin type question, create a Jump logic rule that directs to the corresponding results page.
 
     6. **Publish the changes**: Click the top-right `Save` button to update the preview/live quiz.
 

@@ -15,7 +15,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **collections**.
 
-    If you add a Block to your results page, you can choose to display **product variants**, **main products** or **collections** under [Block Settings > Recommendations Type](/reference/quiz-builder/results-page/#products-products-variants-collections). 
+    If you add a Block to your results page, you can choose to display **product variants**, **main products** or **collections** under [Block settings > Recommendations Type](/reference/quiz-builder/results-page/#products-products-variants-collections). 
 
     - If you chose a **Products** under Recommendations Type, the Slot will show the main product with a optional dropdown to choose the specific variant. The order in which the product variants are displayed is based on the number of votes they received. If all variants of the same product received the same number of votes, the variants will be displayed in random order.
 
@@ -103,7 +103,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
         Follow [this guide](/how-to-guides/set-up-scoring-quiz/) to learn how to set up this option.
 
-    **🧩 Option 3: Use Complex Display Logic**
+    **🧩 Option 3: Use Complex Display logic**
 
     *Best for advanced logic or detailed recommendation matrices.*
 
@@ -321,7 +321,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
     | [✍🏻 Voting System (Funnel Quiz with Slots)](/how-to-guides/set-up-funnel-quiz/#funnel-quiz-with-slots) | Product recommendation routines, different product categories (e.g. cleanser + moisturizer) | - Slot-based grouping<br>- Step-by-step product recommendations<br>- Still uses dynamic voting | Medium |
     | [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) | Personality quizzes, Dosha tests, where outcome depends on which variable (A, B, C...) got the most choices | - Tracks most frequent variable<br>- Outputs results by majority<br>- Often used for typology quizzes | Medium |
     | [🎯 Custom Scoring System (Score + Variable)](/how-to-guides/set-up-scoring-quiz/#scoring-quiz-with-one-results-page) | Quizzes that need to calculate values or mix scoring with conditions | - Weighted scoring<br>- Adds hidden variables<br>- Logic can combine score + other rules | Medium to High |
-    | [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple results pages<br>- Allows display rules and custom text | High |
+    | [🧩 Fixed Recommendations with Display logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) | Quizzes with a lot of logic conditions, precise rules, or exceptions | - Shows products based on answers<br>- Supports multiple results pages<br>- Allows display rules and custom text | High |
 
     !!! info
 
@@ -461,7 +461,7 @@ It is possible to limit the number of recommended products on the results page b
 
     While our product recommendation algorithm works to recommend specific products, it will not automatically display an explanation of **why** a certain product was recommended. It also won't automatically display custom text depending on the recommended product.
 
-    To show an text that explains why a certain product was recommended, follow the guide for [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) if you're building a personality-type quiz or [🧩 Fixed Recommendations with Display Logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) if you're building a quiz with a lot of logic conditions, precise rules, or exceptions. 
+    To show an text that explains why a certain product was recommended, follow the guide for [🎯 Custom Scoring System (Most Voted Variable)](/how-to-guides/set-up-scoring-quiz/#winning-variable-quiz) if you're building a personality-type quiz or [🧩 Fixed Recommendations with Display logic](/how-to-guides/set-up-fixed-recommendations-quiz/#fixed-recommendations-with-display-logic-and-one-results-page) if you're building a quiz with a lot of logic conditions, precise rules, or exceptions. 
 
 
 === "Shopify (Legacy)" 

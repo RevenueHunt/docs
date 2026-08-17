@@ -33,11 +33,11 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/RNFq-2HCRro?si=4xZDwSz-GxDNlE7H" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    You can upload a background image for the whole quiz via the [Quiz Design tab](/reference/quiz-builder/quiz-design/).
+    You can upload a background image for the whole quiz via the [Quiz design tab](/reference/quiz-builder/quiz-design/).
 
     ![how_to_shopifyv2_improve_image_quality_backgroudimagequiz](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign.png)
 
-    1. Open the [Quiz Design tab](/reference/quiz-builder/quiz-design/)
+    1. Open the [Quiz design tab](/reference/quiz-builder/quiz-design/)
 
     2. Click on `Background`
 

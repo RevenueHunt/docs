@@ -246,7 +246,7 @@ description: "RevenueHunt plans and pricing FAQ with details on features and pai
 
 === "Shopify"
 
-    If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [App Settings > Plans & Pricing](/reference/plans-pricing/) page in the app.
+    If you need to upgrade temporarily for a marketing campaign, you can downgrade later on to a smaller plan if your usage is lower. You can easily do it yourself from the [App settings > Plans & Pricing](/reference/plans-pricing/) page in the app.
 
     Bear in mind that if you need to upgrade/downgrade we’re very flexible. When changing plans Shopify will automatically discount the proportional part of the monthly plan that hasn’t been used.
 

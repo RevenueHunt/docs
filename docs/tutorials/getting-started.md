@@ -226,11 +226,11 @@ Before you start collecting leads and generating sales, here's a quick tour to h
 
     - Products are linked to each choice. 
     - Every time a customer selects an answer, those linked products get a vote.
-    - At the end of the quiz, the [Results Page](/reference/quiz-builder/results-page/) shows the top-voted products first, sorted by the number of votes.
+    - At the end of the quiz, the [Results page](/reference/quiz-builder/results-page/) shows the top-voted products first, sorted by the number of votes.
 
-    Alternatively, you can use [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) to set up conditions for when certain fixed content or products should be visible on the Results Page.
+    Alternatively, you can use [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) to set up conditions for when certain fixed content or products should be visible on the Results page.
 
-    Don't forget to customize your [Results Page](/reference/quiz-builder/results-page/). Add helpful information, choose how many products to recommend, or group items into slots to suggest full bundles or routines.
+    Don't forget to customize your [Results page](/reference/quiz-builder/results-page/). Add helpful information, choose how many products to recommend, or group items into slots to suggest full bundles or routines.
 
 
 === "Shopify (Legacy)"
@@ -374,7 +374,7 @@ Before you start collecting leads and generating sales, here's a quick tour to h
 
 === "Shopify"
 
-    On the left, you'll also see the [Success Checklist](/reference/dashboard/#success-checklist). It helps you track your progress and make sure everything is set up correctly.
+    On the left, you'll also see the [Success checklist](/reference/dashboard/#success-checklist). It helps you track your progress and make sure everything is set up correctly.
 
     - Click the `Save` button to save your changes.
     - Click `Preview` to test the quiz.
@@ -472,7 +472,7 @@ Before you start collecting leads and generating sales, here's a quick tour to h
 
 === "Shopify"
 
-    In [App Settings](/reference/app-settings/), you can choose a default quiz for each [Shopify market](/reference/app-settings/#shopify-markets) and language you've set up in your store, ensuring a personalized experience for every customer.
+    In [App settings](/reference/app-settings/), you can choose a default quiz for each [Shopify market](/reference/app-settings/#shopify-markets) and language you've set up in your store, ensuring a personalized experience for every customer.
 
 
 === "Shopify (Legacy)"

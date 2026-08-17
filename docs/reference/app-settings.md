@@ -179,7 +179,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     !!! tip
 
-        Check [How to Send Quiz Leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) for detailed instructions on setting up Shopify Flows with customer tags.
+        Check [How to Send Quiz leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) for detailed instructions on setting up Shopify Flows with customer tags.
 
     **Shopify Flow**
 
@@ -241,7 +241,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `Low inventory Filter` - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.
 
-    **When unchecked (default behavior):** Out-of-stock products will still appear in recommendations, but the "Add to cart" button will automatically display "Sold out" and become disabled. Customers cannot add out-of-stock variants to their cart. The "Sold out" text can be customized in [Quiz Settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under **Buttons**.
+    **When unchecked (default behavior):** Out-of-stock products will still appear in recommendations, but the "Add to cart" button will automatically display "Sold out" and become disabled. Customers cannot add out-of-stock variants to their cart. The "Sold out" text can be customized in [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) under **Buttons**.
 
     **When checked:** If you check the `Filter products by inventory level` box, the app will hide any products that are low or out of stock from quiz recommendations entirely. This prevents customers from seeing products that are unavailable to purchase. Once checked, the **`Minimum stock level`** option will become available. You can set the minimum stock level for products to be eligible for recommendations.
 

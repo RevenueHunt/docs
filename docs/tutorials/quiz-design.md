@@ -17,7 +17,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
         - how toadd custom CSS or JavaScript for the whole quiz or individual slides,
         - how todesign engaging questions with text, images, videos, and choice layouts,
         - how to style blocks and choices, including picture sizes and mobile layouts,
-        - how to build and customize the Results Page with text, media, buttons, and product blocks,
+        - how to build and customize the Results page with text, media, buttons, and product blocks,
         - how to control product card layouts.
 
     <div class="videoWrapper">
@@ -99,11 +99,11 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     Design customization in RevenueHunt works at several levels:
 
-    - The [Quiz Design](#quiz-design-tab) tab gives you global control over fonts, colors, and navigation.
+    - The [Quiz design](#quiz-design-tab) tab gives you global control over fonts, colors, and navigation.
 
     - The [Questions](#questions-tab) tab lets you style each slide individually.
 
-    - The [Results Page](#results-page-tab) tab ensures your final recommendations screen matches your brand.
+    - The [Results page](#results-page-tab) tab ensures your final recommendations screen matches your brand.
 
     - Every **block and choice** has its own options for fine-tuning.
 
@@ -186,9 +186,9 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
 === "Shopify"
 
-    The **Quiz Design** tab is your main hub for styling the quiz. Here you can change fonts, colors, backgrounds, navigation, and slide transitions.
+    The **Quiz design** tab is your main hub for styling the quiz. Here you can change fonts, colors, backgrounds, navigation, and slide transitions.
 
-    - Access the [Quiz Design](/reference/quiz-builder/quiz-design/) tab by clicking `Customize` on your quiz.
+    - Access the [Quiz design](/reference/quiz-builder/quiz-design/) tab by clicking `Customize` on your quiz.
     - Choose from pre-designed **color schemes** or customize your own.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme](/images/manual_shopifyV2_quizbuilder_quizbuilder_quizdesign_colorscheme.png){width="300"}
@@ -1308,7 +1308,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
 === "Shopify"
 
-    The Results Page tab is where you design what users see after completing the quiz.
+    The Results page tab is where you design what users see after completing the quiz.
 
     You can add text, images, videos, product blocks, buttons, or even custom HTML. Each section and block has its own settings, similar to the Questions tab, allowing you to style and align content exactly how you want it.
 
@@ -1316,11 +1316,11 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     - Each block has design settings for styling and layout adjustments.
 
-    In the [Results Page settings](/reference/quiz-builder/results-page/#results-page-settings), you can apply a dedicated background image, or inject CSS and JavaScript that only affect this page.
+    In the [Results page settings](/reference/quiz-builder/results-page/#results-page-settings), you can apply a dedicated background image, or inject CSS and JavaScript that only affect this page.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png){width="300"}
 
-    The most important part of this tab is the [Product Block](/reference/quiz-builder/results-page/#products-products-variants-collections). 
+    The most important part of this tab is the [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections). 
     
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png){width="300"}
     

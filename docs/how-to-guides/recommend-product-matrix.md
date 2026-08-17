@@ -155,7 +155,7 @@ To recommend the right product, in your ecommerce platform you should create fou
     You can start building your quiz. 
 
     1. **Add new quiz**: Go to the RevenueHunt app and click on `+ Add new quiz`. 
-    2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz Builder](/reference/quiz-builder/).
+    2. **Name the quiz**: Name the quiz and you’ll be directed to the [Quiz builder](/reference/quiz-builder/).
     3. **Add questions**: Based on the above table, two questions will be necessary to determine the right product for the customer. 
 
         - The first question is about the client’s age.
@@ -262,7 +262,7 @@ To recommend the right product, in your ecommerce platform you should create fou
 
     You should upvote the collections created in [Step 2](#step-2-create-collections) to the choices in the quiz. 
 
-    1. **Open Choice Settings**: To do that, navigate to the [Questions](/reference/quiz-builder/questions/) tab in the Quiz Builder and click on a choice to open the [Choice Settings](/reference/quiz-builder/questions/#choice-settings).
+    1. **Open Choice settings**: To do that, navigate to the [Questions](/reference/quiz-builder/questions/) tab in the Quiz builder and click on a choice to open the [Choice settings](/reference/quiz-builder/questions/#choice-settings).
     2. **Upvote Collections**: In Choice settings, find the `Upvote` button and select `Collections` from the dropdown.
     3. For each choice find a collection to be added from your catalog and add it to the choice.
 
@@ -329,11 +329,11 @@ To recommend the right product, in your ecommerce platform you should create fou
 === "Shopify"
 
 
-    For the products to show on the Results Page, you need to add a `Products Block`. 
+    For the products to show on the Results page, you need to add a `Products Block`. 
 
-    1. **Go to the Results Page tab**: You can do that by navigating to the [Results Page](/reference/quiz-builder/results-page/).
-    2. **Add a Product Block**:  Clicking the `+ Add block` to add a block type. Slect a `Product Block` from the dropdown list.
-    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the [`Product Block settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) and select how many products should be recommended in this Product Block from the dropdown.
+    1. **Go to the Results page tab**: You can do that by navigating to the [Results page](/reference/quiz-builder/results-page/).
+    2. **Add a Product block**:  Clicking the `+ Add block` to add a block type. Slect a `Product Block` from the dropdown list.
+    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the [`Product Block settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) and select how many products should be recommended in this Product block from the dropdown.
 
 
 === "Shopify (Legacy)"
@@ -437,9 +437,9 @@ If you’d like to organize the products in a specific order, you can create `Pr
 
     For this complex matrix, creating separate collections for each outcome is possible, but there’s also an **alternative**.
     
-    What you can do instead is to pick one of the factors and create branching in the quiz with [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
+    What you can do instead is to pick one of the factors and create branching in the quiz with [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic). This will allow you to show the customer the same questions but link different products to each branch, therefore resulting in different outcomes.
 
-    Here’s an example of a Conditional Logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
+    Here’s an example of a Conditional logic tree for the Matrix above where Skin Type was chosen as a branchign factor:
 
     ![how to recommend products complex matrix logic tree](/images/how_to_recommend_products_complexmatrix_logictree.png)
 

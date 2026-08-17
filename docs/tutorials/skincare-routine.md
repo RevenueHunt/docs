@@ -395,7 +395,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     !!! tip
 
-        If you don't see new tags, collections, or vendors in the quiz builder, run a quick catalogue import from the [App Settings > Catalogue](/reference/app-settings/#catalogue) page.
+        If you don't see new tags, collections, or vendors in the quiz builder, run a quick catalogue import from the [App settings > Catalogue](/reference/app-settings/#catalogue) page.
 
 
 === "Shopify (Legacy)"
@@ -468,7 +468,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
     1. You can start from scratch or use one of our [pre-designed Skincare templates](/reference/dashboard/#new-quiz).
 
         !!! tip
-            Check out our [previous step-by-step tutorial](/tutorials/making-first-quiz/) to learn how to use the [Quiz Builder](/reference/quiz-builder/).
+            Check out our [previous step-by-step tutorial](/tutorials/making-first-quiz/) to learn how to use the [Quiz builder](/reference/quiz-builder/).
 
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
 
@@ -574,7 +574,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Shopify"
 
 
-    1. In the [Quiz Design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
+    1. In the [Quiz design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
     2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
 
 
@@ -841,13 +841,13 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 === "Shopify"
 
 
-    It’s time to edit the [Results Page](/reference/quiz-builder/results-page/). 
+    It’s time to edit the [Results page](/reference/quiz-builder/results-page/). 
 
     1. Add a heading, a logo or a text block to customize the page. For example, you can add a text block to include more information about the recommended skincare routine.
 
         !!! tip
             Check the [previous tutorial](/tutorials/making-first-quiz/) to see examples of different blocks being used.
-    2. **Add Product Block**: Include a `Product Block` to display the recommended routine. In `Slot settings` set the `Max. recommended items` to four.
+    2. **Add Product block**: Include a `Product Block` to display the recommended routine. In `Slot settings` set the `Max. recommended items` to four.
     3. **Preview the quiz**: Update the preview/with the top-right `Save` button and click `Preview` to test the quiz. Take the quiz a few times to check if the recommended products are displayed in accordance with the product matrix.
 
 
@@ -934,7 +934,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
     Now let’s sort the recommended products into clear steps/categories. As a skincare store, you’d like to recommend a routine composed of a cleanser, a toner, a serum, and a moisturizer.
 
-    1. Use `+ Add slot` to add extra slots to your Product Block on the Results page. You'll need 4 slots in total.    
+    1. Use `+ Add slot` to add extra slots to your Product block on the Results page. You'll need 4 slots in total.    
     2. In [Slot settings](/reference/quiz-builder/questions/#block-settings) you can:
         - Edit the slot name, 
         - Add a description,

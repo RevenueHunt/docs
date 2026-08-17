@@ -125,7 +125,7 @@ description: "Complete guide to recommending accurate clothing sizes in RevenueH
     Once you use finite answer choices, you can:
 
     - [Upvote](/reference/quiz-builder/link-products/) specific products, variants, or collections to each choice
-    - Set up [Jump Logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the customer's selection
+    - Set up [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) or [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) based on the customer's selection
 
     !!! tip "Use Quiz Copilot to generate the choices for you"
 

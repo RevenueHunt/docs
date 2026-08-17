@@ -222,7 +222,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     To send contacts to Klaviyo your quiz needs to have an [`email question`](/reference/quiz-builder/questions/#email). 
 
-    1. You can add it to the quiz from the [Quiz Builder](/reference/quiz-builder/) tab by clicking on the `+ Add Question` button and selecting the email question type or by clciking `+ Add Block` to add a new email block to an existing slide.
+    1. You can add it to the quiz from the [Quiz builder](/reference/quiz-builder/) tab by clicking on the `+ Add Question` button and selecting the email question type or by clciking `+ Add Block` to add a new email block to an existing slide.
     2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz. 
         
         !!! example "Example"
@@ -303,16 +303,16 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     To connect Klaviyo, you'll authenticate your Klaviyo account via OAuth — no API keys needed.
 
-    1. Open [Quiz Settings](/reference/quiz-builder/quiz-settings/).
+    1. Open [Quiz settings](/reference/quiz-builder/quiz-settings/).
     2. Go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab and scroll down to Klaviyo.
     3. Click `Connect`. You'll be redirected to a Klaviyo authentication page.
     4. Log in to Klaviyo (or select your Klaviyo account if you're already logged in) and click `Allow` to grant access.
-    5. Once authenticated, you'll be redirected back to Quiz Settings, where Klaviyo will now show a `Connected` badge.
+    5. Once authenticated, you'll be redirected back to Quiz settings, where Klaviyo will now show a `Connected` badge.
 
         !!! info "Account-level connection"
             Connecting Klaviyo via OAuth links your entire RevenueHunt account. All quizzes in that account will gain the option to send leads to Klaviyo Profiles. However, this does **not** happen automatically for each quiz — you need to enable it individually per quiz (see the next steps below).
 
-    6. For each quiz you want to send data from, open that quiz's [Quiz Settings](/reference/quiz-builder/quiz-settings/), find the Klaviyo section, and check the `Send Quiz Leads to Klaviyo Profiles` checkbox.
+    6. For each quiz you want to send data from, open that quiz's [Quiz settings](/reference/quiz-builder/quiz-settings/), find the Klaviyo section, and check the `Send Quiz Leads to Klaviyo Profiles` checkbox.
     7. Save your changes with the top-right `Save` button.
 
         !!! tip
@@ -666,8 +666,8 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
             The code contains several ready-to-use code snippets that allow you to display: 
 
-            - **Dynamic Results Page**: Display dynamic results page content that loops through sections and blocks. A Dynamic Results Page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
-            - **Static Results Page**: Display the complete results page content using static lookups. Static Results Page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
+            - **Dynamic Results page**: Display dynamic results page content that loops through sections and blocks. A Dynamic Results page content that contains all the elements of your results page and replaces content upon each quiz retake. This is the recommended approach for production templates as it adapts to quiz structure changes.
+            - **Static Results page**: Display the complete results page content using static lookups. Static Results page content that contains all the elements of your results page and adds content upon each quiz retake. Use this approach for understanding the data structure and for simple implementations.
             - **Individual recommendations**: Display individual product recommendations by slot. Use this to show specific recommended items with their details like title, description, price, and images.
             - **Question answers**: Display quiz information and individual question answers. Use this to show personal data and specific responses from quiz questions.
         
@@ -889,7 +889,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
     With the OAuth connection in place, you can add contacts from the quiz directly to a **list** in Klaviyo. No additional API keys are needed — the list selector lives inside the email question block.
 
     1. First, make sure that you have a Klaviyo list ready to add contacts to. If you don't have one, you can create a new one in `Klaviyo > Audience > Lists & Segments`. In the list settings, make sure to set it to `Single Opt-in`.
-    2. In the RevenueHunt app, open the [Quiz Builder](/reference/quiz-builder/) and click on the email question block to open its settings.
+    2. In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and click on the email question block to open its settings.
     3. Under the `Klaviyo list` dropdown, select the list you want quiz takers added to.
     4. Set the `subscription status` (for example, `Subscribed`).
     5. Save your quiz changes with the top-right `Save` button.
@@ -1005,7 +1005,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you only want one specific quiz to stop sending data to Klaviyo (while other quizzes in your account keep working):
 
-    1. Open the [Quiz Settings](/reference/quiz-builder/quiz-settings/) of the quiz you want to disconnect.
+    1. Open the [Quiz settings](/reference/quiz-builder/quiz-settings/) of the quiz you want to disconnect.
     2. Find the Klaviyo section and uncheck the `Send Quiz Leads to Klaviyo Profiles` checkbox.
     3. Save your changes.
 
@@ -1015,7 +1015,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
     If you want to completely revoke the Klaviyo connection across your whole RevenueHunt account:
 
-    1. Open [Quiz Settings](/reference/quiz-builder/quiz-settings/) and go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab.
+    1. Open [Quiz settings](/reference/quiz-builder/quiz-settings/) and go to the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab.
     2. Scroll to Klaviyo and click `Disconnect`.
     3. Confirm the action.
 
