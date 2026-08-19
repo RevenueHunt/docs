@@ -5,7 +5,7 @@ icon: material/filter-outline
 
 # How to Track Your Ad to Purchase Funnel
 
-You are paying for clicks and you want two answers: which ads produce orders, and where shoppers drop off. The path has four steps, and no single tool covers all four.
+You are paying for clicks and you want two answers: which ads produce orders, and where customers drop off. The path has four steps, and no single tool covers all four.
 
 | Part of the funnel | What measures it | Setup |
 |---|---|---|
@@ -23,7 +23,7 @@ Before you start:
 
 ## Step 1: tag your ads with UTM parameters
 
-UTM parameters are labels you add to the end of a link. Your analytics reads them and tells you which ad the shopper came from.
+UTM parameters are labels you add to the end of a link. Your analytics reads them and tells you which ad the customer came from.
 
 | Parameter | What to put in it | Example |
 |---|---|---|
@@ -45,7 +45,7 @@ UTM parameters are labels you add to the end of a link. Your analytics reads the
 
 !!! tip "Do not tag your own internal links"
 
-    UTM parameters are for traffic arriving from outside your site. Adding them to a link between two of your own pages restarts the session attribution. It then looks like the shopper arrived from an ad twice.
+    UTM parameters are for traffic arriving from outside your site. Adding them to a link between two of your own pages restarts the session attribution. It then looks like the customer arrived from an ad twice.
 
 !!! info "Redirects keep the parameters"
 
@@ -68,7 +68,7 @@ This is the outer measurement: what you spend against what you earn. It works as
     2. Change the primary dimension to **Session campaign**.
     3. Add **Total revenue** and **Conversions** as columns.
 
-At this point you know which ads make money. What you do not know is where the weaker ads lose shoppers. That is Step 3.
+At this point you know which ads make money. What you do not know is where the weaker ads lose customers. That is Step 3.
 
 ## Step 3: connect the quiz to Google Analytics
 
@@ -106,7 +106,7 @@ Full setup details, including the legacy and non-Shopify platforms, custom dimen
 4. Step 3: `results_page_viewed_{your_results_page_title}`.
 5. Step 4: `purchase`.
 6. Set **Breakdown** to **Session campaign** so the funnel splits by ad.
-7. Switch on **Show elapsed time** to see where shoppers stall, not only where they leave.
+7. Switch on **Show elapsed time** to see where customers stall, not only where they leave.
 
 The drop between each pair of steps is the number you act on. The `purchase` event comes from your store's own GA4 setup, not from the quiz, so if step 4 is empty check that first.
 
