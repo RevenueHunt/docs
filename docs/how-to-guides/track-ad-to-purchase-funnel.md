@@ -57,56 +57,501 @@ This is the outer measurement: what you spend against what you earn. It works as
 
 === "Shopify"
 
-    1. In your Shopify admin, go to `Analytics → Reports`.
-    2. Open **Sessions by UTM campaign** to see traffic per campaign.
-    3. Open **Sales attributed to marketing** to see orders and revenue per campaign.
-    4. Compare that revenue against your ad spend for the same period.
+    1. In your Shopify admin, go to `Analytics → Reports`. Both reports live under the `Marketing` category.
+        ![how to find the shopify marketing reports for utm campaigns](/images/how_to_track_ad_funnel_shopify_reports.png)
+    2. Open **Performance by UTM campaign** to see sessions, orders and sales for each tagged campaign.
+    3. Open **Performance by marketing channel** to see how paid ads compare with your other channels.
+    4. Compare the campaign sales against your ad spend for the same period.
 
-=== "Other platforms"
+=== "Shopify (Legacy)"
+
+    1. In your Shopify admin, go to `Analytics → Reports`.
+    2. Open **Performance by UTM campaign** to see sessions, orders and sales for each tagged campaign.
+    3. Open **Performance by marketing channel** to see how paid ads compare with your other channels.
+    4. Compare the campaign sales against your ad spend for the same period.
+
+=== "WooCommerce"
 
     1. In GA4, go to `Reports → Acquisition → Traffic acquisition`.
     2. Change the primary dimension to **Session campaign**.
     3. Add **Total revenue** and **Conversions** as columns.
+    4. Compare the campaign revenue against your ad spend for the same period.
+
+=== "Magento"
+
+    1. In GA4, go to `Reports → Acquisition → Traffic acquisition`.
+    2. Change the primary dimension to **Session campaign**.
+    3. Add **Total revenue** and **Conversions** as columns.
+    4. Compare the campaign revenue against your ad spend for the same period.
+
+=== "BigCommerce"
+
+    1. In GA4, go to `Reports → Acquisition → Traffic acquisition`.
+    2. Change the primary dimension to **Session campaign**.
+    3. Add **Total revenue** and **Conversions** as columns.
+    4. Compare the campaign revenue against your ad spend for the same period.
+
+=== "Standalone"
+
+    1. In GA4, go to `Reports → Acquisition → Traffic acquisition`.
+    2. Change the primary dimension to **Session campaign**.
+    3. Add **Total revenue** and **Conversions** as columns.
+    4. Compare the campaign revenue against your ad spend for the same period.
 
 At this point you know which ads make money. What you do not know is where the weaker ads lose customers. That is Step 3.
 
 ## Step 3: connect the quiz to Google Analytics
 
-The quiz sends its own GA4 events, so the middle of the funnel becomes visible.
+This makes the middle of the funnel visible: how many people who land actually start the quiz, and how many reach the results page.
 
-1. Open your quiz and go to the `Integrations` tab.
-2. Click `Activate` in the Google Analytics section.
-3. Click `Save`.
-4. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+=== "Shopify"
 
-The events you get, without writing any code:
+    The quiz sends its own GA4 events, so no code is needed.
 
-| Step in the funnel | Event name |
-|---|---|
-| Quiz started | `quiz_started_{quiz_name}` |
-| Question viewed | `question_viewed_{question_title}` |
-| Choice picked | `block_answered_{choice_text}` |
-| Email submitted | `email_lead_{quiz_name}` and `generate_lead` |
-| Results page reached | `results_page_viewed_{results_page_title}` |
-| Product clicked | `product_clicked_{product_name}` |
-| Product added to cart | `product_added_to_cart_{product_name}` |
-| Checkout started | `proceed_to_checkout_{quiz_name}` |
+    1. Open your quiz and go to the `Integrations` tab.
+    2. Click `Activate` in the Google Analytics section.
+        ![how to integrate ga4 built for shopify revenuehunt app](/images/how_to_integrate_ga4_shopify_v2.png)
+    3. Click `Save`.
+    4. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
 
-!!! warning "The event name includes the quiz name"
+    The events you get, without writing any code:
 
-    Events arrive as `quiz_started_my_quiz`, not as a plain `quiz_started`. Search by the prefix under `Reports → Engagement → Events`. This is deliberate: it lets you read per-quiz numbers straight from the Event name report without registering custom dimensions.
+    | Step in the funnel | Event name |
+    |---|---|
+    | Quiz started | `quiz_started_{quiz_name}` |
+    | Question viewed | `question_viewed_{question_title}` |
+    | Choice picked | `block_answered_{choice_text}` |
+    | Email submitted | `email_lead_{quiz_name}` and `generate_lead` |
+    | Results page reached | `results_page_viewed_{results_page_title}` |
+    | Product clicked | `product_clicked_{product_name}` |
+    | Product added to cart | `product_added_to_cart_{product_name}` |
+    | Checkout started | `proceed_to_checkout_{quiz_name}` |
 
-Full setup details, including the legacy and non-Shopify platforms, custom dimensions, and custom events: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
+    !!! warning "The event name includes the quiz name"
+
+        Events arrive as `quiz_started_my_quiz`, not as a plain `quiz_started`. Search by the prefix under `Reports → Engagement → Events`. This is deliberate: it lets you read per-quiz numbers straight from the Event name report without registering custom dimensions.
+
+    !!! tip "Video walkthrough"
+
+        Check out [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) for a video and step by step instructions on connecting your quiz to GA4.
+
+=== "Shopify (Legacy)"
+
+    The quiz does not send GA4 events on its own here. You add them with the callback functions, and you choose the event names.
+
+    1. Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.
+    2. Add the following script to the page where the quiz is embedded.
+
+        ```html
+        <script>
+        var prqStarted = false;
+
+        // Fires each time a customer answers a question
+        function prqSlideCallback(event) {
+            if (!prqStarted) {
+                prqStarted = true;
+                gtag('event', 'quiz_started', { event_category: 'quiz' });
+            }
+        }
+
+        // Fires once, when the customer reaches the results page
+        function prqQuizCallback(quizResponse) {
+            gtag('event', 'results_page_viewed', {
+                event_category: 'quiz',
+                quiz_name: quizResponse.quiz.attributes.name
+            });
+        }
+        </script>
+        ```
+
+    3. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+
+    The two events this gives you are the two middle steps of the funnel in Step 4. Keep the names exactly as written, or change them in both places.
+
+    | Step in the funnel | Event name | Where it comes from |
+    |---|---|---|
+    | Quiz started | `quiz_started` | `prqSlideCallback`, first answer only |
+    | Results page reached | `results_page_viewed` | `prqQuizCallback` |
+
+    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
+
+=== "WooCommerce"
+
+    The quiz does not send GA4 events on its own here. You add them with the callback functions, and you choose the event names.
+
+    1. Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.
+    2. Add the following script to the page where the quiz is embedded.
+
+        ```html
+        <script>
+        var prqStarted = false;
+
+        // Fires each time a customer answers a question
+        function prqSlideCallback(event) {
+            if (!prqStarted) {
+                prqStarted = true;
+                gtag('event', 'quiz_started', { event_category: 'quiz' });
+            }
+        }
+
+        // Fires once, when the customer reaches the results page
+        function prqQuizCallback(quizResponse) {
+            gtag('event', 'results_page_viewed', {
+                event_category: 'quiz',
+                quiz_name: quizResponse.quiz.attributes.name
+            });
+        }
+        </script>
+        ```
+
+    3. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+
+    The two events this gives you are the two middle steps of the funnel in Step 4. Keep the names exactly as written, or change them in both places.
+
+    | Step in the funnel | Event name | Where it comes from |
+    |---|---|---|
+    | Quiz started | `quiz_started` | `prqSlideCallback`, first answer only |
+    | Results page reached | `results_page_viewed` | `prqQuizCallback` |
+
+    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
+
+=== "Magento"
+
+    The quiz does not send GA4 events on its own here. You add them with the callback functions, and you choose the event names.
+
+    1. Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.
+    2. Add the following script to the page where the quiz is embedded.
+
+        ```html
+        <script>
+        var prqStarted = false;
+
+        // Fires each time a customer answers a question
+        function prqSlideCallback(event) {
+            if (!prqStarted) {
+                prqStarted = true;
+                gtag('event', 'quiz_started', { event_category: 'quiz' });
+            }
+        }
+
+        // Fires once, when the customer reaches the results page
+        function prqQuizCallback(quizResponse) {
+            gtag('event', 'results_page_viewed', {
+                event_category: 'quiz',
+                quiz_name: quizResponse.quiz.attributes.name
+            });
+        }
+        </script>
+        ```
+
+    3. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+
+    The two events this gives you are the two middle steps of the funnel in Step 4. Keep the names exactly as written, or change them in both places.
+
+    | Step in the funnel | Event name | Where it comes from |
+    |---|---|---|
+    | Quiz started | `quiz_started` | `prqSlideCallback`, first answer only |
+    | Results page reached | `results_page_viewed` | `prqQuizCallback` |
+
+    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
+
+=== "BigCommerce"
+
+    The quiz does not send GA4 events on its own here. You add them with the callback functions, and you choose the event names.
+
+    1. Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.
+    2. Add the following script to the page where the quiz is embedded.
+
+        ```html
+        <script>
+        var prqStarted = false;
+
+        // Fires each time a customer answers a question
+        function prqSlideCallback(event) {
+            if (!prqStarted) {
+                prqStarted = true;
+                gtag('event', 'quiz_started', { event_category: 'quiz' });
+            }
+        }
+
+        // Fires once, when the customer reaches the results page
+        function prqQuizCallback(quizResponse) {
+            gtag('event', 'results_page_viewed', {
+                event_category: 'quiz',
+                quiz_name: quizResponse.quiz.attributes.name
+            });
+        }
+        </script>
+        ```
+
+    3. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+
+    The two events this gives you are the two middle steps of the funnel in Step 4. Keep the names exactly as written, or change them in both places.
+
+    | Step in the funnel | Event name | Where it comes from |
+    |---|---|---|
+    | Quiz started | `quiz_started` | `prqSlideCallback`, first answer only |
+    | Results page reached | `results_page_viewed` | `prqQuizCallback` |
+
+    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
+
+=== "Standalone"
+
+    The quiz does not send GA4 events on its own here. You add them with the callback functions, and you choose the event names.
+
+    1. Make sure GA4 (`gtag.js`) is installed on your site and loads **before** RevenueHunt's `embed.js`.
+    2. Add the following script to the page where the quiz is embedded.
+
+        ```html
+        <script>
+        var prqStarted = false;
+
+        // Fires each time a customer answers a question
+        function prqSlideCallback(event) {
+            if (!prqStarted) {
+                prqStarted = true;
+                gtag('event', 'quiz_started', { event_category: 'quiz' });
+            }
+        }
+
+        // Fires once, when the customer reaches the results page
+        function prqQuizCallback(quizResponse) {
+            gtag('event', 'results_page_viewed', {
+                event_category: 'quiz',
+                quiz_name: quizResponse.quiz.attributes.name
+            });
+        }
+        </script>
+        ```
+
+    3. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+
+    The two events this gives you are the two middle steps of the funnel in Step 4. Keep the names exactly as written, or change them in both places.
+
+    | Step in the funnel | Event name | Where it comes from |
+    |---|---|---|
+    | Quiz started | `quiz_started` | `prqSlideCallback`, first answer only |
+    | Results page reached | `results_page_viewed` | `prqQuizCallback` |
+
+    Full callback reference, including per-answer tracking and the rest of the `prq` object: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) and [How to Use the Callback Function](/how-to-guides/use-callback-function/).
 
 ## Step 4: build the funnel in GA4
 
-1. In GA4, go to `Explore` and create a new **Funnel exploration**.
-2. Step 1: `page_view`, with a condition on the landing page path.
-3. Step 2: `quiz_started_{your_quiz_name}`.
-4. Step 3: `results_page_viewed_{your_results_page_title}`.
-5. Step 4: `purchase`.
-6. Set **Breakdown** to **Session campaign** so the funnel splits by ad.
-7. Switch on **Show elapsed time** to see where customers stall, not only where they leave.
+=== "Shopify"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    **Create the exploration**
+
+    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
+    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+
+    **Make the campaign dimension available**
+
+    1. In **Variables**, click the `+` next to **Dimensions**.
+    2. Search for **Session campaign**, tick it, then click **Import**.
+
+    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+
+    **Define the four steps**
+
+    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+
+    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+
+    | Step | Name it | Condition to set |
+    |---|---|---|
+    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+    | 2 | Started the quiz | **Add new condition**, event `quiz_started_{your_quiz_name}` |
+    | 3 | Reached the results | **Add new condition**, event `results_page_viewed_{your_results_page_title}` |
+    | 4 | Purchased | **Add new condition**, event `purchase` |
+
+    Click **Apply** in the top right of the editor once all four are set.
+
+    **Split the funnel by ad**
+
+    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
+    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+
+=== "Shopify (Legacy)"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    **Create the exploration**
+
+    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
+    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+
+    **Make the campaign dimension available**
+
+    1. In **Variables**, click the `+` next to **Dimensions**.
+    2. Search for **Session campaign**, tick it, then click **Import**.
+
+    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+
+    **Define the four steps**
+
+    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+
+    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+
+    | Step | Name it | Condition to set |
+    |---|---|---|
+    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+    | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
+    | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
+    | 4 | Purchased | **Add new condition**, event `purchase` |
+
+    Click **Apply** in the top right of the editor once all four are set.
+
+    **Split the funnel by ad**
+
+    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
+    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+
+=== "WooCommerce"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    **Create the exploration**
+
+    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
+    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+
+    **Make the campaign dimension available**
+
+    1. In **Variables**, click the `+` next to **Dimensions**.
+    2. Search for **Session campaign**, tick it, then click **Import**.
+
+    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+
+    **Define the four steps**
+
+    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+
+    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+
+    | Step | Name it | Condition to set |
+    |---|---|---|
+    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+    | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
+    | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
+    | 4 | Purchased | **Add new condition**, event `purchase` |
+
+    Click **Apply** in the top right of the editor once all four are set.
+
+    **Split the funnel by ad**
+
+    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
+    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+
+=== "Magento"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    **Create the exploration**
+
+    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
+    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+
+    **Make the campaign dimension available**
+
+    1. In **Variables**, click the `+` next to **Dimensions**.
+    2. Search for **Session campaign**, tick it, then click **Import**.
+
+    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+
+    **Define the four steps**
+
+    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+
+    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+
+    | Step | Name it | Condition to set |
+    |---|---|---|
+    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+    | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
+    | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
+    | 4 | Purchased | **Add new condition**, event `purchase` |
+
+    Click **Apply** in the top right of the editor once all four are set.
+
+    **Split the funnel by ad**
+
+    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
+    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+
+=== "BigCommerce"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    **Create the exploration**
+
+    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
+    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+
+    **Make the campaign dimension available**
+
+    1. In **Variables**, click the `+` next to **Dimensions**.
+    2. Search for **Session campaign**, tick it, then click **Import**.
+
+    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+
+    **Define the four steps**
+
+    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+
+    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+
+    | Step | Name it | Condition to set |
+    |---|---|---|
+    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+    | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
+    | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
+    | 4 | Purchased | **Add new condition**, event `purchase` |
+
+    Click **Apply** in the top right of the editor once all four are set.
+
+    **Split the funnel by ad**
+
+    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
+    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+
+=== "Standalone"
+
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    **Create the exploration**
+
+    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
+    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+
+    **Make the campaign dimension available**
+
+    1. In **Variables**, click the `+` next to **Dimensions**.
+    2. Search for **Session campaign**, tick it, then click **Import**.
+
+    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+
+    **Define the four steps**
+
+    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+
+    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+
+    | Step | Name it | Condition to set |
+    |---|---|---|
+    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+    | 2 | Started the quiz | **Add new condition**, event `quiz_started` |
+    | 3 | Reached the results | **Add new condition**, event `results_page_viewed` |
+    | 4 | Purchased | **Add new condition**, event `purchase` |
+
+    Click **Apply** in the top right of the editor once all four are set.
+
+    **Split the funnel by ad**
+
+    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
+    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
 
 The drop between each pair of steps is the number you act on. The `purchase` event comes from your store's own GA4 setup, not from the quiz, so if step 4 is empty check that first.
 
@@ -118,22 +563,136 @@ The drop between each pair of steps is the number you act on. The `purchase` eve
 
 Steps 1 to 4 give you totals per campaign. This step puts the campaign on each individual quiz response, so you can tell which ad produced a specific lead.
 
-1. Open the first question of your quiz and expand its `Custom JS` section.
-2. Paste the following. No `<script>` tags.
+=== "Shopify"
 
-```javascript
-const p = new URLSearchParams(window.location.search);
-actions.setAnswers({
-  'hidden-utm-source': p.get('utm_source') || '',
-  'hidden-utm-campaign': p.get('utm_campaign') || '',
-  'hidden-utm-content': p.get('utm_content') || '',
-  'hidden-full-url': window.location.href
-});
-```
+    1. Open the first question of your quiz and expand its `Custom JS` section.
+    2. Paste the following. No `<script>` tags.
 
-These values travel with the response and arrive in your [webhook](/how-to-guides/send-leads-to-webhooks/) payload under `answersByBlock`. That is where you join campaign to lead in your own reporting.
+        ```javascript
+        const p = new URLSearchParams(window.location.search);
+        actions.setAnswers({
+          'hidden-utm-source': p.get('utm_source') || '',
+          'hidden-utm-campaign': p.get('utm_campaign') || '',
+          'hidden-utm-content': p.get('utm_content') || '',
+          'hidden-full-url': window.location.href
+        });
+        ```
 
-Guides: [Add JavaScript](/how-to-guides/add-javascript/) and [Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+    ![how to add custom js to capture utm parameters in the quiz](/images/how_to_track_ad_funnel_custom_js.png)
+
+    Guides: [How to Add JavaScript](/how-to-guides/add-javascript/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+
+=== "Shopify (Legacy)"
+
+    Pass the campaign in on the URL and store it in a hidden question. The `actions` API is not available here, so you use `window.prq_vars` instead.
+
+    1. Add three `Short Text` questions to your quiz to hold the source, campaign and content. See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script. Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
+
+        ```html
+        <script>
+        var p = new URLSearchParams(window.location.search);
+        window.prq_vars = {};
+        window.prq_vars.qIdSource   = p.get('utm_source') || '';
+        window.prq_vars.qIdCampaign = p.get('utm_campaign') || '';
+        window.prq_vars.qIdContent  = p.get('utm_content') || '';
+        </script>
+        ```
+
+    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or visitors arriving without UTM parameters will be shown the hidden questions.
+
+    Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+
+=== "WooCommerce"
+
+    Pass the campaign in on the URL and store it in a hidden question. The `actions` API is not available here, so you use `window.prq_vars` instead.
+
+    1. Add three `Short Text` questions to your quiz to hold the source, campaign and content. See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script. Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
+
+        ```html
+        <script>
+        var p = new URLSearchParams(window.location.search);
+        window.prq_vars = {};
+        window.prq_vars.qIdSource   = p.get('utm_source') || '';
+        window.prq_vars.qIdCampaign = p.get('utm_campaign') || '';
+        window.prq_vars.qIdContent  = p.get('utm_content') || '';
+        </script>
+        ```
+
+    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or visitors arriving without UTM parameters will be shown the hidden questions.
+
+    Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+
+=== "Magento"
+
+    Pass the campaign in on the URL and store it in a hidden question. The `actions` API is not available here, so you use `window.prq_vars` instead.
+
+    1. Add three `Short Text` questions to your quiz to hold the source, campaign and content. See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script. Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
+
+        ```html
+        <script>
+        var p = new URLSearchParams(window.location.search);
+        window.prq_vars = {};
+        window.prq_vars.qIdSource   = p.get('utm_source') || '';
+        window.prq_vars.qIdCampaign = p.get('utm_campaign') || '';
+        window.prq_vars.qIdContent  = p.get('utm_content') || '';
+        </script>
+        ```
+
+    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or visitors arriving without UTM parameters will be shown the hidden questions.
+
+    Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+
+=== "BigCommerce"
+
+    Pass the campaign in on the URL and store it in a hidden question. The `actions` API is not available here, so you use `window.prq_vars` instead.
+
+    1. Add three `Short Text` questions to your quiz to hold the source, campaign and content. See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script. Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
+
+        ```html
+        <script>
+        var p = new URLSearchParams(window.location.search);
+        window.prq_vars = {};
+        window.prq_vars.qIdSource   = p.get('utm_source') || '';
+        window.prq_vars.qIdCampaign = p.get('utm_campaign') || '';
+        window.prq_vars.qIdContent  = p.get('utm_content') || '';
+        </script>
+        ```
+
+    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or visitors arriving without UTM parameters will be shown the hidden questions.
+
+    Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+
+=== "Standalone"
+
+    Pass the campaign in on the URL and store it in a hidden question. The `actions` API is not available here, so you use `window.prq_vars` instead.
+
+    1. Add three `Short Text` questions to your quiz to hold the source, campaign and content. See [Question Types](/reference/quiz-builder/questions/#question-types).
+    2. Copy each question ID from [question settings](/reference/quiz-builder/questions/#question-settings).
+    3. On the landing page, **before** RevenueHunt's `embed.js` loads, add the following script. Replace `qIdSource`, `qIdCampaign` and `qIdContent` with your own question IDs.
+
+        ```html
+        <script>
+        var p = new URLSearchParams(window.location.search);
+        window.prq_vars = {};
+        window.prq_vars.qIdSource   = p.get('utm_source') || '';
+        window.prq_vars.qIdCampaign = p.get('utm_campaign') || '';
+        window.prq_vars.qIdContent  = p.get('utm_content') || '';
+        </script>
+        ```
+
+    A question is skipped automatically once a parameter has been passed for it. Always assign the empty string as a fallback, as above, or visitors arriving without UTM parameters will be shown the hidden questions.
+
+    Guides: [How to Pass Parameters to Pre-fill Quiz Responses](/how-to-guides/pass-parameters-to-fill-quiz-responses/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+
+Whichever platform you are on, these values travel with the response and arrive in your [webhook](/how-to-guides/send-leads-to-webhooks/) payload under `answersByBlock`. That is where you join campaign to lead in your own reporting.
 
 ## Reading the funnel: what each drop means
 

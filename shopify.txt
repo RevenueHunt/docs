@@ -13360,71 +13360,66 @@ This is the outer measurement: what you spend against what you earn. It works as
 
 --- Shopify Specific Content ---
 
-1. In your Shopify admin, go to `Analytics → Reports`.
-    2. Open **Sessions by UTM campaign** to see traffic per campaign.
-    3. Open **Sales attributed to marketing** to see orders and revenue per campaign.
-    4. Compare that revenue against your ad spend for the same period.
-    1. In GA4, go to `Reports → Acquisition → Traffic acquisition`.
-    2. Change the primary dimension to **Session campaign**.
-    3. Add **Total revenue** and **Conversions** as columns.
-At this point you know which ads make money. What you do not know is where the weaker ads lose customers. That is Step 3.
-## Step 3: connect the quiz to Google Analytics
-The quiz sends its own GA4 events, so the middle of the funnel becomes visible.
-1. Open your quiz and go to the `Integrations` tab.
-2. Click `Activate` in the Google Analytics section.
-3. Click `Save`.
-4. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
-The events you get, without writing any code:
-| Step in the funnel | Event name |
-|---|---|
-| Quiz started | `quiz_started_{quiz_name}` |
-| Question viewed | `question_viewed_{question_title}` |
-| Choice picked | `block_answered_{choice_text}` |
-| Email submitted | `email_lead_{quiz_name}` and `generate_lead` |
-| Results page reached | `results_page_viewed_{results_page_title}` |
-| Product clicked | `product_clicked_{product_name}` |
-| Product added to cart | `product_added_to_cart_{product_name}` |
-| Checkout started | `proceed_to_checkout_{quiz_name}` |
-!!! warning "The event name includes the quiz name"
-    Events arrive as `quiz_started_my_quiz`, not as a plain `quiz_started`. Search by the prefix under `Reports → Engagement → Events`. This is deliberate: it lets you read per-quiz numbers straight from the Event name report without registering custom dimensions.
-Full setup details, including the legacy and non-Shopify platforms, custom dimensions, and custom events: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
-## Step 4: build the funnel in GA4
-1. In GA4, go to `Explore` and create a new **Funnel exploration**.
-2. Step 1: `page_view`, with a condition on the landing page path.
-3. Step 2: `quiz_started_{your_quiz_name}`.
-4. Step 3: `results_page_viewed_{your_results_page_title}`.
-5. Step 4: `purchase`.
-6. Set **Breakdown** to **Session campaign** so the funnel splits by ad.
-7. Switch on **Show elapsed time** to see where customers stall, not only where they leave.
-The drop between each pair of steps is the number you act on. The `purchase` event comes from your store's own GA4 setup, not from the quiz, so if step 4 is empty check that first.
-!!! warning "GA4 event tracking reliability"
-    Since Google moved from Universal Analytics to GA4, event tracking reliability has dropped. The implementation can be correct and the events can fire as expected, and GA4 can still fail to read, process, or report them accurately. If that happens, contact Google Support: the issue is on their end.
-## Step 5: attach the campaign to each individual response (optional)
-Steps 1 to 4 give you totals per campaign. This step puts the campaign on each individual quiz response, so you can tell which ad produced a specific lead.
-1. Open the first question of your quiz and expand its `Custom JS` section.
-2. Paste the following. No `<script>` tags.
-```javascript
-const p = new URLSearchParams(window.location.search);
-actions.setAnswers({
-  'hidden-utm-source': p.get('utm_source') || '',
-  'hidden-utm-campaign': p.get('utm_campaign') || '',
-  'hidden-utm-content': p.get('utm_content') || '',
-  'hidden-full-url': window.location.href
-});
-```
-These values travel with the response and arrive in your [webhook](/how-to-guides/send-leads-to-webhooks/) payload under `answersByBlock`. That is where you join campaign to lead in your own reporting.
-Guides: [Add JavaScript](/how-to-guides/add-javascript/) and [Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
-## Reading the funnel: what each drop means
-| Where the drop is | Likely cause | Where to look |
-|---|---|---|
-| Clicks, but few `page_view` | Slow page, or a redirect stripping the parameters | [Check quiz loading speed](/how-to-guides/check-quiz-loading-speed/) |
-| Page views, but few `quiz_started` | The quiz is too far down the page, or the call to action is weak | [Get more quiz engagement](/customer-success/how-to-get-more-quiz-engagement/) |
-| Quiz starts, but few `results_page_viewed` | Too many questions, or one question is causing the drop | The `Drop-off` panel in [Metrics](/reference/quiz-builder/metrics/), and [Reduce drop-off](/customer-success/reduce-dropoff/) |
-| Results reached, but few orders | The recommendations or the offer, not the funnel | [Why your quiz is not converting](/customer-success/quiz-not-converting/) |
-## Related
-- [Track Quiz Revenue](/how-to-guides/track-quiz-revenue/): the quiz to order half, native and already running.
-- [Integrate Meta Pixel](/how-to-guides/integrate-meta-pixel/): the same events sent to Meta, for optimising the ads themselves.
-- [Use Quiz Data to Lower Your Ad Costs](/customer-success/use-quiz-data-for-ads/): what to do with the data once you can read it.
+1. In your Shopify admin, go to `Analytics → Reports`. Both reports live under the `Marketing` category.
+        ![how to find the shopify marketing reports for utm campaigns](/images/how_to_track_ad_funnel_shopify_reports.png)
+    2. Open **Performance by UTM campaign** to see sessions, orders and sales for each tagged campaign.
+    3. Open **Performance by marketing channel** to see how paid ads compare with your other channels.
+    4. Compare the campaign sales against your ad spend for the same period.
+    The quiz sends its own GA4 events, so no code is needed.
+    1. Open your quiz and go to the `Integrations` tab.
+    2. Click `Activate` in the Google Analytics section.
+        ![how to integrate ga4 built for shopify revenuehunt app](/images/how_to_integrate_ga4_shopify_v2.png)
+    3. Click `Save`.
+    4. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+    The events you get, without writing any code:
+    | Step in the funnel | Event name |
+    |---|---|
+    | Quiz started | `quiz_started_{quiz_name}` |
+    | Question viewed | `question_viewed_{question_title}` |
+    | Choice picked | `block_answered_{choice_text}` |
+    | Email submitted | `email_lead_{quiz_name}` and `generate_lead` |
+    | Results page reached | `results_page_viewed_{results_page_title}` |
+    | Product clicked | `product_clicked_{product_name}` |
+    | Product added to cart | `product_added_to_cart_{product_name}` |
+    | Checkout started | `proceed_to_checkout_{quiz_name}` |
+    !!! warning "The event name includes the quiz name"
+        Events arrive as `quiz_started_my_quiz`, not as a plain `quiz_started`. Search by the prefix under `Reports → Engagement → Events`. This is deliberate: it lets you read per-quiz numbers straight from the Event name report without registering custom dimensions.
+    !!! tip "Video walkthrough"
+        Check out [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/) for a video and step by step instructions on connecting your quiz to GA4.
+    <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/cebe719254df4ab093b2c4fc1847cab9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    **Create the exploration**
+    1. In GA4, click `Explore` in the left sidebar, then pick the **Funnel exploration** template. It opens with four placeholder steps already in it, which you are going to replace.
+    2. The screen has three panels: **Variables** on the left, **Tab Settings** in the middle, and the funnel chart on the right. Set your date range at the top of **Variables**.
+    **Make the campaign dimension available**
+    1. In **Variables**, click the `+` next to **Dimensions**.
+    2. Search for **Session campaign**, tick it, then click **Import**.
+    Do this before you touch the Breakdown field. A dimension you have not imported does not show up there, and that is the usual reason people cannot find it.
+    **Define the four steps**
+    In **Tab Settings**, hover over **Steps** and click the pencil icon. The step editor opens.
+    Each step has two separate parts. The **name** is only a label for you to read, so it can be anything. The **condition** underneath is what GA4 actually matches on. Replace the four placeholder steps with these:
+    | Step | Name it | Condition to set |
+    |---|---|---|
+    | 1 | Landed on the quiz page | Click **Add new condition** and choose the event `page_view`. Then add a second condition to the same step: the **Page path** dimension, operator `contains`, value `/pages/your-quiz-page`. Both must be true, so leave them joined by **AND** |
+    | 2 | Started the quiz | **Add new condition**, event `quiz_started_{your_quiz_name}` |
+    | 3 | Reached the results | **Add new condition**, event `results_page_viewed_{your_results_page_title}` |
+    | 4 | Purchased | **Add new condition**, event `purchase` |
+    Click **Apply** in the top right of the editor once all four are set.
+    **Split the funnel by ad**
+    1. Drag **Session campaign** from **Variables** onto the **Breakdown** field in **Tab Settings**. The funnel now shows a row per campaign instead of one combined total.
+    2. Switch on **Show elapsed time**, also in **Tab Settings**. It adds the average time between steps, so you can see where customers stall and not only where they leave.
+    1. Open the first question of your quiz and expand its `Custom JS` section.
+    2. Paste the following. No `<script>` tags.
+        ```javascript
+        const p = new URLSearchParams(window.location.search);
+        actions.setAnswers({
+          'hidden-utm-source': p.get('utm_source') || '',
+          'hidden-utm-campaign': p.get('utm_campaign') || '',
+          'hidden-utm-content': p.get('utm_content') || '',
+          'hidden-full-url': window.location.href
+        });
+        ```
+    ![how to add custom js to capture utm parameters in the quiz](/images/how_to_track_ad_funnel_custom_js.png)
+    Guides: [How to Add JavaScript](/how-to-guides/add-javascript/) and [How to Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
 
 
