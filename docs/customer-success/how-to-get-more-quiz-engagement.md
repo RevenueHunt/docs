@@ -87,18 +87,18 @@ The name appears in your CTA buttons, navigation links, and popups - so it's oft
 
 ![Professional quiz names in practice](/images/how_to_build_a_successful_quiz_image3.jpg)
 
-**Write a welcome slide that hooks them in the first 5 seconds.** The welcome slide is your pitch. A weak welcome slide - or no welcome slide at all - loses customers before they've answered a single question.
+**Write a welcome screen that hooks them in the first 5 seconds.** The welcome screen is your pitch. A weak welcome screen - or no welcome screen at all - loses customers before they've answered a single question.
 
-A strong welcome slide does three things:
+A strong welcome screen does three things:
 
 - States what the customer will get (*"Your personalized skincare routine in 2 minutes"*)
 - Sets expectations on length (*"Just 8 questions"*)
 - Mentions any reward (*"Complete the quiz and get 10% off"*)
 
-??? tip "How to add a welcome slide"
-    In the Quiz Builder, click `+ Add block` and choose `Cover` to add a welcome/intro slide at the start of your quiz.
+??? tip "How to add a welcome screen"
+    In the Quiz Builder, click `+ Add question` and choose `Welcome Message` under **Messages**. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/) for the full walkthrough.
 
-**Offer a discount for completing.** Nothing motivates someone to finish what they started like a reward at the end. Offer a discount code to everyone who completes the quiz and mention it upfront on the welcome slide.
+**Offer a discount for completing.** Nothing motivates someone to finish what they started like a reward at the end. Offer a discount code to everyone who completes the quiz and mention it upfront on the welcome screen.
 
 !!! tip "Mention the discount before they start"
     *"Answer 8 questions and get 10% off your personalized recommendation"* converts better than *"Here's 10% off!"* on the results page. The promise of a reward reduces abandonment throughout the quiz, not just at the end.
@@ -179,7 +179,7 @@ This works especially well for quizzes that deliver a genuinely interesting resu
 - **Do** use an automatic popup for new visitors. It is the single most effective placement for quiz starts.
 - **Do** send your paid ad traffic to a dedicated quiz page instead of a product page or homepage. Quiz finishers convert at roughly 2.75x non-takers, so it is the highest-leverage move here.
 - **Don't** publish the quiz in one buried place and blame the quiz when nobody takes it. Visibility is usually the real problem.
-- **Don't** scale ad spend before the quiz hook (name, welcome slide, length) is working, or you will pay to send traffic to a quiz that leaks it.
+- **Don't** scale ad spend before the quiz hook (name, welcome screen, length) is working, or you will pay to send traffic to a quiz that leaks it.
 
 ## Frequently asked questions
 

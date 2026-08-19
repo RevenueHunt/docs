@@ -22,7 +22,7 @@ Almost all drop-off happens in one of three spots: at the **start**, before the 
 <div style="margin:24px auto; max-width:380px;">
 <svg viewBox="0 0 380 420" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; display:block;" role="img" aria-labelledby="dot dod" preserveAspectRatio="xMidYMid meet">
   <title id="dot">Where quizzes leak</title>
-  <desc id="dod">A funnel narrowing from quiz start to completion, with the three common leak points: a weak welcome slide loses starts, confusing or overlong questions cause mid-quiz exits, and the email step is the biggest single leak.</desc>
+  <desc id="dod">A funnel narrowing from quiz start to completion, with the three common leak points: a weak welcome screen loses starts, confusing or overlong questions cause mid-quiz exits, and the email step is the biggest single leak.</desc>
   <defs>
     <marker id="dl-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker>
   </defs>
@@ -83,13 +83,15 @@ Once you know which question is the problem, use the strategies below to fix it.
 
 ## Fix the drop-off
 
-**Make the value obvious before question one.** The most impactful moment in the quiz isn't a question - it's the welcome slide. Customers decide whether the quiz is worth their time within the first 5 seconds. If your welcome slide doesn't clearly communicate what they'll get and how long it takes, they leave before starting.
+**Make the value obvious before question one.** The most impactful moment in the quiz isn't a question - it's the welcome screen. Customers decide whether the quiz is worth their time within the first 5 seconds. If your welcome screen doesn't clearly communicate what they'll get and how long it takes, they leave before starting.
 
-A strong welcome slide does three things:
+A strong welcome screen does three things:
 
 - **States the outcome**: *"Get your personalized skincare routine"* not *"Take the quiz"*
 - **Sets time expectations**: *"8 questions, 2 minutes"*
 - **Mentions the reward**: *"Complete the quiz and get 10% off"*
+
+If your quiz doesn't have one yet, see [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
 
 ![Professional quiz names and welcome framing](/images/how_to_build_a_successful_quiz_image3.jpg)
 
@@ -199,7 +201,7 @@ Focus on one change per test. If you change three things at once, you won't know
 
 **Common things worth testing:**
 
-- Welcome slide copy (with vs. without time estimate; with vs. without discount mention)
+- Welcome screen copy (with vs. without time estimate; with vs. without discount mention)
 - Quiz length (8 questions vs. 6 questions)
 - One rewritten question vs. the original
 - Email required vs. email with skip option
@@ -226,13 +228,13 @@ Connect your quiz to [Google Analytics 4](/how-to-guides/integrate-google-analyt
     1. **Shorten the quiz** - cut any question that doesn't change the recommendation
     2. **Rewrite the one question with the highest per-question exit rate**
     3. **Map all unmapped answer choices to products**
-    4. **Improve the welcome slide** - clear outcome, time estimate, reward
+    4. **Improve the welcome screen** - clear outcome, time estimate, reward
     5. **Add a discount incentive** paired with the email step
 
 ## Do / Don't
 
 - **Do** find the exact drop-off point in the metrics before changing anything, then fix that specific question.
-- **Do** make the value obvious on the welcome slide (outcome, time estimate, reward) and keep the quiz to 6-12 questions.
+- **Do** make the value obvious on the welcome screen (outcome, time estimate, reward) and keep the quiz to 6-12 questions.
 - **Do** require the email, but pair it with a clear incentive and trust signals.
 - **Do** test the quiz on your own phone and fix mobile friction. Most takers are on a phone, and that's where the easy completions are lost.
 - **Don't** add branching logic to "fix" a long quiz. Cut questions from a linear quiz until every one changes the recommendation.
@@ -250,7 +252,7 @@ Usually the email step, or an overly long or confusing question. The per-questio
 
 ### How do I cut drop-off fastest?
 
-Shorten the quiz, rewrite the question with the highest exit rate, and make the welcome slide's value obvious before question one.
+Shorten the quiz, rewrite the question with the highest exit rate, and make the welcome screen's value obvious before question one.
 
 ### Why do people drop off on mobile?
 

@@ -412,7 +412,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     *Messages*
 
-    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+    **Welcome Message** - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
@@ -433,7 +433,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+    **Welcome Message** - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
@@ -471,7 +471,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+    **Welcome Message** - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
@@ -509,7 +509,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+    **Welcome Message** - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
@@ -547,7 +547,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+    **Welcome Message** - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 
@@ -585,7 +585,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
 
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
 
-    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+    **Welcome Message** - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
 
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
 

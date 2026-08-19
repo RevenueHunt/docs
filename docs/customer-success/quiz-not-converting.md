@@ -89,7 +89,7 @@ High starts with low completion almost always means the questions are the proble
 
 **Limit each question to three to six choices.** More than six options is decision fatigue; fewer than three can't personalize the result. Keep every question inside that range, and split or combine options when you drift outside it.
 
-**Promise a reward on the welcome slide.** Shoppers finish what they start when there's a payoff waiting. State it on the welcome slide, like "finish for your personalized routine and 10% off," and show a progress bar so the end always feels close.
+**Promise a reward on the welcome screen.** Shoppers finish what they start when there's a payoff waiting. State it on the welcome screen, like "finish for your personalized routine and 10% off," and show a progress bar so the end always feels close.
 
 !!! tip "Let Quiz Copilot draft the wording"
     Deciding which questions to keep and how to phrase them is the hardest part of quiz building, and it's exactly what Quiz Copilot is for. It can draft questions, rewrite clumsy answer choices, and generate results-page copy in seconds, which beats staring at a blank question and guessing.
@@ -114,7 +114,7 @@ This is the most common problem, and the most fixable. The quiz did its job; the
 !!! tip "Zero-party data is worth more in 2026, not less"
     As third-party cookies disappear, the data a quiz collects becomes your most durable targeting asset. Every answer is declared, consented data you own, and it powers segmented email and on-platform retargeting that keeps converting long after the session. Tag the answers with [Customer Tags](/customer-success/use-customer-tags-in-quiz/) and put them to work in [your ads](/customer-success/use-quiz-data-for-ads/).
 
-**Add a discount to close the sale.** Quiz finishers are warm, but a small reward removes the last hesitation. Add an automatic discount code on the results page, and mention it on the welcome slide so shoppers who abandon still have a reason to come back and finish.
+**Add a discount to close the sale.** Quiz finishers are warm, but a small reward removes the last hesitation. Add an automatic discount code on the results page, and mention it on the welcome screen so shoppers who abandon still have a reason to come back and finish.
 
 ??? info "How to add a discount"
     See: [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/).

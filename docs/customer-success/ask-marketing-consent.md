@@ -27,7 +27,7 @@ The consent ask should feel like a natural step in the quiz, not a popup bolted 
 | **Before the quiz starts** | Lower completion, but higher-intent leads | Luxury and high-consideration products |
 | **At the end, before results** | Higher completion and conversions, since the shopper is already invested | Lower-priced items and routines |
 
-![Asking for consent on the welcome slide, before the quiz begins](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-start-quiz-1024x732.webp){ width="450" }
+![Asking for consent on the welcome screen, before the quiz begins](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-start-quiz-1024x732.webp){ width="450" }
 
 ![Asking for consent at the end, just before the results page](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-end-quiz-e1718952561212-1024x702.webp){ width="450" }
 

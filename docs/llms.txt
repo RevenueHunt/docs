@@ -38,6 +38,7 @@ Example: `curl -H "Accept: text/markdown" https://docs.revenuehunt.com/how-to-gu
 
 ### Quiz Design
 - [Customize Quiz Design](https://docs.revenuehunt.com/how-to-guides/customize-quiz-design)
+- [Add a Welcome Screen](https://docs.revenuehunt.com/how-to-guides/add-welcome-screen): The quiz intro slide, also called the welcome page
 - [Edit Results Page](https://docs.revenuehunt.com/how-to-guides/edit-results-page)
 - [Change Quiz Language](https://docs.revenuehunt.com/how-to-guides/change-quiz-language)
 - [Use Information Recalls](https://docs.revenuehunt.com/how-to-guides/use-information-recalls)

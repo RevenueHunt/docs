@@ -32,7 +32,7 @@ Before building anything, get clear on what the quiz is for and what it should r
 
 Questions are the heart of your quiz. Keep them short, clear, and answerable in under 5 seconds.
 
-☐ Add a **Welcome slide** that sets expectations - tell customers what they'll get and how long it takes (e.g., *"Answer 8 questions and get your personalized skincare routine"*)
+☐ Add a [**welcome screen**](/how-to-guides/add-welcome-screen/) (the `Welcome Message` slide) that sets expectations - tell customers what they'll get and how long it takes (e.g., *"Answer 8 questions and get your personalized skincare routine"*)
 
 ☐ Aim for **7-8 questions** as your starting point (the sweet spot is 6-12; start here and adjust based on data)
 
@@ -123,7 +123,7 @@ The quiz is the top of your funnel. Capturing the email and following up is wher
 
 A discount gives customers a reason to act immediately after the quiz. It's simple, effective, and easy to set up.
 
-☐ Mention the reward on your Welcome slide (e.g., *"Complete the quiz and get 10% off your personalized routine"*)
+☐ Mention the reward on your welcome screen (e.g., *"Complete the quiz and get 10% off your personalized routine"*)
 
 ☐ Add an [**automatic discount code**](/how-to-guides/add-discount/) that applies at checkout for quiz finishers (available on Shopify)
 
