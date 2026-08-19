@@ -295,7 +295,7 @@ The consent ask should feel like a natural step in the quiz, not a popup bolted 
 | **Before the quiz starts** | Lower completion, but higher-intent leads | Luxury and high-consideration products |
 | **At the end, before results** | Higher completion and conversions, since the shopper is already invested | Lower-priced items and routines |
 
-![Asking for consent on the welcome slide, before the quiz begins](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-start-quiz-1024x732.webp){ width="450" }
+![Asking for consent on the welcome screen, before the quiz begins](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-start-quiz-1024x732.webp){ width="450" }
 
 ![Asking for consent at the end, just before the results page](https://revenuehunt.com/img/blog/product-quiz-marketing-consent/consent-end-quiz-e1718952561212-1024x702.webp){ width="450" }
 
@@ -1419,18 +1419,18 @@ The name appears in your CTA buttons, navigation links, and popups - so it's oft
 
 ![Professional quiz names in practice](/images/how_to_build_a_successful_quiz_image3.jpg)
 
-**Write a welcome slide that hooks them in the first 5 seconds.** The welcome slide is your pitch. A weak welcome slide - or no welcome slide at all - loses customers before they've answered a single question.
+**Write a welcome screen that hooks them in the first 5 seconds.** The welcome screen is your pitch. A weak welcome screen - or no welcome screen at all - loses customers before they've answered a single question.
 
-A strong welcome slide does three things:
+A strong welcome screen does three things:
 
 - States what the customer will get (*"Your personalized skincare routine in 2 minutes"*)
 - Sets expectations on length (*"Just 8 questions"*)
 - Mentions any reward (*"Complete the quiz and get 10% off"*)
 
-??? tip "How to add a welcome slide"
-    In the Quiz Builder, click `+ Add block` and choose `Cover` to add a welcome/intro slide at the start of your quiz.
+??? tip "How to add a welcome screen"
+    In the Quiz Builder, click `+ Add question` and choose `Welcome Message` under **Messages**. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/) for the full walkthrough.
 
-**Offer a discount for completing.** Nothing motivates someone to finish what they started like a reward at the end. Offer a discount code to everyone who completes the quiz and mention it upfront on the welcome slide.
+**Offer a discount for completing.** Nothing motivates someone to finish what they started like a reward at the end. Offer a discount code to everyone who completes the quiz and mention it upfront on the welcome screen.
 
 !!! tip "Mention the discount before they start"
     *"Answer 8 questions and get 10% off your personalized recommendation"* converts better than *"Here's 10% off!"* on the results page. The promise of a reward reduces abandonment throughout the quiz, not just at the end.
@@ -1511,7 +1511,7 @@ This works especially well for quizzes that deliver a genuinely interesting resu
 - **Do** use an automatic popup for new visitors. It is the single most effective placement for quiz starts.
 - **Do** send your paid ad traffic to a dedicated quiz page instead of a product page or homepage. Quiz finishers convert at roughly 2.75x non-takers, so it is the highest-leverage move here.
 - **Don't** publish the quiz in one buried place and blame the quiz when nobody takes it. Visibility is usually the real problem.
-- **Don't** scale ad spend before the quiz hook (name, welcome slide, length) is working, or you will pay to send traffic to a quiz that leaks it.
+- **Don't** scale ad spend before the quiz hook (name, welcome screen, length) is working, or you will pay to send traffic to a quiz that leaks it.
 
 ## Frequently asked questions
 
@@ -4086,7 +4086,7 @@ High starts with low completion almost always means the questions are the proble
 
 **Limit each question to three to six choices.** More than six options is decision fatigue; fewer than three can't personalize the result. Keep every question inside that range, and split or combine options when you drift outside it.
 
-**Promise a reward on the welcome slide.** Shoppers finish what they start when there's a payoff waiting. State it on the welcome slide, like "finish for your personalized routine and 10% off," and show a progress bar so the end always feels close.
+**Promise a reward on the welcome screen.** Shoppers finish what they start when there's a payoff waiting. State it on the welcome screen, like "finish for your personalized routine and 10% off," and show a progress bar so the end always feels close.
 
 !!! tip "Let Quiz Copilot draft the wording"
     Deciding which questions to keep and how to phrase them is the hardest part of quiz building, and it's exactly what Quiz Copilot is for. It can draft questions, rewrite clumsy answer choices, and generate results-page copy in seconds, which beats staring at a blank question and guessing.
@@ -4111,7 +4111,7 @@ This is the most common problem, and the most fixable. The quiz did its job; the
 !!! tip "Zero-party data is worth more in 2026, not less"
     As third-party cookies disappear, the data a quiz collects becomes your most durable targeting asset. Every answer is declared, consented data you own, and it powers segmented email and on-platform retargeting that keeps converting long after the session. Tag the answers with [Customer Tags](/customer-success/use-customer-tags-in-quiz/) and put them to work in [your ads](/customer-success/use-quiz-data-for-ads/).
 
-**Add a discount to close the sale.** Quiz finishers are warm, but a small reward removes the last hesitation. Add an automatic discount code on the results page, and mention it on the welcome slide so shoppers who abandon still have a reason to come back and finish.
+**Add a discount to close the sale.** Quiz finishers are warm, but a small reward removes the last hesitation. Add an automatic discount code on the results page, and mention it on the welcome screen so shoppers who abandon still have a reason to come back and finish.
 
 ??? info "How to add a discount"
     See: [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/).
@@ -4221,7 +4221,7 @@ Before building anything, get clear on what the quiz is for and what it should r
 
 Questions are the heart of your quiz. Keep them short, clear, and answerable in under 5 seconds.
 
-☐ Add a **Welcome slide** that sets expectations - tell customers what they'll get and how long it takes (e.g., *"Answer 8 questions and get your personalized skincare routine"*)
+☐ Add a [**welcome screen**](/how-to-guides/add-welcome-screen/) (the `Welcome Message` slide) that sets expectations - tell customers what they'll get and how long it takes (e.g., *"Answer 8 questions and get your personalized skincare routine"*)
 
 ☐ Aim for **7-8 questions** as your starting point (the sweet spot is 6-12; start here and adjust based on data)
 
@@ -4312,7 +4312,7 @@ The quiz is the top of your funnel. Capturing the email and following up is wher
 
 A discount gives customers a reason to act immediately after the quiz. It's simple, effective, and easy to set up.
 
-☐ Mention the reward on your Welcome slide (e.g., *"Complete the quiz and get 10% off your personalized routine"*)
+☐ Mention the reward on your welcome screen (e.g., *"Complete the quiz and get 10% off your personalized routine"*)
 
 ☐ Add an [**automatic discount code**](/how-to-guides/add-discount/) that applies at checkout for quiz finishers (available on Shopify)
 
@@ -4608,7 +4608,7 @@ Almost all drop-off happens in one of three spots: at the **start**, before the 
 <div style="margin:24px auto; max-width:380px;">
 <svg viewBox="0 0 380 420" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; display:block;" role="img" aria-labelledby="dot dod" preserveAspectRatio="xMidYMid meet">
   <title id="dot">Where quizzes leak</title>
-  <desc id="dod">A funnel narrowing from quiz start to completion, with the three common leak points: a weak welcome slide loses starts, confusing or overlong questions cause mid-quiz exits, and the email step is the biggest single leak.</desc>
+  <desc id="dod">A funnel narrowing from quiz start to completion, with the three common leak points: a weak welcome screen loses starts, confusing or overlong questions cause mid-quiz exits, and the email step is the biggest single leak.</desc>
   <defs>
     <marker id="dl-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker>
   </defs>
@@ -4669,13 +4669,15 @@ Once you know which question is the problem, use the strategies below to fix it.
 
 ## Fix the drop-off
 
-**Make the value obvious before question one.** The most impactful moment in the quiz isn't a question - it's the welcome slide. Customers decide whether the quiz is worth their time within the first 5 seconds. If your welcome slide doesn't clearly communicate what they'll get and how long it takes, they leave before starting.
+**Make the value obvious before question one.** The most impactful moment in the quiz isn't a question - it's the welcome screen. Customers decide whether the quiz is worth their time within the first 5 seconds. If your welcome screen doesn't clearly communicate what they'll get and how long it takes, they leave before starting.
 
-A strong welcome slide does three things:
+A strong welcome screen does three things:
 
 - **States the outcome**: *"Get your personalized skincare routine"* not *"Take the quiz"*
 - **Sets time expectations**: *"8 questions, 2 minutes"*
 - **Mentions the reward**: *"Complete the quiz and get 10% off"*
+
+If your quiz doesn't have one yet, see [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
 
 ![Professional quiz names and welcome framing](/images/how_to_build_a_successful_quiz_image3.jpg)
 
@@ -4785,7 +4787,7 @@ Focus on one change per test. If you change three things at once, you won't know
 
 **Common things worth testing:**
 
-- Welcome slide copy (with vs. without time estimate; with vs. without discount mention)
+- Welcome screen copy (with vs. without time estimate; with vs. without discount mention)
 - Quiz length (8 questions vs. 6 questions)
 - One rewritten question vs. the original
 - Email required vs. email with skip option
@@ -4812,13 +4814,13 @@ Connect your quiz to [Google Analytics 4](/how-to-guides/integrate-google-analyt
     1. **Shorten the quiz** - cut any question that doesn't change the recommendation
     2. **Rewrite the one question with the highest per-question exit rate**
     3. **Map all unmapped answer choices to products**
-    4. **Improve the welcome slide** - clear outcome, time estimate, reward
+    4. **Improve the welcome screen** - clear outcome, time estimate, reward
     5. **Add a discount incentive** paired with the email step
 
 ## Do / Don't
 
 - **Do** find the exact drop-off point in the metrics before changing anything, then fix that specific question.
-- **Do** make the value obvious on the welcome slide (outcome, time estimate, reward) and keep the quiz to 6-12 questions.
+- **Do** make the value obvious on the welcome screen (outcome, time estimate, reward) and keep the quiz to 6-12 questions.
 - **Do** require the email, but pair it with a clear incentive and trust signals.
 - **Do** test the quiz on your own phone and fix mobile friction. Most takers are on a phone, and that's where the easy completions are lost.
 - **Don't** add branching logic to "fix" a long quiz. Cut questions from a linear quiz until every one changes the recommendation.
@@ -4836,7 +4838,7 @@ Usually the email step, or an overly long or confusing question. The per-questio
 
 ### How do I cut drop-off fastest?
 
-Shorten the quiz, rewrite the question with the highest exit rate, and make the welcome slide's value obvious before question one.
+Shorten the quiz, rewrite the question with the highest exit rate, and make the welcome screen's value obvious before question one.
 
 ### Why do people drop off on mobile?
 
@@ -6755,6 +6757,53 @@ For other subscription apps, there's a [workaround](/how-to-guides/recommend-sub
 
 ---
 This article helps with troubleshooting add-to-cart issues in RevenueHunt app.
+
+
+
+
+================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/add-welcome-screen/
+================================================================================
+
+---
+description: "How to add and edit the welcome screen (welcome page) of your RevenueHunt quiz - the intro slide with your headline, image and Start button."
+icon: material/page-layout-header
+---
+
+# How to Add a Welcome Screen to Your Quiz
+
+The welcome screen is the first slide of your quiz: a short headline, a line of supporting text and a button that starts the quiz. Merchants also call it the welcome page, the welcome slide or the start screen. In the Quiz Builder it is a question type called `Welcome Message`.
+
+A welcome screen is optional. If your quiz doesn't have one, it opens directly on your first question.
+
+!!! tip "Why it's worth adding"
+
+    The welcome screen is where customers decide whether the quiz is worth their time. Tell them what they get and how long it takes. See [How to Reduce Quiz Drop-off](/customer-success/reduce-dropoff/) for what to put on it.
+
+## Add a welcome screen
+
+--- Shopify Specific Content ---
+
+1. Open your quiz in the **Quiz Builder**.
+    2. Click `+ Add question`.
+    3. Under **Messages**, choose `Welcome Message`.
+        ![manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome.png){width="500"}
+    4. Click `Save` in the top-right corner to update the preview and the live quiz.
+    The welcome screen is built from [blocks](/reference/quiz-builder/questions/#block-settings), the same way every other slide is.
+    - Click the `Heading` block to write your main line, and set its `Size` and `Alignment`.
+    - Click the `Text` block for the supporting sentence. To add one, click `+ Add block` and choose `Text`.
+    - Both blocks support [information recalls](/how-to-guides/use-information-recalls/) and [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) if you want to pull in dynamic content.
+    Keep it to one clear promise and one line of detail. Long welcome copy is a common cause of drop-off.
+    **For a logo or an inline image**, click `+ Add block`, choose `Image`, and upload your file. The image sits in the flow of the slide with the rest of your blocks.
+    **For a background or split-screen image**, click the slide to open its settings, then use `Image upload`:
+    1. Click `Select image`, then `Add image` in the popup, and upload your file. You can also pick from images already in your quiz gallery.
+    2. Set `Layout` to `background` to place it behind the text, or `split` to put it beside the text.
+    3. Use `Opacity` to fade it back so your copy stays readable.
+    4. For `split`, set `Position (desktop)` to `left` or `right`, and `Position (mobile)` to `above`, `below` or `hidden`.
+    See [How to Add/Adjust Images](/how-to-guides/add-adjust-images/) for sizing recommendations.
+    Click the `Button` block on the slide and edit `Button text`. Use `Alignment` to move it left, right or center.
+    Write the button as the action the customer is taking - "Find my match" or "Start the quiz" - rather than a bare "Next".
+    Click the slide to open its settings, click `...`, then click `Remove`. To keep it but reuse it later, click `Duplicate` first.
 
 
 
@@ -13249,6 +13298,138 @@ Not applicable.
 
 
 ================================================================================
+SOURCE: https://docs.revenuehunt.com/how-to-guides/track-ad-to-purchase-funnel/
+================================================================================
+
+---
+description: "Measure the full paid-traffic funnel: ad click, landing page, quiz start, results page, purchase. Set up UTM parameters, GA4 quiz events, and per-response campaign attribution."
+icon: material/filter-outline
+---
+
+# How to Track Your Ad to Purchase Funnel
+
+You are paying for clicks and you want two answers: which ads produce orders, and where customers drop off. The path has four steps, and no single tool covers all four.
+
+| Part of the funnel | What measures it | Setup |
+|---|---|---|
+| Ad click to landing page | UTM parameters plus your store analytics | 10 minutes, no code |
+| Landing page to quiz start to results page | GA4 quiz events | One click, then a funnel exploration |
+| Quiz to order | The app's [Analytics panel](/reference/quiz-builder/metrics/#analytics) | Already running |
+| Ad campaign to an individual lead | Custom JS that captures UTMs into the response | Advanced, optional |
+
+The last row is the one most stores skip, and the first three are enough for almost everyone. Follow the steps in order and stop when you have what you need.
+
+Before you start:
+
+- Publish the quiz on [its own page](/how-to-guides/publish-quiz-inline/#embed-an-inline-quiz-on-a-dedicated-landing-page). One quiz per page keeps the funnel readable and is also how GA4 tracking works best.
+- Install GA4 on your store. On Shopify, the Google & YouTube sales channel does this and sends the `purchase` event from checkout. You need that event for the last step of the funnel.
+
+## Step 1: tag your ads with UTM parameters
+
+UTM parameters are labels you add to the end of a link. Your analytics reads them and tells you which ad the customer came from.
+
+| Parameter | What to put in it | Example |
+|---|---|---|
+| `utm_source` | The platform | `facebook`, `google`, `tiktok` |
+| `utm_medium` | The type of traffic | `cpc`, `paid_social` |
+| `utm_campaign` | The campaign name | `hair_quiz_q3` |
+| `utm_content` | The specific creative | `video_before_after` |
+| `utm_term` | The keyword, search ads only | `hair+loss+treatment` |
+
+1. Open Google's [Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/){target=_blank}.
+2. Set the website URL to your quiz landing page.
+3. Fill in `utm_source`, `utm_medium`, `utm_campaign` and `utm_content`.
+4. Copy the generated URL and paste it into the ad.
+5. Repeat for every creative, changing only `utm_content`.
+
+!!! warning "One campaign per name, one creative per content"
+
+    If every ad in a campaign shares the same `utm_content`, the reports collapse into a single row. You then cannot tell your creatives apart. Decide the naming scheme once, write it down, and use it everywhere. Lowercase, no spaces.
+
+!!! tip "Do not tag your own internal links"
+
+    UTM parameters are for traffic arriving from outside your site. Adding them to a link between two of your own pages restarts the session attribution. It then looks like the customer arrived from an ad twice.
+
+!!! info "Redirects keep the parameters"
+
+    This applies to the `💎 Built for Shopify` version. If the quiz ends by [redirecting to another page](/how-to-guides/redirect-quiz-to-another-page/), the `utm_` parameters on the quiz page are carried through to the destination URL. Attribution survives the redirect, and parameters you set on the destination are never overwritten.
+
+## Step 2: read ad to purchase in your store analytics
+
+This is the outer measurement: what you spend against what you earn. It works as soon as the ads are tagged, with nothing else to configure.
+
+--- Shopify Specific Content ---
+
+1. In your Shopify admin, go to `Analytics → Reports`.
+    2. Open **Sessions by UTM campaign** to see traffic per campaign.
+    3. Open **Sales attributed to marketing** to see orders and revenue per campaign.
+    4. Compare that revenue against your ad spend for the same period.
+    1. In GA4, go to `Reports → Acquisition → Traffic acquisition`.
+    2. Change the primary dimension to **Session campaign**.
+    3. Add **Total revenue** and **Conversions** as columns.
+At this point you know which ads make money. What you do not know is where the weaker ads lose customers. That is Step 3.
+## Step 3: connect the quiz to Google Analytics
+The quiz sends its own GA4 events, so the middle of the funnel becomes visible.
+1. Open your quiz and go to the `Integrations` tab.
+2. Click `Activate` in the Google Analytics section.
+3. Click `Save`.
+4. Take the quiz once, then check `Reports → Realtime` in GA4 to confirm the events arrive.
+The events you get, without writing any code:
+| Step in the funnel | Event name |
+|---|---|
+| Quiz started | `quiz_started_{quiz_name}` |
+| Question viewed | `question_viewed_{question_title}` |
+| Choice picked | `block_answered_{choice_text}` |
+| Email submitted | `email_lead_{quiz_name}` and `generate_lead` |
+| Results page reached | `results_page_viewed_{results_page_title}` |
+| Product clicked | `product_clicked_{product_name}` |
+| Product added to cart | `product_added_to_cart_{product_name}` |
+| Checkout started | `proceed_to_checkout_{quiz_name}` |
+!!! warning "The event name includes the quiz name"
+    Events arrive as `quiz_started_my_quiz`, not as a plain `quiz_started`. Search by the prefix under `Reports → Engagement → Events`. This is deliberate: it lets you read per-quiz numbers straight from the Event name report without registering custom dimensions.
+Full setup details, including the legacy and non-Shopify platforms, custom dimensions, and custom events: [How to Track Quiz Performance with Google Analytics](/how-to-guides/integrate-google-analytics/).
+## Step 4: build the funnel in GA4
+1. In GA4, go to `Explore` and create a new **Funnel exploration**.
+2. Step 1: `page_view`, with a condition on the landing page path.
+3. Step 2: `quiz_started_{your_quiz_name}`.
+4. Step 3: `results_page_viewed_{your_results_page_title}`.
+5. Step 4: `purchase`.
+6. Set **Breakdown** to **Session campaign** so the funnel splits by ad.
+7. Switch on **Show elapsed time** to see where customers stall, not only where they leave.
+The drop between each pair of steps is the number you act on. The `purchase` event comes from your store's own GA4 setup, not from the quiz, so if step 4 is empty check that first.
+!!! warning "GA4 event tracking reliability"
+    Since Google moved from Universal Analytics to GA4, event tracking reliability has dropped. The implementation can be correct and the events can fire as expected, and GA4 can still fail to read, process, or report them accurately. If that happens, contact Google Support: the issue is on their end.
+## Step 5: attach the campaign to each individual response (optional)
+Steps 1 to 4 give you totals per campaign. This step puts the campaign on each individual quiz response, so you can tell which ad produced a specific lead.
+1. Open the first question of your quiz and expand its `Custom JS` section.
+2. Paste the following. No `<script>` tags.
+```javascript
+const p = new URLSearchParams(window.location.search);
+actions.setAnswers({
+  'hidden-utm-source': p.get('utm_source') || '',
+  'hidden-utm-campaign': p.get('utm_campaign') || '',
+  'hidden-utm-content': p.get('utm_content') || '',
+  'hidden-full-url': window.location.href
+});
+```
+These values travel with the response and arrive in your [webhook](/how-to-guides/send-leads-to-webhooks/) payload under `answersByBlock`. That is where you join campaign to lead in your own reporting.
+Guides: [Add JavaScript](/how-to-guides/add-javascript/) and [Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
+## Reading the funnel: what each drop means
+| Where the drop is | Likely cause | Where to look |
+|---|---|---|
+| Clicks, but few `page_view` | Slow page, or a redirect stripping the parameters | [Check quiz loading speed](/how-to-guides/check-quiz-loading-speed/) |
+| Page views, but few `quiz_started` | The quiz is too far down the page, or the call to action is weak | [Get more quiz engagement](/customer-success/how-to-get-more-quiz-engagement/) |
+| Quiz starts, but few `results_page_viewed` | Too many questions, or one question is causing the drop | The `Drop-off` panel in [Metrics](/reference/quiz-builder/metrics/), and [Reduce drop-off](/customer-success/reduce-dropoff/) |
+| Results reached, but few orders | The recommendations or the offer, not the funnel | [Why your quiz is not converting](/customer-success/quiz-not-converting/) |
+## Related
+- [Track Quiz Revenue](/how-to-guides/track-quiz-revenue/): the quiz to order half, native and already running.
+- [Integrate Meta Pixel](/how-to-guides/integrate-meta-pixel/): the same events sent to Meta, for optimising the ads themselves.
+- [Use Quiz Data to Lower Your Ad Costs](/customer-success/use-quiz-data-for-ads/): what to do with the data once you can read it.
+
+
+
+
+================================================================================
 SOURCE: https://docs.revenuehunt.com/how-to-guides/track-quiz-revenue/
 ================================================================================
 
@@ -16351,7 +16532,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Date` - A question slide that prompts the user to select or enter a specific date.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_date](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_date.png){width="500"}
     **Messages**
-    `Welcome Message` - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+    `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_welcome.png){width="500"}
     `Thank You Message` -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_thankyou](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_thankyou.png){width="500"}
@@ -18117,7 +18298,7 @@ description: "Guide to the RevenueHunt Quiz Builder interface with menu, questio
     **File Upload** - An interactive slide where users can upload a file as their response.
     **Number** -  A question type where users are prompted to input a numerical answer.
     *Messages*
-    **Welcome Message** - The first slide in the quiz. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button.
+    **Welcome Message** - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
     **Thank You Message** -The last slide in the quiz. The concluding slide of the quiz displaying gratitude text and a button to view quiz results.
     **Statement** - A statement slide which displays text and a button to proceed to the next question.
     *Contact info*
