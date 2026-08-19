@@ -5,7 +5,7 @@ icon: material/filter-outline
 
 # How to Track Your Ad to Purchase Funnel
 
-You are paying for clicks and you want two answers: which ads produce orders, and where people fall out on the way there. The path has four steps, and no single tool covers all four.
+You are paying for clicks and you want two answers: which ads produce orders, and where shoppers drop off. The path has four steps, and no single tool covers all four.
 
 | Part of the funnel | What measures it | Setup |
 |---|---|---|
@@ -14,7 +14,7 @@ You are paying for clicks and you want two answers: which ads produce orders, an
 | Quiz to order | The app's [Analytics panel](/reference/quiz-builder/metrics/#analytics) | Already running |
 | Ad campaign to an individual lead | Custom JS that captures UTMs into the response | Advanced, optional |
 
-The last row is the one most stores skip, and the first three are enough for almost everyone. Work through the steps in order and stop when you have what you need.
+The last row is the one most stores skip, and the first three are enough for almost everyone. Follow the steps in order and stop when you have what you need.
 
 Before you start:
 
@@ -23,7 +23,7 @@ Before you start:
 
 ## Step 1: tag your ads with UTM parameters
 
-UTM parameters are labels you add to the end of a link. Your analytics reads them and tells you which ad the visitor came from.
+UTM parameters are labels you add to the end of a link. Your analytics reads them and tells you which ad the shopper came from.
 
 | Parameter | What to put in it | Example |
 |---|---|---|
@@ -41,19 +41,19 @@ UTM parameters are labels you add to the end of a link. Your analytics reads the
 
 !!! warning "One campaign per name, one creative per content"
 
-    If every ad in a campaign shares the same `utm_content`, the reports collapse into a single row and you lose the ability to tell your creatives apart. Decide the naming scheme once, write it down, and use it everywhere. Lowercase, no spaces.
+    If every ad in a campaign shares the same `utm_content`, the reports collapse into a single row. You then cannot tell your creatives apart. Decide the naming scheme once, write it down, and use it everywhere. Lowercase, no spaces.
 
 !!! tip "Do not tag your own internal links"
 
-    UTM parameters are for traffic arriving from outside your site. Adding them to a link between two of your own pages restarts the session attribution and makes it look like the visitor came from an ad twice.
+    UTM parameters are for traffic arriving from outside your site. Adding them to a link between two of your own pages restarts the session attribution. It then looks like the shopper arrived from an ad twice.
 
 !!! info "Redirects keep the parameters"
 
-    In the `💎 Built for Shopify` version, if the quiz ends by [redirecting to another page](/how-to-guides/redirect-quiz-to-another-page/), any `utm_` parameters on the quiz page are carried through to the destination URL automatically. Attribution survives the hop, and parameters you set on the destination yourself are never overwritten.
+    This applies to the `💎 Built for Shopify` version. If the quiz ends by [redirecting to another page](/how-to-guides/redirect-quiz-to-another-page/), the `utm_` parameters on the quiz page are carried through to the destination URL. Attribution survives the redirect, and parameters you set on the destination are never overwritten.
 
 ## Step 2: read ad to purchase in your store analytics
 
-This is the outer measurement: money in, money out. It works as soon as the ads are tagged, with nothing else to configure.
+This is the outer measurement: what you spend against what you earn. It works as soon as the ads are tagged, with nothing else to configure.
 
 === "Shopify"
 
@@ -68,7 +68,7 @@ This is the outer measurement: money in, money out. It works as soon as the ads 
     2. Change the primary dimension to **Session campaign**.
     3. Add **Total revenue** and **Conversions** as columns.
 
-At this point you know which ads make money. What you do not know is where the losers lose people. That is Step 3.
+At this point you know which ads make money. What you do not know is where the weaker ads lose shoppers. That is Step 3.
 
 ## Step 3: connect the quiz to Google Analytics
 
@@ -106,7 +106,7 @@ Full setup details, including the legacy and non-Shopify platforms, custom dimen
 4. Step 3: `results_page_viewed_{your_results_page_title}`.
 5. Step 4: `purchase`.
 6. Set **Breakdown** to **Session campaign** so the funnel splits by ad.
-7. Switch on **Show elapsed time** to see where people stall, not just where they leave.
+7. Switch on **Show elapsed time** to see where shoppers stall, not only where they leave.
 
 The drop between each pair of steps is the number you act on. The `purchase` event comes from your store's own GA4 setup, not from the quiz, so if step 4 is empty check that first.
 
@@ -131,7 +131,7 @@ actions.setAnswers({
 });
 ```
 
-These values travel with the response and arrive in your [webhook](/how-to-guides/send-leads-to-webhooks/) payload under `answersByBlock`, which is where you join campaign to lead in your own reporting or data warehouse.
+These values travel with the response and arrive in your [webhook](/how-to-guides/send-leads-to-webhooks/) payload under `answersByBlock`. That is where you join campaign to lead in your own reporting.
 
 Guides: [Add JavaScript](/how-to-guides/add-javascript/) and [Send Leads to Webhooks](/how-to-guides/send-leads-to-webhooks/).
 
@@ -140,8 +140,8 @@ Guides: [Add JavaScript](/how-to-guides/add-javascript/) and [Send Leads to Webh
 | Where the drop is | Likely cause | Where to look |
 |---|---|---|
 | Clicks, but few `page_view` | Slow page, or a redirect stripping the parameters | [Check quiz loading speed](/how-to-guides/check-quiz-loading-speed/) |
-| Page views, but few `quiz_started` | The quiz sits below the fold, or the call to action is weak | [Get more quiz engagement](/customer-success/how-to-get-more-quiz-engagement/) |
-| Quiz starts, but few `results_page_viewed` | Too many questions, or one question is doing the damage | The `Drop-off` panel in [Metrics](/reference/quiz-builder/metrics/), and [Reduce drop-off](/customer-success/reduce-dropoff/) |
+| Page views, but few `quiz_started` | The quiz is too far down the page, or the call to action is weak | [Get more quiz engagement](/customer-success/how-to-get-more-quiz-engagement/) |
+| Quiz starts, but few `results_page_viewed` | Too many questions, or one question is causing the drop | The `Drop-off` panel in [Metrics](/reference/quiz-builder/metrics/), and [Reduce drop-off](/customer-success/reduce-dropoff/) |
 | Results reached, but few orders | The recommendations or the offer, not the funnel | [Why your quiz is not converting](/customer-success/quiz-not-converting/) |
 
 ## Related
