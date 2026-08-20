@@ -1283,14 +1283,22 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
         ```html
         /* Change the background of the Add to Cart button */
+        .lq-add-to-cart {
+        background-color: #ff7028;
+        }
+        ```
+    ??? example "Change the background of the Checkout button"
+
+        ```html
+        /* Change the background of the Checkout button */
         .lq-checkout {
         background-color: #ff7028;
         }
         ```
-    ??? example "Change the background of the singluar Add to cart buttons"
+    ??? example "Change the background of the label inside Add to Cart buttons"
 
         ```html
-        /* Change the background of the singluar Add to cart buttons */
+        /* Change the background of the label inside Add to Cart buttons */
         .lq-btn-content {
         background-color: #ff7028;
         color: white;
@@ -1464,14 +1472,22 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
         ```html
         /* Change the background of the Add to Cart button */
+        .lq-add-to-cart {
+        background-color: #ff7028;
+        }
+        ```
+    ??? example "Change the background of the Checkout button"
+
+        ```html
+        /* Change the background of the Checkout button */
         .lq-checkout {
         background-color: #ff7028;
         }
         ```
-    ??? example "Change the background of the singluar Add to cart buttons"
+    ??? example "Change the background of the label inside Add to Cart buttons"
 
         ```html
-        /* Change the background of the singluar Add to cart buttons */
+        /* Change the background of the label inside Add to Cart buttons */
         .lq-btn-content {
         background-color: #ff7028;
         color: white;
@@ -1645,14 +1661,22 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
         ```html
         /* Change the background of the Add to Cart button */
+        .lq-add-to-cart {
+        background-color: #ff7028;
+        }
+        ```
+    ??? example "Change the background of the Checkout button"
+
+        ```html
+        /* Change the background of the Checkout button */
         .lq-checkout {
         background-color: #ff7028;
         }
         ```
-    ??? example "Change the background of the singluar Add to cart buttons"
+    ??? example "Change the background of the label inside Add to Cart buttons"
 
         ```html
-        /* Change the background of the singluar Add to cart buttons */
+        /* Change the background of the label inside Add to Cart buttons */
         .lq-btn-content {
         background-color: #ff7028;
         color: white;
@@ -1826,14 +1850,22 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
         ```html
         /* Change the background of the Add to Cart button */
+        .lq-add-to-cart {
+        background-color: #ff7028;
+        }
+        ```
+    ??? example "Change the background of the Checkout button"
+
+        ```html
+        /* Change the background of the Checkout button */
         .lq-checkout {
         background-color: #ff7028;
         }
         ```
-    ??? example "Change the background of the singluar Add to cart buttons"
+    ??? example "Change the background of the label inside Add to Cart buttons"
 
         ```html
-        /* Change the background of the singluar Add to cart buttons */
+        /* Change the background of the label inside Add to Cart buttons */
         .lq-btn-content {
         background-color: #ff7028;
         color: white;
@@ -2007,14 +2039,22 @@ We offer complete flexibility to developers for personalizing both the quiz and 
 
         ```html
         /* Change the background of the Add to Cart button */
+        .lq-add-to-cart {
+        background-color: #ff7028;
+        }
+        ```
+    ??? example "Change the background of the Checkout button"
+
+        ```html
+        /* Change the background of the Checkout button */
         .lq-checkout {
         background-color: #ff7028;
         }
         ```
-    ??? example "Change the background of the singluar Add to cart buttons"
+    ??? example "Change the background of the label inside Add to Cart buttons"
 
         ```html
-        /* Change the background of the singluar Add to cart buttons */
+        /* Change the background of the label inside Add to Cart buttons */
         .lq-btn-content {
         background-color: #ff7028;
         color: white;

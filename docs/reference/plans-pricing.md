@@ -1,5 +1,5 @@
 ---
-description: "RevenueHunt plans and pricing details including free tier and paid features for Shopify merchants."
+description: "RevenueHunt plans and pricing: response limits, billing period, invoices, and how to change your billing details on each platform."
 ---
 
 # Plans & Pricing
@@ -8,10 +8,7 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
 === "Shopify"
 
-    
     ![manual_shopifyv2_plans](/images/manual_shopifyv2_plans.png)
-
-    `Ready to take your quizzes to the next level?`- Click `Upgrade now` to any paid plan to increase your quiz response limits and unlock third-party integrations and advanced customization options.
 
     `Your current plan` - Displays the current plan you are on.
 
@@ -19,16 +16,15 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
     `Billing period` - Choose between `Monthly` or `Annual` billing.
 
-    `Plan details` - Click to view the details of all the pricing plans, what is the fee, response limit, and cost per response.
+    `Plan details` - Click to see every pricing plan, with its fee, response limit and cost per response.
 
     `Upgrade` - Click to upgrade to a paid plan.
 
-    `Newsletter code` - Enter the newsletter code to redeem a discount or unlock advanced features. Click `Redeem` to apply the code.
-
+    `Newsletter code` - Enter the newsletter code to redeem a discount or to get advanced features. Click `Redeem` to apply the code.
 
 === "Shopify (Legacy)"
 
-    ![plans & pricing page](/images/manual_plans_pricing.png)
+    ![manual_plans_pricing](/images/manual_plans_pricing.png)
 
     `Your quizzes received *1,049* responses during the past 30 days` - Indicates your quiz engagement in the last 30 days.
 
@@ -38,15 +34,15 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
     `check out this FAQs article` - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
-    `Get Basic/Pro` - Click to upgrade your plan to Basic/Pro. After clicking you'll be taken to the Shopify payment page to approve the subscription.
+    `Get Basic/Pro` - Click to upgrade your plan to Basic or Pro. The Shopify payment page then opens, where you approve the subscription.
 
-    !!! note
+    !!! info
 
-        Payments are handled directly by Shopify. You should see app charges on your Shopify bill.
+        Shopify handles the payments directly. App charges appear on your Shopify bill.
 
 === "WooCommerce"
 
-    ![woocommerce plans & pricing page](/images/manual_woo_plans_pricing.png)
+    ![manual_woo_plans_pricing](/images/manual_woo_plans_pricing.png)
 
     `Your quizzes received *1,049* responses during the past 30 days` - Indicates your quiz engagement in the last 30 days.
 
@@ -56,18 +52,17 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
     `check out this FAQs article` - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
-    `Get Basic/Pro` - Click to upgrade your plan to Basic/Pro. After clicking you'll be taken to the Shopify payment page to approve the subscription.
+    `Get Basic/Pro` - Click to upgrade your plan to Basic or Pro. The payment page then opens, where you approve the subscription.
 
-    `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices). 
+    `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices).
 
     ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
 
-    `Invoices tab` - In the Invoices tab you'll find invoices for all the payments you've made to RevenueHunt. Click `download PDF` to download the invoice.
+    `Invoices tab` - Lists the invoices for every payment you have made to RevenueHunt. Click `download PDF` to download an invoice.
 
-    !!! note
+    !!! info
 
-        App payments are handled by Stripe, the payment processor. WooCommerce customers can also download their invoices directly from Stripe in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
-
+        Stripe, the payment processor, handles app payments. You can also download your invoices directly from Stripe in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
 
 === "Magento"
 
@@ -81,17 +76,17 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
     `check out this FAQs article` - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
-    `Get Basic/Pro` - Click to upgrade your plan to Basic/Pro. After clicking you'll be taken to the Shopify payment page to approve the subscription.
+    `Get Basic/Pro` - Click to upgrade your plan to Basic or Pro. The payment page then opens, where you approve the subscription.
 
-    `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices). 
+    `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices).
 
     ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
 
-    `Invoices tab` - In the Invoices tab you'll find invoices for all the payments you've made to RevenueHunt. Click `download PDF` to download the invoice.
+    `Invoices tab` - Lists the invoices for every payment you have made to RevenueHunt. Click `download PDF` to download an invoice.
 
-    !!! note
+    !!! info
 
-        App payments are handled by Stripe, the payment processor. Magento customers can also download their invoices directly from Stripe in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+        Stripe, the payment processor, handles app payments. You can also download your invoices directly from Stripe in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
 
 === "BigCommerce"
 
@@ -105,17 +100,17 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
     `check out this FAQs article` - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
-    `Get Basic/Pro` - Click to upgrade your plan to Basic/Pro. After clicking you'll be taken to the Shopify payment page to approve the subscription.
+    `Get Basic/Pro` - Click to upgrade your plan to Basic or Pro. The payment page then opens, where you approve the subscription.
 
-    `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices). 
+    `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices).
 
     ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
 
-    `Invoices tab` - In the Invoices tab you'll find invoices for all the payments you've made to RevenueHunt. Click `download PDF` to download the invoice.
+    `Invoices tab` - Lists the invoices for every payment you have made to RevenueHunt. Click `download PDF` to download an invoice.
 
-    !!! note
+    !!! info
 
-        App payments are handled by Stripe, the payment processor.
+        Stripe, the payment processor, handles app payments.
 
 === "Standalone"
 
@@ -129,154 +124,152 @@ description: "RevenueHunt plans and pricing details including free tier and paid
 
     `check out this FAQs article` - Opens the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
-    `Get Basic/Pro` - Click to upgrade your plan to Basic/Pro. After clicking you'll be taken to the Shopify payment page to approve the subscription.
+    `Get Basic/Pro` - Click to upgrade your plan to Basic or Pro. The payment page then opens, where you approve the subscription.
 
-    `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices). 
+    `Invoices` - Opens the [Invoices tab](https://admin.revenuehunt.com/invoices).
 
     ![manual_woo_plans_pricing_invoices](/images/manual_woo_plans_pricing_invoices.png)
 
-    `Invoices tab` - In the Invoices tab you'll find invoices for all the payments you've made to RevenueHunt. Click `download PDF` to download the invoice.
+    `Invoices tab` - Lists the invoices for every payment you have made to RevenueHunt. Click `download PDF` to download an invoice.
 
-    !!! note
+    !!! info
 
-        App payments are handled by Stripe, the payment processor.
+        Stripe, the payment processor, handles app payments.
 
+!!! tip "Plans and pricing FAQ"
 
-!!! info "Plans and pricing FAQ"
-
-    Have more questions about our plans and pricing? Check the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page for more information.
-
+    For more about plans and pricing, see the [Plans & Pricing FAQ](/customer-success/plans-pricing-faq/) page.
 
 ## How to change my billing details?
 
-
 === "Shopify"
 
-    Since Shopify handles the payments, you can change your billing details directly in your [Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments) page.
+    Shopify handles the payments. Change your billing details directly on your [Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments) page.
 
+=== "Shopify (Legacy)"
 
-=== "Shopify (Legacy)"       
-
-    Since Shopify handles the payments, you can change your billing details directly in your Shopify payments.
+    Shopify handles the payments. Change your billing details directly in your Shopify payments.
 
 === "WooCommerce"
 
-    Payments are handled by Stripe, the payment processor. Since we don’t store credit card details and we don’t have access to them, the process to change it in Stripe would be the following:
+    Stripe, the payment processor, handles app payments. RevenueHunt does not store your credit card details and cannot access them. Change them in Stripe:
 
-    1. You can access all your Stripe billing details in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
-    2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
+    1. Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+    2. Log in with your email address and the two-factor authentication code sent to your inbox.
 
-        ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change_billing_details.png)
+        ![manual_woo_plans_pricing_change_billing_details](/images/manual_woo_plans_pricing_change_billing_details.png)
 
-        !!! note
+        !!! info
 
-            The login is the email that you used when you first provided your credit card details.
-         
-    3. Once you log in, you’ll see a screen similar to this one:
-        ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
-    4. There you can edit the invoices and credit card details, download the invoices, cancel the subscription, etc.
+            The login is the email address you used when you first gave your credit card details.
 
-        !!! tip
+    The portal opens. From there you can edit your credit card and invoice details. You can also download invoices or cancel your subscription.
 
-            To add your VAT number on the invoice provide it as a first line of your name or address, for example, JOHN DOE VAT XXXX or VAT XXXX JOHN DOE. Stripe does not have a dedicated field for the VAT number.
+    ![manual_woo_plans_pricing_change_billing_details_stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
 
-    or alternatively:
+    !!! tip
 
-    1. Access the plugin and navigate to the Plans & Pricing screen
-    2. Click on the “GET FREE” button to downgrade to the Free Plan. This will cancel your Stripe subscription.
-    3. Upgrade again to the Basic Plan, this time introducing your new credit card details.
-    4. We’ll proceed to issue a refund for the days not used in your previous Basic Plan billing cycle.
+        To add your VAT number to an invoice, put it on the first line of your name or address. For example, JOHN DOE VAT XXXX or VAT XXXX JOHN DOE. Stripe does not have a dedicated field for the VAT number.
 
-    If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](/how-to-guides/contact-customer-support/).
+    To change your card from inside the app instead:
+
+    1. In the app, go to the Plans & Pricing screen.
+    2. Click `GET FREE` to downgrade to the Free Plan.
+    3. Upgrade to the Basic Plan again with your new credit card details.
+
+    Downgrading cancels your Stripe subscription. RevenueHunt then refunds the days you did not use in your previous Basic Plan billing cycle.
+
+    If you cannot downgrade to the Free Plan because you are above your usage limit, [contact customer support](/how-to-guides/contact-customer-support/).
 
 === "Magento"
 
-    Payments are handled by Stripe, the payment processor. Since we don’t store credit card details and we don’t have access to them, the process to change it in Stripe would be the following:
+    Stripe, the payment processor, handles app payments. RevenueHunt does not store your credit card details and cannot access them. Change them in Stripe:
 
-    1. You can access all your Stripe billing details in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
-    2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
+    1. Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+    2. Log in with your email address and the two-factor authentication code sent to your inbox.
 
-        ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change_billing_details.png)
+        ![manual_woo_plans_pricing_change_billing_details](/images/manual_woo_plans_pricing_change_billing_details.png)
 
-        !!! note
+        !!! info
 
-            The login is the email that you used when you first provided your credit card details.
-         
-    3. Once you log in, you’ll see a screen similar to this one:
-        ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
-    4. There you can edit the invoices and credit card details, download the invoices, cancel the subscription, etc.
+            The login is the email address you used when you first gave your credit card details.
 
-        !!! tip
+    The portal opens. From there you can edit your credit card and invoice details. You can also download invoices or cancel your subscription.
 
-            To add your VAT number on the invoice provide it as a first line of your name or address, for example, JOHN DOE VAT XXXX or VAT XXXX JOHN DOE. Stripe does not have a dedicated field for the VAT number.
+    ![manual_woo_plans_pricing_change_billing_details_stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
 
-    or alternatively:
+    !!! tip
 
-    1. Access the plugin and navigate to the Plans & Pricing screen
-    2. Click on the “GET FREE” button to downgrade to the Free Plan. This will cancel your Stripe subscription.
-    3. Upgrade again to the Basic Plan, this time introducing your new credit card details.
-    4. We’ll proceed to issue a refund for the days not used in your previous Basic Plan billing cycle.
+        To add your VAT number to an invoice, put it on the first line of your name or address. For example, JOHN DOE VAT XXXX or VAT XXXX JOHN DOE. Stripe does not have a dedicated field for the VAT number.
 
-    If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](/how-to-guides/contact-customer-support/).
+    To change your card from inside the app instead:
 
+    1. In the app, go to the Plans & Pricing screen.
+    2. Click `GET FREE` to downgrade to the Free Plan.
+    3. Upgrade to the Basic Plan again with your new credit card details.
+
+    Downgrading cancels your Stripe subscription. RevenueHunt then refunds the days you did not use in your previous Basic Plan billing cycle.
+
+    If you cannot downgrade to the Free Plan because you are above your usage limit, [contact customer support](/how-to-guides/contact-customer-support/).
 
 === "BigCommerce"
 
-    Payments are handled by Stripe, the payment processor. Since we don’t store credit card details and we don’t have access to them, the process to change it in Stripe would be the following:
+    Stripe, the payment processor, handles app payments. RevenueHunt does not store your credit card details and cannot access them. Change them in Stripe:
 
-    1. You can access all your Stripe billing details in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
-    2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
+    1. Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+    2. Log in with your email address and the two-factor authentication code sent to your inbox.
 
-        ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change_billing_details.png)
+        ![manual_woo_plans_pricing_change_billing_details](/images/manual_woo_plans_pricing_change_billing_details.png)
 
-        !!! note
+        !!! info
 
-            The login is the email that you used when you first provided your credit card details.
-         
-    3. Once you log in, you’ll see a screen similar to this one:
-        ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
-    4. There you can edit the invoices and credit card details, download the invoices, cancel the subscription, etc.
+            The login is the email address you used when you first gave your credit card details.
 
-        !!! tip
+    The portal opens. From there you can edit your credit card and invoice details. You can also download invoices or cancel your subscription.
 
-            To add your VAT number on the invoice provide it as a first line of your name or address, for example, JOHN DOE VAT XXXX or VAT XXXX JOHN DOE. Stripe does not have a dedicated field for the VAT number.
+    ![manual_woo_plans_pricing_change_billing_details_stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
 
-    or alternatively:
+    !!! tip
 
-    1. Access the plugin and navigate to the Plans & Pricing screen
-    2. Click on the “GET FREE” button to downgrade to the Free Plan. This will cancel your Stripe subscription.
-    3. Upgrade again to the Basic Plan, this time introducing your new credit card details.
-    4. We’ll proceed to issue a refund for the days not used in your previous Basic Plan billing cycle.
+        To add your VAT number to an invoice, put it on the first line of your name or address. For example, JOHN DOE VAT XXXX or VAT XXXX JOHN DOE. Stripe does not have a dedicated field for the VAT number.
 
-    If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](/how-to-guides/contact-customer-support/).
+    To change your card from inside the app instead:
 
+    1. In the app, go to the Plans & Pricing screen.
+    2. Click `GET FREE` to downgrade to the Free Plan.
+    3. Upgrade to the Basic Plan again with your new credit card details.
+
+    Downgrading cancels your Stripe subscription. RevenueHunt then refunds the days you did not use in your previous Basic Plan billing cycle.
+
+    If you cannot downgrade to the Free Plan because you are above your usage limit, [contact customer support](/how-to-guides/contact-customer-support/).
 
 === "Standalone"
 
-    Payments are handled by Stripe, the payment processor. Since we don’t store credit card details and we don’t have access to them, the process to change it in Stripe would be the following:
+    Stripe, the payment processor, handles app payments. RevenueHunt does not store your credit card details and cannot access them. Change them in Stripe:
 
-    1. You can access all your Stripe billing details in the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
-    2. You’ll be required to log in with your email and a 2-Factor Authentication code that will be sent to your inbox:
+    1. Open the [Stripe billing portal](https://billing.stripe.com/p/login/aEUcNW6ex8cZgy4aEE).
+    2. Log in with your email address and the two-factor authentication code sent to your inbox.
 
-        ![manual_woo_plans_pricing_change billing details login](/images/manual_woo_plans_pricing_change_billing_details.png)
+        ![manual_woo_plans_pricing_change_billing_details](/images/manual_woo_plans_pricing_change_billing_details.png)
 
-        !!! note
+        !!! info
 
-            The login is the email that you used when you first provided your credit card details.
-         
-    3. Once you log in, you’ll see a screen similar to this one:
-        ![manual_woo_plans_pricing_change billing details stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
-    4. There you can edit the invoices and credit card details, download the invoices, cancel the subscription, etc.
+            The login is the email address you used when you first gave your credit card details.
 
-        !!! tip
+    The portal opens. From there you can edit your credit card and invoice details. You can also download invoices or cancel your subscription.
 
-            To add your VAT number on the invoice provide it as a first line of your name or address, for example, JOHN DOE VAT XXXX or VAT XXXX JOHN DOE. Stripe does not have a dedicated field for the VAT number.
+    ![manual_woo_plans_pricing_change_billing_details_stripe](/images/manual_woo_plans_pricing_change_billing_details_stripe.png)
 
-    or alternatively:
+    !!! tip
 
-    1. Access the plugin and navigate to the Plans & Pricing screen
-    2. Click on the “GET FREE” button to downgrade to the Free Plan. This will cancel your Stripe subscription.
-    3. Upgrade again to the Basic Plan, this time introducing your new credit card details.
-    4. We’ll proceed to issue a refund for the days not used in your previous Basic Plan billing cycle.
+        To add your VAT number to an invoice, put it on the first line of your name or address. For example, JOHN DOE VAT XXXX or VAT XXXX JOHN DOE. Stripe does not have a dedicated field for the VAT number.
 
-    If you can’t downgrade to the Free Plan because you’re above your usage limit, please [contact support](/how-to-guides/contact-customer-support/).
+    To change your card from inside the app instead:
+
+    1. In the app, go to the Plans & Pricing screen.
+    2. Click `GET FREE` to downgrade to the Free Plan.
+    3. Upgrade to the Basic Plan again with your new credit card details.
+
+    Downgrading cancels your Stripe subscription. RevenueHunt then refunds the days you did not use in your previous Basic Plan billing cycle.
+
+    If you cannot downgrade to the Free Plan because you are above your usage limit, [contact customer support](/how-to-guides/contact-customer-support/).
