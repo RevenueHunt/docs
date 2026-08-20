@@ -196,6 +196,7 @@ nav:
     - App Settings: reference/app-settings.md
     - Accessibility: reference/accessibility.md
     - CSS Structure: reference/css-structure.md
+    - Glossary: reference/glossary.md
     - Quiz Builder:
       - Overview: reference/quiz-builder/index.md
       - Questions: reference/quiz-builder/questions.md
