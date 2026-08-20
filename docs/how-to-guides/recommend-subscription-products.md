@@ -33,12 +33,21 @@ If you're using a subscription app that is not supported, you can still recommen
         - Confirm that Recharge is configured on your Shopify website according to the [Recharge documentation](https://storefront.rechargepayments.com/client/docs/getting_started/script_setup/).
 
 
-    1. **Adding Recharge Script to Shopify Theme**: To enable the integration, add the Recharge script to your Shopify theme:
+    1. **Add the Recharge Storefront SDK to your Shopify theme**:
 
         - Navigate to your online store themes and select `Edit Code`.
         - Open the `layout/theme.liquid` file.
-        - Insert the correct version of the Recharge Storefront API script in the header section.
-        - Save the changes to load the Recharge script in your store, allowing the Revenue Hunt app to access Recharge products.
+        - Add this script in the `<head>` section, before the RevenueHunt quiz renderer script:
+
+            ```html
+            <script src="https://static.rechargecdn.com/assets/storefront/recharge-client-2.0.0.min.js"></script>
+            ```
+
+        - Save the changes.
+
+        !!! warning "Legacy Recharge script"
+
+            `https://static.rechargecdn.com/static/js/recharge.js` is not the Storefront SDK required by the quiz. If your theme loads that legacy script, replace it with the `recharge-client-2.0.0.min.js` script above.
 
     1. To add subscription to your recommended products go to the [Results page](/reference/quiz-builder/results-page/).
     2. Find the [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
@@ -61,7 +70,7 @@ If you're using a subscription app that is not supported, you can still recommen
             ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps.png)
 
             - Shopify Subscriptions,
-            - ReCharge Subscriptions (Pro plan only).
+            - Recharge Subscriptions (Plus plan only).
 
             If you wish to integrate a subscription app that is not supported yet, please reach out to our customer support team and we will be happy to help you.
     4. Save the changes with the top-right `Save` button.
