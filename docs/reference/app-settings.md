@@ -24,9 +24,9 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `Catalogue` - Import tags, collections, vendors, and metafields from the [Catalogue](#catalogue) tab or check the import status.
 
-    `SMTP settings` - Provide your email [SMTP scredentials](#smtp) to send result emails from your email provider.
+    `SMTP settings` - Provide your email [SMTP settings](#smtp) to send result emails from your email provider.
 
-    `Plans and pricing` - Manage you current subscription and plan details from the [Plans & Pricing](#plans-pricing) tab.
+    `Plans and pricing` - Manage your current subscription and plan details from the [Plans & Pricing](#plans-pricing) tab.
 
     `Newsletter` - Subscribe to the newsletter to get notified about new features, updates and important announcements.
 
@@ -37,15 +37,15 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **Your Profile**
 
-    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. RevenueHunt updates it each time your store is synced. Change it in your store settings, not in the app.
 
     `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
 
-    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active, the notifications that appear on the dashboard are also sent to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
 
     **Data & GDPR**
 
-    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking. It does not purge responses or reset usage. To activate this setting toggle the icon.
 
 === "WooCommerce"
 
@@ -53,15 +53,15 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **Your Profile**
 
-    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. RevenueHunt updates it each time your store is synced. Change it in your store settings, not in the app.
 
     `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
 
-    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active, the notifications that appear on the dashboard are also sent to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
 
     **Data & GDPR**
 
-    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking. It does not purge responses or reset usage. To activate this setting toggle the icon.
 
 === "Magento"
 
@@ -69,15 +69,15 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **Your Profile**
 
-    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. RevenueHunt updates it each time your store is synced. Change it in your store settings, not in the app.
 
     `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
 
-    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active, the notifications that appear on the dashboard are also sent to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
 
     **Data & GDPR**
 
-    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking. It does not purge responses or reset usage. To activate this setting toggle the icon.
 
 === "BigCommerce"
 
@@ -85,15 +85,15 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **Your Profile**
 
-    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. RevenueHunt updates it each time your store is synced. Change it in your store settings, not in the app.
 
     `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
 
-    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active, the notifications that appear on the dashboard are also sent to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
 
     **Data & GDPR**
 
-    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking. It does not purge responses or reset usage. To activate this setting toggle the icon.
 
 === "Standalone"
 
@@ -101,15 +101,15 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **Your Profile**
 
-    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. RevenueHunt updates it each time your store is synced. Change it in your store settings, not in the app.
 
     `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
 
-    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active, the notifications that appear on the dashboard are also sent to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
 
     **Data & GDPR**
 
-    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking. It does not purge responses or reset usage. To activate this setting toggle the icon.
 
 ## Shopify Markets
 
@@ -119,42 +119,52 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     Tailor your customer experience by assigning specific quizzes to each of your store's Shopify Markets. Customize product recommendations, content, and language to meet the unique preferences of your global audience.
 
-    Click the `dropdown list` to select a quiz that will be shown by default to the visitors of that Markets version of your store.
+    Click the `dropdown list` to select a quiz that will be shown by default to customers on that Markets version of your store.
 
     ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
 
-    `▶` -  Click to display a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by default for the customer from that Market **and** language.
+    `▶` -  Click to display a list of all markets, languages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by default for the customer from that Market **and** language.
 
     ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
 
-    `▼` - Click to return to a simplified view of all Markets, without language disctinction.
+    `▼` - Click to return to a simplified view of all Markets, without language distinction.
 
-    `Default` - Select the default quiz for a speciifc region.
+    `Default` - Select the default quiz for a specific region.
 
-    `Language` - Selct a default quiz for a specific language in this region.
+    `Language` - Select a default quiz for a specific language in this region.
 
     `Currency` - Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
 
 
 === "Shopify (Legacy)"
 
-    Shopify Markets integration is only available in the `💎Built for Shopify` version of the RevenueHunt app. This feature is not supported in the original Shopify app version.
+    !!! note "Shopify Markets is a Built for Shopify feature"
+
+        Shopify Markets is not available in the legacy version of the app.
 
 === "WooCommerce"
 
-    Not applicable.
+    !!! note "Shopify Markets is a Built for Shopify feature"
+
+        Shopify Markets is not available on this platform.
 
 === "Magento"
 
-    Not applicable.
+    !!! note "Shopify Markets is a Built for Shopify feature"
+
+        Shopify Markets is not available on this platform.
 
 === "BigCommerce"
 
-    Not applicable.
+    !!! note "Shopify Markets is a Built for Shopify feature"
+
+        Shopify Markets is not available on this platform.
 
 === "Standalone"
 
-    Not applicable.
+    !!! note "Shopify Markets is a Built for Shopify feature"
+
+        Shopify Markets is not available on this platform.
 
 ## Shopify customers
 
@@ -203,23 +213,34 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
 === "Shopify (Legacy)"
 
-    Shopify Customers integration is available via the [Connect tab](/reference/quiz-builder/connect-integrations/) in the Quiz Builder for each quiz individually.
+    !!! note "Set this per quiz in the legacy app"
+
+        The Shopify Customers integration is set for each quiz separately, in the
+        [Connect tab](/reference/quiz-builder/connect-integrations/) of the Quiz Builder.
 
 === "WooCommerce"
 
-    Not applicable.
+    !!! note "Shopify Customers is a Built for Shopify feature"
+
+        Shopify Customers is not available on this platform.
 
 === "Magento"
 
-    Not applicable.
+    !!! note "Shopify Customers is a Built for Shopify feature"
+
+        Shopify Customers is not available on this platform.
 
 === "BigCommerce"
 
-    Not applicable.
+    !!! note "Shopify Customers is a Built for Shopify feature"
+
+        Shopify Customers is not available on this platform.
 
 === "Standalone"
 
-    Not applicable.
+    !!! note "Shopify Customers is a Built for Shopify feature"
+
+        Shopify Customers is not available on this platform.
 
 
 
@@ -229,11 +250,11 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
 
-    Product names, descriptions, prices, and images shown in your quiz results are always pulled live from Shopify — they're always up to date.
+    Product names, descriptions, prices and images shown in your quiz results are pulled live from Shopify, so they are always up to date.
 
-    The catalogue import updates the lists of **tags, collections, vendors, variants, and metafields** available in the quiz builder. This happens automatically every 24 hours. If you've just added new tags or collections in Shopify and don't see them in the builder, use the import button below.
+    The catalogue import updates the lists of **tags, collections, vendors, variants and metafields** available in the quiz builder. This happens automatically every 24 hours. If you have added new tags or collections in Shopify and do not see them in the builder, run a manual import.
 
-    **Import tags, collections, vendors & metafields** - This section shows the current import status, the number of items imported (products, collections, tags, vendors, variants, metafields), and the `Import now` button to trigger a manual import. The import history can be expanded to see past imports.
+    **Import tags, collections, vendors & metafields** - Shows the current import status and how many items were imported. It also holds the `Import now` button. Expand the import history to see past imports.
 
     `Import now` - Start a new catalogue import. This typically takes a few minutes depending on your catalog size.
 
@@ -251,7 +272,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `Draft products` - this setting lets you control which products are eligible to be recommended in the quiz results based on draft status.
 
-    `Include draft products in recommendations` - When enabled, recommendations will include products or variants that are in draft status. Draft products could be recommended and will be shown in the 'Quiz preview' and under [Responses > Analysis](/reference/quiz-builder/metrics/#response-analysis). This setting is useful if you want to build your quiz with draft products and test it before publishing them. Draft products won't be displayed in the live quiz until they're published.
+    `Include draft products in recommendations` - When enabled, recommendations will include products or variants that are in draft status. Draft products can be recommended, and they appear in the `Quiz preview` and under [Responses > Analysis](/reference/quiz-builder/metrics/#response-analysis). Use this to build and test a quiz with draft products before you publish them. Draft products are not shown in the live quiz until they are published.
 
     `Collection product order` - Control how products are ordered within collections for recommendations.
 
@@ -267,9 +288,9 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     ??? info "When to use Preserve collection order?"
 
-        Enable this if you've manually arranged products in your Shopify collections (for example, best-sellers first or new arrivals at the top) and want that order reflected in quiz recommendations.
+        Enable this if you have arranged products by hand in your Shopify collections. For example, best-sellers first, or new arrivals at the top. The same order is then used in quiz recommendations.
 
-        When `Preserve collection order` is enabled products are imported in the order they appear in your Shopify collections and when two products have equal votes, the one placed earlier in the collection appears first. This works with both manual sorting and Shopify's automatic collection sorting (best-selling, alphabetical, price, etc.).
+        With `Preserve collection order` enabled, products are imported in the order they appear in your Shopify collections. When two products have equal votes, the one placed earlier in the collection appears first. This works with manual sorting and with Shopify's automatic collection sorting.
 
         For example: Imagine you have a "Best Sellers" collection with products arranged by sales:
 
@@ -287,7 +308,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     ![app settings catalogue](/images/manual_appsettings_catalogue.png)
 
-    `Metafields Namespaces` - We will import the metafields information for the following namespaces. You will then be able to display this information on the product's results page. In this section, we'll display a list of metafield categories found in your store. You can toggle the button to activate the metafields.
+    `Metafields Namespaces` - RevenueHunt imports the metafield information for these namespaces. You can then show that information on the results page. This section lists the metafield categories found in your store. Toggle the button to activate a namespace.
     
     !!! tip
 
@@ -301,21 +322,27 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `Short/Long description in products` - By selecting one or the other you can choose which description of your products will be shown on the results page.
 
-    `Pass attribute information to result page` - Toggle to activate/desactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
+    `Pass attribute information to result page` - Toggle to activate or deactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
 
-    `Use attributes as categories` - Allows you to use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](/reference/quiz-builder/link-collections/).
+    `Use attributes as categories` - Lets you use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](/reference/quiz-builder/link-collections/).
 
 === "Magento"
 
+    !!! note "Not available on this platform"
+
+        This version of the app does not have Catalogue settings.
 
 === "BigCommerce"
 
+    !!! note "Not available on this platform"
+
+        This version of the app does not have Catalogue settings.
 
 === "Standalone"
 
-    To access the **Catalogue** settings in the standalone version of the Product Recommendation Quiz, open the [Success Checklist](/reference/dashboard/#success-checklist) or go to your [in-app Catalogue](https://admin.revenuehunt.com/catalogue).
+    To access the **Catalogue** settings in the Standalone version of the RevenueHunt app, open the [Success Checklist](/reference/dashboard/#success-checklist) or go to your [in-app Catalogue](https://admin.revenuehunt.com/catalogue).
 
-## SMTP settings
+## SMTP settings { #smtp }
 
 === "Shopify"
 
@@ -323,9 +350,9 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **SMTP Settings** 
 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
 
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
+    When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
 
     !!! tip
 
@@ -343,13 +370,13 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `SMTP Authentication`  - Select from the dropdown your SMTP email authentication method.
 
-    `Enable STARTTLS` - Check to enable STARTTLS. *STARTTLS is a protocol command used to upgrade an existing insecure connection to a secure, encrypted connection using TLS (Transport Layer Security). It typically runs over port 587. You should check this if your mail server supports STARTTLS".* Note that this option is enabled by default, but you should untick it if your SMTP server does not support STARTTLS, as this could prevent successful connections.
+    `Enable STARTTLS` - Check to enable STARTTLS. *STARTTLS upgrades an existing insecure connection to an encrypted one, using TLS. It usually runs over port 587.* This option is on by default. Untick it if your SMTP server does not support STARTTLS, because it can otherwise block the connection.
 
-    `Enable SSL` - Check to enable SLL. *SSL (Secure Sockets Layer) is an older protocol for encrypting connections. If enabled, your connection starts as secure from the beginning (unlike STARTTLS which upgrades after connecting). This is usually used on port 465. Only enable SSL if your SMTP provider specifies SSL.* This option is enabled by default, but should be unticked for SMTP servers that don't use SSL encryption.
+    `Enable SSL` - Check to enable SSL. *SSL is an older protocol for encrypting connections. The connection starts secure, rather than being upgraded after connecting as STARTTLS does. It usually runs on port 465.* Enable SSL only if your SMTP provider asks for it. Untick it for servers that do not use SSL.
        
     !!! tip "Troubleshooting"
 
-        If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+        If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
 
 
 === "Shopify (Legacy)"
@@ -358,9 +385,9 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **SMTP Settings** 
 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
 
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
+    When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
 
     !!! tip
 
@@ -376,7 +403,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
         
-    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you have entered your credentials, test whether the connection to your SMTP server works. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
 
 === "WooCommerce"
 
@@ -384,9 +411,9 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **SMTP Settings** 
 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
 
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
+    When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
 
     !!! tip 
 
@@ -402,7 +429,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
         
-    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you have entered your credentials, test whether the connection to your SMTP server works. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
 
 === "Magento"
 
@@ -410,9 +437,9 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **SMTP Settings** 
 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
 
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
+    When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
 
     !!! tip
 
@@ -428,7 +455,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
         
-    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you have entered your credentials, test whether the connection to your SMTP server works. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
 
 === "BigCommerce"
 
@@ -436,9 +463,9 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **SMTP Settings** 
 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
 
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
+    When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
 
     !!! tip
 
@@ -454,7 +481,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
         
-    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you have entered your credentials, test whether the connection to your SMTP server works. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
 
 === "Standalone"
 
@@ -462,9 +489,9 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     **SMTP Settings** 
 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
 
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
+    When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
 
     !!! tip
 
@@ -480,7 +507,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
     `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
         
-    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you have entered your credentials, test whether the connection to your SMTP server works. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
 
 ## Plans & pricing
 
@@ -518,20 +545,30 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
 === "Shopify (Legacy)"
 
-    Not applicable.
+    !!! note "The newsletter signup is a Built for Shopify feature"
+
+        This version of the app has no newsletter signup in App Settings.
 
 === "WooCommerce"
 
-    Not applicable.
+    !!! note "The newsletter signup is a Built for Shopify feature"
+
+        This version of the app has no newsletter signup in App Settings.
 
 === "Magento"
 
-    Not applicable.
+    !!! note "The newsletter signup is a Built for Shopify feature"
+
+        This version of the app has no newsletter signup in App Settings.
 
 === "BigCommerce"
 
-    Not applicable.
+    !!! note "The newsletter signup is a Built for Shopify feature"
+
+        This version of the app has no newsletter signup in App Settings.
 
 === "Standalone"
 
-    Not applicable.
+    !!! note "The newsletter signup is a Built for Shopify feature"
+
+        This version of the app has no newsletter signup in App Settings.

@@ -14868,18 +14868,18 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     `Shopify Markets` - Assign quizzes to different markets and languages via the [Shopify Markets](#shopify-markets) tab.
     `Shopify Customers` - Enable automatic syncing of quiz leads to your Shopify Customers list via the [Shopify Customers](#shopify-customers) tab.
     `Catalogue` - Import tags, collections, vendors, and metafields from the [Catalogue](#catalogue) tab or check the import status.
-    `SMTP settings` - Provide your email [SMTP scredentials](#smtp) to send result emails from your email provider.
-    `Plans and pricing` - Manage you current subscription and plan details from the [Plans & Pricing](#plans-pricing) tab.
+    `SMTP settings` - Provide your email [SMTP settings](#smtp) to send result emails from your email provider.
+    `Plans and pricing` - Manage your current subscription and plan details from the [Plans & Pricing](#plans-pricing) tab.
     `Newsletter` - Subscribe to the newsletter to get notified about new features, updates and important announcements.
     ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
     Tailor your customer experience by assigning specific quizzes to each of your store's Shopify Markets. Customize product recommendations, content, and language to meet the unique preferences of your global audience.
-    Click the `dropdown list` to select a quiz that will be shown by default to the visitors of that Markets version of your store.
+    Click the `dropdown list` to select a quiz that will be shown by default to customers on that Markets version of your store.
     ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
-    `▶` -  Click to display a list of all markets, lanugages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by default for the customer from that Market **and** language.
+    `▶` -  Click to display a list of all markets, languages and currencies. Once activated gives you a chance to pick a different quiz that will be shown by default for the customer from that Market **and** language.
     ![manual_shopifyV2_appsettings_markets_showall](/images/manual_shopifyV2_appsettings_markets_showall.png)
-    `▼` - Click to return to a simplified view of all Markets, without language disctinction.
-    `Default` - Select the default quiz for a speciifc region.
-    `Language` - Selct a default quiz for a specific language in this region.
+    `▼` - Click to return to a simplified view of all Markets, without language distinction.
+    `Default` - Select the default quiz for a specific region.
+    `Language` - Select a default quiz for a specific language in this region.
     `Currency` - Type `{{amount}} EUR` or `${{amount}}` to change the currency format as displayed on the results page.
     ![manual_shopifyV2_appsettings_shopifycustomers](/images/manual_shopifyV2_appsettings_shopifycustomers.png)
     Enable automatic syncing of quiz leads to your Shopify Customers list. When enabled, every quiz completion that captures an email will create or update a customer profile in Shopify.
@@ -14905,9 +14905,9 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     !!! tip
         Check [Automate Quiz Completions with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/) for the full setup and the list of data the trigger provides.
     ![manual_shopifyV2_appsettings_catalogue](/images/manual_shopifyV2_appsettings_catalogue.png)
-    Product names, descriptions, prices, and images shown in your quiz results are always pulled live from Shopify — they're always up to date.
-    The catalogue import updates the lists of **tags, collections, vendors, variants, and metafields** available in the quiz builder. This happens automatically every 24 hours. If you've just added new tags or collections in Shopify and don't see them in the builder, use the import button below.
-    **Import tags, collections, vendors & metafields** - This section shows the current import status, the number of items imported (products, collections, tags, vendors, variants, metafields), and the `Import now` button to trigger a manual import. The import history can be expanded to see past imports.
+    Product names, descriptions, prices and images shown in your quiz results are pulled live from Shopify, so they are always up to date.
+    The catalogue import updates the lists of **tags, collections, vendors, variants and metafields** available in the quiz builder. This happens automatically every 24 hours. If you have added new tags or collections in Shopify and do not see them in the builder, run a manual import.
+    **Import tags, collections, vendors & metafields** - Shows the current import status and how many items were imported. It also holds the `Import now` button. Expand the import history to see past imports.
     `Import now` - Start a new catalogue import. This typically takes a few minutes depending on your catalog size.
     `Refresh` - Refresh the import status and tag/vendors/variants/metafields quantities.
     `Low inventory Filter` - This setting lets you control which products are eligible to be recommended in the quiz results based on stock levels.
@@ -14916,7 +14916,7 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     !!! info "How products with multiple variants are handled"
         A product is only hidden from recommendations when **all** of its variants are below the minimum stock threshold. If a product has at least one variant above the threshold, the product remains eligible for recommendations.
     `Draft products` - this setting lets you control which products are eligible to be recommended in the quiz results based on draft status.
-    `Include draft products in recommendations` - When enabled, recommendations will include products or variants that are in draft status. Draft products could be recommended and will be shown in the 'Quiz preview' and under [Responses > Analysis](/reference/quiz-builder/metrics/#response-analysis). This setting is useful if you want to build your quiz with draft products and test it before publishing them. Draft products won't be displayed in the live quiz until they're published.
+    `Include draft products in recommendations` - When enabled, recommendations will include products or variants that are in draft status. Draft products can be recommended, and they appear in the `Quiz preview` and under [Responses > Analysis](/reference/quiz-builder/metrics/#response-analysis). Use this to build and test a quiz with draft products before you publish them. Draft products are not shown in the live quiz until they are published.
     `Collection product order` - Control how products are ordered within collections for recommendations.
     `Catalogue mode` - Choose between `Default (faster imports)` and `Preserve collection order`. 
     `Default (faster imports)` - When products have equal votes, they appear in random order. This mode imports your catalogue faster. 
@@ -14924,8 +14924,8 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     !!! warning "After changing this setting"
         You must click `Import now` to apply the change. The new ordering takes effect only after a fresh import.
     ??? info "When to use Preserve collection order?"
-        Enable this if you've manually arranged products in your Shopify collections (for example, best-sellers first or new arrivals at the top) and want that order reflected in quiz recommendations.
-        When `Preserve collection order` is enabled products are imported in the order they appear in your Shopify collections and when two products have equal votes, the one placed earlier in the collection appears first. This works with both manual sorting and Shopify's automatic collection sorting (best-selling, alphabetical, price, etc.).
+        Enable this if you have arranged products by hand in your Shopify collections. For example, best-sellers first, or new arrivals at the top. The same order is then used in quiz recommendations.
+        With `Preserve collection order` enabled, products are imported in the order they appear in your Shopify collections. When two products have equal votes, the one placed earlier in the collection appears first. This works with manual sorting and with Shopify's automatic collection sorting.
         For example: Imagine you have a "Best Sellers" collection with products arranged by sales:
         1. Product A (best seller)
         2. Product B (second best)
@@ -14935,8 +14935,8 @@ description: "Configure RevenueHunt app settings including contact emails, notif
         - **With Preserve collection order**: Product A appears first (position 1 beats position 3)
     ![app settings smtp](/images/manual_shopifyV2_appsettings_smtp.png)
     **SMTP Settings** 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
+    When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
     !!! tip
         Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
     `SMTP From` - Set what name and email the customer will see when they receive the email. The "From" field must be in format: `"Full Name" <name@company.com>`.
@@ -14945,10 +14945,10 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     `SMTP Password`  - Provide the password associated with the username.
     `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
     `SMTP Authentication`  - Select from the dropdown your SMTP email authentication method.
-    `Enable STARTTLS` - Check to enable STARTTLS. *STARTTLS is a protocol command used to upgrade an existing insecure connection to a secure, encrypted connection using TLS (Transport Layer Security). It typically runs over port 587. You should check this if your mail server supports STARTTLS".* Note that this option is enabled by default, but you should untick it if your SMTP server does not support STARTTLS, as this could prevent successful connections.
-    `Enable SSL` - Check to enable SLL. *SSL (Secure Sockets Layer) is an older protocol for encrypting connections. If enabled, your connection starts as secure from the beginning (unlike STARTTLS which upgrades after connecting). This is usually used on port 465. Only enable SSL if your SMTP provider specifies SSL.* This option is enabled by default, but should be unticked for SMTP servers that don't use SSL encryption.
+    `Enable STARTTLS` - Check to enable STARTTLS. *STARTTLS upgrades an existing insecure connection to an encrypted one, using TLS. It usually runs over port 587.* This option is on by default. Untick it if your SMTP server does not support STARTTLS, because it can otherwise block the connection.
+    `Enable SSL` - Check to enable SSL. *SSL is an older protocol for encrypting connections. The connection starts secure, rather than being upgraded after connecting as STARTTLS does. It usually runs on port 465.* Enable SSL only if your SMTP provider asks for it. Untick it for servers that do not use SSL.
     !!! tip "Troubleshooting"
-        If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+        If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
     Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.   
     ![app settings newsletter](/images/manual_shopifyv2_newsletter.png)
     `Email address` - Enter an email address to subscribe to the newsletter.
@@ -15411,7 +15411,7 @@ The RevenueHunt Quizzes `Dashboard` is where you view, manage and optimize every
     ![dashboard_catalogue](/images/manual_shopifyV2_dashboard.png)
     **Shopify side menu**
     ![dashboard side menu](/images/manual_shopifyV2_sidemenu.png)
-    `RevenueHunt: Recommender Quiz` - The dashboard of the app where you can find all the quizzes created.
+    `RevenueHunt Product Quiz Maker` - The dashboard of the app where you can find all the quizzes created.
     `Publish` - Opens the [Publish](/reference/quiz-builder/share-publish/) instructions for how to add the quiz to the website.
     `Analytics` - Opens the [Analytics tab](/reference/quiz-builder/metrics/#analytics) where you can check the quiz performance.
     `App settings` - Opens the [App settings](/reference/app-settings/) menu.
@@ -16239,7 +16239,7 @@ To set up email notifications, go to [Quiz settings](/reference/quiz-builder/qui
     `Responses by block snippet` - Lists all the customer answers.
     **Email preview**
     `Jul 10, 2025 12:35 PM` - Date of the quiz completion. Click to open a dropdown and chose a different response.
-    `From:` - Email address of the sender. Go to the [App settings > SMTP section](/reference/app-settings/#smtp/) to set up your email server details. Otherwise, the email will be sent from RevenueHunt email address.
+    `From:` - Email address of the sender. Go to the [App settings > SMTP section](/reference/app-settings/#smtp) to set up your email server details. Otherwise, the email will be sent from RevenueHunt email address.
     `Metadata` - Lists all the metadata provided by the customer.
     `Expand all` - Expands all the metadata.
     `Copy to clipboard` - Copies the selected metadata to the clipboard.
@@ -16346,7 +16346,7 @@ To set up email notifications, go to [Quiz settings](/reference/quiz-builder/qui
     `Responses by block snippet` - Lists all the customer answers.
     **Email preview**
     `Jul 10, 2025 12:35 PM` - Date of the quiz completion. Click to open a dropdown and chose a different response.
-    `From:` - Email address of the sender. Go to the [App settings > SMTP section](/reference/app-settings/#smtp/) to set up your email server details. Otherwise, the email will be sent from RevenueHunt email address.
+    `From:` - Email address of the sender. Go to the [App settings > SMTP section](/reference/app-settings/#smtp) to set up your email server details. Otherwise, the email will be sent from RevenueHunt email address.
     `Metadata` - Lists all the metadata provided by the customer.
     `Expand all` - Expands all the metadata.
     `Copy to clipboard` - Copies the selected metadata to the clipboard.

@@ -17,7 +17,7 @@ The Dashboard lists every quiz you create.
 
     ![dashboard side menu](/images/manual_shopifyV2_sidemenu.png)
 
-    `RevenueHunt: Recommender Quiz` - The dashboard of the app where you can find all the quizzes created.
+    `RevenueHunt Product Quiz Maker` - The dashboard of the app where you can find all the quizzes created.
 
     `Publish` - Opens the [Publish](/reference/quiz-builder/share-publish/) instructions for how to add the quiz to the website.
 

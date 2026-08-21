@@ -24597,54 +24597,66 @@ description: "Configure RevenueHunt app settings including contact emails, notif
 
 ![app settings general](/images/manual_appsettings_general.png)
     **Your Profile**
-    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. RevenueHunt updates it each time your store is synced. Change it in your store settings, not in the app.
     `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
-    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active, the notifications that appear on the dashboard are also sent to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
     **Data & GDPR**
-    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking. It does not purge responses or reset usage. To activate this setting toggle the icon.
     ![app settings general](/images/manual_appsettings_general.png)
     **Your Profile**
-    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. RevenueHunt updates it each time your store is synced. Change it in your store settings, not in the app.
     `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
-    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active, the notifications that appear on the dashboard are also sent to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
     **Data & GDPR**
-    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking. It does not purge responses or reset usage. To activate this setting toggle the icon.
     ![app settings general](/images/manual_appsettings_general.png)
     **Your Profile**
-    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. RevenueHunt updates it each time your store is synced. Change it in your store settings, not in the app.
     `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
-    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active, the notifications that appear on the dashboard are also sent to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
     **Data & GDPR**
-    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking. It does not purge responses or reset usage. To activate this setting toggle the icon.
     ![app settings general](/images/manual_appsettings_general.png)
     **Your Profile**
-    `Shop email` - Your main store contact email. We automatically update this email each time we sync your store. You can change this email in your store settings (not the app).
+    `Shop email` - Your main store contact email. RevenueHunt updates it each time your store is synced. Change it in your store settings, not in the app.
     `Your best email` -  Provide your best email (not your store email) for communication in case of issues.
-    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active we will send the notifications that appear on the dashboard to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
+    `Send notifications to email` - Toggle the button to activate the notification emails to your best email. Once active, the notifications that appear on the dashboard are also sent to your best email. For example, in case you go over your plan's limits, CSV export completions or connection issues.
     **Data & GDPR**
-    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking; it does not purge responses or reset usage. To activate this setting toggle the icon.
+    `Anonymize quiz responses after 30 days` - Some jurisdictions require merchants to remove Personal Identifiable Information (PII) from stored customer data upon request. To comply with GDPR legislation, you can choose to anonymize quiz responses by automatically deleting PII from responses 30 days after collection. This keeps non-personal response records for analytics and usage tracking. It does not purge responses or reset usage. To activate this setting toggle the icon.
 ## Shopify Markets
-    Not applicable.
-    Not applicable.
-    Not applicable.
-    Not applicable.
+    !!! note "Shopify Markets is a Built for Shopify feature"
+        Shopify Markets is not available on this platform.
+    !!! note "Shopify Markets is a Built for Shopify feature"
+        Shopify Markets is not available on this platform.
+    !!! note "Shopify Markets is a Built for Shopify feature"
+        Shopify Markets is not available on this platform.
+    !!! note "Shopify Markets is a Built for Shopify feature"
+        Shopify Markets is not available on this platform.
 ## Shopify customers
-    Not applicable.
-    Not applicable.
-    Not applicable.
-    Not applicable.
+    !!! note "Shopify Customers is a Built for Shopify feature"
+        Shopify Customers is not available on this platform.
+    !!! note "Shopify Customers is a Built for Shopify feature"
+        Shopify Customers is not available on this platform.
+    !!! note "Shopify Customers is a Built for Shopify feature"
+        Shopify Customers is not available on this platform.
+    !!! note "Shopify Customers is a Built for Shopify feature"
+        Shopify Customers is not available on this platform.
 ## Catalogue
     ![manual_appsettings_catalogue_woo](/images/manual_appsettings_catalogue_woo.png)
     **What information to pull from your products** - Choose custom settings for your products within the app.
     `Short/Long description in products` - By selecting one or the other you can choose which description of your products will be shown on the results page.
-    `Pass attribute information to result page` - Toggle to activate/desactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
-    `Use attributes as categories` - Allows you to use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](/reference/quiz-builder/link-collections/).
-    To access the **Catalogue** settings in the standalone version of the Product Recommendation Quiz, open the [Success Checklist](/reference/dashboard/#success-checklist) or go to your [in-app Catalogue](https://admin.revenuehunt.com/catalogue).
-## SMTP settings
+    `Pass attribute information to result page` - Toggle to activate or deactivate. Once this option is active, the app will pass attributes to your results page. You need to [run a catalog sync](/how-to-guides/sync-catalog/) after activating this option. Follow this article to learn how to show these attributes on the results page once they are synced: [How to Add Product Metafields](/how-to-guides/add-product-metafields/).
+    `Use attributes as categories` - Lets you use your store's attributes to group products into categories that can be then linked to choices via the [Link Collections/Link Categories tab](/reference/quiz-builder/link-collections/).
+    !!! note "Not available on this platform"
+        This version of the app does not have Catalogue settings.
+    !!! note "Not available on this platform"
+        This version of the app does not have Catalogue settings.
+    To access the **Catalogue** settings in the Standalone version of the RevenueHunt app, open the [Success Checklist](/reference/dashboard/#success-checklist) or go to your [in-app Catalogue](https://admin.revenuehunt.com/catalogue).
+## SMTP settings { #smtp }
     ![app settings smtp](/images/manual_appsettings_smtp.png)
     **SMTP Settings** 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
+    When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
     !!! tip 
         Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
@@ -24652,11 +24664,11 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     `SMTP Username` - Set your SMTP Username.
     `SMTP Password`  - Provide the password associated with the username.
     `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
-    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you have entered your credentials, test whether the connection to your SMTP server works. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
     ![app settings smtp](/images/manual_appsettings_smtp.png)
     **SMTP Settings** 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
+    When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
     !!! tip
         Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
@@ -24664,11 +24676,11 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     `SMTP Username` - Set your SMTP Username.
     `SMTP Password`  - Provide the password associated with the username.
     `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
-    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you have entered your credentials, test whether the connection to your SMTP server works. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
     ![app settings smtp](/images/manual_appsettings_smtp.png)
     **SMTP Settings** 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
+    When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
     !!! tip
         Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
@@ -24676,11 +24688,11 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     `SMTP Username` - Set your SMTP Username.
     `SMTP Password`  - Provide the password associated with the username.
     `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
-    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you have entered your credentials, test whether the connection to your SMTP server works. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
     ![app settings smtp](/images/manual_appsettings_smtp.png)
     **SMTP Settings** 
-    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that enables third-party apps (e.g. RevenueHunt: Product Recommendation Quiz) to send emails through your email server.
-    When you connect the RevenueHunt app to your SMTP Server, the follow-up emails with the quiz results that are sent to your customers won't be sent from our *no-reply@prq.email* email account, they'll be sent from your email account. 
+    SMTP stands for Simple Mail Transfer Protocol. SMTP is a connection protocol that lets third-party apps, such as the RevenueHunt app, send emails through your email server.
+    When you connect the RevenueHunt app to your SMTP server, the result emails stop being sent from the *no-reply@prq.email* account. They are sent from your own email account instead. 
     !!! tip
         Check [How to Send Result Emails from your own server](/how-to-guides/send-result-emails-from-custom-server/) for detailed instructions on how to set this up.
     `Name to display(From):` - Set what name and email the customer will see when they receive the email.
@@ -24688,17 +24700,21 @@ description: "Configure RevenueHunt app settings including contact emails, notif
     `SMTP Username` - Set your SMTP Username.
     `SMTP Password`  - Provide the password associated with the username.
     `SMTP Port` - Set the SMTP port (25, 465, 587 or 2525)
-    `test connection & activate` - Once you've provided all your credentials you can test if the connection to your SMTP server is successful. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work as intended there, they should work on our end, too. If you're having issues, please get in touch with your developer / SMTP provider.
+    `test connection & activate` - Once you have entered your credentials, test whether the connection to your SMTP server works. If you see an error check your SMTP settings with the help of a third-party tool such as [Gmass](https://www.gmass.co/smtp-test) or any other SMTP test site. If your settings work there, they should work in the app too. If you still have problems, contact your developer or your SMTP provider.
 ## Plans & pricing
     Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
     Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
     Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.
     Check [Plans & Pricing](/reference/plans-pricing/) for more information on the different plans and pricing options available.   
 ## Newsletter
-    Not applicable.
-    Not applicable.
-    Not applicable.
-    Not applicable.
+    !!! note "The newsletter signup is a Built for Shopify feature"
+        This version of the app has no newsletter signup in App Settings.
+    !!! note "The newsletter signup is a Built for Shopify feature"
+        This version of the app has no newsletter signup in App Settings.
+    !!! note "The newsletter signup is a Built for Shopify feature"
+        This version of the app has no newsletter signup in App Settings.
+    !!! note "The newsletter signup is a Built for Shopify feature"
+        This version of the app has no newsletter signup in App Settings.
 
 
 
