@@ -112,7 +112,7 @@ In this guide, we’ll walk you through everything you need to know about transi
 
 5. Confirm app access and permissions. 
 6. From the `Built for Shopify` version, you can easily switch back to the legacy version of the app following the same steps.
-7. If you find that you prefer the Legacy app, you can easily [switch back through the same settings](/reference/dashboard/#switch-to-v1). We will continue to maintain it for years to come.
+7. If you find that you prefer the Legacy app, you can easily [switch back through the same settings](/reference/dashboard/#switch-to-legacy). We will continue to maintain it for years to come.
 
 !!! info "Support"
 

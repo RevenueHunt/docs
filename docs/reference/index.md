@@ -1,86 +1,58 @@
 ---
-description: "Complete RevenueHunt app manual covering the dashboard, quiz builder, plans and pricing, app settings, and accessibility features."
+description: "Complete RevenueHunt app manual covering the dashboard, quiz builder, plans and pricing, app settings, accessibility, CSS structure and the glossary."
 ---
 
 # App Manual
 
-Discover all the app's functions
+This manual explains every screen, button and setting in the RevenueHunt app.
 
-This is an app manual. You'll find here an explanation of all the buttons and functions of the app.
+## [Dashboard](/reference/dashboard/)
 
-## [Dashboard](dashboard/)
-
-On the dashboard, you'll find all the quizzes that you create. From the dashboard, you can run a catalog sync, check the success checklist, or create a new quiz.
-
-[:fontawesome-solid-arrow-right: continue reading](dashboard/)
+The Dashboard lists every quiz you create. From there you can run a catalog sync, work through the Success Checklist, or create a new quiz.
 
 ## [Quiz builder](/reference/quiz-builder/)
 
-In Quiz Builder you'll create your quiz. Via the Quiz Builder, you can add questions to your quiz, link products, edit the results page, language, currency, or set up integrations and results emails.
+The Quiz Builder is where you build a quiz.
 
-Quiz Builder is composed of the following sections:
+### Build the quiz
 
-### [Questions](/reference/quiz-builder/questions/)
+- **[Questions](/reference/quiz-builder/questions/)** - Add and edit the questions in your quiz
+- **[Link products and collections](/reference/quiz-builder/link-collections/)** - Link individual products, whole collections, or product tags to individual choices
+- **[Customer tags](/reference/quiz-builder/customer-tags/)** - Create the tags that a choice applies to a customer
+- **[Conditional logic](/reference/quiz-builder/conditional-logic/)** - Send customers down different paths with Jump Logic and Skip Logic
 
-This is where you'll add questions/slides to your quiz..
+### Design what the customer sees
 
-### [Link products/ collections](/reference/quiz-builder/link-collections/)
+- **[Quiz design](/reference/quiz-builder/quiz-design/)** - Style the quiz to match your store
+- **[Results page](/reference/quiz-builder/results-page/)** - Edit what a customer sees after the last question
 
-This is where you'll link individual products or entire collections or tags of products from your store to individual choices.
+### Publish and follow up
 
-### [Customer tags](/reference/quiz-builder/link-collections/#customer-tags) 
+- **[Quiz settings](/reference/quiz-builder/quiz-settings/)** - Change the currency, the language, and other settings that apply to the whole quiz
+- **[Notifications](/reference/quiz-builder/notifications/)** - Set up the emails sent when a customer finishes the quiz
+- **[Connect](/reference/quiz-builder/connect-integrations/)** - Connect the quiz to other tools, such as Klaviyo or Google Analytics
+- **[Share](/reference/quiz-builder/share-publish/)** - Choose how to publish the quiz on your website, or share it as a link
 
-This is where you'll create custom tags to link to individual choices.
+### Measure
 
-### [Conditional logic](/reference/quiz-builder/conditional-logic/)
+- **[Metrics](/reference/quiz-builder/metrics/)** - See how your quiz performs, and read individual quiz responses
 
-This is where you'll create branching in your quiz.
+## [Plans & pricing](/reference/plans-pricing/)
 
-### [Quiz design](/reference/quiz-builder/quiz-design/) 
+See the details of every pricing plan, and upgrade or downgrade your account.
 
-This is where you'll style your quiz.
+## [App settings](/reference/app-settings/)
 
-### [Results page](/reference/quiz-builder/results-page/)
+Adjust your contact details, set up Shopify Markets, change GDPR settings, or connect your SMTP server.
 
-This is where you'll edit your results page.
+## [Accessibility](/reference/accessibility/)
 
-### [Notifications](/reference/quiz-builder/notifications/) 
+RevenueHunt quizzes follow WCAG 2.1 Level AAA guidelines. Learn how they support keyboard navigation, screen readers, color contrast and right-to-left languages.
 
-This is where you'll set up your quiz result emails.
+## [CSS structure](/reference/css-structure/)
 
-### [Quiz settings](/reference/quiz-builder/quiz-settings/)
+The CSS classes and selectors you can target when you style a quiz with your own CSS.
 
-This is where you'll change the currency, language, and other global settings of the quiz.
+## [Glossary](/reference/glossary/)
 
-### [Connect](/reference/quiz-builder/connect-integrations/)
-
-This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
-
-### [Share](/reference/quiz-builder/share-publish/)
-
-This is where you'll choose how to publish the quiz on your website or share it.
-
-### [Metrics](/reference/quiz-builder/metrics/)
-
-This is where you'll check your quiz metrics and responses.
-
-[:fontawesome-solid-arrow-right: continue reading](quiz-builder/)
-
-## [Plans & pricing](plans-pricing/)
-
-In the Plans & Pricing section, you can find details of our pricing plans and upgrade or downgrade your account's plan.
-
-[:fontawesome-solid-arrow-right: continue reading](plans-pricing/)
-
-## [App settings](app-settings/)
-
-In the App Settings section, you adjust your contact details, set up Shopify Markets, change GDPR settings or connect your SMTP server.
-
-[:fontawesome-solid-arrow-right: continue reading](app-settings/)
-
-## [Accessibility](accessibility/)
-
-Our quizzes are built with accessibility in mind, following WCAG 2.1 Level AA guidelines. Learn about keyboard navigation, screen reader support, color contrast, RTL language support, and other accessibility features.
-
-[:fontawesome-solid-arrow-right: continue reading](accessibility/)
-
+The name this documentation uses for every product term, and what each one means on your platform.

@@ -88,8 +88,8 @@ Rules that bind everywhere:
 | **multiple-choice** as an adjective | multiple choice question |
 | **drop-off** as a noun, **drop off** as a verb | dropoff |
 | **recurring** | reoccurring |
-| **lets you** (the merchant acts) | allows to |
-| **lets the customer** (the customer acts) | allows to |
+| **lets you** (the merchant acts) | allows to, allows you to |
+| **lets the customer** (the customer acts) | allows to, allows the customer to |
 | **you can** | you have the possibility to, it is possible to |
 | Mailchimp, Omnisend, ActiveCampaign, WooCommerce, HubSpot, JavaScript | MailChimp, OmniSend, Activecampaign, Javascript |
 

@@ -20,7 +20,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
     2. Grant permissions to connect our app to your Shopify.
     3. In your Shopify dashboard, go to “Apps” and click on the **RevenueHunt** to open it.
     4. Confirm app access and permissions. 
-    5. Follow the instructions in the [App Manual](/reference/app-settings/#switch-to-v1) to switch back to the original version of the app.
+    5. Follow the instructions in the [App Manual](/reference/dashboard/#switch-to-legacy) to switch back to the original version of the app.
 
     !!! info "For Shopify legacy app users"
     
@@ -30,7 +30,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
         2. From the right-hand side Shopify App menu, select `Switch to Built for Shopify`.
         3. Confirm app access and permissions.
         4. Follow the onboarding process to create and publish your quiz.
-        5. Follow the instructions in the [App Manual](/reference/app-settings/#switch-to-v1) to switch back to the original version of the app. When switching, all your changes will be saved on both app versions.
+        5. Follow the instructions in the [App Manual](/reference/dashboard/#switch-to-legacy) to switch back to the original version of the app. When switching, all your changes will be saved on both app versions.
 
         You can migrate existing quizzes from the legacy app using the **Migrate from Legacy App** option in the [New Quiz](/how-to-guides/migrate-shopify-legacy-quiz/) menu.
 
@@ -52,7 +52,7 @@ The app includes a Free plan and a 14-day free trial, with paid plans starting a
         2. From the right-hand side Shopify App menu, select `Switch to Built for Shopify`.
         3. Confirm app access and permissions.
         4. Follow the onboarding process to create and publish your quiz.
-        5. Follow the instructions in the [App Manual](/reference/app-settings/#switch-to-v1) to switch back to the original version of the app. When switching, all your changes will be saved on both app versions.
+        5. Follow the instructions in the [App Manual](/reference/dashboard/#switch-to-legacy) to switch back to the original version of the app. When switching, all your changes will be saved on both app versions.
 
         You can migrate existing quizzes from the legacy app using the **Migrate from Legacy App** option in the [New Quiz](/how-to-guides/migrate-shopify-legacy-quiz/) menu.
 

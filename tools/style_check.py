@@ -84,7 +84,10 @@ VENDORS = [
 ]
 
 DEAD_PHRASING = [
-    (r'\ballows? to\b', 'lets you, or lets the customer'),
+    # covers allows to, allows you to, allowing the customer to, and so on
+    (r'\ballow(?:s|ing)?\s+(?:(?:you|the customer|customers|the merchant|'
+     r'merchants|the user|users)\s+)?to\b',
+     'lets you, or lets the customer'),
     # covers is possible to, is not possible to, are not possible to
     (r'\b(?:is|are)(?: not)? possible to\b', 'you can, or you cannot'),
     (r'\bpossibility to\b', 'you can'),
