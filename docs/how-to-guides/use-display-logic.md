@@ -197,7 +197,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
         !!! info
 
-            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
+            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 
 
         !!! example "Example 2"
@@ -219,7 +219,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
         !!! info
 
-            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
+            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 
 
         !!! example "Example 3"
@@ -435,7 +435,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     To add scores or variables to choices, follow these steps:
 
     1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
-    2. Open the [Choice settings](/reference/quiz-builder/choice-settings/).
+    2. Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings).
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
 

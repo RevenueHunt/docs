@@ -140,7 +140,7 @@ How the workflow starts depends on which version of the app you use. The Built f
 
     Most workflows should not treat every respondent the same. Use a condition to split the workflow based on what someone answered, then run a different action on each side.
 
-    The cleanest thing to branch on is a [customer tag](/reference/quiz-builder/link-collections/#customer-tags), because you decide in the quiz builder exactly which answers produce which tag.
+    The cleanest thing to branch on is a [customer tag](/reference/quiz-builder/customer-tags/), because you decide in the quiz builder exactly which answers produce which tag.
 
     **First, tag the choices you want to branch on**
 

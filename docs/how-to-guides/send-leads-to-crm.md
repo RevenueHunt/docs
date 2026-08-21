@@ -11,7 +11,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
 ### [:fontawesome-brands-shopify: Shopify customers](/how-to-guides/send-leads-to-shopify-customers/)
 
-You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/link-collections/#customer-tags).
+You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/customer-tags/).
 
 [:fontawesome-solid-arrow-right: send leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) &nbsp;·&nbsp; [:fontawesome-solid-arrow-right: automate with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/)
 
@@ -29,7 +29,7 @@ By automatically sending quiz results to your HubSpot account, you can segment y
 
 ### [:fontawesome-brands-mailchimp: Mailchimp](/how-to-guides/send-leads-to-mailchimp/)
 
-Automating the transfer of quiz data to your Mailchimp account streamlines the process of segmenting your audience and enables targeted follow-up campaigns based on [customer tags](/reference/quiz-builder/link-collections/#customer-tags). Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
+Automating the transfer of quiz data to your Mailchimp account streamlines the process of segmenting your audience and enables targeted follow-up campaigns based on [customer tags](/reference/quiz-builder/customer-tags/). Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-mailchimp/)
 

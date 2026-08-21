@@ -21,7 +21,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     !!! info "What data is sent to Mailchimp"
 
-        Mailchimp receives the contact's **email**, **first name**, **last name** and **phone number** when provided. Quiz [customer tags](/reference/quiz-builder/link-collections/#customer-tags) and result tags are also synced to the contact's profile in Mailchimp as contact tags.
+        Mailchimp receives the contact's **email**, **first name**, **last name** and **phone number** when provided. Quiz [customer tags](/reference/quiz-builder/customer-tags/) and result tags are also synced to the contact's profile in Mailchimp as contact tags.
 
         Full quiz answers and product recommendations are **not** synced to Mailchimp directly. To learn more about how Mailchimp handles contact data fields, see the [Mailchimp merge fields documentation](https://mailchimp.com/help/manage-audience-signup-form-fields/).
 
@@ -327,10 +327,10 @@ Apart from giving your customers personalized product recommendations, you can c
 
 === "Shopify (Legacy)"
 
-    With [customer tags](/reference/quiz-builder/link-collections/#customer-tags), you can segment your audience within Mailchimp based on their quiz responses:
+    With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
 
     1. Make sure the quiz is connected to Mailchimp. 
-    2. Create [customer tags](/reference/quiz-builder/link-collections/#customer-tags) in the RevenueHunt app and link them to choices.
+    2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
 
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
@@ -340,10 +340,10 @@ Apart from giving your customers personalized product recommendations, you can c
 === "WooCommerce"
 
 
-    With [customer tags](/reference/quiz-builder/link-collections/#customer-tags), you can segment your audience within Mailchimp based on their quiz responses:
+    With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
 
     1. Make sure the quiz is connected to Mailchimp. 
-    2. Create [customer tags](/reference/quiz-builder/link-collections/#customer-tags) in the RevenueHunt app and link them to choices.
+    2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
 
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
@@ -353,10 +353,10 @@ Apart from giving your customers personalized product recommendations, you can c
 === "Magento"
 
 
-    With [customer tags](/reference/quiz-builder/link-collections/#customer-tags), you can segment your audience within Mailchimp based on their quiz responses:
+    With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
 
     1. Make sure the quiz is connected to Mailchimp. 
-    2. Create [customer tags](/reference/quiz-builder/link-collections/#customer-tags) in the RevenueHunt app and link them to choices.
+    2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
 
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
@@ -366,10 +366,10 @@ Apart from giving your customers personalized product recommendations, you can c
 === "BigCommerce"
 
 
-    With [customer tags](/reference/quiz-builder/link-collections/#customer-tags), you can segment your audience within Mailchimp based on their quiz responses:
+    With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
 
     1. Make sure the quiz is connected to Mailchimp. 
-    2. Create [customer tags](/reference/quiz-builder/link-collections/#customer-tags) in the RevenueHunt app and link them to choices.
+    2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
 
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
@@ -379,10 +379,10 @@ Apart from giving your customers personalized product recommendations, you can c
 === "Standalone"
 
 
-    With [customer tags](/reference/quiz-builder/link-collections/#customer-tags), you can segment your audience within Mailchimp based on their quiz responses:
+    With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
 
     1. Make sure the quiz is connected to Mailchimp. 
-    2. Create [customer tags](/reference/quiz-builder/link-collections/#customer-tags) in the RevenueHunt app and link them to choices.
+    2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
 
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
@@ -396,7 +396,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     To override Mailchimp's limitation on pushing detailed custom quiz data, you can use `customer tags` to represent customer responses.
 
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/link-collections/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
 
         ![how to send leads to mailchimp customer tags built for shopify](/images/how_to_shiopifyv2_send_leads_to_mailchimp_tags.png)
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
@@ -406,7 +406,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
 
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/link-collections/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
 
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
@@ -415,7 +415,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
 
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/link-collections/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
 
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
@@ -424,7 +424,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
 
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/link-collections/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
 
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
@@ -433,7 +433,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
 
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/link-collections/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
 
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
@@ -442,7 +442,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
 
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/link-collections/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
 
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
@@ -491,7 +491,7 @@ Apart from giving your customers personalized product recommendations, you can c
             Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
     2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
     
-        - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
+        - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
@@ -530,7 +530,7 @@ Apart from giving your customers personalized product recommendations, you can c
             Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
     2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
     
-        - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
+        - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
@@ -570,7 +570,7 @@ Apart from giving your customers personalized product recommendations, you can c
             Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
     2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
     
-        - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
+        - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
@@ -610,7 +610,7 @@ Apart from giving your customers personalized product recommendations, you can c
             Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
     2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
     
-        - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
+        - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
@@ -650,7 +650,7 @@ Apart from giving your customers personalized product recommendations, you can c
             Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
     2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
     
-        - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
+        - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.

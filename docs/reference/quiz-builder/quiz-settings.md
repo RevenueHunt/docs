@@ -8,40 +8,40 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
-    In Quiz settings you can adjust the quiz language or currency, edit button translations and placeholder texts, set up integrtations, notificaiton emails to self and result emails to quiz takers, or restore a previously published version of the quiz.
+    In Quiz settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also set up integrations, notification emails to yourself, and result emails to customers. It is also where you restore a previously published version of the quiz.
 
 
 === "Shopify (Legacy)"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
+    In Quiz Settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also restore a previously published version of the quiz.
 
 === "WooCommerce"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
+    In Quiz Settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also restore a previously published version of the quiz.
 
 === "Magento"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
+    In Quiz Settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also restore a previously published version of the quiz.
 
 === "BigCommerce"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
+    In Quiz Settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also restore a previously published version of the quiz.
 
 === "Standalone"
 
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
 
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
+    In Quiz Settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also restore a previously published version of the quiz.
 
-### General
+## General
 
 === "Shopify"
 
@@ -49,9 +49,9 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     **Quiz behavior settings**
 
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
 
-    `Pre-fill answers on retake` - Activating this setting will pre-fill the answers on the retake quiz page. Toggle to activate. When customers retake the quiz, their previous answers will be pre-filled so they only need to change what's different.
+    `Pre-fill answers on retake` - Activating this setting will pre-fill the answers on the retake quiz page. Toggle to activate. When customers retake the quiz, their previous answers will be pre-filled so they only need to change what is different.
 
     **Quiz accessibility settings**
 
@@ -59,13 +59,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     **Quiz payload settings**
 
-    `Include product variants in payload` - This setting is turned off by default. Activate it only if an integration specifically needs product variant details. Most integrations don't need this, and large payloads may not be accepted.
+    `Include product variants in payload` - This setting is turned off by default. Activate it only if an integration specifically needs product variant details. Most integrations do not need this, and large payloads may not be accepted.
 
-    `Include custom HTML in payload` - This setting is turned off by default. Activate it only if an integration specifically needs custom HTML result content. Most integrations don't need this, and large payloads may not be accepted. When disabled, custom HTML content is replaced with a short redacted message in the payload.
+    `Include custom HTML in payload` - This setting is turned off by default. Activate it only if an integration specifically needs custom HTML result content. Most integrations do not need this, and large payloads may not be accepted. When disabled, custom HTML content is replaced with a short redacted message in the payload.
 
     **Quiz migration**
 
-    `Export quiz to another store` - Clicking `Copy quiz code` generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `Copy quiz code` to generate a JSON code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID: XXXXXX` - Click `Copy quiz ID` to copy the quiz ID to clipboard.
 
@@ -76,7 +76,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Quiz name` - Click on the field to edit the quiz name.
 
-    `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+    `Language` - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
 
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
 
@@ -84,17 +84,17 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
 
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
-    `Use top level product` - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
+    `Use top level product` - Merges all product variants onto the main product in the Link Products section. You can then link every variant of a product to a choice at once. Activating this setting refreshes the quiz page. The affected products show an [ALL VARIANTS] suffix in the Link Products tab.
 
     !!! warning
 
-        For large stores (more than 2,000 products) the option to use the top-level product will not be available. Instead, it’s recommended to make use of automatically created Tags and Variants to upvote whole groups of products at once in the Link Collections tab.
+        For large stores, with more than 2,000 products, the top-level product option is not available. Use the automatically created Tags and Variants instead, to upvote whole groups of products at once in the Link Collections tab.
 
-    `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID` - Displays the current quiz ID.
 
@@ -104,7 +104,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Quiz name` - Click on the field to edit the quiz name.
 
-    `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+    `Language` - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
 
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
 
@@ -112,13 +112,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
 
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
-    `Use top level product` - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
+    `Use top level product` - Merges all product variants onto the main product in the Link Products section. You can then link every variant of a product to a choice at once. Activating this setting refreshes the quiz page. The affected products show an [ALL VARIANTS] suffix in the Link Products tab.
 
-    `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID` - Displays the current quiz ID.
 
@@ -128,7 +128,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Quiz name` - Click on the field to edit the quiz name.
 
-    `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+    `Language` - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
 
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
 
@@ -136,11 +136,11 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
 
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
-    `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID` - Displays the current quiz ID.
 
@@ -150,7 +150,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Quiz name` - Click on the field to edit the quiz name.
 
-    `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+    `Language` - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
 
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
 
@@ -158,13 +158,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
 
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
-    `Use top level product` - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
+    `Use top level product` - Merges all product variants onto the main product in the Link Products section. You can then link every variant of a product to a choice at once. Activating this setting refreshes the quiz page. The affected products show an [ALL VARIANTS] suffix in the Link Products tab.
 
-    `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID` - Displays the current quiz ID.
 
@@ -174,7 +174,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Quiz name` - Click on the field to edit the quiz name.
 
-    `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+    `Language` - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
 
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
 
@@ -182,15 +182,15 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Separators` - Choose from a dropdown how the currency number should be displayed.
 
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
 
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
 
-    `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
 
     `Quiz ID` - Displays the current quiz ID.
 
-### Messages / quiz content
+## Messages / quiz content
 
 === "Shopify"
 
@@ -214,9 +214,9 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `View collection` - Default text on the product CTA button when checkout settings are set to "Link to Collection". | Results page
 
-    `Add all to cart ({{count}})` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results page
+    `Add all to cart ({{count}})` - Default text on the CTA button before the customer adds anything to the cart. Applies when checkout settings are set to `Add to Cart`. | Results page
 
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results page
+    `Retake quiz` - Default text on the button that lets the customer retake the quiz. | Results page
 
     `Proceed to Checkout ({{count}})` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results page
 
@@ -309,7 +309,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `X in cart` - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
 
-    `Add all to cart` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+    `Add all to cart` - Default text on the CTA button before the customer adds anything to the cart. Applies when checkout settings are set to `Add to Cart`. | Results Page
 
     `Unavailable` - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
 
@@ -321,7 +321,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
 
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
+    `Retake quiz` - Default text on the button that lets the customer retake the quiz. | Results Page
 
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
 
@@ -403,7 +403,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `X in cart` - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
 
-    `Add all to cart` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+    `Add all to cart` - Default text on the CTA button before the customer adds anything to the cart. Applies when checkout settings are set to `Add to Cart`. | Results Page
 
     `Unavailable` - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
 
@@ -415,7 +415,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
 
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
+    `Retake quiz` - Default text on the button that lets the customer retake the quiz. | Results Page
 
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
 
@@ -497,7 +497,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `X in cart` - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
 
-    `Add all to cart` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+    `Add all to cart` - Default text on the CTA button before the customer adds anything to the cart. Applies when checkout settings are set to `Add to Cart`. | Results Page
 
     `Unavailable` - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
 
@@ -509,7 +509,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
 
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
+    `Retake quiz` - Default text on the button that lets the customer retake the quiz. | Results Page
 
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
 
@@ -591,7 +591,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `X in cart` - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
 
-    `Add all to cart` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+    `Add all to cart` - Default text on the CTA button before the customer adds anything to the cart. Applies when checkout settings are set to `Add to Cart`. | Results Page
 
     `Unavailable` - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
 
@@ -603,7 +603,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
 
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
+    `Retake quiz` - Default text on the button that lets the customer retake the quiz. | Results Page
 
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
 
@@ -685,7 +685,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `X in cart` - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
 
-    `Add all to cart` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+    `Add all to cart` - Default text on the CTA button before the customer adds anything to the cart. Applies when checkout settings are set to `Add to Cart`. | Results Page
 
     `Unavailable` - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
 
@@ -697,7 +697,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
 
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
+    `Retake quiz` - Default text on the button that lets the customer retake the quiz. | Results Page
 
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
 
@@ -761,13 +761,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Restore default messages` - Click "restore" to set all fields back to default.
 
-### Version history
+## Version history
 
 === "Shopify"
 
     ![manual_shopifyV2_quizbuilder_quizsettings_versionhistory](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
 
-    The Version History tab lets you track all changes made to your quiz over time. Each entry lists what was added, removed, or modified—including questions, results, design elements, and preferences.
+    The Version History tab lets you track all changes made to your quiz over time. Each entry lists what was added, removed or modified, including questions, results, design elements and preferences.
 
     Each version includes:
 
@@ -785,7 +785,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
-    `Restore this version` - Allows you to replace the current version of the quiz with the selected one.
+    `Restore this version` - Replaces the current version of the quiz with the selected one.
 
     `Copy quiz code` - Copy the quiz code (JSON) of this version to clipboard. You can then transfer this quiz version to another store.
 
@@ -804,7 +804,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
-    `Rename this version` - Allows you to rename this saved version of the quiz.
+    `Rename this version` - Renames this saved version of the quiz.
 
 === "WooCommerce"
 
@@ -818,7 +818,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
-    `Rename this version` - Allows you to rename this saved version of the quiz.
+    `Rename this version` - Renames this saved version of the quiz.
 
 === "Magento"
 
@@ -832,7 +832,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
-    `Rename this version` - Allows you to rename this saved version of the quiz.
+    `Rename this version` - Renames this saved version of the quiz.
 
 === "BigCommerce"
 
@@ -846,7 +846,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
-    `Rename this version` - Allows you to rename this saved version of the quiz.
+    `Rename this version` - Renames this saved version of the quiz.
 
 === "Standalone"
 
@@ -860,96 +860,96 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 
     `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
 
-    `Rename this version` - Allows you to rename this saved version of the quiz.
+    `Rename this version` - Renames this saved version of the quiz.
 
 
 
-### Integrations
+## Integrations
 
 === "Shopify"
 
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
+    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.
 
 
 === "Shopify (Legacy)"
 
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
+    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.
 
 === "WooCommerce"
 
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
+    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.
 
 === "Magento"
 
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.  
+    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.  
 
 === "BigCommerce"
 
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
+    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.
 
 === "Standalone"
 
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
+    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.
 
 
-### Emails to self
+## Emails to self
 
 === "Shopify"
 
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+    See [Emails to the store owner](/reference/quiz-builder/notifications/#to-self) for more information.
 
 
 === "Shopify (Legacy)"
 
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+    See [Emails to the store owner](/reference/quiz-builder/notifications/#to-self) for more information.
 
 === "WooCommerce"
 
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+    See [Emails to the store owner](/reference/quiz-builder/notifications/#to-self) for more information.
 
 === "Magento"
 
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+    See [Emails to the store owner](/reference/quiz-builder/notifications/#to-self) for more information.
 
 === "BigCommerce"
 
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+    See [Emails to the store owner](/reference/quiz-builder/notifications/#to-self) for more information.
 
 === "Standalone"
 
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
+    See [Emails to the store owner](/reference/quiz-builder/notifications/#to-self) for more information.
 
-### Emails to respondents
+## Emails to customers { #emails-to-respondents }
 
 === "Shopify"
 
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+    See [Emails to customers](/reference/quiz-builder/notifications/#to-respondent) for more information.
 
 
 === "Shopify (Legacy)"
 
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+    See [Emails to customers](/reference/quiz-builder/notifications/#to-respondent) for more information.
 
 === "WooCommerce"
 
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+    See [Emails to customers](/reference/quiz-builder/notifications/#to-respondent) for more information.
 
 === "Magento"
 
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+    See [Emails to customers](/reference/quiz-builder/notifications/#to-respondent) for more information.
 
 === "BigCommerce"
 
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+    See [Emails to customers](/reference/quiz-builder/notifications/#to-respondent) for more information.
 
 === "Standalone"
 
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+    See [Emails to customers](/reference/quiz-builder/notifications/#to-respondent) for more information.
 
 
 ---
 
-← [Back to Quiz Builder Index](/reference/quiz-builder/)
+← [Back to Quiz Builder](/reference/quiz-builder/)
 
 
 ← Previous: [Notifications](/reference/quiz-builder/notifications/)

@@ -5,7 +5,7 @@ icon: simple/shopify
 
 # How to Send Quiz Leads to Shopify Customers
 
-You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/link-collections/#customer-tags).
+You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/customer-tags/).
 
 This article explains how to connect your quiz to Shopify Customers, tag respondents based on their answers, and build a Shopify Flow targeted at quiz takers.
 
@@ -28,7 +28,7 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
         ![manual_shopifyV2_appsettings_shopifycustomers](/images/manual_shopifyV2_appsettings_shopifycustomers.png)   
     4. Click the `Save` button to save the changes.
 
-    Newly captured leads will appear in your Shopify Customers List with their [Customer tags](/reference/quiz-builder/link-collections/#customer-tags) added to their profile.
+    Newly captured leads will appear in your Shopify Customers List with their [Customer tags](/reference/quiz-builder/customer-tags/) added to their profile.
 
     ![how to send leads to shopify customers customer profile](/images/how_to_shopifyv2_send_leads_to_shopify_customers_customer_profile.png)
 
@@ -55,7 +55,7 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
     2. Then click on the `Connect` button in the `Shopify Customers` section. This will authorize our app to connect with your Shopify Customers List.
     3. Click the `Publish` button to save the changes and update the preview/live quiz with new settings.
 
-    Newly captured leads will appear in your Shopify Customers List with their [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) added to their profile.
+    Newly captured leads will appear in your Shopify Customers List with their [Customer Tags](/reference/quiz-builder/customer-tags/) added to their profile.
 
     ![how to send leads to shopify customers customer profile](/images/how_to_send_leads_to_shopify_customers_customer_profile.png)
 
@@ -101,7 +101,7 @@ When someone completes the quiz and leaves their email address, the app creates 
     | `firstName` | The customer's first name. |
     | `lastName` | The customer's last name. |
     | `phone` | The customer's phone number. |
-    | Tags | All [tags](/reference/quiz-builder/link-collections/#customer-tags) assigned in the quiz, added to the customer's Shopify tags. |
+    | Tags | All [tags](/reference/quiz-builder/customer-tags/) assigned in the quiz, added to the customer's Shopify tags. |
     | `emailMarketingConsent` | Set to `SUBSCRIBED` when the customer gives email marketing consent in the quiz. |
     | `smsMarketingConsent` | Set to `SUBSCRIBED` when a phone number is provided and the customer gives SMS consent. |
 
@@ -119,7 +119,7 @@ When someone completes the quiz and leaves their email address, the app creates 
     | `first_name` | The customer's first name. |
     | `last_name` | The customer's last name. |
     | `phone` | The customer's phone number. |
-    | Tags | All [tags](/reference/quiz-builder/link-collections/#customer-tags) assigned in the quiz, appended with the `prq_` prefix, for example `prq_Oily-Skin`. |
+    | Tags | All [tags](/reference/quiz-builder/customer-tags/) assigned in the quiz, appended with the `prq_` prefix, for example `prq_Oily-Skin`. |
     | `accepts_marketing` | Set to `true`. |
     | Metafield `prq.response_permalink` | URL of the customer's most recent results page. |
 
@@ -208,7 +208,7 @@ When someone completes the quiz and leaves their email address, the app creates 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=Bpvc82ZhqPbLf5kL&amp;start=38" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
-    You can use [Customer tags](/reference/quiz-builder/link-collections/#customer-tags) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
+    You can use [Customer tags](/reference/quiz-builder/customer-tags/) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
 
     Follow these steps to add tags to your quiz choices and test the setup:
 
@@ -232,7 +232,7 @@ When someone completes the quiz and leaves their email address, the app creates 
 
 === "Shopify (Legacy)"
 
-    You can use [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
+    You can use [Customer Tags](/reference/quiz-builder/customer-tags/) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
 
     Follow these steps to add tags to your quiz choices and test the setup:
 
@@ -310,7 +310,7 @@ When someone completes the quiz and leaves their email address, the app creates 
 
     ![how to shopify customers automation full cycle](/images/how_to_shopifyv2_customers_automation_full_cycle.png)
 
-    This is the older approach. It uses Shopify's `Customer created` trigger with a condition on [customer tags](/reference/quiz-builder/link-collections/#customer-tags), so it only runs for brand new customers and it cannot read quiz answers or recommendations. Use it when you deliberately want to act on first time customers only, or if you already have an automation built this way and it still does what you need.
+    This is the older approach. It uses Shopify's `Customer created` trigger with a condition on [customer tags](/reference/quiz-builder/customer-tags/), so it only runs for brand new customers and it cannot read quiz answers or recommendations. Use it when you deliberately want to act on first time customers only, or if you already have an automation built this way and it still does what you need.
 
     1. **Open the automations list**: go to `Apps > Messaging > Automations` in your Shopify admin and click `Create automation`. Older stores may still reach the same screen from `Marketing > Automations > View templates`.
     2. Select a `Create custom automation` automation:

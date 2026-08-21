@@ -471,7 +471,7 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
     !!! warning "Note"
 
-        To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [App settings](/reference/quiz-builder/quiz-settings/#app-settings) section.
+        To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [App settings](/reference/app-settings/) section.
 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
 

@@ -6,15 +6,17 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
 === "Shopify"
 
-    To link collections of products to choices, go to [Questions](/reference/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
+    To link collections of products to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
 
     ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
     Choose the weight of this choice:
 
-    `Upvotes weighting` - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products from a collections will receive x2 (double) votes from this choice.
+    `Upvotes weighting` - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products from a collection receive x2 (double) votes from this choice.
 
-    ## Upvote
+    **Upvote**
+
+    ![manual_shopifyV2_linkcollections_upvote](/images/manual_shopifyV2_linkcollections_upvote.png)
 
     Use the Upvotes section to choose which collections to link to this choice:
 
@@ -22,7 +24,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
 
-    `+ Add upvote type` - Click to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. Once collection is selected, a new section will show allowing you to select items (collections, tags, variants, vendors) from your Shopify catalog to be linked to this choice.
+    `+ Add upvote type` - Click to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. A new section then opens, where you pick collections, tags, variants or vendors from your Shopify catalog.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
 
@@ -36,9 +38,11 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     !!! note
 
-        In the Built for Shopify version of the RevenueHunt app you can not only upvote by also recommend entire collections to the customer.
+        You can upvote entire collections, and also recommend a whole collection to the customer.
     
-    ## Exclude
+    **Exclude**
+
+    ![manual_shopifyV2_linkcollections_exclude](/images/manual_shopifyV2_linkcollections_exclude.png)
 
     Use the Exclude section to choose which collections to exclude from this choice:
 
@@ -46,7 +50,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
 
-    `+ Add exclude type` - Click to choose an item to exclude. You can exclude entire collections, tags, variants collections or vendors from a choice. Once selected a new section will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+    `+ Add exclude type` - Click to choose an item to exclude. You can exclude entire collections, tags, variants collections or vendors from a choice. A new section then opens, where you pick the items to exclude from your Shopify catalog.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
 
@@ -60,7 +64,7 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     !!! warning
 
-        Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the results page, even if it was upvoted in another choice earlier/later
+        Be careful with exclusions. Once a product is excluded from a choice, it never shows on the results page. This applies even if another choice upvoted it.
 
 
 === "Shopify (Legacy)"
@@ -77,25 +81,25 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     Select a collection and it will be automatically added to the choice. 
 
-    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that collection.
+    `Moisturizers(1)` - The number in brackets is how many product variants are in that collection.
 
-    You can link multiple collections to the same choice but be careful. If a product is part of two collections linked to the same choice, it will receive 2 votes from that choice (one vote from each collection linked to that choice).
+    You can link several collections to the same choice, but be careful. A product in two collections linked to the same choice gets 2 votes, one from each collection.
 
     ![quiz builder link collections linked collections](/images/manual_quizbuilder_linkcollections_linked.png)
 
-    To remove a linked collection click "x" next to the collection name.
+    To remove a linked collection click `x` next to the collection name.
 
-    **excluded collections** - Opens the dropdown which lets you exclude collections of products from a choice. 
+    `excluded collections` - Opens the dropdown which lets you exclude collections of products from a choice.
 
     ![quiz builder link collections exclude](/images/manual_quizbuilder_linkcollections_exclude.png)
 
-    Be careful when using exclusions. Once a collection of products is excluded from a choice, the products from that collection will never show on the results page, even if they were upvoted in another choice earlier/later.
+    Be careful with exclusions. Once a collection is excluded from a choice, its products never show on the results page. This applies even if another choice upvoted them.
 
-    **Missing collections or collections show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    **Missing collections, or collections showing (0) products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 
 === "WooCommerce"
 
-    ![quiz builder woo link ccategories](/images/manual_woo_quizbuilder_linkcategories.png)
+    ![quiz builder woo link categories](/images/manual_woo_quizbuilder_linkcategories.png)
 
     In the Link Categories tab, you can link entire categories of products from your store to choices. This includes WooCommerce categories, tags and attributes.
 
@@ -107,25 +111,25 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     Select a category and it will be automatically added to the choice. 
 
-    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that category.
+    `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
 
-    You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
+    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 votes, one from each category.
 
-    ![quiz builder woo link categoreis link categories](/images/manual_woo_quizbuilder_linkcategories_linked_categories.png)
+    ![quiz builder woo link categories linked](/images/manual_woo_quizbuilder_linkcategories_linked_categories.png)
 
-    To remove a linked categories click "x" next to the category name.
+    To remove a linked category click `x` next to the category name.
 
-    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
+    `excluded collections` - Opens the dropdown which lets you exclude categories of products from a choice.
 
     ![quiz builder link collections exclude](/images/manual_woo_quizbuilder_linkcategories_excludecategories.png)
 
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
+    Be careful with exclusions. Once a category is excluded from a choice, its products never show on the results page. This applies even if another choice upvoted them.
 
-    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    **Missing categories, or categories showing (0) products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 
 === "Magento"
 
-    ![quiz builder standalone link ccategories](/images/manual_standalone_quizbuilder_linkcategories.png)
+    ![quiz builder standalone link categories](/images/manual_standalone_quizbuilder_linkcategories.png)
 
     In the Link Categories tab, you can link entire categories of products from your store to choices.
 
@@ -137,25 +141,25 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     Select a category and it will be automatically added to the choice. 
 
-    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that category.
+    `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
 
-    You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
+    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 votes, one from each category.
 
-    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
+    ![quiz builder standalone link categories linked](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
 
-    To remove a linked category click "x" next to the category name.
+    To remove a linked category click `x` next to the category name.
 
-    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
+    `excluded collections` - Opens the dropdown which lets you exclude categories of products from a choice.
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
+    Be careful with exclusions. Once a category is excluded from a choice, its products never show on the results page. This applies even if another choice upvoted them.
 
-    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    **Missing categories, or categories showing (0) products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 
 === "BigCommerce"
 
-    ![quiz builder standalone link ccategories](/images/manual_standalone_quizbuilder_linkcategories.png)
+    ![quiz builder standalone link categories](/images/manual_standalone_quizbuilder_linkcategories.png)
 
     In the Link Categories tab, you can link entire categories of products from your store to choices.
 
@@ -167,29 +171,29 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     Select a category and it will be automatically added to the choice. 
 
-    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that category.
+    `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
 
-    You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
+    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 votes, one from each category.
 
-    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
+    ![quiz builder standalone link categories linked](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
 
-    To remove a linked category click "x" next to the category name.
+    To remove a linked category click `x` next to the category name.
 
-    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
+    `excluded collections` - Opens the dropdown which lets you exclude categories of products from a choice.
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
+    Be careful with exclusions. Once a category is excluded from a choice, its products never show on the results page. This applies even if another choice upvoted them.
 
-    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    **Missing categories, or categories showing (0) products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 
     !!! tip
 
-        You can also use custom fields as tags within the app by following [these instructions](/how-to-guides/use-custom-fields-as-tags/)
+        You can also use custom fields as tags. See [Use Custom Fields as tags](/how-to-guides/use-custom-fields-as-tags/).
 
 === "Standalone"
 
-    ![quiz builder standalone link ccategories](/images/manual_standalone_quizbuilder_linkcategories.png)
+    ![quiz builder standalone link categories](/images/manual_standalone_quizbuilder_linkcategories.png)
 
     In the Link Categories tab, you can link entire categories of products from your store to choices.
 
@@ -201,26 +205,26 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
     Select a category and it will be automatically added to the choice. 
 
-    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that category.
+    `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
 
-    You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
+    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 votes, one from each category.
 
-    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
+    ![quiz builder standalone link categories linked](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
 
-    To remove a linked category click "x" next to the category name.
+    To remove a linked category click `x` next to the category name.
 
-    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
+    `excluded collections` - Opens the dropdown which lets you exclude categories of products from a choice.
 
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
 
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
+    Be careful with exclusions. Once a category is excluded from a choice, its products never show on the results page. This applies even if another choice upvoted them.
 
-    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    **Missing categories, or categories showing (0) products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 
 
 ---
 
-← [Back to Quiz Builder Index](/reference/quiz-builder/)
+← [Back to Quiz Builder](/reference/quiz-builder/)
 
 
 ← Previous: [Questions](/reference/quiz-builder/questions/)

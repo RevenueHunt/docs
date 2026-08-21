@@ -6952,7 +6952,7 @@ How the workflow starts depends on which version of the app you use. The Built f
     ## Example 2: branch on a quiz answer
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=HhUhmbUvsSC7awe4&amp;start=233" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Most workflows should not treat every respondent the same. Use a condition to split the workflow based on what someone answered, then run a different action on each side.
-    The cleanest thing to branch on is a [customer tag](/reference/quiz-builder/link-collections/#customer-tags), because you decide in the quiz builder exactly which answers produce which tag.
+    The cleanest thing to branch on is a [customer tag](/reference/quiz-builder/customer-tags/), because you decide in the quiz builder exactly which answers produce which tag.
     **First, tag the choices you want to branch on**
     1. Open the RevenueHunt app and select your quiz.
     2. Click the choice you want to tag to open its settings.
@@ -7135,13 +7135,13 @@ This guide will help you change the language of your quiz, translate it into dif
       ![manual_shopifyV2_quizmanagementoptions](/images/manual_shopifyV2_quizmanagementoptions.png)
     !!! tip
         [Quiz Copilot](/how-to-guides/use-quiz-copilot/) can be used to translate and duplicate quizzes. Just open a chat with it and ask it to duplicate the main quiz for you in a different language.
-    - For each duplicate quiz, go into the [`Quiz settings > Quiz content`](/reference/quiz-builder/quiz-settings/#messages) and update the language for all buttons, popups, and other interface elements.
+    - For each duplicate quiz, go into the [`Quiz settings > Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-content) and update the language for all buttons, popups, and other interface elements.
       ![/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
     **Step 3: Translate Questions and Choices Separately:**
     Unless you've used [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to translate the quiz, the questions and answer choices won't automatically translate; you'll need to manually update these for each language version.
     - Go through each question and answer choice to ensure they are accurately translated and culturally relevant for each target language.
     **Step 4: Change Translations for Buttons and Helpers:**
-    - Go to the [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#content) tab.
+    - Go to the [Quiz settings > Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
     - Change the translations for buttons and helpers for each language version.
     **Step 5: Assign the Quiz to the Right Market and Language:**
     !!! tip "Tutorial"
@@ -10127,7 +10127,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
 ### [:fontawesome-brands-shopify: Shopify customers](/how-to-guides/send-leads-to-shopify-customers/)
 
-You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/link-collections/#customer-tags).
+You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/customer-tags/).
 
 [:fontawesome-solid-arrow-right: send leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) &nbsp;·&nbsp; [:fontawesome-solid-arrow-right: automate with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/)
 
@@ -10145,7 +10145,7 @@ By automatically sending quiz results to your HubSpot account, you can segment y
 
 ### [:fontawesome-brands-mailchimp: Mailchimp](/how-to-guides/send-leads-to-mailchimp/)
 
-Automating the transfer of quiz data to your Mailchimp account streamlines the process of segmenting your audience and enables targeted follow-up campaigns based on [customer tags](/reference/quiz-builder/link-collections/#customer-tags). Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
+Automating the transfer of quiz data to your Mailchimp account streamlines the process of segmenting your audience and enables targeted follow-up campaigns based on [customer tags](/reference/quiz-builder/customer-tags/). Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-mailchimp/)
 
@@ -10807,7 +10807,7 @@ Apart from giving your customers personalized product recommendations, you can c
         **Make sure your quiz collects email addresses.** Open your quiz in the [Quiz builder](/reference/quiz-builder/questions/) and check for an [email question](/reference/quiz-builder/questions/#email) block. If there isn't one, click `Add Question` and select `Email Address` from the question types. You can also add it to an existing slide from the `Add Block` menu.
         **(optional) Ask for marketing consent.** Add a marketing consent checkbox directly below the email field. This lets quiz takers agree to receive marketing emails, which is useful for GDPR compliance. See [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
     !!! info "What data is sent to Mailchimp"
-        Mailchimp receives the contact's **email**, **first name**, **last name** and **phone number** when provided. Quiz [customer tags](/reference/quiz-builder/link-collections/#customer-tags) and result tags are also synced to the contact's profile in Mailchimp as contact tags.
+        Mailchimp receives the contact's **email**, **first name**, **last name** and **phone number** when provided. Quiz [customer tags](/reference/quiz-builder/customer-tags/) and result tags are also synced to the contact's profile in Mailchimp as contact tags.
         Full quiz answers and product recommendations are **not** synced to Mailchimp directly. To learn more about how Mailchimp handles contact data fields, see the [Mailchimp merge fields documentation](https://mailchimp.com/help/manage-audience-signup-form-fields/).
         If you need the full answers and recommended products in your email templates, use [Klaviyo](/how-to-guides/send-leads-to-klaviyo/), [HubSpot](/how-to-guides/send-leads-to-hubspot/) or [Omnisend](/how-to-guides/send-leads-to-omnisend/) instead, or check the [alternative ways to send quiz leads to Mailchimp](#alternative-ways-to-send-quiz-leads-to-mailchimp).
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=5_4RnWu8rxpX-0kR&amp;start=125" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -10856,7 +10856,7 @@ Apart from giving your customers personalized product recommendations, you can c
     3. Save the segment.
     You can create one segment for all quiz takers using your general `revenuehunt` tag, and additional segments for specific answer combinations.
     To override Mailchimp's limitation on pushing detailed custom quiz data, you can use `customer tags` to represent customer responses.
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/link-collections/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
         ![how to send leads to mailchimp customer tags built for shopify](/images/how_to_shiopifyv2_send_leads_to_mailchimp_tags.png)
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=Rb0FoVucJgbOscRf&amp;start=294" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -11059,7 +11059,7 @@ icon: simple/shopify
 
 # How to Send Quiz Leads to Shopify Customers
 
-You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/link-collections/#customer-tags).
+You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/customer-tags/).
 
 This article explains how to connect your quiz to Shopify Customers, tag respondents based on their answers, and build a Shopify Flow targeted at quiz takers.
 
@@ -11076,7 +11076,7 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
     3. Toggle the `Enable pushing quiz leads to Shopify Customers` switch to enable the integration.
         ![manual_shopifyV2_appsettings_shopifycustomers](/images/manual_shopifyV2_appsettings_shopifycustomers.png)   
     4. Click the `Save` button to save the changes.
-    Newly captured leads will appear in your Shopify Customers List with their [Customer tags](/reference/quiz-builder/link-collections/#customer-tags) added to their profile.
+    Newly captured leads will appear in your Shopify Customers List with their [Customer tags](/reference/quiz-builder/customer-tags/) added to their profile.
     ![how to send leads to shopify customers customer profile](/images/how_to_shopifyv2_send_leads_to_shopify_customers_customer_profile.png)
     !!! note
         This is a global setting that applies to all quizzes in your shop.
@@ -11091,7 +11091,7 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
     | `firstName` | The customer's first name. |
     | `lastName` | The customer's last name. |
     | `phone` | The customer's phone number. |
-    | Tags | All [tags](/reference/quiz-builder/link-collections/#customer-tags) assigned in the quiz, added to the customer's Shopify tags. |
+    | Tags | All [tags](/reference/quiz-builder/customer-tags/) assigned in the quiz, added to the customer's Shopify tags. |
     | `emailMarketingConsent` | Set to `SUBSCRIBED` when the customer gives email marketing consent in the quiz. |
     | `smsMarketingConsent` | Set to `SUBSCRIBED` when a phone number is provided and the customer gives SMS consent. |
     !!! info "Opt-in level"
@@ -11103,7 +11103,7 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
     !!! tip
         Check [How to Ask for Marketing/Data Processing Consent](/how-to-guides/ask-for-marketing-consent/) to learn how to ask for marketing consent directly in the quiz.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=Bpvc82ZhqPbLf5kL&amp;start=38" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    You can use [Customer tags](/reference/quiz-builder/link-collections/#customer-tags) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
+    You can use [Customer tags](/reference/quiz-builder/customer-tags/) to send quiz answers that the customer provided in the quiz to their Shopify Customer's profile.
     Follow these steps to add tags to your quiz choices and test the setup:
     1. **Adding Tags to Quiz Choices**: To add tags to your quiz choices, follow these steps:
         - Open the Revenue Hunt Quizzes app and select your quiz.
@@ -11136,7 +11136,7 @@ This article explains how to connect your quiz to Shopify Customers, tag respond
     ### Start from a customer tag (alternative)
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/hPtJ5VxCM2M?si=XKMU11jhdcuCgDYc&amp;start=280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     ![how to shopify customers automation full cycle](/images/how_to_shopifyv2_customers_automation_full_cycle.png)
-    This is the older approach. It uses Shopify's `Customer created` trigger with a condition on [customer tags](/reference/quiz-builder/link-collections/#customer-tags), so it only runs for brand new customers and it cannot read quiz answers or recommendations. Use it when you deliberately want to act on first time customers only, or if you already have an automation built this way and it still does what you need.
+    This is the older approach. It uses Shopify's `Customer created` trigger with a condition on [customer tags](/reference/quiz-builder/customer-tags/), so it only runs for brand new customers and it cannot read quiz answers or recommendations. Use it when you deliberately want to act on first time customers only, or if you already have an automation built this way and it still does what you need.
     1. **Open the automations list**: go to `Apps > Messaging > Automations` in your Shopify admin and click `Create automation`. Older stores may still reach the same screen from `Marketing > Automations > View templates`.
     2. Select a `Create custom automation` automation:
         ![/how to send leads to shopify customers automation1](/images/how_to_send_leads_to_shopify_customers_automation1.png)
@@ -12377,7 +12377,7 @@ Our product recommendation algorithm works like a voting system:
 - When a customer picks a choice, all linked products receive one vote.
 - After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes.
 - If no products have been linked or all the products have been excluded, the results page will appear empty.
-- If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
+- If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
 
 **Understand Inclusion and Exclusion**
 
@@ -12470,7 +12470,7 @@ To link products or collections to choices, open the [Choice settings](/referenc
     - When a customer picks a choice, all linked products receive one vote
     - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
     - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
+    - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
     You can also:
     - Limit the recommendations to only show products that received X votes or more in the [Results page settings](/how-to-guides/only-recommend-products-with-minimum-votes/)
     - Use Exclusions to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier)
@@ -12548,7 +12548,7 @@ To link products or collections to choices, open the [Choice settings](/referenc
     - When a customer picks a choice, all linked products receive one vote
     - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
     - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
+    - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
     **Step 2: Build Quiz Structure**
     1. Create a new quiz in the [Quiz builder](/reference/quiz-builder/)
     2. Add all questions needed for each branch
@@ -12589,7 +12589,7 @@ To link products or collections to choices, open the [Choice settings](/referenc
     - When a customer picks a choice, all linked products receive one vote
     - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
     - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
+    - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
     **Step 2: Build Quiz Structure**
     1. Go to the [Quiz builder](/reference/quiz-builder/) and create all questions needed. Add all possible choices for each question.
     **Step 3: Link Products to Choices**
@@ -12662,7 +12662,7 @@ Product recommendation algorithm works like a voting system:
 
 - Product variants are linked to each choice.
 - When a customer picks a choice, all linked products receive one vote.
-- After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.*
+- After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.*
 - You can limit recommendations to a specific number of products or a minimum vote threshold.
 
 !!! tip "How to set this up?"
@@ -14046,7 +14046,7 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
         - **THEN section is Visible** 
         - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
         !!! info
-            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
+            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
         !!! example "Example 2"
             ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
             In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
@@ -14058,7 +14058,7 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
         - **THEN section is Visible**
         - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
         !!! info
-            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
+            Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
         !!! example "Example 3"
             ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
             In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
@@ -14067,7 +14067,7 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
     Custom scores or variables can be assigned to choices in the quiz in order to set up a scoring quiz, personality type quiz, dosha quiz, etc.
     To add scores or variables to choices, follow these steps:
     1. **Create Quiz**: Open the [Quiz builder](/reference/quiz-builder/) and add your `Multiple-choice questions` asking the customer about their needs. For example: age, skincondition, etc. if you are building a quzi that determines a skin type.
-    2. Open the [Choice settings](/reference/quiz-builder/choice-settings/).
+    2. Open the [Choice settings](/reference/quiz-builder/questions/#choice-settings).
     3. Find the `Scores and calculations` section.
     4. You can adjust the pre-made 'score' variable for each choice with the up/down arrows. You can assign negative values if needed
         ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
@@ -15993,34 +15993,36 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
 --- Shopify Specific Content ---
 
-To link collections of products to choices, go to [Questions](/reference/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
+To link collections of products to choices, go to [Questions](/reference/quiz-builder/questions/), select a multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
     ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
     Choose the weight of this choice:
-    `Upvotes weighting` - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products from a collections will receive x2 (double) votes from this choice.
-    ## Upvote
+    `Upvotes weighting` - Sets a default weight of this choice. For example, if the weight is set to 2, all the upvoted products from a collection receive x2 (double) votes from this choice.
+    **Upvote**
+    ![manual_shopifyV2_linkcollections_upvote](/images/manual_shopifyV2_linkcollections_upvote.png)
     Use the Upvotes section to choose which collections to link to this choice:
     `Upvotes` - lists all the collections, tags, variants collections or vendors that are linked to this choice.
     ![manual_shopifyV2_quizbuilder_quizbuilder_upvotecollections](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
-    `+ Add upvote type` - Click to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. Once collection is selected, a new section will show allowing you to select items (collections, tags, variants, vendors) from your Shopify catalog to be linked to this choice.
+    `+ Add upvote type` - Click to choose an item to upvote. You can upvote entire collections, tags, variants collections or vendors collections to a choice. A new section then opens, where you pick collections, tags, variants or vendors from your Shopify catalog.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
     ![manual_shopifyV2_quizbuilder_linkcollections_upvotecollections](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
     Toggle the collections to be upvoted to add them to the upvoted list.
     Upvoted collections will be listed in the upvoted section.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
     !!! note
-        In the Built for Shopify version of the RevenueHunt app you can not only upvote by also recommend entire collections to the customer.
-    ## Exclude
+        You can upvote entire collections, and also recommend a whole collection to the customer.
+    **Exclude**
+    ![manual_shopifyV2_linkcollections_exclude](/images/manual_shopifyV2_linkcollections_exclude.png)
     Use the Exclude section to choose which collections to exclude from this choice:
     `Exclude` - lists all the products, product variants, collections, tags, variants collections or vendors that are excluded in this choice.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
-    `+ Add exclude type` - Click to choose an item to exclude. You can exclude entire collections, tags, variants collections or vendors from a choice. Once selected a new section will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+    `+ Add exclude type` - Click to choose an item to exclude. You can exclude entire collections, tags, variants collections or vendors from a choice. A new section then opens, where you pick the items to exclude from your Shopify catalog.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
     Toggle the collections to be excluded to add them to the excluded list.
     ![manual_shopifyV2_quizbuilder_linkcollections_upvotecollections](/images/manual_shopifyV2_quizbuilder_linkcollections_upvotecollections.png)
     Excluded collections will be listed in the excluded section.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
     !!! warning
-        Be careful when using exclusions. Once a product is excluded from a choice, that product will never show on the results page, even if it was upvoted in another choice earlier/later
+        Be careful with exclusions. Once a product is excluded from a choice, it never shows on the results page. This applies even if another choice upvoted it.
 
 
 
@@ -16163,7 +16165,7 @@ Quiz metrics are can be found in several sections:
     ![manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue.png)
     `Total orders value` - Total value of orders placed after taking this quiz. `€10,612.00` - total value of orders in a specified period (in black). `↗2.01%` - growth compared to last period (in green).
     !!! warning "Note"
-        To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [App settings](/reference/quiz-builder/quiz-settings/#app-settings) section.
+        To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [App settings](/reference/app-settings/) section.
     ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
     `Drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how visitors move through your quiz — from the first question to the results and checkout - and where they drop off. `Origin` - The slide or question where respondents started a step in the flow. `Destination` - The next slide or page they reached. `Views`- The number of times this transition occurred during the selected time range. `Share of Step` - The percentage of respondents who exited the quiz instead of continuing to the next step. `Outcome` - Continued or Exited the quiz.
     !!! tip
@@ -17217,18 +17219,18 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 --- Shopify Specific Content ---
 
 ![manual_shopifyV2_quizbuilder_quizsettings](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
-    In Quiz settings you can adjust the quiz language or currency, edit button translations and placeholder texts, set up integrtations, notificaiton emails to self and result emails to quiz takers, or restore a previously published version of the quiz.
+    In Quiz settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also set up integrations, notification emails to yourself, and result emails to customers. It is also where you restore a previously published version of the quiz.
     `Quiz name` - Click on the field to edit the quiz name.
     **Quiz behavior settings**
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
-    `Pre-fill answers on retake` - Activating this setting will pre-fill the answers on the retake quiz page. Toggle to activate. When customers retake the quiz, their previous answers will be pre-filled so they only need to change what's different.
+    `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
+    `Pre-fill answers on retake` - Activating this setting will pre-fill the answers on the retake quiz page. Toggle to activate. When customers retake the quiz, their previous answers will be pre-filled so they only need to change what is different.
     **Quiz accessibility settings**
     `Disable zooming in on mobile devices` - Enabling this setting prevents the screen from zooming in when customers tap on text fields on mobile. This also disables pinch-to-zoom on the quiz.
     **Quiz payload settings**
-    `Include product variants in payload` - This setting is turned off by default. Activate it only if an integration specifically needs product variant details. Most integrations don't need this, and large payloads may not be accepted.
-    `Include custom HTML in payload` - This setting is turned off by default. Activate it only if an integration specifically needs custom HTML result content. Most integrations don't need this, and large payloads may not be accepted. When disabled, custom HTML content is replaced with a short redacted message in the payload.
+    `Include product variants in payload` - This setting is turned off by default. Activate it only if an integration specifically needs product variant details. Most integrations do not need this, and large payloads may not be accepted.
+    `Include custom HTML in payload` - This setting is turned off by default. Activate it only if an integration specifically needs custom HTML result content. Most integrations do not need this, and large payloads may not be accepted. When disabled, custom HTML content is replaced with a short redacted message in the payload.
     **Quiz migration**
-    `Export quiz to another store` - Clicking `Copy quiz code` generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `Copy quiz code` to generate a JSON code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
     `Quiz ID: XXXXXX` - Click `Copy quiz ID` to copy the quiz ID to clipboard.
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
     **Default quiz content** 
@@ -17240,8 +17242,8 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `Sold out` - Default text on the product CTA button when a product or selected variant is out of stock. | Results page
     `View product` - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results page
     `View collection` - Default text on the product CTA button when checkout settings are set to "Link to Collection". | Results page
-    `Add all to cart ({{count}})` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results page
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results page
+    `Add all to cart ({{count}})` - Default text on the CTA button before the customer adds anything to the cart. Applies when checkout settings are set to `Add to Cart`. | Results page
+    `Retake quiz` - Default text on the button that lets the customer retake the quiz. | Results page
     `Proceed to Checkout ({{count}})` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results page
     `Proceed to Cart ({{count}})` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results page
     `{{count}} in cart` - Default text on the product CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results page
@@ -17279,7 +17281,7 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `Quiz navigation buttons` - Default text on the quiz navigation buttons. | Quiz
     `Results bottom bar` - Default text on the results bottom bar. | Results page
     ![manual_shopifyV2_quizbuilder_quizsettings_versionhistory](/images/manual_shopifyV2_quizbuilder_quizsettings_versionhistory.png)
-    The Version History tab lets you track all changes made to your quiz over time. Each entry lists what was added, removed, or modified—including questions, results, design elements, and preferences.
+    The Version History tab lets you track all changes made to your quiz over time. Each entry lists what was added, removed or modified, including questions, results, design elements and preferences.
     Each version includes:
     - A Version ID (unique identifier)
     - Timestamp of when the version was saved
@@ -17288,12 +17290,12 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     **Options Menu**
     `...` - Click to open the restore menu.
     `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
-    `Restore this version` - Allows you to replace the current version of the quiz with the selected one.
+    `Restore this version` - Replaces the current version of the quiz with the selected one.
     `Copy quiz code` - Copy the quiz code (JSON) of this version to clipboard. You can then transfer this quiz version to another store.
     `Show more details` - Click to expand the version change details.
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.
+    See [Emails to the store owner](/reference/quiz-builder/notifications/#to-self) for more information.
+    See [Emails to customers](/reference/quiz-builder/notifications/#to-respondent) for more information.
 
 
 
@@ -17391,7 +17393,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     - **THEN section is Visible** 
     - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
     !!! info
-        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
+        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
     !!! example "Example 2"
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
         In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
@@ -17403,7 +17405,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     - **THEN section is Visible**
     - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
     !!! info
-        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
+        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
     !!! example "Example 3"
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
         In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
@@ -17746,7 +17748,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Allow duplicated recommendations` - Check this option to allow products to be shown in more than one product/slot blocks.
     `Bar options` - Select the settings of the checkout bar.
     !!! info
-        The texts of the results page bar can be changed in [quiz settings > content > messages](https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings/#messages).
+        The texts of the results page bar can be changed in [quiz settings > content > messages](https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings/#messages-quiz-content).
     `Show bar` - Uncheck to hide the checkout bar.
     `Show "Retake quiz" button` - Uncheck if you want to hide the "retake quiz" button.
     `Show cart/checkout options` - Select the settings of the cart/checkout options.
@@ -18917,7 +18919,7 @@ In this tutorial, you'll learn how to make and publish a short quiz that recomme
         - Products are linked to each choice. 
         - When a customer picks that choice, all linked products receive one vote.
         - After the customer takes the quiz, the results page will show the products sorted by the number of votes.
-        - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
+        - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
     6. Make sure to link products to each question and choice in the quiz. 
     7. You can test different answering routes and results by clicking on the `Save` button to update your changes and then `Preview`.
     1. Just like in the Quiz builder, you can add multiple sections to your [Results page](/reference/quiz-builder/results-page/) by clicking on the `Results Page` tab. 
@@ -19167,7 +19169,7 @@ In this tutorial, you’ll learn how to display different quizzes for different 
             You can ask [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to create a translated copy.
         !!! warning 
             RevenueHunt app does not offer an in-app automatic translation option but you can ask [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to create a translated copy.
-    6. In [`Quiz settings`](/reference/quiz-builder/quiz-settings/) go to [`Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-contentt) click `Reset messages` and change the language of system buttons and helpers as needed. You can also change the translations manually for each field. 
+    6. In [`Quiz settings`](/reference/quiz-builder/quiz-settings/) go to [`Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-content) click `Reset messages` and change the language of system buttons and helpers as needed. You can also change the translations manually for each field. 
     7. Remember to save the changes with the `Save` button.
     !!! success "Product Titles & Descriptions Are Translated Automatically"
         You only need to translate the quiz **questions, choices, and UI text** manually. The **product titles, descriptions, and prices** shown on the results page are fetched automatically from Shopify in the customer's language and currency. This works through Shopify's Storefront API — as long as you have product translations set up via the [Translate & Adapt](https://apps.shopify.com/translate-and-adapt) app (or a compatible translation app), those translations will appear automatically in quiz results.

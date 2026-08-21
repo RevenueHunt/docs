@@ -158,7 +158,7 @@ description: "Assign RevenueHunt quizzes to Shopify Markets, customize by langua
         !!! warning 
             RevenueHunt app does not offer an in-app automatic translation option but you can ask [Quiz Copilot](/how-to-guides/use-quiz-copilot/) to create a translated copy.
 
-    6. In [`Quiz settings`](/reference/quiz-builder/quiz-settings/) go to [`Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-contentt) click `Reset messages` and change the language of system buttons and helpers as needed. You can also change the translations manually for each field. 
+    6. In [`Quiz settings`](/reference/quiz-builder/quiz-settings/) go to [`Quiz content`](/reference/quiz-builder/quiz-settings/#messages-quiz-content) click `Reset messages` and change the language of system buttons and helpers as needed. You can also change the translations manually for each field. 
     7. Remember to save the changes with the `Save` button.
 
     !!! success "Product Titles & Descriptions Are Translated Automatically"

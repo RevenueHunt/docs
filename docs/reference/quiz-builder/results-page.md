@@ -302,7 +302,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! info
 
-        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
+        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 
 
     !!! example "Example 2"
@@ -324,7 +324,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! info
 
-        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/choice-settings) section.
+        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 
 
     !!! example "Example 3"
@@ -1383,7 +1383,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Bar options` - Select the settings of the checkout bar.
 
     !!! info
-        The texts of the results page bar can be changed in [quiz settings > content > messages](https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings/#messages).
+        The texts of the results page bar can be changed in [quiz settings > content > messages](https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings/#messages-quiz-content).
 
 
     `Show bar` - Uncheck to hide the checkout bar.

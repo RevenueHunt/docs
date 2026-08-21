@@ -8355,25 +8355,25 @@ This guide will help you change the language of your quiz, translate it into dif
 --- WooCommerce Specific Content ---
 
 ## Change quiz language in settings
-    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
+    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
     2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
-    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
+    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
     4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
-    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
+    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
     2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
-    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
+    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
     4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
-    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
+    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
     2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
-    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
+    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
     4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
-    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages).
+    1. **Open Quiz Settings**: To change the quiz language navigate to [Quiz Settings](/reference/quiz-builder/quiz-settings/) or [`Quiz Settings -> Messages`](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
         ![how to change quiz language messages](/images/manual_quizbuilder_quizsettings_messages.png){width="300"}
     2. **Language**: Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
-    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages) tab.
+    3. **Add your own translations**: If the desired language is not available or you prefer a different translation you can modify individual instances (such as buttons and placeholders) directly within the [Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content) tab.
     4. **Override the translations**: Should any buttons revert to their original English translations (overriding your selected quiz language) you can manually adjust the button text in [`Quiz Builder -> Question settings`](/reference/quiz-builder/questions/#question-settings).
 ## Set up multilingual quizzes
     While our application currently lacks native multi-language support, there are effective workarounds to present quizzes in multiple languages.
@@ -13649,7 +13649,7 @@ First of all, you should understand that the recommendations algorithm works lik
     - When a customer picks a choice, all linked products receive one vote
     - After the customer takes the quiz, the results page will show the most voted products sorted by the number of votes
     - If no products have been linked or all the products have been excluded, the results page will appear empty
-    - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
+    - If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
     If you want to make the results ultra-precise, you can also:
     - Limit the recommendations to only show products that received X votes or more in the [Results Page settings](/reference/quiz-builder/results-page/#advanced-settings).
     - Use [Exclusions](/how-to-guides/recommend-products/#understanding-inclusion-and-exclusion) to make sure that unwanted products are not shown (even if they were upvoted in another choice earlier).
@@ -13762,7 +13762,7 @@ If you’re not getting the expected results, please check [How to Troubleshoot 
         ![how to recommend products matrix table2](/images/how_to_recommend_products_table3.png)
     These products received the most amount of votes (2) so they were recommended.
     ![how to recommend products matrix results1](/images/how_to_recommend_products_results1.png)
-    When products receive the same amount of votes, the algorithm randomizes the order in which they are shown on the Results page. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
+    When products receive the same amount of votes, the algorithm randomizes the order in which they are shown on the Results page. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
 If you’d like to organize the products in a specific order, you can create `Product Slots` on the Results Page. Check [How to Recommend a Skincare Routine with Slots](/how-to-guides/recommend-skincare-routine-slots/) to learn how to do that.
 ## Complex product matrix
     If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
@@ -15540,7 +15540,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
 ### [:fontawesome-brands-shopify: Shopify customers](/how-to-guides/send-leads-to-shopify-customers/)
 
-You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/link-collections/#customer-tags).
+You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/customer-tags/).
 
 [:fontawesome-solid-arrow-right: send leads to Shopify Customers](/how-to-guides/send-leads-to-shopify-customers/) &nbsp;·&nbsp; [:fontawesome-solid-arrow-right: automate with Shopify Flow](/how-to-guides/automate-quiz-completions-with-shopify-flow/)
 
@@ -15558,7 +15558,7 @@ By automatically sending quiz results to your HubSpot account, you can segment y
 
 ### [:fontawesome-brands-mailchimp: Mailchimp](/how-to-guides/send-leads-to-mailchimp/)
 
-Automating the transfer of quiz data to your Mailchimp account streamlines the process of segmenting your audience and enables targeted follow-up campaigns based on [customer tags](/reference/quiz-builder/link-collections/#customer-tags). Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
+Automating the transfer of quiz data to your Mailchimp account streamlines the process of segmenting your audience and enables targeted follow-up campaigns based on [customer tags](/reference/quiz-builder/customer-tags/). Mailchimp integration only supports email, name, and customer tags to be send from the quiz. For more complex emailing/data needs, including direct product recommendations, consider using a different service.
 
 [:fontawesome-solid-arrow-right: learn more](/how-to-guides/send-leads-to-mailchimp/)
 
@@ -16669,49 +16669,49 @@ Apart from giving your customers personalized product recommendations, you can c
     The Mailchimp list is selected in the [Connect](/reference/quiz-builder/connect-integrations/) tab, as described in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
     The Mailchimp list is selected in the [Connect](/reference/quiz-builder/connect-integrations/) tab, as described in the [Link Quiz to Mailchimp](#link-quiz-to-mailchimp) section.
 ## Use customer tags for segmentation in Mailchimp
-    With [customer tags](/reference/quiz-builder/link-collections/#customer-tags), you can segment your audience within Mailchimp based on their quiz responses:
+    With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
     1. Make sure the quiz is connected to Mailchimp. 
-    2. Create [customer tags](/reference/quiz-builder/link-collections/#customer-tags) in the RevenueHunt app and link them to choices.
+    2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
     4. Navigate to the `Audience` section in your Mailchimp account.
     5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
-    With [customer tags](/reference/quiz-builder/link-collections/#customer-tags), you can segment your audience within Mailchimp based on their quiz responses:
+    With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
     1. Make sure the quiz is connected to Mailchimp. 
-    2. Create [customer tags](/reference/quiz-builder/link-collections/#customer-tags) in the RevenueHunt app and link them to choices.
+    2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
     4. Navigate to the `Audience` section in your Mailchimp account.
     5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
-    With [customer tags](/reference/quiz-builder/link-collections/#customer-tags), you can segment your audience within Mailchimp based on their quiz responses:
+    With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
     1. Make sure the quiz is connected to Mailchimp. 
-    2. Create [customer tags](/reference/quiz-builder/link-collections/#customer-tags) in the RevenueHunt app and link them to choices.
+    2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
     4. Navigate to the `Audience` section in your Mailchimp account.
     5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
-    With [customer tags](/reference/quiz-builder/link-collections/#customer-tags), you can segment your audience within Mailchimp based on their quiz responses:
+    With [customer tags](/reference/quiz-builder/customer-tags/), you can segment your audience within Mailchimp based on their quiz responses:
     1. Make sure the quiz is connected to Mailchimp. 
-    2. Create [customer tags](/reference/quiz-builder/link-collections/#customer-tags) in the RevenueHunt app and link them to choices.
+    2. Create [customer tags](/reference/quiz-builder/customer-tags/) in the RevenueHunt app and link them to choices.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     3. Once done, click the `Publish` button to update the preview/live quiz with new changes.
     4. Navigate to the `Audience` section in your Mailchimp account.
     5. Use the customer tags to create segmented lists or groups, allowing for targeted campaign efforts based on the quiz outcomes.
 ### Hack: send quiz answers to Mailchimp
     To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/link-collections/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
     To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/link-collections/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
     To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/link-collections/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
     To override Mailchimp's limitation on pushing detailed quiz data, you can use `customer tags` to represent customer responses.
-    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/link-collections/#customer-tags) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
+    1. For each possible quiz answer, create a corresponding [customer tag](/reference/quiz-builder/customer-tags/) within your quiz setup. This requires planning to ensure each tag accurately represents the quiz responses.
         ![how to send leads to mailchimp tags](/images/how_to_send_leads_to_mailchimp_tags.png)
     2. Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
 ## Set up Post-quiz email flow with Mailchimp
@@ -16721,7 +16721,7 @@ Apart from giving your customers personalized product recommendations, you can c
         !!! tip
             Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
     2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
-        - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
+        - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
@@ -16743,7 +16743,7 @@ Apart from giving your customers personalized product recommendations, you can c
         !!! tip
             Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
     2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
-        - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
+        - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
@@ -16765,7 +16765,7 @@ Apart from giving your customers personalized product recommendations, you can c
         !!! tip
             Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
     2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
-        - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
+        - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
@@ -16787,7 +16787,7 @@ Apart from giving your customers personalized product recommendations, you can c
         !!! tip
             Remember to take a test quiz/preview the quiz leaving a sample email address in order to send first data to Mailchimp and test the connection. You can use your real email with a +test1, +test2 to test different answering routes. For example, youremail+test1@email.com or youremail+test2@email.com.
     2. **Use Customer Tags for Segmentation.** Once your quiz is connected you should consider what data you want to send to Mailchimp from the quiz. You can, for example:
-        - [Create customer tags in your quiz](/reference/quiz-builder/link-collections/#customer-tags) to represent different quiz responses.
+        - [Create customer tags in your quiz](/reference/quiz-builder/customer-tags/) to represent different quiz responses.
         - Link these tags to specific answers in your quiz.
         - Upon completion of the quiz by a participant, Mailchimp will receive all the tags that the customer picked based on their choices.
         - In Mailchimp, you can use these tags to segment your audience and tailor your email campaigns.
@@ -17306,7 +17306,7 @@ icon: simple/shopify
 
 # How to Send Quiz Leads to Shopify Customers
 
-You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/link-collections/#customer-tags).
+You can add new customers automatically to your Shopify Customers list every time someone completes the quiz. Once someone leaves their email in the quiz, their Shopify Customer profile will be updated with their name, email, phone number and [customer tags](/reference/quiz-builder/customer-tags/).
 
 This article explains how to connect your quiz to Shopify Customers, tag respondents based on their answers, and build a Shopify Flow targeted at quiz takers.
 
@@ -19822,7 +19822,7 @@ Our product recommendation algorithm works like a voting system:
 - When a customer picks a choice, all linked products receive one vote.
 - After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes.
 - If no products have been linked or all the products have been excluded, the results page will appear empty.
-- If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.
+- If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.
 
 **Understand Inclusion and Exclusion**
 
@@ -19877,7 +19877,7 @@ Products or collections added in the `include/upvotes` field of the [Link Produc
     This way if a customer chooses that he doesn't want to spend more than 100$, all the products over that price will be excluded from the recommendations.
 ## Funnel quiz
 The voting system recommends products by counting how many times each one is "voted for" through customer quiz choices. Each quiz choice can be linked to specific product variants, and every time a customer selects a choice, the associated products receive one vote. 
-At the end of the quiz, the results page displays the product variants with the most votes, sorted from highest to lowest. If no products have been linked or all products are excluded by logic, the results page will be empty. If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections. You can also configure the system to show only a limited number of top-voted products or set a minimum number of votes for a product to appear.
+At the end of the quiz, the results page displays the product variants with the most votes, sorted from highest to lowest. If no products have been linked or all products are excluded by logic, the results page will be empty. If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections. You can also configure the system to show only a limited number of top-voted products or set a minimum number of votes for a product to appear.
 ![how_to_shopify_v2_recommendations_funnel](/images/how_to_shopify_v2_recommendations_funnel.png){width=500} 
     RevenueHunt Product Recommendation Quiz can show on the results page **simple products**, **variable products**, **grouped products**, **external/affiliate products** and **[WooCommerce subscription products](/how-to-guides/recommend-subscription-products/)**. 
     RevenueHunt Product Recommendation Quiz **cannot recommend categories** of products, though it's possible to [only recommend products from a specific category/tag/attribute](/how-to-guides/recommend-skincare-routine-slots/).
@@ -20606,7 +20606,7 @@ Product recommendation algorithm works like a voting system:
 
 - Product variants are linked to each choice.
 - When a customer picks a choice, all linked products receive one vote.
-- After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/quiz-builder/quiz-settings/#catalogue-settings) to show products in the same order as your Shopify collections.*
+- After the customer takes the quiz, the results page will show the most voted product variants sorted by the number of votes. *If no products have been linked or all the products have been excluded, the results page will appear empty. If there's a draw in the number of votes, the order depends on your Catalogue mode setting. By default, ties are randomized. Enable 'Preserve collection order' in [Settings > Catalogue](/reference/app-settings/#catalogue) to show products in the same order as your Shopify collections.*
 - You can limit recommendations to a specific number of products or a minimum vote threshold.
 
 !!! tip "How to set this up?"
@@ -26617,66 +26617,66 @@ description: "Link product collections to quiz choices in RevenueHunt with upvot
 
 --- WooCommerce Specific Content ---
 
-![quiz builder woo link ccategories](/images/manual_woo_quizbuilder_linkcategories.png)
+![quiz builder woo link categories](/images/manual_woo_quizbuilder_linkcategories.png)
     In the Link Categories tab, you can link entire categories of products from your store to choices. This includes WooCommerce categories, tags and attributes.
     Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 vote.
     To link a category to a choice click on the white dropdown bar and start typing the name.
     ![quiz builder link collections search](/images/manual_woo_quizbuilder_linkcategories_pickcategory.png)
     Select a category and it will be automatically added to the choice. 
-    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that category.
-    You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
-    ![quiz builder woo link categoreis link categories](/images/manual_woo_quizbuilder_linkcategories_linked_categories.png)
-    To remove a linked categories click "x" next to the category name.
-    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
+    `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
+    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 votes, one from each category.
+    ![quiz builder woo link categories linked](/images/manual_woo_quizbuilder_linkcategories_linked_categories.png)
+    To remove a linked category click `x` next to the category name.
+    `excluded collections` - Opens the dropdown which lets you exclude categories of products from a choice.
     ![quiz builder link collections exclude](/images/manual_woo_quizbuilder_linkcategories_excludecategories.png)
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
-    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
-    ![quiz builder standalone link ccategories](/images/manual_standalone_quizbuilder_linkcategories.png)
+    Be careful with exclusions. Once a category is excluded from a choice, its products never show on the results page. This applies even if another choice upvoted them.
+    **Missing categories, or categories showing (0) products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    ![quiz builder standalone link categories](/images/manual_standalone_quizbuilder_linkcategories.png)
     In the Link Categories tab, you can link entire categories of products from your store to choices.
     Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 vote.
     To link a category to a choice click on the white dropdown bar and start typing the name.
     ![quiz builder link categories search](/images/manual_standalone_quizbuilder_linkcategories_pickcategory.png)
     Select a category and it will be automatically added to the choice. 
-    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that category.
-    You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
-    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
-    To remove a linked category click "x" next to the category name.
-    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
+    `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
+    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 votes, one from each category.
+    ![quiz builder standalone link categories linked](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
+    To remove a linked category click `x` next to the category name.
+    `excluded collections` - Opens the dropdown which lets you exclude categories of products from a choice.
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
-    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
-    ![quiz builder standalone link ccategories](/images/manual_standalone_quizbuilder_linkcategories.png)
+    Be careful with exclusions. Once a category is excluded from a choice, its products never show on the results page. This applies even if another choice upvoted them.
+    **Missing categories, or categories showing (0) products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    ![quiz builder standalone link categories](/images/manual_standalone_quizbuilder_linkcategories.png)
     In the Link Categories tab, you can link entire categories of products from your store to choices.
     Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 vote.
     To link a category to a choice click on the white dropdown bar and start typing the name.
     ![quiz builder link categories search](/images/manual_standalone_quizbuilder_linkcategories_pickcategory.png)
     Select a category and it will be automatically added to the choice. 
-    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that category.
-    You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
-    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
-    To remove a linked category click "x" next to the category name.
-    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
+    `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
+    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 votes, one from each category.
+    ![quiz builder standalone link categories linked](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
+    To remove a linked category click `x` next to the category name.
+    `excluded collections` - Opens the dropdown which lets you exclude categories of products from a choice.
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
-    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    Be careful with exclusions. Once a category is excluded from a choice, its products never show on the results page. This applies even if another choice upvoted them.
+    **Missing categories, or categories showing (0) products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
     !!! tip
-        You can also use custom fields as tags within the app by following [these instructions](/how-to-guides/use-custom-fields-as-tags/)
-    ![quiz builder standalone link ccategories](/images/manual_standalone_quizbuilder_linkcategories.png)
+        You can also use custom fields as tags. See [Use Custom Fields as tags](/how-to-guides/use-custom-fields-as-tags/).
+    ![quiz builder standalone link categories](/images/manual_standalone_quizbuilder_linkcategories.png)
     In the Link Categories tab, you can link entire categories of products from your store to choices.
     Once a category is linked to a choice and the customer picks that choice, all the products in that category will receive 1 vote.
     To link a category to a choice click on the white dropdown bar and start typing the name.
     ![quiz builder link categories search](/images/manual_standalone_quizbuilder_linkcategories_pickcategory.png)
     Select a category and it will be automatically added to the choice. 
-    **Moisturizers(1)** - (1) The number in the brackets indicates how many product variants are in that category.
-    You can link multiple categories to the same choice but be careful. If a product is part of two categories linked to the same choice, it will receive 2 votes from that choice (one vote from each category linked to that choice).
-    ![quiz builder standalone link categoreis link categories](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
-    To remove a linked category click "x" next to the category name.
-    **excluded collections** - Opens the dropdown which lets you exclude categories of products from a choice. 
+    `Moisturizers(1)` - The number in brackets is how many product variants are in that category.
+    You can link several categories to the same choice, but be careful. A product in two categories linked to the same choice gets 2 votes, one from each category.
+    ![quiz builder standalone link categories linked](/images/manual_standalone_quizbuilder_linkcategories_linked_categories.png)
+    To remove a linked category click `x` next to the category name.
+    `excluded collections` - Opens the dropdown which lets you exclude categories of products from a choice.
     ![quiz builder link cocategories exclude](/images/manual_standalone_quizbuilder_linkcategories_excludecategories.png)
-    Be careful when using exclusions. Once a category of products is excluded from a choice, the products from that category will never show on the results page, even if they were upvoted in another choice earlier/later.
-    **Missing categories or categories show (0) products?**  - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    Be careful with exclusions. Once a category is excluded from a choice, its products never show on the results page. This applies even if another choice upvoted them.
+    **Missing categories, or categories showing (0) products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
 ---
-← [Back to Quiz Builder Index](/reference/quiz-builder/)
+← [Back to Quiz Builder](/reference/quiz-builder/)
 ← Previous: [Questions](/reference/quiz-builder/questions/)
 Next: [Link Products](/reference/quiz-builder/link-products/) →
 
@@ -27486,57 +27486,57 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
 --- WooCommerce Specific Content ---
 
 ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
+    In Quiz Settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also restore a previously published version of the quiz.
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
+    In Quiz Settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also restore a previously published version of the quiz.
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
+    In Quiz Settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also restore a previously published version of the quiz.
     ![quiz builder quiz settings](/images/manual_quizbuilder_quizsettings.png)
-    In Quiz Settings you can adjust the quiz language or currency, edit button translations and placeholder texts or restore a previously published version of the quiz.
-### General
+    In Quiz Settings you can change the quiz language and currency, and edit button translations and placeholder texts. You can also restore a previously published version of the quiz.
+## General
     ![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png){width="500"}
     `Quiz name` - Click on the field to edit the quiz name.
-    `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+    `Language` - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
     `Separators` - Choose from a dropdown how the currency number should be displayed.
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
-    `Use top level product` - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
-    `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Use top level product` - Merges all product variants onto the main product in the Link Products section. You can then link every variant of a product to a choice at once. Activating this setting refreshes the quiz page. The affected products show an [ALL VARIANTS] suffix in the Link Products tab.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
     `Quiz ID` - Displays the current quiz ID.
     ![manual_magento_quizbuilder_quizsettings_general](/images/manual_magento_quizbuilder_quizsettings_general.png){width="300"}
     `Quiz name` - Click on the field to edit the quiz name.
-    `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+    `Language` - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
     `Separators` - Choose from a dropdown how the currency number should be displayed.
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
-    `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
     `Quiz ID` - Displays the current quiz ID.
     ![quiz builder quiz settings general](/images/manual_quizbuilder_quizsettings_general.png){width="500"}
     `Quiz name` - Click on the field to edit the quiz name.
-    `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+    `Language` - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
     `Separators` - Choose from a dropdown how the currency number should be displayed.
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
-    `Use top level product` - Activating this setting will merge all the product variants onto the main product in the Link Porducts section of the app, allowing you to easily link all variants of the same product to choices at once. Activating this setting will cause a refresh of the quiz page. Changes can be observed in the Link Products tab. All the products affected by this setting will show an [ALL VARIANTS] suffix.
-    `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Use top level product` - Merges all product variants onto the main product in the Link Products section. You can then link every variant of a product to a choice at once. Activating this setting refreshes the quiz page. The affected products show an [ALL VARIANTS] suffix in the Link Products tab.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
     `Quiz ID` - Displays the current quiz ID.
     ![manual_magento_quizbuilder_quizsettings_general](/images/manual_magento_quizbuilder_quizsettings_general.png){width="300"}
     `Quiz name` - Click on the field to edit the quiz name.
-    `Language` - Choose a language from a dropdownlist to change the text on the quiz buttons and placeholders into that language.
+    `Language` - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
     `Currency` - Choose from a dropdown in which currency the product price should be displayed.
     `Format` - For some currencies, you can choose the format in which the currency symbol will be displayed (before/after the price value).
     `Separators` - Choose from a dropdown how the currency number should be displayed.
-    `Save quiz progress` - Activating this setting will allow the quiz to remember where the use left the quiz and show it from that moment when they visit the quiz page again. (For example, if the user finished the quiz and they return to it, they will see their results page instead of the first slide.) Toggle to activate.
+    `Save quiz progress` - Remembers where the customer left the quiz and reopens it there on their next visit. For example, a customer who finished the quiz sees their results page again, not the first question. Toggle to activate.
     `Set *revenuehunt/quiz* as UTM source/medium` - Deactivating this setting will remove revenuehunt/quiz as a source/medium in your tracking integrations (such as Google Analytics or Meta Pixel).
-    `Export quiz to another store` - Clicking "get code" generates a unique piece of code that allows you to copy the entire quiz from one store to another that's using our solution. Check [How to copy the quiz from one store to another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
+    `Export quiz to another store` - Click `get code` to generate a code. Use it to copy the whole quiz to another store that also runs RevenueHunt. See [How to Copy the Quiz from One Store to Another](/how-to-guides/copy-the-quiz-from-one-store-to-another/) for detailed instructions.
     `Quiz ID` - Displays the current quiz ID.
-### Messages / quiz content
+## Messages / quiz content
     ![quiz builder quiz settings messages](/images/manual_quizbuilder_quizsettings_messages.png){width="500"}
     `Language` - Choose a language from a dropdown list to change the text on the quiz buttons and placeholders into that language.
     **Buttons**
@@ -27545,13 +27545,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `View product` - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
     `Add to cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
     `X in cart` - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
-    `Add all to cart` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+    `Add all to cart` - Default text on the CTA button before the customer adds anything to the cart. Applies when checkout settings are set to `Add to Cart`. | Results Page
     `Unavailable` - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
     `View results` - Default text on the button on the "Thank You" slide type. | Quiz
     `Proceed to...` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
     `...Checkout` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
+    `Retake quiz` - Default text on the button that lets the customer retake the quiz. | Results Page
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
     `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
@@ -27591,13 +27591,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `View product` - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
     `Add to cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
     `X in cart` - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
-    `Add all to cart` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+    `Add all to cart` - Default text on the CTA button before the customer adds anything to the cart. Applies when checkout settings are set to `Add to Cart`. | Results Page
     `Unavailable` - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
     `View results` - Default text on the button on the "Thank You" slide type. | Quiz
     `Proceed to...` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
     `...Checkout` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
+    `Retake quiz` - Default text on the button that lets the customer retake the quiz. | Results Page
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
     `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
@@ -27637,13 +27637,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `View product` - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
     `Add to cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
     `X in cart` - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
-    `Add all to cart` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+    `Add all to cart` - Default text on the CTA button before the customer adds anything to the cart. Applies when checkout settings are set to `Add to Cart`. | Results Page
     `Unavailable` - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
     `View results` - Default text on the button on the "Thank You" slide type. | Quiz
     `Proceed to...` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
     `...Checkout` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
+    `Retake quiz` - Default text on the button that lets the customer retake the quiz. | Results Page
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
     `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
@@ -27683,13 +27683,13 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `View product` - Default text on the product CTA button when checkout settings are set to "Link to Product". | Results Page
     `Add to cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
     `X in cart` - Default text on the CTA button when a customer added something to the cart when checkout settings are set to "Add to Cart". | Results Page
-    `Add all to cart` -  Default text on the CTA button when a customer did not add anything to the cart yet when checkout settings are set to "Add to Cart". | Results Page
+    `Add all to cart` - Default text on the CTA button before the customer adds anything to the cart. Applies when checkout settings are set to `Add to Cart`. | Results Page
     `Unavailable` - Default text on the product CTA button when the product is out of stock when checkout settings are set to "Add to Cart". | Results Page
     `View results` - Default text on the button on the "Thank You" slide type. | Quiz
     `Proceed to...` - Default text on the product CTA button when checkout settings are set to "Add to Cart". | Results Page
     `...Checkout` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to checkout". | Results Page
     `...Cart` - Default text on the product CTA button when checkout settings are set to "Add to Cart" and "Go to cart". | Results Page
-    `Retake quiz` - Default text on the button that allows the user to retake the quiz. | Results Page
+    `Retake quiz` - Default text on the button that lets the customer retake the quiz. | Results Page
     `Read more` - Default text on the product tile that opens the extended product description. | Results Page
     `One-time purchase` - Default text that lets the customer add a single-purchase variant of the product to the cart if a product is a subscription product. | Results Page
     `Subscribe & save` - Default text that lets the customer add a recurring-purchase variant of the product to the cart if a product is a subscription product. | Results Page
@@ -27721,48 +27721,48 @@ description: "Configure RevenueHunt quiz settings for language, currency, transl
     `Doesn't qualify` - Default text when dynamic discounts are active in the quiz. | Results Page
     `Encourage next discount` - Default text when dynamic discounts are active in the quiz. | Results Page
     `Restore default messages` - Click "restore" to set all fields back to default.
-### Version history
+## Version history
     ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
     In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
     ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
     `...` - Click to open the restore menu.
     `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
-    `Rename this version` - Allows you to rename this saved version of the quiz.
+    `Rename this version` - Renames this saved version of the quiz.
     ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
     In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
     ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
     `...` - Click to open the restore menu.
     `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
-    `Rename this version` - Allows you to rename this saved version of the quiz.
+    `Rename this version` - Renames this saved version of the quiz.
     ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
     In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
     ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
     `...` - Click to open the restore menu.
     `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
-    `Rename this version` - Allows you to rename this saved version of the quiz.
+    `Rename this version` - Renames this saved version of the quiz.
     ![quiz builder quiz settings version history](/images/manual_quizbuilder_quizsettings_versionhistory.png){width="500"}
     In the Version History section of Quiz Settings you will find all the published versions of the quiz. Each version is time-stamped with the publishing date. Tags such as "questions", "notifications" indicate what changes were made in this version of the quiz.
     ![quiz builder quiz settings version history menu](/images/manual_quizbuilder_quizsettings_versionhistory_threedots.png){width="300"}
     `...` - Click to open the restore menu.
     `Create a new quiz using this version` - Create a new quiz on our dashboard based on this version of the current quiz.
-    `Rename this version` - Allows you to rename this saved version of the quiz.
-### Integrations
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.  
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
-    Check the [Integrations](/reference/quiz-builder/connect-integrations/) page for more information.
-### Emails to self
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
-    Check the [Notifications to self](/reference/quiz-builder/notifications/#to-self) page for more information.
-### Emails to respondents
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
-    Check the [Notifications to respondents](/reference/quiz-builder/notifications/#to-respondent) page for more information.
+    `Rename this version` - Renames this saved version of the quiz.
+## Integrations
+    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.
+    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.  
+    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.
+    See [Connect / Integrations](/reference/quiz-builder/connect-integrations/) for more information.
+## Emails to self
+    See [Emails to the store owner](/reference/quiz-builder/notifications/#to-self) for more information.
+    See [Emails to the store owner](/reference/quiz-builder/notifications/#to-self) for more information.
+    See [Emails to the store owner](/reference/quiz-builder/notifications/#to-self) for more information.
+    See [Emails to the store owner](/reference/quiz-builder/notifications/#to-self) for more information.
+## Emails to customers { #emails-to-respondents }
+    See [Emails to customers](/reference/quiz-builder/notifications/#to-respondent) for more information.
+    See [Emails to customers](/reference/quiz-builder/notifications/#to-respondent) for more information.
+    See [Emails to customers](/reference/quiz-builder/notifications/#to-respondent) for more information.
+    See [Emails to customers](/reference/quiz-builder/notifications/#to-respondent) for more information.
 ---
-← [Back to Quiz Builder Index](/reference/quiz-builder/)
+← [Back to Quiz Builder](/reference/quiz-builder/)
 ← Previous: [Notifications](/reference/quiz-builder/notifications/)
 Next: [Connect / Integrations](/reference/quiz-builder/connect-integrations/) →
 
