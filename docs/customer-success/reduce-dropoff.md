@@ -148,7 +148,7 @@ What *does* cause drop-off at the email step is making it feel like a data grab 
 ![Email question with discount incentive](/images/how_to_add_discount_email_question.png)
 
 ??? tip "How to configure the email question"
-    See: [Email question settings](/reference/quiz-builder/questions/#email)
+    See: [Email question settings](/reference/quiz-builder/questions/#email-address)
 
 ---
 

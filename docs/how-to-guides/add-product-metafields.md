@@ -28,8 +28,8 @@ This article explains how to add product metafields/attributes to products on yo
     To enable the display of metafields for individual products:
 
     1. Navigate to the [Results page](/reference/quiz-builder/results-page/) tab in the Quiz builder.
-    2. Add a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
-    3. In the [`Product components layout`](/reference/quiz-builder/results-page/#product-components-layout), click `+ block`and add the `Metafield`section.
+    2. Add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and open its settings.
+    3. In the [`Product components layout`](/reference/quiz-builder/results-page/#slot-item-composition), click `+ block`and add the `Metafield`section.
       ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
       ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
     4. From the `Select metafield` section, select the metafield you want to display.

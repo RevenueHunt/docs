@@ -120,8 +120,8 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
         - A [heading](/reference/quiz-builder/results-page/#heading),
         - A short [text description](/reference/quiz-builder/results-page/#text) of what that means,
         - A [Product block](/reference/quiz-builder/results-page/.#products-products-variants-collections)
-    5. In the [Product block settings](/reference/quiz-builder/results-page/#products-products-variants-collections), choose the Recommendations System to be `Fixed Recommendations`.
-    6. In the [Product Slot](/reference/quiz-builder/results-page/#product-slot) settings, select the `Max. recommended items` and click on `Select products` to manually select the products that match that skin type.
+    5. In the [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections), choose the Recommendations System to be `Fixed Recommendations`.
+    6. In the [Product Slot](/reference/quiz-builder/results-page/#results-slot) settings, select the `Max. recommended items` and click on `Select products` to manually select the products that match that skin type.
     7. Repeat the process for each skin type section.
 
 
@@ -131,7 +131,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
     Now let’s tell the app *when* to show each section.
 
     1. Click a specific section to open the `Results Section` settings.
-    2. Go to [Display logic](/reference/quiz-builder/results-page/#display-logic) and click `+ Add condition (OR)`.
+    2. Go to [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) and click `+ Add condition (OR)`.
     3. Show the section if the corresponding variable has the highest score (e.g., dry skin). Ensure default visibility is set to hidden for all sections until conditions are met.  
     
         Set the conditions like this:
@@ -169,7 +169,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
     - shows you which variables were scored during a quiz session and in which answer,
     - shows logic behind sections visibility,
     - gives you an overview of the quiz results,
-    - gives you access to [Quiz Copilot](/reference/quiz-builder/metrics/#quiz-copilot), an AI assistant that can help you analyze the response.
+    - gives you access to [Quiz Copilot](/how-to-guides/use-quiz-copilot/), an AI assistant that can help you analyze the response.
 
     You can adjust scores or questions based on the analysis.
     

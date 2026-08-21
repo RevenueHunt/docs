@@ -24,7 +24,7 @@ This is the difference between using your quiz as a conversion tool and using it
 
 === "Shopify"
 
-    1. Your quiz has an [email question](/reference/quiz-builder/questions/#email) and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) via OAuth with `Send Quiz Leads to Klaviyo Profiles` enabled.
+    1. Your quiz has an [email question](/reference/quiz-builder/questions/#email-address) and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) via OAuth with `Send Quiz Leads to Klaviyo Profiles` enabled.
     2. You have [tagged your quiz answers](/how-to-guides/use-customer-tags/) so answers arrive on the profile as customer tags.
     3. **Your Shopify store is connected to Klaviyo** through Klaviyo's native Shopify integration, so events like `Started Checkout`, `Placed Order` and `Viewed Product` reach Klaviyo. Without this the four behavior-triggered flows have nothing to trigger on.
 

@@ -4255,7 +4255,7 @@ The quiz is the top of your funnel. Capturing the email and following up is wher
     **Yes - the data says so.** Among top-converting quizzes that collect email, 75% make it required. This does **not** hurt completion rates - customers who reach the email step are engaged and willing to share their email for a personalized recommendation. Make it required.
 
 ??? info "How to set the email question as required"
-    Open the email question settings and toggle **Required** on. See: [Email question settings](/reference/quiz-builder/questions/#email)
+    Open the email question settings and toggle **Required** on. See: [Email question settings](/reference/quiz-builder/questions/#email-address)
 
     ![email question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png)
 
@@ -4699,7 +4699,7 @@ What *does* cause drop-off at the email step is making it feel like a data grab 
 ![Email question with discount incentive](/images/how_to_add_discount_email_question.png)
 
 ??? tip "How to configure the email question"
-    See: [Email question settings](/reference/quiz-builder/questions/#email)
+    See: [Email question settings](/reference/quiz-builder/questions/#email-address)
 
 ---
 
@@ -5558,7 +5558,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 - **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - You can add a [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) to your question, which will allow you to add an image to each choice in that multiple-choice question.
 
-- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-image-in-productvariantscollection-blocks) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
+- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-product-variants-collections) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
 
 
 ### Quiz background image
@@ -9833,7 +9833,7 @@ icon: material/cellphone-message
 
 Apart from giving your customers a personalized product recommendation, you can connect Product Recommendation Quiz to your Omnisend account so that the quiz results are sent automatically to your mailing list. This way you can segment them based on their responses and follow up with targeted campaigns.
     This article explains how to connect your quiz to Omnisend, create a segment for quiz participants and how to send the quiz results via email in Omnisend.
-    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
+    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email-address), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
     2. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). 
         - Log in to your Omnisend account.
         - Go to **Store Settings** > **API** and create a new API key.
@@ -13693,26 +13693,26 @@ description: "Track RevenueHunt quiz metrics including responses, analytics, dro
 
 In the Metrics section of the Quiz Builder, you can find individual quiz responses and analytics.
     ![quiz builder metrics responses](/images/manual_quizbuilder_metrics_responses.png)
-    On the left-hand side menu, you'll find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
+    On the left-hand side menu, you will find the most recent 100 responses the quiz received organized by date/timestamp. Click on a date to open a specific response.
     `Export CSV - 1 month` / `Export CSV - 3 months` / `Export CSV - 6 months` - Click to generate a CSV file with the quiz responses from the last 1, 3 or 6 months. Once ready, a downloadable link will show up on your [dashboard](/reference/dashboard/).
     !!! warning "Export size limit"
-        Exports are capped at 100,000 responses. If the range you picked contains more than that, the export is stopped and you're asked to choose a shorter range. [Contact support](/how-to-guides/contact-customer-support/) if you need a larger export.
+        Exports are capped at 100,000 responses. If the range you picked contains more than that, the export stops and you are asked to choose a shorter range. [Contact support](/how-to-guides/contact-customer-support/) if you need a larger export.
     !!! note "Requesting another export"
         Once an export has finished, you can request a new one straight away, even if the download link from the previous export is still available.
     ![quiz builder metrics responses details1](/images/manual_quizbuilder_metrics_responses_details1.png)
-    `Why was a product recommended or not in this response?` - This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
+    `Why was a product recommended or not in this response?` - Use this section to troubleshoot a single response, and to understand why a product was recommended or left out.
     `SELECT PRODUCT TO CHECK` - Click to select a product from the catalog and analyze it against the response.
     `Responses to Questions` - This section displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question.
     ![quiz builder metrics responses details2 products](/images/manual_quizbuilder_metrics_responses_details2_products.png)
     `Results Page 1` - Displays the name of the results page recommended.
     `Products` - Products were recommended in a Product block.
-    `↑1 🎁6` - Minimum number of votes that allow the product to be shown in this product block: 1; Maximum number of products that are allowed to be shown in this product block: 6.
+    `↑1 🎁6` - Minimum votes for a product to show in this product block: 1. Maximum products shown in this product block: 6.
     `Kopi Luwak Coffee` / `Product name` - Displays the name of the product recommended in this product block. Hover over the product to see how many upvotes it received in the quiz.
     ![quiz builder metrics responses details2 slots](/images/manual_quizbuilder_metrics_responses_details2_slots.png)
     `Results Page 1` - Displays the name of the results page recommended.
     `Slots` - Products were recommended in a Slots block.
     `Step 1: Cleanser` / `Slot Title` - Displays the title of the Slot block.
-    `↑1 🎁1` - Minimum number of votes that allow the product to be shown in this slots block: 1; Maximum number of products that are allowed to be shown in this slots block: 1.
+    `↑1 🎁1` - Minimum votes for a product to show in this slots block: 1. Maximum products shown in this slots block: 1.
     `✅5` - Displays which products this slot can show.
     `Cleansers (5)` / `Collection (x)` - Displays the collections which are linked to this slot.
     `All Natural Face Cleanser` - Displays the name of the product recommended in this slot block. Hover over the product to see how many upvotes it received in the quiz.
@@ -13728,7 +13728,7 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     **Compare:** - Choose how you want to compare the data in the graphs. 
     `Part Period` - Presents data against the values from previous 30 days.
     `Quiz` - Choose a quiz name against which you want to compare the metrics against.
-    **Quiz Starts** / **Starts** - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). 
+    **Quiz Starts** / **Starts** - Number of people who engaged with the quiz and passed the first slide. That is, they clicked `start quiz` or answered the first question. 
     ![quiz builder metrics analytics starts](/images/manual_quizbuilder_metrics_analytics_starts.png)
     `Quiz Responses` / `Responses` - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour.
     ![quiz builder metrics analytics responses](/images/manual_quizbuilder_metrics_analytics_responses.png)
@@ -13743,8 +13743,11 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     `Number of Orders` - Number of people who have placed an order after completing this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
     `Total Orders Value` - Total value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
     `Avg. Order Value` - Average value of orders placed after taking this quiz. To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Revenue Reports via the Connect tab.
+    !!! note "Customizing the Analytics tab is a Built for Shopify feature"
+        This version of the app has a fixed Analytics tab. You cannot add,
+        remove or rearrange the cards.
     ![quiz builder metrics drop off](/images/manual_quizbuilder_metrics_dropoff.png)
-    The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
+    The drop-off rate is measured from events, which fire whenever someone starts a quiz. Ad blockers in the browser can block some of those start events. The quiz starts figure in the analytics tab is adjusted to include the blocked starts, so it can differ from the drop-off rate.
     ![quiz builder metrics drop off dates](/images/manual_quizbuilder_metrics_dropoff_dates.png)
     To change the dates click on the 📆 icon. You can change the period to select it from the moment you started using the quiz or from a given date.
     `table` - Displays the drop-off rate for each question and the results page in a table format.
@@ -13752,7 +13755,7 @@ In the Metrics section of the Quiz Builder, you can find individual quiz respons
     `chart` - Displays the drop-off rate for each question and the results page in a chart format.
     ![quiz builder metrics drop off chart](/images/manual_quizbuilder_metrics_dropoff_chart.png)
     !!! tip "Tip: Analytics Per Choice"
-        If you want to see the list of most-clicked choices, you can do so by [downaloding the responses](/how-to-guides/download-quiz-responses/) as a .CSV file and analyzing it in Google Sheets or Microsoft Excel.
+        To see the list of most-clicked choices, [download the responses](/how-to-guides/download-quiz-responses/) as a CSV file. You can then analyze it in Google Sheets or Microsoft Excel.
 
 
 
@@ -13807,6 +13810,21 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
 ![quiz builder quiz builder section](/images/manual_quizbuilder_quizbuilder.png)
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click `Preview` in the top menu.
+    A quiz is a sequence of questions, ending in a Results Page. A question holds its choices directly.
+    ```
+    quiz
+    └── question          one screen of the quiz
+        └── choice        an alternative the customer can pick
+    ```
+    | Term | What it means |
+    |---|---|
+    | **quiz** | The whole thing: a sequence of questions ending in a Results Page. |
+    | **question** | One screen of the quiz. The question type determines what the customer sees and does. |
+    | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
+    | **choice** | One of the alternatives a customer can pick. |
+    | **slide** | Another word for a question, used in the API and in merge tags. |
+    !!! note "Blocks are a Built for Shopify feature"
+        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
     `+`/ `Add new question` - Opens a menu of quiz questions to add.
     ![quiz builder add questions](/images/manual_quizbuilder_quizbuilder_addquestions.png){width="300"}
     `Welcome Message` - The first slide in the quiz, also known as the welcome screen or welcome page. The introductory slide of the quiz featuring welcoming text and a 'Start Quiz' button. See [How to Add a Welcome Screen](/how-to-guides/add-welcome-screen/).
@@ -13816,24 +13834,24 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Yes/No` - Two choices slide which displays choices as a clickable options.
     `Pictures Choice` - Multiple-choice slide which displays choices as clickable images. You can uplaod your own image to each choice. It'sd recommended to uplaod square images, max. 400px x 400px.
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
-    `Short-text` - An open question slide that allows the user to provide a short text answer.
-    `Multi-line Text` - An open question slide that allows the user to provide a short text answer.
+    `Short-text` - An open question slide where the customer types a short text answer.
+    `Multi-line Text` - An open question slide where the customer types a longer text answer, over several lines.
     `Date` - A question slide that prompts the user to select or enter a specific date.
     `File Upload` - An interactive slide where users can upload a file as their response.
     `Name` - A slide designed for users to enter their name, featuring a short text field.
     `Number` -  A question type where users are prompted to input a numerical answer.
     `Email Address` - A slide dedicated to collecting the user's email address through a text field.
-    `Phone Number` - A slide where participants are asked to enter their phone number, usually in a specified format.
+    `Phone Number` - A slide where customers are asked to enter their phone number, usually in a specified format.
     `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
     ![quiz builder question settings menu](/images/manual_quizbuilder_quizbuilder_questionsettings_menu.png)
     `question settings` / `wrench icon` - Opens the Question Settings menu.
     ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
-    `Question Type` - Allows you to switch between similar question types.
+    `Question Type` - Lets you switch between similar question types.
     `Button Text` - Change the text button on the slide.
     `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
-    `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+    `Show Description` - Activates an extra text field below the main question field, where you add more text to the slide. Toggle to activate.
     `Optional` - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
-    `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
+    `Multiple Selection` - Lets the customer select more than one answer. An extra menu appears once activated. Toggle to activate.
     `Range` - Select the range of answers a customer can click.
     `Image` - Click "Add" to uplaod a featured image to the question. Image should be max 1000px x 1000px. An extra menu appears once activated.
     - *above* - Places the uploaded image above the question, on top of the slide.
@@ -13846,7 +13864,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - *widget* - Places the uploaded video as a small round widget on the slide. The play/pause menu is active on the slide.
     - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
     - *Video Opacity* - A slider which lets you adjust the opacity of the uploaded video.
-    `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+    `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
     `Question ID` - Displays the question unique ID.
     `conditional logic` / `tree icon` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder.
     `more options` / `...` - Opens more options menu.
@@ -14002,6 +14020,27 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
 ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
     In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+    The Results Page is built from blocks stacked in order. There are no
+    sections. A new Results Page starts with a Heading Block, a Content Block
+    and a Products Block.
+    ```
+    Results Page
+    └── block            a component on the page
+        └── slot         one recommendation position in a Slots Block
+    ```
+    | Block | What it does |
+    |---|---|
+    | Heading Block | The main title of the page |
+    | Content Block | Rich text for descriptions, instructions or explanations |
+    | Image Block | A banner or another picture |
+    | HTML Block | Your own HTML and CSS |
+    | Products Block | The recommendation engine. Shows products based on the quiz logic |
+    | Slots Block | Fixed recommendations, shown whatever the score |
+    Settings sit at two levels:
+    - **Results Page settings** decide how products are picked. They also control
+      add to cart and checkout for the whole page
+    - **Block settings** decide how one block looks
+    - **Display Logic** shows or hides an individual block
     `+` / `add block` - Opens a menu of content blocks that you can add to your results page. You can drag an drop the blocks to change the order.
     ![quiz builder results page add block menu](/images/manual_quizbuilder_resultspage_addblockmenu.png)
     `Heading Block` - Adds a new heading to your page, ideal for titles or section breaks.
@@ -14009,7 +14048,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `HTML Block` - Adds a block where you can input custom HTML code for advanced content and styling.
     `Image Block` - Adds an embedded image block into your page. You can upload your own image. The image should be max 1000px x 1000px and max 2MB.
     `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
-    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most voted products from the collection linked to it.
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
     `conditional logic` / `tree icon` - Opens the [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) menu.
     ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
@@ -14036,7 +14075,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ![quiz builder results page product block settings](/images/manual_quizbuilder_resultspage_blockmenu_productblocksettings.png)
     `Title` - Type a title to be displayed above the recommended products.
     `Description` - Add a description to be displayed above the recommended products.
-    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. To show more, add another Product Block. Make sure `Allow duplicated recommendations` is off in your Results page settings.
     `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
     **Slot Block Settings** 
     ![quiz builder results page slot block settings](/images/manual_quizbuilder_resultspage_blockmenu_slotblocksettings.png)
@@ -14045,13 +14084,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Title` - Type a title to be displayed above the slot.
     `Description` - Add a description to be displayed above the slot.
     `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
-    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
-    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most voted products from the collection linked to it.
+    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received votes but sits in an excluded collection is not shown.
     `Slot ID` - Displays the current slot ID.
     `⚙️ / gear icon` - Opens the results page settings.
     ![quiz builder results page results page settings](/images/manual_quizbuilder_resultspage_settings.png)
     ![quiz builder results page results page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
-    `Add product to cart` - Allows the user to add the recommended products to the cart directly from the results page.
+    `Add product to cart` - Lets the customer add the recommended products to the cart directly from the results page.
     `Proceed to cart` - After the products are added to the cart, the customer will proceed to the cart page.
     `Proceed to checkout` - After the products are added to the cart, the customer will proceed to the checkout page.
     `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
@@ -14065,34 +14104,34 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Show description` - Toggle to display the product description below the product name on the results page. An additional option is displayed.
     `Truncate description` - Toggle to shorten the product description on the results page and display a "read more" link which will enlarge it while clicked.
     ??? question "Show custom shorter product description"
-        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
-        This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        You can shorten the product descriptions that appear on the recommendations page. The instructions below show a Shopify store, but this also works for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+        This feature lets you add a code snippet in your product description at the point where you want to cut it. In your ecommerce backend, open the product you want to edit. Click `Show HTML`, then add the `<!--more-->` snippet in the description:
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         And paste the `<!--more-->` code after the introductory blurb:
         ![manual quiz builder shorter product description image2](/images/manual_quiz_builder_shorter_product_description_image2.png)
         This should cut the description on the quiz results page:
         ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
-        You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
-    `Show reviews` - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
+        Deactivate `truncate description` in the Results Page settings, so the full description is shown and cut at the code snippet. Do this for **every product** the quiz can recommend.
+    `Show reviews` - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
     !!! info
-         We currently support these review apps for Shopify:
+         The app supports these review apps for Shopify:
         - Product Reviews by Shopify,
         - Stamped Product Reviews & UGC,
         - Judge.me Product Reviews,
         - Rivyo Product Reviews.
-    `Show metafields` - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafields in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    `Show metafields` - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafields in the quiz](/how-to-guides/add-product-metafields/).
     **Style Settings**
     ![quiz builder results page results page settings basic style](/images/manual_quizbuilder_resultspage_settings_basic_stylesettings.png){width="500"}
     `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
-    `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Image Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
     ![quiz builder results page results page settings advanced](/images/manual_quizbuilder_resultspage_settings_advanced.png){width="500"}
     **Recommendation Settings**
-    `If no results, no products` - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    `If no results, no products` - If there are no products that can be recommended a fallback message is shown instead. You can edit that text in Quiz Settings > Messages.
     `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
     `Group product variants` - Groups product variants as a dropdown under the main product name. Toggle to activate. Variants are displayed in the order of votes they received at the end of the quiz. If variants receive the same number of votes, the order in which they are displayed on the results page will be random.
     `Show unavailable products` - Allows products that are unavailable (out of stock) in the store to be recommended via the quiz. Toggle to activate.
     `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
-    `Minimum number of votes` - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X votes or more. Toggle to activate.
     ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
     **Custom JS Code**
     `Custom JavaScript` - Click "Add" to open the JavaScript console.

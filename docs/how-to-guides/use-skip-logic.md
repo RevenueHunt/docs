@@ -876,7 +876,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
     **Implementation**
 
     - Start with a [`Yes/No question`](/reference/quiz-builder/questions/#yesno) asking if the customer is willing to leave their email.
-    - Follow up with an [`email` input question](/reference/quiz-builder/questions/#email).
+    - Follow up with an [`email` input question](/reference/quiz-builder/questions/#email-address).
     - Apply Skip logic to the email question: if the customer opts out in the previous step, they are directed straight to the results page, bypassing the email question.
 
 

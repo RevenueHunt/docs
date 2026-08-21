@@ -294,7 +294,7 @@ You can add custom JavaScirpt to the quiz results page and the quiz questions.
     #### Slot item composition
 
     1. Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.
-    2. Open the [Product block](/reference/quiz-builder/results-page/#product-block) and in the [Slot settings](/reference/quiz-builder/results-page/#slot-settings) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.
+    2. Open the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and in the [Slot settings](/reference/quiz-builder/results-page/#slots) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.
     3. Add or edit a **Custom HTML block** within a product slot.
     4. Add JavaScript that interacts with individual product data:
 

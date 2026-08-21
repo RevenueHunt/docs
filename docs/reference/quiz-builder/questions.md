@@ -18,9 +18,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `+ Add block` - Adds an extra [building block](/reference/quiz-builder/questions/#block-settings) to the quiz question. To remove a block, click on the 🗑 bin icon.
     
-    !!! note
+    !!! info
 
-        All block elements added to a question will be visible on a single slide. To add a new slide click `+ Add question`. 
+        All block elements added to a question are visible on a single slide. To add a new slide click `+ Add question`. 
 
     `+ Add question` - Opens a menu of quiz questions to add as a new slide. To remove a question, click on the question and go to [Question settings](/reference/quiz-builder/questions/#question-settings).
 
@@ -55,6 +55,144 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     Quiz Builder is composed of two sections: the slides (left) and the preview (right). All the questions that you add to the quiz will be shown on the small preview. To test the whole quiz click `Test Quiz` in the top menu.
 
+## Quiz structure
+
+=== "Shopify"
+
+    A quiz is a sequence of questions, ending in a results page. Questions are modular: each one holds one or more blocks.
+
+    ```
+    quiz
+    └── question          one screen of the quiz
+        └── block         a component on that screen
+            └── choice    an alternative inside a choices block
+    ```
+
+    | Term | What it means |
+    |---|---|
+    | **quiz** | The whole thing: a sequence of questions ending in a results page. |
+    | **question** | One screen of the quiz. Adding a question type creates a question with the matching block already inside it. |
+    | **question type** | What the add menu offers. Choosing **Email Address** creates a question containing an email address input block. You can then add an image block above it. |
+    | **block** | A component inside a question. There are content blocks, choices blocks, input blocks and chart blocks. |
+    | **choice** | One of the alternatives a customer can pick inside a choices block. |
+    | **slide** | The name for a question in the API and in merge tags such as `{{slide:ZMiXjj}}`. |
+
+=== "Shopify (Legacy)"
+
+    A quiz is a sequence of questions, ending in a Results Page. A question holds its choices directly.
+
+    ```
+    quiz
+    └── question          one screen of the quiz
+        └── choice        an alternative the customer can pick
+    ```
+
+    | Term | What it means |
+    |---|---|
+    | **quiz** | The whole thing: a sequence of questions ending in a Results Page. |
+    | **question** | One screen of the quiz. The question type determines what the customer sees and does. |
+    | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
+    | **choice** | One of the alternatives a customer can pick. |
+    | **slide** | Another word for a question, used in the API and in merge tags. |
+
+    !!! note "Blocks are a Built for Shopify feature"
+
+        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+
+=== "WooCommerce"
+
+    A quiz is a sequence of questions, ending in a Results Page. A question holds its choices directly.
+
+    ```
+    quiz
+    └── question          one screen of the quiz
+        └── choice        an alternative the customer can pick
+    ```
+
+    | Term | What it means |
+    |---|---|
+    | **quiz** | The whole thing: a sequence of questions ending in a Results Page. |
+    | **question** | One screen of the quiz. The question type determines what the customer sees and does. |
+    | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
+    | **choice** | One of the alternatives a customer can pick. |
+    | **slide** | Another word for a question, used in the API and in merge tags. |
+
+    !!! note "Blocks are a Built for Shopify feature"
+
+        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+
+=== "Magento"
+
+    A quiz is a sequence of questions, ending in a Results Page. A question holds its choices directly.
+
+    ```
+    quiz
+    └── question          one screen of the quiz
+        └── choice        an alternative the customer can pick
+    ```
+
+    | Term | What it means |
+    |---|---|
+    | **quiz** | The whole thing: a sequence of questions ending in a Results Page. |
+    | **question** | One screen of the quiz. The question type determines what the customer sees and does. |
+    | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
+    | **choice** | One of the alternatives a customer can pick. |
+    | **slide** | Another word for a question, used in the API and in merge tags. |
+
+    !!! note "Blocks are a Built for Shopify feature"
+
+        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+
+=== "BigCommerce"
+
+    A quiz is a sequence of questions, ending in a Results Page. A question holds its choices directly.
+
+    ```
+    quiz
+    └── question          one screen of the quiz
+        └── choice        an alternative the customer can pick
+    ```
+
+    | Term | What it means |
+    |---|---|
+    | **quiz** | The whole thing: a sequence of questions ending in a Results Page. |
+    | **question** | One screen of the quiz. The question type determines what the customer sees and does. |
+    | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
+    | **choice** | One of the alternatives a customer can pick. |
+    | **slide** | Another word for a question, used in the API and in merge tags. |
+
+    !!! note "Blocks are a Built for Shopify feature"
+
+        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+
+=== "Standalone"
+
+    A quiz is a sequence of questions, ending in a Results Page. A question holds its choices directly.
+
+    ```
+    quiz
+    └── question          one screen of the quiz
+        └── choice        an alternative the customer can pick
+    ```
+
+    | Term | What it means |
+    |---|---|
+    | **quiz** | The whole thing: a sequence of questions ending in a Results Page. |
+    | **question** | One screen of the quiz. The question type determines what the customer sees and does. |
+    | **question type** | Multiple Choice, Pictures Choice, Dropdown, Yes/No, Short-text, Multi-line Text, Date, File Upload, Number, Name, Email Address, Phone Number, Legal Terms/GDPR, and the Welcome, Thank You and Statement messages. |
+    | **choice** | One of the alternatives a customer can pick. |
+    | **slide** | Another word for a question, used in the API and in merge tags. |
+
+    !!! note "Blocks are a Built for Shopify feature"
+
+        Questions in this version are not modular. Blocks exist on the Results Page, but not inside questions.
+
+!!! tip "Naming"
+
+    For the word RevenueHunt uses for each of these, and how it differs
+    by platform, see the [Glossary](/reference/glossary/#quiz-structure).
+
+
 ## Question types
 
 === "Shopify"
@@ -73,7 +211,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_email.png){width="500"}
 
-    `Phone Number` - A slide where participants are asked to enter their phone number, usually in a specified format.
+    `Phone Number` - A slide where customers are asked to enter their phone number, usually in a specified format.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_phone](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_phone.png){width="500"}
 
@@ -113,11 +251,11 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     **Inputs**
 
-    `Short-text` - An open question slide that allows the user to provide a short text answer.
+    `Short-text` - An open question slide where the customer types a short text answer.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_shorttext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_shorttext.png){width="500"}
 
-    `Multi-line Text` - An open question slide that allows the user to provide a short text answer.
+    `Multi-line Text` - An open question slide where the customer types a longer text answer, over several lines.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_multitext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multitext.png){width="500"}
 
@@ -164,9 +302,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
-    `Short-text` - An open question slide that allows the user to provide a short text answer.
+    `Short-text` - An open question slide where the customer types a short text answer.
 
-    `Multi-line Text` - An open question slide that allows the user to provide a short text answer.
+    `Multi-line Text` - An open question slide where the customer types a longer text answer, over several lines.
 
     `Date` - A question slide that prompts the user to select or enter a specific date.
 
@@ -178,7 +316,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Email Address` - A slide dedicated to collecting the user's email address through a text field.
 
-    `Phone Number` - A slide where participants are asked to enter their phone number, usually in a specified format.
+    `Phone Number` - A slide where customers are asked to enter their phone number, usually in a specified format.
 
     `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
@@ -202,9 +340,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
-    `Short-text` - An open question slide that allows the user to provide a short text answer.
+    `Short-text` - An open question slide where the customer types a short text answer.
 
-    `Multi-line Text` - An open question slide that allows the user to provide a short text answer.
+    `Multi-line Text` - An open question slide where the customer types a longer text answer, over several lines.
 
     `Date` - A question slide that prompts the user to select or enter a specific date.
 
@@ -216,7 +354,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Email Address` - A slide dedicated to collecting the user's email address through a text field.
 
-    `Phone Number` - A slide where participants are asked to enter their phone number, usually in a specified format.
+    `Phone Number` - A slide where customers are asked to enter their phone number, usually in a specified format.
 
     `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
@@ -240,9 +378,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
-    `Short-text` - An open question slide that allows the user to provide a short text answer.
+    `Short-text` - An open question slide where the customer types a short text answer.
 
-    `Multi-line Text` - An open question slide that allows the user to provide a short text answer.
+    `Multi-line Text` - An open question slide where the customer types a longer text answer, over several lines.
 
     `Date` - A question slide that prompts the user to select or enter a specific date.
 
@@ -254,7 +392,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Email Address` - A slide dedicated to collecting the user's email address through a text field.
 
-    `Phone Number` - A slide where participants are asked to enter their phone number, usually in a specified format.
+    `Phone Number` - A slide where customers are asked to enter their phone number, usually in a specified format.
 
     `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
@@ -278,9 +416,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
-    `Short-text` - An open question slide that allows the user to provide a short text answer.
+    `Short-text` - An open question slide where the customer types a short text answer.
 
-    `Multi-line Text` - An open question slide that allows the user to provide a short text answer.
+    `Multi-line Text` - An open question slide where the customer types a longer text answer, over several lines.
 
     `Date` - A question slide that prompts the user to select or enter a specific date.
 
@@ -292,7 +430,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Email Address` - A slide dedicated to collecting the user's email address through a text field.
 
-    `Phone Number` - A slide where participants are asked to enter their phone number, usually in a specified format.
+    `Phone Number` - A slide where customers are asked to enter their phone number, usually in a specified format.
 
     `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
@@ -316,9 +454,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Statement` - A statement slide which displays text and a button to proceed to the next question.
 
-    `Short-text` - An open question slide that allows the user to provide a short text answer.
+    `Short-text` - An open question slide where the customer types a short text answer.
 
-    `Multi-line Text` - An open question slide that allows the user to provide a short text answer.
+    `Multi-line Text` - An open question slide where the customer types a longer text answer, over several lines.
 
     `Date` - A question slide that prompts the user to select or enter a specific date.
 
@@ -330,7 +468,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Email Address` - A slide dedicated to collecting the user's email address through a text field.
 
-    `Phone Number` - A slide where participants are asked to enter their phone number, usually in a specified format.
+    `Phone Number` - A slide where customers are asked to enter their phone number, usually in a specified format.
 
     `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
 
@@ -380,7 +518,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
             Switch between the `🖥️ desktop` and `📱 mobile` view by clicking the `desktop` or `mobile` icon in the top right corner of the middle screen.
 
         !!! tip
-            Check this guide to learn how to optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
+            See [How to Add and Adjust Images](/how-to-guides/add-adjust-images/) for how to optimize your images.
 
     `Advanced settings` - Click to expand to see advanced settings.
 
@@ -401,7 +539,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
 
-    !!! note
+    !!! tip
 
         To add custom CSS code to your entire quiz, go to [Quiz design](/reference/quiz-builder/quiz-design/). 
 
@@ -470,17 +608,17 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
 
-    `Question Type` - Allows you to switch between similar question types.
+    `Question Type` - Lets you switch between similar question types.
 
     `Button Text` - Change the text button on the slide.
 
     `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
-    `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+    `Show Description` - Activates an extra text field below the main question field, where you add more text to the slide. Toggle to activate.
 
     `Optional` - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
 
-    `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
+    `Multiple Selection` - Lets the customer select more than one answer. An extra menu appears once activated. Toggle to activate.
 
     `Range` - Select the range of answers a customer can click.
 
@@ -499,7 +637,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     - *background* - Places the uploaded video as a background on the slide. The play/pause menu is deactivated.
     - *Video Opacity* - A slider which lets you adjust the opacity of the uploaded video.
 
-    `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+    `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
 
@@ -521,17 +659,17 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
 
-    `Question Type` - Allows you to switch between similar question types.
+    `Question Type` - Lets you switch between similar question types.
 
     `Button Text` - Change the text button on the slide.
 
     `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
-    `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+    `Show Description` - Activates an extra text field below the main question field, where you add more text to the slide. Toggle to activate.
 
     `Optional` - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
 
-    `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
+    `Multiple Selection` - Lets the customer select more than one answer. An extra menu appears once activated. Toggle to activate.
 
     `Range` - Select the range of answers a customer can click.
 
@@ -557,7 +695,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - *Video Opacity* - A slider which lets you adjust the opacity of the uploaded video.
 
-    `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+    `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
 
@@ -579,17 +717,17 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
 
-    `Question Type` - Allows you to switch between similar question types.
+    `Question Type` - Lets you switch between similar question types.
 
     `Button Text` - Change the text button on the slide.
 
     `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
-    `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+    `Show Description` - Activates an extra text field below the main question field, where you add more text to the slide. Toggle to activate.
 
     `Optional` - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
 
-    `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
+    `Multiple Selection` - Lets the customer select more than one answer. An extra menu appears once activated. Toggle to activate.
 
     `Range` - Select the range of answers a customer can click.
 
@@ -615,7 +753,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
 
-    `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+    `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
 
@@ -637,17 +775,17 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
 
-    `Question Type` - Allows you to switch between similar question types.
+    `Question Type` - Lets you switch between similar question types.
 
     `Button Text` - Change the text button on the slide.
 
     `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
-    `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+    `Show Description` - Activates an extra text field below the main question field, where you add more text to the slide. Toggle to activate.
 
     `Optional` - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
 
-    `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
+    `Multiple Selection` - Lets the customer select more than one answer. An extra menu appears once activated. Toggle to activate.
 
     `Range` - Select the range of answers a customer can click.
 
@@ -673,7 +811,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
 
-    `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+    `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
 
@@ -695,17 +833,17 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![quiz builder question settings side menu](/images/manual_quizbuilder_quizbuilder_questionsettings_sidemenu.png)
 
-    `Question Type` - Allows you to switch between similar question types.
+    `Question Type` - Lets you switch between similar question types.
 
     `Button Text` - Change the text button on the slide.
 
     `Recall Information` - Click "recall" to add an Information Recall to the question. Read more in [How to Use Information Recalls](/how-to-guides/use-information-recalls/).
 
-    `Show Description` - Activates an extra text field on the slide below the main question field. Allows you to add more text to a slide. Toggle to activate.
+    `Show Description` - Activates an extra text field below the main question field, where you add more text to the slide. Toggle to activate.
 
     `Optional` - Makes the question optional. The customer will be able to proceed without providing an answer. Toggle to activate.
 
-    `Multiple Selection` - Allows the user to select more than one answer. An extra menu appears once activated. Toggle to activate.
+    `Multiple Selection` - Lets the customer select more than one answer. An extra menu appears once activated. Toggle to activate.
 
     `Range` - Select the range of answers a customer can click.
 
@@ -731,7 +869,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     - `Video Opacity` - A slider which lets you adjust the opacity of the uploaded video.
 
-    `Custom JS Code` - Click "Add" to open a JavaScript console. Allows you to add custom JavaScript to the quiz question.
+    `Custom JS Code` - Click `Add` to open a JavaScript console, where you add custom JavaScript to the quiz question.
 
     `Question ID` - Displays the question unique ID.
 
@@ -751,9 +889,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `+ Add block` - Adds an extra [building block](/reference/quiz-builder/questions/#block-settings) to the quiz question. To remove a block, click on the 🗑 bin icon.
     
-    !!! note
+    !!! info
 
-        All block elements added to a question will be visible on a single slide. To add a new slide click `+ Add question`. 
+        All block elements added to a question are visible on a single slide. To add a new slide click `+ Add question`. 
 
     Blocks are the building blocks of your quiz. Each question can have multiple blocks.
 
@@ -766,7 +904,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     #### Button
 
-    The "Next" button is hidden for questions which are both single choice and mandatory, as the quiz will automatically advance to the next question after the user selects a choice.
+    The `Next` button is hidden on questions that are both single choice and mandatory. The quiz moves to the next question as soon as the customer picks a choice.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
 
@@ -787,9 +925,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
-    Text box allows you to `bold`, `cursive`, `underline` or `strikethrough` your text as well as `add links` and `Content dynamic source` (recall information from other parts of the quiz).
+    The text box lets you apply `bold`, `cursive`, `underline` or `strikethrough` to your text. You can also `add links` and a `Content dynamic source`, which recalls information from other parts of the quiz.
 
-    !!! tip "Liquid Templates Supported"
+    !!! tip "Liquid templates supported"
 
         Heading blocks support [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display previous answers. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
 
@@ -802,15 +940,15 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `qbh-7327edc5` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
-    `☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. This allows you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page.
+    `☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. It recalls any answer the customer gave, and shows it in a `Text Block` or a `Heading Block` on the results page.
 
-    ??? info "Adding a Content dynamic source"
+    ??? info "Adding a content dynamic source"
 
         To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
 
         ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
 
-        A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+        A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
 
         ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
@@ -826,9 +964,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
 
-    Text box allows you to `bold`, `cursive`, `underline` or `strikethrough` your text as well as `add links` and `Content dynamic source` (recall information from other parts of the quiz).
+    The text box lets you apply `bold`, `cursive`, `underline` or `strikethrough` to your text. You can also `add links` and a `Content dynamic source`, which recalls information from other parts of the quiz.
 
-    !!! tip "Liquid Templates Supported"
+    !!! tip "Liquid templates supported"
 
         Text blocks support [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display previous answers. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
 
@@ -840,15 +978,15 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `qbt-7327edc5` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
 
-    `☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. This allows you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page.
+    `☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. It recalls any answer the customer gave, and shows it in a `Text Block` or a `Heading Block` on the results page.
 
-    ??? info "Adding a Content dynamic source"
+    ??? info "Adding a content dynamic source"
 
         To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
 
         ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
 
-        A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+        A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
 
         ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
@@ -912,7 +1050,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `HTML editor` - Code box where you can input your custom code.
 
-    !!! tip "Liquid Templates & JavaScript Supported"
+    !!! tip "Liquid templates and JavaScript supported"
 
         Custom HTML blocks support both [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) and JavaScript. Use Liquid for dynamic content (e.g., `{{ quiz.answers.byBlock['qbi-name'].value }}`). JavaScript in `<script>` tags will execute and has access to the `quiz` and `actions` objects. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables and methods.
 
@@ -956,7 +1094,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
 
-    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be selected in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question. `Error message`field allows you to add a message to the user if they select too many options.
+    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - the smallest number of choices needed before the customer can go to the next question. `Maximum selected` - the largest number of choices that can be selected. Above that, the customer cannot move on to the next question. `Error message` - the message shown to the customer when they select too many options.
 
     `🗑 Remove block` - Click to delete this block.
 
@@ -990,7 +1128,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Fit full image in box (no cropping)` - When checked, the image will be displayed in the box without cropping.
 
     !!! tip
-        Check this guide to learn how to add and adjust images for the quiz: [How to Add and Adjust Images](/how-to-guides/add-adjust-images/).
+        See [How to Add and Adjust Images](/how-to-guides/add-adjust-images/).
 
     `🗑 Remove block` - Click to delete this block.
 
@@ -1014,7 +1152,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `Enable options search` - Adds a search bar inside the dropdown.
 
-    `Error message` - Custom message shown if rules aren’t followed.
+    `Error message` - Custom message shown if the rules are not followed.
 
     `Minimum selected` - Minimum number of options the user must pick.
 
@@ -1180,7 +1318,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
 
     !!! info "Product recommendation"
-        Number fields accept any value, so the quiz can't match them to products. Instead, define numeric ranges (e.g., 0-10, 11-50) with a multiple-choice, dropdown, or slider question and link products to each range. - Read more: [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
+        Number fields accept any value, so the quiz cannot match them to products. Instead, define numeric ranges, for example 0-10 and 11-50, with a multiple-choice, dropdown or slider question, then link products to each range. See [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 
 
     #### Date
@@ -1204,7 +1342,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use. 
 
     !!! info "Product recommendation"
-        Date fields accept any value, so the quiz can't match them to products. Instead, define date ranges (e.g., 01/01/2020-01/01/2021, 01/01/2021-01/01/2022) with a multiple-choice, dropdown, or slider question and link products to each range. - Read more: [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
+        Date fields accept any value, so the quiz cannot match them to products. Instead, define date ranges, for example 01/01/2020-01/01/2021, with a multiple-choice, dropdown or slider question, then link products to each range. See [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
 
     #### Name
 
@@ -1499,7 +1637,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     `...` - Opens the choice management settings. Click `Duplicate` to duplicate the choice or `Remove` to delete it.
 
-    `Choice label` - Text that's visible on the choice. Supports HTML formatting (`<strong>`, `<em>`) and [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for personalization (e.g., `{{ quiz.answers.byBlock['qbi-name'].value }}`). Note: Dropdown choices automatically strip HTML to plain text for accessibility.
+    `Choice label` - The text shown on the choice. Supports HTML formatting (`<strong>`, `<em>`) and [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for personalization, for example `{{ quiz.answers.byBlock['qbi-name'].value }}`. Dropdown choices strip HTML to plain text for accessibility.
 
     `Choice image` - Shows the image displayed in this picture choice. CLick `Select image` to upload an image for this choice or choose from the in-app image gallery.
 
@@ -1515,7 +1653,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
 
-    Once selected a new section will show allowing you to select items from your Shopify catalog to be linked to this choice.
+    A new section then opens, where you pick items from your Shopify catalog to link to this choice.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts.png)
 
@@ -1531,7 +1669,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
 
-    Once selected a new section will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+    A new section then opens, where you pick items from your Shopify catalog to exclude from this choice.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproducts](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludeproducts.png)
 
@@ -1559,7 +1697,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
 
-    `Search or create variables` - Connect or create variables to this choice for custom logic (for advanced scoring or conditions). To create a new variable, start typing the name of the variable you want to create (e.g. `dry_skin`, `normal_skin`, `oily_skin`, etc.). Once you've typed the full name, a dropdown will appear that will allow you to `Create a new variable "xxx"`. Click on it to add a new variable.
+    `Search or create variables` - Connect or create variables to this choice for custom logic (for advanced scoring or conditions). To create a new variable, start typing the name of the variable you want to create, for example `dry_skin`, `normal_skin` or `oily_skin`. Once you have typed the full name, a dropdown appears with `Create a new variable "xxx"`. Click on it to add a new variable.
 
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
 
@@ -1602,7 +1740,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 
     ### Liquid templates
 
-    Liquid is a templating language that allows you to display dynamic content based on quiz answers and variables. It's supported in:
+    Liquid is a templating language. It lets you show dynamic content based on quiz answers and variables. It is supported in:
 
     - **Heading blocks** - Personalize titles
     - **Text blocks** - Dynamic paragraphs
@@ -1773,15 +1911,15 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
 === "Standalone"
 
 <!--
-`☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. This allows you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page.
+`☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. It recalls any answer the customer gave, and shows it in a `Text Block` or a `Heading Block` on the results page.
 
-??? info "Adding a Content dynamic source"
+??? info "Adding a content dynamic source"
 
     To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
 
     ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
 
-    A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
 
     ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 

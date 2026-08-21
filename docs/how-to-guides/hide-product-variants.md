@@ -21,7 +21,7 @@ In Product Recommendation Quiz you can hide the product variants dropdown on the
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
 
-    3. Find a [Product Variants Block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
+    3. Find a [Product Variants Block](/reference/quiz-builder/results-page/#product-product-variants-collections) and open its settings.
 
         ![how to hide product variants image2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productvariants.png)
     4. Save the changes with the top-right `Save` button.
@@ -30,7 +30,7 @@ In Product Recommendation Quiz you can hide the product variants dropdown on the
 
     !!! info "If you're using the Product block"
 
-        You can hide the `Variants dropdown` by deleting the `Variants dropdown` option from the [Slot item composition](/reference/quiz-builder/results-page/#products-products-variants-collections) in the [Recommended Product settings](/reference/quiz-builder/results-page/#products-products-variants-collections).
+        You can hide the `Variants dropdown` by deleting the `Variants dropdown` option from the [Slot item composition](/reference/quiz-builder/results-page/#product-product-variants-collections) in the [Recommended Product settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
 

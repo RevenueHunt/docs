@@ -15,7 +15,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 
     RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **collections**.
 
-    If you add a Block to your results page, you can choose to display **product variants**, **main products** or **collections** under [Block settings > Recommendations Type](/reference/quiz-builder/results-page/#products-products-variants-collections). 
+    If you add a Block to your results page, you can choose to display **product variants**, **main products** or **collections** under [Block settings > Recommendations Type](/reference/quiz-builder/results-page/#product-product-variants-collections). 
 
     - If you chose a **Products** under Recommendations Type, the Slot will show the main product with a optional dropdown to choose the specific variant. The order in which the product variants are displayed is based on the number of votes they received. If all variants of the same product received the same number of votes, the variants will be displayed in random order.
 

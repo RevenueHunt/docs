@@ -263,7 +263,7 @@ At the end of the quiz, the results page displays the product variants with the 
 
     3. **Add a Product block**: Products or variants or collections can be displayed on the Results page as a list via the `Products Block`. 
     
-        - Click `+ Add Block` and select [`Products Block`](/reference/quiz-builder/results-page/#products-products-variants-collections) to add it to your results page.
+        - Click `+ Add Block` and select [`Products Block`](/reference/quiz-builder/results-page/#product-product-variants-collections) to add it to your results page.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
 
@@ -957,7 +957,7 @@ Show different follow-up questions based on customer choices in a multiple-choic
         - Open the Revenue Hunt quiz app and create a new quiz
         - Add a multiple-choice question asking about main concerns (e.g., skin concerns)
         - Add options such as Acne, Pigmentation, Blackheads, Flaky Skin
-        - Enable 'Allow Multiple Selection' in the [`multiple-choice settings`](/reference/quiz-builder/questions/#multiple-choice-settings) to let users select more than one option
+        - Enable 'Allow Multiple Selection' in the [`multiple-choice settings`](/reference/quiz-builder/questions/#multiple-choice) to let users select more than one option
 
     2. **Add Follow-Up Questions**: For each main concern, add corresponding follow-up questions:
 

@@ -774,12 +774,12 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     The results page contains five sections, each corresponding to a skin type. Each section contains a heading, text and a product block to recommend products for that skin type.
 
-    Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#products-products-variants-collections) based on user responses or fixed recommendations: 
+    Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#product-product-variants-collections) based on user responses or fixed recommendations: 
 
     - **Dynamic Recommendations:** Requires upvoting products via choice settings to influence the recommendation algorithm.
     - **Fixed Recommendations:** Set specific products to always display for each skin type section by changing the recommendation system to fixed and selecting items for each block. Ensure to configure fixed recommendations for all sections to provide consistent product suggestions.
 
-    Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.
+    Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.
 
     **Step 3: Add Display logic to the Sections**
 
@@ -908,12 +908,12 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
 
     The results page contains five sections, each corresponding to a skin type. Each section contains a heading, text and a product block to recommend products for that skin type.
 
-    Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#products-products-variants-collections) based on user responses or fixed recommendations: 
+    Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#product-product-variants-collections) based on user responses or fixed recommendations: 
 
     - **Dynamic Recommendations:** Requires upvoting products via choice settings to influence the recommendation algorithm.
     - **Fixed Recommendations:** Set specific products to always display for each skin type section by changing the recommendation system to fixed and selecting items for each block. Ensure to configure fixed recommendations for all sections to provide consistent product suggestions.
 
-    Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.      
+    Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.      
 
     **Step 3: Add Display logic to the Sections**
 

@@ -84,7 +84,7 @@ description: "Send automated quiz result emails and connect your SMTP email serv
 === "Shopify"
 
 
-    1. **Add Email question**: Before you set up your result emails, you need to make sure that the quiz has an [email question](/reference/quiz-builder/questions/#email). To add an email question go to the [Quiz builder > Questions](/reference/quiz-builder/questions/) and click `+ Add question`or `+ Add block`.
+    1. **Add Email question**: Before you set up your result emails, you need to make sure that the quiz has an [email question](/reference/quiz-builder/questions/#email-address). To add an email question go to the [Quiz builder > Questions](/reference/quiz-builder/questions/) and click `+ Add question`or `+ Add block`.
     2. **Activate Respondent Emails**: Go to [`Quiz Settings > Emails to respondents`](/reference/quiz-builder/notifications/#to-respondent) and check the `Send email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
     3. **Edit Email template - Email TO**: Choose an answer to which email question should be used to send the result emails to.

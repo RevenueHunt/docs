@@ -57,7 +57,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Quiz settings`- open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
 
-    `Quiz Responses` - open the [Quiz responses](/reference/quiz-builder/metrics/#quiz-responses) section.
+    `Quiz Responses` - open the [Quiz responses](/reference/quiz-builder/metrics/#responses) section.
 
     `Analytics` - open the [Analytics](/reference/quiz-builder/metrics/#analytics) section.
         

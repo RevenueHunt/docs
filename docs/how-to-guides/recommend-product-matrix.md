@@ -333,7 +333,7 @@ To recommend the right product, in your ecommerce platform you should create fou
 
     1. **Go to the Results page tab**: You can do that by navigating to the [Results page](/reference/quiz-builder/results-page/).
     2. **Add a Product block**:  Clicking the `+ Add block` to add a block type. Slect a `Product Block` from the dropdown list.
-    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the [`Product Block settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) and select how many products should be recommended in this Product block from the dropdown.
+    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the [`Product Block settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) and select how many products should be recommended in this Product block from the dropdown.
 
 
 === "Shopify (Legacy)"

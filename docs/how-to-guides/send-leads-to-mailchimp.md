@@ -15,7 +15,7 @@ Apart from giving your customers personalized product recommendations, you can c
 
     !!! warning "Before you begin"
 
-        **Make sure your quiz collects email addresses.** Open your quiz in the [Quiz builder](/reference/quiz-builder/questions/) and check for an [email question](/reference/quiz-builder/questions/#email) block. If there isn't one, click `Add Question` and select `Email Address` from the question types. You can also add it to an existing slide from the `Add Block` menu.
+        **Make sure your quiz collects email addresses.** Open your quiz in the [Quiz builder](/reference/quiz-builder/questions/) and check for an [email question](/reference/quiz-builder/questions/#email-address) block. If there isn't one, click `Add Question` and select `Email Address` from the question types. You can also add it to an existing slide from the `Add Block` menu.
 
         **(optional) Ask for marketing consent.** Add a marketing consent checkbox directly below the email field. This lets quiz takers agree to receive marketing emails, which is useful for GDPR compliance. See [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
 
@@ -268,7 +268,7 @@ Apart from giving your customers personalized product recommendations, you can c
     Once your account is connected, you can choose which Mailchimp **audience** quiz takers are added to. The audience selector lives inside the email question block.
 
     1. Make sure your account is [connected to Mailchimp](#link-quiz-to-mailchimp) and that the `Send Quiz Leads to Mailchimp` checkbox is enabled for the quiz.
-    2. In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and click on the [email question](/reference/quiz-builder/questions/#email) block to open its settings.
+    2. In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and click on the [email question](/reference/quiz-builder/questions/#email-address) block to open its settings.
     3. Under the `Mailchimp Audience` dropdown, select the audience you want quiz takers added to.
     4. Click the top `Save` button to save your changes.
 

@@ -4290,7 +4290,7 @@ The quiz is the top of your funnel. Capturing the email and following up is wher
     **Yes - the data says so.** Among top-converting quizzes that collect email, 75% make it required. This does **not** hurt completion rates - customers who reach the email step are engaged and willing to share their email for a personalized recommendation. Make it required.
 
 ??? info "How to set the email question as required"
-    Open the email question settings and toggle **Required** on. See: [Email question settings](/reference/quiz-builder/questions/#email)
+    Open the email question settings and toggle **Required** on. See: [Email question settings](/reference/quiz-builder/questions/#email-address)
 
     ![email question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png)
 
@@ -4734,7 +4734,7 @@ What *does* cause drop-off at the email step is making it feel like a data grab 
 ![Email question with discount incentive](/images/how_to_add_discount_email_question.png)
 
 ??? tip "How to configure the email question"
-    See: [Email question settings](/reference/quiz-builder/questions/#email)
+    See: [Email question settings](/reference/quiz-builder/questions/#email-address)
 
 ---
 
@@ -5598,7 +5598,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 - **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - You can add a [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) to your question, which will allow you to add an image to each choice in that multiple-choice question.
 
-- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-image-in-productvariantscollection-blocks) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
+- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-product-variants-collections) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
 
 
 ### Quiz background image
@@ -5696,8 +5696,8 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
     1. Navigate to [Results page](/reference/quiz-builder/results-page/) tab in the quiz builder.
     2. Click `+ Add block` to see a list of available blocks.
     3. Click on `Product` (or `Variant` or `Collection`) block and a new block will be added to the results page.
-    4. Open the [Product/Variant/Collection block settings](/reference/quiz-builder/results-page/#products-products-variants-collections).
-    5. Under [`Product components layout`](/reference/quiz-builder/results-page/#product-components-layout) you can select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
+    4. Open the [Product/Variant/Collection block settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
+    5. Under [`Product components layout`](/reference/quiz-builder/results-page/#slot-item-composition) you can select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image.png)
     6. Under `+ Add block` you can add an extra block to the product slot. All the data are synced directly from your Shopify catalog.
     7. Under `Image` you can adjust the image size.
@@ -5936,7 +5936,7 @@ Before diving into the implementation, it's important to understand the differen
         `▷ / ❚❚` - Press this button to run the custom code or enable/disable the custom code execution.
     #### Slot item composition
     1. Navigate to the [Results page settings](/reference/quiz-builder/results-page/) in the Quiz builder.
-    2. Open the [Product block](/reference/quiz-builder/results-page/#product-block) and in the [Slot settings](/reference/quiz-builder/results-page/#slot-settings) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.
+    2. Open the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and in the [Slot settings](/reference/quiz-builder/results-page/#slots) you can find the [**Slot item composition**](/reference/quiz-builder/results-page/#slot-item-composition) settings for your product recommendations.
     3. Add or edit a **Custom HTML block** within a product slot.
     4. Add JavaScript that interacts with individual product data:
         ```html
@@ -6503,8 +6503,8 @@ This article explains how to add product metafields/attributes to products on yo
     **Step 1: Enable Metafields Display**
     To enable the display of metafields for individual products:
     1. Navigate to the [Results page](/reference/quiz-builder/results-page/) tab in the Quiz builder.
-    2. Add a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
-    3. In the [`Product components layout`](/reference/quiz-builder/results-page/#product-components-layout), click `+ block`and add the `Metafield`section.
+    2. Add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and open its settings.
+    3. In the [`Product components layout`](/reference/quiz-builder/results-page/#slot-item-composition), click `+ block`and add the `Metafield`section.
       ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
       ![Add Metafield block](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
     4. From the `Select metafield` section, select the metafield you want to display.
@@ -8051,12 +8051,12 @@ You can recommend a specific product variant instead of the main product by chan
     1. Open [Results page](/reference/quiz-builder/results-page/).
     2. Click `+ Add block`.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
-    3. Find a [Product Variants Block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
+    3. Find a [Product Variants Block](/reference/quiz-builder/results-page/#product-product-variants-collections) and open its settings.
         ![how to hide product variants image2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_productvariants.png)
     4. Save the changes with the top-right `Save` button.
     From that point on, the quiz will recommend a specific product variant instead of the main product.
     !!! info "If you're using the Product block"
-        You can hide the `Variants dropdown` by deleting the `Variants dropdown` option from the [Slot item composition](/reference/quiz-builder/results-page/#products-products-variants-collections) in the [Recommended Product settings](/reference/quiz-builder/results-page/#products-products-variants-collections).
+        You can hide the `Variants dropdown` by deleting the `Variants dropdown` option from the [Slot item composition](/reference/quiz-builder/results-page/#product-product-variants-collections) in the [Recommended Product settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
     It is also possible to recommend only the main product and simply hide the dropdown with custom CSS code. To do that:
     ![how to hide product variants image3](/images/how_to_hide_product_variants_image3.png)
@@ -9530,7 +9530,7 @@ It describes a step-by-step process involving creating product collections, link
     For the products to show on the Results page, you need to add a `Products Block`. 
     1. **Go to the Results page tab**: You can do that by navigating to the [Results page](/reference/quiz-builder/results-page/).
     2. **Add a Product block**:  Clicking the `+ Add block` to add a block type. Slect a `Product Block` from the dropdown list.
-    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the [`Product Block settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) and select how many products should be recommended in this Product block from the dropdown.
+    3. **Limit the number of recommended products**: In this example, we should limit the amount of recommended products to 4 (based on the matrix). To limit the number of recommended products shown open the [`Product Block settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) and select how many products should be recommended in this Product block from the dropdown.
     If your product Matrix looks more like a list, there is another way to achieve your precise product recommendations.  Let’s look at the matrix below. 
     ![how to recommend products complex matrix](/images/how_to_recommend_products_complexmatrix.png)
     The outcome of the quiz depends on 3 factors: skin type, age, and skin concern. In each case, the products recommended differing.
@@ -9677,7 +9677,7 @@ This guide explains how to recommend products with the RevenueHunt app, the unde
 --- Shopify Specific Content ---
 
 RevenueHunt Product Recommendation Quiz can show on the results page **product variants**, **main products** and **collections**.
-    If you add a Block to your results page, you can choose to display **product variants**, **main products** or **collections** under [Block settings > Recommendations Type](/reference/quiz-builder/results-page/#products-products-variants-collections). 
+    If you add a Block to your results page, you can choose to display **product variants**, **main products** or **collections** under [Block settings > Recommendations Type](/reference/quiz-builder/results-page/#product-product-variants-collections). 
     - If you chose a **Products** under Recommendations Type, the Slot will show the main product with a optional dropdown to choose the specific variant. The order in which the product variants are displayed is based on the number of votes they received. If all variants of the same product received the same number of votes, the variants will be displayed in random order.
     - If you chose a **Product Variants** under Recommendations Type, the Slot will show recommended variants of a product with the full name of a product followed by the varaint name, for example "Toner - 100ml". 
         !!! note
@@ -9891,7 +9891,7 @@ If you're using a subscription app that is not supported, you can still recommen
         !!! warning "Legacy Recharge script"
             `https://static.rechargecdn.com/static/js/recharge.js` is not the Storefront SDK required by the quiz. If your theme loads that legacy script, replace it with the `recharge-client-2.0.0.min.js` script above.
     1. To add subscription to your recommended products go to the [Results page](/reference/quiz-builder/results-page/).
-    2. Find the [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
+    2. Find the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and open its settings.
     3. Under `Product components layout`, find the `Subscription` option and add it to the layout.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
@@ -9916,8 +9916,8 @@ If you're using a subscription app that is not supported, you can still recommen
     2. **Create one-time payment options**: Create equivalent one-time payment products for each of your subscription items. These will serve as placeholders in the quiz.
     3. **Link one-time payment products to choices**: In the [Link Products](/reference/quiz-builder/link-products/) section, link each of these one-time payment products to the relevant quiz choices or set up [Fixed Recommendations](/how-to-guides/set-up-fixed-recommendations-quiz/#always-the-same-recommendations) on your Results page. This ensures that when a customer selects an option that would traditionally lead to a subscription product, they are instead matched with the corresponding one-time payment product.
     **Step 2: Adjust Checkout Settings**
-    1. **Open Results page settings**: Navigate to the [Results page](/reference/quiz-builder/results-page/) and add or select a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections)
-    2. **Change Product Components Layout**: In [Product block settings](/reference/quiz-builder/results-page/#products-products-variants-collections), find the [`Product Components Layout`](/reference/quiz-builder/results-page/#product-components-layout) section and remove the `Add to cart button option. Once removed, insert a `Link to Product` component instead.
+    1. **Open Results page settings**: Navigate to the [Results page](/reference/quiz-builder/results-page/) and add or select a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections)
+    2. **Change Product Components Layout**: In [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections), find the [`Product Components Layout`](/reference/quiz-builder/results-page/#slot-item-composition) section and remove the `Add to cart button option. Once removed, insert a `Link to Product` component instead.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
@@ -10035,7 +10035,7 @@ This is the difference between using your quiz as a conversion tool and using it
 
 --- Shopify Specific Content ---
 
-1. Your quiz has an [email question](/reference/quiz-builder/questions/#email) and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) via OAuth with `Send Quiz Leads to Klaviyo Profiles` enabled.
+1. Your quiz has an [email question](/reference/quiz-builder/questions/#email-address) and you [connected RevenueHunt to Klaviyo](/how-to-guides/send-leads-to-klaviyo/#link-your-quiz-to-klaviyo) via OAuth with `Send Quiz Leads to Klaviyo Profiles` enabled.
     2. You have [tagged your quiz answers](/how-to-guides/use-customer-tags/) so answers arrive on the profile as customer tags.
     3. **Your Shopify store is connected to Klaviyo** through Klaviyo's native Shopify integration, so events like `Started Checkout`, `Placed Order` and `Viewed Product` reach Klaviyo. Without this the four behavior-triggered flows have nothing to trigger on.
     Your quiz sends these custom properties:
@@ -10804,7 +10804,7 @@ Apart from giving your customers personalized product recommendations, you can c
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=9MBKK4JCdMCrlx9y" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     This article explains how to connect your RevenueHunt account to Mailchimp, send quiz taker contacts to your audience, tag them based on their answers and build segments and automations around those tags.
     !!! warning "Before you begin"
-        **Make sure your quiz collects email addresses.** Open your quiz in the [Quiz builder](/reference/quiz-builder/questions/) and check for an [email question](/reference/quiz-builder/questions/#email) block. If there isn't one, click `Add Question` and select `Email Address` from the question types. You can also add it to an existing slide from the `Add Block` menu.
+        **Make sure your quiz collects email addresses.** Open your quiz in the [Quiz builder](/reference/quiz-builder/questions/) and check for an [email question](/reference/quiz-builder/questions/#email-address) block. If there isn't one, click `Add Question` and select `Email Address` from the question types. You can also add it to an existing slide from the `Add Block` menu.
         **(optional) Ask for marketing consent.** Add a marketing consent checkbox directly below the email field. This lets quiz takers agree to receive marketing emails, which is useful for GDPR compliance. See [How to Ask for Marketing Consent](/how-to-guides/ask-for-marketing-consent/).
     !!! info "What data is sent to Mailchimp"
         Mailchimp receives the contact's **email**, **first name**, **last name** and **phone number** when provided. Quiz [customer tags](/reference/quiz-builder/customer-tags/) and result tags are also synced to the contact's profile in Mailchimp as contact tags.
@@ -10835,7 +10835,7 @@ Apart from giving your customers personalized product recommendations, you can c
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/WBFtvGuhDoQ?si=rX05ADDlIhLWPAbb&amp;start=185" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     Once your account is connected, you can choose which Mailchimp **audience** quiz takers are added to. The audience selector lives inside the email question block.
     1. Make sure your account is [connected to Mailchimp](#link-quiz-to-mailchimp) and that the `Send Quiz Leads to Mailchimp` checkbox is enabled for the quiz.
-    2. In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and click on the [email question](/reference/quiz-builder/questions/#email) block to open its settings.
+    2. In the RevenueHunt app, open the [Quiz builder](/reference/quiz-builder/) and click on the [email question](/reference/quiz-builder/questions/#email-address) block to open its settings.
     3. Under the `Mailchimp Audience` dropdown, select the audience you want quiz takers added to.
     4. Click the top `Save` button to save your changes.
     !!! tip "Per-quiz audiences"
@@ -10938,7 +10938,7 @@ Apart from giving your customers a personalized product recommendation, you can 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=2rzG2V0Y8gio6CKx" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     This article explains how to connect your quiz to Omnisend, create a segment for quiz participants and how to send the quiz results to your mailing list.
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=IIwZgRhppkbtGW_d&amp;start=37" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
+    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email-address), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
     2. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). 
         - Log in to your Omnisend account.
         - Go to **Store Settings** > **API** and create a new API key.
@@ -12293,7 +12293,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
 --- Shopify Specific Content ---
 
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uiJwV1MxZKg?si=Ucpz_kB6PXt5VgJ4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-    1. To show the same products to everyone regardless of the customer answers, add a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) to the Results page and set the `Recommendation System` to `Fixed Recommendations`.
+    1. To show the same products to everyone regardless of the customer answers, add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) to the Results page and set the `Recommendation System` to `Fixed Recommendations`.
     2. Under `Slot 1` go to `Fixed recommended items` and select the products you want to show.
     3. Adjust the `Max. recommended items` number to match the number of recommended products. 
     4. Save the changes and preview the quiz.
@@ -12309,7 +12309,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
             - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn't experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin's natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-    3. **Add Product blocks**: To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  
+    3. **Add Product blocks**: To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).  
         ![how to recommend products fixed recommendations resultspage](/images/how_to_shopifyv2_fixedrecommendationquiz_fixedrecommendationsresultspage.png)
         Then, select the max. number of products to show in the `Slot` settings and select which products to show.
         ![how to recommend products fixed recommendations resultspage2](/images/how_to_shopifyv2_fixedrecommendationquiz_fixedrecommendationsresultspage2.png)
@@ -12331,7 +12331,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
     4. **Add Product blocks to Each Results page**: For each results page, add a `Products Block` with the specific products you want to recommend for that skin type.
-        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  +
+        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).  +
         ![how to recommend products fixed recommendations resultspage](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_fixedrecommendationsresultspage.png)
         Then go to Slot settings and select the max. number of products to show and select which products to show.
         ![how to recommend products fixed recommendations resultspage2](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_fixedrecommendationsresultspage2.png)
@@ -12438,7 +12438,7 @@ To link products or collections to choices, open the [Choice settings](/referenc
         !!! tip
             Check [How to Edit the Results page](/how-to-guides/edit-results-page/) for more information.
     3. **Add a Product block**: Products or variants or collections can be displayed on the Results page as a list via the `Products Block`. 
-        - Click `+ Add Block` and select [`Products Block`](/reference/quiz-builder/results-page/#products-products-variants-collections) to add it to your results page.
+        - Click `+ Add Block` and select [`Products Block`](/reference/quiz-builder/results-page/#product-product-variants-collections) to add it to your results page.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png)
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes_products.png)
         - In Product block settings you can chose the `Recommendation system` to be `Upvotes`. the **Product block** then displays the products sorted by the number of votes - the most voted products are shown first, and the least voted last.
@@ -12515,7 +12515,7 @@ To link products or collections to choices, open the [Choice settings](/referenc
         - Open the Revenue Hunt quiz app and create a new quiz
         - Add a multiple-choice question asking about main concerns (e.g., skin concerns)
         - Add options such as Acne, Pigmentation, Blackheads, Flaky Skin
-        - Enable 'Allow Multiple Selection' in the [`multiple-choice settings`](/reference/quiz-builder/questions/#multiple-choice-settings) to let users select more than one option
+        - Enable 'Allow Multiple Selection' in the [`multiple-choice settings`](/reference/quiz-builder/questions/#multiple-choice) to let users select more than one option
     2. **Add Follow-Up Questions**: For each main concern, add corresponding follow-up questions:
         ![how to set up a funnel quiz with skip logic](/images/how_to_shopifyv2_skiplogicquiz_followup.png)
         - Create a question for each option (e.g., Acne, Pigmentation, etc.)
@@ -12883,7 +12883,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
             Section 3: Oily Skin
             Section 4: Combination Skin 
             Section 5: Sensitive Skin
-    4. **Add a Product block to Each Section**: Add a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) to each section on your Results page. In the Product block settings set the `Recommendation System` to `Fixed Recommendations` and select the products you want to recommend for that skin type.  
+    4. **Add a Product block to Each Section**: Add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) to each section on your Results page. In the Product block settings set the `Recommendation System` to `Fixed Recommendations` and select the products you want to recommend for that skin type.  
     5. **Add Display logic**: Add a [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) to each section on your Results page to tell it when to be shown or hidden based on the winning variable.
         !!! example
             - If the variable with the highest score is `dry skin`, then Section 1 is **visible**. Otherwise Default visibility is **hidden**.
@@ -12915,7 +12915,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
             - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  
+        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).  
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
     3. **Add Score-Based Display logic**: On the Results page, select a content block and in the right-hand menu locate `Display logic`.
         - Click on `+ Add condition (OR)`
@@ -12960,7 +12960,7 @@ Assign variables and scores to each choice in your quiz. Then, use Display Logic
             - *You have Normal Skin*: Your skin feels balanced, just like you! Even though your skin doesn’t experience major issues, it deserves amazing care! Your skin wants a routine that sustains your skin’s natural harmony.
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
-        Make sure to add product blocks to each results page and set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).
+        Make sure to add product blocks to each results page and set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png)
     4. **Set Up Jump logic Based on Scores**: Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of Quiz builder. Find the last question in your quiz and open the [Jump logic settings](/reference/quiz-builder/conditional-logic/#jump-logic):
         - Click on `+ Add condition (OR)`
@@ -12997,8 +12997,8 @@ This article explains how to show product reviews on the results page on your qu
 <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/0nRTov-gCxY?si=33FdTH4HYZ7UDM04" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     This documentation outlines the steps to display product reviews on the results page of a quiz created with the Revenue Hunt app. It covers adding the reviews section, selecting a review app, and troubleshooting syncing issues.
     1. Open [Results page](/reference/quiz-builder/results-page/).
-    2. **Adding the Reviews Section**: Locate your [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) that recommends products. 
-    3. Under `Recommended Products`, find [`Product Component Layout`](/reference/quiz-builder/results-page/#product-components-layout). Click `+ Add Block` and select the `Reviews` section.
+    2. **Adding the Reviews Section**: Locate your [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) that recommends products. 
+    3. Under `Recommended Products`, find [`Product Component Layout`](/reference/quiz-builder/results-page/#slot-item-composition). Click `+ Add Block` and select the `Reviews` section.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
     4. **Configuring the Reviews Section**: After adding the reviews section, a star rating box will appear at the bottom of your product card. Open the `Reviews` tab to select a review app from the dropdown menu.
@@ -14130,10 +14130,10 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
     This scoring will help determine the user's skin type based on their responses.
     **Step 2: Add Sections to the Results page**
     The results page contains five sections, each corresponding to a skin type. Each section contains a heading, text and a product block to recommend products for that skin type.
-    Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#products-products-variants-collections) based on user responses or fixed recommendations: 
+    Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#product-product-variants-collections) based on user responses or fixed recommendations: 
     - **Dynamic Recommendations:** Requires upvoting products via choice settings to influence the recommendation algorithm.
     - **Fixed Recommendations:** Set specific products to always display for each skin type section by changing the recommendation system to fixed and selecting items for each block. Ensure to configure fixed recommendations for all sections to provide consistent product suggestions.
-    Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.
+    Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.
     **Step 3: Add Display logic to the Sections**
     To display the correct section based on the highest scoring variable, follow these steps: 
     1. Go to Section Settings, find `Display Logic` and click `+ Add condition (OR)`.
@@ -14169,10 +14169,10 @@ In this article, we provide a clear, step-by-step guide on how to use Display Lo
     ![how_to_shopifyv2_use_display_logic_based_on_score_example1](/images/how_to_shopifyv2_use_display_logic_based_on_score_example1.png)
     **Step 2: Add Sections to the Results page**
     The results page contains five sections, each corresponding to a skin type. Each section contains a heading, text and a product block to recommend products for that skin type.
-    Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#products-products-variants-collections) based on user responses or fixed recommendations: 
+    Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#product-product-variants-collections) based on user responses or fixed recommendations: 
     - **Dynamic Recommendations:** Requires upvoting products via choice settings to influence the recommendation algorithm.
     - **Fixed Recommendations:** Set specific products to always display for each skin type section by changing the recommendation system to fixed and selecting items for each block. Ensure to configure fixed recommendations for all sections to provide consistent product suggestions.
-    Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.      
+    Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.      
     **Step 3: Add Display logic to the Sections**
     To display the correct section based on the total score, follow these steps: 
     1. Go to Section Settings, find `Display Logic` and click `+ Add condition (OR)`.
@@ -14637,7 +14637,7 @@ In this article, we will show you how to set up and use Skip Logic in your quiz,
     ![how to use skip logic example2](/images/how_to_shopifyV2_skiplogic_example_logic_email_question_skipped.png)
     **Implementation**
     - Start with a [`Yes/No question`](/reference/quiz-builder/questions/#yesno) asking if the customer is willing to leave their email.
-    - Follow up with an [`email` input question](/reference/quiz-builder/questions/#email).
+    - Follow up with an [`email` input question](/reference/quiz-builder/questions/#email-address).
     - Apply Skip logic to the email question: if the customer opts out in the previous step, they are directed straight to the results page, bypassing the email question.
 
 
@@ -15966,7 +15966,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
     `˙⟡ Quiz Copilot`- open the Quiz Copilot (AI assistant) by clicking the `Quiz Copilot` icon.
     ![manual_shopifyV2_quizbuilder_analyzequiz_copilotchat](/images/manual_shopifyV2_quizbuilder_analyzequiz_copilotchat.png){width="300"}
     `Quiz settings`- open the [Quiz settings](/reference/quiz-builder/quiz-settings/).
-    `Quiz Responses` - open the [Quiz responses](/reference/quiz-builder/metrics/#quiz-responses) section.
+    `Quiz Responses` - open the [Quiz responses](/reference/quiz-builder/metrics/#responses) section.
     `Analytics` - open the [Analytics](/reference/quiz-builder/metrics/#analytics) section.
     To test the whole quiz click `Preview` in the top right corner of the Quiz builder.
     ![manual_shopifyV2_quizbuilder_unsavedchanges](/images/manual_shopifyV2_quizbuilder_unsavedchanges.png)
@@ -16092,36 +16092,35 @@ Quiz metrics are can be found in several sections:
     In the Responses section you will find a list of the latest quiz responses sorted by date.
     ![manual_shopifyV2_quizbuilder_responses](/images/manual_shopifyV2_quizbuilder_responses.png)
     !!! warning "Test responses removal"
-        Admin responses and quiz previews are removed from the list **after 24 hours** to don't add to your plan's limits.
+        Admin responses and quiz previews are removed from the list **after 24 hours** so they do not count towards your plan limits.
     `All` / `With recommendations` / `No recommendations` - Switch to filter responses that received product recommendations and those that did not.
-    `Export CSV` - Download the selected responses in a CSV file format. A popup will appear that allows you to select an email address to send the CSV file to. For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
+    `Export CSV` - Download the selected responses in a CSV file format. A popup opens where you pick the email address to send the CSV file to. For security reasons, exports can only be sent to your shop's contact email or pre-authorized email addresses. [Contact support](/how-to-guides/contact-customer-support/) to add additional authorized emails.
     ![manual_shopifyV2_quizbuilder_responses_exportCSV](/images/manual_shopifyV2_quizbuilder_responses_exportCSV.png)
     `Response date` - The date and time the response has been submitted.
     `Type` - The type of quiz response, eg. `Preview` or `Customer`. Preview responses are created when you click the `Preview` button in the quiz builder. Customer responses are created when a customer completes the quiz on the live site.
-    `Name` - Name provided by the quiz taker.
-    `Email` - Email provided by the quiz taker.
+    `Name` - Name provided by the customer.
+    `Email` - Email provided by the customer.
     `Recommendations` - The number of recommended products.
     `View` - Click to open the response details.
     ![manual_shopifyV2_quizbuilder_responses_viewmenu](/images/manual_shopifyV2_quizbuilder_responses_viewmenu.png)
     `View response` - Click to open the response in a new tab.
     `Debug mode` - Click to open the response in debug mode.
     `Analysis` - Click to open the response analysis page.
-    ### Response analysis
     Each response analysis page displays the following sections:
     ![manual_shopifyV2_quizbuilder_responses_sample1](/images/manual_shopifyV2_quizbuilder_responses_sample1.png)
-    `Analyze response` - Click to open the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window. The Copilot will ask you the following question: *"I can help you analyze this quiz response. What seems to be the issue? You can select a common question below or type your own."* and once you reply it will provide a detailed analysis of the response, help you identify the root cause of the issue and suggest improvements.
+    `Analyze response` - Click to open the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window. The Copilot will ask you the following question: *"I can help you analyze this quiz response. What seems to be the issue? You can select a common question below or type your own."* Reply, and the Copilot analyses the response. It identifies the root cause and suggests improvements.
     **Responses to questions** - Displays all the quiz questions, the answers the customer provided and the products/collections that were upvoted or excluded in each question. Click `▼` on a question to expand it and check the details.
     ![manual_shopifyV2_quizbuilder_responses_sample2](/images/manual_shopifyV2_quizbuilder_responses_sample2.png)
-    !!! tip "Additional Captured Data"
+    !!! tip "Additional captured data"
         JavaScript-injected answers (data captured via custom JavaScript integrations) are displayed in a separate **"Additional Captured Data"** section within the response analysis. This makes it easy to identify and review any custom data that was programmatically added to the quiz response.
-    **Why was a product recommended or not in this response?** - This section of the app allows you to troubleshoot individual responses and understand why certain products were recommended to the customer or missing from the recommendations.
+    **Why was a product recommended or not in this response?** - Use this section to troubleshoot a single response. It shows why a product was recommended or left out.
     `v Select item to check` - Click to select a product from the catalog and analyze it against the response. Choose an item below to know why it was recommended or not.
     ![manual_shopifyV2_quizbuilder_responses_sample1_checkproduct1](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct1.png)
     ![manual_shopifyV2_quizbuilder_responses_sample1_checkproduct2](/images/manual_shopifyV2_quizbuilder_responses_sample1_checkproduct2.png)
     `Contact information` - Displays the contact information provided by the customer in the quiz such as name, email, phone number, etc.
     `Customer Tags` - Displays the customer tags associated with this response. Customer tags help you understand your customer's needs, as well as helping with segmentation and retargeting.
     `Integrations` - Displays the integrations that were triggered for this response and whether they were successful or not.
-    **Result: Results page 1** - - Displays the name of the results page recommended. This screen displays the configuration of a Result Section and explains what was shown to the customer and why.
+    **Result: Results page 1** - Displays the name of the results page recommended. This screen displays the configuration of a Result Section and explains what was shown to the customer and why.
     ![manual_shopifyV2_quizbuilder_responses_sample2_productdetails](/images/manual_shopifyV2_quizbuilder_responses_sample2_productdetails.png)
     **Section Overview**
     `Section Title` - Displays the name of the section recommended.
@@ -16138,8 +16137,8 @@ Quiz metrics are can be found in several sections:
     `Recommendation System` - `Fixed recommendations` or `Based on customer responses` - This explains if the recommendations are fixed or dynamic.
     **Segments in Detail** - Displays the segments in detail. Each block contains one or more segments, which define which products are shown and how they are selected:
     `Slot Ref` - Internal reference used to identify the slot.
-    `Upvoted items` / `Fixed Items` -  Exlpains that the recommendations are fixed in this slot and shows which products were selected.
-    `Recommendations` - Final products shown to the user.
+    `Upvoted items` / `Fixed Items` -  Explains that the recommendations are fixed in this slot and shows which products were selected.
+    `Recommendations` - The final products shown to the customer.
     Access the Analytics from the [Dashboard](/reference/dashboard/). You can open the Analytics tab from the Shopify side menu.
     ![manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard_sidemenu](/images/manual_shopifyV2_quizbuilder_matrics_analytics_accessfromdashboard_sidemenu.png)
     or pick a quiz and click the  `...` to open the quiz menu. From the list pick and click on `Analytics`.
@@ -16151,44 +16150,43 @@ Quiz metrics are can be found in several sections:
     `Today` / `Last 90 days` - To change the dates click on the `Today`/ `Last 90 days` button. You can change the period to select it from the moment you started using the quiz or from a given date.
     `No comparison` - Choose how you want to compare the data in the graphs. 
     `Customize`- Click to add new cards to your analytics dashboard or re-arrange the cards.
-    !!! info "Data Refresh Frequency"
-        Our analytics dashboard updates at different intervals depending on the type of data displayed:
+    !!! info "Data refresh frequency"
+        The analytics dashboard updates at different intervals, depending on the type of data:
         - Quiz responses and Engagement Data (e.g. responses, section visibility, results page distribution) → Updated live for recent activity (today/yesterday) and refreshed automatically every ~5 minutes for cached data over longer ranges.
         - Orders and Revenue Data → Synced with Shopify once per day to ensure accuracy with your store’s order information.
-        If you’ve just received new responses, please allow a few minutes for them to appear in all analytics cards.
+        If you have just received new responses, allow a few minutes for them to appear in all analytics cards.
     **DEFAULT ANALYTICS CARDS**
-    By default you'll see five blocks with the following metrics:
+    By default you see five blocks with the following metrics:
     ![manual_shopifyV2_quizbuilder_metrics_analytics_quizresponses](/images/manual_shopifyV2_quizbuilder_metrics_analytics_quizresponses.png)
     `Quiz Responses` - Number of people who have completed the quiz. Test responses (completed via the Test quiz button) are deleted from your metrics after one hour. `1.4K` - number of responses received in a specified period (in black). `↗34.20%` - growth compared to last period (in green).
     ![manual_shopifyV2_quizbuilder_metrics_analytics_nroforders](/images/manual_shopifyV2_quizbuilder_metrics_analytics_nroforders.png)
     `Number of orders` - Number of people who have placed an order after completing this quiz. `149` - number of orders received in a specified period (in black). `↗8.76%` - growth compared to last period (in green).
     ![manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totordersvalue.png)
     `Total orders value` - Total value of orders placed after taking this quiz. `€10,612.00` - total value of orders in a specified period (in black). `↗2.01%` - growth compared to last period (in green).
-    !!! warning "Note"
-        To track Order values with the RevenueHunt app for Shopify, connect your quiz to the Shopify Customers via the [App settings](/reference/app-settings/) section.
+    !!! info "Tracking order values"
+        To track order values, connect your quiz to Shopify Customers in [App settings](/reference/app-settings/#shopify-customers).
     ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
-    `Drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how visitors move through your quiz — from the first question to the results and checkout - and where they drop off. `Origin` - The slide or question where respondents started a step in the flow. `Destination` - The next slide or page they reached. `Views`- The number of times this transition occurred during the selected time range. `Share of Step` - The percentage of respondents who exited the quiz instead of continuing to the next step. `Outcome` - Continued or Exited the quiz.
+    `Drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how customers move through your quiz, from the first question to the results and checkout, and where they drop off. `Origin` - The slide or question where customers started a step. `Destination` - The next slide or page they reached. `Views` - How many times this transition happened in the selected range. `Share of Step` - The percentage of customers who left the quiz instead of continuing. `Outcome` - Continued or Exited.
     !!! tip
-        A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep users progressing.
+        A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep customers moving forward.
     ![manual_shopifyV2_quizbuilder_metrics_analytics_selectedchoices](/images/manual_shopifyV2_quizbuilder_metrics_analytics_selectedchoices.png)
-    `Selected choices` - See which choices are selected most for each question. Shows how respondents answered each question in your quiz, allowing you to quickly identify the most popular options. `Single-choice` questions display the percentage of respondents who selected each answer. `Multiple-choice` questions (marked with `Multiple selection`) show how often each option was chosen across all responses. `Optional` questions only include data from respondents who reached and answered that question. 
+    `Selected choices` - See which choices are selected most for each question. It shows how customers answered each question, so you can see the most popular options. `Single-choice` questions display the percentage of customers who selected each answer. `Multiple-choice` questions (marked with `Multiple selection`) show how often each option was chosen across all responses. `Optional` questions only include data from customers who reached and answered that question. 
     !!! example 
-        In **Q3: AGE GROUP**, from `273 responses`, 41.4% of 273 selected `30's` choice, 40.7%of 273 seelcted `Teens and 20's`, 12.1% of 273 selected `40's` and 5.9% of 273 selected `50's and above`.
-    ### Customize
+        In **Q3: AGE GROUP**, from `273 responses`, 41.4% of 273 selected `30's` choice, 40.7% of 273 selected `Teens and 20's`, 12.1% of 273 selected `40's` and 5.9% of 273 selected `50's and above`.
     If you want to edit the Analytics page or add more insights click `Customize`. 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customizebutton.png)
     This will open a side bar with available analytics cards(blocks):
     ![manual_shopifyV2_quizbuilder_metrics_analytics_customize](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customize.png)
-    Click on a card you want to add and it will be automatically placed on the analytics dashbaord. You can then re-arrange and resize each card oin the dashboard. Click `Save` once done editing the analytics dashboard. 
+    Click on a card you want to add and it is placed on the analytics dashboard. You can then re-arrange and resize each card on the dashboard. Click `Save` once done editing the analytics dashboard. 
     ![manual_shopifyV2_quizbuilder_metrics_analytics_customized](/images/manual_shopifyV2_quizbuilder_metrics_analytics_customized.png)
     !!! note
-        Note that the hover-over option for a speciifc graph is only available once the changes have been saved with the top `Save` button.
+        Note that the hover-over option for a specific graph is only available once the changes have been saved with the top `Save` button.
     **AVAILABLE CARDS**
     **Overview metrics**
     ![manual_shopifyV2_quizbuilder_metrics_analytics_quizstarts](/images/manual_shopifyV2_quizbuilder_metrics_analytics_quizstarts.png)
-    `Quiz Starts` - Number of people who have engaged with the quiz and have passed the first slide (clicked on the “start quiz” button or answered the first question). `2.0K` - number of quiz starts received in a specified period (in black). `↗57.62%` - growth compared to last period (in green).
+    `Quiz Starts` - Number of people who engaged with the quiz and passed the first slide. That is, they clicked `start quiz` or answered the first question. `2.0K` - number of quiz starts received in a specified period (in black). `↗57.62%` - growth compared to last period (in green).
     ![manual_shopifyV2_quizbuilder_metrics_analytics_nrofcarts](/images/manual_shopifyV2_quizbuilder_metrics_analytics_nrofcarts.png)
-    `Numer of carts` - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button. `350` - number of carts received in a specified period (in black). `↗16.67%` - growth compared to last period (in green).
+    `Number of carts` - Number of people who have selected products and clicked on the “proceed to cart” or “proceed to checkout” button. `350` - number of carts received in a specified period (in black). `↗16.67%` - growth compared to last period (in green).
     ![manual_shopifyV2_quizbuilder_metrics_analytics_totcartsvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_totcartsvalue.png)
     `Total carts value` - Total value of the products included in all the carts or checkouts. This does not represent the total value of purchases since you should expect some drop-off at checkout. `€68,801.00` - total carts value received in a specified period (in black). `↗12.58%` - growth compared to last period (in green).
     ![manual_shopifyV2_quizbuilder_metrics_analytics_averagecartsvalue](/images/manual_shopifyV2_quizbuilder_metrics_analytics_averagecartsvalue.png)
@@ -16200,30 +16198,30 @@ Quiz metrics are can be found in several sections:
     `Conversion rate` - Orders divided by total quiz completions for the selected window. `10.7%`- conversion rate in a specified period (in black). `-2.5%` - compared to selected comparison quiz/period. `1.4K responses`- number of responses in a specified period. `149 orders` - number of orders received in a specified period.
     **Engagement metrics**
     ![manual_shopifyV2_quizbuilder_metrics_analytics_recommendeditems](/images/manual_shopifyV2_quizbuilder_metrics_analytics_recommendeditems.png)
-    `Recommended items`- See which recommended items are displayed most often in the results page. Shows which products were displayed most often on the Results page of your quiz. Each bar represents the share of total quiz completions in which a specific product appeared as a recommendation. `Step titles` (e.g. Step 1 – Cleanser, Step 3 – Moisturizer) correspond to the product slots or sections you configured in your quiz results. `Impressions` indicate how many times that step or product was shown to respondents during the selected time range. `Percentages` show the relative frequency of each product being displayed within its step.
+    `Recommended items`- See which recommended items are displayed most often in the results page. Shows which products were displayed most often on the Results page of your quiz. Each bar represents the share of total quiz completions in which a specific product appeared as a recommendation. `Step titles` (e.g. Step 1 – Cleanser, Step 3 – Moisturizer) correspond to the product slots or sections you configured in your quiz results. `Impressions` indicate how many times that step or product was shown to customers during the selected time range. `Percentages` show the relative frequency of each product being displayed within its step.
     !!! example
-        In **Step 3 – Moisturizer**, from 274 impressions, 62.0% of respondents were shown `Organix Facial Moisturizer`, 19.0% saw `Moisturizing Cream-Gel`, 10.9% saw `Oil-Free Moisture Lotion`, 4.7% saw `Ultra Facial Deep Moisture Balm`, and 3.3% saw `Oil-Free Moisture – Combination Skin`.
+        In **Step 3 – Moisturizer**, from 274 impressions, 62.0% of customers were shown `Organix Facial Moisturizer`, 19.0% saw `Moisturizing Cream-Gel`, 10.9% saw `Oil-Free Moisture Lotion`, 4.7% saw `Ultra Facial Deep Moisture Balm`, and 3.3% saw `Oil-Free Moisture – Combination Skin`.
     ![manual_shopifyV2_quizbuilder_metrics_analytics_resultspagedistribution](/images/manual_shopifyV2_quizbuilder_metrics_analytics_resultspagedistribution.png)
-    `Results page distribution` - See which results pages are displayed most often to quiz takers. Shows how often each results page in your quiz is displayed to respondents. Each bar represents the share of total quiz completions that led to a particular results page. `Responses` indicate the total number of completed quizzes in the selected period. `Percentages` show how frequently each results page appeared relative to total completions.
+    `Results page distribution` - See which results pages are displayed most often to customers. Shows how often each results page in your quiz is displayed to customers. Each bar represents the share of total quiz completions that led to a particular results page. `Responses` indicate the total number of completed quizzes in the selected period. `Percentages` show how frequently each results page appeared relative to total completions.
     !!! example
-        From 7 responses, 42.9% of respondents saw `Results page 2`, 42.9% saw `Results page 1`, and 14.3% saw `Results page 3`.
+        From 7 responses, 42.9% of customers saw `Results page 2`, 42.9% saw `Results page 1`, and 14.3% saw `Results page 3`.
     ![manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility](/images/manual_shopifyV2_quizbuilder_metrics_analytics_sectionvisibility.png)
-    `Section visibility`- See which sections within results pages are displayed most often. Shows how often each section within your results pages is displayed to quiz respondents. Each bar represents the percentage of total result views where that section appeared. `Views` indicate the number of quiz completions that triggered each section to be shown. `Percentages` reflect how frequently each section was visible relative to all result views.
+    `Section visibility`- See which sections within results pages are displayed most often. Shows how often each section within your results pages is displayed to quiz customers. Each bar represents the percentage of total result views where that section appeared. `Views` indicate the number of quiz completions that triggered each section to be shown. `Percentages` reflect how frequently each section was visible relative to all result views.
     !!! example
-        From 3 views, 100% of respondents saw `S1: Your results are in!`, while `S2: Dry Skin`, `S4: Oily Skin,` and `S6: Sensitive Skin` each appeared in 33.3% of results.
+        From 3 views, 100% of customers saw `S1: Your results are in!`, while `S2: Dry Skin`, `S4: Oily Skin,` and `S6: Sensitive Skin` each appeared in 33.3% of results.
     The Drop-off data (drop-off rate per question) is available by default in the [Analytics](#analytics) section of the Quiz builder.
     ![manual_shopifyV2_quizbuilder_metrics_analytics_dropoff](/images/manual_shopifyV2_quizbuilder_metrics_analytics_dropoff.png)
-    `Drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how visitors move through your quiz — from the first question to the results and checkout - and where they drop off. 
-    `Origin` - The slide or question where respondents started a step in the flow. 
+    `Drop-off rate` - Counts of key funnel events captured during the selected period, and the drop-off rate for each step. This table shows how customers move through your quiz, from the first question to the results and checkout, and where they drop off.
+    `Origin` - The slide or question where customers started a step in the flow. 
     `Destination` - The next slide or page they reached. 
     `Views`- The number of times this transition occurred during the selected time range. 
-    `Share of Step` - The percentage (and number) of respondents who exited the quiz instead of continuing to the next step.
+    `Share of Step` - The percentage (and number) of customers who exited the quiz instead of continuing to the next step.
     `Outcome` - Continued or Exited the quiz.
     !!! warning "How drop-off is measured"
-        The drop-off rate is measured based on events, which are triggered whenever someone starts a quiz. Some of these start events can be blocked by adblocking plugins in browsers. If you see a difference between the number of quiz starts and the drop-off rate, that is because the number of quiz starts in the analytics tab is automatically adjusted by the algorithm to filter in also the starts blocked by the ad blocker plugin.
-    !!! tip "Reducing Drop-off"
-        A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep users progressing.
-        Check [this help article](/customer-success/reduce-dropoff/) to learn how to reduce your quiz drop-off rates.
+        The drop-off rate is measured from events, which fire whenever someone starts a quiz. Ad blockers in the browser can block some of those start events. The quiz starts figure in the analytics tab is adjusted to include the blocked starts, so it can differ from the drop-off rate.
+    !!! tip "Reducing drop-off"
+        A high drop-off rate may indicate confusion, friction, or lack of engagement at that step. Try simplifying the question, reducing required inputs, or improving the design and copy to keep customers moving forward.
+        See [How to Reduce Drop-Off and Maximize Quiz Completion Rate](/customer-success/reduce-dropoff/).
     !!! note "Alternative ways to measure drop-off"
         You can also measure the drop-off per choice or question by connecting the quiz to [Google Analytics](/how-to-guides/integrate-google-analytics/) or [Meta Pixel](/how-to-guides/integrate-meta-pixel/).
 
@@ -16480,9 +16478,24 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `↔` - Click to expand the questions and choices in a horizontal view.
     `+ Add choice` - Adds an extra choice in multiple-choice questions. To remove a choice, click on the 🗑 bin icon.
     `+ Add block` - Adds an extra [building block](/reference/quiz-builder/questions/#block-settings) to the quiz question. To remove a block, click on the 🗑 bin icon.
-    !!! note
-        All block elements added to a question will be visible on a single slide. To add a new slide click `+ Add question`. 
+    !!! info
+        All block elements added to a question are visible on a single slide. To add a new slide click `+ Add question`. 
     `+ Add question` - Opens a menu of quiz questions to add as a new slide. To remove a question, click on the question and go to [Question settings](/reference/quiz-builder/questions/#question-settings).
+    A quiz is a sequence of questions, ending in a results page. Questions are modular: each one holds one or more blocks.
+    ```
+    quiz
+    └── question          one screen of the quiz
+        └── block         a component on that screen
+            └── choice    an alternative inside a choices block
+    ```
+    | Term | What it means |
+    |---|---|
+    | **quiz** | The whole thing: a sequence of questions ending in a results page. |
+    | **question** | One screen of the quiz. Adding a question type creates a question with the matching block already inside it. |
+    | **question type** | What the add menu offers. Choosing **Email Address** creates a question containing an email address input block. You can then add an image block above it. |
+    | **block** | A component inside a question. There are content blocks, choices blocks, input blocks and chart blocks. |
+    | **choice** | One of the alternatives a customer can pick inside a choices block. |
+    | **slide** | The name for a question in the API and in merge tags such as `{{slide:ZMiXjj}}`. |
     `+ Add question` - Opens a menu of quiz questions to add. To remove a question, click on the question and go to [Question settings](/reference/quiz-builder/questions/#question-settings).
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questiontypes.png)
     **Contact info**
@@ -16490,7 +16503,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_name.png){width="500"}
     `Email Address` - A slide dedicated to collecting the user's email address through a text field.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_email](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_email.png){width="500"}
-    `Phone Number` - A slide where participants are asked to enter their phone number, usually in a specified format.
+    `Phone Number` - A slide where customers are asked to enter their phone number, usually in a specified format.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_phone](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_phone.png){width="500"}
     **Choices**
     `Multiple Choice` - A question slide with several clickable options for selecting a single/multiple answers.
@@ -16510,9 +16523,9 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Legal Terms/GDPR` - A slide presenting legal terms or GDPR-related information, with options to accept or decline through clickable buttons.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_legal](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_legal.png){width="500"}
     **Inputs**
-    `Short-text` - An open question slide that allows the user to provide a short text answer.
+    `Short-text` - An open question slide where the customer types a short text answer.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_shorttext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_shorttext.png){width="500"}
-    `Multi-line Text` - An open question slide that allows the user to provide a short text answer.
+    `Multi-line Text` - An open question slide where the customer types a longer text answer, over several lines.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_multitext](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_multitext.png){width="500"}
     `Number` -  A question type where users are prompted to input a numerical answer.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_number](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_number.png){width="500"}
@@ -16547,7 +16560,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
         !!! tip
             Switch between the `🖥️ desktop` and `📱 mobile` view by clicking the `desktop` or `mobile` icon in the top right corner of the middle screen.
         !!! tip
-            Check this guide to learn how to optimize your images for the quiz: [How to Add/Adjust Images](/how-to-guides/add-adjust-images/).
+            See [How to Add and Adjust Images](/how-to-guides/add-adjust-images/) for how to optimize your images.
     `Advanced settings` - Click to expand to see advanced settings.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_questionsettings_advancedsettings.png)
     `Allow overwrite progress bar` - Check to be able to overwrite the default "% complete" progress bar text for this question.
@@ -16557,7 +16570,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Custom CSS code` -  Expand to add your own custom CSS code to this section only. 
     ![manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customCSS](/images/manual_shopifyV2_quizbuilder_quizbuilder_questionsettings_customCSS.png)
     `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
-    !!! note
+    !!! tip
         To add custom CSS code to your entire quiz, go to [Quiz design](/reference/quiz-builder/quiz-design/). 
         To check the CSS structure of the app, go to [App CSS Structure](/reference/css-structure/).
     `Custom JS code` - Expand to add your own custom JavaScript code to this section only. 
@@ -16601,14 +16614,14 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `🗑 Remove question` - Click to delete this question.
     `q-b72b85c0` - Click to copy the question ID to the clipboard. Displays the question ID of the selected question.
     `+ Add block` - Adds an extra [building block](/reference/quiz-builder/questions/#block-settings) to the quiz question. To remove a block, click on the 🗑 bin icon.
-    !!! note
-        All block elements added to a question will be visible on a single slide. To add a new slide click `+ Add question`. 
+    !!! info
+        All block elements added to a question are visible on a single slide. To add a new slide click `+ Add question`. 
     Blocks are the building blocks of your quiz. Each question can have multiple blocks.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocktypes.png)
     Each buliding block of your question has individual block settings. To open the block settings, click on the block.
     `🗑 / bin` - Click on the bin icon to remove the block.
     #### Button
-    The "Next" button is hidden for questions which are both single choice and mandatory, as the quiz will automatically advance to the next question after the user selects a choice.
+    The `Next` button is hidden on questions that are both single choice and mandatory. The quiz moves to the next question as soon as the customer picks a choice.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_button.png)
     `Button text` - Change the default button text. 
     `Alignment` - Move the button left, right or center.
@@ -16618,18 +16631,18 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_heading.png){width="300"}
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-    Text box allows you to `bold`, `cursive`, `underline` or `strikethrough` your text as well as `add links` and `Content dynamic source` (recall information from other parts of the quiz).
-    !!! tip "Liquid Templates Supported"
+    The text box lets you apply `bold`, `cursive`, `underline` or `strikethrough` to your text. You can also `add links` and a `Content dynamic source`, which recalls information from other parts of the quiz.
+    !!! tip "Liquid templates supported"
         Heading blocks support [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display previous answers. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
     `Size` - Change the size of the heading from small, medium or large.
     `Alignment` - Change the alignment of the heading from left, center or right.
     `🗑 Remove block` - Click to delete this block.
     `qbh-7327edc5` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
-    `☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. This allows you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page.
-    ??? info "Adding a Content dynamic source"
+    `☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. It recalls any answer the customer gave, and shows it in a `Text Block` or a `Heading Block` on the results page.
+    ??? info "Adding a content dynamic source"
         To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
         ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
-        A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+        A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
         ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
         ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
     #### Text
@@ -16637,18 +16650,18 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_text.png){width="300"}
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
-    Text box allows you to `bold`, `cursive`, `underline` or `strikethrough` your text as well as `add links` and `Content dynamic source` (recall information from other parts of the quiz).
-    !!! tip "Liquid Templates Supported"
+    The text box lets you apply `bold`, `cursive`, `underline` or `strikethrough` to your text. You can also `add links` and a `Content dynamic source`, which recalls information from other parts of the quiz.
+    !!! tip "Liquid templates supported"
         Text blocks support [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display previous answers. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
     `Size` - Change the size of the text from small, medium or large.
     `Alignment` - Change the alignment of the text from left, center or right.
     `🗑 Remove block` - Click to delete this block.
     `qbt-7327edc5` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
-    `☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. This allows you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page.
-    ??? info "Adding a Content dynamic source"
+    `☰ / Content dynamic source` - Click to open the [Content Dynamic Source](/how-to-guides/use-information-recalls/) section. It recalls any answer the customer gave, and shows it in a `Text Block` or a `Heading Block` on the results page.
+    ??? info "Adding a content dynamic source"
         To add a dynamic content source, open a Text or a Heading block and click the `Dynamic content source` icon.
         ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
-        A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+        A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
         ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
         ![how_to_resultspage_dynamiccontent3](/images/how_to_resultspage_dynamiccontent3.png){width="300"}
     #### Image
@@ -16679,7 +16692,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `Duplicate` to duplicate the block or `Remove` to delete it.
     `HTML editor` - Code box where you can input your custom code.
-    !!! tip "Liquid Templates & JavaScript Supported"
+    !!! tip "Liquid templates and JavaScript supported"
         Custom HTML blocks support both [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) and JavaScript. Use Liquid for dynamic content (e.g., `{{ quiz.answers.byBlock['qbi-name'].value }}`). JavaScript in `<script>` tags will execute and has access to the `quiz` and `actions` objects. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables and methods.
         **Example with Liquid:**
         ```html
@@ -16709,7 +16722,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the block management settings. Click `⿻ Duplicate` to duplicate the block or `🗑 Remove` to delete it.
     `Optional` - Make a question optional (no answer needs to be give to proceed to the next question).
-    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be selected in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question. `Error message`field allows you to add a message to the user if they select too many options.
+    `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - the smallest number of choices needed before the customer can go to the next question. `Maximum selected` - the largest number of choices that can be selected. Above that, the customer cannot move on to the next question. `Error message` - the message shown to the customer when they select too many options.
     `🗑 Remove block` - Click to delete this block.
     `qbc-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.
     #### Picture choice
@@ -16726,7 +16739,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Hide image label` - when checked hides the text below each picture choice.
     `Fit full image in box (no cropping)` - When checked, the image will be displayed in the box without cropping.
     !!! tip
-        Check this guide to learn how to add and adjust images for the quiz: [How to Add and Adjust Images](/how-to-guides/add-adjust-images/).
+        See [How to Add and Adjust Images](/how-to-guides/add-adjust-images/).
     `🗑 Remove block` - Click to delete this block.
     `qbc-d415c4dc` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.    
     #### Dropdown
@@ -16738,7 +16751,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `Optional` - Check if the question can be skipped.
     `Allow multiple selection` - Allow for more than one answer to be selected in this block. Checking this option activates the `Minimum selected` and `Maximum selected` settings. `Minimum selected` - minimum number of choices that need to be seelcted in order to proceed to the next question. `Maximum selected`- maxiumum number of choices that can to be selected, otherwise it will no tbe possible to move on to the next question.
     `Enable options search` - Adds a search bar inside the dropdown.
-    `Error message` - Custom message shown if rules aren’t followed.
+    `Error message` - Custom message shown if the rules are not followed.
     `Minimum selected` - Minimum number of options the user must pick.
     `Maximum selected` - Maximum number of options allowed.
     `🗑 Remove block` - Click to delete this block.
@@ -16820,7 +16833,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `🗑 Remove block` - Click to delete this block.
     `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use.  
     !!! info "Product recommendation"
-        Number fields accept any value, so the quiz can't match them to products. Instead, define numeric ranges (e.g., 0-10, 11-50) with a multiple-choice, dropdown, or slider question and link products to each range. - Read more: [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
+        Number fields accept any value, so the quiz cannot match them to products. Instead, define numeric ranges, for example 0-10 and 11-50, with a multiple-choice, dropdown or slider question, then link products to each range. See [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
     #### Date
     Adds a date question to this block.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_date.png)
@@ -16832,7 +16845,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `🗑 Remove block` - Click to delete this block.
     `qbi-9a4456f8` - Click to copy the block ID/ref to the clipboard. Unique identifier for the block, useful for debugging or API use. 
     !!! info "Product recommendation"
-        Date fields accept any value, so the quiz can't match them to products. Instead, define date ranges (e.g., 01/01/2020-01/01/2021, 01/01/2021-01/01/2022) with a multiple-choice, dropdown, or slider question and link products to each range. - Read more: [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
+        Date fields accept any value, so the quiz cannot match them to products. Instead, define date ranges, for example 01/01/2020-01/01/2021, with a multiple-choice, dropdown or slider question, then link products to each range. See [How to Recommend Products Based on Numerical Inputs](/how-to-guides/recommend-products-based-on-numerical-inputs/)
     #### Name
     Adds an name input question to this block.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_name.png){width="300"}
@@ -16970,7 +16983,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
     ![manual_shopifyv2_questions_blocksettingsdots](/images/manual_shopifyv2_questions_blocksettingsdots.png)
     `...` - Opens the choice management settings. Click `Duplicate` to duplicate the choice or `Remove` to delete it.
-    `Choice label` - Text that's visible on the choice. Supports HTML formatting (`<strong>`, `<em>`) and [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for personalization (e.g., `{{ quiz.answers.byBlock['qbi-name'].value }}`). Note: Dropdown choices automatically strip HTML to plain text for accessibility.
+    `Choice label` - The text shown on the choice. Supports HTML formatting (`<strong>`, `<em>`) and [Liquid templates](/reference/quiz-builder/questions/#liquid-templates) for personalization, for example `{{ quiz.answers.byBlock['qbi-name'].value }}`. Dropdown choices strip HTML to plain text for accessibility.
     `Choice image` - Shows the image displayed in this picture choice. CLick `Select image` to upload an image for this choice or choose from the in-app image gallery.
     `Upvotes weighting` - Sets a default weight of this choice. If the weight is set to 2, all the upvoted products will receive x2 (double) votes from this choice.
     ### Upvotes
@@ -16978,7 +16991,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotemain.png)
     `+ Add upvote type` - Click to choose an item to upvote. You can upvote individual products, product variants or entire collections, tags, variants collections or vendors to a choice.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedropdown.png)
-    Once selected a new section will show allowing you to select items from your Shopify catalog to be linked to this choice.
+    A new section then opens, where you pick items from your Shopify catalog to link to this choice.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproducts.png)
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_upvotedproductsall.png)
     ### Exclude
@@ -16986,7 +16999,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludemain.png)
     `+ Add exclude type` - Click to choose an item to exclude. You can exclude individual products, product variants or entire collections, tags, variants collections or vendors from a choice.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedropdown.png)
-    Once selected a new section will show allowing you to select items from your Shopify catalog to be excluded in this choice.
+    A new section then opens, where you pick items from your Shopify catalog to exclude from this choice.
     ![manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproducts](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludeproducts.png)
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_excludedproductsall.png)
     ### Customer tags
@@ -17000,7 +17013,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     ### Scores and calculations
     `Scores and calculations` – Add points to a variable when this choice is selected. Use scores to show different results based on total points.
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations.png)
-    `Search or create variables` - Connect or create variables to this choice for custom logic (for advanced scoring or conditions). To create a new variable, start typing the name of the variable you want to create (e.g. `dry_skin`, `normal_skin`, `oily_skin`, etc.). Once you've typed the full name, a dropdown will appear that will allow you to `Create a new variable "xxx"`. Click on it to add a new variable.
+    `Search or create variables` - Connect or create variables to this choice for custom logic (for advanced scoring or conditions). To create a new variable, start typing the name of the variable you want to create, for example `dry_skin`, `normal_skin` or `oily_skin`. Once you have typed the full name, a dropdown appears with `Create a new variable "xxx"`. Click on it to add a new variable.
     ![docs/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_choicesettings_scoresandcalculations_newvariable.png)
     ### Advanced settings
     `Advanced settings` - Opens the advanced choice settings menu. 
@@ -17014,7 +17027,7 @@ description: "Create and manage quiz questions in RevenueHunt with multiple-choi
     `qbcc-1ad6b5ea` - Click to copy the choice ID/ref to the clipboard. Unique identifier for the choice, useful for debugging or API use.
     This section provides a complete reference for dynamic content using Liquid templates and JavaScript in quiz questions.
     ### Liquid templates
-    Liquid is a templating language that allows you to display dynamic content based on quiz answers and variables. It's supported in:
+    Liquid is a templating language. It lets you show dynamic content based on quiz answers and variables. It is supported in:
     - **Heading blocks** - Personalize titles
     - **Text blocks** - Dynamic paragraphs
     - **Custom HTML blocks** - Full template control
@@ -17313,18 +17326,41 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 --- Shopify Specific Content ---
 
 ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
-    In the Results page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like. This section allows you to configure the results settings for your quiz. You can customize the result blocks, sections, and slots to display the desired outcome to the users.
+    In the Results page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and preview how the page looks. Customize the blocks, sections and slots that customers see.
     `Results Page` - the menu where all your results pages are nested.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages.png)
     `Results page 1` - the first results page, currently editing.
-    `Λ` / `V` - Click to expand or collapse all the blocks in the results page at once (only visble when the results page has more than one section)..
+    `Λ` / `V` - Click to expand or collapse all the blocks in the results page at once . Only shown when the results page has more than one section..
     `⚙️` - Click to open the results page settings.
-    `+ Add slot` - Adds a new slot to this [Products block](/reference/quiz-builder/results-page/#products-products-variants-collections). To remove a section or a block, click the `bin` icon.
+    `+ Add slot` - Adds a new slot to this [Products block](/reference/quiz-builder/results-page/#product-product-variants-collections). To remove a section or a block, click the `bin` icon.
     `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
     `+ Add section` - Adds a new section to this results page. To remove a section or a block, click the `bin` icon.
     `+ Add results page` - Add another results page to your quiz. To remove a Results page, click on the Results page and go to [Results page settings](#results-page-settings).
-    !!! note
-        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional logic tab.
+    !!! info "Jump logic is required"
+        The customers will be taken to the first results page by default. To send them to a different results page, use [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) in the Conditional logic tab.
+    The results page is built from sections. Each section holds blocks, and a
+    products block holds slots.
+    ```
+    results page
+    └── section          a band, shown or hidden by display logic
+        └── block        a component in that section
+            └── slot     one recommendation position in a products block
+    ```
+    | Block | What it does |
+    |---|---|
+    | Heading | The title of a section |
+    | Text | A paragraph, a list or a link |
+    | Image | A picture or a banner |
+    | Video | An uploaded video |
+    | Custom HTML | Your own HTML, with Liquid support |
+    | Products | The recommendation engine, sorted by upvotes |
+    | Slots | Recommendations grouped into fixed positions |
+    | Charts | A gauge, radar, bar, rating or custom chart |
+    | Buttons | A button, or the cart and checkout action |
+    Settings sit at three levels:
+    - **Results page settings** decide how products are picked for the whole page
+    - **Block settings** decide how one block looks and behaves
+    - **Display logic** shows or hides a whole section
     `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocktypes.png){width="500"}
     Content
@@ -17387,13 +17423,16 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     Then the Display logic rules follow the following format:
     - **IF The score of the variable** 
     - **score** pick the variable from a dropdown list
-    - **is equal to**/ **is not equal to** / **is greater than**/ **is less than** / **is greater than or equal to** / **is less than or equal to** pick a choice from the dropdown list
+    - pick the comparison from the dropdown list:
+        - **is equal to** / **is not equal to**
+        - **is greater than** / **is less than**
+        - **is greater than or equal to** / **is less than or equal to**
     - **Number** / **Another variable** pick a choice from the dropdown list
     - **0** / **1** / **2** / **other numerical value** type a value in the input field
     - **THEN section is Visible** 
     - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
     !!! info
-        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
+        Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
     !!! example "Example 2"
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_scorerange.png)
         In the example, if the score of the variable `dry` is greater than or equal to number `5` AND IF the score of the variable `dry` is less than or equal to number `7` then this section will be visible. Otherwise, the section will be hidden.
@@ -17405,7 +17444,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     - **THEN section is Visible**
     - **Default visibility** pick either **Visible** or **Hidden**. If Visible is selected, then section will be shown by default unless the Display logic rule is triggered. If Hidden is selected, the section will be hidden by default unless the Display logic rule is triggered.
     !!! info
-        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
+        Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
     !!! example "Example 3"
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_displaylogic_winningvariable.png)
         In the example, if the variable with the highest score is `dry` then this section will be visible. Otherwise, the section will be hidden.
@@ -17416,12 +17455,12 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_heading.png)
     Edit the heading text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the heading.
     Choose the heading size and alignment.
-    !!! tip "Liquid Templates Supported"
+    !!! tip "Liquid templates supported"
         Heading blocks support [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display quiz answers, or `{{ quiz.variables.highest }}` to show the winning variable. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
     ---
-    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) lets you recall any answer the customer gave, and show it in a `Text Block` or a `Heading Block` on the results page. To add one, open a Text or Heading block and click the `Dynamic content source` icon. 
     ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
-    A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
     ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
     ---
     `Block ID` - Displays the current block ID.
@@ -17435,12 +17474,12 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_text.png)
     Edit the text in the text box. Style the text with boldness or emphasis. Add links or personalizations to the text block.
     Choose the text size and alignment.
-    !!! tip "Liquid Templates Supported"
+    !!! tip "Liquid templates supported"
         Text blocks support [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display quiz answers, or use conditional logic with `{% if %}` statements. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
     ---
-    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) lets you recall any answer the customer gave, and show it in a `Text Block` or a `Heading Block` on the results page. To add one, open a Text or Heading block and click the `Dynamic content source` icon. 
     ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
-    A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
     ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
     ---
     `Block ID` - Displays the current block ID.
@@ -17478,7 +17517,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     #### Custom HTML
     Adds a block where you can input custom HTML code for advanced content and styling.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html.png)
-    !!! tip "Liquid Templates & JavaScript Supported"
+    !!! tip "Liquid templates and JavaScript supported"
         Custom HTML blocks support both [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) and JavaScript. Use Liquid for dynamic content and JavaScript in `<script>` tags for advanced logic. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables and methods.
         **Example with Liquid:**
         ```html
@@ -17527,7 +17566,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `rsbs-96f14392` -  Click to copy the slot ID. Displays the current slot ID.
     `🗑 Remove block` - Deletes the current block from the results page.
     ##### Slot item composition
-    Select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
+    Select which elements of the product slot should be displayed. Click and drag an element to change its position within the slot.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
     `+ Add block` - add an extra block to the product slot. Below you can find a list of available product components. All the data are synced directly from your Shopify catalog.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon2.png)
@@ -17540,19 +17579,19 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         Check this guide to learn how to add and adjust images for the quiz: [How to Add and Adjust Images](/how-to-guides/add-adjust-images/).
     `Heading` - Add the product title as set up in Shopify Products.
     `Price` - Adds the product price as set up in Shopify Products.
-    ??? warning "Why the Compare-at Price May Not Show on the Results page"
-        If the **compare-at price** is missing or showing as `null` on the quiz results page, this is often due to **Shopify Markets settings**. By default, Shopify can hide compare-at prices for customers in certain regions—especially in the **European Economic Area (EEA)**—due to local pricing or legal restrictions.
+    ??? warning "Why the compare-at price may not show on the results page"
+        If the **compare-at price** is missing or showing as `null` on the quiz results page, this is usually a **Shopify Markets** setting. Shopify can hide compare-at prices for customers in some regions, in particular the **European Economic Area (EEA)**, because of local pricing or legal rules.
         How to Fix It:
-        Go to **Shopify Admin → Settings → Markets → Preferences** and ensure that compare-at prices are enabled for the relevant market (e.g., Germany or the EEA). 
+        Go to **Shopify Admin > Settings > Markets > Preferences**. Check that compare-at prices are enabled for that market, for example Germany or the EEA. 
         ![how_to_shopifyv2_change_quiz_language_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_language_markets_compareatissue.png)
-        You can test this by previewing the quiz on your live store while simulating a visitor from the affected country.
+        You can test this by previewing the quiz on your live store while simulating a customer from the affected country.
     `Add to cart button` - Adds an "Add to cart" button.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_addtocartbutton](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon_addtocart.png)
-    `Text` - Adds an extra text block. Opens a text block menu that allows you to add your own custom text, link or a personalization (you can for example add a [content dynamic source](/how-to-guides/use-information-recalls/) to recall information from the quiz).
+    `Text` - Adds an extra text block. Opens a text block menu where you add your own text or a link. You can also add a [content dynamic source](/how-to-guides/use-information-recalls/) to recall an answer from the quiz.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text.png)
     `Description` - Adds the product description as set up in Shopify Products.
     `Unit price` - Adds a unit price text block to the product cards. This shows Shopify's per-unit pricing (e.g., "$5.00/L" or "€2.50/100g"). Useful for food, beverage, cosmetics, and other shops that sell by weight or volume. 
-    `Link to product` - Adds a button link to the product URL. Links open only on live storefronts. They won't open in quiz preview or on password-protected stores.
+    `Link to product` - Adds a button link to the product URL. Links open only on live storefronts. They do not open in quiz preview or on password-protected stores.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
     `Vendor` - Adds the product vendor as set up in Shopify Products.
     `Variants dropdown` - Adds a dropdown that dislays all the product variants. The dropdown will always be hidden if no products in the same block have variants or if the slots are stacked.
@@ -17566,7 +17605,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews.png)
     `Review app` - Select the review app to display the reviews from. Once you select the review app, save the changes with the top-right `Save` button.
     !!! info "Supported review apps"
-        We currently support these review apps for Shopify:
+        The app supports these review apps for Shopify:
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps.png)
         - Judge.me,
         - Yotpo,
@@ -17576,16 +17615,16 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription.png)
     `Subscription app` - Select the subscription app to display the subscription from. Once you select the subscription app, save the changes with the top-right `Save` button.
     !!! info "Supported subscription apps"
-        We are in the process of implementing these subscription apps for Shopify:
+        Support for these subscription apps for Shopify is being added:
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps.png)
         - Shopify Subscriptions,
         - ReCharge Subscriptions (Pro plan only).
-        If you wish to integrate a subscription app that is not supported yet, please reach out to our [customer support team](/how-to-guides/contact-customer-support/) and we will be happy to help you.
+        To request support for another subscription app, [contact customer support](/how-to-guides/contact-customer-support/).
     ##### Results slot
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1.png)
-    `Slot 1` - Slots allow you to recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...). 
-    ??? info "How Slots Work"
-        Slots display products based on the `Recommendations system` set up in [Product block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
+    `Slot 1` - Slots let you recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...). 
+    ??? info "How slots work"
+        Slots display products based on the `Recommendations system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections). 
         If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
         If the recommendations system is set to `Fixed` then the slot will display the products that are linked to the slot.
         <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/3dcb55fbc6e749019fe609d311915de6?sid=44a004e0-acde-4fe8-9f50-6ca1e6f21289" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -17600,8 +17639,8 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment1.png)
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment2.png)
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment3](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment3.png)    
-    ??? info "How Slots Work"
-        Slots display products based on the `Recommendations system` set up in [Product block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
+    ??? info "How slots work"
+        Slots display products based on the `Recommendations system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections). 
         If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
         If the recommendations system is set to `Fixed` then the slot will display the products that are linked to the slot.
         <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/3dcb55fbc6e749019fe609d311915de6?sid=44a004e0-acde-4fe8-9f50-6ca1e6f21289" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -17609,7 +17648,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. 
         If you add a segment, the slot will be able to display the most upvoted items from the linked products/collections.
         Unless you add a filter, the slot will display a list of upvoted items. 
-    `Exclude segments` - Click `+ Add exclude type` to choose products from which Products, Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block. You can exclude items based on tags, vendors, or variants — not just collections (Shopify only).
+    `Exclude segments` - Click `+ Add exclude type` to choose products from which Products, Collections, Tags, Variants or Vendors must never be shown in this slot block. You can exclude by tag, vendor or variant, not only by collection. Shopify only.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1.png)
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment2](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment2.png)
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment3](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment3.png)
@@ -17748,7 +17787,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Allow duplicated recommendations` - Check this option to allow products to be shown in more than one product/slot blocks.
     `Bar options` - Select the settings of the checkout bar.
     !!! info
-        The texts of the results page bar can be changed in [quiz settings > content > messages](https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings/#messages-quiz-content).
+        The texts of the results page bar can be changed in [Quiz settings > Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
     `Show bar` - Uncheck to hide the checkout bar.
     `Show "Retake quiz" button` - Uncheck if you want to hide the "retake quiz" button.
     `Show cart/checkout options` - Select the settings of the cart/checkout options.
@@ -17764,7 +17803,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Custom CSS code` - Add custom CSS code to this results page only. To add custom CSS code to your entire quiz, go to [quiz design](/reference/quiz-builder/quiz-design/).
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customcss](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_customcss.png)
     `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
-    !!! info "App CSS Structure"
+    !!! tip "App CSS structure"
         For a detailed overview of the CSS structure of the app and CSS examples, see the [App CSS Structure reference](/reference/css-structure/).
     ### Custom JS code
     `Custom JS code` - Add custom JavaScript to this results page only. Custom JS will not work in the quiz builder, it will only work in the preview or live quiz.
@@ -17842,16 +17881,16 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_multipleresultspages.png)
     `+ Add results page` - Click to add an extra results page to your quiz. Each results page can have different settings and content.
     !!! info "Jump logic is required"
-        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional logic tab.
+        The customers will be taken to the first results page by default. To send them to a different results page, use [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) in the Conditional logic tab.
         Check out [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump logic.
     1. To add a discount code to the results page, open the [Results page settings](/reference/quiz-builder/results-page/#results-page-settings).
     2. Locate the `Discount code` section and paste the discount code in the `Code` field. Note that the code must be a valid discount code in your Shopify store.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
     !!! tip "How to add a discount code"
-        Check out [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
+        See [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
     This section provides a complete reference for dynamic content using Liquid templates and JavaScript on results pages.
     ### Liquid templates
-    Liquid is a templating language that allows you to display dynamic content based on quiz answers and variables. On results pages, it's supported in:
+    Liquid is a templating language. It lets you show dynamic content based on quiz answers and variables. On results pages it is supported in:
     - **Heading blocks** - Personalized titles
     - **Text blocks** - Dynamic paragraphs
     - **Custom HTML blocks** - Full template control
@@ -18362,7 +18401,7 @@ In this tutorial, you’ll learn how to use [Jump logic](#jump-logic), [Skip log
         You want to provide personalized advice based on the customer's skin type. Imagine creating a quiz that determines a personalized skincare routine. *Question 4* might ask about the participant's skin type, and depending on the answer, a different statement or recommendation about their skincare is shown. This individualized response is made possible by Skip logic, which then continues the quiz based on the participant's specific path.
         ![how to use skip logic example](/images/how_to_hide_content_with_logic_shopifyv2_skip_logic_flow.png)
     1. Open the [Quiz builder](/reference/quiz-builder/) and add a `Multiple-choice question` asking the customer about their skin type: Dry, Normal, Oily, or Combination-type skin. 
-    2. Add multiple [`Statement` slides](/reference/quiz-builder/questions/#statement) describing the specific skin type and its challenges. For example:
+    2. Add multiple [`Statement` slides](/reference/quiz-builder/questions/#question-types) describing the specific skin type and its challenges. For example:
         !!! example "Statement Slides"
             ![skip logic skip slides statements](https://loom.com/i/11c8cff2e27a451a8c8b40b348de4a42?workflows_screenshot=true)
             - *You have Dry Skin*: The itchiness, tightness and dryness – we know your struggle! Your skin wants a routine that’s deeply nourishing and hydrating.
@@ -18484,12 +18523,12 @@ In this tutorial, you’ll learn how to use [Jump logic](#jump-logic), [Skip log
     3. Go to the [Results page](/reference/quiz-builder/results-page/) tab and add different sections to the Results page. 
         !!! example "Example: Results page with five sections"
             The results page contains five sections, each corresponding to a skin type. Each section contains a heading, text and a product block to recommend products for that skin type.
-    4. Make sure each section contains a [product block](/reference/quiz-builder/results-page/#products-products-variants-collections) to recommend products for that skin type.
+    4. Make sure each section contains a [product block](/reference/quiz-builder/results-page/#product-product-variants-collections) to recommend products for that skin type.
         !!! info "Product recommendations"
-            Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#products-products-variants-collections) based on user responses or fixed recommendations: 
+            Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#product-product-variants-collections) based on user responses or fixed recommendations: 
             - **Dynamic Recommendations:** Requires upvoting products via choice settings to influence the recommendation algorithm.
             - **Fixed Recommendations:** Set specific products to always display for each skin type section by changing the recommendation system to fixed and selecting items for each block. Ensure to configure fixed recommendations for all sections to provide consistent product suggestions.
-            Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.
+            Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.
     5. To display the correct section based on the highest scoring variable, go to Section Settings, find `Display Logic` and click `+ Add condition (OR)`.
     6. Add Display logic to the Section. Set up the rule like this:
         !!! info "Display logic format"
@@ -18534,12 +18573,12 @@ In this tutorial, you’ll learn how to use [Jump logic](#jump-logic), [Skip log
     3. Go to the [Results page](/reference/quiz-builder/results-page/) tab and add different sections to the Results page. 
         !!! example "Example: Results page with five sections"
             The results page contains five sections, each corresponding to a skin type. Each section contains a heading, text and a product block to recommend products for that skin type.
-    4. Make sure each section contains a [product block](/reference/quiz-builder/results-page/#products-products-variants-collections) to recommend products for that skin type.
+    4. Make sure each section contains a [product block](/reference/quiz-builder/results-page/#product-product-variants-collections) to recommend products for that skin type.
         !!! info "Product recommendations"
-            Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#products-products-variants-collections) based on user responses or fixed recommendations: 
+            Each section can display recommended products in a [product block](/reference/quiz-builder/results-page/#product-product-variants-collections) based on user responses or fixed recommendations: 
             - **Dynamic Recommendations:** Requires upvoting products via choice settings to influence the recommendation algorithm.
             - **Fixed Recommendations:** Set specific products to always display for each skin type section by changing the recommendation system to fixed and selecting items for each block. Ensure to configure fixed recommendations for all sections to provide consistent product suggestions.
-            Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#products-products-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.     
+            Change the `Recommendation System` in the [`Product Block Settings`](/reference/quiz-builder/results-page/#product-product-variants-collections) to whatever best suits your needs. For a personality-type quiz, we recommend using `Fixed Recommendations` and selecting products for each section.     
     5. Come up with score ranges that should determine the visibility of the sections.
         !!! example "Example: Score ranges"
             - Dry skin should be shown if the score is between 5 and 7 (inclusive): `score >= 5 && score <= 7`
@@ -18614,7 +18653,7 @@ In this tutorial, you'll learn how to add RevenueHunt app (Product Recommendatio
     RevenueHunt allows you to send all quiz information directly to Klaviyo. This includes the quiz taker's email and name but also all the quiz questions, answers and recommended products.
     With the new OAuth connection, you no longer need to manage Public or Private API Keys — just authenticate once and your entire account is connected.
     Let's get started.
-    To send contacts to Klaviyo your quiz needs to have an [`email question`](/reference/quiz-builder/questions/#email). 
+    To send contacts to Klaviyo your quiz needs to have an [`email question`](/reference/quiz-builder/questions/#email-address). 
     1. You can add it to the quiz from the [Quiz builder](/reference/quiz-builder/) tab by clicking on the `+ Add Question` button and selecting the email question type or by clciking `+ Add Block` to add a new email block to an existing slide.
     2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz. 
         !!! example "Example"
@@ -19020,7 +19059,7 @@ With the RevenueHunt Quiz app, you have complete control over how your quiz look
     - Each block has design settings for styling and layout adjustments.
     In the [Results page settings](/reference/quiz-builder/results-page/#results-page-settings), you can apply a dedicated background image, or inject CSS and JavaScript that only affect this page.
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png){width="300"}
-    The most important part of this tab is the [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections). 
+    The most important part of this tab is the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections). 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png){width="300"}
     Here, you decide how recommended products appear. You can:
     - Choose alignment and text sizes.
@@ -19053,7 +19092,7 @@ In this tutorial, you’ll learn how to send emails to quiz respondents and your
     <div class="videoWrapper">
     <iframe src="https://www.youtube.com/embed/yQJBaheRWgw?si=NaiYYKOovWwDXlV4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    1. **Add Email question**: Before you set up your result emails, you need to make sure that the quiz has an [email question](/reference/quiz-builder/questions/#email). To add an email question go to the [Quiz builder > Questions](/reference/quiz-builder/questions/) and click `+ Add question`or `+ Add block`.
+    1. **Add Email question**: Before you set up your result emails, you need to make sure that the quiz has an [email question](/reference/quiz-builder/questions/#email-address). To add an email question go to the [Quiz builder > Questions](/reference/quiz-builder/questions/) and click `+ Add question`or `+ Add block`.
     2. **Activate Respondent Emails**: Go to [`Quiz Settings > Emails to respondents`](/reference/quiz-builder/notifications/#to-respondent) and check the `Send email when someone completes the quiz` button to activate the emails.
         ![how to activate to respondent emails](/images/manual_shopifyV2_quizbuilder_notification_torespondent.png)
     3. **Edit Email template - Email TO**: Choose an answer to which email question should be used to send the result emails to.
@@ -19352,7 +19391,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
     2. Start building the quiz by [adding simple questions](/reference/quiz-builder/questions/#question-types) relevant to the customer.
         - Use a [`Multiple-choice question`](/reference/quiz-builder/questions/#multiple-choice) to find out the client’s **age** and **skin type**.
         - Use a [`Name question`](/reference/quiz-builder/questions/#name) to make the quiz personal.
-        - Finish the quiz with an [`Email question`](/reference/quiz-builder/questions/#email). Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
+        - Finish the quiz with an [`Email question`](/reference/quiz-builder/questions/#email-address). Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
     1. In the [Quiz design](/reference/quiz-builder/quiz-design/) tab, you can change the look and feel of the quiz.
     2. You can even [add custom CSS code](/how-to-guides/customize-quiz-design/#add-custom-css-code) to make it pop.
     Once your quiz is built and styled, you should add products or collections to individual choices.
@@ -19503,13 +19542,13 @@ In this tutorial, you’ll learn how to build a quiz that determines the user's 
         - A [heading](/reference/quiz-builder/results-page/#heading),
         - A short [text description](/reference/quiz-builder/results-page/#text) of what that means,
         - A [Product block](/reference/quiz-builder/results-page/.#products-products-variants-collections)
-    5. In the [Product block settings](/reference/quiz-builder/results-page/#products-products-variants-collections), choose the Recommendations System to be `Fixed Recommendations`.
-    6. In the [Product Slot](/reference/quiz-builder/results-page/#product-slot) settings, select the `Max. recommended items` and click on `Select products` to manually select the products that match that skin type.
+    5. In the [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections), choose the Recommendations System to be `Fixed Recommendations`.
+    6. In the [Product Slot](/reference/quiz-builder/results-page/#results-slot) settings, select the `Max. recommended items` and click on `Select products` to manually select the products that match that skin type.
     7. Repeat the process for each skin type section.
     ## Add display logic
     Now let’s tell the app *when* to show each section.
     1. Click a specific section to open the `Results Section` settings.
-    2. Go to [Display logic](/reference/quiz-builder/results-page/#display-logic) and click `+ Add condition (OR)`.
+    2. Go to [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) and click `+ Add condition (OR)`.
     3. Show the section if the corresponding variable has the highest score (e.g., dry skin). Ensure default visibility is set to hidden for all sections until conditions are met.  
         Set the conditions like this:
         - IF `the variable with the highest score` `IS` `dry_skin` THEN this section is VISIBLE.
@@ -19532,7 +19571,7 @@ In this tutorial, you’ll learn how to build a quiz that determines the user's 
     - shows you which variables were scored during a quiz session and in which answer,
     - shows logic behind sections visibility,
     - gives you an overview of the quiz results,
-    - gives you access to [Quiz Copilot](/reference/quiz-builder/metrics/#quiz-copilot), an AI assistant that can help you analyze the response.
+    - gives you access to [Quiz Copilot](/how-to-guides/use-quiz-copilot/), an AI assistant that can help you analyze the response.
     You can adjust scores or questions based on the analysis.
     ## Publish the quiz as link button
     In Shopify, you can make the quiz appear as a popup by simply linking a button or menu item to `#quiz`.

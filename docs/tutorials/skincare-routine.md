@@ -474,7 +474,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
 
         - Use a [`Multiple-choice question`](/reference/quiz-builder/questions/#multiple-choice) to find out the client’s **age** and **skin type**.
         - Use a [`Name question`](/reference/quiz-builder/questions/#name) to make the quiz personal.
-        - Finish the quiz with an [`Email question`](/reference/quiz-builder/questions/#email). Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
+        - Finish the quiz with an [`Email question`](/reference/quiz-builder/questions/#email-address). Quiz responses can be sent to your mailing list or CRM for segmented retargeting.
 
 
 === "Shopify (Legacy)"

@@ -8,7 +8,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage.png)
 
-    In the Results page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like. This section allows you to configure the results settings for your quiz. You can customize the result blocks, sections, and slots to display the desired outcome to the users.
+    In the Results page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and preview how the page looks. Customize the blocks, sections and slots that customers see.
 
     `Results Page` - the menu where all your results pages are nested.
 
@@ -16,11 +16,11 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Results page 1` - the first results page, currently editing.
 
-    `Λ` / `V` - Click to expand or collapse all the blocks in the results page at once (only visble when the results page has more than one section)..
+    `Λ` / `V` - Click to expand or collapse all the blocks in the results page at once . Only shown when the results page has more than one section..
 
     `⚙️` - Click to open the results page settings.
 
-    `+ Add slot` - Adds a new slot to this [Products block](/reference/quiz-builder/results-page/#products-products-variants-collections). To remove a section or a block, click the `bin` icon.
+    `+ Add slot` - Adds a new slot to this [Products block](/reference/quiz-builder/results-page/#product-product-variants-collections). To remove a section or a block, click the `bin` icon.
 
     `+ Add block` - Adds a new block to this section.To remove a section or a block, click the `bin` icon.
 
@@ -28,9 +28,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `+ Add results page` - Add another results page to your quiz. To remove a Results page, click on the Results page and go to [Results page settings](#results-page-settings).
 
-    !!! note
+    !!! info "Jump logic is required"
 
-        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional logic tab.
+        The customers will be taken to the first results page by default. To send them to a different results page, use [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) in the Conditional logic tab.
 
 
 
@@ -63,6 +63,183 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     ![quiz builder results page](/images/manual_quizbuilder_resultspage.png)
 
     In the Results Page section, you can add content to the results page shown at the end of the quiz. You can adjust the results page settings and see the preview of how the results page looks like.
+
+## Results page structure
+
+=== "Shopify"
+
+    The results page is built from sections. Each section holds blocks, and a
+    products block holds slots.
+
+    ```
+    results page
+    └── section          a band, shown or hidden by display logic
+        └── block        a component in that section
+            └── slot     one recommendation position in a products block
+    ```
+
+    | Block | What it does |
+    |---|---|
+    | Heading | The title of a section |
+    | Text | A paragraph, a list or a link |
+    | Image | A picture or a banner |
+    | Video | An uploaded video |
+    | Custom HTML | Your own HTML, with Liquid support |
+    | Products | The recommendation engine, sorted by upvotes |
+    | Slots | Recommendations grouped into fixed positions |
+    | Charts | A gauge, radar, bar, rating or custom chart |
+    | Buttons | A button, or the cart and checkout action |
+
+    Settings sit at three levels:
+
+    - **Results page settings** decide how products are picked for the whole page
+    - **Block settings** decide how one block looks and behaves
+    - **Display logic** shows or hides a whole section
+
+=== "Shopify (Legacy)"
+
+    The Results Page is built from blocks stacked in order. There are no
+    sections. A new Results Page starts with a Heading Block, a Content Block
+    and a Products Block.
+
+    ```
+    Results Page
+    └── block            a component on the page
+        └── slot         one recommendation position in a Slots Block
+    ```
+
+    | Block | What it does |
+    |---|---|
+    | Heading Block | The main title of the page |
+    | Content Block | Rich text for descriptions, instructions or explanations |
+    | Image Block | A banner or another picture |
+    | HTML Block | Your own HTML and CSS |
+    | Products Block | The recommendation engine. Shows products based on the quiz logic |
+    | Slots Block | Fixed recommendations, shown whatever the score |
+
+    Settings sit at two levels:
+
+    - **Results Page settings** decide how products are picked. They also control
+      add to cart and checkout for the whole page
+    - **Block settings** decide how one block looks
+    - **Display Logic** shows or hides an individual block
+
+=== "WooCommerce"
+
+    The Results Page is built from blocks stacked in order. There are no
+    sections. A new Results Page starts with a Heading Block, a Content Block
+    and a Products Block.
+
+    ```
+    Results Page
+    └── block            a component on the page
+        └── slot         one recommendation position in a Slots Block
+    ```
+
+    | Block | What it does |
+    |---|---|
+    | Heading Block | The main title of the page |
+    | Content Block | Rich text for descriptions, instructions or explanations |
+    | Image Block | A banner or another picture |
+    | HTML Block | Your own HTML and CSS |
+    | Products Block | The recommendation engine. Shows products based on the quiz logic |
+    | Slots Block | Fixed recommendations, shown whatever the score |
+
+    Settings sit at two levels:
+
+    - **Results Page settings** decide how products are picked. They also control
+      add to cart and checkout for the whole page
+    - **Block settings** decide how one block looks
+    - **Display Logic** shows or hides an individual block
+
+=== "Magento"
+
+    The Results Page is built from blocks stacked in order. There are no
+    sections. A new Results Page starts with a Heading Block, a Content Block
+    and a Products Block.
+
+    ```
+    Results Page
+    └── block            a component on the page
+        └── slot         one recommendation position in a Slots Block
+    ```
+
+    | Block | What it does |
+    |---|---|
+    | Heading Block | The main title of the page |
+    | Content Block | Rich text for descriptions, instructions or explanations |
+    | Image Block | A banner or another picture |
+    | HTML Block | Your own HTML and CSS |
+    | Products Block | The recommendation engine. Shows products based on the quiz logic |
+    | Slots Block | Fixed recommendations, shown whatever the score |
+
+    Settings sit at two levels:
+
+    - **Results Page settings** decide how products are picked. They also control
+      add to cart and checkout for the whole page
+    - **Block settings** decide how one block looks
+    - **Display Logic** shows or hides an individual block
+
+=== "BigCommerce"
+
+    The Results Page is built from blocks stacked in order. There are no
+    sections. A new Results Page starts with a Heading Block, a Content Block
+    and a Products Block.
+
+    ```
+    Results Page
+    └── block            a component on the page
+        └── slot         one recommendation position in a Slots Block
+    ```
+
+    | Block | What it does |
+    |---|---|
+    | Heading Block | The main title of the page |
+    | Content Block | Rich text for descriptions, instructions or explanations |
+    | Image Block | A banner or another picture |
+    | HTML Block | Your own HTML and CSS |
+    | Products Block | The recommendation engine. Shows products based on the quiz logic |
+    | Slots Block | Fixed recommendations, shown whatever the score |
+
+    Settings sit at two levels:
+
+    - **Results Page settings** decide how products are picked. They also control
+      add to cart and checkout for the whole page
+    - **Block settings** decide how one block looks
+    - **Display Logic** shows or hides an individual block
+
+=== "Standalone"
+
+    The Results Page is built from blocks stacked in order. There are no
+    sections. A new Results Page starts with a Heading Block, a Content Block
+    and a Products Block.
+
+    ```
+    Results Page
+    └── block            a component on the page
+        └── slot         one recommendation position in a Slots Block
+    ```
+
+    | Block | What it does |
+    |---|---|
+    | Heading Block | The main title of the page |
+    | Content Block | Rich text for descriptions, instructions or explanations |
+    | Image Block | A banner or another picture |
+    | HTML Block | Your own HTML and CSS |
+    | Products Block | The recommendation engine. Shows products based on the quiz logic |
+    | Slots Block | Fixed recommendations, shown whatever the score |
+
+    Settings sit at two levels:
+
+    - **Results Page settings** decide how products are picked. They also control
+      add to cart and checkout for the whole page
+    - **Block settings** decide how one block looks
+    - **Display Logic** shows or hides an individual block
+
+!!! tip "Naming"
+
+    For the word RevenueHunt uses for each of these, and how it differs by
+    platform, see the [Glossary](/reference/glossary/#results-page-structure).
 
 ## Block types
 
@@ -159,7 +336,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most voted products from the collection linked to it.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
@@ -180,7 +357,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most voted products from the collection linked to it.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
@@ -200,7 +377,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most voted products from the collection linked to it.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
@@ -220,7 +397,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most voted products from the collection linked to it.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
@@ -240,7 +417,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Products Block` - Adds a block specifically designed for displaying a list of recommended products.
 
-    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots allow you to group recommended products into different categories (e.g. cleanser, toner, serum, moisturizer...). Slots show the most voted products from a collection that's linked to the slot.
+    `Slots Block` - Adds a block specifically designed for displaying the recommended products sorted into slots. Slots group recommended products into categories, for example cleanser, toner, serum and moisturizer. A slot shows the most voted products from the collection linked to it.
 
     ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
@@ -293,7 +470,10 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     - **IF The score of the variable** 
     - **score** pick the variable from a dropdown list
-    - **is equal to**/ **is not equal to** / **is greater than**/ **is less than** / **is greater than or equal to** / **is less than or equal to** pick a choice from the dropdown list
+    - pick the comparison from the dropdown list:
+        - **is equal to** / **is not equal to**
+        - **is greater than** / **is less than**
+        - **is greater than or equal to** / **is less than or equal to**
     - **Number** / **Another variable** pick a choice from the dropdown list
     - **0** / **1** / **2** / **other numerical value** type a value in the input field
     - **THEN section is Visible** 
@@ -302,7 +482,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! info
 
-        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
+        Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 
 
     !!! example "Example 2"
@@ -324,7 +504,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! info
 
-        Note: Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
+        Scores are assigned to each choice in the [Questions](/reference/quiz-builder/questions) tab > [Choice settings](/reference/quiz-builder/questions/#choice-settings) section.
 
 
     !!! example "Example 3"
@@ -547,17 +727,17 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Choose the heading size and alignment.
 
-    !!! tip "Liquid Templates Supported"
+    !!! tip "Liquid templates supported"
 
         Heading blocks support [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display quiz answers, or `{{ quiz.variables.highest }}` to show the winning variable. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
 
     ---
 
-    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) lets you recall any answer the customer gave, and show it in a `Text Block` or a `Heading Block` on the results page. To add one, open a Text or Heading block and click the `Dynamic content source` icon. 
 
     ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
     
-    A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
 
     ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
@@ -586,17 +766,17 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     Choose the text size and alignment.
 
-    !!! tip "Liquid Templates Supported"
+    !!! tip "Liquid templates supported"
 
         Text blocks support [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) for dynamic content. Use `{{ quiz.answers.byBlock['qbi-name'].value }}` to display quiz answers, or use conditional logic with `{% if %}` statements. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables.
 
     ---
 
-    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) allow you to recall any answer the customer provided in the quiz and used in any `Text Block` or a `Heading Block` on the results page. To add an dynamic content source open a Text or a Headign block and click the `Dynamic content source` icon. 
+    `Content dynamic source` - [Content Dynamic Source](/how-to-guides/use-information-recalls/) lets you recall any answer the customer gave, and show it in a `Text Block` or a `Heading Block` on the results page. To add one, open a Text or Heading block and click the `Dynamic content source` icon. 
 
     ![how_to_resultspage_dynamiccontent](/images/how_to_resultspage_dynamiccontent.png){width="300"}
     
-    A dropdown will appear with the list of information to be recalled. Select the data point you're interested in and it will be added to the block.
+    A dropdown will appear with the list of information to be recalled. Select the data point you want and it is added to the block.
 
     ![how_to_resultspage_dynamiccontent2](/images/how_to_resultspage_dynamiccontent2.png){width="300"}
 
@@ -679,7 +859,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_html.png)
 
-    !!! tip "Liquid Templates & JavaScript Supported"
+    !!! tip "Liquid templates and JavaScript supported"
 
         Custom HTML blocks support both [Liquid templates](/reference/quiz-builder/results-page/#liquid-templates) and JavaScript. Use Liquid for dynamic content and JavaScript in `<script>` tags for advanced logic. See [Dynamic Content & JavaScript Reference](#dynamic-content-javascript-reference) for all available variables and methods.
 
@@ -759,7 +939,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ##### Slot item composition
 
-    Select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
+    Select which elements of the product slot should be displayed. Click and drag an element to change its position within the slot.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
 
@@ -784,23 +964,23 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Price` - Adds the product price as set up in Shopify Products.
 
-    ??? warning "Why the Compare-at Price May Not Show on the Results page"
+    ??? warning "Why the compare-at price may not show on the results page"
 
-        If the **compare-at price** is missing or showing as `null` on the quiz results page, this is often due to **Shopify Markets settings**. By default, Shopify can hide compare-at prices for customers in certain regions—especially in the **European Economic Area (EEA)**—due to local pricing or legal restrictions.
+        If the **compare-at price** is missing or showing as `null` on the quiz results page, this is usually a **Shopify Markets** setting. Shopify can hide compare-at prices for customers in some regions, in particular the **European Economic Area (EEA)**, because of local pricing or legal rules.
 
         How to Fix It:
 
-        Go to **Shopify Admin → Settings → Markets → Preferences** and ensure that compare-at prices are enabled for the relevant market (e.g., Germany or the EEA). 
+        Go to **Shopify Admin > Settings > Markets > Preferences**. Check that compare-at prices are enabled for that market, for example Germany or the EEA. 
 
         ![how_to_shopifyv2_change_quiz_language_markets_compareatissue](/images/how_to_shopifyv2_change_quiz_language_markets_compareatissue.png)
         
-        You can test this by previewing the quiz on your live store while simulating a visitor from the affected country.
+        You can test this by previewing the quiz on your live store while simulating a customer from the affected country.
 
     `Add to cart button` - Adds an "Add to cart" button.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_addtocartbutton](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon_addtocart.png)
 
-    `Text` - Adds an extra text block. Opens a text block menu that allows you to add your own custom text, link or a personalization (you can for example add a [content dynamic source](/how-to-guides/use-information-recalls/) to recall information from the quiz).
+    `Text` - Adds an extra text block. Opens a text block menu where you add your own text or a link. You can also add a [content dynamic source](/how-to-guides/use-information-recalls/) to recall an answer from the quiz.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_text.png)
 
@@ -808,7 +988,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Unit price` - Adds a unit price text block to the product cards. This shows Shopify's per-unit pricing (e.g., "$5.00/L" or "€2.50/100g"). Useful for food, beverage, cosmetics, and other shops that sell by weight or volume. 
 
-    `Link to product` - Adds a button link to the product URL. Links open only on live storefronts. They won't open in quiz preview or on password-protected stores.
+    `Link to product` - Adds a button link to the product URL. Links open only on live storefronts. They do not open in quiz preview or on password-protected stores.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_linktoproduct.png)
 
@@ -836,7 +1016,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! info "Supported review apps"
     
-        We currently support these review apps for Shopify:
+        The app supports these review apps for Shopify:
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_reviews_apps.png)
     
@@ -853,24 +1033,24 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! info "Supported subscription apps"
     
-        We are in the process of implementing these subscription apps for Shopify:
+        Support for these subscription apps for Shopify is being added:
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_subscription_apps.png)
     
         - Shopify Subscriptions,
         - ReCharge Subscriptions (Pro plan only).
 
-        If you wish to integrate a subscription app that is not supported yet, please reach out to our [customer support team](/how-to-guides/contact-customer-support/) and we will be happy to help you.
+        To request support for another subscription app, [contact customer support](/how-to-guides/contact-customer-support/).
 
     ##### Results slot
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot1.png)
 
-    `Slot 1` - Slots allow you to recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...). 
+    `Slot 1` - Slots let you recommend items and group them into different categories (e.g. cleanser, toner, serum, moisturizer...). 
     
-    ??? info "How Slots Work"
+    ??? info "How slots work"
 
-        Slots display products based on the `Recommendations system` set up in [Product block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
+        Slots display products based on the `Recommendations system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections). 
         
         If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
 
@@ -900,9 +1080,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment3](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_addsegment3.png)    
 
-    ??? info "How Slots Work"
+    ??? info "How slots work"
 
-        Slots display products based on the `Recommendations system` set up in [Product block Settings](/reference/quiz-builder/results-page/#product-block-settings). 
+        Slots display products based on the `Recommendations system` set up in [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections). 
         
         If the recommendations system is set to `Upvotes` then the slot will display the most upvoted items based on customer choices. Unless you add a filter, the slot will display a list of recommended products, variants or collections. 
 
@@ -918,7 +1098,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
         
         Unless you add a filter, the slot will display a list of upvoted items. 
 
-    `Exclude segments` - Click `+ Add exclude type` to choose products from which Products, Collections, Tags, Variants or Vendors will not be allowed to be shown in this slot block. You can exclude items based on tags, vendors, or variants — not just collections (Shopify only).
+    `Exclude segments` - Click `+ Add exclude type` to choose products from which Products, Collections, Tags, Variants or Vendors must never be shown in this slot block. You can exclude by tag, vendor or variant, not only by collection. Shopify only.
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slot_excludesegment1.png)
 
@@ -1192,7 +1372,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Description` - Add a description to be displayed above the recommended products.
 
-    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. To show more, add another Product Block. Make sure `Allow duplicated recommendations` is off in your Results page settings.
 
     `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
@@ -1210,9 +1390,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most voted products from the collection linked to it.
 
-    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received votes but sits in an excluded collection is not shown.
 
     `Slot ID` - Displays the current slot ID.
 
@@ -1228,7 +1408,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Description` - Add a description to be displayed above the recommended products.
 
-    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. To show more, add another Product Block. Make sure `Allow duplicated recommendations` is off in your Results page settings.
 
     `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
@@ -1246,9 +1426,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most voted products from the collection linked to it.
 
-    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received votes but sits in an excluded collection is not shown.
 
     `Slot ID` - Displays the current slot ID.
 
@@ -1264,7 +1444,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Description` - Add a description to be displayed above the recommended products.
 
-    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. To show more, add another Product Block. Make sure `Allow duplicated recommendations` is off in your Results page settings.
 
     `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
@@ -1282,9 +1462,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most voted products from the collection linked to it.
 
-    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received votes but sits in an excluded collection is not shown.
 
     `Slot ID` - Displays the current slot ID.
 
@@ -1300,7 +1480,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Description` - Add a description to be displayed above the recommended products.
 
-    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. To show more, add another Product Block. Make sure `Allow duplicated recommendations` is off in your Results page settings.
 
     `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
@@ -1318,9 +1498,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most voted products from the collection linked to it.
 
-    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received votes but sits in an excluded collection is not shown.
 
     `Slot ID` - Displays the current slot ID.
 
@@ -1336,7 +1516,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Description` - Add a description to be displayed above the recommended products.
 
-    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. If you want to show more products, add another Product Block to your results page and make sure that the "Allow duplicated recommendations" settings is off in your Results page settings.
+    `Max. recommended products` - Select how many products should be recommended in this Product Block. Max 15 products can be displayed per block. To show more, add another Product Block. Make sure `Allow duplicated recommendations` is off in your Results page settings.
 
     `Hide block when no products are recommended` - Activate this setting if you want to hide the product block if there are no recommendations. By default, with no recommendations a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings> Messages section.
 
@@ -1354,9 +1534,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Max. recommended products` - Select how many products should be recommended in this Slot. Max 15 products can be displayed per slot.
 
-    `Included collections` - Select from which collections (or tags) from your store the slot should display the products. Slots show the most voted products from a collection that's linked to the slot.
+    `Included collections` - Select which collections or tags the slot shows products from. A slot shows the most voted products from the collection linked to it.
 
-    `Excluded collections` - Select from which collections (or tags) from your store the slot should never display the products. Slots show the most voted products from a collection that's linked to the slot. If a product received votes in the quiz but is part of the excluded collection, the slot will not show that product.
+    `Excluded collections` - Select which collections or tags the slot must never show products from. A product that received votes but sits in an excluded collection is not shown.
 
     `Slot ID` - Displays the current slot ID.
 
@@ -1383,7 +1563,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `Bar options` - Select the settings of the checkout bar.
 
     !!! info
-        The texts of the results page bar can be changed in [quiz settings > content > messages](https://docs.revenuehunt.com/reference/quiz-builder/quiz-settings/#messages-quiz-content).
+        The texts of the results page bar can be changed in [Quiz settings > Messages](/reference/quiz-builder/quiz-settings/#messages-quiz-content).
 
 
     `Show bar` - Uncheck to hide the checkout bar.
@@ -1416,7 +1596,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `✨Get help with custom CSS` - Opens a chat window with the Quiz Copilot AI. It can directly make design changes with CSS code.
 
-    !!! info "App CSS Structure"
+    !!! tip "App CSS structure"
 
         For a detailed overview of the CSS structure of the app and CSS examples, see the [App CSS Structure reference](/reference/css-structure/).
 
@@ -1554,7 +1734,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![quiz builder results page results page settings basic checkout](/images/manual_quizbuilder_resultspage_settings_basic_checkout.png){width="500"}
 
-    `Add product to cart` - Allows the user to add the recommended products to the cart directly from the results page.
+    `Add product to cart` - Lets the customer add the recommended products to the cart directly from the results page.
 
     `Proceed to cart` - After the products are added to the cart, the customer will proceed to the cart page.
 
@@ -1566,7 +1746,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![manual_woo_quizbuilder_resultspage_checkoutsettings](/images/manual_woo_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 
-    `Add product to cart` - Allows the user to add the recommended products to the cart directly from the results page.
+    `Add product to cart` - Lets the customer add the recommended products to the cart directly from the results page.
 
     `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
@@ -1580,7 +1760,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![manual_magento_quizbuilder_resultspage_checkoutsettings](/images/manual_magento_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 
-    `Add product to cart` - Allows the user to add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
+    `Add product to cart` - Lets the customer add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
 
     `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
@@ -1588,7 +1768,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ![manual_bigcommerce_quizbuilder_resultspage_checkoutsettings](/images/manual_bigcommerce_quizbuilder_resultspage_checkoutsettings.png){width="500"}
 
-    `Add product to cart` - Allows the user to add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
+    `Add product to cart` - Lets the customer add the recommended products to the cart directly from the results page. After the products are added to the cart, the customer will proceed to the cart page.
 
     `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
@@ -1598,13 +1778,13 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Link to product` - Displays a "view product" button that takes the customer to the product page. This option disables the "add to cart" feature.
 
-    !!! warning
+    !!! note "Not available on Standalone"
 
-        `Add product to cart` - This option is not available in the Standalone version of the Product Recommendation Quiz.
+        `Add product to cart` is not available in the Standalone version of the app.
     
     !!! tip
 
-        If you would like to add a product to the cart you can set up your own results page in your store and send all the quiz data there with the help of our [Callback function](https://docs.revenuehunt.com/how-to-guides/use-callback-function/).
+        To add a product to the cart, set up your own results page in your store. Send the quiz data to it with the [Callback function](/how-to-guides/use-callback-function/).
 
 **Individual Product Settings**
 
@@ -1633,9 +1813,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ??? question "Show custom shorter product description"
 
-        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+        You can shorten the product descriptions that appear on the recommendations page. The instructions below show a Shopify store, but this also works for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-        This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature lets you add a code snippet in your product description at the point where you want to cut it. In your ecommerce backend, open the product you want to edit. Click `Show HTML`, then add the `<!--more-->` snippet in the description:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -1647,20 +1827,20 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-        You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+        Deactivate `truncate description` in the Results Page settings, so the full description is shown and cut at the code snippet. Do this for **every product** the quiz can recommend.
 
-    `Show reviews` - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
+    `Show reviews` - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
 
     !!! info
 
-         We currently support these review apps for Shopify:
+         The app supports these review apps for Shopify:
 
         - Product Reviews by Shopify,
         - Stamped Product Reviews & UGC,
         - Judge.me Product Reviews,
         - Rivyo Product Reviews.
 
-    `Show metafields` - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafields in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    `Show metafields` - Toggle to allow showing of custom product metafields on the results page. To show product metafields follow the instructions in [How to show product metafields in the quiz](/how-to-guides/add-product-metafields/).
 
     **Style Settings**
 
@@ -1668,7 +1848,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
-    `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Image Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
 
 === "WooCommerce"
 
@@ -1696,9 +1876,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ??? question "Show custom shorter product description"
 
-        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+        You can shorten the product descriptions that appear on the recommendations page. The instructions below show a Shopify store, but this also works for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-        This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature lets you add a code snippet in your product description at the point where you want to cut it. In your ecommerce backend, open the product you want to edit. Click `Show HTML`, then add the `<!--more-->` snippet in the description:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -1710,16 +1890,16 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-        You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+        Deactivate `truncate description` in the Results Page settings, so the full description is shown and cut at the code snippet. Do this for **every product** the quiz can recommend.
  
  
-    `Show reviews` - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](https://docs.revenuehunt.com/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
+    `Show reviews` - Toggle to show product rating below the product name on the results page. After activation make sure to run a [Catalog Sync](/how-to-guides/sync-catalog/) to sync all the product reviews with the app.
 
     !!! info
 
-         We currently sync only the official WooCommerce Reviews.
+         The app syncs only the official WooCommerce Reviews.
 
-    `Show metafields/attributes` - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafields in the quiz](https://docs.revenuehunt.com/how-to-guides/add-product-metafields/).
+    `Show metafields/attributes` - Toggle to allow the showing of custom product attributes on the results page. To show product attributes follow the instructions in [How to show product metafields in the quiz](/how-to-guides/add-product-metafields/).
 
     **Style Settings**
 
@@ -1727,7 +1907,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
-    `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Image Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
 
 === "Magento"
 
@@ -1749,9 +1929,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ??? question "Show custom shorter product description"
 
-        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+        You can shorten the product descriptions that appear on the recommendations page. The instructions below show a Shopify store, but this also works for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-        This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature lets you add a code snippet in your product description at the point where you want to cut it. In your ecommerce backend, open the product you want to edit. Click `Show HTML`, then add the `<!--more-->` snippet in the description:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -1763,7 +1943,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-        You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+        Deactivate `truncate description` in the Results Page settings, so the full description is shown and cut at the code snippet. Do this for **every product** the quiz can recommend.
 
     **Style Settings**
 
@@ -1771,7 +1951,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
-    `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Image Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
 
 === "BigCommerce"
 
@@ -1791,9 +1971,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ??? question "Show custom shorter product description"
 
-        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+        You can shorten the product descriptions that appear on the recommendations page. The instructions below show a Shopify store, but this also works for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-        This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature lets you add a code snippet in your product description at the point where you want to cut it. In your ecommerce backend, open the product you want to edit. Click `Show HTML`, then add the `<!--more-->` snippet in the description:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -1805,7 +1985,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-        You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+        Deactivate `truncate description` in the Results Page settings, so the full description is shown and cut at the code snippet. Do this for **every product** the quiz can recommend.
 
     **Style Settings**
 
@@ -1813,7 +1993,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
-    `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Image Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
 
 === "Standalone"
 
@@ -1831,9 +2011,9 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ??? question "Show custom shorter product description"
 
-        It's possible to shorten the product descriptions that appear in the recommendations page. The following instructions include screenshots from a Shopify store, but it's also possible for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
+        You can shorten the product descriptions that appear on the recommendations page. The instructions below show a Shopify store, but this also works for WooCommerce stores (see the WordPress [More block documentation](https://wordpress.com/support/wordpress-editor/blocks/more-block/)) and BigCommerce stores.
 
-        This feature allows you to add a code snippet in your product description where you want to cut it. In your ecommerce backend, navigate to the product you want to edit. To can add the `<!--more-->` code snippet in your product description, just click on the `Show HTML` button:
+        This feature lets you add a code snippet in your product description at the point where you want to cut it. In your ecommerce backend, open the product you want to edit. Click `Show HTML`, then add the `<!--more-->` snippet in the description:
 
         ![manual quiz builder shorter product description image1](/images/manual_quiz_builder_shorter_product_description_image1.png)
         
@@ -1845,7 +2025,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         ![manual quiz builder shorter product description image3](/images/manual_quiz_builder_shorter_product_description_image3.png)
 
-        You'll have to **deactivate** the `truncate description` in the Results Page settings in our app so the description is shown full and cut at the code snippet. Remember that you'll have to do this for **all the products** that will be recommended in the quiz.
+        Deactivate `truncate description` in the Results Page settings, so the full description is shown and cut at the code snippet. Do this for **every product** the quiz can recommend.
 
     **Style Settings**
 
@@ -1853,7 +2033,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Background image` - Click "Add" to upload a background image to the results page. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated. 
 
-    `Image Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Image Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
 
 ### Advanced settings
 
@@ -1866,7 +2046,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     **Recommendation Settings**
 
-    `If no results, no products` - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    `If no results, no products` - If there are no products that can be recommended a fallback message is shown instead. You can edit that text in Quiz Settings > Messages.
 
     `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
 
@@ -1876,7 +2056,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    `Minimum number of votes` - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X votes or more. Toggle to activate.
 
     ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
@@ -1894,7 +2074,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     **Recommendation Settings**
 
-    `If no results, no products` - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    `If no results, no products` - If there are no products that can be recommended a fallback message is shown instead. You can edit that text in Quiz Settings > Messages.
 
     `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
 
@@ -1904,7 +2084,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    `Minimum number of votes` - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X votes or more. Toggle to activate.
 
     ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
@@ -1922,7 +2102,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     **Recommendation Settings**
 
-    `If no results, no products` - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    `If no results, no products` - If there are no products that can be recommended a fallback message is shown instead. You can edit that text in Quiz Settings > Messages.
 
     `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
 
@@ -1932,7 +2112,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    `Minimum number of votes` - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X votes or more. Toggle to activate.
 
     ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
@@ -1950,7 +2130,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     **Recommendation Settings**
 
-    `If no results, no products` - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    `If no results, no products` - If there are no products that can be recommended a fallback message is shown instead. You can edit that text in Quiz Settings > Messages.
 
     `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
 
@@ -1960,7 +2140,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    `Minimum number of votes` - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X votes or more. Toggle to activate.
 
     ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
@@ -1978,7 +2158,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     **Recommendation Settings**
 
-    `If no results, no products` - If there are no products that can be recommended a "Based on your answers, we need a little more time to give you our recommendations. Please get in touch with us." text will be displayed instead. This text can be edited in the Quiz Settings > Messages section.
+    `If no results, no products` - If there are no products that can be recommended a fallback message is shown instead. You can edit that text in Quiz Settings > Messages.
 
     `If no results, random products` - If there are no products that can be recommended the app will show random products that received any votes.
 
@@ -1988,7 +2168,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     `Allow duplicated recommendations` - Allows products to show multiple times on the results page (for example in two different product blocks or slot blocks). Toggle to activate.
 
-    `Minimum number of votes` - Adds an extra setting to each product or slot block which allows you to limit the products recommended in this block only to those that received X votes or more. Toggle to activate.
+    `Minimum number of votes` - Adds a setting to each product or slot block. It limits the block to products that received X votes or more. Toggle to activate.
 
     ![quiz builder results page results page settings min votes setting](/images/manual_quizbuilder_resultspage_settings_advanced_minvotes.png)
 
@@ -2010,7 +2190,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! info "Jump logic is required"
 
-        The customers will be taken to the first results page by default. If you want to point them to a different results page, you'll have to do that using [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) via the quiz Conditional logic tab.
+        The customers will be taken to the first results page by default. To send them to a different results page, use [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) in the Conditional logic tab.
 
         Check out [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump logic.
 
@@ -2116,7 +2296,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     !!! tip "How to add a discount code"
 
-        Check out [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
+        See [How to Add a Discount to Your Quiz](/how-to-guides/add-discount/) to learn how to add a discount code to the quiz.
 
 
 === "Shopify (Legacy)"
@@ -2355,7 +2535,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
     ### Liquid templates
 
-    Liquid is a templating language that allows you to display dynamic content based on quiz answers and variables. On results pages, it's supported in:
+    Liquid is a templating language. It lets you show dynamic content based on quiz answers and variables. On results pages it is supported in:
 
     - **Heading blocks** - Personalized titles
     - **Text blocks** - Dynamic paragraphs

@@ -24,7 +24,7 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
 - **[Picture Choice](/how-to-guides/add-adjust-images/#picture-choices)** - You can add a [Picture Choice block](/reference/quiz-builder/questions/#picture-choice) to your question, which will allow you to add an image to each choice in that multiple-choice question.
 
-- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-image-in-productvariantscollection-blocks) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
+- **[Product Image](/how-to-guides/add-adjust-images/#product-image)** - You can also add a [Product/Variants/Collection Block](/reference/quiz-builder/results-page/#product-product-variants-collections) to your quiz results page, which will allow you to display a product/variant/collection image in the results page.
 
 
 ### Quiz background image
@@ -1461,9 +1461,9 @@ There are the different ways you can add images to your quiz in the RevenueHunt 
 
     3. Click on `Product` (or `Variant` or `Collection`) block and a new block will be added to the results page.
 
-    4. Open the [Product/Variant/Collection block settings](/reference/quiz-builder/results-page/#products-products-variants-collections).
+    4. Open the [Product/Variant/Collection block settings](/reference/quiz-builder/results-page/#product-product-variants-collections).
 
-    5. Under [`Product components layout`](/reference/quiz-builder/results-page/#product-components-layout) you can select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
+    5. Under [`Product components layout`](/reference/quiz-builder/results-page/#slot-item-composition) you can select which elements of the product slot should be displayed. Click and drag an element to change it's position within the slot.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_productcomponents_image.png)
 

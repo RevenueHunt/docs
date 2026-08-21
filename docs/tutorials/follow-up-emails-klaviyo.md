@@ -220,7 +220,7 @@ description: "Send RevenueHunt quiz leads to Klaviyo and build personalized post
 
 === "Shopify"
 
-    To send contacts to Klaviyo your quiz needs to have an [`email question`](/reference/quiz-builder/questions/#email). 
+    To send contacts to Klaviyo your quiz needs to have an [`email question`](/reference/quiz-builder/questions/#email-address). 
 
     1. You can add it to the quiz from the [Quiz builder](/reference/quiz-builder/) tab by clicking on the `+ Add Question` button and selecting the email question type or by clciking `+ Add Block` to add a new email block to an existing slide.
     2. You can [ask for marketing consent](/how-to-guides/ask-for-marketing-consent/) directly in the quiz. 

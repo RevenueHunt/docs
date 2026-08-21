@@ -57,7 +57,7 @@ icon: material/cellphone-message
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/AqwjMV21Q-I?si=IIwZgRhppkbtGW_d&amp;start=37" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
+    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email-address), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
     2. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). 
 
         - Log in to your Omnisend account.
@@ -91,7 +91,7 @@ icon: material/cellphone-message
 
 === "Shopify (Legacy)"
 
-    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
+    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email-address), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
     2. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). 
 
         - Log in to your Omnisend account.
@@ -127,7 +127,7 @@ icon: material/cellphone-message
 === "WooCommerce"
 
 
-    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
+    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email-address), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
     2. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). 
 
         - Log in to your Omnisend account.
@@ -163,7 +163,7 @@ icon: material/cellphone-message
 
 === "Magento"
 
-    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
+    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email-address), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
     2. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). 
 
         - Log in to your Omnisend account.
@@ -200,7 +200,7 @@ icon: material/cellphone-message
 === "BigCommerce"
 
 
-    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
+    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email-address), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
     2. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). 
 
         - Log in to your Omnisend account.
@@ -236,7 +236,7 @@ icon: material/cellphone-message
 
 === "Standalone"
 
-    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
+    1. **Add an email question**: Ensure your quiz includes an [**email question**](/reference/quiz-builder/questions/#email-address), as this is essential for sending data to Omnisend. If an email question is missing, you can add one from the `+ Add Question` menu or insert an email block into an existing question.
     2. **Generate Omnisend API Key**: First, you'll have to [generate a new API Key in Omnisend](https://app.omnisend.com/integrations/api-keys). 
 
         - Log in to your Omnisend account.

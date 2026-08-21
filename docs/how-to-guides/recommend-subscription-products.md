@@ -50,7 +50,7 @@ If you're using a subscription app that is not supported, you can still recommen
             `https://static.rechargecdn.com/static/js/recharge.js` is not the Storefront SDK required by the quiz. If your theme loads that legacy script, replace it with the `recharge-client-2.0.0.min.js` script above.
 
     1. To add subscription to your recommended products go to the [Results page](/reference/quiz-builder/results-page/).
-    2. Find the [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) and open its settings.
+    2. Find the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) and open its settings.
     3. Under `Product components layout`, find the `Subscription` option and add it to the layout.
 
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
@@ -174,8 +174,8 @@ If you're using a subscription app that is not supported, you can still recommen
 
     **Step 2: Adjust Checkout Settings**
 
-    1. **Open Results page settings**: Navigate to the [Results page](/reference/quiz-builder/results-page/) and add or select a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections)
-    2. **Change Product Components Layout**: In [Product block settings](/reference/quiz-builder/results-page/#products-products-variants-collections), find the [`Product Components Layout`](/reference/quiz-builder/results-page/#product-components-layout) section and remove the `Add to cart button option. Once removed, insert a `Link to Product` component instead.
+    1. **Open Results page settings**: Navigate to the [Results page](/reference/quiz-builder/results-page/) and add or select a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections)
+    2. **Change Product Components Layout**: In [Product block settings](/reference/quiz-builder/results-page/#product-product-variants-collections), find the [`Product Components Layout`](/reference/quiz-builder/results-page/#slot-item-composition) section and remove the `Add to cart button option. Once removed, insert a `Link to Product` component instead.
     
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products_slotitemcompositon1.png)
 

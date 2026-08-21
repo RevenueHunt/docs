@@ -101,7 +101,7 @@ The quiz is the top of your funnel. Capturing the email and following up is wher
     **Yes - the data says so.** Among top-converting quizzes that collect email, 75% make it required. This does **not** hurt completion rates - customers who reach the email step are engaged and willing to share their email for a personalized recommendation. Make it required.
 
 ??? info "How to set the email question as required"
-    Open the email question settings and toggle **Required** on. See: [Email question settings](/reference/quiz-builder/questions/#email)
+    Open the email question settings and toggle **Required** on. See: [Email question settings](/reference/quiz-builder/questions/#email-address)
 
     ![email question settings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_email.png)
 

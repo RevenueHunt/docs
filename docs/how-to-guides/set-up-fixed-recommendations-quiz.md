@@ -31,7 +31,7 @@ Set up a fixed section with pre-determined products to be shown on the results p
 
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/uiJwV1MxZKg?si=Ucpz_kB6PXt5VgJ4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     
-    1. To show the same products to everyone regardless of the customer answers, add a [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections) to the Results page and set the `Recommendation System` to `Fixed Recommendations`.
+    1. To show the same products to everyone regardless of the customer answers, add a [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections) to the Results page and set the `Recommendation System` to `Fixed Recommendations`.
     2. Under `Slot 1` go to `Fixed recommended items` and select the products you want to show.
     3. Adjust the `Max. recommended items` number to match the number of recommended products. 
     4. Save the changes and preview the quiz.
@@ -282,7 +282,7 @@ Set up multiple sections on the results page with fixed product and text combina
             - *You have Oily Skin*: Your skin is oh-so shiny, but with excess oil instead of your natural glow! Your skin wants a routine that reduces oil to provide balance and clarity, all while giving your skin the proper amount of light hydration.
             - *You have Combination-Type Skin*: Your skin has multiple things going on at once: you experience your T-zone to be on the oily side, while the rest of your face is either normal or dry.
 
-    3. **Add Product blocks**: To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  
+    3. **Add Product blocks**: To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).  
 
         ![how to recommend products fixed recommendations resultspage](/images/how_to_shopifyv2_fixedrecommendationquiz_fixedrecommendationsresultspage.png)
 
@@ -479,7 +479,7 @@ Set up multiple results pages with unique fixed product recommendations and text
 
     4. **Add Product blocks to Each Results page**: For each results page, add a `Products Block` with the specific products you want to recommend for that skin type.
 
-        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#products-products-variants-collections).  +
+        To each block add a `Product Block` with the products you want to recommend for that skin type. Make sure to set the `Recommendation System` to `Fixed Recommendations` in the [Product block Settings](/reference/quiz-builder/results-page/#product-product-variants-collections).  +
 
         ![how to recommend products fixed recommendations resultspage](/images/how_to_shopifyv2_fixedrecommendationquiz_mrp_fixedrecommendationsresultspage.png)
 

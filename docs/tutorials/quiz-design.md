@@ -1320,7 +1320,7 @@ description: "Customize RevenueHunt quiz design with fonts, colors, backgrounds,
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings.png){width="300"}
 
-    The most important part of this tab is the [Product block](/reference/quiz-builder/results-page/#products-products-variants-collections). 
+    The most important part of this tab is the [Product block](/reference/quiz-builder/results-page/#product-product-variants-collections). 
     
     ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_blocksettings_products.png){width="300"}
     
