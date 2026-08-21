@@ -6,30 +6,30 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
 === "Shopify"
 
-    To set up email notifications, go to [Quiz settings](/reference/quiz-builder/quiz-settings/) section. You can set up [Emails to self](#to-self) (email notifications to the store owner) and [Emails to respondents](#to-respondent) (email notifications to the quiz takers).
+    To set up email notifications, go to the [Quiz settings](/reference/quiz-builder/quiz-settings/) section. `Emails to self` are sent to the store owner. `Emails to respondents` are sent to the customer.
 
 
 === "Shopify (Legacy)"
 
-    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
+    In the Notifications tab of the Quiz Builder, you can activate and edit two emails. One goes to the customer and one goes to the store owner. Both are sent at the end of the quiz.
 
 === "WooCommerce"
 
-    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
+    In the Notifications tab of the Quiz Builder, you can activate and edit two emails. One goes to the customer and one goes to the store owner. Both are sent at the end of the quiz.
 
 === "Magento"
 
-    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
+    In the Notifications tab of the Quiz Builder, you can activate and edit two emails. One goes to the customer and one goes to the store owner. Both are sent at the end of the quiz.
 
 === "BigCommerce"
 
-    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
+    In the Notifications tab of the Quiz Builder, you can activate and edit two emails. One goes to the customer and one goes to the store owner. Both are sent at the end of the quiz.
 
 === "Standalone"
 
-    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
+    In the Notifications tab of the Quiz Builder, you can activate and edit two emails. One goes to the customer and one goes to the store owner. Both are sent at the end of the quiz.
 
-### To respondent
+## Emails to customers { #to-respondent }
 
 === "Shopify"
 
@@ -49,7 +49,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Reset` - Resets the email template to the default template.
 
-    `Useful code snippets:` - Click on an item below  to copy the code snippets to customize the Liquid email template.
+    `Useful code snippets:` - Click an item below to copy the code snippets to customize the Liquid email template.
 
     `Items list snippet` - Lists all the recomended products.
 
@@ -57,7 +57,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     **Email preview**
 
-    `Jul 10, 2025 12:35 PM` - Date of the quiz completion. Click to open a dropdown and chose a different response.
+    `Jul 10, 2025 12:35 PM` - Date of the quiz completion. Click to open a dropdown and choose a different response.
 
     `From:` - Email address of the sender. Go to the [App settings > SMTP section](/reference/app-settings/#smtp) to set up your email server details. Otherwise, the email will be sent from RevenueHunt email address.
 
@@ -67,11 +67,11 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Copy to clipboard` - Copies the selected metadata to the clipboard.
 
-    !!! info "Quiz Response Metadata Structure"
+    !!! info "Quiz response metadata structure"
 
         ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
         
-        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
+        This object contains all the data generated when a customer completes a quiz, including responses, product recommendations and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
 
         ---
 
@@ -85,7 +85,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         `quizName` - Name of the quiz
 
-        `firstName / fullName` - Name entered by the user
+        `firstName / fullName` - Name entered by the customer
 
         `email` - Email address submitted
 
@@ -93,7 +93,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         ---
 
-        **User Answers (`answersByBlock`)**
+        **Customer answers (`answersByBlock`)**
 
         ```json
         "answersByBlock": {
@@ -105,13 +105,13 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
         }
         ```
 
-        Each quiz question block is mapped to the user's response.
+        Each quiz question block is mapped to the customer's answer.
 
         Fields inside each entry:
 
-        `type` - The kind of question (e.g. multiple_choice, picture_choice, email)
+        `type` - The kind of question, for example multiple_choice, picture_choice or email
 
-        `value` - The answer selected or typed by the user
+        `value` - The answer selected or typed by the customer
 
         `choicesRefs` - List of selected choice references (used internally)
 
@@ -125,7 +125,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
         "tags": []
         ```
 
-        `tags` - A list of tags to assign to the respondent. Often used for segmentation. Empty if unused.
+        `tags` - A list of tags to assign to the customer. Often used for segmentation. Empty if unused.
 
         ---
 
@@ -207,11 +207,11 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         `content or slots` - The rendered HTML or product data
 
-    !!! info "Use Cases"
+    !!! info "Use cases"
 
-        This metadata allows you to:
+        Use this metadata to:
 
-        - Personalize results pages based on user answers
+        - Personalize results pages based on customer answers
 
         - Send dynamic follow-up emails with relevant product suggestions
 
@@ -228,17 +228,17 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
+    Your quiz needs an email question before it can send notifications to customers. See [Questions](/reference/quiz-builder/questions/) to add one.
 
-    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+    To activate notification emails to customers, toggle `Send email when someone completes the quiz` on. Additional customization options will appear.
 
     ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
 
-    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+    The `TO RESPONDENT` section shows the email settings on the left and the email preview on the right.
 
     ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
 
-    Select a response from the list to preview how the email will look like.
+    Select a response from the list to preview what the email will look like.
 
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
 
@@ -246,7 +246,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. Choose between the Basic text email template, which cannot be styled, and the advanced HTML template. The HTML template can be styled and can show product images.
 
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -260,17 +260,17 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
+    Your quiz needs an email question before it can send notifications to customers. See [Questions](/reference/quiz-builder/questions/) to add one.
 
-    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+    To activate notification emails to customers, toggle `Send email when someone completes the quiz` on. Additional customization options will appear.
 
     ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
 
-    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+    The `TO RESPONDENT` section shows the email settings on the left and the email preview on the right.
 
     ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
 
-    Select a response from the list to preview how the email will look like.
+    Select a response from the list to preview what the email will look like.
 
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
 
@@ -278,7 +278,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. Choose between the Basic text email template, which cannot be styled, and the advanced HTML template. The HTML template can be styled and can show product images.
 
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -292,17 +292,17 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
+    Your quiz needs an email question before it can send notifications to customers. See [Questions](/reference/quiz-builder/questions/) to add one.
 
-    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+    To activate notification emails to customers, toggle `Send email when someone completes the quiz` on. Additional customization options will appear.
 
     ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
 
-    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+    The `TO RESPONDENT` section shows the email settings on the left and the email preview on the right.
 
     ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
 
-    Select a response from the list to preview how the email will look like.
+    Select a response from the list to preview what the email will look like.
 
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
 
@@ -310,7 +310,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. Choose between the Basic text email template, which cannot be styled, and the advanced HTML template. The HTML template can be styled and can show product images.
 
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -324,17 +324,17 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
+    Your quiz needs an email question before it can send notifications to customers. See [Questions](/reference/quiz-builder/questions/) to add one.
 
-    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+    To activate notification emails to customers, toggle `Send email when someone completes the quiz` on. Additional customization options will appear.
 
     ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
 
-    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+    The `TO RESPONDENT` section shows the email settings on the left and the email preview on the right.
 
     ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
 
-    Select a response from the list to preview how the email will look like.
+    Select a response from the list to preview what the email will look like.
 
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
 
@@ -342,7 +342,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. Choose between the Basic text email template, which cannot be styled, and the advanced HTML template. The HTML template can be styled and can show product images.
 
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -356,17 +356,17 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
 
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
+    Your quiz needs an email question before it can send notifications to customers. See [Questions](/reference/quiz-builder/questions/) to add one.
 
-    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+    To activate notification emails to customers, toggle `Send email when someone completes the quiz` on. Additional customization options will appear.
 
     ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
 
-    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+    The `TO RESPONDENT` section shows the email settings on the left and the email preview on the right.
 
     ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
 
-    Select a response from the list to preview how the email will look like.
+    Select a response from the list to preview what the email will look like.
 
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
 
@@ -374,7 +374,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
 
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. Choose between the Basic text email template, which cannot be styled, and the advanced HTML template. The HTML template can be styled and can show product images.
 
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
 
@@ -384,7 +384,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
 
-### To self
+## Emails to the store owner { #to-self }
 
 === "Shopify"
 
@@ -402,15 +402,15 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Reset` - Resets the email template to the default template.
 
-    `Useful code snippets:` - Click on an item below  to copy the code snippets to customize the Liquid email template.
+    `Useful code snippets:` - Click an item below to copy the code snippets to customize the Liquid email template.
 
-    `Personal information template` - Lists all the personal infomation provided by the user.
+    `Personal information template` - Lists all the personal information provided by the customer.
 
     `Responses by block snippet` - Lists all the customer answers.
 
     **Email preview**
 
-    `Jul 10, 2025 12:35 PM` - Date of the quiz completion. Click to open a dropdown and chose a different response.
+    `Jul 10, 2025 12:35 PM` - Date of the quiz completion. Click to open a dropdown and choose a different response.
 
     `From:` - Email address of the sender. Go to the [App settings > SMTP section](/reference/app-settings/#smtp) to set up your email server details. Otherwise, the email will be sent from RevenueHunt email address.
 
@@ -420,11 +420,11 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     `Copy to clipboard` - Copies the selected metadata to the clipboard.
 
-    !!! info "Quiz Response Metadata Structure"
+    !!! info "Quiz response metadata structure"
 
         ![manual_shopifyV2_quizbuilder_notification_metadata](/images/manual_shopifyV2_quizbuilder_notification_metadata.png){width=50%}
         
-        This object contains all the data generated when a user completes a quiz — including responses, product recommendations, and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
+        This object contains all the data generated when a customer completes a quiz, including responses, product recommendations and result content. It is used to power dynamic results pages, follow-up emails, and custom workflows.
 
         ---
 
@@ -438,7 +438,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         `quizName` - Name of the quiz
 
-        `firstName / fullName` - Name entered by the user
+        `firstName / fullName` - Name entered by the customer
 
         `email` - Email address submitted
 
@@ -446,7 +446,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         ---
 
-        **User Answers (`answersByBlock`)**
+        **Customer answers (`answersByBlock`)**
 
         ```json
         "answersByBlock": {
@@ -458,13 +458,13 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
         }
         ```
 
-        Each quiz question block is mapped to the user's response.
+        Each quiz question block is mapped to the customer's answer.
 
         Fields inside each entry:
 
-        `type` - The kind of question (e.g. multiple_choice, picture_choice, email)
+        `type` - The kind of question, for example multiple_choice, picture_choice or email
 
-        `value` - The answer selected or typed by the user
+        `value` - The answer selected or typed by the customer
 
         `choicesRefs` - List of selected choice references (used internally)
 
@@ -478,7 +478,7 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
         "tags": []
         ```
 
-        `tags` - A list of tags to assign to the respondent. Often used for segmentation. Empty if unused.
+        `tags` - A list of tags to assign to the customer. Often used for segmentation. Empty if unused.
 
         ---
 
@@ -560,11 +560,11 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
         `content or slots` - The rendered HTML or product data
 
-    !!! info "Use Cases"
+    !!! info "Use cases"
 
-        This metadata allows you to:
+        Use this metadata to:
 
-        - Personalize results pages based on user answers
+        - Personalize results pages based on customer answers
 
         - Send dynamic follow-up emails with relevant product suggestions
 
@@ -578,9 +578,9 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
 
-    `Get email when someone completes the quiz` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
+    `Get email when someone completes the quiz` - You will receive an email at the address you provide whenever someone reaches the results page. This email template cannot be edited.
 
-    `Get email when someone proceedes to checkout` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+    `Get email when someone proceedes to checkout` - You will receive an email at the address you provide whenever someone reaches the results page and then goes to the cart. This email template cannot be edited.
 
     ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 
@@ -588,9 +588,9 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
 
-    `Get email when someone completes the quiz` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
+    `Get email when someone completes the quiz` - You will receive an email at the address you provide whenever someone reaches the results page. This email template cannot be edited.
 
-    `Get email when someone proceedes to checkout` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+    `Get email when someone proceedes to checkout` - You will receive an email at the address you provide whenever someone reaches the results page and then goes to the cart. This email template cannot be edited.
 
     ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 
@@ -598,9 +598,9 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
 
-    `Get email when someone completes the quiz` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
+    `Get email when someone completes the quiz` - You will receive an email at the address you provide whenever someone reaches the results page. This email template cannot be edited.
 
-    `Get email when someone proceedes to checkout` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+    `Get email when someone proceedes to checkout` - You will receive an email at the address you provide whenever someone reaches the results page and then goes to the cart. This email template cannot be edited.
 
     ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 
@@ -608,9 +608,9 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
 
-    `Get email when someone completes the quiz` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
+    `Get email when someone completes the quiz` - You will receive an email at the address you provide whenever someone reaches the results page. This email template cannot be edited.
 
-    `Get email when someone proceedes to checkout` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+    `Get email when someone proceedes to checkout` - You will receive an email at the address you provide whenever someone reaches the results page and then goes to the cart. This email template cannot be edited.
 
     ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 
@@ -618,16 +618,16 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
     ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
 
-    `Get email when someone completes the quiz` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
+    `Get email when someone completes the quiz` - You will receive an email at the address you provide whenever someone reaches the results page. This email template cannot be edited.
 
-    `Get email when someone proceedes to checkout` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+    `Get email when someone proceedes to checkout` - You will receive an email at the address you provide whenever someone reaches the results page and then goes to the cart. This email template cannot be edited.
 
     ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 
 
 ---
 
-← [Back to Quiz Builder Index](/reference/quiz-builder/)
+← [Back to Quiz Builder](/reference/quiz-builder/)
 
 
 ← Previous: [Results Page](/reference/quiz-builder/results-page/)

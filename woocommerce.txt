@@ -26133,149 +26133,181 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
 --- WooCommerce Specific Content ---
 
 ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
-    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
-    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+    In the Conditional Logic tab you can branch your quiz, or tell it to skip certain questions. Use the left menu to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    By default, the quiz moves from one question to the next in number order. Conditional logic changes that.
+    !!! info "Conditional Logic does not include Display Logic"
+        This tab holds Jump Logic and Skip Logic. You set Display Logic on the
+        Results Page itself.
+        - **Jump Logic** sends the customer to a question, a Results Page, or an external URL
+        - **Skip Logic** skips a question
+        - **Display Logic** shows or hides part of the Results Page
+        Jump Logic and Skip Logic are triggered by an **IF** condition based on
+        an answer. Display Logic acts on individual blocks.
     ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
     `+` - Zoom in on the logic tree preview.
     `-` - Zoom out on the logic tree preview.
     `[]` - Center the logic tree preview and fit into view.
     Drag the logic tree with your mouse left button to navigate to specific branches.
     ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
-    The top menu allows you to switch between questions.
-    `arrow up` - Takes you to the question higher.
-    `arrow down` - Take you to the question lower.
+    Use the top menu to switch between questions.
+    `arrow up` - Moves up to the previous question.
+    `arrow down` - Moves down to the next question.
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
-    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
-    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+    In the Conditional Logic tab you can branch your quiz, or tell it to skip certain questions. Use the left menu to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    By default, the quiz moves from one question to the next in number order. Conditional logic changes that.
+    !!! info "Conditional Logic does not include Display Logic"
+        This tab holds Jump Logic and Skip Logic. You set Display Logic on the
+        Results Page itself.
+        - **Jump Logic** sends the customer to a question, a Results Page, or an external URL
+        - **Skip Logic** skips a question
+        - **Display Logic** shows or hides part of the Results Page
+        Jump Logic and Skip Logic are triggered by an **IF** condition based on
+        an answer. Display Logic acts on individual blocks.
     ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
     `+` - Zoom in on the logic tree preview.
     `-` - Zoom out on the logic tree preview.
     `[]` - Center the logic tree preview and fit into view.
     Drag the logic tree with your mouse left button to navigate to specific branches.
     ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
-    The top menu allows you to switch between questions.
-    `arrow up` - Takes you to the question higher.
-    `arrow down` - Take you to the question lower.
+    Use the top menu to switch between questions.
+    `arrow up` - Moves up to the previous question.
+    `arrow down` - Moves down to the next question.
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
-    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
-    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+    In the Conditional Logic tab you can branch your quiz, or tell it to skip certain questions. Use the left menu to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    By default, the quiz moves from one question to the next in number order. Conditional logic changes that.
+    !!! info "Conditional Logic does not include Display Logic"
+        This tab holds Jump Logic and Skip Logic. You set Display Logic on the
+        Results Page itself.
+        - **Jump Logic** sends the customer to a question, a Results Page, or an external URL
+        - **Skip Logic** skips a question
+        - **Display Logic** shows or hides part of the Results Page
+        Jump Logic and Skip Logic are triggered by an **IF** condition based on
+        an answer. Display Logic acts on individual blocks.
     ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
     `+` - Zoom in on the logic tree preview.
     `-` - Zoom out on the logic tree preview.
     `[]` - Center the logic tree preview and fit into view.
     Drag the logic tree with your mouse left button to navigate to specific branches.
     ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
-    The top menu allows you to switch between questions.
-    `arrow up` - Takes you to the question higher.
-    `arrow down` - Take you to the question lower.
+    Use the top menu to switch between questions.
+    `arrow up` - Moves up to the previous question.
+    `arrow down` - Moves down to the next question.
     ![quiz builder conditional logic](/images/manual_quizbuilder_conditionallogic.png)
-    In the Conditional Logic tab you can branch your quiz or tell it to skip certain questions. The left menu allows you to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
-    By default, the quiz will progress from one question to another based on the question number. Conditional logic allows you to change this default behavior.
+    In the Conditional Logic tab you can branch your quiz, or tell it to skip certain questions. Use the left menu to add conditional logic rules to questions in the quiz. The right menu shows a logic tree of the quiz. Any branching you add will be reflected on the tree preview.
+    By default, the quiz moves from one question to the next in number order. Conditional logic changes that.
+    !!! info "Conditional Logic does not include Display Logic"
+        This tab holds Jump Logic and Skip Logic. You set Display Logic on the
+        Results Page itself.
+        - **Jump Logic** sends the customer to a question, a Results Page, or an external URL
+        - **Skip Logic** skips a question
+        - **Display Logic** shows or hides part of the Results Page
+        Jump Logic and Skip Logic are triggered by an **IF** condition based on
+        an answer. Display Logic acts on individual blocks.
     ![quiz builder conditional logic preview options](/images/manual_quizbuilder_conditionallogic_previewoptions.png)
     `+` - Zoom in on the logic tree preview.
     `-` - Zoom out on the logic tree preview.
     `[]` - Center the logic tree preview and fit into view.
     Drag the logic tree with your mouse left button to navigate to specific branches.
     ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
-    The top menu allows you to switch between questions.
-    `arrow up` - Takes you to the question higher.
-    `arrow down` - Take you to the question lower.
+    Use the top menu to switch between questions.
+    `arrow up` - Moves up to the previous question.
+    `arrow down` - Moves down to the next question.
 ## Jump logic
-    Jump Logic allows you to route customers to different questions based on their responses.
+    Jump Logic routes customers to a different question based on their answers.
     `Add Jump Logic` - Click to add a new Jump Logic rule for the selected question.
     !!! info
-        All the Jump Logic rules follow the same format
+        All the Jump Logic rules follow the same format:
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
         - **THEN go to:** pick a slide from the dropdown list or add a URL 
     !!! example
         ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
         ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
-        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
+        In the example, if a customer chooses "Myself" in Question 1 "Who are you shopping for?" they go to Question 2 "What is your skin type?".
     `+` - Add another Jump Logic rule. Adds a new OR logical rule.
     !!! example
         ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
-        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
+        In the example, if a customer chooses "Myself" in Question 1 "Who are you shopping for?" they go to Question 2 "What is your skin type?". If the customer instead chooses "A gift" in Question 1 "Who are you shopping for?" they go to Question 4 "What is their skin type?".
     `bin` - Delete the current Jump Logic rule.
     `+ add concurrent logic` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
     !!! example
         ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
-        In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
-    `Always jump to:` - Select a slide or URL where the user will be always redirected after this slide.
-    Jump Logic allows you to route customers to different questions based on their responses.
+        In the example, **only if** a customer chooses "Myself" in Question 1 "Who are you shopping for?" **and** "Dry" in Question 2 "What is your skin type?" they go to Question 3 `What's your age?`.
+    `Always jump to:` - Select the question or URL the customer always goes to after this one.
+    Jump Logic routes customers to a different question based on their answers.
     `Add Jump Logic` - Click to add a new Jump Logic rule for the selected question.
     !!! info
-        All the Jump Logic rules follow the same format
+        All the Jump Logic rules follow the same format:
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
         - **THEN go to:** pick a slide from the dropdown list or add a URL 
     !!! example
         ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
         ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
-        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
+        In the example, if a customer chooses "Myself" in Question 1 "Who are you shopping for?" they go to Question 2 "What is your skin type?".
     `+` - Add another Jump Logic rule. Adds a new OR logical rule.
     !!! example
         ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
-        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
+        In the example, if a customer chooses "Myself" in Question 1 "Who are you shopping for?" they go to Question 2 "What is your skin type?". If the customer instead chooses "A gift" in Question 1 "Who are you shopping for?" they go to Question 4 "What is their skin type?".
     `bin` - Delete the current Jump Logic rule.
     `+ add concurrent logic` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
     !!! example
         ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
-        In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
-    `Always jump to:` - Select a slide or URL where the user will be always redirected after this slide.
-    Jump Logic allows you to route customers to different questions based on their responses.
+        In the example, **only if** a customer chooses "Myself" in Question 1 "Who are you shopping for?" **and** "Dry" in Question 2 "What is your skin type?" they go to Question 3 `What's your age?`.
+    `Always jump to:` - Select the question or URL the customer always goes to after this one.
+    Jump Logic routes customers to a different question based on their answers.
     `Add Jump Logic` - Click to add a new Jump Logic rule for the selected question.
     !!! info
-        All the Jump Logic rules follow the same format
+        All the Jump Logic rules follow the same format:
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
         - **THEN go to:** pick a slide from the dropdown list or add a URL 
     !!! example
         ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
         ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
-        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
+        In the example, if a customer chooses "Myself" in Question 1 "Who are you shopping for?" they go to Question 2 "What is your skin type?".
     `+` - Add another Jump Logic rule. Adds a new OR logical rule.
     !!! example
         ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
-        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
+        In the example, if a customer chooses "Myself" in Question 1 "Who are you shopping for?" they go to Question 2 "What is your skin type?". If the customer instead chooses "A gift" in Question 1 "Who are you shopping for?" they go to Question 4 "What is their skin type?".
     `bin` - Delete the current Jump Logic rule.
     `+ add concurrent logic` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
     !!! example
         ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
-        In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
-    `Always jump to:` - Select a slide or URL where the user will be always redirected after this slide.
-    Jump Logic allows you to route customers to different questions based on their responses.
+        In the example, **only if** a customer chooses "Myself" in Question 1 "Who are you shopping for?" **and** "Dry" in Question 2 "What is your skin type?" they go to Question 3 `What's your age?`.
+    `Always jump to:` - Select the question or URL the customer always goes to after this one.
+    Jump Logic routes customers to a different question based on their answers.
     `Add Jump Logic` - Click to add a new Jump Logic rule for the selected question.
     !!! info
-        All the Jump Logic rules follow the same format
+        All the Jump Logic rules follow the same format:
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
         - **THEN go to:** pick a slide from the dropdown list or add a URL 
     !!! example
         ![quiz builder conditional logic jump logic rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule.png){width="500"}
         ![quiz builder conditional logic jump logic rule go to](/images/manual_quizbuilder_conditionallogic_jumplogicrule_goto.png){width="500"}
-        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?".
+        In the example, if a customer chooses "Myself" in Question 1 "Who are you shopping for?" they go to Question 2 "What is your skin type?".
     `+` - Add another Jump Logic rule. Adds a new OR logical rule.
     !!! example
         ![quiz builder conditional logic jump logic OR rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_or.png)
-        In the example, if a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" then they will be redirected to Question 2 "What is your skin type?" but if the user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then they will be redirected to Question 4 "What is their skin type?".
+        In the example, if a customer chooses "Myself" in Question 1 "Who are you shopping for?" they go to Question 2 "What is your skin type?". If the customer instead chooses "A gift" in Question 1 "Who are you shopping for?" they go to Question 4 "What is their skin type?".
     `bin` - Delete the current Jump Logic rule.
     `+ add concurrent logic` - Adds a new AND logical statement to the same rule. AND conditional statements can be tricky, as both statements have to be true for the rule to take effect. For most quizzes, using the OR rule is enough.
     !!! example
         ![quiz builder conditional logic jump logic AND rule](/images/manual_quizbuilder_conditionallogic_jumplogicrule_and.png){width="500"}
-        In the example, **only if** a user chooses a choice "Myself" in Question 1 "Who are you shopping for?" **and** a choice "Dry" in Question 2 "What is your skin type?" they will be redirected to Question 3 "What's your age?".
-    `Always jump to:` - Select a slide or URL where the user will be always redirected after this slide.
+        In the example, **only if** a customer chooses "Myself" in Question 1 "Who are you shopping for?" **and** "Dry" in Question 2 "What is your skin type?" they go to Question 3 `What's your age?`.
+    `Always jump to:` - Select the question or URL the customer always goes to after this one.
 ## Skip logic
     Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
     `Add Skip Logic` - Click to add a new Skip Logic rule for the selected question.
     !!! info
-        All the Skip Logic rules follow the same format
+        All the Skip Logic rules follow the same format:
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
         - **THEN this question is skipped**
     !!! example
         ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
-        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+        In the example, if a customer chooses "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
     All slides that contain Skip Logic will be marked with `"skip logic"` text.
     `+` - Adds another Skip Logic rule. Adds a new OR logical rule.
     `bin` - Delete the current Skip Logic rule.
@@ -26283,13 +26315,13 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
     Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
     `Add Skip Logic` - Click to add a new Skip Logic rule for the selected question.
     !!! info
-        All the Skip Logic rules follow the same format
+        All the Skip Logic rules follow the same format:
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
         - **THEN this question is skipped**
     !!! example
         ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
-        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+        In the example, if a customer chooses "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
     All slides that contain Skip Logic will be marked with `"skip logic"` text.
     `+` - Adds another Skip Logic rule. Adds a new OR logical rule.
     `bin` - Delete the current Skip Logic rule.
@@ -26297,13 +26329,13 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
     Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
     `Add Skip Logic` - Click to add a new Skip Logic rule for the selected question.
     !!! info
-        All the Skip Logic rules follow the same format
+        All the Skip Logic rules follow the same format:
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
         - **THEN this question is skipped**
     !!! example
         ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
-        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+        In the example, if a customer chooses "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
     All slides that contain Skip Logic will be marked with `"skip logic"` text.
     `+` - Adds another Skip Logic rule. Adds a new OR logical rule.
     `bin` - Delete the current Skip Logic rule.
@@ -26311,13 +26343,13 @@ description: "Set up conditional logic in RevenueHunt to branch quizzes, skip qu
     Skip Logic determines whether a question is presented or skipped based on responses to previous questions. By default, if no Skip Logic is added to a question, it will be shown.
     `Add Skip Logic` - Click to add a new Skip Logic rule for the selected question.
     !!! info
-        All the Skip Logic rules follow the same format
+        All the Skip Logic rules follow the same format:
         - **IF response to** pick the question from a dropdown list
         - **is**/ **is not** pick a choice from the dropdown list
         - **THEN this question is skipped**
     !!! example
         ![quiz builder conditional logic skip logic rule](/images/manual_quizbuilder_conditionallogic_skiplogicrule.png)
-        In the example, if a user chooses a choice "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
+        In the example, if a customer chooses "A gift" in Question 1 "Who are you shopping for?" then Question 2 "What is your skin type?" will be skipped (it will not be shown).
     All slides that contain Skip Logic will be marked with `"skip logic"` text.
     `+` - Adds another Skip Logic rule. Adds a new OR logical rule.
     `bin` - Delete the current Skip Logic rule.
@@ -26402,6 +26434,10 @@ description: "Create and manage custom customer tags in RevenueHunt for segmenti
     Created tag will then show as an available option whenever you select another choice.
     ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
     You can create as many tags as you like. You can link as many tags as you like to the same choice.
+---
+← [Back to Quiz Builder](/reference/quiz-builder/)
+← Previous: [Link Products](/reference/quiz-builder/link-products/)
+Next: [Conditional logic](/reference/quiz-builder/conditional-logic/) →
 
 
 
@@ -26425,114 +26461,114 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
     `Dashboard` - Click to go back to the Dashboard (exit the Quiz Builder).
     `Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](/reference/quiz-builder/quiz-settings/).
-    `Edit` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder.
-    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
-    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
-    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Edit` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder.
+    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder, where you connect the quiz to other tools, such as Klaviyo or Google Analytics.
+    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder, where you choose how to publish the quiz on your website, or share it as a link.
+    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder, where you check your quiz metrics and responses.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
     `Test Quiz` - Opens the quiz preview in a new tab. 
     !!! tip
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
     `❔ Help` - Opens the [Help menu](/reference/dashboard/).
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
-    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
+    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
     ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
-    `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
-    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
-    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
-    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
-    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder. This is where you'll edit your results page.
-    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder. This is where you'll set up your quiz result emails.
-    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+    `Quiz Builder` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder, where you add questions to your quiz.
+    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder, where you link whole collections or product tags to individual choices.
+    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder, where you link individual products to choices.
+    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
+    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
+    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
+    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
+    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder, where you set up the quiz result emails.
+    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder, where you change the currency, the language and other settings that apply to the whole quiz.
     ![manual_standalone_quizbuilder](/images/manual_standalone_quizbuilder.png)
     The Quiz Builder is divided into several sections.
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
     `Dashboard` - Click to go back to the Dashboard (exit the Quiz Builder).
     `Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](/reference/quiz-builder/quiz-settings/).
-    `Edit` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder.
-    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
-    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
-    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Edit` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder.
+    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder, where you connect the quiz to other tools, such as Klaviyo or Google Analytics.
+    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder, where you choose how to publish the quiz on your website, or share it as a link.
+    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder, where you check your quiz metrics and responses.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
     `Test Quiz` - Opens the quiz preview in a new tab. 
     !!! tip
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
     `❔ Help` - Opens the [Help menu](/reference/dashboard/).
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
-    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
     ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
-    `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
-    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
-    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
-    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
-    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder. This is where you'll edit your results page.
-    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder. This is where you'll set up your quiz result emails.
-    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+    `Quiz Builder` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder, where you add questions to your quiz.
+    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder, where you link whole collections or product tags to individual choices.
+    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder, where you link individual products to choices.
+    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
+    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
+    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
+    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
+    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder, where you set up the quiz result emails.
+    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder, where you change the currency, the language and other settings that apply to the whole quiz.
     ![manual_standalone_quizbuilder](/images/manual_standalone_quizbuilder.png)
     The Quiz Builder is divided into several sections.
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
     `Dashboard` - Click to go back to the Dashboard (exit the Quiz Builder).
     `Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](/reference/quiz-builder/quiz-settings/).
-    `Edit` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder.
-    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
-    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
-    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Edit` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder.
+    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder, where you connect the quiz to other tools, such as Klaviyo or Google Analytics.
+    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder, where you choose how to publish the quiz on your website, or share it as a link.
+    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder, where you check your quiz metrics and responses.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
     `Test Quiz` - Opens the quiz preview in a new tab. 
     !!! tip
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
     `❔ Help` - Opens the [Help menu](/reference/dashboard/).
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
-    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
     ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
-    `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
-    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
-    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
-    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
-    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder. This is where you'll edit your results page.
-    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder. This is where you'll set up your quiz result emails.
-    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+    `Quiz Builder` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder, where you add questions to your quiz.
+    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder, where you link whole collections or product tags to individual choices.
+    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder, where you link individual products to choices.
+    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
+    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
+    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
+    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
+    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder, where you set up the quiz result emails.
+    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder, where you change the currency, the language and other settings that apply to the whole quiz.
     ![manual_standalone_quizbuilder](/images/manual_standalone_quizbuilder.png)
     The Quiz Builder is divided into several sections.
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
     `Dashboard` - Click to go back to the Dashboard (exit the Quiz Builder).
     `Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](/reference/quiz-builder/quiz-settings/).
-    `Edit` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder.
-    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
-    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
-    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Edit` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder.
+    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder, where you connect the quiz to other tools, such as Klaviyo or Google Analytics.
+    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder, where you choose how to publish the quiz on your website, or share it as a link.
+    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder, where you check your quiz metrics and responses.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
     `Test Quiz` - Opens the quiz preview in a new tab. 
     !!! tip
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
     `❔ Help` - Opens the [Help menu](/reference/dashboard/).
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
-    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
     ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
-    `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
-    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
-    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
-    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
-    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder. This is where you'll edit your results page.
-    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder. This is where you'll set up your quiz result emails.
-    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+    `Quiz Builder` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder, where you add questions to your quiz.
+    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder, where you link whole collections or product tags to individual choices.
+    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder, where you link individual products to choices.
+    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
+    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
+    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
+    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
+    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder, where you set up the quiz result emails.
+    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder, where you change the currency, the language and other settings that apply to the whole quiz.
 ## Save changes
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 ## Preview the quiz
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
     `Test Quiz` - Opens the quiz preview in a new tab. 
@@ -26554,6 +26590,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 - [Questions](/reference/quiz-builder/questions/)
 - [Link Collections / Link Categories](/reference/quiz-builder/link-collections/)
 - [Link Products](/reference/quiz-builder/link-products/)
+- [Customer Tags](/reference/quiz-builder/customer-tags/)
 - [Conditional logic](/reference/quiz-builder/conditional-logic/)
 - [Quiz design](/reference/quiz-builder/quiz-design/)
 - [Results Page](/reference/quiz-builder/results-page/)
@@ -26658,38 +26695,61 @@ description: "Add specific products and variants to quiz choices in RevenueHunt 
 
 --- WooCommerce Specific Content ---
 
-![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
-    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
-    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
-    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
-    Created tag will then show as an available option whenever you select another choice.
-    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
-    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
-    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
-    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
-    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
-    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
-    Created tag will then show as an available option whenever you select another choice.
-    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
-    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
-    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
-    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
-    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
-    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
-    Created tag will then show as an available option whenever you select another choice.
-    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
-    You can create as many tags as you like. You can link as many tags as you like to the same choice. 
-    ![quiz builder customer tags](/images/manual_quizbuilder_customertags.png)
-    In the Customer Tags section, you can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
-    ![quiz builder customer tags add tag](/images/manual_quizbuilder_customertags_addtag.png)
-    To add a new tag, type its name in the white bar next to one of the choices. Confirm the creation of a new tag by clicking "Add this as a new customer tag".
-    Created tag will then show as an available option whenever you select another choice.
-    ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
-    You can create as many tags as you like. You can link as many tags as you like to the same choice.
+![manual_wooquizbuilder_linkproducts](/images/manual_wooquizbuilder_linkproducts.png)
+    In the Link Products tab, you can link individual product variants from your store to choices.
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one vote.
+    To link a product to a choice, click the white dropdown bar and start typing the name.
+    ![manual_woo_quizbuilder_linkproducts_pickproducts](/images/manual_woo_quizbuilder_linkproducts_pickproducts.png)
+    Select a product variant and it is added to the choice. You can link several product variants to the same choice.
+    ![manual_woo_quizbuilder_linkproducts_linked_products](/images/manual_woo_quizbuilder_linkproducts_linked_products.png)
+    To remove a linked product, click `x` next to the product name.
+    `excluded products` - Opens the dropdown that lets you exclude products from a choice.
+    ![manual_woo_quizbuilder_linkproducts_excludeproducts](/images/manual_woo_quizbuilder_linkproducts_excludeproducts.png)
+    !!! warning "Be careful with exclusions"
+        Once a product is excluded from a choice, it never shows on the results page, even if another choice upvoted it.
+    **Missing products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    ![manual_quizbuilder_linkproducts](/images/manual_quizbuilder_linkproducts.png)
+    In the Link Products tab, you can link individual product variants from your store to choices.
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one vote.
+    To link a product to a choice, click the white dropdown bar and start typing the name.
+    ![manual_quizbuilder_linkproducts_search](/images/manual_quizbuilder_linkproducts_search.png)
+    Select a product variant and it is added to the choice. You can link several product variants to the same choice.
+    ![manual_quizbuilder_linkproducts_linked](/images/manual_quizbuilder_linkproducts_linked.png)
+    To remove a linked product, click `x` next to the product name.
+    `excluded products` - Opens the dropdown that lets you exclude products from a choice.
+    ![manual_quizbuilder_linkproducts_exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
+    !!! warning "Be careful with exclusions"
+        Once a product is excluded from a choice, it never shows on the results page, even if another choice upvoted it.
+    **Missing products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    ![manual_quizbuilder_linkproducts](/images/manual_quizbuilder_linkproducts.png)
+    In the Link Products tab, you can link individual product variants from your store to choices.
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one vote.
+    To link a product to a choice, click the white dropdown bar and start typing the name.
+    ![manual_quizbuilder_linkproducts_search](/images/manual_quizbuilder_linkproducts_search.png)
+    Select a product variant and it is added to the choice. You can link several product variants to the same choice.
+    ![manual_quizbuilder_linkproducts_linked](/images/manual_quizbuilder_linkproducts_linked.png)
+    To remove a linked product, click `x` next to the product name.
+    `excluded products` - Opens the dropdown that lets you exclude products from a choice.
+    ![manual_quizbuilder_linkproducts_exclude](/images/manual_quizbuilder_linkproducts_exclude.png)
+    !!! warning "Be careful with exclusions"
+        Once a product is excluded from a choice, it never shows on the results page, even if another choice upvoted it.
+    **Missing products?** - You may need to run a [Catalog Sync](/how-to-guides/sync-catalog/) to update the app.
+    ![manual_standalone_quizbuilder_linkproducts](/images/manual_standalone_quizbuilder_linkproducts.png)
+    In the Link Products tab, you can link individual product variants from your catalog to choices.
+    Once a product variant is linked to a choice and the customer picks that choice, that product variant receives one vote.
+    To link a product to a choice, click the white dropdown bar and start typing the name.
+    ![manual_standalone_quizbuilder_linkproducts_pickproducts](/images/manual_standalone_quizbuilder_linkproducts_pickproducts.png)
+    Select a product variant and it is added to the choice. You can link several product variants to the same choice.
+    ![manual_standalone_quizbuilder_linkproducts_linked_products](/images/manual_standalone_quizbuilder_linkproducts_linked_products.png)
+    To remove a linked product, click `x` next to the product name.
+    `excluded products` - Opens the dropdown that lets you exclude products from a choice.
+    ![manual_standalone_quizbuilder_linkproducts_excludeproducts](/images/manual_standalone_quizbuilder_linkproducts_excludeproducts.png)
+    !!! warning "Be careful with exclusions"
+        Once a product is excluded from a choice, it never shows on the results page, even if another choice upvoted it.
 ---
-← [Back to Quiz Builder Index](/reference/quiz-builder/)
+← [Back to Quiz Builder](/reference/quiz-builder/)
 ← Previous: [Link Collections / Link Categories](/reference/quiz-builder/link-collections/)
-Next: [Conditional logic](/reference/quiz-builder/conditional-logic/) →
+Next: [Customer Tags](/reference/quiz-builder/customer-tags/) →
 
 
 
@@ -26960,90 +27020,90 @@ description: "Set up email notifications in RevenueHunt for store owners and qui
 
 --- WooCommerce Specific Content ---
 
-In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
-    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
-    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
-    In the Notifications tab of the Quiz Builder, you can activate and edit the emails that the customer or the store owner receives at the end of the quiz.
-### To respondent
+In the Notifications tab of the Quiz Builder, you can activate and edit two emails. One goes to the customer and one goes to the store owner. Both are sent at the end of the quiz.
+    In the Notifications tab of the Quiz Builder, you can activate and edit two emails. One goes to the customer and one goes to the store owner. Both are sent at the end of the quiz.
+    In the Notifications tab of the Quiz Builder, you can activate and edit two emails. One goes to the customer and one goes to the store owner. Both are sent at the end of the quiz.
+    In the Notifications tab of the Quiz Builder, you can activate and edit two emails. One goes to the customer and one goes to the store owner. Both are sent at the end of the quiz.
+## Emails to customers { #to-respondent }
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
-    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+    Your quiz needs an email question before it can send notifications to customers. See [Questions](/reference/quiz-builder/questions/) to add one.
+    To activate notification emails to customers, toggle `Send email when someone completes the quiz` on. Additional customization options will appear.
     ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+    The `TO RESPONDENT` section shows the email settings on the left and the email preview on the right.
     ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
-    Select a response from the list to preview how the email will look like.
+    Select a response from the list to preview what the email will look like.
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
     `Email TO:` - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. Choose between the Basic text email template, which cannot be styled, and the advanced HTML template. The HTML template can be styled and can show product images.
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     `switch to basic text message` - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
-    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+    Your quiz needs an email question before it can send notifications to customers. See [Questions](/reference/quiz-builder/questions/) to add one.
+    To activate notification emails to customers, toggle `Send email when someone completes the quiz` on. Additional customization options will appear.
     ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+    The `TO RESPONDENT` section shows the email settings on the left and the email preview on the right.
     ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
-    Select a response from the list to preview how the email will look like.
+    Select a response from the list to preview what the email will look like.
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
     `Email TO:` - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. Choose between the Basic text email template, which cannot be styled, and the advanced HTML template. The HTML template can be styled and can show product images.
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     `switch to basic text message` - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
-    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+    Your quiz needs an email question before it can send notifications to customers. See [Questions](/reference/quiz-builder/questions/) to add one.
+    To activate notification emails to customers, toggle `Send email when someone completes the quiz` on. Additional customization options will appear.
     ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+    The `TO RESPONDENT` section shows the email settings on the left and the email preview on the right.
     ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
-    Select a response from the list to preview how the email will look like.
+    Select a response from the list to preview what the email will look like.
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
     `Email TO:` - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. Choose between the Basic text email template, which cannot be styled, and the advanced HTML template. The HTML template can be styled and can show product images.
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     `switch to basic text message` - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
     ![quiz builder notifications to respondent inactive](/images/manual_quizbuilder_notifications_torespondent_inactive.png)
-    You need to have one email question in order to send notifications to the respondents. Check the [Quiz Builder](/reference/quiz-builder/questions/) section to add an email question to your quiz.
-    To activate notification emails to the quiz takers, toggle the "Send email when someone completes the quiz" option on. Additional customization options will appear.
+    Your quiz needs an email question before it can send notifications to customers. See [Questions](/reference/quiz-builder/questions/) to add one.
+    To activate notification emails to customers, toggle `Send email when someone completes the quiz` on. Additional customization options will appear.
     ![quiz builder notifications to respondent active](/images/manual_quizbuilder_notifications_torespondent_active.png)
-    TO RESPONDENT section displays the email settings on the left and the email preview on the right.
+    The `TO RESPONDENT` section shows the email settings on the left and the email preview on the right.
     ![quiz builder notifications to respondent preview](/images/manual_quizbuilder_notifications_torespondent_active_searchbar.png)
-    Select a response from the list to preview how the email will look like.
+    Select a response from the list to preview what the email will look like.
     `Email REPLY_TO:` - Fill in the email address to which the customer will be able to send a reply.
     `Email TO:` - Select from which email question (in case of multiple email questions) the customer's address should be taken in order to send the results.
     `Email Subject:` - Type in the email subject that the customer will see in their inbox. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, answer to a specific question, etc.)
-    `Email Text Message` - Edit the content of the email sent to the customer. You can choose between the Basic text email template (cannot be styled) or an advanced HTML email template (can be styled and lets you display product images).
+    `Email Text Message` - Edit the content of the email sent to the customer. Choose between the Basic text email template, which cannot be styled, and the advanced HTML template. The HTML template can be styled and can show product images.
     `switch to advanced HTML message` - Switches to the advanced HTML email template. Email can be edited with HTML and metadata can be included with [Handlebars](https://github.com/helpers/handlebars-helpers).
     ![quiz builder notifications HTML](/images/manual_quizbuilder_notifications_torespondent_active_html.png)
     `switch to basic text message` - Switched to the basic text email template. Email can be edited with regular text. You can use [Information Recalls](/how-to-guides/use-information-recalls/) to recall information in this text field (for example customer name, quiz name, recommended products, answers to questions, etc.).
     ![quiz builder notification basic](/images/manual_quizbuilder_notifications_torespondent_active_basic.png)
-### To self
+## Emails to the store owner { #to-self }
     ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
-    `Get email when someone completes the quiz` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
-    `Get email when someone proceedes to checkout` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+    `Get email when someone completes the quiz` - You will receive an email at the address you provide whenever someone reaches the results page. This email template cannot be edited.
+    `Get email when someone proceedes to checkout` - You will receive an email at the address you provide whenever someone reaches the results page and then goes to the cart. This email template cannot be edited.
     ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
     ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
-    `Get email when someone completes the quiz` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
-    `Get email when someone proceedes to checkout` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+    `Get email when someone completes the quiz` - You will receive an email at the address you provide whenever someone reaches the results page. This email template cannot be edited.
+    `Get email when someone proceedes to checkout` - You will receive an email at the address you provide whenever someone reaches the results page and then goes to the cart. This email template cannot be edited.
     ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
     ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
-    `Get email when someone completes the quiz` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
-    `Get email when someone proceedes to checkout` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+    `Get email when someone completes the quiz` - You will receive an email at the address you provide whenever someone reaches the results page. This email template cannot be edited.
+    `Get email when someone proceedes to checkout` - You will receive an email at the address you provide whenever someone reaches the results page and then goes to the cart. This email template cannot be edited.
     ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
     ![quiz builder notifications to self inactive](/images/manual_quizbuilder_notifications_toself_inactive.png)
-    `Get email when someone completes the quiz` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page. This email template cannot be edited.
-    `Get email when someone proceedes to checkout` - You'll receive an email as shown on the preview to the provided email address whenever someone reaches the results page and proceeds to checkout/cart. This email template cannot be edited.
+    `Get email when someone completes the quiz` - You will receive an email at the address you provide whenever someone reaches the results page. This email template cannot be edited.
+    `Get email when someone proceedes to checkout` - You will receive an email at the address you provide whenever someone reaches the results page and then goes to the cart. This email template cannot be edited.
     ![quiz builder notifications to self active](/images/manual_quizbuilder_notifications_toself_active.png)
 ---
-← [Back to Quiz Builder Index](/reference/quiz-builder/)
+← [Back to Quiz Builder](/reference/quiz-builder/)
 ← Previous: [Results Page](/reference/quiz-builder/results-page/)
 Next: [Quiz Settings](/reference/quiz-builder/quiz-settings/) →
 
@@ -27292,121 +27352,121 @@ description: "Customize RevenueHunt quiz design including colors, fonts, section
 --- WooCommerce Specific Content ---
 
 ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
-    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+    In the Quiz Design section of the Quiz Builder, you can change how the quiz Questions or the Results Page look.
     ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
-    The top menu allows you to switch between questions to preview them.
-    `arrow up` - Takes you to the question higher.
-    `arrow down` - Take you to the question lower.
+    Use the top menu to switch between questions and preview them.
+    `arrow up` - Moves up to the previous question.
+    `arrow down` - Moves down to the next question.
     ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png){width="300"}
     `Questions` - Shows the preview of how the questions look like.
     `Results` - Shows the preview of how the results page looks like.
     ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
-    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+    In the Quiz Design section of the Quiz Builder, you can change how the quiz Questions or the Results Page look.
     ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
-    The top menu allows you to switch between questions to preview them.
-    `arrow up` - Takes you to the question higher.
-    `arrow down` - Take you to the question lower.
+    Use the top menu to switch between questions and preview them.
+    `arrow up` - Moves up to the previous question.
+    `arrow down` - Moves down to the next question.
     ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png){width="300"}
     `Questions` - Shows the preview of how the questions look like.
     `Results` - Shows the preview of how the results page looks like.
     ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
-    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+    In the Quiz Design section of the Quiz Builder, you can change how the quiz Questions or the Results Page look.
     ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
-    The top menu allows you to switch between questions to preview them.
-    `arrow up` - Takes you to the question higher.
-    `arrow down` - Take you to the question lower.
+    Use the top menu to switch between questions and preview them.
+    `arrow up` - Moves up to the previous question.
+    `arrow down` - Moves down to the next question.
     ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png){width="300"}
     `Questions` - Shows the preview of how the questions look like.
     `Results` - Shows the preview of how the results page looks like.
     ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign.png)
-    In the Quiz Design section of the quiz builder you can change how the quiz Questions or the Results Page look.
+    In the Quiz Design section of the Quiz Builder, you can change how the quiz Questions or the Results Page look.
     ![quiz builder quiz design switch question](/images/manual_quizbuilder_quizdesign_switchquestion.png){width="500"}
-    The top menu allows you to switch between questions to preview them.
-    `arrow up` - Takes you to the question higher.
-    `arrow down` - Take you to the question lower.
+    Use the top menu to switch between questions and preview them.
+    `arrow up` - Moves up to the previous question.
+    `arrow down` - Moves down to the next question.
     ![quiz builder quiz design](/images/manual_quizbuilder_quizdesign_questionresults.png){width="300"}
     `Questions` - Shows the preview of how the questions look like.
     `Results` - Shows the preview of how the results page looks like.
 ## Edit theme
-    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
+    In the Edit Theme section you can change the styling of your current quiz theme. To change a theme or add a new one, go to the My Themes tab.
     ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
     `Wine` - Displays the name of your current theme.
     `Font` - Shows a dropdown of available fonts. Pick a font from the list to change it.
-    `Question` - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-    `Choices` - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-    `Button` - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-    `Background` - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
-    `Background image` - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-    `Background Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Question` - Opens a color menu where you change the color of quiz questions. You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Choices` - Opens a color menu where you change the color of quiz choices. You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Button` - Opens a color menu where you change the color of quiz buttons (next, start quiz, add to cart). You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Background` - Opens a color menu where you change the color of the quiz background. You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Background image` - Click `Add` to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
+    `Background Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
     `Custom CSS` - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
-    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
+    In the Edit Theme section you can change the styling of your current quiz theme. To change a theme or add a new one, go to the My Themes tab.
     ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
     `Wine` - Displays the name of your current theme.
     `Font` - Shows a dropdown of available fonts. Pick a font from the list to change it.
-    `Question` - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-    `Choices` - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-    `Button` - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-    `Background` - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
-    `Background image` - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-    `Background Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Question` - Opens a color menu where you change the color of quiz questions. You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Choices` - Opens a color menu where you change the color of quiz choices. You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Button` - Opens a color menu where you change the color of quiz buttons (next, start quiz, add to cart). You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Background` - Opens a color menu where you change the color of the quiz background. You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Background image` - Click `Add` to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
+    `Background Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
     `Custom CSS` - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
-    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
+    In the Edit Theme section you can change the styling of your current quiz theme. To change a theme or add a new one, go to the My Themes tab.
     ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
     `Wine` - Displays the name of your current theme.
     `Font` - Shows a dropdown of available fonts. Pick a font from the list to change it.
-    `Question` - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-    `Choices` - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-    `Button` - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-    `Background` - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
-    `Background image` - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-    `Background Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Question` - Opens a color menu where you change the color of quiz questions. You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Choices` - Opens a color menu where you change the color of quiz choices. You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Button` - Opens a color menu where you change the color of quiz buttons (next, start quiz, add to cart). You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Background` - Opens a color menu where you change the color of the quiz background. You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Background image` - Click `Add` to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
+    `Background Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
     `Custom CSS` - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
-    In the EDIT THEME section you can change the styling of your current quiz theme. To change a quiz theme or add a new theme, go to MY THEMES tab.
+    In the Edit Theme section you can change the styling of your current quiz theme. To change a theme or add a new one, go to the My Themes tab.
     ![quiz builder quiz design edit theme](/images/manual_quizbuilder_quizdesign_edittheme.png){width="500"}
     `Wine` - Displays the name of your current theme.
     `Font` - Shows a dropdown of available fonts. Pick a font from the list to change it.
-    `Question` - Opens a color menu that allows you to change the color of quiz questions. You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-    `Choices` - Opens a color menu that allows you to change the color of quiz choices.  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-    `Button` - Opens a color menu that allows you to change the color of quiz buttons (next, star quiz, add to cart, etc.).  You can add a custom color by pasting the #number of the color (for example, #ecb3b3)
-    `Background` - Opens a color menu that allows you to change the color of the quiz background. You can add a custom color by pasting the #number of the color (for example, #ecb3b3).
-    `Background image` - Click "Add" to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
-    `Background Opacity` - A slider that allows you to adjust the opacity of the uploaded background image.
+    `Question` - Opens a color menu where you change the color of quiz questions. You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Choices` - Opens a color menu where you change the color of quiz choices. You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Button` - Opens a color menu where you change the color of quiz buttons (next, start quiz, add to cart). You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Background` - Opens a color menu where you change the color of the quiz background. You can add a custom color by pasting the color code, for example #ecb3b3.
+    `Background image` - Click `Add` to upload a background image. Image should be max 1000px x 1000px and 2MB. An extra menu appears once activated.
+    `Background Opacity` - A slider which lets you adjust the opacity of the uploaded background image.
     `Custom CSS` - Opens a CSS console, where you can add any custom styling rules. Any element of the quiz or the results page can be customized via CSS. To find a selector for the element, inspect it in your browser by right-clicking.
 ## My themes
-    In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
+    In the My Themes section you will find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the Edit Theme tab.
     ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
-    `+ add new theme` - Adds a new blank theme to your MY THEMES gallery.
+    `+ add new theme` - Adds a new blank theme to your My Themes gallery.
     `...` - Opens the theme options.
     ![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png){width="300"}
-    `Edit` - Opens the selected theme in EDIT THEME.
+    `Edit` - Opens the selected theme in Edit Theme.
     `Duplicate` - Creates a copy of the selected theme.
-    `Delete` - Deletes the selected theme from MY THEMES gallery.
-    In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
+    `Delete` - Deletes the selected theme from the My Themes gallery.
+    In the My Themes section you will find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the Edit Theme tab.
     ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
-    `+ add new theme` - Adds a new blank theme to your MY THEMES gallery.
+    `+ add new theme` - Adds a new blank theme to your My Themes gallery.
     `...` - Opens the theme options.
     ![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png){width="300"}
-    `Edit` - Opens the selected theme in EDIT THEME.
+    `Edit` - Opens the selected theme in Edit Theme.
     `Duplicate` - Creates a copy of the selected theme.
-    `Delete` - Deletes the selected theme from MY THEMES gallery.
-    In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
+    `Delete` - Deletes the selected theme from the My Themes gallery.
+    In the My Themes section you will find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the Edit Theme tab.
     ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
-    `+ add new theme` - Adds a new blank theme to your MY THEMES gallery.
+    `+ add new theme` - Adds a new blank theme to your My Themes gallery.
     `...` - Opens the theme options.
     ![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png){width="300"}
-    `Edit` - Opens the selected theme in EDIT THEME.
+    `Edit` - Opens the selected theme in Edit Theme.
     `Duplicate` - Creates a copy of the selected theme.
-    `Delete` - Deletes the selected theme from MY THEMES gallery.
-    In the MY THEMES section you'll find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the EDIT THEME tab.
+    `Delete` - Deletes the selected theme from the My Themes gallery.
+    In the My Themes section you will find all the Design Themes that you create. Click on a theme to apply it to the quiz. You can customize it in the Edit Theme tab.
     ![quiz builder quiz design my themes](/images/manual_quizbuilder_quizdesign_mythemes.png){width="300"}
-    `+ add new theme` - Adds a new blank theme to your MY THEMES gallery.
+    `+ add new theme` - Adds a new blank theme to your My Themes gallery.
     `...` - Opens the theme options.
     ![quiz builder quiz design my themes theme options](/images/manual_quizbuilder_quizdesign_mythemes_themeoptions.png){width="300"}
-    `Edit` - Opens the selected theme in EDIT THEME.
+    `Edit` - Opens the selected theme in Edit Theme.
     `Duplicate` - Creates a copy of the selected theme.
-    `Delete` - Deletes the selected theme from MY THEMES gallery.
+    `Delete` - Deletes the selected theme from the My Themes gallery.
 ---
-← [Back to Quiz Builder Index](/reference/quiz-builder/)
+← [Back to Quiz Builder](/reference/quiz-builder/)
 ← Previous: [Conditional logic](/reference/quiz-builder/conditional-logic/)
 Next: [Results Page](/reference/quiz-builder/results-page/) →
 
@@ -28233,44 +28293,49 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
 --- WooCommerce Specific Content ---
 
 ![manual_woo_quizbuilder_share](/images/manual_woo_quizbuilder_share.png)
-    In the Share tab of the Quiz Builder, you can choose how to publish the quiz on your website or how to share it with your customers. Click on the option tiles to see instructions and extra settings. 
-    For step-by-step instructions check [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide.
+    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
+    For step-by-step instructions, see [How to Publish the Quiz](/how-to-guides/publish-quiz/).
     ![manual_standalone_quizbuilder_share](/images/manual_standalone_quizbuilder_share.png)
-    In the Share tab of the Quiz Builder, you can choose how to publish the quiz on your website or how to share it with your customers. Click on the option tiles to see instructions and extra settings. 
-    For step-by-step instructions check [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide.
+    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
+    For step-by-step instructions, see [How to Publish the Quiz](/how-to-guides/publish-quiz/).
     ![manual_standalone_quizbuilder_share](/images/manual_standalone_quizbuilder_share.png)
-    In the Share tab of the Quiz Builder, you can choose how to publish the quiz on your website or how to share it with your customers. Click on the option tiles to see instructions and extra settings. 
-    For step-by-step instructions check [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide.
+    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
+    For step-by-step instructions, see [How to Publish the Quiz](/how-to-guides/publish-quiz/).
     ![manual_standalone_quizbuilder_share](/images/manual_standalone_quizbuilder_share.png)
-    In the Share tab of the Quiz Builder, you can choose how to publish the quiz on your website or how to share it with your customers. Click on the option tiles to see instructions and extra settings. 
-    For step-by-step instructions check [How to Publish the Quiz](/how-to-guides/publish-quiz/) guide.
+    In the Share tab of the Quiz Builder, choose how to publish the quiz on your website. You can also share it with your customers. Click on the option tiles to see instructions and extra settings. 
+    For step-by-step instructions, see [How to Publish the Quiz](/how-to-guides/publish-quiz/).
 ## Link
-    A link that will open the quiz as a popup over your page.
+    !!! info "What is a Link Popup?"
+        A link that opens the quiz as a popup over your page.
     `Instructions for legacy themes` - Opens extra settings menu.
     ![quiz builder share link](/images/manual_quizbuilder_share_link.png)
     **POPUP OPTIONS**
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
-    A link that will open the quiz as a popup over your page.
+    !!! info "What is a Link Popup?"
+        A link that opens the quiz as a popup over your page.
     `Instructions for legacy themes` - Opens extra settings menu.
     ![quiz builder share link](/images/manual_quizbuilder_share_link.png)
     **POPUP OPTIONS**
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
-    A link that will open the quiz as a popup over your page.
+    !!! info "What is a Link Popup?"
+        A link that opens the quiz as a popup over your page.
     `Instructions for legacy themes` - Opens extra settings menu.
     ![quiz builder share link](/images/manual_quizbuilder_share_link.png)
     **POPUP OPTIONS**
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
-    A link that will open the quiz as a popup over your page.
+    !!! info "What is a Link Popup?"
+        A link that opens the quiz as a popup over your page.
     `Instructions for legacy themes` - Opens extra settings menu.
     ![quiz builder share link](/images/manual_quizbuilder_share_link.png)
     **POPUP OPTIONS**
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
 ## Inline
-    Quiz embedded inline with a page.
+    !!! info "What is an Inline Quiz?"
+        A quiz embedded inline with a page.
     ![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
     `Instructions for legacy themes` - Opens extra settings menu.
     ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
@@ -28278,7 +28343,8 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     `Width` - Adjust the width of the quiz by typing the percentage number or px value.
     `Height` - Adjust the width of the quiz by typing the percentage number or px value.
     `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
-    Quiz embedded inline with a page.
+    !!! info "What is an Inline Quiz?"
+        A quiz embedded inline with a page.
     ![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
     `Instructions for legacy themes` - Opens extra settings menu.
     ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
@@ -28286,7 +28352,8 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     `Width` - Adjust the width of the quiz by typing the percentage number or px value.
     `Height` - Adjust the width of the quiz by typing the percentage number or px value.
     `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
-    Quiz embedded inline with a page.
+    !!! info "What is an Inline Quiz?"
+        A quiz embedded inline with a page.
     ![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
     `Instructions for legacy themes` - Opens extra settings menu.
     ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
@@ -28294,7 +28361,8 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     `Width` - Adjust the width of the quiz by typing the percentage number or px value.
     `Height` - Adjust the width of the quiz by typing the percentage number or px value.
     `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
-    Quiz embedded inline with a page.
+    !!! info "What is an Inline Quiz?"
+        A quiz embedded inline with a page.
     ![quiz builder share inline](/images/manual_quizbuilder_share_inline.png)
     `Instructions for legacy themes` - Opens extra settings menu.
     ![quiz builder share inline legacy](/images/manual_quizbuilder_share_inline_legacy.png)
@@ -28303,7 +28371,8 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     `Height` - Adjust the width of the quiz by typing the percentage number or px value.
     `Fixed height` - Will set a fixed height of the quiz iframe as specified in the `Height` field above. Toggle to activate. 
 ## Automatic
-    A quiz popup appears after X seconds.
+    !!! info "What is an Automatic Popup?"
+        A quiz popup that appears after X seconds.
     By default, the popup is only shown once per session.
     ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
     `Instructions for legacy themes` - Opens extra settings menu.
@@ -28313,7 +28382,8 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     `Popup height` - Adjust the width of the quiz by typing the percentage number.
     `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
     `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
-    A quiz popup appears after X seconds.
+    !!! info "What is an Automatic Popup?"
+        A quiz popup that appears after X seconds.
     By default, the popup is only shown once per session.
     ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
     `Instructions for legacy themes` - Opens extra settings menu.
@@ -28323,7 +28393,8 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     `Popup height` - Adjust the width of the quiz by typing the percentage number.
     `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
     `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
-    A quiz popup appears after X seconds.
+    !!! info "What is an Automatic Popup?"
+        A quiz popup that appears after X seconds.
     By default, the popup is only shown once per session.
     ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
     `Instructions for legacy themes` - Opens extra settings menu.
@@ -28333,7 +28404,8 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     `Popup height` - Adjust the width of the quiz by typing the percentage number.
     `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
     `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
-    A quiz popup appears after X seconds.
+    !!! info "What is an Automatic Popup?"
+        A quiz popup that appears after X seconds.
     By default, the popup is only shown once per session.
     ![quiz builder share automatic](/images/manual_quizbuilder_share_automatic.png)
     `Instructions for legacy themes` - Opens extra settings menu.
@@ -28344,49 +28416,58 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     `Wait seconds` - Set up the number of seconds after which the quiz popup will be automatically displayed. Note: Do not set a value to 0.
     `Exit intent` - Show the automatic popup when the customer is exit intent. Toggle to activate.
 ## External
-    Direct link to the quiz for social media.
+    !!! info "What is an External Link?"
+        A direct link to the quiz, for social media.
     ![quiz builder share external](/images/manual_quizbuilder_share_external.png)
     **POPUP OPTIONS**
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
-    Direct link to the quiz for social media.
+    !!! info "What is an External Link?"
+        A direct link to the quiz, for social media.
     ![quiz builder share external](/images/manual_quizbuilder_share_external.png)
     **POPUP OPTIONS**
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
-    Direct link to the quiz for social media.
+    !!! info "What is an External Link?"
+        A direct link to the quiz, for social media.
     ![quiz builder share external](/images/manual_quizbuilder_share_external.png)
     **POPUP OPTIONS**
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
-    Direct link to the quiz for social media.
+    !!! info "What is an External Link?"
+        A direct link to the quiz, for social media.
     ![quiz builder share external](/images/manual_quizbuilder_share_external.png)
     **POPUP OPTIONS**
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
 ## Email
-    Quiz popup when someone clicks on this email link. 
+    !!! info "What is an Email Link?"
+        A quiz popup that opens when a customer clicks the link in your email.
     ![quiz builder share email](/images/manual_quizbuilder_share_email.png)
     **POPUP OPTIONS**
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
-    Quiz popup when someone clicks on this email link. 
+    !!! info "What is an Email Link?"
+        A quiz popup that opens when a customer clicks the link in your email.
     ![quiz builder share email](/images/manual_quizbuilder_share_email.png)
     **POPUP OPTIONS**
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
-    Quiz popup when someone clicks on this email link. 
+    !!! info "What is an Email Link?"
+        A quiz popup that opens when a customer clicks the link in your email.
     ![quiz builder share email](/images/manual_quizbuilder_share_email.png)
     **POPUP OPTIONS**
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
-    Quiz popup when someone clicks on this email link. 
+    !!! info "What is an Email Link?"
+        A quiz popup that opens when a customer clicks the link in your email.
     ![quiz builder share email](/images/manual_quizbuilder_share_email.png)
     **POPUP OPTIONS**
     `Popup width` - Adjust the width of the quiz by typing the percentage number.
     `Popup height` - Adjust the height of the quiz by typing the percentage number.
 ## Chat
-    Quiz popup when visitors click on a chat-like button.
+    !!! info "What is a Chat Popup?"
+        A quiz popup that opens when a customer clicks a chat-like button.
     ![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
     `Instructions for legacy themes` - Opens extra settings menu.
     ![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)
@@ -28399,7 +28480,8 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
     `Notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
     `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
-    Quiz popup when visitors click on a chat-like button.
+    !!! info "What is a Chat Popup?"
+        A quiz popup that opens when a customer clicks a chat-like button.
     ![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
     `Instructions for legacy themes` - Opens extra settings menu.
     ![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)
@@ -28412,7 +28494,8 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
     `Notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
     `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
-    Quiz popup when visitors click on a chat-like button.
+    !!! info "What is a Chat Popup?"
+        A quiz popup that opens when a customer clicks a chat-like button.
     ![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
     `Instructions for legacy themes` - Opens extra settings menu.
     ![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)
@@ -28425,7 +28508,8 @@ description: "Publish and share RevenueHunt quizzes to your Shopify store with t
     `Hide after quiz completion` - Hide the chat button after the customer reaches the results page. Toggle to activate.
     `Notification dot` - Show the small red notification dot on the chat icon. Toggle to activate.
     `Greeting message` - Show and edit the greeting message displayed next to the chat icon. Toggle to activate.
-    Quiz popup when visitors click on a chat-like button.
+    !!! info "What is a Chat Popup?"
+        A quiz popup that opens when a customer clicks a chat-like button.
     ![quiz builder share chat](/images/manual_quizbuilder_share_chat.png)
     `Instructions for legacy themes` - Opens extra settings menu.
     ![quiz builder share chat legacy popup](/images/manual_quizbuilder_share_chat_legacy_popup.png)

@@ -9,7 +9,7 @@ description: "Create and manage custom customer tags in RevenueHunt for segmenti
     
     You can create custom tags and link them to choices in the quiz. Customer tags are useful for segmenting customers and email marketing.
 
-    To add customer tags to choices, go to [Questions](#quiz-builder---questions), select a  multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
+    To add customer tags to choices, go to [Questions](/reference/quiz-builder/questions/), select a  multiple-choice question, then a choice and open the [`Choice Settings`](/reference/quiz-builder/questions/#choice-settings).
 
     ![manual_shopifyv2_openchoicesettings](/images/manual_shopifyV2_quizbuilder_quizbuilder_questions_blocksettings_multiplechoice_choicesettings.png)
 
@@ -109,3 +109,10 @@ description: "Create and manage custom customer tags in RevenueHunt for segmenti
     ![quiz builder customer tags added tag](/images/manual_quizbuilder_customertags_tagadded.png)
 
     You can create as many tags as you like. You can link as many tags as you like to the same choice.
+
+---
+
+← [Back to Quiz Builder](/reference/quiz-builder/)
+
+← Previous: [Link Products](/reference/quiz-builder/link-products/)
+Next: [Conditional logic](/reference/quiz-builder/conditional-logic/) →

@@ -12,17 +12,17 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     Quiz builder is composed of different sections: 
 
-    ### Quiz builder menu
+    **Quiz builder menu**
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_menu](/images/manual_shopifyV2_quizbuilder_quizbuilder_menu.png)
 
     From this menu you can switch between the following sections: [`Questions`](/reference/quiz-builder/questions/), [`Conditional logic`](/reference/quiz-builder/conditional-logic/), [`Quiz design`](/reference/quiz-builder/quiz-design/), [`Results pages`](/reference/quiz-builder/results-page/) and [`Success checklist`](/reference/dashboard/#success-checklist).
 
-    ### Questions
+    **Questions**
 
-    The [`Questions`](/reference/quiz-builder/questions/) section allows you to add, edit and delete questions from your quiz.
+    Use the [`Questions`](/reference/quiz-builder/questions/) section to add, edit and delete the questions in your quiz.
 
-    ### Quiz preview 
+    **Quiz preview**
 
     ![manual_shopifyV2_quizbuilder_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_quizbuilder_preview.png)
 
@@ -34,22 +34,22 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `˙⟡` - Click the stars icon to open the [Quiz Copilot](/how-to-guides/use-quiz-copilot/) chat window and ask for help in analyzing the quiz. You will have some pre-determined options such as `Analyze quiz logic`, `Analyze product recommendations`, `Analyze quiz flow`, `Improve engagement`, `Improve quiz completion rate` and once you reply it will provide a detailed analysis of the quiz, help you identify the root cause of the issue and suggest improvements.
 
-    `🔍 Activate Inspector` / `Deactivate Inspector` - Click the `Activate Inspector` / `Deactivate Inspector` icon to switch to the active inspector mode. In this mode you can click any element of the preview to open it's [Question/Editing Settings](/reference/quiz-builder/questions/#question-settings).
+    `🔍 Activate Inspector` / `Deactivate Inspector` - Click the `Activate Inspector` / `Deactivate Inspector` icon to switch to the active inspector mode. In this mode you can click any element of the preview to open its [Question/Editing Settings](/reference/quiz-builder/questions/#question-settings).
 
     You can toggle between the `🖥️ Desktop` and the `📱 Mobile` quiz preview with the top menu.
 
     Use the `↶` undo / `↷` redo buttons to revert your changes.
 
 
-    ### Question settings
+    **Question settings**
 
     In the [`Question Settings`](/reference/quiz-builder/questions/#question-settings) section adjust specific settings of the question, change elements alignment or upload an image.
 
-    ### Top menu
+    **Top menu**
 
     ![manual_shopifyV2_quizbuilder_preview](/images/manual_shopifyV2_quizbuilder_preview.png)
 
-    From the `...` menu	 you can:
+    From the `...` menu you can:
         
     `˙⟡ Quiz Copilot`- open the Quiz Copilot (AI assistant) by clicking the `Quiz Copilot` icon.
 
@@ -75,7 +75,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
-    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
+    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
 
     ![quiz builder top menu](/images/manual_quizbuilder_topmenu.png)
 
@@ -85,39 +85,37 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
         Make sure to always generate a new test link instead of refreshing the test page. This way all your test responses will be removed within 2 hours.
 
-    `Edit` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder.
+    `Edit` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder.
 
-    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder, where you connect the quiz to other tools, such as Klaviyo or Google Analytics.
 
-    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder, where you choose how to publish the quiz on your website, or share it as a link.
 
-    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder, where you check your quiz metrics and responses.
 
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
     ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
-    `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+    `Quiz Builder` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder, where you add questions to your quiz.
 
-    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder, where you link whole collections or product tags to individual choices.
 
-    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder, where you link individual products to choices.
 
-    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
 
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
+    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
 
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
+    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
 
-    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder. This is where you'll edit your results page.
+    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
 
-    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder. This is where you'll set up your quiz result emails.
+    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder, where you set up the quiz result emails.
 
-    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder, where you change the currency, the language and other settings that apply to the whole quiz.
 
-    The Quiz Builder menu is divided into several sections:
-
-    - [Success checklist](/reference/dashboard/#success-checklist).
+    The Quiz Builder menu also links to the [Success checklist](/reference/dashboard/#success-checklist).
 
     To test the whole quiz go back to the [Dashboard](/reference/dashboard/) and click `Preview` from the Quiz `...` menu.
 
@@ -135,15 +133,15 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](/reference/quiz-builder/quiz-settings/).
 
-    `Edit` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder.
+    `Edit` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder.
 
-    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder, where you connect the quiz to other tools, such as Klaviyo or Google Analytics.
 
-    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder, where you choose how to publish the quiz on your website, or share it as a link.
 
-    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder, where you check your quiz metrics and responses.
 
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
     `Test Quiz` - Opens the quiz preview in a new tab. 
     
@@ -155,27 +153,27 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
-    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
+    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.
 
     ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
-    `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+    `Quiz Builder` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder, where you add questions to your quiz.
 
-    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder, where you link whole collections or product tags to individual choices.
 
-    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder, where you link individual products to choices.
 
-    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
 
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
+    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
 
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
+    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
 
-    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder. This is where you'll edit your results page.
+    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
 
-    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder. This is where you'll set up your quiz result emails.
+    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder, where you set up the quiz result emails.
 
-    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder, where you change the currency, the language and other settings that apply to the whole quiz.
 
 === "Magento"
 
@@ -189,15 +187,15 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](/reference/quiz-builder/quiz-settings/).
 
-    `Edit` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder.
+    `Edit` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder.
 
-    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder, where you connect the quiz to other tools, such as Klaviyo or Google Analytics.
 
-    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder, where you choose how to publish the quiz on your website, or share it as a link.
 
-    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder, where you check your quiz metrics and responses.
 
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
     `Test Quiz` - Opens the quiz preview in a new tab. 
     
@@ -209,27 +207,27 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
-    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
 
     ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
-    `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+    `Quiz Builder` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder, where you add questions to your quiz.
 
-    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder, where you link whole collections or product tags to individual choices.
 
-    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder, where you link individual products to choices.
 
-    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
 
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
+    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
 
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
+    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
 
-    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder. This is where you'll edit your results page.
+    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
 
-    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder. This is where you'll set up your quiz result emails.
+    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder, where you set up the quiz result emails.
 
-    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder, where you change the currency, the language and other settings that apply to the whole quiz.
 
 === "BigCommerce"
 
@@ -243,15 +241,15 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](/reference/quiz-builder/quiz-settings/).
 
-    `Edit` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder.
+    `Edit` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder.
 
-    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder, where you connect the quiz to other tools, such as Klaviyo or Google Analytics.
 
-    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder, where you choose how to publish the quiz on your website, or share it as a link.
 
-    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder, where you check your quiz metrics and responses.
 
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
     `Test Quiz` - Opens the quiz preview in a new tab. 
     
@@ -263,27 +261,27 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
-    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
 
     ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
-    `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+    `Quiz Builder` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder, where you add questions to your quiz.
 
-    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder, where you link whole collections or product tags to individual choices.
 
-    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder, where you link individual products to choices.
 
-    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
 
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
+    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
 
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
+    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
 
-    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder. This is where you'll edit your results page.
+    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
 
-    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder. This is where you'll set up your quiz result emails.
+    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder, where you set up the quiz result emails.
 
-    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder, where you change the currency, the language and other settings that apply to the whole quiz.
 
 === "Standalone"
 
@@ -297,15 +295,15 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     `Demo Quiz` - Displays the quiz name. Quiz name can be changed in [Quiz Settings](/reference/quiz-builder/quiz-settings/).
 
-    `Edit` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder.
+    `Edit` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder.
 
-    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder. This is where you'll integrate the quiz with other tools like Klaviyo or Google Analytics.
+    `Connect` - Opens the [Connect](/reference/quiz-builder/connect-integrations/) section of the Quiz Builder, where you connect the quiz to other tools, such as Klaviyo or Google Analytics.
 
-    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder. This is where you'll choose how to publish the quiz on your website or share it.
+    `Share` - Opens the [Share](/reference/quiz-builder/share-publish/) section of the Quiz Builder, where you choose how to publish the quiz on your website, or share it as a link.
 
-    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder. This is where you'll check your quiz metrics and responses.
+    `Metrics` - Opens the [Metrics](/reference/quiz-builder/metrics/) section of the Quiz Builder, where you check your quiz metrics and responses.
 
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
     `Test Quiz` - Opens the quiz preview in a new tab. 
     
@@ -317,27 +315,27 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     ![quiz builder success checklist](/images/manual_quizbuilder_successchecklist.png)
 
-    The top Success Checklist reminds you of the progress you've made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
+    The top Success Checklist shows the progress you have made in building your quiz. Once a section is completed, the icon changes from ❗ to ✅.   
 
     ![quiz builder side menu](/images/manual_quizbuilder_sidemenu.png){width="200"}
 
-    `Quiz Builder` - Opens the [Quiz Builder](/reference/quiz-builder/questions/) section of the Quiz Builder. This is where you'll add questions/slides to your quiz.
+    `Quiz Builder` - Opens the [Questions](/reference/quiz-builder/questions/) section of the Quiz Builder, where you add questions to your quiz.
 
-    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder. This is where you'll link entire collections or tags of products from your store to individual choices.
+    `Link Collections` - Opens the [Link Collections](/reference/quiz-builder/link-collections/) section of the Quiz Builder, where you link whole collections or product tags to individual choices.
 
-    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder. This is where you'll link products from your store to individual choices.
+    `Link Products` - Opens the [Link Products](/reference/quiz-builder/link-products/) section of the Quiz Builder, where you link individual products to choices.
 
-    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/link-collections/#customer-tags) section of the Quiz Builder. This is where you'll create custom tags to link to individual choices.
+    `Customer Tags` - Opens the [Customer Tags](/reference/quiz-builder/customer-tags/) section of the Quiz Builder, where you create the tags a choice applies to a customer.
 
-    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder. This is where you'll create branching in your quiz.
+    `Conditional Logic` - Opens the [Conditional logic](/reference/quiz-builder/conditional-logic/) section of the Quiz Builder, where you branch the quiz.
 
-    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder. This is where you'll style your quiz.
+    `Quiz Design` - Opens the [Quiz design](/reference/quiz-builder/quiz-design/) section of the Quiz Builder, where you style the quiz.
 
-    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder. This is where you'll edit your results page.
+    `Results Page` - Opens the [Results Page](/reference/quiz-builder/results-page/) section of the Quiz Builder, where you edit the Results Page.
 
-    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder. This is where you'll set up your quiz result emails.
+    `Notifications` - Opens the [Notifications](/reference/quiz-builder/notifications/) section of the Quiz Builder, where you set up the quiz result emails.
 
-    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder. This is where you'll change currency, language and other base settings of the quiz.
+    `Quiz Settings` - Opens the [Quiz Settings](/reference/quiz-builder/quiz-settings/) section of the Quiz Builder, where you change the currency, the language and other settings that apply to the whole quiz.
 
 ## Save changes
 
@@ -345,37 +343,37 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 
     ![manual_shopifyV2_quizbuilder_unsavedchanges](/images/manual_shopifyV2_quizbuilder_unsavedchanges.png)
 
-    Any changes you make to your quiz will be remembered and need to be saved with the top `Save` button in order to move on to the next section of the Quiz builder. You can discard your changes by clicking the `Discard` button.    
+    Click `Save` at the top to keep your changes and move to the next section of the quiz builder. Click `Discard` to throw them away.    
 
 === "Shopify (Legacy)"
 
     ![quiz builder top menu](/images/manual_quizbuilder_topmenu.png)
 
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
 === "WooCommerce"
 
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
 
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
 === "Magento"
 
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
 
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
 === "BigCommerce"
 
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
 
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
 === "Standalone"
 
     ![manual_woo_quizbuilder_topmenu](/images/manual_woo_quizbuilder_topmenu.png)
 
-    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking "Publish" will simply save the changes and update the Preview.
+    `Publish` - Sends all the changes to the Preview/Live Quiz. If you have not yet added the quiz to your live website, clicking `Publish` saves the changes and updates the Preview.
 
 
 ## Preview the quiz
@@ -386,11 +384,11 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
       
     To test the whole quiz click `Preview` in the top right corner of the Quiz builder.
 
-    !!! tip "Previewing the Quiz"
+    !!! tip "Previewing the quiz"
  
         In the quiz Preview you can test different answering paths and see what gets recommended on the results page. 
         
-        You can also preview the results page as different markets and languages or head over to [analytics](/reference/quiz-builder/metrics/#analytics) to understand why the quiz shown this specific results.
+        You can also preview the results page for different markets and languages. To understand why the quiz showed these particular results, see [Analytics](/reference/quiz-builder/metrics/#analytics).
 
         ![preview quiz example results page](/images/manual_shopifyv2_quiz_preview_example.png)
 
@@ -451,6 +449,7 @@ description: "Complete guide to RevenueHunt Quiz Builder sections including ques
 - [Questions](/reference/quiz-builder/questions/)
 - [Link Collections / Link Categories](/reference/quiz-builder/link-collections/)
 - [Link Products](/reference/quiz-builder/link-products/)
+- [Customer Tags](/reference/quiz-builder/customer-tags/)
 - [Conditional logic](/reference/quiz-builder/conditional-logic/)
 - [Quiz design](/reference/quiz-builder/quiz-design/)
 - [Results Page](/reference/quiz-builder/results-page/)

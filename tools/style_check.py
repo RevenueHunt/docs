@@ -248,6 +248,9 @@ def prose_of(line):
     tab named Emails to respondents."""
     s = IMG.sub(' ', line)
     s = re.sub(r'`[^`]*`', ' ', s)
+    # attr_list blocks such as { #to-respondent } or {width="500"} are
+    # identifiers and attributes, not authored prose
+    s = re.sub(r'\{[^{}]*\}', ' ', s)
     s = LINK.sub(' ', s)
     s = re.sub(r'https?://\S+', ' ', s)
     s = re.sub(r':[a-z0-9_+-]+:', ' ', s)
