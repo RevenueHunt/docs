@@ -140,9 +140,9 @@ icon: simple/zapier
     5. **Test the connection**: `Preview` the quiz from the dashboard and complete it with sample information, including an email address. After reaching the results page, close the quiz.
     6. **Create a New Zap**: Log in to Zapier and click `+ Create Zap` to create a new Zap.
 
-        - Select `RevnueHunt 2.0.0` as App.
+        - Select `RevenueHunt 2.0.0` as App.
         - Select `New Response` as the trigger event.
-        - Select `RevnueHunt 2.0.0` as Account.
+        - Select `RevenueHunt 2.0.0` as Account.
         - Click `Continue`.
         - Choose the quiz from which to receive responses (e.g., 'Skincare Quiz').
 

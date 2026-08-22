@@ -1274,4 +1274,4 @@ Congratulations! You’ve learned how to use simple logic to show personalized a
 
 
 ---
-This article explains how to use conditional logic to show personalized advice to your customers in the RevnueHunt app.
+This article explains how to use conditional logic to show personalized advice to your customers in the RevenueHunt app.
