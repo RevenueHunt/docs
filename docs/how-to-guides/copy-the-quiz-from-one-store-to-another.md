@@ -29,7 +29,7 @@ This article will guide you through the process of copying a quiz from one store
     First, navigate to the quiz you wish to export:
 
     1. Go to [Quiz settings > General](/reference/quiz-builder/quiz-settings/).
-    2. Search for **Export quiz to another store** and click `Copy quiz code`. The button generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another. It remains valid for only 1 hour.
+    2. Search for **Export quiz to another store** and click `Copy quiz code`. The button generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another. The code does not expire, but it only reflects the quiz as it was when you copied it.
 
         ![Export Quiz Step](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
 
@@ -71,7 +71,7 @@ This article will guide you through the process of copying a quiz from one store
 
     1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
     2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for only 1 hour.
+    3. **Copy this code** immediately. It remains valid for 24 hours.
 
         ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
@@ -111,7 +111,7 @@ This article will guide you through the process of copying a quiz from one store
 
     1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
     2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for only 1 hour.
+    3. **Copy this code** immediately. It remains valid for 24 hours.
 
         ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
@@ -150,7 +150,7 @@ This article will guide you through the process of copying a quiz from one store
 
     1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
     2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for only 1 hour.
+    3. **Copy this code** immediately. It remains valid for 24 hours.
 
         ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
@@ -189,7 +189,7 @@ This article will guide you through the process of copying a quiz from one store
 
     1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
     2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for only 1 hour.
+    3. **Copy this code** immediately. It remains valid for 24 hours.
 
         ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
@@ -228,7 +228,7 @@ This article will guide you through the process of copying a quiz from one store
 
     1. Go to [Quiz Settings > General](/reference/quiz-builder/quiz-settings/#general).
     2. Click on **Export quiz to another store**. A popup will display a unique code.
-    3. **Copy this code** immediately. It remains valid for only 1 hour.
+    3. **Copy this code** immediately. It remains valid for 24 hours.
 
         ![Export Quiz Step](/images/how_to_copy_the_quiz_step_1_v2.gif)
 
