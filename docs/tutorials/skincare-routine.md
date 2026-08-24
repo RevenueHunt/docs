@@ -1117,7 +1117,7 @@ description: "Build a skincare routine quiz with RevenueHunt that recommends org
         - In the Inline Quiz settings, select the quiz formatting (for example, you can make the quiz full width). 
         - Save the template with the top-right `Save` button.
     3. **Create a new page**: 
-        - Next, head over to Shopify `Online Store > Pages` and create a new page.
+        - Next, go to Shopify `Online Store > Pages` and create a new page.
         - Apply the quiz template to the page.
         - Set the page visibility to `Visibe
     4. **Add the quiz to the menu**: 

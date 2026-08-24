@@ -46,7 +46,14 @@ Caps are ceilings, not targets. Nothing rewards a nine-word sentence.
 - **No em dashes.** The house separator is a spaced hyphen: ` - `.
 - **One idea per sentence.** If you need "and" twice, you need two sentences.
 - **Keep verbs as verbs.** *Analyze the results*, not *perform an analysis of the results*.
-- **No idiom.** *See*, not *check out*. *Contact support*, not *reach out to support*.
+- **No idiom.** A non-native reader has to translate these twice, and they
+  survive badly once a page is flattened for the support bot.
+
+  | Use | Not |
+  |---|---|
+  | see | check out |
+  | contact | reach out to |
+  | go to | head to, head over to |
 - **No contractions.** Write *do not*, not *don't*. Write *you will*, not
   *you'll*. Contractions are one of the first things a non-native reader
   misreads, and *won't* is easy to skim as *want*. Possessives are not

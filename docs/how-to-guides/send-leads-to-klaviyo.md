@@ -1226,7 +1226,7 @@ Below you’ll find some basic instructions that can be forwarded to a developer
 
     QuizCopilot can assist in creating Klaviyo email templates for your quiz email flow.
 
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or head over to the [Quiz settings](/reference/quiz-settings/)  > [Integrations](/reference/quiz-settings/integrations/) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or go to the [Quiz settings](/reference/quiz-settings/)  > [Integrations](/reference/quiz-settings/integrations/) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
     2. Paste your desired layout message, and Quiz Copilot will generate the template code.
 
         ![QuizCopilot Building Klaviyo Templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)

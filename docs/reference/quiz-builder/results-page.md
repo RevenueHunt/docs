@@ -2192,7 +2192,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
 
         The customers will be taken to the first results page by default. To send them to a different results page, use [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) in the Conditional logic tab.
 
-        Check out [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump logic.
+        See [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) for how to set up multiple results pages and use Jump logic.
 
 
 === "Shopify (Legacy)"

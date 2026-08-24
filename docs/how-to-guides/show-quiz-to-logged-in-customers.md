@@ -26,7 +26,7 @@ description: "Information about showing RevenueHunt quiz only to logged-in custo
 
     **Step 1: Create a New Page Template**
 
-    1. In your `Online Store > Themes` section, head to `Actions > Edit Code`.
+    1. In your `Online Store > Themes` section, go to `Actions > Edit Code`.
     2. Create a new Page template. 
         - Template type: `liquid`. 
         - Template name: `quiz`.

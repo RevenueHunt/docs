@@ -93,6 +93,14 @@ DEAD_PHRASING = [
     (r'\bpossibility to\b', 'you can'),
 ]
 
+# idiom. a non-native reader has to translate these twice, and they survive
+# badly once a page is flattened for the support bot.
+IDIOM = [
+    (r'\bhead (?:over )?to\b', 'go to'),
+    (r'\bcheck (?:it )?out\b', 'see'),
+    (r'\breach out to\b', 'contact'),
+]
+
 RETIRED_TERMS = [
     (r'\bquiz takers?\b', 'customer'),
     (r'\bshoppers?\b', 'customer'),
@@ -445,6 +453,10 @@ def check_file(path, root):
         for pat, want in DEAD_PHRASING:
             for mm in re.finditer(pat, prose, re.I):
                 findings.append(Finding(i, 'dead-phrasing',
+                                        f'{mm.group(0)!r} should be {want!r}'))
+        for pat, want in IDIOM:
+            for mm in re.finditer(pat, prose, re.I):
+                findings.append(Finding(i, 'idiom',
                                         f'{mm.group(0)!r} should be {want!r}'))
         for pat, want in RETIRED_TERMS:
             for mm in re.finditer(pat, prose, re.I):

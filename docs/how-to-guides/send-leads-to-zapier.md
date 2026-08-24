@@ -185,7 +185,7 @@ icon: simple/zapier
     How to connect the quiz to your CRM via Zapier
     It’s quite simple to set up:
 
-    1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
+    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Scroll-down to find Zapier and copy your `Zapier API Key`. You'll need this for the connection process.
         ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
 
@@ -215,7 +215,7 @@ icon: simple/zapier
     How to connect the quiz to your CRM via Zapier
     It’s quite simple to set up:
 
-    1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
+    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Scroll-down to find Zapier and copy your `Zapier API Key`. You'll need this for the connection process.
         ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
 
@@ -245,7 +245,7 @@ icon: simple/zapier
     How to connect the quiz to your CRM via Zapier
     It’s quite simple to set up:
 
-    1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
+    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Scroll-down to find Zapier and copy your `Zapier API Key`. You'll need this for the connection process.
         ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
 
@@ -275,7 +275,7 @@ icon: simple/zapier
     How to connect the quiz to your CRM via Zapier
     It’s quite simple to set up:
 
-    1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
+    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Scroll-down to find Zapier and copy your `Zapier API Key`. You'll need this for the connection process.
         ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
 
@@ -305,7 +305,7 @@ icon: simple/zapier
     How to connect the quiz to your CRM via Zapier
     It’s quite simple to set up:
 
-    1. Head to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
+    1. Go to your quiz and click on the [Connect](/reference/quiz-builder/connect-integrations/) tab.
     2. Scroll-down to find Zapier and copy your `Zapier API Key`. You'll need this for the connection process.
         ![how to send leads to zapier api key](/images/how_to_send_leads_to_zapier_api_key.png)
 

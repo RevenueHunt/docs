@@ -707,7 +707,7 @@ description: "Learn Jump Logic, Skip Logic, and Display Logic to create branchin
 
             Follow-up questions should be ordered in the same order as the choices presented in the initial question. So if the first choice is 'acne', the first follow-up question should be the one related to acne, and so on.
 
-    2. Head over to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the first follow-up question, right after the multiple selection question. 
+    2. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the first follow-up question, right after the multiple selection question. 
     3. Open the [Skip logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab.
     4. Click `+ Add another rule (OR)` to add a skip logic rule to the selected follow-up question. 
 

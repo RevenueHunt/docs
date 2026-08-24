@@ -49,7 +49,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
     Next, let’s build the quiz. 
     
-    1. Head over to the [Quiz builder](/reference/quiz-builder/) > [Questions](/reference/quiz-builder/questions/).
+    1. Go to the [Quiz builder](/reference/quiz-builder/) > [Questions](/reference/quiz-builder/questions/).
     2. Add [multiple-choice questions](/reference/quiz-builder/questions/#multiple-choice) with 5 choices each. These should help determine the customer’s skin condition. Each question and choice should give clues about the user's skin type.
 
         !!! tip
@@ -113,7 +113,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
 
     Now let’s edit the Results page.
     
-    1. Head over to the [Results page](/reference/quiz-builder/results-page/).
+    1. Go to the [Results page](/reference/quiz-builder/results-page/).
     2. Click `+ Add section` to add a new section to your results page.
     3. Add five different sections — one for each skin type.
     4. In each section, add:
@@ -180,7 +180,7 @@ description: "Create a skin type determination quiz with RevenueHunt that assign
     In Shopify, you can make the quiz appear as a popup by simply linking a button or menu item to `#quiz`.
 
     1. Set the quiz as default by going to the [Dashboard](/reference/dashboard/) and clicking on the `Set as default` button.
-    2. Head over to the [Publish](/reference/quiz-builder/share-publish/) tab and check the `Add the quiz as a link-triggered popup` option for step-by-step instructions on how to do this.
+    2. Go to the [Publish](/reference/quiz-builder/share-publish/) tab and check the `Add the quiz as a link-triggered popup` option for step-by-step instructions on how to do this.
     3. In Shopify, go to `Online Store > Themes`, and click `Customize` on your current theme.
     4. Go to `App Embeds` in the left sidebar. Find the `Link Popup Quiz` by Revenue Hunt Quizzes and make sure it’s toggled on.  This will load the quiz script and allow it to open in a popup when the link is clicked.
     5. Now, to add a quiz button. Inside the theme editor, choose a section that contains a button, like `Rich text`.

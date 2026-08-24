@@ -352,7 +352,7 @@ When someone completes the quiz and leaves their email address, the app creates 
 
     ![how to shopify customers automation full cycle](/images/how_to_shopify_customers_automation_full_cycle.png)
 
-    1. To set up a post-quiz automation head to `Apps > Messaging > Automations` in your Shopify admin and click `Create automation`. Older stores may still reach the same screen from `Marketing > Automations > View templates`.
+    1. To set up a post-quiz automation go to `Apps > Messaging > Automations` in your Shopify admin and click `Create automation`. Older stores may still reach the same screen from `Marketing > Automations > View templates`.
     2. Select a `Create custom automation` automation:
         ![/how to send leads to shopify customers automation1](/images/how_to_send_leads_to_shopify_customers_automation1.png)
     3. **Add a trigger**: Click anywhere and select the first trigger to be `Customer created`.

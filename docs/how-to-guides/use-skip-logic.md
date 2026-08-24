@@ -614,7 +614,7 @@ Skip Logic determines whether a question is presented or skipped based on respon
 
             Follow-up questions should be ordered in the same order as the choices presented in the initial question. So if the first choice is 'acne', the first follow-up question should be the one related to acne, and so on.
 
-    2. **Configuring Skip logic Rules**: Head over to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that should be skipped. For each follow-up question, establish a skip logic rule: 
+    2. **Configuring Skip logic Rules**: Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that should be skipped. For each follow-up question, establish a skip logic rule: 
 
         Skip logic Rules will follow the following format:
 

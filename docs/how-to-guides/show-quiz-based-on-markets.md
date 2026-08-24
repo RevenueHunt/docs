@@ -142,7 +142,7 @@ description: "Learn how to show different RevenueHunt quizzes based on Shopify m
 
 === "Shopify"
 
-    Once all your quizzes in different languages are created, head over to [App settings > Shopify Markets](/reference/app-settings/#shopify-markets). This section contains all the markets and languages you've set up in your Shopify store.
+    Once all your quizzes in different languages are created, go to [App settings > Shopify Markets](/reference/app-settings/#shopify-markets). This section contains all the markets and languages you've set up in your Shopify store.
 
     ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
 

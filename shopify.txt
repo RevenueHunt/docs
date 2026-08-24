@@ -7355,7 +7355,7 @@ This article will guide you through the process of copying a quiz from one store
     **Step 1: Generate Export Quiz Code**
     First, navigate to the quiz you wish to export:
     1. Go to [Quiz settings > General](/reference/quiz-builder/quiz-settings/).
-    2. Search for **Export quiz to another store** and click `Copy quiz code`. The button generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another. It remains valid for only 1 hour.
+    2. Search for **Export quiz to another store** and click `Copy quiz code`. The button generates a unique piece of JSON code that allows you to copy the entire quiz from one store to another. The code does not expire, but it only reflects the quiz as it was when you copied it.
         ![Export Quiz Step](/images/manual_shopifyV2_quizbuilder_quizsettings.png)
         !!! tip
             To prevent loss, save the export quiz code in a text file.
@@ -8177,7 +8177,7 @@ Google Analytics offers a powerful way to gain insights into user engagement wit
     1. Make sure you have set up the GA4 tracking on your website. 
         !!! tip
             Don't know how to connect your website to Google Analytics or find your GA tracking code? [Check this link](https://support.google.com/analytics/answer/1008080).
-    1. Head to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/) tab.
+    1. Go to your quiz and click on the [Integrations](/reference/quiz-builder/connect-integrations/) tab.
     2. Click on the `Activate` button in the Google Analytics section.
         ![how to integrate ga4 built for shopify revenuehunt app](/images/how_to_integrate_ga4_shopify_v2.png)
     3. Click `Save` to confirm the changes.
@@ -10491,7 +10491,7 @@ This article walks you through the process of connecting your quiz to Klaviyo an
     ### Use Copilot to generate Klaviyo email template
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.loom.com/embed/645cfa070ef5454f812d851908572cdb?sid=f8c3a497-b077-4c81-bfb6-863320a127cb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     QuizCopilot can assist in creating Klaviyo email templates for your quiz email flow.
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or head over to the [Quiz settings](/reference/quiz-settings/)  > [Integrations](/reference/quiz-settings/integrations/) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or go to the [Quiz settings](/reference/quiz-settings/)  > [Integrations](/reference/quiz-settings/integrations/) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
     2. Paste your desired layout message, and Quiz Copilot will generate the template code.
         ![QuizCopilot Building Klaviyo Templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)
     3. The generated code for the Klaviyo email template can be copied by clicking the `Copy` icon.
@@ -11826,9 +11826,9 @@ The `💎 Built for Shopify` version of the RevenueHunt app integrates directly 
     4. **Paste API Key**: Paste the key into the authentication page and select `Yes, Continue to Revenue Hunt 2.0.0`. If successful, you will be redirected back to the integrations page with Zapier connected to your quiz.
     5. **Test the connection**: `Preview` the quiz from the dashboard and complete it with sample information, including an email address. After reaching the results page, close the quiz.
     6. **Create a New Zap**: Log in to Zapier and click `+ Create Zap` to create a new Zap.
-        - Select `RevnueHunt 2.0.0` as App.
+        - Select `RevenueHunt 2.0.0` as App.
         - Select `New Response` as the trigger event.
-        - Select `RevnueHunt 2.0.0` as Account.
+        - Select `RevenueHunt 2.0.0` as Account.
         - Click `Continue`.
         - Choose the quiz from which to receive responses (e.g., 'Skincare Quiz').
         ![how_to_shopifyv2_send_leads_to_zapier_create_new_zap](/images/how_to_shopifyv2_send_leads_to_zapier_create_new_zap.png)
@@ -13148,7 +13148,7 @@ This article explains how to show a quiz based on Shopify Markets.
     The quiz doesn't have an automatic translstaion option, so you will have to transalte all the questions and answers manually. The text of buttons and admin messages can be translated in the [Quiz settings > Quiz Content](/reference/quiz-builder/quiz-settings/#messages-quiz-content) section.  
     ![manual_shopifyV2_quizbuilder_quizsettings_quizcontent](/images/manual_shopifyV2_quizbuilder_quizsettings_quizcontent.png)
     You can create as many quizzes as you want, each in a different language.
-    Once all your quizzes in different languages are created, head over to [App settings > Shopify Markets](/reference/app-settings/#shopify-markets). This section contains all the markets and languages you've set up in your Shopify store.
+    Once all your quizzes in different languages are created, go to [App settings > Shopify Markets](/reference/app-settings/#shopify-markets). This section contains all the markets and languages you've set up in your Shopify store.
     ![manual_shopifyV2_appsettings_markets](/images/manual_shopifyV2_appsettings_markets.png)
     Select which quiz should be the default quiz shown for each market.
     ![manual_shopifyV2_appsettings_markets_pickquiz](/images/manual_shopifyV2_appsettings_markets_pickquiz.png)
@@ -14477,7 +14477,7 @@ description: "Learn how to use Quiz Copilot AI assistant to build and customize 
     ### Example 6: building email / Klaviyo template
     <div style="position: relative; padding-bottom: 56.34837355718783%; height: 0;"><iframe src="https://www.youtube.com/embed/-aLn5gR-Pbs?si=MaarSfQh39sT_bEI&amp;start=243" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     QuizCopilot can assist in creating email or Klaviyo email templates for your quiz email flow.
-    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or head over to the [Quiz settings](/reference/quiz-builder/quiz-settings/)  > [Integrations](/reference/quiz-builder/quiz-settings/#integrations) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
+    1. [Open the Quiz Copilot](#how-to-use-quiz-copilot) or start a new conversation by clicking the `New conversation` button in the top-right corner of the popup window, or go to the [Quiz settings](/reference/quiz-builder/quiz-settings/)  > [Integrations](/reference/quiz-builder/quiz-settings/#integrations) page, find the `Klaviyo` integration and click on the `Edit template with AI` button.
     2. Paste your desired layout message, and Quiz Copilot will generate the template code.
         ![QuizCopilot Building Klaviyo Templates](https://loom.com/i/0bac7b225d8e44dbad1db2b7748c19f5?workflows_screenshot=true)
     3. The generated code for the Klaviyo email template can be copied by clicking the `Copy` icon.
@@ -14624,7 +14624,7 @@ In this article, we will show you how to set up and use Skip Logic in your quiz,
             ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/how_to_shopifyV2_skiplogic_example_logic_multipleselection_questions.png)
         !!! warning
             Follow-up questions should be ordered in the same order as the choices presented in the initial question. So if the first choice is 'acne', the first follow-up question should be the one related to acne, and so on.
-    2. **Configuring Skip logic Rules**: Head over to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that should be skipped. For each follow-up question, establish a skip logic rule: 
+    2. **Configuring Skip logic Rules**: Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the question that should be skipped. For each follow-up question, establish a skip logic rule: 
         Skip logic Rules will follow the following format:
         !!! example
             **IF** the response to the question... `Q9: Skin Concerns` **is not** `acne`, then this question will be skipped.
@@ -17882,7 +17882,7 @@ description: "Customize RevenueHunt results page content, sections, and slots to
     `+ Add results page` - Click to add an extra results page to your quiz. Each results page can have different settings and content.
     !!! info "Jump logic is required"
         The customers will be taken to the first results page by default. To send them to a different results page, use [Jump logic](/reference/quiz-builder/conditional-logic/#jump-logic) in the Conditional logic tab.
-        Check out [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) to learn how to set up multiple results pages and use Jump logic.
+        See [How to Set Up Multiple Results Pages](/how-to-guides/set-multiple-result-pages/) for how to set up multiple results pages and use Jump logic.
     1. To add a discount code to the results page, open the [Results page settings](/reference/quiz-builder/results-page/#results-page-settings).
     2. Locate the `Discount code` section and paste the discount code in the `Code` field. Note that the code must be a valid discount code in your Shopify store.
         ![manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode](/images/manual_shopifyV2_quizbuilder_quizbuilder_resultspage_resultspages_resultspagesettings_discountcode.png)
@@ -18439,7 +18439,7 @@ In this tutorial, you’ll learn how to use [Jump logic](#jump-logic), [Skip log
             ![manual_shopifyV2_quizbuilder_quizbuilder_conditionallogic_skiplogic_example](/images/how_to_shopifyV2_skiplogic_example_logic_multipleselection_questions.png)
         !!! warning
             Follow-up questions should be ordered in the same order as the choices presented in the initial question. So if the first choice is 'acne', the first follow-up question should be the one related to acne, and so on.
-    2. Head over to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the first follow-up question, right after the multiple selection question. 
+    2. Go to the [Conditional logic](/reference/quiz-builder/conditional-logic/) tab and select the first follow-up question, right after the multiple selection question. 
     3. Open the [Skip logic](/reference/quiz-builder/conditional-logic/#skip-logic) tab.
     4. Click `+ Add another rule (OR)` to add a skip logic rule to the selected follow-up question. 
         !!! info "Skip logic format"
@@ -18779,8 +18779,8 @@ description: "Getting started tutorial overview of key features in the RevenueHu
 
 --- Shopify Specific Content ---
 
-In this tutorial, you'll see an overview of the most important features of the RevenueHunt app.
-    !!! info "You'll learn:"
+In this tutorial you will see an overview of the most important features of the RevenueHunt app.
+    !!! info "What you will learn"
         - how to quickly find your way around the app
         - how to find different sections in the app
         - how to add first quiz
@@ -18793,38 +18793,38 @@ In this tutorial, you'll see an overview of the most important features of the R
     <iframe src="https://www.youtube.com/embed/oL1DnBd6N1U?si=TjqNJqj2cve_Uz7s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     1. To switch to the new version, click `Switch to Built for Shopify` and follow the steps to grant the necessary permissions.
-    2. When you log in to the RevenueHunt app, the first thing you'll see is your [Dashboard](/reference/dashboard/). This is where you can find all the [quizzes that you create](/reference/dashboard/#quizzes).
+    2. When you log in to the RevenueHunt app, the first thing you see is your [Dashboard](/reference/dashboard/). This is where you can find all the [quizzes that you create](/reference/dashboard/#quizzes).
     3. Ready to build your first quiz? Click [`Add New Quiz`](/reference/dashboard/#new-quiz) to create a project. You can start from scratch, or jump-start your quiz using the [Quiz Copilot AI assistant](/how-to-guides/use-quiz-copilot/) or one of our pre-designed templates.
-    This is where you'll create your quiz.
+    This is where you create your quiz.
     1. Choose a [question type](/reference/quiz-builder/questions/#question-types) by clicking on the `+ Add Question` button and select the type you want to add. 
-    2. Once you've added your questions, you drag and drop to move them around.
+    2. Once you have added your questions, drag and drop to move them around.
     3. To change [question settings](/reference/quiz-builder/questions/#question-settings), click on the question card and use the settings panel on the right. Here you can change things like making the question optional, or allowing multiple answers.
-    Once you're happy with the quiz design, click on open the [choice settings](/reference/quiz-builder/questions/#choice-settings) > [Upvote](/reference/quiz-builder/link-products/#upvote) to add products and collections to each question.
+    Once you are happy with the quiz design, open the [choice settings](/reference/quiz-builder/questions/#choice-settings) > [Upvote](/reference/quiz-builder/link-products/#upvote) to add products and collections to each question.
     Product Recommendation Quiz works like a voting system:
     - Products are linked to each choice. 
     - Every time a customer selects an answer, those linked products get a vote.
     - At the end of the quiz, the [Results page](/reference/quiz-builder/results-page/) shows the top-voted products first, sorted by the number of votes.
     Alternatively, you can use [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) to set up conditions for when certain fixed content or products should be visible on the Results page.
-    Don't forget to customize your [Results page](/reference/quiz-builder/results-page/). Add helpful information, choose how many products to recommend, or group items into slots to suggest full bundles or routines.
+    Remember to customize your [Results page](/reference/quiz-builder/results-page/). Add helpful information, choose how many products to recommend, or group items into slots to suggest full bundles or routines.
     This is where you can customize your quiz design.
-    1. Head to [`Design`](/reference/quiz-builder/quiz-design/). In the [Theme Gallery](/reference/quiz-builder/quiz-design/#my-themes), you'll find ready-made themes to choose from, or you can [create your own](/reference/quiz-builder/quiz-design/#edit-theme).
+    1. Go to [`Design`](/reference/quiz-builder/quiz-design/). In the [Theme Gallery](/reference/quiz-builder/quiz-design/#my-themes) you will find ready-made themes to choose from, or you can [create your own](/reference/quiz-builder/quiz-design/#edit-theme).
     2. Update fonts, button colors, and background images. 
     3. Customize animations and transitions, or go further with your own custom CSS to perfectly match your store's branding. 
-    4. When you're done, click `Save` to apply your changes.
-    On the left, you'll also see the [Success checklist](/reference/dashboard/#success-checklist). It helps you track your progress and make sure everything is set up correctly.
+    4. When you are done, click `Save` to apply your changes.
+    On the left you also see the [Success checklist](/reference/dashboard/#success-checklist). It helps you track your progress and make sure everything is set up correctly.
     - Click the `Save` button to save your changes.
     - Click `Preview` to test the quiz.
     Now you can publish the quiz on your website.
-    When you're ready to go live, head to the [`Publish`](/reference/quiz-builder/share-publish/) section. From your quiz dashboard, you'll find instructions to embed your quiz on your website—whether that's through a [menu link](/reference/quiz-builder/share-publish/#link), a "Take the Quiz" button, [inline on a page](/reference/quiz-builder/share-publish/#inline), or as an automatic popup. 
+    When you are ready to go live, go to the [`Publish`](/reference/quiz-builder/share-publish/) section. Your quiz dashboard has instructions for embedding the quiz on your website. You can use a [menu link](/reference/quiz-builder/share-publish/#link), a `Take the Quiz` button, an [inline quiz](/reference/quiz-builder/share-publish/#inline), or an automatic popup. 
     - Click on the publishing method cards to see instructions and extra settings.
     The choice is yours. 
-    In [App settings](/reference/app-settings/), you can choose a default quiz for each [Shopify market](/reference/app-settings/#shopify-markets) and language you've set up in your store, ensuring a personalized experience for every customer.
-    If you want to do more with your RevenueHunt Product Recommendation Quiz, try integrating it with other tools.
+    In [App settings](/reference/app-settings/) you can choose a default quiz for each [Shopify market](/reference/app-settings/#shopify-markets) and language you have set up in your store. Every customer then gets a personalized experience.
+    To do more with your quiz, connect the RevenueHunt app to other tools.
     - Click on the [`Integrations`](/reference/quiz-builder/connect-integrations/) tab to see all available integrations. 
     - To set this up, select a platform like Klaviyo, Zapier, or Meta Pixel and click `connect`. 
-    The [`Metrics`](/reference/quiz-builder/metrics/) panel is where you'll be able to analyze quiz responses.
-    - Click on the [`Analytics`](/reference/quiz-builder/metrics/#analytics) tab to see a general overview of your results, like how many people viewed your quiz, how many people started it, and the number of responses. 
-    - The [`Responses`](/reference/quiz-builder/metrics/#responses) tab lets you dive deeper into individual respondents to see how they answered each question.
+    The [`Metrics`](/reference/quiz-builder/metrics/) panel is where you analyze quiz responses.
+    - Click on the [`Analytics`](/reference/quiz-builder/metrics/#analytics) tab to see an overview of your results. It covers how many people viewed the quiz, how many started it, and how many responses you received. 
+    - The [`Responses`](/reference/quiz-builder/metrics/#responses) tab lets you look at individual customers and see how they answered each question.
     - You can [download all responses to a CSV file](/how-to-guides/download-quiz-responses/) by clicking on the export button.
 
 
@@ -18840,65 +18840,65 @@ description: "RevenueHunt tutorials for creating product recommendation quizzes,
 
 # Tutorial Videos
 
-You’re about to create your first Product Recommendation Quiz but not sure where to start? Below you’ll find a list of helpful tutorials that show you step-by-step how to use the app’s features.
+About to create your first Product Recommendation Quiz and not sure where to start? These tutorials show you step by step how to use the app.
 
 [Full Tutorial Playlist](https://www.youtube.com/@productrecommendationquiz1054){ .md-button }
 
-### [Getting Started with Product Recommendation Quiz / App Tour](/tutorials/getting-started/)
+### [Getting started with Product Recommendation Quiz / App tour](/tutorials/getting-started/)
 
 An overview of the most important features of the RevenueHunt app.
 
-[:fontawesome-solid-arrow-right: check tutorial](/tutorials/getting-started/)
+[:fontawesome-solid-arrow-right: Getting started](/tutorials/getting-started/)
 
-### [Making your first Product Recommendation Quiz](/tutorials/making-first-quiz/)
+### [Making your first Product Recommendation Quiz](/tutorials/making-first-quiz/)
 
 Make and publish a short quiz that recommends a single product to your customers.
 
-[:fontawesome-solid-arrow-right: check tutorial](/tutorials/making-first-quiz/)
+[:fontawesome-solid-arrow-right: Making your first quiz](/tutorials/making-first-quiz/)
 
-### [How to Build a Successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
+### [How to build a successful Product Recommendation Quiz](/customer-success/how-to-build-successful-quiz/)
 
-We've identified key elements that make quizzes popular with shoppers and drive results.
+The elements that make a quiz popular with customers and drive results.
 
-[:fontawesome-solid-arrow-right: check tutorial](/customer-success/how-to-build-successful-quiz/)
+[:fontawesome-solid-arrow-right: How to build a successful quiz](/customer-success/how-to-build-successful-quiz/)
 
 ### [Recommending a skincare routine](/tutorials/skincare-routine/)
 
 Make and publish a short quiz that recommends a group of complementary products to your customers.
 
-[:fontawesome-solid-arrow-right: check tutorial](/tutorials/skincare-routine/)
+[:fontawesome-solid-arrow-right: Recommending a skincare routine](/tutorials/skincare-routine/)
 
 ### [Building a skin type quiz](/tutorials/skintype-quiz/)
 
-Make and publish a quiz that determines your customers' skin type and recommends a group of complementary products to your customers.
+Make and publish a quiz that works out a customer's skin type, then recommends a group of complementary products.
 
-[:fontawesome-solid-arrow-right: check tutorial](/tutorials/skintype-quiz/)
+[:fontawesome-solid-arrow-right: Building a skin type quiz](/tutorials/skintype-quiz/)
 
 
-### [Using conditional logic](/tutorials/conditional-logic/)
+### [Using conditional logic](/tutorials/conditional-logic/)
 
-Learn how to use Jump Logic, Skip Logic, and Display logic to show/hide questions/content in the quiz as well as in the Results Page.
+Learn how to use Jump Logic, Skip Logic and Display Logic to show or hide questions and content, both in the quiz and on the Results Page.
 
-[:fontawesome-solid-arrow-right: check tutorial](/tutorials/conditional-logic/)
+[:fontawesome-solid-arrow-right: Using conditional logic](/tutorials/conditional-logic/)
 
 ### [Sending emails](/tutorials/sending-emails/)
 
 Learn how to send emails to your quiz leads with the RevenueHunt app.
 
-[:fontawesome-solid-arrow-right: check tutorial](/tutorials/sending-emails/)
+[:fontawesome-solid-arrow-right: Sending emails](/tutorials/sending-emails/)
 
 ### [Sending follow-up emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/)
 
-Learn how to add RevenueHunt: Product Recommendation Quiz leads to Klaviyo and how to build a post-quiz email flow in Klaviyo.
+Learn how to add RevenueHunt app leads to Klaviyo, and how to build a post-quiz email flow there.
 
-[:fontawesome-solid-arrow-right: check tutorial](/tutorials/follow-up-emails-klaviyo/)
+[:fontawesome-solid-arrow-right: Sending follow-up emails with Klaviyo](/tutorials/follow-up-emails-klaviyo/)
 
 
-### [Assign Quizzes to Shopify Markets and Languages](/tutorials/shopify-markets/)
+### [Assign quizzes to Shopify Markets and languages](/tutorials/shopify-markets/)
 
-Learn how to display different quizzes for different Shopify markets, and how to show quizzes in different languages or currencies based on your market settings in the RevenueHunt app.
+Learn how to show different quizzes for different Shopify Markets, and how to show quizzes in different languages or currencies based on your market settings.
 
-[:fontawesome-solid-arrow-right: check tutorial](/tutorials/shopify-markets/)
+[:fontawesome-solid-arrow-right: Assign quizzes to Shopify Markets](/tutorials/shopify-markets/)
 
 
 
@@ -19441,7 +19441,7 @@ In this tutorial, you’ll learn how to make and publish a short quiz that recom
         - In the Inline Quiz settings, select the quiz formatting (for example, you can make the quiz full width). 
         - Save the template with the top-right `Save` button.
     3. **Create a new page**: 
-        - Next, head over to Shopify `Online Store > Pages` and create a new page.
+        - Next, go to Shopify `Online Store > Pages` and create a new page.
         - Apply the quiz template to the page.
         - Set the page visibility to `Visibe
     4. **Add the quiz to the menu**: 
@@ -19494,7 +19494,7 @@ In this tutorial, you’ll learn how to build a quiz that determines the user's 
         | 🌸 Sensitive Skin   | You have Sensitive Skin | Your skin reacts easily — whether it’s to weather changes, new products, or stress. Redness, itching, or stinging might be common for you. A minimalist routine with soothing ingredients is your best friend.<br><br>**Tip:** Choose fragrance-free, hypoallergenic products with calming ingredients like aloe vera, chamomile, or calendula. | 1. Redness-Relief Refreshing Cleansing Lotion<br>2. Aloe Soothing Toner<br>3. Soothing Serum |
     ## Build the quiz
     Next, let’s build the quiz. 
-    1. Head over to the [Quiz builder](/reference/quiz-builder/) > [Questions](/reference/quiz-builder/questions/).
+    1. Go to the [Quiz builder](/reference/quiz-builder/) > [Questions](/reference/quiz-builder/questions/).
     2. Add [multiple-choice questions](/reference/quiz-builder/questions/#multiple-choice) with 5 choices each. These should help determine the customer’s skin condition. Each question and choice should give clues about the user's skin type.
         !!! tip
             Check out our previous tutorial to learn how to use the Quiz builder and add questions: [How to Make Your First Quiz](/tutorials/making-first-quiz/).
@@ -19535,7 +19535,7 @@ In this tutorial, you’ll learn how to build a quiz that determines the user's 
             - Choice 5: Red and irritated (variable `sensitive_skin` +1)
     ## Add sections to results page
     Now let’s edit the Results page.
-    1. Head over to the [Results page](/reference/quiz-builder/results-page/).
+    1. Go to the [Results page](/reference/quiz-builder/results-page/).
     2. Click `+ Add section` to add a new section to your results page.
     3. Add five different sections — one for each skin type.
     4. In each section, add:
@@ -19576,7 +19576,7 @@ In this tutorial, you’ll learn how to build a quiz that determines the user's 
     ## Publish the quiz as link button
     In Shopify, you can make the quiz appear as a popup by simply linking a button or menu item to `#quiz`.
     1. Set the quiz as default by going to the [Dashboard](/reference/dashboard/) and clicking on the `Set as default` button.
-    2. Head over to the [Publish](/reference/quiz-builder/share-publish/) tab and check the `Add the quiz as a link-triggered popup` option for step-by-step instructions on how to do this.
+    2. Go to the [Publish](/reference/quiz-builder/share-publish/) tab and check the `Add the quiz as a link-triggered popup` option for step-by-step instructions on how to do this.
     3. In Shopify, go to `Online Store > Themes`, and click `Customize` on your current theme.
     4. Go to `App Embeds` in the left sidebar. Find the `Link Popup Quiz` by Revenue Hunt Quizzes and make sure it’s toggled on.  This will load the quiz script and allow it to open in a popup when the link is clicked.
     5. Now, to add a quiz button. Inside the theme editor, choose a section that contains a button, like `Rich text`.
