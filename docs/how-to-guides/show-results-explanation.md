@@ -15,7 +15,7 @@ description: "Learn how to display custom explanations for why products were rec
 
     - The new Built for Shopify version of the RevenueHunt app allows you to set up different section on the results page with different text + product recommendations combinations. 
     
-    - You can then use the [Display logic](/reference/quiz-builder/conditional-logic/#display-logic) feature to tell each section when to be shown or hidden based on a customer answers, variable or a score.  
+    - You can then use the [Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) feature to tell each section when to be shown or hidden based on a customer answers, variable or a score.  
     
     - For this reason, it can be very easy to build a **"personality-type"** or **Dosha** quiz with our Built for Shopify solution.
 
@@ -38,7 +38,7 @@ description: "Learn how to display custom explanations for why products were rec
 
     1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
+    2. **Display Logic**: [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
 
         !!! tip
         
@@ -186,7 +186,7 @@ description: "Learn how to display custom explanations for why products were rec
 
     1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
+    2. **Display Logic**: [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
 
         !!! tip
         
@@ -334,7 +334,7 @@ description: "Learn how to display custom explanations for why products were rec
 
     1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
+    2. **Display Logic**: [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
 
         !!! tip
         
@@ -481,7 +481,7 @@ description: "Learn how to display custom explanations for why products were rec
 
     1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
+    2. **Display Logic**: [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
 
         !!! tip
         
@@ -629,7 +629,7 @@ description: "Learn how to display custom explanations for why products were rec
 
     1. **Information Recalls/Content Dynamic Source**: Use [Information Recalls/Content Dynamic Source](/how-to-guides/use-information-recalls/) to display a customer's answers within a content block or a text block on the Results Page. This method helps customers understand the rationale behind each product recommendation without any coding or complex logic.
 
-    2. **Display Logic**: [Display Logic](/reference/quiz-builder/conditional-logic/#display-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
+    2. **Display Logic**: [Display Logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) allows you to show or hide text on the Results Page based on the customer's quiz responses. This method is suitable for shorter, simpler quizzes. For detailed guidance, see [How to use Display Logic](/how-to-guides/use-display-logic/). 
 
         !!! tip
         

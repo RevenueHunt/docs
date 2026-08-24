@@ -166,6 +166,7 @@ rollout
 versa
 
 # --- ingredients and brands used in the skincare examples
+dosha
 hyaluronic
 ceramide
 comedogenic

@@ -5,7 +5,7 @@ icon: material/eye-check-outline
 
 # How to use Display Logic
 
-[Display logic](/reference/quiz-builder/conditional-logic/#display-logic) is a feature of the [Results Page](/reference/quiz-builder/results-page/) that allows you to make elements visible or hidden on the results page based on conditional logic rules.
+[Display logic](/reference/quiz-builder/results-page/#display-logic-display-section-logic) is a feature of the [Results Page](/reference/quiz-builder/results-page/) that allows you to make elements visible or hidden on the results page based on conditional logic rules.
 
 !!! info "Use Display Logic to:"
 
@@ -239,7 +239,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     2. **Open Display Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
         ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-        **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
+        **conditional logic** / **tree icon** - Opens the [Display Logic](#add-display-logic-to-block-section) menu.
 
     3. Next, select `add Display Logic`.
         ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
@@ -277,7 +277,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     2. **Open Display Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
         ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-        **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
+        **conditional logic** / **tree icon** - Opens the [Display Logic](#add-display-logic-to-block-section) menu.
 
     3. Next, select `add Display Logic`.
         ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
@@ -315,7 +315,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     2. **Open Display Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
         ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-        **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
+        **conditional logic** / **tree icon** - Opens the [Display Logic](#add-display-logic-to-block-section) menu.
 
     3. Next, select `add Display Logic`.
         ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
@@ -353,7 +353,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     2. **Open Display Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
         ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-        **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
+        **conditional logic** / **tree icon** - Opens the [Display Logic](#add-display-logic-to-block-section) menu.
 
     3. Next, select `add Display Logic`.
         ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
@@ -391,7 +391,7 @@ In the [Results Page](/reference/quiz-builder/results-page/) section, you can ad
     2. **Open Display Logic settings**: Look for a `conditional logic / tree icon` button and click it. 
         ![quiz builder results page block menu](/images/manual_quizbuilder_resultspage_blockmenu.png)
 
-        **conditional logic** / **tree icon** - Opens the [Display Logic](#display-logic) menu.
+        **conditional logic** / **tree icon** - Opens the [Display Logic](#add-display-logic-to-block-section) menu.
 
     3. Next, select `add Display Logic`.
         ![quiz builder results page display logic](/images/manual_quizbuilder_resultspage_blockmenu_displaylogic.png)
